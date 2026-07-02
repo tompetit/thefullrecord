@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/*
+ * The Full Record — "The Ledger" design tokens.
+ * Warm paper + ink + muted verified-green accent. No partisan-coded color:
+ * red/blue must never appear as interface color.
+ */
+@theme {
+  /* Surfaces */
+  --color-paper: #faf8f3;
+  --color-paper-raised: #fffdf9;
+  --color-canvas: #f2efe8;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Ink ramp */
+  --color-ink: #211e19;
+  --color-ink-80: #43403a;
+  --color-ink-60: #6d6656;
+  --color-ink-45: #8a8272;
+  --color-ink-35: #a49b87;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Rules & borders */
+  --color-hairline: #e8e2d5;
+  --color-hairline-soft: #eee8db;
+  --color-card: #e2dbca;
+  --color-card-strong: #c9bfa8;
+  --color-chip-border: #d8d1c1;
+
+  /* Verified green (sources, Yes) */
+  --color-accent: #2e6a4e;
+  --color-accent-deep: #22503b;
+  --color-accent-soft: #4a725d;
+  --color-accent-tint: #eef4ef;
+  --color-accent-tint-border: #bcd3c4;
+
+  /* Warm umber (No — never red) */
+  --color-umber: #8a5a2b;
+  --color-umber-deep: #6d4620;
+  --color-umber-soft: #8a6a45;
+  --color-umber-tint: #f5efe6;
+  --color-umber-tint-border: #ddc9a8;
+
+  /* Neutrals */
+  --color-sand: #c9a06a;
+  --color-neutral-chip: #f2ede1;
+  --color-neutral-chip-border: #ddd6c6;
+  /* named to avoid colliding with the `border-dashed` style utility */
+  --color-dash-border: #c9c0ac;
+  --color-hatch-dark: #e4dccb;
+  --color-hatch-label: #9a917e;
+
+  /* Type */
+  --font-serif: var(--font-source-serif), Georgia, serif;
+  --font-sans: var(--font-public-sans), system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+
+  /* Shadows — print archive, not floating-card UI */
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-card-raised: 0 1px 4px rgba(60, 50, 30, 0.06);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-paper);
+  color: var(--color-ink-80);
+  font-family: var(--font-sans);
+}
+
+/* Diagonal-hatch avatar placeholder */
+.hatch {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color-hairline-soft),
+    var(--color-hairline-soft) 4px,
+    var(--color-hatch-dark) 4px,
+    var(--color-hatch-dark) 8px
+  );
 }
