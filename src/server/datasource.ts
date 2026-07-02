@@ -2,16 +2,22 @@
  * Data-source abstraction for The Full Record.
  *
  * The UI (server components and API routes) talks only to the DataSource
- * interface. `InMemoryDataSource` serves the researched snapshot in data.ts;
- * going live means implementing this interface against a real database /
- * the upstream APIs and returning it from `getDataSource()`.
+ * interface. The current implementation is a hybrid:
+ *  - address lookup is LIVE (Census geocoder + NYC ArcGIS + public rosters),
+ *    so any New York address resolves to real, current officeholders
+ *  - vote records merge the hand-verified snapshot in data.ts with the
+ *    chamber-wide roll calls ingested by scripts/ingest/ (src/server/snapshot/)
+ *  - said-vs-did pairs come from the editorial pipeline (content/said-vs-did)
  */
 
 import * as data from "./data";
+import { lookupOfficials, resolveOfficialByDistrictKey } from "./live/lookup";
+import { snapshotAttendance, snapshotVotes } from "./live/snapshot";
 import type {
   AttendanceEntry,
   Bill,
   Digest,
+  DigestItem,
   IssueReport,
   Official,
   OfficialGroup,
@@ -29,9 +35,13 @@ export interface VotesQuery {
   pageSize?: number;
 }
 
+export type OfficialsLookup =
+  | { ok: true; matchedAddress: string; groups: OfficialGroup[] }
+  | { ok: false; reason: "no-match" | "outside-ny" | "lookup-failed" };
+
 export interface DataSource {
   /** Resolve an address to the officials who represent it, grouped by level. */
-  getOfficialsByAddress(address: string): Promise<OfficialGroup[]>;
+  getOfficialsByAddress(address: string): Promise<OfficialsLookup>;
   getOfficial(id: string): Promise<Official | null>;
   /** Paginated with a true total — the UI always shows "Showing N of TOTAL". */
   getVotes(officialId: string, query?: VotesQuery): Promise<Paginated<VoteRecord>>;
@@ -50,20 +60,43 @@ const GROUP_ORDER: Array<{ level: OfficialGroup["level"]; label: string }> = [
   { level: "federal", label: "FEDERAL — U.S. CONGRESS" },
 ];
 
-class InMemoryDataSource implements DataSource {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  async getOfficialsByAddress(address: string): Promise<OfficialGroup[]> {
-    // A real implementation geocodes the address and resolves districts.
-    // This snapshot returns the officials for the researched sample address.
-    return GROUP_ORDER.map(({ level, label }) => ({
-      level,
-      label,
-      officials: data.officials.filter((o) => o.level === level),
-    }));
+/**
+ * Merge curated + ingested votes, newest first. A curated record wins over
+ * its ingested twin (same bill, date, and kind — kind matters: a passage
+ * vote and a same-day procedural motion on the same bill are distinct).
+ */
+async function mergedVotes(official: Official): Promise<VoteRecord[]> {
+  const curated = data.votes.filter((v) => v.officialId === official.id);
+  const key = (v: VoteRecord) => `${v.billNumber}|${v.date}|${v.kind}`;
+  const seen = new Set(curated.map(key));
+  const ingested = snapshotVotes(official.id, official.districtKey).filter(
+    (v) => !seen.has(key(v))
+  );
+  return [...curated, ...ingested].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+class HybridDataSource implements DataSource {
+  async getOfficialsByAddress(address: string): Promise<OfficialsLookup> {
+    if (!address.trim()) {
+      // No address given: fall back to the researched sample address.
+      return {
+        ok: true,
+        matchedAddress: data.SAMPLE_ADDRESS,
+        groups: GROUP_ORDER.map(({ level, label }) => ({
+          level,
+          label,
+          officials: data.officials.filter((o) => o.level === level),
+        })),
+      };
+    }
+    return lookupOfficials(address);
   }
 
   async getOfficial(id: string): Promise<Official | null> {
-    return data.officials.find((o) => o.id === id) ?? null;
+    const curated = data.officials.find((o) => o.id === id);
+    if (curated) return curated;
+    // Stub ids are districtKeys (e.g. "nyc-council-35") — resolve via rosters.
+    return resolveOfficialByDistrictKey(id);
   }
 
   async getVotes(
@@ -71,21 +104,15 @@ class InMemoryDataSource implements DataSource {
     query: VotesQuery = {}
   ): Promise<Paginated<VoteRecord>> {
     const { filter = "all", page = 1, pageSize = 10 } = query;
-    const all = data.votes
-      .filter((v) => v.officialId === officialId)
-      .filter((v) => filter === "all" || v.kind === filter)
-      .sort((a, b) => b.date.localeCompare(a.date));
-    // Fall back to the count on file when the chamber total is unknown so the
-    // "Showing N of TOTAL" affordance renders honestly against the design.
-    const official = data.officials.find((o) => o.id === officialId);
-    const total =
-      filter === "all" && official?.stats.votesThisSession != null
-        ? official.stats.votesThisSession
-        : all.length;
+    const official = await this.getOfficial(officialId);
+    if (!official) return { items: [], total: 0, page, pageSize };
+    const all = (await mergedVotes(official)).filter(
+      (v) => filter === "all" || v.kind === filter
+    );
     const start = (page - 1) * pageSize;
     return {
       items: all.slice(start, start + pageSize),
-      total: Math.max(total, all.length),
+      total: all.length,
       page,
       pageSize,
     };
@@ -93,17 +120,14 @@ class InMemoryDataSource implements DataSource {
 
   async getSponsorships(officialId: string): Promise<Paginated<Sponsorship>> {
     const items = data.sponsorships.filter((s) => s.officialId === officialId);
-    const official = data.officials.find((o) => o.id === officialId);
-    return {
-      items,
-      total: Math.max(official?.stats.billsSponsored ?? 0, items.length),
-      page: 1,
-      pageSize: items.length,
-    };
+    return { items, total: items.length, page: 1, pageSize: items.length };
   }
 
   async getAttendance(officialId: string): Promise<Paginated<AttendanceEntry>> {
-    const items = data.attendance.filter((a) => a.officialId === officialId);
+    const official = await this.getOfficial(officialId);
+    const items = official
+      ? snapshotAttendance(official.id, official.districtKey)
+      : [];
     return { items, total: items.length, page: 1, pageSize: items.length };
   }
 
@@ -112,18 +136,54 @@ class InMemoryDataSource implements DataSource {
   }
 
   async getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>> {
-    const items = data.saidDidPairs.filter((p) => p.officialId === officialId);
-    return {
-      items,
-      total: items.length ? data.saidDidTotal : 0,
-      page: 1,
-      pageSize: items.length,
-    };
+    const { reviewedPairsFor } = await import("./editorial");
+    const items = await reviewedPairsFor(officialId);
+    return { items, total: items.length, page: 1, pageSize: items.length };
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async getDigest(address: string): Promise<Digest> {
-    return data.digest;
+    const lookup = await this.getOfficialsByAddress(address);
+    if (!lookup.ok) return data.digest;
+    const officials = lookup.groups.flatMap((g) => g.officials);
+
+    // The digest window is the 7 days ending today.
+    const end = new Date();
+    const start = new Date(end.getTime() - 7 * 24 * 60 * 60 * 1000);
+    const iso = (d: Date) => d.toISOString().slice(0, 10);
+    const label = (d: Date) =>
+      d.toLocaleString("en-US", { month: "short", day: "numeric" });
+
+    const items: DigestItem[] = [];
+    const quiet: string[] = [];
+    for (const official of officials) {
+      const recent = (await mergedVotes(official)).filter(
+        (v) => v.date >= iso(start) && v.date <= iso(end)
+      );
+      if (!recent.length) {
+        quiet.push(official.name);
+        continue;
+      }
+      for (const v of recent.slice(0, 2)) {
+        items.push({
+          officialId: official.id,
+          officialName: official.name,
+          chamber: v.chamber,
+          billNumber: v.billNumber,
+          vote: v.vote,
+          summary: v.aiSummary ?? v.title,
+          outcome: v.outcome,
+          dateLabel: v.dateLabel,
+          sourceUrl: v.sourceUrl,
+        });
+      }
+    }
+    return {
+      dateRangeLabel: `${label(start)} – ${label(end)}, ${end.getFullYear()}`,
+      items,
+      quietLine: quiet.length
+        ? `No recorded floor votes are on file this week for your other ${quiet.length} representative${quiet.length === 1 ? "" : "s"}.`
+        : "",
+    };
   }
 
   async getSiteStats(): Promise<SiteStats> {
@@ -137,7 +197,7 @@ class InMemoryDataSource implements DataSource {
   }
 }
 
-const dataSource: DataSource = new InMemoryDataSource();
+const dataSource: DataSource = new HybridDataSource();
 
 export function getDataSource(): DataSource {
   return dataSource;

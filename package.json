@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ingest": "npm run ingest:house && npm run ingest:ussenate && npm run ingest:council",
+    "ingest:house": "node scripts/ingest/house.mjs",
+    "ingest:ussenate": "node scripts/ingest/ussenate.mjs",
+    "ingest:council": "node scripts/ingest/council.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

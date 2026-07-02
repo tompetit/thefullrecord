@@ -16,7 +16,13 @@ export function OfficialCard({ official }: { official: Official }) {
           {official.name}
         </span>
         <span className="flex flex-wrap items-center gap-1 font-sans text-xs text-ink-60">
-          {official.role} · <PartyChip party={official.party} />
+          {official.role}
+          {official.party && (
+            <>
+              {" "}
+              · <PartyChip party={official.party} />
+            </>
+          )}
         </span>
         <span className="font-sans text-xs leading-[1.45] text-ink-80">
           {official.teaser.text}

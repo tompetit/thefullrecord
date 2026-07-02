@@ -28,9 +28,15 @@ export interface StatementStats {
 export interface Official {
   id: string;
   name: string;
+  /**
+   * Canonical seat key tying an official to a geocoded district:
+   * "nyc-council-33" | "ny-ad-52" | "ny-sd-26" | "us-house-ny-10" | "us-sen-ny-<n>"
+   */
+  districtKey: string;
   /** e.g. "Council Member · District 33" */
   role: string;
-  party: Party;
+  /** null when the roster source doesn't state it — never guessed */
+  party: Party | null;
   level: GovernmentLevel;
   /** Group heading, e.g. "CITY — NYC COUNCIL" */
   levelLabel: string;

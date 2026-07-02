@@ -91,17 +91,27 @@ export function ProfileTabs({
               { value: "procedural", label: "Procedural" },
             ]}
           />
-          <div
-            className={`flex flex-col gap-3 ${loading ? "opacity-60" : ""}`}
-          >
-            {votes.items.map((v) => (
-              <VoteCard key={v.id} vote={v} />
-            ))}
-          </div>
-          <p className="font-sans text-xs text-ink-60">
-            Showing {votes.items.length} of {votes.total} votes on file —{" "}
-            each links to the full official record above.
-          </p>
+          {votes.items.length === 0 ? (
+            <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
+              No recorded votes are on file for this official yet — vote
+              ingestion for this chamber is pending. Their full record is
+              available at the official chamber site linked above.
+            </p>
+          ) : (
+            <>
+              <div
+                className={`flex flex-col gap-3 ${loading ? "opacity-60" : ""}`}
+              >
+                {votes.items.map((v) => (
+                  <VoteCard key={v.id} vote={v} />
+                ))}
+              </div>
+              <p className="font-sans text-xs text-ink-60">
+                Showing {votes.items.length} of {votes.total} votes on file —
+                each links to the full official record.
+              </p>
+            </>
+          )}
         </div>
       )}
 

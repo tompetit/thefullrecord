@@ -19,8 +19,13 @@ export default function Home() {
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
-    if (value.trim()) setAddress(value.trim());
-    router.push("/representatives");
+    const address = value.trim();
+    if (address) setAddress(address);
+    router.push(
+      address
+        ? `/representatives?address=${encodeURIComponent(address)}`
+        : "/representatives"
+    );
   }
 
   return (

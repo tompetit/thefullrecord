@@ -46,6 +46,7 @@ export const siteStats: SiteStats = {
 export const officials: Official[] = [
   {
     id: "lincoln-restler",
+    districtKey: "nyc-council-33",
     name: "Lincoln Restler",
     role: "Council Member · District 33",
     party: "D",
@@ -68,6 +69,7 @@ export const officials: Official[] = [
   },
   {
     id: "jo-anne-simon",
+    districtKey: "ny-ad-52",
     name: "Jo Anne Simon",
     role: "Assembly Member · District 52",
     party: "D",
@@ -90,6 +92,7 @@ export const officials: Official[] = [
   },
   {
     id: "andrew-gounardes",
+    districtKey: "ny-sd-26",
     name: "Andrew Gounardes",
     role: "State Senator · District 26",
     party: "D",
@@ -113,6 +116,7 @@ export const officials: Official[] = [
   },
   {
     id: "dan-goldman",
+    districtKey: "us-house-ny-10",
     name: "Daniel S. Goldman",
     role: "U.S. Representative · NY-10",
     party: "D",
@@ -135,6 +139,7 @@ export const officials: Official[] = [
   },
   {
     id: "chuck-schumer",
+    districtKey: "us-sen-ny-1",
     name: "Charles E. Schumer",
     role: "U.S. Senator · New York",
     party: "D",
@@ -157,6 +162,7 @@ export const officials: Official[] = [
   },
   {
     id: "kirsten-gillibrand",
+    districtKey: "us-sen-ny-2",
     name: "Kirsten E. Gillibrand",
     role: "U.S. Senator · New York",
     party: "D",

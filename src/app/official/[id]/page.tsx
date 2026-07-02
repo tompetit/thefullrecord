@@ -40,9 +40,13 @@ export default async function OfficialPage({
             {official.name}
           </h1>
           <p className="font-sans text-[13px] text-ink-80">{roleLine}</p>
-          <p className="flex items-center gap-1.5 font-sans text-xs text-ink-60">
-            {official.tenure} · <PartyChip party={official.party} />
-          </p>
+          {(official.tenure || official.party) && (
+            <p className="flex items-center gap-1.5 font-sans text-xs text-ink-60">
+              {official.tenure}
+              {official.tenure && official.party && " · "}
+              {official.party && <PartyChip party={official.party} />}
+            </p>
+          )}
         </div>
       </div>
       <div className="mt-4 flex flex-wrap gap-1.5 font-sans text-[11.5px] text-ink-80">
