@@ -4,7 +4,7 @@ import { SourceLink } from "@/components/SourceLink";
 import { VoteBadge } from "@/components/VoteBadge";
 import { Wordmark } from "@/components/Wordmark";
 import { getDataSource } from "@/server/datasource";
-import { SAMPLE_ADDRESS_SHORT } from "@/server/seed";
+import { SAMPLE_ADDRESS_SHORT } from "@/server/data";
 
 export const metadata = { title: "Weekly digest — The Full Record" };
 

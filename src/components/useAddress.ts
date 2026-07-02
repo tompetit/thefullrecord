@@ -1,7 +1,7 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { SAMPLE_ADDRESS } from "@/server/seed";
+import { SAMPLE_ADDRESS } from "@/server/data";
 
 const KEY = "tfr-address";
 
@@ -19,8 +19,8 @@ const getServerSnapshot = () => SAMPLE_ADDRESS;
 
 /**
  * Saved address — persisted in localStorage. Drives the header chip,
- * "How your reps voted", and the digest. Falls back to the placeholder
- * sample address until the user enters their own.
+ * "How your reps voted", and the digest. Falls back to the sample
+ * address the data snapshot was researched for.
  */
 export function useAddress() {
   const address = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);

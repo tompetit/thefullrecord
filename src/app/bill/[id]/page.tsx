@@ -6,7 +6,7 @@ import { RollCallCard } from "@/components/RollCallCard";
 import { SourceLink } from "@/components/SourceLink";
 import { StatusStepper } from "@/components/StatusStepper";
 import { getDataSource } from "@/server/datasource";
-import type { Official, VoteChoice } from "@/server/types";
+import type { Official } from "@/server/types";
 
 export const metadata = { title: "Bill detail — The Full Record" };
 
@@ -20,15 +20,13 @@ export default async function BillPage({
   const bill = await ds.getBill(id);
   if (!bill) notFound();
 
-  // Your reps who vote on this bill, with their recorded vote from the roll call
+  // Your reps who voted on this bill, with their recorded votes
   const votingOfficials = (
-    await Promise.all(bill.votingOfficialIds.map((oid) => ds.getOfficial(oid)))
+    await Promise.all(
+      bill.yourRepsVotes.map((rv) => ds.getOfficial(rv.officialId))
+    )
   ).filter((o): o is Official => o !== null);
-  const repVotes = votingOfficials.map((o) => {
-    const lastName = o.name.split(" ")[1] ?? o.name;
-    const member = bill.rollCall.members.find((m) => m.name.includes(lastName));
-    return { officialId: o.id, vote: (member?.vote ?? "absent") as VoteChoice };
-  });
+  const repVotes = bill.yourRepsVotes;
 
   const whatWhoCard = (
     <section className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">

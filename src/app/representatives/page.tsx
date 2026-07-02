@@ -8,8 +8,8 @@ export const metadata = { title: "Your representatives — The Full Record" };
 export default async function RepresentativesPage() {
   const ds = getDataSource();
   const [groups, stats] = await Promise.all([
-    // A real data source resolves this from the saved address; the
-    // placeholder returns the same officials for any address.
+    // A live data source resolves this from the saved address; the current
+    // snapshot returns the officials for the researched sample address.
     ds.getOfficialsByAddress(""),
     ds.getSiteStats(),
   ]);

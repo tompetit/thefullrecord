@@ -77,36 +77,66 @@ export default async function OfficialPage({
 
           {identity}
 
-          {/* Stat strip (mobile) / stat table (desktop) */}
-          <div className="mt-5 grid grid-cols-3 overflow-hidden rounded-[10px] border border-card bg-paper-raised lg:hidden">
-            {[
-              [official.stats.votesThisSession, "votes this session"],
-              [`${official.stats.rollCallsAttendedPct}%`, "roll calls attended"],
-              [official.stats.billsSponsored, "bills sponsored"],
-            ].map(([value, label], i) => (
-              <div
-                key={label}
-                className={`px-2 py-3 text-center ${i < 2 ? "border-r border-hairline-soft" : ""}`}
-              >
-                <div className="font-serif text-[19px] font-bold text-ink">
-                  {value}
+          {/* Stat strip (mobile) / stat table (desktop) — omit stats the source doesn't provide yet */}
+          {(() => {
+            const stats: Array<[string, string, string | number]> = [];
+            if (official.stats.votesThisSession !== null)
+              stats.push([
+                "Votes this session",
+                "votes this session",
+                official.stats.votesThisSession,
+              ]);
+            if (official.stats.rollCallsAttendedPct !== null)
+              stats.push([
+                "Roll calls attended",
+                "roll calls attended",
+                `${official.stats.rollCallsAttendedPct}%`,
+              ]);
+            if (official.stats.billsSponsored !== null)
+              stats.push([
+                "Bills sponsored",
+                "bills sponsored",
+                official.stats.billsSponsored,
+              ]);
+            if (!stats.length) return null;
+            return (
+              <>
+                <div
+                  className="mt-5 grid overflow-hidden rounded-[10px] border border-card bg-paper-raised lg:hidden"
+                  style={{
+                    gridTemplateColumns: `repeat(${stats.length}, 1fr)`,
+                  }}
+                >
+                  {stats.map(([, label, value], i) => (
+                    <div
+                      key={label}
+                      className={`px-2 py-3 text-center ${i < stats.length - 1 ? "border-r border-hairline-soft" : ""}`}
+                    >
+                      <div className="font-serif text-[19px] font-bold text-ink">
+                        {value}
+                      </div>
+                      <div className="font-sans text-[10.5px] text-ink-45">
+                        {label}
+                      </div>
+                    </div>
+                  ))}
                 </div>
-                <div className="font-sans text-[10.5px] text-ink-45">{label}</div>
-              </div>
-            ))}
-          </div>
-          <dl className="mt-5 hidden flex-col divide-y divide-hairline-soft rounded-[10px] border border-card bg-paper-raised lg:flex">
-            {[
-              ["Votes this session", official.stats.votesThisSession],
-              ["Roll calls attended", `${official.stats.rollCallsAttendedPct}%`],
-              ["Bills sponsored", official.stats.billsSponsored],
-            ].map(([label, value]) => (
-              <div key={label} className="flex items-center justify-between px-4 py-2.5">
-                <dt className="font-sans text-xs text-ink-60">{label}</dt>
-                <dd className="font-serif text-[17px] font-bold text-ink">{value}</dd>
-              </div>
-            ))}
-          </dl>
+                <dl className="mt-5 hidden flex-col divide-y divide-hairline-soft rounded-[10px] border border-card bg-paper-raised lg:flex">
+                  {stats.map(([label, , value]) => (
+                    <div
+                      key={label}
+                      className="flex items-center justify-between px-4 py-2.5"
+                    >
+                      <dt className="font-sans text-xs text-ink-60">{label}</dt>
+                      <dd className="font-serif text-[17px] font-bold text-ink">
+                        {value}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              </>
+            );
+          })()}
 
           <p className="mt-4 hidden font-sans text-[11.5px] leading-normal text-ink-45 lg:block">
             {official.methodologyNote}{" "}

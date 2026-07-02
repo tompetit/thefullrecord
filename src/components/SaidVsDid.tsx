@@ -23,6 +23,7 @@ export function SaidVsDid({
   pairs: SaidDidPair[];
   total: number;
 }) {
+  const noPairs = pairs.length === 0;
   const [labelFilter, setLabelFilter] = useState<LabelFilter>("all");
   const [topicFilter, setTopicFilter] = useState<string>("all");
   const [expanded, setExpanded] = useState<Set<string>>(
@@ -58,6 +59,19 @@ export function SaidVsDid({
       else next.add(id);
       return next;
     });
+  }
+
+  if (noPairs) {
+    return (
+      <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
+        No statement–vote pairs are on file for this official yet. Pairs are
+        matched by subject and reviewed before publication — labels describe
+        one statement next to one vote, never an overall judgment.{" "}
+        <SourceLink href="#" className="text-[13px]">
+          Methodology
+        </SourceLink>
+      </p>
+    );
   }
 
   return (

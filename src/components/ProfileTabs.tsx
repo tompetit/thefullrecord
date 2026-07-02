@@ -99,15 +99,20 @@ export function ProfileTabs({
             ))}
           </div>
           <p className="font-sans text-xs text-ink-60">
-            Showing {votes.items.length} of {votes.total} votes this session ·{" "}
-            <button type="button" className="cursor-pointer underline">
-              See all
-            </button>
+            Showing {votes.items.length} of {votes.total} votes on file —{" "}
+            each links to the full official record above.
           </p>
         </div>
       )}
 
-      {tab === "sponsorships" && (
+      {tab === "sponsorships" &&
+        (sponsorships.items.length === 0 ? (
+          <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
+            No sponsored bills are on file for this official yet. Their full
+            sponsorship record is available from the official chamber records
+            linked on each vote.
+          </p>
+        ) : (
         <div className="flex flex-col gap-3">
           {sponsorships.items.map((s) => (
             <article
@@ -150,43 +155,49 @@ export function ProfileTabs({
             </article>
           ))}
           <p className="font-sans text-xs text-ink-60">
-            Showing {sponsorships.items.length} of {sponsorships.total} bills
-            sponsored ·{" "}
-            <button type="button" className="cursor-pointer underline">
-              See all
-            </button>
+            Showing {sponsorships.items.length} of {sponsorships.total}{" "}
+            sponsored bills on file.
           </p>
         </div>
-      )}
+        ))}
 
-      {tab === "attendance" && (
-        <div className="flex flex-col gap-3">
-          <section className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">
-            <ul className="flex flex-col divide-y divide-hairline-soft">
-              {attendance.items.map((a) => (
-                <li
-                  key={a.id}
-                  className="flex items-center justify-between gap-3 py-3 font-sans text-[13px] text-ink-80"
-                >
-                  <span>{a.period}</span>
-                  <span className="flex items-center gap-3">
-                    <span className="font-semibold text-ink">
-                      {a.attended} of {a.total} roll calls
-                    </span>
-                    <SourceLink href={a.sourceUrl} className="text-xs">
-                      Attendance record
-                    </SourceLink>
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </section>
-          <p className="font-sans text-xs text-ink-60">
-            {official.stats.rollCallsAttendedPct}% of roll calls attended this
-            session, from official chamber records.
+      {tab === "attendance" &&
+        (attendance.items.length === 0 ? (
+          <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
+            Attendance records for this official are not yet available here.
+            Roll-call attendance is published by the chamber; each vote in the
+            Votes tab links to its official roll call.
           </p>
-        </div>
-      )}
+        ) : (
+          <div className="flex flex-col gap-3">
+            <section className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">
+              <ul className="flex flex-col divide-y divide-hairline-soft">
+                {attendance.items.map((a) => (
+                  <li
+                    key={a.id}
+                    className="flex items-center justify-between gap-3 py-3 font-sans text-[13px] text-ink-80"
+                  >
+                    <span>{a.period}</span>
+                    <span className="flex items-center gap-3">
+                      <span className="font-semibold text-ink">
+                        {a.attended} of {a.total} roll calls
+                      </span>
+                      <SourceLink href={a.sourceUrl} className="text-xs">
+                        Attendance record
+                      </SourceLink>
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+            {official.stats.rollCallsAttendedPct !== null && (
+              <p className="font-sans text-xs text-ink-60">
+                {official.stats.rollCallsAttendedPct}% of roll calls attended
+                this session, from official chamber records.
+              </p>
+            )}
+          </div>
+        ))}
 
       {tab === "said-vs-did" && (
         <SaidVsDid pairs={saidDidPairs.items} total={saidDidPairs.total} />

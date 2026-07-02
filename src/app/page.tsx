@@ -8,7 +8,7 @@ import { Wordmark } from "@/components/Wordmark";
 import { SourceLink } from "@/components/SourceLink";
 import { VoteBadge } from "@/components/VoteBadge";
 import { useAddress } from "@/components/useAddress";
-import { siteStats } from "@/server/seed";
+import { siteStats } from "@/server/data";
 
 const LEVELS = ["NYC Council", "State Assembly", "State Senate", "U.S. Congress"];
 
@@ -83,24 +83,26 @@ export default function Home() {
             <div className="flex items-start justify-between gap-3">
               <div className="flex flex-col gap-[3px]">
                 <div className="font-sans text-[11px] font-bold tracking-[0.06em] text-ink-45">
-                  S4821-A · SENATE
+                  S9408-A · NY SENATE
                 </div>
                 <h3 className="font-serif text-[16.5px] font-bold leading-[1.3] text-ink text-pretty">
-                  Residential Utility Billing Transparency Act [placeholder]
+                  AI chatbot toys moratorium
                 </h3>
               </div>
               <VoteBadge vote="yes" />
             </div>
             <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty">
-              Requires utilities to itemize delivery charges and give 60
-              days&rsquo; notice before rate changes. [placeholder]
+              Places a five-year moratorium on selling AI-companion toys for
+              children while a state study examines their risks and benefits.
             </p>
             <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-hairline-soft py-[11px] font-sans text-xs text-ink-60">
-              <span className="font-semibold text-ink-80">Passed 42–18 [placeholder]</span>
+              <span className="font-semibold text-ink-80">Passed Senate 57–3</span>
               <span className="text-[#c9c0ac]">·</span>
-              <span>Jun 12, 2026</span>
+              <span>Jun 1, 2026</span>
               <span className="ml-auto">
-                <SourceLink href="#">Roll call</SourceLink>
+                <SourceLink href="https://www.nysenate.gov/legislation/bills/2025/S9408/amendment/A">
+                  Roll call
+                </SourceLink>
               </span>
             </div>
           </article>

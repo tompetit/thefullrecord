@@ -2,12 +2,12 @@
  * Data-source abstraction for The Full Record.
  *
  * The UI (server components and API routes) talks only to the DataSource
- * interface. `PlaceholderDataSource` serves the fictional seed data; replacing
- * placeholder data with actual data means implementing this interface against
- * a real database / upstream API and returning it from `getDataSource()`.
+ * interface. `InMemoryDataSource` serves the researched snapshot in data.ts;
+ * going live means implementing this interface against a real database /
+ * the upstream APIs and returning it from `getDataSource()`.
  */
 
-import * as seed from "./seed";
+import * as data from "./data";
 import type {
   AttendanceEntry,
   Bill,
@@ -50,20 +50,20 @@ const GROUP_ORDER: Array<{ level: OfficialGroup["level"]; label: string }> = [
   { level: "federal", label: "FEDERAL — U.S. CONGRESS" },
 ];
 
-class PlaceholderDataSource implements DataSource {
+class InMemoryDataSource implements DataSource {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async getOfficialsByAddress(address: string): Promise<OfficialGroup[]> {
     // A real implementation geocodes the address and resolves districts.
-    // The placeholder returns the same six officials for any address.
+    // This snapshot returns the officials for the researched sample address.
     return GROUP_ORDER.map(({ level, label }) => ({
       level,
       label,
-      officials: seed.officials.filter((o) => o.level === level),
+      officials: data.officials.filter((o) => o.level === level),
     }));
   }
 
   async getOfficial(id: string): Promise<Official | null> {
-    return seed.officials.find((o) => o.id === id) ?? null;
+    return data.officials.find((o) => o.id === id) ?? null;
   }
 
   async getVotes(
@@ -71,15 +71,17 @@ class PlaceholderDataSource implements DataSource {
     query: VotesQuery = {}
   ): Promise<Paginated<VoteRecord>> {
     const { filter = "all", page = 1, pageSize = 10 } = query;
-    const all = seed.votes
+    const all = data.votes
       .filter((v) => v.officialId === officialId)
       .filter((v) => filter === "all" || v.kind === filter)
       .sort((a, b) => b.date.localeCompare(a.date));
-    // The placeholder inflates the total to the official's session stat so the
+    // Fall back to the count on file when the chamber total is unknown so the
     // "Showing N of TOTAL" affordance renders honestly against the design.
-    const official = seed.officials.find((o) => o.id === officialId);
+    const official = data.officials.find((o) => o.id === officialId);
     const total =
-      filter === "all" && official ? official.stats.votesThisSession : all.length;
+      filter === "all" && official?.stats.votesThisSession != null
+        ? official.stats.votesThisSession
+        : all.length;
     const start = (page - 1) * pageSize;
     return {
       items: all.slice(start, start + pageSize),
@@ -90,8 +92,8 @@ class PlaceholderDataSource implements DataSource {
   }
 
   async getSponsorships(officialId: string): Promise<Paginated<Sponsorship>> {
-    const items = seed.sponsorships.filter((s) => s.officialId === officialId);
-    const official = seed.officials.find((o) => o.id === officialId);
+    const items = data.sponsorships.filter((s) => s.officialId === officialId);
+    const official = data.officials.find((o) => o.id === officialId);
     return {
       items,
       total: Math.max(official?.stats.billsSponsored ?? 0, items.length),
@@ -101,19 +103,19 @@ class PlaceholderDataSource implements DataSource {
   }
 
   async getAttendance(officialId: string): Promise<Paginated<AttendanceEntry>> {
-    const items = seed.attendance.filter((a) => a.officialId === officialId);
+    const items = data.attendance.filter((a) => a.officialId === officialId);
     return { items, total: items.length, page: 1, pageSize: items.length };
   }
 
   async getBill(id: string): Promise<Bill | null> {
-    return seed.bills.find((b) => b.id === id) ?? null;
+    return data.bills.find((b) => b.id === id) ?? null;
   }
 
   async getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>> {
-    const items = seed.saidDidPairs.filter((p) => p.officialId === officialId);
+    const items = data.saidDidPairs.filter((p) => p.officialId === officialId);
     return {
       items,
-      total: items.length ? seed.saidDidTotal : 0,
+      total: items.length ? data.saidDidTotal : 0,
       page: 1,
       pageSize: items.length,
     };
@@ -121,21 +123,21 @@ class PlaceholderDataSource implements DataSource {
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async getDigest(address: string): Promise<Digest> {
-    return seed.digest;
+    return data.digest;
   }
 
   async getSiteStats(): Promise<SiteStats> {
-    return seed.siteStats;
+    return data.siteStats;
   }
 
   async submitIssueReport(report: IssueReport): Promise<{ ok: true }> {
-    // Placeholder: log only. A real implementation persists the report.
+    // Snapshot mode: log only. A real implementation persists the report.
     console.log("[report-an-issue]", JSON.stringify(report));
     return { ok: true };
   }
 }
 
-const dataSource: DataSource = new PlaceholderDataSource();
+const dataSource: DataSource = new InMemoryDataSource();
 
 export function getDataSource(): DataSource {
   return dataSource;

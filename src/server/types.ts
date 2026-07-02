@@ -2,7 +2,7 @@
  * Domain types for The Full Record.
  *
  * These shapes are the contract between the UI and any data source
- * (see datasource.ts). The placeholder seed data and a future real
+ * (see datasource.ts). The in-memory data snapshot and a future real
  * data source both conform to them.
  */
 
@@ -13,9 +13,10 @@ export type GovernmentLevel = "city" | "state" | "federal";
 export type RelationshipLabel = "consistent" | "in_tension" | "not_directly_related";
 
 export interface OfficialStats {
-  votesThisSession: number;
-  rollCallsAttendedPct: number;
-  billsSponsored: number;
+  /** null = not yet available from the source — the UI omits the stat */
+  votesThisSession: number | null;
+  rollCallsAttendedPct: number | null;
+  billsSponsored: number | null;
 }
 
 export interface StatementStats {
@@ -139,8 +140,8 @@ export interface Bill {
   rollCall: RollCall;
   /** Note under "How your reps voted", incl. companion bill */
   yourRepsNote: string;
-  /** Officials (by id) whose chamber votes on this bill */
-  votingOfficialIds: string[];
+  /** Explicit recorded votes by the user's own representatives */
+  yourRepsVotes: Array<{ officialId: string; vote: VoteChoice }>;
   sources: BillSource[];
 }
 
