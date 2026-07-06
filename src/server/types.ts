@@ -64,8 +64,13 @@ export interface VoteRecord {
   /** e.g. "SENATE" */
   chamber: string;
   title: string;
-  /** AI-generated plain-English summary. Absent for bare procedural motions. */
+  /** Plain-English summary. Absent for bare procedural motions. */
   aiSummary?: string;
+  /**
+   * Provenance of the summary — "ai" (model-written, gets the AI marker)
+   * or "official" (CRS / LRS text, gets the official-summary marker).
+   */
+  summarySource?: "ai" | "official";
   vote: VoteChoice;
   kind: VoteKind;
   /** e.g. "Passed Senate 42–18" */

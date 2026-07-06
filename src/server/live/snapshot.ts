@@ -20,6 +20,7 @@ export interface SnapshotRollCall {
   bill: string;
   title: string;
   summary?: string;
+  summarySource?: "ai" | "official";
   kind: "substantive" | "procedural";
   outcome: string;
   date: string;
@@ -125,6 +126,7 @@ export function snapshotVotes(
         chamber: snapshot.chamber,
         title: rc.title,
         aiSummary: rc.summary,
+        summarySource: rc.summarySource,
         vote,
         kind: rc.kind,
         outcome: rc.outcome,

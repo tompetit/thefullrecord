@@ -7,10 +7,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "ingest": "npm run ingest:house && npm run ingest:ussenate && npm run ingest:council",
+    "ingest": "npm run ingest:house && npm run ingest:ussenate && npm run ingest:council && npm run ingest:nysenate && npm run ingest:assembly && npm run ingest:enrich",
     "ingest:house": "node scripts/ingest/house.mjs",
     "ingest:ussenate": "node scripts/ingest/ussenate.mjs",
-    "ingest:council": "node scripts/ingest/council.mjs"
+    "ingest:council": "node scripts/ingest/council.mjs",
+    "ingest:nysenate": "node scripts/ingest/nysenate-openleg.mjs",
+    "ingest:assembly": "node scripts/ingest/assembly.mjs",
+    "ingest:enrich": "node scripts/ingest/enrich-congress.mjs"
   },
   "dependencies": {
     "next": "16.2.10",

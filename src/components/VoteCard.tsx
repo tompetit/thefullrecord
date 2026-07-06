@@ -53,6 +53,7 @@ export function VoteCard({
             billTextUrl={vote.billId ? `/bill/${vote.billId}` : vote.sourceUrl}
             subjectType="vote"
             subjectId={vote.id}
+            source={vote.summarySource ?? "ai"}
           />
         </>
       )}
