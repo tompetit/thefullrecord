@@ -12,7 +12,7 @@
 
 import * as data from "./data";
 import { lookupOfficials, resolveOfficialByDistrictKey } from "./live/lookup";
-import { snapshotAttendance, snapshotVotes } from "./live/snapshot";
+import { getSnapshots, snapshotAttendance, snapshotVotes } from "./live/snapshot";
 import type {
   AttendanceEntry,
   Bill,
@@ -23,6 +23,8 @@ import type {
   OfficialGroup,
   Paginated,
   SaidDidPair,
+  SeatElection,
+  SeatNotOnBallot,
   SiteStats,
   Sponsorship,
   VoteKind,
@@ -50,6 +52,10 @@ export interface DataSource {
   getBill(id: string): Promise<Bill | null>;
   getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>>;
   getDigest(address: string): Promise<Digest>;
+  /** 2026 slate for a seat, or when it's next on the ballot. */
+  getSeatElection(
+    districtKey: string
+  ): Promise<SeatElection | SeatNotOnBallot | null>;
   getSiteStats(): Promise<SiteStats>;
   submitIssueReport(report: IssueReport): Promise<{ ok: true }>;
 }
@@ -186,8 +192,30 @@ class HybridDataSource implements DataSource {
     };
   }
 
+  async getSeatElection(districtKey: string) {
+    const { electionForSeat } = await import("./live/elections");
+    return electionForSeat(districtKey);
+  }
+
   async getSiteStats(): Promise<SiteStats> {
-    return data.siteStats;
+    // Completeness is visible: the trust line states what we actually track,
+    // computed from the ingested snapshots rather than hardcoded.
+    const snapshots = getSnapshots();
+    if (!snapshots.length) return data.siteStats;
+    let officials = 0;
+    let rollCalls = 0;
+    for (const s of snapshots) {
+      // Count seats, not member records — mid-session replacements can leave
+      // two records for one district.
+      officials += s.members
+        ? new Set(s.members.map((m) => m.district ?? m.key)).size
+        : Object.keys(s.memberKeys ?? {}).length;
+      rollCalls += s.rollCalls.length;
+    }
+    return {
+      trustLine: `Tracking ${officials} officials and ${rollCalls} recent recorded roll calls across city, state and federal government`,
+      provenanceLine: data.siteStats.provenanceLine,
+    };
   }
 
   async submitIssueReport(report: IssueReport): Promise<{ ok: true }> {

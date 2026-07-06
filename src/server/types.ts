@@ -222,3 +222,32 @@ export interface SiteStats {
   trustLine: string;
   provenanceLine: string;
 }
+
+export interface ElectionCandidate {
+  name: string;
+  /** Ballot-line labels as listed by the source (D, R, C, WFP…) */
+  parties: string[];
+  /** Holds THIS seat now */
+  incumbent: boolean;
+  /** Neutral, verifiable note (e.g. "pending certification") */
+  note?: string;
+}
+
+export interface SeatElection {
+  districtKey: string;
+  electionName: string;
+  /** ISO date of the election */
+  electionDate: string;
+  dateLabel: string;
+  candidates: ElectionCandidate[];
+  /** Ran in the primary for this seat and was not nominated */
+  primaryNotNominated?: ElectionCandidate[];
+  sourceUrl: string;
+  sourceLabel: string;
+}
+
+/** A seat with no upcoming tracked election — states when it's next on the ballot. */
+export interface SeatNotOnBallot {
+  districtKey: string;
+  nextElectionLabel: string;
+}

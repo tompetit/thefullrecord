@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AppHeader } from "@/components/AppHeader";
 import { Avatar } from "@/components/Avatar";
+import { ElectionCard } from "@/components/ElectionCard";
 import { PartyChip } from "@/components/PartyChip";
 import { ProfileTabs } from "@/components/ProfileTabs";
 import { SourceLink } from "@/components/SourceLink";
@@ -20,12 +21,14 @@ export default async function OfficialPage({
   const official = await ds.getOfficial(id);
   if (!official) notFound();
 
-  const [votes, sponsorships, attendance, saidDidPairs] = await Promise.all([
-    ds.getVotes(id),
-    ds.getSponsorships(id),
-    ds.getAttendance(id),
-    ds.getSaidDidPairs(id),
-  ]);
+  const [votes, sponsorships, attendance, saidDidPairs, election] =
+    await Promise.all([
+      ds.getVotes(id),
+      ds.getSponsorships(id),
+      ds.getAttendance(id),
+      ds.getSaidDidPairs(id),
+      ds.getSeatElection(official.districtKey),
+    ]);
 
   const roleLine = official.locality
     ? `${official.role} · ${official.locality}`
@@ -141,6 +144,8 @@ export default async function OfficialPage({
               </>
             );
           })()}
+
+          {election && <ElectionCard election={election} />}
 
           <p className="mt-4 hidden font-sans text-[11.5px] leading-normal text-ink-45 lg:block">
             {official.methodologyNote}{" "}

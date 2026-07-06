@@ -1,32 +1,14 @@
-"use client";
-
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useState } from "react";
-import { Glyph } from "@/components/Glyph";
-import { Wordmark } from "@/components/Wordmark";
+import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { SourceLink } from "@/components/SourceLink";
 import { VoteBadge } from "@/components/VoteBadge";
-import { useAddress } from "@/components/useAddress";
-import { siteStats } from "@/server/data";
+import { Wordmark } from "@/components/Wordmark";
+import { getDataSource } from "@/server/datasource";
 
 const LEVELS = ["NYC Council", "State Assembly", "State Senate", "U.S. Congress"];
 
-export default function Home() {
-  const router = useRouter();
-  const { setAddress } = useAddress();
-  const [value, setValue] = useState("");
-
-  function submit(e: React.FormEvent) {
-    e.preventDefault();
-    const address = value.trim();
-    if (address) setAddress(address);
-    router.push(
-      address
-        ? `/representatives?address=${encodeURIComponent(address)}`
-        : "/representatives"
-    );
-  }
+export default async function Home() {
+  const stats = await getDataSource().getSiteStats();
 
   return (
     <main className="flex min-h-screen flex-1 flex-col">
@@ -55,25 +37,7 @@ export default function Home() {
             and what they have actually done, traced to the primary record.
           </p>
 
-          <form onSubmit={submit} className="mt-6 flex max-w-md flex-col gap-2.5 lg:flex-row">
-            <label className="flex flex-1 items-center gap-2 rounded-[10px] border-[1.5px] border-ink bg-paper-raised px-4 py-[15px]">
-              <Glyph name="target" className="text-[15px] text-ink-45" />
-              <input
-                type="text"
-                value={value}
-                onChange={(e) => setValue(e.target.value)}
-                placeholder="Your street address"
-                autoComplete="street-address"
-                className="w-full bg-transparent font-sans text-[15px] text-ink outline-none placeholder:text-ink-35"
-              />
-            </label>
-            <button
-              type="submit"
-              className="min-h-11 cursor-pointer rounded-[10px] bg-ink px-6 py-[15px] font-sans text-[15px] font-bold text-paper hover:opacity-90"
-            >
-              Find my representatives
-            </button>
-          </form>
+          <AddressLookupForm />
           <p className="mt-2.5 font-sans text-[11.5px] text-ink-45">
             Your address is used once for the lookup and never stored.
           </p>
@@ -126,7 +90,7 @@ export default function Home() {
           ))}
         </div>
         <p className="mx-auto mt-4 max-w-6xl font-sans text-xs leading-[1.6] text-ink-45">
-          {siteStats.trustLine}. Every claim on this site links to the primary
+          {stats.trustLine}. Every claim on this site links to the primary
           source. Non-partisan · no scores, no grades.
         </p>
       </footer>

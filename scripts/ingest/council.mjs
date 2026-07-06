@@ -326,10 +326,15 @@ function buildRollCall(matter, memberByPersonId, memberByName, warnings) {
     );
   }
 
+  // Loader schema (src/server/live/snapshot.ts): id + bill, votes keyed by
+  // district string, summarySource marks the summary as official LRS text.
+  const slug = matter.file.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   return {
-    file: matter.file,
+    id: `council-${slug}`,
+    bill: matter.file,
     title: cardTitle(matter.title),
     summary: summarySentence(matter),
+    summarySource: "official",
     kind:
       matter.type === "Land Use Call-Up" || PROCEDURAL_RE.test(matter.title)
         ? "procedural"
@@ -338,7 +343,9 @@ function buildRollCall(matter, memberByPersonId, memberByName, warnings) {
     date: isoDate(matter.meetingDate),
     dateLabel: dateLabel(matter.meetingDate),
     sourceUrl: matter.sourceUrl,
-    votes,
+    votes: Object.fromEntries(
+      Object.entries(votes).map(([k, v]) => [String(k), v])
+    ),
   };
 }
 
@@ -381,7 +388,7 @@ async function main() {
     }
     rollCalls.push(buildRollCall(matter, memberByPersonId, memberByName, warnings));
   }
-  rollCalls.sort((a, b) => b.date.localeCompare(a.date) || a.file.localeCompare(b.file));
+  rollCalls.sort((a, b) => b.date.localeCompare(a.date) || a.bill.localeCompare(b.bill));
 
   // ---- validation ---------------------------------------------------------
   const districts = new Set(members.map((m) => m.district));
@@ -391,15 +398,16 @@ async function main() {
   if (members.length !== 51) warnings.push(`expected 51 members, got ${members.length}`);
   for (const rc of rollCalls) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(rc.date) || Number.isNaN(Date.parse(rc.date))) {
-      warnings.push(`${rc.file}: bad date ${rc.date}`);
+      warnings.push(`${rc.bill}: bad date ${rc.date}`);
     }
   }
 
   const snapshot = {
     generatedAt: new Date().toISOString(),
     chamber: "NYC COUNCIL",
+    sourceLabel: "Roll call · NYC Council",
     members: members.map((m) => {
-      const out = { ...m };
+      const out = { ...m, key: String(m.district), district: String(m.district) };
       delete out.personId;
       return out;
     }),
@@ -418,7 +426,7 @@ async function main() {
     const c = { yes: 0, no: 0, absent: 0 };
     for (const v of Object.values(rc.votes)) c[v] += 1;
     console.log(
-      `  ${rc.date}  ${rc.file.padEnd(14)} ${rc.kind.padEnd(11)} ${rc.outcome.padEnd(13)} (yes ${c.yes} / no ${c.no} / absent ${c.absent})  ${rc.title}`,
+      `  ${rc.date}  ${rc.bill.padEnd(14)} ${rc.kind.padEnd(11)} ${rc.outcome.padEnd(13)} (yes ${c.yes} / no ${c.no} / absent ${c.absent})  ${rc.title}`,
     );
   }
   if (warnings.length) {
