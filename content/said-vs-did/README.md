@@ -15,10 +15,17 @@ Every pair goes through this workflow:
    - a proposed relationship label: `consistent`, `in_tension`, or
      `not_directly_related` — the label describes ONE statement next to
      ONE vote, never an overall judgment of the official
-2. **Review.** A human editor checks: the quote is verbatim and in context;
+2. **Review.** An editor checks: the quote is verbatim and in context;
    the vote is correctly read from the roll call; the label is defensible
    and neutrally worded; `whyNote` explains the label without verdict
    language (no "hypocrite", "flip-flop", "broke promise").
+   The site owner has delegated review authority to an AI editor; the
+   `reviewedBy` field must state who (or what) actually performed the
+   review — never attribute a review to someone who didn't do it.
+   Editorial standards for excerpting: a quote may be shortened with
+   ellipses (e.g. to drop partisan asides irrelevant to the pair) but
+   never altered inside the ellipses, and the `whyNote` or source link
+   must make the full context reachable.
 3. **Publish.** The editor sets `"status": "reviewed"` and fills
    `reviewedBy` + `reviewedAt`. Only then does the pair appear on the site.
    Files marked `reviewed` without `reviewedBy`/`reviewedAt` are demoted to
