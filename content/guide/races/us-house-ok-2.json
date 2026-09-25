@@ -1,0 +1,129 @@
+{
+  "id": "us-house-ok-2",
+  "state": "OK",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Oklahoma's 2nd District",
+  "area": "Eastern Oklahoma, including Muskogee, McAlester and the Cherokee, Choctaw and Muscogee reservation areas",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [],
+  "candidates": [
+    {
+      "id": "josh-brecheen",
+      "name": "Josh Brecheen",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the June 16, 2026 Republican primary",
+      "currentRole": "U.S. Representative, Oklahoma's 2nd District (since 2023)",
+      "summary": {
+        "text": "Josh Brecheen is the incumbent U.S. Representative for Oklahoma's 2nd District, a former Oklahoma state senator, seeking re-election.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Pontotoc County, Oklahoma; graduated from Coalgate High School and earned a bachelor's degree from Oklahoma State University.", "sources": ["s2"] },
+        { "text": "Career experience includes operating a heavy equipment and trucking business, working as a field representative for former U.S. Senator Tom Coburn, and ranching.", "sources": ["s2"] },
+        { "text": "Served as state president of the Oklahoma FFA Association.", "sources": ["s2"] },
+        { "text": "Assigned to the House Committee on the Budget and the Committee on Homeland Security (Border Security, Facilitation, and Operations; Emergency Preparedness, Response and Recovery subcommittees), 2023-2024.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Lists deficit spending, border security, traditional values, constitutional adherence and energy dominance as his legislative priorities.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Lists border security as a legislative priority; sits on the Homeland Security Committee's Border Security, Facilitation, and Operations Subcommittee.",
+          "sources": ["s3", "s2"]
+        }
+      ],
+      "record": [],
+      "website": "https://brecheen.house.gov",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals are added separately. His official site lists legislative priority categories (deficit spending, border security, traditional values, constitutional adherence, energy dominance) without accompanying position statements or press releases explaining each in detail; only border security could be tied to a specific documented action (committee assignment).",
+      "bioguideId": "B001317"
+    },
+    {
+      "id": "brandon-wade",
+      "name": "Brandon Wade",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the June 16, 2026 Democratic primary",
+      "summary": {
+        "text": "Brandon Wade is a union committee chairman in the oil industry from Washington County, running as the Democratic candidate on a message of bipartisan representation and protecting reproductive rights.",
+        "sources": ["s4"]
+      },
+      "background": [
+        { "text": "Born in Bartlesville, Oklahoma; earned a high school diploma from Copan High School.", "sources": ["s4"] },
+        { "text": "Career experience as a laborer in the oil industry; has served as union committee chairman and executive board member (Vice President) for IUOE Local 351.", "sources": ["s4"] }
+      ],
+      "priorities": [
+        { "text": "\"Returning Real Representation to our Congress\" by listening to voters of all parties rather than following party lines.", "quote": "Returning Real Representation to our Congress. To do this we must listen to all voters, from all parties.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he is passionate about restoring women's rights to make their own healthcare decisions.",
+          "quote": "Restoring our women’s rights. We must make sure that our women have the right to privacy in their healthcare and our able to make their own decisions about their health and bodies.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "No campaign website located; positions drawn from his Ballotpedia Candidate Connection survey."
+    },
+    {
+      "id": "ronnie-hopkins",
+      "name": "Ronnie Hopkins",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Ronnie Hopkins is an independent candidate for Oklahoma's 2nd Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Ballotpedia biography page, campaign website, or Candidate Connection survey response found."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Oklahoma,_2026",
+      "title": "United States House of Representatives elections in Oklahoma, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Josh_Brecheen",
+      "title": "Josh Brecheen",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://brecheen.house.gov/issues",
+      "title": "Legislative Priorities",
+      "publisher": "Office of Rep. Josh Brecheen",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Brandon_Wade",
+      "title": "Brandon Wade",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2025-01-01"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}
