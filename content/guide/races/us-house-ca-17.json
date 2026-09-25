@@ -39,13 +39,97 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists an innovation-driven, diversified economy as a priority, including advanced manufacturing, high-tech apprenticeships and worker training, and boosting clean steel manufacturing.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says expanding affordable child care is a priority, citing his role as a co-founder of the Congressional Bipartisan Affordable Childcare Caucus working toward $10-per-day child care with family-supporting wages for child-care workers.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Lists protecting Social Security, Medicare, and Medicaid, and lowering prescription drug costs, as priorities for health care and the social safety net.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supports a woman's right to choose and access to affordable health care.",
+          "quote": "I support a woman's right to choose and I will continue to push for accessible and affordable health care for all.",
+          "sources": ["s10"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports requiring background checks for all gun sales and voted for a federal assault weapons ban.",
+          "quote": "Congress should also pass a federal assault weapons ban, which I was proud to vote for in the House.",
+          "sources": ["s11"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Has introduced resolutions calling for reform and oversight of ICE and CBP conduct, and supports pathways to legal status rather than broader enforcement.",
+          "quote": "Undocumented immigrants contribute to American society and we must protect their legal rights and status. I will advocate for legal status for DREAMers, pathways to citizenship for productive adults, family reunification visas, guest worker visa programs, and asylum for refugees.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports creating a single-payer health care system (Medicare for All) to expand coverage and lower costs.",
+          "quote": "I support the creation of a single-payer health care system, or Medicare for All. We must increase coverage, support small businesses, expand primary care, and lower premiums.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports repealing fossil fuel subsidies, closing fracking loopholes, and banning fracking on public lands as part of a shift to renewable energy.",
+          "quote": "I support legislation to repeal fossil fuel subsidies and close loopholes for fracking that exempt Big Oil companies from clean water and air regulations. I also support a ban on fracking on public lands.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Supports funding to help law enforcement do their jobs and has backed legislation investing in community policing and hiring capacity.",
+          "quote": "I have been proud to support bipartisan legislation to invest in community policing and support increasing funding and hiring capacity.",
+          "sources": ["s11"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports raising the hourly minimum wage to at least $17 per hour.",
+          "quote": "I also support paid family leave, training programs for mid-career workers, and increasing the hourly minimum wage to at least $17 per hour.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, the Committee on Oversight and Government Reform (Cybersecurity, Information Technology, and Government Innovation; Economic Growth, Energy Policy, and Regulatory Affairs subcommittees), and the House Committee on Armed Services (Cyber Information Technologies and Innovation; Seapower and Projection Forces subcommittees) in the 119th Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the End ICE Abuse Resolution asserting Congress's authority over immigration enforcement funding and calling for oversight of federal immigration agencies.",
+          "kind": "bill",
+          "date": "2026-02-02",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Co-authored the CHIPS and Science Act, which funds domestic semiconductor manufacturing.",
+          "kind": "bill",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Introduced the American Housing and Economic Mobility Act, which would leverage federal funding to build up to 3.2 million new housing units for lower-income and middle-class families.",
+          "kind": "bill",
+          "sources": ["s12"]
+        },
+        {
+          "text": "Was an original cosponsor of the George Floyd Justice in Policing Act, which included his PEACE Act provisions to ban chokeholds and no-knock warrants.",
+          "kind": "bill",
+          "sources": ["s11"]
         }
       ],
       "researchDepth": "basic",
