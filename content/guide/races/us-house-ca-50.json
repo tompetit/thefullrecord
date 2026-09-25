@@ -1,0 +1,94 @@
+{
+  "id": "us-house-ca-50",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "50",
+  "title": "U.S. House · California's 50th District",
+  "area": "Coastal and central San Diego, including the City of San Diego and nearby communities.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The district's boundaries changed as a result of California Proposition 50, a mid-decade congressional redistricting measure voters approved on November 5, 2025.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Incumbent Scott Peters and Steve Cohen advanced from the June 2, 2026 top-two primary. Peters won 48.1% of the primary vote (102,057 votes) and Cohen won 39.8% (84,340 votes); other candidates included Aishwarya Mitra, Tim Arnous, Joseph Shea and Lucinda Jahn.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "scott-peters",
+      "name": "Scott Peters",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 2, 2026 top-two primary with 48.1% of the vote.",
+      "currentRole": "U.S. Representative, CA-50 (since 2013)",
+      "summary": {
+        "text": "Scott Peters is the incumbent Democratic U.S. Representative, first elected to Congress in 2012. He previously served on the San Diego City Council from 2000 to 2008, including as council president from 2006 to 2008, and worked as an economist for the Environmental Protection Agency and as an attorney.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Springfield, Ohio, in 1958.", "sources": ["s2"] },
+        { "text": "Earned a bachelor's degree in political science and economics from Duke University in 1980 and a J.D. from New York University School of Law in 1984.", "sources": ["s2"] },
+        { "text": "Worked as an economist for the U.S. Environmental Protection Agency and as an attorney before entering politics.", "sources": ["s2"] },
+        { "text": "Served on the San Diego City Council from 2000 to 2008, serving as council president from 2006 to 2008.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Energy and Commerce (Communications and Technology and Energy subcommittees) and the House Committee on Budget for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Joint Economic Committee during the 117th Congress (2021-2022) in addition to the Committee on Energy and Commerce and Committee on Budget.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Peters has not completed Ballotpedia's 2026 Candidate Connection survey, and no campaign-website issue statements could be retrieved in this environment, so no sourced issue positions are included."
+    },
+    {
+      "id": "steve-cohen",
+      "name": "Steve Cohen",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary with 39.8% of the vote.",
+      "summary": {
+        "text": "Steve Cohen is the Republican candidate for CA-50 who advanced from the June 2026 primary. Ballotpedia records no completed Candidate Connection survey or staff-compiled profile for him, and FEC data as of June 30, 2026 showed no reported receipts or disbursements for his campaign.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, news coverage, or Ballotpedia Candidate Connection survey responses could be found for Steve Cohen in this environment. FEC records as of June 30, 2026 showed no reported receipts or disbursements."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/California%27s_50th_Congressional_District_election,_2026",
+      "title": "California's 50th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Scott_Peters",
+      "title": "Scott Peters",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress."
+}
