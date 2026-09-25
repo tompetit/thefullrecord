@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { REPO_URL } from "@/lib/site";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { SourceLink } from "@/components/SourceLink";
 import { VoteBadge } from "@/components/VoteBadge";
@@ -101,7 +102,10 @@ export default async function Home() {
         </div>
         <p className="mx-auto mt-4 max-w-6xl font-sans text-xs leading-[1.6] text-ink-45">
           {stats.trustLine}. Every claim on this site links to the primary
-          source. Non-partisan · no scores, no grades.
+          source. Non-partisan · no scores, no grades.{" "}
+          <a href={REPO_URL} className="underline hover:text-ink">
+            Open source on GitHub
+          </a>
         </p>
       </footer>
     </main>

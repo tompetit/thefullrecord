@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { REPO_URL } from "@/lib/site";
 import type {
   Cited,
   GuideRace,
@@ -234,7 +235,11 @@ export function GuideFooter() {
         ·{" "}
         <Link href="/" className="underline hover:text-ink">
           Your current representatives
-        </Link>
+        </Link>{" "}
+        ·{" "}
+        <a href={REPO_URL} className="underline hover:text-ink">
+          Open source on GitHub
+        </a>
       </div>
     </footer>
   );
