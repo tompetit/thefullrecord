@@ -1,0 +1,116 @@
+{
+  "id": "us-house-mi-11",
+  "state": "MI",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "11",
+  "title": "U.S. House · Michigan's 11th District",
+  "area": "Oakland County, including Southfield, Troy, Farmington Hills and surrounding suburbs.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat with no incumbent on the ballot. Democratic state Sen. Jeremy Moss and Republican former Troy Mayor Ethan Baker advanced from contested primaries.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jeremy-moss",
+      "name": "Jeremy Moss",
+      "parties": ["D"],
+      "incumbent": false,
+      "currentRole": "Michigan State Senator, District 7 (not seeking re-election to that seat)",
+      "summary": {
+        "text": "Jeremy Moss is a Michigan state senator representing Southfield-area District 7, campaigning for this open U.S. House seat on healthcare costs, the cost of living and opposition to Trump administration immigration enforcement.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {"text": "Lives in Southfield, Michigan; earned a bachelor's degree in journalism from Michigan State University.", "sources": ["s2"]},
+        {"text": "Served on the Southfield City Council before his election to the Michigan State Senate.", "sources": ["s2"]},
+        {"text": "In the Michigan Senate, chairs the Elections Committee and the Senate Regulatory Reform Committee (2025-2026).", "sources": ["s2"]}
+      ],
+      "priorities": [
+        {"text": "Lowering healthcare costs and restoring federal Medicaid and SNAP funding.", "quote": "In the State Senate, I protected Michigan from the harshest cuts by restoring funding to Medicaid and SNAP, and enshrined Obamacare in state law when it was under attack in Washington... I strongly support a robust public option as a pathway to universal coverage.", "sources": ["s2b"]},
+        {"text": "Addressing the cost of living, including housing, tariffs and corporate price gouging.", "quote": "We are facing an affordability crisis, from groceries and gas to healthcare and childcare... Congress must overturn the devastating impacts of Trump's big awful bill that have increased costs on Michigan families.", "sources": ["s2b"]},
+        {"text": "Overhauling federal immigration enforcement while securing the border.", "quote": "The cruelty and chaos caused by ICE cannot be repaired or reformed under Donald Trump and the agency must be dismantled... We can both secure our border without allowing officers posing as masked vigilantes to erode due process and civil liberties.", "sources": ["s2b"]}
+      ],
+      "positions": [
+        {"issue": "healthcare_public", "stance": "supports", "summary": "Supports a robust public option as a pathway to universal healthcare coverage.", "quote": "I strongly support a robust public option as a pathway to universal coverage.", "sources": ["s2b"]},
+        {"issue": "tariffs", "stance": "opposes", "summary": "Opposes the Trump administration's tariff policy, saying it has raised consumer prices.", "quote": "Stopping the chaotic tariff policy: Michigan's economy depends on stable supply chains and strong international partnerships. A tariff policy that changes by the month has only raised prices for consumers and hurt workers and small businesses.", "sources": ["s2b"]},
+        {"issue": "immigration_enforcement", "stance": "opposes", "summary": "Says ICE should be dismantled and reformed, and supports legal pathways to citizenship for DACA recipients and long-term undocumented residents, while saying the border should still be secured.", "quote": "We must create legal pathways to citizenship for those protected under DACA and for undocumented immigrants with long-standing ties to the US.", "sources": ["s2b"]},
+        {"issue": "universal_childcare", "stance": "supports", "summary": "Supports expanding access to pre-K and Head Start programs.", "quote": "Investing in pre-K and headstart programs: Families should not have to choose between paying the bills and caring for their children. Expanding access to pre-K and Head Start programs would give every child a strong foundation for success.", "sources": ["s2b"]}
+      ],
+      "record": [
+        {"text": "Chairs the Michigan Senate Elections Committee and the Senate Regulatory Reform Committee for the 2025-2026 session; also serves on the Economic and Small Business Development and Local Government committees.", "kind": "action", "sources": ["s2"]}
+      ],
+      "website": "https://votejeremymoss.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "ethan-baker",
+      "name": "Ethan Baker",
+      "parties": ["R"],
+      "incumbent": false,
+      "currentRole": "Former Mayor of Troy, Michigan",
+      "summary": {
+        "text": "Ethan Baker is a former mayor of Troy who has held state and local government roles and is running on a message of bipartisan tone and reducing political division.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {"text": "Earned a bachelor's degree in political science from the University of Southern California, a master's degree in public affairs from the University of Michigan's Ford School of Public Policy, and a law degree from Whittier College School of Law.", "sources": ["s3"]},
+        {"text": "Worked as a special assistant to President Ronald Reagan, then as an attorney and law-practice owner.", "sources": ["s3"]},
+        {"text": "Served as mayor of Troy, Michigan, and as chair and U.S. Commissioner for the Great Lakes Fishery Commission.", "sources": ["s3"]}
+      ],
+      "priorities": [
+        {"text": "Says he is running to reduce political division and bring a more respectful, solutions-focused tone to Congress.", "quote": "The issues we're facing—cost of living, economic uncertainty, local jobs, infrastructure, our mental and physical health, and safety at home and abroad—need to be addressed now and are too important to be handled through division alone.", "sources": ["s3b"]}
+      ],
+      "positions": [],
+      "record": [
+        {"text": "Served as Mayor of Troy, Michigan.", "kind": "action", "sources": ["s3"]},
+        {"text": "Served as chair and U.S. Commissioner for the Great Lakes Fishery Commission.", "kind": "action", "sources": ["s3"]}
+      ],
+      "website": "https://www.bakerforcongress.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Baker's campaign website statement quoted by Ballotpedia focuses on tone and bipartisanship rather than specific policy positions; no statements matching the guide's fixed issue list were found."
+    },
+    {
+      "id": "ryan-teasdale",
+      "name": "Ryan Teasdale",
+      "parties": ["G"],
+      "incumbent": false,
+      "summary": {"text": "Ryan Teasdale is the Green Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+    },
+    {
+      "id": "farid-ishac",
+      "name": "Farid Ishac",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "summary": {"text": "Farid Ishac is the Libertarian Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+    },
+    {
+      "id": "anil-kumar",
+      "name": "Anil Kumar",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {"text": "Anil Kumar is an independent candidate on the November general-election ballot for this district, after also running in the Democratic primary.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+    }
+  ],
+  "sources": [
+    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026", "title": "United States House of Representatives elections in Michigan, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2", "url": "https://ballotpedia.org/Jeremy_Moss", "title": "Jeremy Moss", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2b", "url": "https://votejeremymoss.com", "title": "Moss' campaign website statement (quoted by Ballotpedia)", "publisher": "Jeremy Moss for Congress / Ballotpedia", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s3", "url": "https://ballotpedia.org/Ethan_Baker", "title": "Ethan Baker", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s3b", "url": "https://www.bakerforcongress.com/", "title": "Baker's campaign website statement (quoted by Ballotpedia)", "publisher": "Ethan Baker for Congress / Ballotpedia", "kind": "candidate", "date": "2026-09-25"}
+  ],
+  "researchedAt": "2026-09-25"
+}
