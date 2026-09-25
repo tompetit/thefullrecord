@@ -11,38 +11,54 @@
   "context": [
     {
       "text": "Aaron Gies defeated Kevin Stocker in the June 23, 2026 Democratic primary, 70.7%-27.9%. The Republican and Conservative primaries were canceled; incumbent Nick Langworthy advanced without appearing on either ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "nick-langworthy",
       "name": "Nick Langworthy",
-      "parties": ["R", "C"],
+      "parties": [
+        "R",
+        "C"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, NY-23 (since 2023)",
       "summary": {
         "text": "Nick Langworthy is the Republican and Conservative incumbent, a former chairman of the New York Republican State Committee and Erie County Republican Party first elected to the House in 2022. He chairs the Rules Committee's Legislative and Budget Process Subcommittee and also serves on Oversight and Government Reform and Energy and Commerce.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in political science and government from Niagara University in 2003.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a congressional staffer, including as district director for Rep. Chris Lee, and as president of Liberty Opinion Research.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as chairman of the New York Republican State Committee and the Erie County Republican Party before his election to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Describes his focus as protecting constitutional rights and what his campaign materials call the values that make America a strong and prosperous country.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [],
@@ -50,7 +66,9 @@
         {
           "text": "Serves on the House Committee on Oversight and Government Reform, the Committee on Energy and Commerce (Health, Energy and Environment subcommittees), and chairs the Legislative and Budget Process Subcommittee of the Committee on Rules in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.nicklangworthy.com",
@@ -59,19 +77,132 @@
     {
       "id": "aaron-gies",
       "name": "Aaron Gies",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 23, 2026 Democratic primary",
       "summary": {
-        "text": "Aaron Gies is the Democratic and Working Families Party nominee challenging incumbent Nick Langworthy. Little independent biographical or issue information was found; Ballotpedia lists no completed candidate survey and his campaign website was unreachable.",
-        "sources": ["s1"]
+        "text": "Aaron Gies, a St. Bonaventure University theology professor, is the Democratic and Working Families Party nominee challenging incumbent Rep. Nick Langworthy in NY-23, running on affordability, universal healthcare, and rebuilding rural infrastructure.",
+        "sources": [
+          "s3"
+        ]
       },
-      "background": [],
-      "priorities": [],
-      "positions": [],
+      "background": [
+        {
+          "text": "Gies says he was raised in a working family; his father ran a small contracting business and his mother worked as a school secretary.",
+          "quote": "I was raised in a working family. My father ran a small contracting business. My mother worked as a school secretary.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "He describes his career as including work as a teacher, a nonprofit leader, and roles waiting tables, doing bookkeeping for a Main Street business, and working on a nonprofit farm.",
+          "quote": "I've spent my life serving communities — as a teacher, nonprofit leader, and person of faith.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his central campaign message is that a good life should be affordable, citing rising costs, wages that have not kept pace, and corporations getting special treatment.",
+          "quote": "A good life should not be a luxury.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Supports building a universal healthcare system, lowering prescription drug costs, and protecting rural hospitals and nursing homes.",
+          "quote": "Aaron supports building a universal healthcare system that guarantees stable, accessible, cost-effective basic care for every American.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he would raise the federal minimum wage, strengthen unions and worker protections, and oppose tax breaks and deregulation for large corporations.",
+          "quote": "Instead of tax breaks and deregulation for large corporations, Aaron supports raising wages and strengthening workers' bargaining power.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he would work to expand housing supply across the district to bring down costs and support local redevelopment.",
+          "quote": "Expand housing supply to drive down costs.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supports codifying Roe v. Wade's abortion protections into federal law and would oppose a national abortion ban.",
+          "quote": "I support codifying the protections of Roe into law and would vote no on any attempted national abortion ban.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports universal background checks and red-flag laws while also affirming Second Amendment rights.",
+          "quote": "I support universal background checks and red flag laws to keep guns out of the hands of those who are likely to use them to commit crimes.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports secure borders and consistent enforcement, but pairs that with due process for undocumented people and a new guest-worker program rather than enforcement alone.",
+          "quote": "I support strong, secure borders and fair treatment for law-abiding immigrants... Real reform should include a fair process for new entries, due process for undocumented people, a guest worker program that serves our country's economic needs, and consistent enforcement.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports building a universal healthcare system covering basic care for every American.",
+          "quote": "Aaron supports building a universal healthcare system that guarantees stable, accessible, cost-effective basic care for every American.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says he would work with local governments to make it easier to build housing and expand housing supply to lower costs.",
+          "quote": "Expand housing supply to drive down costs.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Calls for an immediate increase in the federal minimum wage.",
+          "quote": "Raise the federal minimum wage to $15 immediately.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports renewable energy development and opposes new fracking and nuclear projects.",
+          "quote": "Renewable energy makes us more resilient and energy independent and I'll fight for federal dollars for these projects... I oppose irresponsible data center buildout, fracking and new nuclear projects.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://aaronforny23.com",
-      "researchDepth": "minimal"
+      "researchDepth": "full"
     }
   ],
   "sources": [
@@ -90,8 +221,16 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://web.archive.org/web/20260918112820/https://aaronforny23.com/",
+      "title": "Aaron Gies for Congress (archived Sept. 18, 2026)",
+      "publisher": "Aaron Gies for Congress campaign website (via Internet Archive)",
+      "kind": "candidate",
+      "date": "2026-09-18"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website content, candidate survey, or independent coverage of Aaron Gies's biography or positions was accessible (researchDepth: minimal); his Ballotpedia page has no biography section and his campaign site blocked automated access. Federal key votes and FEC totals for incumbent Nick Langworthy are added separately by script."
+  "researchNotes": "Gies's campaign website (aaronforny23.com) blocked automated access directly, but an Internet Archive snapshot from September 18, 2026 (cited above) supplied biography, priorities and positions. His Ballotpedia page still has no biography section and no completed Candidate Connection survey. Federal key votes and FEC totals for incumbent Nick Langworthy are added separately by script."
 }

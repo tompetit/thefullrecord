@@ -38,7 +38,9 @@ function Comparison({ race }: { race: GuideRace }) {
     <section className="mt-10">
       <SectionLabel>Where they stand — side by side</SectionLabel>
       <p className="mt-1 font-sans text-[12.5px] text-ink-60">
-        Only positions documented in a cited source are shown. A dash means we
+        Only positions documented in a cited source are shown. Where an
+        officeholder&rsquo;s recorded votes speak to an issue, the votes set the position
+        (marked &ldquo;votes&rdquo;). A dash means we
         found no clear public position — not that the candidate has none.
       </p>
       <div className="mt-3 overflow-x-auto rounded-lg border border-card bg-paper-raised">
@@ -74,6 +76,11 @@ function Comparison({ race }: { race: GuideRace }) {
                         <span className="inline-flex items-center">
                           <StanceChip stance={p.stance} />
                           <Cites ids={p.sources} race={race} />
+                          {p.basis === "votes" && (
+                            <span className="ml-1 font-mono text-[9.5px] uppercase tracking-[0.06em] text-ink-45">
+                              votes{p.stated && p.stated.stance !== p.stance ? " · says otherwise" : ""}
+                            </span>
+                          )}
                         </span>
                       ) : (
                         <span className="text-ink-35">—</span>

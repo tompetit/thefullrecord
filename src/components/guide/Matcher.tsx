@@ -44,7 +44,8 @@ function scoreCandidate(c: GuideRace["candidates"][number], answers: Answers): S
     const p = c.positions.find((x) => x.issue === issue);
     if (!p) continue;
     documented++;
-    const w = a.important ? 2 : 1;
+    // Recorded votes count for more than campaign statements.
+    const w = (a.important ? 2 : 1) * (p.basis === "votes" ? 1.5 : 1);
     weight += w;
     matched += w * agreement(a.view, p.stance);
   }
@@ -169,7 +170,9 @@ export function Matcher({ races, placeLabel }: { races: GuideRace[]; placeLabel:
         <p className="mt-1 font-sans text-[13px] leading-[1.55] text-ink-60">
           This is not a recommendation. It compares your answers only with
           positions we could document from a cited source. A candidate&rsquo;s
-          silence on an issue counts neither for nor against them — and a vote
+          silence on an issue counts neither for nor against them. Where an
+          officeholder&rsquo;s recorded votes speak to an issue, the votes set the
+          position and count 1.5&times; as much as a campaign statement. And a vote
           is about more than issue positions.
         </p>
         {answeredCount === 0 ? (
@@ -223,7 +226,7 @@ export function Matcher({ races, placeLabel }: { races: GuideRace[]; placeLabel:
                                 <span className="w-12 text-right font-sans text-[12.5px] font-bold text-ink-80">{pct}%</span>
                               </div>
                               <p className="mt-1 font-sans text-[12px] text-ink-60">
-                                Agrees with you on {Number.isInteger(s.matched) ? s.matched : s.matched.toFixed(1)} of {s.weight} weighted
+                                Agrees with you on {Number.isInteger(s.matched) ? s.matched : s.matched.toFixed(1)} of {Number.isInteger(s.weight) ? s.weight : s.weight.toFixed(1)} weighted
                                 points · position on record for {s.documented} of your {s.answeredTotal} issues
                               </p>
                               {s.documented < 3 && (
@@ -244,6 +247,7 @@ export function Matcher({ races, placeLabel }: { races: GuideRace[]; placeLabel:
                                         <span className="text-ink-45">
                                           · {VIEW_LABEL[a.view]}
                                           {a.important ? " ★" : ""} · {p ? STANCE_LABEL[p.stance] : "No position on record"}
+                                          {p?.basis === "votes" ? " (from votes)" : ""}
                                         </span>
                                         {p && (
                                           <span className="block text-ink-60">

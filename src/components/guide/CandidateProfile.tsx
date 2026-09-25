@@ -128,6 +128,8 @@ export function FinanceLine({ candidate }: { candidate: GuideCandidate }) {
 }
 
 /** The full sourced profile of one candidate. */
+const STANCE_WORD = { supports: "supports", opposes: "opposes", mixed: "mixed" } as const;
+
 export function CandidateProfile({
   race,
   candidate: c,
@@ -173,42 +175,6 @@ export function CandidateProfile({
         <p className="mt-2 font-sans text-[11.5px] italic text-ink-45">{depthNote}</p>
       )}
 
-      {c.priorities.length > 0 && (
-        <Block title="In their words — priorities">
-          <ul className="flex flex-col gap-2">
-            {c.priorities.map((p, i) => (
-              <li key={i} className="border-l-2 border-card-strong pl-3 font-sans text-[13.5px] leading-[1.55] text-ink-80">
-                <CitedText c={p} race={race} />
-              </li>
-            ))}
-          </ul>
-        </Block>
-      )}
-
-      {c.positions.length > 0 && (
-        <Block title="Positions on the issues">
-          <ul className="flex flex-col gap-3">
-            {c.positions.map((p) => (
-              <li key={p.issue} className="font-sans text-[13px] leading-[1.5] text-ink-80">
-                <div className="flex flex-wrap items-center gap-2">
-                  <StanceChip stance={p.stance} />
-                  <span className="font-semibold text-ink">{ISSUES[p.issue]}</span>
-                </div>
-                <p className="mt-1">
-                  {p.summary}
-                  <Cites ids={p.sources} race={race} />
-                </p>
-                {p.quote && (
-                  <blockquote className="mt-1 font-serif text-[14px] italic leading-[1.5] text-ink-60">
-                    “{p.quote}”
-                  </blockquote>
-                )}
-              </li>
-            ))}
-          </ul>
-        </Block>
-      )}
-
       {(c.keyVotes?.length ?? 0) > 0 && (
         <Block title="Key votes in Congress (2025–26)">
           <KeyVoteList candidate={c} />
@@ -237,6 +203,66 @@ export function CandidateProfile({
                   {r.date && <span className="text-ink-45">{r.date} · </span>}
                   <CitedText c={r} race={race} />
                 </span>
+              </li>
+            ))}
+          </ul>
+        </Block>
+      )}
+
+      {c.positions.length > 0 && (
+        <Block title="Positions on the issues">
+          <ul className="flex flex-col gap-3">
+            {c.positions.map((p) => (
+              <li key={p.issue} className="font-sans text-[13px] leading-[1.5] text-ink-80">
+                <div className="flex flex-wrap items-center gap-2">
+                  <StanceChip stance={p.stance} />
+                  <span className="font-semibold text-ink">{ISSUES[p.issue]}</span>
+                  {p.basis === "votes" && (
+                    <span className="rounded-sm border border-card-strong px-1.5 py-px font-mono text-[10px] uppercase tracking-[0.08em] text-ink-60">
+                      From recorded votes
+                    </span>
+                  )}
+                </div>
+                <p className="mt-1">
+                  {p.summary}
+                  <Cites ids={p.sources} race={race} />
+                </p>
+                {p.quote && (
+                  <blockquote className="mt-1 font-serif text-[14px] italic leading-[1.5] text-ink-60">
+                    “{p.quote}”
+                  </blockquote>
+                )}
+                {p.stated && (
+                  <div className="mt-2 border-l-2 border-card-strong pl-3">
+                    <p className="text-[12.5px] text-ink-60">
+                      <span className="font-semibold text-ink-80">What they say: </span>
+                      {p.stated.stance !== p.stance && (
+                        <span className="font-semibold text-ink">
+                          (their stated position — {STANCE_WORD[p.stated.stance]} — differs from their votes) {" "}
+                        </span>
+                      )}
+                      {p.stated.summary}
+                      <Cites ids={p.stated.sources} race={race} />
+                    </p>
+                    {p.stated.quote && (
+                      <blockquote className="mt-1 font-serif text-[13px] italic leading-[1.5] text-ink-60">
+                        “{p.stated.quote}”
+                      </blockquote>
+                    )}
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
+        </Block>
+      )}
+
+      {c.priorities.length > 0 && (
+        <Block title="In their words — priorities">
+          <ul className="flex flex-col gap-2">
+            {c.priorities.map((p, i) => (
+              <li key={i} className="border-l-2 border-card-strong pl-3 font-sans text-[13.5px] leading-[1.55] text-ink-80">
+                <CitedText c={p} race={race} />
               </li>
             ))}
           </ul>

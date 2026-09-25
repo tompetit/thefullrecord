@@ -13,6 +13,7 @@ import type {
   IssueKey,
   KeyVote,
   OfficeType,
+  Position,
   Stance,
   StateVote,
 } from "./types";
@@ -68,50 +69,95 @@ export function getKeyVoteDefs(): KeyVoteDef[] {
  * Key votes that speak directly to an issue statement. A yes vote maps to
  * `yes`; a no vote to the opposite stance. Only unambiguous pairings.
  */
-const VOTE_ISSUES: Record<string, { issue: IssueKey; yes: Stance }> = {
-  "h-2025-23": { issue: "immigration_enforcement", yes: "supports" },
-  "s-2025-7": { issue: "immigration_enforcement", yes: "supports" },
-  "h-2026-11": { issue: "healthcare_public", yes: "supports" },
-  "h-2026-65": { issue: "tariffs", yes: "opposes" },
-  "s-2025-225": { issue: "tariffs", yes: "opposes" },
-  "s-2025-600": { issue: "tariffs", yes: "opposes" },
+type VoteIssue = { issue: IssueKey; yes: Stance; why?: string };
+
+const OBBBA: VoteIssue[] = [
+  { issue: "healthcare_public", yes: "opposes", why: "which reduced federal Medicaid spending and added Medicaid work requirements" },
+  { issue: "immigration_enforcement", yes: "supports", why: "which funded expanded immigration enforcement, detention and border operations" },
+  { issue: "climate", yes: "opposes", why: "which phased out Inflation Reduction Act clean-energy tax credits" },
+  { issue: "tax_wealthy", yes: "opposes", why: "which made the 2017 individual tax rates, including the 37% top rate, permanent" },
+];
+
+/** Key votes that bear directly on an ISSUES statement. `why` names the provision. */
+const VOTE_ISSUES: Record<string, VoteIssue[]> = {
+  "h-2025-23": [{ issue: "immigration_enforcement", yes: "supports" }],
+  "s-2025-7": [{ issue: "immigration_enforcement", yes: "supports" }],
+  "h-2026-11": [{ issue: "healthcare_public", yes: "supports" }],
+  "h-2026-65": [{ issue: "tariffs", yes: "opposes" }],
+  "s-2025-225": [{ issue: "tariffs", yes: "opposes" }],
+  "s-2025-600": [{ issue: "tariffs", yes: "opposes" }],
+  "h-2025-145": OBBBA,
+  "h-2025-190": OBBBA,
+  "s-2025-372": OBBBA,
 };
 
-/** Add vote-derived positions for issues the research didn't already document. */
+const BILL_SOURCES: Record<string, { id: string; url: string; title: string }> = {
+  "H.R. 1": {
+    id: "bill-hr1-119",
+    url: "https://www.congress.gov/bill/119th-congress/house-bill/1",
+    title: "H.R. 1 (119th Congress) — One Big Beautiful Bill Act: text and summary",
+  },
+};
+
+/**
+ * Recorded floor votes outrank campaign statements: where key votes bear on an
+ * issue, the vote-derived stance becomes the position, and any stated position
+ * on the same issue is kept alongside it as `stated`.
+ */
 function addVotePositions(race: GuideRace, c: GuideCandidate) {
   const defs = new Map(getKeyVoteDefs().map((d) => [d.id, d]));
-  const byIssue = new Map<IssueKey, Array<{ stance: Stance; def: KeyVoteDef; vote: string }>>();
+  const byIssue = new Map<IssueKey, Array<{ stance: Stance; def: KeyVoteDef; vote: string; why?: string }>>();
   for (const kv of c.keyVotes ?? []) {
-    const map = VOTE_ISSUES[kv.voteId];
     const def = defs.get(kv.voteId);
-    if (!map || !def || (kv.vote !== "yes" && kv.vote !== "no")) continue;
-    const stance: Stance = kv.vote === "yes" ? map.yes : map.yes === "supports" ? "opposes" : "supports";
-    byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { stance, def, vote: kv.vote }]);
+    if (!def || (kv.vote !== "yes" && kv.vote !== "no")) continue;
+    for (const map of VOTE_ISSUES[kv.voteId] ?? []) {
+      const stance: Stance = kv.vote === "yes" ? map.yes : map.yes === "supports" ? "opposes" : "supports";
+      byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { stance, def, vote: kv.vote, why: map.why }]);
+    }
   }
+  const addSource = (src: GuideRace["sources"][number]) => {
+    if (!race.sources.some((s) => s.id === src.id)) race.sources.push(src);
+    return src.id;
+  };
   for (const [issue, votes] of byIssue) {
-    if (c.positions.some((p) => p.issue === issue)) continue;
-    const stances = new Set(votes.map((v) => v.stance));
-    const sourceIds = votes.map(({ def }) => {
-      const id = `kv-${def.id}`;
-      if (!race.sources.some((s) => s.id === id))
-        race.sources.push({
-          id,
+    const sourceIds = new Set<string>();
+    for (const { def } of votes) {
+      sourceIds.add(
+        addSource({
+          id: `kv-${def.id}`,
           url: def.sourceUrl,
           title: `Roll call: ${def.shortTitle}`,
           publisher: def.chamber === "house" ? "Office of the Clerk, U.S. House" : "U.S. Senate",
           kind: "official",
           date: def.date,
-        });
-      return id;
-    });
-    c.positions.push({
+        }),
+      );
+      const bill = BILL_SOURCES[def.bill];
+      if (bill && votes.some((v) => v.why)) sourceIds.add(addSource({ ...bill, publisher: "Congress.gov", kind: "official" }));
+    }
+    const stances = new Set(votes.map((v) => v.stance));
+    // One sentence per bill (House and Senate passage of the same bill read as one line).
+    const seen = new Set<string>();
+    const lines: string[] = [];
+    for (const { def, vote, why } of votes) {
+      const k = `${def.bill}|${vote}`;
+      if (seen.has(k)) continue;
+      seen.add(k);
+      const dates = votes.filter((v) => v.def.bill === def.bill && v.vote === vote).map((v) => v.def.date);
+      lines.push(`Voted ${vote} on ${def.shortTitle.replace(/ — .*$/, "")} (${def.bill}, ${dates.join("; ")})${why ? `, ${why}` : ""}.`);
+    }
+    const existing = c.positions.findIndex((p) => p.issue === issue);
+    const prior = existing >= 0 ? c.positions[existing] : undefined;
+    const pos: Position = {
       issue,
       stance: stances.size === 1 ? votes[0].stance : "mixed",
-      summary: votes
-        .map(({ def, vote }) => `Voted ${vote} on ${def.shortTitle.replace(/ — .*$/, "")} (${def.bill}, ${def.date}).`)
-        .join(" "),
-      sources: sourceIds,
-    });
+      summary: lines.join(" "),
+      sources: [...sourceIds],
+      basis: "votes",
+      ...(prior ? { stated: { stance: prior.stance, summary: prior.summary, quote: prior.quote, sources: prior.sources } } : {}),
+    };
+    if (existing >= 0) c.positions[existing] = pos;
+    else c.positions.push(pos);
   }
 }
 

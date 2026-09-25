@@ -59,6 +59,10 @@ export interface Position {
   /** Verbatim quote, if the source has one */
   quote?: string;
   sources: string[];
+  /** "votes" when derived from recorded floor votes (set by the loader) */
+  basis?: "votes" | "statements";
+  /** When votes set the position, what the candidate has said on the same issue */
+  stated?: { stance: Stance; summary: string; quote?: string; sources: string[] };
 }
 
 export interface RecordItem {

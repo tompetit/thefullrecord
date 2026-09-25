@@ -40,8 +40,50 @@
           "sources": ["s1"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says her number one priority in Congress is ensuring access to high-quality, affordable health care and eliminating cost barriers to care.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says she supports women's rights to the full range of reproductive health services, including access to safe, legal, and affordable abortion.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says she believes the country must achieve a 100% clean energy economy by 2050.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she supports women's rights to the full range of reproductive health services, including access to safe, legal, and affordable abortion, and has voted for legislation to codify Roe v. Wade.",
+          "quote": "Lauren supports women’s rights to the full range of reproductive health services, without restrictions. This includes access to safe, legal, and affordable abortions.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Wrote the Health Care Affordability Act, signed into law as part of the American Rescue Plan and extended by the Inflation Reduction Act, which limits the cost of Affordable Care Act marketplace coverage to 8.5% or less of a household's income.",
+          "quote": "Lauren wrote the Health Care Affordability Act with her constituents top of mind. Signed into law as part of the American Rescue Plan, and later extended through the Inflation Reduction Act, the Health Care Affordability Act limits the cost of health care coverage for people who choose Marketplace plans to eight and a half percent or less of their income.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says the country must achieve a 100% clean energy economy by 2050 and supported the Inflation Reduction Act as the largest climate investment in U.S. history.",
+          "quote": "Lauren believes we must achieve a 100% clean energy economy by 2050. That’s why she supported the Inflation Reduction Act, the single largest climate investment in U.S. history!",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supported House passage of the Bipartisan Background Checks Act and the Enhanced Background Checks Act to establish universal background checks for gun sales and close loopholes.",
+          "quote": "Lauren supported House passage of the Bipartisan Background Checks Act and the Enhanced Background Checks Act to establish universal background checks for all gun sales and close loopholes that make it easy for criminals to buy guns.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Committee on Appropriations (Agriculture, Rural Development, Food and Drug Administration and Related Agencies; Homeland Security).",
@@ -96,8 +138,36 @@
       "title": "James Marter",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://underwoodforcongress.com/healthcare-costs/",
+      "title": "Healthcare Costs",
+      "publisher": "Underwood for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://underwoodforcongress.com/reproductive-freedom/",
+      "title": "Reproductive Freedom",
+      "publisher": "Underwood for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://underwoodforcongress.com/climate-change/",
+      "title": "Climate Change",
+      "publisher": "Underwood for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://underwoodforcongress.com/gun-violence/",
+      "title": "Gun Violence",
+      "publisher": "Underwood for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate has completed the 2026 Ballotpedia Candidate Connection survey with citable statements; no campaign-website issue positions were located within the research budget for this race, so priorities and positions are not documented here."
+  "researchNotes": "James Marter has not completed the 2026 Ballotpedia Candidate Connection survey and no campaign-website issue positions were located for him within the research budget for this race, so his priorities and positions are not documented here. Underwood's official house.gov priorities pages returned a 403 error when fetched; her campaign website was used instead."
 }

@@ -40,13 +40,54 @@
           "sources": ["s1"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says that on the House Agriculture Committee she serves as a voice for small family farmers, working across the aisle to fund crop insurance and pass rural broadband legislation.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says she is a member of the House Freedom Caucus and Republican Study Committee, where she fights for \"conservative, Constitutional principles including the Right to Life, the Second Amendment, and ballot security.\"",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says she has opposed the Biden administration's \"red-flag\" gun measures and identifies as a strong supporter of Second Amendment rights.",
+          "quote": "Mary is the only member of Congress from Illinois to oppose every aspect of the Biden-Pelosi agenda, including the disgraceful January 6th “witch hunt” Commission, President Biden’s “red-flag” gun confiscation measures, COVID vaccine mandates and databases, and taxpayer-funded chemical abortion.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Opposed the Green New Deal by name, saying it would raise fuel costs and impoverish rural families.",
+          "quote": "The Green New Deal would raise the cost of motor fuel and would impoverish rural families. Mary Miller will fight to protect rural residents by opposing radical ideas like the Green New Deal.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Her 2020 campaign website said she supports building a wall on the southern border and supports the Immigration and Customs Enforcement (ICE) agency, while opposing sanctuary cities.",
+          "quote": "Mary Miller OPPOSES sanctuary cities and she SUPPORTS building a wall on our southern border and she SUPPORTS the Immigration and Customs Enforcement (ICE) agency.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the Joint Committee on the Library, the Committee on Agriculture (Nutrition and Foreign Agriculture; Conservation, Research and Biotechnology; General Farm Commodities, Risk Management and Credit; Livestock, Dairy and Poultry), and the Committee on Education and the Workforce.",
           "kind": "action",
           "sources": ["s1"]
+        },
+        {
+          "text": "Introduced legislation to stop the EPA from applying Waters of the United States (WOTUS) regulations to farmers and ranchers, and sponsored legislation to stop foreign entities, including China, from buying U.S. farmland.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Sponsored legislation to allow whole milk back into the school lunch program and worked on rural broadband legislation as a member of the House Agriculture Committee.",
+          "kind": "bill",
+          "sources": ["s3"]
         }
       ],
       "researchDepth": "basic",
@@ -96,8 +137,23 @@
       "title": "Jennifer Todd",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://marymillerforcongress.com/about/",
+      "title": "About",
+      "publisher": "Mary Miller for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Mary_Miller_(Illinois)",
+      "title": "Mary Miller 2020 campaign website (archived via Ballotpedia)",
+      "publisher": "Mary Miller for Congress (2020), via Ballotpedia",
+      "kind": "candidate",
+      "date": "2020-04-10"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate has completed the 2026 Ballotpedia Candidate Connection survey with citable statements; no campaign-website issue positions were located within the research budget for this race, so priorities and positions are not documented here."
+  "researchNotes": "Jennifer Todd has not completed the 2026 Ballotpedia Candidate Connection survey and no campaign-website issue positions were located for her within the research budget for this race. Mary Miller's official house.gov issues pages (marymiller.house.gov/issues) contain only press-release feeds with no issue statements; her current campaign \"About\" page and her archived 2020 campaign website (reproduced on her Ballotpedia page) were used instead for positions on immigration enforcement, which is not restated on her current site."
 }

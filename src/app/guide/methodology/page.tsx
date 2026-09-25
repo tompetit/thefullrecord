@@ -59,16 +59,23 @@ export default function MethodologyPage() {
             &ldquo;Stricter gun laws&rdquo;). A position is recorded only when a source
             shows it directly: the candidate&rsquo;s own statement, a vote, a bill they
             sponsored, or a questionnaire answer. We never infer a position from
-            party. For sitting members of Congress, a few issues are also
-            filled in from unambiguous floor votes (for example, a vote on the
-            Laken Riley Act for immigration enforcement, or on tariff
-            disapproval resolutions for tariffs), labeled with the vote and a
-            link to the roll call. A dash means no clear public position was found — not that the
+            party. <b>Votes outrank words.</b> For sitting members of Congress, where
+            recorded floor votes bear directly on an issue — the Laken Riley Act
+            (immigration enforcement), tariff disapproval resolutions (tariffs), the
+            ACA subsidy extension (public coverage), and the One Big Beautiful Bill
+            Act (its Medicaid reductions, immigration-enforcement funding,
+            clean-energy credit repeal, and permanent 2017 tax rates) — the votes set
+            the position, each linked to the official roll call. What the member
+            says on the same issue is shown beneath it, flagged when it differs
+            from how they voted. For state legislators, contested floor votes are
+            read from the legislature&rsquo;s own records. A dash means no clear
+            public position was found — not that the
             candidate has none.
           </P>
           <P>
             &ldquo;What matters to me&rdquo; compares your answers only with those
-            documented positions. It is not a recommendation, and a
+            documented positions, counting vote-based positions 1.5&times; as much as
+            campaign statements. It is not a recommendation, and a
             candidate&rsquo;s silence on an issue counts neither for nor against them.
           </P>
         </section>
