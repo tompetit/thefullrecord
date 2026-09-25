@@ -1,0 +1,134 @@
+{
+  "id": "us-house-nv-4",
+  "state": "NV",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Nevada's 4th District",
+  "area": "North Las Vegas and a broad swath of rural central and southern Nevada, stretching from the Las Vegas Valley to Pahrump and the state's rural counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Democratic primary was canceled after incumbent Steven Horsford (D) faced no primary challenger and advanced automatically. Cody Whipple won the Republican primary. Independent American Party candidate Russell Best and no-party candidate William Johnson also qualified for the general-election ballot; Gary Steele (No Political Party) withdrew or was disqualified.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "steven-horsford",
+      "name": "Steven Horsford",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019, previously 2013-2015)",
+      "summary": {
+        "text": "Steven Horsford is the Democratic incumbent seeking re-election to U.S. House Nevada District 4, unopposed in a canceled Democratic primary. He is a former Nevada State Senate Majority Leader and former executive director of the Culinary Training Academy of Las Vegas.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Las Vegas, Nevada; graduated from Clark High School and earned a bachelor's degree in political science from the University of Nevada, Reno.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as executive director of the Culinary Training Academy of Las Vegas before being elected to Congress.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the Nevada State Senate from 2004 to 2012, including as Majority Leader from 2009 to 2012.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Currently sits on the House Committee on Ways and Means, including the Health and Social Security subcommittees (2025-2026).",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "His official House website states he is fighting for comprehensive immigration reform and is an original co-sponsor of the American Dream and Promise Act, which would create a path to citizenship for \"Dreamers\" and protect Temporary Protected Status and Deferred Enforced Departure recipients from removal.",
+          "quote": "Congressman Horsford is an original co-sponsor of the American Dream and Promise Act, a landmark bill that will create a path to citizenship for dreamers and protect Temporary Protected Status (TPS) holders, and Deferred Enforced Departure (DED) recipients from being forced to leave the country they love.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "bioguideId": "H001066"
+    },
+    {
+      "id": "cody-whipple",
+      "name": "Cody Whipple",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Cody Whipple is the Republican nominee for U.S. House Nevada District 4, having raised roughly $885,000 in campaign contributions as of the 2026 election cycle.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "russell-best",
+      "name": "Russell Best",
+      "parties": ["Independent American Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "Russell Best is the Independent American Party candidate for U.S. House Nevada District 4.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "william-johnson",
+      "name": "William Johnson",
+      "parties": ["No Political Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "William Johnson is a no-party candidate on the November general-election ballot for U.S. House Nevada District 4.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Cody_Whipple",
+      "title": "Cody Whipple",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://horsford.house.gov/issues",
+      "title": "Issues — Immigration",
+      "publisher": "Office of Congressman Steven Horsford",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Cody_Whipple",
+      "title": "Cody Whipple — campaign finance summary",
+      "publisher": "Ballotpedia (OpenSecrets / FEC data)",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC finance totals for Horsford are added separately by script. No campaign website, public statements, or Candidate Connection survey were found for Cody Whipple, Russell Best, or William Johnson beyond their ballot qualification and (for Whipple) FEC-reported contribution totals."
+}
