@@ -1,0 +1,151 @@
+{
+  "id": "us-house-fl-3",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Florida's 3rd District",
+  "area": "North-central Florida, including Gainesville and Ocala.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Kat Cammack's Republican primary was canceled and she advanced unopposed. Seth Harp won the Democratic primary over three opponents.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "kat-cammack",
+      "name": "Kat Cammack",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Republican primary was canceled; advanced unopposed.",
+      "currentRole": "U.S. Representative for Florida's 3rd District (since 2021)",
+      "summary": {
+        "text": "Kat Cammack is the incumbent Republican U.S. Representative for Florida's 3rd District, first elected in 2020. She previously owned a marketing firm and holds degrees in international relations and national defense/strategic studies.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in international relations from Metropolitan State University of Denver (2015) and a master's degree in national defense and strategic studies from the U.S. Naval War College (2018).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Owned a marketing firm before entering Congress.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Elected to the U.S. House in 2020 and re-elected in 2022 and 2024.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Federal roll-call votes and FEC finance totals for this sitting member are added by script; no additional 2026 campaign key-message profile was found on Ballotpedia."
+    },
+    {
+      "id": "seth-harp",
+      "name": "Seth Harp",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Democratic primary over three opponents.",
+      "summary": {
+        "text": "Seth Harp is the Democratic nominee for Florida's 3rd Congressional District. He has worked for 30 years in broadcast radio, most recently as operations manager for ESPN Gainesville, and taught as an adjunct at the University of Florida's College of Journalism.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Grew up in Indiana and attended Western Michigan University.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked in radio broadcasting for 30 years, including as Director of Programming and Host for iHeart Media's Fox Sports Radio/Gator Radio affiliate in Jacksonville.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served as Operations Manager for ESPN Gainesville (WRUF-AM) for the past five years and taught as an adjunct at the University of Florida's College of Journalism.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign platform titled '13 Stripes of Strength,' including a proposed child-care stipend program ('C.U.B.S. Act') rather than direct cash payments to have children.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says elected officials should be held to character standards of responsibility, respect, integrity, kindness and honesty.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Proposes a 'Child Unity Break Stipend' to provide families relief on childcare costs, which he frames as a better use of resources than direct cash payments for having children.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "mike-klein",
+      "name": "Mike Klein",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Mike Klein is a no-party-affiliation candidate for Florida's 3rd Congressional District. He is a combat veteran, West Point graduate and chairman of Warrior Centric Health, running on a platform of removing corporate and special-interest money from politics.",
+        "sources": ["s1", "s4"]
+      },
+      "background": [
+        {
+          "text": "A fifth-generation Floridian raised in Gainesville; attended West Point and became a Ranger-qualified Infantry officer, leading soldiers in combat during Operation Desert Storm.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Co-founded and chairs Warrior Centric Health, focused on improving care for the military and veteran community, after his brother was severely wounded by an IED.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Has worked internationally in business, economic development and entrepreneurship.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Ending corruption and removing corporate PAC and special-interest money from politics.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Banning insider stock trading by members of Congress and ending gerrymandering.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Building an independent bloc in Congress to force bipartisan cooperation.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "mixed",
+          "summary": "Does not stake out a direct tax position but campaigns on ending corporate and special-interest influence over government, including a pledge to refuse corporate PAC money.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_3rd_Congressional_District_election,_2026", "title": "Florida's 3rd Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Kat_Cammack", "title": "Kat Cammack", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Seth_Harp", "title": "Seth Harp - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://ballotpedia.org/Mike_Klein", "title": "Mike Klein - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Cammack's federal voting record and FEC finance totals are added by script."
+}

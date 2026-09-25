@@ -1,0 +1,157 @@
+{
+  "id": "us-house-ca-42",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "42",
+  "title": "U.S. House · California's 42nd District",
+  "area": "Long Beach and surrounding Los Angeles County communities, redrawn under Proposition 50 (approved November 2025).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Robert Garcia (D) and Republican Brian Burley advanced from the June 2, 2026 top-two primary, in which Garcia received 56.5% of the vote and Burley 20.6%, ahead of two other Republicans and a no-party-preference candidate.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "robert-garcia",
+      "name": "Robert Garcia",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 2, 2026 top-two primary with 56.5% of the vote.",
+      "currentRole": "U.S. Representative for California's 42nd District (since 2023)",
+      "summary": {
+        "text": "Robert Garcia is the Democratic incumbent seeking re-election in the 42nd District. He previously served as mayor of Long Beach from 2014 to 2022 and on the Long Beach City Council from 2009 to 2014.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Lima, Peru, in 1977; earned a bachelor's degree in communication studies from California State University, Long Beach (2002), a master's degree from the University of Southern California (2005), and an Ed.D. in higher education from CSU Long Beach (2010).",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as a professor of public policy and communications at USC, CSU Long Beach and Long Beach City College before entering elected office.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served on the Long Beach City Council from 2009 to 2014 (vice-mayor from 2012 to 2014), then as mayor of Long Beach from 2014 to 2022.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Defending democracy, citing support for the John Lewis Voting Rights Advancement Act and the Freedom to Vote Act.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Raising the minimum wage and expanding the social safety net, including Medicaid, Social Security, Medicare and universal child care.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Expanding pathways to citizenship for undocumented immigrants.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says he will fight for a nationwide $15 minimum wage, citing his push to raise Long Beach's minimum wage to $15 an hour in 2016.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he supports Medicare for All and co-chairs Mayors 4 Medicare, and will fight to protect and expand Medicaid, Social Security and Medicare in Congress.",
+          "quote": "I believe the best approach to fixing our healthcare system is passing Medicare for All.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he strongly supports the Green New Deal and will fight to transition away from fossil fuels, citing Long Beach's fleet electrification and green-jobs programs under his mayoralty.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Says he will fight to expand pathways to citizenship for undocumented residents and end legal discrimination against them, citing his work establishing a legal defense fund and sanctuary-city protections in Long Beach.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Says every parent should be able to afford child care and that he will fight for universal child care and pre-K in Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Assigned to the House Committee on Oversight and Government Reform, the Committee on Homeland Security, and the Committee on Transportation and Infrastructure for the 2025-2026 term.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://www.robertgarcia.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "brian-burley",
+      "name": "Brian Burley",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary with 20.6% of the vote.",
+      "currentRole": "Member, Huntington Beach City School District board (since 2024)",
+      "summary": {
+        "text": "Brian Burley is the Republican candidate in the 42nd District. He owns an information-technology consulting company and was elected to the Huntington Beach City School District board in 2024.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in political economy and a master's degree in public policy from the University of Southern California.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Owns an information-technology consulting and social-media marketing company based in Huntington Beach, and has worked as an IT analyst at the University of Southern California.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Has been affiliated with the Orange County Central Committee of the Republican Party in California; elected to the Huntington Beach City School District board in 2024.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No current campaign website or 2026 Candidate Connection survey responses were found; Burley completed Ballotpedia's survey for a 2019 run, but no 2026-specific policy statements were located."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Robert_Garcia_(California)",
+      "title": "Robert Garcia (California)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Robert_Garcia_(California)",
+      "title": "Robert Garcia campaign website, quoted on Ballotpedia",
+      "publisher": "Robert Garcia for Congress (via Ballotpedia)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Brian_Burley",
+      "title": "Brian Burley",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research from Ballotpedia and campaign-site material; federal key votes and FEC totals for the incumbent are added separately."
+}
