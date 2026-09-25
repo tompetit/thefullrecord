@@ -36,8 +36,37 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he is strongly committed to comprehensive immigration reform that combines stronger border security with addressing immigration issues inside U.S. borders.",
+          "quote": "We need comprehensive immigration reform. We need to strengthen our border security, and we need to address the immigration issues inside our borders. One without the other will resolve nothing.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says Congress must adhere to fiscal discipline and eliminate wasteful or duplicated federal spending, drawing on his experience on the House Budget and Appropriations Committees.",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Says Americans deserve affordable health care but opposes extending COVID-era ACA subsidies without what he calls proper guardrails, citing cost and fraud concerns.",
+          "sources": ["s9"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "An original sponsor and author of H.R. 2, the Secure the Border Act, and supports enforcing immigration law, while also supporting extending Temporary Protected Status for Haitians as humanitarian protection.",
+          "quote": "I've long supported strong border security measures, including as an original sponsor and author of H.R. 2, the Secure the Border Act, the most comprehensive and conservative border security bill ever. At the same time, we must recognize that conditions in Haiti are not conducive to safely returning individuals who have been living and working legally in the United States.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Opposes extending the COVID-era Affordable Care Act subsidy program, calling it costly and saying it would make health care coverage more expensive rather than more affordable.",
+          "quote": "extending a Democrat-led three-year COVID-era Obamacare subsidy program with zero guardrails will not make healthcare more affordable; it will make it costlier.",
+          "sources": ["s9"]
+        }
+      ],
       "record": [
         {
           "text": "Serves as Vice Chair of the House Committee on Appropriations and chairs its Subcommittee on National Security, Department of State and Related Programs, in the 119th Congress (2025-2026).",
@@ -48,11 +77,16 @@
           "text": "Chaired the Appropriations Subcommittee on State Department and Foreign Operations during the 118th Congress (2023-2024).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "An original sponsor and author of H.R. 2, the Secure the Border Act.",
+          "kind": "bill",
+          "sources": ["s6"]
         }
       ],
       "website": "https://www.mariodiazbalart.org/",
       "researchDepth": "basic",
-      "researchNotes": "Diaz-Balart has not completed Ballotpedia's 2026 Candidate Connection survey; his federal key votes and FEC finance totals are added separately by script, per this project's division of labor."
+      "researchNotes": "Diaz-Balart has not completed Ballotpedia's 2026 Candidate Connection survey; his federal key votes and FEC finance totals are added separately by script, per this project's division of labor. Checked his official issues pages (immigration, healthcare, tax relief, fiscal responsibility, foreign affairs, Cuba); no statement squarely addressing U.S. military aid to Israel, broad tariffs, or taxes on high earners/corporations specifically was found, so those issues were left out."
     },
     {
       "id": "nicole-locklin",

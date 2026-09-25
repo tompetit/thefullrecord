@@ -39,17 +39,46 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "As a member of the House Committee on Agriculture, says supporting the farm safety net for producers facing crop failure, climate fluctuation, natural disaster, and market downturns is his primary focus in writing the next Farm Bill.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says insurance companies should be able to sell plans across state lines and supports expanding Health Savings Accounts and Flexible Spending Accounts to give people more control over health care decisions.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Says the Affordable Care Act took control away from patients, raised premiums and deductibles, and should be repealed and replaced with patient-centered health care.",
+          "quote": "The Affordable Care Act takes control away from patients, has led to higher health care costs, and restricts accessibility to care.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Opposed President Biden's 2024 plan to grant legal status to a large number of undocumented immigrants, calling it an amnesty plan that would add to illegal immigration.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Has served on House committees during his tenure, including committee assignments renewed each Congress since first taking office in 2011.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the Cuba Agricultural Exports Act, which would repeal restrictions on financing and marketing that limit U.S. agricultural exports to Cuba.",
+          "kind": "bill",
+          "sources": ["s8"]
         }
       ],
       "website": "https://crawfordforcongress.com/",
-      "researchDepth": "basic"
+      "researchDepth": "full",
+      "researchNotes": "No distinct 2026 campaign issues page was found; positions and priorities are drawn from the issue pages and press releases on Crawford's official House site, some of which have not been updated with dated statements in recent years."
     },
     {
       "id": "terri-yarbrough-green",
@@ -166,6 +195,35 @@
       "url": "https://ballotpedia.org/Steve_Parsons",
       "title": "Steve Parsons",
       "publisher": "Steven Gene Parsons campaign website (via Ballotpedia)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://crawford.house.gov/issues/agriculture-and-trade",
+      "title": "Agriculture and Trade",
+      "publisher": "Office of Rep. Rick Crawford",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://crawford.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Rick Crawford",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://crawford.house.gov/media/press-releases/rep-crawford-s-statement-on-biden-s-mass-amnesty-order",
+      "title": "Rep. Crawford's Statement on Biden's Mass Amnesty Order",
+      "publisher": "Office of Rep. Rick Crawford",
+      "kind": "candidate",
+      "date": "2024-06-18"
+    },
+    {
+      "id": "s8",
+      "url": "https://crawford.house.gov/issues/cuba-trade",
+      "title": "Cuba Trade",
+      "publisher": "Office of Rep. Rick Crawford",
       "kind": "candidate"
     }
   ],
