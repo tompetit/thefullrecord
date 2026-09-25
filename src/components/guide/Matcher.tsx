@@ -215,7 +215,10 @@ export function Matcher({ races, placeLabel }: { races: GuideRace[]; placeLabel:
                             <>
                               <div className="mt-1.5 flex items-center gap-2">
                                 <div className="h-2 flex-1 overflow-hidden rounded-full bg-hairline" aria-hidden>
-                                  <div className="h-full rounded-full bg-accent" style={{ width: `${pct}%` }} />
+                                  <div
+                                    className={`h-full rounded-full ${s.documented < 3 ? "bg-accent-soft opacity-50" : "bg-accent"}`}
+                                    style={{ width: `${pct}%` }}
+                                  />
                                 </div>
                                 <span className="w-12 text-right font-sans text-[12.5px] font-bold text-ink-80">{pct}%</span>
                               </div>
@@ -223,6 +226,11 @@ export function Matcher({ races, placeLabel }: { races: GuideRace[]; placeLabel:
                                 Agrees with you on {Number.isInteger(s.matched) ? s.matched : s.matched.toFixed(1)} of {s.weight} weighted
                                 points · position on record for {s.documented} of your {s.answeredTotal} issues
                               </p>
+                              {s.documented < 3 && (
+                                <p className="mt-0.5 font-sans text-[11.5px] italic text-umber-deep">
+                                  Based on only {s.documented} documented {s.documented === 1 ? "position" : "positions"} — read the evidence before drawing conclusions.
+                                </p>
+                              )}
                               <details className="mt-1.5">
                                 <summary className="cursor-pointer font-sans text-[12px] font-semibold text-ink-80">
                                   See the evidence

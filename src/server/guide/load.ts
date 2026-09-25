@@ -164,12 +164,13 @@ export function getCandidate(
   return race && candidate ? { race, candidate } : null;
 }
 
+// Roughly the order offices appear on a New York ballot
 const OFFICE_ORDER: OfficeType[] = [
+  "governor",
+  "comptroller",
+  "attorney-general",
   "us-senate",
   "us-house",
-  "governor",
-  "attorney-general",
-  "comptroller",
   "state-senate",
   "state-assembly",
   "ballot-measure",
@@ -288,4 +289,19 @@ export function getGuideStats(): GuideStats {
     officialSources,
     states: new Set(all.map((r) => r.state)).size,
   };
+}
+
+export interface Verification {
+  raceId: string;
+  checkedAt: string;
+  claimsChecked: number;
+  corrected: number;
+  removed: number;
+  unverifiable: number;
+  notes: string[];
+}
+
+/** Second-pass fact-check report for a race, if one has run. */
+export function getVerification(raceId: string): Verification | null {
+  return readJson<Verification | null>(join(ROOT, "verification", `${raceId}.json`), null);
 }

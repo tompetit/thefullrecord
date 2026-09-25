@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getKeyVoteDefs } from "@/server/guide/load";
+import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
 import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
 import { CandidateProfile, FinanceLine } from "./CandidateProfile";
 import {
@@ -175,6 +175,30 @@ function MeasureView({ race }: { race: GuideRace }) {
   );
 }
 
+function VerificationNote({ raceId }: { raceId: string }) {
+  const v = getVerification(raceId);
+  if (!v) return null;
+  return (
+    <details className="mt-3 max-w-3xl rounded-lg border border-accent-tint-border bg-accent-tint px-3.5 py-2 font-sans text-[12.5px] text-accent-deep">
+      <summary className="cursor-pointer font-semibold">
+        ✓ Fact-checked {v.checkedAt}: {v.claimsChecked} claims re-checked against their sources
+        {v.corrected || v.removed ? ` · ${v.corrected} corrected · ${v.removed} removed` : ""}
+      </summary>
+      <p className="mt-1.5 text-ink-60">
+        A second, independent research pass re-opened every cited source for this race and
+        corrected or removed anything the source didn&rsquo;t support.
+      </p>
+      {v.notes.length > 0 && (
+        <ul className="mt-1.5 list-disc pl-5 text-ink-60">
+          {v.notes.map((n, i) => (
+            <li key={i}>{n}</li>
+          ))}
+        </ul>
+      )}
+    </details>
+  );
+}
+
 export function RaceView({ race }: { race: GuideRace }) {
   const isMeasure = race.officeType === "ballot-measure";
   return (
@@ -193,6 +217,7 @@ export function RaceView({ race }: { race: GuideRace }) {
       <p className="mt-1 font-sans text-[12.5px] font-semibold text-ink-80">
         General election · Tuesday, November 3, 2026
       </p>
+      <VerificationNote raceId={race.id} />
 
       {race.context.length > 0 && (
         <ul className="mt-5 flex max-w-3xl flex-col gap-1.5 rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] leading-[1.55] text-ink-80">

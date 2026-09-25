@@ -1,0 +1,97 @@
+{
+  "id": "ny-ad-48",
+  "state": "NY",
+  "officeType": "state-assembly",
+  "office": "NY State Assembly",
+  "district": "48",
+  "title": "NY State Assembly · District 48",
+  "area": "Borough Park and surrounding neighborhoods of southern Brooklyn.",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Simcha Eichenstein is unopposed on the November 3, 2026 general-election ballot. The Democratic and Conservative Party primaries scheduled for June 23, 2026 were both canceled, and no Republican candidate filed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "simcha-eichenstein",
+      "name": "Simcha Eichenstein",
+      "parties": ["D", "C"],
+      "incumbent": true,
+      "currentRole": "NY State Assembly Member, District 48 (since 2019)",
+      "summary": {
+        "text": "Simcha Eichenstein is the Democratic and Conservative Party incumbent running unopposed for re-election. He has represented District 48, which includes Borough Park, since 2019, succeeding longtime Assemblyman Dov Hikind, and serves on the Cities, Governmental Employees, Housing, Insurance, Real Property Taxation, and Social Services committees.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Assumed office in the New York State Assembly on January 1, 2019, succeeding Dov Hikind.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Has served on the Housing, Cities, Governmental Employees, Real Property Taxation and Social Services committees throughout his tenure, adding the Insurance Committee in the 2025-2026 session.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Advocating for the Orthodox Jewish community's religious-accommodation needs, such as exempting Sabbath-observant residents from sanitation ticketing on Friday afternoons.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Public safety around houses of worship, community centers and schools.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [],
+      "record": [
+        {
+          "text": "Sponsored legislation, with State Senator Sam Sutton, restricting the NYC Department of Sanitation from ticketing residents who set out trash on Friday afternoons before 8:00 p.m., an accommodation for Sabbath-observant New Yorkers; the bill passed both houses and was signed into law by Governor Kathy Hochul in December 2025.",
+          "date": "2025-12-19",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Was among the Assembly members, along with State Senator Sam Sutton, whose effort secured legislation in the state budget establishing 50-foot buffer zones around houses of worship, community centers and schools, creating misdemeanor penalties for harassment or intimidation within that zone.",
+          "date": "2026-05-27",
+          "kind": "bill",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Sent a letter to New York Attorney General Letitia James asking her office to review whether NYC Mayor Zohran Mamdani's public statements about potentially having New York City law enforcement arrest Israeli Prime Minister Benjamin Netanyahu violated state law.",
+          "date": "2026-07-21",
+          "kind": "action",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Voted no on S10113, allowing a cannabis microbusiness licensee to conduct certain additional activities, which passed the Assembly 88-53.",
+          "date": "2026-06-05",
+          "kind": "vote",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Voted no on S3460, relating to granting employees access to their personnel records, which passed the Assembly 92-49.",
+          "date": "2026-05-19",
+          "kind": "vote",
+          "sources": ["s8"]
+        }
+      ],
+      "researchDepth": "full",
+      "researchNotes": "Eichenstein is running unopposed. No campaign website was found (he lists only official and personal social-media accounts on Ballotpedia); his record here is drawn from his official nyassembly.gov press releases, Ballotpedia's biography/committee data, and the assembly-ny.json roll-call snapshot. No documented statement was found linking him directly to a position on any of the fixed issue-list statements without inferring beyond what he said, so the positions list is empty."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/New_York_State_Assembly_District_48", "title": "New York State Assembly District 48", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Simcha_Eichenstein", "title": "Simcha Eichenstein", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://nyassembly.gov/mem/Simcha-Eichenstein/story/116244", "title": "Can't Fight City Hall? Governor Kathy Hochul signs into law legislation sponsored by Senator Sutton and Assemblyman Eichenstein to end Friday evening ticket blitzes", "publisher": "New York State Assembly", "kind": "official", "date": "2025-12-19" },
+    { "id": "s4", "url": "https://nyassembly.gov/mem/Simcha-Eichenstein/story/118368", "title": "Assembly Members Berger, Eichenstein, Rozic, Wieder and Yeger, and Senator Sam Sutton Celebrate the Passage of New Legislation Requiring a 50-Foot Buffer Zone Around Houses of Worship, Community Centers, and Schools During Protests", "publisher": "New York State Assembly", "kind": "official", "date": "2026-05-27" },
+    { "id": "s5", "url": "https://nyassembly.gov/mem/Simcha-Eichenstein/story/118368", "title": "Assembly Members Berger, Eichenstein, Rozic, Wieder and Yeger, and Senator Sam Sutton Celebrate the Passage of New Legislation Requiring a 50-Foot Buffer Zone Around Houses of Worship, Community Centers, and Schools During Protests", "publisher": "New York State Assembly", "kind": "official", "date": "2026-05-27" },
+    { "id": "s6", "url": "https://nyassembly.gov/mem/Simcha-Eichenstein/story/119032", "title": "Assemblyman Simcha Eichenstein Urges Attorney General Letitia James to Probe NYC Mayor Zohran Mamdani's Actions", "publisher": "New York State Assembly", "kind": "official", "date": "2026-07-21" },
+    { "id": "s7", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10113&term=2025&Summary=Y&Actions=Y&Votes=Y", "title": "Bill S10113 status and floor vote", "publisher": "New York State Assembly", "kind": "official", "date": "2026-06-05" },
+    { "id": "s8", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S3460&term=2025&Summary=Y&Actions=Y&Votes=Y", "title": "Bill S3460 status and floor vote", "publisher": "New York State Assembly", "kind": "official", "date": "2026-05-19" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "This is an uncontested race: Eichenstein is the only candidate on the November 3, 2026 general-election ballot."
+}
