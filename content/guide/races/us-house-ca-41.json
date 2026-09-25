@@ -1,0 +1,148 @@
+{
+  "id": "us-house-ca-41",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "41",
+  "title": "U.S. House · California's 41st District",
+  "area": "Eastern Los Angeles County, including cities such as Whittier, La Habra Heights, Diamond Bar and Walnut. The district was redrawn by Proposition 50 (approved November 2025) and no longer overlaps the Riverside County territory the old 41st District held.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California's 41st District was redrawn after voters approved Proposition 50 in November 2025, part of a mid-decade, multi-state redistricting round. Analyst Nathaniel Rakich of Inside Elections described the new 41st, previously represented by Republican Ken Calvert, as a D+16 seat in eastern Los Angeles County that would be a near-automatic Democratic pickup. Rep. Linda Sánchez, who currently represents the old 38th District, is running here instead; incumbent Ken Calvert is not on the ballot for this seat.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "linda-sanchez",
+      "name": "Linda Sánchez",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary.",
+      "currentRole": "U.S. Representative for California's 38th District (since 2013)",
+      "summary": {
+        "text": "Linda Sánchez is the Democratic candidate for the newly drawn 41st District. She currently represents California's 38th District, first elected to Congress in 2002 for the old 39th District. She is a labor and employment attorney by training.",
+        "sources": ["s2", "s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Orange, California, in 1969; earned a bachelor's degree in Spanish literature from the University of California, Berkeley, and a J.D. from the University of California, Los Angeles in 1995.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a labor and employment attorney and served as executive director of the Orange County Central Labor Council, AFL-CIO, before her election to Congress.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "First elected to the U.S. House in 2002 to represent the old 39th District; has represented the 38th District since 2013.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lowering costs for Southern California families, including housing and grocery costs.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Making health care more affordable, including restoring Medicaid funding, protecting ACA subsidies and lowering prescription drug costs.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she is fighting to restore Medicaid funding, protect Affordable Care Act subsidies, lower prescription drug costs and ensure no one is denied coverage.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Passed legislation to ban large investment funds from buying up single-family homes, according to her campaign.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Passed a law barring health insurers from charging women more than men for the same coverage, according to her campaign.",
+          "kind": "bill",
+          "sources": ["s3"]
+        }
+      ],
+      "website": "https://www.voteforlinda.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "mitch-clemmons",
+      "name": "Mitch Clemmons",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary.",
+      "summary": {
+        "text": "Mitch Clemmons is the Republican candidate for California's 41st District. He is a plumber and small-business owner with no prior elected office.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Earned a high school diploma from Santa Fe High School.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Career experience includes working as a plumber and owning a plumbing contracting business.",
+          "sources": ["s4", "s5"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Election integrity, saying secure and transparent elections are the foundation for addressing law and order, protecting children and stopping government waste and fraud.",
+          "quote": "Election integrity is the foundation of everything we care about. If our elections are not secure and transparent, voters cannot choose the right leaders or pass the right policies — period.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Limited public record beyond his Ballotpedia Candidate Connection survey; no campaign website was located."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Linda_S%C3%A1nchez",
+      "title": "Linda Sánchez",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Linda_S%C3%A1nchez",
+      "title": "Linda Sánchez campaign website, quoted on Ballotpedia",
+      "publisher": "Linda Sánchez for Congress (via Ballotpedia)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Mitch_Clemmons",
+      "title": "Mitch Clemmons",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Mitch_Clemmons",
+      "title": "Mitch Clemmons Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research from Ballotpedia and campaign-site material; federal key votes and FEC totals for the incumbent are added separately."
+}

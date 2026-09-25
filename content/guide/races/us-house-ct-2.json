@@ -1,0 +1,68 @@
+{
+  "id": "us-house-ct-2",
+  "state": "CT",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Connecticut's 2nd District",
+  "area": "Eastern Connecticut, including Norwich, New London, Willimantic, and the state's rural northeastern and southeastern corners",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both the Democratic and Republican primaries for this seat were canceled after only one candidate qualified for each party's ballot line. The Cook Political Report rated this district D+4 based on 2024 presidential results.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "joe-courtney",
+      "name": "Joe Courtney",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2007)",
+      "summary": {
+        "text": "Joe Courtney is the Democratic incumbent for Connecticut's 2nd Congressional District, first elected in 2006. A former public defender and state legislator, he serves on the House Armed Services and Education and Workforce committees.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree from Tufts University in 1975 and a law degree from the University of Connecticut in 1978.", "sources": ["s2"] },
+        { "text": "Worked as a public defender and served in the Connecticut House of Representatives before his election to Congress.", "sources": ["s2"] },
+        { "text": "Has represented Connecticut's 2nd District in the U.S. House since 2007, currently serving his tenth term.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        { "text": "Serves on the House Committee on Armed Services (Seapower and Projection Forces; Tactical Air and Land Forces subcommittees) in the 2025–2026 Congress.", "date": "2025", "kind": "action", "sources": ["s2"] },
+        { "text": "Serves on the House Committee on Education and the Workforce in the 2025–2026 Congress.", "date": "2025", "kind": "action", "sources": ["s2"] },
+        { "text": "Chaired the Armed Services Subcommittee on Seapower and Projection Forces in the 2021–2022 Congress, a panel with jurisdiction over Navy shipbuilding programs including the Groton-based submarine industrial base.", "date": "2021", "kind": "action", "sources": ["s2"] }
+      ],
+      "website": "https://www.joecourtney.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "george-austin",
+      "name": "George Austin",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced after the Republican primary was canceled",
+      "summary": {
+        "text": "George Austin is the Republican nominee for Connecticut's 2nd Congressional District. Ballotpedia's profile of Austin contains no biographical details, and he has not completed Ballotpedia's Candidate Connection survey.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "website": "https://www.votegeorgeforcongress.com",
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Connecticut,_2026", "title": "United States House of Representatives elections in Connecticut, 2026", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s2", "url": "https://ballotpedia.org/Joe_Courtney", "title": "Joe Courtney", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s3", "url": "https://ballotpedia.org/George_Austin", "title": "George Austin", "publisher": "Ballotpedia", "kind": "reference" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No campaign website content, Candidate Connection survey, or independent news coverage of George Austin's platform was found; his entry reflects the limited public record available. Rep. Courtney's federal key votes and FEC finance totals are added separately by script."
+}
