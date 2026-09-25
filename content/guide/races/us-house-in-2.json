@@ -37,13 +37,49 @@
         { "text": "Lists 'Growing Jobs and Wages,' 'Helping Hoosier Farmers,' and 'Putting Your Money Back in Your Pocket' among his stated priorities.", "sources": ["s3"] },
         { "text": "Lists 'Serving Our American Heroes' (veterans) and 'Peace Through Strength' among his stated priorities.", "sources": ["s3"] }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he has fought to secure the border, fund the wall, and enforce existing immigration laws, and voted for H.R. 2, the Secure the Border Act.",
+          "quote": "I've fought to secure the border, give our agents the tools they need, and enforce the laws already on the books. Here's my record: Funded the wall by voting for the One, Big, Beautiful Bill to finish it and give Border Patrol the tools to do the job ... Voted for H.R. 2, the strongest border security bill ever passed by the House",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he led the fight for the Second Amendment, opposing a gun ban on federal lands and legislation that would strip gun rights during a declared emergency.",
+          "quote": "Led the fight for the Second Amendment by taking on the gun ban on federal lands and backing legislation to keep the government from stripping gun rights during a declared emergency",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Describes himself as a consistent vote and voice against abortion, listing 'the right to life' among rights he says are not up for negotiation.",
+          "quote": "Fought for the unborn as a consistent vote and voice for life",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says he voted for the 21st Century ROAD to Housing Act to lower housing costs by expanding housing supply.",
+          "quote": "Voted for the 21st Century ROAD to Housing Act to lower housing costs by expanding supply and making homeownership affordable again",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Says he has stood with Israel against the Iranian regime and its proxies and that the U.S.-Israeli partnership must remain strong.",
+          "quote": "Stood with Israel against the Iranian regime and its proxies",
+          "sources": ["s10"]
+        }
+      ],
       "record": [
         { "text": "Assigned to the House Committee on Ways and Means (Oversight, Social Security, and Work and Welfare subcommittees) for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"] },
         { "text": "Served on the House Committee on the Budget and the Committee on Transportation and Infrastructure during the 118th Congress (2023-2024).", "kind": "action", "sources": ["s2"] }
       ],
       "website": "https://yakym.house.gov",
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "bioguideId": "Y000067"
     },
     {
@@ -190,8 +226,36 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2025-01-01"
+    },
+    {
+      "id": "s7",
+      "url": "https://yakym.house.gov/issues/securing-the-border",
+      "title": "Securing the Border",
+      "publisher": "Office of Rep. Rudy Yakym",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://yakym.house.gov/issues/defending-your-rights",
+      "title": "Defending Your Rights",
+      "publisher": "Office of Rep. Rudy Yakym",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://yakym.house.gov/issues/putting-your-money-back-in-your-pocket",
+      "title": "Putting Your Money Back in Your Pocket",
+      "publisher": "Office of Rep. Rudy Yakym",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://yakym.house.gov/issues/peace-through-strength",
+      "title": "Peace Through Strength",
+      "publisher": "Office of Rep. Rudy Yakym",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No public campaign websites beyond the excerpts captured in Ballotpedia's Candidate Connection survey and campaign-website records were separately verified for Decio, Henry, and Beebe; website fields are left blank."
+  "researchNotes": "Yakym's positions are drawn from his official House issues pages. No public campaign websites beyond the excerpts captured in Ballotpedia's Candidate Connection survey and campaign-website records were separately verified for Decio, Henry, and Beebe; website fields are left blank."
 }
