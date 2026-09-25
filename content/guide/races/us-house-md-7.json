@@ -44,6 +44,22 @@
       "title": "Scott Collier (Maryland)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://mfume.house.gov/media/press-releases/congressman-mfume-statement-after-protesting-at-the-supreme-court-against-decision-to-end-temporary-protected-status-tps-for-haiti-and-syria",
+      "title": "Congressman Mfume Statement After Protesting at the Supreme Court Against Decision to End Temporary Protected Status (TPS) for Haiti and Syria",
+      "publisher": "Office of Rep. Kweisi Mfume",
+      "kind": "official",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "s6",
+      "url": "https://mfume.house.gov/media/press-releases/mfume-van-hollen-olszewski-highlight-nearly-12-million-in-federal-funding-to-support-gun-violence-reduction-in-baltimore",
+      "title": "Mfume, Van Hollen, Olszewski Highlight Nearly $12 Million in Federal Funding to Support Gun Violence Reduction in Baltimore",
+      "publisher": "Office of Rep. Kweisi Mfume",
+      "kind": "official",
+      "date": "2026-05-05"
     }
   ],
   "candidates": [
@@ -88,9 +104,31 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Protect Temporary Protected Status holders from deportation and pass the American Dream and Promise Act to provide TPS recipients and Dreamers an earned path to citizenship.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Sustain and expand Baltimore's Group Violence Reduction Strategy, which pairs law enforcement, social services and community partners to reduce shootings and homicides.",
+          "sources": [
+            "s6"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Opposed the Trump administration's move to end Temporary Protected Status for Haitian and Syrian nationals, protested the Supreme Court decision allowing it, and is an original cosponsor of the American Dream and Promise Act, which would provide TPS holders and Dreamers a path to citizenship.",
+          "quote": "The Court has shamefully handed President Trump the green light to tear families apart and punish people who have done nothing more than work hard, contribute to their communities, and follow the law.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "As a Baltimore City Council member, chaired the Committee on Health Policy and led efforts to divest city funds from the apartheid government of South Africa.",
@@ -150,6 +188,6 @@
       "researchDepth": "minimal"
     }
   ],
-  "researchNotes": "Scott Collier has not reported federal campaign contributions in any of his prior runs and has not completed a Ballotpedia Candidate Connection survey for this or any recent race; his only stated priority comes from a 2018 candidate survey for a different office (Maryland State Senate). His research depth is marked minimal.",
+  "researchNotes": "Scott Collier has not reported federal campaign contributions in any of his prior runs and has not completed a Ballotpedia Candidate Connection survey for this or any recent race; his only stated priority comes from a 2018 candidate survey for a different office (Maryland State Senate). His research depth is marked minimal. Mfume's official site (mfume.house.gov) has no dedicated issues page; his positions here come from press releases on votes-and-legislation and media/press-releases. His press releases did not contain statements squarely matching the other 14 issue-key statements (e.g., his West Bank letter addresses settler violence and rule of law, not continued military aid to Israel, so it is not cited as an israel_aid position).",
   "researchedAt": "2026-09-25"
 }

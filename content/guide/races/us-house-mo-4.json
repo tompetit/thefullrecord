@@ -48,13 +48,36 @@
       ],
       "priorities": [
         {
-          "text": "Official House issues page organizes his stated priorities around agriculture, national security, the Second Amendment, small businesses and veterans.",
+          "text": "Formed an agriculture advisory committee to guide his work on farm bill policy for Missouri's 4th District, which has over 95,000 farms.",
           "sources": [
-            "s3"
+            "s3",
+            "s6"
+          ]
+        },
+        {
+          "text": "Focuses on securing funding for military installations in the district, including Whiteman Air Force Base and Fort Leonard Wood; helped secure $50 million for privatized family housing at Fort Leonard Wood.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "As a member of the House Small Business Committee, focuses on the added challenges rural small businesses face and introduced the SBA Rural Performance Report Act (H.R. 5265).",
+          "sources": [
+            "s8"
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he supports Second Amendment rights and will continue working to keep them intact, opposing further restrictions.",
+          "quote": "As long as I am in Congress, I won’t stop fighting to ensure America’s 2nd Amendment rights stay intact.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations in the 119th Congress (2025-2026), including the Commerce, Justice, Science and Related Agencies subcommittee and the Military Construction, Veterans Affairs and Related Agencies subcommittee (Vice Chair).",
@@ -74,7 +97,7 @@
       "website": "https://alford.house.gov",
       "researchDepth": "basic",
       "bioguideId": "A000379",
-      "researchNotes": "Alford has not completed a Ballotpedia Candidate Connection survey in 2022, 2024 or 2026, and his official issues page listed only topic headings without body text in this pass. Key floor votes and FEC finance totals are added separately by script."
+      "researchNotes": "Alford has not completed a Ballotpedia Candidate Connection survey in 2022, 2024 or 2026. His official issues page links to individual topic pages (agriculture, national security, Second Amendment, small business, veterans); only the Second Amendment page directly addressed one of the 15 guide issue statements. Key floor votes and FEC finance totals are added separately by script."
     },
     {
       "id": "jordan-herrera",
@@ -210,6 +233,34 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s5",
+      "url": "https://alford.house.gov/Issues/Issue/?IssueID=15043",
+      "title": "Second Amendment",
+      "publisher": "Office of Congressman Mark Alford",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://alford.house.gov/Issues/Issue/?IssueID=15040",
+      "title": "Agriculture",
+      "publisher": "Office of Congressman Mark Alford",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://alford.house.gov/Issues/Issue/?IssueID=15041",
+      "title": "National Security",
+      "publisher": "Office of Congressman Mark Alford",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://alford.house.gov/Issues/Issue/?IssueID=15039",
+      "title": "Small Businesses",
+      "publisher": "Office of Congressman Mark Alford",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

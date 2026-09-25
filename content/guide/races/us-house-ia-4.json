@@ -128,14 +128,34 @@
       "incumbent": false,
       "ballotNote": "Write-in candidate",
       "summary": {
-        "text": "Decker is an independent write-in candidate on the general-election ballot for Iowa's 4th District.",
-        "sources": ["s1"]
+        "text": "Decker is a retired U.S. Army veteran running as an independent write-in candidate for Iowa's 4th Congressional District, campaigning against the two-party system and on fighting government corruption.",
+        "sources": ["s5"]
       },
-      "background": [],
-      "priorities": [],
+      "background": [
+        {
+          "text": "Served in the U.S. Army from 2007 to 2015; earned a high school diploma from Logan-Magnolia High School; is retired.",
+          "sources": ["s5"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his first priority is \"fighting corruption,\" arguing that no new policy can serve the public if the political system itself is broken.",
+          "quote": "My first priority is fighting corruption, because if the system itself is broken, no new policy will truly serve the American people.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says he wants to end the two-party system and stands firmly on defending constitutional rights.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Lists water and dirt quality in Iowa among the public policy areas he is personally passionate about.",
+          "sources": ["s6"]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "researchNotes": "Decker's Candidate Connection survey responses focus on opposing the two-party system, government corruption, and constitutional/privacy rights broadly; none of his statements directly addressed any of the 15 fixed ISSUES statements, so no positions could be recorded without inferring from general rhetoric."
     }
   ],
   "sources": [
@@ -170,8 +190,24 @@
       "publisher": "McGowan for Iowa (campaign site)",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Jermaine_Decker",
+      "title": "Jermaine Decker",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Jermaine_Decker",
+      "title": "Jermaine Decker (Candidate Connection survey responses)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-08-23"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No Ballotpedia biography or campaign website could be located for write-in independent candidate Jermaine Decker beyond his listing on the general-election ballot. McGowan has no Ballotpedia narrative biography, so his background here is limited to what his own campaign site states about his family history in the district. Note: Feenstra withdrew from the Republican primary (running for governor instead) rather than losing a contested primary to McGowan, who advanced unopposed with 99.3% of the vote; this was corrected from an earlier draft that described McGowan as having 'defeated' Feenstra."
+  "researchNotes": "McGowan has no Ballotpedia narrative biography, so his background here is limited to what his own campaign site states about his family history in the district. Note: Feenstra withdrew from the Republican primary (running for governor instead) rather than losing a contested primary to McGowan, who advanced unopposed with 99.3% of the vote; this was corrected from an earlier draft that described McGowan as having 'defeated' Feenstra."
 }

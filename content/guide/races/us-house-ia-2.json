@@ -173,7 +173,7 @@
       "incumbent": false,
       "currentRole": "Former CEO, Frontier Natural Products Co-Operative",
       "summary": {
-        "text": "Stewart is the Libertarian nominee for this open seat, a businessman and former law enforcement officer who previously ran for U.S. Senate and House in Iowa.",
+        "text": "Stewart is the Libertarian nominee for this open seat, a businessman and former law enforcement officer who has repeatedly run for statewide and federal office in Iowa as a Libertarian, including for U.S. Senate (2020) and governor (2022).",
         "sources": [
           "s4"
         ]
@@ -192,10 +192,29 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "In a 2022 Ballotpedia Candidate Connection survey completed during his campaign for governor, Stewart said he wants to end the federal Drug War and eliminate \"crony capitalism,\" favoring limited government and a simpler tax system.",
+          "quote": "I want to end the Drug War, America's greatest mistake and tragedy. Today, not when my grandchildren are grandparents. I want to eliminate crony capitalism, so we can enjoy all the benefits of the free market, with none of the corruption that comes from politicians with their hands in our pockets.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "In his 2022 Candidate Connection survey, Stewart said efforts to raise taxes on the wealthy don't work because they can hire lawyers and lobbyists to avoid the burden instead.",
+          "quote": "Trying to soak the rich never works, because they have the money to hire lawyers and lobbyists to soak us instead.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "researchNotes": "Stewart has not completed Ballotpedia's 2026 Candidate Connection survey; the priorities and position above are drawn from his 2022 survey response for a different office (Governor of Iowa), the most recent survey he completed, and may not reflect his current 2026 campaign platform. No dedicated 2026 campaign website content was located."
     },
     {
       "id": "dave-bushaw",
@@ -205,16 +224,59 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Bushaw is an independent candidate on the general-election ballot for Iowa's 2nd District.",
+        "text": "Bushaw is a first-generation farmland owner, folk and labor musician, and community organizer running as an independent, working-class candidate for Iowa's 2nd Congressional District.",
         "sources": [
-          "s1"
+          "s6"
         ]
       },
-      "background": [],
-      "priorities": [],
-      "positions": [],
+      "background": [
+        {
+          "text": "Born and raised in West Union, Iowa; earned a high school diploma from North Fayette High School.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Describes himself as one of the youngest self-made, first-generation farmland owners in the U.S.; has worked as a community organizer for 14 years and traveled the country as a folk and labor musician playing for striking workers.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he is running to break from the two-party system, which he describes as \"rigged against the Working Class,\" and is not accepting money from super PACs or AIPAC.",
+          "quote": "The two party machine isn't broken. It's working exactly as intended -- rigged against the Working Class to the benefit of a small handful of billionaires and their friends in Congress.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Calls for national ballot initiatives so voters can decide directly on contested issues.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Says he will fight for a universal healthcare guarantee, arguing premiums, copayments, and deductibles function as \"private taxes\" on working people.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Calls for universal healthcare, saying the U.S. spends more than any other country while ranking poorly on healthcare outcomes.",
+          "quote": "We spend more for healthcare than any country on earth, but rank 14th in quality and dead last in healthcare outcomes. In America, we can provide our people healthcare as an American Guarantee and we can do it better than any other nation.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic"
     }
   ],
   "sources": [
@@ -257,8 +319,24 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Dave_Bushaw",
+      "title": "Dave Bushaw (Candidate Connection survey responses)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Dave_Bushaw",
+      "title": "Dave Bushaw",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Lindsay James's campaign website was under construction at the time of research, so no candidate-sourced priorities or issue positions could be documented for her beyond her state legislative committee record; only Ballotpedia background was available. Joe Mitchell's Ballotpedia biography page had no narrative biography text beyond the infobox and committee history, so his background is limited. No campaign website or Ballotpedia biography page could be located for Rick Stewart's 2026 candidacy beyond the standard profile, and no page was found for independent candidate Dave Bushaw."
+  "researchNotes": "Lindsay James's campaign website was under construction at the time of research, so no candidate-sourced priorities or issue positions could be documented for her beyond her state legislative committee record; only Ballotpedia background was available. Joe Mitchell's Ballotpedia biography page had no narrative biography text beyond the infobox and committee history, so his background is limited."
 }
