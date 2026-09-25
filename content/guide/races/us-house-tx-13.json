@@ -1,0 +1,156 @@
+{
+  "id": "us-house-tx-13",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "13",
+  "title": "U.S. House · Texas's 13th District",
+  "area": "The Texas Panhandle, including Amarillo.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Republican Ronny Jackson defeated Chasity Wedgeworth in the Republican primary. Mark Nair, a former Amarillo City Councilman, won the Democratic primary unopposed.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ronny-jackson",
+      "name": "Ronny L. Jackson",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 13th District (since 2021)",
+      "ballotNote": "Won the March 3, 2026 Republican primary over Chasity Wedgeworth",
+      "summary": {
+        "text": "Ronny Jackson is the Republican incumbent seeking re-election in Texas's 13th District. A former Navy and Marine Corps physician who served as physician to the president under George W. Bush, Barack Obama and Donald Trump, he now serves on the House Intelligence, Armed Services, Agriculture and Foreign Affairs committees.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Levelland, Texas; served in the U.S. Navy Reserve and U.S. Marine Corps.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Earned a bachelor's degree in marine biology from Texas A&M University in 1991 and a medical degree from the University of Texas Medical Branch in 1995.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked as a physician with the White House Medical Unit under George W. Bush and served as physician to the president under Barack Obama and Donald Trump.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the Permanent Select Committee on Intelligence, chairing its Subcommittee on CIA Oversight and Investigations, for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Serves on the House Committee on Armed Services, chairing its Subcommittee on Intelligence and Special Operations, and on its Subcommittee on Seapower and Projection Forces, for the 119th Congress.",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Serves on the Committee on Agriculture, including its Subcommittees on Conservation, Research, and Biotechnology and on Livestock, Dairy, and Poultry, for the 119th Congress.",
+          "kind": "action",
+          "sources": ["s3"]
+        }
+      ],
+      "website": "https://jackson.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "J000304"
+    },
+    {
+      "id": "mark-nair",
+      "name": "Mark Nair",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary unopposed",
+      "summary": {
+        "text": "Mark Nair is the Democratic nominee challenging incumbent Ronny Jackson in Texas's 13th District. A former Amarillo City Councilman, inventor, entrepreneur and educator who has lived in Amarillo for more than 30 years, he is campaigning on healthcare reform, government accountability and education.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Former City Councilman in Amarillo, Texas, where he has lived for more than 30 years with his wife Suzanne.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Career spent mostly in innovation and teaching, describing himself as an inventor, entrepreneur and educator.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Separate healthcare from employment through a national health care plan, saying the current system makes healthcare about insurance rather than health.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Government accountability: remove corporate and dark money from politics, ban congressional stock trading, and impose term limits on elected officials.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Education and economic opportunity, including opposition to dismantling the Department of Education and support for a national jobs program.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he will work on a national health care plan to separate health coverage from employment.",
+          "quote": "I will work on a national health care plan to fix these problems. Separating health care from jobs will create boundless opportunities for people.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says he will work to remove the effects of corporate and dark money from elections and politics.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.marknair.com/meet-mark",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Texas%27_13th_Congressional_District_election,_2026",
+      "title": "Texas' 13th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Ronny_Jackson",
+      "title": "Ronny Jackson",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Mark_Nair",
+      "title": "Mark Nair Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-01-28"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Jackson's house.gov issues and press-release pages render via JavaScript and did not return readable text, so his stated positions on specific issues could not be confirmed beyond his committee assignments; detailed floor votes and FEC totals are added separately. Nair's campaign website also renders via JavaScript; his background and positions come from his Ballotpedia Candidate Connection survey."
+}

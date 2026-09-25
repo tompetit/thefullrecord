@@ -1,0 +1,193 @@
+{
+  "id": "us-house-wa-8",
+  "state": "WA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "8",
+  "title": "U.S. House · Washington's 8th District",
+  "area": "Central Washington suburbs and exurbs east of Seattle, including Issaquah, Sammamish, Wenatchee, and Ellensburg.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Kim Schrier and Spencer Meline advanced from the August 4, 2026 primary over a crowded Republican field that included Trinh Ha, Bob Hagglund, and Andres Valleza, and Democrat Keith Arnold. Schrier won the primary with 53.8% of the vote.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "kim-schrier",
+      "name": "Kim Schrier",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Kim Schrier is the Democratic incumbent for Washington's 8th Congressional District, a pediatrician who has represented the district since 2019 and serves on the Energy and Commerce Committee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in astrophysics from the University of California, Berkeley in 1991 and an M.D. from the University of California, Davis in 1997; completed a pediatrics residency at Stanford University School of Medicine and began practicing as a pediatrician in 2000.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "For the 2025-2026 Congress, sits on the Committee on Energy and Commerce (Commerce, Manufacturing, and Trade subcommittee; Health subcommittee; Energy subcommittee).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Has type 1 diabetes, diagnosed at age 16, which she cites in her work on healthcare and prescription drug costs.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Highlights healthcare affordability, gun safety, and the economy and trade as core campaign issues, drawing on her background as a pediatrician and patient.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Has worked on legislation to end surprise medical billing, prevent Medicare cuts, and lower prescription drug costs, and re-introduced a bill to expand pediatric care access.",
+          "quote": "I have worked to get bills passed into law to end surprise medical billing, prevent Medicare cuts, and make healthcare more affordable by shoring up the ACA... this year I re-introduced the Helping Families Access Pediatric Care Act (HR 8573).",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she will protect a woman's right to choose and keep politicians out of medical decisions between a woman and her doctor.",
+          "quote": "As a doctor, I will always fight to protect a woman's right to choose and to keep politicians out of private decisions between a woman and her doctor.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports background-check expansion and other gun-safety measures while saying she backs the rights of responsible gun owners; voted for the bipartisan Safer Communities Act and cosponsored universal background-check legislation.",
+          "quote": "I cosponsored universal, comprehensive background check legislation in Congress because guns should never be allowed in the hands of someone with a history of domestic violence, a violent criminal record, convicted stalkers, or those with severe mental illness.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Re-introduced the Helping Families Access Pediatric Care Act (H.R. 8573) to expand access to pediatric care.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Sponsored a bill, signed into law, to speed federal approval of generic insulin to bring down costs.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Cosponsored the reauthorization of the Violence Against Women Act, which includes provisions to keep guns from people convicted of domestic-violence offenses.",
+          "kind": "bill",
+          "sources": ["s4"]
+        }
+      ],
+      "website": "https://drkimschrier.com",
+      "researchDepth": "basic",
+      "bioguideId": "S001216"
+    },
+    {
+      "id": "spencer-meline",
+      "name": "Spencer Meline",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Spencer Meline is the Republican nominee for Washington's 8th Congressional District, a small business owner from Cashmere who is running on lowering the cost of living and supporting small businesses.",
+        "sources": ["s5"]
+      },
+      "background": [
+        {
+          "text": "Born and raised in Edmonds, Washington; now lives in Cashmere in the 8th District.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Built businesses from the ground up in Leavenworth, Washington, gaining experience managing payroll, navigating regulations, and leading teams; career experience includes working as a business owner.",
+          "sources": ["s5", "s6"]
+        },
+        {
+          "text": "Endorsed by the King County and Snohomish County Republican parties.",
+          "sources": ["s6"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists strong small businesses, lowering the cost of living, safe communities, responsible stewardship of public lands, and smart and secure immigration as his campaign's priorities.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says small businesses are the backbone of the district's economy and that his own experience building businesses gives him a practical understanding of how federal policy affects employers and workers.",
+          "quote": "Small businesses are the backbone of Washington's 8th District. When small businesses are strong, communities are strong, workers have opportunity, and the American Dream is within reach.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "mixed",
+          "summary": "Supports parental involvement in education and homeschools his own children, without describing a specific federal school-choice funding proposal.",
+          "quote": "My wife and I homeschool our children because we believe parents should play a meaningful role in education.",
+          "sources": ["s7"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.melineforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Washington%27s_8th_Congressional_District_election,_2026",
+      "title": "Washington's 8th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Kim_Schrier",
+      "title": "Kim Schrier",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://drkimschrier.com/issues/healthcare",
+      "title": "Healthcare",
+      "publisher": "Dr. Kim Schrier for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://drkimschrier.com/issues/gun-safety",
+      "title": "Gun Safety",
+      "publisher": "Dr. Kim Schrier for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Spencer_Meline",
+      "title": "Spencer Meline",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.melineforcongress.com",
+      "title": "Meline for Congress | District 08 - Washington State",
+      "publisher": "Meline for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Spencer_Meline",
+      "title": "Spencer Meline - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Schrier's healthcare and gun-safety statements are drawn from active issue pages on her campaign website; other issue subpages (economy/trade) returned no fetchable content. Meline completed Ballotpedia's 2026 Candidate Connection survey; his fuller responses were not exhaustively transcribed given the basic research tier. Schrier's federal key votes and FEC totals are added separately by script."
+}
