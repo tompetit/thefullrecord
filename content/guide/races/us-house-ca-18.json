@@ -1,0 +1,146 @@
+{
+  "id": "us-house-ca-18",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "18",
+  "title": "U.S. House · California's 18th Congressional District",
+  "area": "Most of San Jose and surrounding Santa Clara County communities.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California redrew its congressional district lines for the 2026 elections under Proposition 50, a mid-decade redistricting measure voters approved in a November 2025 special election.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the June 2, 2026 top-two primary, Zoe Lofgren won 54.9% of the vote (65,291 votes) and Shane Lewis won 29.3% (34,883 votes), advancing them both to the November general election.",
+      "sources": ["s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "zoe-lofgren",
+      "name": "Zoe Lofgren",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for California's 18th District (since 1995, under prior district numbers)",
+      "summary": {
+        "text": "Zoe Lofgren is the incumbent Democratic U.S. Representative for California's 18th District, a former Santa Clara County Board of Supervisors member and attorney who has served in the House since 1995.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in San Mateo, California; earned a B.A. from Stanford University in 1970 and a J.D. from Santa Clara University in 1975.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a faculty member at Santa Clara University School of Law, a staffer to former U.S. Rep. Don Edwards, and executive director of Community Housing Developers.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Santa Clara County Board of Supervisors and the Board of Trustees of the San Jose-Evergreen Community College District before being elected to Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on the Judiciary (Courts, Intellectual Property, Artificial Intelligence, and the Internet; Immigration Integrity, Security, and Enforcement; The Administrative State, Regulatory Reform, and Antitrust subcommittees) and the Committee on Science, Space, and Technology in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "L000397"
+    },
+    {
+      "id": "shane-lewis",
+      "name": "Shane Lewis",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2 top-two primary with 29.3% of the vote",
+      "summary": {
+        "text": "Shane Lewis is a U.S. Marine Corps veteran, R&D electrical test engineer for a medical device company, and former small-business owner and church worship leader in San Jose, running for a second time against Rep. Zoe Lofgren.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Joined the U.S. Marine Corps after high school; earned two meritorious promotions and qualified as a paratrooper at Fort Benning, Georgia.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Currently works as an R&D Electrical Test Engineer for a medical device company, with prior R&D roles at Zeltiq, Thoratec, St. Jude Medical, Abbott, and Procept-Biorobotics.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Previously ran a small business teaching music and served as a worship leader and elder at a church in San Jose.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Names immigration reform as a top issue, saying he would combine 'Republican respect for law and order with Democratic love of liberty' and criticizing Rep. Lofgren for blocking border-security measures.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Calls for a simple, low flat tax on wages, reduced regulation, and tax breaks framed around a 'Make America Healthy Again' agenda.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Prioritizes water and energy policy for the district, including wildfire prevention, hydropower expansion, desalination, and dam safety.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports combining stronger border enforcement with reforms addressing migrant exploitation, criticizing the incumbent for blocking border-security measures.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Calls for a simple, low flat tax on wages rather than higher taxes, saying government's core purpose is not 'to control lives or raise taxes.'",
+          "quote": "Government's core purpose is to secure our unalienable rights and liberties — not to control lives or raise taxes.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "mixed",
+          "summary": "Supports hydropower expansion and dam infrastructure alongside wildfire and watershed management, without addressing a broader fossil-fuel transition.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Zoe_Lofgren",
+      "title": "Zoe Lofgren",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Shane_Lewis",
+      "title": "Shane Lewis — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Zoe Lofgren has not completed Ballotpedia's 2026 Candidate Connection survey and no current campaign-issues page was found; her positions/priorities are limited to committee assignments from official House records. Federal key votes and FEC totals for both candidates are added separately by script."
+}

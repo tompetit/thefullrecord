@@ -1,0 +1,121 @@
+{
+  "id": "us-house-ca-36",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "36",
+  "title": "U.S. House · California's 36th District",
+  "area": "South Bay Los Angeles County, including Torrance, Redondo Beach, Manhattan Beach, Hermosa Beach, and the Palos Verdes Peninsula.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California uses a top-two nonpartisan primary. Incumbent Ted Lieu (D) and Houston Brignano (R) were the only two candidates to advance to the November general election.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ted-lieu",
+      "name": "Ted Lieu",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for California's 36th District (since 2015)",
+      "summary": {
+        "text": "Ted Lieu is the incumbent U.S. Representative for California's 36th District, serving on the House Committee on the Judiciary and the House Committee on Foreign Affairs.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Taipei, Taiwan, in 1969; earned a bachelor's degree in computer and political science from Stanford University in 1991 and a J.D. from Georgetown University Law Center in 1994.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as a Major in the United States Air Force Reserves, including as an attorney in the Judge Advocate General Corps, and as a judicial clerk on the U.S. Court of Appeals for the Ninth Circuit.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Torrance City Council, then in the California State Assembly (2005–2010) and California State Senate (2011–2014), before his election to Congress in 2014.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on the Judiciary (Courts, Intellectual Property, Artificial Intelligence, and the Internet Subcommittee) and the House Committee on Foreign Affairs in the 119th Congress (2025–2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "L000582"
+    },
+    {
+      "id": "houston-brignano",
+      "name": "Houston Brignano",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Houston Brignano is a Republican candidate for California's 36th Congressional District and a former U.S. Marine who served in Iraq. His campaign centers on federal spending transparency and reducing housing and healthcare costs.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Served as a U.S. Marine in Iraq, an experience he cites as shaping his focus on government accountability.",
+          "quote": "As a Marine in Iraq, I learned complacency kills, and we've become complacent.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his top priorities are transparency in federal spending, creating 'innovation zones' for technology, manufacturing, and energy to lower housing costs, and giving people more choice and price transparency in healthcare.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says he would create zones for technology, manufacturing, and energy and streamline regulations he describes as having constrained housing opportunity in California.",
+          "quote": "We'll streamline regulations that have kept California's opportunity artificially constrained, and driving costs through the roof.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Opposes the current insurance-company-run system and favors portable health savings accounts, cross-state competition, and price transparency instead of expanded public coverage.",
+          "quote": "I want portable health savings accounts that follow you anywhere, cross-state competition to break monopolies, and transparency in pricing so you actually know what procedures cost before getting billed.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Ted_Lieu",
+      "title": "Ted Lieu",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Houston_Brignano",
+      "title": "Houston Brignano",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Lieu has not completed Ballotpedia's 2026 Candidate Connection survey and no current campaign-issues page was found, so no current stated priorities/positions are cited for him beyond his official committee record. Federal key votes and FEC finance totals for the incumbent are added separately by script."
+}
