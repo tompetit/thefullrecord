@@ -1,0 +1,98 @@
+{
+  "id": "us-house-fl-2",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Florida's 2nd District",
+  "area": "The eastern Florida Panhandle and the Big Bend region, including Panama City to Tallahassee.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Open seat: incumbent Neal Dunn did not make the ballot in the August 18, 2026 Republican primary, which Austin Rogers won with 30.3% in an eight-candidate field. Amanda Green won the Democratic primary with 33.4% over three opponents.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "amanda-green",
+      "name": "Amanda Green",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Democratic primary with 33.4% over three opponents.",
+      "summary": {
+        "text": "Amanda Green is the Democratic nominee for the open Florida 2nd Congressional District seat. A Florida State University alumna who studied international development, economics and public administration, she has worked for a decade in operations and pricing roles supporting global health programs.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Studied international development, economics and public administration at Florida State University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Began her career with a USAID partner organization.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked for about a decade as an operations director and pricing expert supporting global health programs, famine monitoring systems, and relief efforts in Ukraine.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Addressing the affordability crisis by supporting farmers, lowering housing costs, banning corporate ownership of single-family homes, and protecting Social Security, Medicare, Medicaid and veterans' benefits.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Restoring accountability in government by banning congressional stock trading and enacting term limits.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Holding regular in-person and virtual town halls with constituents.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will protect Social Security, Medicare, Medicaid and veterans' benefits as part of addressing the affordability crisis.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "mixed",
+          "summary": "Says she will lower housing costs and ban corporate ownership of single-family homes, without detailing a zoning or supply position.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "austin-rogers",
+      "name": "Austin Rogers",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Republican primary with 30.3% in an eight-candidate field, defeating incumbent Neal Dunn in a preceding round of the nomination contest.",
+      "summary": {
+        "text": "Austin Rogers is the Republican nominee for the open Florida 2nd Congressional District seat, having won a crowded primary after incumbent Neal Dunn did not advance.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Ballotpedia biography, Candidate Connection survey, or accessible campaign-site content could be located for Rogers as of research date; only his primary election results were confirmed."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_2nd_Congressional_District_election,_2026", "title": "Florida's 2nd Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Amanda_Green", "title": "Amanda Green - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Austin_Rogers", "title": "Austin Rogers", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Open seat; this is a newly elected member so no prior federal voting record exists. Rogers has little public footprint beyond primary results."
+}

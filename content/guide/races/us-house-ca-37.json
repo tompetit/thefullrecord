@@ -1,0 +1,120 @@
+{
+  "id": "us-house-ca-37",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "37",
+  "title": "U.S. House · California's 37th District",
+  "area": "Central Los Angeles, including Culver City, Inglewood, Baldwin Hills, Leimert Park, and View Park–Windsor Hills.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California uses a top-two nonpartisan primary. In the June 2, 2026 primary, incumbent Sydney Kamlager-Dove (D) placed first with 55.2% and Samantha Mota (D) placed second with 11.7%, so both Democrats advance to the November general election; no Republican advanced.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sydney-kamlager-dove",
+      "name": "Sydney Kamlager-Dove",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for California's 37th District (since 2023)",
+      "summary": {
+        "text": "Sydney Kamlager-Dove is the incumbent U.S. Representative for California's 37th District. She previously served in both houses of the California state Legislature and as president of the Los Angeles Community College District Board of Trustees.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Chicago, Illinois, in 1972; earned a bachelor's degree in political science from the University of Southern California in 1994 and a master's degree in arts management and public policy from Carnegie Mellon University in 1996.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as district director for then-State Senator Holly J. Mitchell and served as president of the Los Angeles Community College District Board of Trustees.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the California State Assembly from 2018 to 2021 and the California State Senate from 2021 to 2022, before her election to Congress in 2022.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Was assigned to the House Committee on Foreign Affairs (Western Hemisphere Subcommittee) and the House Committee on Natural Resources in the 118th Congress (2023–2024).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "K000399"
+    },
+    {
+      "id": "samantha-mota",
+      "name": "Samantha Mota",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary with 11.7% of the vote",
+      "summary": {
+        "text": "Samantha Mota is a Democratic candidate running against incumbent Sydney Kamlager-Dove after placing second in the June 2026 top-two primary, describing her campaign as grassroots and community-focused.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Placed second in the June 2, 2026 nonpartisan primary with 11.7% of the vote (15,019 votes), advancing to a same-party general election against incumbent Sydney Kamlager-Dove.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says her campaign is grassroots, community-focused, and transparent, and that she is running because the district needs new, bold, and transparent leadership.",
+          "quote": "I'm running for Congress because we NEED representation. There has been a lack of new, bold, and transparent government and leadership in politics.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says she is passionate about immigration reform, universal health care, family leave, and economic stability.",
+          "quote": "The areas of public policy that I am passionate about are immigration reform, universal health care, Family Leave, and economic stability to heal the betrayal that have left our communities, neighborhoods, and nation abandoned and broken.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists universal health care as a policy area she is passionate about.",
+          "quote": "The areas of public policy that I am passionate about are immigration reform, universal health care, Family Leave, and economic stability to heal the betrayal that have left our communities, neighborhoods, and nation abandoned and broken.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Sydney_Kamlager-Dove",
+      "title": "Sydney Kamlager-Dove",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Samantha_Mota",
+      "title": "Samantha Mota",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Kamlager-Dove has not completed Ballotpedia's 2026 Candidate Connection survey and no current campaign-issues page was found, so no current stated priorities/positions are cited for her beyond her official committee record (most recent listed assignment is 2023–2024). Mota's positions come from her 2025-completed survey, which is brief. Federal key votes and FEC finance totals for the incumbent are added separately by script."
+}
