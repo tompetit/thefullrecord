@@ -35,3 +35,7 @@ change, write it back immediately — never write from a stale copy.
 
 Run `node scripts/guide/validate.mjs` on each touched file and fix all errors and
 warnings. Do not commit. Reply with a one-line result per candidate.
+
+## Resumed runs
+Some assignments were interrupted earlier; if a candidate already has fresh content,
+check it against the rules and complete what's missing rather than duplicating it.

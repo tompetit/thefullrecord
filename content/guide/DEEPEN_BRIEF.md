@@ -60,3 +60,8 @@ rationed; prefer direct URLs.
 Run `node scripts/guide/validate.mjs content/guide/races/<raceId>.json` for every
 file you touched and fix all errors and warnings. Do not commit. Reply with a
 short list: per candidate, positions added (issue:stance) and sources used.
+
+## Resumed runs
+Some assignments were interrupted mid-run earlier. If your candidate already has
+positions/priorities added recently, re-verify those against the rules above (fix or
+remove any that fail), then continue with what's missing. Never duplicate an issue key.
