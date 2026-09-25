@@ -11,56 +11,139 @@
   "context": [
     {
       "text": "Adelita Grijalva won a September 23, 2025 special election to fill the seat left vacant by the death of her father, Raúl Grijalva. House Speaker Mike Johnson did not swear her in until November 12, 2025 — 50 days after her election and, at 39 days as of late October, the longest gap between election and swearing-in in U.S. House history at that point. Arizona Attorney General Kris Mayes and Grijalva filed and then voluntarily dismissed a lawsuit over the delay.",
-      "sources": ["s3"]
+      "sources": [
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "adelita-grijalva",
       "name": "Adelita Grijalva",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since November 2025)",
       "ballotNote": "Won a September 23, 2025 special election, then won the July 21, 2026 Democratic primary unopposed.",
       "summary": {
         "text": "Adelita Grijalva is the Democratic incumbent U.S. Representative for Arizona's 7th Congressional District, elected in a 2025 special election after previously serving on the Pima County Board of Supervisors and the Tucson Unified School District governing board.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "A lifelong Tucsonan; graduated from Pueblo High School and earned a degree from the University of Arizona.", "sources": ["s1"] },
-        { "text": "Worked as director of the Pima County Teen Court, a diversion program for teens.", "sources": ["s1"] },
-        { "text": "Daughter of the late U.S. Rep. Raúl Grijalva, whose Arizona's 7th District seat she won in the September 2025 special election.", "sources": ["s3"] }
+        {
+          "text": "A lifelong Tucsonan; graduated from Pueblo High School and earned a degree from the University of Arizona.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Worked as director of the Pima County Teen Court, a diversion program for teens.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Daughter of the late U.S. Rep. Raúl Grijalva, whose Arizona's 7th District seat she won in the September 2025 special election.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Criticized the EPA's decision to roll back air pollution limits for fossil fuel power plants and called for moving forward on clean energy instead.",
+          "quote": "Instead of investing in cheaper clean energy solutions, Trump is propping up dirty and expensive fossil fuel plants in order to appease his donors. Arizonans deserve clean air and lower utility bills – not handouts to the coal industry. We should be moving forward on clean energy and stronger protections, not turning back the clock.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Co-introduced the Fund Schools, Not ICE Act, which would redirect ICE funding to Title I public schools and require DHS to sell recently purchased detention warehouse facilities.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Education and the Workforce and the House Committee on Natural Resources (2025-2026).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "kind": "bill",
+          "text": "Introduced the Fairness for Farm Workers Act, to expand overtime protections for agricultural workers under the Fair Labor Standards Act.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "researchDepth": "basic",
-      "researchNotes": "No completed Ballotpedia Candidate Connection survey or detailed issue positions found within the research window; committee assignments and biography are documented above."
+      "researchNotes": "No completed Ballotpedia Candidate Connection survey found. Positions above are drawn from her official House press releases; her House issues page (grijalva.house.gov/issues) lists topic areas without detailed statements."
     },
     {
       "id": "daniel-butierez-sr",
       "name": "Daniel Butierez Sr.",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Daniel Butierez Sr. is the Republican nominee challenging incumbent Adelita Grijalva.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
-        { "text": "Born in Tucson, Arizona, in 1966, a third-generation Arizonan.", "sources": ["s4"] },
-        { "text": "Career experience includes working as a contractor and construction worker, and he says he owns two businesses.", "sources": ["s2", "s4"] },
-        { "text": "Says he spent about 30 years pursuing legal relief after being imprisoned without what he describes as a valid conviction, until a judge ultimately ruled in his favor.", "sources": ["s4"] }
+        {
+          "text": "Born in Tucson, Arizona, in 1966, a third-generation Arizonan.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Career experience includes working as a contractor and construction worker, and he says he owns two businesses.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Says he spent about 30 years pursuing legal relief after being imprisoned without what he describes as a valid conviction, until a judge ultimately ruled in his favor.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says securing the U.S.-Mexico border is central to his plans, including a proposed program to help homeless people and people struggling with drug use get back on their feet.", "sources": ["s4"] },
-        { "text": "Says government too often 'throws money at a problem rather than a solution,' pointing to spending as a driver of inflation and higher interest rates.", "sources": ["s4"] },
-        { "text": "Says he wants to bring attention to what he describes as corruption in local Tucson government.", "sources": ["s4"] }
+        {
+          "text": "Says securing the U.S.-Mexico border is central to his plans, including a proposed program to help homeless people and people struggling with drug use get back on their feet.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says government too often 'throws money at a problem rather than a solution,' pointing to spending as a driver of inflation and higher interest rates.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says he wants to bring attention to what he describes as corruption in local Tucson government.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "positions": [
         {
@@ -68,7 +151,9 @@
           "stance": "supports",
           "summary": "Says securing the border is a focal point of his campaign.",
           "quote": "Securing our Border: This is vital to my plans of helping our homeless get on their feet and drug users off of drugs.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -76,10 +161,59 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/Adelita_Grijalva", "title": "Adelita Grijalva", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Daniel_Butierez_Sr.", "title": "Daniel Butierez Sr.", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Adelita_Grijalva", "title": "Adelita Grijalva — swearing-in dispute", "publisher": "Ballotpedia", "kind": "reference", "date": "2025-11-14" },
-    { "id": "s4", "url": "https://ballotpedia.org/Daniel_Butierez_Sr.", "title": "Daniel Butierez Sr. — Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2023-01-01" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Adelita_Grijalva",
+      "title": "Adelita Grijalva",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Daniel_Butierez_Sr.",
+      "title": "Daniel Butierez Sr.",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Adelita_Grijalva",
+      "title": "Adelita Grijalva — swearing-in dispute",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2025-11-14"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Daniel_Butierez_Sr.",
+      "title": "Daniel Butierez Sr. — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2023-01-01"
+    },
+    {
+      "id": "s5",
+      "url": "https://grijalva.house.gov/media/press-releases/rep-grijalva-statement-on-epa-decision-to-roll-back-power-plant-emission-rules",
+      "title": "Rep. Grijalva Statement on EPA Decision to Roll Back Power Plant Emission Rules",
+      "publisher": "Office of Rep. Adelita Grijalva",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://grijalva.house.gov/media/press-releases/grijalva-stanton-ansari-introduce-bill-to-redirect-ice-funding-to-public-schools-require-sale-of-detention-warehouses",
+      "title": "Grijalva, Stanton, Ansari Introduce Bill to Redirect ICE Funding to Public Schools, Require Sale of Detention Warehouses",
+      "publisher": "Office of Rep. Adelita Grijalva",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://grijalva.house.gov/media/press-releases/rep-grijalva-introduces-the-fairness-for-farm-workers-act",
+      "title": "Rep. Grijalva Introduces the Fairness for Farm Workers Act",
+      "publisher": "Office of Rep. Adelita Grijalva",
+      "kind": "candidate"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Federal key roll-call votes and FEC finance totals for incumbent Adelita Grijalva are added separately by script. This is an uncontested-leaning, heavily Democratic district (D+ lean); limited independent coverage of the Republican nominee was found beyond his own Ballotpedia survey responses."

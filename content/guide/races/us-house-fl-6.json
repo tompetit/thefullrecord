@@ -40,11 +40,67 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Support Working Families: says he voted for the Working Families Tax Cuts Act, which he says removes taxes on tips and Social Security and raises the average Floridian's salary by nearly $7,000.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Energy Independence: wants to end U.S. reliance on foreign energy by streamlining permits, reducing regulations, and expanding domestic oil, gas, coal and renewable production.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Eliminate the Department of Education and return control over how children are taught to states, local communities and parents.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "Lists standing with President Trump to enforce reciprocal tariffs among his economic priorities.",
+          "quote": "America First Trade Policy: Stand with President Trump to enforce reciprocal tariffs that keep cheap imports out, bring manufacturing jobs back, and make sure American goods compete on the world stage.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Lists mass deportation of people in the country illegally as one of his top immigration priorities.",
+          "quote": "Mass Deportations: Nearly 70 million Americans voted for President Trump's plan to remove illegal aliens from our country and restore safety in American communities. Mass deportations mean mass deportations.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Says U.S. energy policy should prioritize ending what he calls \"climate extremism\" and expanding domestic fossil-fuel and other production rather than pursuing a faster transition away from fossil fuels.",
+          "quote": "American energy policy must prioritize independence, affordability, and efficiency. That means ending climate extremism, cutting red tape, and putting American producers back in charge of our resources.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Lists empowering law enforcement and backing the use of National Guard and military forces to assist police among his priorities on crime.",
+          "quote": "Empower Law Enforcement: Despite increased danger from Democrat rhetoric, America's police officers are working harder than ever and volunteering at higher rates because of the Trump effect. I stand with them and will always have their back.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says families, not the federal government, should choose among public, private, charter or homeschool options for their children.",
+          "quote": "Champion School Choice: Families, not Washington, should decide the best path for their children, whether public, private, charter, or homeschool. Competition improves outcomes and ensures every child has a chance to succeed.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Says he fully supports the U.S. alliance with Israel against Hamas and other adversaries.",
+          "quote": "Stand with Israel: As a proud Jewish American, I fully support our alliance with Israel in the fight against Hamas, Al Qaeda, and all enemies of Western civilization.",
+          "sources": ["s10"]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Federal roll-call votes, sponsored-bill lists and FEC finance totals for this sitting member are added by script; no additional 2026 campaign key-message profile was found on Ballotpedia."
+      "researchNotes": "Positions and priorities above are drawn from Fine's official House issues pages (Economy, Immigration, Crime, Education, Energy, Foreign Policy). Federal roll-call votes, sponsored-bill lists and FEC finance totals for this sitting member are added by script."
     },
     {
       "id": "eric-yonce",
@@ -168,7 +224,13 @@
     { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_6th_Congressional_District_election,_2026", "title": "Florida's 6th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s2", "url": "https://ballotpedia.org/Randy_Fine", "title": "Randy Fine", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s3", "url": "https://ballotpedia.org/Eric_Yonce", "title": "Eric Yonce - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://ballotpedia.org/Michael_Gist", "title": "Michael Gist - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+    { "id": "s4", "url": "https://ballotpedia.org/Michael_Gist", "title": "Michael Gist - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s5", "url": "https://fine.house.gov/issues/issue/?IssueID=14891", "title": "Grow the Economy", "publisher": "Office of Rep. Randy Fine", "kind": "official", "date": "2026-09-25" },
+    { "id": "s6", "url": "https://fine.house.gov/issues/issue/?IssueID=10177", "title": "Energy and Resource Independence", "publisher": "Office of Rep. Randy Fine", "kind": "official", "date": "2026-09-25" },
+    { "id": "s7", "url": "https://fine.house.gov/issues/issue/?IssueID=73", "title": "Quality Education", "publisher": "Office of Rep. Randy Fine", "kind": "official", "date": "2026-09-25" },
+    { "id": "s8", "url": "https://fine.house.gov/issues/issue/?IssueID=14966", "title": "Tackle Immigration & Secure the Border", "publisher": "Office of Rep. Randy Fine", "kind": "official", "date": "2026-09-25" },
+    { "id": "s9", "url": "https://fine.house.gov/issues/issue/?IssueID=14967", "title": "Fight Crime and Demand Justice", "publisher": "Office of Rep. Randy Fine", "kind": "official", "date": "2026-09-25" },
+    { "id": "s10", "url": "https://fine.house.gov/issues/issue/?IssueID=14969", "title": "Strengthen our Global Position & Stop Terrorism", "publisher": "Office of Rep. Randy Fine", "kind": "official", "date": "2026-09-25" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Fine's federal voting record and FEC finance totals are added by script. Parrott and Pavlik have little to no documented public record."
