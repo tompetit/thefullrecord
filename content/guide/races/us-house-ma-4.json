@@ -30,8 +30,39 @@
         { "text": "Served in the U.S. Marine Corps from 2010 to 2015, reaching the rank of captain.", "sources": ["s2"] },
         { "text": "Served on the Newton, Massachusetts City Council from 2016 to 2020 before his election to Congress.", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says gun safety is a priority as a former Marine officer who trained and deployed with assault weapons, calling for an assault-weapons ban and a suite of Massachusetts-style gun-safety measures.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says the U.S. must meet its commitments under the Paris Climate Accords and supports clean-energy technologies including fusion, fission, geothermal, solar and offshore wind.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Calls for an assault-weapons ban and adopting Massachusetts-style gun-safety measures including background checks, safe storage, and red-flag laws.",
+          "quote": "As a former Marine officer who trained and deployed with assault weapons, gun safety is a priority for me. We need an assault-weapons ban, because weapons of war have no place on our streets or near our schools. And we need to adopt the common-sense suite of Massachusetts measures to reduce gun violence: background checks, safe storage, red-flag laws, and more.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he voted to codify abortion rights in his first term and earned a perfect rating from Planned Parenthood.",
+          "quote": "In my first term, I voted to codify abortion rights and earned a perfect rating from Planned Parenthood on their legislative scorecard. I will always use my voice and vote in Washington to protect women's healthcare.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says the U.S. must meet its commitments under the Paris Climate Accords and supports building on the 117th Congress's clean-energy investments, including offshore wind development.",
+          "quote": "Building on the historic investments in clean energy & climate action of the 117th Congress, the United States must meet its commitments under the Paris Climate Accords. We must achieve a future of clean air, clean water, and clean energy that is too cheap to meter.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Energy and Commerce (Health, Energy, and Environment subcommittees) for 2025-2026.",
@@ -43,10 +74,16 @@
           "date": "2026-09-21",
           "kind": "action",
           "sources": ["s4"]
+        },
+        {
+          "text": "Earned a 100% rating on the End Citizens United/Let America Vote Scorecard.",
+          "date": "2022-05-10",
+          "kind": "action",
+          "sources": ["s9"]
         }
       ],
       "website": "https://auchincloss.house.gov",
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "bioguideId": "A000148"
     },
     {
@@ -132,8 +169,40 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://auchincloss.house.gov/issues/ending-gun-violence",
+      "title": "Ending gun violence",
+      "publisher": "Office of Rep. Jake Auchincloss",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://auchincloss.house.gov/issues/promoting-climate-action-and-clean-energy",
+      "title": "Promoting climate action & clean energy",
+      "publisher": "Office of Rep. Jake Auchincloss",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://auchincloss.house.gov/issues/protecting-reproductive-rights",
+      "title": "Protecting reproductive rights",
+      "publisher": "Office of Rep. Jake Auchincloss",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://auchincloss.house.gov/issues/defending-democracy",
+      "title": "Defending democracy",
+      "publisher": "Office of Rep. Jake Auchincloss",
+      "kind": "official",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Rep. Auchincloss's key floor votes and FEC finance totals are added separately by script."
+  "researchNotes": "Rep. Auchincloss's key floor votes and FEC finance totals are added separately by script. Checked his official issues pages (defending democracy, ending gun violence, growing the economy, lowering healthcare costs, promoting climate action & clean energy, protecting reproductive rights); the healthcare page discusses lowering drug prices and medical debt rather than expanding public coverage, so no healthcare_public position is included for him."
 }
