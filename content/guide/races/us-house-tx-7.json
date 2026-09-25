@@ -1,0 +1,140 @@
+{
+  "id": "us-house-tx-7",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "7",
+  "title": "U.S. House · Texas's 7th District",
+  "area": "Houston, western Harris County",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Lizzie Pannill Fletcher (D) ran unopposed in the March 3, 2026 Democratic primary. Alexander Hale won a May 26, 2026 Republican primary runoff against Tina Blum Cohen, 64.3% to 35.7%. As of September 2026, forecasters (Cook Political Report, Decision Desk HQ, Inside Elections, Sabato's Crystal Ball) rated the general election Solid/Safe Democratic.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "lizzie-fletcher",
+      "name": "Lizzie Pannill Fletcher",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 7th District (since 2019)",
+      "summary": {
+        "text": "Lizzie Pannill Fletcher is the Democratic incumbent U.S. Representative for Texas's 7th Congressional District, a Houston lawyer.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born and raised in Houston, Texas; graduated from St. John's School, earned a bachelor's degree in history from Kenyon College, and a J.D. from William & Mary Law School.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a lawyer before being elected to Congress; co-founded Planned Parenthood Young Leaders in 2000.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves as a board member of Writers in the Schools and the Open Dance Project.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Energy and Commerce, including the Health Subcommittee and the Oversight and Investigations Subcommittee, in the 2025–2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "No Ballotpedia Candidate Connection survey or curated key-messages profile was found for Fletcher in this race's coverage; positions on specific issues were not documented from the sources checked."
+    },
+    {
+      "id": "alexander-hale",
+      "name": "Alexander Hale",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 26, 2026 Republican primary runoff against Tina Blum Cohen",
+      "summary": {
+        "text": "Alexander Hale is the Republican nominee for Texas's 7th Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or curated biography/key-messages profile was found for Hale; only the primary result is documented."
+    },
+    {
+      "id": "espoir-ngabo",
+      "name": "Espoir Ngabo",
+      "parties": ["G"],
+      "incumbent": false,
+      "ballotNote": "Won the Green Party convention nomination",
+      "summary": {
+        "text": "Espoir Ngabo is an information-technology professional running as the Green Party nominee for Texas's 7th Congressional District on a platform funded with no corporate money.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Built a nearly decade-long career in information technology, supporting business systems and infrastructure.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Based in Houston and connected to the Alief, Sharpstown, and Gulfton communities.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his campaign takes zero corporate money and is \"powered by everyday people.\"",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Calls for stronger flood protection and disaster preparedness, reliable public transit, and safer roads and sidewalks in the district.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports a $25 federal minimum wage indexed to the cost of living.",
+          "quote": "a $25 federal minimum wage that keeps up with the cost of living",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports a single-payer healthcare system covering everyone.",
+          "quote": "healthcare for everyone through a single-payer system",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Texas%27_7th_Congressional_District_election,_2026",
+      "title": "Texas' 7th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Lizzie_Pannill_Fletcher",
+      "title": "Lizzie Pannill Fletcher",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}
