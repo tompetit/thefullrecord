@@ -114,22 +114,22 @@
           ]
         },
         {
-          "text": "Supports building a universal healthcare system, lowering prescription drug costs, and protecting rural hospitals and nursing homes.",
-          "quote": "Aaron supports building a universal healthcare system that guarantees stable, accessible, cost-effective basic care for every American.",
+          "text": "Cites medical debt as one of the most common causes of bankruptcy and says cuts to Medicare, Medicaid, VA benefits, and rural healthcare systems threaten local hospitals and nursing homes.",
+          "quote": "Medical debt is now one of the most common causes of bankruptcy in America.",
           "sources": [
             "s3"
           ]
         },
         {
-          "text": "Says he would raise the federal minimum wage, strengthen unions and worker protections, and oppose tax breaks and deregulation for large corporations.",
+          "text": "Says he would strengthen unions and workers' bargaining power rather than give tax breaks and deregulation to large corporations.",
           "quote": "Instead of tax breaks and deregulation for large corporations, Aaron supports raising wages and strengthening workers' bargaining power.",
           "sources": [
             "s3"
           ]
         },
         {
-          "text": "Says he would work to expand housing supply across the district to bring down costs and support local redevelopment.",
-          "quote": "Expand housing supply to drive down costs.",
+          "text": "Describes housing as scarce and increasingly unaffordable in Western New York and the Southern Tier and says it should be treated as a basic human need rather than only an investment.",
+          "quote": "Housing is not just an investment; it is a basic human need.",
           "sources": [
             "s3"
           ]
@@ -166,26 +166,8 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Supports building a universal healthcare system covering basic care for every American.",
-          "quote": "Aaron supports building a universal healthcare system that guarantees stable, accessible, cost-effective basic care for every American.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "housing_supply",
-          "stance": "supports",
-          "summary": "Says he would work with local governments to make it easier to build housing and expand housing supply to lower costs.",
-          "quote": "Expand housing supply to drive down costs.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "minimum_wage",
-          "stance": "supports",
-          "summary": "Calls for an immediate increase in the federal minimum wage.",
-          "quote": "Raise the federal minimum wage to $15 immediately.",
+          "summary": "Campaigns under a \"Universal Healthcare\" priority, citing medical debt as a leading cause of bankruptcy and opposing cuts to Medicare, Medicaid, VA benefits, and rural healthcare systems.",
+          "quote": "Medical debt is now one of the most common causes of bankruptcy in America.",
           "sources": [
             "s3"
           ]
@@ -232,5 +214,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Gies's campaign website (aaronforny23.com) blocked automated access directly, but an Internet Archive snapshot from September 18, 2026 (cited above) supplied biography, priorities and positions. His Ballotpedia page still has no biography section and no completed Candidate Connection survey. Federal key votes and FEC totals for incumbent Nick Langworthy are added separately by script."
+  "researchNotes": "Gies's campaign website (aaronforny23.com) blocked automated access directly; the live site was checked instead and supplied biography, priorities and positions. His Ballotpedia page still has no biography section and no completed Candidate Connection survey. A fact-check found that two claims sourced to the site could not be verified there: a \"$15 minimum wage\" quote (no mention of minimum wage or $15 anywhere on the site) and an \"Expand housing supply to drive down costs\" quote (the housing section only frames housing as unaffordable and a basic human need, with no supply/zoning-specific commitment); the `minimum_wage` and `housing_supply` positions built on those quotes were removed, and the housing priority and healthcare quotes were corrected to text actually on the page. Federal key votes and FEC totals for incumbent Nick Langworthy are added separately by script."
 }
