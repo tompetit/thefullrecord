@@ -80,6 +80,11 @@ for (const file of files) {
       if (!ISSUES.has(p.issue)) errs.push(`${w}.positions[${i}]: bad issue ${p.issue}`);
       if (!["supports", "opposes", "mixed"].includes(p.stance)) errs.push(`${w}.positions[${i}]: bad stance`);
       cites({ text: p.summary, sources: p.sources }, `${w}.positions[${i}]`);
+      if (p.basis && !["votes", "statements"].includes(p.basis)) errs.push(`${w}.positions[${i}]: bad basis`);
+      if (p.stated) {
+        if (!["supports", "opposes", "mixed"].includes(p.stated.stance)) errs.push(`${w}.positions[${i}].stated: bad stance`);
+        cites({ text: p.stated.summary, sources: p.stated.sources }, `${w}.positions[${i}].stated`);
+      }
     });
     const seenIssues = new Set();
     for (const p of c.positions ?? []) {
