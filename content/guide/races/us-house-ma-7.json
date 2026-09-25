@@ -40,8 +40,57 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Fight to abolish U.S. Immigration and Customs Enforcement (ICE), citing family separations and deaths in detention.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Protect and expand reproductive freedom, including access to abortion and maternal health care.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Expand access to affordable housing and tenant protections, including an eviction-assistance hotline.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Introduced a resolution affirming reproductive freedom as a fundamental human right and supporting policies including universal healthcare, maternal healthcare, and protections against pregnancy-related criminalization.",
+          "quote": "As we mark America’s 250th anniversary, we must also acknowledge that the fundamental freedoms this nation was founded on are not enjoyed by all its people—especially the right to one’s own body and reproductive freedom",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Called for ICE to be abolished, citing family separations and deaths in detention, and opposed $70 billion in new funding for the agency.",
+          "quote": "ICE cannot be reformed—it must be abolished.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Sponsored the Eviction Helpline Act, which would create a national hotline to help tenants get assistance and know their rights before an eviction is filed.",
+          "quote": "Housing is a human right. It is health. It is dignity. It is stability and community. Every single person needs access to a quality home they can actually afford.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Criticized the Trump administration's tariff policy as harmful to families and repeatedly pressed for exemptions for essential baby products.",
+          "quote": "Donald Trump’s reckless and chaotic tariff policy is continuing to wreak havoc on our economy, and families with young children are no exception.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Opposed Republican cuts to the Affordable Care Act and Medicaid and called for extending ACA tax credits, saying Republicans are rolling back health coverage gains.",
+          "quote": "Republicans are rolling back these gains every day by gutting essential programs like Medicaid and forcing families to choose between refilling medications and paying rent.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the House Committee on Financial Services and the House Committee on Oversight and Government Reform, including the Federal Law Enforcement Subcommittee, in the 119th Congress (2025-2026).",
