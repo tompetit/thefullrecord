@@ -44,13 +44,54 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says she is committed to making housing affordable and helping more families become homeowners, and is co-leading House Democrats' Housing Affordability Working Group.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says she will keep fighting to extend Affordable Care Act premium tax credits and protect affordable coverage for constituents.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Co-led the RELIEF Act to require automatic refunds to small businesses for tariffs the Trump administration collected, after the Supreme Court found the tariffs illegal.",
+          "quote": "The Supreme Court finally ruled what we all knew to be true: these tariff taxes are illegal. Over the past year, President Trump has cost families $1,200 and forced small businesses to pay roughly $200 billion in tariffs – now it’s time for the President to pay them back.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Backed House passage of legislation to extend Affordable Care Act premium tax credits, saying it would make healthcare more affordable and expand access to coverage.",
+          "quote": "This bill means more affordable healthcare, better access to care, and less financial strain for hardworking families. I’ll keep fighting to get it signed into law.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Co-convened House Democrats' Housing Affordability Working Group, saying Congress needs to cut red tape and build more homes.",
+          "quote": "Americans need us to cut red tape, build more homes, protect tenants, and deliver real relief.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Transportation and Infrastructure (Economic Development, Public Buildings and Emergency Management Subcommittee; Highways and Transit Subcommittee; Railroads, Pipelines and Hazardous Materials Subcommittee; Water Resources and Environment Subcommittee) and the House Committee on Science, Space, and Technology (Energy Subcommittee) in the 119th Congress (2025-2026).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Original cosponsor of the RELIEF Act, which would require refunds of tariffs collected since January 1, 2025 that were found illegal by the Supreme Court.",
+          "kind": "bill",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Co-convened the first meeting of House Democrats' Housing Affordability Working Group with Rep. Emilia Sykes.",
+          "kind": "action",
+          "sources": ["s4"]
         }
       ],
       "researchDepth": "basic"
@@ -120,8 +161,32 @@
       "title": "Scott Meyers (California) - Ballotpedia's Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://friedman.house.gov/media/press-releases/release-reps-sykes-friedman-co-convene-first-meeting-house-democrats-housing",
+      "title": "RELEASE: Reps. Sykes & Friedman Co-Convene First Meeting of House Democrats' Housing Affordability Working Group",
+      "publisher": "Office of Rep. Laura Friedman",
+      "kind": "candidate",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "s5",
+      "url": "https://friedman.house.gov/media/press-releases/release-friedman-celebrates-house-passage-bill-restore-aca-tax-credits",
+      "title": "RELEASE: Friedman Celebrates House Passage of Bill to Restore ACA Tax Credits",
+      "publisher": "Office of Rep. Laura Friedman",
+      "kind": "candidate",
+      "date": "2026-01-08"
+    },
+    {
+      "id": "s6",
+      "url": "https://friedman.house.gov/media/press-releases/release-friedman-co-leads-bill-provide-automatic-refunds-illegal-tariff-taxes",
+      "title": "RELEASE: Friedman Co-Leads Bill to Provide Automatic Refunds of Illegal Tariff Taxes",
+      "publisher": "Office of Rep. Laura Friedman",
+      "kind": "candidate",
+      "date": "2026-02-20"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Laura Friedman has not completed Ballotpedia's 2026 Candidate Connection survey and no current issue-by-issue statements were found within this session's time budget beyond her committee role; her federal floor votes and FEC totals are added separately by script. Scott Meyers completed the 2026 survey, which is the basis for his priorities and the tax position listed here."
+  "researchNotes": "Laura Friedman has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities were drawn from her official House issues page and press releases. Her federal floor votes and FEC totals are added separately by script. Scott Meyers completed the 2026 survey, which is the basis for his priorities and the tax position listed here."
 }

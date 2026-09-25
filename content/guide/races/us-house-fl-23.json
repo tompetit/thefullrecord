@@ -43,8 +43,64 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says she is committed to lowering the cost of living, including groceries, gas, prescription drugs, and housing, and supported legislation letting Medicare negotiate drug prices.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says she will always fight to protect Social Security and Medicare and opposes efforts to privatize Social Security or cut its benefits.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says she is fully committed to restoring the right to abortion nationwide and co-leads the Women's Health Protection Act.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she is committed to restoring nationwide abortion rights and co-leads the Women's Health Protection Act.",
+          "quote": "I am fully committed to restoring the right to abortion nationwide.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Backs further gun-violence legislation including universal background checks, an assault weapons ban, and red-flag laws, and supported the Bipartisan Safer Communities Act.",
+          "quote": "I will continue to fight for further legislation to reduce gun violence, including measures to require safe storage of firearms, require universal background checks, create an Office of Gun Violence Prevention, prohibit “ghost guns” (guns without serial numbers), ban assault weapons and high capacity magazines, eliminate gun manufacturers’ liability immunity, and establish federal extreme risk protection orders (“red flag laws”).",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says all Americans deserve access to affordable, quality health care and has worked to strengthen and expand ACA coverage.",
+          "quote": "I believe all Americans deserve access to affordable, quality health care, and I am fighting back hard against Republicans’ efforts to rip away health care for millions of families.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says border enforcement officers need adequate tools and resources, while opposing the Trump administration's expanded enforcement actions such as ending TPS and reversing birthright citizenship, and supporting a pathway to citizenship.",
+          "quote": "At the same time, our border enforcement officers must have the tools and resources they need to keep us all safe and secure.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Says she will always stand by Israel and, as Ranking Member of the relevant Appropriations subcommittee, supports continued security assistance and missile-defense funding for Israel.",
+          "quote": "I will always stand by Israel, and I am committed to ensuring our ally has the resources and support needed to defend itself and maintain peace and security.",
+          "sources": ["s10"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supported the Inflation Reduction Act, which she describes as the most substantial legislation to combat climate change in the nation's history.",
+          "quote": "I am also proud to have supported the Inflation Reduction Act (IRA), the most substantial legislation to combat climate change in our nation’s history.",
+          "sources": ["s11"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations for the 2025–2026 Congress; previously served on the Committee on Foreign Affairs and the Committee on Transportation and Infrastructure (2017–2018) and the Committee on Veterans' Affairs (2021–2022).",
@@ -129,6 +185,62 @@
       "title": "Deborah Adeimy",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://frankel.house.gov/Issues/Issue/?IssueID=14901",
+      "title": "Lower Costs",
+      "publisher": "Office of Rep. Lois Frankel",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://frankel.house.gov/Issues/Issue/?IssueID=14896",
+      "title": "Social Security and Medicare",
+      "publisher": "Office of Rep. Lois Frankel",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://frankel.house.gov/Issues/Issue/?IssueID=14902",
+      "title": "Reproductive Freedom",
+      "publisher": "Office of Rep. Lois Frankel",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://frankel.house.gov/Issues/Issue/?IssueID=14905",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Lois Frankel",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://frankel.house.gov/Issues/Issue/?IssueID=14899",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Lois Frankel",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://frankel.house.gov/Issues/Issue/?IssueID=14895",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Lois Frankel",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://frankel.house.gov/Issues/Issue/?IssueID=14904",
+      "title": "Israel and Antisemitism",
+      "publisher": "Office of Rep. Lois Frankel",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://frankel.house.gov/Issues/Issue/?IssueID=14887",
+      "title": "Environment",
+      "publisher": "Office of Rep. Lois Frankel",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

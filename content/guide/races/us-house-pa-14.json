@@ -50,19 +50,19 @@
           "issue": "guns",
           "stance": "opposes",
           "summary": "Voted no on the Bipartisan Background Checks Act of 2019, which would have required background checks on private firearm transfers.",
-          "sources": ["s1"]
+          "sources": ["s1", "s5"]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "Voted no on the Elijah E. Cummings Lower Drug Costs Now Act, which sought to have Medicare negotiate drug prices and expand Medicare coverage.",
-          "sources": ["s1"]
+          "sources": ["s1", "s6"]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Voted no on the American Dream and Promise Act of 2019, which sought to protect certain immigrants from removal and provide a path to permanent residency.",
-          "sources": ["s1"]
+          "sources": ["s1", "s7"]
         }
       ],
       "record": [
@@ -78,21 +78,21 @@
         },
         {
           "text": "Voted no on the Bipartisan Background Checks Act of 2019 (H.R. 8), which passed the House 240–190.",
-          "date": "2019",
+          "date": "2019-02-27",
           "kind": "vote",
-          "sources": ["s1"]
+          "sources": ["s1", "s5"]
         },
         {
           "text": "Voted no on the Elijah E. Cummings Lower Drug Costs Now Act (H.R. 3), which passed the House 230–192.",
-          "date": "2019",
+          "date": "2019-12-12",
           "kind": "vote",
-          "sources": ["s1"]
+          "sources": ["s1", "s6"]
         },
         {
           "text": "Voted no on the American Dream and Promise Act of 2019 (H.R. 6), which passed the House 237–187.",
-          "date": "2019",
+          "date": "2019-06-04",
           "kind": "vote",
-          "sources": ["s1"]
+          "sources": ["s1", "s7"]
         }
       ],
       "website": "https://reschenthaler.house.gov",
@@ -173,6 +173,30 @@
       "title": "About",
       "publisher": "Office of Rep. Guy Reschenthaler",
       "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://clerk.house.gov/Votes/201999",
+      "title": "Roll Call 99 - H.R.8 Bipartisan Background Checks Act of 2019 (On Passage)",
+      "publisher": "Office of the Clerk, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2019-02-27"
+    },
+    {
+      "id": "s6",
+      "url": "https://clerk.house.gov/Votes/2019682",
+      "title": "Roll Call 682 - H.R.3 Elijah E. Cummings Lower Drug Costs Now Act (On Passage)",
+      "publisher": "Office of the Clerk, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2019-12-12"
+    },
+    {
+      "id": "s7",
+      "url": "https://clerk.house.gov/Votes/2019240",
+      "title": "Roll Call 240 - H.R.6 American Dream and Promise Act of 2019 (On Passage)",
+      "publisher": "Office of the Clerk, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2019-06-04"
     }
   ],
   "researchedAt": "2026-09-25",
