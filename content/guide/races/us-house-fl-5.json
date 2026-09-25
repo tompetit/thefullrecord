@@ -44,8 +44,36 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Immigration: focuses on securing the border, streamlining the immigration process, and supporting border patrol agents.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Community Safety: says he is focused on keeping kids safe in school, families safe at home, and police safe on the job, drawing on more than 40 years of law-enforcement experience as a former sheriff.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says the One Big Beautiful Bill Act delivers the largest tax cut in history for middle- and working-class Americans.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Lists cosponsoring border-wall funding legislation, closing asylum-system loopholes, and codifying the 'Remain in Mexico' policy among his legislative actions on immigration.",
+          "quote": "In Congress, I'm working to protect our national security and the economic well-being of hardworking Americans.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Sponsored the Protect and Serve Act increasing penalties for attacks on law officers, authored the STOP School Violence Act that funded school security and school resource officers, and advocated for the School Resource Officer Act to hire additional school resource officers.",
+          "quote": "As a former Sheriff with over 40 years of law enforcement experience, nothing is more important to me than the safety and security of our community.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations and the Committee on Ethics in the 119th Congress.",
@@ -54,7 +82,7 @@
         }
       ],
       "researchDepth": "basic",
-      "researchNotes": "Federal roll-call votes and FEC finance totals for this sitting member are added by script; no additional 2026 campaign key-message profile was found on Ballotpedia."
+      "researchNotes": "Federal roll-call votes and FEC finance totals for this sitting member are added by script. Positions and priorities above are drawn from Rutherford's official House issues pages (Immigration, Community Safety, Tax Cuts for Working Americans)."
     },
     {
       "id": "rachel-grage",
@@ -122,7 +150,10 @@
   "sources": [
     { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_5th_Congressional_District_election,_2026", "title": "Florida's 5th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s2", "url": "https://ballotpedia.org/John_Rutherford_(Florida)", "title": "John Rutherford (Florida)", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Rachel_Grage", "title": "Rachel Grage - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+    { "id": "s3", "url": "https://ballotpedia.org/Rachel_Grage", "title": "Rachel Grage - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://rutherford.house.gov/issues/immigration", "title": "Immigration", "publisher": "Office of Rep. John Rutherford", "kind": "official", "date": "2026-09-25" },
+    { "id": "s5", "url": "https://rutherford.house.gov/issues/judiciary", "title": "Community Safety", "publisher": "Office of Rep. John Rutherford", "kind": "official", "date": "2026-09-25" },
+    { "id": "s6", "url": "https://rutherford.house.gov/issues/tax-cuts-working-americans", "title": "Tax Cuts for Working Americans", "publisher": "Office of Rep. John Rutherford", "kind": "official", "date": "2026-09-25" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Rutherford's federal voting record and FEC finance totals are added by script. Upham, a write-in candidate, has essentially no public footprint."

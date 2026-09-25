@@ -48,8 +48,26 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Chairs the House Subcommittee on Early Childhood, Elementary, and Secondary Education and says he fought for $5 billion in education dollars for low- and middle-income families to access services like special education, tuition and tutoring.", "sources": ["s5"] },
+        { "text": "Says protecting access to Head Start early-childhood education, health, nutrition and family-support services is important, citing his role as chairman of the education subcommittee that oversees the program.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Supports the federal Education Freedom Tax Credit, a tax-credit scholarship program that lets taxpayers claim a credit for donations to scholarship-granting organizations that fund families' private-school and other education expenses, and has publicly pressed California to opt in.",
+          "quote": "Last year, I fought for $5 billion in education dollars for low and middle-income families to access services like special education, tuition, and tutoring. It is unfortunate that Governor Newsom is refusing to let California families access funds that will be available to other students across the country.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "As chairman of the House early-childhood-education subcommittee, sent a letter to HHS Secretary Robert F. Kennedy Jr. urging that access to the publicly funded Head Start child care and early-education program not be limited.",
+          "quote": "Head Start provides children and families with critical support during some of the most important years of a child’s development, and it is vital that access to these programs is not limited.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Served on the House Committee on Education and the Workforce, chairing its Workforce Protections Subcommittee, during the 2023-2024 session.",

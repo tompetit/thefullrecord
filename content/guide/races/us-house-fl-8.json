@@ -43,18 +43,52 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says restoring and improving water quality in the Indian River Lagoon, and supporting science-based conservation, is a priority; co-chairs the bipartisan Estuary Caucus.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "On health care, says he is focused on lowering costs through more transparency, competition, and patient choice while protecting Medicare.",
+          "quote": "I am fighting to lower costs by increasing transparency, expanding competition, strengthening doctor-patient relationships, and giving Americans more choices in their care.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Cites his Greenlighting Growth Act (H.R. 3343), passed by the House, as reflecting his approach of cutting red tape for small, high-growth businesses.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he is committed to securing the border and strengthening immigration enforcement.",
+          "quote": "I am committed to restoring law and order by securing the border, strengthening immigration enforcement, and ending policies that incentivize illegal immigration.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Supports extending the 2017 tax cuts, cutting taxes further, and a 15% corporate tax rate for firms that create jobs in the U.S.",
+          "quote": "We can do this by extending the 2017 tax cuts and reducing taxes further especially to reshore jobs lost due to past policies. We must also reduce regulations. I’m also committed to no tax on tips, no tax on social security, no tax on overtime and a 15% corporate tax rate for firms that create jobs in the USA.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the Committee on Financial Services and the Committee on Science, Space, and Technology (as Chair of the Space and Aeronautics Subcommittee) for the 2025-2026 Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Cites his Greenlighting Growth Act (H.R. 3343) as having passed the U.S. House.",
+          "kind": "bill",
+          "sources": ["s7"]
         }
       ],
       "website": "https://www.mike4congress.com/",
       "researchDepth": "basic",
-      "researchNotes": "Haridopolos has not completed Ballotpedia's 2026 Candidate Connection survey, and no additional public statements of his priorities or issue positions were found in the time available; only biographical and committee-assignment facts are included."
+      "researchNotes": "Haridopolos has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities above are drawn from his official House issues pages. Independent confirmation of H.R. 3343's status on congress.gov could not be loaded (Cloudflare challenge)."
     },
     {
       "id": "jennifer-jenkins",
@@ -104,6 +138,34 @@
       "title": "Jennifer Jenkins",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://haridopolos.house.gov/issues/immigration-0",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Mike Haridopolos",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://haridopolos.house.gov/issues/tax-reform-and-economy",
+      "title": "Tax Reform And The Economy",
+      "publisher": "Office of Rep. Mike Haridopolos",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://haridopolos.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Mike Haridopolos",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://haridopolos.house.gov/issues/financial-services",
+      "title": "Financial Services",
+      "publisher": "Office of Rep. Mike Haridopolos",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

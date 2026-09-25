@@ -39,17 +39,49 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Says access to affordable, reliable childcare must be at the center of the economic agenda, and is co-leading the House Democratic Caregiving Working Group developing the caucus's caregiving legislative agenda.", "sources": ["s4"] },
+        { "text": "Says her focus is holding Medicaid, food assistance, and rural hospital funding harmless from Republican budget cuts.", "sources": ["s5"] },
+        { "text": "Says federal energy research and development funding, including for wind and solar technology, should be preserved to keep electricity costs down for Delaware families.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Condemned the 2025 budget reconciliation law's cuts to Medicaid and food assistance, saying it would strip health coverage from more than 54,000 Delawareans, and said she offered amendments and joined a discharge petition to block cuts to Medicaid and SNAP.",
+          "quote": "This bill is Trumpcare, and Trumpcare means 17 million more Americans uninsured and all the rest of us paying higher costs and driving further to get care.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Pressed a Department of Energy official on the administration's budget request eliminating federal wind and solar technology research funding, citing DOE data that wind and solar are among the lowest-cost and fastest sources of new electricity generation.",
+          "quote": "I want to ask you about the decision to submit a budget request that zeroes out wind and solar technology research from the department's budget.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Convened a roundtable on childcare access and affordability and is co-leading the House Democratic Caregiving Working Group developing federal caregiving solutions.",
+          "quote": "Access to affordable, reliable childcare must be at the center of our economic agenda at both the federal and state levels.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Science, Space, and Technology Committee (Research and Technology Subcommittee) and the House Foreign Affairs Committee in the 119th Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the bipartisan Flexible Leave Act with Rep. Anna Paulina Luna to update the Family and Medical Leave Act.",
+          "date": "2026-02-11",
+          "kind": "bill",
+          "sources": ["s7"]
         }
       ],
       "website": "https://www.sarahmcbride.com/",
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "researchNotes": "Key floor votes and FEC finance totals for this sitting representative are added separately by script. No 2026 Ballotpedia Candidate Connection survey or detailed 2026 campaign-website issues page was located within the research time budget."
     },
     {
@@ -108,7 +140,11 @@
   "sources": [
     { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_election_in_Delaware,_2026", "title": "United States House of Representatives election in Delaware, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s2", "url": "https://ballotpedia.org/Sarah_McBride", "title": "Sarah McBride", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Joseph_Arminio", "title": "Joseph Arminio", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" }
+    { "id": "s3", "url": "https://ballotpedia.org/Joseph_Arminio", "title": "Joseph Arminio", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://mcbride.house.gov/media/press-releases/photo-release-rep-mcbride-lt-governor-evans-gay-convene-delaware-childcare", "title": "PHOTO RELEASE: Rep. McBride, Lt. Governor Evans Gay Convene Delaware Childcare Roundtable on Access and Affordability", "publisher": "Office of Rep. Sarah McBride", "kind": "candidate", "date": "2026-08-27" },
+    { "id": "s5", "url": "https://mcbride.house.gov/media/press-releases/rep-mcbride-passage-republican-budget-bill-trumpcare-plain-and-simple", "title": "Rep. McBride on Passage of Republican Budget Bill: \"This is Trumpcare—Plain and Simple\"", "publisher": "Office of Rep. Sarah McBride", "kind": "candidate", "date": "2025-07-03" },
+    { "id": "s6", "url": "https://mcbride.house.gov/media/press-releases/mcbride-questions-under-secretary-science-trumps-disregard-solar-and-wind", "title": "McBride Questions Under Secretary of Science on Trump's Disregard for Solar and Wind Technology", "publisher": "Office of Rep. Sarah McBride", "kind": "candidate", "date": "2025-12-10" },
+    { "id": "s7", "url": "https://mcbride.house.gov/media/press-releases/rep-mcbride-rep-luna-introduce-bipartisan-flexible-leave-act-modernize-family", "title": "Rep. McBride, Rep. Luna Introduce Bipartisan Flexible Leave Act to Modernize Family and Medical Leave", "publisher": "Office of Rep. Sarah McBride", "kind": "candidate", "date": "2026-02-11" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Sarah McBride's key floor votes and FEC finance totals are filled in separately by script. Both candidates are effectively unopposed within their own parties; no primary or minor-party challengers appear on the November ballot."
