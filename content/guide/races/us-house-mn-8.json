@@ -35,11 +35,34 @@
         {"text": "Chairs the Energy and Mineral Resources Subcommittee of the Committee on Natural Resources, focused on mining and energy development in the Iron Range.", "sources": ["s2"]},
         {"text": "Serves on the Committee on Transportation and Infrastructure and the Committee on Small Business, including the Rural Development, Energy, and Supply Chains subcommittee.", "sources": ["s2"]}
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Opposed a Biden administration ban on offshore oil and gas drilling and pledged to fight restrictions on fossil fuel production.",
+          "quote": "We will use every tool in our toolbox to fight this ban and lead the world in energy production once again!",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Introduced legislation to protect a Defense Department program that transfers surplus equipment to local police departments.",
+          "quote": "I will do everything in my power to ensure my brothers and sisters in the blue and brown receive the equipment they need to keep themselves and communities they serve safe.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Condemned a Minneapolis mayor's refusal to cooperate with ICE deportations of people in the country illegally, urging the city to prioritize cooperation with immigration enforcement.",
+          "quote": "we urge you to prioritize their needs over those of criminals and terrorists",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {"text": "Chairs the Energy and Mineral Resources Subcommittee of the Committee on Natural Resources in the 119th Congress (2025-2026), a role he has held since the 118th Congress.", "kind": "action", "sources": ["s2"]},
         {"text": "Serves on the Committee on Small Business (Rural Development, Energy, and Supply Chains subcommittee) and the Committee on Transportation and Infrastructure (Aviation; Highways and Transit; Railroads, Pipelines and Hazardous Materials subcommittees) in the 119th Congress.", "kind": "action", "sources": ["s2"]},
-        {"text": "Served as ranking member of the Energy and Mineral Resources Subcommittee during the 117th Congress (2021-2022), before Republicans held the House majority.", "kind": "action", "sources": ["s2"]}
+        {"text": "Served as ranking member of the Energy and Mineral Resources Subcommittee during the 117th Congress (2021-2022), before Republicans held the House majority.", "kind": "action", "sources": ["s2"]},
+        {"text": "Introduced the Lifesaving Gear for Police Act with Rep. Don Bacon to protect the Department of Defense's 1033 program that transfers surplus military equipment to local law enforcement.", "kind": "bill", "date": "2025-04-03", "sources": ["s5"]}
       ],
       "website": "https://stauber.house.gov",
       "researchDepth": "basic",
@@ -88,7 +111,10 @@
   "sources": [
     {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Minnesota,_2026", "title": "United States House of Representatives elections in Minnesota, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
     {"id": "s2", "url": "https://ballotpedia.org/Pete_Stauber", "title": "Pete Stauber", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s3", "url": "https://ballotpedia.org/Trina_Swanson", "title": "Trina Swanson", "publisher": "Ballotpedia (Candidate Connection survey)", "kind": "candidate", "date": "2026-09-25"}
+    {"id": "s3", "url": "https://ballotpedia.org/Trina_Swanson", "title": "Trina Swanson", "publisher": "Ballotpedia (Candidate Connection survey)", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s4", "url": "https://stauber.house.gov/media/press-releases/stauber-slams-bidens-disastrous-ban-offshore-oil-and-gas-drilling", "title": "Stauber Slams Biden's Disastrous Ban on Offshore Oil and Gas Drilling", "publisher": "Office of Rep. Pete Stauber", "kind": "candidate", "date": "2025-01-07"},
+    {"id": "s5", "url": "https://stauber.house.gov/media/press-releases/stauber-introduces-lifesaving-gear-police-act", "title": "Stauber Introduces Lifesaving Gear for Police Act", "publisher": "Office of Rep. Pete Stauber", "kind": "candidate", "date": "2025-04-03"},
+    {"id": "s6", "url": "https://stauber.house.gov/media/press-releases/stauber-leads-minnesota-republican-delegation-slamming-minneapolis-mayor-frey", "title": "Stauber Leads Minnesota Republican Delegation in Slamming Minneapolis Mayor Frey Over His Refusal to Cooperate with ICE", "publisher": "Office of Rep. Pete Stauber", "kind": "candidate", "date": "2025-02-12"}
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Basic-tier research. Federal key votes and FEC finance totals for Rep. Stauber are added separately by script."
