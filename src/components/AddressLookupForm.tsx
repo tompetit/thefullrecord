@@ -117,7 +117,7 @@ export function AddressLookupForm() {
           <ul
             id={listId}
             role="listbox"
-            className="absolute inset-x-0 top-full z-20 mt-1.5 overflow-hidden rounded-[10px] border border-chip-border bg-paper-raised shadow-[0_8px_24px_rgba(33,30,25,0.12)]"
+            className="absolute left-0 top-full z-20 mt-1.5 w-full lg:w-[22rem] overflow-hidden rounded-[10px] border border-chip-border bg-paper-raised shadow-[0_8px_24px_rgba(33,30,25,0.12)]"
           >
             {suggestions.map((s, i) => (
               <li
