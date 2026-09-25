@@ -1,0 +1,149 @@
+{
+  "id": "us-house-mo-5",
+  "state": "MO",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · Missouri's 5th District",
+  "area": "Kansas City and eastern Jackson County, including the urban core of Kansas City and Independence.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Emanuel Cleaver ran unopposed in the August 4, 2026 Democratic primary. Rick Brattin won a six-candidate Republican primary over Micah Beebe, Taylor Burks, Brett Hueffmeier, Berton A. Knox and Brad Patty. Randy Langkraehr advanced unopposed in the Libertarian primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "emanuel-cleaver",
+      "name": "Emanuel Cleaver",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2005)",
+      "summary": {
+        "text": "Emanuel Cleaver is the incumbent Democratic U.S. Representative for Missouri's 5th District. A retired United Methodist pastor who served as mayor of Kansas City from 1991 to 1999, he sits on the House Financial Services Committee.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Waxahachie, Texas, in 1944; earned a bachelor's degree in sociology from Prairie View A&M University (1972) and a Master of Divinity from St. Paul School of Theology (1974).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as Senior Pastor at St. James United Methodist Church in Kansas City from 1973 to 2009.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Kansas City City Council from 1979 to 1991, then as mayor of Kansas City from 1991 to 1999, the city's first African American mayor.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Financial Services in the 119th Congress (2025-2026); previously served as Ranking Member of its Housing and Insurance Subcommittee (2023-2024).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://cleaver.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "C001061",
+      "researchNotes": "Cleaver ran unopposed in the Democratic primary; no 2026 Ballotpedia Candidate Connection survey or distinct campaign-website issues content was located in this pass. Key floor votes and FEC finance totals are added separately by script."
+    },
+    {
+      "id": "rick-brattin",
+      "name": "Rick Brattin",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won a six-candidate August 4, 2026 Republican primary",
+      "summary": {
+        "text": "Rick Brattin is the Republican nominee for Missouri's 5th District. A Missouri state senator and former state representative from Harrisonville, he is campaigning as an ally of President Trump on gun rights, opposition to abortion, and immigration enforcement.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Lives in Harrisonville, Missouri; graduated from Lee's Summit High School and served in the U.S. Marine Corps.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Career experience includes owning and operating a construction company and a farm before serving in the Missouri House and Missouri Senate.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign website describes him as \"a strong ally for the administration,\" citing a record of sponsoring legislation to advance President Trump's agenda in the Missouri legislature.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign website says he helped craft Missouri's constitutional protections for the Second Amendment and voted for the state's Second Amendment Preservation Act; says he'll oppose any attempt to infringe on gun rights in Congress.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Campaign website says he voted to extend Missouri's abortion waiting period to 72 hours and backed a bill requiring parental notice before a minor's abortion; says he'll fight to defund Planned Parenthood in Congress.",
+          "quote": "Rick is 100% pro-life with a consistent record to prove it.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign website says he sponsored state legislation penalizing companies that hire undocumented workers and fought to ban sanctuary cities; says he'll back fully funding ICE and deporting people in the country illegally with criminal records.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "As a Missouri legislator, sponsored bills to prevent government entities from contracting with companies that discriminate against firearms manufacturers, and voted for the state's Second Amendment Preservation Act.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Voted to extend Missouri's abortion waiting period from 24 to 72 hours and backed a bill requiring parents of minors seeking an abortion to receive five days' notice.",
+          "kind": "vote",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Sponsored legislation imposing penalties on companies that hire undocumented workers without verifying immigration status and worked to ban sanctuary cities in Missouri.",
+          "kind": "bill",
+          "sources": ["s3"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "No 2026 Ballotpedia Candidate Connection survey completed; positions drawn from his campaign website as reproduced by Ballotpedia. His Missouri Senate voting record is otherwise not independently verified here."
+    },
+    {
+      "id": "randy-langkraehr",
+      "name": "Randy Langkraehr",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "ballotNote": "Advanced unopposed in the August 4, 2026 Libertarian primary",
+      "summary": {
+        "text": "Randy Langkraehr is the Libertarian Party nominee for Missouri's 5th District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or other public statements of positions found."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026", "title": "United States House of Representatives elections in Missouri, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Emanuel_Cleaver", "title": "Emanuel Cleaver", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Rick_Brattin", "title": "Rick Brattin - campaign website statement", "publisher": "Rick Brattin campaign website (via Ballotpedia)", "kind": "candidate", "date": "2026" }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "Basic-tier research from Ballotpedia and campaign-website material. Key floor votes and FEC finance totals for Cleaver are added separately by script."
+}

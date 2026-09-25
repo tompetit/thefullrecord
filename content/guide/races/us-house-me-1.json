@@ -1,0 +1,131 @@
+{
+  "id": "us-house-me-1",
+  "state": "ME",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Maine's 1st District",
+  "area": "Southern Maine, including Portland, Biddeford, Sanford, and the southern coastal region.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Chellie Pingree ran unopposed in the Democratic primary (Tiffany Roberts did not make the ballot). Ronald C. Russell won the Republican primary over Joshua Pietrowicz.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "chellie-pingree",
+      "name": "Chellie Pingree",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2009)",
+      "summary": {
+        "text": "Chellie Pingree is the incumbent Democratic U.S. Representative for Maine's 1st District, serving since 2009. She previously served in the Maine Senate, including as Senate majority leader, and worked as a farmer and businesswoman in North Haven, Maine.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born April 2, 1955, in Minneapolis, Minnesota; earned a B.A. from the College of the Atlantic in 1979.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Member of the Maine Senate from 1992 to 2000, serving as Senate majority leader from 1996 to 2000.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a farmer and businesswoman in North Haven, Maine before her political career.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Agriculture and the House Committee on Appropriations, including the Agriculture-FDA and Interior-Environment subcommittees, for the 2025-2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as Ranking Member of the Interior and Environment appropriations subcommittee in the 2023-2024 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://pingree.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "P000597"
+    },
+    {
+      "id": "ronald-c-russell",
+      "name": "Ronald C. Russell",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Ronald C. Russell is the Republican nominee for Maine's 1st Congressional District. He describes himself as a native Mainer, military veteran, and business owner.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Describes himself as a native Mainer, veteran, and business owner.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Calls for civility and bipartisan discourse in Congress, saying party-line legislation is often quickly reversed when power changes hands.",
+          "quote": "In my view, legislation drawn strictly along party lines wastes time and money, as it is quickly discarded or reversed by executive order when the opposing party takes power.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Prioritizes education reform focused on core subjects (math, science, history, English) and giving parents a stronger voice in schools.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Opposes additional federal taxes on Maine residents, citing the state's already-high state and local tax burden, and supports making the tax relief from the 2025 tax law (the 'Big Beautiful Bill') permanent.",
+          "quote": "We need to protect the temporary tax relief gains made by passage of the Big Beautiful Bill and make them permanent.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Opposes additional federal taxes on Maine residents given the state's already-high tax burden, and supports making the 2025 tax cuts permanent.",
+          "quote": "Maine is a high-tax state already; we face one of the highest overall state and local tax burdens in the country...we cannot afford additional Federal taxes on top of all that.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Positions drawn from his Ballotpedia Candidate Connection survey; no independent campaign website content reviewed."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Maine%27s_1st_Congressional_District_election,_2026",
+      "title": "Maine's 1st Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Chellie_Pingree",
+      "title": "Chellie Pingree",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Maine%27s_1st_Congressional_District_election,_2026",
+      "title": "Ronald C. Russell - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research; no key floor votes or FEC totals compiled for Pingree (added later by script)."
+}
