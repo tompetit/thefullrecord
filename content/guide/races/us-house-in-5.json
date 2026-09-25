@@ -32,8 +32,27 @@
         { "text": "Served in the Indiana Senate from 2017 to 2020.", "sources": ["s2"] },
         { "text": "Serves on the Joint Economic Committee in the 119th Congress; previously served on the House Judiciary Committee's Administrative State, Regulatory Reform, and Antitrust and Immigration Integrity, Security, and Enforcement subcommittees.", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Campaign website says the national debt should be tackled through spending cuts and welfare reform rather than by raising taxes, and calls for balancing the budget.", "quote": "The debt can be tackled, not by raising taxes on US citizens, but by taking a critical look at the unnecessary spending of the federal government.", "sources": ["s4"] },
+        { "text": "Campaign website says the legal immigration process should be reformed, including a more robust work visa program, to better curb illegal immigration.", "quote": "If we want to curb illegal immigration, we need to address our legal immigration process to better serve our national interest and have a more robust work visa program.", "sources": ["s4"] },
+        { "text": "Campaign website lists preserving Second Amendment freedoms and protecting the sanctity of human life among her constitutional priorities.", "quote": "We must preserve our 2nd Amendment freedoms against the tyranny of the government, and protect the sanctity of all human life.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign website says Second Amendment freedoms must be preserved against government overreach.",
+          "quote": "We must preserve our 2nd Amendment freedoms against the tyranny of the government",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Campaign website says the sanctity of all human life must be protected, listing it alongside her constitutional priorities.",
+          "quote": "protect the sanctity of all human life",
+          "sources": ["s4"]
+        }
+      ],
       "record": [
         { "text": "Assigned to the Joint Economic Committee for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"] },
         { "text": "Served on the House Judiciary Committee during the 118th Congress (2023-2024), including its Administrative State, Regulatory Reform, and Antitrust subcommittee.", "kind": "action", "sources": ["s2"] }
