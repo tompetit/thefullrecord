@@ -46,7 +46,7 @@
           "issue": "guns",
           "stance": "opposes",
           "summary": "Voted no on the Bipartisan Background Checks Act of 2019, which would have required background checks on private firearm transfers.",
-          "sources": ["s1"]
+          "sources": ["s1", "s5"]
         },
         {
           "issue": "abortion",
@@ -56,9 +56,9 @@
         },
         {
           "issue": "immigration_enforcement",
-          "stance": "opposes",
-          "summary": "Voted yes on the American Dream and Promise Act of 2019, which sought to protect certain immigrants from removal and provide a path to permanent residency.",
-          "sources": ["s1"]
+          "stance": "supports",
+          "summary": "Voted no on the American Dream and Promise Act of 2019, which sought to protect certain immigrants from removal and provide a path to permanent residency.",
+          "sources": ["s6"]
         }
       ],
       "record": [
@@ -69,15 +69,15 @@
         },
         {
           "text": "Voted no on the Bipartisan Background Checks Act of 2019 (H.R. 8), which passed the House 240–190.",
-          "date": "2019",
+          "date": "2019-02-27",
           "kind": "vote",
-          "sources": ["s1"]
+          "sources": ["s1", "s5"]
         },
         {
-          "text": "Voted yes on the American Dream and Promise Act of 2019 (H.R. 6), which passed the House 237–187.",
-          "date": "2019",
+          "text": "Voted no on the American Dream and Promise Act of 2019 (H.R. 6), which passed the House 237–187.",
+          "date": "2019-06-04",
           "kind": "vote",
-          "sources": ["s1"]
+          "sources": ["s6"]
         }
       ],
       "website": "https://thompson.house.gov",
@@ -185,8 +185,24 @@
       "title": "Ray Bilger for Congress | PA-15",
       "publisher": "Ray Bilger for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://clerk.house.gov/Votes/201999",
+      "title": "Roll Call 99 - H.R.8 Bipartisan Background Checks Act of 2019 (On Passage)",
+      "publisher": "Office of the Clerk, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2019-02-27"
+    },
+    {
+      "id": "s6",
+      "url": "https://clerk.house.gov/Votes/2019240",
+      "title": "Roll Call 240 - H.R.6 American Dream and Promise Act of 2019 (On Passage)",
+      "publisher": "Office of the Clerk, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2019-06-04"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Thompson's federal key floor votes and FEC finance totals are added by script; only pre-2025 key votes and committee roles listed here are from Ballotpedia. The record item about Thompson's ACA premium tax credit vote is attributed to Bilger's campaign site (a candidate-kind source) because no official roll-call record for that specific vote was independently verified in this research."
+  "researchNotes": "Thompson's federal key floor votes and FEC finance totals are added by script; only pre-2025 key votes and committee roles listed here are from Ballotpedia. The record item about Thompson's ACA premium tax credit vote is attributed to Bilger's campaign site (a candidate-kind source) because no official roll-call record for that specific vote was independently verified in this research. Corrected 2026-09-25: Thompson's H.R.6 (American Dream and Promise Act of 2019) vote was previously listed as \"yes\"; the official roll call (Roll Call 240) shows he voted No."
 }

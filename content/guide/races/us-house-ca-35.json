@@ -39,8 +39,35 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says her priorities include promoting energy efficiency and renewable energy sources, increasing investments in water infrastructure, and expanding water recycling and desalination technology.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she has consistently supported funding for California's public health care system, safety-net hospitals, and health centers, and opposes efforts to repeal the Affordable Care Act.",
+          "quote": "While the Affordable Care Act isn't perfect, I oppose efforts to repeal it and take away health insurance for millions of Americans.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Wrote to ICE's acting director demanding answers about what she described as aggressive, racially discriminatory enforcement actions against Latino residents of her district and called for an end to the tactics.",
+          "quote": "What we are witnessing in our communities is racial terror. Latino residents are being targeted based on their appearance, not their actions. That's not just immoral—it's unconstitutional.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says she has demonstrated a commitment to taking on climate change and prioritizes promoting energy efficiency and renewable energy sources like solar.",
+          "quote": "I have demonstrated a commitment to taking on challenges like drought and climate change that are impacting California.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations (National Security, Department of State and Related Programs subcommittee), the Committee on House Administration (Modernization and Innovation subcommittee), and the Joint Committee on the Library in the 119th Congress (2025–2026).",
@@ -125,8 +152,30 @@
       "title": "Mike Cargile",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://torres.house.gov/issue/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Norma J. Torres",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://torres.house.gov/issue/energy-and-environment",
+      "title": "Energy and Environment",
+      "publisher": "Office of Rep. Norma J. Torres",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://torres.house.gov/media-center/press-releases/congresswoman-torres-demands-answers-from-ice-after-reports-of-aggressive-racially-targeted-arrests-in-the-inland-empire",
+      "title": "Congresswoman Torres Demands Answers from ICE After Reports of Aggressive, Racially-Targeted Arrests in the Inland Empire",
+      "publisher": "Office of Rep. Norma J. Torres",
+      "kind": "official",
+      "date": "2025-07-14"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Torres has not completed Ballotpedia's 2026 Candidate Connection survey and no current issues page was found for her 2026 campaign, so no current priorities/positions are cited for her beyond her official committee record. Cargile has not completed a 2026 survey either; his priorities/positions are drawn from his most recent completed survey (2024), cited as dated context. Federal key votes and FEC finance totals for the incumbent are added separately by script."
+  "researchNotes": "Torres has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities here are drawn from her official House issues pages (health care, energy/environment) and a press release on ICE enforcement in her district. Her budget/fiscal-responsibility page discusses tax-code reform in general terms that do not map cleanly to a stance on tax_wealthy, so it was omitted. Cargile has not completed a 2026 survey either; his priorities/positions are drawn from his most recent completed survey (2024), cited as dated context. Federal key votes and FEC finance totals for the incumbent are added separately by script."
 }

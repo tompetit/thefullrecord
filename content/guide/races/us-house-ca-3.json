@@ -44,8 +44,57 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Supports universal coverage so every American has access to affordable, quality health care, and has worked to lower prescription drug and insulin costs.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Supports policies to increase housing supply and expand pathways to affordable homeownership in Sacramento County.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says protecting Social Security and Medicare, including through the Social Security 2100 Act, is a priority for the region's seniors.",
+          "sources": ["s8"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he supports universal health coverage so every American has access to affordable, quality health care.",
+          "quote": "That is why I support universal coverage so every American has access to affordable, quality health care.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says he supports policies that increase housing supply and voted for the Housing for the 21st Century Act to expand housing supply and cut red tape on building.",
+          "quote": "That is why I support practical policies that increase housing supply, expand pathways to affordable homeownership, protect working families from being priced out by large institutional investors, and preserve existing affordable housing.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says he has opposed sweeping tariff policies that raise costs for working families and small businesses.",
+          "quote": "I have also opposed sweeping tariff policies that raise costs for working families, hurt small businesses, and strain our economy.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Voted for the Women's Health Protection Act after the Supreme Court overturned Roe v. Wade and for the Right to Contraception Act.",
+          "quote": "I voted for the Women’s Health Protection Act after the Supreme Court overturned Roe v. Wade, and I also voted for the Right to Contraception Act to protect access to birth control.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he voted for bipartisan legislation to increase funding for law enforcement and public safety programs, including officer recruitment and retention.",
+          "quote": "I voted for bipartisan legislation to increase funding for law enforcement and public safety programs, including support for officer recruitment and retention, homicide investigations, mental health first responder units, and evidence-based violence intervention programs.",
+          "sources": ["s10"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Permanent Select Committee on Intelligence, including the National Intelligence Enterprise and National Security Agency and Cyber subcommittees, for the 2025-2026 session.",
@@ -56,6 +105,11 @@
           "text": "Serves on the House Committee on Foreign Affairs for the 2025-2026 session.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Reintroduced the bipartisan Improving Seniors' Timely Access to Care Act to reduce prior authorization delays in Medicare Advantage.",
+          "kind": "bill",
+          "sources": ["s8"]
         }
       ],
       "researchDepth": "basic"

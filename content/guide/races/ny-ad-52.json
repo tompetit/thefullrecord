@@ -47,13 +47,53 @@
           "sources": ["s1", "s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Preserving rent-stabilized housing: \"In this increasingly expensive neighborhood, protecting our remaining rent-stabilized housing is more important than ever.\"",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Shifting New York off gas infrastructure toward affordable energy: \"We should be accelerating investments in affordable energy that creates jobs and builds a healthier future.\"",
+          "sources": ["s9"]
+        },
+        {
+          "text": "Expanding non-police mental health crisis response: \"Tragedies like this underscore the need for greater investment in preventive care and an evidence-based response to mental health crises... We cannot continue to ask police officers to function as mental health care providers.\"",
+          "sources": ["s12"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Joined tenants and a city council member to press a landlord over conditions at rent-stabilized buildings, calling for repairs and protection of tenants' right to stay, and said protecting remaining rent-stabilized housing is increasingly important.",
+          "quote": "In this increasingly expensive neighborhood, protecting our remaining rent-stabilized housing is more important than ever... I will fight with the tenants of the Riverside Buildings for repairs, accountability, and the right to stay safely in their homes.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Opposed efforts to roll back New York's Climate Leadership and Community Protection Act, condemned state approval of the NESE gas pipeline, and co-sponsored legislation to move customers off gas infrastructure toward cheaper, cleaner heating alternatives.",
+          "quote": "Rolling back New York's signature climate law would move the state in the wrong direction. We should be accelerating investments in affordable energy that creates jobs and builds a healthier future.",
+          "sources": ["s9", "s10"]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the Assembly's Mental Health Committee and serves as a member of the Higher Education Committee in the 2025–2026 session.",
           "kind": "action",
           "sources": ["s3"]
+        },
+        {
+          "text": "Prime sponsor, with State Senator Liz Krueger, of the Customer Savings and Reliability Act, introduced June 10, 2025, which would end the \"100-foot rule\" requiring utilities to subsidize new gas-line extensions and amend the gas-service mandate on an opt-out, regional basis.",
+          "date": "2025-06-10",
+          "kind": "bill",
+          "sources": ["s11"]
+        },
+        {
+          "text": "Prime sponsor of A6004, the Local Input in Community Healthcare Act, requiring advance public notice, a community forum and disclosure before a hospital or critical care unit closes; passed the Assembly and Senate twice, and was vetoed by Governor Hochul in December 2025 after an earlier 2024 veto.",
+          "date": "2025-12-16",
+          "kind": "bill",
+          "sources": ["s13"]
         },
         {
           "text": "Sponsors a large number of bills each session as a senior Brooklyn Democrat, including A08222 (extending the statute of limitations for certain deed-theft lawsuits and reviving time-barred claims), A10648 (the \"utility shutoff protection act\") and A03614 (the \"New York Stock Act,\" barring public officers and employees from trading on nonpublic information gained through their official position); as of January 2026 these remained in committee without floor votes.",

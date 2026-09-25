@@ -36,8 +36,53 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says American leadership requires maintaining the strongest military in the world, strengthening alliances such as NATO, and leading in defense technology, cybersecurity, and space research, citing North Alabama's role in that work.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says Congress should cut spending and live within a budget rather than raise taxes, calling this the responsible way to address the federal fiscal situation.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says the border must be secured first, through physical barriers, technology, and more personnel, and opposes granting amnesty to people who entered the country illegally.",
+          "quote": "To effectively deal with the immigration concerns in the United States we must, first and foremost, control our borders.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says gun owners' rights should be expanded rather than restricted, and cosponsored the National Right-To-Carry Reciprocity Act.",
+          "quote": "I firmly believe that we need to expand the rights of gun owners rather than seeking new ways to impose restrictions.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Opposed the Affordable Care Act (Obamacare) and says the House has voted numerous times to repeal it, citing new taxes on health care providers and the individual mandate.",
+          "quote": "I opposed the President's healthcare bill, the Patient Protection and Affordable Care Act (PPACA), also known as Obamacare.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Opposed the January 2013 tax deal (H.R. 8) that raised taxes on individuals earning over $400,000 and couples earning over $450,000, saying targeted spending cuts, not tax increases, are the responsible fix.",
+          "quote": "I opposed this legislation. I believe that targeted spending cuts are the most responsible way to address the fiscal crisis facing our country, not increasing taxes on families and small businesses.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says he believes in looking for ways to curb and stop abortions in the United States.",
+          "quote": "I also wholeheartedly believe that we should look for ways to curb and stop abortions in the United States.",
+          "sources": ["s9"]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Appropriations Subcommittee on Labor, Health and Human Services, Education, and Related Agencies in the 119th Congress (2025-2026); also serves on the Defense and Agriculture, Rural Development subcommittees.",
@@ -51,8 +96,8 @@
         }
       ],
       "website": "https://aderholt.house.gov",
-      "researchDepth": "basic",
-      "researchNotes": "Aderholt has not completed a Ballotpedia Candidate Connection survey and no distinct 2026 campaign issues page was found as of the research date; priorities and issue positions were not documented and are left blank rather than inferred."
+      "researchDepth": "full",
+      "researchNotes": "Aderholt has not completed a Ballotpedia Candidate Connection survey and no distinct 2026 campaign issues page was found; positions and priorities are drawn from the issue pages on his official House site, which mix longstanding and recent statements (dated where the page itself gives a date)."
     },
     {
       "id": "amanda-pusczek",
@@ -123,6 +168,48 @@
       "url": "https://ballotpedia.org/Amanda_Pusczek",
       "title": "Amanda Pusczek",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://aderholt.house.gov/issues/american-strength",
+      "title": "American Strength",
+      "publisher": "Office of Rep. Robert Aderholt",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://aderholt.house.gov/issues/economy",
+      "title": "Economy",
+      "publisher": "Office of Rep. Robert Aderholt",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://aderholt.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Robert Aderholt",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://aderholt.house.gov/issues/gun-rights",
+      "title": "Gun Rights",
+      "publisher": "Office of Rep. Robert Aderholt",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://aderholt.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Robert Aderholt",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://aderholt.house.gov/issues/family-values",
+      "title": "Family Values",
+      "publisher": "Office of Rep. Robert Aderholt",
       "kind": "candidate"
     }
   ],

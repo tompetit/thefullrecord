@@ -43,13 +43,65 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists expanding access to quality, affordable health care as a driving priority, including support for the Affordable Care Act and efforts to move toward Medicare for All.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Lists top-to-bottom immigration reform as a priority, including a path to citizenship for Dreamers and Temporary Protected Status recipients and reform of high-skilled and agricultural visa programs.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Lists reducing greenhouse gas emissions and opposing new offshore oil and gas drilling off the California coast as environmental priorities.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Is an original cosponsor of an assault weapons ban and supports universal background checks for all commercial gun sales.",
+          "quote": "Zoe is an original cosponsor of the Assault Weapons Ban which would prohibit individuals and manufacturers from selling and obtaining semi-automatic rifles, pistols, and shotguns as well as high-capacity magazines.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Is a member of the Medicare for All Congressional Caucus and cosponsors multiple bills to expand Medicare, including the Medicare for All Act.",
+          "quote": "Zoe is a member of the Medicare for All Congressional Caucus and supports efforts to make health care more affordable for and accessible to everyone. She believes expanding Medicare to all Americans is a good way to accomplish that.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Has worked to block funding for new immigration detention facilities and backs a pathway to citizenship for Dreamers and TPS recipients rather than expanded enforcement.",
+          "quote": "As for my role in Congress, I'm doing all that I can to block funding for new detention facilities.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports reducing greenhouse gas emissions and efficiency standards, and opposes new offshore oil and gas drilling off the California coast.",
+          "quote": "Zoe strongly opposes new proposals to permit offshore drilling anywhere off the California coast and has fought efforts to weaken the moratorium that protects our coastal and marine treasures.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on the Judiciary (Courts, Intellectual Property, Artificial Intelligence, and the Internet; Immigration Integrity, Security, and Enforcement; The Administrative State, Regulatory Reform, and Antitrust subcommittees) and the Committee on Science, Space, and Technology in the 119th Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Led bipartisan negotiations on the Farm Workforce Modernization Act, providing a path to legal status for an estimated 1.5 million farmworkers and improving the H-2A visa program; it passed the House with bipartisan support in the 116th and 117th Congresses.",
+          "kind": "bill",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Shepherded House passage of the American Dream and Promise Act, putting Dreamers and TPS/DED recipients on a pathway to citizenship, in the 116th and 117th Congresses.",
+          "kind": "bill",
+          "sources": ["s5"]
         }
       ],
       "researchDepth": "basic",
@@ -139,8 +191,36 @@
       "title": "Shane Lewis — Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://lofgren.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Zoe Lofgren",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://lofgren.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Zoe Lofgren",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://lofgren.house.gov/issues/gun-violence",
+      "title": "Gun Violence",
+      "publisher": "Office of Rep. Zoe Lofgren",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://lofgren.house.gov/issues/energy-and-environment/environment",
+      "title": "Environment",
+      "publisher": "Office of Rep. Zoe Lofgren",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Zoe Lofgren has not completed Ballotpedia's 2026 Candidate Connection survey and no current campaign-issues page was found; her positions/priorities are limited to committee assignments from official House records. Federal key votes and FEC totals for both candidates are added separately by script."
+  "researchNotes": "Zoe Lofgren has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities above are drawn from her official House issues pages (lofgren.house.gov/issues), checked 2026-09-25. Federal key votes and FEC totals for both candidates are added separately by script."
 }
