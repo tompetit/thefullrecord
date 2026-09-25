@@ -43,8 +43,53 @@
           "sources": ["s3"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Veterans: says he is committed to supporting veterans, including through legislation to provide health care choices outside the VA system.",
+          "quote": "I’ve spearheaded Congressional reform efforts to provide veterans with health care choices outside of the VA system through my landmark legislation, The Veterans’ True Choice Act.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Border and immigration: says the border must be secured by completing the wall and enforcing existing immigration laws.",
+          "quote": "We must secure the border by completing the wall, and we must actually enforce the law so that illegal aliens are not rewarded for illegally crossing the border.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Agriculture: says he supports reducing regulatory burdens on farmers, ranchers and producers and creating fair trade markets for them.",
+          "quote": "I maintain a firm stance against burdensome regulations in the agricultural sector, and support policies that help create fair trade markets for American farmers.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he has supported legislation protecting the right to self-defense and opposes efforts he says would infringe on that right.",
+          "quote": "Throughout my tenure in Congress, I have supported legislation that protects our God-given right to self-defense, and I oppose any efforts that infringe upon these rights and violate the Constitution.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says the border must be secured by completing the wall and enforcing existing immigration laws, and voted for legislation to complete the wall.",
+          "quote": "We must secure the border by completing the wall, and we must actually enforce the law so that illegal aliens are not rewarded for illegally crossing the border. I voted for legislation to complete the border wall and strengthen our existing border security laws.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Says his mission is to fight what he calls the harmful effects of the Affordable Care Act.",
+          "quote": "it is my mission to fight the harmful effects of the ACA and to reform prescription drug standards.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Says he is fighting for policies to increase domestic energy production and opposes federal electric-vehicle mandates.",
+          "quote": "I am fighting for policies in Congress that reduce dependency on foreign nations, increase domestic energy production, and other means to make energy more affordable for Americans. I oppose the Biden-Harris Administration’s Electric Vehicle mandates and their wasteful taxpayer spending on EV charging infrastructure.",
+          "sources": ["s9"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means (Health and Trade subcommittees) and the Permanent Select Committee on Intelligence for the 2025–2026 Congress.",
@@ -53,7 +98,8 @@
         }
       ],
       "website": "https://ballotpedia.org/Greg_Steube",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Positions and priorities are drawn from Steube's official House issues pages, which cover only a subset of the 15 tracked issues."
     },
     {
       "id": "matthew-montavon",
@@ -157,6 +203,48 @@
       "title": "Greg Steube",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://steube.house.gov/issues/veterans",
+      "title": "Veterans",
+      "publisher": "Office of Rep. Greg Steube, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://steube.house.gov/issues/border-immigration",
+      "title": "Border & Immigration",
+      "publisher": "Office of Rep. Greg Steube, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://steube.house.gov/issues/agriculture",
+      "title": "Agriculture",
+      "publisher": "Office of Rep. Greg Steube, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://steube.house.gov/issues/second-amendment",
+      "title": "Second Amendment",
+      "publisher": "Office of Rep. Greg Steube, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://steube.house.gov/issues/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Greg Steube, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://steube.house.gov/issues/energy",
+      "title": "Energy",
+      "publisher": "Office of Rep. Greg Steube, U.S. House",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
