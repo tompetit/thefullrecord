@@ -99,14 +99,51 @@
       "parties": ["IND"],
       "incumbent": false,
       "summary": {
-        "text": "Deva Simmons is running with no party affiliation in the general election for Florida's 18th District. No campaign website or detailed public statements were found.",
+        "text": "Deva Simmons is running with no party affiliation in the general election for Florida's 18th District. She has worked in education in Polk County for more than two decades and completed Ballotpedia's Candidate Connection survey.",
         "sources": ["s1"]
       },
-      "background": [],
-      "priorities": [],
-      "positions": [],
+      "background": [
+        {
+          "text": "Born and raised in Brooklyn, New York; moved to Florida in 1995 and has lived in Polk County since 2002.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Has worked in education for more than two decades as a teacher, mentor, and advocate for students and families; has served on the Boys & Girls Club of Lakeland board and volunteered with the AGB Museum of Art, kidsPACK, Alpha Kappa Alpha Sorority, and Polk County Schools.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says she will oppose efforts to defund public schools and support legislation to increase teacher compensation and school resources.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Says she will work to protect and restore Affordable Care Act subsidies and address rising healthcare costs.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Supports raising the federal minimum wage while helping small and local businesses adapt, and supports worker protections and the right to organize and collectively bargain.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will work to protect and restore Affordable Care Act subsidies and address the root causes of rising healthcare costs.",
+          "quote": "I will work to protect and restore ACA subsidies while addressing the root causes of rising healthcare costs, including insurance practices that can leave families paying more for inadequate care.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports raising the federal minimum wage, which she notes has been $7.25 since 2009, while helping small and local businesses adapt.",
+          "quote": "I support raising the federal minimum wage while helping small and local businesses adapt.",
+          "sources": ["s1"]
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic"
     }
   ],
   "sources": [
@@ -133,5 +170,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Curtis Gibson did not state specific policy positions on the fixed issue list in his Candidate Connection survey, so no Positions are recorded. Federal key votes and FEC finance totals for incumbent Scott Franklin are added separately by script. No public information found for Deva Simmons beyond her ballot listing."
+  "researchNotes": "Curtis Gibson did not state specific policy positions on the fixed issue list in his Candidate Connection survey, so no Positions are recorded. Federal key votes and FEC finance totals for incumbent Scott Franklin are added separately by script."
 }
