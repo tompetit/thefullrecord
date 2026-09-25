@@ -58,8 +58,55 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Defend Constitutional Rights and Religious Liberties: fighting federal overreach on Second Amendment rights, education of children, and religious liberty; says he is \"proudly pro-life\" and has worked to defund Planned Parenthood.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Taxes: says he has been \"a major proponent of lower taxes for everyday Kansans,\" citing the 2017 Tax Cuts and Jobs Act and 2025 legislation that made its provisions permanent.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "National Security: highlights work to secure more aerial refueling tankers for McConnell Air Force Base and says Republicans in Congress have \"stepped up to secure the border, reduce illegal crossings, and deport the worst of the worst.\"",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says he is pro-life, has introduced legislation to protect unborn babies with a prenatal Down syndrome diagnosis, and has worked to defund Planned Parenthood.",
+          "quote": "I believe that every human being has an inalienable right to life. I am proudly pro-life, and I’ve introduced legislation to protect unborn babies with a prenatal Down syndrome diagnosis. I’ve also worked to defund Planned Parenthood and ensure that taxpayer dollars are not used for abortions – a common sense stance shared by a majority of Americans.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he will fight efforts in Washington to restrict Second Amendment rights and continue supporting the rights of gun owners.",
+          "quote": "The 2nd Amendment is a cornerstone of our Bill of Rights. I firmly believe that every law-abiding citizen has a right to defend themselves, their family and their property. I will fight against efforts in Washington to take away these rights. I am a proud NRA member, and as your Congressman, I will continue supporting the rights of gun owners, sportsmen and hunters.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says Republicans in Congress have secured the border, reduced illegal crossings, and worked to deport \"the worst of the worst.\"",
+          "quote": "Republicans in Congress have stepped up to secure the border, reduce illegal crossings, and deport the worst of the worst.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means, where he chairs the Social Security subcommittee and also sits on the Tax subcommittee; also serves on the Joint Economic Committee and the House Committee on Budget, 2025-2026 assignments.",
@@ -200,8 +247,16 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.estesforcongress.com/issues",
+      "title": "Ron Estes - On the Issues that Matter",
+      "publisher": "Ron Estes for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Key floor votes and FEC finance totals for incumbent Ron Estes are added separately by script."
+  "researchNotes": "Key floor votes and FEC finance totals for incumbent Ron Estes are added separately by script. Estes's official House website (estes.house.gov) has little current issues content; positions and priorities are drawn from his 2026 campaign website's issues page instead."
 }

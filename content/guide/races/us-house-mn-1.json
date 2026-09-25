@@ -39,19 +39,50 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Ensure that federal farm policy avoids creating burdensome obstacles and is written by farmers, for farmers.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Keep more money in your paycheck and give small businesses the certainty they need to operate and grow.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Continue to keep our border secure, restore the rule of law, resume construction of the southern border wall, and alleviate staffing shortages for Customs and Border Patrol.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign site says he secured the largest border security investment in history through H.R. 1 and calls for resuming border wall construction; he is a cosponsor of the Deporting Fraudsters Act and supports legislation requiring ICE to detain immigrants charged with crimes resulting in death or serious injury.",
+          "quote": "He is also a co-sponsor of the Deporting Fraudsters Act and supports legislation requiring ICE to detain illegal immigrants charged with crimes resulting in death or serious injury.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Agriculture (chair of the Nutrition and Foreign Agriculture subcommittee), the House Committee on Small Business, and the House Committee on Armed Services in the 119th Congress (2025-2026).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the USDA Express Loan Act and cosponsored the PRECISE Act to expand farmers' access to agricultural technology and capital; sponsored the FARMER Act to expand crop insurance access and reduce costs for producers.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Cosponsored the Deporting Fraudsters Act.",
+          "kind": "bill",
+          "sources": ["s4"]
         }
       ],
       "website": "https://finstad.house.gov",
       "researchDepth": "basic",
       "bioguideId": "F000475",
-      "researchNotes": "Key floor votes and FEC finance totals for this sitting member of Congress are added separately; this entry focuses on biography, committee roles and record."
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting member of Congress are added separately. Positions and priorities above are drawn from his campaign site's issues page; his official House site's issue pages (agriculture, economy, education, energy, health, veterans) did not address any of the 15 tracked issues directly."
     },
     {
       "id": "jake-johnson",
@@ -157,6 +188,14 @@
       "url": "https://www.jakejohnsonforcongress.com/about",
       "title": "About",
       "publisher": "Jake Johnson for Congress (campaign website)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://finstadforcongress.com/issues/",
+      "title": "Issues",
+      "publisher": "Brad Finstad for Congress (campaign website)",
       "kind": "candidate",
       "date": "2026-09-25"
     }

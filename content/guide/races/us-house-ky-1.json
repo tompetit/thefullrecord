@@ -35,8 +35,29 @@
           "sources": ["s1"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Government Oversight and Reform: says the Oversight Committee under his leadership has investigated waste, fraud, abuse and mismanagement across the federal government, including pandemic relief fraud and improper payments.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Healthcare: says he supports protecting rural healthcare providers, strengthening Medicare, and giving patients greater control over their healthcare decisions.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Second Amendment: says he is a \"strong defender of the Second Amendment\" who opposes federal efforts to restrict the constitutional rights of law-abiding gun owners.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he opposes federal efforts to restrict gun rights, has voted against legislation criminalizing private firearm transfers and creating a national gun registry, and supports concealed-carry reciprocity.",
+          "quote": "Congressman Comer is a strong defender of the Second Amendment and opposes all efforts by the federal government to restrict the constitutional rights of law-abiding citizens. He has voted against legislation that would criminalize private firearm transfers, create unnecessary delays for lawful purchases, and move the country closer to a national gun registry.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Committee on Oversight and Government Reform (119th Congress, 2025-2026) and also serves on the Committee on Education and the Workforce.",
@@ -97,8 +118,32 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://comer.house.gov/issues/government-oversight-and-reform/",
+      "title": "Government Oversight and Reform",
+      "publisher": "Office of Rep. James Comer",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://comer.house.gov/issues/healthcare/",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. James Comer",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://comer.house.gov/issues/second-amendment/",
+      "title": "Second Amendment",
+      "publisher": "Office of Rep. James Comer",
+      "kind": "official",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Comer's federal key floor votes and FEC finance totals are added separately by script; this file focuses on his committee role. No specific issue positions with direct quotes were found for either candidate beyond Williams's general priorities statement (from his Ballotpedia Candidate Connection survey, reproduced on the district election page)."
+  "researchNotes": "Comer's federal key floor votes and FEC finance totals are added separately by script. His official issues pages (agriculture, education, healthcare, military, small business, transportation) largely describe general priorities rather than taking a stance on one of this guide's fixed issue statements; only his Second Amendment page directly addresses one. No specific issue positions with direct quotes were found for Williams beyond his general priorities statement (from his Ballotpedia Candidate Connection survey, reproduced on the district election page)."
 }

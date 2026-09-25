@@ -35,11 +35,41 @@
         {"text": "Chairs the Rules and Organization of the House Subcommittee and serves on the Committee on Ways and Means (Oversight and Trade subcommittees) in the 119th Congress.", "sources": ["s2"]},
         {"text": "Previously served on the Committee on Agriculture, including as ranking member of the Subcommittee on Commodity Exchanges, Energy, and Credit.", "sources": ["s2"]}
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Opposed 2021 bills expanding background checks on firearm transfers, saying they would restrict the rights of law-abiding gun owners.",
+          "quote": "I oppose any attempt to restrict the constitutional rights of law-abiding Americans, and that’s exactly what these bills do.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supported the Secure the Border Act, which would restart border wall construction, deploy more Border Patrol agents, and end catch-and-release.",
+          "quote": "Republicans are listening to the people of this country and are committed to securing our border and putting a stop to this immigration crisis.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Supported an Israel security supplemental appropriations package to fund Iron Dome defenses and replenish Israeli military stockpiles.",
+          "quote": "This emergency supplemental package is critical to supporting Israel as they defend themselves against terrorism. It would reinforce the Iron Dome defense systems, replenish Israel's domestic defense stockpiles, and protect U.S. citizens.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Introduced legislation creating federal education grants to recruit and retain law enforcement officers.",
+          "quote": "I am proud to introduce the Law Enforcement Education Grant Program Act to inspire the next generation and establish a targeted approach to specifically invest in well-trained and highly educated police officers.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {"text": "Chairs the Rules and Organization of the House Subcommittee, Committee on Rules, in the 119th Congress (2025-2026); also serves on the Committee on Ways and Means (Oversight and Trade subcommittees).", "kind": "action", "sources": ["s2"]},
         {"text": "Served on the House Committee on Budget and the Committee on Ethics during the 118th Congress (2023-2024).", "kind": "action", "sources": ["s2"]},
-        {"text": "Served as ranking member of the Agriculture Subcommittee on Commodity Exchanges, Energy, and Credit during the 117th Congress (2021-2022).", "kind": "action", "sources": ["s2"]}
+        {"text": "Served as ranking member of the Agriculture Subcommittee on Commodity Exchanges, Energy, and Credit during the 117th Congress (2021-2022).", "kind": "action", "sources": ["s2"]},
+        {"text": "Introduced the Law Enforcement Education Grant Program Act, providing federal grants to students pursuing a first degree in law enforcement or criminal justice in exchange for a service commitment.", "kind": "bill", "date": "2025-05-16", "sources": ["s7"]}
       ],
       "website": "https://fischbach.house.gov",
       "researchDepth": "basic",
@@ -84,7 +114,11 @@
   "sources": [
     {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Minnesota,_2026", "title": "United States House of Representatives elections in Minnesota, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
     {"id": "s2", "url": "https://ballotpedia.org/Michelle_Fischbach", "title": "Michelle Fischbach", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s3", "url": "https://erikosberg4congress.com", "title": "Erik Osberg for Congress", "publisher": "Erik Osberg for Congress campaign website", "kind": "candidate", "date": "2026-09-25"}
+    {"id": "s3", "url": "https://erikosberg4congress.com", "title": "Erik Osberg for Congress", "publisher": "Erik Osberg for Congress campaign website", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s4", "url": "https://fischbach.house.gov/2021/3/rep-fischbach-opposes-unconstitutional-gun-restrictions", "title": "Rep. Fischbach Opposes Unconstitutional Gun Restrictions", "publisher": "Office of Rep. Michelle Fischbach", "kind": "candidate", "date": "2021-03-11"},
+    {"id": "s5", "url": "https://fischbach.house.gov/2023/5/house-passes-secure-the-border-act", "title": "House Passes Secure the Border Act", "publisher": "Office of Rep. Michelle Fischbach", "kind": "candidate", "date": "2023-05-12"},
+    {"id": "s6", "url": "https://fischbach.house.gov/2023/11/house-passes-israel-security-supplemental", "title": "House Passes Israel Security Supplemental", "publisher": "Office of Rep. Michelle Fischbach", "kind": "candidate", "date": "2023-11-03"},
+    {"id": "s7", "url": "https://fischbach.house.gov/2025/5/rep-fischbach-introduces-legislation-to-encourage-law-enforcement-recruitment-and-retention", "title": "Rep. Fischbach Introduces Legislation to Encourage Law Enforcement Recruitment and Retention", "publisher": "Office of Rep. Michelle Fischbach", "kind": "candidate", "date": "2025-05-16"}
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Basic-tier research. Federal key votes and FEC finance totals for Rep. Fischbach are added separately by script."

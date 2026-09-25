@@ -31,17 +31,46 @@
         {"text": "Founded and worked as president of North End Support Team before entering Congress.", "sources": ["s2"]},
         {"text": "Elected chair of the House Republican Conference in the 119th Congress.", "sources": ["s2"]}
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Our economic system of capitalism provides the most significant opportunity for all Americans. It has proven time and again that it can raise all by incentivizing businesses to create jobs, raise wages, and provide competitive benefits that create more prosperity for the American worker and their families.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "I will continue to push my colleagues in Congress to support a robust military that is the premier fighting force in the world. We can achieve peace through strength.",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Life begins at conception, and I will always protect the sanctity of Life.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says life begins at conception and she will always protect the sanctity of life; reintroduced a resolution supporting the Supreme Court's Dobbs v. Jackson Women's Health Organization decision and issued a statement supporting House passage of the Born-Alive Abortion Survivors Protection Act.",
+          "quote": "Life begins at conception, and I will always protect the sanctity of Life.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "On energy policy, says she does not believe government should direct clean-energy investment through research and development grants, favoring private-sector-led development alongside continued oil, natural gas and pipeline production such as completing the Keystone XL pipeline.",
+          "quote": "I do not believe it is the government’s job to pick winners and losers when it comes to energy research and development grants.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {"text": "Assigned to the Committee on Financial Services and the Committee on Education and the Workforce for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]},
         {"text": "Chaired the Health Care and Financial Services subcommittee of the Committee on Oversight and Government Reform in the 118th Congress (2023-2024).", "kind": "action", "sources": ["s2"]},
-        {"text": "Elected chair of the House Republican Conference for the 119th Congress, defeating Kat Cammack 146-67 in the November 13, 2024 leadership election.", "kind": "action", "sources": ["s2"]}
+        {"text": "Elected chair of the House Republican Conference for the 119th Congress, defeating Kat Cammack 146-67 in the November 13, 2024 leadership election.", "kind": "action", "sources": ["s2"]},
+        {"text": "Reintroduced a resolution supporting the U.S. Supreme Court's Dobbs v. Jackson Women's Health Organization decision, January 20, 2023.", "kind": "bill", "date": "2023-01-20", "sources": ["s4"]}
       ],
       "website": "https://www.lisamcclainforcongress.com",
       "researchDepth": "basic",
       "bioguideId": "M001136",
-      "researchNotes": "No 2026 campaign statements or Candidate Connection survey responses were found describing McClain's current policy positions beyond her committee record; her campaign website's public pages did not list detailed issue positions."
+      "researchNotes": "No 2026 campaign statements or Candidate Connection survey responses were found describing McClain's current policy positions beyond her committee record; positions above are drawn from her official House website's Life and Energy issue pages."
     },
     {
       "id": "ray-pooley",
@@ -118,7 +147,11 @@
     {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026", "title": "United States House of Representatives elections in Michigan, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
     {"id": "s2", "url": "https://ballotpedia.org/Lisa_McClain", "title": "Lisa McClain", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
     {"id": "s3", "url": "https://ballotpedia.org/Ray_Pooley", "title": "Ray Pooley", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s3b", "url": "https://ballotpedia.org/Ray_Pooley", "title": "Pooley's Candidate Connection survey responses, quoted by Ballotpedia", "publisher": "Ballotpedia Candidate Connection", "kind": "candidate", "date": "2026-09-25"}
+    {"id": "s3b", "url": "https://ballotpedia.org/Ray_Pooley", "title": "Pooley's Candidate Connection survey responses, quoted by Ballotpedia", "publisher": "Ballotpedia Candidate Connection", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s4", "url": "https://mcclain.house.gov/life", "title": "Life", "publisher": "Office of Rep. Lisa McClain", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s5", "url": "https://mcclain.house.gov/energy", "title": "Energy", "publisher": "Office of Rep. Lisa McClain", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s6", "url": "https://mcclain.house.gov/jobs-and-economy", "title": "Jobs and the Economy", "publisher": "Office of Rep. Lisa McClain", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s7", "url": "https://mcclain.house.gov/national-security-military", "title": "National Security/Military", "publisher": "Office of Rep. Lisa McClain", "kind": "candidate", "date": "2026-09-25"}
   ],
   "researchedAt": "2026-09-25"
 }
