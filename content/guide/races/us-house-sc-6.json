@@ -1,0 +1,123 @@
+{
+  "id": "us-house-sc-6",
+  "state": "SC",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "6",
+  "title": "U.S. House · South Carolina's 6th District",
+  "area": "South Carolina's 6th Congressional District (Columbia to the Lowcountry, including parts of Charleston)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent James Clyburn (D) won the June 9, 2026 Democratic primary with 90.3% of the vote. John Peterson won the Republican primary with 74.0% of the vote.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "james-clyburn",
+      "name": "James Clyburn",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 9, 2026 Democratic primary with 90.3% of the vote",
+      "currentRole": "U.S. Representative (since 1993); former House Majority Whip (2007-2011, 2019-2023) and Assistant Democratic Leader",
+      "summary": {
+        "text": "James Clyburn is the incumbent U.S. Representative for South Carolina's 6th District, seeking re-election. He has served in the House since 1993 and previously held the third-ranking House Democratic leadership position.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Sumter, South Carolina in 1940. Earned a bachelor's degree in history from South Carolina State College in 1962.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a teacher, employment counselor, and newspaper publisher, and served on South Carolina state commissions including the State Employment Security Commission and the Human Affairs Commission, before working as a staff member for Gov. John C. West (D).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Elected House Majority Whip for the 116th Congress in 2018, the third-ranking leadership position in the House; served in that role until 2023.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Appropriations, including the Interior, Environment and Related Agencies subcommittee and the Energy and Water Development and Related Agencies subcommittee (2025-2026 assignments).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC totals are added separately by script. No current-cycle stated campaign priorities beyond committee work were located within the research budget.",
+      "bioguideId": "C000537"
+    },
+    {
+      "id": "john-peterson",
+      "name": "John Peterson",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the Republican primary (June 9, 2026) with 74.0% of the vote",
+      "summary": {
+        "text": "John Peterson is a hotel banquet supervisor and Republican campaign volunteer running as the Republican nominee for South Carolina's 6th Congressional District.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from the State University of New York at Brockport.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Works as a banquet supervisor at Embassy Suites in North Charleston, SC. Volunteered as a canvasser and phone caller for Donald Trump's 2020 and 2024 campaigns.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he will vote for fiscally conservative bills that cut spending, bring down inflation, and reduce the national debt, and supports the One Subject at a Time Act requiring each bill to cover a single topic.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Supports deregulation and reducing the size of government, including cuts to federal jobs and programs he characterizes as wasteful.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Describes himself as a fiscal conservative focused on cutting spending and reducing the national debt rather than raising taxes.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/South_Carolina%27s_6th_Congressional_District_election,_2026",
+      "title": "South Carolina's 6th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/James_Clyburn",
+      "title": "James Clyburn",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/John_Peterson_(South_Carolina)",
+      "title": "John Peterson (South Carolina)",
+      "publisher": "Ballotpedia (Candidate Connection survey)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. Per the research division of labor, Clyburn's federal key floor votes and FEC totals are left for later automated addition."
+}

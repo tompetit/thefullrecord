@@ -1,0 +1,108 @@
+{
+  "id": "us-house-tx-17",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "17",
+  "title": "U.S. House · Texas's 17th District",
+  "area": "Central Texas, including parts of Waco and the Bryan-College Station area.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Pete Sessions (R) ran unopposed in the March 3, 2026 Republican primary. Casey Shepard won the Democratic nomination in a May 26, 2026 primary runoff over Jamilah Flores, who had unofficially withdrawn but remained on the runoff ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "pete-sessions",
+      "name": "Pete Sessions",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2021, in this district)",
+      "summary": {
+        "text": "Pete Sessions is the Republican incumbent seeking re-election to Texas's 17th District. A former AT&T executive, he chairs the Government Operations Subcommittee of the House Oversight and Government Reform Committee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Waco, Texas, in 1955; earned a B.S. from Southwestern University in 1978.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an executive with AT&T before entering politics.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Oversight and Government Reform, chairing its Government Operations Subcommittee, and on the Health Care and Financial Services Subcommittee and the Committee on Financial Services in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://sessions.house.gov",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting representative are added separately by script."
+    },
+    {
+      "id": "casey-shepard",
+      "name": "Casey Shepard",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 26, 2026 Democratic primary runoff over Jamilah Flores.",
+      "summary": {
+        "text": "Casey Shepard is the Democratic nominee challenging Sessions. An attorney and debate-scholarship graduate of Loyola Marymount University with a law degree from UC Davis, she is campaigning on food and housing assistance, health-care access, and government accountability.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "A seventh-generation Texan, graduated from Midway High School and Loyola Marymount University on a debate scholarship, and earned a law degree from UC Davis, Martin Luther King Jr. Hall School of Law.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Legislative priorities of food stability, healthcare access, and affordable housing, including strengthening SNAP, WIC, school meals, and ACA premium subsidies.",
+          "quote": "During the fight on Capitol Hill, my legislative priorities are food stability, healthcare access, and affordable housing.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Focuses on scrutinizing executive agencies and holding officials accountable for respecting the limits of their authority.",
+          "quote": "My focus will be accountability. That means working with others to scrutinize executive agencies, investigate misconduct, and act when institutions fail the people they're meant to serve.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Wants to expand mental-health programs, citing the economic and social costs of untreated illness.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Wants to improve ACA premium subsidies, Medicaid, CHIP, and SAMHSA mental-health programs.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Supports restoring Section 8 rental assistance, public housing, government-backed mortgage aid, and HUD programs for low-income housing.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026", "title": "United States House of Representatives elections in Texas, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Pete_Sessions", "title": "Pete Sessions", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Casey_Shepard", "title": "Casey Shepard - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Pete Sessions's key floor votes and FEC finance totals are filled in separately by script."
+}

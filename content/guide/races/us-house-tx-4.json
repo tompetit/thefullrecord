@@ -1,0 +1,105 @@
+{
+  "id": "us-house-tx-4",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Texas's 4th District",
+  "area": "Northeast Texas, including part of Collin County and areas toward the Oklahoma and Arkansas borders",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Pat Fallon (R) defeated Don Horn in the March 3, 2026 Republican primary. Jason Pearce won the Democratic primary unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "pat-fallon",
+      "name": "Pat Fallon",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 4th District (since 2021)",
+      "summary": {
+        "text": "Pat Fallon is the Republican incumbent U.S. Representative for Texas's 4th Congressional District, a former Frisco city council member and Texas legislator.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Pittsfield, Massachusetts, in 1967; earned a degree in government and international relations from the University of Notre Dame in 1990.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as an active-duty U.S. Air Force officer for four years, receiving an honorable discharge at the rank of captain; later worked as an entrepreneur and as president and CEO of Virtus Apparel.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Frisco city council (2009–2012), in the Texas House of Representatives (2013–2019), and in the Texas Senate (2019–2021) before being elected to Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the Committee on Oversight and Government Reform (including the Delivering on Government Efficiency Subcommittee) and the Permanent Select Committee on Intelligence in the 2025–2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "No Ballotpedia Candidate Connection survey or curated key-messages profile was found for Fallon in this race's coverage; positions on specific issues were not documented from the sources checked."
+    },
+    {
+      "id": "jason-pearce",
+      "name": "Jason Pearce",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary unopposed",
+      "summary": {
+        "text": "Jason Pearce is a first-time candidate running as the Democratic nominee for Texas's 4th Congressional District on a message of reducing the influence of money in politics.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born and raised in Plano, Texas, in 1993; describes his background as working multiple jobs and long hours before running for office.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Supports term limits and mandatory retirement at age 65 for all offices, including the judiciary.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Supports banning lobbying by former members of Congress and overturning Citizens United v. FEC to reduce the role of PAC money in politics.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Pearce's Ballotpedia survey focuses on campaign-finance and term-limits reform rather than the guide's fixed issue list; no direct statements on the ISSUES keys were found."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Texas%27_4th_Congressional_District_election,_2026",
+      "title": "Texas' 4th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Pat_Fallon",
+      "title": "Pat Fallon",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

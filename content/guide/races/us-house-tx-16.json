@@ -1,0 +1,111 @@
+{
+  "id": "us-house-tx-16",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "16",
+  "title": "U.S. House · Texas's 16th District",
+  "area": "El Paso and surrounding El Paso County, in far West Texas.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Veronica Escobar (D) ran unopposed in the March 3, 2026 Democratic primary. Adam Bauman won the Republican nomination in a May 26, 2026 primary runoff, defeating Manuel Barraza.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "veronica-escobar",
+      "name": "Veronica Escobar",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Veronica Escobar is the Democratic incumbent seeking re-election to Texas's 16th District. A former El Paso County Commissioner and County Judge, she serves on the House Appropriations, Budget, Judiciary and Armed Services committees.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in El Paso, Texas, in 1969; earned a bachelor's degree from the University of Texas in 1991 and a master's degree in English Literature from New York University in 1993.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a professor, a nonprofit executive, and communications director for the mayor of El Paso's office before entering elected office.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as an El Paso County Commissioner from 2006 to 2010 and as El Paso County Judge from 2011 to 2017.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Appropriations, the Committee on the Budget, the Committee on the Judiciary, and the Committee on Armed Services in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://escobar.house.gov",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting representative are added separately by script."
+    },
+    {
+      "id": "adam-bauman",
+      "name": "Adam Bauman",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 26, 2026 Republican primary runoff over Manuel Barraza.",
+      "summary": {
+        "text": "Adam Bauman is the Republican nominee challenging Escobar. He is a U.S. Navy Special Warfare Combatant Crewman veteran who also served in the U.S. Border Patrol's BORTAC tactical team, campaigning on lower property taxes, border security, and veterans' issues.",
+        "sources": ["s3", "s4"]
+      },
+      "background": [
+        {
+          "text": "Served as a U.S. Navy Special Warfare Combatant Crewman (Navy SWCC).",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Served in the U.S. Border Patrol as part of the Border Patrol Tactical Team (BORTAC).",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lowering El Paso property taxes, which he says are among the highest in Texas.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Supporting Customs and Border Protection's mission to secure the border.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Expanding care and benefits for military veterans.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says a secure border is essential to prevent criminals and narcotics from crossing into El Paso, and supports the Customs and Border Protection mission.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://adambaumanforcongress.com",
+      "researchDepth": "basic",
+      "researchNotes": "No Ballotpedia Candidate Connection survey on file; positions drawn from his campaign website."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026", "title": "United States House of Representatives elections in Texas, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Veronica_Escobar", "title": "Veronica Escobar", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Texas%27_16th_Congressional_District_election,_2026", "title": "Texas' 16th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://adambaumanforcongress.com/", "title": "Adam Bauman for Congress", "publisher": "Adam Bauman for Congress campaign website", "kind": "candidate", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Veronica Escobar's key floor votes and FEC finance totals are filled in separately by script. Adam Bauman has not completed a Ballotpedia Candidate Connection survey; his positions come from his campaign website."
+}
