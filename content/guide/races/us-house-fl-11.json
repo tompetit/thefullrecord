@@ -1,0 +1,155 @@
+{
+  "id": "us-house-fl-11",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "11",
+  "title": "U.S. House · Florida's 11th District",
+  "area": "Central Florida, including parts of Orange and Lake counties north and west of Orlando.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Open seat: incumbent Daniel Webster did not make the Republican primary ballot. James Pericola won the Democratic primary with 46.3% against Royal Webster and Dan Williams. Joe Strada won a five-way Republican primary with 33.5%, narrowly ahead of Carey Baker (33.0%). Ralph Groves advanced from the Libertarian primary without appearing on the ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "james-pericola",
+      "name": "James Pericola",
+      "parties": ["D"],
+      "incumbent": false,
+      "summary": {
+        "text": "James Pericola is the Democratic nominee for the open Florida 11th Congressional District seat. An attorney who worked for Senator Bob Graham and in the Clinton administration, he moved home to Central Florida to care for his aging mother and is running on affordability, protecting Social Security/Medicare/Medicaid, and democracy issues.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a high school diploma from Spruce Creek High School and bachelor's and law degrees from the Catholic University of America (1997 and 2005).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Began his career as a special assistant to U.S. Senator Bob Graham, later serving in the Clinton administration and working with Congress and federal agencies.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Grew up in a working-class family in Central Florida; says he is the first in his family to attend college and law school.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Affordability: proposes middle-class tax breaks, federal funding to address the housing crisis and lower property-insurance costs, and holding corporations accountable for price gouging.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Protecting Social Security, Medicare and Medicaid: pledges to reverse Medicaid cuts he says Congress passed and to oppose benefit reductions or privatization, while lowering prescription drug costs.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Protecting democracy: says he would work to pass the John Lewis Voting Rights Advancement Act, oppose \"unfair mid-decade redistricting,\" and restore congressional oversight of the executive branch.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he will fight to reverse Medicaid cuts and protect Social Security and Medicare from benefit reductions or privatization, and work to lower prescription drug costs.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "website": "https://jamespericola.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "joe-strada",
+      "name": "Joe Strada",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Joe Strada is the Republican nominee for the open Florida 11th Congressional District seat. He describes himself as a business owner running on real-world experience rather than a political career, focused on immigration enforcement, government accountability, and skilled-worker shortages.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a high school diploma from Lyman High School; his listed profession is business.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he built a company and developed a training program to address labor shortages, which he says helped the company grow.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Immigration enforcement: says law enforcement needs more resources to address the effects of illegal immigration on public safety and the economy.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Government accountability: says he would work to \"root out bureaucrats and policies that enrich greedy politicians and fraudulent NGOs.\"",
+          "quote": "NO ONE SHOULD GET RICH IN PUBLIC OFFICE.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Addressing skilled-worker shortages, citing a training program he developed at his company in response to labor shortages.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says Florida law enforcement needs more resources to address the effects of illegal immigration on public safety, the economy and infrastructure, and credits President Trump with closing the border.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://votestrada.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "ralph-groves",
+      "name": "Ralph Groves",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "summary": {
+        "text": "Ralph Groves is the Libertarian Party nominee for Florida's 11th Congressional District, advancing from the Libertarian primary without appearing on the ballot.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Ballotpedia biography page, campaign website, or completed Candidate Connection survey was found for Groves in the time available."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+      "title": "United States House of Representatives elections in Florida, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/James_Pericola",
+      "title": "James Pericola",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Joe_Strada",
+      "title": "Joe Strada",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Open seat (incumbent Daniel Webster did not make the primary ballot). No public record found for Libertarian nominee Ralph Groves beyond his ballot status."
+}

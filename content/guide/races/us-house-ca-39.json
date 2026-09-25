@@ -1,0 +1,114 @@
+{
+  "id": "us-house-ca-39",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "39",
+  "title": "U.S. House · California's 39th District",
+  "area": "Western Riverside County, including Riverside, Moreno Valley, and Perris.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California uses a top-two nonpartisan primary. Incumbent Mark Takano (D) and Steve Manos (R) were the only two candidates to advance to the November general election.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "mark-takano",
+      "name": "Mark Takano",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for California's 39th District (since 2013)",
+      "summary": {
+        "text": "Mark Takano is the incumbent U.S. Representative for California's 39th District, serving on the House Committee on Veterans' Affairs and the House Committee on Education and the Workforce.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Riverside, California, in 1960; earned a bachelor's degree in government from Harvard University in 1983 and a Master of Fine Arts in creative writing from the University of California, Riverside in 2010.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a teacher before his election to Congress in 2012.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Veterans' Affairs and the House Committee on Education and the Workforce in the 119th Congress (2025–2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "T000472"
+    },
+    {
+      "id": "steve-manos",
+      "name": "Steve Manos",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Steve Manos is a business owner and the mayor of Lake Elsinore, California, running as a Republican for California's 39th Congressional District under the campaign theme 'Faith, Family, and Affordability.'",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Has lived in the Inland Empire since 1987; a business owner since 1996 and past president of the Inland Valleys Association of Realtors.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Elected to the Lake Elsinore City Council in 2012 and has served as mayor of Lake Elsinore in 2015, 2019, 2024, and 2026; also serves as a director of the Riverside County Habitat Conservation Authority and the Southern California Association of Governments.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign platform is 'Faith, Family, and Affordability': he says he would protect parental rights, remove regulatory barriers that raise housing costs, fund freeway repairs along the 215 corridor, support veterans, and limit government overreach.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says the district's greatest need is affordable, market-rate housing and calls for removing regulatory barriers that increase housing costs.",
+          "quote": "Our greatest need is affordable, market-rate housing for our young and young-at-heart.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.electstevemanos.com/",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Mark_Takano",
+      "title": "Mark Takano",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.electstevemanos.com/",
+      "title": "Steve Manos for Congress",
+      "publisher": "Steve Manos campaign",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Takano has not completed Ballotpedia's 2026 Candidate Connection survey and no current campaign-issues page was found, so no current stated priorities/positions are cited for him beyond his official committee record. Manos has not completed a Candidate Connection survey either; his priorities/positions are drawn from his campaign website. Federal key votes and FEC finance totals for the incumbent are added separately by script."
+}

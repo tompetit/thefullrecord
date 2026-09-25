@@ -1,0 +1,121 @@
+{
+  "id": "us-house-ca-44",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "44",
+  "title": "U.S. House · California's 44th District",
+  "area": "South Bay and harbor-area Los Angeles County, including San Pedro, Wilmington, Carson and parts of Long Beach, redrawn under Proposition 50 (approved November 2025).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Nanette Barragán (D) and Republican Genevieve Angel advanced from the June 2, 2026 top-two primary, defeating a Democratic write-in candidate.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "nanette-barragan",
+      "name": "Nanette Barragán",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary.",
+      "currentRole": "U.S. Representative for California's 44th District (since 2017)",
+      "summary": {
+        "text": "Nanette Barragán is the Democratic incumbent seeking re-election in the 44th District. She previously served on the Hermosa Beach City Council, including as mayor pro tempore.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from the University of California, Los Angeles in 2000 and a law degree from the University of Southern California in 2005.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served on the Hermosa Beach City Council, including as mayor pro tempore, before her election to Congress.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Energy and Commerce (Communications and Technology, Health, and Environment subcommittees) for the 2025-2026 term.",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Chaired the House Homeland Security Committee's Border Security, Facilitation, and Operations Subcommittee during the 2021-2022 term.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://barragan.house.gov/",
+      "researchDepth": "basic",
+      "researchNotes": "No 2026-specific campaign website statements or Candidate Connection survey responses were found beyond committee-assignment history."
+    },
+    {
+      "id": "genevieve-angel",
+      "name": "Genevieve Angel",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary.",
+      "summary": {
+        "text": "Genevieve Angel is the Republican candidate in the 44th District. She is a family nurse practitioner and healthcare executive running as a first-time candidate.",
+        "sources": ["s2", "s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from the University of Santo Tomas in 1992, a graduate degree from American International University in 2007, and a graduate degree from United States University in 2025.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Career experience includes working as a family nurse practitioner and healthcare executive.",
+          "sources": ["s2", "s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says she is focused on fiscal responsibility, public safety, healthcare reform and educational freedom.",
+          "quote": "I bring a unique, hands-on perspective to the table. With a background as a Family Nurse Practitioner and healthcare executive, I'm committed to strengthening our community through fiscal responsibility, public safety, healthcare reform, and educational freedom.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Lists educational freedom among the policy areas she is personally passionate about, alongside economic affordability, public safety, healthcare reform and immigration reform.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Nanette_Barrag%C3%A1n",
+      "title": "Nanette Barragán",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Genevieve_Angel",
+      "title": "Genevieve Angel",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Genevieve_Angel",
+      "title": "Genevieve Angel Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research from Ballotpedia; federal key votes and FEC totals for the incumbent are added separately."
+}

@@ -1,0 +1,159 @@
+{
+  "id": "us-house-ca-3",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · California's 3rd District",
+  "area": "Covers part of the Sierra Nevada foothills and Sacramento-area exurbs, following the 2025 Proposition 50 mid-decade redistricting.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The district's boundaries changed as a result of California Proposition 50, approved by voters on November 5, 2025, which redrew the state's congressional map.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the June 2, 2026 top-two primary, Ami Bera (D) placed first with 34.3% (76,653 votes) and Robb Tucker (R) placed second with 29.9% (66,808 votes) out of 223,711 total votes cast; both advanced to the general election.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ami-bera",
+      "name": "Ami Bera",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Placed first in the June 2, 2026 top-two primary",
+      "currentRole": "U.S. Representative (since 2013)",
+      "summary": {
+        "text": "Ami Bera first won election to the U.S. House in 2012, defeating Republican incumbent Dan Lungren, and has represented Sacramento-area districts since. He currently serves on the House Intelligence and Foreign Affairs committees.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "First elected to Congress in 2012, defeating Republican incumbent Dan Lungren in a newly redrawn district by 3.4 points.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Won re-election in 2014 by 0.8 points over Republican Doug Ose in a race Ballotpedia rated a battleground, and again in 2016 over Republican Scott Jones and in 2018 over Republican Andrew Grant.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Has not completed Ballotpedia's 2026 Candidate Connection survey.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Permanent Select Committee on Intelligence, including the National Intelligence Enterprise and National Security Agency and Cyber subcommittees, for the 2025-2026 session.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves on the House Committee on Foreign Affairs for the 2025-2026 session.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "robb-tucker",
+      "name": "Robb Tucker",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary",
+      "currentRole": "Member, Nevada County Board of Supervisors",
+      "summary": {
+        "text": "Robb Tucker is a member of the Nevada County Board of Supervisors running on a platform of local control and federal accountability, arguing that federal regulations written for large metro areas are poorly suited to rural Northern California counties.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Serves on the Nevada County Board of Supervisors, where his campaign says he has worked to secure funding for shelters, mental health care, and public safety equipment despite mismatched state and federal funding streams.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Has not completed Ballotpedia's 2026 Candidate Connection survey.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign platform centers on 'local control and federal accountability,' arguing federal agencies should consult counties before making major land, water, or infrastructure decisions and should simplify compliance rules for rural jurisdictions.",
+          "quote": "Washington has treated Northern California's rural counties as an afterthought for too long. Federal agencies write regulations for Los Angeles and San Francisco, then hand them down to communities that operate nothing like a major metro area.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Platform lists securing the border as a core federal duty and says Washington's failure to do so burdens local law enforcement.",
+          "quote": "Every time Washington fails to secure the border or coordinate offender releases, local deputies absorb the burden.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says the federal government should direct more funding toward tools used by local law enforcement, such as radios, vehicles, and forensic equipment.",
+          "quote": "Robb wants federal dollars going to the tools deputies actually use, like radios, vehicles, and forensic equipment, instead of sitting in Washington bureaucracy.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "As a Nevada County Supervisor, voted to approve inter-agency contracts and emergency plans intended to streamline local operational agreements, according to his campaign.",
+          "kind": "action",
+          "sources": ["s4"]
+        },
+        {
+          "text": "As a Nevada County Supervisor, voted to fund sheriff communications and mobile technology upgrades, according to his campaign.",
+          "kind": "action",
+          "sources": ["s4"]
+        }
+      ],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/California%27s_3rd_Congressional_District",
+      "title": "California's 3rd Congressional District",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Ami_Bera",
+      "title": "Ami Bera",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Robb_Tucker",
+      "title": "Robb Tucker",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.robbtucker.com/platform",
+      "title": "Robb's Platform",
+      "publisher": "Robb Tucker for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "Neither candidate has completed Ballotpedia's 2026 Candidate Connection survey. Bera's priorities and issue positions for this cycle could not be documented from an official campaign source within the research window; his committee roles are listed as record instead. Tucker's positions and county-board record items are drawn from claims on his own campaign website, which were not independently verified against county meeting records."
+}

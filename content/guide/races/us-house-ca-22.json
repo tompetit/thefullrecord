@@ -1,0 +1,150 @@
+{
+  "id": "us-house-ca-22",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "22",
+  "title": "U.S. House · California's 22nd Congressional District",
+  "area": "Kern, Tulare, and Kings counties in the southern San Joaquin Valley, including Delano, Wasco, and parts of Bakersfield.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California redrew its congressional district lines for the 2026 elections under Proposition 50, a mid-decade redistricting measure voters approved in a November 2025 special election. Ballotpedia identifies the new 22nd District as more Democratic-leaning than the pre-2026 lines, and rates the general election a battleground contest.",
+      "sources": ["s1", "s2"]
+    },
+    {
+      "text": "In the June 2, 2026 top-two primary, David Valadao won 40.7% of the vote (32,491 votes) and Randy Villegas won 32.4% (25,808 votes), narrowly beating fellow Democrat Jasmeet Bains (26.9%, 21,458 votes) to advance.",
+      "sources": ["s2"]
+    },
+    {
+      "text": "As of June 30, 2026, Valadao had raised $4.93 million and Villegas had raised $2.65 million, according to Ballotpedia's summary of campaign-finance disclosures.",
+      "sources": ["s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "david-valadao",
+      "name": "David Valadao",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2013, with a 2018–2021 gap after losing re-election)",
+      "summary": {
+        "text": "David Valadao is the incumbent Republican U.S. Representative for California's 22nd District, a Hanford-area farmer first elected in 2012 who has repeatedly won this Democratic-leaning Central Valley swing seat.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Hanford, California, in 1977; graduated from Hanford High School in 1995 and attended College of the Sequoias.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked on his family's dairy farm and served as Regional Leadership Council Chairman for Land O'Lakes Inc.; served in the California State Assembly from 2010 to 2012.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "His campaign website says he will 'protect our water, put an end to out-of-control inflation and outrageous gas prices, work to bring new jobs and job training to the Central Valley.'",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Chairs the House Appropriations Subcommittee on the Legislative Branch and serves on its Defense and Agriculture, Rural Development, Food and Drug Administration subcommittees in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "V000129"
+    },
+    {
+      "id": "randy-villegas",
+      "name": "Randy Villegas",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2 top-two primary with 32.4% of the vote, narrowly ahead of fellow Democrat Jasmeet Bains (26.9%)",
+      "summary": {
+        "text": "Randy Villegas is a college professor, Visalia Unified School Board member, and community organizer running against Rep. David Valadao in a race Ballotpedia has identified as a battleground contest.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Graduated from Golden Valley High School; earned an associate degree from Bakersfield College in 2015, a bachelor's degree from CSU Bakersfield in 2017, and a Ph.D. from UC Santa Cruz in 2022.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Works as a professor at College of the Sequoias; serves on the Visalia Unified School District Board, where he says he has won pay increases for teachers and staff.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Endorsed by Sen. Bernie Sanders, Dolores Huerta, the California Nurses Association, the California Teachers Association, the United Auto Workers, Latino Victory Fund, and the Congressional Hispanic Caucus.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Names healthcare as his top priority, saying he will fight for Medicare for All, negotiate prescription-drug prices, and cap insulin costs at $35.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Supports passing the PRO Act to strengthen labor organizing rights and investing federal dollars in job training and small businesses in the Central Valley.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Opposes what he calls 'endless tariff trade wars' that he says hurt Valley farmers and businesses.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports Medicare for All and federal negotiation of prescription-drug prices, including capping insulin at $35.",
+          "quote": "In Congress I'll fight for Medicare for All, take on big Pharma by negotiating the price of prescription drugs directly, bringing down costs like making insulin $35 for everyone.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Opposes broad tariff trade wars, saying they hurt Central Valley farmers and businesses.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports the PRO Act to strengthen workers' ability to organize for better wages, benefits, and working conditions.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/David_G._Valadao",
+      "title": "David G. Valadao",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Randy_Villegas_(California)",
+      "title": "Randy Villegas — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "David Valadao has not completed Ballotpedia's 2026 Candidate Connection survey; his positions/priorities are limited to his campaign website's general statement and committee assignments from official House records. Federal key votes and FEC totals for the incumbent are added separately by script."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "us-house-ct-5",
+  "state": "CT",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · Connecticut's 5th District",
+  "area": "Northwestern and north-central Connecticut, including Waterbury, Danbury, New Britain, and Torrington",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Democratic primary was canceled and incumbent Jahana Hayes advanced without appearing on the ballot. Chris Shea defeated Jonathan De Barros in the Republican primary, winning 81% of the vote. The Cook Political Report rated this district D+3 based on 2024 presidential results, making it the most competitive of Connecticut's five U.S. House seats.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jahana-hayes",
+      "name": "Jahana Hayes",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Jahana Hayes is the Democratic incumbent for Connecticut's 5th Congressional District, first elected in 2018. A former public-school teacher and 2016 National Teacher of the Year, she serves on the House Agriculture and Education and Workforce committees.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Waterbury, Connecticut, in 1973; earned an associate degree from Naugatuck Valley Community College, a bachelor's degree from Southern Connecticut State University, and graduate degrees from the University of Saint Joseph and the University of Bridgeport.", "sources": ["s2"] },
+        { "text": "Worked as a public-school teacher before running for Congress.", "sources": ["s2"] },
+        { "text": "Has represented Connecticut's 5th District in the U.S. House since 2019, currently serving her fourth term.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        { "text": "Serves on the House Committee on Agriculture and the Committee on Education and the Workforce in the 2025–2026 Congress.", "date": "2025", "kind": "action", "sources": ["s2"] },
+        { "text": "Chaired the Agriculture Subcommittee on Nutrition, Oversight, and Department Operations in the 2021–2022 Congress.", "date": "2021", "kind": "action", "sources": ["s2"] },
+        { "text": "Served as ranking member of the Agriculture Subcommittee on Nutrition, Foreign Agriculture, and Horticulture in the 2023–2024 Congress.", "date": "2023", "kind": "action", "sources": ["s2"] }
+      ],
+      "website": "https://www.jahanahayes.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "chris-shea",
+      "name": "Chris Shea",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Defeated Jonathan De Barros in the August 11, 2026 Republican primary",
+      "summary": {
+        "text": "Chris Shea is the Republican nominee for Connecticut's 5th Congressional District, having won a contested primary. Ballotpedia's profile of Shea contains no biographical details, and he has not completed Ballotpedia's Candidate Connection survey.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "website": "https://www.chrissheaforcongress.com",
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Connecticut,_2026", "title": "United States House of Representatives elections in Connecticut, 2026", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s2", "url": "https://ballotpedia.org/Jahana_Hayes", "title": "Jahana Hayes", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s3", "url": "https://ballotpedia.org/Chris_Shea", "title": "Chris Shea", "publisher": "Ballotpedia", "kind": "reference" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No campaign website content, Candidate Connection survey, or independent news coverage of Chris Shea's platform was found; his entry reflects the limited public record available despite his having won a contested primary. Rep. Hayes's federal key votes and FEC finance totals are added separately by script."
+}
