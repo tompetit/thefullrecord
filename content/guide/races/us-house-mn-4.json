@@ -1,0 +1,124 @@
+{
+  "id": "us-house-mn-4",
+  "state": "MN",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Minnesota's 4th District",
+  "area": "Saint Paul and its eastern and northern suburbs, including Woodbury, Maplewood and Shoreview.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Rep. Betty McCollum (D) defeated Aswar Rahman in the Democratic primary, 85.7%-14.3%. Paul Wikstrom, an engineering manager who previously ran unsuccessfully for a Minnesota House special election in 2025, won the Republican primary over Paul Xiong and Gene Rechtzigel with 72.6% of the vote.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "betty-mccollum",
+      "name": "Betty McCollum",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, MN-04 (since 2001)",
+      "summary": {
+        "text": "Betty McCollum is the Democratic incumbent seeking re-election in Minnesota's 4th Congressional District, which she has represented since 2001.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in 1954 in Minneapolis, Minnesota; graduated from South St. Paul High School and earned a B.A. from the College of St. Catherine in St. Paul.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Appropriations, on the Interior, Environment and Related Agencies and Defense subcommittees, in the 119th Congress; previously chaired and served as ranking member of the Defense subcommittee in earlier Congresses.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://mccollum.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "M001143",
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting member of Congress are added separately; this entry focuses on biography, committee roles and record."
+    },
+    {
+      "id": "paul-wikstrom",
+      "name": "Paul Wikstrom",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the Republican primary over Paul Xiong and Gene Rechtzigel with 72.6% of the vote.",
+      "currentRole": "Engineering manager",
+      "summary": {
+        "text": "Paul Wikstrom is the Republican nominee challenging Rep. Betty McCollum. He is an engineering manager from Shoreview who previously ran unsuccessfully for a Minnesota House special election in 2025.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Grew up in Montana and North Dakota before moving to Minnesota as a young adult; earned a bachelor's degree from the University of Minnesota, Twin Cities, and a graduate degree from the University of St. Thomas.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked in seismic exploration, road construction and farming before becoming an engineer; currently works as an engineering manager.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Lost the March 11, 2025 special general election for Minnesota House District 40B to David Gottfried (D), 70.2%-29.8%.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Has been married 30 years and raised three children in Shoreview, Minnesota.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Protecting jobs, cutting regulatory red tape on local industries, and letting working Americans keep more of their paychecks.",
+          "quote": "My experiences have shaped my priorities as a candidate: protecting jobs, cutting the red tape that stifles our local industries, and making sure that hard working Americans keep more of their hard-earned paychecks.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says his priority is making sure working Americans keep more of their paychecks, framing his campaign around reducing the tax and regulatory burden on workers and local industry.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Wikstrom's Ballotpedia Candidate Connection survey response was brief and covered mainly biography; no separate campaign website with a detailed issues page was found within the research budget for this race."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Minnesota,_2026",
+      "title": "United States House of Representatives elections in Minnesota, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Betty_McCollum",
+      "title": "Betty McCollum",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Paul_Wikstrom",
+      "title": "Paul Wikstrom (Candidate Connection survey)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}
