@@ -39,8 +39,60 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says the U.S. must prevent global average temperatures from rising beyond 1.5 degrees Celsius and calls for economy-wide action to transition the energy system.",
+          "quote": "If the United States doesn't take immediate, economy-wide action at all levels of government, our health and natural resources that support our economic growth could face irreparable harm. We must prevent average global temperatures from increasing beyond 1.5 degrees Celsius through economic incentives.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says gun violence is preventable and calls on Congress to act, citing the October 2023 Lewiston mass shooting.",
+          "quote": "Gun violence is preventable, and it's shameful that so many in Congress have blocked any legislation that would end this uniquely American epidemic.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says both the Israeli and Palestinian people deserve to live in peace and lists actions she has taken toward a bilateral ceasefire, humanitarian aid delivery, and an end to the Gaza war.",
+          "quote": "Both the Israeli people and the Palestinian people deserve to live in peace. I want my constituents to have a full understanding of all the actions I have taken to bring about a bilateral permanent ceasefire, swiftly deliver humanitarian aid, and bring an end to this war.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Describes herself as a longtime member of the Pro-Choice Caucus and lists bills she has cosponsored to protect abortion access, including the Women's Health Protection Act.",
+          "quote": "As a member of the Pro-Choice Caucus, I have been a longtime champion of reproductive freedom, and have cosponsored and helped pass several bills in the House to protect those freedoms.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Voted for the Bipartisan Safer Communities Act and cosponsored House-passed bills for enhanced background checks, a large-capacity magazine ban, and a federal red-flag law.",
+          "quote": "Though I support actions that go much further, I was proud to vote for this package that included funding for red flag laws, enhanced background checks for buyers under 21, investments in mental health, and more life-saving provisions.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Calls for immediate, economy-wide action to keep warming below 1.5 degrees Celsius and voted for the Inflation Reduction Act, describing it as the largest U.S. climate investment in history.",
+          "quote": "It is no exaggeration to say the Inflation Reduction Act is the most significant investment to fight climate change in U.S. history.",
+          "sources": ["s4", "s8"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says the Inflation Reduction Act makes large corporations and the wealthiest taxpayers pay their fair share through a 15% corporate minimum tax on billion-dollar-profit corporations and stronger IRS enforcement against wealthy tax cheats.",
+          "quote": "Makes biggest corporations and ultra-wealthy pay their fair share: is paid for by strengthening IRS enforcement against wealthy tax cheats, closing tax loopholes exploited by the wealthiest few, and implementing a 15 percent corporate minimum tax – which applies only to the 150 corporations making earning over $1 billion in profits that pay less than 15% in taxes.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Cosponsored multiple Joint Resolutions of Disapproval to block specific U.S. weapons sales to Israel and wrote to the administration urging it to halt weapons transfers and restrict additional U.S. security assistance to Israel.",
+          "quote": "I wrote to President Biden and Secretary of State Blinken urging them to halt weapons transfers to Israel following the horrific deaths of seven World Central Kitchen volunteers.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Agriculture and the House Committee on Appropriations, including the Agriculture-FDA and Interior-Environment subcommittees, for the 2025-2026 Congress.",
@@ -54,7 +106,7 @@
         }
       ],
       "website": "https://pingree.house.gov",
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "bioguideId": "P000597"
     },
     {
@@ -115,6 +167,41 @@
       "url": "https://ballotpedia.org/Maine%27s_1st_Congressional_District_election,_2026",
       "title": "Ronald C. Russell - Ballotpedia Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://pingree.house.gov/issues/issue/?IssueID=14914",
+      "title": "Climate Change",
+      "publisher": "Office of Rep. Chellie Pingree",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://pingree.house.gov/Issues/Issue/?IssueID=14895",
+      "title": "Community Safety",
+      "publisher": "Office of Rep. Chellie Pingree",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://pingree.house.gov/issues/issue/?IssueID=14926",
+      "title": "Working Towards Peace in Israel and Palestine",
+      "publisher": "Office of Rep. Chellie Pingree",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://pingree.house.gov/issues/issue/?IssueID=14922",
+      "title": "Fighting for Abortion Access",
+      "publisher": "Office of Rep. Chellie Pingree",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://pingree.house.gov/inflationreduction/",
+      "title": "The Inflation Reduction Act",
+      "publisher": "Office of Rep. Chellie Pingree",
       "kind": "candidate"
     }
   ],
