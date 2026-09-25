@@ -47,3 +47,7 @@ standard) and `src/server/guide/types.ts` first.
 
 Use a unique temp directory for scratch files (mktemp -d) — other agents share /tmp. Do not edit anything else. Final answer: one line per race — id, counts, and the
 most important correction if any.
+
+## Recurring errors to check for specifically
+- **Wrong-page citations:** a candidate's own bio facts cited to an *opponent's* Ballotpedia page, or to the race overview page, or to a disambiguation page. Fetch the candidate's own page and re-cite (add it as a new source if needed).
+- **Stale committee assignments:** claims about *current* committees/chairmanships must match the 119th Congress (2025–2026). Ballotpedia bios often list 118th-Congress assignments; check the member's official house.gov/senate.gov committees page and reword with explicit Congress/years.
