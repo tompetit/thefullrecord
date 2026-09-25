@@ -10,8 +10,8 @@
   "electionDate": "2026-11-03",
   "context": [
     {
-      "text": "This is an open seat: incumbent Rep. Angie Craig (D) did not run for re-election here, running instead in the Democratic primary for U.S. Senate (where she lost to Peggy Flanagan). Matt Little, a former state senator, won the Democratic primary over four others. Eric Pratt, a state senator, won the Republican primary unopposed on the ballot.",
-      "sources": ["s1"]
+      "text": "This is an open seat: incumbent Rep. Angie Craig (D) did not run for re-election here, running instead in the Democratic primary for U.S. Senate (where she lost to Peggy Flanagan, 58.9%-39.5%). Matt Little, a former state senator, won the Democratic primary over four others. Eric Pratt, a state senator, won the Republican primary unopposed on the ballot.",
+      "sources": ["s1", "s5"]
     }
   ],
   "candidates": [
@@ -73,7 +73,7 @@
       "name": "Eric Pratt",
       "parties": ["R"],
       "incumbent": false,
-      "currentRole": "Minnesota State Senator, District 54 (since 2021; previously District 35, 2013-2021)",
+      "currentRole": "Minnesota State Senator, District 54 (since 2023; previously District 55, 2013-2023)",
       "summary": {
         "text": "Eric Pratt is the Republican nominee for the open MN-02 seat. He is a sitting Minnesota state senator and former banking executive from Prior Lake.",
         "sources": ["s3", "s4"]
@@ -123,16 +123,10 @@
           "summary": "Says he supports law enforcement, first responders and policies that keep communities secure.",
           "sources": ["s4"]
         },
-        {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Described himself as 'pro-life' in a 2012 campaign survey for state legislature; no more recent statement on abortion was found on his 2026 congressional campaign materials.",
-          "sources": ["s3"]
-        }
       ],
       "record": [
         {
-          "text": "Has served in the Minnesota State Senate since 2013 (District 35, 2013-2021; District 54, 2021-present); currently ranking minority member of the Senate Finance Committee and a member of the Capital Investment and Jobs and Economic Growth Finance and Policy committees.",
+          "text": "Has served in the Minnesota State Senate since 2013 (District 55, 2013-2023; District 54, 2023-present); currently ranking minority member of the Senate Finance Committee and a member of the Capital Investment and Jobs and Economic Growth Finance and Policy committees.",
           "kind": "action",
           "sources": ["s3"]
         }
@@ -172,6 +166,14 @@
       "title": "About / Pratt Playbook",
       "publisher": "Eric Pratt for Minnesota (campaign website)",
       "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Minnesota,_2026",
+      "title": "United States Senate election in Minnesota, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
       "date": "2026-09-25"
     }
   ],
