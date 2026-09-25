@@ -36,8 +36,26 @@
         { "text": "Worked as an attorney specializing in environmental and energy regulatory compliance and governmental affairs before Congress.", "sources": ["s2"] },
         { "text": "Served as executive director of the Democratic Party of Orange County and as a board member for the Center for Sustainable Energy.", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Building clean energy and lowering energy costs, including by opposing termination of federal clean-energy grants in the district.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Protecting Southern California's coastline from new offshore oil and gas drilling.",
+          "quote": "I am proud to represent 50 miles of beautiful Southern California coastline and the vibrant coastal economy that relies on its clean and healthy ocean ecosystem.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Pushed the Interior Department to end delays and procedural hurdles blocking wind and solar energy project permits, saying the Trump administration has been disadvantaging renewable projects while favoring fossil energy.",
+          "quote": "We write to request an update on the status of clean energy projects that the Department of the Interior (DOI) has been delaying arbitrarily.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations for the 119th Congress (2025-2026), including the Energy and Water Development and Related Agencies subcommittee and the Military Construction, Veterans Affairs and Related Agencies subcommittee.",
@@ -48,10 +66,15 @@
           "text": "Chaired the Economic Opportunity Subcommittee of the House Committee on Veterans' Affairs during the 117th Congress (2021-2022) and served as ranking member of that subcommittee in the 118th Congress (2023-2024).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Led a letter with House colleagues to the Department of Energy in August 2026 condemning the termination of 321 clean-energy grants, including projects in the 49th District, and demanding their reinstatement.",
+          "kind": "action",
+          "sources": ["s4"]
         }
       ],
       "researchDepth": "basic",
-      "researchNotes": "Levin has not completed Ballotpedia's 2026 Candidate Connection survey, and no campaign-website issue statements could be retrieved in this environment (mikelevin.house.gov and campaign sites were unreachable), so no sourced issue positions are included."
+      "researchNotes": "Levin has not completed Ballotpedia's 2026 Candidate Connection survey and his official website's /issues page has no per-topic issue statements; positions and priorities here are drawn from his official press releases on clean energy and offshore drilling."
     },
     {
       "id": "armen-kurdian",
@@ -119,6 +142,30 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://levin.house.gov/media/press-releases/rep-mike-levin-condemns-politically-motivated-termination-of-energy-grants",
+      "title": "Rep. Mike Levin Condemns Politically Motivated Termination of Energy Grants",
+      "publisher": "Office of Rep. Mike Levin",
+      "kind": "official",
+      "date": "2026-08-20"
+    },
+    {
+      "id": "s5",
+      "url": "https://levin.house.gov/media/press-releases/rep-mike-levin-pushes-interior-department-on-renewable-energy-permitting",
+      "title": "Rep. Mike Levin Pushes Interior Department on Renewable Energy Permitting",
+      "publisher": "Office of Rep. Mike Levin",
+      "kind": "official",
+      "date": "2026-08-18"
+    },
+    {
+      "id": "s6",
+      "url": "https://levin.house.gov/media/press-releases/rep-mike-levin-fights-to-ban-drilling-off-of-california-and-florida-coasts",
+      "title": "Rep. Mike Levin Fights to Ban Drilling Off of California & Florida Coasts",
+      "publisher": "Office of Rep. Mike Levin",
+      "kind": "official",
+      "date": "2026-06-03"
     }
   ],
   "researchedAt": "2026-09-25",

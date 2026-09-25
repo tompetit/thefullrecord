@@ -40,11 +40,28 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Health: says she is focused on lowering prescription drug prices and holding pharmaceutical companies accountable for price increases and industry consolidation.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Economy: as the only Floridian on the House Agriculture Committee, has run an in-person listening tour with Florida farmers and ranchers to shape Farm Bill provisions affecting the state's agriculture industry.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Praised the Trump administration's February 2026 revocation of the EPA's 'Endangerment Finding,' the legal basis for federal vehicle-emissions standards, framing the rollback of the underlying climate regulation as a win for lower prices and energy production.",
+          "quote": "'GREEN NEW SCAM' up in smoke. The climate crowd said killing Obama-era emissions rules would wreck America. Instead? Cheaper cars. More energy. Less bureaucratic chokehold. America builds again.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Federal roll-call votes and FEC finance totals for this sitting member are added by script; no additional 2026 campaign key-message profile was found on Ballotpedia."
+      "researchNotes": "Federal roll-call votes and FEC finance totals for this sitting member are added by script; no 2026 campaign key-message profile was found on Ballotpedia. Cammack's official House issues pages (Economy, Education, Energy, Health) mostly aggregate press releases rather than stating positions in her own words; the items above are the ones that directly address a tracked issue or her own stated priorities."
     },
     {
       "id": "seth-harp",
@@ -137,7 +154,10 @@
     { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_3rd_Congressional_District_election,_2026", "title": "Florida's 3rd Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s2", "url": "https://ballotpedia.org/Kat_Cammack", "title": "Kat Cammack", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s3", "url": "https://ballotpedia.org/Seth_Harp_(Florida)", "title": "Seth Harp - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://ballotpedia.org/Mike_Klein_(Florida)", "title": "Mike Klein - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+    { "id": "s4", "url": "https://ballotpedia.org/Mike_Klein_(Florida)", "title": "Mike Klein - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s5", "url": "https://cammack.house.gov/issues/health", "title": "Health", "publisher": "Office of Rep. Kat Cammack", "kind": "official", "date": "2026-09-25" },
+    { "id": "s6", "url": "https://cammack.house.gov/issues/economy", "title": "Economy", "publisher": "Office of Rep. Kat Cammack", "kind": "official", "date": "2026-09-25" },
+    { "id": "s7", "url": "https://cammack.house.gov/issues/energy", "title": "Energy", "publisher": "Office of Rep. Kat Cammack", "kind": "official", "date": "2026-09-25" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Cammack's federal voting record and FEC finance totals are added by script."

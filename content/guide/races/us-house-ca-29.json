@@ -44,13 +44,47 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Has conducted repeated oversight visits at immigration detention facilities in California and Texas and calls for the Dilley Immigration Processing Center to be shut down.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says she is working to protect environmental justice communities in the San Fernando Valley from pollution linked to oil and gas operations.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Conducted oversight visits at immigration detention facilities, called for the Dilley Immigration Processing Center to be shut down, and introduced legislation to fund mental-health services for communities affected by ICE actions.",
+          "quote": "The Trump Administration must be held accountable for the trauma it is inflicting on immigrant families. Children should not be detained, and I am continuing to call for the Dilley Detention Facility to be shut down, immediately.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Introduced the Methane Pollution Accountability Act to hold oil and gas companies accountable for pollution and a resolution supporting the EPA's Greenhouse Gas Reporting Program against elimination.",
+          "quote": "The Trump Administration’s elimination of the GHGRP will leave environmental justice communities without the tools needed to address the harmful environmental, health, and economic impacts of climate change.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Natural Resources (Energy and Mineral Resources Subcommittee; Water, Wildlife and Fisheries Subcommittee) and the House Committee on Science, Space, and Technology (Investigations and Oversight Subcommittee; Research and Technology Subcommittee) in the 119th Congress (2025-2026).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the Methane Pollution Accountability Act, which would hold oil and gas companies accountable for pollutants released through venting, flaring, and leaking.",
+          "kind": "bill",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Introduced the Healing and Equity for Enforcement-Affected Residents and Trauma (HEART) Act of 2026 to fund mental-health services for communities affected by ICE immigration enforcement actions.",
+          "kind": "bill",
+          "sources": ["s7"]
         }
       ],
       "researchDepth": "basic"

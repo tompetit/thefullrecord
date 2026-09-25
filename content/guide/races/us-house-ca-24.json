@@ -11,41 +11,111 @@
   "context": [
     {
       "text": "California redrew its congressional district lines for the 2026 elections under Proposition 50, a mid-decade redistricting measure voters approved in a November 2025 special election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "In the June 2, 2026 top-two primary, Salud Carbajal won 54.4% of the vote (113,716 votes) and Bob Smith won 35.9% (75,085 votes), advancing them both to the November general election.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "salud-carbajal",
       "name": "Salud Carbajal",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2017)",
       "summary": {
         "text": "Salud Carbajal is the incumbent Democratic U.S. Representative for California's 24th District, a former Santa Barbara County Supervisor and Marine Corps Reserve veteran who has served in the House since 2017.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from UC Santa Barbara in 1990 and a master's degree from Fielding Graduate University in 1994; served in the U.S. Marine Corps Reserve from 1984 to 1992.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked on the staff of Santa Barbara County Supervisor Naomi Schwartz and in the Santa Barbara County Public Health Department; served on the Santa Barbara County Board of Supervisors from 2004 to 2016.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "I am committed to working across party lines to bring quality jobs to the Central Coast by investing in infrastructure, encouraging clean energy development, and embracing new technology.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "I believe everyone should have access to safe and affordable housing so that people from all backgrounds can live safe and healthy lives.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "I will not stop fighting to pass gun safety measures while serving in Congress.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supported the Inflation Reduction Act as a major climate investment and describes climate change as an urgent challenge requiring action.",
+          "quote": "I believe we cannot afford inaction on the most significant challenge of our time.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports creating a public option under the Affordable Care Act to compete with private insurers and bring down costs.",
+          "quote": "I am supportive of legislation to create a public option under the ACA and provide much-needed competition with private industry to bring down insurance costs.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Authored the Extreme Risk Protection Order Act that became law and supports universal background checks and reinstating the federal assault weapons ban.",
+          "quote": "Congress must also pass universal background checks, a policy supported by nearly 90 percent of the American people, including the vast majority of gun owners. We must also reinstate the Assault Weapons Ban, which Congress shamefully allowed to expire in 2004.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Describes himself as a longtime supporter of raising the minimum wage and pay equity legislation.",
+          "quote": "I have been a staunch supporter of raising the minimum wage and ensuring paycheck fairness.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Agriculture, the Committee on Transportation and Infrastructure (Aviation; Coast Guard and Maritime Transportation; Highways and Transit subcommittees), and the House Committee on Armed Services (Strategic Forces; Tactical Air and Land Forces subcommittees) in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -54,35 +124,49 @@
     {
       "id": "bob-smith",
       "name": "Bob Smith",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the June 2 top-two primary with 35.9% of the vote",
       "summary": {
         "text": "Bob Smith is a retired U.S. Navy officer and combat veteran who served over 26 years in the Navy, currently a senior engineering fellow for a defense contractor, running as the Republican nominee for California's 24th District.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Enlisted in the Navy in 1998, working as a technician on the AEGIS Weapon System before commissioning as an officer in 2006 through the Seaman to Admiral program; earned a B.S. from Old Dominion University and an M.S. in systems engineering from the Naval Postgraduate School in Monterey.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served as a Surface Warfare Officer through multiple combat deployments and later as an Engineering Duty Officer directing Navy weapons-development programs; received the U.S. Navy's Best Engineer of the Year award for 2023.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Names home ownership and housing affordability as a top priority, saying equity has been stripped from the middle class in California.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Supports a stronger U.S. military posture, saying the country must be technologically far enough ahead that 'war with the U.S. is not an option for anyone.'",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Wants to attract space-industry, AI, and fusion-energy jobs to the district and stop the loss of tech companies to other states.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -90,7 +174,9 @@
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "Says housing affordability and homeownership have been stripped from the middle class and should be a top federal priority.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -118,6 +204,41 @@
       "title": "Bob Smith — Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://carbajal.house.gov/issues/issue/?IssueID=15120",
+      "title": "Jobs and Economic Development",
+      "publisher": "Office of Rep. Salud Carbajal",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://carbajal.house.gov/issues/issue/?IssueID=15122",
+      "title": "Environment and Energy",
+      "publisher": "Office of Rep. Salud Carbajal",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://carbajal.house.gov/issues/issue/?IssueID=15123",
+      "title": "Health",
+      "publisher": "Office of Rep. Salud Carbajal",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://carbajal.house.gov/issues/issue/?IssueID=15129",
+      "title": "Preventing Gun Violence",
+      "publisher": "Office of Rep. Salud Carbajal",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://carbajal.house.gov/issues/issue/?IssueID=15135",
+      "title": "Housing",
+      "publisher": "Office of Rep. Salud Carbajal",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
