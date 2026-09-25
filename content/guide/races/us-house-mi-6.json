@@ -44,13 +44,58 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Every American has a right to quality healthcare. Plain and simple.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "The time to act on climate change is now and strong US leadership on the world's stage is needed.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Inaction is not an option, and solutions to protect Americans deserve thoughtful debate and consideration. Everyone should be able to live in their communities without fear.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports H.R. 8, the Bipartisan Background Checks Act, and has led bipartisan bills such as the Zero Tolerance for Domestic Abusers Act and the Jake Laird Act (national red flag legislation).",
+          "quote": "I am proud to support H.R. 8, the Bipartisan Background Checks Act of 2019. This landmark legislation would require a background check for every firearm purchase, closing loopholes that have allowed domestic abusers and severely mentally ill individuals to obtain dangerous, military-style weapons and use them to commit gun violence.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says healthcare is a right, not a privilege, and says she has led the fight for Medicare for All in Congress while supporting legislation to let Medicare negotiate drug prices.",
+          "quote": "I feel very strongly that access to healthcare is a right in this country, and not a privilege. ... We should be building off the progress we made and working towards Medicare for All",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Calls climate change an urgent, existential threat and has introduced the 100% Clean Economy Act to move the country to net-zero carbon emissions by 2050 and legislation to speed the transition to electric vehicles.",
+          "quote": "This begins by ensuring America honors its commitments under the Paris Agreement and followed up by taking bold actions to reduce man-made greenhouse gas emissions to zero—this includes shifting our economy to one run on renewable energy sources",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025–2026), serves on the House Committee on Energy and Commerce (Commerce, Manufacturing, and Trade; Communications and Technology; Health) and the House Committee on Natural Resources (Energy and Mineral Resources; Water, Wildlife and Fisheries).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the 100% Clean Economy Act, which would transition the U.S. to a net-zero carbon emissions economy by 2050.",
+          "kind": "bill",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Leads the bipartisan Zero Tolerance for Domestic Abusers Act, which closes loopholes allowing perpetrators of dating violence and misdemeanor stalking convictions to legally access guns.",
+          "kind": "bill",
+          "sources": ["s4"]
         }
       ],
       "website": "https://debbiedingell.house.gov",
@@ -150,6 +195,27 @@
       "title": "Debbie Dingell",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://debbiedingell.house.gov/issues/issue/?IssueID=16231",
+      "title": "Gun Violence",
+      "publisher": "Office of Rep. Debbie Dingell",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://debbiedingell.house.gov/issues/issue/?IssueID=16232",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Debbie Dingell",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://debbiedingell.house.gov/issues/issue/?IssueID=16223",
+      "title": "Environment & Climate Change",
+      "publisher": "Office of Rep. Debbie Dingell",
+      "kind": "candidate"
     },
     {
       "id": "s3",

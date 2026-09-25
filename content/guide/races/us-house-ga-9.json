@@ -44,8 +44,36 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "National security, saying China, Russia, Iran, and North Korea remain the greatest foreign threats and that the armed forces need the tools and resources to protect the nation.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Veterans' issues, saying the country must uphold the promises made to service members and eliminate barriers to their education and employment benefits.",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Reducing the federal government's footprint on small businesses, citing his own experience as a small business owner and his role on the House Committee on Oversight and Reform.",
+          "sources": ["s8"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says life begins at conception and abortions should be abolished entirely except when the mother's life is at risk; opposes any taxpayer funding of abortion.",
+          "quote": "I believe that life begins at the moment of conception, and thus, abortions should be abolished entirely, except in the rare instances when the life of the mother is at risk.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he will oppose all bills and efforts that seek to limit or restrict Second Amendment rights, and will work to roll back existing firearms restrictions.",
+          "quote": "I will always be a stalwart defender of the Second Amendment while serving in Congress. Accordingly, I will oppose all bills and efforts that seek to limit or restrict this right in any way, no matter the circumstances.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Sits on the House Committee on Appropriations and the House Committee on the Budget in the 119th Congress (2025-2026).",
@@ -145,8 +173,48 @@
       "title": "Georgia's 9th Congressional District election, 2026 (Candidate Connection survey responses)",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://clyde.house.gov/issues/issue/?IssueID=14892",
+      "title": "Protecting Life",
+      "publisher": "Office of Rep. Andrew Clyde",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://clyde.house.gov/issues/issue/?IssueID=14894",
+      "title": "Second Amendment",
+      "publisher": "Office of Rep. Andrew Clyde",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://clyde.house.gov/issues/issue/?IssueID=14890",
+      "title": "Armed Forces & National Security",
+      "publisher": "Office of Rep. Andrew Clyde",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://clyde.house.gov/issues/issue/?IssueID=14891",
+      "title": "Veteran Issues",
+      "publisher": "Office of Rep. Andrew Clyde",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://clyde.house.gov/issues/issue/?IssueID=14896",
+      "title": "Government Operations & Small Business",
+      "publisher": "Office of Rep. Andrew Clyde",
+      "kind": "official",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Basic-tier research from Ballotpedia."
+  "researchNotes": "Basic-tier research from Ballotpedia and Rep. Clyde's official House issues pages."
 }
