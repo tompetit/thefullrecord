@@ -1,0 +1,141 @@
+{
+  "id": "us-house-wa-10",
+  "state": "WA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "10",
+  "title": "U.S. House · Washington's 10th District",
+  "area": "Olympia, Lacey, and parts of Tacoma and Thurston, Pierce, and Mason counties in the South Sound.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Marilyn Strickland and Chris Chung advanced from the August 4, 2026 primary, defeating fellow Democrats Adam Arafat and Alex Scheel and two minor-party candidates. Strickland won the primary with 49.3% of the vote to Chung's 33.4%.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "marilyn-strickland",
+      "name": "Marilyn Strickland",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2021)",
+      "summary": {
+        "text": "Marilyn Strickland is the Democratic incumbent for Washington's 10th Congressional District, a former mayor of Tacoma who has represented the district since 2021 and serves on the Transportation and Infrastructure and Armed Services committees.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Seoul, South Korea, and lives in Tacoma, Washington; earned a bachelor's degree in sociology from the University of Washington and a master's degree in business administration from Clark-Atlanta University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as campaign chair of the United Way of Pierce County, as a trustee of the Tacoma Public Library and Annie Wright Schools, and as a board member of Grand Cinema.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "For the 2025-2026 Congress, sits on the Committee on Transportation and Infrastructure (Coast Guard and Maritime Transportation; Highways and Transit subcommittees) and the House Committee on Armed Services (Military Personnel; Readiness subcommittees).",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists building an economy that works for working people, protecting access to health care, fighting pollution and protecting the environment, and supporting servicemembers, military families, and veterans as her campaign's priorities.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says she has focused on lowering costs, creating jobs, and building more housing, and has led bipartisan legislation to help military families with food insecurity and affordable housing.",
+          "quote": "I've fought to build more housing, fix our roads and bridges, and train students for careers in nursing, health care, teaching, and the building trades... I've led bipartisan legislation to help military families facing food insecurity and to make sure military families have access to affordable housing.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will continue to protect Medicare and oppose efforts to take health care away from Americans.",
+          "quote": "I will continue to stand up to extreme attempts to take away health care from Americans, protect Medicare, and make health care more affordable.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says she is working in Congress to boost renewable energy as part of protecting the environment.",
+          "quote": "We need to do more to protect our planet for our kids and future generations. In Congress, I'm working to boost renewable energy.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Led bipartisan legislation to help military families facing food insecurity and to expand access to affordable housing for military families.",
+          "kind": "bill",
+          "sources": ["s3"]
+        }
+      ],
+      "website": "https://stricklandforwashington.com",
+      "researchDepth": "basic",
+      "bioguideId": "S001159"
+    },
+    {
+      "id": "chris-chung",
+      "name": "Chris Chung",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Chris Chung is the Republican nominee for Washington's 10th Congressional District, a pharmacist from Lakewood, Washington, who previously ran for Washington Insurance Commissioner as a Democrat in 2024.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Lives in Lakewood, Washington; earned a graduate degree in pharmacy from St. John's University.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Career experience includes working as a pharmacist.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Ran for Washington Commissioner of Insurance in 2024 as a Democrat, placing sixth in the primary with 2.9% of the vote.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Washington%27s_10th_Congressional_District_election,_2026",
+      "title": "Washington's 10th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Marilyn_Strickland",
+      "title": "Marilyn Strickland",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://stricklandforwashington.com/priorities",
+      "title": "Marilyn's Priorities",
+      "publisher": "Strickland for Washington",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Chris_Chung",
+      "title": "Chris Chung",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Chris Chung has not completed a 2026 Ballotpedia Candidate Connection survey and no 2026 campaign website was found (stricklandforwashington.com is Strickland's site; no distinct Chung site turned up in search), so his entry is marked minimal beyond Ballotpedia's biography and prior 2024 run. Strickland's federal key votes and FEC totals are added separately by script."
+}
