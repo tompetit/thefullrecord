@@ -35,8 +35,64 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he is a staunch advocate of the Medicare for All Act and supports protecting and expanding Medicare and Social Security.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Supports the Green New Deal's goal of net-zero emissions by 2050 and backs continued clean-energy investment through the Inflation Reduction Act.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Backs comprehensive immigration reform, including a pathway to citizenship for Dreamers and undocumented immigrants.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says the government has no place in private medical decisions and is a member of the Pro Choice Caucus committed to reproductive freedom.",
+          "quote": "I am a proud member of the Pro Choice Caucus and am committed to working towards reproductive freedom for all nationwide.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supported the Bipartisan Safer Communities Act's expanded background checks and introduced legislation to fund gun violence research.",
+          "quote": "I was proud to support the Bipartisan Safer Communities Act, signed into law last Congress, to expand background check requirements, protect victims of domestic violence, and more to keep our schools and communities safe from gun violence.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Advocates for the Medicare for All Act, which would expand and guarantee healthcare coverage.",
+          "quote": "I am a staunch advocate of the Medicare for All Act.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports the Green New Deal's net-zero emissions goal and says he backs reforms to cut carbon emissions and reduce dependence on fossil fuels.",
+          "quote": "I am committed to bold, progressive reforms to cut carbon emissions, reduce our dependency on fossil fuels and foreign oil, and invest in green energy alternatives.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Supports comprehensive immigration reform centered on pathways to citizenship for undocumented immigrants and Dreamers rather than expanded enforcement or deportations.",
+          "quote": "I fully support comprehensive immigration reform. We need to create more expeditious legal pathways to citizenship for people who are seeking asylum, deliver more resources for migrants at the border, and develop a fair pathway to citizenship for undocumented immigrants.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Supports legislation funding affordable childcare and early learning programs regardless of income, disability, or immigration status.",
+          "quote": "I strongly support legislation to provide funds for affordable childcare and early learning programs regardless of income, disability, or immigration status.",
+          "sources": ["s8"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Veterans' Affairs and the House Committee on Education and the Workforce in the 119th Congress (2025–2026).",
@@ -44,7 +100,7 @@
           "sources": ["s2"]
         }
       ],
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "bioguideId": "T000472"
     },
     {
