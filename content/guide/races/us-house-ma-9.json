@@ -40,8 +40,50 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Supporting responsible gun-control legislation, including background checks before all gun purchases and opposing the legal availability of high-capacity, military-grade firearms.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Treating access to high-quality, affordable health care as a basic human right and building on the Affordable Care Act.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Investing in conservation and coastal restoration, including wastewater management on Cape Cod.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports background checks before all gun purchases and opposes the legal availability of high-capacity, military-grade firearms; has cosponsored bills including the Fix Gun Checks Act and the Large Capacity Ammunition Feeding Device Act.",
+          "quote": "He supports background checks before all gun purchases, in addition to stemming illegal possession or transfer of firearms and improving safety technologies like personalized weapons and trigger locks. Bill strongly opposes the legal availability of high-capacity, military-grade firearms, which are strictly weapons of war.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Describes himself as pro-choice, cites a consistent 100% rating from NARAL Pro-Choice America, and supports preserving Title X family-planning funding.",
+          "quote": "Bill Keating is pro-choice and proud to have consistently received a 100% rating from NARAL Pro-Choice America.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says access to high-quality, affordable healthcare is a basic human right and supports building on the Affordable Care Act.",
+          "quote": "Bill believes that access to high-quality, affordable healthcare is a basic human right.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "States support for raising the federal minimum wage.",
+          "quote": "He strongly supports raising the minimum wage to $10.10.",
+          "sources": ["s8"]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the House Committee on Foreign Affairs and the House Committee on Armed Services, including the Cyber, Information Technologies and Innovation Subcommittee and the Intelligence and Special Operations Subcommittee, in the 119th Congress (2025-2026).",
@@ -100,6 +142,41 @@
       "title": "R. Tyler MacAllister",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://keating.house.gov/policy-work/issues/gun-safety",
+      "title": "Gun Safety",
+      "publisher": "Office of Rep. Bill Keating",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://keating.house.gov/policy-work/issues/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Bill Keating",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://keating.house.gov/policy-work/issues/women",
+      "title": "Women",
+      "publisher": "Office of Rep. Bill Keating",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://keating.house.gov/policy-work/issues/environment",
+      "title": "Environment",
+      "publisher": "Office of Rep. Bill Keating",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://keating.house.gov/policy-work/issues/labor",
+      "title": "Labor",
+      "publisher": "Office of Rep. Bill Keating",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

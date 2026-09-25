@@ -136,19 +136,86 @@
         "D"
       ],
       "incumbent": false,
+      "currentRole": "Member, Bay Area Rapid Transit (BART) Board of Directors, District 5 (since 2024)",
       "ballotNote": "Lost the August 18, 2026 special general election to Wahab, 46.9%-53.1%; also advanced from the June 2, 2026 top-two primary for the regular term.",
       "summary": {
-        "text": "Melissa Hernandez is a Democratic candidate for California's 14th Congressional District who ran competitively against incumbent Aisha Wahab in both the August 2026 special election and the regular primary, outraising Wahab with about $1.99 million in receipts as of September 2026.",
+        "text": "Melissa Hernandez is a Democratic candidate for California's 14th Congressional District who ran competitively against incumbent Aisha Wahab in both the August 2026 special election and the regular primary. She is the former mayor of Dublin, California and a current BART board director.",
         "sources": [
-          "s1"
+          "s1",
+          "s7"
         ]
       },
-      "background": [],
-      "priorities": [],
-      "positions": [],
-      "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No Ballotpedia biography, Candidate Connection survey response, or independently locatable campaign website was found for Melissa Hernandez as of the research date, despite her raising substantially more money than the incumbent and winning about 47% of the vote in the August 2026 special election. Her financial competitiveness suggests a more complete public record likely exists but could not be located with the tools available."
+      "background": [
+        { "text": "The daughter of migrant farmworkers and a Mexican immigrant father; raised two children as a single mother while working and putting herself through college.", "sources": ["s6"] },
+        { "text": "Served as the first Latina mayor of Dublin, California.", "sources": ["s6"] },
+        { "text": "Elected to the Bay Area Rapid Transit (BART) Board of Directors, District 5, taking office in 2024; has served as BART Board President.", "sources": ["s7", "s6"] },
+        { "text": "Ran unsuccessfully for the Alameda County Board of Supervisors, District 1, in the March 2020 primary.", "sources": ["s7"] }
+      ],
+      "priorities": [
+        { "text": "Says lowering costs and expanding economic opportunity for working families, including housing, healthcare and childcare costs, will be her first priority in Congress.", "sources": ["s6"] },
+        { "text": "Says she will push to give police, firefighters and emergency responders more training, staffing and resources while investing in mental-health crisis response and addiction treatment.", "sources": ["s6"] },
+        { "text": "Says she will fight for real immigration reform, including a pathway to citizenship, while also supporting what she calls smart border security.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "As mayor of Dublin, says she oversaw one of the region's largest housing expansions, including affordable housing for seniors and residents with disabilities alongside market-rate rentals; in Congress says she would work to lower housing costs and help first-time homebuyers.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says she cut red tape and lowered building costs as mayor of Dublin, and in Congress would work to lower the cost of raw materials and provide incentives to build new housing.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will protect and expand Medicare, restore insurance subsidies to reduce premium costs, and restore funding for health programs serving vulnerable families.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says ICE's immigration enforcement is 'broken and out of control' and supports a pathway to citizenship for DREAMers and undocumented community members, while also saying she supports 'smart border security' and regional cooperation on migration.",
+          "quote": "ICE has become a symbol of an immigration system that's broken and out of control, and it needs fundamental reform. ... At the same time, Melissa supports smart border security and regional cooperation to address the root causes driving migration, not political stunts that put families in danger.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports a transition toward renewable energy sources and legislation to fully restore the Inflation Reduction Act's climate programs.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Supports expanding the Child Tax Credit, recruiting and better paying childcare workers, and paid family and medical leave.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she will fight to protect reproductive healthcare and restore reproductive freedom by supporting legislation like the Women's Health Protection Act.",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Served as mayor of Dublin, California, where the city received a \"Best Places to Live\" designation during her tenure and expanded housing at multiple affordability levels.",
+          "kind": "action",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Elected to the BART Board of Directors, District 5, taking office May 23, 2024; has served as BART Board President.",
+          "kind": "action",
+          "sources": ["s7", "s6"]
+        }
+      ],
+      "website": "https://melissahernandez2026.com/",
+      "researchDepth": "basic",
+      "researchNotes": "No Ballotpedia Candidate Connection survey response found for the 2026, 2024, or 2020 elections; background and positions are drawn from her Ballotpedia profile and campaign website."
     }
   ],
   "sources": [
@@ -185,6 +252,22 @@
       "id": "s5",
       "url": "https://ballotpedia.org/California%27s_14th_Congressional_District_special_election,_2026",
       "title": "California's 14th Congressional District special election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://melissahernandez2026.com/issues/",
+      "title": "Issues",
+      "publisher": "Melissa Hernandez for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Melissa_Hernandez",
+      "title": "Melissa Hernandez",
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
