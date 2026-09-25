@@ -44,13 +44,67 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Protecting and expanding the Affordable Care Act and the Medicare program, and lowering prescription drug costs.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Taking aggressive action to halt and reverse the effects of climate change and end reliance on fossil fuels.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Reforming the immigration system, including a pathway to citizenship for DACA, TPS, and DED recipients and modernizing family-based immigration.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she is committed to protecting and expanding the Affordable Care Act and Medicare, and is a founding member of the Medicare for All Caucus.",
+          "quote": "I am committed to working to protect and expand the Affordable Care Act (ACA), as well as protecting the Medicare program so we can ensure our seniors have quality care they can count on.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says she supports aggressive action to combat the climate crisis and reach a net-zero economy, and voted for the Inflation Reduction Act's clean-energy tax credits.",
+          "quote": "I support aggressive action to combat the climate crisis and meet President Biden’s goal of a net-zero economy by midcentury.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Describes the administration's deportation agenda as putting rights at risk and has cosponsored legislation to give DACA, TPS, and DED recipients a path to citizenship rather than expanding enforcement.",
+          "quote": "the Trump administration’s anti-immigrant, mass deportation agenda has put all of our rights at risk",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Criticized the administration's broad tariffs as a tax increase that raises prices for consumers, while saying targeted tariffs can have a legitimate role in addressing unfair trade practices.",
+          "quote": "Today, he is extending the same treatment to millions of products, immediately imposing the largest tax increase in history and raising costs for every single American.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says healthcare choices, including reproductive decisions, should be made by women rather than employers or politicians, and is a member of the Congressional Pro-Choice Caucus.",
+          "quote": "healthcare choices should be made by women, not their employers or politicians",
+          "sources": ["s10"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means (Health Subcommittee; Oversight Subcommittee; Work and Welfare Subcommittee) and the House Committee on the Budget in the 119th Congress (2025-2026).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced H.R. 2928, the Mortgage Relief for Disaster Survivors Act, to provide mortgage forbearance for homeowners in presidentially declared disaster areas.",
+          "kind": "bill",
+          "sources": ["s11"]
         }
       ],
       "researchDepth": "basic"
