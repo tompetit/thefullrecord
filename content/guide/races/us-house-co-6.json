@@ -11,41 +11,125 @@
   "context": [
     {
       "text": "Incumbent Jason Crow (D) was unopposed in the June 30, 2026 Democratic primary. Jason Ray Clark won the Republican primary. Ballotpedia's most recent race ratings (as of late September 2026) rate the district as Safe/Solid Democratic.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jason-crow",
       "name": "Jason Crow",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative for Colorado's 6th District (since 2019)",
       "summary": {
         "text": "Jason Crow is the incumbent U.S. Representative for Colorado's 6th District, first elected in 2018. He is an Army veteran and former lawyer.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Madison, Wisconsin, in 1979; served in the U.S. Army from 2002 to 2006.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from the University of Wisconsin in 2002 and a law degree from the University of Denver in 2009.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Career experience includes working as an adjunct professor and as a lawyer before being elected to Congress in 2018, defeating incumbent Mike Coffman.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Working to build the clean energy economy to create good-paying jobs while mitigating some of the worst effects of climate change, expand access to entrepreneurial and small business resources in underserved areas, and build a talented workforce.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Working every avenue to bring down prices, address supply chain issues, and deliver relief on costs like health care, prescription drugs, housing, groceries, and energy.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Fighting to crack down on dark money in politics, strengthen ethics rules, and restore trust in government.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Says common-sense gun laws can reduce violent crime while protecting Second Amendment rights, and has introduced resolutions promoting safe firearm storage.",
+          "quote": "Enacting common-sense laws -- policies that are supported by a huge majority of Americans -- can help reduce violent crime and make our communities, schools, and homes safer.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Cites his support for the Inflation Reduction Act's health provisions, which he says expanded coverage for 42,000 Coloradans and capped insulin costs for Medicare beneficiaries.",
+          "quote": "Expanding coverage for 42,000 Coloradans; Capping Insulin costs at $35 a month for Medicare beneficiaries",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he is working to build the clean energy economy to create jobs while mitigating the worst effects of climate change.",
+          "quote": "Now Jason is working to build the clean energy economy to create good-paying jobs while mitigating some of the worst effects of climate change",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Permanent Select Committee on Intelligence (Central Intelligence Agency and Open Source Intelligence subcommittees) and the House Committee on Armed Services (Cyber, Information Technologies, and Innovation; Intelligence and Special Operations subcommittees) in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Introduced a resolution designating June 21 as National ASK (Asking Saves Kids) Day to encourage secure firearm storage.",
+          "date": "2026-06-18",
+          "kind": "bill",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Introduced the SHINE Act, described by his office as legislation to crack down on dark money in politics.",
+          "kind": "bill",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Introduced the Honoring the Sacrifice of Troops in War Act, which he says would prevent the Secretary of Defense from manipulating government data on troop casualties.",
+          "date": "2026-09-18",
+          "kind": "bill",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -53,12 +137,16 @@
     {
       "id": "jason-ray-clark",
       "name": "Jason Ray Clark",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 30, 2026 Republican primary.",
       "summary": {
         "text": "Jason Ray Clark is the Republican nominee for Colorado's 6th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -69,11 +157,15 @@
     {
       "id": "patty-mcmahon",
       "name": "Patty McMahon",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Patty McMahon is the Libertarian Party candidate for Colorado's 6th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -84,11 +176,15 @@
     {
       "id": "samir-witta",
       "name": "Samir Witta",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Samir Witta is an unaffiliated candidate running for Colorado's 6th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -99,11 +195,15 @@
     {
       "id": "meredith-ryan",
       "name": "Meredith Ryan",
-      "parties": ["Unity Party"],
+      "parties": [
+        "Unity Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Meredith Ryan is the Unity Party candidate for Colorado's 6th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -126,6 +226,57 @@
       "title": "Jason Crow",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://crow.house.gov/issues/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Jason Crow",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://crow.house.gov/issues/lower-costs-for-coloradans",
+      "title": "Lower Costs for Coloradans",
+      "publisher": "Office of Rep. Jason Crow",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://crow.house.gov/issues/an-economy-for-the-working-class",
+      "title": "An Economy for the Working Class",
+      "publisher": "Office of Rep. Jason Crow",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://crow.house.gov/issues/fighting-corruption",
+      "title": "Fighting Corruption",
+      "publisher": "Office of Rep. Jason Crow",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://crow.house.gov/media/press-releases/congressman-crow-introduces-national-ask-day-resolution-to-encourage-safe-gun-storage",
+      "title": "Congressman Crow Introduces National ASK Day Resolution to Encourage Safe Gun Storage",
+      "publisher": "Office of Rep. Jason Crow",
+      "kind": "official",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "s8",
+      "url": "https://crow.house.gov/media/press-releases/crow-introduces-shine-act-to-crack-down-on-dark-money-in-politics",
+      "title": "Crow Introduces SHINE Act to Crack Down on Dark Money in Politics",
+      "publisher": "Office of Rep. Jason Crow",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://crow.house.gov/media/press-releases/crow-introduces-bill-to-stop-trump-and-hegseth-from-hiding-the-human-toll-of-their-war-with-iran",
+      "title": "Crow Introduces Bill to Stop Trump and Hegseth from Hiding the Human Toll of Their War with Iran",
+      "publisher": "Office of Rep. Jason Crow",
+      "kind": "official",
+      "date": "2026-09-18"
     }
   ],
   "researchedAt": "2026-09-25",
