@@ -1,0 +1,104 @@
+{
+  "id": "us-house-tx-21",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "21",
+  "title": "U.S. House · Texas's 21st District",
+  "area": "Central Texas, including parts of Austin, San Antonio and the Hill Country.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat: incumbent Chip Roy did not appear on the ballot in the March 3, 2026 Republican primary for the redrawn 21st District. Mark Teixeira won the Republican nomination outright with 60.9% of the vote in a twelve-candidate field. Kristin Hook, who ran against Roy in 2024, won the Democratic nomination outright.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "kristin-hook",
+      "name": "Kristin Hook",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary with 60.1% of the vote over Regina Vanburg and Gary Taylor.",
+      "summary": {
+        "text": "Kristin Hook is the Democratic nominee for this open Central Texas seat. A scientist with a Ph.D. in animal behavior, she previously worked as a congressional oversight investigator in the U.S. Senate and at the Government Accountability Office, and ran against Chip Roy for this seat in 2024.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Corpus Christi, Texas; earned a B.A. and B.S. in biology from the University of Texas at Austin (2007) and a Ph.D. in animal behavior from Cornell University (2016).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Taught middle school science through Teach for America, then worked as a postdoc at the University of Maryland, a policy fellow in Sen. Elizabeth Warren's office and at the National Institutes of Health, and a biologist for the U.S. Government Accountability Office.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Running to fight for affordability, expand opportunity, and demand accountability for working Texans.",
+          "quote": "I'm running to fight for affordability, expand opportunity, and demand accountability for working Texans.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says her GAO experience protecting tax dollars from waste, fraud and abuse and advising Congress on emerging technologies like AI prepares her for oversight work.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "mark-teixeira",
+      "name": "Mark Teixeira",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Republican primary with 60.9% of the vote over eleven other candidates.",
+      "summary": {
+        "text": "Mark Teixeira is the Republican nominee for this open Central Texas seat, campaigning on border security, cutting federal spending, and energy production.",
+        "sources": ["s4"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "Lists border security and immigration enforcement, cutting federal spending, and energy independence among his campaign priorities.",
+          "quote": "Fully secure the southern border, deport illegal aliens, and crush the cartels to keep Texans safe.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says he wants to expand DOGE's federal spending cuts and enact congressional term limits.",
+          "quote": "Expand DOGE to cut insane wasteful spending, rein in the Deep State, and grow the economy by putting taxpayers first.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign platform calls for fully securing the southern border and deporting people in the country illegally.",
+          "quote": "Fully secure the southern border, deport illegal aliens, and crush the cartels to keep Texans safe.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "Campaign platform calls for unleashing Texas oil, gas and nuclear energy production to lower costs and restore U.S. energy dominance.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Positions are drawn from his campaign website as quoted on Ballotpedia; he has not completed a Candidate Connection survey."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026", "title": "United States House of Representatives elections in Texas, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Kristin_Hook", "title": "Kristin Hook", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Kristin_Hook", "title": "Kristin Hook - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://ballotpedia.org/Mark_Teixeira", "title": "Mark Teixeira", "publisher": "Ballotpedia (quoting Mark Teixeira's campaign website)", "kind": "candidate", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "This is an open seat after Texas redrew its congressional map for 2026; incumbent Chip Roy did not run in the redrawn 21st District's primary. Mark Teixeira has not completed a Ballotpedia Candidate Connection survey; his positions are quoted from his campaign website as reproduced on Ballotpedia."
+}

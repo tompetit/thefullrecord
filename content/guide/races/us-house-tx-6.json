@@ -1,0 +1,134 @@
+{
+  "id": "us-house-tx-6",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "6",
+  "title": "U.S. House · Texas's 6th District",
+  "area": "Navarro County and part of Ellis County, southeast of Dallas–Fort Worth",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Jake Ellzey (R) defeated James Buford and Brian Stahl in the March 3, 2026 Republican primary. Danny Minton won the Democratic primary unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jake-ellzey",
+      "name": "Jake Ellzey",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 6th District (since 2021)",
+      "summary": {
+        "text": "Jake Ellzey is the Republican incumbent U.S. Representative for Texas's 6th Congressional District, a retired Navy pilot and former state legislator.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Potter County, Texas, in 1970; earned a bachelor's degree in political science from the United States Naval Academy in 1992.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the U.S. Navy from 1992 to 2012; later worked as a civilian contractor, commercial airline pilot, and commissioner for the Texas Veterans Commission.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the Texas House of Representatives in 2021 before being elected to Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Served on the House Committee on Appropriations (including the Commerce, Justice, Science subcommittee and the Labor, Health and Human Services, Education subcommittee) and the Committee on Small Business in the 2023–2024 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "No Ballotpedia Candidate Connection survey or curated key-messages profile was found for Ellzey in this race's coverage; positions on specific issues were not documented from the sources checked."
+    },
+    {
+      "id": "danny-minton",
+      "name": "Danny Minton",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary unopposed",
+      "summary": {
+        "text": "Danny Minton is a former Republican and medical-field sales consultant running as the Democratic nominee for Texas's 6th Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Graduated from the University of Oklahoma with a degree in zoology and completed master's-level work in epidemiology.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked in the medical field as a consultative salesman, training physicians and supporting patients with illnesses including breast cancer and Alzheimer's disease.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Says he was raised as a Republican but switched his party affiliation to Democratic.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he will fight to cut taxes for working and middle-class families rather than the wealthy.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Says he will oppose attempts to weaken Social Security, Medicare, Medicaid, or veterans' benefits.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says he will fight to cut taxes for working and middle-class families while making the wealthiest Americans pay their fair share.",
+          "quote": "Danny will fight to put money back in the pockets of everyday Texans and make sure the richest Americans finally pay their fair share.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports strong, fair immigration enforcement combined with a path to citizenship for people who want to contribute to the country.",
+          "quote": "Danny supports strong, fair immigration enforcement that keeps us safe and treats people with dignity. He believes in enforcing the law while creating a clear and efficient path to citizenship for those who want to contribute to our country.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he will fight any attempt to weaken Social Security, Medicare, or Medicaid.",
+          "quote": "Danny will fight any attempt to weaken Social Security, Medicare, Medicaid, or the VA. These are not entitlements. They are earned promises we must keep.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Texas%27_6th_Congressional_District_election,_2026",
+      "title": "Texas' 6th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jake_Ellzey",
+      "title": "Jake Ellzey",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

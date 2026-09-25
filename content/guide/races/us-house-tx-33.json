@@ -1,0 +1,169 @@
+{
+  "id": "us-house-tx-33",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "33",
+  "title": "U.S. House · Texas's 33rd District",
+  "area": "A Dallas-Fort Worth-area district covering parts of Dallas and Tarrant counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional map for the 2026 election cycle. Under the new lines, Colin Allred (who previously represented the old 32nd District and ran for U.S. Senate in 2024) defeated incumbent Rep. Julie Johnson in the Democratic primary runoff for this seat. Rep. Marc Veasey, who previously represented a Fort Worth-area district, did not make the general-election ballot for this district. Patrick Gillespie defeated John Sims in the Republican primary runoff. Michelle Craig is running as a declared independent write-in candidate.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "colin-allred",
+      "name": "Colin Allred",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the Democratic primary runoff, defeating incumbent Rep. Julie Johnson",
+      "currentRole": "Former U.S. Representative (TX-32, 2019-2025); civil rights attorney",
+      "summary": {
+        "text": "Colin Allred is a former U.S. Representative and civil rights attorney who represented Dallas's old 32nd Congressional District from 2019 to 2025 before running unsuccessfully for U.S. Senate against Ted Cruz in 2024. He is now running for the redrawn 33rd District.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree from Baylor University, where he played football, and a J.D. from the University of California, Berkeley School of Law.", "sources": ["s2"] },
+        { "text": "Played linebacker in the NFL for the Tennessee Titans before attending law school.", "sources": ["s2"] },
+        { "text": "Worked as a civil rights and voting-rights attorney and served in the U.S. Department of Housing and Urban Development during the Obama administration before his 2018 election to Congress.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Says he delivered more than $135 million in federal funding for public transportation, health care, affordable housing and law enforcement within the district while in Congress, and led the effort to open a new VA hospital in Garland.", "sources": ["s2"] },
+        { "text": "Says he will fight to protect the Affordable Care Act and expand access to affordable health care.", "sources": ["s2"] },
+        { "text": "Supports investments in child care, early childhood education, and job and skills training.", "quote": "Through smart investments in affordable child care, early childhood education, job and skills training and expanding health care coverage we can increase productivity and grow our economy in a way that works for everyone.", "sources": ["s2"] }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he will fight to protect access to abortion.",
+          "quote": "I will fight to protect the freedom to access the health care you need, including access to an abortion.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Says he has worked on gun-safety legislation in Congress.",
+          "quote": "we can move forward on gun safety legislation",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he supports protecting and expanding the Affordable Care Act and access to affordable health care.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Supports investments in affordable child care and early childhood education.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        { "text": "Named the most bipartisan member of the Texas congressional delegation during his House service, according to his campaign; was a member of the Bipartisan Paid Leave Working Group and took paternity leave after the births of his sons.", "kind": "action", "sources": ["s2"] }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "patrick-gillespie",
+      "name": "Patrick Gillespie",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the Republican primary runoff against John Sims",
+      "currentRole": "Technical writer; former labor union local vice president",
+      "summary": {
+        "text": "Patrick Gillespie is a Texas resident originally from West Virginia who has worked as a technical writer for companies including Boeing, BAE Systems and American Airlines, and previously served as vice president of a local Machinists and Aerospace Workers union.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Born in Huntington, West Virginia; attended Huntington High School and Marshall University.", "sources": ["s3"] },
+        { "text": "Worked as a technical writer at Boeing, BAE Systems, American Airlines and Flextronics International, and currently works at UPS Supply Chain Solutions.", "sources": ["s3"] },
+        { "text": "Served as vice president of Local Lodge 2768 of the International Association of Machinists and Aerospace Workers.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Calls for stronger enforcement of existing immigration law and opposes what he describes as an \"invasion\" at the southern border.", "sources": ["s3"] },
+        { "text": "Supports getting the U.S. out of the Paris Climate Accords and expanding domestic natural-gas electricity generation instead of coal.", "sources": ["s3"] },
+        { "text": "Calls for balancing the federal budget and paying down the national debt.", "quote": "32 TRILLION DOLLARS INDEBT! Stop spending money we don’t have! Balance the budget and pay down the debt with any surplus.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Calls for enforcing existing immigration laws and securing the border, saying millions of people have entered the country illegally.",
+          "quote": "We must have immigrants vetted and not allow an invasion of tens of thousands crossing our border illegally daily.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Opposes U.S. participation in the Paris Climate Accords and favors switching coal-fired electricity generation to natural gas rather than mandating faster transition away from fossil fuels.",
+          "quote": "The U.S. can switch to natural gas for all the electric generation done by coal in the U.S. Plus, get out of the Paris Climate Accords and demand our money back.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Opposes abolishing the Second Amendment and says red-flag laws have not proven to be a deterrent; supports enforcing existing gun laws and addressing mental health.",
+          "quote": "I will not propose the abolition of the 2nd Amendment.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "mixed",
+          "summary": "Frames foreign policy around \"peace through strength\" and countering foreign influence, without a specific statement on Israel aid.",
+          "quote": "Peace through Strength.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "michelle-craig",
+      "name": "Michelle Craig",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Running as a declared write-in candidate",
+      "summary": {
+        "text": "Michelle Craig is a declared independent write-in candidate for this seat. No biography, platform, or Candidate Connection survey responses were available on Ballotpedia.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Colin_Allred",
+      "title": "Colin Allred",
+      "publisher": "Ballotpedia (quoting Allred's campaign website and 2024 Candidate Connection survey)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Patrick_Gillespie_(Texas)",
+      "title": "Patrick Gillespie",
+      "publisher": "Ballotpedia (quoting Gillespie's campaign website and Candidate Connection survey)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No 2026-specific Candidate Connection survey exists for Allred or Gillespie; their positions rely on Ballotpedia-quoted campaign-website text (Allred, Gillespie) and Gillespie's 2024 survey. No public biography, platform, or survey responses were found for write-in candidate Michelle Craig, so her entry is minimal."
+}
