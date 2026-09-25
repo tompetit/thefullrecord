@@ -32,8 +32,37 @@
         { "text": "Elected to the University of Colorado Board of Regents (2008-2014).", "sources": ["s2"] },
         { "text": "Appointed executive director of Colorado's Department of Regulatory Agencies (2015-2017).", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Gun violence prevention, as Vice Chair of the House Gun Violence Prevention Task Force, including calling for reinstating a federal assault weapons ban.", "sources": ["s4"] },
+        { "text": "Climate action and public-lands conservation, as a member of the (former) House Select Committee on the Climate Crisis and the House Natural Resources Committee.", "sources": ["s6"] },
+        { "text": "Expanding public health coverage, as a sponsor of the Medicare for All Act and Vice Chair of the Medicare for All Caucus, including a proposal to lower the Medicare eligibility age to 60.", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Has called for reinstating a federal assault weapons ban and is a cosponsor of the Bipartisan Background Checks Act, the Enhanced Background Checks Act (closing the \"Charleston loophole\"), an assault weapons ban bill, and an Extreme Risk Protection Order (red flag law) bill.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Is a sponsor of the Medicare for All Act and Vice Chair of the Medicare for All Caucus, and has proposed lowering the Medicare eligibility age to 60.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Has served on the House Select Committee on the Climate Crisis and introduced multiple bills addressing climate change and clean energy, including the SOLAR Edge Act to incentivize residential solar installation and the 21st Century Conservation Corps Act.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Returned to federal court with colleagues after the Trump-Vance administration re-imposed a policy blocking unannounced congressional oversight of immigration detention facilities, and has previously called for ending contracts with private immigration detention centers and supported sanctuary families facing removal.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Natural Resources (Federal Lands Subcommittee), Committee on Judiciary, and Committee on Rules in the 119th Congress (2025-2026).",
@@ -48,7 +77,7 @@
       ],
       "website": "https://neguse.house.gov/",
       "researchDepth": "basic",
-      "researchNotes": "As a sitting member of Congress, detailed floor votes and FEC finance totals are added separately by script; this entry focuses on committee roles per the research assignment's division of labor."
+      "researchNotes": "As a sitting member of Congress, detailed floor votes and FEC finance totals are added separately by script. Issue positions above are drawn from the Priorities section of his official House website."
     },
     {
       "id": "kelley-dennison",
@@ -117,7 +146,11 @@
   "sources": [
     { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026", "title": "United States House of Representatives elections in Colorado, 2026", "publisher": "Ballotpedia", "kind": "reference" },
     { "id": "s2", "url": "https://ballotpedia.org/Joe_Neguse", "title": "Joe Neguse", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s3", "url": "https://ballotpedia.org/Kelley_Dennison", "title": "Ballotpedia Candidate Connection survey response, Kelley Dennison", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" }
+    { "id": "s3", "url": "https://ballotpedia.org/Kelley_Dennison", "title": "Ballotpedia Candidate Connection survey response, Kelley Dennison", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" },
+    { "id": "s4", "url": "https://neguse.house.gov/about/priorities/gun-violence-prevention", "title": "Gun Violence Prevention", "publisher": "Office of Rep. Joe Neguse", "kind": "official", "date": "2026-09-25" },
+    { "id": "s5", "url": "https://neguse.house.gov/about/priorities/healthcare", "title": "Healthcare", "publisher": "Office of Rep. Joe Neguse", "kind": "official", "date": "2026-09-25" },
+    { "id": "s6", "url": "https://neguse.house.gov/about/priorities/climate-action", "title": "Climate Action", "publisher": "Office of Rep. Joe Neguse", "kind": "official", "date": "2026-09-25" },
+    { "id": "s7", "url": "https://neguse.house.gov/about/priorities/immigration", "title": "Immigration", "publisher": "Office of Rep. Joe Neguse", "kind": "official", "date": "2026-09-25" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Federal key votes and FEC finance totals for incumbent Neguse are added separately by script. Gaylon Kent (Libertarian) has no discoverable public statements beyond the Ballotpedia ballot listing."

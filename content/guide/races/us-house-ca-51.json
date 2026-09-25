@@ -36,8 +36,43 @@
         { "text": "Worked as a policy advisor on Hillary Clinton's 2016 presidential campaign and held policy positions with the U.S. State Department, UNICEF and the United Nations.", "sources": ["s2"] },
         { "text": "Founded San Diego for Every Child: The Coalition to End Child Poverty and served as CEO of Project Connect.", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Expanding access to affordable, quality child care and opposing federal rule changes she says raise costs for families.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Protecting Dreamers and DACA recipients from job loss and deportation risk amid delays in DACA renewal processing.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Helping constituents understand and access their reproductive rights following the end of the federal constitutional right to abortion.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says reproductive health care is personal to her and calls the Supreme Court's decision overturning Roe v. Wade deeply personal; highlights California's protections for abortion access.",
+          "quote": "As a 35-year-old woman, reproductive health care is my health care. That’s why the Supreme Court’s decision to overturn Roe v. Wade and the constitutional right to abortion was deeply personal for me and millions of other people across our country.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Co-led a Congressional Review Act resolution to repeal a Trump administration rule she said would make child care more expensive and less accessible, saying every family deserves affordable child care.",
+          "quote": "I’m proud to co-lead this Congressional Review Act because every family in America deserves quality, accessible, and affordable child care.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Led colleagues in demanding USCIS speed up delayed DACA renewals, saying delays put Dreamers at risk of job loss and deportation, and said she will keep pushing for Dreamers to be able to remain in the country permanently.",
+          "quote": "We will keep pushing for Dreamers to be able to stay, work, and live in the only home they’ve ever known permanently.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Armed Services (Intelligence and Special Operations and Military Personnel subcommittees) and the House Committee on Foreign Affairs for the 119th Congress (2025-2026).",
@@ -48,10 +83,20 @@
           "text": "Served as ranking member of the Foreign Affairs Subcommittee on Africa during the 118th Congress (2023-2024).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Led 54 House colleagues in a July 2026 letter to USCIS demanding faster processing of delayed DACA renewal applications.",
+          "kind": "action",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Co-led a Congressional Review Act resolution with Reps. Bonamici and Scott and Sen. Murray to repeal a 2026 HHS rule that would raise child care copayment caps and change subsidy reimbursement rules.",
+          "kind": "action",
+          "sources": ["s6"]
         }
       ],
       "researchDepth": "basic",
-      "researchNotes": "Jacobs has not completed Ballotpedia's 2026 Candidate Connection survey, and no campaign-website issue statements could be retrieved in this environment, so no sourced issue positions are included."
+      "researchNotes": "Jacobs has not completed Ballotpedia's 2026 Candidate Connection survey and her official website's general /issues page returned an error, but topic pages and press releases on sarajacobs.house.gov were reachable and provided sourced priorities and positions."
     },
     {
       "id": "ricardo-cabrera",
@@ -101,6 +146,30 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://sarajacobs.house.gov/know-your-reproductive-rights",
+      "title": "Know Your Reproductive Rights & How To Access Abortion Care",
+      "publisher": "Office of Rep. Sara Jacobs",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://sarajacobs.house.gov/news/press-releases/rep-sara-jacobs-led-54-colleagues-in-demanding-answers-on-delayed-daca-renewals",
+      "title": "Rep. Sara Jacobs Led 54 Colleagues in Demanding Answers on Delayed DACA Renewals",
+      "publisher": "Office of Rep. Sara Jacobs",
+      "kind": "official",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "s6",
+      "url": "https://sarajacobs.house.gov/news/press-releases/jacobs-bonamici-scott-murray-introduce-legislation-to-overturn-harmful-child-care-rule",
+      "title": "Jacobs, Bonamici, Scott, Murray Introduce Legislation to Overturn Harmful Child Care Rule",
+      "publisher": "Office of Rep. Sara Jacobs",
+      "kind": "official",
+      "date": "2026-06-24"
     }
   ],
   "researchedAt": "2026-09-25",

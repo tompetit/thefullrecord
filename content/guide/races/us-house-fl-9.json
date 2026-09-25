@@ -39,18 +39,54 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he works to help agriculture producers feed America, protect food-assistance programs, combat citrus greening, secure disaster relief, and invest in new agricultural technologies for Central Florida.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says education is fundamental to upward mobility, and that every child should have access to a high-quality K-12 public education, college or technical education, and lifelong learning opportunities.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says protecting Florida's environment is a main priority, citing work to restore the Kissimmee River and Chain of Lakes, secure water-supply funding, and protect the Indian River Lagoon.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he advocates for renewable energy and tax credits for electric vehicles, hybrid, solar, and wind, and works to protect clean energy.",
+          "quote": "In the current Congress, he serves on the Energy & Commerce Committee’s Subcommittee on Environment, where he advocates for renewable energy and electric-vehicle, hybrid, solar, and wind tax credits, among other priorities. He also serves on the Natural Resources Committee, where he works to protect clean energy, advance clean water projects, enhance conservation efforts, and more.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the Committee on Energy and Commerce (Commerce, Manufacturing, and Trade; Communications and Technology; Environment subcommittees) and the Committee on Natural Resources (Water, Wildlife and Fisheries subcommittee) for the 2025-2026 Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced H.R. 9094, the Florida Freeze Disaster Assistance Act of 2026, which would authorize USDA grants to states for agricultural losses caused by freezes.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Introduced H.R. 8728, the Feed Our Kids Act of 2026, which would amend federal child-nutrition law to make school breakfasts and lunches free for all children.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Sponsored the Restoring Resilient Reefs Act, which was enacted as part of the National Defense Authorization Act in the 117th Congress and reauthorizes and modernizes the Coral Reef Conservation Act of 2000.",
+          "kind": "bill",
+          "sources": ["s6"]
         }
       ],
       "website": "https://www.darrensoto.com/",
       "researchDepth": "basic",
-      "researchNotes": "Soto has not completed Ballotpedia's 2026 Candidate Connection survey; no additional sourced statements of current priorities or issue positions were found in the time available."
+      "researchNotes": "Soto has not completed Ballotpedia's 2026 Candidate Connection survey; positions, priorities, and sponsored-bill record items above are drawn from his official House issues pages."
     },
     {
       "id": "dan-green",
@@ -116,6 +152,27 @@
       "url": "https://ballotpedia.org/Dan_Green_(Florida_congressional_candidate)",
       "title": "Dan Green (Florida congressional candidate)",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://soto.house.gov/issues/agriculture",
+      "title": "Agriculture",
+      "publisher": "Office of Rep. Darren Soto",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://soto.house.gov/issues/education",
+      "title": "Education",
+      "publisher": "Office of Rep. Darren Soto",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://soto.house.gov/issues/energy",
+      "title": "Environment",
+      "publisher": "Office of Rep. Darren Soto",
       "kind": "candidate"
     }
   ],

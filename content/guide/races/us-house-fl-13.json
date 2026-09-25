@@ -39,8 +39,39 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Immigration: says she will fight to finish the border wall, end DACA, restore the Remain in Mexico policy, and oppose amnesty as a pathway to citizenship.",
+          "quote": "Anna will fight to finish the border wall, end DACA, restore President Trump’s Remain in Mexico policy, and crack down on criminal illegals in America.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Education: says she will work to expand school choice, ensure parental rights, and protect women's sports.",
+          "quote": "Anna will work to advance efforts to expand school choice, ensure parents rights, protect women’s sports, and increase civic literacy.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Government accountability: says she will support a ban on members of Congress and staff becoming lobbyists after leaving office and push to enact term limits for elected officials.",
+          "quote": "She will support any ban on Congress or its employees becoming lobbyists to cash out after leaving office. She will also work to enact term limits for elected officials.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says she will fight to finish the border wall, end DACA, and restore the Remain in Mexico policy, and opposes amnesty as a pathway to citizenship.",
+          "quote": "Anna will fight to finish the border wall, end DACA, restore President Trump’s Remain in Mexico policy, and crack down on criminal illegals in America.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says she will work to expand school choice for families.",
+          "quote": "Anna will work to advance efforts to expand school choice, ensure parents rights, protect women’s sports, and increase civic literacy.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the Committee on Oversight and Government Reform (Cybersecurity, Information Technology, and Government Innovation; Health Care and Financial Services; Military and Foreign Affairs subcommittees) and the Committee on Foreign Affairs for the 2025-2026 Congress.",
@@ -50,7 +81,7 @@
       ],
       "website": "https://www.voteannapaulina.com/",
       "researchDepth": "basic",
-      "researchNotes": "Luna has not completed Ballotpedia's 2026 Candidate Connection survey; no additional sourced statements of current priorities or issue positions were found in the time available."
+      "researchNotes": "Luna has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities are drawn from her official House issues pages, which cover only a subset of the 15 tracked issues."
     },
     {
       "id": "leela-gray",
@@ -148,6 +179,27 @@
       "title": "Florida's 13th Congressional District election, 2026",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://luna.house.gov/resources/immigration",
+      "title": "My Position on Immigration",
+      "publisher": "Office of Rep. Anna Paulina Luna, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://luna.house.gov/education",
+      "title": "Education",
+      "publisher": "Office of Rep. Anna Paulina Luna, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://luna.house.gov/government-accountability",
+      "title": "Government Accountability",
+      "publisher": "Office of Rep. Anna Paulina Luna, U.S. House",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

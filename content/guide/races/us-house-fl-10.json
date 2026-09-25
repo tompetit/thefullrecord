@@ -39,17 +39,46 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Says the administration's immigration detention system is being used to punish people rather than uphold human dignity, and has pushed for accountability over conditions in ICE facilities.", "sources": ["s3"] },
+        { "text": "Says young people should have a direct role in shaping federal climate policy and introduced the Youth Climate Leadership Act to create youth advisory councils at federal agencies.", "sources": ["s4"] },
+        { "text": "Led a bipartisan discharge petition to extend Temporary Protected Status for Haitians in the United States.", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Joined other House Oversight Committee Democrats in demanding answers from ICE over reported dangerous and inhumane conditions at immigration detention facilities in Florida, and led a discharge petition to extend Temporary Protected Status for Haitians rather than allow their removal.",
+          "quote": "Trump's immigration detention system is as cruel as it is unnecessary, and this administration's deliberate efforts to hide the conditions inside ICE facilities in Miramar and Orlando, Florida are abhorrent.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Re-introduced the Youth Climate Leadership Act to create youth advisory councils on climate and environmental issues within federal agencies, and said federal leadership is rolling back climate progress that must be protected.",
+          "quote": "At a time when federal leadership is rolling back climate progress, we cannot afford to leave young voices behind. We must act now to protect the progress we've made and empower the next generation to lead in building a safer, more sustainable future.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the Committee on Oversight and Government Reform (Economic Growth, Energy Policy, and Regulatory Affairs; Government Operations subcommittees) and the Committee on Science, Space, and Technology for the 2025-2026 Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Re-introduced the Youth Climate Leadership Act to establish youth advisory councils on environmental issues at the EPA, Department of the Interior, Department of Energy, Department of Agriculture, and Department of Commerce.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Led a bipartisan discharge petition, co-led with Rep. Ayanna Pressley, to extend Temporary Protected Status for Haitians, which passed the House.",
+          "kind": "bill",
+          "sources": ["s5"]
         }
       ],
-      "researchDepth": "basic",
-      "researchNotes": "Frost is running unopposed on the November ballot; his current campaign website was not reachable in the time available, so his stated 2026 priorities and issue positions are not documented here beyond his committee assignments and endorsement list on Ballotpedia (which includes the Florida Education Association and Florida AFL-CIO)."
+      "researchDepth": "full",
+      "researchNotes": "Frost is running unopposed on the November ballot; his current campaign website was not reachable in the time available, so priorities and positions are documented from his official House press releases instead."
     }
   ],
   "sources": [
@@ -66,6 +95,30 @@
       "title": "Maxwell Alejandro Frost",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://frost.house.gov/media/press-releases/oversight-ranking-members-robert-garcia-bennie-thompson-and-maxwell-frost-demand-answers-from-ice-on-dangerous-conditions-in-florida-immigration-facilities",
+      "title": "Oversight Ranking Members Robert Garcia, Bennie Thompson, and Maxwell Frost Demand Answers from ICE on Dangerous Conditions in Florida Immigration Facilities",
+      "publisher": "Office of Rep. Maxwell Frost",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://frost.house.gov/media/press-releases/on-earth-day-a-new-generation-rises-congressman-maxwell-frost-unveils-youth-climate-leadership-act-to-put-young-voices-at-the-forefront-of-the-climate-fight",
+      "title": "On Earth Day, A New Generation Rises: Congressman Maxwell Frost Unveils Youth Climate Leadership Act",
+      "publisher": "Office of Rep. Maxwell Frost",
+      "kind": "candidate",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "s5",
+      "url": "https://frost.house.gov/media/press-releases/breaking-frosts-discharge-petition-to-extend-tps-for-haitians-passes-us-house",
+      "title": "BREAKING: Frost's Discharge Petition to Extend TPS for Haitians Passes U.S. House",
+      "publisher": "Office of Rep. Maxwell Frost",
+      "kind": "candidate",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
