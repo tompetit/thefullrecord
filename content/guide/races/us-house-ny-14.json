@@ -1,0 +1,164 @@
+{
+  "id": "us-house-ny-14",
+  "state": "NY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "14",
+  "title": "U.S. House · New York's 14th District",
+  "area": "Parts of Queens (Corona, Jackson Heights, East Elmhurst) and the Bronx (Parkchester, Co-op City, Throggs Neck).",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Alexandria Ocasio-Cortez defeated Felipe Garcia and Marty Dolan in the June 23, 2026 Democratic primary with 86.9% of the vote.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Diamant Hysenaj advanced from the Republican and Conservative Party primaries, both of which were canceled after he was the only candidate remaining on the ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "alexandria-ocasio-cortez",
+      "name": "Alexandria Ocasio-Cortez",
+      "parties": ["D", "WFP"],
+      "incumbent": true,
+      "ballotNote": "Won the June 23, 2026 Democratic primary",
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Ocasio-Cortez, first elected in 2018, sits on the House Energy and Commerce Committee and its Energy, Health, and Oversight and Investigations subcommittees. In the 119th Congress she has sponsored or co-led legislation on public housing, health-care corporate consolidation, AI data-center construction, and non-consensual deepfake imagery.",
+        "sources": ["s2", "s3"]
+      },
+      "background": [
+        { "text": "Born in the Bronx in 1989; earned bachelor's degrees in economics and international relations from Boston University in 2011.", "sources": ["s4"] },
+        { "text": "Before running for Congress, worked as an educational director with the National Hispanic Institute, founded a children's book publisher, and worked as a waitress and bartender; volunteered as an organizer for Bernie Sanders' 2016 presidential campaign.", "sources": ["s4"] },
+        { "text": "In 2018, defeated 10-term incumbent Rep. Joseph Crowley in the Democratic primary and went on to win the general election, becoming the youngest woman ever elected to Congress at the time.", "sources": ["s4"] },
+        { "text": "Serves on the House Committee on Energy and Commerce (joined January 2025) and its Energy, Health, and Oversight and Investigations subcommittees.", "sources": ["s2"] },
+        { "text": "Belongs to the Congressional Progressive Caucus, Congressional Hispanic Caucus, Medicare for All Caucus, Congressional Renters Caucus, and other House caucuses, and launched the End Corruption Caucus in May 2026.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "\"Congress has a moral obligation to stand with the American people and stop the expansion of these data centers until we have a framework to adequately address the existential harm AI poses to our society. We must choose humanity over profit.\"", "sources": ["s6"] },
+        { "text": "\"I'm proud to co-lead the Stop Corporate Takeovers of Physicians Act to get Wall Street out of Americans' doctors' offices and ban predatory noncompete agreements for healthcare workers.\"", "sources": ["s7"] },
+        { "text": "Co-led the Green New Deal for Public Housing Act to repeal the federal cap on public housing spending and fund large-scale energy retrofits and repairs, which she and co-sponsors say would create an estimated 280,000 union jobs.", "sources": ["s5"] },
+        { "text": "Co-led the DEFIANCE Act to give victims of non-consensual, sexually explicit deepfake imagery the right to sue those who produce or distribute it.", "sources": ["s8"] }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Co-led the reintroduction, with Sen. Bernie Sanders and Rep. Delia Ramirez, of the Green New Deal for Public Housing Act, which would repeal the federal Faircloth Amendment's cap on new public housing construction and fund large-scale retrofits.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Introduced the House companion to the Artificial Intelligence Data Center Moratorium Act, which would pause new AI data-center construction and expansion until federal safeguards address its effects on electricity prices, communities, and the environment.",
+          "quote": "Congress has a moral obligation to stand with the American people and stop the expansion of these data centers until we have a framework to adequately address the existential harm AI poses to our society. We must choose humanity over profit.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Co-led the Stop Corporate Takeovers of Physicians Act with Sen. Elizabeth Warren and others, which would ban corporations and private equity firms from owning physician practices.",
+          "quote": "I'm proud to co-lead the Stop Corporate Takeovers of Physicians Act to get Wall Street out of Americans' doctors' offices and ban predatory noncompete agreements for healthcare workers.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Member of the Congressional Progressive Caucus and has repeatedly co-sponsored legislation, including public-housing and childcare measures, that would be funded through higher taxes on corporations and high earners.",
+          "sources": ["s2", "s5"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Member of the House Pro-Choice Caucus, which advocates for protecting legal access to abortion.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        { "text": "Co-led the reintroduction of the Green New Deal for Public Housing Act with Sen. Bernie Sanders and Rep. Delia Ramirez (introduced August 6, 2026), which would repeal the Faircloth Amendment's cap on federal public-housing spending and fund energy retrofits.", "date": "2026-08-06", "kind": "bill", "sources": ["s5"] },
+        { "text": "Co-led introduction of the Stop Corporate Takeovers of Physicians Act with Sen. Elizabeth Warren, Rep. Val Hoyle, and others (introduced September 16, 2026), which would ban corporate and private-equity ownership of physician practices.", "date": "2026-09-16", "kind": "bill", "sources": ["s7"] },
+        { "text": "Introduced the House companion to the Artificial Intelligence Data Center Moratorium Act (H.R. 9442) with Sen. Bernie Sanders (introduced June 24, 2026), which would impose a federal moratorium on new AI data-center construction pending federal safeguards.", "date": "2026-06-24", "kind": "bill", "sources": ["s6"] },
+        { "text": "Co-led reintroduction of the DEFIANCE Act with Sen. Dick Durbin, Sen. Lindsey Graham, and Rep. Laurel Lee (reintroduced May 2025), which would let victims sue people who knowingly produce or distribute non-consensual, sexually explicit digital forgeries (\"deepfakes\").", "date": "2025-05-21", "kind": "bill", "sources": ["s8"] },
+        { "text": "Serves on the House Committee on Energy and Commerce and its Energy, Health, and Oversight and Investigations subcommittees.", "kind": "action", "sources": ["s2"] }
+      ],
+      "website": "https://ocasio-cortez.house.gov/",
+      "researchDepth": "full",
+      "bioguideId": "O000172"
+    },
+    {
+      "id": "diamant-hysenaj",
+      "name": "Diamant Hysenaj",
+      "parties": ["R", "C"],
+      "incumbent": false,
+      "currentRole": "None (construction-company owner)",
+      "summary": {
+        "text": "Hysenaj is a construction-company owner and Kosovo-born immigrant who fled to the Bronx with his family in 1991. He is campaigning on housing, lower health-care costs, immigration reform, and public safety, arguing Ocasio-Cortez has not been sufficiently present in the district.",
+        "sources": ["s9", "s10"]
+      },
+      "background": [
+        { "text": "Born in Kosovo in 1982; fled with his family to the Bronx in 1991 at age nine as conflict spread in the former Yugoslavia.", "sources": ["s9"] },
+        { "text": "Began working by age 11 doing paper routes, snow shoveling, and construction alongside his father; earned an associate's degree.", "sources": ["s9"] },
+        { "text": "Founded a construction company in 2005 that closed during the 2008 financial crisis; founded DCG New York Inc. in 2014, which he says has contributed to more than one million square feet of residential and commercial development in New York City.", "sources": ["s9"] },
+        { "text": "Married since 2017; lives in New York raising two children with his wife, Tereza.", "sources": ["s9"] }
+      ],
+      "priorities": [
+        { "text": "\"Affordable Rent. Quality Homes. I'm a small business owner in construction, no one knows housing better than me. I have created jobs right here in the district and improved living conditions for everyday New Yorkers.\"", "sources": ["s10"] },
+        { "text": "\"Immigration that works. ... I'll demand a system that's tough but fair: secure borders, faster citizenship for the law-abiding, and real support for our neighborhoods.\"", "sources": ["s10"] },
+        { "text": "\"Lower your healthcare costs. Get rid of waste and fraud, giving back to the people, not the insurance companies.\"", "sources": ["s10"] },
+        { "text": "\"Safe streets, so kids can play outside again.\"", "sources": ["s10"] },
+        { "text": "Says NY-14 needs \"a congressperson that is present,\" criticizing Ocasio-Cortez's national profile and fundraising over what he describes as unaddressed local job losses.", "sources": ["s9"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Calls for a system that is \"tough but fair,\" combining secure borders with faster legal citizenship pathways, rather than expanded enforcement alone.",
+          "quote": "I'll demand a system that's tough but fair: secure borders, faster citizenship for the law-abiding, and real support for our neighborhoods.",
+          "sources": ["s10"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Campaigns on his experience as a construction-company owner to expand affordable housing supply and improve housing quality.",
+          "quote": "Affordable Rent. Quality Homes. I'm a small business owner in construction, no one knows housing better than me.",
+          "sources": ["s10"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Lists public safety and \"safe streets\" among his priorities for the district.",
+          "quote": "Safe streets, so kids can play outside again.",
+          "sources": ["s10"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "Says he would lower health-care costs by reducing waste and fraud in existing programs, without specifying support for expanding public coverage.",
+          "quote": "Lower your healthcare costs. Get rid of waste and fraud, giving back to the people, not the insurance companies.",
+          "sources": ["s10"]
+        }
+      ],
+      "record": [],
+      "website": "https://votefordiamant.com/",
+      "researchDepth": "basic",
+      "researchNotes": "No Ballotpedia Candidate Connection survey or FEC filing summary was available as of research date. Positions reflect his own campaign website; he has not addressed most of the guide's other issue areas in public materials found."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/New_York%27s_14th_Congressional_District_election,_2026", "title": "New York's 14th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ocasio-cortez.house.gov/legislation/committees-and-caucuses", "title": "Committees and Caucuses", "publisher": "Office of Rep. Alexandria Ocasio-Cortez, U.S. House of Representatives", "kind": "official", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Alexandria_Ocasio-Cortez", "title": "Alexandria Ocasio-Cortez", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://ballotpedia.org/Alexandria_Ocasio-Cortez", "title": "Alexandria Ocasio-Cortez — Biography", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s5", "url": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-sanders-ramirez-reintroduce-green-new-deal-public-housing-act-0", "title": "Ocasio-Cortez, Sanders, Ramirez Reintroduce the Green New Deal for Public Housing Act", "publisher": "Office of Rep. Alexandria Ocasio-Cortez, U.S. House of Representatives", "kind": "official", "date": "2026-08-06" },
+    { "id": "s6", "url": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-introduces-house-version-ai-data-center-moratorium-act", "title": "Ocasio-Cortez Introduces House Version of the AI Data Center Moratorium Act", "publisher": "Office of Rep. Alexandria Ocasio-Cortez, U.S. House of Representatives", "kind": "official", "date": "2026-06-24" },
+    { "id": "s7", "url": "https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-warren-hoyle-wyden-merkley-subramanyam-introduce-bill-ban", "title": "Ocasio-Cortez, Warren, Hoyle, Wyden, Merkley, Subramanyam Introduce Bill to Ban the Corporate Practice of Medicine", "publisher": "Office of Rep. Alexandria Ocasio-Cortez, U.S. House of Representatives", "kind": "official", "date": "2026-09-16" },
+    { "id": "s8", "url": "https://www.durbin.senate.gov/newsroom/press-releases/durbin-graham-reps-ocasio-cortez-and-lee-introduce-bipartisan-legislation-to-combat-non-consensual-sexually-explicit-deepfake-imagery", "title": "Durbin, Graham, Reps. Ocasio-Cortez & Lee Introduce Bipartisan Legislation To Combat Non-Consensual, Sexually-Explicit Deepfake Imagery", "publisher": "Office of U.S. Senator Dick Durbin", "kind": "official", "date": "2025-05-21" },
+    { "id": "s9", "url": "https://votefordiamant.com/my-story", "title": "My Story", "publisher": "Diamant Hysenaj for Congress campaign website", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s10", "url": "https://votefordiamant.com/diamants-plan-for-ny-14", "title": "Diamant's Plan for NY-14", "publisher": "Diamant Hysenaj for Congress campaign website", "kind": "candidate", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Ocasio-Cortez's federal floor votes and FEC finance totals are added separately by script; this file focuses on sponsored legislation, committee and caucus roles, and public statements. Diamant Hysenaj has not filed FEC disclosures found as of research date and has not completed Ballotpedia's Candidate Connection survey, so his record here relies on his own campaign website."
+}

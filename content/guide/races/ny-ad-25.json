@@ -1,0 +1,108 @@
+{
+  "id": "ny-ad-25",
+  "state": "NY",
+  "officeType": "state-assembly",
+  "office": "NY State Assembly",
+  "district": "25",
+  "title": "NY State Assembly · District 25",
+  "area": "North-central Queens, including Fresh Meadows, Pomonok, Electchester, Kew Gardens Hills and parts of Flushing and Briarwood.",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Nily Rozic is running unopposed in the November 3, 2026 general election. Her only prospective challenger, Kenneth Paek, was ruled off the ballot for both the Republican primary and an independent \"4 Our Immigrants Party\" line.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "nily-rozic",
+      "name": "Nily Rozic",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "NY State Assembly Member, District 25 (since 2013)",
+      "summary": {
+        "text": "Nily Rozic is the Democratic incumbent for NY State Assembly District 25, first elected in 2012. She chairs the Assembly Consumer Affairs and Protection Committee and also serves on the Corporations, Authorities and Commissions, Labor, Rules and Ways and Means committees. She previously served as Chief of Staff to Assemblyman Brian Kavanagh. She is running unopposed for re-election in 2026.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from New York University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as Chief of Staff for Assemblyman Brian Kavanagh before her own election to the Assembly.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Sponsored A06571, establishing a state comprehensive sexual and reproductive health program to fund providers who facilitate access to reproductive health care for low-income, uninsured and underinsured New Yorkers.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Sponsored A01832, authorizing a state personal income tax credit for residential solar energy systems.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Chairs the Assembly Consumer Affairs and Protection Committee (2021-2026); also serves on the Corporations, Authorities and Commissions, Labor, Rules, and Ways and Means committees.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Sponsored A00255, directing the state Attorney General to write rules against price gouging on fuel, energy and transportation goods and requiring periodic public disclosure of fuel prices along the supply chain; referred to the Consumer Affairs and Protection Committee, not enacted as of January 2026.",
+          "kind": "bill",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Sponsored A06571, establishing a comprehensive sexual and reproductive health program; reported to the Ways and Means Committee as of January 2026, not enacted.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Sponsored A08962, the \"FAIR news act,\" requiring transparency disclosures for news media content generated or altered by artificial intelligence; referred to the Consumer Affairs and Protection Committee as of August 2025, not enacted as of this writing.",
+          "kind": "bill",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Sponsored A01832, authorizing a personal income tax credit for residential solar energy systems; referred to the Ways and Means Committee, not enacted as of January 2026.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Voted yes on S10113, allowing a cannabis microbusiness licensee to conduct retail sales, which passed the Assembly 88-53 on June 5, 2026.",
+          "date": "2026-06-05",
+          "kind": "vote",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Voted yes on S3460, granting employees access to their personnel records, which passed the Assembly 92-49 on May 19, 2026.",
+          "date": "2026-05-19",
+          "kind": "vote",
+          "sources": ["s8"]
+        }
+      ],
+      "website": "https://nyassembly.gov/mem/Nily-Rozic/",
+      "researchDepth": "full"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/Nily_Rozic", "title": "Nily Rozic", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Nily_Rozic", "title": "Nily Rozic - Committee assignments", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06571&term=2025&Summary=Y&Actions=Y&Votes=Y", "title": "A06571 - Summary", "publisher": "New York State Assembly", "kind": "official" },
+    { "id": "s4", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A01832&term=2025&Summary=Y&Actions=Y&Votes=Y", "title": "A01832 - Summary", "publisher": "New York State Assembly", "kind": "official" },
+    { "id": "s5", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A00255&term=2025&Summary=Y&Actions=Y&Votes=Y", "title": "A00255 - Summary", "publisher": "New York State Assembly", "kind": "official" },
+    { "id": "s6", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A08962&term=2025&Summary=Y&Actions=Y&Votes=Y", "title": "A08962 - Summary", "publisher": "New York State Assembly", "kind": "official" },
+    { "id": "s7", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10113&term=2025&Summary=Y&Actions=Y&Votes=Y", "title": "S10113 - Floor Votes", "publisher": "New York State Assembly", "kind": "official", "date": "2026-06-05" },
+    { "id": "s8", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S3460&term=2025&Summary=Y&Actions=Y&Votes=Y", "title": "S3460 - Floor Votes", "publisher": "New York State Assembly", "kind": "official", "date": "2026-05-19" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Rozic's only prospective 2026 opponent, Kenneth Paek, was disqualified from both the Republican primary and an independent ballot line, leaving her unopposed on the November 3 general-election ballot. No opposing candidate entry is included because none will appear on the ballot."
+}

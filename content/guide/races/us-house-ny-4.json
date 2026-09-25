@@ -1,0 +1,183 @@
+{
+  "id": "us-house-ny-4",
+  "state": "NY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · New York's 4th Congressional District",
+  "area": "Central Nassau County on Long Island, including most of the Town of Hempstead outside New York City.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This seat has flipped party control in each of the last three elections: Democrat Kathleen Rice did not seek re-election in 2022, when Republican Anthony D'Esposito won; Democrat Laura Gillen defeated D'Esposito in 2024, 51.1% to 48.8%. D'Esposito did not run for re-election in 2026. Jeanine Driscoll won the June 23, 2026 Republican primary over Marvin Suber Williams, 90.8% to 8.9%; Gillen's Democratic primary was canceled after four other Democrats withdrew.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "As of September 2026, election forecasters rated the general election competitive: Cook Political Report and Sabato's Crystal Ball rated it \"Lean Democratic,\" Decision Desk rated it \"Likely Democratic,\" and Inside Elections rated it \"Tilt Democratic.\" Registered Democrats outnumber Republicans in the district, which The New York Times described as a seat Republicans had viewed as a rare pickup opportunity.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "A Libertarian Party candidate, Blay Tarnoff, is also on the November general-election ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "laura-gillen",
+      "name": "Laura Gillen",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for NY-4 (since 2025)",
+      "summary": {
+        "text": "Laura Gillen is the incumbent U.S. Representative for New York's 4th Congressional District, elected in 2024 after previously serving as Town of Hempstead Supervisor (2018-2020). She sits on the House Transportation and Infrastructure Committee and the House Science, Space, and Technology Committee.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in political science and government from Georgetown University and a J.D. from New York University School of Law; worked as an attorney at Cahill Gordon & Reindel and Westerman Ball before entering politics.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as Town of Hempstead Supervisor from 2018 to 2020.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign material says she has focused on lowering costs, eliminating the SALT deduction cap, and securing federal funding for public safety, clean water, and family and student resources in Nassau County.",
+          "quote": "Since taking office, Laura has proudly secured over $50M in federal funding to Nassau County, including direct investments in public safety, clean water and resources for families and students.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "On immigration, says she has worked to extend Temporary Protected Status (TPS) for Haitian immigrants in Nassau County.",
+          "quote": "She has led the charge in Congress to extend TPS for law-abiding Haitians in Nassau County and across the country.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Has pushed to eliminate the federal SALT (state and local tax) deduction cap, which would reduce federal tax liability for higher-income Long Island homeowners.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she is fighting to extend tax credits that help families afford health insurance and has opposed Medicaid cuts.",
+          "quote": "She has stood up against historic Medicaid cuts and helped pass reforms to crack down on insurance middlemen who are unfairly raising the cost of prescriptions.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Transportation and Infrastructure Committee (Aviation; Highways and Transit; Water Resources and Environment subcommittees) and the House Science, Space, and Technology Committee (Space and Aeronautics subcommittee) in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://gillenforcongress.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "jeanine-driscoll",
+      "name": "Jeanine Driscoll",
+      "parties": ["R", "C"],
+      "incumbent": false,
+      "ballotNote": "Won the June 23 Republican primary",
+      "currentRole": "Town of Hempstead Receiver of Taxes (since 2020)",
+      "summary": {
+        "text": "Jeanine Driscoll is the Town of Hempstead's Receiver of Taxes, first elected in 2019 and re-elected in 2023, and previously served as an Associate Justice for the Village of Bellerose (2015-2019). She won the June 23, 2026 Republican primary for NY-4.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Earned a B.A. in American government and politics from The Catholic University of America and a J.D. from Fordham University; worked as an attorney before entering elected office.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served as an Associate Justice for the Village of Bellerose, New York, from 2015 to 2019.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign material says she is running to restore the full SALT (state and local tax) deduction, provide additional tax relief for Nassau County families and seniors, support law enforcement, and secure the U.S.-Mexico border.",
+          "quote": "Jeanine is running for Congress to build upon her record of protecting Nassau taxpayers. She will continue fighting to lower the tax burden by restoring the full State and Local Tax (SALT) Deduction and providing additional relief for Nassau County families and seniors.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Cites her record as Receiver of Taxes, including holding taxpayer forums to help residents reduce their tax bills, as the basis for her candidacy.",
+          "quote": "I have conducted hundreds of taxpayer forums to help people reduce their tax bills.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Supports restoring the full SALT deduction, which would reduce federal tax liability for higher-income households in high-tax states like New York.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Opposes New York's sanctuary-state policy and says she would work with NY Republican members of Congress to undo it and empower local law enforcement on immigration.",
+          "quote": "Kathy Hochul's Sanctuary State law protects violent criminals instead of law-abiding New Yorkers. ... In Congress, I will work with my colleagues, Homeland Security Committee Chair Andrew Garbarino and Congressman Nick Lalota, to undo New York's sanctuary policies and empower local law enforcement to do their job.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [
+        {
+          "text": "As Town of Hempstead Receiver of Taxes since 2020, has held taxpayer forums to help residents understand and reduce their property tax bills.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://driscollforcongress.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "blay-tarnoff",
+      "name": "Blay Tarnoff",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "summary": {
+        "text": "Blay Tarnoff is the Libertarian Party candidate for NY-4, describing himself as not a professional politician and focused on limiting federal administrative power and ending inflation.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "Says he would work to privatize or eliminate federal administrative agencies, which he views as unconstitutional and as producing waste, and would end inflation by pegging the dollar to gold or bitcoin.",
+          "quote": "I would privatize the critical functions of administrative agencies and eliminate them.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York%27s_4th_Congressional_District_election,_2026",
+      "title": "New York's 4th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Laura_Gillen",
+      "title": "Laura Gillen",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "Neither Gillen nor Driscoll had completed a 2026 Ballotpedia Candidate Connection survey as of research date; their priorities and positions are drawn from campaign-website and social-media statements republished by Ballotpedia. Tarnoff has little independent public footprint beyond his Ballotpedia survey response, so his entry is marked minimal."
+}

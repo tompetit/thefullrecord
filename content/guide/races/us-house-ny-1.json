@@ -1,0 +1,162 @@
+{
+  "id": "us-house-ny-1",
+  "state": "NY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · New York's 1st Congressional District",
+  "area": "Eastern Long Island, covering all of Suffolk County east of Smithtown/Islip (the North and South Forks, the Hamptons, and the Suffolk suburbs including Amityville and Babylon).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Nicholas LaLota advanced without a primary after the Republican and Conservative Party primaries were canceled. Christopher Gallant won the June 23, 2026 Democratic primary over Lukas Ventouras, 62.9% to 37.0%. As of September 22, 2026, Cook Political Report and Inside Elections rated the general election \"Solid Republican,\" Decision Desk rated it \"Lean Republican,\" and Sabato's Crystal Ball rated it \"Likely Republican.\"",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Two independent candidates, Jordan Maggio and Thomas Sorensen, withdrew or were disqualified and are not on the November ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "nicholas-lalota",
+      "name": "Nicholas J. LaLota",
+      "parties": ["R", "C"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for NY-1 (since 2023)",
+      "summary": {
+        "text": "Nicholas J. LaLota is the incumbent U.S. Representative for New York's 1st Congressional District, first elected in 2022. A U.S. Navy veteran and former Suffolk County elections commissioner, he sits on the House Appropriations Committee, where he is Vice Chair of the Financial Services and General Government Subcommittee, and on the Small Business Committee, where he chairs the Contracting and Infrastructure Subcommittee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Navy from 1996 to 2007, including three overseas deployments; earned a bachelor's degree from the U.S. Naval Academy (2000), an MBA from Hofstra University (2012), and a law degree from Hofstra University (2020).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as chief of staff and an elections commissioner for Suffolk County, and as chief of staff and Long Island director for a New York State Senate office, before being elected to Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Describes his focus as border security and opposing New York's sanctuary-city policies, restoring the SALT deduction, and reducing federal spending while protecting Social Security, Medicare, and veterans' health care.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Cites membership in the bipartisan Problem Solvers Caucus and For Country Caucus as reflecting a preference for cross-party solutions over partisanship.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports stronger border enforcement and has sponsored legislation opposing New York's sanctuary-city policies.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Has made restoring the federal SALT (state and local tax) deduction cap a signature priority, which would reduce federal tax liability for higher earners in high-tax states like New York.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Appropriations Committee (Vice Chair, Financial Services and General Government Subcommittee) and the House Small Business Committee (Chairman, Contracting and Infrastructure Subcommittee) in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the House Homeland Security Committee and House Armed Services Committee in the 118th Congress (2023-2024).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://lalota.house.gov",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "christopher-gallant",
+      "name": "Christopher Gallant",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the June 23 Democratic primary",
+      "summary": {
+        "text": "Christopher Gallant is a New York Army National Guard Black Hawk pilot, former FAA air traffic controller, volunteer firefighter, and union leader running for the Democratic nomination-turned-general-election challenger in NY-1. He won the June 23, 2026 Democratic primary.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Smithtown, New York; has served in the New York Army National Guard since 2006 and earned a bachelor's degree from Dowling College in 2014.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Career experience includes working as a federal employee (air traffic controller) and local union president, and serving as an Equal Opportunity representative in the U.S. Army.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Is affiliated with the Copiague Fire Department, Veterans of Foreign Wars, and the American Legion, among other organizations.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his campaign focuses on affordability (housing, groceries, energy), protecting Medicare, Social Security, and veterans' benefits, and defending voting rights and reproductive freedom.",
+          "quote": "Tackle affordability, from housing to groceries to energy, so Long Island families can build stable, secure lives without being priced out of the communities they love.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says his priorities include affordable housing, education, health care access, fair wages, veterans' benefits, and government accountability.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he will fight to protect reproductive freedom.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Prioritizes protecting and improving medical accessibility and affordability, particularly for seniors and veterans.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://gallantforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York%27s_1st_Congressional_District_election,_2026",
+      "title": "New York's 1st Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Nicholas_LaLota",
+      "title": "Nicholas LaLota",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Christopher_Gallant",
+      "title": "Christopher Gallant",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "LaLota's priorities and positions draw on his 2024 Ballotpedia Candidate Connection survey (he had not completed a 2026 survey as of research date); his committee assignments and biography are current. Sponsored-bill detail for LaLota is limited to what Ballotpedia's biography and survey summarize, since congress.gov blocked automated access during research."
+}

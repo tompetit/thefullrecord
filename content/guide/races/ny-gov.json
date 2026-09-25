@@ -1,0 +1,462 @@
+{
+  "id": "ny-gov",
+  "state": "NY",
+  "officeType": "governor",
+  "office": "Governor",
+  "title": "Governor of New York",
+  "area": "Statewide — all of New York State",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Democratic primary was canceled after challengers Antonio Delgado and John Rinaldi withdrew; incumbent Kathy Hochul advanced unopposed.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "U.S. Rep. Elise Stefanik withdrew from the Republican primary on December 19, 2025, saying a contested primary was not an effective use of time in a general-election year; President Trump endorsed Bruce Blakeman the next day. The Republican and Conservative Party primaries were then canceled, with Blakeman advancing unopposed.",
+      "sources": ["s5", "s6", "s1"]
+    },
+    {
+      "text": "Amy Taylor won the Working Families Party primary for governor but later withdrew from the general election; the WFP ballot line reverted to Kathy Hochul, who cross-endorsed on that line as she did in 2022.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Larry Sharpe, the 2018 Libertarian gubernatorial nominee, had sought the Coalition Party ballot line in 2026 but withdrew before the general election.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Two long-shot write-in campaigns are also underway for governor: Jonathan Makeley of the Prohibition Party and Jean Anglade, running as an independent.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "kathy-hochul",
+      "name": "Kathy Hochul",
+      "parties": ["D", "WFP"],
+      "incumbent": true,
+      "ballotNote": "Running with Lt. Gov. candidate Adrienne Adams, former New York City Council Speaker. Advanced unopposed after Antonio Delgado and John Rinaldi withdrew from the Democratic primary.",
+      "currentRole": "Governor of New York (since August 2021)",
+      "summary": {
+        "text": "Kathy Hochul is the incumbent Governor of New York, seeking a second full term with running mate Adrienne Adams. She became governor in August 2021 upon Andrew Cuomo's resignation, having served as Lieutenant Governor since 2015, and won a full term in 2022. As governor she paused and then restarted congestion pricing at a reduced toll, signed gun-safety and immigration-limiting legislation, and signed budgets that extended the state's higher tax rate on top earners while ruling out new broad-based income or business tax increases.",
+        "sources": ["s2", "s7", "s8", "s11", "s12"]
+      },
+      "background": [
+        {
+          "text": "Born and raised in Buffalo, New York; earned a B.A. from Syracuse University (1980) and a J.D. from Catholic University (1983).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an aide to Rep. John LaFalce (1984–1986) and Sen. Daniel Patrick Moynihan (1986–1988) before serving as Deputy Clerk (2003–2007) and then Clerk (2007–2011) of Erie County.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the U.S. House representing New York's 26th District, 2011–2013, after winning a May 2011 special election; lost re-election to Chris Collins in 2012.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Elected Lieutenant Governor of New York as Andrew Cuomo's running mate in 2014 and 2018, serving 2015–2021.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Became the 57th Governor of New York in August 2021 upon Cuomo's resignation, and won a full term in 2022, defeating Lee Zeldin.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Affordability: delivering tax cuts, inflation-refund checks and an energy rebate program, and indexing the minimum wage to inflation.",
+          "sources": ["s11", "s12"]
+        },
+        {
+          "text": "Public safety, which she calls her 'number one priority,' including new gun-safety laws and support for law enforcement.",
+          "quote": "We're taking action to drive down gun violence in the State of New York — protecting our communities and making our streets safer. Public safety is my number one priority.",
+          "sources": ["s9"]
+        },
+        {
+          "text": "Protecting immigrant New Yorkers from what she describes as federal immigration-enforcement overreach.",
+          "quote": "From day one, I have been clear: Flagrant abuses of power by ICE will not stand in New York.",
+          "sources": ["s10"]
+        },
+        {
+          "text": "Funding mass transit while phasing congestion pricing back in at a reduced toll to relieve traffic and pay for MTA capital projects.",
+          "quote": "By getting congestion pricing underway and fully supporting the MTA capital plan, we'll unclog our streets, reduce pollution and deliver better public transit for millions of New Yorkers.",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Preserving access to abortion and reproductive health care in New York.",
+          "quote": "New York will always remain a safe haven for people seeking care, and I will never back down from fighting to protect access to health care.",
+          "sources": ["s18"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "congestion_pricing",
+          "stance": "supports",
+          "summary": "Paused congestion pricing in mid-2024 citing affordability, then restarted it in January 2025 with the toll cut from $15 to $9.",
+          "sources": ["s7", "s8"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Signed legislation in April 2025 banning pistol converters, tightening gun-dealer warning requirements, and expanding firearm/ammunition merchant-code tracking.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Signed a package of laws limiting local cooperation with ICE, barring 287(g) agreements, banning masked identity concealment by enforcement officers, and restricting immigration activity at schools, hospitals and shelters.",
+          "sources": ["s10"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Announced $20 million in state grants for abortion providers and separately moved to protect Planned Parenthood funding against federal cuts.",
+          "sources": ["s18", "s19"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Signed the 'Good Cause Eviction' law as part of the FY2025 budget, giving many tenants outside rent regulation new protections against eviction and large rent increases.",
+          "sources": ["s15"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Proposed the New York Housing Compact in 2023 to require localities to grow their housing stock and allow the state to bypass local zoning if towns missed targets; the plan died in the Assembly after opposition from suburban lawmakers.",
+          "sources": ["s16"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "mixed",
+          "summary": "Her FY2026 budget agreement said it 'does not raise income or statewide business taxes,' but that budget also extended the state's existing higher personal income-tax surcharge on top earners, originally set to expire in 2027, through 2032.",
+          "sources": ["s12", "s13"]
+        },
+        {
+          "issue": "climate",
+          "stance": "mixed",
+          "summary": "Has not repealed New York's 2019 climate law targets but in January 2025 dropped plans to move ahead with the state's 'cap-and-invest' carbon-pricing program, citing cost concerns; the delay prompted a lawsuit and a court order to issue implementing regulations.",
+          "sources": ["s14"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Joined a 24-state lawsuit against the Trump administration over tariffs, calling them a tax on families.",
+          "quote": "President Trump's illegal tariffs are nothing more than a tax on hardworking families, driving up the cost of groceries, household essentials, building materials and countless everyday goods that New Yorkers rely on.",
+          "sources": ["s17"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Directed the MTA to indefinitely pause congestion pricing, citing the cost of living, days before it was set to launch.",
+          "date": "2024-06-05",
+          "kind": "action",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Unveiled a revised congestion pricing plan cutting the base toll from $15 to $9, which took effect January 5, 2025.",
+          "date": "2024-11-14",
+          "kind": "action",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Proposed the New York Housing Compact, requiring housing-growth targets statewide; the proposal was dropped from the FY2024 budget after the Assembly rejected it.",
+          "date": "2023-04-18",
+          "kind": "action",
+          "sources": ["s16"]
+        },
+        {
+          "text": "Signed the 'Good Cause Eviction' law as part of the FY2025 enacted budget, extending eviction and rent-increase protections to many tenants outside rent regulation.",
+          "date": "2024-04-20",
+          "kind": "bill",
+          "sources": ["s15"]
+        },
+        {
+          "text": "Dropped plans to implement the state's 'cap-and-invest' carbon-pricing program in her January 2025 State of the State, delaying a key piece of New York's 2019 climate law.",
+          "date": "2025-01-15",
+          "kind": "action",
+          "sources": ["s14"]
+        },
+        {
+          "text": "Signed legislation adding pistol converters to the state's banned rapid-fire modification devices, tightening gun-dealer warning requirements, and expanding merchant-code tracking of firearm and ammunition retailers.",
+          "date": "2025-04-03",
+          "kind": "bill",
+          "sources": ["s9"]
+        },
+        {
+          "text": "Announced the FY2026 enacted budget agreement, which included roughly $1 billion in middle-class tax cuts and $2 billion in inflation-refund checks while stating it would not raise income or statewide business taxes; the budget also extended the state's higher-income tax surcharge through 2032.",
+          "date": "2025-04-28",
+          "kind": "bill",
+          "sources": ["s12", "s13"]
+        },
+        {
+          "text": "Announced state action to protect Planned Parenthood funding in New York against federal funding cuts.",
+          "date": "2025-10-24",
+          "kind": "action",
+          "sources": ["s19"]
+        },
+        {
+          "text": "Announced $20 million in New York State Supplemental Abortion Provider Support Fund grants for abortion providers.",
+          "date": "2026-03-18",
+          "kind": "action",
+          "sources": ["s18"]
+        },
+        {
+          "text": "Signed a package of laws limiting local law-enforcement cooperation with ICE, including a ban on 287(g) and detention agreements and a ban on masked identity concealment by enforcement officers in public.",
+          "date": "2026-05-28",
+          "kind": "bill",
+          "sources": ["s10"]
+        },
+        {
+          "text": "Signed the FY2027 enacted budget, including roughly $1 billion in one-time energy rebate checks, a $1.7 billion increase in child-care funding, and a new pied-à-terre tax on luxury New York City second homes worth $5 million or more.",
+          "date": "2026-05-28",
+          "kind": "bill",
+          "sources": ["s11"]
+        },
+        {
+          "text": "Joined a 24-state lawsuit against the Trump administration to block a new round of tariffs.",
+          "date": "2026-08-03",
+          "kind": "legal",
+          "sources": ["s17"]
+        }
+      ],
+      "website": "https://www.governor.ny.gov/",
+      "researchDepth": "full"
+    },
+    {
+      "id": "bruce-blakeman",
+      "name": "Bruce Blakeman",
+      "parties": ["R", "C", "Vote Affordable Party"],
+      "incumbent": false,
+      "ballotNote": "Running with Lt. Gov. candidate Todd Hood, the Madison County Sheriff. Advanced unopposed in the Republican and Conservative primaries after Elise Stefanik withdrew and Trump endorsed Blakeman.",
+      "currentRole": "Nassau County Executive (since January 2022)",
+      "summary": {
+        "text": "Bruce Blakeman is the Nassau County Executive, elected in 2021, and the Republican and Conservative Party nominee for governor with running mate Todd Hood. His campaign centers on rolling back congestion pricing, cutting taxes, and public safety, building on a record as county executive that includes freezing county property taxes, hiring hundreds of additional police officers, and an executive order — later struck down and reenacted as a county law that is being challenged in court — banning transgender athletes from girls' and women's sports at county facilities. He describes himself as a pro-choice Republican.",
+        "sources": ["s3", "s25", "s24", "s22", "s29"]
+      },
+      "background": [
+        {
+          "text": "Born in Oceanside and raised in Valley Stream, Nassau County; earned a B.A. from Arizona State University and a J.D. from California Western School of Law.",
+          "sources": ["s27", "s3"]
+        },
+        {
+          "text": "Served on the Nassau County Legislature representing the 7th district, 1995–1999, and was the legislature's first presiding officer; later served as a Hempstead Town Councilman.",
+          "sources": ["s27"]
+        },
+        {
+          "text": "Served more than eight years as a Commissioner of the Port Authority of New York and New Jersey.",
+          "sources": ["s27"]
+        },
+        {
+          "text": "Won the Republican nomination for New York's 4th Congressional District in 2014 but lost the general election to Kathleen Rice, 52.8% to 47.1%.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Elected Nassau County Executive on November 2, 2021, defeating incumbent Laura Curran; took office January 1, 2022, as the county's first Jewish county executive.",
+          "sources": ["s27"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Cutting taxes and delivering property-tax relief, citing his record freezing Nassau County property taxes for four straight years without raising them.",
+          "quote": "I'm looking to cut taxes — not raise them.",
+          "sources": ["s22", "s25"]
+        },
+        {
+          "text": "Strengthening public safety, including hiring more police and opposing cashless bail and 'Raise the Age' laws.",
+          "sources": ["s25"]
+        },
+        {
+          "text": "Ending state sanctuary policies and cooperating with federal immigration authorities to remove people with criminal convictions, while opposing ICE raids at schools, houses of worship and day-care centers.",
+          "quote": "I have told ICE, we will work together with you, but we will not be in favor of raids on schools, on houses of worships, on day care centers.",
+          "sources": ["s23", "s25"]
+        },
+        {
+          "text": "Rolling back congestion pricing, which he says taxes drivers for using roads they already paid for.",
+          "quote": "In Hochul's New York, you now pay a tax just to drive on a public road you already paid for.",
+          "sources": ["s24"]
+        },
+        {
+          "text": "Opposing New York's 2019 climate law, which he calls a 'green energy scam,' and supporting natural gas drilling to lower energy costs.",
+          "quote": "Drill, baby drill.",
+          "sources": ["s22"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "congestion_pricing",
+          "stance": "opposes",
+          "summary": "Made rolling back congestion pricing a central campaign theme, warning tolling could expand beyond Manhattan.",
+          "quote": "In Hochul's New York, you now pay a tax just to drive on a public road you already paid for.",
+          "sources": ["s24"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says he wants to cut taxes rather than raise them, pointing to freezing Nassau County property taxes and vetoing over $150 million in tax increases approved by his predecessor.",
+          "quote": "I'm looking to cut taxes — not raise them.",
+          "sources": ["s22", "s29"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports working with ICE to remove people with criminal convictions and opposed New York's sanctuary policies, but says he opposes immigration raids at schools, houses of worship and day-care centers.",
+          "quote": "I have told ICE, we will work together with you, but we will not be in favor of raids on schools, on houses of worships, on day care centers.",
+          "sources": ["s23"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Calls New York's climate law a 'green energy scam,' opposes the state's offshore wind projects, and supports natural gas drilling and fracking to lower energy costs.",
+          "quote": "Drill, baby drill.",
+          "sources": ["s22", "s23"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Describes himself as a pro-choice Republican and says abortion decisions should be left to a woman and her doctor.",
+          "quote": "I'm a pro-choice Republican.",
+          "sources": ["s22"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he has hired more than 600 additional law-enforcement officers as Nassau County Executive and pledges to back police as governor.",
+          "quote": "As governor, I will stand with our police, not against them.",
+          "sources": ["s24", "s25"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Issued an executive order, 'Fairness for Women and Girls in Sports,' barring the Nassau County Department of Parks, Recreation and Museums from issuing permits to women's or girls' sports teams that include transgender players.",
+          "date": "2024-02-22",
+          "kind": "action",
+          "sources": ["s20"]
+        },
+        {
+          "text": "Nassau County Supreme Court struck down the executive order on May 14, 2024, ruling Blakeman lacked authority to act without the county legislature.",
+          "date": "2024-05-14",
+          "kind": "legal",
+          "sources": ["s20b"]
+        },
+        {
+          "text": "Signed Local Law 121-24 on July 15, 2024, re-enacting the transgender-athlete ban at county facilities as county law; the New York Attorney General and the NYCLU immediately filed lawsuits seeking to invalidate it.",
+          "date": "2024-07-15",
+          "kind": "bill",
+          "sources": ["s20b"]
+        },
+        {
+          "text": "Froze Nassau County property taxes for a fourth consecutive year in his proposed FY2025 county budget while adding more than 50 new police officers.",
+          "date": "2024-09-22",
+          "kind": "action",
+          "sources": ["s29"]
+        },
+        {
+          "text": "Has hired more than 600 law-enforcement officers since taking office in 2022 and says he vetoed over $150 million in property-tax increases approved by his predecessor, Laura Curran.",
+          "kind": "action",
+          "sources": ["s29"]
+        }
+      ],
+      "website": "https://www.blakemanfornewyork.com/",
+      "researchDepth": "full"
+    },
+    {
+      "id": "jonathan-makeley",
+      "name": "Jonathan Makeley",
+      "parties": ["Prohibition Party"],
+      "incumbent": false,
+      "ballotNote": "Declared write-in candidate; New York's ballot-access laws make it very difficult for minor parties to get a printed line, so Makeley is running his campaign as a write-in.",
+      "summary": {
+        "text": "Jonathan Makeley is a Western New York historian and chair of the Prohibition Party of New York, running a declared write-in campaign for governor — the party's first gubernatorial candidate in New York since 1926. His campaign centers on treating alcohol, tobacco and other drugs as public-health issues, reforming state ballot-access laws, and increasing state support for public education.",
+        "sources": ["s30", "s32"]
+      },
+      "background": [
+        {
+          "text": "Holds a B.A. in history from Alfred University and master's degrees in history and library/information science from the University at Buffalo; works as a historian focused on American reform movements.",
+          "sources": ["s30"]
+        },
+        {
+          "text": "Serves as chair of the Prohibition Party of New York and as the national party's Secretary.",
+          "sources": ["s30"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Treating alcohol, tobacco and other drug use as public-health problems, with expanded funding for prevention, treatment and cessation programs.",
+          "sources": ["s32"]
+        },
+        {
+          "text": "Reforming state ballot-access laws he says were made more restrictive under Gov. Andrew Cuomo, strengthening the independence of the state redistricting commission, and banning partisan gerrymandering.",
+          "sources": ["s32"]
+        },
+        {
+          "text": "Increasing state aid to schools and expanding the state's Tuition Assistance Program toward tuition-free college or vocational education.",
+          "sources": ["s32"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "Write-in candidate with no prior elected office; limited independent press coverage. Priorities are drawn from his own Ballotpedia Candidate Connection survey answers; no documented positions on the guide's fixed issue list were found."
+    },
+    {
+      "id": "jean-anglade",
+      "name": "Jean Anglade",
+      "parties": ["Independent"],
+      "incumbent": false,
+      "ballotNote": "Declared write-in candidate running as an independent.",
+      "summary": {
+        "text": "Jean Anglade, a New York City entrepreneur who ran for Mayor of New York City in 2025, is running a write-in campaign for governor as an independent. No campaign website or public statements specific to the 2026 governor's race were found.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Born in New York; earned a high school diploma from Alif Muhammad Nia School; works as an entrepreneur, including with Celebs123 Auto Tags.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Ran in the 2025 general election for Mayor of New York City, which was won by Zohran Mamdani.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website or public statements specific to the 2026 governor's race were found. Background is drawn from his Ballotpedia page and his 2025 New York City mayoral candidacy; his priorities from that unrelated race are not included here since they do not describe his platform for governor."
+    }
+  ],
+  "sources": [
+    {"id": "s1", "url": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026", "title": "New York gubernatorial and lieutenant gubernatorial election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2", "url": "https://ballotpedia.org/Kathy_Hochul", "title": "Kathy Hochul", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s3", "url": "https://ballotpedia.org/Bruce_Blakeman", "title": "Bruce Blakeman", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s4", "url": "https://ballotpedia.org/Jean_Anglade", "title": "Jean Anglade", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s5", "url": "https://thehill.com/homenews/campaign/5658614-trump-endorses-blakeman-ny-governor/", "title": "Trump endorses GOP's Blakeman for New York governor a day after Stefanik exits race", "publisher": "The Hill", "kind": "news", "date": "2025-12-20"},
+    {"id": "s6", "url": "https://www.cbsnews.com/news/stefanik-exits-new-york-governors-trump-neutral-bitter-gop-primary/", "title": "Stefanik exits New York governor's race after Trump stays neutral and worries flare about a bitter primary", "publisher": "CBS News", "kind": "news", "date": "2025-12-19"},
+    {"id": "s7", "url": "https://www.governor.ny.gov/news/what-they-are-saying-governor-hochul-announces-pause-congestion-pricing-address-rising-cost", "title": "What They Are Saying: Governor Hochul Announces Pause on Congestion Pricing to Address the Rising Cost of Living in New York", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2024-06-05"},
+    {"id": "s8", "url": "https://www.governor.ny.gov/news/putting-commuters-first-keeping-costs-down-governor-hochul-unveils-plans-future-transit-and", "title": "Putting Commuters First, Keeping Costs Down: Governor Hochul Unveils Plans for Future of Transit and Traffic in New York City, Including a 40 Percent Reduction in Congestion Pricing Tolls", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2024-11-14"},
+    {"id": "s9", "url": "https://www.governor.ny.gov/news/safer-streets-governor-hochul-signs-legislation-strengthening-new-yorks-gun-safety-laws-and", "title": "Safer Streets: Governor Hochul Signs Legislation Strengthening New York's Gun Safety Laws", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2025-04-03"},
+    {"id": "s10", "url": "https://www.governor.ny.gov/news/governor-hochul-signs-comprehensive-immigration-plan-protect-new-yorkers-against-ice", "title": "Governor Hochul Signs Comprehensive Immigration Plan to Protect New Yorkers Against ICE", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2026-05-28"},
+    {"id": "s11", "url": "https://www.governor.ny.gov/news/governor-hochul-signs-budget-makes-new-york-more-affordable-keeps-new-yorkers-safe-and-expands", "title": "Governor Hochul Signs Budget That Makes New York More Affordable, Keeps New Yorkers Safe and Expands Opportunity for All", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2026-05-28"},
+    {"id": "s12", "url": "https://www.governor.ny.gov/news/governor-hochul-announces-agreement-fy-2026-state-budget", "title": "Governor Hochul Announces Agreement on FY 2026 State Budget", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2025-04-28"},
+    {"id": "s13", "url": "https://www.politifact.com/factchecks/2025/dec/11/elise-stefanik/hochul-has-extended-higher-taxes-on-wealthy-indivi/", "title": "Hochul has extended higher taxes on wealthy individuals", "publisher": "PolitiFact", "kind": "news", "date": "2025-12-11"},
+    {"id": "s14", "url": "https://nysfocus.com/2025/01/15/state-of-state-climate-cap-and-invest", "title": "Hochul's 'Bait and Switch' on Climate: State of the State 2025", "publisher": "New York Focus", "kind": "news", "date": "2025-01-15"},
+    {"id": "s15", "url": "https://therealdeal.com/new-york/2024/04/23/how-hochul-played-the-good-cause-eviction-game-and-won/", "title": "Good Cause Eviction: Win for NY Gov. Hochul", "publisher": "The Real Deal", "kind": "news", "date": "2024-04-23"},
+    {"id": "s16", "url": "https://nysfocus.com/2023/04/18/hochul-housing-compact-dead-assembly-budget/", "title": "The State Assembly Is Foreclosing Hochul's Housing Supply Plan", "publisher": "New York Focus", "kind": "news", "date": "2023-04-18"},
+    {"id": "s17", "url": "https://governor.ny.gov/news/governor-hochul-and-attorney-general-james-announce-lawsuit-against-trump-administration-stop", "title": "Governor Hochul and Attorney General James Announce Lawsuit Against Trump Administration to Stop Latest Round of Illegal Tariffs", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2026-08-03"},
+    {"id": "s18", "url": "https://www.governor.ny.gov/news/governor-hochul-announces-new-funding-opportunity-abortion-health-care-services", "title": "Governor Hochul Announces New Funding Opportunity for Abortion Health Care Services", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2026-03-18"},
+    {"id": "s19", "url": "https://www.governor.ny.gov/news/governor-hochul-steps-protect-critical-health-care-provided-planned-parenthood-face-federal", "title": "Governor Hochul Steps in to Protect Critical Health Care Provided by Planned Parenthood in Face of Federal Cuts", "publisher": "Office of Governor Kathy Hochul", "kind": "official", "date": "2025-10-24"},
+    {"id": "s20", "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-demands-nassau-county-executive-blakeman-rescind-illegal", "title": "Attorney General James Demands Nassau County Executive Blakeman Rescind Illegal and Transphobic Executive Order", "publisher": "Office of the New York Attorney General", "kind": "official", "date": "2024-03-01"},
+    {"id": "s20b", "url": "https://ag.ny.gov/press-release/2024/attorney-general-james-sues-nassau-county-over-discriminatory-law-banning", "title": "Attorney General James Sues Nassau County Over Discriminatory Law Banning Transgender Women from Participating in Women's Sports at County Parks and Facilities", "publisher": "Office of the New York Attorney General", "kind": "official", "date": "2024-07-15"},
+    {"id": "s22", "url": "https://www.aol.com/news/bruce-blakeman-reveals-one-issue-195807053.html", "title": "Bruce Blakeman reveals one issue 'off the table' in NY governor race as he slams Hochul's 'green energy scam'", "publisher": "New York Post (via AOL)", "kind": "news", "date": "2025-12-21"},
+    {"id": "s23", "url": "https://www.yahoo.com/news/articles/blakeman-attacks-hochul-utility-costs-214008618.html", "title": "Blakeman attacks Hochul on utility costs, defends ICE stance", "publisher": "Times Union (via Yahoo News)", "kind": "news", "date": "2026-02-02"},
+    {"id": "s24", "url": "https://www.longislandpress.com/2026/02/12/blakeman-nomination-governor/", "title": "Bruce Blakeman accepts GOP nomination for New York governor", "publisher": "Long Island Press", "kind": "news", "date": "2026-02-12"},
+    {"id": "s25", "url": "https://www.blakemanfornewyork.com/", "title": "Bruce Blakeman for Governor | Lower Taxes & Safe Streets", "publisher": "Blakeman for New York campaign", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s27", "url": "https://www.nassaucountyny.gov/481/County-Executive", "title": "County Executive", "publisher": "Nassau County, New York (official website)", "kind": "official", "date": "2026-09-25"},
+    {"id": "s29", "url": "https://www.aol.com/nassau-exec-bruce-blakeman-submits-231615119.html", "title": "Nassau Exec Bruce Blakeman submits $4.2B county budget — featuring no tax hike and more cops", "publisher": "Newsday (via AOL)", "kind": "news", "date": "2024-09-22"},
+    {"id": "s30", "url": "https://independentpoliticalreport.com/2026/06/prohibition-party-of-new-york-chair-jonathan-makeley-announces-write-in-campaign-for-governor/", "title": "Prohibition Party of New York Chair Jonathan Makeley Announces Write-In Campaign for Governor", "publisher": "Independent Political Report", "kind": "news", "date": "2026-06-01"},
+    {"id": "s32", "url": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026", "title": "Jonathan Makeley's Ballotpedia Candidate Connection survey responses", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25"}
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Todd Hood (R/C, running mate to Blakeman) and Adrienne Adams (D/WFP, running mate to Hochul) are elected jointly with the governor candidate and are not listed as separate entries per the guide's convention. New York's Democratic, Republican, Conservative and Working Families primaries were all canceled after challengers withdrew, so no contested June 2026 primary vote totals exist to report."
+}

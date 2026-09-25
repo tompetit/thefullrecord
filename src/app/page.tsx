@@ -16,15 +16,25 @@ export default async function Home() {
       <header className="flex items-center justify-between px-[26px] pt-5 lg:px-10">
         <Wordmark className="text-[20px]" />
         <nav className="hidden items-center gap-6 font-sans text-[13px] text-ink-60 lg:flex">
-          <Link href="#" className="hover:text-ink">Bills</Link>
-          <Link href="#" className="hover:text-ink">How it works</Link>
-          <Link href="#" className="hover:text-ink">About</Link>
+          <Link href="/guide" className="font-semibold text-ink hover:underline">2026 Voter guide</Link>
+          <Link href="/guide/match" className="hover:text-ink">What matters to me</Link>
+          <Link href="/guide/methodology" className="hover:text-ink">How it works</Link>
         </nav>
       </header>
 
       <div className="mx-auto grid w-full max-w-6xl flex-1 grid-cols-1 gap-[70px] px-[26px] pt-14 lg:grid-cols-[1fr_400px] lg:px-10 lg:pt-20">
         {/* Hero + lookup */}
         <section>
+          <Link
+            href="/guide"
+            className="mb-8 flex items-center justify-between gap-3 rounded-[10px] border-[1.5px] border-accent bg-accent-tint px-4 py-3 font-sans text-[13.5px] text-accent-deep hover:bg-paper-raised"
+          >
+            <span>
+              <b>Election Day is Nov 3.</b> See every candidate on your ballot —
+              records, votes, and positions, all sourced.
+            </span>
+            <span className="whitespace-nowrap font-bold">Voter guide →</span>
+          </Link>
           <h1 className="font-serif text-[33px] font-semibold leading-[1.18] tracking-[-0.015em] text-ink text-pretty lg:text-[50px]">
             Every level.
             <br />

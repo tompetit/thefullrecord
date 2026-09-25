@@ -1,0 +1,81 @@
+{
+  "id": "nyc-prop-2",
+  "state": "NY",
+  "officeType": "ballot-measure",
+  "office": "New York City Charter Amendment",
+  "title": "Proposal 2: Reduce City Contractor Paperwork; Require Regular Meetings of Procurement Policy Board",
+  "area": "New York City",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is one of five charter amendment questions placed on the November 2026 ballot by the Commission on Government Efficiency (COGE), the 2026 New York City Charter Revision Commission created by Mayor Zohran Mamdani in May 2026 and chaired by Patrick Gaspard.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "Proposed Charter Amendment: Reduce City Contractor Paperwork; Require Regular Meetings of Procurement Policy Board. Reduce paperwork for City contractors by authorizing Procurement Policy Board to simplify contractor questionnaire. Require quarterly meetings of the Procurement Policy Board. Remove mandatory hearing for required client services report. \"Yes\" amends Procurement Policy Board authority, including to simplify contractor questionnaire; authorizes Mayor to delegate certain contract approvals. \"No\" leaves laws unchanged, with Mayor and Comptroller maintaining longer questionnaire.",
+      "sources": ["s1"]
+    },
+    "summary": {
+      "text": "The amendment would authorize the Procurement Policy Board to simplify the City's pre-contracting questionnaire for vendors and nonprofits, require the Board to meet quarterly, let the Mayor delegate certain contract approvals to individual agencies, and remove the mandatory public hearing currently required for a contractor's client services report (replacing it with a public comment period). COGE estimates the changes would save up to 30 days on procurements.",
+      "sources": ["s1", "s2"]
+    },
+    "yesMeans": "Amends the City Charter to authorize the Procurement Policy Board to simplify the contractor questionnaire, require quarterly Board meetings, allow the Mayor to delegate certain contract approvals to agencies, and remove the mandatory hearing for the client services report.",
+    "noMeans": "Leaves the Charter unchanged: the Mayor and Comptroller keep the current, longer contractor questionnaire process, the Procurement Policy Board is not required to meet quarterly, and a mandatory hearing remains for the client services report.",
+    "argumentsFor": [
+      {
+        "text": "\"I'm grateful to see more streamlining of the procurement process in these ballot proposals,\" said Linda McPherson, President of Local 95 Head Start Employees, describing payment delays that stem from contracting bureaucracy.",
+        "sources": ["s2"]
+      },
+      {
+        "text": "\"We applaud the Committee's ballot proposals to make the City's procurement and award process more efficient so that the workers who deliver these important services are no longer left in the dark about the security of their next paycheck,\" said Robert Ramos, President of Local 205 Day Care Employees.",
+        "sources": ["s2"]
+      },
+      {
+        "text": "\"Streamlining processes like the pre-contracting questionnaire and mandating PPB meetings through charter amendment ... are crucial steps toward a more efficient and accountable City government,\" said Michelle Jackson, Executive Director of the Human Services Council.",
+        "sources": ["s2"]
+      },
+      {
+        "text": "\"The mayor has talked a lot about excellence in government, and part of that excellence is speed,\" said Andrew Rein, president of the Citizens Budget Commission.",
+        "sources": ["s3"]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "\"There's no one change that could be made that will magically unlock city contracting timelines,\" said Tal Roded, a data scientist who has studied city contracting for Manhattan Community Board 3, adding: \"But I think only shaving 30 days off when it's as long as it is really shows there's a lot more work to be done,\" noting the median City contract takes 387 days.",
+        "sources": ["s3"]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/appendix_a_poposed_ballot_questions_20260723.pdf",
+      "title": "Appendix A: Proposed Questions, 2026 Charter Revision Commission",
+      "publisher": "New York City Charter Revision Commission (COGE)",
+      "kind": "official",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.nyc.gov/mayors-office/news/2026/07/coge-releases-5-ballot-proposals-and-final-report-to-make-govern",
+      "title": "COGE Releases 5 Ballot Proposals and Final Report to Make Government Work Better for New Yorkers",
+      "publisher": "NYC Mayor's Office",
+      "kind": "official",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.thecityreporter.nyc/2026/09/23/ballot-questions-voting-november-election/",
+      "title": "What to Know About NYC's 5 Ballot Proposals Ahead of Election Day",
+      "publisher": "The City Reporter",
+      "kind": "news",
+      "date": "2026-09-23"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Official ballot question text and yes/no framing are taken verbatim from the Charter Revision Commission's Appendix A filing."
+}

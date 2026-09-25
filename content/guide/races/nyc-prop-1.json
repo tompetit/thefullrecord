@@ -1,0 +1,88 @@
+{
+  "id": "nyc-prop-1",
+  "state": "NY",
+  "officeType": "ballot-measure",
+  "office": "New York City Charter Amendment",
+  "title": "Proposal 1: Speed Up Process for Granting a Revocable Consent to Use Public Space",
+  "area": "New York City",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is one of five charter amendment questions placed on the November 2026 ballot by the Commission on Government Efficiency (COGE), the 2026 New York City Charter Revision Commission created by Mayor Zohran Mamdani in May 2026 and chaired by Patrick Gaspard. COGE held 10 public hearings across the five boroughs before adopting its final proposals on July 23, 2026.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "Proposed Charter Amendment: Speed Up Process for Granting a Revocable Consent to Use Public Space. Simplify process to use public space for uses such as ramps, planters and cafes, by removing mandatory hearings and Council disapproval of sidewalk cafes, while maintaining community and Council input. \"Yes\" speeds up process to use public space while maintaining community input. \"No\" maintains longer process with mandatory public hearing to use public space and Council review of sidewalk cafes.",
+      "sources": ["s1"]
+    },
+    "summary": {
+      "text": "The amendment would combine the City's separate sidewalk-café and roadway-dining \"revocable consent\" application processes into a single application and modernize public notice requirements. It removes the current requirement for a mandatory public hearing before a revocable consent for public space (such as ramps, planters, or benches) is granted, and removes City Council review and potential disapproval of sidewalk café applications, while keeping a role for community input. COGE says the change would cut the outdoor-dining application timeline from about eight months to about two months and save small businesses up to $1,800 in application costs.",
+      "sources": ["s1", "s2"]
+    },
+    "yesMeans": "Amends the City Charter to combine the sidewalk café and roadway dining application processes, remove the requirement for a mandatory public hearing to use public space, and remove City Council disapproval review of sidewalk café applications, while maintaining community and Council input.",
+    "noMeans": "Leaves the Charter unchanged: uses of public space continue to require a mandatory public hearing, and the City Council retains review of sidewalk café applications.",
+    "argumentsFor": [
+      {
+        "text": "\"New Yorkers love outdoor dining, and our small businesses shouldn't have to navigate an eight-month bureaucratic maze to make it happen,\" said Sara Lind, Co-Executive Director of Open Plans.",
+        "sources": ["s2"]
+      },
+      {
+        "text": "\"Making the permitting process more efficient allows restaurant owners to spend more time investing in their businesses and less time navigating paperwork. Streamlining this process will help more restaurants strengthen our commercial corridors and continue serving New Yorkers,\" said Sandra Jaquez, President of the NYS Latino Restaurant Association.",
+        "sources": ["s2"]
+      },
+      {
+        "text": "COGE Chair Patrick Gaspard said the commission's proposals, including this one, \"would help make our city more affordable and livable for working New Yorkers,\" citing simplified processes for uses like outdoor dining.",
+        "sources": ["s2"]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "A spokesperson for City Council Speaker Julie Menin, Henry Robins, said of COGE's ballot package as a whole: \"In just a few weeks, the commission developed a series of sweeping changes to city government with far-reaching implications for oversight, transparency, and public accountability.\"",
+        "sources": ["s3"]
+      },
+      {
+        "text": "Good-government group Citizens Union, while calling COGE's reforms \"important and timely,\" warned that the commission's compressed timeline for producing ballot questions was \"even shorter than the one used by a widely criticized commission Adams convened in 2024\" and recommended the state set minimum deliberation timelines for future charter revision commissions.",
+        "sources": ["s4"]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/appendix_a_poposed_ballot_questions_20260723.pdf",
+      "title": "Appendix A: Proposed Questions, 2026 Charter Revision Commission",
+      "publisher": "New York City Charter Revision Commission (COGE)",
+      "kind": "official",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.nyc.gov/mayors-office/news/2026/07/coge-releases-5-ballot-proposals-and-final-report-to-make-govern",
+      "title": "COGE Releases 5 Ballot Proposals and Final Report to Make Government Work Better for New Yorkers",
+      "publisher": "NYC Mayor's Office",
+      "kind": "official",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.thecityreporter.nyc/2026/07/23/mamdani-government-efficiency-committee-proposals-coge/",
+      "title": "Mamdani's Government Efficiency Panel Approves 5 NYC Ballot Proposals",
+      "publisher": "The City Reporter",
+      "kind": "news",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.amny.com/news/coge-mamdani-replaces-adams-charter-commission/",
+      "title": "COGE, not DOGE: Mamdani replaces Adams-era charter commission with his own government efficiency panel",
+      "publisher": "amNewYork",
+      "kind": "news"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Official ballot question text and yes/no framing are taken verbatim from the Charter Revision Commission's Appendix A filing. No source found with opposition arguments specific to Proposal 1 by name; the cited criticisms address the COGE ballot package's process and oversight implications generally rather than this question alone."
+}

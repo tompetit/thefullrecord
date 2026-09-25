@@ -1,0 +1,154 @@
+{
+  "id": "us-house-ny-17",
+  "state": "NY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "17",
+  "title": "U.S. House · New York's 17th Congressional District",
+  "area": "Lower Hudson Valley, covering Rockland and Putnam counties and parts of Westchester and Dutchess counties, north of New York City.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Cait Conley won the June 23, 2026 Democratic primary over Beth Davidson, Effie Phillips-Staley, John Cappello, and Mike Sacks, 49.5% to 31.8% and lower totals for the others. Phillips-Staley separately won the Working Families Party primary but subsequently withdrew from the November general-election ballot; Conley is the WFP nominee as well as the Democratic nominee. Incumbent Michael Lawler advanced unopposed on the Republican and Conservative Party lines after his primary was canceled.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Lawler defeated then-incumbent Sean Patrick Maloney 50.3% to 49.7% in 2022 (under different district lines) and won re-election 52.1% to 45.8% in 2024, the same year Kamala Harris carried the district 49.9% to 49.3%. As of September 22, 2026, all four major forecasters (Cook Political Report, Decision Desk, Inside Elections, Sabato's Crystal Ball) rated the general election a \"Toss-up.\" As of June 30, 2026, Lawler had raised $8.17 million to Conley's $4.32 million.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "michael-lawler",
+      "name": "Michael Lawler",
+      "parties": ["R", "C"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for NY-17 (since 2023)",
+      "summary": {
+        "text": "Michael Lawler is the incumbent U.S. Representative for New York's 17th Congressional District, elected in 2022 after two years in the New York State Assembly. He sits on the House Financial Services Committee and the House Foreign Affairs Committee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Suffern, New York; earned a bachelor's degree in business administration from Manhattan College in 2009.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a staffer for Westchester County Executive Rob Astorino, as executive director of the New York Republican State Committee, and as deputy town supervisor of Orangetown before serving in the New York State Assembly (2021-2023).",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign material emphasizes constituent service and a record he describes as bipartisan, citing funding increases for Hudson Valley schools and tax relief for middle-class families he says he secured in the state Assembly.",
+          "quote": "In the NYS Assembly, he secured historic funding increases for Hudson Valley schools, delivered tax relief for middle-class families, and fought for law enforcement and first responders.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Says he has opposed New York City congestion pricing and what he calls mandated suburban overdevelopment and cuts to local schools pushed by state and city officials.",
+          "quote": "Mike has fought to hold radical politicians in Albany and New York City accountable, so they stop using Hudson Valley taxpayers as their own personal ATM – fighting against congestion pricing, mandated suburban overdevelopment, and cuts to local schools.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "congestion_pricing",
+          "stance": "opposes",
+          "summary": "Has campaigned against Manhattan congestion pricing as a policy imposed on Hudson Valley commuters and taxpayers.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Financial Services Committee (Capital Markets; Housing and Insurance subcommittees) and the House Foreign Affairs Committee (Europe; Middle East, North Africa, and Central Asia subcommittees) as of the 2023-2024 session.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Represented the 97th District in the New York State Assembly from 2021 to 2023 before his election to Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://lawlerforny.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "cait-conley",
+      "name": "Cait Conley",
+      "parties": ["D", "WFP"],
+      "incumbent": false,
+      "ballotNote": "Won the June 23 Democratic primary",
+      "summary": {
+        "text": "Cait Conley is a U.S. Army veteran and former White House National Security Council and Cybersecurity and Infrastructure Security Agency official running as the Democratic and Working Families Party nominee for NY-17. She won the June 23, 2026 Democratic primary in a five-way field.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from the U.S. Military Academy at West Point and master's degrees from MIT and Harvard University.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served 16 years in the U.S. Army; later served on the White House National Security Council and at the Cybersecurity and Infrastructure Security Agency (CISA) during the Biden administration.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign website lists education investment (affordable childcare, universal pre-K, capping student-loan interest rates, opposing voucher programs) and rebuilding aging infrastructure as priorities.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "In a campaign ad, framed her candidacy as opposition to the current direction of national politics and to Lawler specifically.",
+          "quote": "I fought for my country. Fought to protect our democracy. And now I'm ready to fight for New Yorkers.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Opposes voucher programs, saying they strip funding from public education.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Supports increasing access to affordable childcare through federal subsidies and tax credits and investing in universal pre-K.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://caitconley.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York%27s_17th_Congressional_District_election,_2026",
+      "title": "New York's 17th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Michael_Lawler_(New_York)",
+      "title": "Michael Lawler (New York)",
+      "publisher": "Ballotpedia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Cait_Conley",
+      "title": "Cait Conley",
+      "publisher": "Ballotpedia",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "Effie Phillips-Staley won the June 23 Working Families Party primary but withdrew from the November general-election ballot and is not included here; Cait Conley holds the WFP line as well as the Democratic line. Neither Lawler nor Conley had completed a 2026 Ballotpedia Candidate Connection survey as of research date; their priorities and positions draw on campaign-website material republished by Ballotpedia."
+}

@@ -1,0 +1,73 @@
+{
+  "id": "nyc-prop-5",
+  "state": "NY",
+  "officeType": "ballot-measure",
+  "office": "New York City Charter Amendment",
+  "title": "Proposal 5: Set Contribution Targets for Rainy Day Fund to Promote Sufficient Budgetary Reserves",
+  "area": "New York City",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is one of five charter amendment questions placed on the November 2026 ballot by the Commission on Government Efficiency (COGE), the 2026 New York City Charter Revision Commission created by Mayor Zohran Mamdani in May 2026 and chaired by Patrick Gaspard.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "Proposed Charter Amendment: Set Contribution Targets for Rainy Day Fund to Promote Sufficient Budgetary Reserves. Set target amount of money to hold in reserve funds, including rainy day fund, to address unexpected financial hardships in future years, and require development of methodology to calculate contributions. \"Yes\" requires Mayor to develop methodology for calculating deposits to rainy day fund, with deposits subject to approval in the City budget. \"No\" leaves laws unchanged, with no reserves target.",
+      "sources": ["s1"]
+    },
+    "summary": {
+      "text": "The amendment would set a target for the City to hold in reserve funds -- including the rainy day fund -- equal to 12% of the City's total tax revenues, intended to help the City weather unexpected financial downturns. It would require the Mayor's Office of Management and Budget, in consultation with the Comptroller, to develop a methodology for calculating the City's deposits toward that target; deposits would still be subject to approval in the annual City budget. New York City currently has no charter-mandated reserve target.",
+      "sources": ["s1", "s2"]
+    },
+    "yesMeans": "Amends the City Charter to set a 12%-of-tax-revenue target for the City's reserve funds and require the Mayor's budget office, with the Comptroller, to develop a methodology for calculating contributions toward that target, with deposits still subject to budget approval.",
+    "noMeans": "Leaves the Charter unchanged: the City has no mandated reserve-fund target and no required methodology for rainy day fund contributions.",
+    "argumentsFor": [
+      {
+        "text": "The fifth ballot proposal \"establishes reserves target of 12%, aimed at ensuring long-term fiscal stability,\" and would require the Mayor's Office of Management and Budget, in consultation with the Comptroller, \"to establish a deposit formula that would govern mandatory contributions to the rainy day fund,\" according to the Commission on Government Efficiency's release announcing the proposals.",
+        "sources": ["s2"]
+      },
+      {
+        "text": "\"Cutting nonprofit and small business procurement time by more than half, adding a formal rainy-day fund ... are exactly the kinds of reforms our industry has been calling for,\" said Carlo A. Scissura, President & CEO of the New York Building Congress, addressing the ballot package including this proposal.",
+        "sources": ["s2"]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "\"As written, city policy could allow withdrawals for practically any reason and avoid deposits even when revenues are strong,\" said Andrew Rein, president of the Citizens Budget Commission, who called the proposal \"deeply disappointing\" and said he plans to vote against it because he believes the 12% reserve benchmark is too low.",
+        "sources": ["s3"]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/appendix_a_poposed_ballot_questions_20260723.pdf",
+      "title": "Appendix A: Proposed Questions, 2026 Charter Revision Commission",
+      "publisher": "New York City Charter Revision Commission (COGE)",
+      "kind": "official",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.nyc.gov/mayors-office/news/2026/07/coge-releases-5-ballot-proposals-and-final-report-to-make-govern",
+      "title": "COGE Releases 5 Ballot Proposals and Final Report to Make Government Work Better for New Yorkers",
+      "publisher": "NYC Mayor's Office",
+      "kind": "official",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.thecityreporter.nyc/2026/07/23/mamdani-government-efficiency-committee-proposals-coge/",
+      "title": "Mamdani's Government Efficiency Panel Approves 5 NYC Ballot Proposals",
+      "publisher": "The City Reporter",
+      "kind": "news",
+      "date": "2026-07-23"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Official ballot question text and yes/no framing are taken verbatim from the Charter Revision Commission's Appendix A filing."
+}
