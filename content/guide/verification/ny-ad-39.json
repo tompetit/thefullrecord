@@ -1,0 +1,14 @@
+{
+  "raceId": "ny-ad-39",
+  "checkedAt": "2026-09-25",
+  "claimsChecked": 30,
+  "corrected": 0,
+  "removed": 1,
+  "unverifiable": 0,
+  "notes": [
+    "Removed candidate Yonel Letellier Sosa entirely: Ballotpedia's District 39 general-election page lists him under \"Withdrawn or disqualified candidates\" for the Affordable & Safe Party line, so he is not actually on the Nov 3, 2026 ballot despite the file's prior claim; updated the context paragraph and researchNotes accordingly and dropped his now-unused source.",
+    "Verified the Democratic primary result (Cruz 90.9% - Letellier Sosa 8.1%), the D/WFP vs R/4 Our Immigrants Party general-election slate, and Frias's withdrawn Conservative Party attempt against Ballotpedia's current race page.",
+    "Verified Catalina Cruz's committee assignments, biography, all five sponsored-bill records (A00270, A00176, A10021, A08516, A00352) and both floor-vote records (S3460 92-49 on 5/19/26, S10113 88-53 on 6/5/26) directly against nyassembly.gov bill pages and floor-vote roll calls, including confirming Cruz's individual 'yes' vote on each via the assembly's own roll-call table (cross-checked against the repo's assembly-ny.json snapshot) — all matched exactly, no corrections needed.",
+    "Note for reviewers: this file changed on disk after this check was completed (apparently by a separate process) — the version now on disk has dropped the two floor-vote record items (S3460, S10113) and their sources (s11, s12) that this verification confirmed as accurate; that removal does not reflect an actual accuracy problem found during this check."
+  ]
+}
