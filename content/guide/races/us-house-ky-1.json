@@ -1,0 +1,104 @@
+{
+  "id": "us-house-ky-1",
+  "state": "KY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Kentucky's 1st District",
+  "area": "Western Kentucky, including Paducah, Bowling Green's western suburbs, and the Jackson Purchase and Pennyrile regions.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [],
+  "candidates": [
+    {
+      "id": "james-comer",
+      "name": "James Comer",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Ran unopposed and advanced from the May 19, 2026 Republican primary.",
+      "currentRole": "U.S. Representative, Kentucky's 1st District (since 2016); Chair, House Committee on Oversight and Government Reform",
+      "summary": {
+        "text": "James Comer is the Republican incumbent for Kentucky's 1st Congressional District, first elected in a 2016 special election. He chairs the House Committee on Oversight and Government Reform and previously served as Kentucky Commissioner of Agriculture and in the Kentucky House of Representatives.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in agriculture from Western Kentucky University in 1993.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the Kentucky House of Representatives, District 53, from 2001 to 2012, and as Kentucky Commissioner of Agriculture from 2012 to 2016.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Co-owner of the Comer Land and Cattle Company since 1994; previously president of Comer and Polston Insurance Incorporated and CFB Foods Incorporated.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Chairs the House Committee on Oversight and Government Reform (119th Congress, 2025-2026) and also serves on the Committee on Education and the Workforce.",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Chaired the House Committee on Oversight and Government Reform in the 118th Congress (2023-2024) as well.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://comer.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "C001108"
+    },
+    {
+      "id": "drew-williams",
+      "name": "Drew Williams",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the Democratic primary after the primary was canceled with no other candidates on the ballot.",
+      "summary": {
+        "text": "Drew Williams is a lifelong resident of Marshall County, Kentucky, running as the Democratic nominee. He says he wants to bring more public engagement, such as town halls and issue-driven debates, into how he would represent the district.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Graduated from Murray State University in 2016 with a degree in History with a minor in Biology.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "\"I want to formalize our public townhalls, issue-driven debates, courthouse surveys, and expert roundtables to get a true understanding and perspective of where our community stands. It is my duty to vote based on that collectively gathered ... data while working to be an advocate for the poor, marginalized, and disenfranchised.\"",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://williamsforky.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/James_Comer",
+      "title": "James Comer",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Kentucky%27s_1st_Congressional_District_election,_2026",
+      "title": "Kentucky's 1st Congressional District election, 2026",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Comer's federal key floor votes and FEC finance totals are added separately by script; this file focuses on his committee role. No specific issue positions with direct quotes were found for either candidate beyond Williams's general priorities statement (from his Ballotpedia Candidate Connection survey, reproduced on the district election page)."
+}

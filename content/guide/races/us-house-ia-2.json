@@ -1,0 +1,204 @@
+{
+  "id": "us-house-ia-2",
+  "state": "IA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Iowa's 2nd District",
+  "area": "Northeast Iowa, including Dubuque, Cedar Rapids-area suburbs, and Decorah",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat: incumbent Ashley Hinson (R) is running for U.S. Senate instead of re-election. Lindsay James (D), a member of the Iowa House of Representatives, defeated Kathryn Dolter and Clint Twedt-Ball in the June 2, 2026 Democratic primary. Joe Mitchell (R), a former Iowa state representative, defeated Charlie McClintock in the June 2, 2026 Republican primary. Rick Stewart (Libertarian) and Dave Bushaw (Independent) are also on the general-election ballot.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "lindsay-james",
+      "name": "Lindsay James",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the June 2 Democratic primary",
+      "currentRole": "Member, Iowa House of Representatives",
+      "summary": {
+        "text": "James is a Democratic member of the Iowa House of Representatives, a Presbyterian pastor, and a former director of the Loras College Peace Institute, running for this open seat.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Portland, Oregon, James earned a bachelor's degree in communications from Santa Clara University (2003) and a master's degree in divinity from Fuller Theological Seminary (2007).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Her career includes working as a pastor of a Presbyterian church, an adjunct faculty member at the University of Dubuque, and director of the Loras College Peace Institute, which she co-founded.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "She has served on the board of the Children of Abraham Interfaith Council, as chair of religious affairs for the NAACP Dubuque Chapter, and as chair of the Dubuque Community Development Advisory Commission.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the Iowa House Commerce, Environmental Protection, Judiciary, and Ways and Means committees (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "joe-mitchell",
+      "name": "Joe Mitchell",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the June 2 Republican primary",
+      "currentRole": "Former member, Iowa House of Representatives (District 84, 2019-2023)",
+      "summary": {
+        "text": "Mitchell is a Republican former Iowa state representative running for this open seat on a platform of fiscal restraint, lower taxes, and border security.",
+        "sources": ["s2", "s3"]
+      },
+      "background": [
+        {
+          "text": "Mitchell served as a Republican member of the Iowa House of Representatives representing District 84 from January 2019 to January 2023.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Fiscal responsibility, lower taxes, and smaller government.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Support family farmers and rural communities.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Public safety, secure borders, and national security.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Mitchell's campaign site says he will \"protect the right to life.\"",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Mitchell's campaign site says he will \"defend the Second Amendment.\"",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Mitchell's campaign site calls the situation at the border a national security risk and emphasizes secure borders and lawful immigration.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Mitchell's campaign site says he will \"support and fund the police while working for practical reform.\"",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Mitchell's campaign site lists support for school choice among his education positions.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Served on the Iowa House Administration and Rules, Commerce, Judiciary, State Government, and Ways and Means committees (2021-2022).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://mitchellforiowa.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "rick-stewart",
+      "name": "Rick Stewart",
+      "parties": ["L"],
+      "incumbent": false,
+      "currentRole": "Former CEO, Frontier Natural Products Co-Operative",
+      "summary": {
+        "text": "Stewart is the Libertarian nominee for this open seat, a businessman and former law enforcement officer who previously ran for U.S. Senate and House in Iowa.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Born in Postville, Iowa, Stewart graduated from Phillips Academy in 1969, earned an associate degree in agricultural mechanics from Kirkwood Community College, a bachelor's degree from Coe College (1991), and a master's degree from the University of Chicago (1993).",
+          "sources": ["s4"]
+        },
+        {
+          "text": "His career includes serving as CEO of Frontier Natural Products Co-Operative and as a law enforcement officer in Maquoketa, Iowa.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "dave-bushaw",
+      "name": "Dave Bushaw",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Bushaw is an independent candidate on the general-election ballot for Iowa's 2nd District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Iowa,_2026",
+      "title": "United States House of Representatives elections in Iowa, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Lindsay_James",
+      "title": "Lindsay James",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://mitchellforiowa.com/",
+      "title": "Joe Mitchell for Congress",
+      "publisher": "Joe Mitchell for Congress (campaign site)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Rick_Stewart",
+      "title": "Rick Stewart",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Lindsay James's campaign website was under construction at the time of research, so no candidate-sourced priorities or issue positions could be documented for her beyond her state legislative committee record; only Ballotpedia background was available. Joe Mitchell's Ballotpedia biography page had no narrative biography text beyond the infobox and committee history, so his background is limited. No campaign website or Ballotpedia biography page could be located for Rick Stewart's 2026 candidacy beyond the standard profile, and no page was found for independent candidate Dave Bushaw."
+}

@@ -1,0 +1,74 @@
+{
+  "id": "us-house-ma-7",
+  "state": "MA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "7",
+  "title": "U.S. House · Massachusetts's 7th District",
+  "area": "Most of Boston and adjacent cities including Chelsea, Everett, Cambridge, Somerville, Milton and Randolph.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Ayanna Pressley ran unopposed in the September 1, 2026 Democratic primary. No Republican candidate filed for the seat. Pressley is unopposed on the November 3 general-election ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ayanna-pressley",
+      "name": "Ayanna Pressley",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Unopposed in both the Democratic primary and the general election.",
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Ayanna Pressley is the incumbent Democratic U.S. Representative for Massachusetts's 7th District. She was the first Black woman elected to the Boston City Council and the first Black woman elected to the U.S. House from Massachusetts. She is unopposed in the November 3 general election.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Cincinnati, Ohio, in 1974, and grew up in Chicago, Illinois; attended Boston University from 1992 to 1994.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a senior aide to Congressman Joseph P. Kennedy II and Senator John Kerry before entering elected office.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Boston City Council from 2010 to 2019, the first Black woman elected to that body.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Assigned to the House Committee on Financial Services and the House Committee on Oversight and Government Reform, including the Federal Law Enforcement Subcommittee, in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://pressley.house.gov",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Massachusetts,_2026",
+      "title": "United States House of Representatives elections in Massachusetts, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Ayanna_Pressley",
+      "title": "Ayanna Pressley",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Pressley is unopposed in both the primary and general election. She had not completed Ballotpedia's 2026 Candidate Connection survey as of research, and her house.gov issues page was not fetched separately from the Ballotpedia biography used here, so no independently sourced priorities or issue positions are included. Federal key votes and FEC finance totals are added separately by script."
+}
