@@ -1,0 +1,131 @@
+{
+  "id": "us-house-ga-10",
+  "state": "GA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "10",
+  "title": "U.S. House · Georgia's 10th District",
+  "area": "East-central Georgia, including Athens, Madison, Milledgeville, and Covington.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat: incumbent Mike Collins (R) withdrew from the Republican primary and is not on the November ballot for this district. Cook Political Report, Decision Desk, Inside Elections, and Sabato's Crystal Ball rate the general election Solid/Safe Republican.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "houston-gaines",
+      "name": "Houston Gaines",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19 Republican primary over Ryan Millsap and Jeff Baker, 66.9%",
+      "currentRole": "Member, Georgia House of Representatives, District 120 (since 2023)",
+      "summary": {
+        "text": "Houston Gaines is a Georgia state representative for District 120, first elected in 2023 (he also served an earlier term beginning in 2017). He holds a bachelor's degree from the University of Georgia and has worked at Cannon Financial Institute and Carter Engineering.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Obtained a bachelor's degree from the University of Georgia.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked at Cannon Financial Institute after graduation; as of the 2026 election, worked for Carter Engineering.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves in the Georgia House of Representatives, District 120.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign says he \"led the fight to crack down on illegal immigration at the state level and put a stop to sanctuary policies\" and \"helped craft legislation to rein in rogue district attorneys, like Fani Willis and Deborah Gonzalez.\"",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Said in a campaign advertisement that the country needs \"battle-tested, America-first warriors in D.C. to work alongside President Trump.\"",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign says he worked at the state level to crack down on illegal immigration and end sanctuary policies.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "pamela-delancy",
+      "name": "Pamela DeLancy",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19 Democratic primary over Lexy Doherty and John Dority, 54.4%",
+      "summary": {
+        "text": "Pamela DeLancy is a retired U.S. Army nurse colonel with more than 30 years of service, a gallbladder cancer survivor, and a licensed registered nurse running for Georgia's 10th Congressional District.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Retired as a U.S. Army Nurse Colonel after more than 30 years of service.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Is an actively licensed registered nurse and a gallbladder cancer survivor; her daughter lives with a rare disease.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says her focus \"isn't on party politics\" but on family issues, healthcare, and supporting veterans.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Cites her nursing and cancer-survivor experience in calling for \"accessible, affordable healthcare that works for every family.\"",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign centers on \"accessible, affordable healthcare,\" drawing on her nursing background and experience as a cancer survivor.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Georgia%27s_10th_Congressional_District_election,_2026",
+      "title": "Georgia's 10th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Georgia%27s_10th_Congressional_District_election,_2026",
+      "title": "Georgia's 10th Congressional District election, 2026 (Candidate profile: Houston Gaines)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Georgia%27s_10th_Congressional_District_election,_2026",
+      "title": "Georgia's 10th Congressional District election, 2026 (Candidate Connection survey responses)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research from Ballotpedia. Open seat; Mike Collins withdrew from the Republican primary."
+}

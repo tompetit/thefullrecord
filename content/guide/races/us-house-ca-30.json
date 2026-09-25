@@ -1,0 +1,134 @@
+{
+  "id": "us-house-ca-30",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "30",
+  "title": "U.S. House · California's 30th District",
+  "area": "Burbank and Glendale, the Linda Vista neighborhood of Pasadena, and Los Angeles communities including parts of Hollywood, in Los Angeles County. District lines were redrawn for the 2026 election under California Proposition 50.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California redrew its congressional district lines for the 2026 election cycle after voters approved Proposition 50 on November 5, 2025, a mid-decade redistricting measure.",
+      "sources": ["s5"]
+    },
+    {
+      "text": "Incumbent Democrat Laura Friedman, first elected in 2024 to succeed Adam Schiff (who was elected to the U.S. Senate), and Republican Scott Meyers, an attorney, advanced from the June 2, 2026 top-two primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "laura-friedman",
+      "name": "Laura Friedman",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, CA-30 (since 2025)",
+      "ballotNote": "Advanced from the June 2, 2026 primary",
+      "summary": {
+        "text": "Laura Friedman is the Democratic incumbent for California's 30th Congressional District, first elected in 2024 to succeed Adam Schiff. She previously served on the Glendale City Council, including as mayor, and serves on the House Committee on Transportation and Infrastructure.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in New York and lives in Glendale, California; earned a bachelor's degree from the University of Rochester in 1988.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a producer and head of development in the entertainment industry and as a small-business owner selling antiques and decorative arts.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the board of the Metropolitan Water District of Southern California, as past president of the Independent Cities Association, and on the Southern California Association of Governments and Glendale Design Review Board. Elected to the Glendale City Council in 2009 and re-elected in 2013; served as mayor of Glendale from 2011 to 2012.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Transportation and Infrastructure (Economic Development, Public Buildings and Emergency Management Subcommittee; Highways and Transit Subcommittee; Railroads, Pipelines and Hazardous Materials Subcommittee; Water Resources and Environment Subcommittee) and the House Committee on Science, Space, and Technology (Energy Subcommittee) in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "scott-meyers",
+      "name": "Scott Meyers",
+      "parties": ["R"],
+      "incumbent": false,
+      "currentRole": "Attorney and small-business owner",
+      "ballotNote": "Advanced from the June 2, 2026 primary",
+      "summary": {
+        "text": "Scott Meyers is the Republican nominee for California's 30th Congressional District. He is a small-business owner and attorney who has practiced law in the district for about three decades.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "A California native who has lived in the region for nearly 50 years; describes being raised by a schoolteacher and a minister and starting work at age 14.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Self-employed for 26 years, building a law practice over three decades.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists three key campaign messages: full accountability and transparency over how tax money is spent; keeping \"boys out of girls sports, and out of their locker rooms\"; and full access to constituents through quarterly, open, unscripted press conferences.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he wants to \"fight to bring film and television production back\" to the district, which he calls \"the entertainment capital of the world.\"",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says he opposes tax increases, citing concerns about rising costs for rent, groceries, and gas.",
+          "quote": "I oppose tax increases.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Laura_Friedman",
+      "title": "Laura Friedman",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Scott_Meyers_(California)",
+      "title": "Scott Meyers (California) - Ballotpedia's Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Laura Friedman has not completed Ballotpedia's 2026 Candidate Connection survey and no current issue-by-issue statements were found within this session's time budget beyond her committee role; her federal floor votes and FEC totals are added separately by script. Scott Meyers completed the 2026 survey, which is the basis for his priorities and the tax position listed here."
+}

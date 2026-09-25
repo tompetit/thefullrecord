@@ -1,0 +1,172 @@
+{
+  "id": "us-sen-ak",
+  "state": "AK",
+  "officeType": "us-senate",
+  "office": "U.S. Senate",
+  "title": "U.S. Senate · Alaska",
+  "area": "Statewide, Alaska.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Alaska uses a top-four nonpartisan primary followed by ranked-choice voting in the general election. In the August 18, 2026 primary, Mary Peltola (D) placed first with 49.5%, incumbent Daniel S. Sullivan (R) placed second with 41.4%, and Dan Sullivan (R), a retired teacher who shares the incumbent's name, placed third with 2.5%. Fourth-place finisher David Leslie (D) withdrew ahead of the August 31, 2026 deadline, so fifth-place finisher Gerald Heikes (R) advanced to the general election instead.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "The Alaska Division of Elections initially sought to remove Dan Sullivan from the ballot after the National Republican Senatorial Committee alleged he entered the race to confuse voters and draw votes from the incumbent; Sullivan denied the accusation. An Alaska Superior Court judge ruled he must remain on the ballot, and on June 29, 2026 the Alaska Supreme Court affirmed that he could not be removed.",
+      "sources": ["s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "daniel-s-sullivan",
+      "name": "Daniel S. Sullivan",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Senator (since 2015)",
+      "summary": {
+        "text": "Daniel S. Sullivan is the Republican incumbent seeking re-election to a third term in the U.S. Senate. He previously served as Alaska Attorney General and Commissioner of the Alaska Department of Natural Resources, and served in the U.S. Marine Corps from 1993 to 2024.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from Harvard University and a master's degree and J.D. from Georgetown University.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served as Alaska Attorney General (2009-2010) and Commissioner of the Alaska Department of Natural Resources (2010-2013).",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the U.S. Marine Corps from 1993 to 2024; his professional experience also includes working as a lawyer and as U.S. Assistant Secretary of State for Economic, Energy, and Business Affairs.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Running on his Senate record, citing tax cuts, reduced regulation, energy development, military and national defense investment, and Alaska's healthcare system.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "An \"all-of-the-above\" energy strategy, which his campaign says supports jobs and high environmental standards.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Reducing fisheries bycatch to protect Alaska's coastal communities.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the Senate Commerce, Science, and Transportation Committee, the Armed Services Committee, the Environment and Public Works Committee, and the Veterans' Affairs Committee in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he introduced the Bycatch Reduction Act to address fisheries bycatch in Alaska waters.",
+          "kind": "bill",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://www.dansullivan.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting senator are added separately by script; this entry focuses on biography, committee roles, and stated priorities."
+    },
+    {
+      "id": "mary-peltola",
+      "name": "Mary Peltola",
+      "parties": ["D"],
+      "incumbent": false,
+      "currentRole": "Former U.S. Representative, Alaska At-Large District (2022-2025)",
+      "summary": {
+        "text": "Mary Peltola is the Democratic nominee for U.S. Senate. She previously represented Alaska's at-large congressional district from 2022 to 2025 and served in the Alaska House of Representatives and on the Bethel City Council.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Served on the Bethel City Council (2011-2013) and in the Alaska House of Representatives, District 39 (1999-2003) and District 38 (2003-2009).",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served in the U.S. House representing Alaska's at-large district from 2022 to 2025.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Professional experience includes working as a commercial fisher, as community development manager for the Donlin gold mine project, and as executive director of the Kuskokwim River Inter-Tribal Fish Commission.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Fully funding fish stock assessments so catch limits are based on accurate data rather than what her campaign calls guesswork.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Lowering shipping costs for rural Alaska by restoring funding for Bypass Mail and creating an Essential Freight Service.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Twelve-year congressional term limits, which her campaign describes as a way to stop career politicians corrupted by special interests.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [],
+      "record": [
+        {
+          "text": "As a member of the U.S. House representing Alaska's at-large district (2022-2025), was a member of the Fisheries, Water, and Wildlife Subcommittee and the Agriculture Committee.",
+          "kind": "action",
+          "sources": ["s3"]
+        }
+      ],
+      "website": "https://marypeltola.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "gerald-heikes",
+      "name": "Gerald Heikes",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Gerald Heikes, also known as \"Tap,\" is a Republican perennial candidate who placed fifth in the August 2026 top-four primary and advanced to the general election after David Leslie withdrew.",
+        "sources": ["s1", "s5"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "Heikes has run for federal office in Alaska multiple times since at least 2016 (including a 2020 write-in run for U.S. House) but has not completed a Ballotpedia Candidate Connection survey and no campaign website or public statement of positions could be located."
+    },
+    {
+      "id": "dan-sullivan-retired-teacher",
+      "name": "Dan Sullivan",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Dan Sullivan, a retired teacher who shares his name with incumbent Sen. Daniel S. Sullivan, is a Republican candidate who placed third in the August 2026 primary. The Alaska Division of Elections tried to remove him from the ballot on allegations he entered the race to confuse voters; the Alaska Supreme Court ruled on June 29, 2026 that he must remain on the ballot.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Is a retired teacher.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website or independent statement of positions could be located; Ballotpedia's coverage of Sullivan focuses on the ballot-eligibility dispute rather than his platform."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_Senate_election_in_Alaska,_2026", "title": "United States Senate election in Alaska, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Dan_Sullivan_(Alaska_U.S._Senate_candidate)", "title": "Dan Sullivan (Alaska U.S. Senate candidate)", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Mary_Peltola", "title": "Mary Peltola", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://www.dansullivan.com/", "title": "Meet Dan", "publisher": "Daniel Sullivan 2026 Campaign Website", "kind": "candidate" },
+    { "id": "s5", "url": "https://ballotpedia.org/Gerald_Heikes", "title": "Gerald Heikes", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Daniel S. Sullivan's key floor votes and FEC finance totals are filled in separately by script. Gerald Heikes and Dan Sullivan (the retired teacher) have minimal public records; the Sullivan name-confusion dispute is documented but neither candidate's policy positions could be verified from a campaign website or completed survey."
+}
