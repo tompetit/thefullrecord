@@ -11,69 +11,133 @@
   "context": [
     {
       "text": "This is an open seat: incumbent Harriet Hageman (R) is running for U.S. Senate rather than re-election to the House. Chuck Gray, Wyoming's current Secretary of State, won the Republican primary. Lisa Kinney, a former state senator, defeated Elena Del Real in the Democratic primary on August 18, 2026 with 74.6% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "chuck-gray",
       "name": "Chuck Gray",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "currentRole": "Wyoming Secretary of State (since 2023)",
       "summary": {
         "text": "Chuck Gray is Wyoming's current Secretary of State and a former state representative, running as the Republican nominee for Wyoming's open at-large U.S. House seat.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Raised outside of Los Angeles, California; spent summers with his father in Casper, Wyoming.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Earned bachelor's degrees from the University of Pennsylvania (2012), including an economics degree from the Wharton School of Business.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Career experience includes working as a radio executive and radio show host.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the Wyoming House of Representatives, District 57 (2017-2023), before being elected Wyoming Secretary of State in 2022.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"I passed Wyoming's historic voter ID law to stop cheaters from trying to steal our elections. Election Integrity has been and will continue to be my top priority...\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "\"As a member of the legislature, I led the effort to cap property taxes... I go to work everyday to take power away from government and give it back to you.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "opposes",
-          "summary": "Describes himself as pro-life.",
-          "quote": "PRO-LIFE & PRO-2ND AMENDMENT",
-          "sources": ["s2"]
+          "summary": "Voted yes on HB0092, limiting the circumstances under which an abortion may be performed, contingent on the reversal of Roe v. Wade.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "opposes",
+            "summary": "Describes himself as pro-life.",
+            "sources": [
+              "s2"
+            ],
+            "quote": "PRO-LIFE & PRO-2ND AMENDMENT"
+          }
         },
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Describes himself as pro-Second Amendment.",
-          "quote": "PRO-LIFE & PRO-2ND AMENDMENT... both issues are about protecting the innocent from harm.",
-          "sources": ["s2"]
+          "summary": "Voted yes on HB0116, which removed the state residency requirement for permitless concealed carry of a firearm.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "opposes",
+            "summary": "Describes himself as pro-Second Amendment.",
+            "sources": [
+              "s2"
+            ],
+            "quote": "PRO-LIFE & PRO-2ND AMENDMENT... both issues are about protecting the innocent from harm."
+          }
         }
       ],
       "record": [
         {
           "text": "As a Wyoming state representative, led passage of a voter ID law requiring identification to vote, enacted in 2021.",
           "kind": "bill",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Voted yes on HB0075 (requiring voters to present identification before voting in person), which passed the Wyoming House 51-9 on March 3, 2021.",
+          "date": "2021-03-03",
+          "kind": "vote",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Voted yes on HB0116 (removing the state residency requirement for permitless concealed carry of a firearm), which passed the Wyoming House 56-4 on March 17, 2021.",
+          "date": "2021-03-17",
+          "kind": "vote",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Voted yes on HB0092 (limiting the circumstances under which an abortion may be performed, effective if Roe v. Wade were overturned), which passed the Wyoming House 43-16 on March 1, 2022.",
+          "date": "2022-03-01",
+          "kind": "vote",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -81,36 +145,50 @@
     {
       "id": "lisa-kinney",
       "name": "Lisa Kinney",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 18 Democratic primary with 74.6% of the vote",
       "currentRole": "Former member, Wyoming State Senate",
       "summary": {
         "text": "Lisa Kinney is a former Wyoming state senator running as the Democratic nominee for Wyoming's open at-large U.S. House seat.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Graduated from Laramie High School; earned a graduate degree from the University of Oregon (1975) and a law degree from the University of Wyoming (1986).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes teaching bar exam preparation, practicing law, directing the Albany County Library, and working as a financial advisor.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served ten years in the Wyoming State Senate representing Laramie, including two years as minority floor leader; served on the Education and Judiciary Committees.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"My priorities are to maintain our public lands, lower health care costs, and put more money in people's pockets through legislative changes.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"We must keep public lands in public hands... I will fight every attempt to sell off our public lands.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -119,14 +197,18 @@
           "stance": "opposes",
           "summary": "Says she would work to remove tariffs to lower costs for families.",
           "quote": "I will work to remove tariffs, decrease the damaging provisions of the \"Big Beautiful Bill,\" lower or delete income taxes and FICA.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports restoring ACA subsidies and working toward Medicare for All.",
           "quote": "I am interested in pursuing universal healthcare by first bringing back the ACA subsidies to lower health insurance premiums right away and then working toward Medicare for all.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -135,22 +217,30 @@
     {
       "id": "jeff-haggit",
       "name": "Jeff Haggit",
-      "parties": ["Constitution Party"],
+      "parties": [
+        "Constitution Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Jeff Haggit is the state chairman of the Constitution Party of Wyoming, running for Wyoming's open at-large U.S. House seat.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Has served as state chairman of the Constitution Party of Wyoming and as a member of the United Way of Southwest Wyoming's Uinta Advisory Council.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"My intention is to provide the citizens of Wyoming an opportunity to vote for someone who will not waver from their sworn duty to uphold Constitutional law, protect their rights, and work to restore the multitude of liberties robbed from them by both Republicans and Democrats...\"",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -161,38 +251,54 @@
     {
       "id": "shawn-johnson",
       "name": "Shawn Johnson",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Shawn Johnson is a U.S. Army veteran, former Casper City Council member, and attorney running as the Libertarian nominee for Wyoming's open at-large U.S. House seat.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Served in the U.S. Army National Guard from 2000 to 2021, including a deployment to Iraq (2003-2004) as a combat medic.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Spent 13 years as a Natrona County Sheriff's Office jail deputy.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Served two terms on the Casper City Council, including one year as vice mayor in 2019.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Earned an associate degree from Casper College (2016), a bachelor's degree from the University of Wyoming (2019), and a law degree from the Mitchell Hamline School of Law (2024); now practices law in Wyoming.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"Wyoming deserves a representative who answers to Wyoming—not Washington, a political party, or the White House. I will not blindly follow party leadership.\"",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "\"We need fiscal responsibility, less unnecessary government interference, and an economy where hard work can once again lead to prosperity.\"",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [],
@@ -236,8 +342,32 @@
       "title": "Shawn Johnson",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.wyoleg.gov/2021/HouseDigest.pdf",
+      "title": "Wyoming House Digest, 66th Legislature, 2021 General Session — roll call on HB0075 (voter identification), 3rd Reading, p.211",
+      "publisher": "Wyoming Legislative Service Office",
+      "kind": "official",
+      "date": "2021-03-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.wyoleg.gov/2021/HouseDigest.pdf",
+      "title": "Wyoming House Digest, 66th Legislature, 2021 General Session — roll call on HB0116 (removing residency requirement for permitless concealed carry), 3rd Reading, p.253",
+      "publisher": "Wyoming Legislative Service Office",
+      "kind": "official",
+      "date": "2021-03-17"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.wyoleg.gov/2022/HouseDigest.pdf",
+      "title": "Wyoming House Digest, 66th Legislature, 2022 Budget Session — roll call on HB0092 (abortion prohibition contingent on reversal of Roe v. Wade), 3rd Reading, p.241",
+      "publisher": "Wyoming Legislative Service Office",
+      "kind": "official",
+      "date": "2022-03-01"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Daniel Workman withdrew as an independent candidate and did not make the ballot. This is an open seat; no federal key votes or FEC House incumbency data apply."
+  "researchNotes": "Daniel Workman withdrew as an independent candidate and did not make the ballot. This is an open seat; no federal key votes or FEC House incumbency data apply. Lisa Kinney served in the Wyoming Senate from 1985 to 1995; individual floor roll-call votes from that era were not locatable within the research window (Wyoming's searchable digital legislative archive covers recent sessions reliably, and the pre-1995 scanned journals were not searched page-by-page here), so her record entry relies on her own campaign statements."
 }

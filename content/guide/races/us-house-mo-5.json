@@ -141,10 +141,18 @@
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Campaign website says he helped craft Missouri's constitutional protections for the Second Amendment and voted for the state's Second Amendment Preservation Act; says he'll oppose any attempt to infringe on gun rights in Congress.",
+          "summary": "Voted yes on HCS for HBs 85 & 310, the Second Amendment Preservation Act, declaring certain federal firearms laws and regulations unenforceable within Missouri.",
           "sources": [
-            "s3"
-          ]
+            "s6"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "opposes",
+            "summary": "Campaign website says he helped craft Missouri's constitutional protections for the Second Amendment and voted for the state's Second Amendment Preservation Act; says he'll oppose any attempt to infringe on gun rights in Congress.",
+            "sources": [
+              "s3"
+            ]
+          }
         },
         {
           "issue": "abortion",
@@ -184,6 +192,30 @@
           "kind": "bill",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "text": "Voted yes on HCS for HBs 85 & 310 (the Second Amendment Preservation Act, declaring certain federal firearms laws unenforceable in Missouri), which passed the Missouri Senate 22-10 on May 13, 2021.",
+          "date": "2021-05-13",
+          "kind": "vote",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Voted yes on SS No. 2 for SCS for SBs 49, 236 & 164 (restricting gender transition procedures for minors), which passed the Missouri Senate 24-8 on March 23, 2023.",
+          "date": "2023-03-23",
+          "kind": "vote",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Voted yes on SS No. 2 for SB 39 (restricting transgender students' participation in school sports consistent with their sex assigned at birth), which passed the Missouri Senate 25-8 on March 23, 2023.",
+          "date": "2023-03-23",
+          "kind": "vote",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -250,6 +282,30 @@
       "title": "Economy and Jobs",
       "publisher": "Office of Congressman Emanuel Cleaver",
       "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.senate.mo.gov/21info/pdf-jrnl/DAY67.pdf",
+      "title": "Missouri Senate Journal, 67th Day, May 13, 2021 — roll call on HCS for HBs 85 & 310 (Second Amendment Preservation Act)",
+      "publisher": "Missouri Senate",
+      "kind": "official",
+      "date": "2021-05-13"
+    },
+    {
+      "id": "s7",
+      "url": "https://senate.mo.gov/23info/pdf-jrnl/DAY40.pdf",
+      "title": "Missouri Senate Journal, 40th Day, March 23, 2023 — roll call on SS No. 2 for SCS for SBs 49, 236 & 164 (restricting gender transition procedures for minors)",
+      "publisher": "Missouri Senate",
+      "kind": "official",
+      "date": "2023-03-23"
+    },
+    {
+      "id": "s8",
+      "url": "https://senate.mo.gov/23info/pdf-jrnl/DAY40.pdf",
+      "title": "Missouri Senate Journal, 40th Day, March 23, 2023 — roll call on SS No. 2 for SB 39 (restricting transgender student participation in school sports)",
+      "publisher": "Missouri Senate",
+      "kind": "official",
+      "date": "2023-03-23"
     }
   ],
   "researchedAt": "2026-09-25",
