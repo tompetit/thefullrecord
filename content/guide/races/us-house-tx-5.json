@@ -1,0 +1,110 @@
+{
+  "id": "us-house-tx-5",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · Texas's 5th District",
+  "area": "Kaufman, Van Zandt, and part of Dallas and Smith counties, east of Dallas",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Lance Gooden (R) ran unopposed in the March 3, 2026 Republican primary. Chelsey Hockett won a Democratic primary runoff against Ruth Torres on May 26, 2026.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "lance-gooden",
+      "name": "Lance Gooden",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 5th District (since 2019)",
+      "summary": {
+        "text": "Lance Gooden is the Republican incumbent U.S. Representative for Texas's 5th Congressional District, a former state legislator and insurance broker.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Nashville, Tennessee, in 1982; earned a bachelor's degree in finance and government from the University of Texas in 2004.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an insurance broker and risk-management consultant; served in the Texas House of Representatives (District 4) from 2011 to 2015 and 2017 to 2019.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on the Judiciary (including the Courts, Intellectual Property, Artificial Intelligence, and the Internet Subcommittee) and the House Committee on Armed Services in the 2025–2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "No Ballotpedia Candidate Connection survey or curated key-messages profile was found for Gooden in this race's coverage; positions on specific issues were not documented from the sources checked."
+    },
+    {
+      "id": "chelsey-hockett",
+      "name": "Chelsey Hockett",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 26, 2026 Democratic primary runoff against Ruth Torres",
+      "summary": {
+        "text": "Chelsey Hockett is the Democratic nominee for Texas's 5th Congressional District, running on a progressive platform.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "Says she will fight for fair wages, affordable healthcare, and cost-of-living relief for working families.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Says she supports well-funded public schools, safe communities, and what she describes as a \"humane border system.\"",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she believes in reproductive freedom.",
+          "quote": "I believe in reproductive freedom, immigrant rights, strong unions, fully funded public schools, and a government that actually works for the people who live here.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says healthcare is a human right and supports expanding healthcare access.",
+          "quote": "I believe healthcare is a human right.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Texas%27_5th_Congressional_District_election,_2026",
+      "title": "Texas' 5th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Lance_Gooden",
+      "title": "Lance Gooden",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}
