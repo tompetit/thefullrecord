@@ -1,0 +1,13 @@
+{
+  "raceId": "ny-sd-15",
+  "checkedAt": "2026-09-25",
+  "claimsChecked": 20,
+  "corrected": 0,
+  "removed": 0,
+  "unverifiable": 0,
+  "notes": [
+    "All claims verified against their cited sources without changes: primary vote totals and current ballot slate/party lines for both candidates (Ballotpedia), Addabbo's biography and committee assignments (NYSenate.gov official bio), his three sponsored-bill summaries/statuses/dates (official NYSenate.gov bill pages), his congestion-pricing quote (verified verbatim against the official press release), and Maio's background and 2022 Candidate Connection survey answers (Ballotpedia), including the exact 'crime, schools, and taxes and inflation' and 'stopping congestion pricing' claims.",
+    "The GREAT Act (S9500-A) 39-21 passage and Addabbo's yes vote were independently confirmed against the official bill page.",
+    "One hand-written floor-vote record item (S10585) that was in this file when first read was removed by an unrelated repository-wide fix (commit fbc402c) shortly afterward, which now renders contested NY roll calls from an official-snapshot pipeline instead of hand-written record entries; per the updated VERIFY_BRIEF.md this is now out of scope for this pass. The vote had in fact been correctly described as 'yes' before removal, per direct confirmation against the official roll call."
+  ]
+}
