@@ -1,0 +1,151 @@
+{
+  "id": "us-house-ca-6",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "6",
+  "title": "U.S. House · California's 6th District",
+  "area": "Covers part of the Sacramento metropolitan area, following the 2025 Proposition 50 mid-decade redistricting.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The district's boundaries changed as a result of California Proposition 50, approved by voters on November 5, 2025, which redrew the state's congressional map.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Ballotpedia lists incumbent Kevin Kiley's party affiliation for this election as 'No party preference'; he was previously elected to the U.S. House as a Republican.",
+      "sources": ["s2"]
+    },
+    {
+      "text": "In the June 2, 2026 top-two primary, Kevin Kiley placed first with 24.3% (47,165 votes) and Richard Pan (D) placed second with 23.2% (45,008 votes), narrowly ahead of Republican Michael Stansfield's 20.1%, out of 194,217 total votes cast.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "kevin-kiley",
+      "name": "Kevin Kiley",
+      "parties": ["NPP"],
+      "incumbent": true,
+      "ballotNote": "Placed first in the June 2, 2026 top-two primary",
+      "currentRole": "U.S. Representative (since 2023, prior district)",
+      "summary": {
+        "text": "Kevin Kiley is a lawyer and former teacher who previously served in the California State Assembly and ran in the 2021 recall election against Governor Gavin Newsom before his election to Congress.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from Harvard University in 2007, a master's in secondary education from Loyola Marymount University in 2009, and a law degree from Yale Law School in 2012.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a teacher, lawyer, deputy attorney general, and adjunct professor before elected office.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Has not completed Ballotpedia's 2026 Candidate Connection survey.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Served on the House Committee on Education and the Workforce, chairing its Workforce Protections Subcommittee, during the 2023-2024 session.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the House Committee on the Judiciary and the House Committee on Transportation and Infrastructure during the 2023-2024 session.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "richard-pan",
+      "name": "Richard Pan",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary",
+      "currentRole": "Physician; former California State Senator, District 6 (2014-2022)",
+      "summary": {
+        "text": "Richard Pan is a physician and former California State Senator who authored the state's childhood vaccination requirements. His campaign describes him as running to counter Trump administration and RFK Jr. policies on healthcare and science.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a B.S. from Johns Hopkins University, an M.A. in public health from Harvard University, and an M.D. from the University of Pittsburgh.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a physician at UC Davis Children's Hospital and as an associate professor of pediatrics at UC Davis.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the California State Senate representing District 6 from 2014 to 2022, including as Chair of the Senate Health Committee, after earlier service in the State Assembly.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign describes him as a public health advocate running to oppose Trump administration and Robert F. Kennedy Jr. policies on healthcare and science.",
+          "quote": "Dr. Pan is running for Congress to fight Trump and Robert F. Kennedy Jr.'s attack on healthcare and science.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign frames his candidacy around defending public health policy and science-based healthcare against administration rollbacks.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Chaired the California Senate Health Committee during the 2019-2020 and 2021-2022 sessions.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "As a state senator, authored California's law tightening childhood vaccination exemption requirements, according to his campaign.",
+          "kind": "bill",
+          "sources": ["s3"]
+        }
+      ],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/California%27s_6th_Congressional_District",
+      "title": "California's 6th Congressional District",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Kevin_Kiley",
+      "title": "Kevin Kiley",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.drpanforcongress.com",
+      "title": "Dr. Pan for Congress",
+      "publisher": "Richard Pan for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "Kevin Kiley has not completed Ballotpedia's 2026 Candidate Connection survey and his campaign website's issues page could not be loaded during research, so his current stated priorities and issue positions could not be documented; his committee record is listed instead. Pan's vaccine-law authorship claim is from his own campaign site and was not independently verified against a bill record."
+}

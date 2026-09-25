@@ -1,0 +1,148 @@
+{
+  "id": "us-house-fl-13",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "13",
+  "title": "U.S. House · Florida's 13th District",
+  "area": "West-central Florida, including parts of Pinellas County around St. Petersburg and Clearwater.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Republican primary was canceled and incumbent Anna Paulina Luna advanced unopposed. Leela Gray won the Democratic primary with 65.1% of the vote against Brandt Robinson and John Liccione.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "anna-paulina-luna",
+      "name": "Anna Paulina Luna",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Anna Paulina Luna is the Republican incumbent seeking re-election to Florida's 13th Congressional District. A U.S. Air Force veteran, she previously worked in conservative media and advocacy before her election to Congress in 2022.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Orange, California in 1989; served in the U.S. Air Force from 2009 to 2018.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Earned a bachelor's degree from the University of West Florida in 2017.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an entrepreneur, director of Hispanic engagement for Turning Point USA, chairwoman of Hispanic initiative for PragerU, and a podcast host with Gingrich 360 before entering Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Assigned to the Committee on Oversight and Government Reform (Cybersecurity, Information Technology, and Government Innovation; Health Care and Financial Services; Military and Foreign Affairs subcommittees) and the Committee on Foreign Affairs for the 2025-2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://www.voteannapaulina.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Luna has not completed Ballotpedia's 2026 Candidate Connection survey; no additional sourced statements of current priorities or issue positions were found in the time available."
+    },
+    {
+      "id": "leela-gray",
+      "name": "Leela Gray",
+      "parties": ["D"],
+      "incumbent": false,
+      "summary": {
+        "text": "Leela Gray is the Democratic nominee for Florida's 13th Congressional District. A retired U.S. Army Brigadier General with 30 years of service, she is running on affordability, government ethics, and support for veterans and seniors.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Says her family relied on food stamps growing up and that she worked two jobs to pay for college before joining the U.S. Army.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served 30 years in the U.S. Army, rising to the rank of Brigadier General.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Affordability: says she would push to lower housing-insurance and healthcare costs and provide tax relief to middle-class families and small businesses rather than \"the ultra-wealthy and big corporations.\"",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Government ethics: says she would push to ban insider stock trading by members of Congress, enact term limits, and impose a lifetime lobbying ban on former members.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Veterans and seniors: says she would cut red tape at the VA and work to protect and strengthen Social Security and Medicare.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says Congress must protect and strengthen Social Security and Medicare so seniors \"can age with dignity.\"",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Lists ending what she calls \"illegal tariffs\" among her priorities for reducing costs for families and small businesses.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.leelagray.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "tony-darrigo",
+      "name": "Tony D'Arrigo",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Tony D'Arrigo is running with no party affiliation for Florida's 13th Congressional District in the November 3, 2026 general election.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Ballotpedia biography page, campaign website, or completed Candidate Connection survey was found for D'Arrigo in the time available."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+      "title": "United States House of Representatives elections in Florida, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Anna_Paulina_Luna",
+      "title": "Anna Paulina Luna",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Leela_Gray",
+      "title": "Leela Gray",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No public record found for no-party-affiliation candidate Tony D'Arrigo beyond his ballot status."
+}
