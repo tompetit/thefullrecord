@@ -34,10 +34,10 @@
         "sources": ["s1"]
       },
       "background": [
-        { "text": "Born in Belton, Missouri, in 1961; earned a bachelor's degree in engineering in 1986 and an MBA from the University of Arkansas in 1999.", "sources": ["s1"] },
-        { "text": "Became a McDonald's franchisee in 1999 and had acquired 10 franchises by 2012; served on McDonald's National Leadership Team for 13 years.", "sources": ["s1"] },
-        { "text": "Chaired the finance committee of the Oklahoma Turnpike Authority from 2011 to 2015.", "sources": ["s1"] },
-        { "text": "Elected to the U.S. House in 2018 and re-elected since; sits on the Ways and Means Committee (Health and Tax subcommittees, 2025-2026).", "sources": ["s1"] }
+        { "text": "Born in Belton, Missouri, in 1961; earned a bachelor's degree in engineering in 1986 and an MBA from the University of Arkansas in 1999.", "sources": ["s4"] },
+        { "text": "Became a McDonald's franchisee in 1999 and had acquired 10 franchises by 2012; served on McDonald's National Leadership Team for 13 years.", "sources": ["s4"] },
+        { "text": "Chaired the finance committee of the Oklahoma Turnpike Authority from 2011 to 2015.", "sources": ["s4"] },
+        { "text": "Elected to the U.S. House in 2018 and re-elected since; sits on the Ways and Means Committee (Health and Tax subcommittees, 2025-2026).", "sources": ["s4"] }
       ],
       "priorities": [
         { "text": "Cosponsored H.J.Res.22, a proposed balanced budget amendment to address national debt and curb federal spending.", "sources": ["s2"] },
@@ -64,16 +64,10 @@
           "sources": ["s2"]
         },
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Serves on the Ways and Means Tax Subcommittee; his campaign site emphasizes opposing 'federal overreach' and supporting Trump administration tax policy rather than raising taxes on high earners or corporations.",
-          "sources": ["s2"]
-        },
-        {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "His 2018 campaign platform called for repealing the Affordable Care Act and replacing it with a free-market-driven system rather than expanding public coverage.",
-          "sources": ["s1"]
+          "sources": ["s4"]
         }
       ],
       "record": [
@@ -208,6 +202,14 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2025-01-01"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Kevin_Hern",
+      "title": "Kevin Hern",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25"

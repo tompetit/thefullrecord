@@ -1,0 +1,154 @@
+{
+  "id": "us-house-wi-8",
+  "state": "WI",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "8",
+  "title": "U.S. House · Wisconsin's 8th Congressional District",
+  "area": "Northeastern Wisconsin, including Green Bay and Appleton.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Tony Wied (R) advanced from the Republican primary unopposed. Rick Crosson defeated Mark Scheffler and Katrina deVille in the Democratic primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "tony-wied",
+      "name": "Tony Wied",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the Republican primary unopposed.",
+      "currentRole": "U.S. Representative for Wisconsin's 8th Congressional District (since 2025)",
+      "summary": {
+        "text": "Tony Wied is the Republican incumbent representing Wisconsin's 8th District since 2025. A Green Bay-area businessman who sold his Dino Stop gas-station chain in 2022, he won a 2024 special election and full term after being endorsed by President Trump.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Lincoln, Nebraska; graduated from Notre Dame Academy and earned a bachelor's degree from St. Norbert College in 1998.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Career experience includes founding his own business; sold his Dino Stop gas stations in 2022. Raised in Green Bay and has lived his entire life in Brown County.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "In his 2024 candidate survey, said he would prioritize finishing the border wall, reinstituting the Remain in Mexico policy, and funding border agents.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Says he believes in reducing the size of government to let Americans live the American Dream.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "2024 candidate survey said he would prioritize finishing the border wall, reinstituting the Remain in Mexico policy, and ensuring border agents have funding to do their jobs.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Agriculture, the Committee on Small Business, and the Committee on Transportation and Infrastructure (Aviation, Highways and Transit, and Water Resources and Environment subcommittees) in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://wied.house.gov",
+      "researchDepth": "basic",
+      "researchNotes": "The cited priorities are from Wied's 2024 Candidate Connection survey; he has not completed a 2026 survey and no updated public statement of positions was found."
+    },
+    {
+      "id": "rick-crosson",
+      "name": "Rick Crosson",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Defeated Mark Scheffler and Katrina deVille in the Democratic primary.",
+      "currentRole": "Retired U.S. Army Lieutenant Colonel; former Green Bay Area Public School District Board of Education member (left office 2025)",
+      "summary": {
+        "text": "Rick Crosson is a retired U.S. Army lieutenant colonel and former corporate logistics executive who served on the Green Bay Area Public School District Board of Education until 2025. He is the Democratic nominee for Wisconsin's 8th District and completed Ballotpedia's Candidate Connection survey in 2026.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Army from 1980 to 2000, retiring as a lieutenant colonel and master Army aviator; held a diplomatic passport while serving as military liaison to the government of Mexico.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Earned a bachelor's degree from Seattle University in 1980 and a graduate degree from Golden Gate University in 1991. Career experience includes working as a chief operating officer in logistics and transportation.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served on the Green Bay Area Public School District Board of Education (at-large) until leaving office in 2025.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his three key campaign messages are healthcare as a fundamental human right, affordable housing and a livable wage in a stable economy, and a strong emphasis on education.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he is motivated to reestablish Congressional authority as a check and balance to what he calls executive overreach.",
+          "quote": "I am motivated to unify this country by reestablishing Congressional authority as a genuine check and balance to executive overreach.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Candidate survey lists healthcare as a fundamental human right as one of his three key campaign messages.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Candidate survey lists a livable wage as part of his campaign focus on affordable housing and a stable economy.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Served on the Green Bay Area Public School District Board of Education (at-large) until leaving office in 2025.",
+          "kind": "action",
+          "sources": ["s3"]
+        }
+      ],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Wisconsin,_2026",
+      "title": "United States House of Representatives elections in Wisconsin, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Tony_Wied",
+      "title": "Tony Wied",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Rick_Crosson",
+      "title": "Rick Crosson",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03"
+}
