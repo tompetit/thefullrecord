@@ -1,0 +1,121 @@
+{
+  "id": "us-house-ca-52",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "52",
+  "title": "U.S. House · California's 52nd District",
+  "area": "South San Diego County, including Chula Vista and the U.S.-Mexico border region.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The district's boundaries changed as a result of California Proposition 50, a mid-decade congressional redistricting measure voters approved on November 5, 2025.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Incumbent Juan Vargas and Jeff Belle advanced from the June 2, 2026 top-two primary, defeating Deborah Calhoun Rhodes and write-in candidate Frances Yasmeen Motiwalla. Vargas won 56.5% of the primary vote (71,608 votes) and Belle won 33.2% (42,090 votes).",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "juan-vargas",
+      "name": "Juan Vargas",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 2, 2026 top-two primary with 56.5% of the vote.",
+      "currentRole": "U.S. Representative, CA-52 (since 2013)",
+      "summary": {
+        "text": "Juan Vargas is the incumbent Democratic U.S. Representative, first elected to Congress in 2012 after serving in the California State Senate and Assembly and on the San Diego City Council. He is an attorney who worked for the firm Luce, Forward, Hamilton and Scripps.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Earned a B.A. in political science from the University of San Diego in 1983, an M.A. in humanities from Fordham University, and a J.D. from Harvard Law School.", "sources": ["s2"] },
+        { "text": "Worked as an associate attorney for Luce, Forward, Hamilton and Scripps.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Financial Services for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the House Committee on Foreign Affairs (Middle East, North Africa and Global Counterterrorism, and Western Hemisphere subcommittees) during the 117th Congress (2021-2022), in addition to the Committee on Financial Services.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Vargas has not completed Ballotpedia's 2026 Candidate Connection survey, and no campaign-website issue statements could be retrieved in this environment, so no sourced issue positions are included."
+    },
+    {
+      "id": "jeff-belle",
+      "name": "Jeff Belle",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary with 33.2% of the vote.",
+      "summary": {
+        "text": "Jeff Belle is the Republican candidate for CA-52, describing himself as bringing federal and local government experience to focus on affordability, immigration reform, and Tijuana border-pollution issues in the South Bay.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Describes his background as combining federal experience and local experience, without further biographical detail provided in his Ballotpedia survey.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Addressing affordability in the South Bay through pro-housing supply policy, reduced permitting bureaucracy, and tax relief for working families, small businesses, veterans and seniors.", "sources": ["s3"] },
+        { "text": "Addressing the Tijuana River pollution crisis affecting the South Bay.", "sources": ["s3"] },
+        { "text": "Immigration reform combining secure borders, an updated legal immigration system, and a path for long-term undocumented immigrants who contribute to the country to gain legal status.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says he supports building more housing and streamlining local permitting and regulation to increase housing supply and lower costs.",
+          "quote": "I support pro-housing supply, deregulation, and tax restraint over increasing taxes or restricting development to make living costs affordable. ... Build more housing to increase supply and lower costs.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports secure borders and enforcement against illegal entry and fraud, combined with a legal pathway and \"earned legal 'First Priority' status\" for long-term undocumented immigrants who contribute to the country.",
+          "quote": "My position supports secure borders, faster legal immigration, due process in asylum, respect human dignity, and earned legal “First Priority” status for long-term illegal immigrants who contribute to America.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Based on Belle's Ballotpedia Candidate Connection survey; no independent campaign website content could be retrieved in this environment."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/California%27s_52nd_Congressional_District_election,_2026",
+      "title": "California's 52nd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Juan_Vargas",
+      "title": "Juan Vargas",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/California%27s_52nd_Congressional_District_election,_2026",
+      "title": "Jeff Belle - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress."
+}

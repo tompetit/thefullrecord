@@ -1,0 +1,163 @@
+{
+  "id": "us-house-ca-17",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "17",
+  "title": "U.S. House · California's 17th Congressional District",
+  "area": "Parts of Santa Clara and Alameda counties in Silicon Valley, including Fremont, Newark, Santa Clara, Milpitas, and parts of San Jose.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California redrew its congressional district lines for the 2026 elections under Proposition 50, a mid-decade redistricting measure voters approved in a November 2025 special election.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the June 2, 2026 top-two primary, Ro Khanna won 62.3% of the vote (83,051 votes) and Ritesh Tandon won 14.8% (19,793 votes), advancing them both to the November general election.",
+      "sources": ["s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ro-khanna",
+      "name": "Ro Khanna",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for California's 17th District (since 2017)",
+      "summary": {
+        "text": "Ro Khanna is the incumbent Democratic U.S. Representative for California's 17th District, first elected in 2016, representing Silicon Valley.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Philadelphia, Pennsylvania, in 1976; earned a bachelor's degree in economics from the University of Chicago in 1998 and a J.D. from Yale University in 2001.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Previously worked as an attorney, a professor, a deputy assistant secretary for the U.S. Department of Commerce, and a member of the California Workforce Development Board.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, the Committee on Oversight and Government Reform (Cybersecurity, Information Technology, and Government Innovation; Economic Growth, Energy Policy, and Regulatory Affairs subcommittees), and the House Committee on Armed Services (Cyber Information Technologies and Innovation; Seapower and Projection Forces subcommittees) in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "K000389"
+    },
+    {
+      "id": "ritesh-tandon",
+      "name": "Ritesh Tandon",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2 top-two primary with 14.8% of the vote",
+      "summary": {
+        "text": "Ritesh Tandon is an engineer and business executive who has run for California's 17th District twice before as the Republican top-two finisher. He was the plaintiff in Tandon v. Newsom, a 2021 U.S. Supreme Court case on religious-liberty restrictions during the COVID-19 pandemic.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a B.S. in mechanical engineering from L.D. College of Engineering in India, an M.S. in computer engineering from Santa Clara University, and an M.B.A. from Santa Clara University.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked as CEO of Kricel Corporation and as a research fellow at UC Berkeley; has served as chief liaison officer for the Smart Village Movement and vice-chairman of UPMA.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked as an engineer at Cisco for 11 years, where he helped design IP phones.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists affordability as a top priority, saying CA-17 families are 'squeezed by rent, gas, groceries, and healthcare,' and calls for lowering housing, healthcare, and prescription-drug costs and opposing a state wealth tax and mileage tax.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says he wants to 'bring jobs back to California' by simplifying small-business taxes, easing regulation, and fast-tracking permits for data centers, semiconductors, and advanced manufacturing.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Calls for 8-year congressional term limits, a ban on congressional stock trading, securing the border, and enforcing voter ID.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports securing the border with technology and enforcement and ending 'catch-and-release.'",
+          "quote": "Secure the border with modern technology, anti-cartel ops, and rapid processing. End catch-and-release.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Opposes California's proposed wealth tax and a mileage tax, and calls for cutting taxes generally.",
+          "quote": "Stop tax-and-fee overload — oppose CA's wealth tax and mileage tax.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says education funding should follow the child regardless of whether the school is public, charter, or a parent's choice.",
+          "quote": "Fund the child, not the bureaucracy — public, charter, or parents' choice.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Calls for federal incentives for new housing supply and first-time homebuyer support to address affordability.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Was the named plaintiff in Tandon v. Newsom (2021), in which the U.S. Supreme Court ruled 5-4 that California's COVID-19 restrictions on at-home religious gatherings likely violated the First Amendment.",
+          "kind": "legal",
+          "sources": ["s3"]
+        }
+      ],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Ro_Khanna",
+      "title": "Ro Khanna",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Ritesh_Tandon",
+      "title": "Ritesh Tandon",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Ritesh_Tandon",
+      "title": "Ritesh Tandon — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Ro Khanna has not completed Ballotpedia's 2026 Candidate Connection survey and has no updated 2026 campaign-issues page found; his positions/priorities are limited to committee assignments from official House records. Federal key votes and FEC totals for both candidates are added separately by script."
+}

@@ -1,0 +1,145 @@
+{
+  "id": "us-house-fl-1",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Florida's 1st District",
+  "area": "The western Florida Panhandle, including Pensacola, Fort Walton Beach and Panama City.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Jimmy Patronis defeated Douglas Chico and John Frankman in the August 18, 2026 Republican primary. The Democratic primary was canceled and Gay Valimont advanced unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jimmy-patronis",
+      "name": "Jimmy Patronis",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the August 18, 2026 Republican primary over Douglas Chico and John Frankman.",
+      "currentRole": "U.S. Representative for Florida's 1st District (since April 2025)",
+      "summary": {
+        "text": "Jimmy Patronis is the incumbent Republican U.S. Representative for Florida's 1st District, elected in an April 2025 special election to succeed Matt Gaetz. He previously served as Florida Chief Financial Officer from 2017 to 2025.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Graduated from Gulf Coast Community College with an associate degree in restaurant management and from Florida State University with a bachelor's degree in political science.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Owned and operated Captain Anderson's Restaurant in Panama City.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Appointed Florida Chief Financial Officer in 2017 by Gov. Rick Scott and elected to a full term in 2018, serving until his 2025 resignation to run for Congress.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Won the April 2025 special election for Florida's 1st Congressional District, succeeding Matt Gaetz.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "website": "https://www.patronisforcongress.com/",
+      "researchDepth": "basic",
+      "researchNotes": "No campaign key-message profile or Candidate Connection survey was found for Patronis in the 2026 race; his federal roll-call votes and FEC totals are added by script."
+    },
+    {
+      "id": "gay-valimont",
+      "name": "Gay Valimont",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Democratic primary was canceled; advanced unopposed.",
+      "summary": {
+        "text": "Gay Valimont is the Democratic nominee for Florida's 1st Congressional District. She has a background in sports medicine, working with high schools and the Atlanta Falcons before moving to Florida.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Born and raised in Thomaston, Georgia; earned a bachelor's degree in health and exercise science from Georgia Southern University and a master's in education from Troy State University.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked in sports medicine in Atlanta, including with predominantly Black high schools and the Atlanta Falcons.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Affordable living and healthcare.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Taking care of veterans.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Voting rights.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists affordable living and healthcare among her top three campaign messages.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "tyler-davis",
+      "name": "Tyler Davis",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Tyler Davis is a no-party-affiliation candidate for Florida's 1st Congressional District. She has worked in the financial industry and founded A Pensacola Perspective, a community-engagement nonprofit.",
+        "sources": ["s1", "s4"]
+      },
+      "background": [
+        {
+          "text": "Worked in the financial industry for more than a decade.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Founded and operates A Pensacola Perspective, a nonprofit focused on volunteerism, civic engagement and local partnerships.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says Northwest Florida deserves a representative who listens, collaborates, and keeps federal investment benefiting local residents and businesses.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Supports workforce development, skilled trades, entrepreneurship and partnerships between education and industry.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Wants to increase transparency and communication between officeholders and constituents.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_1st_Congressional_District_election,_2026", "title": "Florida's 1st Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Jimmy_Patronis", "title": "Jimmy Patronis", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Gay_Valimont", "title": "Gay Valimont - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://ballotpedia.org/Tyler_Davis", "title": "Tyler Davis - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Patronis's federal voting record and FEC finance totals are added by script."
+}
