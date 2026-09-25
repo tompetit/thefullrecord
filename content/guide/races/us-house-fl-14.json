@@ -152,6 +152,61 @@
       "record": [],
       "researchDepth": "minimal",
       "researchNotes": "Ballotpedia's coverage confirms Lambert completed a Candidate Connection survey, but his individual Ballotpedia page could not be located under the expected URL in the time available, so his specific survey answers are not included here."
+    },
+    {
+      "id": "keith-varian",
+      "name": "Keith Varian",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Write-in candidate",
+      "summary": {
+        "text": "Keith Varian is a write-in, no-party-affiliation candidate for Florida's 14th Congressional District. He describes himself as a construction worker and political outsider running against career politicians.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Earned a high school diploma from Columbia High School and attended Hudson Valley Community College; works in construction.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Housing affordability, saying it is one of the biggest issues in Florida amid rising costs and hurricane risk.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Controlling federal spending, saying runaway spending and inflation from tariffs are eroding household finances.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says inflation from tariffs is compounding cost-of-living pressure on working people.",
+          "quote": "unemployment is on the rise, inflation from tariffs will drown us in a sea of debt.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "salomon-hernandez",
+      "name": "Salomon Hernandez",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Write-in candidate",
+      "summary": {
+        "text": "Salomon Hernandez is a write-in, no-party-affiliation candidate for Florida's 14th Congressional District.",
+        "sources": ["s5"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Candidate Connection survey, campaign website, or other sourced statement of Hernandez's priorities or positions was found in the time available."
     }
   ],
   "sources": [
@@ -163,20 +218,27 @@
       "kind": "reference"
     },
     {
-      "id": "s2",
-      "url": "https://ballotpedia.org/Kathy_Castor",
-      "title": "Kathy Castor — Committee assignments",
-      "publisher": "Ballotpedia",
-      "kind": "reference"
-    },
-    {
       "id": "s3",
       "url": "https://ballotpedia.org/Mike_Beltran",
       "title": "Mike Beltran",
       "publisher": "Ballotpedia Candidate Connection survey / campaign website",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Keith_Varian",
+      "title": "Keith Varian",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Salomon_Hernandez",
+      "title": "Salomon Hernandez",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Write-in candidates Salomon Hernandez and Keith Varian also filed for the general election; no researchable public record was found for Hernandez in the time available, so he is omitted. Brian Lambert's individual Ballotpedia page could not be located, so only his ballot status is documented."
+  "researchNotes": "Brian Lambert's individual Ballotpedia page could not be located under the expected URL, so only his ballot status is documented."
 }

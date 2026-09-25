@@ -1,0 +1,162 @@
+{
+  "id": "us-sen-de",
+  "state": "DE",
+  "officeType": "us-senate",
+  "office": "U.S. Senate",
+  "title": "U.S. Senate · Delaware",
+  "area": "Statewide, Delaware.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Chris Coons (D) won the September 15, 2026 Democratic primary with 78% of the vote. Michael Katz, a physician and former Delaware state senator, won the Republican primary with 77.3%. Travis Stevens is running as a write-in candidate unaffiliated with either major party.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "chris-coons",
+      "name": "Chris Coons",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Senator (since 2010)",
+      "summary": {
+        "text": "Chris Coons is the Democratic incumbent seeking re-election. He previously served as executive of New Castle County and president of the New Castle County Council, and has served in the U.S. Senate since 2010.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Greenwich, Connecticut, in 1963; earned a bachelor's degree in chemistry and political science from Amherst College (1985), an M.A.R. from Yale Divinity School, and a J.D. from Yale Law School (both 1992).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a nonprofit executive and attorney before serving as president of the New Castle County Council (2001-2005) and executive of New Castle County (2005-2010).",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves as Vice Chairman of the Senate Select Committee on Ethics and is a member of the Judiciary Committee, Foreign Relations Committee, Appropriations Committee (Ranking Member, Defense Subcommittee), and Small Business and Entrepreneurship Committee in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://www.chriscoons.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting senator are added separately by script."
+    },
+    {
+      "id": "michael-katz",
+      "name": "Michael Katz",
+      "parties": ["R"],
+      "incumbent": false,
+      "currentRole": "Former Delaware State Senator",
+      "summary": {
+        "text": "Michael Katz is the Republican nominee. He is a pediatric critical care anesthesiologist, small-business owner, and former Delaware state senator running on term limits, fiscal accountability, and a \"people over party\" message.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Grew up in a working-class family and was the first man in his family to attend college.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Recruited from Boston Children's Hospital to A.I. duPont Hospital for Children roughly 30 years ago; has practiced as a pediatric critical care anesthesiologist in Delaware for over 20 years.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served as a member of the Delaware State Senate.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Bringing real-world medical and business problem-solving experience to the Senate.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "A \"Delaware first, people over party\" approach, working across party lines as he says he did in the state senate.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Government accountability and reform, including congressional term limits, fiscal responsibility, and reducing the influence of special interests.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Frames his campaign around fiscal responsibility and rooting out government waste rather than raising taxes, and says he supports congressional term limits and reducing special-interest influence.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Served as a member of the Delaware State Senate before running for U.S. Senate.",
+          "kind": "action",
+          "sources": ["s3"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "travis-stevens",
+      "name": "Travis Stevens",
+      "parties": ["Unaffiliated"],
+      "incumbent": false,
+      "ballotNote": "Write-in candidate",
+      "summary": {
+        "text": "Travis Stevens is an unaffiliated write-in candidate who publishes a daily public letter to Delaware voters at travisjackstevens.com covering healthcare, foreign policy, housing, and democratic reform.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Publishes a series of daily public letters to Delaware voters at travisjackstevens.com covering healthcare, foreign policy, housing, and democratic reform.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Universal healthcare access and lower prescription drug prices.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Expanded housing supply and affordability measures statewide.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign finance reform and ranked-choice voting; says he accepts no Super PAC money.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports universal healthcare access and opposes pharmaceutical industry pricing practices.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports expanded housing supply and affordability measures statewide.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://travisjackstevens.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Stevens has also stated opposition to U.S. military involvement in the Iran war and has criticized U.S. policy toward the conflict in Gaza, citing International Court of Justice findings, per his Ballotpedia Candidate Connection survey."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026", "title": "United States Senate election in Delaware, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Chris_Coons", "title": "Chris Coons", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026", "title": "Michael Katz and Travis Stevens - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Chris Coons's key floor votes and FEC finance totals are filled in separately by script. Michael Katz and Travis Stevens's positions are drawn entirely from their 2026 Ballotpedia Candidate Connection survey responses; no independent campaign websites with additional issue detail were located within the research time budget for Stevens beyond his personal site's stated focus areas."
+}

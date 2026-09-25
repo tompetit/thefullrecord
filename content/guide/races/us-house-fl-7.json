@@ -1,0 +1,149 @@
+{
+  "id": "us-house-fl-7",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "7",
+  "title": "U.S. House · Florida's 7th District",
+  "area": "East-central Florida, including parts of Volusia, Seminole and Orange counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Open seat: incumbent Cory Mills did not win the August 18, 2026 Republican primary, which Ryan Elijah won over Michael Johnson and Sarah Ulrich. Bale Dalton won the Democratic primary over Alan Grayson and Marialana Kinter. Christopher Dennison (Libertarian) also qualified for the general-election ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ryan-elijah",
+      "name": "Ryan Elijah",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Republican primary over incumbent Cory Mills, Michael Johnson and Sarah Ulrich.",
+      "summary": {
+        "text": "Ryan Elijah is the Republican nominee for the open Florida 7th Congressional District seat. A longtime local news anchor and 14-year public figure in the community, he ran on fiscal conservatism, public safety and lower taxes.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Worked as a local news anchor and public figure in the community for 14 years.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Says he comes from a military family.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lowering taxes and cutting wasteful government spending and fraud.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Reducing healthcare regulation to lower costs and premiums.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Supporting law enforcement, including federal funding for training and technology and tougher penalties for assaulting officers.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says he is a fiscal conservative who will fight to keep taxes low and reduce federal spending and debt.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he will push for federal funding for law-enforcement training, technology and personnel, and support tougher penalties for assaulting or shooting officers.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "bale-dalton",
+      "name": "Bale Dalton",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Democratic primary over Alan Grayson and Marialana Kinter.",
+      "summary": {
+        "text": "Bale Dalton is the Democratic nominee for the open Florida 7th Congressional District seat. A U.S. Naval Academy graduate with over 24 years in the Navy and Navy Reserve, he later worked for Sen. Bill Nelson and served as NASA Chief of Staff.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Graduated from the U.S. Naval Academy and served over 24 years in the Navy and Navy Reserve, including 13 years active duty as a helicopter pilot, deploying to Iraq, Afghanistan, the Horn of Africa and the Pacific.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked for Sen. Bill Nelson helping Florida veterans access care and benefits, then returned to active duty as commanding officer of a Navy special-operations support helicopter squadron.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served as NASA Chief of Staff, managing 16,500 employees.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his top priority is making Florida affordable again, addressing gas, health care, housing and insurance costs.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Wants to make it illegal for members of Congress to trade stocks in companies they regulate.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Wants to restore Medicaid and Medicare funding and reverse premium increases, and supports negotiating prescription drug prices.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says Congress made health care worse by cutting Medicaid and Medicare and raising premiums, and calls for restoring that funding, negotiating drug prices, and building on the Affordable Care Act.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Calls for reversing what he describes as the tariffs predecessor Cory Mills voted for, saying they squeeze small businesses and raise supply-chain costs.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "christopher-dennison",
+      "name": "Christopher Dennison",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "ballotNote": "Libertarian primary was canceled; advanced unopposed.",
+      "summary": {
+        "text": "Christopher Dennison is the Libertarian Party nominee for the open Florida 7th Congressional District seat.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Candidate Connection survey or accessible campaign-site content could be located for Dennison."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_7th_Congressional_District_election,_2026", "title": "Florida's 7th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Ryan_Elijah", "title": "Ryan Elijah - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Bale_Dalton", "title": "Bale Dalton - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Open seat after incumbent Cory Mills lost his primary; Dalton's survey references an ongoing House Ethics Committee investigation into Mills, which is not independently verified here since Mills is not on the November ballot."
+}
