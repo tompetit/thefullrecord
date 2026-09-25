@@ -1,0 +1,107 @@
+{
+  "id": "us-house-ct-4",
+  "state": "CT",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Connecticut's 4th District",
+  "area": "Fairfield County, including Greenwich, Stamford, Norwalk, and Bridgeport",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Democratic primary was canceled and incumbent Jim Himes advanced unopposed. Michael Goldstein defeated Daniel Miressi in the Republican primary. Damon Cerreta is running as an independent. The Cook Political Report rated this district D+13 based on 2024 presidential results.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jim-himes",
+      "name": "Jim Himes",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2009)",
+      "summary": {
+        "text": "Jim Himes is the Democratic incumbent for Connecticut's 4th Congressional District, first elected in 2008. A former Goldman Sachs vice president, he serves on the House Financial Services Committee and the House Permanent Select Committee on Intelligence, where he was ranking member in the 2023–2024 Congress.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Lima, Peru; earned a bachelor's degree from Harvard University in 1988 and a master's degree from Oxford University in 1990.", "sources": ["s2"] },
+        { "text": "Worked as a vice president at Goldman Sachs and later at the affordable-housing nonprofit Enterprise Community Partners before entering politics.", "sources": ["s2"] },
+        { "text": "Served on the Greenwich, Connecticut housing authority from 2003 to 2006, chairing it, and on the Greenwich board of estimate and taxation from 2006 to 2007.", "sources": ["s2"] },
+        { "text": "Has represented Connecticut's 4th District in the U.S. House since 2009, currently serving his ninth term.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        { "text": "Serves on the House Committee on Financial Services and the House Permanent Select Committee on Intelligence in the 2025–2026 Congress.", "date": "2025", "kind": "action", "sources": ["s2"] },
+        { "text": "Served as ranking member of the House Permanent Select Committee on Intelligence in the 2023–2024 Congress.", "date": "2023", "kind": "action", "sources": ["s2"] },
+        { "text": "Chaired the Financial Services Subcommittee on National Security, International Development and Monetary Policy in the 2021–2022 Congress.", "date": "2021", "kind": "action", "sources": ["s2"] }
+      ],
+      "website": "https://www.himesforcongress.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "michael-goldstein",
+      "name": "Michael Goldstein",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Defeated Daniel Miressi in the August 11, 2026 Republican primary",
+      "currentRole": "Physician and attorney",
+      "summary": {
+        "text": "Michael Goldstein is the Republican nominee for Connecticut's 4th Congressional District. He is a physician and attorney who has run for this seat in previous cycles. He has not completed Ballotpedia's 2026 Candidate Connection survey.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree from Harpur College at Binghamton University (1970), an M.D. from SUNY Downstate Medical School (1974), and a law degree from the Elisabeth Haub School of Law at Pace University (2006).", "sources": ["s3"] },
+        { "text": "Has previously run for Connecticut's 4th Congressional District, including in the 2024, 2022, and 2020 election cycles.", "sources": ["s3"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "website": "https://www.goldsteinforcongress.com",
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "damon-cerreta",
+      "name": "Damon Cerreta",
+      "parties": ["IND"],
+      "incumbent": false,
+      "currentRole": "Business owner",
+      "summary": {
+        "text": "Damon Cerreta is an independent candidate for Connecticut's 4th Congressional District. A Stamford-born business owner, he is running on themes of reducing corporate abuses of consumers and strengthening working-class protections.",
+        "sources": ["s4", "s5"]
+      },
+      "background": [
+        { "text": "Born in Stamford, Connecticut; earned a high school diploma from Ridgefield High School.", "sources": ["s4"] },
+        { "text": "Has worked as a business owner, including managing a customer service team before starting his own company.", "sources": ["s4", "s5"] }
+      ],
+      "priorities": [
+        { "text": "Proposes legislation to eliminate hidden fees and price increases in service agreements and to stop companies from locking customers into unfair multi-year contracts.", "quote": "I propose new legislation that will: Eliminate hidden costs and uncontrollable price increases in service agreements. Prevent corporations from locking customers into unfair multi-year agreements. Protect customers from being sued if they try to leave an agreement that was misleading or materially altered by the service provider. Stop the cycle of corporations raising prices and pushing out small businesses.", "sources": ["s5"] },
+        { "text": "Says he is passionate about economic, healthcare, education, veterans' affairs, and environmental policy, and wants to expand access to quality healthcare and educational opportunity.", "quote": "I'm passionate about economic, healthcare, education, veterans and military affairs, foreign, environmental, and social policy. I believe in supporting working families, expanding access to quality healthcare, and ensuring every child has equal educational opportunities.", "sources": ["s5"] },
+        { "text": "Calls for greater civic engagement and bipartisan common ground, citing what he sees as growing national division as one of the country's biggest challenges over the next decade.", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he supports expanding access to quality healthcare for working families.",
+          "quote": "I believe in supporting working families, expanding access to quality healthcare, and ensuring every child has equal educational opportunities.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "website": null,
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Connecticut,_2026", "title": "United States House of Representatives elections in Connecticut, 2026", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s2", "url": "https://ballotpedia.org/Jim_Himes", "title": "Jim Himes", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s3", "url": "https://ballotpedia.org/Michael_Goldstein_(Connecticut)", "title": "Michael Goldstein (Connecticut)", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s4", "url": "https://ballotpedia.org/Damon_Cerreta", "title": "Damon Cerreta", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s5", "url": "https://ballotpedia.org/Damon_Cerreta", "title": "Damon Cerreta — Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2025" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No campaign website or independent news coverage of Michael Goldstein's 2026 platform was found beyond his Ballotpedia biography; his entry reflects the limited public record available. No campaign website was found for Damon Cerreta; his positions and priorities come from his 2025 Ballotpedia Candidate Connection survey. Rep. Himes's federal key votes and FEC finance totals are added separately by script."
+}
