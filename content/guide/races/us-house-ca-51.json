@@ -1,0 +1,108 @@
+{
+  "id": "us-house-ca-51",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "51",
+  "title": "U.S. House · California's 51st District",
+  "area": "Central San Diego, including much of the City of San Diego.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The district's boundaries changed as a result of California Proposition 50, a mid-decade congressional redistricting measure voters approved on November 5, 2025.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Incumbent Sara Jacobs and Ricardo Cabrera advanced from the June 2, 2026 top-two primary, defeating David Engel and Stan Caplan. Jacobs won 57.7% of the primary vote (111,765 votes) and Cabrera won 37.0% (71,692 votes).",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sara-jacobs",
+      "name": "Sara Jacobs",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 2, 2026 top-two primary with 57.7% of the vote.",
+      "currentRole": "U.S. Representative, CA-51 (since 2023)",
+      "summary": {
+        "text": "Sara Jacobs is the incumbent Democratic U.S. Representative, first elected in 2022. Before Congress she worked as a policy advisor on Hillary Clinton's 2016 presidential campaign, held policy positions at the U.S. State Department, UNICEF and the United Nations, and founded San Diego for Every Child: The Coalition to End Child Poverty.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in San Diego, California, in 1989.", "sources": ["s2"] },
+        { "text": "Earned a bachelor's degree in political science and a master's degree in international affairs from Columbia University in 2011 and 2012.", "sources": ["s2"] },
+        { "text": "Worked as a policy advisor on Hillary Clinton's 2016 presidential campaign and held policy positions with the U.S. State Department, UNICEF and the United Nations.", "sources": ["s2"] },
+        { "text": "Founded San Diego for Every Child: The Coalition to End Child Poverty and served as CEO of Project Connect.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Armed Services (Intelligence and Special Operations and Military Personnel subcommittees) and the House Committee on Foreign Affairs for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as ranking member of the Foreign Affairs Subcommittee on Africa during the 118th Congress (2023-2024).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Jacobs has not completed Ballotpedia's 2026 Candidate Connection survey, and no campaign-website issue statements could be retrieved in this environment, so no sourced issue positions are included."
+    },
+    {
+      "id": "ricardo-cabrera",
+      "name": "Ricardo Cabrera",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary with 37.0% of the vote.",
+      "summary": {
+        "text": "Ricardo Cabrera is a San Diego small business owner and cybersecurity professional running as the Republican candidate for CA-51. He has not previously held elected office.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Describes himself as a San Diegan, small business owner and cybersecurity professional.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Supporting congressional term limits, saying Washington needs \"citizen legislators, not career politicians.\"", "sources": ["s3"] },
+        { "text": "Addressing affordability, saying families are being \"priced out, taxed out, and pushed out of California.\"", "sources": ["s3"] },
+        { "text": "Fiscal responsibility and public safety, describing government that \"focuses on results instead of bureaucracy.\"", "sources": ["s3"] }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Based on Cabrera's Ballotpedia Candidate Connection survey; no independent campaign website content could be retrieved in this environment, and his statements did not map to a specific fixed issue key in the guide."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/California%27s_51st_Congressional_District_election,_2026",
+      "title": "California's 51st Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Sara_Jacobs",
+      "title": "Sara Jacobs",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/California%27s_51st_Congressional_District_election,_2026",
+      "title": "Ricardo Cabrera - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress."
+}
