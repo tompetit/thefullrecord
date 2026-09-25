@@ -1,0 +1,115 @@
+{
+  "id": "us-house-de-al",
+  "state": "DE",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "AL",
+  "title": "U.S. House · Delaware At-Large",
+  "area": "Statewide, Delaware's single at-large congressional district.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Sarah McBride (D) and Joseph Arminio (R) are unopposed in their respective parties for the November 3, 2026 general election; Arminio advanced from a September 15, 2026 Republican primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sarah-mcbride",
+      "name": "Sarah McBride",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2025)",
+      "summary": {
+        "text": "Sarah McBride is the Democratic incumbent seeking re-election to Delaware's at-large U.S. House seat. She previously served in the Delaware Senate and worked in LGBTQ advocacy and Democratic politics before her 2024 election to Congress.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Wilmington, Delaware, in 1990; earned a bachelor's degree from American University in 2013.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as national press secretary for the Human Rights Campaign and the Center for American Progress, and worked with the White House during the Obama administration, former Gov. Jack Markell, and former Delaware Attorney General Beau Biden.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the Delaware State Senate from 2020 to 2024.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Science, Space, and Technology Committee (Research and Technology Subcommittee) and the House Foreign Affairs Committee in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://www.sarahmcbride.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting representative are added separately by script. No 2026 Ballotpedia Candidate Connection survey or detailed 2026 campaign-website issues page was located within the research time budget."
+    },
+    {
+      "id": "joseph-arminio",
+      "name": "Joseph Arminio",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Joseph Arminio, also known as \"Dr. Joe,\" is the Republican nominee. He holds a Ph.D. from MIT and describes his career as spanning public policy, teaching, and writing; his campaign centers on an economic-reform plan he calls the \"American Prosperity Plan.\"",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Wilmington, Delaware; earned a bachelor's degree from Johns Hopkins University and a Ph.D. from the Massachusetts Institute of Technology.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Career experience includes public policy work, teaching, and writing as an author.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "An economic-reform proposal he calls the \"American Prosperity Plan,\" which he says would reduce debt, tame inflation, and lessen U.S. reliance on the petrodollar system.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Opposing what he describes as \"endless wars,\" including support for a two-state solution regarding Israel and opposition to the Iran war.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Education reform emphasizing critical thinking, including a proposal to require formal debate instruction in grades 9-12.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "israel_aid",
+          "stance": "mixed",
+          "summary": "Says he supports steering Israel toward a two-state solution while also stating he has publicly opposed the Iran war.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he agrees with ending sanctuary-city policies and enacting penalties for officials who block removal of people in the country illegally, and frames a stronger economy as necessary to fund immigration enforcement.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://drjoeforcongress.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Arminio has not completed a Ballotpedia Candidate Connection survey; positions are drawn from his campaign website, quoted verbatim."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_election_in_Delaware,_2026", "title": "United States House of Representatives election in Delaware, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Sarah_McBride", "title": "Sarah McBride", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Joseph_Arminio", "title": "Joseph Arminio", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Sarah McBride's key floor votes and FEC finance totals are filled in separately by script. Both candidates are effectively unopposed within their own parties; no primary or minor-party challengers appear on the November ballot."
+}
