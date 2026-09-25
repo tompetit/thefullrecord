@@ -1,0 +1,175 @@
+{
+  "id": "us-house-fl-22",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "22",
+  "title": "U.S. House · Florida's 22nd District",
+  "area": "Southwest Florida including Naples and Collier County, under Florida's 2026 congressional map.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Florida's U.S. House elections use a new congressional map for 2026; Gov. Ron DeSantis signed the new district boundaries into law on May 4, 2026. No incumbent is listed for this district on the 2026 general-election ballot.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Pia Dandiya won the Democratic primary on August 18, 2026, defeating Kaysia Earley. Casey Askar won a crowded Republican primary that included Terri Hasdorff, Belinda Keiser, and others.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "pia-dandiya",
+      "name": "Pia Dandiya",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Democratic primary",
+      "summary": {
+        "text": "Pia Dandiya is an educator and former public school founding principal running as the Democratic nominee for Florida's 22nd District, campaigning on lowering costs, protecting Social Security and Medicare, and education.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Worked as a teacher in public schools serving low-income communities; at age 28 became founding principal of a public high school where every graduate earned college admission.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Describes herself as the daughter of immigrants.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says lowering the cost of living, including housing, property insurance, prescription drugs, and childcare costs, will be her first priority.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Says she will oppose cuts to Social Security and Medicare and work to reverse Medicaid cuts, while asking wealthier Americans to pay more to sustain the programs.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Says she will invest in universal pre-K, fully fund public schools, and build job training and apprenticeship pathways.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Opposes cuts to Social Security and Medicare and wants to reverse recent Medicaid cuts.",
+          "quote": "I'll oppose any effort to cut Social Security, raise the retirement age, or hand these programs to Wall Street.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says the wealthiest Americans should pay more to sustain Social Security and Medicare rather than cutting the programs.",
+          "quote": "The fairest way to keep these programs strong for generations to come is to ask the wealthiest Americans to pay their fair share.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she trusts women to make their own healthcare decisions and will work to protect access to reproductive care and contraception.",
+          "quote": "I trust women to make their own health care decisions, and I'll work to protect access to reproductive care and contraception.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says she will fight to end tariffs she describes as driving up the price of groceries and everyday goods.",
+          "quote": "I'll fight to end the illegal and costly tariffs driving up the price of groceries and everyday goods.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Lists lowering the cost of childcare among her priorities for South Florida families.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "website": "https://ballotpedia.org/Pia_Dandiya",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "casey-askar",
+      "name": "Casey Askar",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Republican primary in a crowded field",
+      "summary": {
+        "text": "Casey Askar is a businessman and U.S. Marine veteran running as the Republican nominee for Florida's 22nd District, campaigning on term limits, fiscal policy, and border security.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "A self-made businessman who says he employs thousands of Americans across the country, and a veteran of the U.S. Marine Corps.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Lives in Naples with his wife and six children; family supports the Community School of Naples, St. Ann Catholic School, and the Golisano Naples Children's Museum.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he is a strong believer in federal term limits and is not a career politician.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he will pursue policies to stimulate the economy and let Americans keep more of their money, drawing on his business background.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he will protect Second Amendment rights, defend against foreign threats such as China, and work to secure the border.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he will protect Second Amendment rights.",
+          "quote": "As a Congressman, I will protect our 2nd Amendment rights, defend our country against foreign threats such as China, and work with President Trump to secure our border.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he will work to secure the border.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://ballotpedia.org/Casey_Askar",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Florida%27s_22nd_Congressional_District_election,_2026",
+      "title": "Florida's 22nd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Pia_Dandiya",
+      "title": "Pia Dandiya",
+      "publisher": "Pia Dandiya campaign website, via Ballotpedia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Casey_Askar",
+      "title": "Casey Askar",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No incumbent is listed for this district on Ballotpedia's 2026 general-election candidate list. Casey Askar's Candidate Connection survey dates to 2020, before this district's current boundaries; cited only for general biography and stated priorities."
+}
