@@ -1,0 +1,197 @@
+{
+  "id": "us-house-in-2",
+  "state": "IN",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Indiana's 2nd District",
+  "area": "North-central Indiana, including South Bend, Mishawaka, Elkhart, and Rochester (St. Joseph, Elkhart, Marshall, Fulton, and nearby counties)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Rudy Yakym ran unopposed in the May 5, 2026 Republican primary. Jamee Decio won the Democratic primary over Shaun Maeyens. William Henry advanced from the Libertarian Party convention.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "rudy-yakym",
+      "name": "Rudy Yakym",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Ran unopposed in the May 5, 2026 Republican primary",
+      "currentRole": "U.S. Representative, Indiana's 2nd District (since 2022)",
+      "summary": {
+        "text": "Rudy Yakym is the incumbent Republican U.S. Representative for Indiana's 2nd District, first elected in a November 2022 special election after previously serving as a staffer to the late Rep. Jackie Walorski.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Earned an associate degree (2009) and bachelor's degree (2011) from Indiana University South Bend, and an MBA from the University of Notre Dame (2019).", "sources": ["s2"] },
+        { "text": "Worked as a staffer to the late U.S. Representative Jackie Walorski before running for office.", "sources": ["s2"] },
+        { "text": "Serves on the House Committee on Ways and Means (Oversight, Social Security, and Work and Welfare subcommittees) in the 119th Congress.", "sources": ["s2"] },
+        { "text": "Previously served on the House Committee on the Budget and the Committee on Transportation and Infrastructure during the 118th Congress.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Lists 'Securing the Border' among his stated priorities on his official website.", "sources": ["s3"] },
+        { "text": "Lists 'Growing Jobs and Wages,' 'Helping Hoosier Farmers,' and 'Putting Your Money Back in Your Pocket' among his stated priorities.", "sources": ["s3"] },
+        { "text": "Lists 'Serving Our American Heroes' (veterans) and 'Peace Through Strength' among his stated priorities.", "sources": ["s3"] }
+      ],
+      "positions": [],
+      "record": [
+        { "text": "Assigned to the House Committee on Ways and Means (Oversight, Social Security, and Work and Welfare subcommittees) for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"] },
+        { "text": "Served on the House Committee on the Budget and the Committee on Transportation and Infrastructure during the 118th Congress (2023-2024).", "kind": "action", "sources": ["s2"] }
+      ],
+      "website": "https://yakym.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "Y000067"
+    },
+    {
+      "id": "jamee-decio",
+      "name": "Jamee Decio",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 5, 2026 Democratic primary over Shaun Maeyens",
+      "summary": {
+        "text": "Jamee Decio is the Democratic nominee for Indiana's 2nd District. She holds a bachelor's degree and a law degree from the University of Notre Dame.",
+        "sources": ["s4"]
+      },
+      "background": [
+        { "text": "Holds a bachelor's degree and a law degree from the University of Notre Dame.", "sources": ["s4"] },
+        { "text": "Is the daughter of an Elkhart businessman, according to her campaign website.", "sources": ["s4"] }
+      ],
+      "priorities": [
+        { "text": "Campaign website cites affordability, saying wages have lagged behind the cost of groceries, medical care, and childcare.", "quote": "Jamee recognizes salaries and wages have lagged behind the rising costs of groceries, medical care, and childcare, leaving no room for savings.", "sources": ["s4"] },
+        { "text": "Says she wants to eliminate federal economic policies she says jeopardize local jobs, citing the effect of tariffs on Indiana soybean exports to China.", "sources": ["s4"] },
+        { "text": "Says she opposes Trump administration redistricting efforts and National Guard/ICE deployments targeting cities with Democratic leaders.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign website says Trump administration tariffs prompted China to impose retaliatory tariffs that hurt Indiana soybean farmers.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "william-henry",
+      "name": "William Henry",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the Libertarian Party convention on March 22, 2026",
+      "summary": {
+        "text": "William Henry is the Libertarian Party nominee for Indiana's 2nd District, a U.S. Army veteran and communications professional who has run for the seat in 2022 and 2024 and for Indiana Lieutenant Governor in 2020.",
+        "sources": ["s5"]
+      },
+      "background": [
+        { "text": "Born in Indianapolis, Indiana; graduated from Martinsville High School.", "sources": ["s5"] },
+        { "text": "Served in the U.S. Army and Indiana Army National Guard from 2005 to 2015, including deployments to Afghanistan and Kuwait, working in military public affairs and journalism; earned the Bronze Star Medal.", "sources": ["s5"] },
+        { "text": "Earned a degree from the United States Defense Information School in 2006.", "sources": ["s5"] },
+        { "text": "Previously ran for Indiana Lieutenant Governor (2020) and for Indiana's 2nd Congressional District (2022, 2024).", "sources": ["s5"] }
+      ],
+      "priorities": [
+        { "text": "Cites government accountability and fiscal responsibility as a key campaign message, supporting reduced federal spending and regulatory burdens.", "quote": "I support eliminating waste, fraud, and unnecessary bureaucracy; reducing federal spending and regulatory burdens; and limiting government programs that unnecessarily intrude into the lives, property, and finances of Americans.", "sources": ["s5"] },
+        { "text": "Cites privacy and limits on government surveillance as a key campaign message, including opposing expanded use of license-plate readers and facial recognition.", "sources": ["s5"] },
+        { "text": "Cites a strong national defense while opposing unnecessary foreign entanglements, and says he supports veterans and opposes government taking land for corporate interests such as data centers.", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says taxpayers should not be forced to subsidize projects that primarily benefit corporations, and supports reducing federal spending and regulatory burdens generally.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "website": "",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "eric-beebe",
+      "name": "Eric Beebe",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Independent candidate",
+      "summary": {
+        "text": "Eric Beebe is an independent candidate for Indiana's 2nd District, a U.S. Army veteran and Purdue Northwest-educated engineer from LaPorte County.",
+        "sources": ["s6"]
+      },
+      "background": [
+        { "text": "Born in La Porte, Indiana; earned a bachelor's degree from Purdue Northwest University in 2018.", "sources": ["s6"] },
+        { "text": "Served in the U.S. Army from 2009 to 2013.", "sources": ["s6"] }
+      ],
+      "priorities": [
+        { "text": "Says his campaign aims to end unopposed elections and restore competitive democracy in Indiana.", "quote": "Every voter deserves a choice. I'm running to end unopposed elections and restore competitive democracy in Indiana.", "sources": ["s6"] },
+        { "text": "Says true freedom requires access to healthcare, education, and fair opportunity.", "quote": "True freedom requires access to healthcare, education, and fair opportunity. A nation that leaves its people behind cannot call itself free.", "sources": ["s6"] },
+        { "text": "Says he supports reasonable term limits for members of Congress.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says healthcare and education equity are core to his policy priorities, describing them as 'the moral infrastructure of liberty.'",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [],
+      "website": "",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Indiana,_2026",
+      "title": "United States House of Representatives elections in Indiana, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Rudy_Yakym",
+      "title": "Rudy Yakym",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://yakym.house.gov/issues",
+      "title": "Issues",
+      "publisher": "Office of Rep. Rudy Yakym",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Jamee_Decio",
+      "title": "Jamee Decio",
+      "publisher": "Jamee Decio campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/William_Henry_(Indiana)",
+      "title": "William Henry",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Eric_Beebe",
+      "title": "Eric Beebe",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2025-01-01"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No public campaign websites beyond the excerpts captured in Ballotpedia's Candidate Connection survey and campaign-website records were separately verified for Decio, Henry, and Beebe; website fields are left blank."
+}

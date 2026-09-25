@@ -1,0 +1,136 @@
+{
+  "id": "us-house-il-4",
+  "state": "IL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Illinois's 4th District",
+  "area": "Parts of Chicago's West and Southwest Sides and western Cook County suburbs",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat. Incumbent Jesus \"Chuy\" Garcia (D) did not make the Democratic primary ballot. Patty Garcia, who served as his district director and chief of staff, won the Democratic primary unopposed. Lupe Castillo won the Republican primary and Ed Hershey won the Working Class Party primary, both unopposed.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Chris Getty, Mayor of Lyons and Lyons Township Supervisor, is running as an independent after collecting signatures to appear on the general-election ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "patty-garcia",
+      "name": "Patty Garcia",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 17, 2026 Democratic primary unopposed",
+      "summary": {
+        "text": "Garcia is a former district director and chief of staff to outgoing U.S. Rep. Jesus \"Chuy\" Garcia, with a doctorate in educational policy studies.",
+        "sources": ["s1"]
+      },
+      "background": [
+        { "text": "Earned bachelor's degrees in political science and speech communication, an M.A. in educational policy studies, and a Ph.D. in educational policy studies, all from the University of Illinois Urbana-Champaign.", "sources": ["s1"] },
+        { "text": "Served as U.S. Rep. Jesus Garcia's district director and later his chief of staff.", "sources": ["s1"] }
+      ],
+      "priorities": [
+        { "text": "Campaign website says she has built coalitions \"standing with immigrant families facing detention and deportation, helping tenants and homeowners navigate rising costs and displacement, and working with labor and community partners.\"", "sources": ["s1"] },
+        { "text": "On affordability, says she would work on raising the federal minimum wage, passing the PRO Act, expanding the Child Tax Credit, reducing prescription drug costs, and building more affordable homes.", "sources": ["s1"] },
+        { "text": "On immigration, her campaign website says she supports a pathway to citizenship, protections for Dreamers and mixed-status families, and restructuring immigration enforcement agencies, including abolishing ICE.", "sources": ["s1"] }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says she would work to raise the federal minimum wage.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Supports a pathway to citizenship and restructuring immigration enforcement agencies, including abolishing ICE, rather than expanding enforcement.",
+          "quote": "supports a pathway to citizenship, protections for Dreamers and mixed-status families, expanded legal services for immigrants, and stronger oversight and accountability for federal immigration agencies. She also supports fundamentally restructuring immigration enforcement agencies, including abolishing ICE.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Says she has worked helping tenants and homeowners navigate rising costs and displacement.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "lupe-castillo",
+      "name": "Lupe Castillo",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the March 17, 2026 Republican primary unopposed",
+      "summary": {
+        "text": "Castillo won the Republican primary for this open seat.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "ed-hershey",
+      "name": "Ed Hershey",
+      "parties": ["Working Class Party"],
+      "incumbent": false,
+      "ballotNote": "Won the March 17, 2026 Working Class Party primary unopposed",
+      "summary": {
+        "text": "Hershey won the Working Class Party primary for this open seat.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "chris-getty",
+      "name": "Chris Getty",
+      "parties": ["IND"],
+      "incumbent": false,
+      "currentRole": "Mayor of Lyons, Illinois (since 2009); Lyons Township Supervisor (since 2017)",
+      "summary": {
+        "text": "Getty is the Mayor of the Village of Lyons and Lyons Township Supervisor, running his campaign on nearly two decades of local public service.",
+        "sources": ["s1"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree in corporate communications from Eastern Illinois University.", "sources": ["s1"] },
+        { "text": "Licensed insurance producer and president of Getty Insurance Agency.", "sources": ["s1"] },
+        { "text": "Mayor of the Village of Lyons since 2009 and Lyons Township Supervisor since 2017.", "sources": ["s1"] }
+      ],
+      "priorities": [
+        { "text": "Campaign focuses on cost of living, immigration and public safety, and government accountability, per his campaign website.", "sources": ["s1"] },
+        { "text": "\"I'm running as an independent because this moment demands an independent voice. I don't answer to a party, I answer to the people.\"", "sources": ["s1"] },
+        { "text": "Says his time as mayor \"focused on responsible leadership, economic development, and building partnerships that create real opportunity for residents and local businesses.\"", "sources": ["s1"] }
+      ],
+      "positions": [],
+      "record": [
+        { "text": "As Mayor of Lyons, oversaw local economic development initiatives, according to his campaign materials.", "kind": "action", "sources": ["s1"] }
+      ],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Illinois%27_4th_Congressional_District_election,_2026",
+      "title": "Illinois' 4th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Garcia's and Getty's material is drawn from their campaign websites as compiled by Ballotpedia. No campaign website, public statements, or Candidate Connection survey were found for Lupe Castillo or Ed Hershey within the BASIC research budget; their entries are marked minimal."
+}

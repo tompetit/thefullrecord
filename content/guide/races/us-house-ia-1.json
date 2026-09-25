@@ -1,0 +1,247 @@
+{
+  "id": "us-house-ia-1",
+  "state": "IA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Iowa's 1st District",
+  "area": "Southeast Iowa, including Davenport, Burlington, Ottumwa, and Fort Madison",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Mariannette Miller-Meeks (R) advanced from the June 2, 2026 Republican primary and is running for a third term representing this district (she previously represented the old 2nd District, 2021-2023). Christina Bohannan (D), a former state representative and University of Iowa law professor, is her Democratic challenger for a third consecutive cycle. Cook Political Report rated the district R+4.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "mariannette-miller-meeks",
+      "name": "Mariannette Miller-Meeks",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the June 2 Republican primary",
+      "currentRole": "U.S. Representative, Iowa's 1st District (since 2023); previously represented the 2nd District (2021-2023)",
+      "summary": {
+        "text": "Miller-Meeks is the Republican incumbent for Iowa's 1st Congressional District, seeking a third term in this district (fourth overall House term). She is a physician and U.S. Army veteran who previously served in the Iowa State Senate.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Herlong, California, Miller-Meeks served in the U.S. Army for 24 years.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "She earned a bachelor's degree in nursing from Texas Christian University (1976), a master's degree from the University of Southern California (1980), and a medical degree from the University of Texas Health Science Center (1986).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Her career includes work as a nurse, an ophthalmologist, and director of the Iowa Department of Public Health. She served in the Iowa State Senate (District 41, 2019-2021) before being elected to the U.S. House in 2020.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Promote U.S. energy production and independence, including expanded oil, gas, and biofuels production and streamlined permitting.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Strengthen border security and immigration enforcement.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Miller-Meeks says she voted for the SAVE Act requiring proof of citizenship to register to vote and supports stronger border security measures.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Miller-Meeks's issues page criticizes restrictions on fossil fuel production and describes cosponsoring the Lower Energy Costs Act to expand oil, gas, and mineral production and streamline permitting.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "According to her Democratic opponent's campaign, Miller-Meeks has voted multiple times for tariffs in the 119th Congress; her own issues pages do not address tariffs directly.",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Cosponsored H.R. 1, the Lower Energy Costs Act, aimed at ending restrictions on energy production and streamlining permitting; it passed the House with bipartisan support.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Introduced the Critical Infrastructure Manufacturing Feasibility Act, which passed the House and directs a federal study on domestic manufacturing of critical-infrastructure goods.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Introduced the Refrigerator Freedom Act, which passed the House and limits the Department of Energy's authority to implement certain appliance efficiency regulations.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Led efforts to allow year-round sale of E15 fuel in Iowa and nationally.",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Serves on the House Committee on House Administration (Elections subcommittee) and the Committee on Energy and Commerce (Health and Environment subcommittees), 2025-2026.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://millermeeks.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "M001215"
+    },
+    {
+      "id": "christina-bohannan",
+      "name": "Christina Bohannan",
+      "parties": ["D"],
+      "incumbent": false,
+      "currentRole": "Former member, Iowa House of Representatives",
+      "summary": {
+        "text": "Bohannan is a Democratic former Iowa state representative, University of Iowa law professor, and engineer challenging Miller-Meeks for a third time. Her campaign centers on lowering costs for Iowans and reducing the influence of special-interest money in Congress.",
+        "sources": ["s6"]
+      },
+      "background": [
+        {
+          "text": "Bohannan earned a degree in environmental engineering and a law degree, both from the University of Florida.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "She worked as an engineer with the Florida Department of Environmental Protection and later taught constitutional and intellectual property law at the University of Iowa College of Law for 26 years.",
+          "sources": ["s2", "s6"]
+        },
+        {
+          "text": "She previously served as a Democratic member of the Iowa House of Representatives.",
+          "sources": ["s6"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lower costs for Iowans by ending broad tariffs, capping insulin costs at $35 per month, and letting Medicare negotiate lower prescription drug prices.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Prohibit hedge funds and private investors from buying up family homes and farmland, and build and rehabilitate more housing.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Reduce the influence of special-interest and corporate campaign money in Congress.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Bohannan's platform calls for Congress to end broad tariffs, which she says have raised costs for Iowa families and farmers.",
+          "quote": "Exercising Congress's power to end the disastrous tariffs that are one of the biggest tax increases in American history and have left Iowans to pay thousands per year in higher costs",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Bohannan's platform calls for prohibiting hedge funds and private investors from buying up family homes and land.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Bohannan's platform calls for letting Medicare negotiate lower prescription drug prices and capping insulin costs at $35 per month for everyone.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Bohannan's platform calls for expanding Iowa's clean energy economy and cracking down on utility monopolies to lower energy bills.",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Sponsored legislation as an Iowa state representative; specific bill-by-bill detail was not documented in the sources reviewed.",
+          "kind": "action",
+          "sources": ["s6"]
+        }
+      ],
+      "website": "https://bohannanforcongress.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "michael-bridgford",
+      "name": "Michael Bridgford",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Bridgford is an independent candidate on the general-election ballot for Iowa's 1st District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Iowa,_2026",
+      "title": "United States House of Representatives elections in Iowa, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Mariannette_Miller-Meeks",
+      "title": "Mariannette Miller-Meeks",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://millermeeks.house.gov/issues/economy",
+      "title": "Economy",
+      "publisher": "Office of Rep. Mariannette Miller-Meeks",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://millermeeks.house.gov/issues/border-security",
+      "title": "Border Security",
+      "publisher": "Office of Rep. Mariannette Miller-Meeks",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://bohannanforcongress.com/priorities/",
+      "title": "Priorities",
+      "publisher": "Christina Bohannan for Congress (campaign site)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://bohannanforcongress.com/priorities/",
+      "title": "Priorities",
+      "publisher": "Christina Bohannan for Congress (campaign site)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Miller-Meeks's tariff position is only documented through her opponent's campaign materials (a candidate source about the other candidate), not through Miller-Meeks's own statements; treat with appropriate caution. Bohannan's own record as a state legislator was not itemized bill-by-bill within the research budget. No campaign website, statements, or Ballotpedia profile page could be located for independent candidate Michael Bridgford."
+}
