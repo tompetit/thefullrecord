@@ -1,0 +1,160 @@
+{
+  "id": "us-house-fl-5",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · Florida's 5th District",
+  "area": "Northeast Florida including most of Jacksonville (Duval County).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent John Rutherford defeated Mark Kaye in the August 18, 2026 Republican primary. Rachel Grage won the Democratic primary over Alexander Hazen and Mark Heggestad. William Upham is a write-in, no-party-affiliation candidate.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "john-rutherford",
+      "name": "John Rutherford",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the August 18, 2026 Republican primary over Mark Kaye.",
+      "currentRole": "U.S. Representative for Florida's 5th District (since 2017)",
+      "summary": {
+        "text": "John Rutherford is the incumbent Republican U.S. Representative for Florida's 5th District. He is a former police officer who served three terms as elected sheriff of Duval County before being elected to Congress.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Omaha, Nebraska in 1952; earned an associate degree from Florida Junior College (1972) and a bachelor's degree in criminology from Florida State University (1974).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a police officer and was elected to three terms as sheriff of Duval County, Florida.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as chair of the Legislative Committee for the Florida Sheriffs Association.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "In the 119th Congress, serves on the House Committee on Appropriations (Homeland Security and Military Construction/Veterans Affairs subcommittees) and the Committee on Ethics.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Immigration: focuses on securing the border, streamlining the immigration process, and supporting border patrol agents.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Community Safety: says he is focused on keeping kids safe in school, families safe at home, and police safe on the job, drawing on more than 40 years of law-enforcement experience as a former sheriff.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says the One Big Beautiful Bill Act delivers the largest tax cut in history for middle- and working-class Americans.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Lists cosponsoring border-wall funding legislation, closing asylum-system loopholes, and codifying the 'Remain in Mexico' policy among his legislative actions on immigration.",
+          "quote": "In Congress, I'm working to protect our national security and the economic well-being of hardworking Americans.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Sponsored the Protect and Serve Act increasing penalties for attacks on law officers, authored the STOP School Violence Act that funded school security and school resource officers, and advocated for the School Resource Officer Act to hire additional school resource officers.",
+          "quote": "As a former Sheriff with over 40 years of law enforcement experience, nothing is more important to me than the safety and security of our community.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Appropriations and the Committee on Ethics in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Federal roll-call votes and FEC finance totals for this sitting member are added by script. Positions and priorities above are drawn from Rutherford's official House issues pages (Immigration, Community Safety, Tax Cuts for Working Americans)."
+    },
+    {
+      "id": "rachel-grage",
+      "name": "Rachel Grage",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Democratic primary over Alexander Hazen and Mark Heggestad.",
+      "summary": {
+        "text": "Rachel Grage is the Democratic nominee for Florida's 5th Congressional District. She is a biomedical engineer and mother of four who earned engineering degrees from Tulane University.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Earned bachelor's and master's degrees in engineering from Tulane University.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked as a biomedical engineer focused on improving health outcomes.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Addressing rising costs for families, including health care premiums, insurance instability and housing affordability.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Government accountability, transparency and oversight.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Protecting democracy, individual rights, due process and the rule of law.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists reducing health care premiums, insurance instability and out-of-pocket medical costs among her top campaign priorities.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "william-upham",
+      "name": "William Upham",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Qualified as a write-in, no-party-affiliation candidate.",
+      "summary": {
+        "text": "William Upham is a write-in, no-party-affiliation candidate for Florida's 5th Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, Candidate Connection survey, or other public statements could be located for Upham."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_5th_Congressional_District_election,_2026", "title": "Florida's 5th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/John_Rutherford_(Florida)", "title": "John Rutherford (Florida)", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Rachel_Grage", "title": "Rachel Grage - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://rutherford.house.gov/issues/immigration", "title": "Immigration", "publisher": "Office of Rep. John Rutherford", "kind": "official", "date": "2026-09-25" },
+    { "id": "s5", "url": "https://rutherford.house.gov/issues/judiciary", "title": "Community Safety", "publisher": "Office of Rep. John Rutherford", "kind": "official", "date": "2026-09-25" },
+    { "id": "s6", "url": "https://rutherford.house.gov/issues/tax-cuts-working-americans", "title": "Tax Cuts for Working Americans", "publisher": "Office of Rep. John Rutherford", "kind": "official", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Rutherford's federal voting record and FEC finance totals are added by script. Upham, a write-in candidate, has essentially no public footprint."
+}

@@ -1,0 +1,136 @@
+{
+  "id": "us-house-oh-10",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "10",
+  "title": "U.S. House · Ohio's 10th District",
+  "area": "Southwest Ohio, including Dayton and Montgomery County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Michael Turner (R) advanced unopposed from the May 5, 2026 Republican primary. Kristina Knickerbocker won the Democratic primary. Thomas McMasters won the Libertarian primary.",
+      "sources": ["s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "michael-turner",
+      "name": "Michael Turner",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2003)",
+      "summary": {
+        "text": "Michael Turner is the Republican incumbent seeking re-election in Ohio's 10th Congressional District, which he has represented since 2003. He is a former chairman of the House Permanent Select Committee on Intelligence and previously served as mayor of Dayton.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Dayton, Ohio; graduated from Belmont High School and earned a bachelor's degree from Ohio Northern University.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served as mayor of Dayton before his election to Congress.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Oversight and Government Reform and the House Committee on Armed Services, including its Strategic Forces and Tactical Air and Land Forces subcommittees (119th Congress, 2025-2026).",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Chaired the House Permanent Select Committee on Intelligence in the 118th Congress (2023-2024), after serving as its ranking member in the 117th Congress (2021-2022).",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "T000463"
+    },
+    {
+      "id": "kristina-knickerbocker",
+      "name": "Kristina Knickerbocker",
+      "parties": ["D"],
+      "incumbent": false,
+      "summary": {
+        "text": "Kristina Knickerbocker is the Democratic nominee for Ohio's 10th Congressional District. She is a family nurse practitioner and U.S. Air Force veteran.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Air Force from 2015 to 2025.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Earned a bachelor's degree from Azusa Pacific University (2014) and a graduate degree from The Ohio State University (2022); works as a family nurse practitioner.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "thomas-mcmasters",
+      "name": "Thomas McMasters",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "summary": {
+        "text": "Thomas McMasters is the Libertarian Party nominee for Ohio's 10th Congressional District. He is a U.S. Air Force veteran who has worked as a senior consultant.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Air Force from 1989 to 2009.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Earned a bachelor's degree from the State University of New York, Buffalo (1989) and a graduate degree from The Citadel (1997).",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Michael_Turner_(Ohio)",
+      "title": "Michael Turner (Ohio)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Kristina_Knickerbocker",
+      "title": "Kristina Knickerbocker",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+      "title": "United States House of Representatives elections in Ohio, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Thomas_McMasters_(Ohio_U.S._House)",
+      "title": "Thomas McMasters (Ohio U.S. House)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "None of the three candidates has completed Ballotpedia's 2026 Candidate Connection survey and no campaign-website statement of issues was available via Ballotpedia for this race, so priorities and positions are omitted rather than inferred. No independent website was found for Knickerbocker or McMasters. Federal key votes and FEC finance totals for Turner are added separately."
+}

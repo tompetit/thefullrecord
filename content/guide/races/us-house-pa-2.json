@@ -1,0 +1,124 @@
+{
+  "id": "us-house-pa-2",
+  "state": "PA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Pennsylvania's 2nd District",
+  "area": "Parts of Philadelphia and Montgomery County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Brendan Boyle advanced from the Democratic primary unopposed. Jessica Arriaga won the Republican primary unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "brendan-boyle",
+      "name": "Brendan Boyle",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2015)",
+      "summary": {
+        "text": "Brendan Boyle is the Democratic incumbent, in the U.S. House since 2015 after six years in the Pennsylvania House of Representatives. He sits on the Ways and Means Committee and is the top Democrat (ranking member) on the House Budget Committee.",
+        "sources": ["s2", "s4"]
+      },
+      "background": [
+        {
+          "text": "Born in Philadelphia in 1977; earned a bachelor's degree in government from the University of Notre Dame (1999) and a Master of Public Policy from Harvard University (2005).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a management consultant, radio broadcaster and adjunct professor before serving in the Pennsylvania House of Representatives from 2009 to 2015.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "In the 119th Congress (2025-2026), serves on the House Budget Committee (as ranking member) and the Ways and Means Committee's Health and Trade subcommittees.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves as ranking member (top Democrat) of the House Committee on the Budget in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2", "s4"]
+        },
+        {
+          "text": "Serves on the Ways and Means Committee's Health and Trade subcommittees in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://boyle.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "B001296"
+    },
+    {
+      "id": "jessica-arriaga",
+      "name": "Jessica Arriaga",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19, 2026 Republican primary unopposed.",
+      "summary": {
+        "text": "Jessica Arriaga is a healthcare professional from North Philadelphia running as the Republican nominee. Her campaign describes more than 20 years working in operating rooms and helping families access healthcare and community resources.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born and raised in North Philadelphia.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Has worked in operating rooms as a healthcare professional for more than 20 years, and says she has helped families in her community find healthcare, resources and opportunity.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign messaging centers on rising costs, public safety and fewer opportunities for Philadelphia families, and presents herself as a political outsider not backed by \"political insiders.\"",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://jessforphilly.com",
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Pennsylvania,_2026",
+      "title": "United States House of Representatives elections in Pennsylvania, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Brendan_Boyle",
+      "title": "Brendan Boyle",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://jessforphilly.com/",
+      "title": "Jessica Arriaga for Congress",
+      "publisher": "Jessica Arriaga for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://boyle.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Brendan Boyle",
+      "kind": "official"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No campaign website, issue statements, or Candidate Connection survey found for Jessica Arriaga beyond general biographical messaging on her campaign site, so no specific issue positions are documented. Federal key votes and FEC totals for Boyle are added separately by script."
+}

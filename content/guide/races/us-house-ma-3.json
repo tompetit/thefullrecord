@@ -1,0 +1,148 @@
+{
+  "id": "us-house-ma-3",
+  "state": "MA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Massachusetts's 3rd District",
+  "area": "Northeastern/Merrimack Valley Massachusetts, including Lowell and Lawrence",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Lori Trahan advanced from the September 1, 2026 Democratic primary unopposed. Gary Grossi is the Republican nominee. Dennis Conlon is running as an Unenrolled (independent) candidate after collecting over 2,200 signatures himself.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "lori-trahan",
+      "name": "Lori Trahan",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Trahan is the incumbent, serving since 2019. She sits on the House Energy and Commerce Committee and previously worked as chief of staff to former Rep. Marty Meehan and as a tech-industry executive.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Lowell, Massachusetts, in 1973.", "sources": ["s2"] },
+        { "text": "Earned a bachelor's degree in regional and comparative studies from Georgetown University (1995).", "sources": ["s2"] },
+        { "text": "Worked for then-Rep. Marty Meehan (D), including as his chief of staff, before working as an executive at an early-stage tech firm and as CEO of the Concire Leadership Institute.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Lists key issues including addressing racial injustice, the opioid crisis, climate change, education, gun reform, healthcare, immigration, and women's rights on her official issues page.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Official site press material describes her opposing Republican health-care cuts, including on Medicaid.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Energy and Commerce, including its Commerce, Manufacturing, and Trade and Health subcommittees, for 2025-2026.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://trahan.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "T000482"
+    },
+    {
+      "id": "gary-grossi",
+      "name": "Gary Grossi",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Grossi is a nurse and U.S. Army/Army Reserve veteran running as the Republican nominee. He worked in psychiatry and substance-abuse nursing at VA medical centers in West Palm Beach, Florida and Bedford, Massachusetts.",
+        "sources": ["s4"]
+      },
+      "background": [
+        { "text": "Born in Cambridge, Massachusetts; earned a bachelor's degree in nursing from UMass Boston.", "sources": ["s4"] },
+        { "text": "Served in the U.S. Army and Army Reserve.", "sources": ["s4"] },
+        { "text": "Worked as a nurse in psychiatry and substance abuse at the West Palm Beach VA Medical Center and Bedford VA Hospital.", "sources": ["s4"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website statements or Ballotpedia Candidate Connection survey responses found beyond biographical details."
+    },
+    {
+      "id": "dennis-conlon",
+      "name": "Dennis Conlon",
+      "parties": ["Unenrolled"],
+      "incumbent": false,
+      "summary": {
+        "text": "Conlon is a retired analytical chemist and former product-development principal scientist running as an Unenrolled candidate. He says his campaign is self-funded and takes no outside contributions, and that he collected over 2,200 signatures himself to qualify for the ballot.",
+        "sources": ["s5"]
+      },
+      "background": [
+        { "text": "Worked as a Principal Scientist in product development for a medical device manufacturer; career as an analytical chemist spanned 43.5 years, and he holds 9 U.S. patents as an inventor.", "sources": ["s5"] }
+      ],
+      "priorities": [
+        { "text": "\"My way is also Finance-Free: I am not taking any money from anyone or any organization ever. Money corrupts politics.\"", "sources": ["s5"] },
+        { "text": "\"I am a conservative independent who wants single payer, universal, medicaid for all, whatever you want to call it. ... healthcare is a human right.\"", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he supports a single-payer, universal health-coverage system.",
+          "quote": "I am a conservative independent who wants single payer, universal, medicaid for all, whatever you want to call it.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Massachusetts%27_3rd_Congressional_District_election,_2026",
+      "title": "Massachusetts' 3rd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Lori_Trahan",
+      "title": "Lori Trahan",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://trahan.house.gov",
+      "title": "Congresswoman Lori Trahan - Home / Issues",
+      "publisher": "Office of Rep. Lori Trahan",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Gary_Grossi",
+      "title": "Gary Grossi",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Massachusetts%27_3rd_Congressional_District_election,_2026",
+      "title": "Dennis Conlon, Ballotpedia Candidate Connection survey responses",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Rep. Trahan's key floor votes and FEC finance totals are added separately by script. Gary Grossi has a minimal public campaign footprint in the sources checked."
+}

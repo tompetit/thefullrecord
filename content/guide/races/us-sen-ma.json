@@ -1,0 +1,249 @@
+{
+  "id": "us-sen-ma",
+  "state": "MA",
+  "officeType": "us-senate",
+  "office": "U.S. Senate",
+  "title": "U.S. Senate · Massachusetts",
+  "area": "Statewide, Massachusetts",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Edward J. Markey defeated Rep. Seth Moulton in the September 1, 2026 Democratic primary, 65.6% to 34.4%. No candidates appeared on the Republican primary ballot other than John Deaton, who ran unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "edward-markey",
+      "name": "Edward J. Markey",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Senator (since 2013)",
+      "summary": {
+        "text": "Markey is the incumbent U.S. Senator seeking re-election. He previously served in the U.S. House (1976-2013) and the Massachusetts House (1973-1977). His campaign centers on his record on climate policy and opposition to the Trump administration's agenda.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree and J.D. from Boston College (1968, 1972).", "sources": ["s1"] },
+        { "text": "Served in the U.S. Army Reserve from 1968 to 1973.", "sources": ["s1"] },
+        { "text": "Served in the Massachusetts House of Representatives, 1973-1977, and the U.S. House of Representatives, 1976-2013, before being elected to the U.S. Senate in 2013.", "sources": ["s1"] }
+      ],
+      "priorities": [
+        { "text": "\"Ed knows that our climate crisis is the national security, economic, health, and moral challenge of our time, and has been a passionate advocate for clean energy and bold climate solutions.\"", "sources": ["s2"] },
+        { "text": "In February 2019, introduced the Green New Deal resolution with Rep. Alexandria Ocasio-Cortez, setting out a 10-year mobilization toward a \"green economy.\"", "sources": ["s2"] },
+        { "text": "\"[Ed is] working to expand civil rights, defend LGBTQ+ Americans, protect immigrant families with fair and humane policies, and ensure everyone can live with dignity, safety and equal treatment under the law.\"", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Co-authored the Green New Deal resolution and describes himself as a longtime advocate for clean energy.",
+          "quote": "Ed knows that our climate crisis is the national security, economic, health, and moral challenge of our time, and has been a passionate advocate for clean energy and bold climate solutions.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign material says he is working to \"protect immigrant families with fair and humane policies\" rather than expand enforcement.",
+          "quote": "protect immigrant families with fair and humane policies",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign describes fighting to \"expand civil rights\" and protect access, part of a broader platform of protecting reproductive rights.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves as Ranking Member of the Senate Committee on Small Business and Entrepreneurship.",
+          "kind": "action",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Serves on the Senate Committee on Commerce, Science, and Transportation; the Committee on Environment and Public Works; and the Committee on Health, Education, Labor, and Pensions (Ranking Member, Subcommittee on Primary Health & Retirement Security).",
+          "kind": "action",
+          "sources": ["s4"]
+        }
+      ],
+      "website": "https://www.markey.senate.gov",
+      "researchDepth": "basic",
+      "bioguideId": "M000133"
+    },
+    {
+      "id": "john-deaton",
+      "name": "John Deaton",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Deaton is a Marine Corps veteran and trial attorney running as the Republican nominee. His campaign centers on congressional term limits, reducing federal spending, and lowering the cost of living.",
+        "sources": ["s5"]
+      },
+      "background": [
+        { "text": "Self-described as a \"U.S. Marine veteran, cancer survivor, father to three daughters, trial attorney, author.\"", "sources": ["s5"] }
+      ],
+      "priorities": [
+        { "text": "\"If elected, I will sponsor legislation to limit the terms of all federal lawmakers... I have pledged to serve just two six-year terms in the Senate.\" His proposed \"My Clean Hands Act\" would ban stock, crypto, and commodities trading for members of Congress and impose a lifetime lobbying ban.", "sources": ["s5"] },
+        { "text": "\"My approach starts with supporting responsible federal spending and cutting regulations to spur economic growth and reduce inflation; I have consistently opposed the COVID-era spending.\"", "sources": ["s5"] },
+        { "text": "\"I'll work to lower prescription drug costs, increase price transparency, and expand access to quality care without growing Washington's bureaucracy or raising taxes.\"", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says he would work to lower health care costs \"without growing Washington's bureaucracy or raising taxes.\"",
+          "quote": "without growing Washington's bureaucracy or raising taxes",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Favors lowering drug costs and price transparency rather than expanding public coverage; opposes growing federal health bureaucracy.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "joseph-tache",
+      "name": "Joseph Tache",
+      "parties": ["Party for Socialism and Liberation"],
+      "incumbent": false,
+      "summary": {
+        "text": "Tache is the Party for Socialism and Liberation candidate. His campaign calls for redistributing wealth, a 90% cut to the military budget, and public funding of housing, healthcare, and education.",
+        "sources": ["s6"]
+      },
+      "background": [],
+      "priorities": [
+        { "text": "\"As a socialist, I will propose legislation to redistribute that wealth and reorganize the economy to meet our needs: funding quality housing, healthcare, and education.\"", "sources": ["s6"] },
+        { "text": "\"I will propose legislation to cut that bloated [military] budget by 90% and usher in a new era of foreign policy based on solidarity and diplomacy, not domination.\"", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Calls for redistributing wealth from billionaires to fund housing, healthcare, and education.",
+          "quote": "As a socialist, I will propose legislation to redistribute that wealth and reorganize the economy to meet our needs",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he would prioritize decommissioning fossil fuel infrastructure and building a renewable energy grid.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Calls for public funding of quality housing, healthcare, and education as part of restructuring the economy.",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "shiva-ayyadurai",
+      "name": "Shiva Ayyadurai",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Ayyadurai is an independent candidate on the general-election ballot. Ballotpedia's profile section for this race does not include a submitted biography or key-messages survey for him.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website statements or Ballotpedia Candidate Connection survey found for this candidate in the sources checked; only ballot listing confirmed."
+    },
+    {
+      "id": "philip-devincentis",
+      "name": "Philip Devincentis",
+      "parties": ["American Independent Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "Devincentis is the American Independent Party candidate on the general-election ballot. No campaign website, statements, or Ballotpedia survey responses were found.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No public statements or campaign materials found; only ballot listing confirmed via Ballotpedia."
+    },
+    {
+      "id": "morgan-dawicki",
+      "name": "Morgan Dawicki",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Dawicki is an independent candidate on the general-election ballot. No campaign website, statements, or Ballotpedia survey responses were found.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No public statements or campaign materials found; only ballot listing confirmed via Ballotpedia."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026",
+      "title": "United States Senate election in Massachusetts, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026",
+      "title": "Ed Markey 2026 campaign website, \"Meet Ed\" / \"Freedom, Equality & Opportunity\" (quoted via Ballotpedia candidate profile)",
+      "publisher": "Ed Markey 2026 campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026",
+      "title": "Ed Markey 2026 campaign website, \"Freedom, Equality & Opportunity\" (quoted via Ballotpedia candidate profile)",
+      "publisher": "Ed Markey 2026 campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.markey.senate.gov/about/committee-assignments",
+      "title": "Committee Assignments",
+      "publisher": "Office of Sen. Edward J. Markey",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026",
+      "title": "John Deaton, Ballotpedia Candidate Connection survey responses",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026",
+      "title": "Joseph Tache, Ballotpedia Candidate Connection survey responses",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Key floor votes and FEC finance totals for Sen. Markey are added separately by script. Ayyadurai, Devincentis, and Dawicki have minimal public campaign footprints in the sources checked."
+}

@@ -1,0 +1,204 @@
+{
+  "id": "us-house-va-3",
+  "state": "VA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Virginia's 3rd District",
+  "area": "Virginia's 3rd Congressional District (Newport News, Hampton, Portsmouth, and part of Norfolk)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both primaries were canceled. Incumbent Robert C. \"Bobby\" Scott advanced unopposed as the Democratic nominee, and Edwin Rivera advanced unopposed as the Republican nominee.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bobby-scott",
+      "name": "Robert C. Scott",
+      "parties": [
+        "D"
+      ],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Virginia's 3rd District (since 1993)",
+      "summary": {
+        "text": "Robert C. \"Bobby\" Scott is the incumbent Democratic U.S. Representative for Virginia's 3rd District, in office since 1993. He previously served in the Virginia House of Delegates and Virginia Senate.",
+        "sources": [
+          "s2"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in Washington, D.C. in 1947; earned a bachelor's degree in political science from Harvard University in 1969 and a J.D. from Boston College School of Law in 1973; worked as an attorney in private practice.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Army Reserve (1970-1974) and the Massachusetts National Guard (1974-1976).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Elected to the Virginia House of Delegates in 1977, serving until 1983, then to the Virginia Senate, serving until 1993.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Education and the Workforce and the House Committee on Budget in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Chaired the House Committee on Education and the Workforce in the 116th and 117th Congresses (2019-2023), when Democrats held the House majority.",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "S000185"
+    },
+    {
+      "id": "edwin-rivera",
+      "name": "Edwin Rivera",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "summary": {
+        "text": "Edwin Rivera is a former police officer and U.S. Army veteran who grew up in Puerto Rico and lives in Newport News. He is the Republican nominee for Virginia's 3rd District, running on education reform, public safety, and lower tolls.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      "background": [
+        {
+          "text": "Grew up in Puerto Rico and lives in Newport News, Virginia.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Army; worked as a police officer.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaigns on education reform, including raising teacher pay, renovating failing schools, and supporting HBCU funding and career/technical pathways.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Opposes tolls on the Hampton Roads Bridge-Tunnel and supports capping tolls.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Supports expanded veterans' benefits, including preventive healthcare for veterans with two or more enlistments and full Tricare Prime coverage during wartime for National Guard/Reserve members.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Campaign platform calls for increasing the number of immigration judges and fixing the green card process, without a stated position on enforcement or deportations specifically.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [],
+      "website": "https://www.edwinriveraforcongress.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "makiba-gaines",
+      "name": "Makiba Gaines",
+      "parties": [
+        "IND"
+      ],
+      "incumbent": false,
+      "summary": {
+        "text": "Makiba Gaines is an independent candidate running in Virginia's 3rd Congressional District general election.",
+        "sources": [
+          "s1"
+        ]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "stephen-woll",
+      "name": "Stephen Woll",
+      "parties": [
+        "IND"
+      ],
+      "incumbent": false,
+      "summary": {
+        "text": "Stephen Woll is an independent candidate running in Virginia's 3rd Congressional District general election.",
+        "sources": [
+          "s1"
+        ]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Virginia,_2026",
+      "title": "United States House of Representatives elections in Virginia, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Bobby_Scott_(Virginia)",
+      "title": "Bobby Scott (Virginia)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Edwin_Rivera",
+      "title": "Edwin Rivera's campaign website, quoted by Ballotpedia (July 10, 2026)",
+      "publisher": "Edwin Rivera campaign, via Ballotpedia",
+      "kind": "candidate",
+      "date": "2026-07-10"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No biography, campaign website, or public statements were found for independent candidates Makiba Gaines or Stephen Woll within the research budget, so their entries are minimal."
+}

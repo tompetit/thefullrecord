@@ -1,0 +1,230 @@
+{
+  "id": "us-house-md-1",
+  "state": "MD",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Maryland's 1st District",
+  "area": "Maryland's Eastern Shore and part of northeastern Maryland, including Cambridge, Salisbury, Bel Air and Ocean City.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Andrew Harris defeated Christopher Bruneau 79.7%-20.3% in the June 23, 2026 Republican primary. Dan Schwartz defeated Randi White, Victor Guidice and George Walish in the Democratic primary with 46.3% of the vote.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Maryland,_2026",
+      "title": "United States House of Representatives elections in Maryland, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Andrew_Harris",
+      "title": "Andrew Harris",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://harris.house.gov/issues",
+      "title": "Issues",
+      "publisher": "Office of Rep. Andy Harris",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Dan_Schwartz_(Maryland)",
+      "title": "Dan Schwartz (Maryland)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Dan_Schwartz_(Maryland)",
+      "title": "Dan Schwartz Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://harris.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Andy Harris",
+      "kind": "official"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "andrew-harris",
+      "name": "Andrew Harris",
+      "parties": [
+        "R"
+      ],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2011)",
+      "summary": {
+        "text": "Andrew Harris is the Republican incumbent seeking re-election in Maryland's 1st Congressional District. A physician and former Maryland state senator, he chairs the House Freedom Caucus and sits on the House Appropriations Committee.",
+        "sources": [
+          "s2",
+          "s6"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born January 25, 1957, in Brooklyn, New York; earned a B.S. and M.D. from Johns Hopkins University and an M.H.S. from Johns Hopkins in 1995.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked as a physician and served in the U.S. Naval Reserve from 1988 to 2010.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Has represented Maryland's 1st District in the U.S. House since 2011.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Health care, describing himself as keenly aware, as a physician, of the challenges Americans face accessing care.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Agriculture, saying he continues in Congress the work he did promoting and protecting Maryland agriculture and poultry as a state senator.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Immigration enforcement, saying porous borders and visa overstays undermine the American workforce and create national security risks.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says illegal immigration undermines the American workforce and creates national security risks, and supports enforcement against undocumented immigrants and visa overstays.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says local governments, not federal micromanagement, should determine curricula, and that parents should be able to choose between public, private or home education.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Appropriations for the 2025-2026 term, chairing the Agriculture, Rural Development, Food and Drug Administration subcommittee.",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Elected Chairman of the House Freedom Caucus on September 17, 2024.",
+          "kind": "action",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "website": "https://www.andyharris.org/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "dan-schwartz",
+      "name": "Dan Schwartz",
+      "parties": [
+        "D"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the June 23, 2026 Democratic primary with 46.3% of the vote.",
+      "summary": {
+        "text": "Dan Schwartz is the Democratic nominee for Maryland's 1st Congressional District. He has spent his career working with state and federal regulators on consumer financial protection.",
+        "sources": [
+          "s4",
+          "s5"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in New York, New York; earned a bachelor's degree from George Washington University in 2010.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Worked for the Conference of State Bank Supervisors over a 14-year career in consumer financial protection.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Affordability and the economy, saying he will fight policies like spending freezes and tariffs that he says make it harder for families to save and businesses to plan.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Protecting and improving access to affordable health care and public health research funding he says has been cut by the Trump administration and DOGE.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Investing in Maryland's environment and future so working families can stay in the state.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says he will fight tariff policies that he says make it impossible for families to save and small businesses to plan for the future.",
+          "quote": "I will fight dangerous policies like spending freezes and tariffs that make it impossible for families to save, and small businesses to plan for the future.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he will improve and protect access to affordable health care and support public health research funding.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

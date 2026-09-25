@@ -1,0 +1,145 @@
+{
+  "id": "us-house-wa-4",
+  "state": "WA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Washington's 4th District",
+  "area": "Central Washington, including the Tri-Cities (Kennewick, Pasco, Richland) and Yakima Valley.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Rep. Dan Newhouse (R) is listed by Ballotpedia among the district's \"withdrawn or disqualified\" 2026 primary candidates and did not appear on the August 4 primary ballot, leaving this an open-seat race. Amanda McKinney (R) led the top-two primary with 34.9% of the vote, followed by John Duresky (D) with 30.8%, out of eleven primary candidates including Jerrod Sessler and state Sen. Matt Boehnke.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "amanda-mckinney",
+      "name": "Amanda McKinney",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Led the August 4 top-two primary with 34.9% of the vote",
+      "currentRole": "Yakima County Commissioner",
+      "summary": {
+        "text": "Amanda McKinney is a Republican member of the Yakima County Commission running in the open 4th District race. She has not completed Ballotpedia's Candidate Connection survey and has limited documented public statements.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Currently serves on the Yakima County Commission.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves as a Yakima County Commissioner.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "john-duresky",
+      "name": "John Duresky",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the August 4 top-two primary with 30.8% of the vote",
+      "summary": {
+        "text": "John Duresky is a Democratic candidate and Air Force veteran running for the open 4th District seat, emphasizing affordability, healthcare access, and government accountability.",
+        "sources": ["s2", "s3"]
+      },
+      "background": [
+        {
+          "text": "Describes himself as a veteran and a former federal civil servant with experience navigating VA and federal employment systems.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Campaign website describes him as a retired Air Force Major with three combat deployments.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists affordability and economic fairness as a top priority, citing rising grocery, housing, health-premium and tariff costs, and calls for restoring congressional authority over tariffs.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "On healthcare, says he will work to keep rural hospitals open, restore ACA subsidies, and protect Medicare and Medicaid, while saying he believes the nation should eventually move toward universal healthcare.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "On immigration, calls for secure borders paired with a pathway to legal status and citizenship, and says ICE \"requires major structural reform\" based on his experience as a former civil servant.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Campaign website says he supports removing the stepped-up basis and carried-interest tax loopholes, raising the federal minimum wage, and protecting federal employees from what he calls politically motivated mass firings.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports restoring ACA subsidies, protecting Medicare and Medicaid, and says the country should move toward universal healthcare over time.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Calls for closing the stepped-up basis and carried-interest tax loopholes, which he says the wealthiest Americans use against everyone else.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign website says he will fight to raise the federal minimum wage.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says he will fight to remove tariffs that he says hurt farmers and raise consumer prices.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports secure borders alongside a pathway to legal status and citizenship, and says ICE needs major structural reform.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Amanda_McKinney_(Washington)",
+      "title": "Amanda McKinney (Washington)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/John_Duresky",
+      "title": "John Duresky — Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/John_Duresky",
+      "title": "John Duresky's campaign website (quoted July 22, 2026)",
+      "publisher": "Ballotpedia, quoting John Duresky's campaign website",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "McKinney has not completed a Candidate Connection survey and no campaign website statement was found on her Ballotpedia page, so her positions and priorities could not be documented; researchDepth is minimal. Whether Rep. Dan Newhouse withdrew voluntarily or was excluded from the ballot was not independently confirmed beyond Ballotpedia's 'withdrawn or disqualified' listing."
+}

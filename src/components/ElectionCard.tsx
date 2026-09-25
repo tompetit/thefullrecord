@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { getRace } from "@/server/guide/load";
 import type { SeatElection, SeatNotOnBallot } from "@/server/types";
 import { SourceLink } from "./SourceLink";
 
@@ -103,6 +105,15 @@ export function ElectionCard({
             ))}
           </ul>
         </div>
+      )}
+
+      {getRace(election.districtKey) && (
+        <Link
+          href={`/guide/race/${election.districtKey}`}
+          className="mt-3 block rounded-md bg-ink px-3 py-2 text-center font-sans text-[12.5px] font-bold text-paper hover:opacity-90"
+        >
+          Compare the candidates&rsquo; records →
+        </Link>
       )}
 
       <p className="mt-3 font-sans text-[11px] text-ink-45">

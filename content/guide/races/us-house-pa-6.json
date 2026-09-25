@@ -1,0 +1,143 @@
+{
+  "id": "us-house-pa-6",
+  "state": "PA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "6",
+  "title": "U.S. House · Pennsylvania's 6th District",
+  "area": "Chester County and part of Berks County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Chrissy Houlahan advanced from the Democratic primary unopposed. Marty Young won the Republican primary unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "chrissy-houlahan",
+      "name": "Chrissy Houlahan",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Chrissy Houlahan is the Democratic incumbent, a former U.S. Air Force officer and business executive in the House since 2019. She serves on the House Intelligence Committee and the Armed Services Committee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born at Naval Air Station Patuxent River, Maryland, in 1967; earned a bachelor's degree in engineering from Stanford University (1989) and a master's in technology and policy from MIT.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the U.S. Air Force and Air Force Reserves; later served as chief operating officer of apparel company AND1 and of the nonprofit B Lab, and taught through Teach for America.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "In the 119th Congress (2025-2026), serves on the House Permanent Select Committee on Intelligence (Defense Intelligence and Overhead Architecture; Open Source Intelligence subcommittees) and the Armed Services Committee (Cyber, Information Technologies, and Innovation; Military Personnel subcommittees).",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Was ranking member of the Intelligence Committee's Defense Intelligence and Overhead Architecture Subcommittee in the 118th Congress (2023-2024).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves on the Armed Services Committee's Military Personnel Subcommittee in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Foreign Affairs Committee's Asia subcommittee in the 117th Congress (2021-2022).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://houlahan.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "H001085"
+    },
+    {
+      "id": "marty-young",
+      "name": "Marty Young",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19, 2026 Republican primary unopposed.",
+      "summary": {
+        "text": "Marty Young is a West Point graduate, retired Army infantry officer, and current Lieutenant Colonel in the Army National Guard who has worked for more than 25 years as a corporate turnaround executive. He grew up in Chester County and is endorsed by the Republican Committee of Chester County.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Graduated from West Chester East High School and the United States Military Academy at West Point (1993); holds graduate degrees from Georgia Institute of Technology (2001) and New York University (2006).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as an Army Infantry Officer until being seriously injured, then returned to service as an Army Chaplain after 9/11; is currently a Lieutenant Colonel in the Army National Guard.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked for more than 25 years as a corporate turnaround executive, including stabilizing a cable company that his campaign says went from $1 million in daily losses to $100 million in annual profits.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Proposes a \"Young Americans Healthcare Plan\" using the military's TRICARE system to provide low-cost healthcare coverage for children, young adults and expectant mothers, and lower-cost options for others.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Proposes zero-interest, 15-year amortizing home loans for qualifying families to address housing affordability, funded through the same quantitative-easing-style programs he says are available to banks and asset managers.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Supports congressional term limits and a full ban on stock trading by members of Congress and their spouses.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Proposes a TRICARE-based plan providing universal healthcare coverage for children, young adults and expectant mothers, with low-cost options for everyone else.",
+          "quote": "Using TRICARE, the YAHP provides universal healthcare coverage for all children, young adults and expectant mothers, while also offering low-cost healthcare options to everyone else.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.voteyoung.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Pennsylvania,_2026",
+      "title": "United States House of Representatives elections in Pennsylvania, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Chrissy_Houlahan",
+      "title": "Chrissy Houlahan",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Marty_Young",
+      "title": "Marty Young",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-03-12"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Young's positions and biography come from his 2026 Ballotpedia Candidate Connection survey; his campaign website content was not independently reviewed beyond the survey. Federal key votes and FEC totals for Houlahan are added separately by script."
+}

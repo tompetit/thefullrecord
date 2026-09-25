@@ -1,0 +1,152 @@
+{
+  "id": "us-house-ny-22",
+  "state": "NY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "22",
+  "title": "U.S. House · New York's 22nd District",
+  "area": "Central New York, including Syracuse and Onondaga County, plus Madison, Oswego and parts of Oneida County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both the Democratic and Republican primaries for this seat were canceled; incumbent John Mannion and Kailee Buller each advanced without appearing on the primary ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "john-mannion",
+      "name": "John Mannion",
+      "parties": ["D", "WFP"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, NY-22 (since 2025)",
+      "summary": {
+        "text": "John Mannion is the Democratic and Working Families Party incumbent, a former biology and chemistry teacher and NY State Senator first elected to the House in 2024. He sits on the House Agriculture and Education and Workforce committees and is seeking a second term.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Syracuse, New York in 1968; earned a bachelor's degree in biology from Binghamton University and a master's degree in secondary education from SUNY Oswego.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a biology and chemistry teacher and served as president of the West Genesee Teachers' Association.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the New York State Senate before his election to Congress, where he was the first chair of the Senate Committee on Disabilities.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Agriculture (Commodity Markets, Digital Assets and Rural Development; Conservation, Research and Biotechnology subcommittees) and the Committee on Education and the Workforce in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://mannionforny.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "kailee-buller",
+      "name": "Kailee Buller",
+      "parties": ["R", "C"],
+      "incumbent": false,
+      "currentRole": "Former Chief of Staff to the Secretary of the U.S. Department of Agriculture",
+      "summary": {
+        "text": "Kailee Buller is an Auburn native and former federal agriculture official running as the Republican and Conservative nominee, with a campaign centered on affordability, energy costs and agriculture.",
+        "sources": ["s3", "s4"]
+      },
+      "background": [
+        {
+          "text": "Born in Auburn, New York; earned a bachelor's degree from the State University of New York at Buffalo, the first in her family to earn a four-year degree.",
+          "sources": ["s3", "s4"]
+        },
+        {
+          "text": "Most recently served as Chief of Staff to the Secretary of the U.S. Department of Agriculture, overseeing a roughly $200 billion operation with about 100,000 employees; previously held other senior roles in the federal government and national policy organizations.",
+          "sources": ["s3", "s4"]
+        },
+        {
+          "text": "Raised in a blue-collar family in Auburn; her father worked 41 years as a correctional officer at Auburn Correctional Facility.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Affordability and jobs, focused on lowering everyday costs such as groceries, gas, childcare and housing.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Energy and utility costs, opposing what she calls Albany's climate mandates and supporting an \"all-of-the-above\" energy policy.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Agriculture policy, drawing on her USDA experience to focus on cutting regulations and supporting farmers and rural communities.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Supports repealing New York's climate mandates and advancing an \"all-of-the-above\" energy policy, saying state climate policy has driven up utility costs.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports policies that encourage housing development, cut regulations and make it easier for first-time buyers to enter the market.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says New York is the highest-taxed state in the nation and criticizes higher taxes and spending as funding what she calls politicians' pet projects.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.kaileebuller.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_New_York,_2026",
+      "title": "United States House of Representatives elections in New York, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/John_Mannion",
+      "title": "John Mannion",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Kailee_Buller",
+      "title": "Kailee Buller",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.kaileebuller.com/",
+      "title": "Kailee Buller for Congress — Kailee on the Issues",
+      "publisher": "Kailee Buller for Congress campaign site",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Neither candidate has completed Ballotpedia's 2026 Candidate Connection survey; Mannion has no current campaign-site issues page identified, so his positions section is limited to what his official biography documents. Federal key votes and FEC totals for incumbent John Mannion are added separately by script."
+}

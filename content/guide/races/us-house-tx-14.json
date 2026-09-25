@@ -1,0 +1,140 @@
+{
+  "id": "us-house-tx-14",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "14",
+  "title": "U.S. House · Texas's 14th District",
+  "area": "Southeast Texas along the Gulf Coast, including Galveston, Jefferson and Orange counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Republican Randy Weber defeated Jessica Forgy in the Republican primary, 88.6%-11.4%. Thurman Bill Bartie, a former Mayor of Port Arthur, defeated Richard Davis in the May 26, 2026 Democratic primary runoff, 51.0%-49.0%, after the two advanced from a three-candidate March primary.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "randy-weber",
+      "name": "Randy Weber",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 14th District (since 2013)",
+      "ballotNote": "Won the March 3, 2026 Republican primary, 88.6%-11.4%, over Jessica Forgy",
+      "summary": {
+        "text": "Randy Weber is the Republican incumbent seeking re-election in Texas's 14th District. A former air-conditioning company owner and Texas state representative, he chairs the House Science, Space, and Technology Committee's Subcommittee on Energy and is vice chair of the Energy and Commerce Committee's Subcommittee on Energy.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Pearland, Texas; attended Alvin Community College and earned a bachelor's degree from the University of Houston-Clear Lake.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Owned an air-conditioning company from 1981 until 2016; served on the Pearland City Council from 1990 to 1996 and as a Texas state representative from 2008 to 2012.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the Committee on Energy and Commerce as Vice Chair of its Subcommittee on Energy, and on its Subcommittees on Oversight and Investigations and Environment, for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Serves on the Committee on Science, Space, and Technology, chairing its Subcommittee on Energy, for the 119th Congress.",
+          "kind": "action",
+          "sources": ["s3"]
+        }
+      ],
+      "website": "https://weber.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "W000814"
+    },
+    {
+      "id": "thurman-bill-bartie",
+      "name": "Thurman Bill Bartie",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 26, 2026 Democratic primary runoff, 51.0%-49.0%, over Richard Davis",
+      "summary": {
+        "text": "Thurman Bill Bartie is the Democratic nominee challenging incumbent Randy Weber in Texas's 14th District. He was the first African American Justice of the Peace in Jefferson County's Precinct 8 and later served two terms as Mayor of Port Arthur before terming out.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Elected the first African American Justice of the Peace in Precinct 8 of Jefferson County, Port Arthur.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Elected Mayor of Port Arthur and served two consecutive terms until terming out.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Economic opportunity: supports small-business growth, fair wages and safe working conditions.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Public education funding: supports fair and equal funding for public schools and opposes dismantling the Department of Education.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Disaster resilience for southeast Texas, citing the district's history of hurricanes, floods, ice storms and periods of very high heat.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he supports healthcare access for every American through complete funding of the Affordable Care Act.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://VoteBartie.org",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Texas%27_14th_Congressional_District_election,_2026",
+      "title": "Texas' 14th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Randy_Weber",
+      "title": "Randy Weber",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Thurman_Bill_Bartie",
+      "title": "Thurman Bill Bartie Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-02-19"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Weber's house.gov pages returned 404 or empty content for biography and issues sections; his record here is limited to committee assignments, and detailed floor votes and FEC totals are added separately. Bartie's campaign website did not load in this environment, so his background and positions come from his Ballotpedia Candidate Connection survey."
+}

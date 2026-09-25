@@ -1,0 +1,120 @@
+{
+  "id": "us-house-ok-3",
+  "state": "OK",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Oklahoma's 3rd District",
+  "area": "Northwestern and western Oklahoma, the state's largest district by area, including Enid and the Panhandle",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Frank Lucas and Suzie Byrd are the only candidates on the November 3, 2026 general-election ballot for this district.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "frank-lucas",
+      "name": "Frank Lucas",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the June 16, 2026 Republican primary",
+      "currentRole": "U.S. Representative, Oklahoma's 3rd District (since 2003)",
+      "summary": {
+        "text": "Frank Lucas is the incumbent U.S. Representative for Oklahoma's 3rd District, a member of the House Financial Services Committee and chairman of its Task Force on Monetary Policy, Treasury Market Resilience, and Economic Prosperity, seeking re-election.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Member of the House Financial Services Committee and Chairman of the House Financial Services Task Force on Monetary Policy, Treasury Market Resilience, and Economic Prosperity.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Advocates for fiscal responsibility, including supporting the Common Cents Act to codify an executive order on coin production.", "sources": ["s3"] }
+      ],
+      "positions": [],
+      "record": [
+        { "text": "Delivered remarks on the House floor advocating for fiscal responsibility and supporting the Common Cents Act, which would codify President Trump's order on penny production.", "date": "2026-07-30", "kind": "action", "sources": ["s3"] },
+        { "text": "As chairman of the House Financial Services Task Force on Monetary Policy, Treasury Market Resilience, and Economic Prosperity, delivered the opening statement at Federal Reserve Chairman Kevin Warsh's first Financial Services Committee hearing testimony.", "date": "2026-07-30", "kind": "action", "sources": ["s3"] },
+        { "text": "Hosted a House Financial Services Task Force field hearing in Oklahoma City on the structure of the Federal Reserve System.", "date": "2026-07-02", "kind": "action", "sources": ["s3"] }
+      ],
+      "website": "https://lucas.house.gov",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals are added separately. His office's public statements this cycle focus on Financial Services Committee and monetary-policy activity; no positions on other guide issue keys were documented from primary sources within the research budget.",
+      "bioguideId": "L000491"
+    },
+    {
+      "id": "suzie-byrd",
+      "name": "Suzie Byrd",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the June 16, 2026 Democratic primary",
+      "summary": {
+        "text": "Suzie Byrd is a former Enid News reporter and businesswoman running as the Democratic candidate on a platform of universal healthcare, affordable housing and higher taxes on the wealthy.",
+        "sources": ["s4"]
+      },
+      "background": [
+        { "text": "Graduated from Hennessey High School as an All-State athlete in basketball and track; earned a degree in journalism from Oklahoma State University, where she was a two-time Big 8 champion and the school's first female All-American.", "sources": ["s4"] },
+        { "text": "Has owned or been a partner in over a dozen businesses in Oklahoma and Florida.", "sources": ["s4"] },
+        { "text": "Worked nearly four years as a reporter for the Enid News before resigning to run for Congress, covering education, healthcare, and farmland contamination.", "sources": ["s4"] }
+      ],
+      "priorities": [
+        { "text": "Supports universal healthcare, arguing it would save money and reduce deaths and bankruptcies linked to lack of insurance.", "quote": "I am for universal healthcare. Healthcare for profit has ruined our healthcare and made it unaffordable.", "sources": ["s4"] },
+        { "text": "Supports affordable housing and a livable wage, including programs for first-time homebuyers.", "quote": "I am for affordable housing and a livable wage.", "sources": ["s4"] },
+        { "text": "Says AI and data centers need regulation to safeguard resources and jobs for the future.", "quote": "I am very concerned about AI and Data Centers. We do not have the public policy and the information we need to plan for the future of our children and our resources.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports universal healthcare, citing cost savings and reduced deaths and bankruptcies from lack of insurance.",
+          "quote": "I am for universal healthcare. Healthcare for profit has ruined our healthcare and made it unaffordable.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says the wealthy need to pay their fair share and opposes tax cuts that favor the rich over workers.",
+          "quote": "No more supply side economics and tax cuts for the rich. The wealthy need to pay their fair share and we need to make our tax code fair.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports programs for first-time homebuyers and encouraging new housing models to address affordability.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "No campaign website located; positions drawn from her Ballotpedia Candidate Connection survey."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Oklahoma,_2026",
+      "title": "United States House of Representatives elections in Oklahoma, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://lucas.house.gov",
+      "title": "Congressman Frank Lucas — News & Announcements",
+      "publisher": "Office of Rep. Frank Lucas",
+      "kind": "official",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Suzie_Byrd",
+      "title": "Suzie Byrd",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2025-01-01"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

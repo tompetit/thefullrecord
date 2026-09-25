@@ -1,0 +1,208 @@
+{
+  "id": "us-house-ca-19",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "19",
+  "title": "U.S. House · California's 19th Congressional District",
+  "area": "The Central Coast, including Monterey, Santa Cruz, and San Benito counties and part of southern Santa Clara County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California redrew its congressional district lines for the 2026 elections under Proposition 50, a mid-decade redistricting measure voters approved in a November 2025 special election.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the June 2, 2026 top-two primary, Jimmy Panetta won 58.4% of the vote (127,294 votes) and Peter Verbica won 20.5% (44,590 votes), advancing them both to the November general election.",
+      "sources": ["s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jimmy-panetta",
+      "name": "Jimmy Panetta",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2017; represented the 20th District 2017–2023, renumbered 19th District since 2023)",
+      "summary": {
+        "text": "Jimmy Panetta is the incumbent Democratic U.S. Representative for California's 19th District, a former county prosecutor and Navy Reserve officer who has served in the House since 2017.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Washington, D.C., in 1969; earned an A.A. from Monterey Peninsula College in 1989, a bachelor's degree in international relations from the University of California in 1991, and a J.D. from Santa Clara University in 1996.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a State Department clerk and as a deputy district attorney in Alameda and Monterey counties; served in the U.S. Navy Reserves from 2003 to 2011.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists comprehensively addressing housing affordability as a top priority, including a Workforce Housing Tax Credit Act, a First-Time Homebuyer Tax Credit Act, and expanding low-income housing and rental assistance.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Lists border security funding combined with a pathway to citizenship for Dreamers and farmworkers as an immigration priority.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Lists continuing to protect Medicare, lower prescription drug costs, and expand the health care workforce as priorities.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Is a member of the Pro-Choice Caucus and supports federal legislation protecting a woman's right to choose, including the Women's Health Protection Act.",
+          "quote": "As a proud member of the Pro-Choice Caucus, I'll continue to fight for the rights of women to make their own health care choices.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Helped author and pass the Inflation Reduction Act's clean-energy investments, which the office says are reducing carbon output.",
+          "quote": "I was proud to help craft and pass into law the Inflation Reduction Act, the most significant, ambitious investment in tools combating the climate crisis in history.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports increased border-security funding and personnel while also opposing mass deportation and supporting a pathway to citizenship for Dreamers and farmworkers.",
+          "quote": "Although I've always supported immigration reform for our Dreamers, Farmworkers, and their families, I've consistently stated that we also need more border security, as that isn't a binary choice.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Ways and Means (Trade Subcommittee) and the House Committee on Budget in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "P000613"
+    },
+    {
+      "id": "peter-verbica",
+      "name": "Peter Verbica",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2 top-two primary with 20.5% of the vote",
+      "summary": {
+        "text": "Peter Verbica is a financial planner and managing director at Silicon Private Wealth who previously ran for the California Board of Equalization, District 2, advancing to the top-two runoff in 2022.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in San Jose, California; earned a bachelor's degree from Santa Clara University in 1983, a graduate degree from MIT in 1992, and a J.D. from Santa Clara University School of Law in 1999.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Works as a managing director, principal, and Certified Financial Planner at Silicon Private Wealth; has also taught as an adjunct professor of economics at San Jose State University.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Names affordability as a top priority, calling for ending high state taxes, reforming CEQA to allow more housing, and lowering DMV fees.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Prioritizes water infrastructure, saying California voters approved billions for new reservoirs 'none of which were built,' needed to fight wildfires and support agriculture.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Calls for immigration reform that helps agriculture and high-tech businesses with a 'Bracero 2.0' program providing a clear, expedited path to legal employment.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports reforming California's CEQA environmental-review law to allow more housing to be built.",
+          "quote": "End California's high taxes, reform CEQA to allow for more housing",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports a structured guest-worker program ('Bracero 2.0') giving immigrant workers a legal path to employment in agriculture and tech, rather than describing it primarily in enforcement terms.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Opposes California's high tax burden and calls for restoring affordability and accountability to state fiscal policy.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jimmy_Panetta",
+      "title": "Jimmy Panetta",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Peter_Verbica",
+      "title": "Peter Verbica — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://panetta.house.gov/issues/health",
+      "title": "Health",
+      "publisher": "Office of Rep. Jimmy Panetta",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://panetta.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Jimmy Panetta",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://panetta.house.gov/issues/housing-and-homelessness",
+      "title": "Housing and Homelessness",
+      "publisher": "Office of Rep. Jimmy Panetta",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://panetta.house.gov/issues/womens-rights",
+      "title": "Women's Rights",
+      "publisher": "Office of Rep. Jimmy Panetta",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://panetta.house.gov/issues/environment",
+      "title": "Environment",
+      "publisher": "Office of Rep. Jimmy Panetta",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Jimmy Panetta has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities above are drawn from his official House issues pages (panetta.house.gov/issues), checked 2026-09-25. Federal key votes and FEC totals for both candidates are added separately by script."
+}

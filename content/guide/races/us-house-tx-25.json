@@ -1,0 +1,131 @@
+{
+  "id": "us-house-tx-25",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "25",
+  "title": "U.S. House · Texas's 25th Congressional District",
+  "area": "North-central Texas, spanning from Tarrant County (Fort Worth area) north into rural counties along I-35.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the March 3, 2026 Democratic primary, Dione Sims defeated William Marks, 60.5% to 39.5%. Roger Williams was unopposed in the Republican primary.",
+      "sources": ["s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "roger-williams",
+      "name": "Roger Williams",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2013)",
+      "summary": {
+        "text": "Roger Williams is the incumbent Republican U.S. Representative for Texas's 25th District, a former Texas Secretary of State and small-business owner who chairs the House Small Business Committee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Evanston, Illinois, in 1949; earned a bachelor's degree in education from Texas Christian University in 1972.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Played baseball in the Atlanta Braves farm system and worked as a small business owner and baseball coach; served as Texas Secretary of State from 2005 to 2007.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Financial Services and chairs the House Committee on Small Business in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "W000816"
+    },
+    {
+      "id": "dione-sims",
+      "name": "Dione Sims",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary with 60.5% of the vote",
+      "summary": {
+        "text": "Dione Sims is an information technology professional, community organizer, and nonprofit founder who won the Democratic primary to challenge Rep. Roger Williams.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from Texas Wesleyan University in 1989; works as an information technology professional.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Founded a nonprofit focused on unity and social justice; has co-produced the Annual Juneteenth Fort Worth Celebration since 2015.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "In her 2026 Ballotpedia survey, said she is passionate about protecting democracy, expanding access to affordable healthcare, economic dignity for working families, criminal justice reform, mental health, and civil and human rights.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Said she is running to help Congress 'reclaim its constitutional role' and restore checks and balances against unchecked executive power.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Said she would fight for living wages, strong public schools, and an economy that works for working people.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she is passionate about expanding access to affordable healthcare.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says she would fight for living wages for working people.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Roger_Williams_(Texas)",
+      "title": "Roger Williams (Texas)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Dione_Sims",
+      "title": "Dione Sims — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Williams' positions are limited to official committee assignments; no 2026 Candidate Connection survey or campaign-site statements were found for him at research time. Federal key votes and FEC totals for the incumbent are added separately by script."
+}

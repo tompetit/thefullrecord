@@ -1,0 +1,180 @@
+{
+  "id": "us-house-ny-2",
+  "state": "NY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · New York's 2nd Congressional District",
+  "area": "West-central Suffolk County on Long Island, including Babylon, Islip, and parts of Smithtown.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both parties' primaries were canceled; incumbent Andrew Garbarino advanced unopposed on the Republican and Conservative lines, and Patrick Halpin advanced unopposed on the Democratic and Working Families Party lines after four other Democrats withdrew. As of September 22, 2026, Cook Political Report and Inside Elections rated the general election \"Solid Republican,\" Decision Desk rated it \"Likely Republican,\" and Sabato's Crystal Ball rated it \"Safe Republican.\"",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "andrew-garbarino",
+      "name": "Andrew Garbarino",
+      "parties": [
+        "R",
+        "C"
+      ],
+      "incumbent": true,
+      "currentRole": "U.S. Representative for NY-2 (since 2021)",
+      "summary": {
+        "text": "Andrew Garbarino is the incumbent U.S. Representative for New York's 2nd Congressional District, first elected in 2020 after serving in the New York State Assembly. He sits on the House Homeland Security Committee, where he chairs the Cybersecurity and Infrastructure Subcommittee, and on the House Financial Services Committee as Vice Chair.",
+        "sources": [
+          "s2"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in Sayville, New York; earned a B.A. in history and classical humanities from George Washington University and a J.D. from Hofstra University.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked at his family's law firm before serving in the New York State Assembly, where he voted against the 2019 state bail-reform law and cosponsored legislation making it a felony to interfere with police performing official duties.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign material lists support for law enforcement, combating the opioid epidemic, supporting veterans, and protecting the Great South Bay and Long Island's environment as priorities.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Opposes efforts to defund the police and says he has \"wholeheartedly backed New York's finest\"; endorsed by multiple law-enforcement unions.",
+          "quote": "Andrew has opposed all efforts to defund the police.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Homeland Security Committee (Chairman, Cybersecurity and Infrastructure Subcommittee) and House Financial Services Committee (Vice Chair) in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "As a New York State Assemblyman, voted against the 2019 state bail-reform legislation and voted for bills mandating insurance coverage of opioid-overdose reversal medication (NARCAN/Naloxone) and shortening opioid prescriptions to 7 days.",
+          "kind": "vote",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "website": "https://garbarino.house.gov",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "patrick-halpin",
+      "name": "Patrick Halpin",
+      "parties": [
+        "D",
+        "WFP"
+      ],
+      "incumbent": false,
+      "summary": {
+        "text": "Patrick Halpin is a former Suffolk County Executive and former chairman of the Suffolk County Water Authority running as the Democratic and Working Families Party nominee in NY-2. He advanced unopposed after the Democratic primary was canceled.",
+        "sources": [
+          "s3"
+        ]
+      },
+      "background": [
+        {
+          "text": "Graduated from West Babylon High School.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Served as Suffolk County Executive, where he says he created the Long Island Housing Partnership and launched community-based policing and anti-domestic-violence programs, and later chaired the Suffolk County Water Authority.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his campaign centers on affordability (housing, groceries, childcare), health care access and cost, and public safety paired with \"sensible immigration\" reform.",
+          "quote": "It shouldn't be this hard to build a life on Long Island.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Names health care, the environment, Social Security, and reducing corruption in Washington as the public-policy areas he is most passionate about.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says health care access should not depend on ZIP code, job, or bank account, and criticizes his opponent's vote that he says will cause New Yorkers to lose Medicaid coverage.",
+          "quote": "Healthcare shouldn't depend on your ZIP code, your job, or your bank account.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "As Suffolk County Executive, says he created the Long Island Housing Partnership and negotiated a county police contract while chairing efforts on community policing and domestic-violence protections.",
+          "kind": "action",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "website": "https://halpinforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York%27s_2nd_Congressional_District_election,_2026",
+      "title": "New York's 2nd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Andrew_Garbarino",
+      "title": "Andrew Garbarino",
+      "publisher": "Ballotpedia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Patrick_Halpin",
+      "title": "Patrick Halpin",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Garbarino has not completed a Ballotpedia Candidate Connection survey in 2020, 2022, 2024, or 2026; his priorities and record here draw on his campaign website text as republished by Ballotpedia. This is a low-competitiveness race (rated Solid/Safe Republican), so depth is limited per the BASIC research tier."
+}

@@ -1,0 +1,153 @@
+{
+  "id": "us-house-wa-6",
+  "state": "WA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "6",
+  "title": "U.S. House · Washington's 6th District",
+  "area": "Kitsap Peninsula and parts of the Olympic Peninsula and South Sound, including Bremerton, Port Orchard, Shelton, and Tacoma's west side.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Emily Randall and Teresa Fox advanced from the August 4, 2026 primary, defeating Leon Lawson (Trump Republican Party), Brian O'Gorman (Independent Party), and Macy Jones (no party preference).",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "emily-randall",
+      "name": "Emily Randall",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2025)",
+      "summary": {
+        "text": "Emily Randall is the Democratic incumbent for Washington's 6th Congressional District, a former Washington state senator and nonprofit development professional first elected to Congress in 2024.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Port Orchard, Washington; earned bachelor's degrees in Spanish and women's studies from Wellesley College in 2008.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Career experience includes working as a development professional with Wellesley College, the San Francisco AIDS Foundation, Planned Parenthood Federation of America, and Legal Voice.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Sits on the House Committee on Oversight and Government Reform (Government Operations; Health Care and Financial Services subcommittees) and the Committee on Natural Resources (Federal Lands; Indian and Insular Affairs subcommittees) for the 2025-2026 Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists fighting climate change, lowering costs for families, defending democracy, enhancing healthcare, improving education, and safeguarding access to abortion as her campaign's core issues.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://electemilyrandall.com",
+      "researchDepth": "basic",
+      "bioguideId": "R000621"
+    },
+    {
+      "id": "teresa-fox",
+      "name": "Teresa Fox",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Teresa Fox is the Republican nominee for Washington's 6th Congressional District, an emergency manager, safety professional, and fire inspector who ran on reducing government spending and regulation.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Professional experience includes working as an emergency manager, safety professional, and fire inspector.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaigns on cutting taxes, reducing government regulation on businesses, and greater government accountability to taxpayers.",
+          "quote": "Lower Taxes: Keep money in family pockets, not bureaucrat budgets. Less Regulation: Let businesses operate without constant government interference. Real Accountability: Make government answer to taxpayers, not the other way around.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "On Navy shipyard funding in Bremerton, wants money directed to shipyard workers and equipment rather than administrative overhead, and opposes prioritizing unproven \"green\" maritime technology over fleet maintenance.",
+          "quote": "Modernizing the Navy shouldn't mean more middle management in D.C.; it should mean more tools and higher pay for the pipefitters and welders in Bremerton.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says Washington ranks last in the nation in police staffing and campaigns on rural public safety.",
+          "quote": "It's unacceptable that Washington ranks last in police staffing.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Opposes what she describes as government growth funded by higher taxes, campaigning on lowering taxes generally.",
+          "quote": "Lower Taxes: Keep money in family pockets, not bureaucrat budgets.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Supports increasing police staffing, citing Washington's ranking as last in the nation for police staffing levels.",
+          "quote": "It's unacceptable that Washington ranks last in police staffing.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Opposes federal mandates prioritizing unproven \"green\" maritime technology over maintenance of the existing Navy fleet, citing job stability and national security.",
+          "quote": "We need ships that can fight today, not social experiments that might float tomorrow.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "website": "https://foxforwa.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Washington%27s_6th_Congressional_District_election,_2026",
+      "title": "Washington's 6th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Emily_Randall",
+      "title": "Emily Randall",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://electemilyrandall.com/issues",
+      "title": "On the Issues",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Teresa_Fox",
+      "title": "Teresa Fox",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Teresa_Fox",
+      "title": "Teresa Fox campaign website (via Ballotpedia)",
+      "publisher": "Ballotpedia (quoting Fox's campaign site, foxforwa.com)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Neither candidate has completed a 2026 Ballotpedia Candidate Connection survey. Randall's campaign website lists issue titles but its position detail pages are JavaScript-rendered and could not be fetched; her positions section is left minimal rather than inferred. Fox's issue statements are drawn from her campaign website as republished by Ballotpedia. Randall's federal key votes and FEC totals are added separately by script."
+}

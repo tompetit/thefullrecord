@@ -1,0 +1,127 @@
+{
+  "id": "us-house-or-1",
+  "state": "OR",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Oregon's 1st District",
+  "area": "Northwest Oregon, including Washington County suburbs of Portland (Hillsboro, Beaverton area), and the north Oregon coast (Astoria, Tillamook, Lincoln City).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Suzanne Bonamici defeated Jamil Ahmad 86.6%-12.8% in the May 19, 2026 Democratic primary. Barbara Kahl defeated John Verbeek 71.5%-27.4% in the Republican primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "suzanne-bonamici",
+      "name": "Suzanne Bonamici",
+      "parties": ["D", "WFP"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2012)",
+      "summary": {
+        "text": "Suzanne Bonamici is the Democratic and Working Families Party nominee for re-election to Oregon's 1st Congressional District, which she has represented since a 2012 special election. She previously served in both chambers of the Oregon Legislature.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Detroit, Michigan; earned an associate degree from Lane Community College and a B.A. and J.D. from the University of Oregon.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a consumer protection attorney and as a legal assistant for Lane County Legal Aid Service before serving in the Oregon House of Representatives (2007-2008) and Oregon State Senate (2008-2012).",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "In the 119th Congress (2025-2026), serves on the House Committee on Science, Space, and Technology (Subcommittee on Environment; Subcommittee on Investigations and Oversight) and the Committee on Education and the Workforce.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://bonamiciforcongress.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Bonamici has not completed Ballotpedia's Candidate Connection survey in recent cycles and her campaign site's issues page was not reachable; her House committee lists issue pages for Child Care, Civil Rights, Climate Action, Education, Health Care, Housing and other topics but their text content was not accessible in this pass."
+    },
+    {
+      "id": "barbara-kahl",
+      "name": "Barbara Kahl",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Barbara Kahl is the Republican nominee for Oregon's 1st Congressional District. She is a veterinarian who has run a mobile large-animal veterinary practice in the district and served on an Oregon Department of Agriculture advisory committee.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "A fourth-generation Oregonian; earned a bachelor's degree from Oregon State University (2001) and a doctorate from Oregon State's College of Veterinary Medicine (2006).",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Spent nearly 20 years running a mobile veterinary practice serving large animals, equine, and livestock across the district, and spent two decades earlier in corporate accounting, finance and purchasing, including at Intel's Hillsboro campus (1990-1997).",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Founded a nonprofit rescue organization and currently serves as a public member of the Oregon Department of Agriculture's CAFO Advisory Committee; has testified before the Oregon Legislature on agriculture-related bills.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Fiscal discipline: cutting federal spending and redundant offices, removing ineligible recipients from benefit programs, and requiring agencies to justify funding or lose it.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Education: revising federal K-12 policy to focus on core academics (math, reading, writing, civics, history, science), restoring PE/music/art for grades K-6, and strengthening special-education support under IDEA.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Government accountability: strict budget discrepancy standards, year-end account closing, public spending reports, and routine forensic financial audits.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says she supports expanding land and timber use for housing supply, workforce training in the trades, cutting permitting time and costs, and a 'buildable homes' package.",
+          "quote": "Housing: expanding land/timber use for supply, trades workforce training, cutting permitting time and costs, a \"buildable homes\" package",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.barbarakahlforcongress.com/",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Oregon%27s_1st_Congressional_District_election,_2026",
+      "title": "Oregon's 1st Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Suzanne_Bonamici",
+      "title": "Suzanne Bonamici",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Barbara_Kahl",
+      "title": "Barbara Kahl",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC finance totals for Rep. Bonamici are added separately by script."
+}

@@ -1,0 +1,131 @@
+{
+  "id": "us-house-ok-1",
+  "state": "OK",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Oklahoma's 1st District",
+  "area": "Tulsa County and part of Rogers County, including the city of Tulsa",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat. Incumbent Kevin Hern is running for U.S. Senate rather than seeking re-election. Mark Tedford advanced unopposed after the Republican primary runoff was canceled; John Croisant advanced unopposed after the Democratic primary was canceled.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "mark-tedford",
+      "name": "Mark Tedford",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced after the Republican primary runoff was canceled",
+      "currentRole": "Member, Oklahoma House of Representatives, District 69 (Tulsa)",
+      "summary": {
+        "text": "Mark Tedford is a state representative for Oklahoma House District 69 in Tulsa and owner of an insurance agency, running for the open 1st Congressional District seat on a platform centered on domestic manufacturing, government spending cuts and immigration enforcement.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree from Missouri Southern State University (1992), a graduate degree from the University of Tulsa (1994), and a graduate degree from Biola University (2013).", "sources": ["s2"] },
+        { "text": "Owner and CEO of Tedford Insurance, an independent agency specializing in commercial insurance and employee benefits.", "sources": ["s2"] },
+        { "text": "Serves as Vice Chair of the Oklahoma House Commerce & Economic Development Oversight Committee (2025-2026).", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "\"An economy that works\" — rebuilding domestic supply chains and manufacturing and pursuing energy independence.", "quote": "Reindustrialization is not only possible but essential for national security. America must rebuild critical supply chains and stop relying on foreign adversaries for pharmaceuticals, semiconductors, and rare earth minerals.", "sources": ["s2"] },
+        { "text": "Government accountability — reducing spending and addressing what he describes as fraud and abuse in programs like Medicaid and SNAP.", "quote": "Programs like Medicaid and SNAP were created to help those in need, but lax standards, fraud, and abuse have expanded dependency and strained resources.", "sources": ["s2"] },
+        { "text": "Describes his campaign as guided by \"American Values\" including capitalism and what he calls Western Judeo-Christian founding principles.", "sources": ["s2"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says illegal immigrants should not receive taxpayer-funded benefits and supports stronger eligibility guardrails on safety-net programs.",
+          "quote": "Illegal immigrants should not receive taxpayer-funded benefits.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Calls for stronger standards and guardrails on Medicaid, citing fraud and abuse, rather than expanding public coverage.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "Supports rebuilding domestic supply chains and reducing reliance on foreign manufacturing for pharmaceuticals, semiconductors and rare earth minerals.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "No congressional record; record items limited to state legislative committee role, since a comprehensive list of Oklahoma House bills was not independently verified beyond the committee assignment."
+    },
+    {
+      "id": "john-croisant",
+      "name": "John Croisant",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced after the Democratic primary was canceled",
+      "currentRole": "Member, Tulsa Public Schools Board of Education, District 5 (since 2020)",
+      "summary": {
+        "text": "John Croisant is a Tulsa Public Schools board member, former teacher and small-business owner running for the open 1st Congressional District seat on affordability, education and protecting federal programs.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Born in Tulsa, Oklahoma; earned a high school diploma from Jenks High School and a bachelor's degree from the University of Tulsa in 1999.", "sources": ["s3"] },
+        { "text": "Career experience includes owning an insurance agency, teaching social studies at Edison Prep, and coaching soccer.", "sources": ["s3"] },
+        { "text": "Elected to the Tulsa Public Schools Board of Education, District 5, taking office July 7, 2020; current term ends in 2028.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Addressing the affordability crisis, citing rising costs of healthcare, housing and childcare for working-class Oklahomans.", "quote": "The rising costs of healthcare, housing, childcare and other essentials are skyrocketing at a pace that working class Oklahomans cannot keep up with.", "sources": ["s3"] },
+        { "text": "Improving education outcomes and opposing the elimination of the U.S. Department of Education.", "quote": "First, ensuring the Department of Education is not shut down. Second, I will hold Dept. of Ed. accountable for the outcomes of our students.", "sources": ["s3"] },
+        { "text": "Protecting funding for healthcare, housing, childcare, education, infrastructure and job training programs.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists protecting funding for healthcare programs as a priority and cites rising healthcare costs as part of the affordability crisis.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Lists protecting funding for childcare programs among the essential programs he would fight for in Congress.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "No campaign website located; positions drawn from his Ballotpedia Candidate Connection survey."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Oklahoma,_2026",
+      "title": "United States House of Representatives elections in Oklahoma, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Mark_Tedford",
+      "title": "Mark Tedford",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2025-01-01"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/John_Croisant",
+      "title": "John Croisant",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2025-01-01"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

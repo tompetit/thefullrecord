@@ -1,0 +1,213 @@
+{
+  "id": "us-house-ia-4",
+  "state": "IA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Iowa's 4th District",
+  "area": "Northwest Iowa, including Sioux City, Fort Dodge, and Spencer",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat: incumbent Randy Feenstra (R) did not seek re-election to this seat, running instead for Iowa Governor. Feenstra and five other Republicans withdrew from the U.S. House primary before the June 2, 2026 election, and Chris McGowan advanced unopposed with 99.3% of the Republican primary vote. Dave Dawson (D), a former Iowa state legislator and prosecutor, defeated Stephanie Steiner and Ashley WolfTornabane in the June 2 Democratic primary with 39.0% of the vote. Cook Political Report rated the district R+15, the most Republican-leaning of Iowa's four districts.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "dave-dawson",
+      "name": "Dave Dawson",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the June 2 Democratic primary",
+      "currentRole": "Former member, Iowa House of Representatives; prosecutor",
+      "summary": {
+        "text": "Dawson is a Democratic former Iowa state legislator and prosecutor running for this open seat. He describes himself as focused on health care access, rural investment, and reducing corporate influence over the economy.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Dawson describes himself as a public servant, prosecutor, and former state legislator who has lived in Iowa his whole life.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "He was elected to the Iowa House of Representatives in 2012 and 2014, where he says he worked across party lines on constituent issues.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "In 2016, he received the Gold Star Award from the Iowa State Sheriffs' and Deputies' Association for legislative leadership on law enforcement and public safety issues.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Expand health care options, lower prescription drug costs, expand rural health care access, and keep rural hospitals and nursing homes open.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Invest in rural communities: expand broadband, repair roads and bridges, strengthen family farms, and make housing more affordable.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Raise wages and increase competition by pushing back on corporate monopolies that he says hurt farmers and small business owners.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Dawson's Candidate Connection survey response says he will work to lower prescription drug costs, expand rural health care access, and invest in medical research.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "mixed",
+          "summary": "Dawson says the growing national debt is a major challenge and that any federal spending needs to be paid for without adding to the debt, without stating a specific tax position on high earners.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Served as a Democratic member of the Iowa House of Representatives after being elected in 2012 and 2014.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "chris-mcgowan",
+      "name": "Chris McGowan",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced unopposed in the June 2 Republican primary with 99.3% of the vote after incumbent Randy Feenstra and five other candidates withdrew",
+      "summary": {
+        "text": "McGowan is the Republican nominee for this open seat, a fourth-generation Iowan from the district running on an \"America First\" platform emphasizing border security, agriculture, and reduced federal spending.",
+        "sources": ["s3", "s4"]
+      },
+      "background": [
+        {
+          "text": "McGowan says he was born and raised in Iowa's 4th Congressional District, where his children represent the fifth generation of his family to live in northwest Iowa.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "His campaign site says his great-grandfather was recognized as the state's top per-acre corn producer in 1944, and his mother was raised on a crop and livestock farm near Fonda, Iowa.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Create a strong economy, eliminate wasteful federal spending, secure the southern border, support the armed forces and national defense, and protect what he calls Iowa's traditional values.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "McGowan's campaign site calls for completing border security efforts, stopping fentanyl flows, and supporting Immigration and Customs Enforcement's removal operations.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "mixed",
+          "summary": "McGowan's campaign site says he will support \"free and fair-trade agreements\" for agricultural goods without detailing a position on broad tariffs.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://mcgowanforiowa.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "jermaine-decker",
+      "name": "Jermaine Decker",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Write-in candidate",
+      "summary": {
+        "text": "Decker is a retired U.S. Army veteran running as an independent write-in candidate for Iowa's 4th Congressional District, campaigning against the two-party system and on fighting government corruption.",
+        "sources": ["s5"]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Army from 2007 to 2015; earned a high school diploma from Logan-Magnolia High School; is retired.",
+          "sources": ["s5"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says his first priority is \"fighting corruption,\" arguing that no new policy can serve the public if the political system itself is broken.",
+          "quote": "My first priority is fighting corruption, because if the system itself is broken, no new policy will truly serve the American people.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says he wants to end the two-party system and stands firmly on defending constitutional rights.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Lists water and dirt quality in Iowa among the public policy areas he is personally passionate about.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Decker's Candidate Connection survey responses focus on opposing the two-party system, government corruption, and constitutional/privacy rights broadly; none of his statements directly addressed any of the 15 fixed ISSUES statements, so no positions could be recorded without inferring from general rhetoric."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Iowa,_2026",
+      "title": "United States House of Representatives elections in Iowa, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Dave_Dawson",
+      "title": "Dave Dawson (Ballotpedia Candidate Connection survey)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://mcgowanforiowa.com",
+      "title": "McGowan for Iowa",
+      "publisher": "McGowan for Iowa (campaign site)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://mcgowanforiowa.com/vision",
+      "title": "Vision",
+      "publisher": "McGowan for Iowa (campaign site)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Jermaine_Decker",
+      "title": "Jermaine Decker",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Jermaine_Decker",
+      "title": "Jermaine Decker (Candidate Connection survey responses)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-08-23"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "McGowan has no Ballotpedia narrative biography, so his background here is limited to what his own campaign site states about his family history in the district. Note: Feenstra withdrew from the Republican primary (running for governor instead) rather than losing a contested primary to McGowan, who advanced unopposed with 99.3% of the vote; this was corrected from an earlier draft that described McGowan as having 'defeated' Feenstra."
+}

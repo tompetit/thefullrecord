@@ -1,0 +1,230 @@
+{
+  "id": "us-house-fl-21",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "21",
+  "title": "U.S. House · Florida's 21st District",
+  "area": "The Treasure Coast and northern Palm Beach County, under Florida's 2026 congressional map.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Florida's U.S. House elections use a new congressional map for 2026; Gov. Ron DeSantis signed the new district boundaries into law on May 4, 2026.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Incumbent Rep. Brian Mast (R)'s Republican primary was canceled and he advanced unopposed. James Martin won the Democratic primary on August 18, 2026, defeating Bernard Taylor.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "David Fabrikant is running as a write-in candidate with no party affiliation.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "brian-mast",
+      "name": "Brian Mast",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2017)",
+      "summary": {
+        "text": "Brian Mast is the incumbent Republican U.S. Representative for the 21st District, first elected in 2016. He is a U.S. Army veteran and double amputee who lost both legs to an IED in Afghanistan.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Graduated from South Christian High School and attended Palm Beach Atlantic University, American Military University, and the Harvard University Extension School.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the U.S. Army for 12 years, earning the Bronze Star Medal, Army Commendation Medal for Valor, Purple Heart Medal, and Defense Meritorious Service Medal.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an instructor for the Bureau of Alcohol, Tobacco, Firearms and Explosives, an analyst for the National Nuclear Security Administration, and an explosives specialist for the U.S. Department of Homeland Security before entering Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Describes himself as a strong supporter of Israel and says he has worked on the Foreign Affairs Committee to counter the BDS movement and support Israel's regional security efforts.",
+          "quote": "As a strong supporter of the state of Israel, I believe we must continue to repair the U.S. – Israel Relationship... As a member of the Foreign Affairs Committee, I have worked to oppose the dangerous BDS movement, support Israel's efforts to counter instability in the Middle East, and prevent a nuclear-armed Iran.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves as Chair of the House Foreign Affairs Committee and also sits on the Transportation and Infrastructure Committee for the 2025–2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Says he opposed the Iran Nuclear Deal and voted for sanctions on Iran, North Korea, and Russia.",
+          "kind": "vote",
+          "sources": ["s2", "s6"]
+        }
+      ],
+      "website": "https://ballotpedia.org/Brian_Mast",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "james-martin",
+      "name": "James Martin",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Democratic primary",
+      "summary": {
+        "text": "James Martin is a U.S. Coast Guard veteran and national security expert running as the Democratic nominee against incumbent Brian Mast, focused on cost of living, clean water, and anti-corruption reform.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "A fourth-generation Floridian and U.S. Coast Guard veteran who says he chased drug runners and human traffickers, served overseas in combat zones, and advised White House leaders.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he opposes tariffs and supports using antitrust enforcement to address corporate consolidation driving up costs for working families.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he will work to complete Everglades restoration, clean up Lake Okeechobee, and stop toxic discharges into the St. Lucie Estuary and Indian River Lagoon.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he supports getting money out of politics, banning members of Congress from trading stocks, and closing the revolving door between Congress and lobbying.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Opposes broad tariffs, saying they drive up grocery prices for working families.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports completing Everglades restoration and ending toxic discharges affecting Treasure Coast waterways, and says he will not compromise on environmental laws.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.jamesmartinforflorida.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "alexander-cooke",
+      "name": "Alexander Cooke",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Alexander Cooke is running with no party affiliation for Florida's 21st District. He is a former Juno Beach mayor and councilmember running on opposition to what he calls wasteful spending, and on water and development issues.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Served as Mayor and Councilmember of Juno Beach, Florida, from 2022 to 2024. Says he has more than 20 years of experience in investment management and trading and owns and runs Optimist Capital LLC in Palm Beach Gardens.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he will focus on clean water and controlling Lake Okeechobee discharges, citing his experience as Juno Beach mayor.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says he will focus on housing costs, property insurance, and cost-of-living stability, and opposes what he calls wasteful spending on projects such as the incumbent's support for renaming an airport.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "david-fabrikant",
+      "name": "David Fabrikant",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Write-in candidate",
+      "summary": {
+        "text": "David Fabrikant is running as a write-in candidate with no party affiliation for Florida's 21st District. He is an attorney who says he has worked for 15 years helping people with financial struggles.",
+        "sources": ["s5"]
+      },
+      "background": [
+        {
+          "text": "An attorney with 25 years of experience who says he has spent the past 15 years helping people struggling with their finances.",
+          "sources": ["s5"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he has drafted seven proposed laws, including taxing ammunition and restricting certain weapons for civilian use, tying the minimum wage to congressional salaries, and requiring corporations to disclose what share of their workforce is AI.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says his policy priorities include economic support for lower-income people, public health, children's access to food, access to healthcare, and vaccination.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Florida%27s_21st_Congressional_District_election,_2026",
+      "title": "Florida's 21st Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Brian_Mast",
+      "title": "Brian Mast",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.jamesmartinforflorida.com/",
+      "title": "James Martin For Florida",
+      "publisher": "James Martin for Congress campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Alexander_Cooke",
+      "title": "Alexander Cooke - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/David_Fabrikant",
+      "title": "David Fabrikant - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://clerk.house.gov/Votes/2017413",
+      "title": "Roll Call 413 — On Motion to Suspend the Rules and Pass: H.R. 3364, Countering America's Adversaries Through Sanctions Act",
+      "publisher": "Office of the Clerk, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2017-07-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC finance totals for incumbent Brian Mast are added separately by script. James Martin has not completed Ballotpedia's Candidate Connection survey; positions drawn from his campaign website. Alexander Cooke and David Fabrikant both completed Ballotpedia's Candidate Connection survey; no FEC finance data is yet available for Fabrikant."
+}

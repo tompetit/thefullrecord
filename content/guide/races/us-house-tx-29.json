@@ -1,0 +1,96 @@
+{
+  "id": "us-house-tx-29",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "29",
+  "title": "U.S. House · Texas's 29th Congressional District",
+  "area": "East Houston, including parts of the Houston Ship Channel area.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the March 3, 2026 Democratic primary, incumbent Sylvia Garcia defeated Jarvis Johnson and Robert Slater, 58.2% to 35.7% to 6.1%. Martha Fierro was unopposed for the Republican nomination.",
+      "sources": ["s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sylvia-garcia",
+      "name": "Sylvia Garcia",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Sylvia Garcia is the incumbent Democratic U.S. Representative for Texas's 29th District, a former Texas state senator, Houston city controller, and municipal court judge.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in San Diego, Texas, in 1950; earned a bachelor's degree in social work and political science from Texas Woman's University in 1972 and a J.D. from Thurgood Marshall School of Law at Texas Southern University in 1978.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a social worker and legal aid lawyer; served as presiding judge of the Houston Municipal Court system, Houston city controller, a Harris County commissioner, and in the Texas Senate from 2013 to 2018.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Financial Services and the House Committee on Ethics in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "G000587"
+    },
+    {
+      "id": "martha-fierro",
+      "name": "Martha Fierro",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Unopposed for the Republican nomination in the March 3, 2026 primary",
+      "summary": {
+        "text": "Martha Fierro is a repeat Republican candidate in the Houston area who has run for the Texas House and Texas Senate in prior cycles and was unopposed for the 2026 Republican nomination in this district.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Sylvia_Garcia",
+      "title": "Sylvia Garcia",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Martha_Fierro",
+      "title": "Martha Fierro",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Garcia has not completed a 2026 Candidate Connection survey; her positions are limited to official committee assignments. No biography, campaign website, or Candidate Connection survey was found for Martha Fierro on Ballotpedia despite her having run for office in several prior cycles; her entry is minimal. Federal key votes and FEC totals for the incumbent are added separately by script."
+}

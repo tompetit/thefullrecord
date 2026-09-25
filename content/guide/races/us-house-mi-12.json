@@ -1,0 +1,117 @@
+{
+  "id": "us-house-mi-12",
+  "state": "MI",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "12",
+  "title": "U.S. House · Michigan's 12th District",
+  "area": "Western Wayne County, including Dearborn, Dearborn Heights and part of Detroit.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Rashida Tlaib (D) defeated Shanelle Jackson and Byron Nolen in the Democratic primary. James Hooper (R) advanced unopposed from the Republican primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "rashida-tlaib",
+      "name": "Rashida Tlaib",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Rashida Tlaib is the Democratic incumbent, first elected in 2018. She has campaigned on Medicare for All and a $15 minimum wage.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {"text": "Born and raised in Detroit; graduated from Southwestern High School in 1994.", "sources": ["s2"]},
+        {"text": "Earned a bachelor's degree in political science from Wayne State University (1998) and a law degree from Western Michigan University Thomas M. Cooley Law School (2004).", "sources": ["s2"]},
+        {"text": "Worked as an attorney with nonprofit legal advocacy groups and as a staffer for former state Rep. Steve Tobocman before serving in the Michigan House of Representatives.", "sources": ["s2"]}
+      ],
+      "priorities": [
+        {"text": "Medicare for All to guarantee healthcare as a right.", "quote": "I'll fight for Medicare-for-All that guarantees health care as a right, not a privilege.", "sources": ["s2b"]},
+        {"text": "A $15 minimum wage and support for labor unions.", "quote": "I'll fight for a $15 minimum wage that gives our workers the ability to provide for their families... I'll protect our unions, the organizations that built our middle class.", "sources": ["s2b"]},
+        {"text": "Ending corporate tax breaks and overturning Citizens United.", "quote": "We must stop tax giveaways to rich corporations and developers while our schools are crumbling and people are losing their homes... we must overturn Citizens United to ensure all of our voices are heard.", "sources": ["s2b"]}
+      ],
+      "positions": [
+        {"issue": "healthcare_public", "stance": "supports", "summary": "Supports Medicare for All.", "quote": "I'll fight for Medicare-for-All that guarantees health care as a right, not a privilege.", "sources": ["s2b"]},
+        {"issue": "minimum_wage", "stance": "supports", "summary": "Supports a $15 federal minimum wage.", "quote": "I'll fight for a $15 minimum wage that gives our workers the ability to provide for their families.", "sources": ["s2b"]},
+        {"issue": "tax_wealthy", "stance": "supports", "summary": "Supports ending corporate tax breaks for developers and corporations.", "quote": "We must stop tax giveaways to rich corporations and developers while our schools are crumbling and people are losing their homes.", "sources": ["s2b"]}
+      ],
+      "record": [
+        {"text": "Assigned to the Committee on Oversight and Government Reform and the Committee on Financial Services for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]},
+        {"text": "Censured by the U.S. House, 234-188, on November 7, 2023, over comments regarding the Israel-Hamas war; the censure resolution said she was censured for 'promoting false narratives regarding the October 7, 2023, Hamas attack on Israel and for calling for the destruction of the state of Israel.' Tlaib responded that criticism of the Israeli government should not be equated with antisemitism.", "kind": "action", "sources": ["s2"]}
+      ],
+      "website": "https://rashidaforcongress.com",
+      "researchDepth": "basic",
+      "bioguideId": "T000481"
+    },
+    {
+      "id": "james-hooper",
+      "name": "James Hooper",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "James Hooper is a Republican candidate campaigning on opposition to abortion, support for gun rights, reduced federal taxation, and stronger immigration enforcement.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {"text": "Born in Detroit, Michigan.", "sources": ["s3"]}
+      ],
+      "priorities": [
+        {"text": "Opposes abortion, describing himself as 'Pro-Life from conception to natural death.'", "quote": "I am Pro-Life from conception to natural death. I will be a strong and unwavering voice for LIFE in the U.S. House of Representatives.", "sources": ["s3b"]},
+        {"text": "Supports strong Second Amendment protections.", "quote": "I am a strong proponent of the Un-infringeable nature of the Second Amendment. It is the essential bulwark with which all our other rights are guaranteed.", "sources": ["s3b"]},
+        {"text": "Wants to reduce federal taxation and shrink federal bureaucracy.", "quote": "We need taxation policy that focuses on keeping MORE of your hard-earned dollars in your pocket and LESS going to waste in Washington D.C.", "sources": ["s3b"]}
+      ],
+      "positions": [
+        {"issue": "abortion", "stance": "opposes", "summary": "Opposes legal abortion, describing himself as pro-life 'from conception to natural death.'", "quote": "I am Pro-Life from conception to natural death.", "sources": ["s3b"]},
+        {"issue": "guns", "stance": "opposes", "summary": "Opposes stricter gun laws, calling the Second Amendment 'non-negotiable.'", "quote": "The 2nd Amendment is non-negotiable. The People are the repository of this Right.", "sources": ["s3b"]},
+        {"issue": "tax_wealthy", "stance": "opposes", "summary": "Opposes higher federal taxation generally, calling current taxes on families and businesses 'obscene.'", "quote": "Taxes on American families and businesses are obscene... We need taxation policy that focuses on keeping MORE of your hard-earned dollars in your pocket.", "sources": ["s3b"]},
+        {"issue": "immigration_enforcement", "stance": "supports", "summary": "Calls unchecked illegal immigration a national-security issue and supports strong border control.", "quote": "It is dangerously unacceptable to have unchecked illegal immigration which disguises drug trafficking, human and child trafficking, and terrorists crossing an abandoned border.", "sources": ["s3b"]}
+      ],
+      "record": [],
+      "website": "https://jameshooperforcongress.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "brenda-sanders",
+      "name": "Brenda Sanders",
+      "parties": ["G"],
+      "incumbent": false,
+      "summary": {"text": "Brenda Sanders is the Green Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+    },
+    {
+      "id": "marc-joseph-sosnowski",
+      "name": "Marc Joseph Sosnowski",
+      "parties": ["U.S. Taxpayers Party"],
+      "incumbent": false,
+      "summary": {"text": "Marc Joseph Sosnowski is the U.S. Taxpayers Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+    },
+    {
+      "id": "gary-walkowicz",
+      "name": "Gary Walkowicz",
+      "parties": ["Working Class Party"],
+      "incumbent": false,
+      "summary": {"text": "Gary Walkowicz is the Working Class Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website or Ballotpedia Candidate Connection survey response found describing his 2026 platform in detail."
+    }
+  ],
+  "sources": [
+    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026", "title": "United States House of Representatives elections in Michigan, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2", "url": "https://ballotpedia.org/Rashida_Tlaib", "title": "Rashida Tlaib", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2b", "url": "https://rashidaforcongress.com", "title": "Tlaib's 2018 campaign website statement (quoted by Ballotpedia)", "publisher": "Rashida Tlaib for Congress / Ballotpedia", "kind": "candidate", "date": "2018-01-01"},
+    {"id": "s3", "url": "https://ballotpedia.org/James_Hooper", "title": "James Hooper", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s3b", "url": "https://jameshooperforcongress.com/", "title": "Hooper's campaign website statement (quoted by Ballotpedia)", "publisher": "James Hooper for Congress / Ballotpedia", "kind": "candidate", "date": "2026-09-25"}
+  ],
+  "researchedAt": "2026-09-25"
+}

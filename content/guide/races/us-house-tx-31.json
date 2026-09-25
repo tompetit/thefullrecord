@@ -1,0 +1,146 @@
+{
+  "id": "us-house-tx-31",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "31",
+  "title": "U.S. House · Texas's 31st Congressional District",
+  "area": "Central Texas, primarily Williamson County (Round Rock, Georgetown) and part of Bell County (Killeen).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the March 3, 2026 primaries, incumbent John Carter won the Republican nomination with 59.7% of the vote in a ten-candidate field, and Justin Early defeated Stuart Whitlow 57.6% to 42.4% for the Democratic nomination. Greg Stoker advanced as the Green Party's nominee from its March 21, 2026 convention.",
+      "sources": ["s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "john-carter",
+      "name": "John Carter",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2003)",
+      "summary": {
+        "text": "John Carter is the incumbent Republican U.S. Representative for Texas's 31st District, a former Williamson County district court judge who chairs the House Appropriations Military Construction-Veterans Affairs subcommittee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Houston, Texas; earned a B.A. from Texas Tech University in 1964 and a J.D. from the University of Texas in 1969.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as a District Court Judge in Williamson County, Texas, from 1981 to 2001; first elected to Congress in 2002.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Appropriations and chairs its Military Construction, Veterans Affairs, and Related Agencies subcommittee in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "C001051"
+    },
+    {
+      "id": "justin-early",
+      "name": "Justin Early",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary with 57.6% of the vote",
+      "summary": {
+        "text": "Justin Early is a U.S. Army veteran and cybersecurity professional who won the Democratic primary to challenge Rep. John Carter.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Graduated from Leander High School in 1998; served in the U.S. Army as a paratrooper and later worked as a LAN systems administrator at the Defense Intelligence Agency; his career includes work in cybersecurity.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Has served as a Democratic precinct chair in Tarrant County and as a presidential delegate in 2008.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "His campaign website lists veterans' healthcare funding, clearing VA claims backlogs, and workplace protections such as paid family and sick leave among his priorities.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he would reverse VA funding cuts and clear claims and care backlogs so veterans are not made to wait for benefits.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says he would work to shift the tax burden off working families, saying people should not pay a higher share than the wealthiest.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "greg-stoker",
+      "name": "Greg Stoker",
+      "parties": ["G"],
+      "incumbent": false,
+      "ballotNote": "Advanced as the Green Party's nominee from its March 21, 2026 state convention",
+      "summary": {
+        "text": "Greg Stoker is the Green Party nominee in this race; little public biographical or policy information is available.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/John_Carter_(Texas)",
+      "title": "John Carter (Texas)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Greg_Stoker",
+      "title": "Greg Stoker",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Justin_Early",
+      "title": "Justin Early — campaign website statement",
+      "publisher": "Ballotpedia (campaign website statement)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Carter's positions are limited to official committee assignments; no 2026 Candidate Connection survey was found for him. No biography, campaign website, or Candidate Connection survey was found for Greg Stoker on Ballotpedia; his entry is minimal. Federal key votes and FEC totals for the incumbent are added separately by script."
+}

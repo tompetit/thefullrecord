@@ -1,0 +1,19 @@
+{
+  "raceId": "ny-sd-13",
+  "checkedAt": "2026-09-25",
+  "claimsChecked": 22,
+  "corrected": 6,
+  "removed": 5,
+  "unverifiable": 0,
+  "notes": [
+    "Removed all three of González-Rojas's 'priorities' entries (health justice/Jackson Heights health center funding, continuing the women's task force agenda including universal child care, and seeking the Senate seat for more influence): the cited Spectrum News/NY1 article was a video-only interview whose text contained none of these claims (just that she won the primary), so nothing in the fetched source supported them.",
+    "Removed the universal_childcare position (same unsupported source) rather than re-source it, since no reachable source documents this specific position for the Senate race.",
+    "Rewrote and re-sourced the healthcare_public position: dropped the unverified claim that she is a bill 'sponsor' of the New York Health Act and the 'health-center funding' detail (not in the cited article); replaced with her own words from her 2020 Ballotpedia candidate-survey answers (still shown on her current Ballotpedia page), which do support the New York Health Act.",
+    "Rewrote and re-sourced the immigration_enforcement position on the same basis (her 2020 survey answers about protecting immigrant communities and making New York a sanctuary state), since the previously cited article did not address immigration.",
+    "Fixed mis-citation: the 'National Latina Institute for Reproductive Justice' background/summary claim was cited to a QNS article that never mentions the organization; found and added the correct source (her official NY Assembly biography page), which confirms 13 years there, culminating as Executive Director.",
+    "Fixed two swapped citations for John Healy: the 'President of the Sunnyside GOP Club' background fact and the quoted priorities sentence are from the NYYRC endorsement (s2), not Ballotpedia (s10) as originally cited; the 2025 Council District 26 race detail (Republican/Conservative lines, lost) is confirmed on Ballotpedia (s10), not the endorsement (s2) as originally cited. Swapped both.",
+    "Removed the now-uncited QNS source (s5) per the validator's unused-source warning.",
+    "NY Assembly floor-vote record items (S10113, S3460) previously in this file, including their vote direction, were removed by an unrelated repository-wide fix (commit fbc402c) that renders contested NY roll calls from an official-snapshot pipeline instead of hand-written entries; per the updated VERIFY_BRIEF.md, floor-vote record items are now out of scope for this pass.",
+    "All other claims (bio, ballot slate/primary vote totals, Task Force chairmanship, committee assignments) verified against their cited sources without changes."
+  ]
+}

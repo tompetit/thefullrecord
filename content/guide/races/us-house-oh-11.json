@@ -1,0 +1,108 @@
+{
+  "id": "us-house-oh-11",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "11",
+  "title": "U.S. House · Ohio's 11th District",
+  "area": "Cuyahoga County, including most of Cleveland and eastern suburbs.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Shontel Brown (D) defeated Ardelia Holmes and Sean Freeman in the May 5, 2026 Democratic primary, 85.5%-7.9%-6.6%. Mike Kirchner won the Republican primary. Independent Cortney Peterson withdrew or was disqualified before the general election.",
+      "sources": ["s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "shontel-brown",
+      "name": "Shontel Brown",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2021)",
+      "summary": {
+        "text": "Shontel Brown is the Democratic incumbent seeking re-election in Ohio's 11th Congressional District, which she has represented since a 2021 special election. She previously chaired the Cuyahoga County Democratic Party and served on the Cuyahoga County Council.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Cleveland, Ohio.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Owned Diversified Digital Solutions and worked as director of sales for Hotcards.com, a senior account manager with Radio One, and a marketing support representative with Telco Communications Group before her political career.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supported Ohio Issue 1 (2023), the ballot measure establishing a state constitutional right to make reproductive decisions including abortion.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Oversight and Government Reform, the House Committee on Agriculture, and the Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party (119th Congress, 2025-2026).",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Supported Ohio Issue 1 (2023) establishing a state constitutional right to abortion, which voters approved.",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Opposed Ohio Issue 1 (August 2023), which would have raised the vote threshold to approve future constitutional amendments to 60%; voters rejected that measure.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "B001313"
+    },
+    {
+      "id": "mike-kirchner",
+      "name": "Mike Kirchner",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Mike Kirchner is the Republican nominee for Ohio's 11th Congressional District.",
+        "sources": ["s2"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Shontel_Brown",
+      "title": "Shontel Brown",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Mike_Kirchner",
+      "title": "Mike Kirchner",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://en.wikipedia.org/wiki/Shontel_Brown",
+      "title": "Shontel Brown",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Ballotpedia has only a minimal profile for Mike Kirchner (no biography, campaign-website statement, or Candidate Connection survey response found); his entry reflects that limited public footprint. Federal key votes and FEC finance totals for Brown are added separately."
+}

@@ -1,0 +1,13 @@
+{
+  "raceId": "us-house-ny-4",
+  "checkedAt": "2026-09-25",
+  "claimsChecked": 18,
+  "corrected": 3,
+  "removed": 0,
+  "unverifiable": 0,
+  "notes": [
+    "Context claimed Gillen's Democratic primary was canceled after 'four other Democrats withdrew'; the cited Ballotpedia page lists five withdrawn/disqualified candidates (Lozada, Bierria-Anderson, Sciretta, Jones, Darling). Corrected to 'five'.",
+    "Tarnoff's quote read 'I would privatize the critical functions of administrative agencies and eliminate them.'; the source reads 'I will privatize...'. Corrected the verb to match verbatim.",
+    "Fixed a duplicate 'electionDate' key in the file (harmless but non-conforming to the schema's single-field shape) while validating."
+  ]
+}

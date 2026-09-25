@@ -1,0 +1,135 @@
+{
+  "id": "us-house-nh-1",
+  "state": "NH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · New Hampshire's 1st District",
+  "area": "Eastern New Hampshire, including Manchester, Portsmouth and Rochester.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat: incumbent Rep. Chris Pappas (D) did not seek re-election here and is instead the Democratic nominee for U.S. Senate. Stefany Shaheen, daughter of retiring Sen. Jeanne Shaheen, won the September 8, 2026 Democratic primary with 37.2% of the vote over Maura Sullivan (34.9%) and Carleigh Beriont (22.0%).",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "stefany-shaheen",
+      "name": "Stefany Shaheen",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the September 8, 2026 Democratic primary with 37.2% of the vote in a nine-candidate field.",
+      "currentRole": "Former Portsmouth, NH City Councilor and Chair of the Portsmouth Police Commission",
+      "summary": {
+        "text": "Stefany Shaheen is the Democratic nominee for New Hampshire's open 1st Congressional District. She is a health care advocate, entrepreneur and author who served on the Portsmouth City Council and chaired the Portsmouth Police Commission; she is the daughter of retiring Sen. Jeanne Shaheen.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Career experience includes working as a health care advocate, entrepreneur, and author.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served as a Portsmouth, New Hampshire City Councilor and as Chair of the Portsmouth Police Commission.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Grew up in New Hampshire, raised her family there, and built a small business.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Health care: says corporate monopolies and Wall Street investors have driven up health care costs, and says she supports Medicare for All and a public option while pursuing near-term steps such as breaking up health care monopolies and lowering prescription drug prices.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Affordability: opposes tariffs imposed by the Trump administration, saying they have raised costs for small businesses and consumers, and calls for refunding revenue collected from tariffs the Supreme Court found illegal.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Housing: says investor purchases of homes and tax breaks for hedge funds and private equity firms are driving up housing costs, and calls for ending those tax breaks and expanding support for first-time homebuyers.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she supports Medicare for All and a public option, and wants to break up health care corporate monopolies and let Medicare negotiate lower drug prices.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Calls for rolling back tariffs she describes as illegal and refunding the money they cost small businesses.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Calls for cutting red tape that prevents construction of new affordable housing and investing in the skilled trades to build homes faster.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Calls for overhauling ICE, including body cameras, a ban on masks, ending warrantless searches, and ending raids in schools, churches and hospitals.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.stefanyshaheen.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "anthony-dilorenzo",
+      "name": "Anthony DiLorenzo",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the September 8, 2026 Republican primary.",
+      "summary": {
+        "text": "Anthony DiLorenzo is the Republican nominee for New Hampshire's open 1st Congressional District. He is a business owner with Key Auto Group.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Career experience includes working as a business owner with Key Auto Group.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "DiLorenzo has not completed Ballotpedia's Candidate Connection survey, and his campaign website was not reachable in the time available; only a brief Ballotpedia biography was found."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Stefany_Shaheen",
+      "title": "Stefany Shaheen",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.stefanyshaheen.com/issues",
+      "title": "Stefany's Priorities",
+      "publisher": "Stefany Shaheen for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Anthony_DiLorenzo",
+      "title": "Anthony DiLorenzo",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. Anthony DiLorenzo's public record is limited; his campaign website returned no content when fetched."
+}

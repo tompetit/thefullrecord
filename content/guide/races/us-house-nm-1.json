@@ -1,0 +1,136 @@
+{
+  "id": "us-house-nm-1",
+  "state": "NM",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · New Mexico's 1st District",
+  "area": "Central New Mexico, including the city of Albuquerque and most of Bernalillo County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Rep. Melanie Ann Stansbury (D), first elected in a 2021 special election, ran unopposed in the June 2, 2026 Democratic primary (100%). Ndidiamaka \"Didi\" Okpareke won the Republican primary unopposed (100%) after two other Republicans, Steve Jones and Carlton Pennington, did not make the ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "melanie-stansbury",
+      "name": "Melanie Ann Stansbury",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 2, 2026 Democratic primary unopposed.",
+      "currentRole": "U.S. Representative (since 2021)",
+      "summary": {
+        "text": "Melanie Ann Stansbury is the Democratic incumbent for New Mexico's 1st Congressional District, first elected in a 2021 special election. She previously served one term in the New Mexico House of Representatives.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Farmington, New Mexico, in 1972.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Earned a bachelor's degree in human ecology and natural science from Saint Mary's College of California (2002) and a master's in development sociology from Cornell University (2007).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Career experience includes working for the New Mexico Museum of Natural History and Science, as a science educator, at the U.S. Office of Management and Budget, and on the staff of the Senate Committee on Energy and Natural Resources.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the New Mexico House of Representatives from 2019 to 2021, including as vice chair of the Energy, Environment and Natural Resources Committee.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "In the 119th Congress (2025-2026), serves on the House Committee on Natural Resources and the House Committee on Oversight and Government Reform (Economic Growth, Energy Policy, and Regulatory Affairs; Government Operations and the Federal Workforce subcommittees).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://stansbury.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "S001218"
+    },
+    {
+      "id": "ndidiamaka-okpareke",
+      "name": "Ndidiamaka Okpareke",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the June 2, 2026 Republican primary unopposed after fellow Republicans Steve Jones and Carlton Pennington did not make the ballot.",
+      "summary": {
+        "text": "Ndidiamaka \"Didi\" Okpareke is the Republican nominee for New Mexico's 1st Congressional District. She is a pharmacist and small-business owner from Albuquerque running on lowering health care costs, supporting local businesses, and positioning herself as independent of party leadership.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born to Nigerian immigrant parents; has lived in Albuquerque since 1997, attending Sandia High School and graduating from the University of New Mexico.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Is a pharmacist and, in 2016, founded and became owner of Olive Tree Compounding Pharmacy.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Describes herself as a mother of three.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Health care: says she will use her pharmacist experience to make health care more affordable and accessible, lower prescription costs, and expand access in underserved communities.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Economy: says she will advocate for federal investment and programs that create jobs and grow paychecks for New Mexico workers and businesses.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says she will vote based on what she believes is right for New Mexico families and communities rather than party leadership.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "Campaign focuses on lowering costs and expanding access to health care as a pharmacist and small-business owner, without a stated position on expanding public coverage specifically.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.didiforcongress.com/",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_New_Mexico,_2026",
+      "title": "United States House of Representatives elections in New Mexico, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Melanie_Ann_Stansbury",
+      "title": "Melanie Ann Stansbury",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.didiforcongress.com/",
+      "title": "Home | Didi Okpareke for Congress",
+      "publisher": "Didi Okpareke campaign website",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Sitting-member key floor votes and FEC finance totals for Stansbury are added separately by script. Stansbury's specific policy positions were not independently documented within the research budget beyond her committee record; her official site's issue pages list topic categories without detailed statements. Okpareke has not completed a Ballotpedia Candidate Connection survey; positions above come from her campaign website only, marked \"mixed\" on healthcare_public because her site does not state a position on public coverage specifically."
+}

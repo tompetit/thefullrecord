@@ -1,0 +1,185 @@
+{
+  "id": "us-house-fl-28",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "28",
+  "title": "U.S. House · Florida's 28th District",
+  "area": "Southern Miami-Dade and the Florida Keys (Monroe County), including Homestead, Florida City and Key West.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both major-party primaries were canceled: incumbent Carlos Gimenez advanced unopposed as the Republican nominee, and Phil Ehr advanced unopposed as the Democratic nominee. Eddy Rojas is running with No Party Affiliation.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "carlos-gimenez",
+      "name": "Carlos Gimenez",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced from a canceled Republican primary, unopposed.",
+      "currentRole": "U.S. Representative, Florida's 28th District (since 2023); in Congress since 2021",
+      "summary": {
+        "text": "Carlos Gimenez is the Republican incumbent seeking re-election in Florida's 28th District. He previously served as Mayor of Miami-Dade County (2011-2020), city manager of Miami, and a Miami firefighter, and has represented South Florida in Congress since 2021.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Cuba; graduated from Christopher Columbus High School and earned a bachelor's degree in public administration from Barry University (1999).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a firefighter with the City of Miami Fire Department and later served as Miami's city manager.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as Mayor of Miami-Dade County from 2011 to 2020.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Economy and Taxes: says lowering taxes, reforming the legal system to reduce undue liability for businesses, cutting regulations, and fostering a strong business climate are needed to sustain small-business growth.",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Energy: supports an \"all-of-the-above\" approach to domestic energy production, opposes offshore drilling off Florida's coast, and supports deployment of clean-energy technology.",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Immigration: prioritizes border-security resources alongside a path to legal status for undocumented immigrants already in the country, and continuation of DACA and Deferred Enforced Departure for Venezuelans.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "On his official issues page, supports devoting more resources to border security and opposes sanctuary cities that limit local cooperation with federal immigration enforcement, but also supports a path to legal status (rather than deportation) for undocumented immigrants already in the country, continuation of DACA, and Deferred Enforced Departure for Venezuelans.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Opposes raising the corporate tax rate above 21% or creating a new annual wealth tax, and opposes raising tax rates on corporations and small businesses to pay for new spending.",
+          "quote": "I also oppose increasing tax rates on corporations and small businesses as a means of paying for new spending and oppose the implementation of an annual wealth tax.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "climate",
+          "stance": "mixed",
+          "summary": "Says he supports an \"all-of-the-above\" approach to domestic energy that includes deployment of clean-energy technology, while also emphasizing continued U.S. oil and gas production and energy independence rather than moving away from fossil fuels.",
+          "quote": "I support an all-of-the-above approach to domestic energy production with a focus on research, and deployment of new, clean energy technologies that ensures all Americans have access to affordable and reliable energy sources.",
+          "sources": ["s8"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, the Committee on Homeland Security (chairing the Subcommittee on Transportation and Maritime Security), and the House Armed Services Committee in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://www.carlosgimenezforcongress.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Gimenez has not completed Ballotpedia's 2026 Candidate Connection survey; his federal key votes and FEC finance totals are added separately by script, per this project's division of labor. Positions and priorities are drawn from his official House issues pages (Immigration, Economy and Taxes, Energy)."
+    },
+    {
+      "id": "phil-ehr",
+      "name": "Phil Ehr",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from a canceled Democratic primary, unopposed.",
+      "summary": {
+        "text": "Phil Ehr is the Democratic nominee for Florida's 28th Congressional District. He is a retired U.S. Navy officer who has run for Congress in South Florida in prior cycles.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Earned an undergraduate degree from the University of the State of New York and a master's degree in international relations from Troy State University.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served in the United States Navy from 1982 to 2008.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Reducing Florida's cost of living and strengthening Medicare and Social Security.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Securing the border and reforming legal immigration.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Supporting public education and labor unions in Florida, and protecting the environment through clean energy and water infrastructure.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists strengthening Medicare and Social Security among his campaign priorities.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Says he would work to enact stronger gun laws to address gun violence.",
+          "quote": "Stop the mass murder epidemic by enacting responsible gun laws.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he would work to restore abortion rights by removing government restrictions on reproductive decisions.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Lists protecting Florida's environment by building clean energy and water infrastructure among his priorities.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.ehrforce.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Ehr has not completed a 2026 Ballotpedia Candidate Connection survey. His current 2026 campaign website's issues page could not be loaded (server error), so his priorities and positions are drawn from a campaign-website quote from his 2024 run for this same seat, the most recent statement of his positions found on Ballotpedia."
+    },
+    {
+      "id": "eddy-rojas",
+      "name": "Eddy Rojas",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Eddy Rojas is a No Party Affiliation candidate on the general-election ballot for Florida's 28th District.",
+        "sources": ["s1", "s5"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Ballotpedia Candidate Connection survey, readable campaign website content, or other public statements could be located for Rojas."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_28th_Congressional_District_election,_2026", "title": "Florida's 28th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Carlos_Gimenez", "title": "Carlos Gimenez", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Phil_Ehr", "title": "Phil Ehr", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://ballotpedia.org/Phil_Ehr", "title": "Phil Ehr - campaign website (quoted via Ballotpedia)", "publisher": "Phil Ehr for Congress", "kind": "candidate", "date": "2024" },
+    { "id": "s5", "url": "https://ballotpedia.org/Eddy_Rojas", "title": "Eddy Rojas", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s6", "url": "https://gimenez.house.gov/immigration", "title": "Immigration", "publisher": "Office of Rep. Carlos Gimenez", "kind": "official", "date": "2026-09-25" },
+    { "id": "s7", "url": "https://gimenez.house.gov/economy-and-taxes", "title": "Economy and Taxes", "publisher": "Office of Rep. Carlos Gimenez", "kind": "official", "date": "2026-09-25" },
+    { "id": "s8", "url": "https://gimenez.house.gov/energy", "title": "Energy", "publisher": "Office of Rep. Carlos Gimenez", "kind": "official", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Gimenez's federal key votes and FEC finance totals are added separately by script."
+}

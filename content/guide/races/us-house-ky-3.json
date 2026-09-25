@@ -1,0 +1,166 @@
+{
+  "id": "us-house-ky-3",
+  "state": "KY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Kentucky's 3rd District",
+  "area": "Louisville and surrounding Jefferson County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Democratic primary was canceled after no other Democrat qualified to challenge incumbent Morgan McGarvey; he advanced automatically.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "morgan-mcgarvey",
+      "name": "Morgan McGarvey",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the Democratic primary without opposition after the primary was canceled.",
+      "currentRole": "U.S. Representative, Kentucky's 3rd District (since 2023)",
+      "summary": {
+        "text": "Morgan McGarvey is the Democratic incumbent for Kentucky's 3rd Congressional District, first elected in 2022. An attorney, he previously served in the Kentucky State Senate representing District 19 from 2012 to 2023.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in journalism from the University of Missouri in 2002 and a law degree from the University of Kentucky in 2007.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as an attorney with Morgan & Pottinger PSC.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the Kentucky State Senate, District 19, from 2012 to 2023.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Describes his work in Congress as fighting for public education, organized labor, and reproductive rights, and for Kentucky's working families.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Co-sponsored H.R. 715 (Bipartisan Background Checks Act of 2023) and H.R. 698 (Assault Weapons Ban of 2023), and lists work to pass gun legislation as a top priority on his official issues page.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Released a statement supporting Planned Parenthood's lawsuit to restore abortion rights in Kentucky, describing the state's abortion ban as having created \"second-class citizenship\" and calling to \"restore equal rights under the law.\"",
+          "quote": "Since the fall of Roe, Kentucky's draconian abortion ban has created second-class citizenship for half our commonwealth and caused undue suffering for women in need. It is beyond time to restore equal rights under the law.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Veterans' Affairs (Subcommittees on Disability Assistance and Memorial Affairs, and Economic Opportunity) and the House Committee on Small Business, where he is Ranking Member of the Subcommittee on Innovation, Entrepreneurship, and Workforce Development (118th Congress, 2023-2024).",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Co-sponsored H.R. 715, the Bipartisan Background Checks Act of 2023, and H.R. 698, the Assault Weapons Ban of 2023.",
+          "kind": "bill",
+          "sources": ["s4"]
+        }
+      ],
+      "website": "https://mcgarvey.house.gov",
+      "researchDepth": "full",
+      "bioguideId": "M001220"
+    },
+    {
+      "id": "maria-teresa-rodriguez",
+      "name": "Maria Teresa Rodriguez",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19, 2026 Republican primary with 48.2% of the vote, defeating David Nichter, Daniel Cobble and Donald Pay.",
+      "summary": {
+        "text": "Maria Teresa Rodriguez is the Republican nominee for Kentucky's 3rd Congressional District. Her campaign describes her as having lived through political persecution before coming to the United States, and she campaigns on public safety, lower taxes, legal immigration, and opposition to abortion.",
+        "sources": ["s2"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "\"María is running for Congress to defend the freedoms she once lived without. She believes strongly in free enterprise, safe communities, legal immigration, and protecting the constitutional rights of all Americans.\"",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Campaigns under the platform heading \"Protecting The Unborn,\" indicating opposition to abortion.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaigns on \"Legal Immigration\" as a priority, contrasted with illegal immigration, as part of a platform of safe communities and border enforcement.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Campaigns on lowering taxes as a platform priority.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "website": "https://mariaforuscongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Morgan_McGarvey",
+      "title": "Morgan McGarvey",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://mariaforuscongress.com/",
+      "title": "Maria Rodriguez For U.S. Congress KY Congress 3rd District",
+      "publisher": "Maria Teresa Rodriguez campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://mcgarvey.house.gov/about",
+      "title": "About Morgan",
+      "publisher": "Office of Rep. Morgan McGarvey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://mcgarvey.house.gov/issues/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Morgan McGarvey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://mcgarvey.house.gov/media/press-releases/congressman-morgan-mcgarveys-statement-on-planned-parenthoods-lawsuit-to-restore-abortion-rights-in-kentucky",
+      "title": "Congressman Morgan McGarvey's Statement on Planned Parenthood's Lawsuit to Restore Abortion Rights in Kentucky",
+      "publisher": "Office of Rep. Morgan McGarvey",
+      "kind": "candidate",
+      "date": "2023-12-08"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "McGarvey's federal key floor votes and FEC finance totals are added separately by script. Checked his official issues pages (economy, education, energy, health, gun violence prevention, congress, veterans) and about page; no statements found addressing tariffs, Israel aid, minimum wage, congestion pricing, school choice, rent regulation, housing supply, or the pace of the clean-energy transition specifically. Rodriguez's positions are drawn from platform headings on her campaign site (\"Protecting The Unborn,\" \"Legal Immigration,\" \"Lower Taxes\") rather than lengthy statements; no detailed background or education information was found for her in the time available."
+}

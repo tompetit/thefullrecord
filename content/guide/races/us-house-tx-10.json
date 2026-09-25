@@ -1,0 +1,165 @@
+{
+  "id": "us-house-tx-10",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "10",
+  "title": "U.S. House · Texas's 10th District",
+  "area": "A redrawn district running from the Austin area northeast toward Bryan-College Station in central Texas.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Open seat: incumbent Michael McCaul (R) retired from public office rather than seek re-election following Texas's August 2025 congressional redistricting. Caitlin Rourk won a three-candidate Democratic primary; Chris Gober won a multi-candidate Republican primary.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "caitlin-rourk",
+      "name": "Caitlin Rourk",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary",
+      "summary": {
+        "text": "Caitlin Rourk is the Democratic nominee for the open U.S. House seat in Texas's 10th District. An Army veteran and business leader, she is campaigning on healthcare affordability and economic opportunity.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Army veteran.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked as a business leader prior to running for Congress.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Affordable, accessible healthcare: lower drug costs, protect coverage for pre-existing conditions, expand mental health care and strengthen the ACA.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Economic opportunity: raise and index the federal minimum wage to the cost of living, expand affordable child care, and protect and strengthen Social Security.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will work to lower drug costs, protect coverage for pre-existing conditions and strengthen the Affordable Care Act.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Lists a 'living minimum wage' among her economic priorities.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Lists affordable child care among her priorities for the district.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says economic policy 'too often' favors the wealthy and well-connected and that she will hold corporations accountable to pay 'their fair share.'",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.caitlinrourk.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "chris-gober",
+      "name": "Chris Gober",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Republican primary",
+      "summary": {
+        "text": "Chris Gober is the Republican nominee for the open U.S. House seat in Texas's 10th District. An attorney who built a national conservative law practice, he previously directed America PAC, a super PAC founded by Elon Musk that supported Donald Trump's 2024 campaign, and describes himself as an 'America First' candidate.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Graduated from Texas A&M University and Harvard Law School; worked on national-security and border-security matters at the U.S. Department of Justice before serving as a top lawyer for the Republican Party of Texas.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Built a national conservative litigation practice and, in 2024, served as director and chief lawyer for America PAC, which he says deployed nearly $300 million supporting Donald Trump's presidential campaign.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Represented the IRS-targeting case brought by conservative nonprofit organizations against the agency over its handling of tax-exempt applications, which he says resulted in a ruling against the IRS's rules.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Secure the border and reduce illegal immigration, crime and drug trafficking, working with the Trump administration.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Oppose what he describes as the 'weaponization' of federal agencies against conservatives.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says he will cut regulations, expand small-business opportunities, and strengthen rural healthcare access for rural Texans; also calls for AI-infrastructure policy that protects rural electricity rates and local water supplies from large data-center projects.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he will work with President Trump to 'secure our border and crush the cartels' by enforcing immigration laws and empowering Texas law enforcement.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://chrisgober.com/",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Texas%27_10th_Congressional_District_election,_2026",
+      "title": "Texas' 10th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.caitlinrourk.com/",
+      "title": "Caitlin Rourk for Congress",
+      "publisher": "Caitlin Rourk campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://chrisgober.com/",
+      "title": "Chris Gober for Congress",
+      "publisher": "Chris Gober campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Neither candidate has held elected office, so there is no official voting or legislative record to report."
+}

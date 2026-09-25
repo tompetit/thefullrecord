@@ -1,0 +1,106 @@
+{
+  "id": "us-house-mi-8",
+  "state": "MI",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "8",
+  "title": "U.S. House · Michigan's 8th District",
+  "area": "Mid-Michigan, including Bay City, Saginaw and Flint (Bay, Saginaw and Genesee counties).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Kristen McDonald Rivet (D) advanced from the Democratic primary unopposed with 104,752 votes. Thomas J. Smith (R) won a contested Republican primary with 50.4% of the vote.",
+      "sources": ["s2", "s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "kristen-mcdonald-rivet",
+      "name": "Kristen McDonald Rivet",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2025)",
+      "summary": {
+        "text": "Kristen McDonald Rivet is the Democratic incumbent, seeking a second term after previously serving on the Bay City Commission and in the Michigan State Senate.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {"text": "Earned a bachelor's degree in history from Michigan State University (1992) and a master's degree in education and public administration from the University of Michigan-Flint.", "sources": ["s2"]},
+        {"text": "Worked as vice president of Michigan Future, Inc., president and CEO of Greater Midland, Inc., and vice president of program and policy at The Skillman Foundation.", "sources": ["s2"]},
+        {"text": "Served on the Bay City Commission and as chief strategy officer of the Michigan Health Improvement Alliance before her election to the Michigan State Senate and then Congress.", "sources": ["s2"]}
+      ],
+      "priorities": [
+        {"text": "Investing in workforce training so Michiganders can access high-wage jobs.", "quote": "Michigan needs more high-wage jobs. Kristen will make sure we invest in our workforce to prepare Michiganders for the jobs of tomorrow because while college isn't for everyone, good-paying jobs should be.", "sources": ["s2b"]},
+        {"text": "Defending abortion rights.", "quote": "She will also be steadfast in protecting our hard-earned freedoms and security, including defending the right to abortion, and keeping guns out of dangerous hands.", "sources": ["s2b"]}
+      ],
+      "positions": [
+        {"issue": "abortion", "stance": "supports", "summary": "Campaigns on defending the right to abortion.", "quote": "She will also be steadfast in protecting our hard-earned freedoms and security, including defending the right to abortion, and keeping guns out of dangerous hands.", "sources": ["s2b"]},
+        {"issue": "guns", "stance": "supports", "summary": "Supports keeping guns out of the hands of dangerous individuals.", "quote": "...keeping guns out of dangerous hands.", "sources": ["s2b"]}
+      ],
+      "record": [
+        {"text": "Assigned to the Committee on Agriculture and the Committee on Transportation and Infrastructure for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]}
+      ],
+      "website": "https://kristenmcdonaldrivet.com/",
+      "researchDepth": "basic",
+      "bioguideId": "M001237"
+    },
+    {
+      "id": "thomas-j-smith",
+      "name": "Thomas J. Smith",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Thomas J. Smith is an engineer who won the Republican primary for this district with 50.4% of the vote.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {"text": "Earned a bachelor's degree from Kettering University and a graduate degree from Michigan State University.", "sources": ["s3"]},
+        {"text": "Career experience includes working as an engineer.", "sources": ["s3"]}
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "website": "https://tomsmithformi.com/",
+      "researchDepth": "minimal",
+      "researchNotes": "Smith's campaign website did not load readable content, and he has not completed Ballotpedia's Candidate Connection survey, so no verifiable statements of his positions or priorities were found."
+    },
+    {
+      "id": "jim-casha",
+      "name": "Jim Casha",
+      "parties": ["G"],
+      "incumbent": false,
+      "summary": {"text": "Jim Casha is the Green Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+    },
+    {
+      "id": "c-mia-pettus",
+      "name": "C. Mia Pettus",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "summary": {"text": "C. Mia Pettus is the Libertarian Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+    },
+    {
+      "id": "kathy-goodwin",
+      "name": "Kathy Goodwin",
+      "parties": ["Working Class Party"],
+      "incumbent": false,
+      "summary": {"text": "Kathy Goodwin is the Working Class Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
+      "background": [], "priorities": [], "positions": [], "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+    }
+  ],
+  "sources": [
+    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026", "title": "United States House of Representatives elections in Michigan, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2", "url": "https://ballotpedia.org/Kristen_McDonald_Rivet", "title": "Kristen McDonald Rivet", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2b", "url": "https://ballotpedia.org/Kristen_McDonald_Rivet", "title": "McDonald Rivet's 2024 campaign website statement, archived by Ballotpedia (she had not completed a 2026 Candidate Connection survey as of this research)", "publisher": "Ballotpedia", "kind": "candidate", "date": "2024-01-01"},
+    {"id": "s3", "url": "https://ballotpedia.org/Thomas_J._Smith_(Michigan)", "title": "Thomas J. Smith (Michigan)", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"}
+  ],
+  "researchedAt": "2026-09-25"
+}

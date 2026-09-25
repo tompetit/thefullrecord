@@ -62,6 +62,12 @@ export default async function RepresentativesPage({
           {count} officials represent {result.matchedAddress.toLowerCase()},
           city to federal.
         </p>
+        <Link
+          href={`/guide/ballot?address=${encodeURIComponent(address)}`}
+          className="mt-4 inline-flex rounded-[10px] border-[1.5px] border-accent bg-accent-tint px-4 py-2.5 font-sans text-[13.5px] font-semibold text-accent-deep hover:bg-paper-raised"
+        >
+          See who&rsquo;s on your Nov 3 ballot at this address →
+        </Link>
       </div>
 
       <div className="mt-6 flex flex-col gap-7 px-[26px] lg:px-10">

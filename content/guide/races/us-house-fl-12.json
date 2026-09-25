@@ -1,0 +1,213 @@
+{
+  "id": "us-house-fl-12",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "12",
+  "title": "U.S. House · Florida's 12th District",
+  "area": "West-central Florida in the Tampa Bay area, including parts of Pinellas and Hillsborough counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Republican primary was canceled and incumbent Gus Bilirakis advanced unopposed. Kimberly Overman won the Democratic primary against Darren McAuley.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "gus-bilirakis",
+      "name": "Gus Bilirakis",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2007)",
+      "summary": {
+        "text": "Gus Bilirakis is the Republican incumbent seeking re-election to Florida's 12th Congressional District. A lawyer by training, he owned an estate-planning law practice before his election to Congress.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Gainesville, Florida; earned a bachelor's degree from the University of Florida (1986) and a law degree from Stetson Law School (1989).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Owned a law practice focused on estate planning and served on the board of Lighthouse for the Blind, the Rotary Club, and his local chamber of commerce before entering Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        { "text": "Says he believes all Americans deserve access to high-quality, affordable healthcare and supports infusing free-market principles and cost transparency into the health care system rather than a government takeover.", "sources": ["s5"] },
+        { "text": "Says the country is threatened by a debt crisis from unrestrained federal deficits and supports a Balanced Budget Amendment along with reduced federal regulation.", "sources": ["s6"] },
+        { "text": "Supports an \"all of the above\" energy strategy that includes increasing domestic energy production alongside incentives for renewable energy development.", "sources": ["s7"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Opposes amnesty and has voted against amnesty bills; supports enhanced penalties for deported criminals who return to the U.S. and cosponsored legislation implementing border security initiatives.",
+          "quote": "Congressman Bilirakis does not support amnesty or allowing those who have broken our nation's immigration laws to begin a path to citizenship.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Describes himself as a staunch opponent of socialized medicine and a government takeover of health care, and says Obamacare is broken.",
+          "quote": "Congressman Bilirakis believes all Americans deserve access to high quality, affordable healthcare, which is why he is a staunch opponent of socialized medicine.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says he is proud of the 2017 tax reform law, which lowered the top tax rate on businesses from 39.6% to 25% and cut the corporate tax rate to 21%.",
+          "quote": "The top tax rate on these businesses is 25%, a significant reduction from the previous 39.6% rate. Additionally, the corporate tax rate has been lowered to 21%.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "mixed",
+          "summary": "Supports an \"all of the above\" energy strategy that combines increased domestic (including fossil fuel) production with incentives for renewable energy development, rather than a faster shift away from fossil fuels.",
+          "quote": "Congressman Bilirakis firmly supports an \"all of the above\" energy strategy that includes increasing domestic production, providing incentives for the development of renewable resources, and promoting conservation.",
+          "sources": ["s7"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Assigned to the Committee on Energy and Commerce, chairing its Commerce, Manufacturing, and Trade Subcommittee, and to the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, for the 2025-2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Cosponsored the Securing America's Future Act, providing a three-year renewable legal status for DACA recipients tied to ending chain migration, the visa lottery system, enhanced penalties for deported criminals who return, and border security initiatives.",
+          "kind": "bill",
+          "sources": ["s4"]
+        }
+      ],
+      "website": "https://bilirakisforcongress.com/",
+      "researchDepth": "full",
+      "researchNotes": "Bilirakis has not completed Ballotpedia's 2026 Candidate Connection survey; priorities and positions are drawn from his official House issues pages."
+    },
+    {
+      "id": "kimberly-overman",
+      "name": "Kimberly Overman",
+      "parties": ["D"],
+      "incumbent": false,
+      "currentRole": "Former Hillsborough County Commissioner",
+      "summary": {
+        "text": "Kimberly Overman is the Democratic nominee for Florida's 12th Congressional District. A former Hillsborough County Commissioner, small-business owner, and retired financial advisor, she is running on lowering costs, protecting healthcare, and government accountability.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Spent more than 30 years as a financial advisor helping families with financial planning before retiring.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served as a Hillsborough County Commissioner, where she says she built a record on fiscal responsibility, transparency, and balanced budgets.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says she is raising her grandson after caring for her adult son following a traumatic brain injury until his death in 2023.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lowering costs for families, including healthcare, prescription drug, housing, and insurance costs.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Protecting access to healthcare and strengthening Social Security and Medicare, and supporting caregivers.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Restoring trust in government through transparency and accountability.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will protect access to healthcare and strengthen Social Security and Medicare.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://kimberlyoverman.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "branden-scrivener",
+      "name": "Branden Scrivener",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Branden Scrivener is running with no party affiliation for Florida's 12th Congressional District in the November 3, 2026 general election.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Ballotpedia biography page, campaign website, or completed Candidate Connection survey was found for Scrivener in the time available."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+      "title": "United States House of Representatives elections in Florida, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Gus_Bilirakis",
+      "title": "Gus Bilirakis",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Kimberly_Overman",
+      "title": "Kimberly Overman",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://bilirakis.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Gus Bilirakis",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://bilirakis.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Gus Bilirakis",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://bilirakis.house.gov/issues/economic-policy",
+      "title": "Economic Policy",
+      "publisher": "Office of Rep. Gus Bilirakis",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://bilirakis.house.gov/issues/environment-energy-production-and-infrastructure",
+      "title": "Environment, Energy Production, and Infrastructure",
+      "publisher": "Office of Rep. Gus Bilirakis",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No public record found for no-party-affiliation candidate Branden Scrivener beyond his ballot status."
+}

@@ -1,0 +1,109 @@
+{
+  "id": "us-house-tx-36",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "36",
+  "title": "U.S. House · Texas's 36th District",
+  "area": "An East Texas district covering areas east and northeast of Houston, including Deer Park, Lumberton, and Woodville.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Rep. Brian Babin is the incumbent under Texas's 2026 congressional map. Rhonda Hart won the Democratic nomination.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "brian-babin",
+      "name": "Brian Babin",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2015); chair, House Committee on Science, Space, and Technology",
+      "summary": {
+        "text": "Brian Babin is the incumbent U.S. Representative for the 36th District, a dentist and U.S. Air Force veteran who chairs the House Committee on Science, Space, and Technology in the 2025-2026 Congress.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Served as a captain in the U.S. Air Force from 1975 to 1979 while earning a B.S. in biology from Lamar University.", "sources": ["s2"] },
+        { "text": "Earned a D.D.S. from the University of Texas dental school in 1976 and practiced dentistry.", "sources": ["s2"] },
+        { "text": "Served in local government in Woodville, Texas, as an alderman, mayor, and school board member before his 2014 election to Congress.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Chairs the House Committee on Science, Space, and Technology, which oversees NASA and federal research policy.", "sources": ["s2"] }
+      ],
+      "positions": [],
+      "record": [
+        { "text": "Chairs the House Committee on Science, Space, and Technology in the 2025-2026 (119th) Congress, having previously chaired its Space and Aeronautics Subcommittee.", "kind": "action", "sources": ["s2"] },
+        { "text": "Also serves on the House Committee on Transportation and Infrastructure, including its Highways and Transit and Water Resources and Environment subcommittees.", "kind": "action", "sources": ["s2"] }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "rhonda-hart",
+      "name": "Rhonda Hart",
+      "parties": ["D"],
+      "incumbent": false,
+      "currentRole": "U.S. Army veteran; gun-safety advocate",
+      "summary": {
+        "text": "Rhonda Hart is a U.S. Army veteran and gun-safety advocate whose 14-year-old daughter was killed in a school shooting; she has advocated for safer gun-storage laws and now runs for Congress on gun safety, veterans, and reproductive-rights issues.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Served in the U.S. Army from 2000 to 2003.", "sources": ["s3"] },
+        { "text": "Earned an associate degree from the University of Alaska Southeast in 2009.", "sources": ["s3"] },
+        { "text": "Her 14-year-old daughter was killed in a school shooting; she says she has spent six years advocating for safer gun-storage laws and helped pass the federal Bipartisan Safer Communities Act and a Texas gun-storage law, SB 435.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Advocates for stronger gun-storage laws, citing the loss of her daughter to gun violence.", "quote": "We all know that gun violence is preventable. That’s why I’ve spent the last six years fighting for safer gun storage laws, and it’s why I’ll keep fighting for common sense gun laws in Congress.", "sources": ["s3"] },
+        { "text": "Supports improved veteran access to doctors, medical facilities, pensions, and long-term benefits.", "sources": ["s3"] },
+        { "text": "Supports codifying Roe v. Wade into federal law.", "quote": "In Congress, I’ll fight to defend a woman’s right to choose and work to pass federal laws to codify Roe v. Wade.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports stricter gun-storage laws and says she helped pass the federal Bipartisan Safer Communities Act and a Texas gun-storage law.",
+          "quote": "I’ve spent the last six years fighting for safer gun storage laws",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supports federal legislation to codify Roe v. Wade and defend abortion access.",
+          "quote": "I believe that all women deserve the right to make their own healthcare decisions. In Congress, I’ll fight to defend a woman’s right to choose and work to pass federal laws to codify Roe v. Wade.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Brian_Babin",
+      "title": "Brian Babin",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Rhonda_Hart",
+      "title": "Rhonda Hart",
+      "publisher": "Ballotpedia (quoting Hart's campaign website and Candidate Connection survey)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Babin's official House issues page (babin.house.gov/issues) lists issue-area headings but loads its text content via JavaScript that could not be retrieved through curl; his priorities/positions here rely on his committee record from Ballotpedia rather than statements of specific policy positions."
+}

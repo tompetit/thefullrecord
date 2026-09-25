@@ -1,0 +1,285 @@
+{
+  "id": "us-house-md-5",
+  "state": "MD",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · Maryland's 5th District",
+  "area": "Southern Maryland and parts of Prince George's and Anne Arundel counties, including Waldorf, La Plata and Lexington Park.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Open seat: incumbent Steny Hoyer did not seek re-election. Adrian Boafo, a Maryland delegate, won a crowded 24-candidate Democratic primary. Chris Chaffee won the Republican primary over Bryan Duval Cubero and Michelle Talkington. Mildred Hall is also on the general-election ballot as a write-in candidate.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Maryland,_2026",
+      "title": "United States House of Representatives elections in Maryland, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Adrian_Boafo",
+      "title": "Adrian Boafo",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Adrian_Boafo",
+      "title": "Adrian Boafo campaign website statement",
+      "publisher": "Adrian Boafo campaign website, via Ballotpedia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Chris_Chaffee",
+      "title": "Chris Chaffee",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Chris_Chaffee",
+      "title": "Interview with The Baltimore Sun",
+      "publisher": "The Baltimore Sun, via Ballotpedia",
+      "kind": "news",
+      "date": "2024-03-05"
+    },
+    {
+      "id": "s6",
+      "url": "https://mgaleg.maryland.gov/2023RS/votes/house/0876.pdf",
+      "title": "Maryland House of Delegates vote, SB 555 (2023) Fair Wage Act of 2023 — Third Reading",
+      "publisher": "Maryland General Assembly",
+      "kind": "official",
+      "date": "2023-04-04"
+    },
+    {
+      "id": "s7",
+      "url": "https://mgaleg.maryland.gov/2023RS/votes/house/1259.pdf",
+      "title": "Maryland House of Delegates vote, SB 1 (2023) Gun Safety Act of 2023 — Third Reading",
+      "publisher": "Maryland General Assembly",
+      "kind": "official",
+      "date": "2023-04-10"
+    },
+    {
+      "id": "s8",
+      "url": "https://mgaleg.maryland.gov/2025RS/votes/house/1312.pdf",
+      "title": "Maryland House of Delegates vote, HB 352 (2025) Budget Reconciliation and Financing Act of 2025 — Third Reading and Final Passage",
+      "publisher": "Maryland General Assembly",
+      "kind": "official",
+      "date": "2025-04-07"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "adrian-boafo",
+      "name": "Adrian Boafo",
+      "parties": [
+        "D"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the June 23, 2026 Democratic primary in a field of more than 20 candidates.",
+      "currentRole": "Member, Maryland House of Delegates",
+      "summary": {
+        "text": "Adrian Boafo is the Democratic nominee for the open Maryland 5th Congressional District seat. He is a member of the Maryland House of Delegates and a former campaign manager and field director for outgoing Rep. Steny Hoyer.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in Arlington, Virginia; earned a B.A. in government and public policy from the University of Baltimore in 2016 and an M.B.A. from American University in 2019.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked as senior director of government affairs with Oracle Corporation and as campaign manager and field director for Steny Hoyer.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Serves on the Maryland House of Delegates Economic Matters Committee.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Affordability, including raising the federal minimum wage, cutting taxes for working families, and expanding the Child Tax Credit and Earned Income Tax Credit.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Guaranteeing universal childcare so parents do not have to choose between work and caring for their children.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Democracy and civil rights, including overturning Citizens United and passing the Equality Act and John Lewis Voting Rights Advancement Act.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Voted yes on SB 555, the Fair Wage Act of 2023, which accelerated Maryland's minimum wage to $15 an hour.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "supports",
+            "summary": "Wants to raise the federal minimum wage from $7.25 to $15 an hour and tie it to inflation, citing his work leading a three-year effort to raise Maryland's minimum wage.",
+            "sources": [
+              "s3"
+            ]
+          }
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Says he will guarantee universal childcare so no parent has to choose between earning a paycheck and caring for their child.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Voted yes on HB 352, the Budget Reconciliation and Financing Act of 2025, which created new state income-tax brackets and a capital-gains surtax on high earners.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "supports",
+            "summary": "Says he will cut taxes for working and middle-class families while closing loopholes that let large corporations and wealthy individuals avoid paying what he calls their fair share.",
+            "sources": [
+              "s3"
+            ]
+          }
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Voted yes on SB 1, the Gun Safety Act of 2023, which restricted where firearms may be carried and created new sensitive-location restrictions.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "supports",
+            "summary": "Says he will advance gun safety reforms to protect schools and children and invest in mental health services.",
+            "sources": [
+              "s3"
+            ]
+          }
+        }
+      ],
+      "record": [
+        {
+          "text": "Led a three-year effort in the Maryland legislature to raise the state minimum wage and tie future increases to inflation.",
+          "kind": "bill",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Co-sponsored the Protection from Predatory Pricing Act of 2026 in the Maryland legislature.",
+          "kind": "bill",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Voted yes on SB 555 (Fair Wage Act of 2023, accelerating Maryland's minimum wage to $15 an hour), which passed the House of Delegates 102-38 on April 4, 2023.",
+          "date": "2023-04-04",
+          "kind": "vote",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Voted yes on SB 1 (Gun Safety Act of 2023, restricting where firearms may be carried and creating new sensitive-location restrictions), which passed the House of Delegates 93-42 on April 10, 2023.",
+          "date": "2023-04-10",
+          "kind": "vote",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Voted yes on HB 352 (Budget Reconciliation and Financing Act of 2025, creating new state income-tax brackets and a capital-gains surtax on high earners), which passed the House of Delegates 94-46 on April 7, 2025.",
+          "date": "2025-04-07",
+          "kind": "vote",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "website": "https://www.adrianboafo.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "chris-chaffee",
+      "name": "Chris Chaffee",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the June 23, 2026 Republican primary.",
+      "summary": {
+        "text": "Chris Chaffee is the Republican nominee for the open Maryland 5th Congressional District seat. He is a general contractor and farmer who has run for this seat in previous cycles.",
+        "sources": [
+          "s4",
+          "s5"
+        ]
+      },
+      "background": [
+        {
+          "text": "Studied at Prince George's Community College and the University of Maryland.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Works as a general contractor and farmer.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Said Congress should not act to protect abortion rights following the Supreme Court's 2022 Dobbs decision.",
+          "quote": "No",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

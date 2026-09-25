@@ -1,0 +1,237 @@
+{
+  "id": "us-house-ne-2",
+  "state": "NE",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Nebraska's 2nd District",
+  "area": "Omaha and eastern Sarpy County",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The seat is open because incumbent Rep. Don Bacon (R) did not seek re-election. Brinker Harding was the only candidate to make the Republican primary ballot after Don Bacon and Brett Lindstrom did not enter. Denise Powell won a seven-way Democratic primary with 38.8% of the vote, narrowly ahead of John Cavanaugh (36.4%), with Crystal Rhoades, Kishla Askins and Melanie Williams also running. Cook Political Report's Partisan Voter Index rated the district D+3 based on presidential voting patterns.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "denise-powell",
+      "name": "Denise Powell",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 12, 2026 Democratic primary",
+      "summary": {
+        "text": "Denise Powell is a working mother, small-business owner, and reproductive-rights advocate who has spent roughly a decade organizing on healthcare and public-education issues in Nebraska. She is running on lowering costs, protecting reproductive healthcare, and opposing what she describes as abuses of executive power.",
+        "sources": ["s2", "s3"]
+      },
+      "background": [
+        { "text": "Describes herself as a working mother and small-business owner.", "sources": ["s3"] },
+        { "text": "Says she has spent the past decade advocating in Nebraska for reproductive healthcare access and strong public schools, and has advocated for Nebraska schools for 16 years.", "sources": ["s3"] },
+        { "text": "Says she helped rally physicians and patients against a proposed total abortion ban in Nebraska and collected signatures for a ballot measure to protect abortion access.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Lowering costs for families on groceries, energy, housing and childcare.", "sources": ["s3"] },
+        { "text": "Protecting and expanding access to reproductive healthcare, including abortion, contraception and IVF.", "sources": ["s3"] },
+        { "text": "Protecting Social Security and Medicare, including opposing benefit cuts and raising the retirement age.", "sources": ["s3"] },
+        { "text": "Congressional oversight of the executive branch and ethics reform, including banning congressional stock trading and term limits.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supports restoring nationwide abortion rights and expanding access to contraception and fertility treatments.",
+          "quote": "Protect abortion rights for Nebraska women by fighting to restore Roe v. Wade into law nationwide.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports creating a Medicare-like public option and letting Medicare negotiate more prescription-drug prices.",
+          "quote": "Work to create a Medicare-like public option that gives every American the choice of affordable coverage while protecting private insurance for those who want it.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports universal background checks and red-flag laws.",
+          "quote": "Save lives from gun violence by ensuring universal background checks to prevent convicted felons and gang members from obtaining guns, red flag laws to keep guns out of the hands of domestic abusers, and fund community violence intervention programs.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "mixed",
+          "summary": "Opposes broad tariffs on consumer goods but supports targeted tariffs on specific imports like beef and soybeans to protect farm prices.",
+          "quote": "Stop Trump's illegal tariffs to help bring down the costs of items Nebraska families need every day... Work to use tariffs to protect American farmers by targeting specific imported goods (like beef and soy beans) to boost domestic prices.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports border security investment paired with a bipartisan pathway to citizenship for long-term immigrants and Dreamers.",
+          "quote": "Invest in the people and technology needed to keep our borders safe, while also advocating for common sense, bipartisan immigration reform that provides legal pathways to citizenship for hardworking people.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "brinker-harding",
+      "name": "Brinker Harding",
+      "parties": ["R"],
+      "incumbent": false,
+      "currentRole": "Omaha City Council member, District 6 (since 2017)",
+      "ballotNote": "Won the May 12, 2026 Republican primary",
+      "summary": {
+        "text": "Brinker Harding is an Omaha City Council member since 2017 and former Chief of Staff to Omaha Mayor Hal Daub. He is running on economic growth, reducing federal spending, and border security, citing his record balancing Omaha's city budget.",
+        "sources": ["s4", "s5"]
+      },
+      "background": [
+        { "text": "Has served on the Omaha City Council representing District 6 since 2017; his term runs through 2029.", "sources": ["s4"] },
+        { "text": "Previously served as Chief of Staff to Omaha Mayor Hal Daub.", "sources": ["s5"] },
+        { "text": "Describes himself as a business leader who developed public-private partnerships to grow Omaha's economy.", "sources": ["s5"] }
+      ],
+      "priorities": [
+        { "text": "Making America more affordable by growing the economy, lowering gas and grocery prices, and cutting inflation.", "sources": ["s5"] },
+        { "text": "Congressional accountability: term limits, banning congressional stock trading, and halting congressional pay during government shutdowns.", "sources": ["s5"] },
+        { "text": "Border security, including deporting people in the country illegally who commit violent crimes.", "sources": ["s5"] },
+        { "text": "Reducing federal spending to address the national debt.", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports deporting people who are in the country illegally and have committed violent crimes, and requiring nationwide voter ID.",
+          "quote": "Deport criminal illegal immigrants who commit violent crimes. Pass nationwide Voter ID to ensure only American citizens can vote.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "Says he would work to lower prescription-drug prices while protecting Social Security, Medicaid and Medicare for seniors and people with disabilities.",
+          "quote": "Take on Big Pharma and Big Insurance to guarantee Americans pay the same low prices for prescription drugs as other developed countries... Protect critical programs like Social Security, Medicaid, and Medicare for single moms, veterans, the elderly, and disabled.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he supported a record pay raise for Omaha police officers on the City Council and cites Omaha's falling violent-crime rate as a result.",
+          "quote": "In Omaha, we didn't defund the police. We gave our heroes the record pay raise they deserve. As a result, we have driven Omaha's violent crime rate to 40-year lows.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Focuses on cutting taxes generally rather than raising them on high earners, citing his record lowering Omaha's property tax levy.",
+          "quote": "In Congress, I will fight to cut your taxes, bring down gas & grocery prices, lower interest rates, create good-paying jobs.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Says he has balanced Omaha's city budget every year while on the City Council.",
+          "kind": "action",
+          "sources": ["s5"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "eric-michael-foreman",
+      "name": "Eric Michael Foreman",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "summary": {
+        "text": "Eric Michael Foreman is a Libertarian Party candidate who describes himself as a blue-collar worker and not a career politician. His campaign centers on ending U.S. involvement in foreign wars, cutting taxes for people earning under $200,000, and opposing what he calls government overreach.",
+        "sources": ["s6", "s7"]
+      },
+      "background": [
+        { "text": "Describes himself as a blue-collar worker who has \"worked honest jobs\" and is not a career politician.", "sources": ["s7"] }
+      ],
+      "priorities": [
+        { "text": "Ending U.S. financial commitments to foreign wars.", "sources": ["s7"] },
+        { "text": "Lower taxes for people earning under $200,000 a year, and exempting a paid-off primary home from taxation.", "sources": ["s7"] },
+        { "text": "Protecting constitutional rights, including the right to self-defense and free speech.", "sources": ["s7"] }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "mixed",
+          "summary": "Supports lower taxes specifically for people earning under $200,000 a year rather than broad tax increases on high earners.",
+          "quote": "Lower taxes for the Lower 85% of Americans that make less than 200k a year, cut the waste, prosecute the fraud, and let hardworking Nebraskans keep more of what they earn.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Opposes new restrictions on the right to self-defense.",
+          "quote": "Liberty first. Protect the Constitution, Your right to Self defense, free speech, and the right to live free from government meddling in our lives, faith, and families.",
+          "sources": ["s7"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Nebraska,_2026",
+      "title": "United States House of Representatives elections in Nebraska, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Denise_Powell",
+      "title": "Denise Powell",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Denise_Powell",
+      "title": "Denise Powell's 2026 campaign website, quoted verbatim",
+      "publisher": "Denise Powell 2026 campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Brinker_Harding",
+      "title": "Brinker Harding",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Brinker_Harding",
+      "title": "Brinker Harding's 2026 campaign website, quoted verbatim",
+      "publisher": "Brinker Harding 2026 campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Eric_Michael_Foreman",
+      "title": "Eric Michael Foreman",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Eric_Michael_Foreman",
+      "title": "Eric Michael Foreman's Ballotpedia Candidate Connection survey responses",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Powell's and Harding's positions are drawn from campaign-website text as quoted verbatim on their Ballotpedia profiles; the underlying campaign sites could not be reached directly in this environment. Foreman's positions are from his Ballotpedia Candidate Connection survey."
+}

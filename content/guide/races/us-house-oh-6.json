@@ -1,0 +1,126 @@
+{
+  "id": "us-house-oh-6",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "6",
+  "title": "U.S. House · Ohio's 6th District",
+  "area": "Eastern Ohio, including the Mahoning Valley and Ohio River counties",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Cook Political Report rates the 6th District R+17, a safely Republican-leaning seat.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "michael-rulli",
+      "name": "Michael Rulli",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Incumbent; defeated Jullie Kelley in the May 5, 2026 Republican primary",
+      "currentRole": "U.S. Representative (since 2024)",
+      "summary": {
+        "text": "Rulli is the incumbent U.S. Representative for Ohio's 6th District, elected in a 2024 special election. He previously served in the Ohio State Senate and as a Leetonia, Ohio school board member.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Mahoning County, Ohio; graduated from Poland Seminary High School and earned a degree from Emerson College.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as director of operations with Rulli Bros. Markets; served as a Leetonia, Ohio school board member and in the Ohio State Senate before being elected to Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Energy and Commerce (Health; Oversight and Investigations; Energy subcommittees) in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "R000619"
+    },
+    {
+      "id": "elizabeth-kirtley",
+      "name": "Elizabeth Kirtley",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 5, 2026 Democratic primary in a six-candidate field",
+      "summary": {
+        "text": "Kirtley is the Democratic nominee, running on a platform centered on due process, abolishing ICE, codifying Roe v. Wade, and protecting constitutional rights.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "Campaign website calls to 'Abolish Ice,' saying due process 'is a right; not a privilege' and that constitutional freedoms of speech, assembly, and religion should not be prohibited.",
+          "quote": "Due Process is a right; not a privilege.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign website calls for codifying Roe v. Wade, saying abortion access is a matter between a woman, her doctor, and her God.",
+          "quote": "Life, Liberty, and the Pursuit of Happiness includes a Woman's Right to Choose.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign website calls for fair and safe voting in which every American has one equal vote, and for accountability from national news organizations.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign website calls for codifying Roe v. Wade to protect abortion access.",
+          "quote": "Life, Liberty, and the Pursuit of Happiness includes a Woman's Right to Choose.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign website calls to abolish ICE and emphasizes due-process rights.",
+          "quote": "Due Process is a right; not a privilege.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+      "title": "United States House of Representatives elections in Ohio, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Michael_Rulli",
+      "title": "Michael Rulli",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Elizabeth_Kirtley",
+      "title": "Elizabeth Kirtley",
+      "publisher": "Ballotpedia (candidate campaign website, as quoted)",
+      "kind": "candidate",
+      "date": "2026-05-01"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC totals for Rulli are added separately by script. No independent biography was available for Kirtley beyond her campaign website's issue statements quoted by Ballotpedia."
+}

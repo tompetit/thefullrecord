@@ -1,0 +1,172 @@
+{
+  "id": "us-house-il-17",
+  "state": "IL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "17",
+  "title": "U.S. House · Illinois's 17th District",
+  "area": "Northwestern Illinois, including Rockford, the Quad Cities (Moline/Rock Island), and Peoria-area suburbs.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Eric Sorensen ran unopposed in the March 17, 2026 Democratic primary. Dillan Vancil defeated Julie Bickelhaupt in the Republican primary, 58.4% to 41.6%.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "eric-sorensen",
+      "name": "Eric Sorensen",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the March 17, 2026 Democratic primary unopposed",
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Eric Sorensen is the Democratic U.S. Representative for Illinois's 17th District, first elected in 2022. He worked as a television meteorologist before entering politics.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Rockford, Illinois; earned a bachelor's degree from Northern Illinois University in 1999.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as a meteorologist and served on the boards of Clock, Inc. and the Project of the Quad Cities.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "My top priority is addressing rising costs that are hurting Illinoisans from the grocery store to the gas pump. I'm also committed to bringing down out-of-control drug prices, especially for our seniors.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "I believe everyone has the right to be healthy, which is why I'm working in Congress to make health care more affordable, accessible, and efficient.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "We need to find ways to protect our homes and farms from draughts, floods, and other adverse weather events while investing in clean power sources that will create sustainable, good-paying jobs right here in our district.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says reproductive health care decisions should be made between a patient and their doctor, not lawmakers, and that he will work to remove barriers to reproductive care.",
+          "quote": "I believe that reproductive health care decisions should be made between an individual and their doctor – not lawmakers. ... I will continue to work in Congress to break down barriers to accessing reproductive care, not building them.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says the climate is changing and calls for investing in clean power sources while protecting communities from severe-weather damage.",
+          "quote": "We need to find ways to protect our homes and farms from draughts, floods, and other adverse weather events while investing in clean power sources that will create sustainable, good-paying jobs right here in our district.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he is working to invest more into local law enforcement agencies to support training, recruitment, and retention.",
+          "quote": "As your Representative, I am taking strides to invest more into local law enforcement agencies to support their training needs, help them better retain and recruit officers, and build better relationships with the communities they serve.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he wants to protect and expand the Affordable Care Act to cover preexisting conditions and let Medicare negotiate prescription drug prices.",
+          "quote": "I believe we need to protect and expand the Affordable Care Act (ACA) to ensure preexisting conditions are covered. I also support solutions that bring down the cost of prescription drugs, like allowing Medicare to negotiate with pharmaceutical companies.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [
+        {
+          "text": "In the 119th Congress (2025-2026), serves on the Committee on Agriculture (General Farm Commodities, Risk Management and Credit; Conservation, Research and Biotechnology) and the House Committee on Armed Services (Readiness; Tactical Air and Land Forces).",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "researchDepth": "full",
+      "bioguideId": "S001225"
+    },
+    {
+      "id": "dillan-vancil",
+      "name": "Dillan Vancil",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the March 17, 2026 Republican primary with 58.4% of the vote",
+      "summary": {
+        "text": "Dillan Vancil is the Republican nominee for Illinois's 17th Congressional District. He is a small business owner, railroad worker, and school board member.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Illinois.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Career experience as a small business owner and railroad worker; served as a member of the West Central School Board.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Eric_Sorensen",
+      "title": "Eric Sorensen",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Dillan_Vancil_(Illinois)",
+      "title": "Dillan Vancil (Illinois)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://sorensen.house.gov/issues/reproductive-rights",
+      "title": "Reproductive Rights",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://sorensen.house.gov/issues/energy-and-environment",
+      "title": "Energy and the Environment",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://sorensen.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://sorensen.house.gov/issues/jobs-small-business-and-economy",
+      "title": "Jobs, Small Business, and the Economy",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://sorensen.house.gov/issues/public-safety",
+      "title": "Public Safety",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Sorensen's positions and priorities are drawn from his official House issues pages. No campaign website or citable public statements were found for Dillan Vancil beyond basic biographical facts."
+}

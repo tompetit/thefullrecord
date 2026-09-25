@@ -1,0 +1,110 @@
+{
+  "id": "us-house-wa-2",
+  "state": "WA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Washington's 2nd District",
+  "area": "Northwest Washington, including Whatcom, Skagit, Island and San Juan counties, and part of Snohomish County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Rick Larsen and Edwin Feller advanced from the August 4, 2026 top-two primary, defeating two other Democratic candidates. Larsen won the primary with 44.9% of the vote to Feller's 32.9%.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "rick-larsen",
+      "name": "Rick Larsen",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the August 4 top-two primary with 44.9% of the vote",
+      "currentRole": "U.S. Representative (since 2001)",
+      "summary": {
+        "text": "Rick Larsen is the incumbent Democratic U.S. Representative for Washington's 2nd District, first elected in 2000. He serves on the House Committee on Transportation and Infrastructure, including its Aviation and Coast Guard/Maritime Transportation subcommittees.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Arlington, Washington, in 1965. Earned a bachelor's degree from Pacific Lutheran University in 1983 and a master's degree in public affairs from the University of Minnesota in 1990.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as director of public affairs for the Washington State Dental Association and as an economic development official with the Port of Everett before serving on the Snohomish County Council.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Sits on the House Committee on Transportation and Infrastructure for the 2025-2026 Congress, including the Aviation, Coast Guard and Maritime Transportation, Highways and Transit, and Water Resources and Environment subcommittees.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://larsen.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "L000560"
+    },
+    {
+      "id": "edwin-feller",
+      "name": "Edwin Feller",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the August 4 top-two primary with 32.9% of the vote",
+      "summary": {
+        "text": "Edwin Feller is a Republican candidate for Washington's 2nd District who has not completed Ballotpedia's Candidate Connection survey. His campaign website lists positions on public safety, energy, and immigration policy.",
+        "sources": ["s2"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "Feller's campaign platform calls for a federal \"Safe Streets\" mandate tying grants to local cooperation, designating cartels as foreign terrorist organizations, and ending sanctuary policies.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Calls for dismantling current environmental mandates, streamlining energy permits, expanding nuclear and hydroelectric capacity, and repealing federal carbon taxes.",
+          "quote": "Dismantling radical environmental mandates, streamlining energy permits, expanding nuclear and hydroelectric capacity, and repealing federal carbon taxes to deliver affordable, reliable American-made energy.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports a federal Safe Streets mandate tying grants to local cooperation with immigration enforcement and ending sanctuary policies.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Campaign platform calls for repealing federal carbon taxes, dismantling current environmental mandates, and expanding nuclear and hydroelectric energy capacity.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Rick_Larsen_(Washington)",
+      "title": "Rick Larsen (Washington)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Edwin_Feller",
+      "title": "Edwin Feller",
+      "publisher": "Ballotpedia (quoting Edwin Feller's campaign website, July 20, 2026)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Larsen's Ballotpedia page had no 2026 campaign-themes section and his official site was not fetched in this pass, so his priorities/positions are limited to committee assignments. Feller has not completed a Candidate Connection survey and has little public footprint beyond his campaign website's issue list; researchDepth is minimal for him."
+}

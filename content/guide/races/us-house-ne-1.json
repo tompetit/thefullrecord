@@ -1,0 +1,267 @@
+{
+  "id": "us-house-ne-1",
+  "state": "NE",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Nebraska's 1st District",
+  "area": "Lincoln and southeast Nebraska, including Norfolk and Columbus",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Mike Flood (R) advanced from the Republican primary unopposed. Christopher Backemeyer defeated Eric Moyer 57.6% to 42.4% in the Democratic primary. The Cook Political Report rated Nebraska's 1st District R+6 based on presidential voting patterns.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "mike-flood",
+      "name": "Mike Flood",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2022)",
+      "summary": {
+        "text": "Mike Flood is the Republican incumbent seeking a third full term. A Norfolk attorney, he previously served in the Nebraska Legislature and as its Speaker before winning a 2022 special election to the U.S. House. His campaign emphasizes opposition to abortion, border security, and reducing federal spending.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Graduated from Norfolk Catholic High School (1993), earned a bachelor's degree from the University of Notre Dame (1997), and a law degree from the University of Nebraska (2001).", "sources": ["s2"] },
+        { "text": "Practices as an attorney.", "sources": ["s2"] },
+        { "text": "Served in the Nebraska State Senate representing District 19 from 2005 to 2013 and again from 2021 to 2022.", "sources": ["s2"] },
+        { "text": "Won a 2022 special election to the U.S. House to fill the seat vacated by Jeff Fortenberry, and has served since.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Opposition to abortion, including working to ban abortion and expand prohibitions on taxpayer funding for it.", "sources": ["s3"] },
+        { "text": "Border security, including completing a border wall and expanding funding for Customs and Border Protection and ICE.", "sources": ["s3"] },
+        { "text": "Support for domestic energy production, including ethanol, coal and natural gas.", "sources": ["s3"] },
+        { "text": "Opposition to federal COVID-19 mandates, including vaccine and mask mandates.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Opposes legal abortion access and taxpayer funding for abortion.",
+          "quote": "I'll work to ban abortions and expand prohibitions on taxpayer subsidies for abortion. Our tax dollars should never be used to subsidize abortions.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports completing a border wall, expanding CBP/ICE funding, and opposes any pathway to citizenship for people in the country illegally.",
+          "quote": "We must complete President Trump's border wall, expand funding for Customs and Border Protection and ICE, and close loopholes in our immigration laws. I oppose amnesty and any pathway to citizenship for illegal immigrants.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Opposes new restrictions on gun rights, describing the right to keep and bear arms as a fundamental liberty.",
+          "quote": "I will oppose any attempt to infringe on Americans' fundamental liberties, including our freedoms of speech and religion and our sacred right to keep and bear arms.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Opposes policies aimed at speeding a transition away from fossil fuels, favoring an \"all-of-the-above\" energy approach including coal and natural gas.",
+          "quote": "We must support energy exploration and the use of reliable, affordable energy sources like ethanol, coal, and natural gas. Only an all-of-the-above approach will ensure Americans secure access to affordable energy for our vehicles, homes, and businesses. I oppose the Green New Deal, mileage taxes, carbon taxes...",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Served on the House Committee on Financial Services (Subcommittees on Digital Assets, Financial Technology and Inclusion, and Housing and Insurance) in the 118th Congress (2023-2024).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Co-sponsored the Ratepayer Protection Act, which passed the House in September 2026 and is intended to prevent data-center energy costs from being passed on to consumers.",
+          "kind": "bill",
+          "sources": ["s4"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "F000474"
+    },
+    {
+      "id": "christopher-backemeyer",
+      "name": "Christopher Backemeyer",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 12, 2026 Democratic primary",
+      "summary": {
+        "text": "Christopher Backemeyer is a fifth-generation Nebraskan who spent more than two decades in national-security and foreign-policy roles at the State Department, the White House National Security Council, and the Office of the Vice President. He is running on lowering costs, congressional ethics reform, and oversight of the Trump administration.",
+        "sources": ["s5", "s6"]
+      },
+      "background": [
+        { "text": "Describes himself as a fifth-generation Nebraskan.", "sources": ["s6"] },
+        { "text": "Served more than two decades in senior national-security and economic-policy roles at the U.S. State Department, the White House National Security Council, and the Office of the Vice President.", "sources": ["s6"] }
+      ],
+      "priorities": [
+        { "text": "Lowering costs for families on housing, energy, groceries and child care, including ending tariffs and expanding the Child Tax Credit.", "sources": ["s6"] },
+        { "text": "Congressional oversight of the executive branch, including investigations and hearings.", "sources": ["s6"] },
+        { "text": "Ethics reform: banning stock trading by members of Congress, enacting term limits, and overturning Citizens United.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports rebalancing the tax code so billionaires and corporations pay a larger share.",
+          "quote": "Rebalance the tax code so that billionaires and corporations pay their fair share.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports a public health-insurance option, lowering the Medicare eligibility age to 60, and extending ACA premium tax credits.",
+          "quote": "Enact a true public option to guarantee universal coverage and force insurance companies to compete by offering lower prices and better coverage... Lower the Medicare eligibility age to 60.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supports protecting abortion access in Nebraska and nationwide.",
+          "quote": "Protect a woman's right to choose in Nebraska and nationwide.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Opposes broad tariffs, saying they have raised costs for farmers and consumers.",
+          "quote": "Roll back tariffs that are hurting Nebraska's farmers and driving up costs for producers and consumers.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports strong border security paired with a pathway to citizenship, and would cut what he calls excess ICE detention funding.",
+          "quote": "Claw back nearly $75 billion in excess funding from Immigration and Customs Enforcement (ICE) and prohibit the use of any federal funds to detain children... Ensure strong security at the southern border while enforcing immigration laws in ways that reflect our values.",
+          "sources": ["s7"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "dan-hartong",
+      "name": "Dan Hartong",
+      "parties": ["America First Party Nebraska"],
+      "incumbent": false,
+      "summary": {
+        "text": "Dan Hartong is running on the America First Party Nebraska line in the Nov. 3, 2026 general election for Nebraska's 1st Congressional District. No campaign website, candidate survey responses, or other public statements were found.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "nik-sandman",
+      "name": "Nik Sandman",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "summary": {
+        "text": "Nik Sandman is a retired farmer and rural mail carrier from Wauneta running as the Libertarian nominee. A registered Democrat until two years before his 2026 run, he says the country needs \"redirection\" and supports extending Medicare to all Americans and rethinking farm subsidies.",
+        "sources": ["s8", "s9"]
+      },
+      "background": [
+        { "text": "Graduated from Wauneta High School in 1967 and earned a bachelor's degree in philosophy from the University of Nebraska in 1979.", "sources": ["s8", "s9"] },
+        { "text": "Worked as a wheat, milo and melon farmer for 26 years and as a rural mail carrier for 15 years.", "sources": ["s9"] },
+        { "text": "Says he was a lifelong Democrat until switching to the Libertarian Party about two years before running.", "sources": ["s9"] }
+      ],
+      "priorities": [
+        { "text": "Overhauling the farm subsidy program so farmers are paid a fair market price for their products.", "sources": ["s9"] },
+        { "text": "Extending Medicare to all Americans equitably.", "sources": ["s9"] },
+        { "text": "Protecting First Amendment rights.", "sources": ["s9"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports extending Medicare coverage to all Americans.",
+          "quote": "I favor extending medicare to all Americans in a way that preserves our freedom. That is, equally to all.",
+          "sources": ["s9"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Nebraska,_2026",
+      "title": "United States House of Representatives elections in Nebraska, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Mike_Flood",
+      "title": "Mike Flood",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Mike_Flood",
+      "title": "Mike Flood's 2022 campaign website, quoted verbatim",
+      "publisher": "Mike Flood campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2022-01-01"
+    },
+    {
+      "id": "s4",
+      "url": "https://flood.house.gov/media/press-releases/congressman-flood-celebrates-house-passage-ratepayer-protection-act",
+      "title": "Congressman Flood Celebrates House Passage of the Ratepayer Protection Act",
+      "publisher": "Office of Rep. Mike Flood",
+      "kind": "official",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Christopher_Backemeyer",
+      "title": "Christopher Backemeyer",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Christopher_Backemeyer",
+      "title": "Christopher Backemeyer's Ballotpedia Candidate Connection survey responses",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Christopher_Backemeyer",
+      "title": "Christopher Backemeyer's 2026 campaign website, quoted verbatim",
+      "publisher": "Christopher Backemeyer 2026 campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2026-04-28"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Nik_Sandman",
+      "title": "Nik Sandman",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Nik_Sandman",
+      "title": "Nik Sandman's Ballotpedia Candidate Connection survey responses",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Flood's quoted campaign-website positions are from an older (2022) version of his Ballotpedia profile, the only one available; his current campaign website could not be reached directly in this environment. No public statements or campaign website were found for Dan Hartong beyond his appearing on the ballot."
+}

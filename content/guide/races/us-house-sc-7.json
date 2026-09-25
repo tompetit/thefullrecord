@@ -1,0 +1,137 @@
+{
+  "id": "us-house-sc-7",
+  "state": "SC",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "7",
+  "title": "U.S. House · South Carolina's 7th District",
+  "area": "South Carolina's 7th Congressional District (Myrtle Beach/Pee Dee region)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both major-party primaries were canceled after only one candidate filed in each: incumbent Russell Fry (R) and John Vincent (D) each advanced without a primary contest.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "russell-fry",
+      "name": "Russell Fry",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced without a primary after the Republican primary was canceled",
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Russell Fry is the incumbent U.S. Representative for South Carolina's 7th District, seeking re-election.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Surfside Beach, SC; lives in Murrells Inlet, SC. Earned a B.A. in political science from the University of South Carolina (2007) and a J.D. from Charleston School of Law (2011).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an attorney with Coastal Law, LLC before being elected to Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Energy and Commerce (Energy; Commerce, Manufacturing, and Trade; Communications and Technology subcommittees) and the House Judiciary Committee (Immigration Integrity, Security, and Enforcement; Courts, Intellectual Property, and the Internet subcommittees), per his official House website (119th Congress, 2025-2026).",
+          "kind": "action",
+          "sources": ["s4"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Ballotpedia's profile for Fry lists only 2023-2024 committee assignments (Judiciary and Oversight and Government Reform); his official House website shows different, current 2025-2026 assignments (Energy and Commerce and Judiciary), used instead. No current-cycle stated positions were located within the research budget. Key floor votes and FEC totals are added separately by script.",
+      "bioguideId": "F000478"
+    },
+    {
+      "id": "john-vincent",
+      "name": "John Vincent",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced without a primary after the Democratic primary was canceled",
+      "summary": {
+        "text": "John Vincent is a retired U.S. Navy Command Master Chief and small business owner running as the Democratic nominee for South Carolina's 7th Congressional District.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Arkansas. Served in the U.S. Navy for 20 years, retiring as a Command Master Chief. Earned a degree from the University of Arkansas at Grantham.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Built and ran a small business after retiring from the Navy.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Fighting wasteful federal spending while protecting vital programs, and supporting increased border security alongside what he calls a fair immigration system.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Championing tax relief for working families, job creation through community-college partnerships, cutting red tape for small businesses, and making healthcare more affordable.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "As a Navy veteran, improving VA healthcare, expanding veterans' housing programs, and enhancing education and job-training benefits for veterans.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports increased border security paired with what he describes as a fair immigration system.",
+          "quote": "support increased border security alongside a fair immigration system",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he will work to make healthcare more affordable and improve VA healthcare for veterans.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/South_Carolina%27s_7th_Congressional_District_election,_2026",
+      "title": "South Carolina's 7th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Russell_Fry",
+      "title": "Russell Fry",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/John_Vincent_(South_Carolina)",
+      "title": "John Vincent (South Carolina)",
+      "publisher": "Ballotpedia (Candidate Connection survey)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://fry.house.gov/about/committees-and-caucuses.htm",
+      "title": "Committees and Caucuses",
+      "publisher": "Office of Rep. Russell Fry, U.S. House",
+      "kind": "official"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. A Republican write-in candidate (Branden Brown) appears on Ballotpedia's general-election list but is not included as a full entry; per the research division of labor, Fry's federal key floor votes and FEC totals are left for later automated addition."
+}

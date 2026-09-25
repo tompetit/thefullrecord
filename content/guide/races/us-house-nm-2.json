@@ -1,0 +1,135 @@
+{
+  "id": "us-house-nm-2",
+  "state": "NM",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · New Mexico's 2nd District",
+  "area": "Southern New Mexico, including Las Cruces and the state's border region with Mexico.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Ballotpedia identifies this as a battleground race. Incumbent Rep. Gabriel Vasquez (D) defeated then-incumbent Yvette Herrell (R) 50.3%-49.6% in 2022 and 52.1%-47.9% in 2024; in the 2024 presidential race, Donald Trump carried the district 49.9%-48.1%, making it one of 23 U.S. House districts Democrats are defending that Trump won in 2024. As of July 2026, major election forecasters rated the general election Lean Democratic or Tilt Democratic. As of June 30, 2026, Vasquez had raised $3.78 million in the cycle and Republican nominee Greg Cunningham had raised $1.51 million.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "gabriel-vasquez",
+      "name": "Gabriel Vasquez",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 2, 2026 Democratic primary unopposed after fellow Democrat Tom Wakely did not make the ballot.",
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Gabriel Vasquez is the Democratic incumbent for New Mexico's 2nd Congressional District, first elected in 2022 after previously serving on the Las Cruces City Council. He describes his focus as lowering the cost of living, expanding health care access, protecting public lands, and immigration reform.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in and lives in Las Cruces, New Mexico.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Earned a bachelor's degree in English and journalism from New Mexico State University in 2008.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Career experience includes working as a journalist, in public relations, as executive director of the Hispano Chamber of Commerce de Las Cruces, and as a field representative for U.S. Sen. Martin Heinrich (D-NM).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Las Cruces City Council (District 3) before his 2022 election to Congress.",
+          "sources": ["s1", "s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he works with Democrats, Republicans and independents on issues New Mexicans care most about: lowering the cost of living, expanding access to health care, protecting public lands, and fixing the immigration system.",
+          "quote": "Congressman Vasquez has continued to win over Democrat, Republican and Independent voters because he is willing to work with anyone to deliver results for New Mexicans on the issues they care most about: lowering the cost of living, expanding access to health care, protecting our public lands, and fixing our broken immigration system.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [],
+      "record": [
+        {
+          "text": "In the 119th Congress (2025-2026), serves on the House Committee on Agriculture (Conservation, Research, and Biotechnology subcommittee) and the House Committee on Armed Services (Readiness; Strategic Forces subcommittees).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://vasquez.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "V000136"
+    },
+    {
+      "id": "greg-cunningham",
+      "name": "Greg Cunningham",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the June 2, 2026 Republican primary after Jose Orozco unofficially withdrew.",
+      "summary": {
+        "text": "Greg Cunningham is the Republican nominee for New Mexico's 2nd Congressional District. He is a U.S. Marine Corps veteran, former Albuquerque Police Department officer, and former owner of a private investigations agency, campaigning on border security, energy development, the economy, and public safety.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Is a U.S. Marine Corps veteran.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Is a former member of the Albuquerque Police Department.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Is a former owner of a private investigations agency.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign website lists six priorities: keep the border secure, develop American energy, protect New Mexico's way of life, build a stronger economy, invest in New Mexico's children, and make New Mexico safe.",
+          "quote": "Keep the Border Secure Develop American Energy Protect Our New Mexico Way of Life Build a Stronger Economy Invest in New Mexico Children Make New Mexico Safe",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Lists \"Keep the Border Secure\" as a top campaign priority.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.cunninghamfornm.com/",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Gabriel_Vasquez",
+      "title": "Gabriel Vasquez",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Gabriel_Vasquez",
+      "title": "Gabriel Vasquez - Biography and committee assignments",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Greg_Cunningham",
+      "title": "Greg Cunningham - Campaign website quote",
+      "publisher": "Ballotpedia (quoting Greg Cunningham 2026 campaign website)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Sitting-member key floor votes and FEC finance totals for Vasquez are added separately by script (context above cites Ballotpedia's own fundraising figures as of June 30, 2026 for both candidates, which will be superseded by later FEC data). Cunningham's priorities and immigration_enforcement position are sourced via Ballotpedia's verbatim quotation of his campaign website; his biography (military and police service) was confirmed directly on cunninghamfornm.com."
+}

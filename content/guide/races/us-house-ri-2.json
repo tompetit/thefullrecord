@@ -1,0 +1,180 @@
+{
+  "id": "us-house-ri-2",
+  "state": "RI",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Rhode Island's 2nd District",
+  "area": "Western and southern Rhode Island, including Warwick, Cranston (part), Newport, West Warwick and South County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Seth Magaziner (D) advanced from the Democratic primary unopposed after Spencer Dickinson did not make the ballot. Victor Mellor (R) won the Republican primary over Stephen Skoly. Armando Anzoli (independent) did not make the ballot. Cook Political Report rates this district D+4.",
+      "sources": [
+        "s1"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "seth-magaziner",
+      "name": "Seth Magaziner",
+      "parties": [
+        "D"
+      ],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Seth Magaziner is the Democratic incumbent seeking re-election in Rhode Island's 2nd District. He previously served as Rhode Island's General Treasurer from 2015 to 2023 before his election to Congress.",
+        "sources": [
+          "s2"
+        ]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in history from Brown University (2006) and an MBA from Yale University (2010).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked as vice president of Trillium Asset Management and as an elementary school teacher with the St. Landry Parish School Board.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Served as Rhode Island General Treasurer from 2015 to 2023, succeeding Gina Raimondo.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "For the 2025-2026 Congress, serves on the House Committee on Homeland Security (Subcommittees on Counterterrorism and Intelligence, and Cybersecurity and Infrastructure) and the House Committee on Natural Resources (Subcommittees on Energy and Mineral Resources, and Water, Wildlife and Fisheries).",
+          "date": "2025",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "victor-mellor",
+      "name": "Victor Mellor",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "summary": {
+        "text": "Victor Mellor is the Republican nominee for Rhode Island's 2nd District. He is a U.S. Marine Corps veteran and business owner running on job creation, energy costs, parental rights and healthcare costs.",
+        "sources": [
+          "s3"
+        ]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Marine Corps as a Sergeant and explosives-detection dog handler stationed in Norfolk, Virginia, including duty with the Presidential Helicopter Squadron (HMX-1) and the Fleet Anti-Terrorism Security Team.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Earned a high school diploma from Woonsocket High School; career experience includes business ownership.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Founding member of the Great American Health Alliance (GAHA), working with medical professionals on lowering healthcare costs.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Building a stronger jobs climate in Rhode Island, including manufacturing and boat-building, to reduce graduate outmigration.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Protecting parental authority over children's physical and mental healthcare decisions.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Lowering healthcare costs, including codifying executive orders on Most Favored Nation drug pricing and hospital billing transparency.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Opposes reliance on wind and solar power, calling them unreliable and expensive, and supports restoring fossil fuel production including a new natural gas pipeline.",
+          "quote": "I also support an energy policy that restores reliable fossil fuel production and use. Renewable sources are intermittent and unreliable.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says the Second Amendment must remain strong so every law-abiding citizen can access and use firearms.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he supports continuing to secure and seal the border.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [],
+      "website": "https://www.mellorforcongress.com/",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Rhode_Island,_2026",
+      "title": "United States House of Representatives elections in Rhode Island, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Seth_Magaziner",
+      "title": "Seth Magaziner",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Victor_Mellor",
+      "title": "Victor Mellor",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-08-09"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

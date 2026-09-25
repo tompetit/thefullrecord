@@ -1,0 +1,108 @@
+{
+  "id": "us-house-oh-8",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "8",
+  "title": "U.S. House · Ohio's 8th District",
+  "area": "Western Ohio, including Butler and Miami counties and parts of Hamilton and Clark counties (Hamilton, Fairfield, West Chester Township, Troy).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Warren Davidson (R) advanced unopposed from the May 5, 2026 Republican primary. Vanessa Enoch (D) defeated Madaris Grant in the Democratic primary, 74.5%-25.5%. Enoch previously ran against Davidson in the 2022 and 2024 general elections, losing both.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "warren-davidson",
+      "name": "Warren Davidson",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2016)",
+      "summary": {
+        "text": "Warren Davidson is the Republican incumbent seeking re-election in Ohio's 8th Congressional District, a seat he has held since a 2016 special election. He chairs the House Financial Services Committee and previously served on the Foreign Affairs Committee.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Graduated from Sidney High School in Sidney, Ohio; earned a bachelor's degree from the U.S. Military Academy at West Point and an MBA from the University of Notre Dame.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the U.S. Army from 1988 to 2000, including in the Old Guard, the 75th Ranger Regiment and the 101st Airborne Division.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Succeeded former House Speaker John Boehner in Congress, first winning a June 2016 special election.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Chairs the House Committee on Financial Services in the 119th Congress (2025-2026); also assigned to the Committee on Foreign Affairs.",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Chaired the Financial Services Subcommittee on Housing and Insurance and served as vice chairman of the Subcommittee on Digital Assets, Financial Technology and Inclusion in the 118th Congress (2023-2024).",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://davidson.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "D000626"
+    },
+    {
+      "id": "vanessa-enoch",
+      "name": "Vanessa Enoch",
+      "parties": ["D"],
+      "incumbent": false,
+      "summary": {
+        "text": "Vanessa Enoch is the Democratic nominee challenging incumbent Warren Davidson in Ohio's 8th Congressional District. She is a management and policy consultant based in West Chester, Ohio, and is running for the seat for a fifth time after losing the 2018, 2020, 2022 and 2024 general elections.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Cincinnati, Ohio; earned a bachelor's degree in criminal justice from Ohio State University (1992), an MBA from Xavier University (1999), and a doctorate in public policy from Union Institute & University (2017).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Has worked as a journalist, television reporter, college professor, dean of students, and as president and CEO of Cultural Impact, LLC, a management and policy consulting firm.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves as board president of Vision Works, Inc. and has held board roles with the Black Greeks Speak-Social Justice Organization and Joseph Dream, a race reconciliation and healing organization.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "website": "https://www.enochforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Warren_Davidson",
+      "title": "Warren Davidson",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Vanessa_Enoch",
+      "title": "Vanessa Enoch",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Neither candidate has completed Ballotpedia's 2026 Candidate Connection survey, and Davidson's official House website issues pages and Enoch's campaign site did not yield verbatim, current issue statements at the fetched URLs, so priorities and positions are omitted rather than inferred. Federal key votes and FEC finance totals are added separately."
+}

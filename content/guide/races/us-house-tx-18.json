@@ -1,0 +1,75 @@
+{
+  "id": "us-house-tx-18",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "18",
+  "title": "U.S. House · Texas's 18th District",
+  "area": "Central Houston and parts of Harris County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Christian Menefee led the initial round of a special election on November 4, 2025 and won the special election runoff over Amanda Edwards on January 31, 2026, to fill the seat after Rep. Sylvester Turner died in March 2025. For the 2026 general election, Menefee defeated fellow incumbent U.S. Rep. Al Green in a May 26, 2026 Democratic primary runoff, 69.3% to 30.7%, after the two topped a crowded March 3, 2026 primary field. Ronald Whitfield defeated Elizabeth Vences, 55.1%-44.9%, in the March 3, 2026 Republican primary.",
+      "sources": ["s1", "s2", "s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "christian-menefee",
+      "name": "Christian Menefee",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2026); previously Harris County Attorney (2021–2025)",
+      "summary": {
+        "text": "Christian Menefee is the Democratic incumbent, having won a November 2025 special election to the seat and then defeated fellow incumbent Al Green in the May 2026 Democratic primary runoff. He previously served as Harris County Attorney.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Petaluma, California; earned a bachelor's degree from the University of Texas at San Antonio in 2010 and a law degree from Washington University in St. Louis School of Law in 2013.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as Harris County Attorney from 2021 to 2025, succeeding Vince Ryan.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Defeated incumbent U.S. Rep. Al Green in the May 26, 2026 Democratic primary runoff for this seat, 69.3% to 30.7%.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting representative are added separately by script. No campaign website content beyond Ballotpedia's biographical entry was located."
+    },
+    {
+      "id": "ronald-whitfield",
+      "name": "Ronald Whitfield",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Republican primary outright over Elizabeth Vences, 55.1% to 44.9%.",
+      "summary": {
+        "text": "Ronald Whitfield is the Republican nominee challenging Menefee in a heavily Democratic Houston-area district.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website or public statement of positions could be located; Whitfield has not completed a Ballotpedia Candidate Connection survey."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026", "title": "United States House of Representatives elections in Texas, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Christian_Menefee", "title": "Christian Menefee", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Texas%27_18th_Congressional_District_election,_2026", "title": "Texas' 18th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Christian Menefee's key floor votes and FEC finance totals are filled in separately by script. Ronald Whitfield has minimal public footprint: no campaign website was located and he has not completed a Candidate Connection survey."
+}

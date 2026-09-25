@@ -1,0 +1,108 @@
+{
+  "id": "us-house-pa-17",
+  "state": "PA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "17",
+  "title": "U.S. House · Pennsylvania's 17th Congressional District",
+  "area": "Pittsburgh's northern and western suburbs, including parts of Beaver and Allegheny counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Democrat Chris Deluzio ran unopposed in the May 19, 2026 Democratic primary. Tony Guy defeated Jesse Vodvarka in the Republican primary, 53.3% to 46.7% (19,581 to 17,183 votes).",
+      "sources": ["s1", "s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "chris-deluzio",
+      "name": "Chris Deluzio",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Ran unopposed in the May 19 Democratic primary",
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Chris Deluzio is the incumbent U.S. Representative for Pennsylvania's 17th District, an Iraq War veteran and voting-rights attorney who has served since 2023.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Pittsburgh, Pennsylvania, in 1984; earned a bachelor's degree from the United States Naval Academy in 2006 and a law degree from Georgetown University in 2013.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served as a Navy officer and deployed overseas, including to Iraq, multiple times.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a judicial clerk for the U.S. District Court for the Southern District of New York, in private legal practice, and as policy director of the University of Pittsburgh Institute for Cyber Law, Policy, and Security (Pitt Cyber), after previously working at the Brennan Center for Justice.",
+          "sources": ["s1", "s2"]
+        },
+        {
+          "text": "Serves on the House Committee on Transportation and Infrastructure (Aviation and Railroads/Pipelines/Hazardous Materials subcommittees) and the House Committee on Armed Services (Readiness and Seapower and Projection Forces subcommittees).",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Describes himself as a voting rights attorney who worked to protect voting rights and elections before running for Congress.",
+          "quote": "As a lawyer, Chris worked to protect voting rights and our elections as the policy director at Pitt Cyber and previously at the Brennan Center for Justice.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Transportation and Infrastructure and the House Committee on Armed Services for the 2025–2026 term.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://deluzio.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "D000530"
+    },
+    {
+      "id": "tony-guy",
+      "name": "Tony Guy",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19 Republican primary, defeating Jesse Vodvarka 53.3% to 46.7%",
+      "summary": {
+        "text": "Tony Guy is the Republican nominee for Pennsylvania's 17th Congressional District, having won a contested primary over Jesse Vodvarka.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Chris_Deluzio",
+      "title": "Chris Deluzio",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Chris_Deluzio",
+      "title": "Chris Deluzio - Ballotpedia Candidate Connection survey (2022)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Tony_Guy",
+      "title": "Tony Guy",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Deluzio's federal key floor votes and FEC finance totals are added by script. Tony Guy has no Ballotpedia biography or Candidate Connection survey response, and his campaign website (tonyguyforcongress.com) could not be reached during this research, so his entry is marked minimal; no positions or background could be documented from a source meeting the research standard."
+}

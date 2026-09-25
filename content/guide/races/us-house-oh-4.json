@@ -1,0 +1,164 @@
+{
+  "id": "us-house-oh-4",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Ohio's 4th District",
+  "area": "North-central Ohio, including Lima and Mansfield",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Cook Political Report rates the 4th District R+21, a safely Republican-leaning seat.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jim-jordan",
+      "name": "Jim Jordan",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Incumbent, unopposed in the May 5, 2026 Republican primary",
+      "currentRole": "U.S. Representative (since 2007)",
+      "summary": {
+        "text": "Jordan is the incumbent U.S. Representative for Ohio's 4th District, first elected in 2006, and chairs the House Judiciary Committee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Troy, Ohio; earned a bachelor's degree from the University of Wisconsin (1986), a master's degree from Ohio State University (1991), and a law degree from Capital University (2001).",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Chairs the House Committee on the Judiciary and serves on the Committee on Oversight and Government Reform in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "J000289"
+    },
+    {
+      "id": "joshua-kolasinski",
+      "name": "Joshua Kolasinski",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 5, 2026 Democratic primary",
+      "summary": {
+        "text": "Kolasinski is a business owner running as the Democratic nominee, with a platform centered on government accountability, economic opportunity for workers, and healthcare cost reform.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned an associate degree from Owens Community College and a bachelor's degree from Siena Heights University; works as a business owner.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign website calls for government accountability and transparency, including a 'Registered Voter Lobby' and a district think tank, and says full-time work 'deserves economic stability.'",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign website calls for healthcare reform, including allowing Medicare to negotiate drug prices and increasing price transparency.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign website calls for getting 'big money out of politics,' including repealing Citizens United, banning members of Congress from trading individual stocks, and supporting term limits.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign platform calls for allowing Medicare to negotiate drug prices and exploring public and private options to reduce healthcare costs.",
+          "quote": "Allow Medicare to negotiate drug prices. Increase price transparency so patients know costs before care.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "tracey-tackett",
+      "name": "Tracey Tackett",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Tackett is the Assistant Mayor of Springfield, Ohio and a development manager at Glen Helen Nature Preserve, running as an independent on a platform of local empowerment and government accountability.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in organizational leadership and political science from Wittenberg University (2022) and a master's degree in public policy and leadership from Ohio State University's John Glenn College of Public Affairs (2024).",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Serves as Assistant Mayor of Springfield, Ohio and as Development Manager for Glen Helen Nature Preserve; is also a small-business owner.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says she is an independent who believes 'solving problems is more important than partisan fighting' and will work with anyone with a good idea.",
+          "quote": "I'm an Independent who believes solving problems is more important than partisan fighting.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says decisions should empower local governments and institutions, and pledges to 'bring resources back home, support first responders, strengthen infrastructure.'",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Calls for fiscal responsibility and government transparency, and for supporting agriculture and small businesses.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+      "title": "United States House of Representatives elections in Ohio, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jim_Jordan_(Ohio)",
+      "title": "Jim Jordan (Ohio)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Joshua_Kolasinski",
+      "title": "Joshua Kolasinski",
+      "publisher": "Ballotpedia (candidate campaign website, as quoted)",
+      "kind": "candidate",
+      "date": "2026-04-24"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Tracey_Tackett",
+      "title": "Tracey Tackett",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC totals for Jordan are added separately by script. A write-in independent candidate (Tamie Wilson) did not make the general-election ballot and is not included."
+}

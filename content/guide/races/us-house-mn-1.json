@@ -1,0 +1,204 @@
+{
+  "id": "us-house-mn-1",
+  "state": "MN",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Minnesota's 1st District",
+  "area": "Southern Minnesota, including Rochester, Mankato, Austin, Owatonna and the region along the Iowa border.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Rep. Brad Finstad (R) won a contested Republican primary against Gregory Goetzman and Oliver Morlan, and faces Jake Johnson, who won the Democratic primary over Alex Eaton, in the general election.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "brad-finstad",
+      "name": "Brad Finstad",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, MN-01 (since 2022)",
+      "summary": {
+        "text": "Brad Finstad is the Republican incumbent seeking re-election in Minnesota's 1st Congressional District. He has represented the district since winning a 2022 special election and previously served in the Minnesota House of Representatives.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in New Ulm, Minnesota, in 1976; earned a degree in agriculture education from the University of Minnesota-Twin Cities.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a staffer for U.S. Rep. Mark Kennedy (R), as state director for rural development at the U.S. Department of Agriculture, and as executive director of the Minnesota Turkey Growers Association and of the Center for Rural Policy & Development.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the Minnesota House of Representatives from 2003 to 2009.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Ensure that federal farm policy avoids creating burdensome obstacles and is written by farmers, for farmers.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Keep more money in your paycheck and give small businesses the certainty they need to operate and grow.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Continue to keep our border secure, restore the rule of law, resume construction of the southern border wall, and alleviate staffing shortages for Customs and Border Patrol.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign site says he secured the largest border security investment in history through H.R. 1 and calls for resuming border wall construction; he is a cosponsor of the Deporting Fraudsters Act and supports legislation requiring ICE to detain immigrants charged with crimes resulting in death or serious injury.",
+          "quote": "He is also a co-sponsor of the Deporting Fraudsters Act and supports legislation requiring ICE to detain illegal immigrants charged with crimes resulting in death or serious injury.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Agriculture (chair of the Nutrition and Foreign Agriculture subcommittee), the House Committee on Small Business, and the House Committee on Armed Services in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the USDA Express Loan Act and cosponsored the PRECISE Act to expand farmers' access to agricultural technology and capital; sponsored the FARMER Act to expand crop insurance access and reduce costs for producers.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Cosponsored the Deporting Fraudsters Act.",
+          "kind": "bill",
+          "sources": ["s4"]
+        }
+      ],
+      "website": "https://finstad.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "F000475",
+      "researchNotes": "Key floor votes and FEC finance totals for this sitting member of Congress are added separately. Positions and priorities above are drawn from his campaign site's issues page; his official House site's issue pages (agriculture, economy, education, energy, health, veterans) did not address any of the 15 tracked issues directly."
+    },
+    {
+      "id": "jake-johnson",
+      "name": "Jake Johnson",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the Democratic primary over Alex Eaton.",
+      "currentRole": "High school math teacher",
+      "summary": {
+        "text": "Jake Johnson is the Democratic nominee challenging Rep. Brad Finstad. He is a high school math teacher from Rochester running on lowering costs, opposing corporate influence in politics, and investing in small towns.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Grew up in Stewartville, Minnesota, with ten siblings, the son of a garbage collector and a meter reader.",
+          "sources": ["s3c"]
+        },
+        {
+          "text": "Has taught high school math in Rochester for about 20 years.",
+          "sources": ["s3c"]
+        },
+        {
+          "text": "Has worked as a government relations coordinator and served on the board of the Minnesota Jump$tart Coalition, focused on financial literacy for kids.",
+          "sources": ["s3c"]
+        },
+        {
+          "text": "Lives in Southern Minnesota with his wife Molly, a paraprofessional, raising four sons.",
+          "sources": ["s3c"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Bringing down costs: opposes broad tariffs and says he would vote to end them; supports cutting red tape on home building and childcare; opposes corporate PAC money and says he'll take on corporate monopolies and health insurers.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Taking on corruption: supports a balanced-budget amendment, term limits, a ban on members of Congress trading stocks or becoming lobbyists, and a ban on pardons for family members and donors.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Investing in small towns: supports passing a bipartisan farm bill, a 'right to repair' for farm equipment, protecting Social Security, Medicare and veterans' benefits, and reversing recent cuts to Medicaid and SNAP.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says he would vote to end broad tariffs that he argues are driving up the price of groceries, gas and fertilizer.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports extending tax credits for health insurance and reversing recent cuts to Medicaid (Medical Assistance).",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports tax cuts for working families and small businesses paid for by raising taxes and closing loopholes for large corporations and the wealthiest earners.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports cutting regulatory red tape so homes can be built more quickly.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.jakejohnsonforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Minnesota,_2026",
+      "title": "United States House of Representatives elections in Minnesota, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Brad_Finstad",
+      "title": "Brad Finstad",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.jakejohnsonforcongress.com/priorities",
+      "title": "Priorities",
+      "publisher": "Jake Johnson for Congress (campaign website)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3c",
+      "url": "https://www.jakejohnsonforcongress.com/about",
+      "title": "About",
+      "publisher": "Jake Johnson for Congress (campaign website)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://finstadforcongress.com/issues/",
+      "title": "Issues",
+      "publisher": "Brad Finstad for Congress (campaign website)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

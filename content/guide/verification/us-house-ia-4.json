@@ -1,0 +1,14 @@
+{
+  "raceId": "us-house-ia-4",
+  "checkedAt": "2026-09-25",
+  "claimsChecked": 16,
+  "corrected": 2,
+  "removed": 0,
+  "unverifiable": 0,
+  "notes": [
+    "Fixed a self-contradictory primary claim: the file said Feenstra 'did not seek re-election ... and lost the June 2, 2026 Republican primary to Chris McGowan (Feenstra instead ran for Iowa Governor)' — but Ballotpedia's vote table shows McGowan won 99.3% of the primary vote (55,077 of 55,458) with Feenstra and five others listed as withdrawn/disqualified, i.e. Feenstra withdrew from the House primary (to run for governor) rather than losing a contested vote. Context and McGowan's ballotNote rewritten to say McGowan 'advanced unopposed' after Feenstra and five other Republicans withdrew.",
+    "Added Dawson's confirmed Democratic primary win percentage (39.0%) to context, verified against Ballotpedia's vote table.",
+    "Confirmed general-election slate (Dawson D, McGowan R, Decker IND write-in) exactly matches Ballotpedia's current race page.",
+    "Verified all of Dawson's background/priorities/positions verbatim against his Ballotpedia Candidate Connection survey, and McGowan's background/priorities/positions verbatim against his campaign site (fetched via a reader proxy since the site is JavaScript-rendered) — all accurate, no changes needed."
+  ]
+}

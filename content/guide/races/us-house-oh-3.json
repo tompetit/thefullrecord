@@ -1,0 +1,119 @@
+{
+  "id": "us-house-oh-3",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Ohio's 3rd District",
+  "area": "Central Ohio, including most of Columbus",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Cook Political Report rates the 3rd District D+21, a safely Democratic-leaning seat.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "joyce-beatty",
+      "name": "Joyce Beatty",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Incumbent, running for re-election",
+      "currentRole": "U.S. Representative (since 2013)",
+      "summary": {
+        "text": "Beatty is the incumbent U.S. Representative for Ohio's 3rd District, first elected in 2012. She previously served in the Ohio House of Representatives and as senior vice president of outreach and engagement at Ohio State University.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Montgomery County, Ohio; graduated from Nettie Lee Roth High School and earned a bachelor's degree from Central State University and a master's degree from Wright State University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a college professor and in human services before serving in the Ohio State House and as senior vice president of outreach and engagement at Ohio State University.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Financial Services in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Committee on Financial Services in the 118th Congress (2023-2024), including as ranking member of the Subcommittee on National Security, Illicit Finance, and International Financial Institutions.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "B001281"
+    },
+    {
+      "id": "cleophus-dulaney",
+      "name": "Cleophus Dulaney",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 5, 2026 Republican primary",
+      "summary": {
+        "text": "Dulaney is a small-business owner running as the Republican nominee. His campaign website lists housing affordability, policing, homelessness and addiction, and property taxes as issues.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Grew up in Birmingham, Alabama; professional experience includes owning his own business.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign website lists gentrification and the affordable-housing crisis in the district as issues, citing regional projections of population growth.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign website calls for a 'better relationship with our police force' and addressing homelessness and opioid-addiction rehabilitation.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign website lists property taxes and home-improvement grants as an issue.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+      "title": "United States House of Representatives elections in Ohio, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Joyce_Beatty",
+      "title": "Joyce Beatty",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Cleophus_Dulaney",
+      "title": "Cleophus Dulaney",
+      "publisher": "Ballotpedia (candidate campaign website, as quoted)",
+      "kind": "candidate",
+      "date": "2026-04-24"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC totals for Beatty are added separately by script. Dulaney has not completed Ballotpedia's 2026 Candidate Connection survey; his listed issues come from his campaign website as quoted by Ballotpedia, none of which map cleanly onto the fixed issue-position list, so no `positions` entries were added."
+}

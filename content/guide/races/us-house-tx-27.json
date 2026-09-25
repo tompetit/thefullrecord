@@ -1,0 +1,146 @@
+{
+  "id": "us-house-tx-27",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "27",
+  "title": "U.S. House · Texas's 27th Congressional District",
+  "area": "Coastal South Texas, including Victoria and the Corpus Christi area.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the March 3, 2026 Democratic primary, Tanya Lloyd defeated Eustaquio Castro-Mendoza and Wayne Raasch. Raasch subsequently ran as a write-in independent candidate in the general election. Incumbent Michael Cloud defeated Chris Hatley in the Republican primary.",
+      "sources": ["s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "michael-cloud",
+      "name": "Michael Cloud",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2018)",
+      "summary": {
+        "text": "Michael Cloud is the incumbent Republican U.S. Representative for Texas's 27th District, a former Victoria County Republican Party chairman who has served in the House since a 2018 special election.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Baton Rouge, Louisiana; graduated from Miamisburg High School in Ohio and earned a bachelor's degree from Oral Roberts University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the Texas State Executive Republican Committee and as chairman of the Victoria County Republican Party; owned Bright Ideas Media and served as media and communications director at Faith Family Church in Victoria, Texas.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Oversight and Government Reform and the House Committee on Appropriations, including as Vice Chair of its Energy and Water Development subcommittee, in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "C001115"
+    },
+    {
+      "id": "tanya-lloyd",
+      "name": "Tanya Lloyd",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary",
+      "summary": {
+        "text": "Tanya Lloyd is a public school teacher with more than 20 years in the classroom who won the Democratic primary to challenge Rep. Michael Cloud.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from Texas State University in 2006; has worked as a public school teacher and is a Texas AFT member.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Has served on school district advisory and bond oversight committees in her community.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "In her 2026 Ballotpedia survey, said her priorities are lowering costs for working families, fully funding public education, strengthening rural healthcare access, and investing in rural infrastructure such as broadband and water systems.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Says she would oppose voucher programs that divert public dollars to private interests, and would fight to fully fund public schools.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she would fight for affordable healthcare and lower prescription drug prices, and would advocate for investment in rural hospitals and clinics.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "wayne-raasch",
+      "name": "Wayne Raasch",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Lost the Democratic primary, then filed as a write-in independent candidate for the general election",
+      "summary": {
+        "text": "Wayne Raasch is running as a write-in independent candidate after losing the March 2026 Democratic primary for this seat.",
+        "sources": ["s4"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Michael_Cloud_(Texas)",
+      "title": "Michael Cloud (Texas)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Tanya_Lloyd",
+      "title": "Tanya Lloyd",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Cloud's positions are limited to official committee assignments; no 2026 Candidate Connection survey or campaign-site statements were found for him. No campaign website, public statements, or biographical details beyond his write-in candidacy were found for Wayne Raasch at research time; his entry is minimal. Federal key votes and FEC totals for the incumbent are added separately by script."
+}

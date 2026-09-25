@@ -1,0 +1,142 @@
+{
+  "id": "us-house-ny-24",
+  "state": "NY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "24",
+  "title": "U.S. House · New York's 24th District",
+  "area": "Western and central New York, including Niagara, Orleans, Genesee, Wyoming and Livingston counties, plus parts of Monroe and Ontario counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Alissa Ellman defeated Diana Kastenbaum in the June 23, 2026 Democratic primary, 61.7%-38.1%. The Republican and Conservative primaries were canceled; incumbent Claudia Tenney advanced without appearing on either ballot.",
+      "sources": ["s1", "s4"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "claudia-tenney",
+      "name": "Claudia Tenney",
+      "parties": ["R", "C"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, NY-24 (since 2023; also served NY-22, 2017-2019)",
+      "summary": {
+        "text": "Claudia Tenney is the Republican and Conservative incumbent, an attorney and former New York State Assembly member who has represented the district (under earlier numbering) since 2017, with a break from 2019-2021. She sits on the Science, Space, and Technology, Ways and Means, and Intelligence committees.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Born in New Hartford, New York in 1961; earned a bachelor's degree in political science from Colgate University in 1983 and a J.D. from the University of Cincinnati in 1987.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an attorney and co-owned Mid-York Press, Inc.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the New York State Assembly from 2011 to 2016 before her first election to Congress in 2016.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Science, Space, and Technology (Energy subcommittee), the House Committee on Ways and Means (Health and Trade subcommittees), and the Permanent Select Committee on Intelligence (Defense Intelligence and Overhead Architecture; National Intelligence Enterprise subcommittees) in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://www.claudiaforcongress.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "alissa-ellman",
+      "name": "Alissa Ellman",
+      "parties": ["D", "WFP"],
+      "incumbent": false,
+      "ballotNote": "Won the June 23, 2026 Democratic primary",
+      "summary": {
+        "text": "Alissa Ellman is a combat veteran who served in Afghanistan and the Democratic and Working Families Party nominee challenging incumbent Claudia Tenney, running on affordability, rural infrastructure and labor issues.",
+        "sources": ["s1", "s3", "s4"]
+      },
+      "background": [
+        {
+          "text": "Describes herself as a disabled combat veteran who was exposed to toxins while serving in Afghanistan.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Grew up in Houghton, New York, a rural hamlet of fewer than 2,000 people.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Cost of living, including expanding access to affordable childcare, supporting small businesses and expanding the Low-Income Housing Tax Credit.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Rural infrastructure, including funding to expand bus networks and modernize water systems in rural communities.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Organized labor, including passing the PRO Act and ending right-to-work laws.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Describes herself as a defender of a woman's right to choose.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Supports expanding the Low-Income Housing Tax Credit to help create and preserve affordable housing.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://ellmanforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_New_York,_2026",
+      "title": "United States House of Representatives elections in New York, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Claudia_Tenney",
+      "title": "Claudia Tenney",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ellmanforcongress.com/priorities",
+      "title": "Alissa's Priorities",
+      "publisher": "Ellman for Congress campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/New_York%27s_24th_Congressional_District_election,_2026",
+      "title": "New York's 24th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Removed an unverified claim about Tenney's vote on the Respect for Marriage Act sourced only to her opponent's campaign site, since it could not be confirmed against an official roll call within this session; her voting record on that and other bills is covered separately by the script that adds federal key votes. Tenney has not completed Ballotpedia's 2026 Candidate Connection survey and her current campaign-site issues page was not accessible, limiting her priorities/positions to committee assignments and dated past statements."
+}

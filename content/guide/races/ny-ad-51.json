@@ -1,0 +1,115 @@
+{
+  "id": "ny-ad-51",
+  "state": "NY",
+  "officeType": "state-assembly",
+  "office": "NY State Assembly",
+  "district": "51",
+  "title": "NY State Assembly · District 51",
+  "area": "Southwest Brooklyn, including Sunset Park, Red Hook and northern Bay Ridge.",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Marcela Mitaynes (D/WFP), first elected in 2020, faces Carla Danielson (R/C) in the general election. Neither the Democratic, Republican, Conservative nor Working Families Party primaries were contested; all four line nominations were determined without a primary vote.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "marcela-mitaynes",
+      "name": "Marcela Mitaynes",
+      "parties": ["D", "WFP"],
+      "incumbent": true,
+      "currentRole": "NY State Assembly Member, District 51 (since 2021)",
+      "summary": {
+        "text": "Marcela Mitaynes is the incumbent Democratic and Working Families Party candidate for NY State Assembly District 51, seeking a fourth full term. A former tenant organizer, she has served on the Assembly's Banks, Children and Families, Education, Judiciary and Transportation committees since taking office in 2021.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Migrated to New York City from Peru as a child and was raised in Sunset Park, Brooklyn, where she still lives.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Attended P.S. 169 in Sunset Park and later served as PTA president there when her own daughter attended the same school.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on Brooklyn Community Board 7 for 10 years.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Was evicted from her rent-stabilized apartment of 30 years and, through her work with the tenant organizing group Neighbors Helping Neighbors, says she was instrumental in the passage of the 2019 Housing Stability and Tenant Protection Act, which strengthened rent-stabilized tenants' rights.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Succeeded longtime Assembly Member Felix Ortiz, who did not seek re-election in 2020; Mitaynes has represented the district since January 2021.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Cites her own eviction from a rent-stabilized apartment as the origin of her tenant-organizing career and says she was instrumental in passing the 2019 Housing Stability and Tenant Protection Act strengthening tenants' rights.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Sponsored A06100, the \"tenant opportunity to purchase act,\" which would give tenants a first opportunity to buy the building they live in before it is sold; referred to the Housing Committee, where it remained without a floor vote as of January 2026.",
+          "date": "2025-02-26",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Sponsored A03578, establishing a SNAP and cash assistance fraud victims compensation fund; amended and recommitted to the Social Services Committee in April 2026, without a floor vote.",
+          "date": "2025-01-28",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Sponsored A07180, which would prohibit police agencies from using weaponized or injury-capable robots or robots for surveillance; referred to the Codes Committee, where it remained without a floor vote as of January 2026.",
+          "date": "2025-03-21",
+          "kind": "bill",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Serves on the Assembly's Banks, Children and Families, Education, Judiciary and Transportation committees in the 2025–2026 session.",
+          "kind": "action",
+          "sources": ["s8"]
+        }
+      ],
+      "website": "https://nyassembly.gov/mem/Marcela-Mitaynes/",
+      "researchDepth": "full",
+      "researchNotes": "Mitaynes has not completed a Ballotpedia Candidate Connection survey in any election cycle and no 2026 campaign website with issue statements could be located; priorities are inferred only where an official record item exists, so the priorities list is left empty rather than guessed."
+    },
+    {
+      "id": "carla-danielson",
+      "name": "Carla Danielson",
+      "parties": ["R", "C"],
+      "incumbent": false,
+      "summary": {
+        "text": "Carla Danielson is the Republican and Conservative Party nominee challenging incumbent Marcela Mitaynes for NY State Assembly District 51. She advanced to the general election without a contested primary.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "Re-checked September 25, 2026: Danielson's own Ballotpedia page (https://ballotpedia.org/Carla_Danielson) confirms she has not completed the 2026 Candidate Connection survey and has no biography, endorsements, or campaign-finance data listed. No campaign website, social-media account, or local news coverage (City & State, THE CITY, Gothamist, Bay Ridge/Sunset Park outlets) of her background or positions turned up via web search. Nothing found beyond her ballot-line listing on the race page."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/New_York_State_Assembly_District_51", "title": "New York State Assembly District 51", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://nyassembly.gov/mem/Marcela-Mitaynes/bio/", "title": "Assemblymember Marcela Mitaynes - Biography", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06100&term=2025&Summary=Y&Actions=Y&Memo=Y", "title": "Bill A06100 - Summary, Actions, Memo", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03578&term=2025&Summary=Y&Actions=Y&Memo=Y", "title": "Bill A03578 - Summary, Actions, Memo", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
+    { "id": "s5", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A07180&term=2025&Summary=Y&Actions=Y&Memo=Y", "title": "Bill A07180 - Summary, Actions, Memo", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
+    { "id": "s8", "url": "https://nyassembly.gov/mem/Marcela-Mitaynes/comm/", "title": "Assemblymember Marcela Mitaynes - Committee Membership", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Marcela Mitaynes has no completed Ballotpedia Candidate Connection survey and no located 2026 campaign website, so her priorities/positions rely only on her official Assembly biography and legislative record. Carla Danielson has no located campaign website, survey response, or news coverage; her entry reflects only the Ballotpedia race page listing her ballot lines."
+}

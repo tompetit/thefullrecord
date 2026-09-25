@@ -1,0 +1,178 @@
+{
+  "id": "us-house-ma-2",
+  "state": "MA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Massachusetts's 2nd District",
+  "area": "Central Massachusetts, including Worcester and Northampton",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Jim McGovern advanced from the September 1, 2026 Democratic primary and is the only candidate listed for the November 3 general election; no Republican or other candidate is on the ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jim-mcgovern",
+      "name": "Jim McGovern",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 1997)",
+      "summary": {
+        "text": "McGovern is the incumbent and unopposed on the November general-election ballot. He is Ranking Member of the House Rules Committee and also serves on the Agriculture Committee. He is co-chair of the House Hunger Caucus.",
+        "sources": ["s1", "s2", "s3", "s4"]
+      },
+      "background": [
+        { "text": "Born in Worcester, Massachusetts; earned bachelor's and master's degrees from American University (1981, 1984).", "sources": ["s2"] },
+        { "text": "Worked for 14 years as a senior aide to the late U.S. Rep. John Joseph Moakley (D).", "sources": ["s2"] },
+        { "text": "In 1990, led the Moakley Commission's congressional investigation into the 1989 murder of six Jesuit priests, their housekeeper, and her daughter in El Salvador by the Salvadoran Army; the commission's report led to a change in U.S. foreign aid policy.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        {
+          "text": "Says he wants to \"take on the gun lobby\" and get big money out of politics, and has introduced constitutional amendments to overturn Citizens United.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says he believes healthcare is a human right that \"shouldn't be determined by your zip code or the amount you have in your bank account.\"",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Says passing gun safety laws is the best way to protect responsible gun owners while addressing gun violence, and voted for the Bipartisan Background Checks Act of 2019 to expand background checks to all gun sales.",
+          "quote": "I believe that passing commonsense, wildly popular gun safety laws is the best way to protect responsible gun owners and address the epidemic of gun violence that has torn so many of our communities apart. We can and must do both.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says the overturning of Roe v. Wade took away women's health care decisions and describes cosponsoring bills including the Women's Health Protection Act to restore abortion rights nationwide.",
+          "quote": "I believe reproductive care is health care. When the Supreme Court overturned Roe v. Wade, it ripped away a woman's right to make her own health care decisions.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he stands in solidarity with the Green New Deal and describes fighting to protect the environment from fossil fuel companies throughout his career.",
+          "quote": "I'm proud to stand in solidarity with those fighting for a Green New Deal. Only by taking bold, aggressive action will we be able to successfully transform our economy, create millions of good, high-wage jobs that ensure economic prosperity and security for all Americans, and save our planet's precious, fragile ecosystem.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "His official issues page describes him as a long-time, steadfast supporter of Israel's right to exist and defend itself, while also supporting a two-state solution.",
+          "quote": "Jim has been a long-time and steadfast supporter of Israel's right to exist and defend itself, and he believes that both the people of Israel and of the Palestinian territories have a right to a peaceful and prosperous existence.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "His official issues page says immigration laws need to be tough at the border and calls for improved border security, while also calling for a path to citizenship for immigrants already in the country rather than mass deportation.",
+          "quote": "Congressman McGovern feels that immigration laws need to be tough at the border, and that American workers and immigrants who came to the country legally should not be punished for businesses' exploitation of cheap and illegal labor. However, the Congressman also feels that there needs to be a path to citizenship for illegal immigrants who are already here.",
+          "sources": ["s8"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves as Ranking Member of the House Rules Committee; also co-chairs the House Hunger Caucus.",
+          "kind": "action",
+          "sources": ["s3", "s4"]
+        },
+        {
+          "text": "Serves on the House Committee on Agriculture (Nutrition and Foreign Agriculture) for the 2025-2026 term.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Introduced bipartisan legislation on medically tailored meals with Rep. Nicole Malliotakis (R-NY) that passed the House.",
+          "kind": "bill",
+          "sources": ["s3"]
+        }
+      ],
+      "website": "https://mcgovern.house.gov",
+      "researchDepth": "full",
+      "bioguideId": "M000312"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Massachusetts%27_2nd_Congressional_District_election,_2026",
+      "title": "Massachusetts' 2nd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jim_McGovern_(Massachusetts)",
+      "title": "Jim McGovern (Massachusetts)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://mcgovern.house.gov",
+      "title": "Congressman Jim McGovern - Home / Newsroom",
+      "publisher": "Office of Rep. James P. McGovern",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://en.wikipedia.org/wiki/James_P._McGovern",
+      "title": "James P. McGovern",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://mcgovern.house.gov/Issues/Issue/?IssueID=120520",
+      "title": "Gun Violence",
+      "publisher": "Office of Rep. James P. McGovern",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://mcgovern.house.gov/Issues/Issue/?IssueID=120521",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. James P. McGovern",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://mcgovern.house.gov/Issues/Issue/?IssueID=120518",
+      "title": "Energy & Environment",
+      "publisher": "Office of Rep. James P. McGovern",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://mcgovern.house.gov/Issues/Issue/?IssueID=120525",
+      "title": "Immigration",
+      "publisher": "Office of Rep. James P. McGovern",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://mcgovern.house.gov/Issues/Issue/?IssueID=120519",
+      "title": "Foreign Policy",
+      "publisher": "Office of Rep. James P. McGovern",
+      "kind": "official",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Uncontested race; only Rep. McGovern appears on the November 3, 2026 general-election ballot. His key floor votes and FEC finance totals are added separately by script. Checked his official issues pages (agriculture, money & politics, economy & jobs, education, hunger, energy & environment, foreign policy, gun violence, healthcare, homeland security, housing, human rights, immigration, local issues, transportation, veterans); the housing page discusses funding for affordable-housing programs (LIHTC, HOME, Section 8) rather than rent regulation or zoning, so no rent_regulation or housing_supply position is included."
+}

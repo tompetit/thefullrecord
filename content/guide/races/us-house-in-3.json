@@ -1,0 +1,209 @@
+{
+  "id": "us-house-in-3",
+  "state": "IN",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Indiana's 3rd District",
+  "area": "Northeast Indiana, including Fort Wayne and surrounding counties",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Marlin A. Stutzman won the May 5, 2026 Republican primary over Jon Kenworthy. Kelly Thompson won the Democratic primary. Phillip Beachy is running as an independent write-in candidate, as he did in 2024.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "marlin-stutzman",
+      "name": "Marlin A. Stutzman",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the May 5, 2026 Republican primary over Jon Kenworthy",
+      "currentRole": "U.S. Representative, Indiana's 3rd District (since 2025)",
+      "summary": {
+        "text": "Marlin Stutzman is the incumbent Republican U.S. Representative for Indiana's 3rd District. He previously served in the Indiana House of Representatives (2002-2008), the Indiana State Senate (2009-2010), and an earlier stint in the U.S. House (2010-2017), before returning to Congress in 2025.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Sturgis, Michigan, in 1976; graduated from Lake Area Christian High School and attended Trine State University.", "sources": ["s2"] },
+        { "text": "Worked as a farmer and business owner before returning to elected office.", "sources": ["s2"] },
+        { "text": "Previously served in the Indiana House of Representatives (2002-2008), the Indiana State Senate (2009-2010), and the U.S. House of Representatives (2010-2017).", "sources": ["s2"] },
+        { "text": "Is a member of the LaGrange Chamber of Commerce, National Federation of Independent Business, Indiana Farm Bureau, and the National Rifle Association.", "sources": ["s2"] },
+        { "text": "Serves on the House Committee on Financial Services and the House Committee on the Budget in the 119th Congress.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Describes the One Big Beautiful Bill Act as the start of a return to fiscal discipline in federal spending.", "quote": "The One Big Beautiful Bill Act is the start of America’s return to fiscal sanity.", "sources": ["s5"] },
+        { "text": "Says regulatory barriers between HUD and USDA housing programs should be removed to make it easier and cheaper to build affordable housing.", "quote": "we must remove the barriers that drive up costs and make it harder to build housing for Americans who need it most", "sources": ["s6"] },
+        { "text": "Introduced legislation to increase mandatory minimum sentences for fentanyl trafficking.", "sources": ["s7"] }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Introduced the Streamlining Rural Housing Act, which directs HUD and USDA to align environmental review and inspection standards for rural housing projects, saying it would make affordable housing easier to build.",
+          "quote": "we must remove the barriers that drive up costs and make it harder to build housing for Americans who need it most",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [
+        { "text": "Assigned to the House Committee on Financial Services and the House Committee on the Budget for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"] },
+        { "text": "Served on the Budget Committee and Financial Services Committee during an earlier term in the 114th Congress (2015-2016).", "kind": "action", "sources": ["s2"] },
+        { "text": "Introduced the Streamlining Rural Housing Act with Reps. Brittany Pettersen, Lisa McClain, and David Scott, directing HUD and USDA to evaluate a joint environmental review and inspection process for rural housing projects.", "kind": "bill", "sources": ["s6"] },
+        { "text": "Introduced the No Leniency for Fentanyl Dealers Act, the House companion to Sen. John Kennedy's Fairness in Fentanyl Sentencing Act.", "kind": "bill", "sources": ["s7"] }
+      ],
+      "website": "",
+      "researchDepth": "basic",
+      "bioguideId": "S001188"
+    },
+    {
+      "id": "kelly-thompson",
+      "name": "Kelly Thompson",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 5, 2026 Democratic primary",
+      "summary": {
+        "text": "Kelly Thompson is the Democratic nominee for Indiana's 3rd District, a Fort Wayne-area small business owner and nonprofit founder who previously ran for the Indiana House in 2020.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Graduated salutatorian from Tippecanoe Valley High School; attended Valparaiso University's Christ College before earning a BS in Business Administration from the University of Central Florida.", "sources": ["s3"] },
+        { "text": "Founded a community-service nonprofit and has worked as a substitute teacher and as a visiting pastor for a local jail ministry.", "sources": ["s3"] },
+        { "text": "Ran for the Indiana House of Representatives in 2020.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Says working families struggle to afford housing, food, medical care, and education, and blames policymakers who she says do not feel that pain.", "sources": ["s3"] },
+        { "text": "Says she would move toward a single-payer healthcare system, citing medical debt as a leading cause of bankruptcy.", "quote": "We can reduce that to 5% by moving to a single payor system.", "sources": ["s3"] },
+        { "text": "Campaign website proposes a federal program to keep family farmland from being sold to corporations or foreign governments, exempting family-to-family land transfers from the estate tax.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she supports moving to a single-payer healthcare system to reduce the share of income Americans spend on medical costs.",
+          "quote": "It's time to provide heath care to everyone regardless of our net worth.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Campaign website calls for zoning reform to allow greater density, legalizing accessory dwelling units, and streamlining permitting to increase housing supply.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Proposes a 2-cent tax on stock, bond, commodity, and derivative trades on Wall Street to fund education and pre-K programs.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign material references raising teacher pay and worker income as part of her education and economic platform.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "phillip-beachy",
+      "name": "Phillip Beachy",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Independent write-in candidate; also ran as a write-in in 2024",
+      "summary": {
+        "text": "Phillip Beachy is a semi-retired carpenter and refrigeration technician from Fort Wayne running as an independent write-in candidate.",
+        "sources": ["s4"]
+      },
+      "background": [
+        { "text": "Born in Fort Wayne, Indiana; graduated from Woodland High School.", "sources": ["s4"] },
+        { "text": "Works as a semi-retired carpenter and refrigerator technician and owns EcoThunder Refrigeration.", "sources": ["s4"] }
+      ],
+      "priorities": [
+        { "text": "Says the Citizens United decision was wrong and should be overturned, and criticizes the influence of money in government.", "quote": "The influence of money in our system of government is out of control, the Citizens United decision was wrong and must be overturned.", "sources": ["s4"] },
+        { "text": "Says he would end subsidies to oil and auto companies and favors more SNAP spending.", "quote": "We must end the billions in subsidies to the oil companies, auto companies, and other industries. More SNAP less gas.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says the budget could be balanced with a 50% top marginal tax rate, closing loopholes, affecting only the top 10% of earners.",
+          "quote": "I believe we can balance the budget with a 50% top marginal rate if we get rid of loopholes. My rates would only affect the 10%.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says raising the minimum wage to the inflation-adjusted equivalent of 1974 levels (about $12.50) would help younger workers and Social Security solvency.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Indiana,_2026",
+      "title": "United States House of Representatives elections in Indiana, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Marlin_Stutzman",
+      "title": "Marlin Stutzman",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Kelly_Thompson_(Indiana)",
+      "title": "Kelly Thompson",
+      "publisher": "Kelly Thompson campaign website / Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-04-15"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Phillip_Beachy",
+      "title": "Phillip Beachy",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://stutzman.house.gov/media/press-releases/rep-stutzman-votes-pass-one-big-beautiful-bill-act",
+      "title": "Rep. Stutzman Votes to Pass the One Big Beautiful Bill Act",
+      "publisher": "Office of Rep. Marlin Stutzman",
+      "kind": "official",
+      "date": "2025-05-22"
+    },
+    {
+      "id": "s6",
+      "url": "https://stutzman.house.gov/media/press-releases/rep-stutzman-introduces-streamlining-rural-housing-act",
+      "title": "Rep. Stutzman Introduces Streamlining Rural Housing Act",
+      "publisher": "Office of Rep. Marlin Stutzman",
+      "kind": "official",
+      "date": "2025-09-02"
+    },
+    {
+      "id": "s7",
+      "url": "https://stutzman.house.gov/media/press-releases/rep-stutzman-introduces-no-leniency-fentanyl-dealers-act",
+      "title": "Rep. Stutzman Introduces No Leniency for Fentanyl Dealers Act",
+      "publisher": "Office of Rep. Marlin Stutzman",
+      "kind": "official",
+      "date": "2026-07-23"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Marlin Stutzman has not completed a 2026 Ballotpedia Candidate Connection survey; his stutzman.house.gov Issues pages (Congress, Economy, Education, Energy, Health, Veterans) and stutzmanforcongress.com were checked. Positions and priorities are drawn from official press releases; his committee record is documented as well. No campaign website was located for Beachy beyond his Candidate Connection survey answers."
+}

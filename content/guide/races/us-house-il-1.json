@@ -1,0 +1,151 @@
+{
+  "id": "us-house-il-1",
+  "state": "IL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Illinois's 1st District",
+  "area": "Parts of Chicago's South Side and south suburban Cook County",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Jonathan Jackson (D) defeated Jerico Brown in the March 17, 2026 Democratic primary. Christian Maxwell defeated Marcus Lewis in the Republican primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jonathan-jackson",
+      "name": "Jonathan Jackson",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the March 17, 2026 Democratic primary",
+      "currentRole": "U.S. Representative (since 2021)",
+      "summary": {
+        "text": "Jackson represents Illinois' 1st Congressional District. He is the son of civil rights leaders Rev. Jesse Jackson and Jacqueline Jackson and previously served as national spokesman for the Rainbow PUSH Coalition.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Son of Rev. Jesse Jackson and Jacqueline Jackson; describes his background as rooted in civil-rights activism.", "sources": ["s2"] },
+        { "text": "Served as national spokesman for the Rainbow PUSH Coalition, where he worked on cases involving wrongful convictions, including those of Darrell Cannon, Oscar Walden, and Johnnie Lee Savory.", "sources": ["s2"] },
+        { "text": "Took part in international human rights negotiations, including talks that helped secure the release of Navy Lt. Robert Goodman from Syria and Americans detained in Cuba.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Says he has worked to build an economy that prioritizes equitable growth, and supported measures to fight inflation, raise the minimum wage, and support small businesses.", "sources": ["s3"] },
+        { "text": "Focuses on expanding access to affordable preschool programs, equitable K-12 school funding, and preserving the legacies of Historically Black Colleges and Universities.", "sources": ["s4"] },
+        { "text": "Says healthcare should be a fundamental human right and has cosponsored Medicare for All.", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Cosponsored Medicare for All, saying healthcare should be a right accessible to all rather than a privilege.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supported measures to raise the minimum wage.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        { "text": "Cosponsored a resolution stating that the United States has a moral and legal obligation to provide reparations for the enslavement of Africans and its lasting harm.", "kind": "bill", "sources": ["s2"] },
+        { "text": "Supported H.R. 40, the Commission to Study and Develop Reparation Proposals for African Americans Act.", "kind": "bill", "sources": ["s2"] },
+        { "text": "Cosponsored the Return Home to Housing Act, addressing per diem payments to entities providing transitional housing to homeless veterans.", "kind": "bill", "sources": ["s6"] }
+      ],
+      "website": "https://jonathanjackson.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "J000309"
+    },
+    {
+      "id": "christian-maxwell",
+      "name": "Christian Maxwell",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the March 17, 2026 Republican primary",
+      "currentRole": "Entrepreneur",
+      "summary": {
+        "text": "Maxwell describes herself as a mother and entrepreneur running as a conservative candidate focused on public safety, parental rights, and fiscal responsibility.",
+        "sources": ["s1"]
+      },
+      "background": [
+        { "text": "Describes her career as building businesses and leading grassroots community initiatives, by her own account.", "sources": ["s1"] }
+      ],
+      "priorities": [
+        { "text": "Says she will \"fight to restore law and order, protect our communities, and hold leaders accountable.\"", "sources": ["s1"] },
+        { "text": "Advocates for parental rights in children's education, saying families should be \"in control,\" not the government.", "sources": ["s1"] },
+        { "text": "Says she will push for fiscal responsibility, lower taxes, and smarter budgeting.", "sources": ["s1"] }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Cites what she calls reckless spending and tax hikes in Illinois and says she will push for lower taxes.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Advocates giving parents more control over their children's education.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Illinois%27_1st_Congressional_District_election,_2026",
+      "title": "Illinois' 1st Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://jonathanjackson.house.gov/about",
+      "title": "About Congressman Jonathan Jackson",
+      "publisher": "Office of Rep. Jonathan Jackson",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://jonathanjackson.house.gov/issues/economy",
+      "title": "Economy",
+      "publisher": "Office of Rep. Jonathan Jackson",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://jonathanjackson.house.gov/issues/education",
+      "title": "Education",
+      "publisher": "Office of Rep. Jonathan Jackson",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://jonathanjackson.house.gov/issues/health",
+      "title": "Health",
+      "publisher": "Office of Rep. Jonathan Jackson",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://jonathanjackson.house.gov/issues/veterans",
+      "title": "Veterans",
+      "publisher": "Office of Rep. Jonathan Jackson",
+      "kind": "official",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Maxwell's positions are drawn from her Ballotpedia Candidate Connection survey submission; no independent campaign website was verified in the BASIC research budget."
+}
