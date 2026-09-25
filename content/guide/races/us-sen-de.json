@@ -98,9 +98,22 @@
           "text": "Served as a member of the Delaware State Senate before running for U.S. Senate.",
           "kind": "action",
           "sources": ["s3"]
+        },
+        {
+          "text": "Sponsored and passed SB 241 (146th General Assembly), establishing the Brandywine Valley National Scenic Byway Advisory Board to oversee preservation of the byway corridor.",
+          "date": "2012-06-06",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Sponsored Senate Resolution No. 14, expressing the Senate's intent to stream live audio of its sessions.",
+          "date": "2011-05-04",
+          "kind": "bill",
+          "sources": ["s5"]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Delaware's official roll-call vote records for the Delaware General Assembly (legis.delaware.gov) are rendered via JavaScript and could not be retrieved directly after repeated attempts; the two record items above are drawn from official bill-text PDFs on legis.delaware.gov (confirming sponsorship and passage), supplementing his campaign site's self-reported legislative record."
     },
     {
       "id": "travis-stevens",
@@ -155,7 +168,9 @@
   "sources": [
     { "id": "s1", "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026", "title": "United States Senate election in Delaware, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s2", "url": "https://ballotpedia.org/Chris_Coons", "title": "Chris Coons", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026", "title": "Michael Katz and Travis Stevens - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+    { "id": "s3", "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026", "title": "Michael Katz and Travis Stevens - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s4", "url": "https://legis.delaware.gov/json/BillDetail/GetPdfDocument?fileAttachmentId=41506", "title": "Senate Bill No. 241, 146th General Assembly (Brandywine Valley National Scenic Byway)", "publisher": "Delaware General Assembly", "kind": "official", "date": "2012-06-06" },
+    { "id": "s5", "url": "https://legis.delaware.gov/json/BillDetail/GetPdfDocument?fileAttachmentId=41616", "title": "Senate Resolution No. 14, 146th General Assembly (live-stream audio of Senate sessions)", "publisher": "Delaware General Assembly", "kind": "official", "date": "2011-05-04" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Chris Coons's key floor votes and FEC finance totals are filled in separately by script. Michael Katz and Travis Stevens's positions are drawn entirely from their 2026 Ballotpedia Candidate Connection survey responses; no independent campaign websites with additional issue detail were located within the research time budget for Stevens beyond his personal site's stated focus areas."

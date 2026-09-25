@@ -143,10 +143,25 @@
           "sources": ["s4"]
         }
       ],
-      "positions": [],
-      "record": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "As a West Virginia state delegate, voted yes on SJR 12, a constitutional amendment stating that nothing in the West Virginia Constitution protects a right to abortion or requires public funding of abortion; the House adopted it 73-26 on March 5, 2018, and voters approved it as Amendment 1 that November.",
+          "basis": "votes",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted yes on SJR 12 (a constitutional amendment stating the West Virginia Constitution does not protect a right to abortion or require public funding of abortion), which the House of Delegates adopted 73-26 on March 5, 2018.",
+          "date": "2018-03-05",
+          "kind": "vote",
+          "sources": ["s5"]
+        }
+      ],
       "researchDepth": "basic",
-      "researchNotes": "Did not complete Ballotpedia's 2026 or 2024 Candidate Connection surveys; no clear stance found on the guide's fixed issue list."
+      "researchNotes": "Did not complete Ballotpedia's 2026 or 2024 Candidate Connection surveys."
     }
   ],
   "sources": [
@@ -177,6 +192,14 @@
       "title": "S. Marshall Wilson",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "http://www.wvlegislature.gov/legisdocs/2018/RS/votes/house/00309.pdf",
+      "title": "House of Delegates Roll Call #309, SJR 12 adoption (73-26)",
+      "publisher": "West Virginia House of Delegates",
+      "kind": "official",
+      "date": "2018-03-05"
     }
   ],
   "researchedAt": "2026-09-25",

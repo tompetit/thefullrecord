@@ -11,36 +11,50 @@
   "context": [
     {
       "text": "Incumbent Dina Titus (D) faced a primary challenge and advanced from the June 9, 2026 Democratic primary. Carrie Buck (R), a Nevada state senator, advanced from the Republican primary. The National Republican Congressional Committee named Buck to its \"MAGA Majority\" support program for candidates in Democratic-held districts; the Democratic Congressional Campaign Committee named Titus to its \"Frontline\" program for vulnerable incumbents. Steven St John and Bobby Khan, both with no political party affiliation, also qualified for the general-election ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "dina-titus",
       "name": "Dina Titus",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2013, previously 2009-2011)",
       "summary": {
         "text": "Dina Titus is the Democratic incumbent seeking re-election to U.S. House Nevada District 1, a seat she has held since 2013 (and briefly from 2009-2011). She previously spent 34 years teaching American and Nevada government at UNLV and 20 years as a Nevada state senator.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in Thomasville, Georgia, and grew up in Tifton, Georgia; earned a bachelor's degree from the College of William and Mary, a master's degree from the University of Georgia, and a doctorate from Florida State University.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Taught American and Nevada government classes at the University of Nevada, Las Vegas, for 34 years until retiring in 2011.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served as a Nevada state senator representing District 7 for 20 years before her 2008 election to the U.S. House from Nevada's 3rd District; she lost that seat in 2010 to Joe Heck before winning the 1st District seat in 2012.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Currently sits on the House Committee on Transportation and Infrastructure and the Committee on Foreign Affairs (2025-2026).",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
@@ -52,43 +66,62 @@
     {
       "id": "carrie-buck",
       "name": "Carrie Buck",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "currentRole": "Nevada State Senator, District 5 (since 2020)",
       "summary": {
         "text": "Carrie Buck is the Republican nominee for U.S. House Nevada District 1. She is a sitting Nevada state senator and career educator who has led charter schools in the Las Vegas area, and the National Republican Congressional Committee has named her to its program supporting candidates in Democratic-held districts.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Sioux City, Iowa; earned a bachelor's degree from Montana State University (1995), a master's degree from the University of Phoenix (1998), and a Ph.D. from Nova Southeastern University (2006).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as president of the Pinecrest Foundation and as executive director/lead principal of the Pinecrest Academy of Nevada charter schools; previously an English-language-learner specialist and instructional coach with the Clark County School District.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected to the Nevada State Senate (District 5) in 2020; her term runs through 2028.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Describes herself as the wife of a Henderson, NV police captain and mother of four sons, two of whom serve in the U.S. Armed Forces.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Education: expanding Opportunity Scholarships, requiring state receivership of the lowest-performing schools, and giving parents more say in their children's schooling.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Public safety: sponsored legislation to tighten restrictions and strengthen penalties for human traffickers and fentanyl traffickers, and works with a coalition on preventing child trafficking.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Economy and housing: says she has sponsored legislation reforming cosmetology licensing and the state employment/training department, and is focused on the rising cost of living and housing.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -97,20 +130,61 @@
           "stance": "supports",
           "summary": "Says she believes firmly in expanded funding of Opportunity Scholarships, which fund private-school tuition for lower-income families, and that parents alone should make critical decisions about their child's education.",
           "quote": "I believe firmly in exanded funding of Opportunity Scholarships which would allow more underprivileged families to send their children to schools that are the best fit for them.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "Voted for a 2023 law shielding out-of-state abortion patients and Nevada providers from prosecution under other states' abortion bans, but voted against a state constitutional amendment establishing a right to reproductive freedom, including abortion.",
+          "sources": [
+            "s5",
+            "s6"
+          ],
+          "basis": "votes"
         }
       ],
-      "record": [],
+      "record": [
+        {
+          "text": "Voted yes on Assembly Bill No. 383 (establishing a right to reproductive health care services, excluding abortion, and requiring Medicaid coverage of certain contraception), which passed the Nevada Senate 16-5 on June 5, 2023.",
+          "date": "2023-06-05",
+          "kind": "vote",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Voted yes on Senate Bill No. 131 (shielding abortion patients from out of state and Nevada abortion providers from investigation or prosecution under another state's abortion laws), which passed the Nevada Senate 15-6 on April 19, 2023.",
+          "date": "2023-04-19",
+          "kind": "vote",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Voted no on Senate Joint Resolution No. 7 (proposing a state constitutional amendment establishing a right to reproductive freedom, including abortion), which passed the Nevada Senate 13-8 on April 17, 2023.",
+          "date": "2023-04-17",
+          "kind": "vote",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "researchDepth": "basic"
     },
     {
       "id": "steven-st-john",
       "name": "Steven St John",
-      "parties": ["No Political Party"],
+      "parties": [
+        "No Political Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Steven St John is a no-party candidate on the November general-election ballot for U.S. House Nevada District 1.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -122,11 +196,15 @@
     {
       "id": "bobby-khan",
       "name": "Bobby Khan",
-      "parties": ["No Political Party"],
+      "parties": [
+        "No Political Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Bobby Khan is a no-party candidate on the November general-election ballot for U.S. House Nevada District 1.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -159,6 +237,30 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2024-01-01"
+    },
+    {
+      "id": "s4",
+      "url": "https://archive.leg.state.nv.us/Session/82nd2023/Journal/Senate/Final/sj120.pdf",
+      "title": "Nevada Senate Journal, Day 120 (June 5, 2023) — roll call on Assembly Bill No. 383 (reproductive health care / Medicaid coverage, excludes abortion)",
+      "publisher": "Nevada Legislature, 82nd (2023) Session",
+      "kind": "official",
+      "date": "2023-06-05"
+    },
+    {
+      "id": "s5",
+      "url": "https://archive.leg.state.nv.us/Session/82nd2023/Journal/Senate/Final/sj073.pdf",
+      "title": "Nevada Senate Journal, Day 73 (April 19, 2023) — roll call on Senate Bill No. 131 (shielding out-of-state abortion patients and providers from prosecution)",
+      "publisher": "Nevada Legislature, 82nd (2023) Session",
+      "kind": "official",
+      "date": "2023-04-19"
+    },
+    {
+      "id": "s6",
+      "url": "https://archive.leg.state.nv.us/Session/82nd2023/Journal/Senate/Final/sj071.pdf",
+      "title": "Nevada Senate Journal, Day 71 (April 17, 2023) — roll call on Senate Joint Resolution No. 7 (constitutional right to reproductive freedom, including abortion)",
+      "publisher": "Nevada Legislature, 82nd (2023) Session",
+      "kind": "official",
+      "date": "2023-04-17"
     }
   ],
   "researchedAt": "2026-09-25",

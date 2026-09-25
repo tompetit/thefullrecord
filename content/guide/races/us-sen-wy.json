@@ -121,10 +121,24 @@
           "sources": ["s3"]
         }
       ],
-      "positions": [],
-      "record": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "As a Wyoming state representative, voted yes on a floor amendment to the 2015 budget bill (HB 1) that would have set aside state funds for Wyoming's share of expanded Medicaid coverage under the ACA; the amendment failed in the House 15-41.",
+          "basis": "votes",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted yes on a 2015 budget-bill floor amendment (HB0001H3031) that would have set aside state funds for Wyoming's share of expanded Medicaid coverage under the Affordable Care Act; the amendment failed in the House 15-41.",
+          "kind": "vote",
+          "sources": ["s4"]
+        }
+      ],
       "researchDepth": "basic",
-      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey but responses do not clearly state positions on the guide's fixed issue list."
+      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey but responses do not clearly state positions on the guide's fixed issue list. The Medicaid-expansion amendment vote is dated to the House's 2015 general-session budget-bill floor debate (HB 1), but the specific calendar day was not shown on the House Digest of Bills page retrieved, so no date is given."
     }
   ],
   "sources": [
@@ -148,6 +162,13 @@
       "title": "James Byrd",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://wyoleg.gov/2015/HouseDigest.pdf",
+      "title": "House Digest of Bills, 2015 General Session (HB0001H3031/FAILED, Medicaid expansion budget amendment roll call, Ayes 15 Nays 41)",
+      "publisher": "Wyoming Legislative Service Office",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

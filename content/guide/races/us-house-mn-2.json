@@ -62,11 +62,17 @@
           "text": "Served as a Minnesota state senator representing District 58 from 2017 to 2021.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Voted no on HF 2125 (the Senate Republican majority's 2019 omnibus tax bill), which passed the Minnesota Senate 39-28 on 2019-04-30.",
+          "date": "2019-04-30",
+          "kind": "vote",
+          "sources": ["s6"]
         }
       ],
       "website": "https://www.littleforcongress.com",
       "researchDepth": "basic",
-      "researchNotes": "Matt Little has not completed Ballotpedia's Candidate Connection survey; positions are drawn from Ballotpedia's summary of his campaign website's 'Key Issues' page rather than a direct fetch of that page."
+      "researchNotes": "Matt Little has not completed Ballotpedia's Candidate Connection survey; positions are drawn from Ballotpedia's summary of his campaign website's 'Key Issues' page rather than a direct fetch of that page. Only one recorded floor vote is documented here: unlike the Minnesota House, the Minnesota Senate does not publish a searchable online roll-call database, so individual votes had to be located in scanned Senate Journal PDFs bill-by-bill; within the research budget, other consequential 2017-2020 bills touching the guide's 15 issue categories (e.g. a 2019 universal-background-check gun proposal) were not found to have reached a full Senate floor vote during his term."
     },
     {
       "id": "eric-pratt",
@@ -175,6 +181,14 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.senate.mn/journals/2019-2020/20190430044.pdf",
+      "title": "Journal of the Senate, 44th Day, April 30, 2019 (H.F. No. 2125 final passage roll call, p. 4053-4054)",
+      "publisher": "Minnesota State Senate",
+      "kind": "official",
+      "date": "2019-04-30"
     }
   ],
   "researchedAt": "2026-09-25"

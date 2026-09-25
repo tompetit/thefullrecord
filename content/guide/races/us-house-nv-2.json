@@ -11,41 +11,108 @@
   "context": [
     {
       "text": "This is the only open U.S. House seat in Nevada in 2026: incumbent Mark Amodei (R) retired from public office rather than seek re-election. Twenty-four candidates (11 Democrats, 13 Republicans) filed for the seat, the most of any Nevada district. Teresa Benitez-Thompson, a former Nevada Assembly majority leader, won the Democratic primary; David Flippo, a retired U.S. Air Force officer, won the Republican primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "teresa-benitez-thompson",
       "name": "Teresa Benitez-Thompson",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "currentRole": "Former Nevada State Assemblywoman, District 27 (2010-2022)",
       "summary": {
         "text": "Teresa Benitez-Thompson is the Democratic nominee for the open U.S. House Nevada District 2 seat. She is a former Nevada Assembly member and assembly majority leader who worked as a hospice and adoption social worker.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a master's degree in social work from the University of Michigan; worked as a hospice social worker and adoption social worker before entering politics.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the Nevada State Assembly representing District 27 from November 2010 until leaving office in November 2022; did not seek re-election in 2022.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "In the 2021-2022 legislative session, served on the Assembly Health and Human Services Committee, as vice chair of the Revenue Committee, and on the Ways and Means Committee.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Voted yes on AB 456, which raised Nevada's minimum wage in steps to $12 an hour by 2024.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "votes"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Voted yes on SB 143, which required background checks on private firearm sales and transfers.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "votes"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Voted yes on SB 551, which eliminated a scheduled reduction in the Modified Business Tax on employers to fund additional K-12 education spending.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "votes"
+        }
+      ],
       "record": [
         {
           "text": "Served on the Nevada Assembly Health and Human Services, Revenue (vice chair), and Ways and Means committees during the 2021-2022 session.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Voted yes on AB 456 (raising Nevada's minimum wage in steps to $12 an hour, or $11 for employers offering health insurance, by 2024), which passed the Assembly 28-12 on May 28, 2019.",
+          "date": "2019-05-28",
+          "kind": "vote",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Voted yes on SB 143 (requiring background checks on private firearm sales and transfers), which passed the Assembly 28-13 on February 15, 2019.",
+          "date": "2019-02-15",
+          "kind": "vote",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Voted yes on SB 551 (eliminating a scheduled reduction in the Modified Business Tax on employers to fund an additional $98 million for K-12 education), which passed the Assembly 28-13 on June 3, 2019.",
+          "date": "2019-06-03",
+          "kind": "vote",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -53,38 +120,55 @@
     {
       "id": "david-flippo",
       "name": "David Flippo",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "David Flippo is the Republican nominee for the open U.S. House Nevada District 2 seat. He is a retired U.S. Air Force officer, small business owner, and financial advisor who also ran unsuccessfully for Nevada's 4th District in the same cycle before appearing on the ballot in District 2.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Maryland; served in the U.S. Air Force from 1985 to 2009, commanding more than 1,000 Airmen and establishing three operating bases in Iraq, and later commanding two squadrons overseeing 800 Airmen at Eielson Air Force Base in Alaska.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from Montana State University (1991) and a graduate degree from Valdosta State University (1995).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "After retiring from the Air Force, worked for BP in Alaska for 10 years on a preventive-maintenance program for the North Slope oilfield and the Alaska Pipeline; later became a licensed financial advisor and owns a HobbyTown retail store.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Border security: strengthen border enforcement, increase resources for Border Patrol, and deploy technology and infrastructure including finishing the border wall.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Economic growth: oppose tax increases, cut wasteful government spending, reduce regulations on small business, and strengthen supply chains.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Military and veterans: ensure defense funding keeps forces ready, and expand healthcare, mental health support, and job opportunities for veterans.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -93,21 +177,27 @@
           "stance": "supports",
           "summary": "Says he will strengthen border enforcement, increase resources for Border Patrol and law enforcement, and deploy technology and infrastructure including finishing the border wall.",
           "quote": "I will: Strengthen border enforcement and uphold immigration laws. Increase resources for Border Patrol and law enforcement. Deploy advanced technology and infrastructure including finishing the Wall to stop illegal crossings.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Says he will oppose any attempt to restrict the Second Amendment and defend the rights of law-abiding Americans to keep and bear arms.",
           "quote": "I will oppose any attempt to restrict the Second Amendment and always defend the rights of law-abiding Americans to protect themselves, their families, and their communities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Says he will oppose any and all tax increases and lower taxes whenever possible.",
           "quote": "Oppose any and all tax increases and lower taxes whenever possible",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -116,11 +206,15 @@
     {
       "id": "lynn-chapman",
       "name": "Lynn Chapman",
-      "parties": ["Independent American Party"],
+      "parties": [
+        "Independent American Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Lynn Chapman is the Independent American Party candidate for U.S. House Nevada District 2.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -153,6 +247,30 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2025-01-01"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.leg.state.nv.us/Session/80th2019/Journal/Assembly/Final/aj114.pdf",
+      "title": "Nevada Assembly Journal, Day 114 (May 28, 2019) — roll call on Assembly Bill No. 456 (minimum wage increase to $12/hour)",
+      "publisher": "Nevada Legislature, 80th (2019) Session",
+      "kind": "official",
+      "date": "2019-05-28"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.leg.state.nv.us/Session/80th2019/Journal/Assembly/Final/aj012.pdf",
+      "title": "Nevada Assembly Journal, Day 12 (February 15, 2019) — roll call on Senate Bill No. 143 (background checks for private firearm sales)",
+      "publisher": "Nevada Legislature, 80th (2019) Session",
+      "kind": "official",
+      "date": "2019-02-15"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.leg.state.nv.us/Session/80th2019/Journal/Assembly/Final/aj120.pdf",
+      "title": "Nevada Assembly Journal, Day 120 (June 3, 2019) — roll call on Senate Bill No. 551 (extending the Modified Business Tax to fund K-12 education)",
+      "publisher": "Nevada Legislature, 80th (2019) Session",
+      "kind": "official",
+      "date": "2019-06-03"
     }
   ],
   "researchedAt": "2026-09-25",

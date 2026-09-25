@@ -66,7 +66,15 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Voted yes on SB 93 (allowing concealed carry of firearms with a permit), which the Assembly concurred in 68-27 on 2011-06-21.",
+          "sources": ["s4"],
+          "basis": "votes"
+        }
+      ],
       "record": [
         {
           "text": "Served on the Wisconsin Assembly's Education, Environment and Forestry, Jobs Economy and Mining, and Natural Resources and Sporting Heritage committees during the 2013-2014 legislative session.",
@@ -74,6 +82,24 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "text": "Voted no on Assembly Bill 11, January 2011 Special Session (2011 Wisconsin Act 10, eliminating most collective bargaining for public employees), which the Assembly concurred in 53-42 on 2011-03-10.",
+          "date": "2011-03-10",
+          "kind": "vote",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Voted yes on SB 93 (allowing concealed carry of firearms with a permit), which the Assembly concurred in 68-27 on 2011-06-21.",
+          "date": "2011-06-21",
+          "kind": "vote",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Voted no on AB 7 (requiring photo identification to vote), which passed the Assembly 60-35 on 2011-05-11.",
+          "date": "2011-05-11",
+          "kind": "vote",
+          "sources": ["s6"]
         }
       ],
       "researchDepth": "basic"
@@ -135,6 +161,30 @@
       "title": "Michael Alfonso",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://docs.legis.wisconsin.gov/2011/related/journals/assembly/20110621.pdf",
+      "title": "Journal of the Assembly, June 21, 2011 (Senate Bill 93 concurrence roll call)",
+      "publisher": "Wisconsin State Legislature",
+      "kind": "official",
+      "date": "2011-06-21"
+    },
+    {
+      "id": "s5",
+      "url": "https://docs.legis.wisconsin.gov/2011/related/journals/assembly/20110310jr1.pdf",
+      "title": "Journal of the Assembly, January 2011 Special Session, March 10, 2011 (Assembly Bill 11 concurrence roll call)",
+      "publisher": "Wisconsin State Legislature",
+      "kind": "official",
+      "date": "2011-03-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://docs.legis.wisconsin.gov/2011/related/votes/assembly/av0330",
+      "title": "2011 Assembly Vote 330 (AB 7 passage, Assembly, 2011-05-11)",
+      "publisher": "Wisconsin State Legislature",
+      "kind": "official",
+      "date": "2011-05-11"
     }
   ],
   "researchedAt": "2026-09-25"
