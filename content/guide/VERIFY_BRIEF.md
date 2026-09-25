@@ -32,6 +32,9 @@ standard) and `src/server/guide/types.ts` first.
      ballot is missing. Fix if needed.
    - **Neutrality**: same treatment across candidates; no loaded adjectives;
      no characterizations of opponents repeated as fact.
+   - **NY legislature floor votes are handled by script** (from the official
+     snapshots, shown separately on the page). Do NOT add, edit, or remove record
+     items describing NY Senate/Assembly floor votes. (The Assembly roll-call HTML puts each vote BEFORE the member's name — `<div class='vote'>No</div><div class='name'>Eichenstein</div>` means Eichenstein voted No — so stripped text is easy to misread.)
    - If a source is unreachable (blocked) and the claim is plausible and
      low-stakes, keep it; if it's high-stakes (legal, a quote, a vote) and you
      can't confirm it any other way, remove it.

@@ -74,6 +74,17 @@ export interface KeyVote {
   vote: "yes" | "no" | "present" | "not voting";
 }
 
+export interface StateVote {
+  chamber: string;
+  bill: string;
+  title: string;
+  summary?: string;
+  outcome: string;
+  date: string;
+  vote: "yes" | "no" | "absent";
+  sourceUrl: string;
+}
+
 export interface Finance {
   receipts: number;
   disbursements: number;
@@ -107,6 +118,8 @@ export interface GuideCandidate {
   researchDepth: "full" | "basic" | "minimal";
   /** Filled by scripts: federal key votes (incumbents in Congress) */
   keyVotes?: KeyVote[];
+  /** Filled by scripts: contested NY Senate/Assembly floor votes */
+  stateVotes?: StateVote[];
   /** Filled by scripts: FEC totals */
   finance?: Finance;
   bioguideId?: string;

@@ -11,59 +11,86 @@
   "context": [
     {
       "text": "Incumbent Alfred \"Al\" Taylor (D, WFP) is unopposed on the November ballot. He defeated Julien Segura and Rolando Gomez in the June 23, 2026 Democratic primary, 54.7% to 34.1% to 10.6%. The Republican and Working Families Party primaries scheduled for that date were canceled.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "alfred-taylor",
       "name": "Alfred Taylor",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": true,
       "ballotNote": "Won the June 23, 2026 Democratic primary with 54.7% of the vote against two challengers; unopposed in the general election.",
       "currentRole": "NY State Assembly Member, District 71 (since 2017)",
       "summary": {
         "text": "Alfred \"Al\" Taylor is the Democratic and Working Families Party nominee for re-election in NY State Assembly District 71, running unopposed. He has represented the district, covering Harlem, Washington Heights and Inwood, since winning a special election in 2017, and serves on the Banks, Cities, Education, Election Law, Labor and Rules committees.",
-        "sources": ["s2", "s3"]
+        "sources": [
+          "s2",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a B.A. in Public Communication from Lehman College, a Master of Divinity from Nyack College Alliance Theological Seminary, and a Doctorate of Ministry from Northeastern Seminary.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served as Chief of Staff to former Assemblyman Herman \"Denny\" Farrell Jr. and as a Democratic district leader before his own election.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Founded the \"Man Up! in Harlem\" anti-gun-violence program in 2008, organizing weekly prayer walks at Rucker Park; the model was later replicated in other Upper Manhattan housing projects.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Is the pastor of Infinity Mennonite Church in Harlem.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Assumed office in the New York State Assembly in a special election in fall 2017.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Education and mental-health support for children, particularly children living in temporary housing.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Public safety, including law enforcement accountability and reducing community violence.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Civil rights and addressing racial disparities in housing, education and healthcare.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Veteran services, including support for military families.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -71,52 +98,69 @@
         {
           "text": "Sits on the Banks, Cities, Education, Election Law, Labor and Rules committees in the 2025-2026 session.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Sponsored legislation creating the Law Enforcement Misconduct Investigative Office to oversee cases of police misconduct, which was signed into law.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Sponsored a law requiring childcare services to adopt anaphylaxis policies to protect children with severe allergies, which was signed into law.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Sponsored legislation clarifying emergency-response protocols for incidents involving lithium-ion batteries, which was signed into law.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Sponsored the \"Make Voting Easy Act,\" which requires counties to designate early-voting polling places based on registered-voter populations, and which was signed into law.",
           "kind": "bill",
-          "sources": ["s3"]
-        },
-        {
-          "text": "Voted no on S10113, allowing a cannabis microbusiness licensee to also serve as a processor and cultivator for cannabis showcase events, which passed the Assembly 88-53 on June 5, 2026.",
-          "date": "2026-06-05",
-          "kind": "vote",
-          "sources": ["s4"]
-        },
-        {
-          "text": "Voted yes on S3460, granting employees access to their personnel records and requiring notice and a review opportunity for negative information in those files, which passed the Assembly 92-49 on May 19, 2026.",
-          "date": "2026-05-19",
-          "kind": "vote",
-          "sources": ["s5"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://www.altaylor.org/",
       "researchDepth": "full",
       "researchNotes": "Taylor has not completed a Ballotpedia Candidate Connection survey for 2026 and his campaign website (altaylor.org) could not be reached to verify current position statements, so documented positions on the guide's fixed issue list could not be confirmed directly; his priorities above are drawn from his official Assembly biography rather than mapped to a specific stance."
-      }
+    }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/New_York_State_Assembly_District_71", "title": "New York State Assembly District 71", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Alfred_Taylor_(New_York)", "title": "Alfred Taylor (New York)", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://nyassembly.gov/mem/Al-Taylor/", "title": "Assemblymember Al Taylor - Biography", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10113&term=2025&Summary=Y&Actions=Y&Floor%26nbspVotes=Y", "title": "S10113 - Bill status and floor votes", "publisher": "New York State Assembly", "kind": "official", "date": "2026-06-05" },
-    { "id": "s5", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S03460&term=2025&Summary=Y&Actions=Y&Floor%26nbspVotes=Y", "title": "S3460 - Bill status and floor votes", "publisher": "New York State Assembly", "kind": "official", "date": "2026-05-19" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York_State_Assembly_District_71",
+      "title": "New York State Assembly District 71",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Alfred_Taylor_(New_York)",
+      "title": "Alfred Taylor (New York)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://nyassembly.gov/mem/Al-Taylor/",
+      "title": "Assemblymember Al Taylor - Biography",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-09-25"
+    }
   ],
   "researchedAt": "2026-09-25"
 }

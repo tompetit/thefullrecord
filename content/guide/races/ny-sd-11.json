@@ -11,36 +11,53 @@
   "context": [
     {
       "text": "Incumbent Toby Ann Stavisky advanced from the Democratic primary without appearing on the ballot after two challengers withdrew or were disqualified; Pamela Michos advanced from the Republican and Conservative Party primaries without appearing on the ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "toby-ann-stavisky",
       "name": "Toby Ann Stavisky",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "NY State Senator, District 11 (since 1999; redistricted from District 16 to District 11 in 2023)",
       "summary": {
         "text": "Toby Ann Stavisky is the Democratic incumbent for NY State Senate District 11, first elected to the Senate in 1999. She chairs the Committee on Higher Education and serves as Vice President Pro Tempore of the Senate, and is seeking re-election against Republican and Conservative Party candidate Pamela Michos.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in New York, New York; graduated from the Bronx High School of Science.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Earned a B.A. from Syracuse University, and master's degrees from Queens College and Hunter College.",
-          "sources": ["s1", "s2"]
+          "sources": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "Worked as district manager for Northeast Queens for the 1980 U.S. Census, in the actuarial department of an insurance company, and as a social studies teacher in New York City high schools.",
-          "sources": ["s1", "s2"]
+          "sources": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "First woman from Queens County elected to the New York State Senate, and the first woman to chair the Senate's Higher Education committee.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -49,25 +66,17 @@
         {
           "text": "Chairs the Senate Committee on Higher Education; also serves as Vice President Pro Tempore of the Senate, Trustee of the City University Construction Fund, member of the Higher Education Capital Matching Grants Program Board, and Treasurer of the Legislative Women's Caucus. Also serves on the Education, Ethics and Internal Governance, Finance, Judiciary, Racing/Gaming/Wagering, and Women's Issues committees.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Sponsored S611A (\"Emma's Law\"), granting crime victims the right to be heard at sentencing in certain cases where a felony driving charge causing serious injury is pled down to a misdemeanor; passed the Senate unanimously 62–0 on May 7, 2026 and was pending in Assembly committee as of that date.",
           "date": "2026-05-07",
           "kind": "bill",
-          "sources": ["s6"]
-        },
-        {
-          "text": "Voted yes on S9500-A (GREAT Act), establishing the New York State grid reliability and energy affordability transition program, which passed the Senate 39–21.",
-          "date": "2026-06-01",
-          "kind": "vote",
-          "sources": ["s7"]
-        },
-        {
-          "text": "Voted yes on S8455-B, restricting the sale of flare guns and creating related criminal offenses, which passed the Senate 35–25.",
-          "date": "2026-06-01",
-          "kind": "vote",
-          "sources": ["s8"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "researchDepth": "full"
@@ -75,37 +84,52 @@
     {
       "id": "pamela-michos",
       "name": "Pamela Michos",
-      "parties": ["R", "C"],
+      "parties": [
+        "R",
+        "C"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Pamela Michos is the Republican and Conservative Party candidate for NY State Senate District 11, a Whitestone native and finance professional running as a first-time candidate against incumbent Toby Ann Stavisky.",
-        "sources": ["s9"]
+        "sources": [
+          "s9"
+        ]
       },
       "background": [
         {
           "text": "A Whitestone, Queens native and self-described finance professional; described by an endorsing club as having \"managed billions of dollars.\"",
           "quote": "managed billions of dollars",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "text": "A single mother and Greek American who serves as PTA President of the Stefanos and Areti Cherpelis Hellenic School in Flushing.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "text": "Earlier in her career, worked on health literacy and nutrition education for underprivileged communities in New York City.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Proposes redirecting state spending on services for undocumented immigrants toward a down-payment assistance program for young families: to \"divest the 10 Billion dollars spent on illegal immigration and create a down payment assistance program for young families.\"",
           "quote": "divest the 10 Billion dollars spent on illegal immigration and create a down payment assistance program for young families",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "text": "Supports expanding subsidized maternity leave and worker protections, saying \"No family should ever go bankrupt for having to care for their child.\"",
           "quote": "No family should ever go bankrupt for having to care for their child.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "positions": [],
@@ -136,22 +160,6 @@
       "publisher": "NYSenate.gov",
       "kind": "official",
       "date": "2026-05-07"
-    },
-    {
-      "id": "s7",
-      "url": "https://www.nysenate.gov/legislation/bills/2025/S9500/amendment/A",
-      "title": "S9500-A: Establishes the New York State grid reliability and energy affordability transition (GREAT) act",
-      "publisher": "NYSenate.gov",
-      "kind": "official",
-      "date": "2026-06-01"
-    },
-    {
-      "id": "s8",
-      "url": "https://www.nysenate.gov/legislation/bills/2025/S8455/amendment/B",
-      "title": "S8455-B: Relates to placing restrictions on the sale of flare guns",
-      "publisher": "NYSenate.gov",
-      "kind": "official",
-      "date": "2026-06-01"
     },
     {
       "id": "s9",

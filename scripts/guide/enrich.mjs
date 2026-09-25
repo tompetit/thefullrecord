@@ -184,6 +184,50 @@ for (const race of races) {
     }
   }
 }
+// ---------- NY legislature floor votes (official snapshots in src/server/snapshot)
+// Contested roll calls only (≥5 votes on the losing side), matched by name.
+const stateVotes = {};
+let nState = 0;
+for (const file of ["assembly-ny.json", "senate-ny.json"]) {
+  const snap = JSON.parse(readFileSync(join(ROOT, "src/server/snapshot", file), "utf8"));
+  const contested = snap.rollCalls.filter((rc) => {
+    const v = Object.values(rc.votes);
+    const yes = v.filter((x) => x === "yes").length;
+    const no = v.filter((x) => x === "no").length;
+    return Math.min(yes, no) >= 5;
+  });
+  for (const race of races.filter((r) => r.state === "NY")) {
+    for (const c of race.candidates) {
+      const cn = nameParts(c.name);
+      const hits = snap.members.filter((m) => {
+        const mn = nameParts(m.name);
+        return mn.last === cn.last && (mn.first === cn.first || mn.first.startsWith(cn.first) || cn.first.startsWith(mn.first));
+      });
+      if (hits.length !== 1) continue;
+      const m = hits[0];
+      const list = contested
+        .filter((rc) => rc.votes[m.key])
+        .map((rc) => ({
+          chamber: snap.chamber,
+          bill: rc.bill,
+          title: rc.title,
+          summary: rc.summary,
+          outcome: rc.outcome,
+          date: rc.date,
+          vote: rc.votes[m.key],
+          sourceUrl: rc.sourceUrl,
+        }));
+      if (list.length) {
+        const key = `${race.id}/${c.id}`;
+        stateVotes[key] = [...(stateVotes[key] ?? []), ...list];
+        nState++;
+      }
+    }
+  }
+}
+writeFileSync(join(GEN, "state-votes.json"), JSON.stringify(stateVotes, null, 1));
+console.log(`attached NY legislature floor votes to ${nState} candidates`);
+
 writeFileSync(join(GEN, "members.json"), JSON.stringify(members, null, 1));
 writeFileSync(join(GEN, "finance.json"), JSON.stringify(finance, null, 1));
 console.log(`matched ${nMembers} sitting members of Congress, ${nFinance} FEC finance records across ${races.length} races`);

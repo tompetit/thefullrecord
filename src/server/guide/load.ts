@@ -14,6 +14,7 @@ import type {
   KeyVote,
   OfficeType,
   Stance,
+  StateVote,
 } from "./types";
 
 const ROOT = join(process.cwd(), "content/guide");
@@ -42,6 +43,7 @@ export interface KeyVoteDef {
 interface Enrichment {
   finance: Record<string, Finance>;
   members: Record<string, { bioguideId: string; fecId?: string; keyVotes: KeyVote[] }>;
+  stateVotes: Record<string, StateVote[]>;
 }
 
 let races: Map<string, GuideRace> | null = null;
@@ -118,6 +120,7 @@ function load(): Map<string, GuideRace> {
   const enrich: Enrichment = {
     finance: readJson(join(GEN_DIR, "finance.json"), {}),
     members: readJson(join(GEN_DIR, "members.json"), {}),
+    stateVotes: readJson(join(GEN_DIR, "state-votes.json"), {}),
   };
   const map = new Map<string, GuideRace>();
   let files: string[] = [];
@@ -131,6 +134,8 @@ function load(): Map<string, GuideRace> {
     if (!race?.id) continue;
     for (const c of race.candidates) {
       const key = `${race.id}/${c.id}`;
+      const sv = enrich.stateVotes[key];
+      if (sv) c.stateVotes = sv;
       const fin = enrich.finance[key];
       if (fin) c.finance = fin;
       const mem = enrich.members[key];

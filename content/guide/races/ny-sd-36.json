@@ -11,64 +11,138 @@
   "context": [
     {
       "text": "The Democratic primary for this seat was canceled; incumbent Jamaal Bailey advanced automatically. Grace Marrero advanced to the general election on the Conservative Party line without appearing on a primary ballot, after also being listed as a withdrawn Republican primary candidate.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jamaal-bailey",
       "name": "Jamaal Bailey",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "New York State Senator, District 36 (since January 2017)",
       "summary": {
         "text": "Jamaal Bailey is the Democratic candidate for re-election to New York State Senate District 36, a seat he has held since January 2017. He chairs the Senate Insurance Committee and the Bronx Democratic Party.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Born in 1982 and raised in the Bronx; attended Bronx High School of Science.", "sources": ["s2"] },
-        { "text": "Earned a B.A. from the University at Albany, SUNY, and a J.D. from CUNY School of Law.", "sources": ["s2"] },
-        { "text": "Began his political career as an intern to Assemblymember Carl Heastie, later serving as his district director and as a Democratic district leader in the 83rd Assembly District for six years.", "sources": ["s2"] },
-        { "text": "Won a five-way Democratic primary for the 36th Senate District on September 13, 2016, and has been re-elected in 2018, 2020, 2022 and 2024.", "sources": ["s2"] },
-        { "text": "Chair of the Bronx Democratic Party since September 2020.", "sources": ["s2"] },
-        { "text": "Chairs the Senate Insurance Committee in the 2025–2026 session, after previously chairing the Senate Codes Committee.", "sources": ["s1", "s3"] }
+        {
+          "text": "Born in 1982 and raised in the Bronx; attended Bronx High School of Science.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Earned a B.A. from the University at Albany, SUNY, and a J.D. from CUNY School of Law.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Began his political career as an intern to Assemblymember Carl Heastie, later serving as his district director and as a Democratic district leader in the 83rd Assembly District for six years.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won a five-way Democratic primary for the 36th Senate District on September 13, 2016, and has been re-elected in 2018, 2020, 2022 and 2024.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Chair of the Bronx Democratic Party since September 2020.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Chairs the Senate Insurance Committee in the 2025–2026 session, after previously chairing the Senate Codes Committee.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "On a bill requiring insurance coverage of speech therapy for stuttering: \"We're committed to ensuring every voice, especially those of our youngest, is heard and supported. Stuttering is too often misunderstood and overlooked, and Senate Bill S3654 is a step toward justice in care.\"", "sources": ["s7"] },
-        { "text": "Sponsor's justification for a tenant-eviction bill (S8960-A) notes that \"more than 7,500 New York City households have been evicted on days when temperatures exceeded ninety degrees Fahrenheit\" since 2017, and proposes barring evictions during dangerously hot or cold weather, or declared weather emergencies.", "sources": ["s6"] }
+        {
+          "text": "On a bill requiring insurance coverage of speech therapy for stuttering: \"We're committed to ensuring every voice, especially those of our youngest, is heard and supported. Stuttering is too often misunderstood and overlooked, and Senate Bill S3654 is a step toward justice in care.\"",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Sponsor's justification for a tenant-eviction bill (S8960-A) notes that \"more than 7,500 New York City households have been evicted on days when temperatures exceeded ninety degrees Fahrenheit\" since 2017, and proposes barring evictions during dangerously hot or cold weather, or declared weather emergencies.",
+          "sources": [
+            "s6"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Voted yes on the GREAT Act (S9500-A), which passed the Senate 39–21 and establishes a virtual power plant program and incentives for distributed energy resources to reduce energy costs and grid strain.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "Voted yes on S8455-B, which passed the Senate 56–4 and creates new criminal offenses restricting the sale of flare guns.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Sponsored S8960-A, a bill that would bar the execution of residential eviction warrants during dangerously hot or cold weather, or declared weather emergencies, and the 72 hours after.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Sponsored S3654-A, requiring health insurers to cover habilitative and rehabilitative speech therapy for stuttering without durational limits; it passed the Senate 57–1 in June 2025 but was vetoed by the Governor in October 2025.",
-          "sources": ["s7", "s10"]
+          "sources": [
+            "s7",
+            "s10"
+          ]
         }
       ],
       "record": [
-        { "text": "Sponsored S3654-A, mandating health-insurance coverage for speech therapy treating stuttering; passed the Senate 57–1 on June 10, 2025, passed both chambers, and was vetoed by the Governor on October 16, 2025.", "date": "2025-10-16", "kind": "bill", "sources": ["s10"] },
-        { "text": "Sponsored S8960-A, a bill that would bar residential evictions during dangerously hot or cold weather, or weather emergencies; amended and recommitted to the Senate Housing, Construction and Community Development Committee on March 24, 2026, and has not passed either house.", "date": "2026-03-24", "kind": "bill", "sources": ["s6"] },
-        { "text": "Chairs the Senate Insurance Committee for the 2025–2026 legislative session.", "kind": "action", "sources": ["s1"] },
-        { "text": "Voted yes on the GREAT Act (S9500-A), a grid-reliability and energy-affordability bill that passed the Senate 39–21 on June 1, 2026.", "date": "2026-06-01", "kind": "vote", "sources": ["s8"] },
-        { "text": "Voted yes on S8455-B, restricting the sale of flare guns, which passed the Senate 56–4 on June 1, 2026.", "date": "2026-06-01", "kind": "vote", "sources": ["s9"] }
+        {
+          "text": "Sponsored S3654-A, mandating health-insurance coverage for speech therapy treating stuttering; passed the Senate 57–1 on June 10, 2025, passed both chambers, and was vetoed by the Governor on October 16, 2025.",
+          "date": "2025-10-16",
+          "kind": "bill",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Sponsored S8960-A, a bill that would bar residential evictions during dangerously hot or cold weather, or weather emergencies; amended and recommitted to the Senate Housing, Construction and Community Development Committee on March 24, 2026, and has not passed either house.",
+          "date": "2026-03-24",
+          "kind": "bill",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Chairs the Senate Insurance Committee for the 2025–2026 legislative session.",
+          "kind": "action",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "website": "https://www.nysenate.gov/senators/jamaal-t-bailey",
       "researchDepth": "full"
@@ -76,22 +150,56 @@
     {
       "id": "grace-marrero",
       "name": "Grace Marrero",
-      "parties": ["C"],
+      "parties": [
+        "C"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced to the general election on the Conservative Party line without appearing on a primary ballot; also listed as a withdrawn candidate from the Republican primary.",
       "summary": {
         "text": "Grace Marrero is a retired Bronx resident running for New York State Senate District 36 on the Conservative Party line. She previously ran for State Assembly District 80 in 2024, losing that Republican primary.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
-        { "text": "Born in the Bronx, New York.", "sources": ["s4"] },
-        { "text": "Earned a high school diploma from Christopher Columbus High School and a bachelor's degree from the University of Texas at Austin in 1980.", "sources": ["s4"] },
-        { "text": "Ran for New York State Assembly District 80 in 2024, losing the Republican primary to Phyllis Nastasio.", "sources": ["s4"] }
+        {
+          "text": "Born in the Bronx, New York.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Earned a high school diploma from Christopher Columbus High School and a bachelor's degree from the University of Texas at Austin in 1980.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Ran for New York State Assembly District 80 in 2024, losing the Republican primary to Phyllis Nastasio.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "\"I will fight to repeal bail reform legislation. I will also fight for law enforcement which has been decimated by these laws.\"", "sources": ["s5"] },
-        { "text": "\"I will fight to repeal our sanctuary state status.\"", "sources": ["s5"] },
-        { "text": "\"My objective is to further help my community by securing a position that will enable me to continue to fight in a more effective way & to positively affect the lives of everyday people.\"", "sources": ["s5"] }
+        {
+          "text": "\"I will fight to repeal bail reform legislation. I will also fight for law enforcement which has been decimated by these laws.\"",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "\"I will fight to repeal our sanctuary state status.\"",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "\"My objective is to further help my community by securing a position that will enable me to continue to fight in a more effective way & to positively affect the lives of everyday people.\"",
+          "sources": [
+            "s5"
+          ]
+        }
       ],
       "positions": [
         {
@@ -99,14 +207,18 @@
           "stance": "supports",
           "summary": "Says she would work to repeal New York's sanctuary-state policies.",
           "quote": "I will work to remove NYS sanctuary status.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Urged a 'no' vote on New York's 2024 Equal Rights Amendment ballot measure (Proposal 1), which added pregnancy outcomes and other categories to the state constitution's equal-protection clause.",
           "quote": "I URGE everyone to vote NO! to prop 1 on the back of the ballot.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],

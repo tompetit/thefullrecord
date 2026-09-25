@@ -11,32 +11,46 @@
   "context": [
     {
       "text": "Both the Democratic and Republican/Conservative primaries scheduled for June 23, 2026 were canceled; incumbent Nikki Lucas (D) and Norman Ramsay (R, Conservative) each advanced without appearing on a primary ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "nikki-lucas",
       "name": "Nikki Lucas",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "NY State Assembly Member, District 60 (since February 2022)",
       "summary": {
         "text": "Nikki Lucas is the incumbent Democratic Assembly Member for District 60, first elected in a February 2022 special election. A more-than-30-year resident of Starrett City, she founded The People First Democratic Club and has focused much of her legislative work on reparations and East New York community issues.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Lucas earned a degree in liberal arts from the Borough of Manhattan Community College and continued studies at Syracuse University, majoring in policy studies and conflict resolution.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "She founded and served as president of The People First Democratic Club and The People First Education Fund, and has been affiliated with HealthyNYC.",
-          "sources": ["s2", "s3"]
+          "sources": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "She is a more-than-30-year resident of Starrett City and describes herself as an advocate for East New York residents, having implemented programs intended to uplift Brooklyn residents.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -45,50 +59,50 @@
           "issue": "guns",
           "stance": "supports",
           "summary": "Sponsored a bill requiring firearm owners to carry at least $1 million in liability insurance.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [
         {
           "text": "Assigned to the Aging, Economic Development/Job Creation/Commerce and Industry, Energy, Health, Housing, and Labor committees (2023-2024 and 2025-2026 sessions).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Voted yes on the New York State Community Commission on Reparations Remedies bill, the first reparations-related bill passed by the Assembly, saying she got a commitment on the record that the commission's study would be lineage-based.",
           "date": "2023-06-08",
           "kind": "vote",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Prime sponsor of A05603, the 'New York State American Freedmen Task Force on Reparations Remedies Act,' which would establish a state task force to examine and make determinations on reparations for descendants of American slavery; referred to committee, no floor vote as of September 2026.",
-          "date": "2025-05-08",
+          "date": "2025-02-18",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Prime sponsor of A08284, the 'New York State Freedmen's Bureau Act,' which would create a state freedmen's bureau to administer reparations; referred to committee, no floor vote as of September 2026.",
           "date": "2025-05-08",
           "kind": "bill",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Prime sponsor of A05611, which would require firearm owners to carry at least $1 million in liability insurance; referred to the Insurance Committee, no floor vote as of September 2026.",
           "date": "2025-02-18",
           "kind": "bill",
-          "sources": ["s4"]
-        },
-        {
-          "text": "Voted yes on S3460, granting employees access to personnel records and requiring notice of negative information in those records; passed the Assembly 92-49.",
-          "date": "2026-05-19",
-          "kind": "vote",
-          "sources": ["s8"]
-        },
-        {
-          "text": "Voted yes on S10113, which allows a cannabis microbusiness licensee to also serve as a processor and cultivator for cannabis showcase events; passed the Assembly 88-53.",
-          "date": "2026-06-05",
-          "kind": "vote",
-          "sources": ["s9"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://nyassembly.gov/mem/Nikki-Lucas",
@@ -97,34 +111,49 @@
     {
       "id": "norman-ramsay",
       "name": "Norman Ramsay",
-      "parties": ["R", "C"],
+      "parties": [
+        "R",
+        "C"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Norman Ramsay is a lifelong Brooklyn resident, small-business owner, and Executive Director of BK5860, Inc. running as the Republican and Conservative Party candidate for the open contest against incumbent Nikki Lucas.",
-        "sources": ["s10"]
+        "sources": [
+          "s10"
+        ]
       },
       "background": [
         {
           "text": "Ramsay describes his candidacy as 'A Story of Redemption and Service,' saying his life reflects perseverance and personal growth turned into service to others.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
-          "text": "He is the founding Executive Director of BK5860, Inc., which he says works to connect residents with resources, support youth development, assist seniors, promote public safety, and create economic opportunity.",
-          "sources": ["s10"]
+          "text": "He is the Executive Director of BK5860, Inc., which he says works to connect residents with resources, support youth development, assist seniors, promote public safety, and create economic opportunity.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"Our seniors built our communities. They deserve dignity, security, and protection.\"",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "text": "\"Protect the Home. Protect the Family. Protect the Future.\"",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "text": "\"Opportunity Creates Stability. Employment Creates Independence.\"",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "positions": [],
@@ -189,22 +218,6 @@
       "publisher": "New York State Assembly",
       "kind": "official",
       "date": "2025-05-08"
-    },
-    {
-      "id": "s8",
-      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S03460&term=2025&Summary=Y&Actions=Y&Floor%26nbspVotes=Y",
-      "title": "S3460 - Relates to granting employees access to personnel records (Assembly floor vote)",
-      "publisher": "New York State Assembly / New York State Senate",
-      "kind": "official",
-      "date": "2026-05-19"
-    },
-    {
-      "id": "s9",
-      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S10113&term=2025&Summary=Y&Actions=Y&Floor%26nbspVotes=Y",
-      "title": "S10113 - Cannabis microbusiness showcase event permits (Assembly floor vote)",
-      "publisher": "New York State Assembly / New York State Senate",
-      "kind": "official",
-      "date": "2026-06-05"
     },
     {
       "id": "s10",

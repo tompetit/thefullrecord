@@ -11,52 +11,76 @@
   "context": [
     {
       "text": "Incumbent Sam Berger advanced from the Democratic and Conservative Party primaries without appearing on the ballot; the only Republican candidate, Alfredo Centola, withdrew or was disqualified before the primary. Berger is unopposed in the November 3, 2026 general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "sam-berger",
       "name": "Sam Berger",
-      "parties": ["D", "C"],
+      "parties": [
+        "D",
+        "C"
+      ],
       "incumbent": true,
       "currentRole": "NY State Assembly Member, District 27 (since 2023)",
       "summary": {
         "text": "Sam Berger is the Democratic and Conservative Party incumbent for NY State Assembly District 27, first elected in a 2023 special election. An attorney, he serves on the Aging, Judiciary, Insurance, Mental Health, Social Services and Veterans' Affairs committees, and is running unopposed for re-election.",
-        "sources": ["s1", "s2", "s3"]
+        "sources": [
+          "s1",
+          "s2",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree and a law degree from St. John's University.",
-          "sources": ["s1", "s2"]
+          "sources": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "Gained legal experience through externships with the Kings County Surrogate's Court and the Queens County Supreme Court, Criminal Term.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "A lifelong resident of the district and father of three; worked as an attorney and community advocate before taking office.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the Aging, Judiciary, Insurance, Mental Health, Social Services and Veterans' Affairs committees in the 2025-2026 session.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Public safety, which he calls \"the most important issue in my district,\" citing federal grants he secured for the 107th Precinct and funding he directed to the 109th Precinct and Queens Shmira.",
           "quote": "the most important issue in my district",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Addressing the mental health workforce shortage by advancing licensure legislation that reduces barriers for aspiring mental health professionals while maintaining quality standards.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Responsive constituent services, saying \"our responsibility...is to address every concern brought to us by the residents we serve.\"",
           "quote": "Our responsibility...is to address every concern brought to us by the residents we serve.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -64,45 +88,53 @@
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says public safety is his district's most important issue and has secured federal grants and directed local funding to the 107th and 109th Precincts.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [
         {
           "text": "Sponsored A2139-A, the \"Honoring Our Pledge to Eliminate Antisemitism (HOPE) act,\" which would require state agencies and courts to consider the International Holocaust Remembrance Alliance's definition of antisemitism when investigating discrimination complaints; referred to the Codes Committee as of January 2026.",
           "kind": "bill",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Sponsored A109, requiring financial-education instruction for pupils in grades nine through twelve; referred to the Education Committee.",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Sponsored A6594, giving admissions preference to a sibling of a current student applying to the same New York City public elementary or middle school; referred to the Education Committee.",
           "kind": "bill",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Sponsored A4020, providing a state tax credit for installing residential fire sprinkler systems; referred to the Ways and Means Committee.",
           "kind": "bill",
-          "sources": ["s8"]
-        },
-        {
-          "text": "Voted no on S3460, which grants employees access to their personnel records and requires notice and a review opportunity for negative information; passed the Assembly 92-49 on May 19, 2026.",
-          "date": "2026-05-19",
-          "kind": "vote",
-          "sources": ["s9"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Sponsored the Ignazio Giacalone Act, providing additional retirement credits to children and siblings of deceased NYC sanitation workers who died from service-related illness after 9/11.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Sponsored Gittel's Law, expanding the penal code to include licensed mental health counselors and marriage/family therapists among professionals whose sexual misconduct during treatment sessions can be prosecuted.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://www.sambergerforassembly.com/",
@@ -167,14 +199,6 @@
       "title": "A04020: Provides a tax credit for the installation of fire sprinkler systems",
       "publisher": "New York State Assembly",
       "kind": "official"
-    },
-    {
-      "id": "s9",
-      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S03460&term=2025&Summary=Y&Actions=Y&Floor%26nbspVotes=Y",
-      "title": "S03460: Relates to granting employees access to personnel records",
-      "publisher": "New York State Assembly",
-      "kind": "official",
-      "date": "2026-05-19"
     }
   ],
   "researchedAt": "2026-09-25",

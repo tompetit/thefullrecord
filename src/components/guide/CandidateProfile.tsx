@@ -77,6 +77,36 @@ export function KeyVoteList({ candidate }: { candidate: GuideCandidate }) {
   );
 }
 
+export function StateVoteList({ candidate }: { candidate: GuideCandidate }) {
+  const rows = [...(candidate.stateVotes ?? [])].sort((a, b) => b.date.localeCompare(a.date));
+  if (!rows.length) return null;
+  const word = { yes: "yes", no: "no", absent: "not voting" } as const;
+  return (
+    <ul className="flex flex-col divide-y divide-hairline-soft rounded-lg border border-card bg-paper-raised">
+      {rows.map((r) => {
+        const v = VOTE_WORD[word[r.vote]] ?? VOTE_WORD["not voting"];
+        return (
+          <li key={r.chamber + r.bill + r.date} className="flex items-start gap-3 px-3 py-2.5">
+            <span className={`mt-0.5 w-[74px] flex-none rounded-md border-[1.5px] px-1.5 py-0.5 text-center font-serif text-[12.5px] font-black ${v.cls}`}>
+              {v.w}
+            </span>
+            <span className="min-w-0 font-sans text-[12.5px] leading-snug text-ink-80">
+              <span className="font-semibold text-ink">{r.title}</span>{" "}
+              <span className="text-ink-45">
+                · {r.bill} · {r.outcome} · {r.date}
+              </span>{" "}
+              <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer" className="whitespace-nowrap font-semibold text-accent">
+                official record ↗
+              </a>
+              {r.summary && <span className="mt-0.5 block text-[12px] text-ink-60">{r.summary}</span>}
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 export function FinanceLine({ candidate }: { candidate: GuideCandidate }) {
   const f = candidate.finance;
   if (!f) return null;
@@ -182,6 +212,16 @@ export function CandidateProfile({
       {(c.keyVotes?.length ?? 0) > 0 && (
         <Block title="Key votes in Congress (2025–26)">
           <KeyVoteList candidate={c} />
+        </Block>
+      )}
+
+      {(c.stateVotes?.length ?? 0) > 0 && (
+        <Block title="Contested floor votes in Albany (2026 session)">
+          <StateVoteList candidate={c} />
+          <p className="mt-1.5 font-sans text-[11.5px] text-ink-45">
+            Roll calls where at least five members voted on the losing side, read from the
+            legislature&rsquo;s official records.
+          </p>
         </Block>
       )}
 
