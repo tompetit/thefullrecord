@@ -1,0 +1,126 @@
+{
+  "id": "us-house-tx-3",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Texas's 3rd District",
+  "area": "Collin County and part of Denton County, in the northern Dallas suburbs",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Keith Self (R) defeated Mark Newgent in the March 3, 2026 Republican primary. Evan Hunt won the Democratic primary unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "keith-self",
+      "name": "Keith Self",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 3rd District (since 2023)",
+      "summary": {
+        "text": "Keith Self is the Republican incumbent U.S. Representative for Texas's 3rd Congressional District, a retired Army officer and former Collin County Judge.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Philadelphia, Pennsylvania, in 1953; earned an engineering degree from the United States Military Academy in 1975 and a graduate degree from the University of Southern California in 1981.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the U.S. Army from 1975 to 2003 and later worked as a defense contractor.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as Collin County Judge (the county's chief administrative officer) from 2007 to 2018.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Veterans' Affairs, including the Subcommittee on Disability Assistance and Memorial Affairs, in the 2025–2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "No Ballotpedia Candidate Connection survey or curated key-messages profile was found for Self in this race's coverage; positions on specific issues were not documented from the sources checked."
+    },
+    {
+      "id": "evan-hunt",
+      "name": "Evan Hunt",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary unopposed",
+      "summary": {
+        "text": "Evan Hunt is a 20-year military veteran and combat aviator running as the Democratic nominee for Texas's 3rd Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Describes himself as a 20-year military veteran and combat aviator, and as a community and business leader.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he will push for federal investments in public schools, healthcare access, transportation, and infrastructure to keep pace with the district's rapid population growth.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Says he wants to \"get big money out of our politics\" by working to repeal Citizens United, instituting term limits for members of Congress, and preventing insider stock trading by members of Congress.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports federal investment to expand healthcare access, citing healthcare providers closing in the district.",
+          "quote": "That means fighting for federal investments in public schools, healthcare access, transportation, and infrastructure—investments that benefit the overwhelming majority of residents.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Supports expanding access to affordable childcare as part of reducing cost pressures on working families.",
+          "quote": "We need to reduce the everyday cost pressures facing young and working families, starting with healthcare reforms, but also the construction of affordable housing, expanding access to affordable childcare, and preventing corporations from buying up entire neighborhoods of single-family homes and driving up prices.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports construction of more affordable housing and opposes corporate buyouts of single-family homes.",
+          "quote": "the construction of affordable housing, expanding access to affordable childcare, and preventing corporations from buying up entire neighborhoods of single-family homes and driving up prices",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Texas%27_3rd_Congressional_District_election,_2026",
+      "title": "Texas' 3rd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Keith_Self",
+      "title": "Keith Self",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

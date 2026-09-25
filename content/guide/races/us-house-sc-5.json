@@ -1,0 +1,113 @@
+{
+  "id": "us-house-sc-5",
+  "state": "SC",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · South Carolina's 5th District",
+  "area": "South Carolina's 5th Congressional District (north-central South Carolina, including Rock Hill and Sumter)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Open seat: incumbent Ralph Norman (R) withdrew and did not appear on the June 9, 2026 Republican primary ballot. That primary was then canceled and Wes Climer, a sitting state senator, advanced as the Republican nominee.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Mallory Dittmer won the Democratic primary on June 9, 2026 with 55.8% of the vote, defeating Andrew Clough.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "wes-climer",
+      "name": "Wes Climer",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced without a primary after the Republican primary was canceled",
+      "currentRole": "South Carolina State Senator, District 15 (since 2016)",
+      "summary": {
+        "text": "Wes Climer is a South Carolina state senator (District 15) running as the Republican nominee for South Carolina's 5th Congressional District.",
+        "sources": ["s2"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Chairs the South Carolina Senate's Agriculture and Natural Resources Committee (2025-2026) and serves on the Family and Veterans' Services, Finance, Labor Commerce and Industry, and Transportation committees.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Climer has not completed Ballotpedia's Candidate Connection survey in 2020, 2024, or 2026, and no campaign-website issue statements were located within the research budget. Specific sponsored bills were not extracted from Ballotpedia's BillTrack50-sourced table within the research budget."
+    },
+    {
+      "id": "mallory-dittmer",
+      "name": "Mallory Dittmer",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the Democratic primary (June 9, 2026) with 55.8% of the vote",
+      "summary": {
+        "text": "Mallory Dittmer is a former fashion-industry executive running as the Democratic nominee for South Carolina's 5th Congressional District.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Worked as an executive in the fashion industry before running for Congress.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says the top priority she has heard from voters is the cost of living — groceries, gas, healthcare, and housing — and that she will prioritize economic and trade policies to curb inflation and lower costs.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says she will support raising the minimum wage.",
+          "quote": "I'll support raising the minimum wage, making childcare more affordable, reversing cuts to health care programs and lowering housing prices through government programs and tax incentives.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will work to reverse cuts to healthcare programs.",
+          "quote": "reversing cuts to health care programs",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/South_Carolina%27s_5th_Congressional_District_election,_2026",
+      "title": "South Carolina's 5th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Wes_Climer",
+      "title": "Wes Climer",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Mallory_Dittmer",
+      "title": "Mallory Dittmer",
+      "publisher": "Ballotpedia (Candidate Connection survey)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. This is an open seat (no sitting House incumbent), so Climer's record reflects his current state-senate role rather than federal service; a Forward Party candidate (Andy Kaplan) who won that party's convention withdrew before the general election per Ballotpedia and is not included."
+}
