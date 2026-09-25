@@ -35,18 +35,56 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Says he believes all Americans deserve access to high-quality, affordable healthcare and supports infusing free-market principles and cost transparency into the health care system rather than a government takeover.", "sources": ["s5"] },
+        { "text": "Says the country is threatened by a debt crisis from unrestrained federal deficits and supports a Balanced Budget Amendment along with reduced federal regulation.", "sources": ["s6"] },
+        { "text": "Supports an \"all of the above\" energy strategy that includes increasing domestic energy production alongside incentives for renewable energy development.", "sources": ["s7"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Opposes amnesty and has voted against amnesty bills; supports enhanced penalties for deported criminals who return to the U.S. and cosponsored legislation implementing border security initiatives.",
+          "quote": "Congressman Bilirakis does not support amnesty or allowing those who have broken our nation's immigration laws to begin a path to citizenship.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Describes himself as a staunch opponent of socialized medicine and a government takeover of health care, and says Obamacare is broken.",
+          "quote": "Congressman Bilirakis believes all Americans deserve access to high quality, affordable healthcare, which is why he is a staunch opponent of socialized medicine.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says he is proud of the 2017 tax reform law, which lowered the top tax rate on businesses from 39.6% to 25% and cut the corporate tax rate to 21%.",
+          "quote": "The top tax rate on these businesses is 25%, a significant reduction from the previous 39.6% rate. Additionally, the corporate tax rate has been lowered to 21%.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "mixed",
+          "summary": "Supports an \"all of the above\" energy strategy that combines increased domestic (including fossil fuel) production with incentives for renewable energy development, rather than a faster shift away from fossil fuels.",
+          "quote": "Congressman Bilirakis firmly supports an \"all of the above\" energy strategy that includes increasing domestic production, providing incentives for the development of renewable resources, and promoting conservation.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the Committee on Energy and Commerce, chairing its Commerce, Manufacturing, and Trade Subcommittee, and to the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, for the 2025-2026 Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Cosponsored the Securing America's Future Act, providing a three-year renewable legal status for DACA recipients tied to ending chain migration, the visa lottery system, enhanced penalties for deported criminals who return, and border security initiatives.",
+          "kind": "bill",
+          "sources": ["s4"]
         }
       ],
       "website": "https://bilirakisforcongress.com/",
-      "researchDepth": "basic",
-      "researchNotes": "Bilirakis has not completed Ballotpedia's 2026 Candidate Connection survey; no additional sourced statements of current priorities or issue positions were found in the time available."
+      "researchDepth": "full",
+      "researchNotes": "Bilirakis has not completed Ballotpedia's 2026 Candidate Connection survey; priorities and positions are drawn from his official House issues pages."
     },
     {
       "id": "kimberly-overman",
@@ -136,6 +174,14 @@
       "title": "Kimberly Overman",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://bilirakis.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Gus Bilirakis",
+      "kind": "candidate",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",

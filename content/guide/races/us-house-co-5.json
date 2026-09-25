@@ -44,9 +44,26 @@
           "text": "In an interview, said he sees the race as a choice between a candidate focused on opposing President Trump and one focused on representing the community regardless of who is president.",
           "quote": "The question, and I think this will be one in this race, is, does this community just want somebody who's anti-Trump to fight and push back on Trump? Or do they want somebody who, no matter who the president is, whether it's Joe Biden or Donald Trump, is going to go try and work to represent this community and get the best things for this community that they can?",
           "sources": ["s2"]
+        },
+        { "text": "Lowering health care premium costs, citing his vote for the Lower Health Care Premiums for All Americans Act, which he says offers alternatives to extending ACA subsidies.", "sources": ["s7"] },
+        { "text": "Keeping electricity and energy costs low by advancing grid reliability measures, citing his vote for the Grid Power Act.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Voted against extending enhanced Affordable Care Act premium subsidies without what he called serious reform, saying Congress should focus on lowering costs and expanding competition instead.",
+          "quote": "I cannot support an extension of the ACA subsidies without serious reform. Congress cannot keep writing a blank check to Obamacare and slapping a subsidy band-aid on a healthcare system that remains fundamentally unaffordable. Congress needs to focus on real reforms that lower costs, improve and expand competition so consumers have real choices.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Said he will not support extending ACA subsidies without closing what he calls a taxpayer-funded abortion loophole in healthcare, and says he will continue to oppose taxpayer funding of abortion.",
+          "quote": "I can never support an extension of the ACA subsidies without closing the biggest taxpayer-funded abortion loophole in healthcare. Taxpayer funding of abortions is something I will never be flexible on, and I will continue to fight for protections for the unborn.",
+          "sources": ["s6"]
         }
       ],
-      "positions": [],
       "record": [
         {
           "text": "Serves on the House Committee on Natural Resources (Energy and Mineral Resources; Water, Wildlife and Fisheries subcommittees) and the House Committee on Armed Services (Cyber, Information Technologies, and Innovation; Military Personnel; Strategic Forces subcommittees) in the 119th Congress.",
@@ -54,7 +71,8 @@
           "sources": ["s2"]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Issue positions above are drawn from statements on his official House website; roll-call votes themselves are not listed here as they are added separately by script."
     },
     {
       "id": "jessica-killin",
@@ -190,6 +208,30 @@
       "title": "Mark Elworth Jr.",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://crank.house.gov/media/press-releases/rep-crank-votes-lower-electricity-costs",
+      "title": "Rep. Crank Votes to Lower Electricity Costs",
+      "publisher": "Office of Rep. Jeff Crank",
+      "kind": "official",
+      "date": "2025-09-18"
+    },
+    {
+      "id": "s6",
+      "url": "https://crank.house.gov/media/press-releases/congress-cannot-keep-writing-blank-check-obamacare-rep-crank-votes-against-aca",
+      "title": "\"Congress Cannot Keep Writing a Blank Check to Obamacare.\" Rep. Crank Votes Against ACA Extension, Protects Unborn Lives",
+      "publisher": "Office of Rep. Jeff Crank",
+      "kind": "official",
+      "date": "2026-01-08"
+    },
+    {
+      "id": "s7",
+      "url": "https://crank.house.gov/media/press-releases/rep-crank-votes-lower-health-care-premiums",
+      "title": "Rep. Crank Votes to Lower Health Care Premiums",
+      "publisher": "Office of Rep. Jeff Crank",
+      "kind": "official",
+      "date": "2025-12-17"
     }
   ],
   "researchedAt": "2026-09-25",

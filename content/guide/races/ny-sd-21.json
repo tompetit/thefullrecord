@@ -53,7 +53,29 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Advocated for a higher minimum wage than the $8.75 rate then in effect, saying low-wage earners needed a wage they could actually live on.",
+          "quote": "Although $8.75 is a welcome start, it does not provide low-wage earners with a true minimum wage that they can live upon.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supported continuing a higher state income-tax rate on millionaires, citing New Jersey data that higher earners taxed at a greater rate were not leaving the state.",
+          "quote": "studies from our neighboring state of New Jersey, where millionaires are taxed at a greater rate, have shown that the millionaires are not going to leave",
+          "sources": ["s10"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Sponsored a tax-abatement bill for electric energy storage, describing it as a step toward a cleaner energy future for New York.",
+          "quote": "With the passage of my Tax Abatement Bill, we are taking a decisive step toward a cleaner, more resilient energy future for New York.",
+          "sources": ["s11"]
+        }
+      ],
       "record": [
         {
           "text": "Sponsored S1329, which would direct utilities to limit residential fixed charges to costs directly tied to metering, billing, service connections, and customer service. It passed the Senate 46-14 in January 2025 and again 46-16 in February 2026; as of those votes it remained in the Assembly Energy Committee.",
@@ -192,6 +214,30 @@
       "title": "NY State Senate Bill S2011-A",
       "publisher": "NYSenate.gov",
       "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.nysenate.gov/newsroom/press-releases/2013/kevin-s-parker/senator-parker-advocates-true-minimum-wage-bill",
+      "title": "Senator Parker Advocates for a True Minimum Wage Bill",
+      "publisher": "NYSenate.gov",
+      "kind": "official",
+      "date": "2013"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.nysenate.gov/newsroom/press-releases/2011/kevin-s-parker/senator-parker-applauds-governor-protecting-middle",
+      "title": "Senator Parker Applauds the Governor for Protecting Middle Class New Yorkers",
+      "publisher": "NYSenate.gov",
+      "kind": "official",
+      "date": "2011"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.nysenate.gov/newsroom/press-releases/2025/kevin-s-parker/senator-kevin-s-parker-leads-clean-energy-and",
+      "title": "Senator Kevin S. Parker Leads on Clean Energy and Affordability with Groundbreaking Electric Storage Incentive Bill",
+      "publisher": "NYSenate.gov",
+      "kind": "official",
+      "date": "2025"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -36,8 +36,25 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says bringing jobs and opportunities to every corner of the district is her top priority, and runs an annual Job Fair connecting jobseekers and employers.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says she is leading the fight in Congress to restore the Voting Rights Act of 1965 through the John R. Lewis Voting Rights Advancement Act, which she reintroduced in the 118th Congress.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she strongly supports the Affordable Care Act, citing its protections against denial of coverage for pre-existing conditions and caps on out-of-pocket costs.",
+          "quote": "That is why I strongly support President Obama’s health care plan and the health care reform signed in to law last March.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means (Oversight, Social Security, and Trade subcommittees) and the Committee on House Administration (Elections Subcommittee) in the 119th Congress (2025-2026).",
@@ -48,11 +65,17 @@
           "text": "Served as Ranking Member of the House Administration Committee's Elections Subcommittee and on the House Committee on Armed Services (Military Personnel Subcommittee) in the 118th Congress (2023-2024).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Sponsored the John R. Lewis Voting Rights Advancement Act, reintroduced in the 118th Congress on September 19, 2023, which would restore federal preclearance requirements under the Voting Rights Act of 1965.",
+          "kind": "bill",
+          "date": "2023-09-19",
+          "sources": ["s7"]
         }
       ],
       "website": "https://sewell.house.gov",
-      "researchDepth": "basic",
-      "researchNotes": "Sewell has not completed a recent Ballotpedia Candidate Connection survey and no distinct 2026 campaign issues page was found as of the research date; priorities and issue positions were not documented and are left blank rather than inferred."
+      "researchDepth": "full",
+      "researchNotes": "Sewell has not completed a recent Ballotpedia Candidate Connection survey and no distinct 2026 campaign issues page was found; positions and priorities are drawn from the issue pages on her official House site, some of which have not been updated with dated statements in recent years."
     },
     {
       "id": "ammie-akin",
@@ -120,6 +143,27 @@
       "title": "Terri Sewell",
       "publisher": "Wikipedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://sewell.house.gov/economy",
+      "title": "Economy",
+      "publisher": "Office of Rep. Terri Sewell",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://sewell.house.gov/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Terri Sewell",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://sewell.house.gov/voting-rights",
+      "title": "Voting Rights",
+      "publisher": "Office of Rep. Terri Sewell",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

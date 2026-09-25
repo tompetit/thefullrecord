@@ -31,8 +31,26 @@
         { "text": "Earned a bachelor's degree in liberal studies from the University of Notre Dame, a J.D. from the University of Denver Sturm College of Law (2008), and an LL.M. from Columbia Law School (2010).", "sources": ["s2"] },
         { "text": "Worked at the Grand Junction Area Chamber of Commerce, clerked for 10th Circuit Judge Timothy Tymkovich, and co-owned a law firm.", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Lowering household energy costs, opposing state and federal regulations he says push families toward more expensive heating and electricity options.", "sources": ["s5"] },
+        { "text": "Co-led a bipartisan framework (the HOPE Act / \"CommonGround 2025\") to temporarily extend enhanced Affordable Care Act premium tax credits with new income caps and anti-fraud safeguards.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Criticized state and federal climate-driven regulations that push households and utilities away from natural gas toward electric heat pumps and other mandates, calling the added costs a \"hidden tax\" on families.",
+          "quote": "I’m fighting those in Congress for the same reason I’m fighting this one: working families should not have to bankroll regulatory experiments. Energy policy should start with common sense, not mandates.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Co-led the bipartisan HOPE Act to extend enhanced Affordable Care Act premium tax credits for two years, with new income caps and anti-fraud provisions, to prevent a spike in health-insurance premiums.",
+          "quote": "The HOPE Act is a practical, bipartisan solution that maintains affordability, enhances transparency, and improves accountability while Congress works toward long-term reforms that will make our health-care system more stable and more affordable.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Natural Resources Committee's Indian and Insular Affairs Subcommittee and serves on the Committee on Transportation and Infrastructure and the Committee on Science, Space, and Technology in the 119th Congress (2025-2026).",
@@ -42,7 +60,7 @@
       ],
       "website": "https://hurd.house.gov/",
       "researchDepth": "basic",
-      "researchNotes": "As a sitting member of Congress, detailed floor votes and FEC finance totals are added separately by script; this entry focuses on committee roles per the research assignment's division of labor."
+      "researchNotes": "As a sitting member of Congress, detailed floor votes and FEC finance totals are added separately by script. Issue positions above are drawn from his official House website's Issues and Media sections."
     },
     {
       "id": "dwayne-romero",
@@ -135,7 +153,9 @@
     { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026", "title": "United States House of Representatives elections in Colorado, 2026", "publisher": "Ballotpedia", "kind": "reference" },
     { "id": "s2", "url": "https://ballotpedia.org/Jeff_Hurd", "title": "Jeff Hurd", "publisher": "Ballotpedia", "kind": "reference" },
     { "id": "s3", "url": "https://ballotpedia.org/Dwayne_Romero", "title": "Dwayne Romero", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s4", "url": "https://romeroforcolorado.com/issues", "title": "Issues", "publisher": "Romero for Colorado", "kind": "candidate" }
+    { "id": "s4", "url": "https://romeroforcolorado.com/issues", "title": "Issues", "publisher": "Romero for Colorado", "kind": "candidate" },
+    { "id": "s5", "url": "https://hurd.house.gov/media/op-eds/making-life-less-affordable-one-hidden-tax-time", "title": "Making Life Less Affordable, One Hidden Tax at a Time", "publisher": "Office of Rep. Jeff Hurd", "kind": "official", "date": "2025-12-08" },
+    { "id": "s6", "url": "https://hurd.house.gov/media/press-releases/hurd-suozzi-bacon-gottheimer-introduce-bill-avert-healthcare-affordability", "title": "Hurd, Suozzi, Bacon, Gottheimer Introduce Bill to Avert Healthcare Affordability Crisis: The Bipartisan Hope Act", "publisher": "Office of Rep. Jeff Hurd", "kind": "official", "date": "2025-11-21" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Federal key votes and FEC finance totals for incumbent Hurd are added separately by script. Cory Robertson (Libertarian) and Clifton Brown (unaffiliated) have no discoverable public statements beyond the Ballotpedia ballot listing."

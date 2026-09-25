@@ -40,8 +40,32 @@
           "sources": ["s1"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says she remains committed to expanding and reforming the Section 8 Housing Choice Voucher Program so tenants do not lose housing assistance due to budget shortfalls.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says she remains committed to supporting initiatives that reduce health disparities and ensure equitable care for all.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Introduced legislation to reform, improve and expand the Section 8 Housing Choice Voucher Program, including provisions to ensure no tenant loses rental assistance due to budget shortfalls.",
+          "quote": "I introduced the Section Eight Voucher Reform Act of 2009 (H.R. 3045) legislation to reform, improve and expand Section 8 so it can help meet the needs of American families facing economic challenges.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Condemned the Trump administration's efforts to target sanctuary cities and expand its mass deportation agenda.",
+          "quote": "Congresswoman Maxine Waters (D-CA), the top Democrat on the House Financial Services Committee, issued the following statement condemning Donald Trump and his Administration's efforts to weaponize federal resources and government authority to target sanctuary cities and expand his mass deportation agenda, including reported proposals that could disrupt operations at major airports like Los Angeles International Airport (LAX).",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Financial Services for the 2025-2026 term; chaired the committee from 2019 to 2023 and served as ranking member from 2023 to 2025.",
@@ -50,8 +74,8 @@
         }
       ],
       "website": "https://waters.house.gov/",
-      "researchDepth": "basic",
-      "researchNotes": "No 2026 campaign website statements or Candidate Connection survey responses were found beyond committee-assignment history."
+      "researchDepth": "full",
+      "researchNotes": "No 2026 campaign website statements or Candidate Connection survey responses were found. Positions above are drawn from her official House issues pages; her health-care, immigration and criminal-justice issue pages otherwise consist of press-release listings without further statements matching the fixed issue set (e.g. no direct statement on abortion, guns, or police funding was found)."
     },
     {
       "id": "cristian-morales",
@@ -105,6 +129,27 @@
       "title": "Cristian Morales Ballotpedia Candidate Connection survey (2022)",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://waters.house.gov/issues/housing/section-8-housing-voucher-reform",
+      "title": "Section 8 Housing Voucher Reform",
+      "publisher": "Office of Rep. Maxine Waters",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://waters.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Maxine Waters",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://waters.house.gov/media-center/press-releases/congresswoman-maxine-waters-slams-trump-administration-efforts-to-weaponize-federal-power-to-harm-los-angeles-lax-and-other-sanctuary-cities",
+      "title": "Congresswoman Maxine Waters Slams Trump Administration Efforts to Weaponize Federal Power to Harm Los Angeles, LAX and Other Sanctuary Cities",
+      "publisher": "Office of Rep. Maxine Waters",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

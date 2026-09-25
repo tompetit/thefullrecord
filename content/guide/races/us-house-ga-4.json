@@ -36,16 +36,71 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he will continue to advocate for a public health insurance option, push for greater consumer protections, and support increased investments in health care research.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says he remains committed to advancing legislation that protects ecosystems, enhances EPA regulation, and promotes clean energy independence.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says he remains committed to creating jobs, extending unemployment benefits when needed, protecting workers' rights, and supporting middle-class tax relief.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "His official site says he has introduced, cosponsored, and voted for gun-violence-prevention bills including the Bipartisan Safer Communities Act, and supports legislation to establish universal background checks.",
+          "quote": "Congressman Johnson is a strong supporter of gun reform legislation. He has introduced, cosponsored, and voted for bills that work to end the epidemic of gun violence in America; including the Bipartisan Safer Communities Act. Congressman Johnson supports legislation that would establish universal background checks.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His official site says he will continue to advocate for a public health insurance option.",
+          "quote": "Looking ahead, he will continue to advocate for a public health insurance option, push for greater consumer protections, and support increased investments in health care research.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "His official site says he has worked to protect tenants' rights as part of his housing agenda.",
+          "quote": "He has worked tirelessly to address the housing needs of Georgia's 4th District by advocating for increased funding for affordable housing programs, protecting tenants' rights, and supporting policies that combat housing discrimination.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His official site says he acknowledges the urgent need to combat climate change and remains committed to legislation promoting clean energy independence.",
+          "quote": "He acknowledges the urgent need to combat climate change, protect clean water, and curb harmful industrial practices.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "His official site says he led efforts to increase wages by voting for the Raise the Wage Act.",
+          "quote": "Hank led efforts to increase wages by voting for the Raise the Wage Act and co-sponsored critical job-supporting bills like the Summer Jobs Act and the Federal Jobs Guarantee Development Act.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on the Judiciary (Courts, Intellectual Property, Artificial Intelligence, and the Internet Subcommittee; Oversight Subcommittee; The Administrative State, Regulatory Reform, and Antitrust Subcommittee) and the Committee on Transportation and Infrastructure (Aviation; Highways and Transit; Railroads, Pipelines, and Hazardous Materials subcommittees) in the 119th Congress (2025-2026).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the Cure Hepatitis C Act of 2026 with Rep. Diana DeGette and Rep. Mariannette Miller-Meeks, a bipartisan bill to create a nationwide, federally coordinated hepatitis C testing and treatment elimination program.",
+          "date": "2026-07-15",
+          "kind": "bill",
+          "sources": ["s9"]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "full"
     },
     {
       "id": "james-duffie",
@@ -113,6 +168,54 @@
       "title": "James Duffie",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://hankjohnson.house.gov/issues/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Hank Johnson",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://hankjohnson.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Hank Johnson",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://hankjohnson.house.gov/issues/environment",
+      "title": "Environment",
+      "publisher": "Office of Rep. Hank Johnson",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://hankjohnson.house.gov/issues/economy-and-jobs",
+      "title": "Economy and Jobs",
+      "publisher": "Office of Rep. Hank Johnson",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://hankjohnson.house.gov/issues/housing",
+      "title": "Housing",
+      "publisher": "Office of Rep. Hank Johnson",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://hankjohnson.house.gov/media-center/press-releases/congressman-johnson-introduces-historic-bill-fight-hepatitis-c",
+      "title": "Congressman Johnson Introduces Historic Bill To Fight Hepatitis C",
+      "publisher": "Office of Rep. Hank Johnson",
+      "kind": "candidate",
+      "date": "2026-07-15"
     }
   ],
   "researchedAt": "2026-09-25",
