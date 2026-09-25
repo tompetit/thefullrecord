@@ -1,0 +1,138 @@
+{
+  "id": "us-house-tx-24",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "24",
+  "title": "U.S. House · Texas's 24th Congressional District",
+  "area": "North Texas suburbs of Dallas-Fort Worth, including Irving, Coppell, and parts of Denton, Tarrant, and Collin counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the May 26, 2026 Democratic primary runoff, Kevin Burge defeated TJ Ware, 78.1% to 21.9%, to advance to the general election.",
+      "sources": ["s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "beth-van-duyne",
+      "name": "Beth Van Duyne",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2021)",
+      "summary": {
+        "text": "Beth Van Duyne is the incumbent Republican U.S. Representative for Texas's 24th District, a former Irving mayor and HUD regional administrator who was unopposed in the 2026 Republican primary.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a B.A. in city/regional planning and government and law from Cornell University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a consultant and as regional administrator of the U.S. Department of Housing and Urban Development's Southwest Region; served on Irving City Council (2004-2010) and as Mayor of Irving (2011-2017).",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Small Business (Chairman, Economic Growth, Tax, and Capital Access subcommittee) and the House Committee on Ways and Means (Oversight, Tax, Trade, and Work and Welfare subcommittees) in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "V000134"
+    },
+    {
+      "id": "kevin-burge",
+      "name": "Kevin Burge",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 26, 2026 Democratic primary runoff with 78.1% of the vote",
+      "summary": {
+        "text": "Kevin Burge is a U.S. Marine Corps veteran and former defense intelligence officer who won the Democratic primary runoff to challenge Rep. Beth Van Duyne.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Marine Corps Reserve from 2003 to 2011, including two deployments to Iraq and one to Afghanistan.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Earned a master's degree in sustainable development from North Carolina State University; worked at the Defense Intelligence Agency and later as a technical advisor in the White House Situation Room.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "In his 2026 Ballotpedia survey, named affordability as the district's main challenge, citing housing, healthcare, childcare, and utility and insurance costs.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Said he would work in Congress to roll back tariffs, expand grants for technical skills training, and fund universal pre-K.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Listed foreign policy priorities of strong global alliances, restoring congressional war authority, and congressional oversight of trade and military action.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says he would work to roll back tariffs imposed under the Trump administration, citing their inflationary effects.",
+          "quote": "I'll work to roll back Trump's Tariffs and their inflationary effects",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Says he would fund programs such as universal pre-K.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists universal healthcare among the public policy areas he is personally passionate about.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Beth_Van_Duyne",
+      "title": "Beth Van Duyne",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Kevin_Burge_(Texas)",
+      "title": "Kevin Burge — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Van Duyne's positions are limited to official committee assignments; no 2026 Candidate Connection survey or campaign-site statements were found for her at research time. Federal key votes and FEC totals for the incumbent are added separately by script."
+}

@@ -1,0 +1,132 @@
+{
+  "id": "us-house-tx-32",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "32",
+  "title": "U.S. House · Texas's 32nd District",
+  "area": "A Dallas-area district covering parts of Dallas and Collin counties, including Richardson and Garland.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional map for the 2026 election cycle, and this is an open seat with no incumbent on the general-election ballot. Dan Barrios defeated Anthony Bridges in the March 3, 2026 Democratic primary with 60.4% of the vote. The Republican primary runoff between Jace Yarbrough and Ryan Binkley was canceled after Binkley withdrew, and Yarbrough advanced as the Republican nominee.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "dan-barrios",
+      "name": "Dan Barrios",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary with 60.4% of the vote",
+      "currentRole": "Richardson City Council member",
+      "summary": {
+        "text": "Dan Barrios is a Richardson, Texas city councilman running for the open 32nd Congressional District seat. He holds an MBA in strategic management from the University of North Texas and has worked in executive sales and as a teacher.",
+        "sources": ["s2", "s3"]
+      },
+      "background": [
+        { "text": "Earned an MBA in strategic management from the University of North Texas.", "sources": ["s2"] },
+        { "text": "Worked in executive sales and taught business courses at the high school and college level.", "sources": ["s2"] },
+        { "text": "Currently serves on the Richardson, Texas City Council.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Supports investments in education and workforce development.", "sources": ["s3"] },
+        { "text": "Says he backs policies that help small businesses grow and create local jobs.", "sources": ["s3"] },
+        { "text": "Says he is committed to transparent, accountable government and expanding access to affordable, quality medical care.", "quote": "I am passionate about building transparent and accountable government that people can trust. I care deeply about education and ensuring every child has the opportunity to succeed, as well as expanding access to affordable, quality medical care.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he is committed to expanding access to affordable, quality medical care.",
+          "quote": "expanding access to affordable, quality medical care",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "jace-yarbrough",
+      "name": "Jace Yarbrough",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced as the Republican nominee after the scheduled May 26, 2026 primary runoff against Ryan Binkley was canceled",
+      "currentRole": "Attorney",
+      "summary": {
+        "text": "Jace Yarbrough is an attorney and former U.S. Air Force officer running for the open 32nd Congressional District seat. He holds a law degree from Stanford Law School and describes himself as having fought legal battles over COVID-19 vaccine mandates and military policy.",
+        "sources": ["s2", "s4"]
+      },
+      "background": [
+        { "text": "Served in the U.S. Air Force (Space Force).", "sources": ["s2", "s4"] },
+        { "text": "Earned a bachelor's degree from the University of Texas at Austin and a law degree from Stanford Law School in 2018.", "sources": ["s2"] },
+        { "text": "Worked as an attorney, including litigation with First Liberty Institute; says he served as an election-integrity lawyer for Donald Trump's campaign.", "sources": ["s4"] }
+      ],
+      "priorities": [
+        { "text": "Supports finishing a wall on the U.S.-Mexico border and ending \"catch-and-release\" immigration policy.", "sources": ["s4"] },
+        { "text": "Supports tax cuts, expanded domestic energy production, and reduced federal spending.", "sources": ["s4"] },
+        { "text": "Opposes U.S. military involvement in foreign conflicts he says do not directly threaten the United States, describing his position as \"peace through strength.\"", "quote": "We must prioritize defending America—not foreign borders while ours remains wide open. I support peace through strength: a powerful military that deters aggression without deploying into unnecessary wars.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports finishing a border wall and ending \"catch-and-release,\" and says he opposes abuse of visa and immigration programs.",
+          "quote": "President Trump needs reinforcements who will finish the wall, end catch-and-release, and stop illegal immigration threatening our workers and communities.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "Supports tariffs and trade measures aimed at bringing manufacturing back to the U.S. and countering countries he says cheat on trade.",
+          "quote": "I support President Trump's fight to bring American manufacturing home, confront hostile foreign regimes that cheat and steal from us, and restore our economic independence.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Calls for cutting taxes rather than raising them, as part of a platform of tax cuts and reduced spending.",
+          "quote": "We must cut taxes, unleash energy production, end wasteful spending, and demand fair trade",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Dan_Barrios",
+      "title": "Dan Barrios",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Dan_Barrios",
+      "title": "Dan Barrios - Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Jace_Yarbrough",
+      "title": "Jace Yarbrough - Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "This is an open seat under Texas's 2026 congressional map. No official campaign website content was independently reviewed beyond Ballotpedia listings; positions rely on each candidate's Ballotpedia Candidate Connection survey responses."
+}

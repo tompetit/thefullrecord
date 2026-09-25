@@ -1,0 +1,176 @@
+{
+  "id": "us-house-pa-4",
+  "state": "PA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Pennsylvania's 4th District",
+  "area": "Parts of Montgomery and Berks counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Madeleine Dean advanced from the Democratic primary unopposed. Aurora Stuski won the Republican primary unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "madeleine-dean",
+      "name": "Madeleine Dean",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Madeleine Dean is the Democratic incumbent, in the U.S. House since 2019 after serving in the Pennsylvania House of Representatives from 2012 to 2018. She serves on the Judiciary and Foreign Affairs committees.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Philadelphia in 1959; earned a B.A. in English language and literature from La Salle University (1981) and a J.D. from Widener University School of Law (1984).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a professor, lawyer, and columnist before serving in the Pennsylvania House of Representatives from 2012 to 2018.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "In the 118th Congress served on the Judiciary Committee (as vice chair in 2021-2022) and the Foreign Affairs Committee.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Reintroduced legislation to protect children from gun violence and introduced the Gun Violence Prevention Through Financial Intelligence Act with colleagues.",
+          "kind": "bill",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Reintroduced a bill with Sen. Gillibrand to empower victims of significant PFAS exposure to sue manufacturers.",
+          "date": "2025-12-04",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Announced celebration of the first national standard to limit PFAS pollution in drinking water, and toured an EPA Superfund cleanup site in her district.",
+          "date": "2024-04-10",
+          "kind": "action",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Voted for the CHIPS and Science Act, which she said would lower families' costs and boost American manufacturing.",
+          "date": "2022-07-28",
+          "kind": "vote",
+          "sources": ["s6"]
+        }
+      ],
+      "website": "https://dean.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "D000631"
+    },
+    {
+      "id": "aurora-stuski",
+      "name": "Aurora Stuski",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19, 2026 Republican primary unopposed.",
+      "summary": {
+        "text": "Aurora Stuski is a West Norriton, Montgomery County business owner running as the Republican nominee. She is the founder and owner of AAS Appraisal Lab, a jewelry and collectibles appraisal business, and describes her platform around limited government, lower taxes on homeowners, and community safety.",
+        "sources": ["s7"]
+      },
+      "background": [
+        {
+          "text": "Has lived in West Norriton, Montgomery County, for more than 35 years after moving from Philadelphia in 1987.",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Founder and owner of AAS Appraisal Lab, an appraisal business for jewelry, coins and collectibles in Montgomery County since 1989; is a Graduate Gemologist.",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Serves as a board member of West Norriton United, a community civic organization.",
+          "sources": ["s7"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign focuses on \"safe communities, a stronger economy, secure borders, and government that answers to the people.\"",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Says she is focused on reducing the tax burden on homeowners, protecting seniors from being forced out of their homes, and preserving green space in West Norriton.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://aurora4pa.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Pennsylvania,_2026",
+      "title": "United States House of Representatives elections in Pennsylvania, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Madeleine_Dean",
+      "title": "Madeleine Dean",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://dean.house.gov/gun-violence-prevention",
+      "title": "Gun Violence Prevention | Congresswoman Madeleine Dean",
+      "publisher": "Office of Rep. Madeleine Dean",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://dean.house.gov/health",
+      "title": "Health | Congresswoman Madeleine Dean",
+      "publisher": "Office of Rep. Madeleine Dean",
+      "kind": "official",
+      "date": "2025-12-04"
+    },
+    {
+      "id": "s5",
+      "url": "https://dean.house.gov/environment",
+      "title": "Environment | Congresswoman Madeleine Dean",
+      "publisher": "Office of Rep. Madeleine Dean",
+      "kind": "official",
+      "date": "2024-04-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://dean.house.gov/economy",
+      "title": "Economy | Congresswoman Madeleine Dean",
+      "publisher": "Office of Rep. Madeleine Dean",
+      "kind": "official",
+      "date": "2022-07-28"
+    },
+    {
+      "id": "s7",
+      "url": "https://aurora4pa.com/meet-aurora/",
+      "title": "Meet Aurora - Aurora Stuski for Congress PA-04",
+      "publisher": "Aurora Stuski for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://aurora4pa.com/",
+      "title": "Aurora Stuski for Congress PA-04 | Republican Candidate",
+      "publisher": "Aurora Stuski for Congress",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Stuski's campaign site discusses several issue areas (food safety, a Pennsylvania regulation, education) in blog posts, but does not state clear stances on any of the guide's fixed issue keys, so no positions are documented for her. Federal key votes and FEC totals for Dean are added separately by script."
+}
