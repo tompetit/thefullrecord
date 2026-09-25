@@ -1,0 +1,186 @@
+{
+  "id": "us-house-pa-1",
+  "state": "PA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Pennsylvania's 1st District",
+  "area": "Bucks County and part of Montgomery County, in the Philadelphia suburbs.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Brian Fitzpatrick won the May 19, 2026 Republican primary unopposed. Bob Harvie won the Democratic primary, defeating Lucia Simonelli.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "brian-fitzpatrick",
+      "name": "Brian Fitzpatrick",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2017)",
+      "summary": {
+        "text": "Brian Fitzpatrick is the Republican incumbent, first elected in 2016 to succeed his brother Michael Fitzpatrick. He serves on the Ways and Means Committee and chairs the Intelligence Committee's CIA subcommittee, and co-chairs the bipartisan Problem Solvers Caucus.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Graduated from Bishop Egan High School, earned a bachelor's degree from Penn State University and a law degree from the Dickinson School of Law.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as an FBI supervisory special agent and special assistant United States attorney; is a certified public accountant and certified emergency medical technician.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Serves on the Ways and Means Committee (Health and Tax subcommittees) and chairs the Central Intelligence Agency subcommittee of the House Intelligence Committee in the 119th Congress (2025-2026).",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Introduced a bipartisan measure to bar members of Congress from profiting off earmarks (announced September 17, 2026).",
+          "date": "2026-09-17",
+          "kind": "bill",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Led a bipartisan effort to shield ratepayers from data center costs that passed the House (announced September 16, 2026).",
+          "date": "2026-09-16",
+          "kind": "bill",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Helped secure final passage of the Lindsey O. Graham Sanctioning Russia and Iran Act (announced September 16, 2026).",
+          "date": "2026-09-16",
+          "kind": "vote",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://fitzpatrick.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "F000466"
+    },
+    {
+      "id": "bob-harvie",
+      "name": "Bob Harvie",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19, 2026 Democratic primary, defeating Lucia Simonelli.",
+      "currentRole": "Chair, Bucks County Board of Commissioners",
+      "summary": {
+        "text": "Bob Harvie is a Democrat and the chair of the Bucks County Board of Commissioners, first elected commissioner in 2019 and re-elected in 2023. He spent 26 years as a public school social studies teacher at Bucks County Technical High School before entering local office.",
+        "sources": ["s3", "s4"]
+      },
+      "background": [
+        {
+          "text": "Taught social studies for 26 years at Bucks County Technical High School.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Elected to the Bucks County Board of Commissioners in November 2019, sworn in January 6, 2020; re-elected to a second term in November 2023.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Named chair of the Board of Commissioners in January 2022 and again in January 2025, after serving as vice chair.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Wants to permanently restore and expand Affordable Care Act premium tax credits, lower the Medicare buy-in age from 65 to 55, and let Medicare negotiate prescription drug prices and cap insulin costs.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Supports a middle-class tax cut while ensuring large corporations and the ultra-wealthy \"pay their fair share.\"",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Wants to roll back tariffs he says raise consumer prices and raise the federal minimum wage to $15 per hour.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Supports overturning Citizens United, banning corporate PAC contributions, banning congressional stock trading, and a lifetime lobbying ban for former members of Congress.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports permanently restoring ACA premium tax credits, lowering the Medicare eligibility age to 55, and letting Medicare negotiate drug prices.",
+          "quote": "I'll fight to permanently restore and expand those tax credits so families don't wake up to hundreds of dollars in higher monthly premiums simply because Congress failed to act. I believe we need to lower the age that Americans can buy into Medicare from 65 to 55.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports a middle-class tax cut paid for by ensuring large corporations and the ultra-wealthy pay a higher share.",
+          "quote": "I'll fight for a middle class tax cut while ensuring large corporations and the ultra-wealthy pay their fair share so middle class Americans get a much needed tax cut.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports raising the federal minimum wage to $15 per hour.",
+          "quote": "For too long, the minimum wage in this country has remained stagnant. I believe we need to raise the minimum wage to $15 per hour.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Opposes the tariffs enacted under the Trump administration, saying they raise costs for food and household goods.",
+          "quote": "I will fight to roll back Trump's tariffs that unnecessarily increase the cost of food and household essentials for American consumers.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports expanding clean energy and modernizing the electric grid, and criticized the 2025 reconciliation law for cutting clean-energy tax credits.",
+          "quote": "That's why I'll fight to expand clean energy, modernize our electric grid, and build resilient roads, bridges, and public transit systems that keep our economy moving.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://bobharvieforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Brian_Fitzpatrick",
+      "title": "Brian Fitzpatrick",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://fitzpatrick.house.gov/media/press-releases",
+      "title": "Press Releases | Congressman Brian Fitzpatrick",
+      "publisher": "Office of Rep. Brian Fitzpatrick",
+      "kind": "official",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "s3",
+      "url": "https://bobharvieforcongress.com/priorities",
+      "title": "Priorities - Bob Harvie for Congress",
+      "publisher": "Bob Harvie for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://bobharvieforcongress.com/",
+      "title": "Home - Bob Harvie for Congress",
+      "publisher": "Bob Harvie for Congress",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Harvie's record as Bucks County commissioner (budgets, votes) was not separately verified beyond his campaign biography; no county-level record items included. Federal key votes and FEC totals for Fitzpatrick are added separately by script."
+}
