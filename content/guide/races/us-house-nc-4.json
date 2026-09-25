@@ -51,8 +51,40 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Delivering relief to working families facing higher costs, including offsetting the impact of tariffs on everyday expenses.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Government oversight and accountability, including of U.S. military assistance abroad and immigration enforcement agencies.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Introduced the American Tariff Rebate Act to send direct tax rebates to middle-class families to offset the cost of the President's tariffs.",
+          "quote": "The American Tariff Rebate Act puts money directly back into the pockets of middle-class families by providing swift, direct tax rebates to offset the costs associated with the President's tariffs and the rising cost of everyday expenses.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Voted for an amendment to restrict U.S. military assistance to Israel, saying Congress must exercise oversight over how that assistance is provided.",
+          "quote": "Today, I supported Congressman Massie's amendment because Congress must exercise its oversight role and ensure accountability in how U.S. military assistance is provided.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Transportation and Infrastructure (Highways and Transit; Railroads, Pipelines, and Hazardous Materials subcommittees) and the Committee on Science, Space, and Technology, where she was ranking member of the Investigations and Oversight subcommittee in the 118th Congress.",
@@ -61,11 +93,19 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "text": "Introduced the American Tariff Rebate Act, which would provide direct tax rebates to offset the cost of tariffs for middle-class families.",
+          "date": "2026-09-18",
+          "kind": "bill",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "website": "https://www.valeriefoushee.com/",
       "researchDepth": "basic",
-      "researchNotes": "Federal key votes and FEC totals for this sitting member of Congress are added separately. Committee assignments reflect the most recent listing found (118th Congress, 2023-2024); an updated 2025-2026 assignment list was not confirmed within the research budget."
+      "researchNotes": "Federal key votes and FEC totals for this sitting member of Congress are added separately. Committee assignments reflect the most recent listing found (118th Congress, 2023-2024); an updated 2025-2026 assignment list was not confirmed within the research budget. Positions are drawn from her official House press releases; her sponsored-legislation list and other press releases (ICE detention center oversight, prison commissary pricing, medical waste, grad student housing) were also checked but did not squarely match an ISSUES statement."
     },
     {
       "id": "mahesh-ganorkar",
@@ -199,6 +239,23 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://foushee.house.gov/media/press-releases/rep-foushee-introduces-legislation-todeliverdirectrelief-tofamiliesfacing-higher-costs",
+      "title": "Rep. Foushee Introduces Legislation to Deliver Direct Relief to Families Facing Higher Costs",
+      "publisher": "Office of Rep. Valerie Foushee",
+      "kind": "candidate",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "s7",
+      "url": "https://foushee.house.gov/media/press-releases/rep-foushee-supports-massie-amendment-rejects-gop-foreign-affairs-funding-bill-with-harmful-riders",
+      "title": "Rep. Foushee Supports Massie Amendment, Rejects GOP Foreign Affairs Funding Bill with Harmful Riders",
+      "publisher": "Office of Rep. Valerie Foushee",
+      "kind": "candidate",
+      "date": "2026-07-15"
+    },
     }
   ],
   "researchedAt": "2026-09-25",

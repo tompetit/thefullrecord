@@ -47,8 +47,48 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Campaign website says she supports President Trump's border security efforts, including finishing the wall and deporting criminal immigrants in the country illegally.", "quote": "She fully supports President Trump’s efforts to restore border security—by backing law enforcement, finishing the wall, and deporting criminal illegal aliens to protect American communities.", "sources": ["s8"] },
+        { "text": "Campaign website says she is a fiscal conservative who supports a Balanced Budget Amendment and cutting government spending.", "quote": "Erin is a committed fiscal conservative and has the track record to prove it, and as a champion for Indiana’s Balanced Budget Amendment, she is bringing that same fiscal discipline to Washington.", "sources": ["s8"] },
+        { "text": "Campaign website says the government should get out of the way of small businesses, citing cutting red tape, promoting free markets, and controlling spending.", "quote": "Erin knows the best way to create jobs and grow the economy is to get the government out of the way and let small business owners do what they do best", "sources": ["s8"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign website says she supports finishing the border wall and deporting immigrants in the country illegally who have committed crimes.",
+          "quote": "She fully supports President Trump’s efforts to restore border security—by backing law enforcement, finishing the wall, and deporting criminal illegal aliens to protect American communities.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Campaign website says she believes the U.S. has a moral obligation to unequivocally defend Israel.",
+          "quote": "Erin believes that we as a nation have a moral obligation to unequivocally defend Israel.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Campaign website says she is pro-life and has advocated for prohibiting late-term abortions; she has earned an A+ rating from the Susan B. Anthony List.",
+          "quote": "Erin is pro-life and always has been. She has been a steadfast leader in the fight for the unborn, consistently advocating for the prohibition of late-term abortions",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign website says she is a firm believer in protecting the constitutional right to bear arms.",
+          "quote": "Erin is a firm believer that the Second Amendment is one of our most important freedoms, and she understands the importance of protecting our constitutional right to bear arms.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Campaign website says she will fight to ensure police officers have the resources, support, and compensation they need, and opposes defunding the police.",
+          "quote": "Erin will always fight to ensure our officers have the necessary resources to do their jobs effectively and safely, and they have the support and compensation they deserve. Erin will never allow radical left-wing politicians to defund the police.",
+          "sources": ["s8"]
+        }
+      ],
       "record": [],
       "website": "https://houchin.house.gov",
       "researchDepth": "basic",
@@ -199,8 +239,16 @@
       "title": "Floyd Taylor",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.erinhouchin.com/issues",
+      "title": "Erin Houchin on the Issues",
+      "publisher": "Erin Houchin for Congress",
+      "kind": "candidate",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website, priorities, or documented positions were found for Erin Houchin's 2026 campaign beyond her official biography and committee assignments; her official 'Issues' site page lists topic categories with no substantive text, and she has not completed a 2026 Candidate Connection survey. No public statements were found for Floyd Taylor, a declared write-in independent. Houchin's federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Erin Houchin has not completed a 2026 Candidate Connection survey, and her official houchin.house.gov site has no substantive Issues content beyond topic categories. Positions and priorities are drawn from her campaign website, erinhouchin.com/issues. No public statements were found for Floyd Taylor, a declared write-in independent. Houchin's federal key votes and FEC totals are added separately by script."
 }

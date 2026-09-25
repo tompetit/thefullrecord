@@ -64,8 +64,34 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Official site says every human life is precious and should be protected from conception, and supports pro-life pregnancy centers.", "quote": "I firmly believe that life begins at conception, and unborn children should be afforded the same natural and God-given rights as all other living persons.", "sources": ["s3"] },
+        { "text": "Official site says he supports legislation upholding Second Amendment rights.", "quote": "I am proud to support legislation that upholds the Second Amendment rights of the American people.", "sources": ["s3"] },
+        { "text": "Official site calls for an all-of-the-above energy strategy prioritizing oil, gas, biofuels, and renewables rather than what he calls a Green New Deal agenda.", "quote": "we need an all-of-the-above energy strategy that prioritizes American oil, gas, biofuels, and renewables, not a Green New Deal agenda that picks winners and losers", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Official site says life begins at conception and unborn children should have the same rights as other people, and supports pro-life pregnancy centers.",
+          "quote": "I firmly believe that life begins at conception, and unborn children should be afforded the same natural and God-given rights as all other living persons.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Official site says he supports legislation upholding Second Amendment rights and opposes efforts he describes as attempts to strip away the right to keep and bear arms.",
+          "quote": "We can no longer sit idle and watch Washington Democrats attempt to strip away our right to keep and bear arms in pursuit of their progressive agenda.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Official site calls for an all-of-the-above energy strategy prioritizing oil and gas production and opposes what he calls a Green New Deal agenda.",
+          "quote": "not a Green New Deal agenda that picks winners and losers",
+          "sources": ["s3"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Agriculture, where he chairs the Livestock, Dairy, and Poultry subcommittee, and on the House Committee on Transportation and Infrastructure (2025-2026 assignments).",

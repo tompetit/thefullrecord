@@ -47,9 +47,46 @@
         {
           "text": "His official biography highlights limiting government influence, easing tax and regulatory burdens, and protecting individual rights as recurring priorities from his time in the Idaho Senate through Congress.",
           "sources": ["s2"]
+        },
+        {
+          "text": "Border security and immigration enforcement, citing his 2020 trip to the southern border and testimony to a House Appropriations subcommittee on the need to fund border security.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Reducing the national debt and deficit, calling the current fiscal trajectory unsustainable and a risk to future generations.",
+          "sources": ["s9"]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says he is pro-life, that life begins at conception, and that he has voted against every bill that does not uphold the right to life for the unborn.",
+          "quote": "I am strongly and consistently pro-life — both at the beginning and at the end of life. Life begins at conception, and every unborn child has the inherent right to life. The unborn are the least capable of defending themselves, and in the most desperate need of protection. I have voted against every bill that does not uphold the right to life for the unborn and my first speech on the House floor emphasized my pro-life values and the need to protect the unborn.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he is a staunch defender of the 2nd Amendment, stands against efforts to erode the right to bear arms, and will continue to support legislation that advances gun rights.",
+          "quote": "I have always been a staunch defender of the 2nd Amendment and I stand against efforts to erode any American’s constitutional right to bear arms. I will continue to support legislation that advances 2nd Amendment rights of law-abiding citizens.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he particularly supports the border wall construction, closing asylum-process loopholes, and initiatives to end federal funding to sanctuary cities that were part of the first Trump administration's immigration policy.",
+          "quote": "I particularly support the 400 new miles of border wall constructed, closing loopholes in the asylum process, giving state and local governments more input on refugee resettlement, and initiatives to end federal funding to sanctuary cities.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Says the Affordable Care Act caused premiums to skyrocket and that he has supported measures to move the country away from what he calls the Obama-era path toward socialized medicine, favoring patient-centered alternatives instead.",
+          "quote": "In Congress, I have supported specific measures to move our country away from the Obama-era path towards socialized medicine, and instead to a system that puts medical decisions in the hands of patients, families, and their doctors– not bureaucrats in Washington or health insurance conglomerates.",
+          "sources": ["s10"]
+        }
+      ],
       "record": [
         {
           "text": "Currently sits on the House Committee on Energy and Commerce and the House Committee on Natural Resources; previously served on the House Committee on Education and the Workforce.",
@@ -192,8 +229,48 @@
       "title": "Kaylee Peterson",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://fulcher.house.gov/legislation/key-issues-2/border-security-and-immigration/",
+      "title": "Border Security and Immigration",
+      "publisher": "Office of Rep. Russ Fulcher",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://fulcher.house.gov/legislation/key-issues-2/abortion/",
+      "title": "Abortion",
+      "publisher": "Office of Rep. Russ Fulcher",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://fulcher.house.gov/legislation/key-issues-2/2nd-amendment-privacy-and-constitutional-rights/",
+      "title": "2nd Amendment, Privacy, and Constitutional Rights",
+      "publisher": "Office of Rep. Russ Fulcher",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://fulcher.house.gov/legislation/key-issues-2/economy-debt-and-deficits/",
+      "title": "Economy, Debt, and Deficits",
+      "publisher": "Office of Rep. Russ Fulcher",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s10",
+      "url": "https://fulcher.house.gov/legislation/key-issues-2/healthcare/",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Russ Fulcher",
+      "kind": "official",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Basic-tier research; no key floor votes or FEC totals compiled for Fulcher (added later by script)."
+  "researchNotes": "Basic-tier research; no key floor votes or FEC totals compiled for Fulcher (added later by script). Fulcher's official House issues pages (abortion, 2nd Amendment, border security, healthcare, economy/debt) were checked; those pages did not directly address taxes on high earners/corporations, tariffs, or Israel aid specifically, so no positions were added on those issues."
 }
