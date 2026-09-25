@@ -11,95 +11,141 @@
   "context": [
     {
       "text": "Incumbent Timothy K. Moore defeated one Republican primary challenger with 83.0% of the vote. Lakesha Womack won a three-way Democratic primary with 52.2% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "tim-moore",
       "name": "Timothy K. Moore",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Timothy K. Moore is the Republican incumbent for North Carolina's 14th Congressional District, an attorney who served in the North Carolina House of Representatives from 2002 to 2025, including as Speaker from 2015 to 2025, before his election to Congress in 2024.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from the University of North Carolina at Chapel Hill in 1992 and a law degree from Oklahoma City University School of Law in 1995.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Member of the North Carolina House of Representatives from 2002 to 2025, serving as Speaker of the North Carolina House from 2015 to 2025.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Professional experience includes working as an attorney.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the House Committee on Financial Services (Vice Chair) and the House Committee on the Budget for the 2025-2026 Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "At a House Judiciary field hearing on healthcare markets, said the system has moved too far toward government regulation and subsidies and should rely more on competition to lower costs.",
+          "quote": "Part of the problem...is that we move too far away from a healthcare system that's driven by competition and toward one shaped by government regulations and subsidies.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the House Committee on Financial Services as Vice Chair, and to the House Committee on the Budget, for the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as Speaker of the North Carolina House of Representatives from 2015 to 2025.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://timmoore.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "M001236"
+      "bioguideId": "M001236",
+      "researchNotes": "Federal key votes and FEC totals for this sitting member of Congress are added separately. His house.gov issues pages (congress, economy, education, energy, health, veterans) are aggregations of press releases and have no narrative issue statements; recent press releases were reviewed and only one statement (on healthcare markets) met this guide's sourcing standard for a position. He has not completed Ballotpedia's Candidate Connection survey for 2026, 2024, 2022, or 2020."
     },
     {
       "id": "lakesha-womack",
       "name": "Lakesha Womack",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary with 52.2% of the vote over two challengers.",
       "summary": {
         "text": "LaKesha Womack is the Democratic nominee for North Carolina's 14th Congressional District, a Charlotte-area consultant and Chief Strategy Officer at ASPIRE Community Capital, a community development financial institution.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a high school diploma from the Alabama School of Math and Science and a bachelor's degree from Vanderbilt University in 1999; is pursuing a Master of Legal Studies at Vanderbilt Law School.",
-          "sources": ["s3", "s4"]
+          "sources": [
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "Career experience includes working as a consultant, deacon, Chief Strategy Officer at ASPIRE Community Capital, and CEO at Thrive Creative Community; affiliated with Friends of Keep Charlotte Beautiful, Charlotte Business INClusion Advisory Committee, and Black Seed Network.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says her political experience includes working on Hillary Clinton's presidential campaign, serving on the Podium Operations Team for the 2024 Democratic National Convention, and working as a strategist for local and state-level campaigns.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Wants to lower prescription drug costs, protect reproductive freedom, and move toward universal health care coverage, while protecting rural hospitals.",
           "quote": "She supports lowering prescription drug costs, protecting reproductive freedom, expanding access to mental health services, and ensuring quality coverage through a universal health care plan.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Supports exempting the first $100,000 of income from federal income tax to put more money in the hands of working families.",
           "quote": "LaKesha emphasizes affordability as a core economic issue and supports making the first $100,000 of income free from federal income tax to put more money directly into the hands of working families.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Wants to fully fund public schools and close funding gaps between districts.",
           "quote": "She supports fully funding public schools, closing funding gaps between districts, and ensuring students, regardless of their zip code, have access to fairly compensated teachers, modern facilities, and supportive learning environments.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -108,28 +154,36 @@
           "stance": "supports",
           "summary": "Supports a universal health care plan, lower prescription drug costs, and protecting the Affordable Care Act.",
           "quote": "LaKesha believes affordable health care is a fundamental necessity, not a privilege. She supports lowering prescription drug costs, protecting reproductive freedom, expanding access to mental health services, and ensuring quality coverage through a universal health care plan.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Supports protecting reproductive freedom as part of her health care platform.",
           "quote": "She supports lowering prescription drug costs, protecting reproductive freedom, expanding access to mental health services.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Supports raising the federal minimum wage.",
           "quote": "Support raising the federal minimum wage",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Points to tariffs as a driver of rising construction and material costs that hurt housing affordability.",
           "quote": "Address rising construction and material costs driven by tariffs and supply-chain disruptions",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -163,6 +217,13 @@
       "url": "https://ballotpedia.org/Lakesha_Womack",
       "title": "Lakesha Womack - Ballotpedia Candidate Connection survey / campaign website",
       "publisher": "Ballotpedia Candidate Connection survey / Womack campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://timmoore.house.gov/media/press-releases/congressman-tim-moore-raises-concerns-healthcare-fraud-and-competition-during",
+      "title": "Congressman Tim Moore Raises Concerns on Healthcare Fraud and Competition During Judiciary Field Hearing",
+      "publisher": "Office of Rep. Tim Moore",
       "kind": "candidate"
     }
   ],
