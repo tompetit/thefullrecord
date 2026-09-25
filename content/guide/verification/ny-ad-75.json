@@ -1,0 +1,11 @@
+{
+  "raceId": "ny-ad-75",
+  "checkedAt": "2026-09-25",
+  "claimsChecked": 34,
+  "corrected": 2,
+  "removed": 0,
+  "unverifiable": 0,
+  "notes": [
+    "Fixed the S3460 and S10113 roll-call source URLs (s11, s12): the cited query string ('Votes=Y') returns no vote data; the working nyassembly.gov query string ('Floor%26nbspVotes=Y') was substituted so the citations actually support the vote claims (confirmed Simone voted yes on both, 92-49 and 88-53)."
+  ]
+}
