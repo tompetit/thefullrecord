@@ -91,6 +91,20 @@
           "stance": "opposes",
           "summary": "Campaign describes opposition to federal immigration enforcement actions, framing them as targeting immigrant neighbors.",
           "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "As a City Council member, voted yes on the Climate Mobilization Act (Local Law 97), which set greenhouse-gas emissions limits for large buildings.",
+          "sources": ["s10"],
+          "basis": "votes"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "As a City Council member, voted yes on the bill setting a minimum per-trip payment rate for app-based food delivery workers.",
+          "sources": ["s11"],
+          "basis": "votes"
         }
       ],
       "record": [
@@ -99,6 +113,24 @@
           "date": "2024-11-20",
           "kind": "action",
           "sources": ["s6"]
+        },
+        {
+          "text": "Sponsored Int. No. 1017-C, the Freelance Isn't Free Act, requiring written contracts and timely payment for freelance workers; passed the City Council 51-0 on October 27, 2016.",
+          "date": "2016-10-27",
+          "kind": "vote",
+          "sources": ["s12"]
+        },
+        {
+          "text": "Voted yes on Int. No. 1253-C, the Climate Mobilization Act (Local Law 97 of 2019), setting greenhouse-gas emissions limits for large buildings, which passed the City Council 45-2 on April 18, 2019.",
+          "date": "2019-04-18",
+          "kind": "vote",
+          "sources": ["s10"]
+        },
+        {
+          "text": "Voted yes on Int. No. 2294-A, establishing minimum per-trip payments for third-party food-delivery and courier-service workers, which passed the City Council 40-3 (as part of a coupled vote with related bills) on September 23, 2021.",
+          "date": "2021-09-23",
+          "kind": "vote",
+          "sources": ["s11"]
         },
         {
           "text": "As a City Council member, was the lead sponsor of New York City's plastic bag fee/ban and Styrofoam ban bills, and was an early sponsor of the Council's waste equity and commercial waste zone legislation.",
@@ -282,8 +314,32 @@
       "title": "Brad Lander legislative record summary",
       "publisher": "New York League of Conservation Voters",
       "kind": "reference"
+    },
+    {
+      "id": "s10",
+      "url": "https://legistar.council.nyc.gov/View.ashx?GUID=557FE015-46BC-4395-BAA4-274D4F626440&ID=7549871&M=F",
+      "title": "Minutes of the Proceedings, Stated Meeting of April 18, 2019 (Int. No. 1253-C roll call, p. 1503)",
+      "publisher": "The New York City Council",
+      "kind": "official",
+      "date": "2019-04-18"
+    },
+    {
+      "id": "s11",
+      "url": "https://legistar.council.nyc.gov/View.ashx?GUID=EB0C40B2-8997-4816-8D85-C450823A60FD&ID=10246751&M=F",
+      "title": "Minutes of the Proceedings, Stated Meeting of September 23, 2021 (Int. No. 2294-A roll call, p. 2425)",
+      "publisher": "The New York City Council",
+      "kind": "official",
+      "date": "2021-09-23"
+    },
+    {
+      "id": "s12",
+      "url": "https://legistar.council.nyc.gov/View.ashx?GUID=A6294724-80C3-41C7-9A90-F79FA068F839&ID=5026884&M=F",
+      "title": "Minutes of the Proceedings, Stated Meeting of October 27, 2016 (Int. No. 1017-C roll call, p. 3541)",
+      "publisher": "The New York City Council",
+      "kind": "official",
+      "date": "2016-10-27"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Jennifer Moore has published no detailed federal policy platform and has not completed Ballotpedia's Candidate Connection survey; her record above reflects the limited public statements available. Brad Lander has no documented federal legislative record (never having served in Congress), so his record section covers his City Council and Comptroller record instead. Per the research brief, Lander's and any incumbent's future FEC finance totals and federal floor votes are added separately by script."
+  "researchNotes": "Jennifer Moore has published no detailed federal policy platform and has not completed Ballotpedia's Candidate Connection survey; her record above reflects the limited public statements available. Brad Lander has no documented federal legislative record (never having served in Congress); his record section covers his City Council and Comptroller record, including three City Council floor votes verified against the official Stated Meeting minutes on legistar.council.nyc.gov. Per the research brief, Lander's and any incumbent's future FEC finance totals and federal floor votes are added separately by script."
 }

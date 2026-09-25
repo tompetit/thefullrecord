@@ -135,9 +135,15 @@
         {
           "issue": "abortion",
           "stance": "opposes",
-          "summary": "Says he will \"defend the unborn,\" indicating opposition to legal abortion access.",
-          "quote": "He will stand with President Trump to protect our gun rights, defend the unborn",
-          "sources": ["s1"]
+          "summary": "As a Texas state senator, voted yes on HB 2, which required abortion facilities to meet ambulatory-surgical-center standards, required admitting privileges at nearby hospitals for physicians performing abortions, and banned abortion after 20 weeks of pregnancy.",
+          "basis": "votes",
+          "sources": ["s2"],
+          "stated": {
+            "stance": "opposes",
+            "summary": "Says he will \"defend the unborn,\" indicating opposition to legal abortion access.",
+            "quote": "He will stand with President Trump to protect our gun rights, defend the unborn",
+            "sources": ["s1"]
+          }
         }
       ],
       "record": [
@@ -145,6 +151,18 @@
           "text": "As Texas Attorney General, led lawsuits against companies including Pfizer over COVID-19 vaccine marketing claims and participated in national opioid-crisis settlement litigation, according to his campaign website.",
           "kind": "action",
           "sources": ["s1"]
+        },
+        {
+          "text": "As a Texas state senator, voted yes on HB 2 (requiring abortion facilities to meet ambulatory-surgical-center standards and banning abortion after 20 weeks of pregnancy), which passed the Senate 19-11 on July 12, 2013.",
+          "date": "2013-07-12",
+          "kind": "vote",
+          "sources": ["s2"]
+        },
+        {
+          "text": "As a Texas state representative, voted yes on SB 14 (requiring voters to present photo identification to vote), which passed the House 101-48 on March 24, 2011.",
+          "date": "2011-03-24",
+          "kind": "vote",
+          "sources": ["s3"]
         }
       ],
       "researchDepth": "basic",
@@ -159,6 +177,22 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://journals.senate.texas.gov/sjrnl/832/pdf/83S207-12-F.PDF",
+      "title": "Senate Journal, 83rd Legislature, 2nd Called Session, Day 3 (HB 2 final passage, Yeas 19 Nays 11)",
+      "publisher": "Texas Senate",
+      "kind": "official",
+      "date": "2013-07-12"
+    },
+    {
+      "id": "s3",
+      "url": "http://journals.house.texas.gov/hjrnl/82r/pdf/82RDAY41FINAL.PDF",
+      "title": "House Journal, 82nd Legislature, Regular Session, Day 41 (SB 14 final passage, Record No. 156)",
+      "publisher": "Texas House of Representatives",
+      "kind": "official",
+      "date": "2011-03-24"
     }
   ],
   "researchedAt": "2026-09-25",

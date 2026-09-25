@@ -74,7 +74,22 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Voted no on SB 1164 (banning abortion after 15 weeks of pregnancy), which passed the Arizona House 31-26 on 2022-03-24.",
+          "sources": ["s7"],
+          "basis": "votes"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Voted no on HB 2853 (expanding Arizona's Empowerment Scholarship Account voucher program to all students statewide), which passed the Arizona House 31-26 on 2022-06-22.",
+          "sources": ["s8"],
+          "basis": "votes"
+        }
+      ],
       "record": [
         {
           "text": "As an Arizona state representative, served on the House Appropriations Committee and House Health and Human Services Committee (2023-2024 session); the Transportation and Infrastructure and Health and Human Services Committees (2021-2022 session); and the Health and Human Services and Regulatory Affairs Committees (2019-2020 session).",
@@ -82,6 +97,24 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Voted no on SB 1164 (banning abortion after 15 weeks of pregnancy), which passed the Arizona House 31-26 on 2022-03-24.",
+          "date": "2022-03-24",
+          "kind": "vote",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Voted no on HB 2853 (expanding Arizona's Empowerment Scholarship Account voucher program to all students statewide), which passed the Arizona House 31-26 on 2022-06-22.",
+          "date": "2022-06-22",
+          "kind": "vote",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Voted no on SB 1485 (removing voters from the Permanent Early Voting List if they do not vote by mail in two consecutive election cycles), which passed the Arizona House 31-29 on 2021-04-20.",
+          "date": "2021-04-20",
+          "kind": "vote",
+          "sources": ["s9"]
         }
       ],
       "website": "https://www.shahforarizona.com",
@@ -236,6 +269,30 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/76636",
+      "title": "SB1164 - abortion; gestational age; limit (Bill Overview, House Third Read vote 2022-03-24)",
+      "publisher": "Arizona State Legislature",
+      "kind": "official",
+      "date": "2022-03-24"
+    },
+    {
+      "id": "s8",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/77976",
+      "title": "HB2853 - empowerment scholarship accounts; eligibility (Bill Overview, House Third Read vote 2022-06-22)",
+      "publisher": "Arizona State Legislature",
+      "kind": "official",
+      "date": "2022-06-22"
+    },
+    {
+      "id": "s9",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/75568",
+      "title": "SB1485 - early voting list; requirements; violation (Bill Overview, House Third Read vote 2021-04-20)",
+      "publisher": "Arizona State Legislature",
+      "kind": "official",
+      "date": "2021-04-20"
     }
   ],
   "researchedAt": "2026-09-25",

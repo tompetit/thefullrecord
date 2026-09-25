@@ -11,62 +11,91 @@
   "context": [
     {
       "text": "This is an open seat. In the June 23, 2026 Democratic primary, Diana Ayala defeated incumbent Assembly Member Eddie Gibbs 51.9% to 31.2%, along with Tamika Mapp (11.5%) and William Smith (5.1%), so Gibbs is not on the November ballot. The Republican primary was canceled with no candidate advancing (Darwin Shaw withdrew or was disqualified), and Ayala also advanced from the Working Families Party line without appearing on that primary ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "diana-ayala",
       "name": "Diana Ayala",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": false,
       "currentRole": "Former New York City Council Member, District 8 (2018-2026); Chair, City Council General Welfare Committee",
       "summary": {
         "text": "Diana Ayala represented New York City Council District 8 (East Harlem/South Bronx) from 2018 to 2026, chairing the General Welfare Committee and the Mental Health, Disabilities and Addictions Committee. She is unopposed in the general election for the open Assembly District 68 seat after winning the Democratic primary against incumbent Eddie Gibbs.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Ayala earned a degree in human services from Bronx Borough Community College and studied sociology at CUNY Herbert H. Lehman College.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Before elected office, she worked as deputy chief of staff and constituent-services director for City Council Speaker Melissa Mark-Viverito, as a caseworker at Corsi Houses, and as a program director at the Carver Senior Center.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "She served two terms on the New York City Council representing District 8 (East Harlem and parts of the South Bronx), from January 2018 until January 2026, chairing the General Welfare Committee and the Mental Health, Disabilities and Addictions Committee.",
-          "sources": ["s2", "s3"]
+          "sources": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "As Chair of the General Welfare Committee, she helped expand the CityFHEPS rental-assistance voucher program and worked to create and preserve affordable housing in the district.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "She helped secure major capital investments for Metropolitan Hospital in East Harlem to improve facilities and patient care.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"Lower the cost of living for working families by holding utilities accountable, expanding childcare, and strengthening consumer protections.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"Protect affordable housing and stop displacement by expanding rental assistance, strengthening tenant protections, and building deeply affordable new homes.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"Expand mental health care and public health services so every New Yorker can access treatment and support in their community.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"Protect immigrant families and civil rights by passing the New York for All Act and expanding access to legal services.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"Stand up for workers and create good-paying jobs by strengthening worker protections, defending prevailing wage laws, and expanding workforce training.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -75,72 +104,134 @@
           "stance": "opposes",
           "summary": "Says she will fight to pass the New York for All Act, which would limit local cooperation with federal immigration enforcement, and expand legal representation for immigrants.",
           "quote": "In Albany, she will fight to pass the New York for All Act, expand legal representation for immigrants, and ensure families can live and work without fear.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Supports strengthening tenant protections and expanding rental assistance statewide, citing her work expanding the CityFHEPS voucher program on the City Council.",
           "quote": "In Albany, she will strengthen tenant protections, expand rental assistance statewide, and ensure new housing development includes deeply affordable homes for working families.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports expanding community-based mental health care, crisis response systems, addiction treatment and harm reduction, and community health clinics, building on her chairmanship of the Council's Mental Health, Disabilities and Addictions Committee.",
           "quote": "In the Assembly, she will push to expand community-based mental health care, strengthen crisis response systems, and increase funding for addiction treatment and harm reduction programs.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says she will work to strengthen state protections for abortion access and reproductive health care.",
           "quote": "In Albany, Diana will work to strengthen protections for abortion access and reproductive healthcare.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Supports expanding universal childcare and increasing state childcare funding.",
           "quote": "In Albany, Diana will fight to expand universal childcare and increase funding so families can access affordable, high-quality care.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Says she will defend prevailing-wage laws and strengthen worker protections and the right to organize.",
-          "quote": "In Albany, she will defend prevailing wage laws, strengthen worker protections, support the right to organize, and expand job training programs that connect local residents to stable careers.",
-          "sources": ["s3"]
+          "summary": "As a City Council member, voted yes on the bill setting a minimum per-trip payment rate for app-based food delivery workers.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "supports",
+            "summary": "Says she will defend prevailing-wage laws and strengthen worker protections and the right to organize.",
+            "quote": "In Albany, she will defend prevailing wage laws, strengthen worker protections, support the right to organize, and expand job training programs that connect local residents to stable careers.",
+            "sources": [
+              "s3"
+            ]
+          }
         },
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Supports renewable-energy investment and green infrastructure as environmental-justice measures for East Harlem and the South Bronx.",
-          "quote": "In Albany, Diana will support renewable energy investments, green infrastructure, and environmental justice policies.",
-          "sources": ["s3"]
+          "summary": "As a City Council member, voted yes on the Climate Mobilization Act (Local Law 97), which set greenhouse-gas emissions limits for large buildings.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "supports",
+            "summary": "Supports renewable-energy investment and green infrastructure as environmental-justice measures for East Harlem and the South Bronx.",
+            "quote": "In Albany, Diana will support renewable energy investments, green infrastructure, and environmental justice policies.",
+            "sources": [
+              "s3"
+            ]
+          }
         }
       ],
       "record": [
         {
+          "text": "Voted for override (with the Council) of the Mayor's veto of Int. No. 878-A, the bill she sponsored prohibiting the Department of Social Services from requiring a CityFHEPS rental-assistance applicant to have stayed in a homeless shelter; the override passed 42-8 on July 13, 2023, enacting the bill as Local Law 100 of 2023.",
+          "date": "2023-07-13",
+          "kind": "vote",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Voted yes on Int. No. 1253-C, the Climate Mobilization Act (Local Law 97 of 2019), setting greenhouse-gas emissions limits for large buildings, which passed the City Council 45-2 on April 18, 2019.",
+          "date": "2019-04-18",
+          "kind": "vote",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Voted yes on Int. No. 2294-A, establishing minimum per-trip payments for third-party food-delivery and courier-service workers, which passed the City Council 40-3 (as part of a coupled vote with related bills) on September 23, 2021.",
+          "date": "2021-09-23",
+          "kind": "vote",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
           "text": "As Chair of the City Council General Welfare Committee, helped expand the CityFHEPS rental-assistance voucher program so more families could receive help avoiding homelessness.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "As Chair of the City Council Mental Health, Disabilities and Addictions Committee, worked to expand mental-health services and improve coordination between health care providers, housing programs, and social services.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Helped secure major capital investment for Metropolitan Hospital in East Harlem to improve facilities and patient care.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Represented City Council District 8 for two terms (January 2018-January 2026); did not seek re-election to the Council in 2025, running instead for State Assembly.",
           "date": "2026",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.ayalaforassembly.com/",
@@ -171,8 +262,32 @@
       "publisher": "Diana Ayala for Assembly campaign",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s9",
+      "url": "https://legistar.council.nyc.gov/View.ashx?GUID=557FE015-46BC-4395-BAA4-274D4F626440&ID=7549871&M=F",
+      "title": "Minutes of the Proceedings, Stated Meeting of April 18, 2019 (Int. No. 1253-C roll call, p. 1503)",
+      "publisher": "The New York City Council",
+      "kind": "official",
+      "date": "2019-04-18"
+    },
+    {
+      "id": "s10",
+      "url": "https://legistar.council.nyc.gov/View.ashx?GUID=1C0F21D7-3F71-4021-9F8D-BB8588B5A91A&ID=12560878&M=F",
+      "title": "Minutes of the Proceedings, Stated Meeting of July 13, 2023 (Int. No. 878-A veto-override roll call, p. 2092)",
+      "publisher": "The New York City Council",
+      "kind": "official",
+      "date": "2023-07-13"
+    },
+    {
+      "id": "s11",
+      "url": "https://legistar.council.nyc.gov/View.ashx?GUID=EB0C40B2-8997-4816-8D85-C450823A60FD&ID=10246751&M=F",
+      "title": "Minutes of the Proceedings, Stated Meeting of September 23, 2021 (Int. No. 2294-A roll call, p. 2425)",
+      "publisher": "The New York City Council",
+      "kind": "official",
+      "date": "2021-09-23"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Ayala has not completed Ballotpedia's 2026 Candidate Connection survey and has no declared general-election opponent, so priorities/positions are drawn from her campaign website's detailed issues page, which itself describes her City Council record. No official City Council legislative or voting record (e.g. Legistar bill sponsorship) was independently reviewed beyond what her campaign site describes; specific NYC Council roll-call votes were not found in the state-level snapshot data this guide otherwise relies on."
+  "researchNotes": "Ayala has not completed Ballotpedia's 2026 Candidate Connection survey and has no declared general-election opponent, so priorities/positions are drawn from her campaign website's detailed issues page, which itself describes her City Council record. Recorded City Council floor votes (verified against the official Stated Meeting minutes on legistar.council.nyc.gov) were added for the CityFHEPS veto override she sponsored, the Climate Mobilization Act, and app-based delivery-worker minimum pay; other record items still rely on her campaign's description of her committee work, which was not independently verified against Legistar bill files."
 }

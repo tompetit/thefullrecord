@@ -138,6 +138,20 @@
           "stance": "supports",
           "summary": "Trone Garriott's campaign issues page lists \"Protecting Iowa's land, water, and clean energy future\" as a priority.",
           "sources": ["s5"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Voted no on HF 756 (removing the permit requirement to carry a handgun), which passed the Iowa Senate 31-17 on 2021-03-22.",
+          "sources": ["s11"],
+          "basis": "votes"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Voted no on HF 2317 (replacing Iowa's graduated income tax with a 3.9% flat tax), which passed the Iowa Senate 32-16 on 2022-02-24.",
+          "sources": ["s12"],
+          "basis": "votes"
         }
       ],
       "record": [
@@ -145,6 +159,24 @@
           "text": "Serves on the Iowa Senate Education, Commerce, Health and Human Services, Natural Resources & Environment, and Health Policy Oversight committees (2025-2026).",
           "kind": "action",
           "sources": ["s4"]
+        },
+        {
+          "text": "Voted no on HF 756 (removing the permit requirement to carry a handgun in Iowa), which passed the Iowa Senate 31-17 on 2021-03-22.",
+          "date": "2021-03-22",
+          "kind": "vote",
+          "sources": ["s11"]
+        },
+        {
+          "text": "Voted no on SF 413 (an elections bill shortening the absentee-voting window and tightening voter-list maintenance), which passed the Iowa Senate 30-18 on 2021-02-23.",
+          "date": "2021-02-23",
+          "kind": "vote",
+          "sources": ["s10"]
+        },
+        {
+          "text": "Voted no on HF 2317 (replacing Iowa's graduated income tax with a 3.9% flat tax), which passed the Iowa Senate 32-16 on 2022-02-24.",
+          "date": "2022-02-24",
+          "kind": "vote",
+          "sources": ["s12"]
         }
       ],
       "website": "https://sarahforiowa.com",
@@ -223,6 +255,30 @@
       "publisher": "Office of Rep. Zach Nunn",
       "kind": "official",
       "date": "2024-10-07"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.legis.iowa.gov/docs/publications/SJNL/20210223_SJNL.pdf",
+      "title": "Journal of the Senate, 44th Day, February 23, 2021 (SF 413 roll call)",
+      "publisher": "Iowa Legislature",
+      "kind": "official",
+      "date": "2021-02-23"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.legis.iowa.gov/docs/publications/SJNL/20210322_SJNL.pdf",
+      "title": "Journal of the Senate, 71st Day, March 22, 2021 (HF 756 roll call)",
+      "publisher": "Iowa Legislature",
+      "kind": "official",
+      "date": "2021-03-22"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.legis.iowa.gov/docs/publications/SJNL/20220224_SJNL.pdf",
+      "title": "Journal of the Senate, February 24, 2022 (HF 2317 roll call)",
+      "publisher": "Iowa Legislature",
+      "kind": "official",
+      "date": "2022-02-24"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -118,9 +118,34 @@
           "summary": "Campaigns on making healthcare a human right, citing his own experience rationing insulin growing up.",
           "quote": "Healthcare as a human right.",
           "sources": ["s3"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "As a Kentucky state representative, voted no on HB 5, which restricted abortions performed because of the sex, race, or a disability diagnosis of the fetus and declared an emergency; the House passed it 67-25.",
+          "basis": "votes",
+          "sources": ["s6"]
         }
       ],
-      "record": [],
+      "record": [
+        {
+          "text": "Voted no on HB 5 (restricting abortion performed because of the sex, race, or a disability diagnosis of the fetus), which passed the Kentucky House 67-25 on February 26, 2019.",
+          "date": "2019-02-26",
+          "kind": "vote",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Voted no on the final-passage appropriation for SB 2 (requiring voters to present photo identification), which passed the Kentucky House 58-25 on March 19, 2020.",
+          "date": "2020-03-19",
+          "kind": "vote",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Was primary sponsor of HB 6 in the 2020 session, a proposed constitutional amendment to restore voting rights for people convicted of felonies after completion of their sentence.",
+          "kind": "bill",
+          "sources": ["s8"]
+        }
+      ],
       "website": "https://charlesbooker.org",
       "researchDepth": "basic"
     },
@@ -228,6 +253,29 @@
       "publisher": "Office of the Clerk, U.S. House of Representatives",
       "kind": "official",
       "date": "2025-05-22"
+    },
+    {
+      "id": "s6",
+      "url": "https://apps.legislature.ky.gov/record/19RS/hb5/vote_history.pdf",
+      "title": "House vote history, HB 5 (human rights of unborn children), RCS# 145",
+      "publisher": "Kentucky House of Representatives",
+      "kind": "official",
+      "date": "2019-02-26"
+    },
+    {
+      "id": "s7",
+      "url": "https://apps.legislature.ky.gov/record/20RS/sb2/vote_history.pdf",
+      "title": "House vote history, SB 2 (voter identification), RCS# 285 final passage",
+      "publisher": "Kentucky House of Representatives",
+      "kind": "official",
+      "date": "2020-03-19"
+    },
+    {
+      "id": "s8",
+      "url": "https://apps.legislature.ky.gov/record/IndividualSponsorPages/433.html",
+      "title": "Rep. Booker, Charles Sponsored Bills",
+      "publisher": "Kentucky Legislative Research Commission",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

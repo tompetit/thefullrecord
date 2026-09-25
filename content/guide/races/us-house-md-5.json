@@ -52,6 +52,30 @@
       "publisher": "The Baltimore Sun, via Ballotpedia",
       "kind": "news",
       "date": "2024-03-05"
+    },
+    {
+      "id": "s6",
+      "url": "https://mgaleg.maryland.gov/2023RS/votes/house/0876.pdf",
+      "title": "Maryland House of Delegates vote, SB 555 (2023) Fair Wage Act of 2023 — Third Reading",
+      "publisher": "Maryland General Assembly",
+      "kind": "official",
+      "date": "2023-04-04"
+    },
+    {
+      "id": "s7",
+      "url": "https://mgaleg.maryland.gov/2023RS/votes/house/1259.pdf",
+      "title": "Maryland House of Delegates vote, SB 1 (2023) Gun Safety Act of 2023 — Third Reading",
+      "publisher": "Maryland General Assembly",
+      "kind": "official",
+      "date": "2023-04-10"
+    },
+    {
+      "id": "s8",
+      "url": "https://mgaleg.maryland.gov/2025RS/votes/house/1312.pdf",
+      "title": "Maryland House of Delegates vote, HB 352 (2025) Budget Reconciliation and Financing Act of 2025 — Third Reading and Final Passage",
+      "publisher": "Maryland General Assembly",
+      "kind": "official",
+      "date": "2025-04-07"
     }
   ],
   "candidates": [
@@ -115,10 +139,18 @@
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Wants to raise the federal minimum wage from $7.25 to $15 an hour and tie it to inflation, citing his work leading a three-year effort to raise Maryland's minimum wage.",
+          "summary": "Voted yes on SB 555, the Fair Wage Act of 2023, which accelerated Maryland's minimum wage to $15 an hour.",
           "sources": [
-            "s3"
-          ]
+            "s6"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "supports",
+            "summary": "Wants to raise the federal minimum wage from $7.25 to $15 an hour and tie it to inflation, citing his work leading a three-year effort to raise Maryland's minimum wage.",
+            "sources": [
+              "s3"
+            ]
+          }
         },
         {
           "issue": "universal_childcare",
@@ -131,18 +163,34 @@
         {
           "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Says he will cut taxes for working and middle-class families while closing loopholes that let large corporations and wealthy individuals avoid paying what he calls their fair share.",
+          "summary": "Voted yes on HB 352, the Budget Reconciliation and Financing Act of 2025, which created new state income-tax brackets and a capital-gains surtax on high earners.",
           "sources": [
-            "s3"
-          ]
+            "s8"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "supports",
+            "summary": "Says he will cut taxes for working and middle-class families while closing loopholes that let large corporations and wealthy individuals avoid paying what he calls their fair share.",
+            "sources": [
+              "s3"
+            ]
+          }
         },
         {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Says he will advance gun safety reforms to protect schools and children and invest in mental health services.",
+          "summary": "Voted yes on SB 1, the Gun Safety Act of 2023, which restricted where firearms may be carried and created new sensitive-location restrictions.",
           "sources": [
-            "s3"
-          ]
+            "s7"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "supports",
+            "summary": "Says he will advance gun safety reforms to protect schools and children and invest in mental health services.",
+            "sources": [
+              "s3"
+            ]
+          }
         }
       ],
       "record": [
@@ -158,6 +206,30 @@
           "kind": "bill",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "text": "Voted yes on SB 555 (Fair Wage Act of 2023, accelerating Maryland's minimum wage to $15 an hour), which passed the House of Delegates 102-38 on April 4, 2023.",
+          "date": "2023-04-04",
+          "kind": "vote",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Voted yes on SB 1 (Gun Safety Act of 2023, restricting where firearms may be carried and creating new sensitive-location restrictions), which passed the House of Delegates 93-42 on April 10, 2023.",
+          "date": "2023-04-10",
+          "kind": "vote",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Voted yes on HB 352 (Budget Reconciliation and Financing Act of 2025, creating new state income-tax brackets and a capital-gains surtax on high earners), which passed the House of Delegates 94-46 on April 7, 2025.",
+          "date": "2025-04-07",
+          "kind": "vote",
+          "sources": [
+            "s8"
           ]
         }
       ],

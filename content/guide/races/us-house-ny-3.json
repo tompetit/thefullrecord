@@ -277,6 +277,24 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Voted no on the Red Flag law establishing court-issued risk protection orders that bar a person found to pose a risk from purchasing or possessing firearms.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "votes"
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Voted no on the Reproductive Health Act, which removed abortion from the state penal code and codified abortion protections in New York public health law.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "votes"
         }
       ],
       "record": [
@@ -285,6 +303,30 @@
           "kind": "action",
           "sources": [
             "s2"
+          ]
+        },
+        {
+          "text": "Voted no on S2451 (the Red Flag law, establishing court-issued risk protection orders barring people found to pose a risk from purchasing or possessing firearms), which passed the Assembly 100-37 on January 29, 2019.",
+          "date": "2019-01-29",
+          "kind": "vote",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Voted no on S240 (the Reproductive Health Act, removing abortion from the state penal code and codifying abortion protections in public health law), which passed the Assembly 95-49 on January 22, 2019.",
+          "date": "2019-01-22",
+          "kind": "vote",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Voted no on A3675-B (the Green Light Law, authorizing the DMV to issue standard driver's licenses regardless of immigration status), which passed the Assembly 87-61 on June 12, 2019.",
+          "date": "2019-06-12",
+          "kind": "vote",
+          "sources": [
+            "s10"
           ]
         },
         {
@@ -360,8 +402,32 @@
       "publisher": "Office of Rep. Tom Suozzi",
       "kind": "official",
       "date": "2026-05-14"
+    },
+    {
+      "id": "s8",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S02451&term=2019&Summary=Y&Actions=Y&Floor%26nbspVotes=Y",
+      "title": "S2451-2019: Establishes risk protection orders (Red Flag law) — floor vote",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2019-01-29"
+    },
+    {
+      "id": "s9",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S00240&term=2019&Summary=Y&Actions=Y&Floor%26nbspVotes=Y",
+      "title": "S240-2019: Reproductive Health Act — floor vote",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2019-01-22"
+    },
+    {
+      "id": "s10",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03675&term=2019&Summary=Y&Actions=Y&Floor%26nbspVotes=Y",
+      "title": "A3675-B-2019: Green Light Law (standard driver's licenses) — floor vote",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2019-06-12"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Per the research brief, Suozzi's federal floor votes and FEC finance totals are added separately by script and are not included here. LiPetri has not completed Ballotpedia's Candidate Connection survey; his positions above are drawn from his campaign website's issues page as quoted by Ballotpedia."
+  "researchNotes": "Per the research brief, Suozzi's federal floor votes and FEC finance totals are added separately by script and are not included here. LiPetri has not completed Ballotpedia's Candidate Connection survey; his general positions above are drawn from his campaign website's issues page as quoted by Ballotpedia. His guns and abortion positions are derived from his recorded 2019 Assembly floor votes (nyassembly.gov), per the office-votes research brief."
 }

@@ -122,10 +122,25 @@
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Mitchell's campaign site says he will \"defend the Second Amendment.\"",
+          "summary": "Voted yes on HF 756 (removing the permit requirement to carry a handgun), which passed the Iowa House 60-37 on 2021-03-17.",
           "sources": [
-            "s3"
-          ]
+            "s8"
+          ],
+          "basis": "votes",
+          "stated": {
+            "stance": "opposes",
+            "summary": "Mitchell's campaign site says he will \"defend the Second Amendment.\"",
+            "sources": ["s3"]
+          }
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Voted yes on HF 2317 (replacing Iowa's graduated income tax with a 3.9% flat tax), which passed the Iowa House 61-37 on 2022-02-16.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "votes"
         },
         {
           "issue": "immigration_enforcement",
@@ -159,6 +174,24 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "text": "Voted yes on HF 756 (removing the permit requirement to carry a handgun in Iowa), which passed the Iowa House 60-37 on 2021-03-17.",
+          "date": "2021-03-17",
+          "kind": "vote",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Voted yes on SF 413 (an elections bill shortening the absentee-voting window and tightening voter-list maintenance), which passed the Iowa House 57-37 on 2021-02-24.",
+          "date": "2021-02-24",
+          "kind": "vote",
+          "sources": ["s10"]
+        },
+        {
+          "text": "Voted yes on HF 2317 (replacing Iowa's graduated income tax with a 3.9% flat tax), which passed the Iowa House 61-37 on 2022-02-16.",
+          "date": "2022-02-16",
+          "kind": "vote",
+          "sources": ["s9"]
         }
       ],
       "website": "https://mitchellforiowa.com",
@@ -335,6 +368,30 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.legis.iowa.gov/docs/publications/HJNL/20210317_HJNL.pdf",
+      "title": "Journal of the House, 66th Day, March 17, 2021 (HF 756 roll call)",
+      "publisher": "Iowa Legislature",
+      "kind": "official",
+      "date": "2021-03-17"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.legis.iowa.gov/docs/publications/HJNL/20220216_HJNL.pdf",
+      "title": "Journal of the House, 38th Day, February 16, 2022 (HF 2317 roll call)",
+      "publisher": "Iowa Legislature",
+      "kind": "official",
+      "date": "2022-02-16"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.legis.iowa.gov/docs/publications/HJNL/20210224_HJNL.pdf",
+      "title": "Journal of the House, 45th Day, February 24, 2021 (SF 413 roll call)",
+      "publisher": "Iowa Legislature",
+      "kind": "official",
+      "date": "2021-02-24"
     }
   ],
   "researchedAt": "2026-09-25",

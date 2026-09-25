@@ -168,6 +168,20 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Voted yes on AB 1482 (the Tenant Protection Act, capping annual rent increases statewide), which passed the California Senate 25-10 on 2019-09-10.",
+          "sources": ["s7"],
+          "basis": "votes"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Voted yes on SB 35 (streamlining local approval of affordable housing developments that meet zoning and labor standards), which passed the California Senate 25-12 on 2017-06-01.",
+          "sources": ["s8"],
+          "basis": "votes"
         }
       ],
       "record": [
@@ -184,6 +198,18 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Voted yes on AB 1482 (the Tenant Protection Act of 2019, capping annual rent increases statewide), which passed the California Senate 25-10 on 2019-09-10.",
+          "date": "2019-09-10",
+          "kind": "vote",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Voted yes on SB 35 (streamlining local approval of affordable housing developments that meet zoning and labor standards), which passed the California Senate 25-12 on 2017-06-01.",
+          "date": "2017-06-01",
+          "kind": "vote",
+          "sources": ["s8"]
         }
       ],
       "researchDepth": "basic"
@@ -237,6 +263,22 @@
       "publisher": "Office of Rep. Kevin Kiley",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://leginfo.legislature.ca.gov/faces/billVotesClient.xhtml?bill_id=201920200AB1482",
+      "title": "Bill Votes - AB-1482 Tenant Protection Act of 2019 (Senate Floor, 09/10/2019)",
+      "publisher": "California Legislative Information",
+      "kind": "official",
+      "date": "2019-09-10"
+    },
+    {
+      "id": "s8",
+      "url": "https://leginfo.legislature.ca.gov/faces/billVotesClient.xhtml?bill_id=201720180SB35",
+      "title": "Bill Votes - SB-35 Planning and zoning: affordable housing: streamlined approval process (Senate Floor, 06/01/2017)",
+      "publisher": "California Legislative Information",
+      "kind": "official",
+      "date": "2017-06-01"
     }
   ],
   "researchedAt": "2026-09-25",
