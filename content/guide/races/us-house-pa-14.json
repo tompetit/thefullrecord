@@ -1,0 +1,168 @@
+{
+  "id": "us-house-pa-14",
+  "state": "PA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "14",
+  "title": "U.S. House · Pennsylvania's 14th Congressional District",
+  "area": "Southwestern Pennsylvania, including Washington, Greene, Fayette, and parts of Allegheny and Westmoreland counties.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Republican Guy Reschenthaler and Democrat Alan Bradstock each advanced from their May 19, 2026 primaries.",
+      "sources": ["s1", "s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "guy-reschenthaler",
+      "name": "Guy Reschenthaler",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the May 19 Republican primary",
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Guy Reschenthaler is the incumbent U.S. Representative for Pennsylvania's 14th District, a former Navy JAG attorney who previously served in the Pennsylvania State Senate and as an Allegheny County magisterial district judge.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Served as a Navy Judge Advocate General (JAG) attorney.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served as an Allegheny County Magisterial District Court judge, 2013–2015.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the Pennsylvania State Senate representing the 37th District, 2015–2019, before being elected to the U.S. House in 2018.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Serves as Vice Chairman of the House Committee on Rules and sits on the House Committee on Appropriations (2023–2024 term).",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Voted no on the Bipartisan Background Checks Act of 2019, which would have required background checks on private firearm transfers.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Voted yes on the Elijah E. Cummings Lower Drug Costs Now Act, which sought to have Medicare negotiate drug prices and expand Medicare coverage.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Voted no on the American Dream and Promise Act of 2019, which sought to protect certain immigrants from removal and provide a path to permanent residency.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Vice Chairman of the House Committee on Rules and member of the House Committee on Appropriations (Energy and Water Development, Interior and Environment, and State-Foreign Operations subcommittees), 2023–2024 term.",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Voted no on the Bipartisan Background Checks Act of 2019 (H.R. 8), which passed the House 240–190.",
+          "date": "2019",
+          "kind": "vote",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Voted yes on the Elijah E. Cummings Lower Drug Costs Now Act (H.R. 3), which passed the House 230–192.",
+          "date": "2019",
+          "kind": "vote",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Voted no on the American Dream and Promise Act of 2019 (H.R. 6), which passed the House 237–187.",
+          "date": "2019",
+          "kind": "vote",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://reschenthaler.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "R000610"
+    },
+    {
+      "id": "alan-bradstock",
+      "name": "Alan Bradstock",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19 Democratic primary",
+      "summary": {
+        "text": "Alan Bradstock is a Democratic candidate, Desert Storm-era Army veteran, and retired FBI Special Agent from western Pennsylvania who led investigations into public corruption, terrorism, and violent crime during a 20-year FBI career.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Served as a U.S. Army aviation officer, including during the fall of the Berlin Wall.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Spent 20 years as an FBI Special Agent, leading investigations into public corruption, terrorism, and violent crime, and held coordination roles with the CIA, DEA, and the U.S. Embassy in Ottawa.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Calls for policies that raise wages, strengthen workers' rights, and expand opportunities for small businesses so economic growth benefits working families rather than just the wealthy.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says no one should go bankrupt because they got sick, citing rising premiums and medical debt as reasons to expand access to affordable health care.",
+          "quote": "In the richest country on earth, no one should go bankrupt just because they got sick.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Calls for stronger campaign finance laws, greater transparency in political donations, and limits on dark money to reduce the influence of wealthy donors and corporate lobbyists.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Committed to protecting Social Security and Medicare and expanding access to affordable health care.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Calls for policies that raise wages and strengthen workers' rights.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Guy_Reschenthaler",
+      "title": "Guy Reschenthaler",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Alan_Bradstock",
+      "title": "Alan Bradstock",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Reschenthaler's federal key floor votes and FEC finance totals are added by script; only pre-2025 key votes and committee roles listed here are from Ballotpedia. No campaign website was located for Bradstock during this research; his statements are drawn from his Ballotpedia Candidate Connection survey."
+}

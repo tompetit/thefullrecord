@@ -1,0 +1,89 @@
+{
+  "id": "us-house-oh-14",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "14",
+  "title": "U.S. House · Ohio's 14th District",
+  "area": "Northeast Ohio, including Lake, Geauga and Ashtabula counties and part of eastern Cuyahoga County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent David Joyce (R) defeated Nicole Frenchko in the May 5, 2026 Republican primary. Maria Jukic (D) defeated Bill O'Neill and Carl Setzer in the Democratic primary.",
+      "sources": ["s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "david-joyce",
+      "name": "David Joyce",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2013)",
+      "summary": {
+        "text": "David Joyce is the Republican incumbent seeking re-election in Ohio's 14th Congressional District, which he has represented since 2013. He chairs the House Appropriations Subcommittee on Financial Services and General Government and chairs the Republican Governance Group.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Chairs the House Appropriations Subcommittee on Financial Services and General Government (119th Congress, 2025-2026), also sitting on the Defense subcommittee.",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served as ranking member of the Appropriations Subcommittee on Interior, Environment, and Related Agencies and on the House Committee on Ethics in the 117th Congress (2021-2022).",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "J000295"
+    },
+    {
+      "id": "maria-jukic",
+      "name": "Maria Jukic",
+      "parties": ["D"],
+      "incumbent": false,
+      "summary": {
+        "text": "Maria Jukic is the Democratic nominee for Ohio's 14th Congressional District. She is an attorney and small-business owner.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a high school diploma from Villa Angela Academy, a bachelor's degree from the University of Notre Dame, a graduate degree from John Carroll University, and a law degree from Cleveland State University College of Law.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Works as an attorney and small-business owner.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/David_Joyce",
+      "title": "David Joyce",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Maria_Jukic",
+      "title": "Maria Jukic",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Neither candidate has completed Ballotpedia's 2026 Candidate Connection survey and no campaign-website statement of issues was available via Ballotpedia for this race, so priorities and positions are omitted rather than inferred; Ballotpedia's biography section for Joyce contains no independent text beyond his committee record. Federal key votes and FEC finance totals for Joyce are added separately."
+}

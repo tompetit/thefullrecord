@@ -1,0 +1,120 @@
+{
+  "id": "us-house-ok-4",
+  "state": "OK",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Oklahoma's 4th District",
+  "area": "South-central Oklahoma, including Norman, Lawton and Ada",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [],
+  "candidates": [
+    {
+      "id": "tom-cole",
+      "name": "Tom Cole",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the June 16, 2026 Republican primary",
+      "currentRole": "U.S. Representative, Oklahoma's 4th District (since 2003)",
+      "summary": {
+        "text": "Tom Cole is the incumbent U.S. Representative for Oklahoma's 4th District, seeking re-election.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        { "text": "Voted in favor of the Water Resources Development Act of 2026.", "date": "2026-09-17", "kind": "vote", "sources": ["s2"] },
+        { "text": "Introduced companion legislation supporting the Miami Tribe of Oklahoma, which passed the U.S. House and was sent to the White House.", "date": "2026-09-15", "kind": "bill", "sources": ["s2"] },
+        { "text": "Introduced a resolution congratulating the University of Oklahoma baseball team for winning the 2026 Men's College World Series.", "date": "2026-09-02", "kind": "bill", "sources": ["s2"] }
+      ],
+      "website": "https://cole.house.gov",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC finance totals are added separately. Ballotpedia's biography page for Cole returned no usable content at the time of research; record items are drawn instead from his official House press releases.",
+      "bioguideId": "C001053"
+    },
+    {
+      "id": "mitchell-jacob",
+      "name": "Mitchell Jacob",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the June 16, 2026 Democratic primary",
+      "summary": {
+        "text": "Mitchell Jacob is an Army veteran, public defender and OU Law graduate running as the Democratic candidate on fiscal responsibility, public education and criminal justice reform.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Born in Tulsa, Oklahoma; served in the U.S. Army from 2017 to 2022 as a Sergeant and Cryptologic Linguist, deploying to southern Syria in support of Operation Inherent Resolve.", "sources": ["s3"] },
+        { "text": "Earned a high school diploma from Boulder Creek High School, an associate degree from Rio Salado College (2016), a bachelor's degree from Grand Canyon University (2019), and a law degree from the University of Oklahoma College of Law (2025).", "sources": ["s3"] },
+        { "text": "Career experience includes working as a stockbroker, banker, mortgage loan originator, and public defender.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Says the rapidly growing federal deficit and national debt is the biggest threat facing the country, and calls for spending cuts and reduced tax expenditures.", "quote": "The biggest threat to our democracy is our skyrocketing national debt. … We need to stop raising the debt limit, cut spending, greatly reduce our tax expenditures, and eliminate the federal debt.", "sources": ["s3"] },
+        { "text": "Advocates for quality public education, small businesses, job creation, livable wages and human rights.", "sources": ["s3"] },
+        { "text": "As a public defender, prioritizes criminal justice reform centered on rehabilitation over punishment.", "quote": "I believe that the first pillar of criminal justice is rehabilitation, and then it is punishment.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "States that healthcare is a human right.",
+          "quote": "I believe that healthcare is a human right, and you should not have to work three jobs to get by.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports a living wage as part of his criminal justice reform and economic platform.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "No campaign website located; positions drawn from his Ballotpedia Candidate Connection survey."
+    },
+    {
+      "id": "rocco-bonacci",
+      "name": "Rocco Bonacci",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Rocco Bonacci is an independent candidate for Oklahoma's 4th Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Ballotpedia biography page, campaign website, or Candidate Connection survey response found."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Oklahoma,_2026",
+      "title": "United States House of Representatives elections in Oklahoma, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://cole.house.gov",
+      "title": "Congressman Tom Cole — Latest News",
+      "publisher": "Office of Rep. Tom Cole",
+      "kind": "official",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Mitchell_Jacob",
+      "title": "Mitchell Jacob",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2025-01-01"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

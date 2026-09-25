@@ -1,0 +1,138 @@
+{
+  "id": "us-house-oh-7",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "7",
+  "title": "U.S. House · Ohio's 7th District",
+  "area": "Northeast Ohio, including parts of Cuyahoga, Lorain, and Medina counties",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Cook Political Report rates the 7th District R+5. Eight Democrats ran in the primary, the most candidates for any Ohio U.S. House district in 2026; Brian Poindexter won with 37.0% of the vote.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Two independent write-in candidates, Thahbia Asad and Andrey Martinichin, are also seeking write-in votes in the general election; they do not appear as printed ballot lines and are not profiled here.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "max-miller",
+      "name": "Max Miller",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Incumbent, unopposed in the May 5, 2026 Republican primary",
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Miller is the incumbent U.S. Representative for Ohio's 7th District, first elected in 2022. He previously served as director of presidential advance and a senior advisor in the first Trump administration.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Ohio in 1988; earned a bachelor's degree in history from Cleveland State University (2013).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the U.S. Marine Corps Reserves and worked as director of presidential advance and a senior advisor in the first Trump administration before being elected to Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Served on the Committee on Science, Space, and Technology and the Committee on Agriculture during the 118th Congress (2023-2024).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "M001222"
+    },
+    {
+      "id": "brian-poindexter",
+      "name": "Brian Poindexter",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 5, 2026 Democratic primary with 37.0% in an eight-candidate field",
+      "summary": {
+        "text": "Poindexter is a union ironworker and apprenticeship instructor running as the Democratic nominee, with an at-large seat on the Brook Park City Council. His platform centers on workers' rights, wages, and healthcare.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned an associate degree from Cuyahoga Community College; has worked as a union ironworker and, as of 2026, as an apprenticeship instructor for Ironworkers Local 17.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served as an at-large member of the Brook Park City Council.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign website says the economy should be 'built from the foundation up' by workers, criticizing policies he says protect corporate profits over wages.",
+          "quote": "An economy that works can't be built from the penthouse down. It has to be built from the foundation up, and workers are that foundation.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign website supports the right to organize and says unions 'raise standards not just for their members, but for entire industries.'",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Campaign website says healthcare 'shouldn't disappear when a job does' and calls for healthcare that is portable and not tied to employment.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign website calls for policies that strengthen wages so that working people can 'afford to live with dignity.'",
+          "quote": "My focus is simple: if you work hard, you should be able to afford to live with dignity, support your family, and plan for the future.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign website calls for healthcare that is 'portable and dependable' and not tied to employment status.",
+          "quote": "Healthcare should be portable and dependable, so a change in work doesn't turn into a crisis for you or your family.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+      "title": "United States House of Representatives elections in Ohio, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Max_Miller",
+      "title": "Max Miller",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Brian_Poindexter",
+      "title": "Brian Poindexter",
+      "publisher": "Ballotpedia (candidate campaign website, as quoted)",
+      "kind": "candidate",
+      "date": "2026-04-24"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC totals for Miller are added separately by script. Ballotpedia's page for Miller did not list committee assignments for the 119th Congress (2025-2026) at the time of research, only the 118th; that is noted above rather than guessed."
+}
