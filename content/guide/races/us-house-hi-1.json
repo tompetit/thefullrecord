@@ -53,7 +53,29 @@
           "sources": ["s2"]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports protecting and improving the Affordable Care Act and has voted for extending enhanced ACA premium tax credits, which he says have made coverage more affordable for tens of thousands of Hawai'i residents.",
+          "quote": "I am committed to achieving access to affordable, quality health care for all Americans.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supported the Inflation Reduction Act's climate investments, opposed the 2025 reconciliation law's rollback of IRA clean-energy funding, and has introduced legislation to expand clean-energy resilience for Hawai'i's isolated communities.",
+          "quote": "I supported the Inflation Reduction Act (IRA), which was our nation’s largest-ever investment in the fight against climate change.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says broad tariffs have raised the cost of living and harmed Hawai'i businesses and families, and has cosponsored bills to limit the president's unilateral tariff authority.",
+          "quote": "I believe tariffs should be used more cautiously and in ways that protect, not harm, American families and industries, and I am committed to working with my colleagues in Congress to restore the necessary checks and balances over trade policy and undo the harm placed on everyday Americans.",
+          "sources": ["s8"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Appropriations Committee in the 119th Congress.",
@@ -165,7 +187,10 @@
   "sources": [
     { "id": "s1", "url": "https://ballotpedia.org/Hawaii%27s_1st_Congressional_District_election,_2026", "title": "Hawaii's 1st Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s2", "url": "https://ballotpedia.org/Ed_Case", "title": "Ed Case", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Hawaii%27s_1st_Congressional_District_election,_2026", "title": "Adriel Lam and Jordan Conley - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+    { "id": "s3", "url": "https://ballotpedia.org/Hawaii%27s_1st_Congressional_District_election,_2026", "title": "Adriel Lam and Jordan Conley - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s6", "url": "https://case.house.gov/issues/issue/?IssueID=14932", "title": "Health Care", "publisher": "Office of Rep. Ed Case", "kind": "official", "date": "2026-09-25" },
+    { "id": "s7", "url": "https://case.house.gov/issues/issue/?IssueID=14893", "title": "Environment", "publisher": "Office of Rep. Ed Case", "kind": "official", "date": "2026-09-25" },
+    { "id": "s8", "url": "https://case.house.gov/issues/issue/?IssueID=14945", "title": "Cost of Living", "publisher": "Office of Rep. Ed Case", "kind": "official", "date": "2026-09-25" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Ed Case's key floor votes and FEC finance totals are filled in separately by script. Nathan Berning has a minimal public footprint; no positions could be verified for him."
