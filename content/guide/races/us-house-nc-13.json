@@ -11,86 +11,143 @@
   "context": [
     {
       "text": "Incumbent Brad Knott defeated one Republican primary challenger with 89.9% of the vote. Paul Barringer won a three-way Democratic primary with 59.1% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "brad-knott",
       "name": "Brad Knott",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Brad Knott is the Republican incumbent for North Carolina's 13th Congressional District, a former federal prosecutor first elected to Congress in 2024.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Raleigh, North Carolina, in 1986; earned a bachelor's degree from Baylor University and a J.D. from Wake Forest University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Career experience includes working as a federal prosecutor in the U.S. Attorney's Office for the Eastern District of North Carolina.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the House Committee on Homeland Security (Border Security and Enforcement; Oversight, Investigations, and Accountability), the Committee on the Judiciary (Crime and Federal Government Surveillance; Immigration Integrity, Security, and Enforcement), and the Committee on Transportation and Infrastructure (Aviation; Highways and Transit; Water Resources and Environment) for the 2025-2026 Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Brad's focus in Congress is combatting pervasively serious crime, building an environment for continued economic growth in North Carolina's 13th District and across the nation, and defending against persistent threats to our country from within our own borders.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Sponsor of the Stop Illegal Entry Act, which increases penalties for illegal reentry after deportation and for felonies committed by people in the country illegally, and supported restoring ICE/CBP funding.",
+          "quote": "As a federal prosecutor, I encountered illegal alien criminals who repeatedly reentered the United States after deportation to continue committing crimes against Americans. This pervasive trend will continue, causing endless harm, unless we implement serious deterrents targeting this class of dangerous criminals.",
+          "sources": [
+            "s10",
+            "s9"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the House Committee on Homeland Security, the Committee on the Judiciary, and the Committee on Transportation and Infrastructure for the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Sponsor of the Stop Illegal Entry Act (with Rep. Stephanie Bice), which passed the House and increases penalties for illegal reentry after deportation and for felonies committed by people in the country illegally.",
+          "date": "2025-09-11",
+          "kind": "bill",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "website": "https://knott.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "K000405"
+      "bioguideId": "K000405",
+      "researchNotes": "Federal key votes and FEC totals for this sitting member of Congress are added separately. His house.gov issues pages (border, crime, economic growth, family values, health, energy, agriculture) and recent press releases were reviewed; beyond immigration enforcement, no statements were found specific enough to document a position on abortion, guns, taxes, climate, or police funding under this guide's sourcing standard."
     },
     {
       "id": "paul-barringer",
       "name": "Paul Barringer",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary with 59.1% of the vote over two challengers.",
       "summary": {
         "text": "Paul Barringer is the Democratic nominee for North Carolina's 13th Congressional District, an attorney and health care consultant with more than 20 years of experience working with state governments on Medicaid and public health programs.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a high school diploma from Episcopal High School, a bachelor's degree in American studies from Davidson College, a law degree from the University of North Carolina, and a master's degree in public affairs from Princeton University.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes working as a healthcare consultant and lawyer, managing his family's tree farming operation, and developing a clothing brand called Mill & Mountain.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says he worked for years in the prison system teaching literacy and helping formerly incarcerated people find employment after release.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he is running as an independent voice willing to stand up to any president or wealthy donors, rather than following party leadership.",
           "quote": "I'm running to represent the people of this district – not Donald Trump, party leadership, or billionaire donors. Congress works best when members are willing to stand up to any president who abuses power and to wealthy interests that try to buy influence.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Wants to lower health care costs and strengthen Medicaid oversight, drawing on his background working inside Medicaid and public health systems.",
           "quote": "I've worked inside Medicaid and public health systems and believe meaningful reform will come from better incentives, simplified administration, and collaboration across the system.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Wants to reduce federal spending waste and improve fiscal oversight while lowering health care and education costs.",
           "quote": "Fiscal responsibility means reducing waste, improving oversight, and focusing spending on what actually works.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -99,42 +156,54 @@
           "stance": "supports",
           "summary": "Supports continued funding for Medicare and Medicaid, saying the market fails to cover seniors, low-income families, and people with disabilities.",
           "quote": "The reason we have programs like Medicare and Medicaid in the first place is because the market fails to cover the needs of seniors, low-income families, and those with disabilities. It's our responsibility to continue supporting these vital programs.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says the law should not stand in the way of a woman's health care decisions made with her doctor, while also supporting expanded maternal health, family planning, and adoption support.",
           "quote": "The law should not be an impediment to a woman making the health care choices she needs to make with her doctor.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "guns",
           "stance": "mixed",
           "summary": "Describes himself as a responsible gun owner who supports Second Amendment rights, while also supporting enforcement of existing gun laws and bipartisan measures to reduce gun violence.",
           "quote": "I believe in the Second Amendment and the right of law-abiding citizens to own firearms, and I also believe we can do more to keep our communities safe.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "mixed",
           "summary": "Supports secure borders and enforcement against illegal crossings and trafficking, alongside modernizing the legal immigration system for workforce needs.",
           "quote": "Border security is a basic function of government, and we need smart, effective enforcement to stop illegal crossings, drug trafficking, and exploitation. At the same time, we need to modernize our legal immigration system to meet workforce needs.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Opposes broad tariffs, saying they function as a consumer tax that especially hurts farmers, small manufacturers, and rural communities.",
           "quote": "Broad tariffs function like a tax on consumers, especially hurting farmers, small manufacturers, and rural communities who rely on affordable materials and access to international markets.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Supports law enforcement having the resources needed to do their jobs, alongside support for rehabilitation and re-entry programs.",
           "quote": "I strongly support law enforcement and the vital role police officers play in keeping our communities safe. I believe in ensuring officers have the resources and respect they need to do their jobs.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -144,11 +213,15 @@
     {
       "id": "anthony-aguilar",
       "name": "Anthony Aguilar",
-      "parties": ["G"],
+      "parties": [
+        "G"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Anthony Aguilar is the Green Party candidate for North Carolina's 13th Congressional District.",
-        "sources": ["s6"]
+        "sources": [
+          "s6"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -159,11 +232,15 @@
     {
       "id": "steven-swinton",
       "name": "Steven Swinton",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Steven Swinton is the Libertarian Party candidate for North Carolina's 13th Congressional District.",
-        "sources": ["s7"]
+        "sources": [
+          "s7"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -221,6 +298,28 @@
       "title": "Steven Swinton",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://knott.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Brad Knott",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://knott.house.gov/media/press-releases/knott-votes-restore-ice-and-cbp-funding-after-100-days-democrat-obstruction",
+      "title": "Knott Votes to Restore ICE and CBP Funding After 100 Days of Democrat Obstruction",
+      "publisher": "Office of Rep. Brad Knott",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://knott.house.gov/media/press-releases/stop-illegal-entry-act-passes-house",
+      "title": "Stop Illegal Entry Act Passes the House",
+      "publisher": "Office of Rep. Brad Knott",
+      "kind": "candidate",
+      "date": "2025-09-11"
     }
   ],
   "researchedAt": "2026-09-25",
