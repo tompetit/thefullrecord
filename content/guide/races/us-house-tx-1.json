@@ -1,0 +1,104 @@
+{
+  "id": "us-house-tx-1",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Texas's 1st District",
+  "area": "East Texas, including Tyler, Texarkana, Longview, and Marshall",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Nathaniel Moran (R) ran unopposed in the March 3, 2026 Republican primary. Yolanda Prince won a May 26, 2026 Democratic primary runoff against Dax Alexander, 72.3% to 27.7%.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "nathaniel-moran",
+      "name": "Nathaniel Moran",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 1st District (since 2023)",
+      "summary": {
+        "text": "Nathaniel Moran is the Republican incumbent U.S. Representative for Texas's 1st Congressional District, an attorney and former Tyler City Council member.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Whitehouse, Texas; graduated from Whitehouse High School and earned a law degree from Texas Tech University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an attorney and partner with the law firm Ramey & Flock, P.C. before serving on the Tyler City Council.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the U.S. House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, among other committee assignments, in the 2025–2026 Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Moran's official site lists issue pages (Economy, Education, Election Integrity, Pro-Life, Energy, Veterans, Border Security) but the content loads via JavaScript and was not accessible to extract specific position statements or quotes in this research pass."
+    },
+    {
+      "id": "yolanda-prince",
+      "name": "Yolanda Prince",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 26, 2026 Democratic primary runoff",
+      "summary": {
+        "text": "Yolanda Prince is the Democratic nominee for Texas's 1st Congressional District, a university project manager.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from Stephen F. Austin University and a graduate degree from the University of Texas at Arlington.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Career experience includes working as a university project manager.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, candidate questionnaire, or public policy statements found for Prince; only basic biographical facts from Ballotpedia are documented."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Texas%27_1st_Congressional_District_election,_2026",
+      "title": "Texas' 1st Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Nathaniel_Moran",
+      "title": "Nathaniel Moran",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Yolanda_Prince",
+      "title": "Yolanda Prince",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25"
+}

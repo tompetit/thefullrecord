@@ -42,5 +42,5 @@ standard) and `src/server/guide/types.ts` first.
      "corrected": N, "removed": N, "unverifiable": N,
      "notes": ["short plain description of each correction/removal"]}`
 
-Do not edit anything else. Final answer: one line per race — id, counts, and the
+Use a unique temp directory for scratch files (mktemp -d) — other agents share /tmp. Do not edit anything else. Final answer: one line per race — id, counts, and the
 most important correction if any.
