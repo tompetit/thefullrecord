@@ -1,0 +1,83 @@
+{
+  "id": "us-house-mn-6",
+  "state": "MN",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "6",
+  "title": "U.S. House · Minnesota's 6th District",
+  "area": "St. Cloud and the northern/western Twin Cities exurbs, including Otsego, Elk River and Anoka County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Tom Emmer (R), the House Majority Whip, advanced from the August 11, 2026 Republican primary. Doug Chapin won the Democratic primary unopposed among ballot-qualified candidates.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "tom-emmer",
+      "name": "Tom Emmer",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced unopposed from the August 11, 2026 Republican primary.",
+      "currentRole": "U.S. Representative (since 2015); House Majority Whip",
+      "summary": {
+        "text": "Emmer is the incumbent U.S. Representative for Minnesota's 6th District, first elected in 2014, and serves as House Majority Whip. He sits on the Committee on Financial Services, where he is Vice Chair.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {"text": "Born in South Bend, Indiana; graduated from St. Thomas Academy in Mendota Heights, Minnesota.", "sources": ["s2"]},
+        {"text": "Earned a bachelor's degree from the University of Alaska in 1984 and a law degree from William Mitchell College of Law in 1988; practiced as a trial attorney and founded his own law firm.", "sources": ["s2"]},
+        {"text": "Served on the Independence City Council (1995-2002) and the Delano City Council (2003-2004) before serving in the Minnesota House of Representatives from 2005 to 2011.", "sources": ["s2"]}
+      ],
+      "priorities": [
+        {"text": "Serves as House Majority Whip, responsible for coordinating House Republican votes on legislation.", "sources": ["s2"]},
+        {"text": "Focuses on financial services and digital-asset policy as Vice Chair of the Committee on Financial Services.", "sources": ["s2"]},
+        {"text": "Lists agriculture, law enforcement, mental health, and transportation as district priorities on his official website.", "sources": ["s3"]}
+      ],
+      "positions": [],
+      "record": [
+        {"text": "Elected House Majority Whip for the 118th Congress and continues in that role in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]},
+        {"text": "Serves as Vice Chair of the Committee on Financial Services in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]},
+        {"text": "Previously served on the Financial Services Subcommittee on Digital Assets, Financial Technology and Inclusion (2023-2024) and the Subcommittee on Investor Protection, Entrepreneurship and Capital Markets (2021-2022).", "kind": "action", "sources": ["s2"]}
+      ],
+      "website": "https://emmer.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "E000294"
+    },
+    {
+      "id": "doug-chapin",
+      "name": "Doug Chapin",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced unopposed from the August 11, 2026 Democratic primary.",
+      "summary": {
+        "text": "Chapin is a longtime election-policy expert and attorney running as the Democratic nominee against incumbent Tom Emmer, campaigning on the economy, healthcare, and government functioning.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {"text": "Worked for a decade at the University of Minnesota's Humphrey School of Public Affairs, where he founded the nation's first online certificate program in Election Administration.", "sources": ["s4"]},
+        {"text": "Spent over a decade leading The Pew Charitable Trusts' elections team and founded electionline.org in 2001, a nonpartisan source for election policy news.", "sources": ["s4"]},
+        {"text": "Holds a J.D. from Georgetown University Law Center, a Master's in Public Administration from Harvard's Kennedy School, and a bachelor's degree from Princeton University; has practiced election and ethics law and served as elections counsel to Democrats on the U.S. Senate Rules Committee.", "sources": ["s4"]}
+      ],
+      "priorities": [
+        {"text": "Build an economy that works for everyone.", "quote": "Build an economy that works for everyone", "sources": ["s4"]},
+        {"text": "Build healthcare that works for everyone.", "quote": "Build healthcare that works for everyone", "sources": ["s4"]},
+        {"text": "Build a government that works, drawing on his background in election administration.", "quote": "Build government that works", "sources": ["s4"]}
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Chapin completed Ballotpedia's Candidate Connection survey but stated only general campaign themes; no campaign website or additional issue-specific statements were found."
+    }
+  ],
+  "sources": [
+    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Minnesota,_2026", "title": "United States House of Representatives elections in Minnesota, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2", "url": "https://ballotpedia.org/Tom_Emmer", "title": "Tom Emmer", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s3", "url": "https://emmer.house.gov", "title": "Congressman Tom Emmer", "publisher": "Office of Rep. Tom Emmer", "kind": "official", "date": "2026-09-25"},
+    {"id": "s4", "url": "https://ballotpedia.org/Doug_Chapin", "title": "Doug Chapin", "publisher": "Ballotpedia (Candidate Connection survey)", "kind": "candidate", "date": "2026-09-25"}
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. Federal key votes and FEC finance totals for Rep. Emmer are added separately by script."
+}

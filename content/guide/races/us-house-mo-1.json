@@ -1,0 +1,133 @@
+{
+  "id": "us-house-mo-1",
+  "state": "MO",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Missouri's 1st District",
+  "area": "St. Louis city and northern St. Louis County, including central and north St. Louis, Ferguson and Florissant.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Wesley Bell, who won a special-primary contest against Cori Bush in 2024, defeated Bush again 59.2%-36.9% in the August 4, 2026 Democratic primary, along with Alissa Murphy, Carl Harris Sr. and Carl Henderson. Paul Berry defeated Andrew Jones Jr. in the Republican primary, and Tom Schmitz advanced unopposed in the Libertarian primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "wesley-bell",
+      "name": "Wesley Bell",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2025)",
+      "summary": {
+        "text": "Wesley Bell is the incumbent Democratic U.S. Representative for Missouri's 1st District. A former public defender and St. Louis County prosecuting attorney, he defeated Cori Bush in the 2024 Democratic primary and again in the 2026 primary, and sits on the House Oversight and Armed Services committees.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Grew up in North St. Louis County; earned a bachelor's degree from Lindenwood University and a law degree from the University of Missouri-Columbia.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a public defender before being elected St. Louis County prosecuting attorney in 2018.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Assumed office in the U.S. House in January 2025 after defeating incumbent Cori Bush in the 2024 Democratic primary.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Oversight and Government Reform (Federal Law Enforcement Subcommittee; Health Care and Financial Services Subcommittee) in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves on the House Committee on Armed Services (Strategic Forces Subcommittee; Tactical Air and Land Forces Subcommittee) in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://bell.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "B001324",
+      "researchNotes": "Bell has not completed a 2026 Ballotpedia Candidate Connection survey and his campaign website's issues pages did not load distinct stated positions in this pass; key floor votes and FEC totals are added separately by script."
+    },
+    {
+      "id": "paul-berry",
+      "name": "Paul Berry",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the August 4, 2026 Republican primary",
+      "summary": {
+        "text": "Paul Berry is the Republican nominee for Missouri's 1st District. He has previously run for Lieutenant Governor of Missouri and U.S. House District 2, and his campaign has focused on abortion opposition, gun rights, border security and school choice.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Previously ran in the 2024 Republican primary for Lieutenant Governor of Missouri and in the 2022 Republican primary for U.S. House Missouri District 2.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign website priorities include opposing abortion (\"Pro Life Missouri\"), defending Second Amendment rights, election integrity, border security, criminal-justice reform, school choice, and lowering taxes for seniors and workers.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Campaign website describes championing \"the sanctity of life\" and advocating for policies that protect the unborn.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign website lists 2nd Amendment rights as a core plank, describing it as crucial for the security of a free state.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Campaign website says he champions diverse school options for all Missourians.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "No 2026 Ballotpedia Candidate Connection survey completed; positions drawn from his campaign website's stated 2024/2026 agenda page. He has not previously held elected office."
+    },
+    {
+      "id": "tom-schmitz",
+      "name": "Tom Schmitz",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "ballotNote": "Advanced unopposed in the August 4, 2026 Libertarian primary",
+      "summary": {
+        "text": "Tom Schmitz is the Libertarian Party nominee for Missouri's 1st District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or other public statements of positions found."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026", "title": "United States House of Representatives elections in Missouri, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s2", "url": "https://ballotpedia.org/Wesley_Bell", "title": "Wesley Bell", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
+    { "id": "s3", "url": "https://ballotpedia.org/Paul_Berry_(Missouri)", "title": "Paul Berry (Missouri) - campaign website statement", "publisher": "Paul Berry campaign website (via Ballotpedia)", "kind": "candidate", "date": "2024" }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "Basic-tier research from Ballotpedia and campaign-website material. Key floor votes and FEC finance totals for incumbent Wesley Bell are added separately by script."
+}
