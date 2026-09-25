@@ -1,0 +1,150 @@
+{
+  "id": "us-house-ca-48",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "48",
+  "title": "U.S. House · California's 48th District",
+  "area": "North San Diego County, including Escondido, San Marcos and surrounding communities. Redrawn under Proposition 50 (approved November 2025); the old district voted 56%-41% for Donald Trump in 2024, while the new lines would have favored Kamala Harris 50%-47%, an 18-point shift toward Democrats.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat: incumbent Darrell Issa (R) is not seeking re-election. Democrat Marni von Wilpert and Republican Jim Desmond advanced from the June 2, 2026 top-two primary. Desmond and fellow Republican Kevin O'Neil combined for 48% of the primary vote, while nine Democratic candidates combined for 51%. Times of San Diego reporter Andrew Keatts described the race as among the most-watched in the nation, saying it could help determine partisan control of the House.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "marni-von-wilpert",
+      "name": "Marni von Wilpert",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary, one of nine Democratic candidates who together took 51% of the primary vote.",
+      "currentRole": "San Diego City Council member, District 5 (since 2020)",
+      "summary": {
+        "text": "Marni von Wilpert is the Democratic candidate for the open 48th District seat. She is a member of the San Diego City Council representing District 5 and previously worked as a labor attorney in the Obama administration and as a San Diego deputy city attorney.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Has served on the San Diego City Council representing District 5 since December 2020.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as a deputy city attorney for San Diego, where her campaign says she took on the opioid industry over harm caused to communities.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a labor attorney in the Obama administration, according to her campaign; her father is an immigrant who served in the U.S. Army.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Opposing ICE enforcement tactics she describes as overreach, while supporting border security and legal pathways to citizenship.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Protecting the Affordable Care Act and Social Security, and expanding Medicare's power to negotiate drug prices.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Banning members of Congress from stock trading and opposing the influence of corporate donors in politics.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will fight to protect and expand the Affordable Care Act, restore ACA tax credits, and add a public option, while expanding Medicare's power to negotiate prescription drug prices.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says she opposes ICE tactics she calls unconstitutional overreach while supporting measures that keep borders secure and provide legal pathways to citizenship for long-term residents and Dreamers.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says she will fight against what she calls Donald Trump's tariff war, which she says has made essential goods more expensive.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.marnivonwilpert.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "jim-desmond",
+      "name": "Jim Desmond",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the June 2, 2026 top-two primary as the leading Republican candidate.",
+      "currentRole": "San Diego County Supervisor, District 5",
+      "summary": {
+        "text": "Jim Desmond is the Republican candidate for the open 48th District seat. He is a San Diego County supervisor and U.S. Navy veteran.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Illinois; served in the U.S. Navy and earned a bachelor's degree from San Diego State University.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Serves as a San Diego County supervisor.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lowering the cost of living in California by cutting taxes, reducing regulation and easing insurance and energy costs.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Addressing homelessness through treatment-first programs for addiction and mental illness rather than temporary shelters alone.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://desmondforcongress.com/",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Marni_von_Wilpert",
+      "title": "Marni von Wilpert",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Marni_von_Wilpert",
+      "title": "Marni von Wilpert campaign website, quoted on Ballotpedia",
+      "publisher": "Marni von Wilpert for Congress (via Ballotpedia)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Jim_Desmond",
+      "title": "Jim Desmond",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Jim_Desmond",
+      "title": "Jim Desmond campaign website, quoted on Ballotpedia",
+      "publisher": "Jim Desmond for Congress (via Ballotpedia)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research from Ballotpedia and campaign-site material. Both candidates are non-incumbents for this open seat, so no key-votes/FEC augmentation applies to prior House service; Jim Desmond's current-office details beyond county supervisor were not further verified."
+}

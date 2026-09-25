@@ -1,0 +1,106 @@
+{
+  "id": "us-house-il-2",
+  "state": "IL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Illinois's 2nd District",
+  "area": "Parts of Chicago's South Side, south suburban Cook County, and Will County",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open seat. Incumbent Robin Kelly (D) ran for U.S. Senate instead of seeking re-election to this seat and did not appear on the District 2 primary ballot. Donna Miller, a Cook County Board Commissioner, won the March 17, 2026 Democratic primary over ten other candidates. Mike Noack won the Republican primary.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Ashley Banks is running as a write-in independent candidate.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "donna-miller",
+      "name": "Donna Miller",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 17, 2026 Democratic primary",
+      "currentRole": "Cook County Board of Commissioners (since 2018)",
+      "summary": {
+        "text": "Miller is a Cook County Board Commissioner with a career in sales and marketing, including work with Genentech, UnitedHealth Group, and the American Heart Association.",
+        "sources": ["s1"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree in marketing from Howard University.", "sources": ["s1"] },
+        { "text": "Worked in sales training with Genentech and UnitedHealth Group, and in marketing with the American Heart Association; worked as an independent sales-training and marketing consultant for 15 years.", "sources": ["s1"] },
+        { "text": "Has served on the Cook County Board of Commissioners since 2018.", "sources": ["s1"] }
+      ],
+      "priorities": [
+        { "text": "Says she has \"spent her career serving the community and fighting to lower costs for working families, increase opportunity, and expand access to healthcare, particularly for women and communities of color.\"", "sources": ["s1"] },
+        { "text": "Cites family legacy in public service, saying her great-grandfather was a Pullman Porter and her grandmother, mother, and sister were all teachers.", "sources": ["s1"] },
+        { "text": "Says she is running \"to fight back against those in Washington who are trying to tear down all of the progress she's made for working families\" and to \"build a future we can all afford.\"", "sources": ["s1"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she has worked to expand access to healthcare, particularly for women and communities of color.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "mike-noack",
+      "name": "Mike Noack",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the March 17, 2026 Republican primary",
+      "summary": {
+        "text": "Noack won the Republican primary for this open seat.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "ashley-banks",
+      "name": "Ashley Banks",
+      "parties": ["IND"],
+      "incumbent": false,
+      "ballotNote": "Running as a write-in independent candidate",
+      "summary": {
+        "text": "Banks is a Chicago-area freelance journalist, photographer, and election judge running an independent write-in campaign focused on government transparency.",
+        "sources": ["s1"]
+      },
+      "background": [
+        { "text": "Graduate of Crete-Monee High School; pursuing degrees in journalism at Olive-Harvey College and international marketing at DePaul University, by her own account.", "sources": ["s1"] },
+        { "text": "Has worked as a CTA bus driver, truck driver, tutor, and Amazon warehouse employee, by her own account.", "sources": ["s1"] }
+      ],
+      "priorities": [
+        { "text": "Says her experience living and working in the district gives her \"real experience, real representation.\"", "sources": ["s1"] },
+        { "text": "Campaign focuses on \"restoring respect, value, and transparency between the people and those elected to serve them.\"", "sources": ["s1"] },
+        { "text": "Says she stands for \"efficiency, timely action, and clear plans that keep District 2 moving forward.\"", "sources": ["s1"] }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Illinois%27_2nd_Congressional_District_election,_2026",
+      "title": "Illinois' 2nd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No campaign website, public statements, or Candidate Connection survey were found for Mike Noack beyond his name appearing on the primary and general-election ballot; his entry is marked minimal. Miller's and Banks's material comes from Ballotpedia's compiled candidate profiles (Miller's campaign website and LinkedIn; Banks's Candidate Connection survey)."
+}

@@ -1,0 +1,136 @@
+{
+  "id": "us-house-fl-23",
+  "state": "FL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "23",
+  "title": "U.S. House · Florida's 23rd District",
+  "area": "Central and southern Palm Beach County, including West Palm Beach, under Florida's 2026 congressional map.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Florida's U.S. House elections use a new congressional map for 2026; Gov. Ron DeSantis signed the new district boundaries into law on May 4, 2026.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Incumbent Rep. Lois Frankel (D) won the Democratic primary on August 18, 2026, defeating Victoria Doyle and Mark Piper. Deborah Adeimy won the Republican primary, defeating Paola Branda.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "lois-frankel",
+      "name": "Lois Frankel",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2017)",
+      "summary": {
+        "text": "Lois Frankel is the incumbent Democratic U.S. Representative for the 23rd District, first elected to the House in 2016. She previously served in the Florida House of Representatives and as mayor of West Palm Beach.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in New York, New York, in 1948; earned a bachelor's degree in psychology from Boston University in 1970 and a J.D. from Georgetown University in 1973.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the Florida House of Representatives from 1986 to 1992 and 1994 to 2002, including as minority leader from 2000 to 2002.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as mayor of West Palm Beach from 2003 to 2011 before her election to Congress in 2016.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Appropriations and the Committee on Foreign Affairs for the 2025–2026 Congress; previously served on the Transportation and Infrastructure Committee and Veterans' Affairs Committee.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://ballotpedia.org/Lois_Frankel",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "deborah-adeimy",
+      "name": "Deborah Adeimy",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the August 18, 2026 Republican primary",
+      "summary": {
+        "text": "Deborah Adeimy is a financial services professional running as the Republican nominee against incumbent Lois Frankel, campaigning on immigration enforcement, opposing tax increases, and a strong military.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "A fourth-generation Floridian who has worked as a strategic advisor at Merrill Lynch, Citi Global Markets, and Morgan Stanley.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says uncontrolled immigration threatens Americans' safety and calls for stronger immigration control.",
+          "quote": "IMMIGRATION to America is to join and give and strengthen NOT divide and take and weaken. Chaotic tidal waves of immigrants threaten Americans' safety.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Opposes pending increases to individual income, capital gains, and corporate taxes.",
+          "quote": "TAXES: Pending tax increases on American's income, capital gains and Corporate taxes will again, have negative impact.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Supports a powerful U.S. military and strengthening alliance partnerships and space defense.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Describes current immigration levels as a threat to Americans' safety and calls for stronger controls.",
+          "quote": "Chaotic tidal waves of immigrants threaten Americans' safety.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Opposes pending increases to income, capital gains, and corporate taxes.",
+          "quote": "TAXES: Pending tax increases on American's income, capital gains and Corporate taxes will again, have negative impact.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://ballotpedia.org/Deborah_Adeimy",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Florida%27s_23rd_Congressional_District_election,_2026",
+      "title": "Florida's 23rd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Lois_Frankel",
+      "title": "Lois Frankel",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Deborah_Adeimy",
+      "title": "Deborah Adeimy",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC finance totals for incumbent Lois Frankel are added separately by script. Deborah Adeimy's Candidate Connection survey dates to 2021, from an earlier campaign; cited only for general biography and stated priorities that remain consistent with her current campaign."
+}

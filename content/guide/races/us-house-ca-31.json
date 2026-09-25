@@ -1,0 +1,134 @@
+{
+  "id": "us-house-ca-31",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "31",
+  "title": "U.S. House · California's 31st District",
+  "area": "The San Gabriel Valley in Los Angeles County, including areas of North Orange County. District lines were redrawn for the 2026 election under California Proposition 50.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "California redrew its congressional district lines for the 2026 election cycle after voters approved Proposition 50 on November 5, 2025, a mid-decade redistricting measure.",
+      "sources": ["s5"]
+    },
+    {
+      "text": "Incumbent Democrat Gil Cisneros and Republican Eric Ching, a former city council member and mayor, advanced from the June 2, 2026 top-two primary.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "gil-cisneros",
+      "name": "Gil Cisneros",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, CA-31 (since 2023; also served 2019-2021)",
+      "ballotNote": "Advanced from the June 2, 2026 primary",
+      "summary": {
+        "text": "Gil Cisneros is the Democratic incumbent for California's 31st Congressional District. He previously served one term in the U.S. House from 2019 to 2021, served as Under Secretary of Defense for Personnel and Readiness under President Biden, and returned to Congress in 2023.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Los Angeles, California, in 1971. Served in the U.S. Navy as a supply officer from 1994 to 2004.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Earned a bachelor's degree in political science from George Washington University in 1994, an MBA from Regis University in 2002, and a master's degree in urban education policy from Brown University in 2015.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a logistics manager for Frito-Lay; after winning the lottery in 2010, became involved in philanthropy, founding a scholarship program for local high school students. Appointed Under Secretary of Defense for Personnel and Readiness by President Biden in 2021.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Armed Services (Intelligence and Special Operations Subcommittee; Military Personnel Subcommittee) and the House Committee on Small Business (Contracting and Infrastructure Subcommittee; Oversight, Investigations, and Regulations Subcommittee) in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "eric-ching",
+      "name": "Eric Ching",
+      "parties": ["R"],
+      "incumbent": false,
+      "currentRole": "Former city council member and two-time mayor",
+      "ballotNote": "Advanced from the June 2, 2026 primary",
+      "summary": {
+        "text": "Eric Ching is the Republican nominee for California's 31st Congressional District. A first-generation immigrant from Taiwan, he built a business career after arriving in the U.S. in 1982 and later served over a decade on a city council, including two terms as mayor.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Immigrated from Taiwan in 1982 with limited English and worked his first job washing dishes while attending school; earned a marketing degree and later started his own company in his early 20s.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served on a city council for more than a decade, including two terms as mayor; says the city was ranked among the best to live in, was financially sound, and had over 200% in budget reserves when he left office.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists three key campaign messages: promoting and defending the Constitution, working to keep communities safe, and working to boost the economy.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says his policy focus areas are community safety, the economy, and foreign relations, and that he supports parental rights and opposes what he calls indoctrination in schools in favor of STEM and \"useful skills.\"",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says on his campaign website that he supports the right to keep and bear arms.",
+          "quote": "I will support our rights to keep and bear arms.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Gil_Cisneros",
+      "title": "Gil Cisneros",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Eric_Ching",
+      "title": "Eric Ching - Ballotpedia's Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Gil Cisneros has not completed Ballotpedia's 2026 Candidate Connection survey and no current issue-by-issue statements were found within this session's time budget beyond his committee role; his federal floor votes and FEC totals are added separately by script. Eric Ching completed the 2026 survey and a separate quote from his campaign website, which are the basis for his priorities and the gun-rights position listed here. The 'guns' issue key in this guide is phrased as support for stricter gun laws, so a stated support for gun rights is recorded as 'opposes' that statement."
+}
