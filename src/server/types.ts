@@ -198,13 +198,6 @@ export interface Digest {
   quietLine: string;
 }
 
-export interface IssueReport {
-  /** What the report is about: a vote summary, a said-vs-did pair, a bill summary… */
-  subjectType: "vote" | "bill" | "said_vs_did" | "other";
-  subjectId: string;
-  message: string;
-}
-
 export interface Paginated<T> {
   items: T[];
   total: number;

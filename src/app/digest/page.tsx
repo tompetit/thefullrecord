@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { ReportIssue } from "@/components/ReportIssue";
 import { SourceLink } from "@/components/SourceLink";
 import { VoteBadge } from "@/components/VoteBadge";
 import { Wordmark } from "@/components/Wordmark";
@@ -78,7 +77,7 @@ export default async function DigestPage() {
         <div className="mt-6 border-t border-hairline-soft pt-4 text-center font-sans text-[11px] leading-[1.6] text-ink-45">
           <div>
             Summaries are AI-generated — every item links to the official
-            record. <ReportIssue subjectType="other" subjectId="digest" />
+            record.
           </div>
           <p className="mt-2">
             You receive this weekly for your saved address.{" "}

@@ -149,8 +149,6 @@ export function ProfileTabs({
                   </p>
                   <AiMarker
                     billTextUrl={s.sourceUrl}
-                    subjectType="bill"
-                    subjectId={s.id}
                   />
                 </>
               )}

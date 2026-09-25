@@ -10,7 +10,7 @@ No endorsements, scores, or grades. The site describes what someone did or said 
 
 - **Official records first.** Roll calls, bill pages, and legislature and Congress data outrank campaign material, which outranks news. A claim with no source is left out.
 - **Never fabricate.** Quotes are verbatim from the cited page. Missing information is stated as missing, never inferred from party.
-- **Provenance stays visible.** Each AI-written bill summary carries an "AI summary" marker (official text is marked "Official summary"), and every summary has a "Report an issue" link.
+- **Provenance stays visible.** Each AI-written bill summary carries an "AI summary" marker (official text is marked "Official summary").
 - **Neutral by design.** The interface avoids red/blue party coloring. A vote is always shown as glyph + word + border, never by color alone. Counts are shown whenever a list is truncated.
 - **Editorial review gate.** "Said vs. did" pairs, which place a public statement next to a recorded vote, are published only after review ([`content/said-vs-did/README.md`](content/said-vs-did/README.md)).
 
@@ -67,7 +67,7 @@ node scripts/guide/check-links.mjs
 
 ## Contributing
 
-Corrections are the most valuable contribution. If something on the site is wrong, missing a source, or worded unevenly, [open an issue](https://github.com/tompetit/thefullrecord/issues) with a link to the primary source. Pull requests adding or fixing guide content must follow the research standard: every claim cited, verbatim quotes only, and the same treatment for every candidate in a race.
+Corrections are the most valuable contribution, and GitHub issues are the way to report them. If something on the site is wrong, missing a source, or worded unevenly, [open an issue](https://github.com/tompetit/thefullrecord/issues) with a link to the primary source. Pull requests adding or fixing guide content must follow the research standard: every claim cited, verbatim quotes only, and the same treatment for every candidate in a race.
 
 Before opening a PR:
 

@@ -5,7 +5,6 @@ import type { RelationshipLabel, SaidDidPair } from "@/server/types";
 import { FilterChips } from "./FilterChips";
 import { Glyph } from "./Glyph";
 import { RelationshipPill } from "./RelationshipPill";
-import { ReportIssue } from "./ReportIssue";
 import { SourceLink } from "./SourceLink";
 import { VoteBadge } from "./VoteBadge";
 
@@ -232,7 +231,6 @@ function ExpandedPair({
             </SourceLink>
           </span>
         )}
-        <ReportIssue subjectType="said_vs_did" subjectId={pair.id} />
         <button
           type="button"
           onClick={onCollapse}

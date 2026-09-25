@@ -103,8 +103,7 @@ export default function MethodologyPage() {
             written standard (neutral language, primary sources first, verbatim
             quotes only, never fabricate) and checked by automated validation of
             every citation. AI makes mistakes. Always follow the citation, and
-            use &ldquo;Report an issue&rdquo; — or your state or county board of
-            elections — for the final word on what&rsquo;s on your ballot.
+            check with your state or county board of elections for the final word on what&rsquo;s on your ballot.
           </P>
         </section>
       </article>

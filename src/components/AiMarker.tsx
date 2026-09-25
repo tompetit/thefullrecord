@@ -1,6 +1,3 @@
-import { ReportIssue } from "./ReportIssue";
-import type { IssueReport } from "@/server/types";
-
 /**
  * Summary-provenance marker — present on every summary. AI-generated text
  * gets the AI marker; official CRS/LRS text is labeled as such (never
@@ -9,13 +6,9 @@ import type { IssueReport } from "@/server/types";
  */
 export function AiMarker({
   billTextUrl,
-  subjectType,
-  subjectId,
   source = "ai",
 }: {
   billTextUrl: string;
-  subjectType: IssueReport["subjectType"];
-  subjectId: string;
   source?: "ai" | "official";
 }) {
   return (
@@ -31,7 +24,6 @@ export function AiMarker({
           read the bill text ↗
         </a>
       </span>
-      <ReportIssue subjectType={subjectType} subjectId={subjectId} />
     </div>
   );
 }

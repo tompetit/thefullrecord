@@ -18,7 +18,6 @@ import type {
   Bill,
   Digest,
   DigestItem,
-  IssueReport,
   Official,
   OfficialGroup,
   Paginated,
@@ -57,7 +56,6 @@ export interface DataSource {
     districtKey: string
   ): Promise<SeatElection | SeatNotOnBallot | null>;
   getSiteStats(): Promise<SiteStats>;
-  submitIssueReport(report: IssueReport): Promise<{ ok: true }>;
 }
 
 const GROUP_ORDER: Array<{ level: OfficialGroup["level"]; label: string }> = [
@@ -216,12 +214,6 @@ class HybridDataSource implements DataSource {
       trustLine: `Tracking ${officials} officials and ${rollCalls} recent recorded roll calls across city, state and federal government`,
       provenanceLine: data.siteStats.provenanceLine,
     };
-  }
-
-  async submitIssueReport(report: IssueReport): Promise<{ ok: true }> {
-    // Snapshot mode: log only. A real implementation persists the report.
-    console.log("[report-an-issue]", JSON.stringify(report));
-    return { ok: true };
   }
 }
 

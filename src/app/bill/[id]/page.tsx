@@ -50,8 +50,6 @@ export default async function BillPage({
       </div>
       <AiMarker
         billTextUrl={bill.sources[0]?.url ?? "#"}
-        subjectType="bill"
-        subjectId={bill.id}
       />
     </section>
   );
