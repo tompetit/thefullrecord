@@ -176,7 +176,7 @@ export function CandidateProfile({
       )}
 
       {(c.keyVotes?.length ?? 0) > 0 && (
-        <Block title="Key votes in Congress (2025–26)">
+        <Block title="Key votes in Congress">
           <KeyVoteList candidate={c} />
         </Block>
       )}

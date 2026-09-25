@@ -60,17 +60,26 @@ const legislators = JSON.parse(
   await fetchCached("https://unitedstates.github.io/congress-legislators/legislators-current.json", "legislators-current.json")
 );
 
-function matchLegislator(candidateName, state) {
+// Former members (for landmark votes from earlier Congresses): anyone who served
+// in the House after 2008.
+const historical = JSON.parse(
+  await fetchCached("https://unitedstates.github.io/congress-legislators/legislators-historical.json", "legislators-historical.json")
+).filter((l) => l.terms.some((t) => t.type === "rep" && t.end >= "2009"));
+
+const NICK = { tom: "thomas", mike: "michael", jim: "james", bill: "william", bob: "robert", dan: "daniel", joe: "joseph", chris: "christopher", tim: "timothy", ben: "benjamin", ed: "edward", dave: "david", steve: "steven", rick: "richard", andy: "andrew", tony: "anthony", ron: "ronald", don: "donald", ken: "kenneth", pat: "patrick", greg: "gregory", jack: "john", liz: "elizabeth", kate: "katherine", sam: "samuel", nick: "nicholas" };
+
+function matchLegislator(candidateName, state, pool = legislators) {
   const c = nameParts(candidateName);
-  const hits = legislators.filter((l) => {
-    const t = l.terms[l.terms.length - 1];
-    if (t.state !== state) return false;
+  const alt = NICK[c.first];
+  const hits = pool.filter((l) => {
+    const t = pool === legislators ? l.terms[l.terms.length - 1] : l.terms.filter((x) => x.type === "rep").at(-1);
+    if (!t || t.state !== state) return false;
     const lastWords = norm(l.name.last).split(" ");
     if (!lastWords.includes(c.last) && norm(l.name.last) !== c.all.slice(-2).join(" ")) return false;
     const firsts = [l.name.first, l.name.nickname, l.name.middle, ...(l.name.official_full ?? "").split(" ")]
       .filter(Boolean)
       .map(norm);
-    return firsts.some((f) => f && (f === c.first || (c.first.length > 1 && f.startsWith(c.first)) || c.first.startsWith(f)));
+    return firsts.some((f) => f && (f === c.first || f === alt || (c.first.length > 1 && f.startsWith(c.first)) || c.first.startsWith(f)));
   });
   return hits.length === 1 ? hits[0] : null;
 }
@@ -156,9 +165,9 @@ for (const race of races) {
   if (!["us-house", "us-senate"].includes(race.officeType) && race.state !== "NY") continue;
   for (const c of race.candidates) {
     const key = `${race.id}/${c.id}`;
-    const leg = ["us-house", "us-senate", "governor", "attorney-general", "comptroller"].includes(race.officeType)
-      ? matchLegislator(c.name, race.state)
-      : null;
+    const federalOrStatewide = ["us-house", "us-senate", "governor", "attorney-general", "comptroller"].includes(race.officeType);
+    const current = federalOrStatewide ? matchLegislator(c.name, race.state) : null;
+    const leg = current ?? (federalOrStatewide ? matchLegislator(c.name, race.state, historical) : null);
     if (leg) {
       const kvs = [];
       for (const kv of keyVotes) {
@@ -166,10 +175,12 @@ for (const race of races) {
         const v = memberId ? positions[kv.id]?.[memberId] : undefined;
         if (v) kvs.push({ voteId: kv.id, vote: v });
       }
-      members[key] = { bioguideId: leg.id.bioguide, fecId: leg.id.fec?.[0], keyVotes: kvs };
-      nMembers++;
+      if (current || kvs.length) {
+        members[key] = { bioguideId: leg.id.bioguide, fecId: leg.id.fec?.[0], keyVotes: kvs, ...(current ? {} : { former: true }) };
+        nMembers++;
+      }
     }
-    const f = matchFec(c, race, leg?.id.fec);
+    const f = matchFec(c, race, (current ?? leg)?.id.fec);
     if (f && (f.receipts > 0 || f.cashOnHand > 0)) {
       finance[key] = {
         receipts: Math.round(f.receipts),
