@@ -44,8 +44,43 @@
           "sources": ["s1"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says his plan for health care is to continue supporting the repeal of the Affordable Care Act and replace it with fiscally responsible, patient-centered reforms.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Says he is committed to maintaining the farm safety net established by the 2018 Farm Bill and reducing regulatory burdens on agriculture.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says Washington must stop spending money it doesn't have and focus on creating opportunities for job growth.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says he strongly supported the U.S. Supreme Court's decision overturning Roe v. Wade and has voted against what he calls the \"pro-abortion agenda,\" and supports defunding Planned Parenthood.",
+          "quote": "I strongly supported the U.S. Supreme Court’s decision to overturn Roe v. Wade and restore the American people’s power to determine for themselves how abortion services are regulated in their state.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Says he will continue to support repealing the Affordable Care Act and has voted to repeal it and eliminate its individual and employer mandates.",
+          "quote": "This is why I will continue to support policies to repeal Obamacare and replace it with fiscally-responsible patient-centric reforms that help reduce costs without sacrificing access to care.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Opposes limiting fossil-fuel and coal use, saying he will push for an \"all-of-the-above\" energy policy against those who oppose any use of fossil fuels.",
+          "quote": "Unfortunately, despite the successes and benefits of these new technologies, there remain those opposed to any use of fossil fuels. A particular target has been coal.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the Committee on Agriculture (General Farm Commodities, Risk Management and Credit) and the House Committee on Veterans' Affairs, and the Committee on Transportation and Infrastructure (Highways and Transit; Railroads, Pipelines).",
@@ -64,12 +99,12 @@
       "ballotNote": "Won the March 17, 2026 Democratic primary unopposed",
       "summary": {
         "text": "Julie Fortier is the Democratic nominee for Illinois's 12th Congressional District. She is a U.S. Air Force veteran.",
-        "sources": ["s2"]
+        "sources": ["s7"]
       },
       "background": [
         {
           "text": "Served in the U.S. Air Force.",
-          "sources": ["s2"]
+          "sources": ["s7"]
         }
       ],
       "priorities": [],
@@ -88,6 +123,41 @@
     },
     {
       "id": "s2",
+      "url": "https://bost.house.gov/pro-life",
+      "title": "Pro-Life Issues",
+      "publisher": "Office of Rep. Mike Bost",
+      "kind": "official"
+    },
+    {
+      "id": "s3",
+      "url": "https://bost.house.gov/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Mike Bost",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://bost.house.gov/agriculture",
+      "title": "Agriculture",
+      "publisher": "Office of Rep. Mike Bost",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://bost.house.gov/jobs-economic-growth",
+      "title": "Jobs & Economic Growth",
+      "publisher": "Office of Rep. Mike Bost",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://bost.house.gov/energy",
+      "title": "Energy",
+      "publisher": "Office of Rep. Mike Bost",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
       "url": "https://ballotpedia.org/Julie_Fortier",
       "title": "Julie Fortier",
       "publisher": "Ballotpedia",
@@ -95,5 +165,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey found for Julie Fortier beyond her Air Force service; positions and priorities could not be documented. Mike Bost has not completed the 2026 Candidate Connection survey; no stated priorities or issue positions from a citable source were found within the research budget for this race."
+  "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey found for Julie Fortier beyond her Air Force service; positions and priorities could not be documented."
 }

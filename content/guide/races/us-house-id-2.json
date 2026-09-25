@@ -51,8 +51,37 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he continuously opposed proposals to grant amnesty to illegal aliens and has worked to increase funding to combat illegal immigration and expedite the construction of a border fence.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Says he is troubled by the growing federal debt and supports drastically reducing discretionary spending, reforming entitlement programs, and passing a balanced-budget amendment to the U.S. Constitution.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Says the country should pursue a comprehensive energy strategy that includes nuclear power, energy efficiency, and renewable energy alongside continued development of oil and natural gas.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he has supported legislation allowing law enforcement to keep weapons, narcotics, and smugglers out of the country and to expedite the removal of criminal aliens, and has worked to increase funding to combat illegal immigration.",
+          "quote": "I have supported legislation which allows law enforcement to do what is necessary to keep harmful weapons, narcotics, and smugglers out of our country and expedites the removal of criminal aliens.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations for the 2025-2026 Congress, chairing the Interior, Environment and Related Agencies subcommittee, and also sitting on the Labor-HHS-Education and Energy-Water Development subcommittees.",
@@ -210,6 +239,27 @@
       "title": "Elinor Gilbreath",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://simpson.house.gov/Issues/Issue/?IssueID=5021",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Mike Simpson",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://simpson.house.gov/Issues/Issue/?IssueID=13377",
+      "title": "Fiscal Responsibility",
+      "publisher": "Office of Rep. Mike Simpson",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://simpson.house.gov/Issues/Issue/?IssueID=5258",
+      "title": "Energy",
+      "publisher": "Office of Rep. Mike Simpson",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
