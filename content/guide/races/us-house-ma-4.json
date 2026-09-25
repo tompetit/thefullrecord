@@ -1,0 +1,139 @@
+{
+  "id": "us-house-ma-4",
+  "state": "MA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Massachusetts's 4th District",
+  "area": "Southeastern Massachusetts, including Newton, Taunton, and Fall River",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Jake Auchincloss defeated Jason Poulos in the September 1, 2026 Democratic primary. Thomas Stalcup is the Republican nominee.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jake-auchincloss",
+      "name": "Jake Auchincloss",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2021)",
+      "summary": {
+        "text": "Auchincloss is the incumbent, serving since 2021. A Marine Corps veteran and former Newton city councilor, he sits on the House Energy and Commerce Committee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Boston, Massachusetts, in 1988; earned a bachelor's degree in government and economics from Harvard College (2010) and an M.B.A. from MIT (2016).", "sources": ["s2"] },
+        { "text": "Served in the U.S. Marine Corps from 2010 to 2015, reaching the rank of captain.", "sources": ["s2"] },
+        { "text": "Served on the Newton, Massachusetts City Council from 2016 to 2020 before his election to Congress.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Energy and Commerce (Health, Energy, and Environment subcommittees) for 2025-2026.",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Visited UMass Chan Medical School to discuss federal research-funding cuts and point-of-care clinical technology.",
+          "date": "2026-09-22",
+          "kind": "action",
+          "sources": ["s4"]
+        }
+      ],
+      "website": "https://auchincloss.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "A000148"
+    },
+    {
+      "id": "thomas-stalcup",
+      "name": "Thomas Stalcup",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Stalcup is a Ph.D. physicist, entrepreneur, and self-described former Bernie Sanders supporter running as the Republican nominee. He founded an environmental-monitoring company and campaigns on a \"Science Over Politics\" platform.",
+        "sources": ["s5"]
+      },
+      "background": [
+        { "text": "Holds a Ph.D. in physics; founded an environmental-monitoring company whose systems have been deployed from the Arctic to Antarctica.", "sources": ["s5"] }
+      ],
+      "priorities": [
+        { "text": "\"I would require major federal policies to disclose the evidence, assumptions, and data supporting them; strengthen protections for scientific whistleblowers; require independent review of high-impact agency findings.\"", "sources": ["s5"] },
+        { "text": "\"I would vote to raise the federal minimum wage quickly to approximately $15 per hour and then index it to inflation.\"", "sources": ["s5"] },
+        { "text": "\"I would pursue a hybrid healthcare system that guarantees Medicare coverage for every American while allowing private insurers to compete across state lines under strong consumer protections.\"", "sources": ["s5"] }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says he would vote to raise the federal minimum wage to about $15 per hour and index it to inflation.",
+          "quote": "I would vote to raise the federal minimum wage quickly to approximately $15 per hour and then index it to inflation so workers do not lose purchasing power.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "Proposes a hybrid system guaranteeing Medicare coverage for every American while keeping private insurers competing across state lines.",
+          "quote": "I would pursue a hybrid healthcare system that guarantees Medicare coverage for every American while allowing private insurers to compete across state lines under strong consumer protections.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Would require body cameras and standardized training for ICE operations and protect long-settled undocumented workers from deportation, while creating a time-limited departure process for recent arrivals without viable asylum claims.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Massachusetts%27_4th_Congressional_District_election,_2026",
+      "title": "Massachusetts' 4th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jake_Auchincloss",
+      "title": "Jake Auchincloss",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://auchincloss.house.gov/about/committees-and-caucuses",
+      "title": "Committees and Caucuses",
+      "publisher": "Office of Rep. Jake Auchincloss",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://auchincloss.house.gov",
+      "title": "U.S. Rep. Jake Auchincloss visits UMass Chan to discuss research funding cuts, point-of-care clinical technology",
+      "publisher": "Office of Rep. Jake Auchincloss",
+      "kind": "official",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Massachusetts%27_4th_Congressional_District_election,_2026",
+      "title": "Thomas Stalcup, Ballotpedia Candidate Connection survey responses",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Rep. Auchincloss's key floor votes and FEC finance totals are added separately by script."
+}

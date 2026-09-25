@@ -1,0 +1,125 @@
+{
+  "id": "us-house-ms-3",
+  "state": "MS",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Mississippi's 3rd District",
+  "area": "Central Mississippi, including parts of the Jackson metro area, Meridian, Brookhaven, and Starkville",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Michael Guest ran unopposed in the March 10, 2026 Republican primary. Michael Chiaradio ran unopposed for the Democratic nomination. Shaun McInnish Sr. did not make the Libertarian ballot; Erik Kiehle is the Libertarian nominee.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "michael-guest",
+      "name": "Michael Guest",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Ran unopposed in the March 10, 2026 Republican primary",
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Michael Guest has represented Mississippi's 3rd Congressional District since 2019. He holds a law degree from the University of Mississippi and chairs the House Committee on Ethics and the Homeland Security Committee's Border Security and Enforcement subcommittee in the 119th Congress.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree from Mississippi State University (1992) and a law degree from the University of Mississippi (1995).", "sources": ["s2"] },
+        { "text": "Chairs the House Committee on Ethics in the 119th Congress.", "sources": ["s2"] },
+        { "text": "Chairs the Border Security and Enforcement subcommittee of the House Committee on Homeland Security and sits on the House Committee on Appropriations, including its Homeland Security, Energy and Water Development, and Military Construction-Veterans Affairs subcommittees.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        { "text": "Chairs the House Committee on Ethics in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"] },
+        { "text": "Chairs the Border Security and Enforcement subcommittee of the House Homeland Security Committee in the 119th Congress.", "kind": "action", "sources": ["s2"] }
+      ],
+      "website": "https://guest.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "G000591"
+    },
+    {
+      "id": "michael-chiaradio",
+      "name": "Michael Chiaradio",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Ran unopposed for the March 10, 2026 Democratic nomination",
+      "currentRole": "Farmer/rancher",
+      "summary": {
+        "text": "Michael Chiaradio owns and operates a regenerative farm in Shubuta, Mississippi. He previously worked nearly four years in leadership at Maximus Inc., a government contractor supporting Medicaid and the Affordable Care Act, and holds an MBA from Felician University.",
+        "sources": ["s3", "s4"]
+      },
+      "background": [
+        { "text": "Born and raised in Teaneck, New Jersey; earned a bachelor's degree from Eastern Nazarene College (2013) and an MBA from Felician University (2021).", "sources": ["s3"] },
+        { "text": "Played professional baseball and later launched small businesses, including a women's professional softball league.", "sources": ["s4"] },
+        { "text": "Spent nearly four years in leadership at Maximus Inc., a global government contractor supporting Medicaid and the Affordable Care Act.", "sources": ["s4"] },
+        { "text": "Owns and operates a regenerative farm in Shubuta, Mississippi.", "sources": ["s4"] }
+      ],
+      "priorities": [
+        { "text": "\"Investing in Our People\": says simply raising taxes or cutting spending does not solve economic problems and calls for better-targeted government spending.", "quote": "Investing in Our People: Simply raising taxes or cutting spending does not solve our economic problems. We need BETTER spending that invests in our people.", "sources": ["s4"] },
+        { "text": "\"America's Competitive Advantages\": wants investment in agriculture and healthcare as foundational U.S. economic strengths.", "sources": ["s4"] },
+        { "text": "\"North American Production\": favors growing North American manufacturing and trade cooperation rather than competing alone in global markets.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists healthcare access and affordability among his passionate policy areas, drawing on his background working with Medicaid/ACA-related government contracting.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "erik-kiehle",
+      "name": "Erik Kiehle",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "currentRole": "Property manager",
+      "summary": {
+        "text": "Erik Kiehle is a property manager running as the Libertarian nominee. He describes himself as offering a fiscally conservative alternative to the Republican and Democratic parties.",
+        "sources": ["s5", "s6"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree from the University of California, Riverside (1994).", "sources": ["s5"] },
+        { "text": "Works as a property manager.", "sources": ["s5"] }
+      ],
+      "priorities": [
+        { "text": "Says he will vote against spending bills that add to the federal debt and wants a constitutional amendment requiring balanced budgets.", "quote": "End deficit spending and balance the budget. I will vote AGAINST spending bills that add to the federal debt and will push for a Constitutional Amendment to require balanced budgets", "sources": ["s6"] },
+        { "text": "Wants to end U.S. spending related to the wars in Ukraine and Iran and end all U.S. aid to Israel.", "sources": ["s6"] },
+        { "text": "Supports mass deportations and a ban on immigration from Muslim-majority countries.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Candidate Connection survey states he wants to end all U.S. aid to Israel and calls for declaring Israel a national security threat.",
+          "quote": "End all aid to Israel.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Survey lists mass deportations as a top priority.",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/Mississippi%27s_3rd_Congressional_District_election,_2026", "title": "Mississippi's 3rd Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s2", "url": "https://ballotpedia.org/Michael_Guest", "title": "Michael Guest", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s3", "url": "https://ballotpedia.org/Michael_Chiaradio", "title": "Michael Chiaradio", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s4", "url": "https://ballotpedia.org/Michael_Chiaradio", "title": "Michael Chiaradio - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" },
+    { "id": "s5", "url": "https://ballotpedia.org/Erik_Kiehle", "title": "Erik Kiehle", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s6", "url": "https://ballotpedia.org/Erik_Kiehle", "title": "Erik Kiehle - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. Michael Guest's official issues page listed no content on positions at time of research, so his entry is limited to committee assignments. Guest's federal key votes and FEC finance totals are added separately by script."
+}
