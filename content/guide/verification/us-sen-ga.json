@@ -1,0 +1,14 @@
+{
+  "raceId": "us-sen-ga",
+  "checkedAt": "2026-09-25",
+  "claimsChecked": 27,
+  "corrected": 4,
+  "removed": 0,
+  "unverifiable": 0,
+  "notes": [
+    "Fixed Mike Collins's Ballotpedia source URL: https://ballotpedia.org/Mike_Collins does not exist; correct page is https://ballotpedia.org/Mike_Collins_(Georgia).",
+    "Two Mike Collins priority quotes ('Whether I'm keeping trucks on the road...' and 'I didn't just talk about securing the border...') were wrong-page citations: they appear on the race overview page (s1), not the Ballotpedia candidate bio page (previously s3) they were cited to. Re-cited to s1.",
+    "Truncated the Laken Riley Act quote from Collins ('...to the Senate.') was a mid-sentence cut that altered the original punctuation (source continues '...to the Senate and fight every day against...'); added an ellipsis to mark the omission.",
+    "Removed a duplicate top-level \"electionDate\" field (the file had it twice with the same value)."
+  ]
+}
