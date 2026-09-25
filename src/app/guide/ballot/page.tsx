@@ -109,7 +109,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
             {result.state !== "NY" && (
               <p className="mt-6 font-sans text-[12.5px] text-ink-45">
                 Outside New York, this guide covers U.S. House and Senate races
-                {result.state === "NJ" ? " and New Jersey ballot questions" : ""}. Your ballot may also include
+                {result.state === "NJ" ? " (New Jersey has no statewide ballot questions this year)" : ""}. Your ballot may also include
                 state and local contests — check your state election office.
               </p>
             )}
