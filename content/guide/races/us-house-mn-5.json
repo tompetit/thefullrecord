@@ -1,0 +1,192 @@
+{
+  "id": "us-house-mn-5",
+  "state": "MN",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · Minnesota's 5th District",
+  "area": "Minneapolis and surrounding Hennepin County suburbs, including Saint Louis Park, Richfield and parts of Bloomington and Brooklyn Park.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Ilhan Omar (D) won the August 11, 2026 Democratic primary with 80.7% of the vote against four challengers. John Nagel won the Republican primary with 52.2% against three challengers. DeVelle Jackson is running as an independent.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ilhan-omar",
+      "name": "Ilhan Omar",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the August 11, 2026 Democratic primary with 80.7% of the vote.",
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Omar is the incumbent U.S. Representative for Minnesota's 5th District, first elected in 2018. She serves on the House Budget Committee and the Education and Workforce Committee, is the lead Democrat on the Workforce Protections Subcommittee, and is Deputy Chair of the Congressional Progressive Caucus.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {"text": "Born in Mogadishu, Somalia, on October 4, 1982; came to the U.S. as a refugee.", "sources": ["s2"]},
+        {"text": "Earned a bachelor's degree in political science and international studies from North Dakota State University in 2011.", "sources": ["s2"]},
+        {"text": "Worked as a nutrition educator at the University of Minnesota, a Humphrey Fellow, and a policy aide for the Minneapolis City Council before serving in the Minnesota House of Representatives from 2017 to 2019.", "sources": ["s2"]}
+      ],
+      "priorities": [
+        {"text": "Abolish U.S. Immigration and Customs Enforcement (ICE), citing deaths in ICE custody and due-process concerns in immigration courts.", "sources": ["s2"]},
+        {"text": "Lower prescription drug costs, cap child care costs at 7% of income, expand rental assistance, provide $20,000 in down-payment assistance for first-time homebuyers, and make college and trade school tuition-free.", "sources": ["s2"]},
+        {"text": "End what she calls 'forever wars' and require congressional authorization for military action, prioritizing diplomacy and human rights in foreign policy.", "sources": ["s2"]}
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Supports abolishing ICE rather than expanding immigration enforcement.",
+          "quote": "There is no reforming an agency that will ignore the Constitution and kill Americans and prevent any meaningful investigation into their deaths. ICE must be abolished.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports replacing for-profit health insurance with Medicare for All.",
+          "quote": "replacing for-profit health insurance with Medicare For All",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports a wealth tax on billionaires as part of the Progressive Caucus agenda she helps advance.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Backs capping child care costs at 7% of household income.",
+          "quote": "cap child care costs at 7% of income",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports environmental justice initiatives as part of addressing the climate crisis.",
+          "sources": ["s2"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Supports expanding rental assistance to address housing costs.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [
+        {"text": "Serves on the House Budget Committee and the Education and Workforce Committee in the 119th Congress; is the lead Democrat on the Workforce Protections Subcommittee.", "kind": "action", "sources": ["s2"]},
+        {"text": "Serves as Deputy Chair of the Congressional Progressive Caucus.", "kind": "action", "sources": ["s2"]},
+        {"text": "Introduced the Make ICE Pay Act, announced September 17, 2026, following 'Operation Metro Surge' immigration enforcement activity in Minnesota.", "date": "2026-09-17", "kind": "bill", "sources": ["s3"]},
+        {"text": "Spoke at a September 22, 2026 House Oversight and Government Reform Committee hearing on deaths in DHS custody, alongside family members of people who died during immigration enforcement encounters.", "date": "2026-09-22", "kind": "action", "sources": ["s3"]}
+      ],
+      "website": "https://ilhanomar.com",
+      "researchDepth": "basic",
+      "bioguideId": "O000173"
+    },
+    {
+      "id": "john-nagel",
+      "name": "John Nagel",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the August 11, 2026 Republican primary with 52.2% of the vote.",
+      "summary": {
+        "text": "Nagel is a retired Minnesota State Patrol officer running as the Republican nominee against incumbent Ilhan Omar, campaigning on public safety, immigration enforcement, and reducing federal spending.",
+        "sources": ["s4"]
+      },
+      "background": [
+        {"text": "A lifelong resident of Saint Louis Park, Minnesota, who still lives in the home his grandfather built.", "sources": ["s4"]},
+        {"text": "Earned a degree in Criminal Justice from the University of St. Thomas; interned with Edina Police and rode along with Saint Louis Park officers.", "sources": ["s4"]},
+        {"text": "Served roughly 30 years with the Minnesota State Patrol beginning in 1981, patrolling Hennepin County, working as a safety consultant for the National Highway Traffic Safety Administration, and serving on the Governor's security detail before retiring as a Field Lieutenant in 2011.", "sources": ["s4"]}
+      ],
+      "priorities": [
+        {"text": "Cut federal spending and taxes, and reduce what he calls government waste and intrusiveness.", "sources": ["s4"]},
+        {"text": "Support law enforcement funding and back Attorney General efforts against violent crime.", "sources": ["s4"]},
+        {"text": "Secure the U.S.-Mexico border and support the Trump administration's border enforcement approach.", "sources": ["s4"]}
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports strengthening border security and immigration enforcement.",
+          "quote": "In Congress, I will fight to make sure our border is locked down so tightly that Democrats can never tear it open again.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Supports increased funding and support for police.",
+          "quote": "our men and women in blue receive the funding and support they deserve",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Campaigns on cutting taxes and reducing federal spending rather than raising taxes.",
+          "quote": "I will cut taxes, fight inflation, eliminate fraud and waste, and restore accountability in Washington.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "mixed",
+          "summary": "Criticizes current school curricula and calls for schools to focus on 'the basics,' though does not explicitly call for voucher or charter funding on his campaign site.",
+          "quote": "We need classrooms that focus on learning, not indoctrination.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "States he will 'never tolerate Jew-hatred in any form' and frames support for Israel-related positions as a campaign theme, in contrast to Rep. Omar.",
+          "quote": "I will never tolerate Jew-hatred in any form and will always put people before politics.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://nagelforcongress.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "develle-jackson",
+      "name": "DeVelle Jackson",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Jackson is an independent candidate running against the two major-party nominees, campaigning on rejecting the two-party system, data privacy, and pairing affordability relief with policies to expand housing and job supply.",
+        "sources": ["s5"]
+      },
+      "background": [
+        {"text": "Earned a high school diploma from Mounds View High School and a bachelor's degree in political science from the University of Minnesota, Twin Cities.", "sources": ["s5"]},
+        {"text": "Career experience includes construction, field engineering, and construction superintendent roles, and work as an activist affiliated with The King Center.", "sources": ["s5"]}
+      ],
+      "priorities": [
+        {"text": "Reduce the two-party system's control over political access, arguing elected officials should answer to voters rather than party establishments.", "sources": ["s5"]},
+        {"text": "Strengthen privacy and data-rights protections against government and corporate surveillance, including limits on facial recognition, geofencing, and government purchase of personal data to bypass warrant requirements.", "sources": ["s5"]},
+        {"text": "Pair direct affordability relief with policies to expand housing supply, domestic production, and job training rather than relief alone.", "sources": ["s5"]}
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports building more housing as part of an affordability agenda focused on expanding supply.",
+          "quote": "That means making it easier to build, produce, hire, train, and compete while ensuring working people share in the value they create.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "Jackson completed Ballotpedia's Candidate Connection survey; no campaign website, prior officeholding, or additional press coverage was found."
+    }
+  ],
+  "sources": [
+    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Minnesota,_2026", "title": "United States House of Representatives elections in Minnesota, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2", "url": "https://ballotpedia.org/Ilhan_Omar", "title": "Ilhan Omar", "publisher": "Ballotpedia (Candidate Connection survey)", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s3", "url": "https://omar.house.gov/media/press-releases", "title": "Press Releases", "publisher": "Office of Rep. Ilhan Omar", "kind": "official", "date": "2026-09-22"},
+    {"id": "s4", "url": "https://nagelforcongress.com", "title": "Nagel for Congress", "publisher": "Nagel for Congress campaign website", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s5", "url": "https://ballotpedia.org/DeVelle_Jackson", "title": "DeVelle Jackson", "publisher": "Ballotpedia (Candidate Connection survey)", "kind": "candidate", "date": "2026-09-25"}
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. Federal key votes and FEC finance totals for Rep. Omar are added separately by script."
+}
