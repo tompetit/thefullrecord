@@ -1,0 +1,117 @@
+{
+  "id": "us-house-in-5",
+  "state": "IN",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · Indiana's 5th District",
+  "area": "Central Indiana, including the northern Indianapolis suburbs (Hamilton, Madison, and surrounding counties)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Victoria Spartz won the May 5, 2026 Republican primary over Scott King, 59.9% to 40.1%. J.D. Ford, an Indiana state senator, won a seven-candidate Democratic primary with 42.5% of the vote.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "victoria-spartz",
+      "name": "Victoria Spartz",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the May 5, 2026 Republican primary over Scott King, 59.9% to 40.1%",
+      "currentRole": "U.S. Representative, Indiana's 5th District (since 2021)",
+      "summary": {
+        "text": "Victoria Spartz is the incumbent Republican U.S. Representative for Indiana's 5th District, born in Ukraine and first elected to Congress in 2020 after serving in the Indiana Senate.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Nosivka, Ukraine, in 1978. Earned a bachelor's and MBA from the National University of Economics in Kyiv and an M.P.A. from Indiana University in 2006.", "sources": ["s2"] },
+        { "text": "Worked as a certified public accountant and auditor before entering politics.", "sources": ["s2"] },
+        { "text": "Served in the Indiana Senate from 2017 to 2020.", "sources": ["s2"] },
+        { "text": "Serves on the Joint Economic Committee in the 119th Congress; previously served on the House Judiciary Committee's Administrative State, Regulatory Reform, and Antitrust and Immigration Integrity, Security, and Enforcement subcommittees.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        { "text": "Assigned to the Joint Economic Committee for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"] },
+        { "text": "Served on the House Judiciary Committee during the 118th Congress (2023-2024), including its Administrative State, Regulatory Reform, and Antitrust subcommittee.", "kind": "action", "sources": ["s2"] }
+      ],
+      "website": "",
+      "researchDepth": "basic",
+      "bioguideId": "S000929"
+    },
+    {
+      "id": "jd-ford",
+      "name": "J.D. Ford",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won a seven-candidate May 5, 2026 Democratic primary with 42.5% of the vote",
+      "currentRole": "Indiana State Senator, District 29 (2018-2026; not seeking re-election to the state Senate)",
+      "summary": {
+        "text": "J.D. Ford is the Democratic nominee for Indiana's 5th District. He has represented Indiana Senate District 29 since 2018, becoming the first openly LGBTQ+ member of the Indiana General Assembly, and is not seeking re-election to the state Senate.",
+        "sources": ["s3"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree in political science and criminal justice from the University of Akron and a master's degree in education from Purdue University.", "sources": ["s3"] },
+        { "text": "Worked as senior director of recruitment and expansion for Theta Chi Fraternity, Inc.", "sources": ["s3"] },
+        { "text": "Elected to Indiana Senate District 29 in 2018, defeating the Republican incumbent; is the first openly LGBTQ+ member of the Indiana General Assembly.", "sources": ["s3"] },
+        { "text": "Serves on the Indiana Senate's Commerce and Technology, Education and Career Development, Health and Provider Services, Elections, Family & Children Services, Homeland Security and Transportation, Utilities, and Veterans Affairs and the Military committees in the 2025-2026 session.", "sources": ["s3"] }
+      ],
+      "priorities": [
+        { "text": "Names affordability as a top message, saying he would work to block what he describes as anti-competitive hospital, insurance, and grocery mergers.", "quote": "We have a monopoly problem, and I'm going to tackle it by restoring competition to the market. I'll work to block anti-competitive hospital and insurance mergers, block grocery mega-mergers that kill local choice, and ensure our utility bills don't skyrocket just to subsidize energy-hungry data centers for massive corporations.", "sources": ["s3"] },
+        { "text": "Names care costs (childcare and senior care) as a priority, calling for an expanded child and dependent care tax credit and national minimum staffing standards for nursing homes.", "sources": ["s3"] },
+        { "text": "Says he would maintain an open-door policy with regular town halls, as he did in the Statehouse.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he would work to lower healthcare premiums by stopping what he describes as anti-competitive hospital mergers.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Says he would expand the child and dependent care tax credit and treat childcare as essential infrastructure.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        { "text": "Elected to the Indiana Senate in 2018, flipping the previously Republican-held District 29.", "kind": "action", "sources": ["s3"] },
+        { "text": "Serves on the Indiana Senate's Commerce and Technology, Education and Career Development, Health and Provider Services, Elections, Family & Children Services, Homeland Security and Transportation, Utilities, and Veterans Affairs and the Military committees during the 2025-2026 session.", "kind": "action", "sources": ["s3"] }
+      ],
+      "website": "",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Indiana,_2026",
+      "title": "United States House of Representatives elections in Indiana, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Victoria_Spartz",
+      "title": "Victoria Spartz",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/J.D._Ford",
+      "title": "J.D. Ford",
+      "publisher": "Ballotpedia Candidate Connection survey / Ballotpedia",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Victoria Spartz has not completed a 2026 Ballotpedia Candidate Connection survey and no separate campaign website statement was located, so her positions section is left empty; her committee record is documented instead. Ballotpedia's sponsored-legislation table for J.D. Ford did not render in the fetched page, so specific bill numbers are not included; his committee assignments and campaign statements are used instead."
+}
