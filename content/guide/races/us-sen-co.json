@@ -1,0 +1,237 @@
+{
+  "id": "us-sen-co",
+  "state": "CO",
+  "officeType": "us-senate",
+  "office": "U.S. Senate",
+  "title": "U.S. Senate · Colorado",
+  "area": "Statewide, Colorado.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent John Hickenlooper defeated Julie Gonzales 52.8%-47.2% in the June 30, 2026 Democratic primary. Mark Baisley advanced from the Republican primary. The seat is rated 'Safe Democratic'/'Solid Democratic' by Cook Political Report, Decision Desk, Inside Elections and Sabato's Crystal Ball.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "john-hickenlooper",
+      "name": "John Hickenlooper",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 30, 2026 Democratic primary",
+      "currentRole": "U.S. Senator (since 2021)",
+      "summary": {
+        "text": "John Hickenlooper is the Democratic incumbent seeking re-election to a second U.S. Senate term. He previously served as Governor of Colorado (2011-2019) and Mayor of Denver (2004-2010), and briefly ran for the 2020 Democratic presidential nomination.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Narberth, Pennsylvania, in 1952.", "sources": ["s2"] },
+        { "text": "Earned a bachelor's degree (1974) and a master's degree in geology (1980) from Wesleyan University.", "sources": ["s2"] },
+        { "text": "Career experience includes working with Buckhorn Petroleum and founding the Wynkoop Brewing Company brewpub in Denver.", "sources": ["s2"] },
+        { "text": "Served as Mayor of Denver (2004-2010) and Governor of Colorado (2011-2019) before his 2020 election to the U.S. Senate.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        {
+          "text": "Health care: says health care is a right, not a privilege, and criticizes the 2025 federal reconciliation law's roughly $1 trillion in Medicaid and ACA cuts, which he says will strip coverage from an estimated 15 million Americans including 241,000 Coloradans.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Climate: calls climate change the defining challenge of the era and points to his role helping pass the Inflation Reduction Act as a model for expanding clean energy and the green workforce.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Immigration: says the immigration system is broken and that enforcement under the Trump administration has gone too far, and calls for restoring due process while maintaining a secure border.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says every American should be guaranteed access to high-quality, affordable, universal health care and opposes the 2025 federal law's Medicaid and ACA cuts.",
+          "quote": "Senator Hickenlooper believes that health care is a right, not a privilege.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Calls for a bold, science-based transition away from fossil fuels and cites his role in passing the Inflation Reduction Act, which he calls the largest climate investment in history.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "As governor, helped enact universal background checks and a ban on high-capacity magazines after the 2012 Aurora shooting; as senator, supported the bipartisan Safer Communities Act and supports banning assault weapons.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Says federal immigration enforcement under the Trump administration has 'gone too far' and calls for restoring due process and accountability while maintaining a secure border, rather than expanding enforcement.",
+          "quote": "Enforcement without accountability undermines our values and our security.",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.hickenlooper.senate.gov/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "mark-baisley",
+      "name": "Mark Baisley",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the June 30, 2026 Republican primary",
+      "currentRole": "Colorado State Senator, District 4 (since 2023)",
+      "summary": {
+        "text": "Mark Baisley is the Republican nominee for U.S. Senate. He is a current Colorado State Senator representing District 4 and previously served in the Colorado House of Representatives; he is not seeking re-election to his state Senate seat.",
+        "sources": ["s7"]
+      },
+      "background": [
+        { "text": "Born in Hastings, Minnesota; earned a B.S. in computer information systems/business administration from Columbia College.", "sources": ["s7"] },
+        { "text": "Career experience includes serving as president of Slipglass, Inc. and Enspherics, a senior engineer at Raytheon, and a senior systems engineer at Martin Marietta.", "sources": ["s7"] },
+        { "text": "Served in the Colorado House of Representatives, District 39 (2019-2023) before winning election to the Colorado State Senate, District 4, in 2022.", "sources": ["s7"] },
+        { "text": "Served as vice chair and finance chairman of the Republican Party of Colorado.", "sources": ["s7"] }
+      ],
+      "priorities": [
+        {
+          "text": "Affordability and prosperity: says he will cut federal taxes, roll back regulations, and restore American energy dominance rather than rely on Washington mandates.",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Public safety: says he will work with law enforcement on funding and support, and end programs he says return violent offenders to neighborhoods before rehabilitation.",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Agriculture: proposes cutting red tape and costs for farmers and ranchers, releasing a 'Farm Prosperity Proposal' in July 2026.",
+          "sources": ["s8"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "mixed",
+          "summary": "Campaign material does not state a clear tariff position; emphasizes cutting federal taxes and regulation to boost domestic prosperity rather than broad tariffs specifically.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says the roughly 1.2 million people legally admitted to the U.S. each year should be vetted to ensure they are not violent, will be self-reliant, and will assimilate, and frames unauthorized immigration as something to be addressed under 'Natural Law' rather than expanded legal pathways.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he will work with law enforcement to give them the support and funding needed to keep communities safe.",
+          "sources": ["s8"]
+        }
+      ],
+      "record": [
+        {
+          "text": "As a Colorado state legislator, served on the Business, Labor, and Technology Committee, Senate Local Government and Housing Committee, and Technology Committee (2025-2026 session).",
+          "kind": "action",
+          "sources": ["s7"]
+        }
+      ],
+      "website": "https://baisleyforsenate.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "chris-baum",
+      "name": "Chris Baum",
+      "parties": ["Approval Voting Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "Chris Baum is running in the general election for U.S. Senate Colorado on the Approval Voting Party ballot line.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+    },
+    {
+      "id": "robert-chew",
+      "name": "Robert Chew",
+      "parties": ["Colorado Forward Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "Robert Chew is running in the general election for U.S. Senate Colorado on the Colorado Forward Party ballot line.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+    },
+    {
+      "id": "blake-huber",
+      "name": "Blake Huber",
+      "parties": ["L"],
+      "incumbent": false,
+      "summary": {
+        "text": "Blake Huber is the Libertarian Party candidate running in the general election for U.S. Senate Colorado.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+    },
+    {
+      "id": "adam-withrow",
+      "name": "Adam Withrow",
+      "parties": ["Unity Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "Adam Withrow is running in the general election for U.S. Senate Colorado on the Unity Party ballot line. He completed Ballotpedia's Candidate Connection survey, describing himself as a father of four who believes current officeholders are not serving the public well.",
+        "sources": ["s9"]
+      },
+      "background": [
+        { "text": "Describes himself as a working father of four, age 43 at the time of his survey response.", "sources": ["s9"] }
+      ],
+      "priorities": [
+        {
+          "text": "Supports a federal living wage tied to the Consumer Price Index, phased in starting with the most profitable organizations.",
+          "sources": ["s9"]
+        },
+        {
+          "text": "Says the U.S. should not fund actions that harm civilians abroad and should focus on becoming 'a better nation' before acting to influence other countries.",
+          "sources": ["s9"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports a federal living wage indexed to the Consumer Price Index, phased in starting with the highest-revenue organizations.",
+          "sources": ["s9"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "Limited public record beyond his Ballotpedia Candidate Connection survey response; no campaign website found."
+    }
+  ],
+  "sources": [
+    { "id": "s1", "url": "https://ballotpedia.org/United_States_Senate_election_in_Colorado,_2026", "title": "United States Senate election in Colorado, 2026", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s2", "url": "https://ballotpedia.org/John_Hickenlooper", "title": "John Hickenlooper", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s3", "url": "https://www.hickenlooper.senate.gov/issues/health-care/", "title": "Health Care", "publisher": "Office of Sen. John Hickenlooper", "kind": "candidate" },
+    { "id": "s4", "url": "https://www.hickenlooper.senate.gov/issues/climate/", "title": "Climate", "publisher": "Office of Sen. John Hickenlooper", "kind": "candidate" },
+    { "id": "s5", "url": "https://www.hickenlooper.senate.gov/issues/gun-violence/", "title": "Gun Violence", "publisher": "Office of Sen. John Hickenlooper", "kind": "candidate" },
+    { "id": "s6", "url": "https://www.hickenlooper.senate.gov/issues/immigration/", "title": "Immigration", "publisher": "Office of Sen. John Hickenlooper", "kind": "candidate" },
+    { "id": "s7", "url": "https://ballotpedia.org/Mark_Baisley", "title": "Mark Baisley", "publisher": "Ballotpedia", "kind": "reference" },
+    { "id": "s8", "url": "https://baisleyforsenate.com/issues", "title": "Issues", "publisher": "Baisley for Senate", "kind": "candidate" },
+    { "id": "s9", "url": "https://ballotpedia.org/United_States_Senate_election_in_Colorado,_2026", "title": "Ballotpedia Candidate Connection survey response, Adam Withrow", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC finance totals for Hickenlooper (incumbent) are added separately by script. Minor-party candidates (Baum, Chew, Huber) have no discoverable public statements beyond appearing on the Ballotpedia ballot list; write-in candidates (Apelbaum, Powers, Willoughby) are omitted as not having active/documented campaigns."
+}
