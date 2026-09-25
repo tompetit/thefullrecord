@@ -33,11 +33,25 @@
         { "text": "Is a member of the LaGrange Chamber of Commerce, National Federation of Independent Business, Indiana Farm Bureau, and the National Rifle Association.", "sources": ["s2"] },
         { "text": "Serves on the House Committee on Financial Services and the House Committee on the Budget in the 119th Congress.", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Describes the One Big Beautiful Bill Act as the start of a return to fiscal discipline in federal spending.", "quote": "The One Big Beautiful Bill Act is the start of America’s return to fiscal sanity.", "sources": ["s5"] },
+        { "text": "Says regulatory barriers between HUD and USDA housing programs should be removed to make it easier and cheaper to build affordable housing.", "quote": "we must remove the barriers that drive up costs and make it harder to build housing for Americans who need it most", "sources": ["s6"] },
+        { "text": "Introduced legislation to increase mandatory minimum sentences for fentanyl trafficking.", "sources": ["s7"] }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Introduced the Streamlining Rural Housing Act, which directs HUD and USDA to align environmental review and inspection standards for rural housing projects, saying it would make affordable housing easier to build.",
+          "quote": "we must remove the barriers that drive up costs and make it harder to build housing for Americans who need it most",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         { "text": "Assigned to the House Committee on Financial Services and the House Committee on the Budget for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"] },
-        { "text": "Served on the Budget Committee and Financial Services Committee during an earlier term in the 114th Congress (2015-2016).", "kind": "action", "sources": ["s2"] }
+        { "text": "Served on the Budget Committee and Financial Services Committee during an earlier term in the 114th Congress (2015-2016).", "kind": "action", "sources": ["s2"] },
+        { "text": "Introduced the Streamlining Rural Housing Act with Reps. Brittany Pettersen, Lisa McClain, and David Scott, directing HUD and USDA to evaluate a joint environmental review and inspection process for rural housing projects.", "kind": "bill", "sources": ["s6"] },
+        { "text": "Introduced the No Leniency for Fentanyl Dealers Act, the House companion to Sen. John Kennedy's Fairness in Fentanyl Sentencing Act.", "kind": "bill", "sources": ["s7"] }
       ],
       "website": "",
       "researchDepth": "basic",
@@ -164,8 +178,32 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://stutzman.house.gov/media/press-releases/rep-stutzman-votes-pass-one-big-beautiful-bill-act",
+      "title": "Rep. Stutzman Votes to Pass the One Big Beautiful Bill Act",
+      "publisher": "Office of Rep. Marlin Stutzman",
+      "kind": "official",
+      "date": "2025-05-22"
+    },
+    {
+      "id": "s6",
+      "url": "https://stutzman.house.gov/media/press-releases/rep-stutzman-introduces-streamlining-rural-housing-act",
+      "title": "Rep. Stutzman Introduces Streamlining Rural Housing Act",
+      "publisher": "Office of Rep. Marlin Stutzman",
+      "kind": "official",
+      "date": "2025-09-02"
+    },
+    {
+      "id": "s7",
+      "url": "https://stutzman.house.gov/media/press-releases/rep-stutzman-introduces-no-leniency-fentanyl-dealers-act",
+      "title": "Rep. Stutzman Introduces No Leniency for Fentanyl Dealers Act",
+      "publisher": "Office of Rep. Marlin Stutzman",
+      "kind": "official",
+      "date": "2026-07-23"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Marlin Stutzman has not completed a 2026 Ballotpedia Candidate Connection survey and no separate campaign website statements were located, so his positions section is left empty; his committee record is documented instead. No campaign website was located for Beachy beyond his Candidate Connection survey answers."
+  "researchNotes": "Marlin Stutzman has not completed a 2026 Ballotpedia Candidate Connection survey; his stutzman.house.gov Issues pages (Congress, Economy, Education, Energy, Health, Veterans) and stutzmanforcongress.com were checked. Positions and priorities are drawn from official press releases; his committee record is documented as well. No campaign website was located for Beachy beyond his Candidate Connection survey answers."
 }
