@@ -127,11 +127,23 @@
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "His campaign website says he played a key role in Ohio's constitutional-carry law allowing Ohioans to carry firearms without a permit.",
-          "sources": ["s2"]
+          "summary": "Voted yes on SB 215 (allowing adults 21 and older to carry a concealed handgun without a permit), which passed the Ohio House 58-36 on 2022-03-02.",
+          "sources": ["s4"],
+          "basis": "votes",
+          "stated": {
+            "stance": "opposes",
+            "summary": "His campaign website says he played a key role in Ohio's constitutional-carry law allowing Ohioans to carry firearms without a permit.",
+            "sources": ["s2"]
+          }
         }
       ],
       "record": [
+        {
+          "text": "Voted yes on SB 215 (allowing adults 21 and older to carry a concealed handgun without a permit), which passed the Ohio House 58-36 on 2022-03-02.",
+          "date": "2022-03-02",
+          "kind": "vote",
+          "sources": ["s4"]
+        },
         {
           "text": "As an Ohio House member, sponsored and passed HB 116 repealing the state sales tax on prescription eyewear, and HB 592 repealing the Financial Institution Tax on Small Business Investment Companies, according to his campaign.",
           "kind": "bill",
@@ -189,6 +201,14 @@
       "title": "United States House of Representatives elections in Ohio, 2026",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.ohiohouse.gov/legislation/134/sb215/votes",
+      "title": "Senate Bill 215 Votes, 134th General Assembly (House floor vote, 2022-03-02)",
+      "publisher": "Ohio House of Representatives",
+      "kind": "official",
+      "date": "2022-03-02"
     }
   ],
   "researchedAt": "2026-09-25",
