@@ -1,0 +1,153 @@
+{
+  "id": "us-house-sc-3",
+  "state": "SC",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · South Carolina's 3rd District",
+  "area": "South Carolina's 3rd Congressional District (Upstate/western South Carolina)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Sheri Biggs (R)'s June 9, 2026 Republican primary was canceled and she advanced without appearing on the ballot.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Eunice Lehmacher won the Democratic primary on June 9, 2026 with 53.4% of the vote, defeating Ernest Mackins.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sheri-biggs",
+      "name": "Sheri Biggs",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced without a primary after the Republican primary was canceled",
+      "currentRole": "U.S. Representative (since 2025)",
+      "summary": {
+        "text": "Sheri Biggs is the incumbent U.S. Representative for South Carolina's 3rd District, seeking re-election.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Mississippi in 1970. Earned a bachelor's degree from the Carolina College of Biblical Studies and a Doctor of Nursing Practice from Samford University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a nurse practitioner before entering Congress.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Homeland Security (Border Security and Enforcement; Transportation and Maritime Security subcommittees), the Committee on Science, Space, and Technology (Energy; Research and Technology subcommittees), and the Committee on Foreign Affairs (2025-2026 assignments).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Biggs has not completed Ballotpedia's 2026 Candidate Connection survey; no current-cycle campaign statements were located within the research budget. Key floor votes and FEC totals are added separately by script.",
+      "bioguideId": "B001325"
+    },
+    {
+      "id": "eunice-lehmacher",
+      "name": "Eunice Lehmacher",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the Democratic primary (June 9, 2026) with 53.4% of the vote",
+      "summary": {
+        "text": "Eunice Lehmacher is a retired medical social worker and psychotherapist running as the Democratic nominee for South Carolina's 3rd Congressional District.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from Concordia University (1985) and a master's degree from the Catholic University of America (1996).",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Worked as a medical social worker and psychotherapist for Oconee Memorial Hospital, Clemson University, and Hospice of the Foothills, and owned a private counseling practice in Seneca, SC.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Serves by gubernatorial appointment on the Anderson Oconee Pickens Mental Health Commission and on the Sustainability Advisory Committee for the City of Clemson.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Increasing access to healthcare, especially in rural areas: restoring funding for Medicaid and the ACA, lowering the Medicare eligibility age to 64, and increasing funding for NIH/NIMH health research.",
+          "quote": "I want to restore funding for Medicaid and the ACA and increase access to Medicare (e.g. lower the eligibility age to 64).",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Helping residents with high prices, including opposing funding for ICE and long-term detention of legal immigrants and increasing apprenticeship and job-training opportunities.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Wants to restore Medicaid and ACA funding and lower the Medicare eligibility age to 64.",
+          "quote": "I want to restore funding for Medicaid and the ACA and increase access to Medicare (e.g. lower the eligibility age to 64).",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Wants to stop funding for ICE and long-term detention of legal immigrants.",
+          "quote": "stop funding ICE and and long term detention of legal immigrants",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "brian-corriea",
+      "name": "Brian Corriea",
+      "parties": ["L"],
+      "incumbent": false,
+      "ballotNote": "Nominated at the Libertarian Party convention on April 11, 2026",
+      "summary": {
+        "text": "Brian Corriea is the Libertarian Party nominee for South Carolina's 3rd Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "Corriea has not completed Ballotpedia's 2026 Candidate Connection survey and no campaign website content was found within the research budget."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/South_Carolina%27s_3rd_Congressional_District_election,_2026",
+      "title": "South Carolina's 3rd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Sheri_Biggs",
+      "title": "Sheri Biggs",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Eunice_Lehmacher",
+      "title": "Eunice Lehmacher",
+      "publisher": "Ballotpedia (Candidate Connection survey)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. Per the research division of labor, Biggs's federal key floor votes and FEC totals are left for later automated addition."
+}

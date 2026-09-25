@@ -1,0 +1,214 @@
+{
+  "id": "us-house-ne-3",
+  "state": "NE",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Nebraska's 3rd District",
+  "area": "The Nebraska Panhandle and most of rural Nebraska, from Scottsbluff and North Platte east to Grand Island and Norfolk",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Adrian Smith (R) defeated David Huebner in the Republican primary. Becky Lynn Stille was unopposed in the Democratic primary. Cook Political Report's Partisan Voter Index rated the district R+27 based on presidential voting patterns.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "adrian-smith",
+      "name": "Adrian Smith",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2007)",
+      "summary": {
+        "text": "Adrian Smith is the Republican incumbent seeking a tenth full term. A Scottsbluff native, he previously served in the Nebraska State Senate and on the Gering City Council before his 2006 election to the U.S. House, where he now chairs the Ways and Means Subcommittee on Trade.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Scottsbluff, Nebraska; attended Liberty University from 1989 to 1990 before earning a B.A. from the University of Nebraska in 1993.", "sources": ["s2"] },
+        { "text": "Served on the Gering City Council from 1994 to 1998.", "sources": ["s2"] },
+        { "text": "Served in the Nebraska State Senate from 1999 to 2007.", "sources": ["s2"] },
+        { "text": "Has served in the U.S. House since 2007, representing Nebraska's 3rd District.", "sources": ["s2"] }
+      ],
+      "priorities": [
+        { "text": "Trade policy affecting agricultural exports, as chair of the House Ways and Means Subcommittee on Trade.", "sources": ["s3"] },
+        { "text": "Expanding school-choice options through a federal scholarship tax credit.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Led introduction of legislation to expand a federal scholarship tax credit enacted as part of 2025 tax legislation.",
+          "quote": "Congressman Adrian Smith (R-NE-03), a senior member of the House Ways and Means Committee, led a bicameral group of his colleagues in introducing the Educational Opportunities Expansion Package, two bills to strengthen his Federal Scholarship Tax Credit.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Chairs the House Ways and Means Subcommittee on Trade and serves on the Joint Committee on Taxation and the Ways and Means Subcommittee on Health, in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Led introduction of the Educational Opportunities Expansion Package, two bills to expand the federal scholarship tax credit enacted in 2025.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Led a letter, joined by 51 colleagues and Sen. Jerry Moran, urging the Trump administration to prioritize expanding trade market access for American cattle producers.",
+          "kind": "action",
+          "sources": ["s3"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "S001172"
+    },
+    {
+      "id": "becky-lynn-stille",
+      "name": "Becky Lynn Stille",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Unopposed in the May 12, 2026 Democratic primary",
+      "summary": {
+        "text": "Becky Lynn Stille is the Democratic nominee for Nebraska's 3rd District, running on a platform that includes labor-union support, reproductive-healthcare access, secure borders, and Second Amendment rights paired with violence prevention.",
+        "sources": ["s5", "s6"]
+      },
+      "background": [],
+      "priorities": [
+        { "text": "Supporting labor unions and fair wages, safe working conditions and workplace representation.", "sources": ["s6"] },
+        { "text": "Protecting access to health care, including for veterans and senior citizens.", "sources": ["s6"] },
+        { "text": "Secure borders paired with fair immigration policy.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supports a woman's right to make her own reproductive healthcare decisions with her doctor.",
+          "quote": "I strongly support a woman's right to make her own healthcare decisions privately with her own doctor.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "guns",
+          "stance": "mixed",
+          "summary": "Supports Second Amendment rights while also backing violence-prevention measures.",
+          "quote": "It is imperative that we recognize and respect the Second Amendment, ensuring every law-abiding citizen's right to bear arms. However, with rights come responsibilities. Our commitment to the Second Amendment should be paralleled by an equally strong commitment to prevent violence and safeguard our communities.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports secure borders as essential to national security while describing the U.S. as a nation of immigrants.",
+          "quote": "A secure border is not just a matter of national defense, it's essential for upholding the rule of law, safeguarding our economic interests, and ensuring the well-being of our citizens. Yet, while we reinforce these boundaries, we must remember that our nation has been, and always will be, a beacon of hope for all.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Supports equipping law enforcement with resources and support for officers.",
+          "quote": "Acknowledging their sacrifices and equipping them with the necessary support, training, and resources is vital to keeping our communities safe.",
+          "sources": ["s6"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "david-j-else",
+      "name": "David J. Else",
+      "parties": ["Legal Marijuana Now"],
+      "incumbent": false,
+      "summary": {
+        "text": "David J. Else won the Legal Marijuana Now Party primary and is on the Nov. 3, 2026 general-election ballot for Nebraska's 3rd District. He previously ran unsuccessfully for this seat in the 2024 Democratic primary. No campaign website or other public statements were found.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "macey-budke",
+      "name": "Macey Budke",
+      "parties": ["Nebraska Working People Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "Macey Budke is running on the Nebraska Working People Party line in the Nov. 3, 2026 general election for Nebraska's 3rd District. No campaign website or other public statements were found.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "mark-cohen",
+      "name": "Mark Cohen",
+      "parties": ["Nonpartisan"],
+      "incumbent": false,
+      "summary": {
+        "text": "Mark Cohen is running on the Nonpartisan ballot line in the Nov. 3, 2026 general election for Nebraska's 3rd District. No campaign website or other public statements were found.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Nebraska,_2026",
+      "title": "United States House of Representatives elections in Nebraska, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Adrian_Smith_(Nebraska)",
+      "title": "Adrian Smith (Nebraska)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://adriansmith.house.gov/media/press-releases",
+      "title": "Smith, Moran Lead Letter Urging Admin to Expand Markets for America's Ranchers",
+      "publisher": "Office of Rep. Adrian Smith",
+      "kind": "official",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "s4",
+      "url": "https://adriansmith.house.gov/media/press-releases/smith-leads-bicameral-effort-expand-educational-opportunities",
+      "title": "Smith Leads Bicameral Effort to Expand Educational Opportunities",
+      "publisher": "Office of Rep. Adrian Smith",
+      "kind": "official",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Becky_Lynn_Stille",
+      "title": "Becky Lynn Stille",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Becky_Lynn_Stille",
+      "title": "Becky Lynn Stille's 2026 campaign website, quoted verbatim",
+      "publisher": "Becky Lynn Stille 2026 campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2026-04-29"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No Ballotpedia profile page exists for David J. Else, and no campaign websites or Candidate Connection survey responses were found for Else, Budke, or Cohen. Stille's Ballotpedia profile has no separate biography section beyond her campaign-website statements."
+}
