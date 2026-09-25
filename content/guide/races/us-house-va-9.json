@@ -1,0 +1,130 @@
+{
+  "id": "us-house-va-9",
+  "state": "VA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "9",
+  "title": "U.S. House · Virginia's 9th District",
+  "area": "Southwest Virginia, including Abingdon, Christiansburg, Bristol and the coalfield counties along the Kentucky, Tennessee and West Virginia borders.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This is an open contest on the Democratic side: Joy Powers won the August 4, 2026 Democratic primary with 51.6% of the vote over Adam Murphy (36.1%) and Douglas Crockett (12.2%). Incumbent H. Morgan Griffith advanced from the Republican primary unopposed after it was canceled. Cook Political Report, Decision Desk, Inside Elections and Sabato's Crystal Ball all rate the race Solid/Safe Republican as of September 22, 2026.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "morgan-griffith",
+      "name": "H. Morgan Griffith",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the Republican primary unopposed after the primary was canceled.",
+      "currentRole": "U.S. Representative for Virginia's 9th District (since 2011)",
+      "summary": {
+        "text": "Morgan Griffith is the Republican incumbent seeking re-election to a ninth term representing Virginia's 9th District. He serves on the House Energy and Commerce Committee, chairing its Health Subcommittee, and previously served 17 years in the Virginia House of Delegates, including as House Majority Leader.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Served in the Virginia House of Delegates from 1994 to 2011, representing the 8th District; was elected House Majority Leader in 2000, the first Republican in Virginia history to hold that position.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Practiced law in Southwest Virginia for nearly three decades after graduating from Washington and Lee University School of Law.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Honors graduate of Emory & Henry College and graduate of Andrew Lewis High School in Salem, Virginia.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Energy and Commerce Committee, chairing its Subcommittee on Health in the 119th Congress; also a senior member of its Environment and Communications & Technology subcommittees.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves on the Committee on House Administration, which oversees House operations, Capitol security and federal-election oversight.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Appointed by Speaker Johnson to the House Committee on Rules in the 119th Congress and serves as its Vice Chairman.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Chaired the Energy and Commerce Committee's Subcommittee on Oversight and Investigations in the 118th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://morgangriffith.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "G000568"
+    },
+    {
+      "id": "joy-powers",
+      "name": "Joy Powers",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 4, 2026 Democratic primary with 51.6% of the vote over Adam Murphy and Douglas Crockett.",
+      "summary": {
+        "text": "Joy Powers is the Democratic nominee challenging incumbent Morgan Griffith. She describes herself as a Southwest Virginia native running on a \"HOME Plan\" covering health care, economic opportunity, markets and education for the region.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "Universal healthcare paired with direct investment in rural hospitals, clinics, pharmacies, EMS, mental-health and maternal care, and the healthcare workforce.",
+          "quote": "I believe healthcare is a human right, and I support universal healthcare. But universal coverage alone will not fix the healthcare crisis in Southwest Virginia if there is nowhere close to home to receive care.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Rebuilding rural economic infrastructure, including rail, roads, broadband, energy, water/sewer systems, industrial sites, agriculture and manufacturing.",
+          "quote": "My HOME Plan focuses on rebuilding the foundations of a real rural economy: rail, roads, broadband, energy, water and sewer infrastructure, industrial sites, small businesses, agriculture, manufacturing, and the trades.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Full federal funding for Title I, IDEA special education, Head Start, school nutrition, career and technical education, and investment in rural school buildings and teacher pay.",
+          "sources": ["s1"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says healthcare is a human right and supports universal healthcare, paired with investment in rural health infrastructure.",
+          "quote": "I believe healthcare is a human right, and I support universal healthcare.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Virginia%27s_9th_Congressional_District_election,_2026",
+      "title": "Virginia's 9th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://morgangriffith.house.gov/biography",
+      "title": "Biography | Congressman Morgan Griffith",
+      "publisher": "Office of Rep. Morgan Griffith",
+      "kind": "official"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No campaign website was located for Joy Powers; her priorities and quotes are drawn entirely from her Ballotpedia Candidate Connection survey responses, which count as her own words. No background details beyond her survey answers were found."
+}
