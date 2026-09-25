@@ -11,60 +11,87 @@
   "context": [
     {
       "text": "Michael DeCillis defeated Allison Ziogas in the June 23, 2026 Democratic primary, 61.4% to 37.1% (10,455 to 6,309 votes).",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Allison Ziogas, who lost the Democratic primary but had also qualified for the general-election ballot on the \"Affordable & Safe\" party line, suspended her congressional campaign in 2026 for health reasons; Ballotpedia now lists her as withdrawn from the general election.",
-      "sources": ["s2", "s3"]
+      "sources": [
+        "s2",
+        "s3"
+      ]
     },
     {
       "text": "Nicole Malliotakis is seeking re-election after advancing unopposed through the Republican and Conservative Party primaries, which were both canceled.",
-      "sources": ["s4"]
+      "sources": [
+        "s4"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "nicole-malliotakis",
       "name": "Nicole Malliotakis",
-      "parties": ["R", "C"],
+      "parties": [
+        "R",
+        "C"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced unopposed through the Republican and Conservative Party primaries",
       "currentRole": "U.S. Representative for NY-11 (since 2021)",
       "summary": {
         "text": "Nicole Malliotakis is the incumbent U.S. Representative for New York's 11th Congressional District, serving since 2021. She previously served in the New York State Assembly (2011–2021) and sits on the House Ways and Means Committee and the Joint Economic Committee.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Earned a B.A. from Seton Hall University and an M.B.A. from Wagner College.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Worked as a liaison for former New York State Senator John Marchi and former New York Governor George Pataki, and as a public affairs manager, before entering elected office.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Served in the New York State Assembly, representing District 60 (2011–2013) and District 64 (2013–2021), before being elected to Congress in 2020.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "In the 119th Congress (2025–2026), sits on the House Committee on Ways and Means (Oversight and Tax subcommittees) and the Joint Economic Committee; previously served on the Committee on Foreign Affairs and the Committee on Transportation and Infrastructure.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Supported the 2025 budget reconciliation law (\"Big Beautiful Bill\"), citing provisions making the 2017 tax cuts permanent, quadrupling the SALT deduction cap to $40,000, and exempting most seniors' Social Security income from federal tax.",
           "quote": "Today is a historic day for Staten Islanders, Brooklynites, and families across the nation who have been calling for meaningful tax relief.",
-          "sources": ["s11"]
+          "sources": [
+            "s11"
+          ]
         },
         {
           "text": "Has pushed to end New York City's congestion pricing tolling program and discussed the issue directly with President Trump.",
-          "sources": ["s12"]
+          "sources": [
+            "s12"
+          ]
         },
         {
           "text": "As a member of the Ways and Means Committee, has focused legislative work on tax administration and IRS accountability issues, including bills addressing stolen tax refund checks and fraudulent return preparers.",
-          "sources": ["s5", "s13"]
+          "sources": [
+            "s5",
+            "s13"
+          ]
         }
       ],
       "positions": [
@@ -72,13 +99,9 @@
           "issue": "congestion_pricing",
           "stance": "opposes",
           "summary": "Opposes keeping Manhattan's congestion pricing toll program and discussed ending it with President Trump, whose administration moved to pull federal approval for the program.",
-          "sources": ["s12"]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supported the 2025 reconciliation law making the 2017 tax cuts permanent and opposed allowing them to expire, which she said would have produced an average 22% tax increase on New York families.",
-          "sources": ["s11"]
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "record": [
@@ -86,25 +109,33 @@
           "text": "Introduced H.R. 9499, the Protecting Taxpayers from Ghost Preparers Act, which passed the House unanimously on September 16, 2026; the bill limits the indefinite statute of limitations on fraudulent tax returns to cases where the taxpayer knowingly intended to commit fraud, rather than cases where a dishonest preparer acted alone.",
           "date": "2026-09-16",
           "kind": "bill",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Co-introduced with Rep. James McGovern (D-MA) H.R. 5439, the Medically Tailored Home-Delivered Meals Program Pilot Act, which passed the House Ways and Means Committee; it creates a 6-year Medicare pilot program at 40 hospitals delivering medically tailored meals to Medicare beneficiaries with diet-affected chronic diseases after hospital discharge.",
           "date": "2026-09-17",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Introduced H.R. 9771, the Stopping Foreign Influence in Elections Act of 2026, which passed the House Ways and Means Committee; it bars large tax-exempt organizations from making contributions to political committees for two years after receiving a gift from a foreign national and imposes escalating penalties, including suspension of tax-exempt status after a third violation.",
           "date": "2026-07-22",
           "kind": "bill",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Announced $1,000,000 in federal funding for CCTV security upgrades at NYCHA's Berry Houses development in Staten Island.",
           "date": "2026-08-18",
           "kind": "action",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "website": "https://malliotakis.house.gov/",
@@ -114,51 +145,74 @@
     {
       "id": "michael-decillis",
       "name": "Michael DeCillis",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 23 Democratic primary",
       "summary": {
         "text": "Michael DeCillis is a fourth-generation Staten Islander who has worked as an EMS paramedic, a September 11 first responder, an NYPD police officer for a decade, a civil litigation attorney, and a special education teacher. He also served as Chief of Staff and Director of Legislation for a member of the New York State Assembly. He defeated Allison Ziogas in the June 23 Democratic primary.",
-        "sources": ["s1", "s9"]
+        "sources": [
+          "s1",
+          "s9"
+        ]
       },
       "background": [
         {
           "text": "Worked as a volunteer EMT in college and later as a SWAT paramedic and field training officer in Michigan, where he helped create the state's first K-9 unit pre-hospital emergency care program.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "text": "Served as a first responder at Ground Zero on September 11, 2001, treating injured firefighters.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "text": "Served a decade as a New York City police officer while earning a Juris Doctorate from New York Law School; later worked as a civil litigation attorney.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "text": "Served as Chief of Staff and Director of Legislation in the New York State Assembly, working on transparency measures and conditions for NYCHA residents.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "text": "Earned a Master's in Education from Hunter College through an AmeriCorps Teaching Fellowship and worked as a special education teacher in New York City District 75 schools, teaching students on the autism spectrum.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says Congress needs stronger checks on executive power, comparing the need to post-Watergate congressional reforms, so that policy is not set by executive action alone.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "text": "Wants to reduce the tax burden on working people and require higher earners to \"pay their fair share\" to address rising costs for groceries, gas, healthcare, and housing.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "text": "As a former teacher, says he will oppose efforts to dismantle the U.S. Department of Education and push for more investment in public education.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "text": "Does not accept money from corporate PACs or PACs that lobby on behalf of a single foreign nation.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "positions": [
@@ -166,37 +220,49 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports moving to a single-payer healthcare system that eliminates co-pays and deductibles, and opposes Republican-enacted cuts to ACA subsidies, Medicaid and Medicare.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Says immigration enforcement is necessary for people who have committed crimes but that ICE is operating unconstitutionally and should be abolished as currently structured, citing warrantless searches and arrests.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "Supports universal background checks, gun licensing, and an assault weapons ban; holds the 2026 Moms Demand Action candidate distinction.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Supports codifying Roe v. Wade and says decisions about reproductive care belong to women, not government.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "Wants to reduce the tax burden on working-class families while requiring billionaires and large corporations to pay a higher share.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Supports federal climate action, including penalties for water and air pollution and infrastructure investment to protect shorelines from storms and flooding.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [],

@@ -10,44 +10,82 @@
   "context": [
     {
       "text": "This is the Class II Senate seat held by Cindy Hyde-Smith, who first took office in 2018. Hyde-Smith defeated Sarah Adlakha in the March 10, 2026 Republican primary, 80.8% to 19.2%. Scott Colom defeated Priscilla W. Till and Albert Littell in the Democratic primary, 72.9% to 18.6% to 8.5%. Ty Pinkins is running as an independent.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "cindy-hyde-smith",
       "name": "Cindy Hyde-Smith",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the March 10, 2026 Republican primary",
       "currentRole": "U.S. Senator (since 2018)",
       "summary": {
         "text": "Cindy Hyde-Smith is the incumbent U.S. Senator from Mississippi, appointed in 2018 to fill Thad Cochran's seat, elected to complete his term later that year, and elected to a full term in 2020. She previously served as Mississippi Commissioner of Agriculture and Commerce (2012-2018) and in the Mississippi State Senate (2000-2012).",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
-        { "text": "Served in the Mississippi State Senate representing District 39 from 2000 to 2012.", "sources": ["s3"] },
-        { "text": "Served as Mississippi Commissioner of Agriculture and Commerce from 2012 to 2018.", "sources": ["s3"] },
-        { "text": "Appointed to the U.S. Senate by Gov. Phil Bryant in 2018 to fill the seat of Thad Cochran, then won a special election that November and a full term in 2020.", "sources": ["s3"] },
-        { "text": "Is a cattle farmer by profession.", "sources": ["s4"] }
+        {
+          "text": "Served in the Mississippi State Senate representing District 39 from 2000 to 2012.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Served as Mississippi Commissioner of Agriculture and Commerce from 2012 to 2018.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Appointed to the U.S. Senate by Gov. Phil Bryant in 2018 to fill the seat of Thad Cochran, then won a special election that November and a full term in 2020.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Is a cattle farmer by profession.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Supports federal policies to foster economic growth and job creation in Mississippi, including the 2017 tax cuts.", "sources": ["s4"] },
-        { "text": "Supports the state's agriculture and forestry industries, citing her background as a cattle farmer and former state agriculture commissioner.", "sources": ["s4"] },
-        { "text": "Supports rebuilding U.S. infrastructure.", "sources": ["s4"] }
+        {
+          "text": "Supports federal policies to foster economic growth and job creation in Mississippi, including the 2017 tax cuts.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Supports the state's agriculture and forestry industries, citing her background as a cattle farmer and former state agriculture commissioner.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Supports rebuilding U.S. infrastructure.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Holds an enhanced-carry permit and describes herself as a strong advocate for the Second Amendment right to keep and bear arms.",
-          "sources": ["s4"]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Her official site states she supports the tax cuts and reforms enacted during the first Trump administration.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -58,31 +96,74 @@
     {
       "id": "scott-colom",
       "name": "Scott Colom",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 10, 2026 Democratic primary",
       "currentRole": "District Attorney, Mississippi 16th Circuit Court District",
       "summary": {
         "text": "Scott Colom is the elected District Attorney for Mississippi's 16th Circuit Court District (Clay, Lowndes, Noxubee, and Oktibbeha counties). He was twice nominated by President Biden to the U.S. District Court for the Northern District of Mississippi, but his nomination was not confirmed by the Senate. He is running for U.S. Senate as the Democratic nominee.",
-        "sources": ["s5", "s6", "s9"]
+        "sources": [
+          "s5",
+          "s6",
+          "s9"
+        ]
       },
       "background": [
-        { "text": "Earned a bachelor's degree from Millsaps College (2005) and a law degree from the University of Wisconsin Law School (2009).", "sources": ["s5"] },
-        { "text": "Elected District Attorney for Mississippi's 16th Circuit Court District.", "sources": ["s5"] },
-        { "text": "Nominated by President Biden to the U.S. District Court for the Northern District of Mississippi in 2022 and again in 2023; the nomination was not acted on by the Senate and lapsed.", "sources": ["s5"] },
-        { "text": "Describes himself as a seventh-generation Mississippian; his mother, Dorothy Colom, was the first African American elected to her region's Chancery Court.", "sources": ["s6"] }
+        {
+          "text": "Earned a bachelor's degree from Millsaps College (2005) and a law degree from the University of Wisconsin Law School (2009).",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Elected District Attorney for Mississippi's 16th Circuit Court District.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Nominated by President Biden to the U.S. District Court for the Northern District of Mississippi in 2022 and again in 2023; the nomination was not acted on by the Senate and lapsed.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Describes himself as a seventh-generation Mississippian; his mother, Dorothy Colom, was the first African American elected to her region's Chancery Court.",
+          "sources": [
+            "s6"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says he is running to lower costs for Mississippi families.", "sources": ["s6"] },
-        { "text": "Says he wants to save Mississippi's rural hospitals.", "sources": ["s6"] },
-        { "text": "Says he wants to bring jobs home to Mississippi.", "sources": ["s6"] }
+        {
+          "text": "Says he is running to lower costs for Mississippi families.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Says he wants to save Mississippi's rural hospitals.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Says he wants to bring jobs home to Mississippi.",
+          "sources": [
+            "s6"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Campaign site lists saving Mississippi's rural hospitals as a core priority.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -92,30 +173,73 @@
     {
       "id": "ty-pinkins",
       "name": "Ty Pinkins",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "currentRole": "Attorney",
       "summary": {
         "text": "Ty Pinkins is a Mississippi attorney and U.S. Army veteran (21 years of service, including three combat tours) running as an independent for U.S. Senate. He previously ran for U.S. Senate as a Democrat in 2024 and for Mississippi Secretary of State in 2023.",
-        "sources": ["s7", "s8"]
+        "sources": [
+          "s7",
+          "s8"
+        ]
       },
       "background": [
-        { "text": "Born and raised in Rolling Fork, Mississippi.", "sources": ["s7"] },
-        { "text": "Served 21 years in the U.S. Army, including three combat tours, and served as a White House Communications Aide.", "sources": ["s7"] },
-        { "text": "Earned a bachelor's degree from the University of Maryland Global Campus (2012), a J.D. from Georgetown University Law Center (2020), and an LL.M. in national security law from Georgetown (2021).", "sources": ["s7"] },
-        { "text": "Has worked as an attorney with the Mississippi Center for Justice.", "sources": ["s7"] }
+        {
+          "text": "Born and raised in Rolling Fork, Mississippi.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Served 21 years in the U.S. Army, including three combat tours, and served as a White House Communications Aide.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree from the University of Maryland Global Campus (2012), a J.D. from Georgetown University Law Center (2020), and an LL.M. in national security law from Georgetown (2021).",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Has worked as an attorney with the Mississippi Center for Justice.",
+          "sources": [
+            "s7"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says the two-party system has \"stopped working for too many Americans\" and is running as an independent so Mississippi has \"a senator who answers to the people, not party bosses or political establishments.\"", "quote": "Both major parties have failed working people. My campaign is rooted in the belief that the two-party system has stopped working for too many Americans.", "sources": ["s8"] },
-        { "text": "Says he is passionate about expanding access to affordable healthcare, especially in rural areas.", "sources": ["s8"] },
-        { "text": "Says he wants to ensure veterans receive the benefits, care, and support they earned.", "sources": ["s8"] }
+        {
+          "text": "Says the two-party system has \"stopped working for too many Americans\" and is running as an independent so Mississippi has \"a senator who answers to the people, not party bosses or political establishments.\"",
+          "quote": "Both major parties have failed working people. My campaign is rooted in the belief that the two-party system has stopped working for too many Americans.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Says he is passionate about expanding access to affordable healthcare, especially in rural areas.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Says he wants to ensure veterans receive the benefits, care, and support they earned.",
+          "sources": [
+            "s8"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Ballotpedia Candidate Connection survey lists expanding access to affordable healthcare, especially in rural areas, as a passion.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [],
@@ -124,15 +248,69 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026", "title": "United States Senate election in Mississippi, 2026", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s2", "url": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026_(March_10_Democratic_primary)", "title": "Mississippi Senate Democratic primary results, 2026", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s3", "url": "https://ballotpedia.org/Cindy_Hyde-Smith", "title": "Cindy Hyde-Smith", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s4", "url": "https://www.hydesmith.senate.gov/issues", "title": "Issues", "publisher": "Office of Sen. Cindy Hyde-Smith", "kind": "candidate" },
-    { "id": "s5", "url": "https://ballotpedia.org/Scott_Colom", "title": "Scott Colom", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s6", "url": "https://www.scottcolom.com", "title": "Scott Colom for Senate", "publisher": "Colom for Senate campaign site", "kind": "candidate" },
-    { "id": "s7", "url": "https://ballotpedia.org/Ty_Pinkins", "title": "Ty Pinkins", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s8", "url": "https://ballotpedia.org/Ty_Pinkins", "title": "Ty Pinkins - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" },
-    { "id": "s9", "url": "https://en.wikipedia.org/wiki/Scott_Colom", "title": "Scott Colom", "publisher": "Wikipedia", "kind": "reference" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
+      "title": "United States Senate election in Mississippi, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026_(March_10_Democratic_primary)",
+      "title": "Mississippi Senate Democratic primary results, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Cindy_Hyde-Smith",
+      "title": "Cindy Hyde-Smith",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.hydesmith.senate.gov/issues",
+      "title": "Issues",
+      "publisher": "Office of Sen. Cindy Hyde-Smith",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Scott_Colom",
+      "title": "Scott Colom",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.scottcolom.com",
+      "title": "Scott Colom for Senate",
+      "publisher": "Colom for Senate campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Ty_Pinkins",
+      "title": "Ty Pinkins",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Ty_Pinkins",
+      "title": "Ty Pinkins - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+      "title": "Scott Colom",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Basic-tier research. Scott Colom has not completed Ballotpedia's Candidate Connection survey; his positions are drawn from his campaign website. Hyde-Smith and Colom's federal key votes and FEC finance totals are added separately by script."

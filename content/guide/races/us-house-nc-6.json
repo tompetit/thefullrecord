@@ -11,50 +11,57 @@
   "context": [
     {
       "text": "Incumbent Addison McDowell (R) advanced from a canceled Republican primary. Cyril Jefferson won a contested Democratic primary. Independent Joshua Hager did not make the general-election ballot. No Libertarian or other minor-party candidate is listed for this district.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "addison-mcdowell",
       "name": "Addison McDowell",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Addison McDowell is the Republican incumbent seeking re-election in North Carolina's 6th Congressional District. A first-term member of Congress, he previously worked as a constituent liaison for then-Rep. Ted Budd and as a lobbyist for Blue Cross Blue Shield.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Whiteville, North Carolina, in 1994; earned a bachelor's degree in political science from the University of North Carolina at Charlotte.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked for then-Congressman (now U.S. Senator) Ted Budd as a constituent liaison, and as a lobbyist for Blue Cross Blue Shield.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Tackling the drug crisis and strengthening border security, a priority he traces to his younger brother's death from a fentanyl overdose.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says his top priority is strengthening border security and stopping the flow of illegal drugs, and his official site says he seeks to protect communities from the dangers of illegal immigration.",
-          "quote": "McDowell's top priority in Congress is to tackle the drug crisis and strengthen border security to protect families and communities from the dangers posed by illegal immigration.",
-          "sources": ["s4"]
-        },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Says the right to self-defense is a constitutional right and he will fight government efforts he views as disrupting North Carolinians' Second Amendment rights.",
           "quote": "Addison believes that the right to self-defense is a God-given, constitutional right of every law-abiding American. As an avid hunter and gun enthusiast, Addison will fight government overreach that aims to disrupt North Carolinians' 2nd Amendment rights.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
@@ -62,7 +69,9 @@
           "text": "Serves on the House Committee on Natural Resources (Indian and Insular Affairs; Water, Wildlife and Fisheries subcommittees), the Committee on Transportation and Infrastructure (Aviation; Coast Guard and Maritime Transportation; Highways and Transit subcommittees), and the House Committee on Budget.",
           "date": "2025",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.addisonmcdowell.com/",
@@ -72,32 +81,44 @@
     {
       "id": "cyril-jefferson",
       "name": "Cyril Jefferson",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won a contested March 3, 2026 Democratic primary.",
       "currentRole": "Mayor of High Point, North Carolina",
       "summary": {
         "text": "Cyril Jefferson is the Democratic nominee challenging incumbent Addison McDowell in North Carolina's 6th Congressional District. He is the mayor of High Point, elected in 2023 as the youngest person to hold that office, and founder of a social-innovation consulting firm.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Utica, New York; attended North Carolina A&T State University and High Point University for undergraduate study.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Founder and principal of Change Often, a social innovation firm that says it has helped invest more than $22 million in initiatives for small-business support, poverty alleviation and education.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Elected Mayor of High Point in the 2023 city elections, becoming the youngest person ever elected to that office; received a National Distinguished Service Award and a Hunt State Policy Fellowship.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says his approach is to put people first, build strong partnerships, and focus on practical solutions rather than political rhetoric.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -106,7 +127,9 @@
           "text": "Serves as Mayor of High Point, North Carolina, since being elected in 2023.",
           "date": "2023",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://cyriljefferson.com/",
@@ -115,11 +138,46 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026", "title": "United States House of Representatives elections in North Carolina, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Addison_McDowell", "title": "Addison McDowell", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Cyril_Jefferson", "title": "Cyril Jefferson - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2025" },
-    { "id": "s4", "url": "https://mcdowell.house.gov/about", "title": "About | Congressman Addison McDowell", "publisher": "Office of Rep. Addison McDowell", "kind": "official", "date": "2026-09-25" },
-    { "id": "s5", "url": "https://ballotpedia.org/Addison_McDowell", "title": "Addison McDowell - campaign website excerpt (2024)", "publisher": "Ballotpedia (quoting McDowell's 2024 campaign website)", "kind": "candidate", "date": "2024" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+      "title": "United States House of Representatives elections in North Carolina, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Addison_McDowell",
+      "title": "Addison McDowell",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Cyril_Jefferson",
+      "title": "Cyril Jefferson - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2025"
+    },
+    {
+      "id": "s4",
+      "url": "https://mcdowell.house.gov/about",
+      "title": "About | Congressman Addison McDowell",
+      "publisher": "Office of Rep. Addison McDowell",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Addison_McDowell",
+      "title": "Addison McDowell - campaign website excerpt (2024)",
+      "publisher": "Ballotpedia (quoting McDowell's 2024 campaign website)",
+      "kind": "candidate",
+      "date": "2024"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "No minor-party or independent candidate is on the November ballot for this district according to Ballotpedia's slate. Federal key votes and FEC totals for McDowell, the sitting incumbent, are added by a separate script."

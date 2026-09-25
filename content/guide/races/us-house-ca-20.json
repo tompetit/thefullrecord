@@ -11,85 +11,95 @@
   "context": [
     {
       "text": "California redrew its congressional district lines for the 2026 elections under Proposition 50, a mid-decade redistricting measure voters approved in a November 2025 special election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "In the June 2, 2026 top-two primary, Vince Fong won 68.2% of the vote (115,035 votes) and Sandra Van Scotter won 28.8% (48,611 votes), advancing them both to the November general election.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "vince-fong",
       "name": "Vince Fong",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative for California's 20th District (since June 2024, elected in a special election)",
       "summary": {
         "text": "Vince Fong is the incumbent Republican U.S. Representative for California's 20th District, elected in a May 2024 special election to succeed former Speaker Kevin McCarthy after also serving in the California State Assembly.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Bakersfield, California, in 1979; earned a bachelor's degree in political science and government from UCLA in 2001 and an M.P.A. from Princeton University in 2003.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as district director for then-U.S. Rep. Kevin McCarthy and as a district representative for former U.S. Rep. Bill Thomas before serving in the California State Assembly.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists restoring California's oil and gas production and cutting energy regulation as a priority, describing it as key to lowering costs and strengthening national security.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Lists cutting regulatory barriers to housing construction and expanding housing supply as a priority for lowering home prices in the Central Valley.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
-        {
-          "issue": "climate",
-          "stance": "opposes",
-          "summary": "Supports reopening federal oil and gas leasing and expanding domestic refining capacity rather than accelerating a shift away from fossil fuels.",
-          "quote": "This important and needed move by the Bureau of Land Management is a strong step toward restoring California's oil production, lowering costs for families, reducing our reliance on foreign sources of energy by unleashing American energy independence, and protecting good-paying jobs.",
-          "sources": ["s4"]
-        },
         {
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "Supports cutting regulatory barriers and streamlining permitting to expand housing supply.",
           "quote": "Building more houses, cutting red tape, empowering local and rural lenders, and modernizing outdated federal programs is exactly how we lower costs and make housing more affordable.",
-          "sources": ["s5"]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Supported the 2025 budget reconciliation law's $175 billion border-security investment and provisions barring federal Medicaid funds for immigrants without legal status.",
-          "quote": "Provides over $175 billion – the largest border security investment in history – to secure our borders and keep Americans safe.",
-          "sources": ["s6"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Supported making the 2017 Tax Cuts and Jobs Act permanent rather than allowing its rates to expire, describing the expiration as the largest tax increase in American history.",
           "quote": "This legislation delivers for the Central Valley by preventing the largest tax increase in American history, supporting our farmers and small businesses, and ensuring the sustainability of our government's fiscal future.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Transportation and Infrastructure (Highways and Transit; Railroads, Pipelines, and Hazardous Materials; Water Resources and Environment subcommittees) and the Committee on Science, Space, and Technology in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Introduced H.J. Res. 210, a Congressional Review Act resolution to overturn the EPA's authorization of California's Air Resources Board At-Berth Regulation; the House passed it.",
           "kind": "bill",
           "date": "2026-09-15",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -98,26 +108,36 @@
     {
       "id": "sandra-van-scotter",
       "name": "Sandra Van Scotter",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the June 2 top-two primary with 28.8% of the vote",
       "summary": {
         "text": "Sandra Van Scotter is a Democratic candidate for California's 20th District running on a single-payer healthcare platform.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [],
       "priorities": [
         {
           "text": "Supports Medicare for All, citing S. 1560 (introduced April 2025) as a model for transitioning over four years from the current commercial-insurance system to a single-payer option.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says she would prioritize collaborating with state, county, and local officials on agriculture, water, and housing-affordability issues affecting the district.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says she is passionate about streamlining access to Veterans Disability Benefits, Social Security Disability Benefits, and Developmental Disability benefits.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -126,7 +146,9 @@
           "stance": "supports",
           "summary": "Supports Medicare for All, describing commercial health insurance as treating premiums as a 'bottomless cup' of profit.",
           "quote": "Medicare For All is the answer to getting our Health Care System on track.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
