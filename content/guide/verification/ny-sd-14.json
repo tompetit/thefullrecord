@@ -1,0 +1,13 @@
+{
+  "raceId": "ny-sd-14",
+  "checkedAt": "2026-09-25",
+  "claimsChecked": 17,
+  "corrected": 0,
+  "removed": 0,
+  "unverifiable": 0,
+  "notes": [
+    "All claims verified against their cited sources without changes: unopposed ballot status and canceled primaries (Ballotpedia), biography and committee assignments (NYSenate.gov official bio), and all three sponsored-bill summaries/statuses/dates (official NYSenate.gov bill pages).",
+    "The GREAT Act (S9500-A) 39-21 passage and Comrie's yes vote were independently confirmed against the official bill page.",
+    "Two hand-written floor-vote record items (S8654-B, S10585) that were in this file when first read were removed by an unrelated repository-wide fix (commit fbc402c) shortly afterward, which now renders contested NY roll calls from an official-snapshot pipeline instead of hand-written record entries; per the updated VERIFY_BRIEF.md this is now out of scope for this pass. Both votes had in fact been correctly described as 'yes' before removal, per direct confirmation against the official roll call."
+  ]
+}
