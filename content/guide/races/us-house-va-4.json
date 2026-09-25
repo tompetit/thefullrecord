@@ -1,0 +1,93 @@
+{
+  "id": "us-house-va-4",
+  "state": "VA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "4",
+  "title": "U.S. House · Virginia's 4th District",
+  "area": "Virginia's 4th Congressional District (Richmond, Petersburg, and surrounding areas)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Democratic primary was canceled and incumbent Jennifer McClellan advanced unopposed. The Republican Party primary was canceled because no candidates filed; Robert Murray Jr. is the Republican general-election nominee.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jennifer-mcclellan",
+      "name": "Jennifer McClellan",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Virginia's 4th District (since 2023)",
+      "summary": {
+        "text": "Jennifer McClellan is the incumbent Democratic U.S. Representative for Virginia's 4th District, elected in a 2023 special election. She previously served in the Virginia Senate and House of Delegates.",
+        "sources": ["s2"]
+      },
+      "background": [
+        { "text": "Born in Petersburg, Virginia in 1972; earned a B.A. in English and political science from the University of Richmond and a J.D. from the University of Virginia.", "sources": ["s2"] },
+        { "text": "Worked as assistant general counsel with Verizon and as an associate with the law firm Hunton & Williams.", "sources": ["s2"] },
+        { "text": "Served in the Virginia House of Delegates (District 71, 2006-2017) and the Virginia State Senate (District 9, 2017-2023) before her election to Congress.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        { "text": "Serves on the House Committee on Energy and Commerce, including its Subcommittees on Communications and Technology and on Energy, in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"] }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "M001227"
+    },
+    {
+      "id": "robert-murray-jr",
+      "name": "Robert Murray Jr.",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Robert Murray Jr. is the Republican nominee for Virginia's 4th Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "joan-bell",
+      "name": "Joan Bell",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Joan Bell is an independent candidate running in Virginia's 4th Congressional District general election.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Virginia,_2026",
+      "title": "United States House of Representatives elections in Virginia, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jennifer_McClellan",
+      "title": "Jennifer McClellan",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "No biography, campaign website, or public statements were found for Republican nominee Robert Murray Jr. or independent candidate Joan Bell within the research budget, so their entries are minimal."
+}

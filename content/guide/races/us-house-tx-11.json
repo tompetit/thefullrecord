@@ -1,0 +1,170 @@
+{
+  "id": "us-house-tx-11",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "11",
+  "title": "U.S. House · Texas's 11th District",
+  "area": "West Texas, including the Permian Basin cities of Midland and Odessa, San Angelo, and new slivers of north Austin and Pflugerville added in the 2025 redistricting.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Republican August Pfluger is seeking re-election after winning his primary unopposed. Claire Reynolds won the Democratic primary. Texas's 2025 redistricting added parts of north Austin and Pflugerville to this historically West Texas district.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "august-pfluger",
+      "name": "August Pfluger",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Texas's 11th District (since 2021)",
+      "ballotNote": "Won the March 3, 2026 Republican primary unopposed",
+      "summary": {
+        "text": "August Pfluger is the Republican incumbent seeking re-election in Texas's 11th District. A U.S. Air Force Academy graduate and Air Force veteran, he chairs the Homeland Security Committee's Counterterrorism and Intelligence Subcommittee and sits on the Energy and Commerce Committee.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Harris County, Texas, and graduated from Central High School in San Angelo.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Earned a bachelor's degree from the United States Air Force Academy and master's degrees from Embry-Riddle Aeronautical University, Air University and Georgetown University.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Served in the U.S. Air Force and Air Force Reserve and on the staff of the National Security Council before being elected to Congress in 2020.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the Committee on Homeland Security, chairing the Subcommittee on Counterterrorism and Intelligence, for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Serves on the Committee on Energy and Commerce, including its Subcommittees on Communications and Technology, Energy, and Environment, for the 119th Congress.",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Introduced the Mystic Alerts Act, which advanced through the Senate Commerce, Science, and Transportation Committee.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Introduced the Combating Illicit Xylazine Act.",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Introduced legislation to support recovering critical minerals from waste streams.",
+          "kind": "bill",
+          "sources": ["s4"]
+        }
+      ],
+      "website": "https://pfluger.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "P000048"
+    },
+    {
+      "id": "claire-reynolds",
+      "name": "Claire Reynolds",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary",
+      "summary": {
+        "text": "Claire Reynolds is the Democratic nominee challenging incumbent August Pfluger in Texas's 11th District, campaigning on affordability, healthcare, immigration reform and reproductive rights in a district she says was redrawn to entrench Republican control.",
+        "sources": ["s5"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "Affordability: says wages have not kept pace with inflation and that Texas is the 11th-poorest state in the country.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Healthcare: supports moving toward a single-payer health insurance system, citing Medicare and the VA as existing models.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Immigration reform: says the U.S. can secure the border while reforming the legal immigration system.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says a single-payer health insurance system may be achievable, pointing to Medicare and the VA as examples that already cover millions of Americans.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says abortion in Texas should be 'safe, legal, and rare' and criticizes the rollback of Roe v. Wade protections.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says the country can have a secure border while reforming the immigration system so people who want to live and work legally are not stuck waiting decades.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.clairereynoldsforcongress.org",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Texas%27_11th_Congressional_District_election,_2026",
+      "title": "Texas' 11th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/August_Pfluger",
+      "title": "August Pfluger",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://pfluger.house.gov/media/press-releases",
+      "title": "Press Releases",
+      "publisher": "Office of Rep. August Pfluger",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.clairereynoldsforcongress.org",
+      "title": "Claire Reynolds Candidate for Congress in Texas District 11",
+      "publisher": "Claire Reynolds campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Pfluger's own house.gov issues pages render via JavaScript and did not return readable text; his priorities and issue positions are limited here to what could be confirmed from his official committee record and press releases. Detailed floor votes and FEC totals for Pfluger are added separately."
+}

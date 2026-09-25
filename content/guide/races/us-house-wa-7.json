@@ -1,0 +1,135 @@
+{
+  "id": "us-house-wa-7",
+  "state": "WA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "7",
+  "title": "U.S. House · Washington's 7th District",
+  "area": "Most of the city of Seattle and nearby suburbs including Shoreline, Burien, and Vashon Island.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Pramila Jayapal and Nirav Sheth advanced from the August 4, 2026 primary, defeating Gwen Kirkland (D) and David Blomstrom (Fifth Republic Party). Jayapal won the primary with 83.8% of the vote.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "pramila-jayapal",
+      "name": "Pramila Jayapal",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2017)",
+      "summary": {
+        "text": "Pramila Jayapal is the Democratic incumbent for Washington's 7th Congressional District, a former Washington state senator and immigrant-rights nonprofit founder who has represented the district since 2017.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Chennai, India, in 1965; earned a bachelor's degree in English literature from Georgetown University in 1986 and a master's degree in marketing from Northwestern University in 1990.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a nonprofit executive, founding the immigrant-rights group OneAmerica, serving as a director at the Program for Appropriate Technology in Health, and co-chairing the group We Belong Together; also worked as a financial analyst for PaineWebber Incorporated.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as a Democratic member of the Washington State Senate representing District 37 from 2015 to 2016 before her election to Congress.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "For the 2025-2026 Congress, sits on the Committee on the Judiciary (Immigration Integrity, Security, and Enforcement subcommittee; the Constitution and Limited Government subcommittee), the Committee on the Budget, and the Committee on Foreign Affairs.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "website": "https://pramilaforcongress.com",
+      "researchDepth": "basic",
+      "bioguideId": "J000298"
+    },
+    {
+      "id": "nirav-sheth",
+      "name": "Nirav Sheth",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Nirav Sheth is the Republican nominee for Washington's 7th Congressional District, a Marine Corps veteran, former police officer, and small business owner who immigrated from India.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Marine Corps from 2011 to 2014; earned an associate degree from the Government Polytechnic State Institute of Gujarat in India in 2006.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Career experience includes working as an electrical engineer, in computer science, as an aircraft mechanic, as an automotive service advisor, and in property management; served as a police officer in Lakewood, Washington, starting in 2017.",
+          "sources": ["s3", "s4"]
+        },
+        {
+          "text": "Describes himself as a legal immigrant who worked his way from being homeless into becoming a small business owner in Pierce County.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists public safety, education, strong infrastructure, and immigration as his campaign's core issues.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Supports increased funding and equipment for emergency services, law enforcement, and fire departments.",
+          "quote": "Supporting our emergency services and making crime illegal again in Washington State is crucial. By providing adequate funding and better equipment, we can ensure the safety of our communities.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "As a legal immigrant, emphasizes support for legal immigration and integration rather than describing specific enforcement measures.",
+          "quote": "As an Immigrant, I know that legal immigration not only ensures a successful integration into our great nation but also upholds the values of fairness, opportunity, and diversity.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://shethforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Washington%27s_7th_Congressional_District_election,_2026",
+      "title": "Washington's 7th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Pramila_Jayapal",
+      "title": "Pramila Jayapal",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Nirav_Sheth",
+      "title": "Nirav Sheth",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://shethforcongress.com",
+      "title": "Home - Nirav Sheth",
+      "publisher": "Nirav Sheth for Congress",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Neither candidate has completed a 2026 Ballotpedia Candidate Connection survey. Jayapal's official house.gov and campaign websites did not yield fetchable issue-position text (menus and JavaScript-rendered content only), so her priorities and positions sections are left empty rather than inferred; her committee assignments and biography are sourced from Ballotpedia. Jayapal's federal key votes and FEC totals are added separately by script."
+}

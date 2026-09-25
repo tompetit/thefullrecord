@@ -1,0 +1,172 @@
+{
+  "id": "us-house-va-6",
+  "state": "VA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "6",
+  "title": "U.S. House · Virginia's 6th District",
+  "area": "Western and central Virginia's Shenandoah Valley and Roanoke region, including Winchester, Harrisonburg, Staunton, Lexington, Roanoke and Botetourt County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both primaries were canceled after only one candidate qualified for each ballot line. On the Democratic side, Wendy Gooditis, Ken Mitchell, Hugh Murray and Pete Barlow withdrew or were disqualified, leaving Beth Macy unopposed for the nomination. Incumbent Benjamin Lee Cline advanced unopposed on the Republican line. Cook Political Report, Decision Desk, Inside Elections and Sabato's Crystal Ball all rate the race Solid/Safe Republican as of September 22, 2026.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "ben-cline",
+      "name": "Benjamin Lee Cline",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the Republican primary unopposed after the primary was canceled.",
+      "currentRole": "U.S. Representative for Virginia's 6th District (since 2019)",
+      "summary": {
+        "text": "Ben Cline is the Republican incumbent seeking re-election to a fifth term representing Virginia's 6th Congressional District. He previously served 16 years in the Virginia House of Delegates and worked as an attorney and prosecutor before coming to Congress in 2019.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Served in the Virginia House of Delegates representing the 24th District from 2002 to 2018, where he chaired the Committee on Militia, Police, and Public Safety.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an Assistant Commonwealth's Attorney for Rockingham County and the City of Harrisonburg from 2007 to 2013, and was previously in private legal practice.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Began his career on the staff of Congressman Bob Goodlatte in 1994, eventually serving as Goodlatte's Chief of Staff.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Graduated from Lexington High School (1990), received a B.A. from Bates College and a law degree from the University of Richmond.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on the Judiciary.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves on the House Committee on Appropriations.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves on the House Permanent Select Committee on Intelligence.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Serves on the House Committee on the Budget.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://bencline.com",
+      "researchDepth": "basic",
+      "bioguideId": "C001108"
+    },
+    {
+      "id": "beth-macy",
+      "name": "Beth Macy",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the Democratic primary unopposed after other candidates withdrew and the primary was canceled.",
+      "summary": {
+        "text": "Beth Macy is the Democratic nominee challenging incumbent Ben Cline for Virginia's 6th District. She is a longtime Roanoke Times reporter and best-selling author, known for books including Dopesick and Factory Man, running on affordability, health care and support for rural communities.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Grew up in a small town in Ohio, the first in her family to attend college, and later settled in Roanoke, Virginia.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Spent 25 years as a reporter for The Roanoke Times covering people and communities across western Virginia.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Author of the best-selling books Factory Man, Dopesick (adapted into an Emmy- and Peabody-winning Hulu series she helped produce and write) and Paper Girl.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Making life affordable for working families and expanding access to health and mental health care.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Regulating data centers and artificial intelligence, including a proposed nationwide moratorium on new data centers until energy, environmental, cost and workforce concerns are addressed, and requiring Big Tech to pay the full costs of data-center construction and energy/water use.",
+          "quote": "A nationwide moratorium on new data centers should be enforced until energy, environmental, cost, workforce and other citizens' concerns are addressed through legislation.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Protecting Social Security, Medicare and veterans' benefits from privatization, and raising the cap on Social Security payroll taxes so higher earners pay more into the system.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says Congress should raise the cap on Social Security payroll taxes so wealthier earners pay a larger share.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign priorities include expanding access to health and mental health care and opposing privatization of Medicare.",
+          "sources": ["s3", "s4"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Calls for ending tariffs, saying they act as a tax on purchased goods and hurt farmers by shutting them out of overseas markets and raising equipment costs.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.bethmacyforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Virginia%27s_6th_Congressional_District_election,_2026",
+      "title": "Virginia's 6th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://cline.house.gov/about",
+      "title": "About | U.S. Representative Ben Cline",
+      "publisher": "Office of Rep. Ben Cline",
+      "kind": "official"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.bethmacyforcongress.com",
+      "title": "Beth Macy for Congress",
+      "publisher": "Beth Macy for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.bethmacyforcongress.com/priorities",
+      "title": "Priorities - Beth Macy for Congress",
+      "publisher": "Beth Macy for Congress",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Cline did not complete Ballotpedia's Candidate Connection survey and his campaign site (bencline.com) returned a bot-check page, so his current-cycle priorities in his own words could not be verified; the record items reflect his official committee assignments only."
+}

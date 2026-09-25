@@ -1,0 +1,121 @@
+{
+  "id": "us-house-tx-35",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "35",
+  "title": "U.S. House · Texas's 35th District",
+  "area": "A South-Central Texas district including parts of San Antonio.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional map for the 2026 election cycle. This is an open seat with no incumbent on the general-election ballot; Rep. Greg Casar, who represented a differently drawn 35th District, is instead running for re-election in the redrawn 37th District. Johnny Garcia defeated Maureen Galindo in the Democratic primary runoff, and Carlos De La Cruz defeated John Lujan in the Republican primary runoff.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "johnny-garcia",
+      "name": "Johnny Garcia",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the Democratic primary runoff against Maureen Galindo",
+      "currentRole": "Former Bexar County Sheriff's Office deputy and SWAT hostage negotiator",
+      "summary": {
+        "text": "Johnny Garcia is a former Bexar County Sheriff's Office deputy, SWAT hostage negotiator, and public information officer from San Antonio's West Side, running as a Democrat focused on lowering costs and affordable health care.",
+        "sources": ["s2", "s3"]
+      },
+      "background": [
+        { "text": "Born and raised in San Antonio's West Side; graduated from Memorial High School and attended St. Philip's College.", "sources": ["s2", "s3"] },
+        { "text": "Worked in construction before spending nearly two decades at the Bexar County Sheriff's Office, including as a SWAT hostage negotiator and public information officer.", "sources": ["s2", "s3"] }
+      ],
+      "priorities": [
+        { "text": "Says he is fighting for lower costs, affordable health care, and economic opportunity for working families in TX-35.", "quote": "An old school Democrat, Johnny is fighting for the working families in TX-35 — for lower costs, affordable healthcare, and the chance to get ahead.", "sources": ["s3"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign describes him as fighting for affordable health care for working families.",
+          "quote": "for lower costs, affordable healthcare, and the chance to get ahead",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "carlos-de-la-cruz",
+      "name": "Carlos De La Cruz",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the Republican primary runoff against John Lujan",
+      "currentRole": "U.S. Air Force veteran; small business owner",
+      "summary": {
+        "text": "Carlos De La Cruz is a 20-year U.S. Air Force veteran who deployed to Afghanistan, Iraq, and the U.S.-Mexico border, and who co-founded a kickboxing gym in San Antonio with his wife after leaving the military.",
+        "sources": ["s4"]
+      },
+      "background": [
+        { "text": "Served 20 years in the U.S. Air Force, deploying to Afghanistan, Iraq, and the border with Mexico.", "sources": ["s4"] },
+        { "text": "Co-founded a kickboxing gym in San Antonio with his wife, a VA nurse practitioner, after leaving the Air Force.", "sources": ["s4"] }
+      ],
+      "priorities": [
+        { "text": "Supports continued efforts to secure the border and equip Border Patrol agents.", "sources": ["s4"] },
+        { "text": "Supports holding the Mexican government accountable for water deliveries owed to Texas agricultural communities under treaty obligations.", "sources": ["s4"] },
+        { "text": "Says he will support President Trump's agenda in Congress, including on manufacturing and trade with China.", "sources": ["s4"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports continuing to secure the border and providing Border Patrol agents more resources.",
+          "quote": "We need to continue securing our border and ensure our Border Patrol agents have the tools, manpower, and support they deserve.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "Supports trade measures aimed at stopping China from what he describes as unfair trade practices, as part of an \"America First\" platform.",
+          "quote": "stopping communist China from ripping us off",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Johnny_Garcia_(Texas_congressional_candidate)",
+      "title": "Johnny Garcia",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.votejohnnygarcia.com",
+      "title": "Johnny Garcia For Congress",
+      "publisher": "Johnny Garcia for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Carlos_De_La_Cruz",
+      "title": "Carlos De La Cruz",
+      "publisher": "Ballotpedia (quoting De La Cruz's campaign website)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Johnny Garcia has not completed a Ballotpedia Candidate Connection survey and his campaign website's issues page returned a 404 error; his entry relies on Ballotpedia's biography and his campaign homepage's brief description."
+}

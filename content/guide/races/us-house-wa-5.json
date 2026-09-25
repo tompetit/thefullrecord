@@ -1,0 +1,162 @@
+{
+  "id": "us-house-wa-5",
+  "state": "WA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "5",
+  "title": "U.S. House · Washington's 5th District",
+  "area": "Eastern Washington, including Spokane and the surrounding region.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Michael Baumgartner and Carmela Conroy advanced from the August 4, 2026 top-two primary out of a field of twelve candidates.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "michael-baumgartner",
+      "name": "Michael Baumgartner",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the August 4 top-two primary",
+      "currentRole": "U.S. Representative (since 2025)",
+      "summary": {
+        "text": "Michael Baumgartner is the incumbent Republican U.S. Representative for Washington's 5th District, elected in 2024 to succeed Cathy McMorris Rodgers. He previously served as Spokane County Treasurer and in the Washington State Senate.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Pullman, Washington, in 1975. Earned a bachelor's degree in economics from Washington State University (1999) and a Master's of Public Administration from Harvard University (2002).",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as an economic affairs officer with the U.S. State Department in Iraq and as a part-time economic adviser to the U.S. military.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the Washington State Senate from 2011 to 2019 and as Spokane County Treasurer from 2019 to 2025, overseeing a roughly $1.9 billion fixed-income investment fund.",
+          "sources": ["s1", "s2"]
+        },
+        {
+          "text": "As a state senator, says he played a lead role in creating a WSU medical school in Spokane, securing funding to complete the North-South Freeway, and authoring legislation to reduce the cost of college tuition.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Sits on the House Committee on the Judiciary (Courts, Intellectual Property, AI and the Internet subcommittee; Administrative State, Regulatory Reform and Antitrust subcommittee), the Committee on Education and the Workforce, and the Committee on Foreign Affairs for the 2025-2026 Congress.",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the Washington State Senate representing the 6th Legislative District from 2011 to 2019.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://baumgartner.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "B001322"
+    },
+    {
+      "id": "carmela-conroy",
+      "name": "Carmela Conroy",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Advanced from the August 4 top-two primary",
+      "summary": {
+        "text": "Carmela Conroy is a Democratic candidate for Washington's 5th District, a former U.S. Foreign Service Officer and deputy prosecuting attorney.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Spokane, Washington. Earned a bachelor's degree from the University of Washington, a graduate degree from the U.S. Naval War College, and a law degree from the University of Washington School of Law.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Career experience includes serving as a U.S. Foreign Service Officer, national security professional, and deputy prosecuting attorney.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Has been affiliated with the League of Women Voters, Friends of the Bluff, Spokane Preservation Advocates, and the American Foreign Service Association.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Calls for ending \"tariff chaos\" to lower prices for consumers and businesses and restore normal trade relations with Canada and Mexico.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Supports restoring Medicare and Medicaid funding, extending Medicaid coverage to all children up to age 19, and allowing federal health programs to negotiate lower drug prices.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Calls for a federal minimum-wage law indexed to inflation with paid time off and paid sick leave.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "On government accountability, supports prohibiting members of Congress from trading individual stocks.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Calls for ending current tariff policy, saying it would cut prices for consumers and businesses and restore normal trade relations with neighboring countries.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports restoring Medicare and Medicaid funding to previous levels, extending Medicaid to all children under 19, and allowing federal health programs to negotiate drug prices.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports an inflation-indexed federal minimum wage with paid time off and paid sick leave.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Calls for defunding border-security assets not directed to official ports of entry and defunding detention-center construction, while excepting people facing criminal charges.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Michael_Baumgartner_(Washington)",
+      "title": "Michael Baumgartner (Washington)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Michael_Baumgartner_(Washington)",
+      "title": "Michael Baumgartner's campaign website (quoted)",
+      "publisher": "Ballotpedia, quoting Michael Baumgartner's campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Carmela_Conroy",
+      "title": "Carmela Conroy's campaign website (quoted July 22, 2026)",
+      "publisher": "Ballotpedia, quoting Carmela Conroy's campaign website",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Baumgartner has not completed a 2026 Candidate Connection survey and his Ballotpedia campaign-website quote on file dates to his 2024 campaign, so no current-cycle priorities/positions statements were found for him in this pass beyond his committee assignments; his official House issues page was not checked. Conroy's positions are drawn from her July 2026 campaign website as quoted on Ballotpedia; she has not completed a 2026 Candidate Connection survey."
+}

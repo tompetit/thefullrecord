@@ -1,0 +1,103 @@
+{
+  "id": "us-house-tx-30",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "30",
+  "title": "U.S. House · Texas's 30th Congressional District",
+  "area": "Central Dallas, including much of the city of Dallas.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "This is an open seat: incumbent Jasmine Crockett did not seek re-election to this district, running instead for the U.S. Senate seat, in which she lost the March 3, 2026 Democratic primary.",
+      "sources": ["s2"]
+    },
+    {
+      "text": "In the March 3, 2026 Democratic primary, Frederick Haynes defeated Barbara Mallory Caraway and Rodney LaBruce, 72.6% to 23.1% to 4.3%. In the Republican primary, Everett Jackson and Sholdon Daniels advanced to a May 26, 2026 runoff, which Jackson won 57.5% to 42.5%.",
+      "sources": ["s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "frederick-haynes",
+      "name": "Frederick Haynes",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary with 72.6% of the vote",
+      "summary": {
+        "text": "Frederick Haynes is a Dallas-area pastor and community organizer who won the Democratic primary for this open seat, framing his campaign as extending the legacy of the district's past representatives.",
+        "sources": ["s4"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "His campaign website lists economic security, environmental justice, and educational justice among his top issues, saying he would bring 'an outside vision' shaped by community organizing rather than lobbyist influence.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Lists environmental justice as a top campaign issue, framing it as confronting racism in environmental policy and practice.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "everett-jackson",
+      "name": "Everett Jackson",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the May 26, 2026 Republican primary runoff with 57.5% of the vote",
+      "summary": {
+        "text": "Everett Jackson is the Republican nominee for this open Dallas-area seat, having won a primary runoff in May 2026.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jasmine_Crockett",
+      "title": "Jasmine Crockett",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Everett_Jackson",
+      "title": "Everett Jackson",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.haynesforcongress.com/issues",
+      "title": "Issues — Haynes for Congress",
+      "publisher": "Haynes for Congress campaign website",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "No detailed biography or Candidate Connection survey was found for Frederick Haynes on Ballotpedia; his priorities and positions are drawn from his campaign website. No biography, campaign website content, or Candidate Connection survey was accessible for Everett Jackson at research time (his campaign site returned a bot-verification page); his entry is minimal."
+}
