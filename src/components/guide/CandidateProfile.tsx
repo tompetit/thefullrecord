@@ -182,11 +182,12 @@ export function CandidateProfile({
       )}
 
       {(c.stateVotes?.length ?? 0) > 0 && (
-        <Block title="Contested floor votes in Albany (2026 session)">
+        <Block title="Floor votes in Albany">
           <StateVoteList candidate={c} />
           <p className="mt-1.5 font-sans text-[11.5px] text-ink-45">
-            Roll calls where at least five members voted on the losing side, read from the
-            legislature&rsquo;s official records.
+            Votes on landmark laws since 2019, plus 2026 roll calls where at least five
+            members voted on the losing side — read from the legislature&rsquo;s official
+            records.
           </p>
         </Block>
       )}

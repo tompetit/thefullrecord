@@ -67,8 +67,13 @@ export default function MethodologyPage() {
             clean-energy credit repeal, and permanent 2017 tax rates) — the votes set
             the position, each linked to the official roll call. What the member
             says on the same issue is shown beneath it, flagged when it differs
-            from how they voted. For state legislators, contested floor votes are
-            read from the legislature&rsquo;s own records. A dash means no clear
+            from how they voted. For New York Assembly members, recorded votes on
+            landmark laws set positions the same way — the 2019 rent law (HSTPA), the
+            climate law (CLCPA), the red-flag and concealed-carry gun laws, the
+            Reproductive Health Act, the Protect Our Courts Act, and the 2021 tax
+            increase on high earners — read from the Assembly&rsquo;s official floor-vote
+            records. Challengers who held other office are shown with their votes
+            from those offices where official records were reachable. A dash means no clear
             public position was found — not that the
             candidate has none.
           </P>

@@ -44,6 +44,7 @@ export interface KeyVoteDef {
 interface Enrichment {
   finance: Record<string, Finance>;
   members: Record<string, { bioguideId: string; fecId?: string; keyVotes: KeyVote[] }>;
+  landmark: Record<string, Array<StateVote & { id: string }>>;
   stateVotes: Record<string, StateVote[]>;
 }
 
@@ -184,12 +185,57 @@ function addVotePositions(race: GuideRace, c: GuideCandidate) {
   }
 }
 
+/** Landmark Albany votes that squarely address an issue statement. */
+const NY_VOTE_ISSUES: Record<string, VoteIssue> = {
+  "nya-2019-S06458": { issue: "rent_regulation", yes: "supports" },
+  "nya-2019-S06599": { issue: "climate", yes: "supports" },
+  "nya-2019-S02451": { issue: "guns", yes: "supports" },
+  "nya-2021-S51001": { issue: "guns", yes: "supports" },
+  "nya-2019-S00240": { issue: "abortion", yes: "supports" },
+  "nya-2019-A02176": { issue: "immigration_enforcement", yes: "opposes" },
+  "nya-2021-S02509": { issue: "tax_wealthy", yes: "supports" },
+};
+
+/** Same precedence as congressional votes: recorded Albany votes outrank statements. */
+function addStateVotePositions(race: GuideRace, c: GuideCandidate, votes: Array<StateVote & { id: string }>) {
+  const byIssue = new Map<IssueKey, Array<{ stance: Stance; v: StateVote & { id: string } }>>();
+  for (const v of votes) {
+    const map = NY_VOTE_ISSUES[v.id];
+    if (!map || (v.vote !== "yes" && v.vote !== "no")) continue;
+    const stance: Stance = v.vote === "yes" ? map.yes : map.yes === "supports" ? "opposes" : "supports";
+    byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { stance, v }]);
+  }
+  for (const [issue, list] of byIssue) {
+    const sources = list.map(({ v }) => {
+      const id = `ny-${v.id}`;
+      if (!race.sources.some((s) => s.id === id))
+        race.sources.push({ id, url: v.sourceUrl, title: `Assembly floor vote: ${v.bill} — ${v.title}`, publisher: "New York State Assembly", kind: "official", date: v.date });
+      return id;
+    });
+    const stances = new Set(list.map((x) => x.stance));
+    const existing = c.positions.findIndex((p) => p.issue === issue);
+    const prior = existing >= 0 ? c.positions[existing] : undefined;
+    if (prior?.basis === "votes") continue;
+    const pos: Position = {
+      issue,
+      stance: stances.size === 1 ? list[0].stance : "mixed",
+      summary: list.map(({ v }) => `Voted ${v.vote} on ${v.bill} (${v.title}, ${v.date}): ${v.summary}`).join(" "),
+      sources,
+      basis: "votes",
+      ...(prior ? { stated: { stance: prior.stance, summary: prior.summary, quote: prior.quote, sources: prior.sources } } : {}),
+    };
+    if (existing >= 0) c.positions[existing] = pos;
+    else c.positions.push(pos);
+  }
+}
+
 function load(): Map<string, GuideRace> {
   if (races) return races;
   const enrich: Enrichment = {
     finance: readJson(join(GEN_DIR, "finance.json"), {}),
     members: readJson(join(GEN_DIR, "members.json"), {}),
     stateVotes: readJson(join(GEN_DIR, "state-votes.json"), {}),
+    landmark: readJson(join(GEN_DIR, "ny-landmark-votes.json"), {}),
   };
   const map = new Map<string, GuideRace>();
   let files: string[] = [];
@@ -204,7 +250,9 @@ function load(): Map<string, GuideRace> {
     for (const c of race.candidates) {
       const key = `${race.id}/${c.id}`;
       const sv = enrich.stateVotes[key];
-      if (sv) c.stateVotes = sv;
+      const lm = enrich.landmark[key];
+      if (sv || lm) c.stateVotes = [...(lm ?? []), ...(sv ?? [])];
+      if (lm) addStateVotePositions(race, c, lm);
       const fin = enrich.finance[key];
       if (fin) c.finance = fin;
       const mem = enrich.members[key];
