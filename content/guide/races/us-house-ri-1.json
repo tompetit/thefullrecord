@@ -1,0 +1,154 @@
+{
+  "id": "us-house-ri-1",
+  "state": "RI",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Rhode Island's 1st District",
+  "area": "Providence, Pawtucket, Central Falls, East Providence, Cranston (part), and Rhode Island's northeastern communities.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Gabe Amo (D) won the September 9, 2026 Democratic primary unopposed (52,446 votes). Kellie Keenan won the Republican primary unopposed. Pedro Soares de Souza is running as an independent; Wilfred Curioso (independent) did not make the ballot. Cook Political Report rates this district D+12.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "gabe-amo",
+      "name": "Gabe Amo",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Gabe Amo is the Democratic incumbent seeking re-election in Rhode Island's 1st District. He is a former Biden White House and Rhode Island state government official first elected to Congress in 2023.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Providence, Rhode Island, in 1987; graduated from Moses Brown School and earned a bachelor's degree in political science from Wheaton College.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as special assistant and deputy director of the White House Office of Intergovernmental Affairs under President Joe Biden.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a states-strategy and program advisor on Joe Biden's 2020 presidential campaign, and as director of public engagement and community affairs for then-Rhode Island Governor Gina Raimondo.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "For the 2025-2026 Congress, serves on the House Committee on Science, Space, and Technology, the House Committee on the Budget, and the House Committee on Foreign Affairs.",
+          "date": "2025",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "kellie-keenan",
+      "name": "Kellie Keenan",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Kellie Keenan is the Republican nominee for Rhode Island's 1st District. She is a public-health professional and small-business owner running on infrastructure and permitting reform, healthcare access, and lowering housing and energy costs.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Earned a high school diploma from Boston Latin School and an advanced certificate in public health management from Suffolk University.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Has worked more than a decade in healthcare and community health operations, including with Community Health Centers and federally funded programs.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Describes herself as a wife, mother of three daughters, and small business owner.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Infrastructure modernization and permitting reform, saying government red tape drives up costs and delays projects.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Strengthening Community Health Centers and expanding access to primary care and the healthcare workforce.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Lowering energy and housing costs through an \"all-of-the-above\" energy strategy and expanded housing development, particularly starter homes and small multifamily housing.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports permitting reform and reduced regulation to expand housing development, particularly starter homes and small multifamily housing.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will advocate for policies that strengthen Community Health Centers and expand access to affordable, high-quality primary care.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.keenanforcongress.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "pedro-soares-de-souza",
+      "name": "Pedro Soares de Souza",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Pedro Soares de Souza is an independent candidate running for Rhode Island's 1st District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or other public statements found for Pedro Soares de Souza beyond his listing as an independent general-election candidate."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Rhode_Island,_2026",
+      "title": "United States House of Representatives elections in Rhode Island, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Gabe_Amo",
+      "title": "Gabe Amo",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Kellie_Keenan",
+      "title": "Kellie Keenan",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-06-18"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03"
+}

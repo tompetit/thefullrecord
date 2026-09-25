@@ -1,0 +1,153 @@
+{
+  "id": "us-house-oh-13",
+  "state": "OH",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "13",
+  "title": "U.S. House · Ohio's 13th District",
+  "area": "Northeast Ohio, including Akron, Summit County and part of Stark County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Emilia Sykes (D) advanced unopposed from the May 5, 2026 Democratic primary. Carey Coleman won a five-way Republican primary. Sandeep Dixit is running as an independent and declared his candidacy for the general election.",
+      "sources": ["s3"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "emilia-sykes",
+      "name": "Emilia Sykes",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Emilia Sykes is the Democratic incumbent seeking re-election in Ohio's 13th Congressional District, which she has represented since 2023. She previously served in the Ohio House of Representatives, including as minority leader.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Born in Akron, Ohio; earned a bachelor's degree in psychology from Kent State University, and a juris doctor and master's degree in public health from the University of Florida.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as an administrative staff advisor with the Summit County Fiscal Office and as a law clerk to the chief justice of the U.S. Bankruptcy Court for the Northern District of Georgia.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supported Ohio Issue 1 (2023), the ballot measure establishing a state constitutional right to make reproductive decisions including abortion.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Transportation and Infrastructure and the House Committee on Science, Space, and Technology, including its Research and Technology Subcommittee (2023-2024).",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Supported Ohio Issue 1 (2023) establishing a state constitutional right to abortion, which voters approved, and opposed the August 2023 measure that would have raised the vote threshold to approve future constitutional amendments to 60%, which voters rejected.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "S001223"
+    },
+    {
+      "id": "carey-coleman",
+      "name": "Carey Coleman",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Carey Coleman is the Republican nominee for Ohio's 13th Congressional District. He has worked as a radio host on WNIR and as a television meteorologist.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Worked as a radio host on WNIR and as a television meteorologist.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "sandeep-dixit",
+      "name": "Sandeep Dixit",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Sandeep Dixit is an independent candidate for Ohio's 13th Congressional District. He is a mechanical engineer and co-founder of a software firm who describes himself as not a career politician.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Immigrated to the United States at age 21; earned a bachelor's degree in mechanical engineering (1989) and a master's in integrated manufacturing systems engineering from North Carolina State University (1991), and an MBA from Cleveland State University while working full time.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Co-founded a software firm with his wife in 1996; is active locally as a CERT member and board member of the Mayfield Village Parks and Recreation Department, and previously served as president of a national Indian-American organization with more than 500,000 members.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Proposes $500 million per congressional district in vocational training investment.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Proposes a basic health-care guarantee for working people.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Proposes eliminating taxes on Social Security benefits.",
+          "quote": "No tax on social security",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists a 'basic healthcare guarantee for working people' as one of his three key campaign messages.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Emilia_Sykes",
+      "title": "Emilia Sykes",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Carey_Coleman",
+      "title": "Carey Coleman",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Sandeep_Dixit",
+      "title": "Sandeep Dixit",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Coleman has not completed Ballotpedia's 2026 Candidate Connection survey and no campaign-website statement of issues was available via Ballotpedia, so his priorities and positions are omitted rather than inferred. Federal key votes and FEC finance totals for Sykes are added separately."
+}
