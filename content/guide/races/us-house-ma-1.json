@@ -1,0 +1,139 @@
+{
+  "id": "us-house-ma-1",
+  "state": "MA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Massachusetts's 1st District",
+  "area": "Western Massachusetts, including Springfield, Pittsfield, and the Berkshires",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Richard Neal defeated Jeromie Whalen, a Belchertown schoolteacher, in the September 1, 2026 Democratic primary, 55.2% to 44.8%. No Republican candidate appeared on the primary ballot.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "richard-neal",
+      "name": "Richard Neal",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2013); previously represented MA-2 (1989-2013)",
+      "summary": {
+        "text": "Neal is the incumbent, serving since 2013 (and MA's 2nd District from 1989-2013). He is the Ranking Member of the House Ways and Means Committee and previously served as Mayor of Springfield and a Springfield city councilman.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        { "text": "Received a bachelor's degree from American International College (1972) and a master's degree from the University of Hartford (1976).", "sources": ["s1"] },
+        { "text": "Worked as a staffer for Springfield Mayor William C. Sullivan, 1973-1978.", "sources": ["s1"] },
+        { "text": "Served as a Springfield City Councilmember (1978-1984) and Mayor of Springfield (1984-1988) before election to Congress.", "sources": ["s1"] }
+      ],
+      "priorities": [
+        { "text": "\"I've fought tirelessly for policies that make a difference for hard-working families and future generations: fairer taxes, affordable and accessible healthcare, taking on climate change, preserving Social Security, and more.\"", "sources": ["s1"] },
+        { "text": "Campaign statement: fighting \"back against Donald Trump and Republicans' reckless budget that slashes healthcare for working families to give tax breaks to the wealthy and add trillions to the deficit.\"", "sources": ["s1"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign describes fighting a Republican budget he says \"slashes healthcare for working families to give tax breaks to the wealthy.\"",
+          "quote": "fighting back against Donald Trump and Republicans' reckless budget that slashes healthcare for working families to give tax breaks to the wealthy and add trillions to the deficit",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign material frames his record as pursuing \"fairer taxes\" and opposing tax breaks for the wealthy.",
+          "sources": ["s1"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Cites \"taking on climate change\" among his record in Congress.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves as Ranking Member of the House Ways and Means Committee.",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Statement on House passage of a War Powers Resolution following U.S. strikes in Iran, saying Congress \"reminded the President and the nation who the power to declare war rests with.\"",
+          "date": "2026-06-03",
+          "kind": "action",
+          "sources": ["s4"]
+        }
+      ],
+      "website": "https://neal.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "N000015"
+    },
+    {
+      "id": "nadia-milleron",
+      "name": "Nadia Milleron",
+      "parties": ["Unenrolled"],
+      "incumbent": false,
+      "summary": {
+        "text": "Milleron is running as an unenrolled candidate. She holds a bachelor's degree from Smith College and a law degree from the University of Iowa, and has worked as an attorney and small business owner.",
+        "sources": ["s5"]
+      },
+      "background": [
+        { "text": "Earned a bachelor's degree from Smith College (1986) and a law degree from the University of Iowa (1994).", "sources": ["s5"] },
+        { "text": "Career experience includes working as an attorney and small business owner.", "sources": ["s5"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website statements or Ballotpedia Candidate Connection survey responses found beyond biographical details."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Massachusetts%27_1st_Congressional_District_election,_2026",
+      "title": "Massachusetts' 1st Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Nadia_Milleron",
+      "title": "Nadia Milleron",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://neal.house.gov",
+      "title": "Congressman Richard Neal - Home",
+      "publisher": "Office of Rep. Richard E. Neal",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Massachusetts%27_1st_Congressional_District_election,_2026",
+      "title": "Neal Statement on House Passage of War Powers Resolution (quoted via Ballotpedia)",
+      "publisher": "Richard Neal House website",
+      "kind": "candidate",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Nadia_Milleron",
+      "title": "Nadia Milleron biography",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Rep. Neal's key floor votes and FEC finance totals are added separately by script."
+}

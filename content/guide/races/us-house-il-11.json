@@ -1,0 +1,157 @@
+{
+  "id": "us-house-il-11",
+  "state": "IL",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "11",
+  "title": "U.S. House · Illinois's 11th District",
+  "area": "A sprawling district stretching from Chicago's southwest suburbs through Aurora, Joliet and Naperville to Bloomington in central Illinois.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Bill Foster ran unopposed in the March 17, 2026 Democratic primary. Jeffrey Walter defeated Tedora Brown, Charlie Kim and Mike Pierce in the Republican primary. Ballotpedia calculated the district's Cook Partisan Voter Index as D+6, based on the 2020 and 2024 presidential elections.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "bill-foster",
+      "name": "Bill Foster",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2013; also served 2008-2011)",
+      "summary": {
+        "text": "Bill Foster is the Democratic incumbent seeking re-election to Illinois's 11th District. A physicist and former particle-accelerator designer at Fermilab, he has represented the district since 2013 and serves on the House Financial Services Committee.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        {
+          "text": "Graduated from the University of Wisconsin and received a doctorate in physics from Harvard University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a high-energy physicist and particle-accelerator designer at Fermi National Accelerator Laboratory (Fermilab) from 1990 to 2006, and co-founded the company Electronic Theatre Controls.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Previously represented Illinois's 14th District in Congress from 2008 to 2011, before being elected to the newly drawn 11th District in 2012.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says every individual should have the right to live free from discrimination, a priority he traces to his father's work as a civil rights lawyer who wrote much of the Civil Rights Act of 1964's enforcement language.",
+          "quote": "As the son of a Civil Rights lawyer who wrote much of the enforcement language of the Civil Rights Act of 1964, this issue is a top priority for me.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Supports workers' right to collectively bargain and says he will oppose federal efforts to weaken organizing rights.",
+          "quote": "I proudly support the rights of workers to collectively bargain for better wages and better benefits, and I am proud that Illinois became the first state to protect those rights in our state's constitution.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Supports Israel's right to defend itself while saying it must act in accordance with the rules of war, and calls for more support for civilians harmed on both sides of the conflict.",
+          "quote": "I support Israel's right to defend itself from heinous terrorism that endangers innocent civilians, but they must do so in accordance with the rules of war that democracies must strive to follow.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Financial Services and the Committee on Science, Space, and Technology in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://foster.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "F000454"
+    },
+    {
+      "id": "jeffrey-walter",
+      "name": "Jeffrey Walter",
+      "parties": ["R"],
+      "incumbent": false,
+      "currentRole": "Mayor of Elburn, Illinois",
+      "summary": {
+        "text": "Jeffrey Walter is the Republican nominee for Illinois's 11th District, a retired U.S. Navy Master Chief Petty Officer and mayor of Elburn who won the March 2026 Republican primary.",
+        "sources": ["s1", "s4"]
+      },
+      "background": [
+        {
+          "text": "Retired as a U.S. Navy Master Chief Petty Officer (E-9) after more than three decades of service.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Worked as a senior manager at Accenture, leading over $36 million in IT programs including generative-AI proof-of-concepts and cloud and data migrations in healthcare and telecommunications.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Currently serves as Mayor of Elburn, Illinois, where he says he has championed smart growth, infrastructure investment and public safety.",
+          "sources": ["s4"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Points to his record as mayor of modernizing infrastructure, balancing budgets and strengthening public safety in Elburn as evidence of results-driven leadership.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says he brings a practical, centrist approach to fiscal responsibility, low taxes and strategic growth for the district.",
+          "quote": "I bring practical, centrist leadership to Illinois' diverse 11th District, blending suburban prosperity, farmland, and tech innovation. I am committed to fiscal responsibility, low taxes, and strategic growth—focusing on what works, not politics.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says he is committed to fiscal responsibility and low taxes.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Illinois%27_11th_Congressional_District_election,_2026",
+      "title": "Illinois' 11th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Bill_Foster_(Illinois)",
+      "title": "Bill Foster (Illinois)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://foster.house.gov/issues",
+      "title": "Issues",
+      "publisher": "Office of Rep. Bill Foster",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Illinois%27_11th_Congressional_District_election,_2026",
+      "title": "Jeffrey Walter Candidate Connection survey response",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Foster's federal key floor votes and FEC finance totals are added separately by script."
+}

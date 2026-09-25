@@ -1,0 +1,189 @@
+{
+  "id": "us-house-ca-16",
+  "state": "CA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "16",
+  "title": "U.S. House · California's 16th Congressional District",
+  "area": "Santa Clara County, centered on San Jose.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "This district's boundaries changed under California Proposition 50, the mid-decade congressional redistricting measure voters approved in November 2025. Incumbent Sam Liccardo and Republican Peter Soule advanced from the June 2, 2026 top-two primary, defeating Kevin Johnson and Jotham Stein.",
+      "sources": ["s1", "s2"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sam-liccardo",
+      "name": "Sam Liccardo",
+      "parties": ["D"],
+      "incumbent": true,
+      "ballotNote": "Won the June 2, 2026 top-two primary with about 76% of the vote.",
+      "currentRole": "U.S. Representative for California's 16th Congressional District (since 2025); previously Mayor of San Jose (2015-2023)",
+      "summary": {
+        "text": "Sam Liccardo is the Democratic incumbent representing California's 16th Congressional District, centered on San Jose. A former prosecutor, San Jose City Council member, and mayor of San Jose, he was elected to Congress in 2024 and has focused on housing legislation as a freshman member.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Grew up in San Jose, California. Earned a bachelor's degree from Georgetown University, a master's degree in public policy from Harvard University, and a law degree from Harvard Law School.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as a prosecutor of sexual assault and child exploitation crimes in the Santa Clara County District Attorney's Office and as a federal prosecutor.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the San Jose City Council before being elected mayor of San Jose, serving from 2015 to 2023.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign site lists making housing more affordable, reducing the cost of living, and protecting rights and democracy as his core priorities.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Launched \"Innovation for Good\" (I4G), an effort he describes as building a pragmatic, pro-innovation Democratic majority in Congress by leveraging technology to address national challenges.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Led or co-led four bills included in the 21st Century ROAD to Housing Act, which his office describes as the most significant federal housing reform package in more than 30 years, including the BUILD Housing Act and the Unlocking Housing Supply Through Streamlined and Modernized Reviews Act.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Authored the BUILD Housing Act, the Unlocking Housing Supply Through Streamlined and Modernized Reviews Act, the RESIDE Act, and the Property Improvement and Manufactured Housing Loan Modernization Act, all included in the 21st Century ROAD to Housing Act that became law on July 13, 2026.",
+          "date": "2026-07-13",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Introduced the bipartisan Payments Access and Consumer Efficiency (PACE) Act with Rep. Young Kim (R-CA) to modernize payment-processing access and reduce consumer fees.",
+          "date": "2026-04-21",
+          "kind": "bill",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Assigned to the House Committee on Financial Services in the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served on the San Jose City Council and as mayor of San Jose from 2015 to 2023.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://samliccardo.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "peter-soule",
+      "name": "Peter Soule",
+      "parties": ["R"],
+      "incumbent": false,
+      "ballotNote": "Won the June 2, 2026 top-two primary with about 11% of the vote.",
+      "summary": {
+        "text": "Peter Soule is a Republican candidate for California's 16th Congressional District, campaigning on public safety, reducing state regulation, lowering housing and energy costs, and immigration enforcement.",
+        "sources": ["s5"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from the University of California, Santa Barbara, and a graduate degree from Golden Gate University.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he will advocate for withholding federal funds from cities with sanctuary-city policies and for removing federal highway funds from states that issue commercial driver's licenses to people who cannot read English.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says he will work to lower the cost of water for farmers by reforming the federal Endangered Species Act and increasing water storage capacity, and to make energy more affordable by easing restrictions on oil drilling and refineries in California.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says he will work to reduce housing costs by banning large financial institutions from buying single-family homes and shielding Baby Boomers who sell homes from capital gains tax.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he will advocate for withholding federal dollars from cities that enforce sanctuary-city policies that prevent the deportation of people in the country illegally who commit crimes.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he will oppose local policies that limit Second Amendment rights.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "mixed",
+          "summary": "Proposes banning large financial institutions from buying single-family homes and shielding home-selling retirees from capital gains tax, rather than proposals to loosen zoning or increase construction directly.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says he will work to enact federal policies protecting parental rights and enabling parents to send children to a school of their choice.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "website": "https://souleforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_California,_2026",
+      "title": "United States House of Representatives elections in California, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Sam_Liccardo",
+      "title": "Sam Liccardo",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://samliccardo.com/",
+      "title": "samliccardo.com",
+      "publisher": "Sam Liccardo for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://liccardo.house.gov/issues/lowering-costs",
+      "title": "Lowering Costs",
+      "publisher": "Office of Rep. Sam Liccardo",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://souleforcongress.com/issues",
+      "title": "Issues That Matter",
+      "publisher": "Peter Soule for Congress campaign website",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03"
+}

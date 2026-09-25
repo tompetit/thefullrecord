@@ -1,0 +1,134 @@
+{
+  "id": "us-house-ky-2",
+  "state": "KY",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Kentucky's 2nd District",
+  "area": "South-central Kentucky, including Bowling Green, Owensboro and Elizabethtown.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [],
+  "candidates": [
+    {
+      "id": "brett-guthrie",
+      "name": "Brett Guthrie",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the May 19, 2026 Republican primary.",
+      "currentRole": "U.S. Representative, Kentucky's 2nd District (since 2009); Chair, House Committee on Energy and Commerce",
+      "summary": {
+        "text": "Brett Guthrie is the Republican incumbent for Kentucky's 2nd Congressional District, first elected in 2008. He chairs the House Committee on Energy and Commerce and previously served in the Kentucky State Senate.",
+        "sources": ["s1"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in economics from the U.S. Military Academy at West Point in 1987 and a master's degree in Public and Private Management from Yale University in 1997.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the U.S. Army from 1987 to 1990 and the U.S. Army Reserve from 1990 to 2002.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Served in the Kentucky State Senate from 1999 to 2008 before his election to Congress.",
+          "sources": ["s1"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Chairs the House Committee on Energy and Commerce (119th Congress, 2025-2026).",
+          "kind": "action",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Chaired the Energy and Commerce Subcommittee on Health in the 118th Congress (2023-2024) before becoming full committee chair.",
+          "kind": "action",
+          "sources": ["s1"]
+        }
+      ],
+      "website": "https://guthrie.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "G000558"
+    },
+    {
+      "id": "megan-wingfield",
+      "name": "Megan Wingfield",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 19, 2026 Democratic primary with 40.7% of the vote, defeating Hank Linderman, David Hatfield and William Compton.",
+      "summary": {
+        "text": "Megan Wingfield is a mechanic from Bowling Green, Kentucky, running as the Democratic nominee. Her campaign describes her as \"fighting for working families, affordable healthcare, and a future where every Kentucky family has a fair shot, not just the wealthy and politically connected.\"",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Graduated from Southcentral Kentucky Community and Technical College (SKYCTC) with a degree in Automotive Technology and worked as a mechanic.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaigns on affordable healthcare and support for working families.",
+          "sources": ["s2"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaigns for affordable healthcare access as a central issue.",
+          "sources": ["s2"]
+        }
+      ],
+      "record": [],
+      "website": "https://meganwingfieldforcongress.com",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "thomas-loecken",
+      "name": "Thomas Loecken",
+      "parties": ["IND"],
+      "incumbent": false,
+      "summary": {
+        "text": "Thomas Loecken is an independent candidate for Kentucky's 2nd Congressional District. No campaign website, public statements, or biographical profile were found for this candidate.",
+        "sources": ["s3"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Brett_Guthrie",
+      "title": "Brett Guthrie",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://meganwingfieldforcongress.com/",
+      "title": "Megan Wingfield for Congress | Kentucky's 2nd District",
+      "publisher": "Megan Wingfield campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Kentucky%27s_2nd_Congressional_District_election,_2026",
+      "title": "Kentucky's 2nd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Guthrie's federal key floor votes and FEC finance totals are added separately by script. No detailed issue-by-issue positions with direct quotes were found for Wingfield beyond her campaign site's general framing. No public information beyond his name on the ballot was found for independent candidate Thomas Loecken."
+}
