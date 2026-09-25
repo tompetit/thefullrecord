@@ -39,8 +39,32 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists reducing federal debt and spending, entitlement reform, and \"pro-growth tax reforms and permanent tax reductions\" as priorities under a platform of fiscal responsibility.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Says maintaining U.S. military strength, including investment in \"air, land, sea, nuclear and cyber warfare,\" is a governing priority.",
+          "sources": ["s7"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Touted a year of sustained immigration enforcement, including hundreds of thousands of deportations and increased border-security resources, as a governing achievement.",
+          "quote": "Sustained deterrence and enforcement have held for a full year: Border crossings down 93% year-over-year . For seven consecutive months, from May to November, ZERO illegal aliens were released into the country.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Spoke at the March for Life, calling it a historic moment for the anti-abortion movement and pointing to \"pro-life victories\" since the overturning of Roe v. Wade.",
+          "quote": "This moment is truly a historic one for the pro-life movement, and you all know that. For the first time since Roe v. Wade was reversed, we have the White House, the Senate, and the House all working together to deliver meaningful and historic pro-life victories.",
+          "sources": ["s8"]
+        }
+      ],
       "record": [
         {
           "text": "Serves as Speaker of the U.S. House of Representatives (since October 2023), responsible for setting the chamber's legislative agenda.",
@@ -54,7 +78,7 @@
         }
       ],
       "website": "https://mikejohnson.house.gov",
-      "researchDepth": "basic"
+      "researchDepth": "full"
     },
     {
       "id": "conrad-cable",

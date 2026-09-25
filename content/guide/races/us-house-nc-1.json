@@ -57,8 +57,48 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Congressman Davis' top priority in Congress is expanding access to affordable health care because he knows it is vital to keeping rural hospitals open, making health care accessible to those who need it most, and improving treatment for victims of addiction.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "As the Vice Ranking Member of the House Committee on Agriculture, Congressman Davis is fighting for fair and just policies and investments that promote equity and accommodate the diversity of the district's agricultural products.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Cosponsor of the COVER Now Act to help states expand Medicaid, and relaunched the State Medicaid Expansion Caucus to close the Medicaid coverage gap.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "Spoke on the House floor against a presidential proclamation waiving tariffs on imported beef, saying it would flood the market and hurt domestic cattle producers.",
+          "quote": "Family farmers should not have to compete against a surge of foreign beef that could pressure domestic markets and threaten their livelihoods.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Led legislation, the Reverse Big Ugly Tax Breaks for Data Centers Act, to end tax breaks that data center and Big Tech companies received under the 2025 reconciliation law.",
+          "quote": "Washington is giving handouts to Big Tech companies while American families are drowning",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves as ranking member of the House Agriculture Committee's Subcommittee on Commodity Markets, Digital Assets, and Rural Development, and as vice ranking member of the House Armed Services Committee, also sitting on its Readiness and Tactical Air and Land Forces subcommittees.",
@@ -67,11 +107,19 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Introduced H.R. 10448, the Reverse Big Ugly Tax Breaks for Data Centers Act, to exclude data centers from bonus depreciation and Opportunity Zone tax breaks created by the One Big Beautiful Bill Act.",
+          "date": "2026-09-17",
+          "kind": "bill",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "website": "https://dondavisforcongress.com/",
       "researchDepth": "basic",
-      "researchNotes": "Federal key votes and FEC totals for this sitting member of Congress are added separately. No specific 2026 campaign priorities or issue statements were located within the research budget; his House committee page's issue-area content did not load."
+      "researchNotes": "Federal key votes and FEC totals for this sitting member of Congress are added separately. His house.gov issues pages (health care, jobs/economy, agriculture, education, veterans) and press releases were reviewed; no statements were found directly addressing abortion, guns, immigration enforcement, climate, or Israel aid specific enough to meet the sourcing standard."
     },
     {
       "id": "laurie-buckhout",
@@ -252,6 +300,36 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s7",
+      "url": "https://dondavis.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Don Davis",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://dondavis.house.gov/media/press-releases/congressman-davis-stands-eastern-north-carolina-cattle-producers-amid-federal",
+      "title": "Congressman Davis Stands with Eastern North Carolina Cattle Producers Amid Federal Move to Expand Foreign Beef Imports",
+      "publisher": "Office of Rep. Don Davis",
+      "kind": "candidate",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "s9",
+      "url": "https://dondavis.house.gov/media/press-releases/reps-davis-mcdonald-rivet-lead-new-push-stop-tax-giveaways-data-centers",
+      "title": "Reps. Davis, McDonald Rivet Lead New Push to Stop Tax Giveaways for Data Centers",
+      "publisher": "Office of Rep. Don Davis",
+      "kind": "candidate",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "s10",
+      "url": "https://dondavis.house.gov/issues/agriculture",
+      "title": "Agriculture",
+      "publisher": "Office of Rep. Don Davis",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

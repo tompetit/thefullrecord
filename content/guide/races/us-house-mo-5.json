@@ -52,8 +52,40 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says the country needs to invest in clean-energy technologies such as solar, wind, geothermal and hydropower as part of a long-term energy strategy, and has continually supported the Low Income Home Energy Assistance Program (LIHEAP).",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says Congress should focus on rebuilding an economy that works for everyone, including investments in job creation and education, rather than cuts to programs supporting struggling families.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports investing in clean, renewable energy technologies as part of the nation's energy strategy.",
+          "quote": "We must invest in clean-energy generating technologies such as solar, wind, geothermal and hydropower as part of a long-term, ecologically sound energy strategy.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports raising the federal minimum wage and tying it to inflation.",
+          "quote": "We need to raise the minimum wage and tie it to inflation so that a family breadwinner's pay keeps up with the rising costs of housing and other basic needs.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Financial Services in the 119th Congress (2025-2026); previously served as Ranking Member of its Housing and Insurance Subcommittee (2023-2024).",
@@ -66,7 +98,7 @@
       "website": "https://cleaver.house.gov",
       "researchDepth": "basic",
       "bioguideId": "C001061",
-      "researchNotes": "Cleaver ran unopposed in the Democratic primary; no 2026 Ballotpedia Candidate Connection survey or distinct campaign-website issues content was located in this pass. Key floor votes and FEC finance totals are added separately by script."
+      "researchNotes": "Cleaver ran unopposed in the Democratic primary; no 2026 Ballotpedia Candidate Connection survey was located. His official House issues subpages (energy, economy and jobs, financial services, foreign affairs, agriculture, education) were fetched directly; most content is several years old and largely does not address the guide's 15 issue statements directly, apart from the energy and minimum-wage positions above. Key floor votes and FEC finance totals are added separately by script."
     },
     {
       "id": "rick-brattin",
@@ -204,6 +236,20 @@
       "publisher": "Rick Brattin campaign website (via Ballotpedia)",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s4",
+      "url": "https://cleaver.house.gov/issues/energy",
+      "title": "Energy",
+      "publisher": "Office of Congressman Emanuel Cleaver",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://cleaver.house.gov/issues/economy-and-jobs",
+      "title": "Economy and Jobs",
+      "publisher": "Office of Congressman Emanuel Cleaver",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
