@@ -45,6 +45,7 @@ interface Enrichment {
   finance: Record<string, Finance>;
   members: Record<string, { bioguideId: string; fecId?: string; keyVotes: KeyVote[] }>;
   landmark: Record<string, Array<StateVote & { id: string }>>;
+  senateLandmark: Record<string, Array<StateVote & { id: string }>>;
   stateVotes: Record<string, StateVote[]>;
 }
 
@@ -194,12 +195,30 @@ const NY_VOTE_ISSUES: Record<string, VoteIssue> = {
   "nya-2019-S00240": { issue: "abortion", yes: "supports" },
   "nya-2019-A02176": { issue: "immigration_enforcement", yes: "opposes" },
   "nya-2021-S02509": { issue: "tax_wealthy", yes: "supports" },
+  "nys-2019-S6458": { issue: "rent_regulation", yes: "supports" },
+  "nys-2019-S6599": { issue: "climate", yes: "supports" },
+  "nys-2019-S2451": { issue: "guns", yes: "supports" },
+  "nys-2021-S51001": { issue: "guns", yes: "supports" },
+  "nys-2019-S240": { issue: "abortion", yes: "supports" },
+  "nys-2019-S425": { issue: "immigration_enforcement", yes: "opposes" },
+  "nys-2021-S2509": { issue: "tax_wealthy", yes: "supports" },
+};
+
+const NY_LANDMARK_SUMMARY: Record<string, string> = {
+  S6458: "Made rent regulation permanent, ended vacancy decontrol and the vacancy bonus, and limited rent increases for major capital improvements.",
+  S6599: "Set statewide targets of 70% renewable electricity by 2030 and an 85% cut in greenhouse-gas emissions by 2050.",
+  S2451: "Allows courts to temporarily bar people found to pose a danger to themselves or others from possessing firearms.",
+  S240: "Moved abortion from the penal code to the public-health law and protected access to abortion under state law.",
+  S425: "Bars federal civil immigration arrests of people going to, attending, or leaving New York courthouses without a judicial warrant.",
+  S51001: "Enacted after the Bruen decision: added training and character requirements for carry permits and barred guns in designated sensitive places.",
+  S2509: "Raised personal income tax rates on incomes above $1 million and raised the corporate franchise tax rate on large businesses, among other revenue measures.",
 };
 
 /** Same precedence as congressional votes: recorded Albany votes outrank statements. */
 function addStateVotePositions(race: GuideRace, c: GuideCandidate, votes: Array<StateVote & { id: string }>) {
   const byIssue = new Map<IssueKey, Array<{ stance: Stance; v: StateVote & { id: string } }>>();
   for (const v of votes) {
+    v.summary ??= NY_LANDMARK_SUMMARY[v.bill.replace(/-[A-Z]$/, "")];
     const map = NY_VOTE_ISSUES[v.id];
     if (!map || (v.vote !== "yes" && v.vote !== "no")) continue;
     const stance: Stance = v.vote === "yes" ? map.yes : map.yes === "supports" ? "opposes" : "supports";
@@ -209,7 +228,7 @@ function addStateVotePositions(race: GuideRace, c: GuideCandidate, votes: Array<
     const sources = list.map(({ v }) => {
       const id = `ny-${v.id}`;
       if (!race.sources.some((s) => s.id === id))
-        race.sources.push({ id, url: v.sourceUrl, title: `Assembly floor vote: ${v.bill} — ${v.title}`, publisher: "New York State Assembly", kind: "official", date: v.date });
+        race.sources.push({ id, url: v.sourceUrl, title: `${v.chamber === "senate" ? "Senate" : "Assembly"} floor vote: ${v.bill} — ${v.title}`, publisher: v.chamber === "senate" ? "New York State Senate" : "New York State Assembly", kind: "official", date: v.date });
       return id;
     });
     const stances = new Set(list.map((x) => x.stance));
@@ -219,7 +238,7 @@ function addStateVotePositions(race: GuideRace, c: GuideCandidate, votes: Array<
     const pos: Position = {
       issue,
       stance: stances.size === 1 ? list[0].stance : "mixed",
-      summary: list.map(({ v }) => `Voted ${v.vote} on ${v.bill} (${v.title}, ${v.date}): ${v.summary}`).join(" "),
+      summary: list.map(({ v }) => `Voted ${v.vote} on ${v.bill} (${v.title}, ${v.date})${v.summary ? `: ${v.summary}` : "."}`).join(" "),
       sources,
       basis: "votes",
       ...(prior ? { stated: { stance: prior.stance, summary: prior.summary, quote: prior.quote, sources: prior.sources } } : {}),
@@ -235,7 +254,10 @@ function load(): Map<string, GuideRace> {
     finance: readJson(join(GEN_DIR, "finance.json"), {}),
     members: readJson(join(GEN_DIR, "members.json"), {}),
     stateVotes: readJson(join(GEN_DIR, "state-votes.json"), {}),
-    landmark: readJson(join(GEN_DIR, "ny-landmark-votes.json"), {}),
+    landmark: {
+      ...readJson(join(GEN_DIR, "ny-landmark-votes.json"), {}),
+    },
+    senateLandmark: readJson(join(ROOT, "ny-senate-landmark.json"), {}),
   };
   const map = new Map<string, GuideRace>();
   let files: string[] = [];
@@ -250,7 +272,8 @@ function load(): Map<string, GuideRace> {
     for (const c of race.candidates) {
       const key = `${race.id}/${c.id}`;
       const sv = enrich.stateVotes[key];
-      const lm = enrich.landmark[key];
+      const lmList = [...(enrich.landmark[key] ?? []), ...(enrich.senateLandmark[key] ?? [])];
+      const lm = lmList.length ? lmList : undefined;
       if (sv || lm) c.stateVotes = [...(lm ?? []), ...(sv ?? [])];
       if (lm) addStateVotePositions(race, c, lm);
       const fin = enrich.finance[key];
