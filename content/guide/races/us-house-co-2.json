@@ -11,68 +11,121 @@
   "context": [
     {
       "text": "Incumbent Joe Neguse advanced unopposed from the Democratic primary. Kelley Dennison defeated Christina Blunt in the Republican primary. This seat is a Democratic stronghold.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "joe-neguse",
       "name": "Joe Neguse",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the June 30, 2026 Democratic primary, unopposed",
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
         "text": "Joe Neguse is the Democratic incumbent representing Colorado's 2nd Congressional District, first elected in 2018. He serves as House Democratic Assistant Leader and previously served on the University of Colorado Board of Regents.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
-        { "text": "Earned a bachelor's degree and a law degree from the University of Colorado.", "sources": ["s2"] },
-        { "text": "Co-founded New Era Colorado, a youth civic-engagement organization.", "sources": ["s2"] },
-        { "text": "Elected to the University of Colorado Board of Regents (2008-2014).", "sources": ["s2"] },
-        { "text": "Appointed executive director of Colorado's Department of Regulatory Agencies (2015-2017).", "sources": ["s2"] }
+        {
+          "text": "Earned a bachelor's degree and a law degree from the University of Colorado.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Co-founded New Era Colorado, a youth civic-engagement organization.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Elected to the University of Colorado Board of Regents (2008-2014).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Appointed executive director of Colorado's Department of Regulatory Agencies (2015-2017).",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Gun violence prevention, as Vice Chair of the House Gun Violence Prevention Task Force, including calling for reinstating a federal assault weapons ban.", "sources": ["s4"] },
-        { "text": "Climate action and public-lands conservation, as a member of the (former) House Select Committee on the Climate Crisis and the House Natural Resources Committee.", "sources": ["s6"] },
-        { "text": "Expanding public health coverage, as a sponsor of the Medicare for All Act and Vice Chair of the Medicare for All Caucus, including a proposal to lower the Medicare eligibility age to 60.", "sources": ["s5"] }
+        {
+          "text": "Gun violence prevention, as Vice Chair of the House Gun Violence Prevention Task Force, including calling for reinstating a federal assault weapons ban.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Climate action and public-lands conservation, as a member of the (former) House Select Committee on the Climate Crisis and the House Natural Resources Committee.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Expanding public health coverage, as a sponsor of the Medicare for All Act and Vice Chair of the Medicare for All Caucus, including a proposal to lower the Medicare eligibility age to 60.",
+          "sources": [
+            "s5"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "Has called for reinstating a federal assault weapons ban and is a cosponsor of the Bipartisan Background Checks Act, the Enhanced Background Checks Act (closing the \"Charleston loophole\"), an assault weapons ban bill, and a red-flag-law bill allowing courts to temporarily bar at-risk individuals from possessing firearms.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Is a sponsor of the Medicare for All Act and Vice Chair of the Medicare for All Caucus, and has proposed lowering the Medicare eligibility age to 60.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Has served on the House Select Committee on the Climate Crisis and introduced multiple bills addressing climate change and clean energy, including the SOLAR Edge Act to incentivize residential solar installation and the 21st Century Conservation Corps Act.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Returned to federal court with colleagues after the Trump-Vance administration re-imposed a policy blocking unannounced congressional oversight of immigration detention facilities, and has previously called for ending contracts with private immigration detention centers and supported sanctuary families facing removal.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Natural Resources (Federal Lands Subcommittee), Committee on Judiciary, and Committee on Rules in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected House Democratic Assistant Leader.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://neguse.house.gov/",
@@ -82,30 +135,55 @@
     {
       "id": "kelley-dennison",
       "name": "Kelley Dennison",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 30, 2026 Republican primary",
       "summary": {
         "text": "Kelley Dennison is the Republican nominee for Colorado's 2nd Congressional District. She is a Colorado native and small-business owner who describes her platform as focused on affordability, environmental stewardship of Colorado's headwaters, and pro-family policy.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
-        { "text": "Earned a high school diploma from Estes Park High School.", "sources": ["s3"] },
-        { "text": "Graduated from the Academy of Natural Therapy in 2023.", "sources": ["s3"] },
-        { "text": "Career experience includes working as a massage therapist and business owner.", "sources": ["s3"] }
+        {
+          "text": "Earned a high school diploma from Estes Park High School.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Graduated from the Academy of Natural Therapy in 2023.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Career experience includes working as a massage therapist and business owner.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Economic affordability: cites rising housing costs, gas, inflation and property taxes, and proposes strengthening small businesses and easing barriers to home ownership.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Environmental stewardship of Colorado's headwaters, rivers and forests, favoring 'responsible' land use and locally rooted stewardship over what she calls top-down mandates.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Pro-family policy, including protecting parental rights in education and health care decisions and support for veterans and seniors.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -113,13 +191,17 @@
           "issue": "housing_supply",
           "stance": "mixed",
           "summary": "Calls for making it easier for families to afford homes while also favoring 'responsible' economic growth and locally-rooted land-use policy rather than top-down mandates.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "school_choice",
           "stance": "supports",
           "summary": "Lists 'parental rights in education' as a passion area, favoring parents as informed and empowered partners in children's education decisions.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -129,11 +211,15 @@
     {
       "id": "gaylon-kent",
       "name": "Gaylon Kent",
-      "parties": ["L"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Gaylon Kent is running in the general election for U.S. House Colorado District 2 on the Libertarian Party ballot line.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -144,13 +230,59 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026", "title": "United States House of Representatives elections in Colorado, 2026", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s2", "url": "https://ballotpedia.org/Joe_Neguse", "title": "Joe Neguse", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s3", "url": "https://ballotpedia.org/Kelley_Dennison", "title": "Ballotpedia Candidate Connection survey response, Kelley Dennison", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" },
-    { "id": "s4", "url": "https://neguse.house.gov/about/priorities/gun-violence-prevention", "title": "Gun Violence Prevention", "publisher": "Office of Rep. Joe Neguse", "kind": "official", "date": "2026-09-25" },
-    { "id": "s5", "url": "https://neguse.house.gov/about/priorities/healthcare", "title": "Healthcare", "publisher": "Office of Rep. Joe Neguse", "kind": "official", "date": "2026-09-25" },
-    { "id": "s6", "url": "https://neguse.house.gov/about/priorities/climate-action", "title": "Climate Action", "publisher": "Office of Rep. Joe Neguse", "kind": "official", "date": "2026-09-25" },
-    { "id": "s7", "url": "https://neguse.house.gov/about/priorities/immigration", "title": "Immigration", "publisher": "Office of Rep. Joe Neguse", "kind": "official", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026",
+      "title": "United States House of Representatives elections in Colorado, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Joe_Neguse",
+      "title": "Joe Neguse",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Kelley_Dennison",
+      "title": "Ballotpedia Candidate Connection survey response, Kelley Dennison",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://neguse.house.gov/about/priorities/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Joe Neguse",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://neguse.house.gov/about/priorities/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Joe Neguse",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://neguse.house.gov/about/priorities/climate-action",
+      "title": "Climate Action",
+      "publisher": "Office of Rep. Joe Neguse",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://neguse.house.gov/about/priorities/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Joe Neguse",
+      "kind": "official",
+      "date": "2026-09-25"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Federal key votes and FEC finance totals for incumbent Neguse are added separately by script. Gaylon Kent (Libertarian) has no discoverable public statements beyond the Ballotpedia ballot listing."

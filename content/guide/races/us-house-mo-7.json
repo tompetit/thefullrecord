@@ -11,28 +11,39 @@
   "context": [
     {
       "text": "Incumbent Eric Burlison won the August 4, 2026 Republican primary over John Casey and Grayson Hunt. Missi Hesketh ran unopposed in the Democratic primary. Kevin Craig advanced unopposed in the Libertarian primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "eric-burlison",
       "name": "Eric Burlison",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Eric Burlison is the incumbent Republican U.S. Representative for Missouri's 7th District. A former Missouri state senator who worked as an investment advisor and software consultant, he previously served on the House Oversight, Transportation and Infrastructure, and Education and the Workforce committees.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Springfield, Missouri; earned a bachelor's degree and an MBA from Missouri State University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an investment advisor and software consultant before serving in the Missouri House and Missouri Senate.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -41,7 +52,9 @@
         {
           "text": "Served on the House Committee on Oversight and Government Reform, the Committee on Transportation and Infrastructure, and the Committee on Education and the Workforce during the 2023-2024 session (118th Congress).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://burlison.house.gov",
@@ -52,35 +65,50 @@
     {
       "id": "missi-hesketh",
       "name": "Missi Hesketh",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Ran unopposed in the August 4, 2026 Democratic primary",
       "summary": {
         "text": "Missi Hesketh is the Democratic nominee for Missouri's 7th District. A former alderwoman and mayor of Forsyth, Missouri, with a career in education, she is campaigning on restoring accountability and \"decency and decorum\" to Congress.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Moved to Forsyth, Missouri, with her family in 1983; worked in food service, clerical and finance jobs before earning degrees in business administration, elementary education, gifted education, and special education and assessment.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served the city of Forsyth as alderwoman and later as mayor, focusing on recreation and ecotourism, communications and transparency, and enforcement against nuisance and dangerous buildings.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she wants to \"end the division\" in Congress and restore transparency, honesty and integrity, holding public town halls and representing all constituents regardless of party.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Healthcare: says the healthcare system is broken and calls for caps on services, prescriptions and premiums.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Social Security: wants to ensure Social Security stays solvent so future retirees do not face benefit cuts.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -88,19 +116,25 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says she wants to \"codify Roe\" and give women and their partners autonomy over reproductive decisions.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Calls for caps on healthcare services, prescriptions and premiums, saying the current system is broken.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Says protecting water, air and soil is essential to the region's ecotourism and farming industries.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -110,12 +144,16 @@
     {
       "id": "kevin-craig",
       "name": "Kevin Craig",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced unopposed in the August 4, 2026 Libertarian primary",
       "summary": {
         "text": "Kevin Craig is the Libertarian Party nominee for Missouri's 7th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -126,11 +164,31 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026", "title": "United States House of Representatives elections in Missouri, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Eric_Burlison", "title": "Eric Burlison", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Missi_Hesketh", "title": "Missi Hesketh - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2025" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+      "title": "United States House of Representatives elections in Missouri, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Eric_Burlison",
+      "title": "Eric Burlison",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Missi_Hesketh",
+      "title": "Missi Hesketh - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2025"
+    }
   ],
   "researchedAt": "2026-09-25",
-  "electionDate": "2026-11-03",
   "researchNotes": "Basic-tier research from Ballotpedia and the challenger's Ballotpedia survey. Key floor votes and FEC finance totals for Burlison are added separately by script."
 }

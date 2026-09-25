@@ -11,29 +11,47 @@
   "context": [
     {
       "text": "Incumbent Lauren Boebert advanced unopposed from the Republican primary. Eileen Laubacher defeated write-in candidate Jenna Preston 99.2%-0.8% in the Democratic primary. Boebert represented Colorado's 3rd District from 2021-2025 before moving to run in and win the 4th District in 2024.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "lauren-boebert",
       "name": "Lauren Boebert",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the June 30, 2026 Republican primary, unopposed",
       "currentRole": "U.S. Representative (since 2021; representing the 4th District since 2025)",
       "summary": {
         "text": "Lauren Boebert is the Republican incumbent representing Colorado's 4th Congressional District. She previously represented the 3rd District (2021-2025) and owned Shooters Grill restaurant before entering Congress.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
-        { "text": "Born in Altamonte Springs, Florida; lives in Rifle, Colorado.", "sources": ["s2"] },
-        { "text": "Career experience includes working as a natural gas product technician and owning and operating Shooters Grill.", "sources": ["s2"] }
+        {
+          "text": "Born in Altamonte Springs, Florida; lives in Rifle, Colorado.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Career experience includes working as a natural gas product technician and owning and operating Shooters Grill.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Campaign website describes support for a strong national defense, opposition to the national popular vote, and limiting the size and pay of the federal workforce.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -42,14 +60,18 @@
           "stance": "opposes",
           "summary": "Campaign website says she will not let gun rights be taken away, describing her role as securing constitutional rights.",
           "quote": "I won't let them take away our guns.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform (Federal Law Enforcement Subcommittee) and is Vice Chair of the Natural Resources Committee's Oversight and Investigations Subcommittee in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://boebert.house.gov/",
@@ -59,29 +81,49 @@
     {
       "id": "eileen-laubacher",
       "name": "Eileen Laubacher",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 30, 2026 Democratic primary",
       "summary": {
         "text": "Eileen Laubacher is the Democratic nominee for Colorado's 4th Congressional District. She is a retired U.S. Navy Rear Admiral who served 34 years in the Navy and raised five children with her husband in Colorado.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
-        { "text": "Entered the United States Naval Academy at age 17 and served 34 years in the U.S. Navy, retiring as a Rear Admiral.", "sources": ["s4"] },
-        { "text": "Raised five children with her husband in Colorado.", "sources": ["s4"] }
+        {
+          "text": "Entered the United States Naval Academy at age 17 and served 34 years in the U.S. Navy, retiring as a Rear Admiral.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Raised five children with her husband in Colorado.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Lowering everyday costs: housing, health care, prescription drugs and the price impact of tariffs.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Strengthening rural health care, including support for rural hospitals, expanded telehealth, and reversing Medicaid cuts she attributes to Boebert.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Supporting farmers and ranchers with a long-term Farm Bill and water infrastructure investment.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -89,20 +131,26 @@
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Calls for ending tariffs she says are raising the price of fuel, fertilizer, equipment and groceries.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Proposes capping insulin costs at $35/month, allowing Medicaid to negotiate lower drug prices, and reversing Medicaid cuts she says threaten rural hospitals.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says she believes in the right to privacy and keeping government out of personal healthcare decisions.",
           "quote": "Keep the government out of your personal healthcare decisions and your doctor's office, because I believe in our right to privacy and the freedom to make our own decisions",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -112,11 +160,15 @@
     {
       "id": "douglas-mangeris",
       "name": "Douglas Mangeris",
-      "parties": ["L"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Douglas Mangeris is running in the general election for U.S. House Colorado District 4 on the Libertarian Party ballot line.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -127,10 +179,34 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026", "title": "United States House of Representatives elections in Colorado, 2026", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s2", "url": "https://ballotpedia.org/Lauren_Boebert", "title": "Lauren Boebert", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s3", "url": "https://ballotpedia.org/Lauren_Boebert", "title": "Campaign website excerpt, Lauren Boebert", "publisher": "Ballotpedia (quoting laurenforcolorado.com)", "kind": "candidate" },
-    { "id": "s4", "url": "https://eileenforcolorado.com/platform", "title": "Platform", "publisher": "Eileen for Colorado", "kind": "candidate" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026",
+      "title": "United States House of Representatives elections in Colorado, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Lauren_Boebert",
+      "title": "Lauren Boebert",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Lauren_Boebert",
+      "title": "Campaign website excerpt, Lauren Boebert",
+      "publisher": "Ballotpedia (quoting laurenforcolorado.com)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://eileenforcolorado.com/platform",
+      "title": "Platform",
+      "publisher": "Eileen for Colorado",
+      "kind": "candidate"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Federal key votes and FEC finance totals for incumbent Boebert are added separately by script. Douglas Mangeris (Libertarian) has no discoverable public statements beyond the Ballotpedia ballot listing; write-in Republican candidate Luis Galvan is omitted as not having a documented active campaign."

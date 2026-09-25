@@ -11,38 +11,53 @@
   "context": [
     {
       "text": "Incumbent Ann Wagner won the August 4, 2026 Republican primary over Matthew Grant, Peter Pfeifer, Elizabeth Sparks-Holmes and Brandon Wilkinson. Frederick Wellman won the Democratic primary over Timothy D. Bilash and Joan VonDras. Brandon Daugherty advanced unopposed in the Libertarian primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "ann-wagner",
       "name": "Ann Wagner",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2013)",
       "summary": {
         "text": "Ann Wagner is the incumbent Republican U.S. Representative for Missouri's 2nd District. A former U.S. Ambassador to Luxembourg and Missouri Republican Party chair, she chairs the House Financial Services Committee.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Graduated from the University of Missouri-Columbia Business School in 1984 with a degree in business administration, specializing in logistics; worked in management for Hallmark and Ralston-Purina.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as the first woman to chair the Missouri Republican Party (1999-2005) and as co-chair of the Republican National Committee (2001-2005).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as U.S. Ambassador to Luxembourg from 2005 to 2009.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists budget and spending, the economy and jobs, defense and national security, energy, and veterans issues among her legislative priorities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -50,20 +65,26 @@
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Says Washington's environment of high taxes, overregulation and debt has sidelined capital and hurt job creation, and that constituents want to keep more of their paychecks.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
           "summary": "Says the U.S. should fully cultivate domestic oil resources by ending drilling moratoriums and increasing onshore and offshore production rather than relying on oil imports.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "Chairs the House Committee on Financial Services in the 119th Congress (2025-2026); also serves on the House Permanent Select Committee on Intelligence, chairing its Open Source Intelligence Subcommittee.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://wagner.house.gov",
@@ -74,39 +95,56 @@
     {
       "id": "frederick-wellman",
       "name": "Frederick Wellman",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 4, 2026 Democratic primary",
       "summary": {
         "text": "Frederick (Fred) Wellman is the Democratic nominee for Missouri's 2nd District. A retired Army helicopter pilot and 20-year veteran who later led the Lincoln Project, he is campaigning on affordability, healthcare and retirement security.",
-        "sources": ["s1", "s4"]
+        "sources": [
+          "s1",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Grew up in Kirkwood, Missouri; attended West Point and served more than 20 years in the U.S. Army as a helicopter pilot and officer, including multiple deployments to Iraq, earning his Ranger tab.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Earned a master's degree from Harvard's Kennedy School and founded ScoutComms, a firm focused on veterans and military families.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Helped lead a team of Special Operations medical veterans to build and run a field hospital in New York City during the COVID-19 pandemic, and later served as Senior Advisor and Executive Director of the Lincoln Project.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Affordability: says families face rising costs for housing, healthcare, childcare and groceries while wages stay flat, and calls for lowering costs and expanding good-paying jobs.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Healthcare: supports a public option and allowing people to buy into Medicare before age 65 to increase competition and lower premiums.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Retirement security: wants to protect Social Security and Medicare and defend pensions.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -114,7 +152,9 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports expanding access to affordable healthcare through a public option and allowing Missourians to buy into Medicare before turning 65.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -124,12 +164,16 @@
     {
       "id": "brandon-daugherty",
       "name": "Brandon Daugherty",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced unopposed in the August 4, 2026 Libertarian primary",
       "summary": {
         "text": "Brandon Daugherty is the Libertarian Party nominee for Missouri's 2nd District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -140,12 +184,38 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026", "title": "United States House of Representatives elections in Missouri, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Ann_Wagner", "title": "Ann Wagner", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://wagner.house.gov/issues", "title": "Issues", "publisher": "Office of Rep. Ann Wagner", "kind": "official" },
-    { "id": "s4", "url": "https://ballotpedia.org/Frederick_Wellman", "title": "Frederick Wellman - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+      "title": "United States House of Representatives elections in Missouri, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Ann_Wagner",
+      "title": "Ann Wagner",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://wagner.house.gov/issues",
+      "title": "Issues",
+      "publisher": "Office of Rep. Ann Wagner",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Frederick_Wellman",
+      "title": "Frederick Wellman - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026"
+    }
   ],
   "researchedAt": "2026-09-25",
-  "electionDate": "2026-11-03",
   "researchNotes": "Basic-tier research from Ballotpedia, the incumbent's official House website, and the challenger's Ballotpedia survey. Key floor votes and FEC finance totals for Wagner are added separately by script."
 }

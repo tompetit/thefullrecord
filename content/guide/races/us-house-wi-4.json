@@ -11,29 +11,39 @@
   "context": [
     {
       "text": "Incumbent Gwen Moore (D) defeated Amy Donahue 70.5%-29.3% in the Democratic primary. Tim Rogers advanced from the Republican primary. Arthur Burks also qualified as an independent for the general-election ballot; two other independents, Carlos Dixon and Robert Raymond, withdrew or were disqualified.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "gwen-moore",
       "name": "Gwen Moore",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Defeated Amy Donahue 70.5%-29.3% in the Democratic primary.",
       "currentRole": "U.S. Representative for Wisconsin's 4th Congressional District (since 2005)",
       "summary": {
         "text": "Gwen Moore is the Democratic incumbent representing Wisconsin's 4th District (Milwaukee), a seat she has held since 2005. A former state legislator, she serves on the House Ways and Means Committee.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from Marquette University in 1978 and became a housing officer for the Wisconsin Housing Development Authority.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the Wisconsin State Assembly from 1989 to 1992 and the Wisconsin State Senate from 1993 to 2003 before her election to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -42,7 +52,9 @@
         {
           "text": "Serves on the Joint Economic Committee and the House Committee on Ways and Means (Social Security, Tax, and Work and Welfare subcommittees) in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://gwenmoore.house.gov",
@@ -52,21 +64,29 @@
     {
       "id": "tim-rogers",
       "name": "Tim Rogers",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the Republican primary.",
       "summary": {
         "text": "Tim Rogers is a Milwaukee resident and delivery worker running as the Republican nominee for Wisconsin's 4th Congressional District.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born and lives in Milwaukee, Wisconsin; graduated from North Division High School in 1978 and studied at the University of Wisconsin-Parkside and Milwaukee Area Technical College.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes working as a delivery person.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
@@ -78,11 +98,15 @@
     {
       "id": "arthur-burks",
       "name": "Arthur Burks",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Arthur Burks is an independent candidate on the general-election ballot for Wisconsin's 4th Congressional District.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -123,6 +147,5 @@
       "kind": "reference"
     }
   ],
-  "researchedAt": "2026-09-25",
-  "electionDate": "2026-11-03"
+  "researchedAt": "2026-09-25"
 }

@@ -11,34 +11,47 @@
   "context": [
     {
       "text": "Incumbent Bob Onder won the August 4, 2026 Republican primary over John Fraser. Bethany Mann won the Democratic primary over Tommy Holstein and Paul Wilson. Jim Higgins advanced unopposed in the Libertarian primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "bob-onder",
       "name": "Bob Onder",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Bob Onder is the incumbent Republican U.S. Representative for Missouri's 3rd District. A physician and attorney who previously served in the Missouri House and Senate, he sponsored Missouri's Second Amendment Preservation Act and a state ban on sanctuary cities before being elected to Congress in 2024.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in economics and biology from Washington University in St. Louis (1983), an M.D. from Washington University School of Medicine (1987), and a J.D. from Saint Louis University School of Law (1993).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a physician and ran a small business before serving in the Missouri House and later the Missouri Senate.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Official House issues page lists Congress, economy/jobs, education, energy, military and veterans, pro-life, agriculture, immigration and the Second Amendment as his stated issue priorities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -46,36 +59,48 @@
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Describes himself as a \"steadfast champion of Pro-Life legislation\" and is a cosponsor of the Born Alive Abortion Survivors Protection Act.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Says he will \"vigorously fight on behalf of gun owners and the Second Amendment\" in Congress, citing his role in passing Missouri's Constitutional Carry law and Second Amendment Preservation Act as a state senator.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "As a Missouri House member, sponsored and passed HB1549 (2008) to ban sanctuary cities, penalize employers who hire undocumented workers, and end \"catch-and-release\"; the Federation for American Immigration Reform called it the strongest state anti-illegal-immigration law in the country.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "As a member of the Missouri House, sponsored and passed HB1549 (2008), a state ban on sanctuary cities.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "As a Missouri state senator, led passage of the state's Constitutional Carry law (2016) and Second Amendment Preservation Act (2019), and sponsored legislation expanding the Castle Doctrine.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Serves on the House Committee on the Judiciary and the House Committee on Transportation and Infrastructure in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://onder.house.gov",
@@ -86,39 +111,56 @@
     {
       "id": "bethany-mann",
       "name": "Bethany Mann",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 4, 2026 Democratic primary",
       "summary": {
         "text": "Bethany Mann is the Democratic nominee for Missouri's 3rd District. An environmental chemist who has tested for contaminants including PFAS, she is campaigning on science-based policy, rural infrastructure investment and healthcare access.",
-        "sources": ["s1", "s4"]
+        "sources": [
+          "s1",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Holds a B.S. in chemistry and has worked as an environmental chemist and technology professional, including testing for contaminants such as PFAS in agriculture, energy and water infrastructure.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Serves on the Executive Board of the Kansas Laboratory Education Association and as Vice Chair of the Missouri Democrats LGBTQIA+ Caucus.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Is the daughter of an Air Force veteran and granddaughter of a WWII veteran.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Economic opportunity and infrastructure: investing in union-led jobs in clean energy and agricultural technology, modernizing rural broadband, energy resilience and clean water access.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Accountability: protecting reproductive freedom, safeguarding voting rights and ensuring equitably funded public schools.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Rural healthcare: strengthening rural hospitals and expanding access through mobile clinics, telehealth and incentives to retain rural medical staff.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -126,19 +168,25 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Lists defending abortion access as essential healthcare among her healthcare priorities.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports Medicare/Healthcare for All to eliminate financial barriers to care.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Calls for holding corporate polluters accountable and creating union-led jobs in clean energy and rural broadband as part of modernizing infrastructure.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -148,12 +196,16 @@
     {
       "id": "jim-higgins",
       "name": "Jim Higgins",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced unopposed in the August 4, 2026 Libertarian primary",
       "summary": {
         "text": "Jim Higgins is the Libertarian Party nominee for Missouri's 3rd District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -164,12 +216,38 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026", "title": "United States House of Representatives elections in Missouri, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Bob_Onder", "title": "Bob Onder", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://onder.house.gov/issues", "title": "Issues", "publisher": "Office of Rep. Bob Onder", "kind": "official" },
-    { "id": "s4", "url": "https://ballotpedia.org/Bethany_Mann", "title": "Bethany Mann - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+      "title": "United States House of Representatives elections in Missouri, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Bob_Onder",
+      "title": "Bob Onder",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://onder.house.gov/issues",
+      "title": "Issues",
+      "publisher": "Office of Rep. Bob Onder",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Bethany_Mann",
+      "title": "Bethany Mann - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026"
+    }
   ],
   "researchedAt": "2026-09-25",
-  "electionDate": "2026-11-03",
   "researchNotes": "Basic-tier research from Ballotpedia, the incumbent's official House website, and the challenger's Ballotpedia survey. Key floor votes and FEC finance totals for Onder are added separately by script."
 }

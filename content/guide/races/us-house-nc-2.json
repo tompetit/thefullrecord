@@ -11,28 +11,38 @@
   "context": [
     {
       "text": "Both the Democratic and Republican primaries for this seat were canceled, with Deborah Ross and Eugene Douglass advancing unopposed. Incumbent Deborah Ross (D) faces Eugene Douglass (R) and Matthew Laszacs (L) in the general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "deborah-ross",
       "name": "Deborah Ross",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
         "text": "Deborah Ross is the Democratic incumbent seeking re-election in North Carolina's 2nd Congressional District, centered on Wake County. She is an attorney and former state legislator serving on the House Judiciary, Ethics, and Science, Space, and Technology committees.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Philadelphia, Pennsylvania, in 1963; earned a bachelor's degree in international relations from Brown University in 1985 and a law degree from the University of North Carolina Law School in 1990.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an attorney before serving in the North Carolina House of Representatives from 2003 to 2013.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -42,7 +52,9 @@
           "text": "Serves on the House Committee on the Judiciary (Courts, Intellectual Property, Artificial Intelligence, and the Internet Subcommittee; Immigration Integrity, Security, and Enforcement Subcommittee), the Committee on Ethics, and the Committee on Science, Space, and Technology (Energy and Environment subcommittees).",
           "date": "2025",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.deborahross.com/",
@@ -52,39 +64,55 @@
     {
       "id": "eugene-douglass",
       "name": "Eugene Douglass",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from a canceled Republican primary.",
       "summary": {
         "text": "Eugene Douglass is the Republican nominee challenging incumbent Deborah Ross in North Carolina's 2nd Congressional District. He is a retired chemistry professor who taught at the University of North Carolina at Pembroke for over 30 years.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Grew up in Swarthmore, Pennsylvania; moved to North Carolina in 2005 to teach chemistry at the University of North Carolina at Pembroke.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from The King's College in 1979, a graduate degree from the University of Connecticut in 1982, and a Ph.D. from North Carolina State University in 2010; also graduated from Bethel Theological Seminary.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Taught college chemistry for over 30 years and has been affiliated with the American Chemistry Society.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "A smaller federal government, less regulation and lower taxes, with responsibility returned to the states.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Eliminating the federal Department of Education and returning education policy to state and local authorities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Opposing abortion, saying he wants to protect human life from conception until natural death.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -92,13 +120,17 @@
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Says he wants to protect human life from conception until natural death and end abortion used for birth control, with states regulating the procedure.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Lists lower taxes and a smaller federal government among his top three campaign messages.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -108,31 +140,43 @@
     {
       "id": "matthew-laszacs",
       "name": "Matthew Laszacs",
-      "parties": ["L"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from a canceled Libertarian Party primary.",
       "summary": {
         "text": "Matthew Laszacs is the Libertarian Party nominee in North Carolina's 2nd Congressional District. He is a business executive who says Congress has ceded too much power to the executive and judicial branches.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Philadelphia, raised in Millington, Tennessee, and has lived in North Carolina since 2001.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Earned a bachelor's degree in business administration from North Carolina Wesleyan College in 2009 while working full time and raising two children; has 20 years of experience in business leadership.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Restoring Congress's Article I powers to check the executive branch and rein in the judiciary.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Addressing federal fiscal problems, including debt, inflation, and the approaching Social Security budget crisis.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -142,10 +186,38 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026", "title": "United States House of Representatives elections in North Carolina, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Deborah_Ross", "title": "Deborah Ross", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Eugene_Douglass", "title": "Eugene Douglass - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026" },
-    { "id": "s4", "url": "https://ballotpedia.org/Matthew_Laszacs", "title": "Matthew Laszacs - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+      "title": "United States House of Representatives elections in North Carolina, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Deborah_Ross",
+      "title": "Deborah Ross",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Eugene_Douglass",
+      "title": "Eugene Douglass - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Matthew_Laszacs",
+      "title": "Matthew Laszacs - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Ross's committee assignments come from Ballotpedia's official-record summary rather than a direct review of house.gov, which was out of scope at basic-tier depth for this district. Federal key votes and FEC totals for Ross, the sitting incumbent, are added by a separate script."

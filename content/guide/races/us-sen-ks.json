@@ -10,27 +10,59 @@
   "context": [
     {
       "text": "Incumbent Roger Marshall (R) defeated Pond Naramore in the August 4, 2026 Republican primary, 79.8% to 20.2%. Adam Hamilton won the Democratic primary in an 11-candidate field with 34.9% of the vote. David Graham advanced as the Libertarian Party's candidate.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "roger-marshall",
       "name": "Roger Marshall",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the August 4 Republican primary",
       "currentRole": "U.S. Senator (since 2021)",
       "summary": {
         "text": "Roger Marshall is the Republican incumbent U.S. Senator from Kansas, first elected in 2020 after serving one term in the U.S. House representing Kansas's 1st District. He is a physician by training and serves on the Senate Committee on Health, Education, Labor, and Pensions.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
-        { "text": "Born in El Dorado, Kansas, in 1960.", "sources": ["s2"] },
-        { "text": "Earned an A.S. from Butler Community College (1980), a B.S. in biochemistry from Kansas State University, and an M.D. from the University of Kansas School of Medicine (1987).", "sources": ["s2"] },
-        { "text": "Served in the U.S. Army Reserve from 1984 to 1991.", "sources": ["s2"] },
-        { "text": "Worked as a physician (obstetrician) and business owner before entering politics.", "sources": ["s2"] },
-        { "text": "Represented Kansas's 1st Congressional District in the U.S. House from 2017 to 2021 before being elected to the Senate in 2020.", "sources": ["s2"] }
+        {
+          "text": "Born in El Dorado, Kansas, in 1960.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Earned an A.S. from Butler Community College (1980), a B.S. in biochemistry from Kansas State University, and an M.D. from the University of Kansas School of Medicine (1987).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Army Reserve from 1984 to 1991.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked as a physician (obstetrician) and business owner before entering politics.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Represented Kansas's 1st Congressional District in the U.S. House from 2017 to 2021 before being elected to the Senate in 2020.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "priorities": [],
       "positions": [],
@@ -38,7 +70,9 @@
         {
           "text": "Serves on the Senate Committee on Health, Education, Labor, and Pensions.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.marshall.senate.gov",
@@ -48,30 +82,55 @@
     {
       "id": "adam-hamilton",
       "name": "Adam Hamilton",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 4 Democratic primary in an 11-candidate field",
       "summary": {
         "text": "Adam Hamilton is a pastor from the Kansas City area running as the Democratic nominee for U.S. Senate. He describes himself as a fifth-generation Kansan and founder of a large United Methodist church, and campaigns on affordability, health care, and reducing corruption in Washington.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Describes himself as a fifth-generation Kansan whose family settled in Dickinson County in the 1870s.", "sources": ["s1"] },
-        { "text": "Says he and his wife LaVon started a church with four people 36 years ago that has become the largest United Methodist church in the country.", "sources": ["s1"] },
-        { "text": "Says the church has become the largest source of donated food in Kansas City after the regional food bank, and runs a mobile dental clinic and school-support programs.", "sources": ["s1"] }
+        {
+          "text": "Describes himself as a fifth-generation Kansan whose family settled in Dickinson County in the 1870s.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says he and his wife LaVon started a church with four people 36 years ago that has become the largest United Methodist church in the country.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says the church has become the largest source of donated food in Kansas City after the regional food bank, and runs a mobile dental clinic and school-support programs.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Affordability: wants to end tariffs, crack down on price-gouging, expand housing construction, and pursue trade and tax policy he says would help Kansas families, farmers and small businesses.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Health care: wants to reverse Medicaid cuts he says threaten rural hospitals, restore expired ACA premium tax credits, and let Medicare negotiate more drug prices.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Government reform: supports term limits and age limits for federal officeholders, a ban on members of Congress trading individual stocks, halting congressional pay during shutdowns, and says his campaign takes no corporate PAC money.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
@@ -80,14 +139,18 @@
           "stance": "supports",
           "summary": "Wants to reverse Medicaid cuts, restore ACA premium tax credits, and expand Medicare drug-price negotiation.",
           "quote": "We must reverse the disastrous cuts to Medicaid that threaten our rural hospitals. We should restore the ACA premium credits whose expiration raised the typical Kansan's premium by more than half.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Opposes current broad tariffs, describing them as a self-destructive policy raising costs for Kansas families.",
           "quote": "end the self destructive policies coming out of Washington like tariffs and war",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "record": [],
@@ -97,17 +160,31 @@
     {
       "id": "david-graham",
       "name": "David Graham",
-      "parties": ["L"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced as the Libertarian Party of Kansas nominee",
       "currentRole": "Libertarian Party of Kansas Vice Chair",
       "summary": {
         "text": "David Graham is the Libertarian Party of Kansas Vice Chair and the party's 2026 U.S. Senate nominee. He previously ran for the same seat in 2022, receiving about 3.0% of the general-election vote.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
-        { "text": "Serves as Libertarian Party of Kansas Vice Chair.", "sources": ["s3"] },
-        { "text": "Was the Libertarian nominee for U.S. Senate in Kansas in 2022, receiving 29,766 votes (about 3.0% of the total) in a race won by Jerry Moran.", "sources": ["s3"] }
+        {
+          "text": "Serves as Libertarian Party of Kansas Vice Chair.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Was the Libertarian nominee for U.S. Senate in Kansas in 2022, receiving 29,766 votes (about 3.0% of the total) in a race won by Jerry Moran.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "priorities": [],
       "positions": [],

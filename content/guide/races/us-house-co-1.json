@@ -11,37 +11,67 @@
   "context": [
     {
       "text": "This is an open seat: Melat Kiros defeated incumbent Rep. Diana DeGette and Wanda James 53.2%-39.8%-7.0% in the June 30, 2026 Democratic primary, so DeGette will not appear on the November ballot. Christy Peterson advanced unopposed from the Republican primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "melat-kiros",
       "name": "Melat Kiros",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 30, 2026 Democratic primary, defeating incumbent Rep. Diana DeGette",
       "summary": {
         "text": "Melat Kiros is a Denver attorney who defeated incumbent Rep. Diana DeGette in the Democratic primary for Colorado's 1st Congressional District. She immigrated to the U.S. from Tigray, Ethiopia in 1998.",
-        "sources": ["s2", "s3"]
+        "sources": [
+          "s2",
+          "s3"
+        ]
       },
       "background": [
-        { "text": "Immigrated to Denver, Colorado, from Tigray, Ethiopia, in 1998 with her family.", "sources": ["s3"] },
-        { "text": "Earned bachelor's degrees in Political Science and Economics from Washington College (2018) and a law degree from the University of Notre Dame (2022).", "sources": ["s2", "s3"] },
-        { "text": "Career experience includes working as a lawyer and, earlier, as a barista.", "sources": ["s2", "s3"] }
+        {
+          "text": "Immigrated to Denver, Colorado, from Tigray, Ethiopia, in 1998 with her family.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Earned bachelor's degrees in Political Science and Economics from Washington College (2018) and a law degree from the University of Notre Dame (2022).",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "Career experience includes working as a lawyer and, earlier, as a barista.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Campaign finance and lobbying reform, plus congressional term limits, to reduce the influence of money in politics.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Expanding voting rights and consolidating elections into a single day with a shorter election cycle.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Codifying access to housing, health care, nutritious food and public education as basic needs for every American.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -49,19 +79,25 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Campaign website says she will always stand for Medicare for All and describes health care access as directly linked to life expectancy and economic outcomes.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Says she will always stand for universal childcare as part of putting working families first.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "israel_aid",
           "stance": "opposes",
           "summary": "Campaign website calls for an arms embargo and says tax dollars should not support what she describes as a genocide, opposing continued unconditional military aid.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -71,26 +107,49 @@
     {
       "id": "christy-peterson",
       "name": "Christy Peterson",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 30, 2026 Republican primary",
       "summary": {
         "text": "Christy Peterson is the Republican nominee for Colorado's 1st Congressional District. She works in accounting and describes her candidacy as focused on public safety and reducing government spending in Denver.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
-        { "text": "Graduated from Chatfield Senior High School.", "sources": ["s4"] },
-        { "text": "Earned a bachelor's degree from San Diego State University in 2006.", "sources": ["s4"] },
-        { "text": "Career experience includes working in accounting/office management in construction; states she is pursuing a doctorate in natural and functional medicine.", "sources": ["s4"] }
+        {
+          "text": "Graduated from Chatfield Senior High School.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree from San Diego State University in 2006.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Career experience includes working in accounting/office management in construction; states she is pursuing a doctorate in natural and functional medicine.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Public safety: says reducing crime and 'soft on crime' policies in Denver is her top priority, arguing this would let businesses and visitors return to the city.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Reducing government waste, fraud and abuse, and creating incentives for business growth and job creation.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -98,13 +157,17 @@
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says making cities safe again is her top priority and that crime and lax enforcement have driven residents and businesses away.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "States support for protecting the right to bear arms in her Ballotpedia survey response.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -114,11 +177,15 @@
     {
       "id": "chad-humphrey",
       "name": "Chad Humphrey",
-      "parties": ["L"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Chad Humphrey is running in the general election for U.S. House Colorado District 1 on the Libertarian Party ballot line.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -130,11 +197,15 @@
     {
       "id": "shimon-blau",
       "name": "Shimon Blau",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Shimon Blau is running in the general election for U.S. House Colorado District 1 as an unaffiliated candidate.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -146,11 +217,15 @@
     {
       "id": "critter-milton",
       "name": "Critter Milton",
-      "parties": ["Unity Party"],
+      "parties": [
+        "Unity Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Critter Milton is running in the general election for U.S. House Colorado District 1 on the Unity Party ballot line.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -161,10 +236,34 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026", "title": "United States House of Representatives elections in Colorado, 2026", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s2", "url": "https://ballotpedia.org/Melat_Kiros", "title": "Melat Kiros", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s3", "url": "https://ballotpedia.org/Melat_Kiros", "title": "Ballotpedia Candidate Connection survey response and campaign website excerpt, Melat Kiros", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" },
-    { "id": "s4", "url": "https://ballotpedia.org/Christy_Peterson", "title": "Ballotpedia Candidate Connection survey response, Christy Peterson", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026",
+      "title": "United States House of Representatives elections in Colorado, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Melat_Kiros",
+      "title": "Melat Kiros",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Melat_Kiros",
+      "title": "Ballotpedia Candidate Connection survey response and campaign website excerpt, Melat Kiros",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Christy_Peterson",
+      "title": "Ballotpedia Candidate Connection survey response, Christy Peterson",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Federal key votes and FEC finance totals are added separately by script (not applicable to non-incumbents in this open-seat race). Minor-party and unaffiliated candidates (Humphrey, Blau, Milton) have no discoverable public statements beyond the Ballotpedia ballot listing; write-in candidates from the primary (StClair, Wren, Replin) are omitted as not having active general-election campaigns."

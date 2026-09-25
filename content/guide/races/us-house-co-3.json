@@ -11,29 +11,60 @@
   "context": [
     {
       "text": "Incumbent Jeff Hurd defeated Ron Hanks in the Republican primary. Dwayne Romero defeated Alex Kelloff 54.8%-45.2% in the Democratic primary. This district was a closely watched swing seat in the 2024 election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jeff-hurd",
       "name": "Jeff Hurd",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the June 30, 2026 Republican primary",
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Jeff Hurd is the Republican incumbent representing Colorado's 3rd Congressional District, first elected in 2024. He is an attorney from Grand Junction.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
-        { "text": "Born in Grand Junction, Colorado, in 1979.", "sources": ["s2"] },
-        { "text": "Earned a bachelor's degree in liberal studies from the University of Notre Dame, a J.D. from the University of Denver Sturm College of Law (2008), and an LL.M. from Columbia Law School (2010).", "sources": ["s2"] },
-        { "text": "Worked at the Grand Junction Area Chamber of Commerce, clerked for 10th Circuit Judge Timothy Tymkovich, and co-owned a law firm.", "sources": ["s2"] }
+        {
+          "text": "Born in Grand Junction, Colorado, in 1979.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in liberal studies from the University of Notre Dame, a J.D. from the University of Denver Sturm College of Law (2008), and an LL.M. from Columbia Law School (2010).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked at the Grand Junction Area Chamber of Commerce, clerked for 10th Circuit Judge Timothy Tymkovich, and co-owned a law firm.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Lowering household energy costs, opposing state and federal regulations he says push families toward more expensive heating and electricity options.", "sources": ["s5"] },
-        { "text": "Co-led a bipartisan framework (the HOPE Act / \"CommonGround 2025\") to temporarily extend enhanced Affordable Care Act premium tax credits with new income caps and anti-fraud safeguards.", "sources": ["s6"] }
+        {
+          "text": "Lowering household energy costs, opposing state and federal regulations he says push families toward more expensive heating and electricity options.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Co-led a bipartisan framework (the HOPE Act / \"CommonGround 2025\") to temporarily extend enhanced Affordable Care Act premium tax credits with new income caps and anti-fraud safeguards.",
+          "sources": [
+            "s6"
+          ]
+        }
       ],
       "positions": [
         {
@@ -41,21 +72,27 @@
           "stance": "opposes",
           "summary": "Criticized state and federal climate-driven regulations that push households and utilities away from natural gas toward electric heat pumps and other mandates, calling the added costs a \"hidden tax\" on families.",
           "quote": "I’m fighting those in Congress for the same reason I’m fighting this one: working families should not have to bankroll regulatory experiments. Energy policy should start with common sense, not mandates.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Co-led the bipartisan HOPE Act to extend enhanced Affordable Care Act premium tax credits for two years, with new income caps and anti-fraud provisions, to prevent a spike in health-insurance premiums.",
           "quote": "The HOPE Act is a practical, bipartisan solution that maintains affordability, enhances transparency, and improves accountability while Congress works toward long-term reforms that will make our health-care system more stable and more affordable.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [
         {
           "text": "Chairs the House Natural Resources Committee's Indian and Insular Affairs Subcommittee and serves on the Committee on Transportation and Infrastructure and the Committee on Science, Space, and Technology in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://hurd.house.gov/",
@@ -65,31 +102,62 @@
     {
       "id": "dwayne-romero",
       "name": "Dwayne Romero",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 30, 2026 Democratic primary",
       "summary": {
         "text": "Dwayne Romero is the Democratic nominee for Colorado's 3rd Congressional District. He is an Army combat veteran, small-business owner, and former Woody Creek/Pitkin County local official whose campaign centers on affordability, water and rural economic issues.",
-        "sources": ["s3", "s4"]
+        "sources": [
+          "s3",
+          "s4"
+        ]
       },
       "background": [
-        { "text": "Served as a U.S. Army Engineer Officer and combat veteran.", "sources": ["s4"] },
-        { "text": "Was raised by a single mother and describes starting work at age 12 helping at his family's apartment complex.", "sources": ["s4"] },
-        { "text": "Has served as a local school board president, city councilman, and as Colorado's Director of Economic Development.", "sources": ["s4"] },
-        { "text": "Owns a small business employing more than 120 Coloradans and serves on an elected local water and sanitation district board.", "sources": ["s4"] }
+        {
+          "text": "Served as a U.S. Army Engineer Officer and combat veteran.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Was raised by a single mother and describes starting work at age 12 helping at his family's apartment complex.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Has served as a local school board president, city councilman, and as Colorado's Director of Economic Development.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Owns a small business employing more than 120 Coloradans and serves on an elected local water and sanitation district board.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Lowering cost of living: proposes repealing tariffs he says are raising fuel and grocery prices, and expanding the Family Tax Credit.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Protecting Colorado's water resources amid Colorado River Compact challenges and drought.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Supporting family farms and ranches with a robust Farm Bill and restrictions on foreign ownership of Colorado water and farmland.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -97,19 +165,25 @@
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Says he will fight to repeal what he calls 'disastrous tariffs' that are raising the cost of living for the district.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "climate",
           "stance": "mixed",
           "summary": "Describes an 'all-of-the-above' energy approach that uses the district's existing energy resources while also advancing alternative energy deployment.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "Calls for building more housing, repealing what he describes as outdated construction red tape, and stopping large investors from buying up homes to drive up rents.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -119,11 +193,15 @@
     {
       "id": "cory-robertson",
       "name": "Cory Robertson",
-      "parties": ["L"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Cory Robertson is running in the general election for U.S. House Colorado District 3 on the Libertarian Party ballot line.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -135,11 +213,15 @@
     {
       "id": "clifton-brown",
       "name": "Clifton Brown",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Clifton Brown is running in the general election for U.S. House Colorado District 3 as an unaffiliated candidate.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -150,12 +232,50 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026", "title": "United States House of Representatives elections in Colorado, 2026", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s2", "url": "https://ballotpedia.org/Jeff_Hurd", "title": "Jeff Hurd", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s3", "url": "https://ballotpedia.org/Dwayne_Romero", "title": "Dwayne Romero", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s4", "url": "https://romeroforcolorado.com/issues", "title": "Issues", "publisher": "Romero for Colorado", "kind": "candidate" },
-    { "id": "s5", "url": "https://hurd.house.gov/media/op-eds/making-life-less-affordable-one-hidden-tax-time", "title": "Making Life Less Affordable, One Hidden Tax at a Time", "publisher": "Office of Rep. Jeff Hurd", "kind": "official", "date": "2025-12-08" },
-    { "id": "s6", "url": "https://hurd.house.gov/media/press-releases/hurd-suozzi-bacon-gottheimer-introduce-bill-avert-healthcare-affordability", "title": "Hurd, Suozzi, Bacon, Gottheimer Introduce Bill to Avert Healthcare Affordability Crisis: The Bipartisan Hope Act", "publisher": "Office of Rep. Jeff Hurd", "kind": "official", "date": "2025-11-21" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Colorado,_2026",
+      "title": "United States House of Representatives elections in Colorado, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jeff_Hurd",
+      "title": "Jeff Hurd",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Dwayne_Romero",
+      "title": "Dwayne Romero",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://romeroforcolorado.com/issues",
+      "title": "Issues",
+      "publisher": "Romero for Colorado",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://hurd.house.gov/media/op-eds/making-life-less-affordable-one-hidden-tax-time",
+      "title": "Making Life Less Affordable, One Hidden Tax at a Time",
+      "publisher": "Office of Rep. Jeff Hurd",
+      "kind": "official",
+      "date": "2025-12-08"
+    },
+    {
+      "id": "s6",
+      "url": "https://hurd.house.gov/media/press-releases/hurd-suozzi-bacon-gottheimer-introduce-bill-avert-healthcare-affordability",
+      "title": "Hurd, Suozzi, Bacon, Gottheimer Introduce Bill to Avert Healthcare Affordability Crisis: The Bipartisan Hope Act",
+      "publisher": "Office of Rep. Jeff Hurd",
+      "kind": "official",
+      "date": "2025-11-21"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Federal key votes and FEC finance totals for incumbent Hurd are added separately by script. Cory Robertson (Libertarian) and Clifton Brown (unaffiliated) have no discoverable public statements beyond the Ballotpedia ballot listing."

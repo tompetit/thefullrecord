@@ -11,43 +11,60 @@
   "context": [
     {
       "text": "This is a rematch of the 2024 general election, when incumbent Josh Riley defeated Peter Oberacker's predecessor, then-Rep. Marcus Molinaro, 51.1% to 48.8% (Molinaro had defeated Riley 50.8%-49.2% in 2022 under different lines). Oberacker won the June 23, 2026 Republican primary over Alexander Portelli, 77.4% to 22.1%; Riley's Democratic primary was canceled.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Kamala Harris carried the district 50.4% to 48.7% in 2024. As of September 22, 2026, all four major forecasters (Cook Political Report, Decision Desk, Inside Elections, Sabato's Crystal Ball) rated the general election \"Likely Democratic.\" As of June 30, 2026, Riley had raised $4.83 million to Oberacker's $1.24 million.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "josh-riley",
       "name": "Josh Riley",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative for NY-19 (since 2025)",
       "summary": {
         "text": "Josh Riley is the incumbent U.S. Representative for New York's 19th Congressional District, an attorney and former congressional and Senate staffer elected in 2024 after losing the same seat in 2022. He sits on the House Agriculture Committee and the House Science, Space, and Technology Committee.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in government and economics from the College of William and Mary (2003) and a J.D. from Harvard Law School (2007).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a staff assistant to former Rep. Maurice Hinchey (D-NY), a policy analyst at the U.S. Department of Labor, a clerk on the Ninth Circuit U.S. Court of Appeals, and general counsel to then-Sen. Al Franken (D-MN) on the Senate Judiciary Committee, and practiced law at Boies, Schiller & Flexner and Jenner & Block.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign material says he worked on bipartisan legislation to protect survivors of domestic violence and combat the opioid epidemic, and on legislation to restore the Voting Rights Act and reduce the influence of money in politics.",
           "quote": "helped pass bipartisan legislation to protect survivors of domestic violence and combat the opioid epidemic. He worked on legislation to restore the Voting Rights Act, and he led efforts to overturn Citizens United and end the influence of dark money in politics.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Has criticized Oberacker's state legislative record on utility rates, health insurance, and taxes, saying Oberacker has \"helped the utility monopolies raise rates while cashing their corporate PAC checks\" and raised taxes on working people 14 times.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [],
@@ -55,7 +72,9 @@
         {
           "text": "Serves on the House Agriculture Committee (Livestock, Dairy, and Poultry subcommittee) and the House Science, Space, and Technology Committee (Energy subcommittee) in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://riley.house.gov",
@@ -64,29 +83,40 @@
     {
       "id": "peter-oberacker",
       "name": "Peter Oberacker",
-      "parties": ["R", "C"],
+      "parties": [
+        "R",
+        "C"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 23 Republican primary",
       "currentRole": "New York State Senator, District 51 (since 2021)",
       "summary": {
         "text": "Peter Oberacker is a Republican New York State Senator representing District 51, first elected in 2020, and a former Otsego County legislator. He won the June 23, 2026 Republican primary for NY-19 and is challenging incumbent Josh Riley.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Graduated from Schenevus High School and earned a degree from SUNY Delhi; worked as a food scientist and founded FormTech Solutions before entering politics.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served on the town board and later as town supervisor of Maryland, New York, then on the Otsego County Legislature, before election to the State Senate in 2020.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign material emphasizes his state legislative record of \"keeping taxes low\" and never having created a budget that raised taxes, along with an emphasis on being visible and present in the district.",
           "quote": "he has focused on delivering results, keeping taxes low, and standing up for the people he represents. He has never created a budget that raised taxes.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -94,19 +124,25 @@
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Says he has never sponsored a state budget that raised taxes and campaigns on keeping taxes low.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "In the 119th New York State Senate session (2025-2026), serves as Ranking Member of the Senate Alcoholism and Substance Abuse Committee and the Senate Transportation Committee, and sits on the Agriculture, Finance, Higher Education, and Labor Committees.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Was re-elected to New York State Senate District 51 on November 5, 2024, defeating Michele Frazier.",
           "kind": "vote",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://oberackerforcongress.com",
@@ -138,6 +174,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "electionDate": "2026-11-03",
   "researchNotes": "Neither Riley nor Oberacker had completed a 2026 Ballotpedia Candidate Connection survey; priorities and positions draw on campaign-website material republished by Ballotpedia. Oberacker's list of sponsored state-senate bills could not be retrieved (Ballotpedia's bill table and nysenate.gov both required JavaScript/blocked automated access), so his record here is limited to committee assignments and election history."
 }

@@ -11,27 +11,58 @@
   "context": [
     {
       "text": "Incumbent Tracey Mann (R) defeated Craig Musser in the August 4, 2026 Republican primary. Lauren Reinhold defeated Colin McRoberts in the Democratic primary. The district's 2026 Cook Partisan Voter Index is R+16.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "tracey-mann",
       "name": "Tracey Mann",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the August 4 Republican primary",
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
         "text": "Tracey Mann is the Republican incumbent representing Kansas's 1st District since 2021. He previously served briefly as Lieutenant Governor of Kansas and worked in commercial real estate before that. He chairs the Livestock, Dairy, and Poultry subcommittee of the House Agriculture Committee.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
-        { "text": "Born in 1976 in Quinter, Kansas; lives in Salina, Kansas.", "sources": ["s2"] },
-        { "text": "Earned a bachelor's degree in agricultural economics from Kansas State University in 2000.", "sources": ["s2"] },
-        { "text": "Worked in commercial real estate; served on the boards of Kansas Agriculture and Rural Leadership, the Kansas Chamber of Commerce, and the City Teen Center in Salina.", "sources": ["s2"] },
-        { "text": "Was appointed Lieutenant Governor of Kansas in 2018 by Governor Jeff Colyer, after Colyer became governor following Sam Brownback's appointment to the Trump administration.", "sources": ["s2"] },
-        { "text": "Elected to the U.S. House in 2020, succeeding Roger Marshall, who was elected to the Senate.", "sources": ["s2"] }
+        {
+          "text": "Born in 1976 in Quinter, Kansas; lives in Salina, Kansas.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in agricultural economics from Kansas State University in 2000.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked in commercial real estate; served on the boards of Kansas Agriculture and Rural Leadership, the Kansas Chamber of Commerce, and the City Teen Center in Salina.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Was appointed Lieutenant Governor of Kansas in 2018 by Governor Jeff Colyer, after Colyer became governor following Sam Brownback's appointment to the Trump administration.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Elected to the U.S. House in 2020, succeeding Roger Marshall, who was elected to the Senate.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "priorities": [],
       "positions": [],
@@ -39,7 +70,9 @@
         {
           "text": "Serves on the House Committee on Agriculture, where he chairs the Livestock, Dairy, and Poultry subcommittee, and on the House Committee on Transportation and Infrastructure (2025-2026 assignments).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://mann.house.gov",
@@ -49,30 +82,55 @@
     {
       "id": "lauren-reinhold",
       "name": "Lauren Reinhold",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 4 Democratic primary",
       "summary": {
         "text": "Lauren Reinhold is a Kansas attorney with nearly 30 years of experience as a Legal Aid attorney, immigration attorney, disability advocate, union leader and federal government administrator, running as the Democratic nominee against incumbent Tracey Mann.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Born in Missouri, raised largely in Kansas as her parents moved between the two states for public-service work.", "sources": ["s1"] },
-        { "text": "Attended University of Kansas law school starting in 1993 and began her legal career in 1996.", "sources": ["s1"] },
-        { "text": "Has worked for nearly 30 years as a Legal Aid attorney, immigration attorney, disability advocate, union leader, and federal government administrator, including 16 years of federal government experience.", "sources": ["s1"] }
+        {
+          "text": "Born in Missouri, raised largely in Kansas as her parents moved between the two states for public-service work.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Attended University of Kansas law school starting in 1993 and began her legal career in 1996.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Has worked for nearly 30 years as a Legal Aid attorney, immigration attorney, disability advocate, union leader, and federal government administrator, including 16 years of federal government experience.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Wants every job to pay enough to cover housing, health care, childcare, transportation and education, with money left to save.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Calls for tax reform so wealthy people \"pay their share,\" affordable and accessible health care for all, a path to citizenship for hardworking immigrant residents, and a steep increase to the minimum wage.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Says the federal government should serve the public rather than corporations and the wealthy, and says she opposes the Project 2025 plan and DOGE's reduction of federal agencies.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
@@ -81,21 +139,27 @@
           "stance": "supports",
           "summary": "Calls for a steep increase to the federal minimum wage.",
           "quote": "a steep increase to the minimum wage, as a start",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "Supports tax reform in which higher earners pay more.",
           "quote": "tax reform (the rich must pay their share)",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports affordable, quality, accessible health care for all.",
           "quote": "healthcare reform (affordable, quality, accessible care for all)",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "record": [],
@@ -105,24 +169,37 @@
     {
       "id": "steven-jacob",
       "name": "Steven Jacob",
-      "parties": ["L"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Libertarian Party nominee",
       "summary": {
         "text": "Steven Jacob is a retiree running as the Libertarian Party candidate, campaigning on reducing federal spending and the national debt and ending U.S. involvement in foreign wars.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Describes himself as a 55-year-old retiree.", "sources": ["s1"] }
+        {
+          "text": "Describes himself as a 55-year-old retiree.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Opposes continued federal deficit spending, saying both major parties spend without addressing inflation and are passing debt to future generations.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Calls for ending U.S. involvement in wars abroad, including funding he says supports conflict in the Middle East.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [],

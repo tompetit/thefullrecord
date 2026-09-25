@@ -11,32 +11,44 @@
   "context": [
     {
       "text": "Incumbent Valerie Foushee (D) won her Democratic primary and faces Mahesh Ganorkar (R) and Guy Meilleur (L), both of whom advanced from canceled Republican and Libertarian primaries respectively, in the general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "valerie-foushee",
       "name": "Valerie Foushee",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Valerie Foushee is the Democratic incumbent seeking re-election in North Carolina's 4th Congressional District. A former Chapel Hill-Carrboro school board member, Orange County commissioner and state legislator, she serves on the House Transportation and Infrastructure and Science, Space, and Technology committees.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Chapel Hill, North Carolina, in 1956; earned a bachelor's degree in political science and Afro and African-American studies from the University of North Carolina at Chapel Hill in 2008.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an administrator with the Chapel Hill Police Department and in administrative roles with insurance and research companies.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the Chapel Hill-Carrboro City school board (1997-2004, chair 2001-2003) and the Orange County Board of Commissioners (2004-2012, chair 2008-2010), followed by service in the North Carolina House and State Senate.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -46,7 +58,9 @@
           "text": "Serves on the House Committee on Transportation and Infrastructure (Highways and Transit; Railroads, Pipelines, and Hazardous Materials subcommittees) and the Committee on Science, Space, and Technology, where she was ranking member of the Investigations and Oversight subcommittee in the 118th Congress.",
           "date": "2023-2024",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.valeriefoushee.com/",
@@ -56,35 +70,49 @@
     {
       "id": "mahesh-ganorkar",
       "name": "Mahesh Ganorkar",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from a canceled Republican primary.",
       "summary": {
         "text": "Mahesh Ganorkar is the Republican nominee challenging incumbent Valerie Foushee in North Carolina's 4th Congressional District. He holds an M.B.A. and has worked on U.S.-India business joint ventures; he became a stay-at-home father after his first child was born.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Holds an M.B.A.; professional experience includes working on joint ventures between U.S. and Indian companies and designing homes.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Said on his campaign website that after his first child was born he decided to give up his career to be a stay-at-home father.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Repealing the Sixteenth Amendment and giving taxpayers more direct control over federal spending approvals through their tax filings.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Election security measures including mandatory voter ID, paper ballots, and eliminating mail-in and absentee voting.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Opposing illegal immigration, including mandatory E-Verify and ending birthright citizenship for children of people in the country illegally.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -92,13 +120,17 @@
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Says he will support and vow to protect the nation's borders, oppose sanctuary cities, and require mandatory E-Verify for employment and rental housing.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Proposes repealing the Sixteenth Amendment (which authorizes the federal income tax) and replacing it with a system where taxpayers directly approve federal spending.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -108,12 +140,16 @@
     {
       "id": "guy-meilleur",
       "name": "Guy Meilleur",
-      "parties": ["L"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from a canceled Libertarian Party primary.",
       "summary": {
         "text": "Guy Meilleur is the Libertarian Party nominee in North Carolina's 4th Congressional District. He has run unsuccessfully for state legislative and congressional seats in prior cycles.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -124,11 +160,46 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026", "title": "United States House of Representatives elections in North Carolina, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Valerie_Foushee", "title": "Valerie Foushee", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Mahesh_Ganorkar", "title": "Mahesh Ganorkar", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://ballotpedia.org/Mahesh_Ganorkar", "title": "Mahesh Ganorkar - campaign website excerpt", "publisher": "Ballotpedia (quoting Ganorkar's campaign website)", "kind": "candidate", "date": "2026-09-25" },
-    { "id": "s5", "url": "https://ballotpedia.org/Guy_Meilleur", "title": "Guy Meilleur", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+      "title": "United States House of Representatives elections in North Carolina, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Valerie_Foushee",
+      "title": "Valerie Foushee",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Mahesh_Ganorkar",
+      "title": "Mahesh Ganorkar",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Mahesh_Ganorkar",
+      "title": "Mahesh Ganorkar - campaign website excerpt",
+      "publisher": "Ballotpedia (quoting Ganorkar's campaign website)",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Guy_Meilleur",
+      "title": "Guy Meilleur",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Federal key votes and FEC totals for Foushee, the sitting incumbent, are added by a separate script. Meilleur is a perennial minor candidate with essentially no public campaign footprint located."
