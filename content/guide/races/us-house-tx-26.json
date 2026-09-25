@@ -1,0 +1,170 @@
+{
+  "id": "us-house-tx-26",
+  "state": "TX",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "26",
+  "title": "U.S. House · Texas's 26th Congressional District",
+  "area": "North Texas exurbs, including much of Denton County (Denton, Flower Mound, Lewisville).",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "In the March 3, 2026 primaries, Brandon Gill defeated Robert Chick 91.1% to 8.9% for the Republican nomination, and Steven Shook defeated Ernest Lineberger III 51.1% to 48.9% for the Democratic nomination. Phil Gray advanced as the Libertarian Party's nominee from its March 21, 2026 convention.",
+      "sources": ["s4"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "brandon-gill",
+      "name": "Brandon Gill",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2025)",
+      "summary": {
+        "text": "Brandon Gill is the incumbent Republican U.S. Representative for Texas's 26th District, a former investment banker, hedge fund analyst, and conservative media entrepreneur first elected in 2024.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Clovis, New Mexico, in 1994 and grew up outside Abilene, Texas; earned undergraduate degrees in economics and history from Dartmouth College in 2016.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Worked as an investment banker and hedge fund analyst before launching a news outlet and working as a film producer.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Oversight and Government Reform, the House Committee on the Judiciary, and the House Committee on the Budget in the 119th Congress.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "G000603"
+    },
+    {
+      "id": "steven-shook",
+      "name": "Steven Shook",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the March 3, 2026 Democratic primary with 51.1% of the vote",
+      "summary": {
+        "text": "Steven Shook is a nurse practitioner who has worked in North Texas healthcare for nearly two decades and won the Democratic primary to challenge Rep. Brandon Gill.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Arlington, Texas; earned an associate degree from Tarrant County College (2009), a bachelor's degree from Texas Tech University (2012), and a graduate degree from the University of Texas at Arlington (2018).",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Has worked as a nurse practitioner for nearly 20 years, caring for critically ill and injured patients in North Texas.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "In his Ballotpedia survey, listed his priorities as keeping rural hospitals open, lowering healthcare costs, supporting local businesses and job growth, strengthening public safety through community policing, and restoring accountability in Washington.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says every American deserves affordable, reliable healthcare and that rural hospitals must be kept open.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he would strengthen public safety through community policing and support local law enforcement.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "phil-gray",
+      "name": "Phil Gray",
+      "parties": ["LIB"],
+      "incumbent": false,
+      "ballotNote": "Advanced as the Libertarian Party's nominee from its March 21, 2026 state convention",
+      "summary": {
+        "text": "Phil Gray is a business owner and property manager running as the Libertarian Party nominee, focused on federal debt reduction and immigration reform.",
+        "sources": ["s5"]
+      },
+      "background": [
+        {
+          "text": "Career experience includes owning a business and working as a property manager; has been affiliated with AARP, LULAC, and the Urban League.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "His campaign website centers on reducing the national debt, including a proposal to let immigrants pay to expedite entry with the funds used to pay down debt and fund low-interest loans in place of some tax-funded programs.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "mixed",
+          "summary": "Focuses on debt reduction through non-tax revenue mechanisms, such as fees on expedited immigration processing, rather than tax increases.",
+          "sources": ["s5"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Brandon_Gill",
+      "title": "Brandon Gill",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Steven_Shook",
+      "title": "Steven Shook",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Steven_Shook",
+      "title": "Steven Shook — election results",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Phil_Gray",
+      "title": "Phil Gray",
+      "publisher": "Ballotpedia (campaign website statement)",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Gill's positions are limited to official committee assignments; no 2026 Candidate Connection survey or campaign-site statements were found for him at research time. Shook completed his Candidate Connection survey in 2025, before the 2026 cycle. Phil Gray has not completed a 2026 Candidate Connection survey; his positions are drawn from his campaign website as reproduced by Ballotpedia. Federal key votes and FEC totals for the incumbent are added separately by script."
+}

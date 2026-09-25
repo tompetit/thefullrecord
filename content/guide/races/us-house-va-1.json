@@ -1,0 +1,106 @@
+{
+  "id": "us-house-va-1",
+  "state": "VA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · Virginia's 1st District",
+  "area": "Virginia's 1st Congressional District (Northern Neck, Middle Peninsula, and parts of Fredericksburg-area and Hampton Roads exurbs)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Republican primary was canceled and incumbent Robert J. Wittman advanced unopposed. Shannon Taylor won the Democratic primary on August 4, 2026 with 53.0% of the vote in a seven-candidate field.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "robert-wittman",
+      "name": "Robert J. Wittman",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative, Virginia's 1st District (since 2007)",
+      "summary": {
+        "text": "Robert J. Wittman is the incumbent Republican U.S. Representative for Virginia's 1st District, first elected in a 2007 special election. He previously served on the Montross Town Council and as its mayor, on the Westmoreland County Board of Supervisors, and in the Virginia House of Delegates.",
+        "sources": ["s1"]
+      },
+      "background": [
+        { "text": "Born in Washington, D.C. in 1959; earned a bachelor's degree in biology from Virginia Tech, a master's in health policy and administration from the University of North Carolina, and a Ph.D. in public policy and administration from Virginia Commonwealth University.", "sources": ["s1"] },
+        { "text": "Worked as an environmental health specialist for local health departments and as field director for the Virginia Health Department's Division of Shellfish Sanitation.", "sources": ["s1"] },
+        { "text": "Served on the Montross Town Council (1986-1996, mayor 1992-1996), the Westmoreland County Board of Supervisors (1996-2005, chair 2004-2005), and was elected to the Virginia House of Delegates in 2005.", "sources": ["s1"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        { "text": "Serves on the House Committee on Natural Resources as Vice Chair, and on the House Committee on Armed Services, chairing the Tactical Air and Land Forces subcommittee, in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s1"] },
+        { "text": "Serves on the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s1"] }
+      ],
+      "researchDepth": "basic",
+      "bioguideId": "W000804"
+    },
+    {
+      "id": "shannon-taylor",
+      "name": "Shannon Taylor",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 4, 2026 Democratic primary with 53.0% of the vote",
+      "currentRole": "Commonwealth's Attorney, Henrico County",
+      "summary": {
+        "text": "Shannon Taylor is the Commonwealth's Attorney for Henrico County and the Democratic nominee for Virginia's 1st District. She is campaigning on congressional ethics reform, including bans on stock trading and lobbying by members of Congress, alongside lowering costs for families.",
+        "sources": ["s1", "s2"]
+      },
+      "background": [
+        { "text": "Graduated from Albemarle High School; earned a bachelor's degree from the University of Virginia in 1989 and a law degree from the University of Richmond School of Law in 1995.", "sources": ["s1"] },
+        { "text": "Has served as Commonwealth's Attorney (chief prosecutor) for Henrico County since 2012, saying her office secured a 90% homicide conviction rate.", "sources": ["s2"] },
+        { "text": "Ran unsuccessfully for Virginia Attorney General in 2025, losing the Democratic primary to Jay Jones 51.1% to 48.9%.", "sources": ["s1"] }
+      ],
+      "priorities": [
+        { "text": "Proposes mandatory jail time of at least one year for members of Congress who misuse at least $10,000 in taxpayer funds, and a lifetime ban on members of Congress becoming lobbyists for industries they regulated.", "sources": ["s2"] },
+        { "text": "Proposes a ban on members of Congress trading individual stocks while in office and pledges to refuse corporate PAC contributions.", "sources": ["s2"] },
+        { "text": "Says she will fight to restore expired Affordable Care Act subsidies and expand Medicare's ability to negotiate prescription drug prices.", "sources": ["s1"] }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will fight to restore Affordable Care Act subsidies and expand Medicare's ability to negotiate directly with pharmaceutical companies.",
+          "quote": "I will fight to restore the Affordable Care Act subsidies that Rob Wittman allowed to expire and restore funding for rural hospitals.",
+          "sources": ["s1"]
+        }
+      ],
+      "record": [],
+      "website": "https://www.shannonforcongress.com",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Shannon_Taylor_(Virginia)",
+      "title": "Shannon Taylor (Virginia)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Shannon_Taylor_(Virginia)",
+      "title": "Shannon Taylor's campaign website, quoted by Ballotpedia (June 25, 2026)",
+      "publisher": "Shannon Taylor campaign, via Ballotpedia",
+      "kind": "candidate",
+      "date": "2026-06-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Robert_Wittman",
+      "title": "Robert Wittman",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "electionDate": "2026-11-03",
+  "researchNotes": "No campaign website content or public statements of policy positions were located directly for Robert Wittman for this cycle within the research budget; his record reflects official committee assignments only. Taylor's stock-trading and net-worth figures about Wittman on her campaign site are her own campaign claims, not independently verified here, and are reported as her stated position rather than as fact."
+}
