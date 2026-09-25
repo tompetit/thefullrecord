@@ -31,13 +31,74 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "All Americans should have comprehensive, affordable, quality health care as a fundamental right.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Lower the costs of everything from health care to energy, while working to ensure every American has access to a well-paying job.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Committed to protecting all Minnesotans, and especially immigrant communities.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Cosponsors the Medicare for All Act and has proposed a constitutional amendment enshrining a right to health care.",
+          "quote": "That is why I am a cosponsor of the Medicare for All Act.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Opposes expanded ICE and Border Patrol enforcement, voting against a budget bill she said gave a blank check for ICE and CBP deployment, and supports admitting refugees.",
+          "quote": "I support the admission of fully vetted refugees and strongly oppose divisive efforts to demonize immigrants and turn our backs on vulnerable people.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says broad tariffs have not lowered costs and have hurt the economy.",
+          "quote": "As we have seen over the last few years, tariffs do not achieve these goals and are actively hurting our economy.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Describes herself as a proponent of gun violence prevention legislation.",
+          "quote": "I am a strong proponent of sensible gun violence prevention legislation to keep our families and communities safe.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Describes herself as a strong supporter of action on climate change as a member of the Interior-Environment Appropriations Subcommittee.",
+          "quote": "As a member of the Interior-Environment Appropriations Subcommittee, I am a strong supporter of action on climate change.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says she has worked through the Appropriations Committee to fund police officers.",
+          "quote": "I have worked to provide police officers with the funding they need to do their jobs.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations, on the Interior, Environment and Related Agencies and Defense subcommittees, in the 119th Congress; previously chaired and served as ranking member of the Defense subcommittee in earlier Congresses.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the Boundary Waters Wilderness Protection and Pollution Prevention Act to permanently protect the Boundary Waters Canoe Area Wilderness.",
+          "kind": "bill",
+          "sources": ["s8"]
         }
       ],
       "website": "https://mccollum.house.gov",
@@ -116,6 +177,46 @@
       "url": "https://ballotpedia.org/Paul_Wikstrom",
       "title": "Paul Wikstrom (Candidate Connection survey)",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://mccollum.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Betty McCollum",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://mccollum.house.gov/issues/homeland-security-immigration",
+      "title": "Homeland Security & Immigration",
+      "publisher": "Office of Rep. Betty McCollum",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://mccollum.house.gov/issues/economy-jobs",
+      "title": "Economy & Jobs",
+      "publisher": "Office of Rep. Betty McCollum",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://mccollum.house.gov/issues/civil-rights-justice",
+      "title": "Civil Rights & Justice",
+      "publisher": "Office of Rep. Betty McCollum",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://mccollum.house.gov/issues/environment",
+      "title": "Environment & Energy",
+      "publisher": "Office of Rep. Betty McCollum",
       "kind": "candidate",
       "date": "2026-09-25"
     }
