@@ -36,8 +36,43 @@
           "sources": ["s1"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says she has consistently fought on behalf of the Affordable Care Act and will fight to preserve and strengthen health care reforms that make quality, affordable coverage accessible to all.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says her district endures disproportionate environmental injustices and that the country should focus on transitioning to a clean energy economy by electrifying transportation and expanding renewables.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says she is dedicated to ensuring access to affordable housing and supports combining housing market-driven solutions with federal, state and local initiatives.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports legislation to end the ban on gun violence research at the CDC, close background-check loopholes, and ban devices that convert semi-automatic rifles into machine guns.",
+          "quote": "I support legislation to eliminate the prohibition on gun violence research at the Centers for Disease Control. It's unconscionable that the agency has been effectively barred by Congress from researching injuries and deaths related to firearms. I also support closing loopholes in the national firearm background check system, and banning devices that turn a semi-automatic rifle into a machine gun, like we saw in the horrific shooting in Las Vegas.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she has consistently fought on behalf of the Affordable Care Act, which expanded Medicaid coverage in California, and will fight to preserve and strengthen it.",
+          "quote": "Healthcare is a fundamental right. Throughout my time in Congress, I have consistently fought on behalf of the Affordable Care Act.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says the country should focus on transitioning to a clean energy economy by electrifying the transportation system and increasing use of renewables rather than relying on fossil fuel infrastructure.",
+          "quote": "Instead of risking the public health of the frontline communities across the country, we should be focused on transitioning to a clean energy economy by electrifying our transportation system and ramping up our use of renewables.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Energy and Commerce (Communications and Technology, Health, and Environment subcommittees) for the 2025-2026 term.",
@@ -51,8 +86,8 @@
         }
       ],
       "website": "https://barragan.house.gov/",
-      "researchDepth": "basic",
-      "researchNotes": "No 2026-specific campaign website statements or Candidate Connection survey responses were found beyond committee-assignment history."
+      "researchDepth": "full",
+      "researchNotes": "No 2026-specific campaign website statements or Candidate Connection survey responses were found. Positions above are drawn from her official House issues pages, which otherwise consist of press-release listings without further statements matching the fixed issue set (e.g. no direct statement on abortion, immigration enforcement, or housing zoning/supply was found)."
     },
     {
       "id": "genevieve-angel",
@@ -114,6 +149,34 @@
       "title": "Genevieve Angel Ballotpedia Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://barragan.house.gov/issues/healthcare/",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Nanette Barragán",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://barragan.house.gov/issues/environmental-justice-energy/",
+      "title": "Environment, Energy and Transportation",
+      "publisher": "Office of Rep. Nanette Barragán",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://barragan.house.gov/issues/housing-homeless/",
+      "title": "Housing & Homelessness",
+      "publisher": "Office of Rep. Nanette Barragán",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://barragan.house.gov/issues/gun-violence/",
+      "title": "Safer Communities",
+      "publisher": "Office of Rep. Nanette Barragán",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

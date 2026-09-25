@@ -40,13 +40,74 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Creating long-term job growth in Michigan is my top priority in Congress.",
+          "sources": ["s9"]
+        },
+        {
+          "text": "Congress needs to manage its spending just like many hard-working, honest families and businesses back in Michigan who work every day towards maintaining their responsible bottom lines.",
+          "sources": ["s10"]
+        },
+        {
+          "text": "As a member of Congress I have consistently supported legislative initiatives that would give the states, parents, and teachers the ability to determine the educational needs of our children.",
+          "sources": ["s8"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says the U.S. must secure the border and enforce immigration law, and voted for legislation funding thousands of additional ICE, Border Patrol and customs personnel and for the Laken Riley Act requiring ICE to detain certain criminal aliens.",
+          "quote": "we must secure our borders, enforce our laws, and cut unnecessary red tape for legal immigration",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says he holds the sanctity of life in the highest regard and supports legislation protecting the rights of the unborn; cosponsored the No Taxpayer Funding for Abortion and Abortion Insurance Full Disclosure Act.",
+          "quote": "I hold the sanctity of life in the highest regard and will continue to work diligently and support legislation that protects the rights of the unborn.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Supports the right of law-abiding citizens to bear arms and has cosponsored bills including the Concealed Carry Reciprocity Act and the Hearing Protection Act.",
+          "quote": "I support the right for law abiding citizens to bear arms and will continue to defend this liberty throughout my service in Congress.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says Michigan parents should be able to choose their children's school and supports federal scholarships allowing students at failing schools to attend a different educational institution.",
+          "quote": "Michigan parents should have the opportunity to choose the type of education their children receive. If federal scholarships are made available to some students in failing schools, they should be allowed to attend the educational institution of their choice, free from government interference.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Says the U.S. must continue to stand with Israel and has cosponsored measures including the United States-Israel Defense Partnership Act.",
+          "quote": "we must continue to stand with Israel as they defend themselves",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025–2026), serves on the House Committee on Natural Resources (Indian and Insular Affairs; Water, Wildlife and Fisheries) and chairs the House Committee on Education and the Workforce.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Cosponsored H.R. 7, the No Taxpayer Funding for Abortion and Abortion Insurance Full Disclosure Act, introduced January 2025.",
+          "kind": "bill",
+          "date": "2025-01",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Cosponsored H.R. 38, the Concealed Carry Reciprocity Act, introduced January 2025.",
+          "kind": "bill",
+          "date": "2025-01-09",
+          "sources": ["s6"]
         }
       ],
       "website": "https://walberg.house.gov",
@@ -140,6 +201,48 @@
       "title": "Christian Vukasovich",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://walberg.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Tim Walberg",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://walberg.house.gov/issues/michigan-values",
+      "title": "Michigan Values",
+      "publisher": "Office of Rep. Tim Walberg",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://walberg.house.gov/issues/foreign-affairs",
+      "title": "Foreign Affairs",
+      "publisher": "Office of Rep. Tim Walberg",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://walberg.house.gov/issues/education",
+      "title": "Education",
+      "publisher": "Office of Rep. Tim Walberg",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://walberg.house.gov/issues/jobs-and-economy",
+      "title": "Jobs and Economy",
+      "publisher": "Office of Rep. Tim Walberg",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://walberg.house.gov/issues/taxes-spending",
+      "title": "Taxes & Spending",
+      "publisher": "Office of Rep. Tim Walberg",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

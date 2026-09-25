@@ -32,13 +32,37 @@
         { "text": "Served in the Kansas State Senate (District 15) from 2001 to 2011.", "sources": ["s2"] },
         { "text": "Served as Attorney General of Kansas from 2011 to 2023.", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Border security: cosponsoring and helping pass the Laken Riley Act and Sarah's Law.", "sources": ["s6"] },
+        { "text": "Economic relief: curbing federal spending and extending tax relief for Kansas families, small businesses, and farmers and ranchers through the Working Families Tax Cut.", "sources": ["s6"] },
+        { "text": "Public safety: legislation to support victims of violent crime, coordinate a federal response to scams targeting seniors, and deport non-citizens convicted of fraud.", "sources": ["s6"] }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Cosponsored and helped pass the Laken Riley Act and backs deporting non-citizens convicted of fraud.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Voted for the Protecting American Energy Production Act to bar a president from declaring a fracking moratorium without congressional authorization, citing opposition to the prior administration's pause on new oil and gas leases.",
+          "quote": "Following four years of disastrous energy policy – primarily driven by Executive Orders – this legislation would prohibit the president from declaring a moratorium on the use of hydraulic fracturing (fracking) unless previously authorized by Congress.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on the Judiciary (Immigration Integrity, Security, and Enforcement; Oversight subcommittees), the House Committee on Small Business, and the House Committee on Armed Services (Military Personnel, Readiness, and Tactical Air and Land Forces subcommittees), 2025-2026 assignments.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Voted yes on H.R. 26, the Protecting American Energy Production Act, which bars a president from declaring a moratorium on hydraulic fracturing without prior authorization from Congress.",
+          "date": "2025-02-07",
+          "kind": "bill",
+          "sources": ["s5"]
         }
       ],
       "website": "https://schmidt.house.gov",
@@ -144,6 +168,22 @@
       "title": "Don Coover",
       "publisher": "Ballotpedia",
       "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://schmidt.house.gov/media/press-releases/schmidt-votes-protect-americas-energy-independence",
+      "title": "Schmidt Votes to Protect America's Energy Independence",
+      "publisher": "Office of Rep. Derek Schmidt",
+      "kind": "official",
+      "date": "2025-02-07"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.derekschmidt.com",
+      "title": "Meet Derek Schmidt",
+      "publisher": "Derek Schmidt for Congress campaign website",
+      "kind": "candidate",
       "date": "2026-09-25"
     }
   ],
