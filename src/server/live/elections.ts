@@ -9,6 +9,7 @@
 
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { getRace } from "../guide/load";
 import type { ElectionCandidate, SeatElection, SeatNotOnBallot } from "../types";
 
 interface CandidatesFile {
@@ -73,6 +74,25 @@ const NEXT_ON_BALLOT: Array<{ pattern: RegExp; label: string }> = [
 export function electionForSeat(
   districtKey: string
 ): SeatElection | SeatNotOnBallot | null {
+  // Prefer the voter guide's researched slate (newer, re-verified) when present
+  const race = getRace(districtKey);
+  if (race && race.candidates.length) {
+    const slate = race.sources.find((s) => /ballotpedia/i.test(s.publisher)) ?? race.sources[0];
+    return {
+      districtKey,
+      electionName: "2026 general election",
+      electionDate: race.electionDate,
+      dateLabel: "Nov 3, 2026",
+      candidates: race.candidates.map((c) => ({
+        name: c.name,
+        parties: c.parties,
+        incumbent: c.incumbent,
+        note: c.ballotNote,
+      })),
+      sourceUrl: slate?.url ?? `/guide/race/${race.id}`,
+      sourceLabel: slate?.publisher ?? "The Full Record voter guide",
+    } satisfies SeatElection;
+  }
   const election = getElections().get(districtKey);
   if (election) return election;
   const next = NEXT_ON_BALLOT.find((n) => n.pattern.test(districtKey));

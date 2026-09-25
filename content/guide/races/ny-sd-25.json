@@ -1,0 +1,167 @@
+{
+  "id": "ny-sd-25",
+  "state": "NY",
+  "officeType": "state-senate",
+  "office": "NY State Senate",
+  "district": "25",
+  "title": "NY State Senate · District 25",
+  "area": "Central Brooklyn, including Bedford-Stuyvesant, Clinton Hill, Fort Greene, Prospect Heights, Ocean Hill and Brownsville.",
+  "inNYC": true,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Jabari Brisport defeated Marlon Rice 78.3% to 21.3% (22,779 to 6,204 votes) in the June 23, 2026 Democratic primary. No Republican or other candidate is on the November 3 general-election ballot; Brisport, who also holds the Working Families Party line, is running unopposed.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jabari-brisport",
+      "name": "Jabari Brisport",
+      "parties": ["D", "WFP"],
+      "incumbent": true,
+      "currentRole": "NY State Senator, District 25 (since January 2021)",
+      "summary": {
+        "text": "Jabari Brisport is the Democratic and Working Families Party incumbent for District 25 in central Brooklyn, running unopposed in the general election. A former public school math teacher and self-described democratic socialist, he chairs the Senate Children and Families Committee and has focused on child care, housing, and immigrant rights.",
+        "sources": ["s1", "s3"]
+      },
+      "background": [
+        {
+          "text": "Born in Bedford-Stuyvesant and raised in Prospect Heights, Brooklyn; describes himself as the son of an undocumented immigrant.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Earned a bachelor's degree from New York University in 2009 and a master's degree from Yale University in 2014.",
+          "sources": ["s1"]
+        },
+        {
+          "text": "Worked as a public school math teacher in Crown Heights and was an active member of the United Federation of Teachers before his election.",
+          "sources": ["s1", "s3"]
+        },
+        {
+          "text": "Was an organizer for same-sex marriage legalization in New York (2009-2011) and an early organizer with the Black Lives Matter movement.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Campaign platform lists winning universal child care, building affordable housing, and \"fighting Trump and ICE out of NYC\" as top priorities.",
+          "quote": "Winning Universal Child Care Building Affordable Housing Fighting Trump and ICE Out of NYC",
+          "sources": ["s4"]
+        },
+        {
+          "text": "As Children and Families Committee chair, says he has led the fight for universal child care and helped secure $1.4 billion in public school funding.",
+          "quote": "As chair of the Children & Families Committee, I have led the fight for universal child care and helped secure $1.4B to fund our public schools, passed the Build Public Renewables Act to help fund green schools, and enacted protections for homeless youth.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says he will continue fighting for fully funded public housing and against privatization of NYCHA, including RAD/PACT conversions.",
+          "quote": "I will continue to fight for fully funded public housing and against all forms of privatization of NYCHA, including the RAD/PACT conversions – it is what is owed to our public housing tenants.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Lists winning universal child care as a top campaign priority and cites his record as Children and Families Committee chair on the issue.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Campaign platform calls for rent control and affordable housing and opposes privatization of public housing.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign platform pledges to fight federal immigration enforcement (\"ICE\") activity in New York City and defend immigrants' civil rights.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Cites passage of the Build Public Renewables Act, which expands public renewable-energy development, as part of his legislative record.",
+          "sources": ["s4"]
+        }
+      ],
+      "record": [
+        {
+          "text": "Sponsored S10000, which lets foster youth 18 or older at their permanency hearing request confidentiality protections over notices and reports; passed the Senate 47-13 on May 28, 2026 and was on the Assembly floor calendar as of this research.",
+          "date": "2026-05-28",
+          "kind": "bill",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Sponsored S9814, which would extend paid sick leave protections to app-based delivery workers; referred to the Senate Labor Committee on April 6, 2026.",
+          "date": "2026-04-06",
+          "kind": "bill",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Sponsored S9813, which would classify app-based delivery workers as employees entitled to workers' compensation coverage; referred to the Senate Labor Committee on April 6, 2026.",
+          "date": "2026-04-06",
+          "kind": "bill",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Chairs the Senate Children and Families Committee; also serves on the Banks, Codes, Housing Construction and Community Development, and Libraries committees.",
+          "kind": "action",
+          "sources": ["s1", "s3"]
+        }
+      ],
+      "website": "https://jabariforstatesenate.com/",
+      "researchDepth": "full"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Jabari_Brisport",
+      "title": "Jabari Brisport",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.nysenate.gov/senators/jabari-brisport/about",
+      "title": "About Jabari Brisport",
+      "publisher": "NYSenate.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://jabariforstatesenate.com/",
+      "title": "Re-Elect Jabari Brisport for State Senate",
+      "publisher": "Jabari Brisport campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S10000",
+      "title": "Senate Bill S10000",
+      "publisher": "NYSenate.gov",
+      "kind": "official",
+      "date": "2026-05-28"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S9814",
+      "title": "Senate Bill S9814, paid sick leave for delivery network workers",
+      "publisher": "NYSenate.gov",
+      "kind": "official",
+      "date": "2026-04-06"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S9813",
+      "title": "Senate Bill S9813, workers' compensation for delivery network workers",
+      "publisher": "NYSenate.gov",
+      "kind": "official",
+      "date": "2026-04-06"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "This race is uncontested in the general election: Ballotpedia lists only Jabari Brisport on the November 3, 2026 ballot for District 25."
+}
