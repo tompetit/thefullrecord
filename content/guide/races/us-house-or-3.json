@@ -1,0 +1,101 @@
+{
+  "id": "us-house-or-3",
+  "state": "OR",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "3",
+  "title": "U.S. House · Oregon's 3rd District",
+  "area": "Most of Multnomah County (inner and east Portland), northeastern Clackamas County, and all of Hood River County.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Maxine Dexter defeated Jessica Salas and Andrew Castilleja with 89.1% in the May 19, 2026 Democratic primary. Loran Ayles ran unopposed for the Republican nomination.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "maxine-dexter",
+      "name": "Maxine Dexter",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2025)",
+      "summary": {
+        "text": "Maxine Dexter is the Democratic nominee for re-election to Oregon's 3rd Congressional District, which she has represented since 2025. She is a physician and former chair of the Oregon House Housing and Homelessness Committee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Seattle, Washington, in 1972; earned a bachelor's degree in political science and communications and an M.D. from the University of Washington.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Practiced for over 15 years as a lung and critical-care physician at Kaiser Permanente, where she was elected chair of the Board of Directors at Northwest Permanente, the first woman to hold the role.",
+          "sources": ["s2", "s3"]
+        },
+        {
+          "text": "Appointed to the Oregon House of Representatives in 2020 for the 33rd District, where she chaired the House Housing and Homelessness Committee and led passage of a multi-billion-dollar bill addressing housing and homelessness; also worked on abortion access, addiction treatment, public lands and gun-violence legislation before being elected to Congress in 2024.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "In the 119th Congress (2025-2026), serves on the House Committee on Veterans' Affairs (Subcommittee on Disability Assistance and Memorial Affairs; Subcommittee on Health) and is Ranking Member of the Natural Resources Committee's Subcommittee on Oversight and Investigations.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "As an Oregon state representative, chaired the House Housing and Homelessness Committee and sponsored legislation to address the state's housing and homelessness crisis, addiction treatment, abortion access, and gun violence.",
+          "kind": "action",
+          "sources": ["s3"]
+        }
+      ],
+      "website": "https://dexterforcongress.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "loran-ayles",
+      "name": "Loran Ayles",
+      "parties": ["R"],
+      "incumbent": false,
+      "summary": {
+        "text": "Loran Ayles is the Republican nominee for Oregon's 3rd Congressional District.",
+        "sources": ["s1"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Ballotpedia biography, campaign website, or Candidate Connection survey responses were found for Loran Ayles; he reported $0 in campaign contributions as of the 2026 filing on record."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Oregon%27s_3rd_Congressional_District_election,_2026",
+      "title": "Oregon's 3rd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Maxine_Dexter",
+      "title": "Maxine Dexter",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://dexter.house.gov/about",
+      "title": "Biography",
+      "publisher": "Office of Rep. Maxine Dexter",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Federal key votes and FEC finance totals for Rep. Dexter are added separately by script."
+}

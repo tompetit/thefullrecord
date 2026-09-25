@@ -1,0 +1,148 @@
+{
+  "id": "us-house-sc-2",
+  "state": "SC",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · South Carolina's 2nd District",
+  "area": "South Carolina's 2nd Congressional District (Columbia-area Midlands)",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Joe Wilson (R) won renomination in the June 9, 2026 Republican primary with 74.2% of the vote.",
+      "sources": ["s1"]
+    },
+    {
+      "text": "Zyon Khalifa won the Democratic primary runoff on June 23, 2026 with 53.8% of the vote, defeating David Robinson II.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "joe-wilson",
+      "name": "Joe Wilson",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the June 9, 2026 Republican primary with 74.2% of the vote",
+      "currentRole": "U.S. Representative (since 2001); previously South Carolina State Senate (1984-2001)",
+      "summary": {
+        "text": "Joe Wilson is the incumbent U.S. Representative for South Carolina's 2nd District, seeking re-election. He has served in the House since 2001.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from Washington and Lee University and a law degree from the University of South Carolina. Served in the U.S. Army Reserve, 1972-1975.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served in the South Carolina State Senate (District 23), 1984-2001, before being elected to the U.S. House.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves on the House Committee on Armed Services (Readiness and Strategic Forces subcommittees), the Committee on Education and the Workforce, and the Committee on Foreign Affairs (2025-2026 assignments).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://wilson.house.gov",
+      "researchDepth": "basic",
+      "researchNotes": "Key floor votes and FEC totals are added separately by script. No current-cycle stated positions or campaign-site issue statements were located within the research budget.",
+      "bioguideId": "W000795"
+    },
+    {
+      "id": "zyon-khalifa",
+      "name": "Zyon Khalifa",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the Democratic primary runoff (June 23, 2026) with 53.8% of the vote",
+      "summary": {
+        "text": "Zyon Khalifa is an attorney and U.S. Air Force veteran running as the Democratic nominee for South Carolina's 2nd Congressional District.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Air Force from 2020 to 2025. Graduated from Silver Bluff High School, earned a bachelor's degree from the University of South Carolina (2023), and a law degree from the Southern University Law Center (2026).",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Expanding economic opportunity, supporting small businesses and workforce development, and improving infrastructure so families do not have to leave the district to succeed.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Improving healthcare access and affordability, especially in underserved areas.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Advancing data privacy protections and criminal justice reform focused on both public safety and rehabilitation.",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he is committed to ensuring affordable, accessible healthcare for all, especially in underserved areas.",
+          "quote": "I am committed to ensuring affordable, accessible healthcare for all, especially in underserved areas.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "dayna-alane-smith",
+      "name": "Dayna Alane Smith",
+      "parties": ["Workers Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "Dayna Alane Smith is the Workers Party candidate on the November 3, 2026 general-election ballot for South Carolina's 2nd Congressional District. She previously ran for a South Carolina State Senate special election in 2018.",
+        "sources": ["s4"]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No Candidate Connection survey response, campaign website, or public issue statements for the 2026 race were found within the research budget."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/South_Carolina%27s_2nd_Congressional_District_election,_2026",
+      "title": "South Carolina's 2nd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Joe_Wilson_(South_Carolina)",
+      "title": "Joe Wilson (South Carolina)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Zyon_Khalifa",
+      "title": "Zyon Khalifa",
+      "publisher": "Ballotpedia (Candidate Connection survey)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Dayna_Alane_Smith",
+      "title": "Dayna Alane Smith",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. Per the research division of labor, Wilson's federal key floor votes and FEC totals are left for later automated addition."
+}
