@@ -39,8 +39,21 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he is fully committed to ensuring and protecting the civil rights of all Americans and stands against racial, cultural, or religious intolerance.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Called for an immediate nationwide stand-down of ICE and CBP interior operations after an immigration-enforcement-related shooting, citing repeated shootings and assaults of civilians and a lack of accountability.",
+          "quote": "I am calling for an immediate nationwide stand down of ICE and CBP interior operations. Civilians are repeatedly getting shot and assaulted in the streets, and there has been a failure to conduct thorough investigations, ensure proper accountability, or commit to policy, procedural, and training reforms.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on the Judiciary (Courts, Intellectual Property, Artificial Intelligence, and the Internet Subcommittee) and the House Committee on Foreign Affairs in the 119th Congress (2025–2026).",
@@ -114,8 +127,23 @@
       "title": "Houston Brignano",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://lieu.house.gov/issues/civil-rights",
+      "title": "Civil Rights and Social Justice",
+      "publisher": "Office of Rep. Ted Lieu",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://lieu.house.gov/media-center/press-releases/rep-lieu-calls-immediate-nationwide-stand-down-ice-and-cbp-interior",
+      "title": "Rep Lieu Calls for an Immediate Nationwide Stand Down of ICE and CBP Interior Operations",
+      "publisher": "Office of Rep. Ted Lieu",
+      "kind": "official",
+      "date": "2026-01-24"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Lieu has not completed Ballotpedia's 2026 Candidate Connection survey and no current campaign-issues page was found, so no current stated priorities/positions are cited for him beyond his official committee record. Federal key votes and FEC finance totals for the incumbent are added separately by script."
+  "researchNotes": "Lieu has not completed Ballotpedia's 2026 Candidate Connection survey; his position on immigration enforcement is drawn from an official House press release, and his priorities from his official civil-rights issues page. No current statement mapping to abortion, guns, or israel_aid beyond general civil-rights and foreign-affairs committee work was found. Federal key votes and FEC finance totals for the incumbent are added separately by script."
 }

@@ -43,8 +43,57 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says increasing access to higher education and improving college affordability have been a top priority throughout her legislative career, including continued support for robust Pell grant funding and legislation allowing students to refinance loans at low rates.",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Says addressing gun violence as a public health crisis is a priority, including closing background-check loopholes, banning the sale of assault weapons and high-capacity magazines, and funding CDC research on gun violence.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says she uses her position as a senior appropriator on the Energy and Water Appropriations Subcommittee to support a national energy strategy promoting a rapid transition to clean, renewable, domestic energy sources.",
+          "sources": ["s8"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Says Congress should close background-check loopholes for gun and ammunition purchases and ban the sale of assault weapons and high-capacity magazines.",
+          "quote": "We should start by closing all the background check loopholes that allow dangerous people to evade the law and purchase deadly firearms.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Opposes efforts to repeal or defund the Affordable Care Act and cites its coverage and subsidy gains for Floridians as reasons to keep building on it.",
+          "quote": "efforts to repeal or defund the ACA are not productive in working toward quality, more affordable healthcare for all Americans.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Says she is committed to a pathway to citizenship and protections for DREAMers, TPS holders, and refugees rather than stepped-up enforcement.",
+          "quote": "This includes providing a pathway to citizenship, fair treatment under the law, and extending protections for DREAMers, Temporary Protected Status holders, and refugees.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Describes herself as a staunch supporter of Israel and its citizens' right to live in peace and security.",
+          "quote": "I am a staunch supporter of the State of Israel and her citizens’ right to live in peace and security.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says she supports a national energy strategy for a rapid transition to clean, renewable energy sources to address the climate crisis, while opposing offshore oil and gas drilling.",
+          "quote": "I believe it is critical that we use smart, forward-thinking energy policy to address the climate crisis and prevent the worst consequences of climate change by dramatically reducing our emissions of greenhouse gases.",
+          "sources": ["s8"]
+        }
+      ],
       "record": [
         {
           "text": "Sits on the House Appropriations Committee for the 2025–2026 Congress, including its Agriculture and Energy and Water subcommittees.",
@@ -160,6 +209,48 @@
       "title": "Brent Andersen",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://wassermanschultz.house.gov/Issues/Issue/?IssueID=15086",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Debbie Wasserman Schultz",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://wassermanschultz.house.gov/Issues/Issue/?IssueID=15062",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Debbie Wasserman Schultz",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://wassermanschultz.house.gov/Issues/Issue/?IssueID=15089",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Debbie Wasserman Schultz",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://wassermanschultz.house.gov/Issues/Issue/?IssueID=15067",
+      "title": "College Affordability",
+      "publisher": "Office of Rep. Debbie Wasserman Schultz",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://wassermanschultz.house.gov/Issues/Issue/?IssueID=15064",
+      "title": "Renewable Energy",
+      "publisher": "Office of Rep. Debbie Wasserman Schultz",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://wassermanschultz.house.gov/Issues/Issue/?IssueID=15059",
+      "title": "Israel",
+      "publisher": "Office of Rep. Debbie Wasserman Schultz",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
