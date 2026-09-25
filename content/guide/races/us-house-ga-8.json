@@ -44,16 +44,70 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he is proud to be pro-life and remains fully committed to the belief that life begins at conception, and to protecting the lives of the unborn.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says reducing federal spending and working toward a balanced budget has been one of his top priorities since coming to Congress, citing the national debt as one of the greatest threats to the country's economic security.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "As a member of the House Committee on Agriculture, says he works to advocate on behalf of Georgia's ranchers and farmers and to help author a Farm Bill that benefits the state's agricultural community.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His official site says he is pro-life, believes life begins at conception, and has voted for and cosponsored numerous bills restricting abortion and defunding Planned Parenthood.",
+          "quote": "I am proud to be pro-life and am committed to protecting the lives of the unborn. I believe that life begins at conception, and developments in science continue to confirm that truth.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "His official site says he opposes adding layers of gun control, saying such measures would do little to protect citizens, and pledges to continue supporting and protecting Second Amendment rights.",
+          "quote": "We can fight crime by holding criminals accountable for their actions, not by disregarding the Second Amendment of the U.S. Constitution and adding layers of gun control that would do little to nothing to protect our citizens.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His official site says the country must secure its borders, remove illegal immigrants currently in the country, and enforce existing immigration laws before any reform is considered.",
+          "quote": "We must first secure our borders, remove the illegal immigrants currently in our country and enforce our existing immigration laws before we attempt to implement any type of immigration reform.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "His official site says he opposed the Affordable Care Act as a government takeover of health care and voted to repeal it, favoring market-based reforms instead.",
+          "quote": "I co-sponsored and voted for H.R. 2 to repeal the Patient Protection and Affordable Care Act.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "His official site says ensuring Israel's continued qualitative military edge and completing the U.S.-Israel 10-year Memorandum of Understanding for military assistance is a key national security priority.",
+          "quote": "I believe that ensuring Israel's continued qualitative military edge in the region and completing the U.S.-Israel 10-year Memorandum of Understanding for military assistance remains a key American national security priority.",
+          "sources": ["s10"]
+        }
+      ],
       "record": [
         {
           "text": "Serves as Vice Chair of the House Committee on Agriculture and Chair of its General Farm Commodities, Risk Management, and Credit Subcommittee in the 119th Congress (2025-2026).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Voted for and cosponsored H.R. 3134, the Defund Planned Parenthood Act, and H.R. 217, the Title X Abortion Provider Prohibition Act, among other abortion-related bills listed on his official site.",
+          "kind": "bill",
+          "sources": ["s4"]
         }
       ],
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "bioguideId": "S001189"
     },
     {
@@ -153,6 +207,62 @@
       "title": "Georgia's 8th Congressional District election, 2026 (Candidate Connection survey responses)",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://austinscott.house.gov/abortion",
+      "title": "Abortion",
+      "publisher": "Office of Rep. Austin Scott",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://austinscott.house.gov/economy-and-jobs",
+      "title": "Economy and Jobs",
+      "publisher": "Office of Rep. Austin Scott",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://austinscott.house.gov/agriculture",
+      "title": "Agriculture",
+      "publisher": "Office of Rep. Austin Scott",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://austinscott.house.gov/second-amendment",
+      "title": "Second Amendment",
+      "publisher": "Office of Rep. Austin Scott",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://austinscott.house.gov/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Austin Scott",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://austinscott.house.gov/healthcare",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Austin Scott",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s10",
+      "url": "https://austinscott.house.gov/foreign-affairs",
+      "title": "Foreign Affairs",
+      "publisher": "Office of Rep. Austin Scott",
+      "kind": "candidate",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",

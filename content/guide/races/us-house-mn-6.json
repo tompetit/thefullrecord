@@ -36,7 +36,15 @@
         {"text": "Focuses on financial services and digital-asset policy as Vice Chair of the Committee on Financial Services.", "sources": ["s2"]},
         {"text": "Lists agriculture, law enforcement, mental health, and transportation as district priorities on his official website.", "sources": ["s3"]}
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says law enforcement has worked under repeated budget cuts and that Congress should stand behind officers, and highlights his work supporting law-enforcement programs.",
+          "quote": "Our law enforcement officers sacrifice so much to keep our communities safe, the very least we can do is stand behind them.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {"text": "Elected House Majority Whip for the 118th Congress and continues in that role in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]},
         {"text": "Serves as Vice Chair of the Committee on Financial Services in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]},
@@ -44,7 +52,8 @@
       ],
       "website": "https://emmer.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "E000294"
+      "bioguideId": "E000294",
+      "researchNotes": "Emmer's official issues pages (agriculture, blockchain, crypto caucus, law enforcement, mental health, transportation) rarely address the guide's 15 issue statements directly; most map to topics outside those categories (agriculture, digital-asset policy) rather than a documented stance on them, so only one position could be added without inferring from party or general rhetoric."
     },
     {
       "id": "doug-chapin",
@@ -76,7 +85,8 @@
     {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Minnesota,_2026", "title": "United States House of Representatives elections in Minnesota, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
     {"id": "s2", "url": "https://ballotpedia.org/Tom_Emmer", "title": "Tom Emmer", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
     {"id": "s3", "url": "https://emmer.house.gov", "title": "Congressman Tom Emmer", "publisher": "Office of Rep. Tom Emmer", "kind": "official", "date": "2026-09-25"},
-    {"id": "s4", "url": "https://ballotpedia.org/Doug_Chapin", "title": "Doug Chapin", "publisher": "Ballotpedia (Candidate Connection survey)", "kind": "candidate", "date": "2026-09-25"}
+    {"id": "s4", "url": "https://ballotpedia.org/Doug_Chapin", "title": "Doug Chapin", "publisher": "Ballotpedia (Candidate Connection survey)", "kind": "candidate", "date": "2026-09-25"},
+    {"id": "s5", "url": "https://emmer.house.gov/issues/law-enforcement", "title": "Law Enforcement", "publisher": "Office of Rep. Tom Emmer", "kind": "candidate", "date": "2026-09-25"}
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Basic-tier research. Federal key votes and FEC finance totals for Rep. Emmer are added separately by script."

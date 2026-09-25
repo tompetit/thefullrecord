@@ -44,6 +44,30 @@
       "title": "Dave Wallace (Maryland)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://olszewski.house.gov/media/press-releases/olszewski-votes-extend-healthcare-tax-credits-millions-americans",
+      "title": "Olszewski Votes to Extend Healthcare Tax Credits for Millions of Americans",
+      "publisher": "Office of Rep. Johnny Olszewski",
+      "kind": "official",
+      "date": "2026-01-08"
+    },
+    {
+      "id": "s6",
+      "url": "https://olszewski.house.gov/media/press-releases/olszewski-led-bill-lower-housing-costs-passes-congress-blocked-trump",
+      "title": "Olszewski-Led Bill to Lower Housing Costs Passes Congress, Blocked by Trump",
+      "publisher": "Office of Rep. Johnny Olszewski",
+      "kind": "official",
+      "date": "2026-06-24"
+    },
+    {
+      "id": "s7",
+      "url": "https://olszewski.house.gov/media/press-releases/olszewski-vote-again-against-ice-funding-without-safeguards",
+      "title": "Statement on vote against DHS/ICE funding extension without accountability measures",
+      "publisher": "Office of Rep. Johnny Olszewski",
+      "kind": "official",
+      "date": "2026-02-03"
     }
   ],
   "candidates": [
@@ -103,7 +127,29 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Voted for bipartisan legislation to extend expiring Affordable Care Act tax credits for 22 million Americans, after previously voting against a Republican bill he said failed to address rising premiums.",
+          "quote": "No American should ever have to worry about whether or not they can afford to see a doctor when they are sick.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Co-led the RESIDE Act, included in the bipartisan 21st Century ROAD to Housing Act, to create a HUD pilot program converting vacant and blighted properties into housing and increase the supply of affordable housing.",
+          "quote": "The cost-of-living crisis begins and ends with housing — because if you don't have a safe roof over your head, little else matters.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Voted against funding for ICE operations without new accountability measures, citing wrongful arrests and deportations of U.S. citizens, and called for reforms such as banning the detention of U.S. citizens and requiring body-worn cameras before he would support DHS/ICE funding.",
+          "quote": "As Americans, it is time that we say ‘enough’ to ICE – which is why I will again vote no on legislation that funds its operations without any new accountability measures.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "As a member of the Maryland House of Delegates, championed earned sick leave legislation and a minimum wage increase.",

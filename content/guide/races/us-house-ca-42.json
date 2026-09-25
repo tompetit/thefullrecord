@@ -110,6 +110,10 @@
       },
       "background": [
         {
+          "text": "Raised in a small town in Michigan, where his father was a forklift operator and his mother worked as a waitress and an accountant.",
+          "sources": ["s4"]
+        },
+        {
           "text": "Earned a bachelor's degree in political economy and a master's degree in public policy from the University of Southern California.",
           "sources": ["s3"]
         },
@@ -122,11 +126,28 @@
           "sources": ["s3"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he will advocate for tax relief for families and business owners, take a stand against illegal immigration, fully support law enforcement and the military, and work to restore what he calls American family values.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says his approach as a school board member — protecting parents' voices and stewarding taxpayer dollars responsibly — is the servant-leadership style he would bring to Congress, focused on safe neighborhoods, quality education and a strong economy.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he will take a stand against illegal immigration.",
+          "quote": "Take a Stand Against Illegal Immigration",
+          "sources": ["s5"]
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No current campaign website or 2026 Candidate Connection survey responses were found; Burley completed Ballotpedia's survey for a 2019 run, but no 2026-specific policy statements were located."
+      "researchDepth": "basic",
+      "researchNotes": "No 2026 Ballotpedia Candidate Connection survey response found (he completed one for a 2019 run in a different district, not cited here as stale). Background and priorities drawn from his active 2026 campaign website."
     }
   ],
   "sources": [
@@ -150,6 +171,22 @@
       "title": "Brian Burley",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Brian_Burley",
+      "title": "Brian Burley — Candidate Connection survey (2019)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2019-01-01"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.burley4congress.com/",
+      "title": "Home / Why I Am Running",
+      "publisher": "Brian Burley for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",

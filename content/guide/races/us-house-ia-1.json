@@ -182,14 +182,24 @@
       "parties": ["IND"],
       "incumbent": false,
       "summary": {
-        "text": "Bridgford is an independent candidate on the general-election ballot for Iowa's 1st District.",
-        "sources": ["s1"]
+        "text": "Bridgford is an independent financial advisor and small-business owner running as an independent candidate for Iowa's 1st Congressional District.",
+        "sources": ["s8"]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Earned an MBA from Northwestern University.",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Works as an independent financial advisor and small-business owner.",
+          "sources": ["s8"]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "researchNotes": "Bridgford has not completed Ballotpedia's Candidate Connection survey. His campaign website (bridgfordforiowa.com) has an Issues page and a Why I'm Running page, but both returned only navigation scaffolding with no policy text when fetched, so no priorities or issue positions could be sourced."
     }
   ],
   "sources": [
@@ -240,8 +250,16 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Michael_Bridgford",
+      "title": "Michael Bridgford",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Miller-Meeks's tariff position is only documented through her opponent's campaign materials (a candidate source about the other candidate), not through Miller-Meeks's own statements; treat with appropriate caution. Bohannan's own record as a state legislator was not itemized bill-by-bill within the research budget. No campaign website, statements, or Ballotpedia profile page could be located for independent candidate Michael Bridgford."
+  "researchNotes": "Miller-Meeks's tariff position is only documented through her opponent's campaign materials (a candidate source about the other candidate), not through Miller-Meeks's own statements; treat with appropriate caution. Bohannan's own record as a state legislator was not itemized bill-by-bill within the research budget."
 }

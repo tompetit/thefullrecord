@@ -52,8 +52,31 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he supports federal resources for rural health care, including Community Health Centers and the Center of Excellence in Rural Health in Hazard, and continued efforts to combat prescription-drug and opioid abuse in the region.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he supports \"an all of the above, market-based approach to energy policy,\" including continued coal mining, to keep electricity costs low for the district.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Supports the 2017 Tax Cuts and Jobs Act, describing it on his issues page as having reduced tax rates for both individuals and businesses, and calls for a simpler, flatter tax code.",
+          "quote": "The Tax Cuts and Jobs Act, signed into law in December 2017, marked the first tax code overhaul in more than 30 years. It reduced tax rates for individuals and businesses alike, allowing the average American to keep more of their hard-earned money and companies to hire more workers.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations and chairs its Subcommittee on Commerce, Justice, Science and Related Agencies (119th Congress, 2025-2026).",
@@ -68,10 +91,17 @@
           "sources": [
             "s1"
           ]
+        },
+        {
+          "text": "Founded Operation UNITE, a regional anti-drug initiative combining investigations, treatment, and education, and helped establish a national grant program for Prescription Drug Monitoring Programs.",
+          "kind": "action",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "website": "https://halrogers.house.gov",
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "bioguideId": "R000395"
     },
     {
@@ -262,6 +292,38 @@
       "date": "2026-09-25"
     },
     {
+      "id": "s3",
+      "url": "https://halrogers.house.gov/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Hal Rogers",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://halrogers.house.gov/energy",
+      "title": "Energy",
+      "publisher": "Office of Rep. Hal Rogers",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://halrogers.house.gov/taxes",
+      "title": "Taxes",
+      "publisher": "Office of Rep. Hal Rogers",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://halrogers.house.gov/illegal-drugs",
+      "title": "Illegal Drugs",
+      "publisher": "Office of Rep. Hal Rogers",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
       "id": "s4",
       "url": "https://ballotpedia.org/Kentucky%27s_5th_Congressional_District_election,_2026",
       "title": "Kentucky's 5th Congressional District election, 2026",
@@ -271,5 +333,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Rogers's federal key floor votes and FEC finance totals are added separately by script; his vote on the 2025 reconciliation bill is included here only as characterized by his opponent's campaign, since the official roll call was not independently checked. No public information beyond his name on the ballot was found for write-in candidate Billy Ray Wilson."
+  "researchNotes": "Rogers's federal key floor votes and FEC finance totals are added separately by script; his vote on the 2025 reconciliation bill is included here only as characterized by his opponent's campaign, since the official roll call was not independently checked. Checked Rogers's official issues pages (appropriations, economic development, education, energy, environment, homeland security, health care, illegal drugs, taxes, tourism, transportation, veterans) and immigration services page; no statements found there addressing abortion, guns, immigration enforcement specifically, rent regulation, housing supply, climate transition pace, police funding, school choice, congestion pricing, minimum wage, Israel aid, or tariffs. No public information beyond his name on the ballot was found for write-in candidate Billy Ray Wilson."
 }

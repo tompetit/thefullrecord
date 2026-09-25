@@ -46,8 +46,46 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says as an emergency room physician he is committed to addressing the challenges in health care and fighting to ensure Americans have access to quality, affordable care, including deregulating health care and promoting competition to lower drug prices.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Says cutting wasteful regulations and government spending, not services, is necessary to address the national debt and budget deficit.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Says he is working in Congress to make certain federal, state, and local law enforcement have the resources and training needed to combat the flow of illegal drugs, stop criminal gangs, and end human trafficking at the border.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His official site says life begins at conception and he is committed to defending and supporting the unborn, and he cosponsors the Life at Conception Act.",
+          "quote": "Life begins at conception, and I am committed to defending and supporting the unborn, recognizing their inherent dignity and fundamental human rights.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His official site says the border is too porous and must be secured, and he cosponsors bills including the Laken Riley Act and the REMAIN in Mexico Act.",
+          "quote": "Our border is much too porous, and we have to fix it. Without a secure border, we can't have a secure nation.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Science, Space, and Technology (chair of the Investigations and Oversight Subcommittee; Space and Aeronautics Subcommittee), the House Committee on Armed Services (Cyber, Information Technologies, and Innovation; Tactical Air and Land Forces subcommittees), and the Committee on Foreign Affairs in the 119th Congress (2025-2026).",
@@ -55,9 +93,23 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "text": "Cosponsored the Life at Conception Act, which declares that the constitutional right to life applies to every human being, born and unborn.",
+          "kind": "bill",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Cosponsored H.R. 29, the Laken Riley Act, which authorizes detention of aliens arrested for certain crimes including burglary, theft, larceny or shoplifting, and lets states sue the federal government over enforcement.",
+          "kind": "bill",
+          "sources": [
+            "s5"
+          ]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "full"
     },
     {
       "id": "tony-kozycki",
@@ -151,6 +203,38 @@
       "title": "Tony Kozycki",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://mccormick.house.gov/issues/values",
+      "title": "Values",
+      "publisher": "Office of Rep. Rich McCormick",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://mccormick.house.gov/issues/immigration-border-security",
+      "title": "Immigration & Border Security",
+      "publisher": "Office of Rep. Rich McCormick",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://mccormick.house.gov/issues/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Rich McCormick",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://mccormick.house.gov/issues/fiscal-responsibility",
+      "title": "Fiscal Responsibility",
+      "publisher": "Office of Rep. Rich McCormick",
+      "kind": "candidate",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25"
