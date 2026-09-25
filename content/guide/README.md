@@ -47,3 +47,8 @@ Candidate `id` = lowercase hyphenated name slug (`brad-lander`).
 8. Nothing that isn't on the general-election ballot on Nov 3, 2026. Candidates
    who lost primaries don't get entries (mention notable primary results in
    `context`).
+9. **Allegations** (anything short of a charge, court finding, or official
+   ethics finding) are included only if you fetched a reputable news report
+   yourself — never via Wikipedia or another summary — and they must be
+   stated as allegations, with the subject's response if the source gives it.
+   Charges and convictions state exactly what the record says.
