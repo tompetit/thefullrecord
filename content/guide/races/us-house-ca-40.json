@@ -148,7 +148,35 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Says a single-payer approach is not the solution to healthcare costs and instead favors giving states more leverage over Medicaid and giving consumers more control over their coverage.",
+          "quote": "While I believe a one-size-fits-all single-payer approach to healthcare is not the solution, I am committed to working in Congress to ensure everyone has access to affordable high-quality healthcare and medical treatment.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Calls for securing the border and equipping Customs and Border Patrol with better technology, while also saying DACA recipients must be treated fairly and with compassion.",
+          "quote": "Any path towards immigration reform should ensure that our border and America's other points of entry are secure, and Customs and Border Patrol has the latest technology so they can effectively do their job. DACA recipients must also be treated fairly and with compassion and reforms must uphold American values and the rule of law.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Was an original cosponsor of a House resolution standing with Israel after the October 7, 2023 Hamas attack and spoke on the floor in support of Israel's right to defend itself.",
+          "quote": "Israel has a right to defend itself against terrorist aggression, bring its hostages home, and the right to exist.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Committee on Foreign Affairs and also serves on the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party and the House Committee on Financial Services in the 119th Congress (2025–2026).",
@@ -158,7 +186,7 @@
           ]
         }
       ],
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "bioguideId": "K000397"
     }
   ],
@@ -204,8 +232,29 @@
       "title": "Rep. Calvert Votes for Historic Tax Relief for American Taxpayers and Job Creators",
       "publisher": "Office of Rep. Ken Calvert",
       "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://youngkim.house.gov/issues/health/",
+      "title": "Health",
+      "publisher": "Office of Rep. Young Kim",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://youngkim.house.gov/issues/immigration/",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Young Kim",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://youngkim.house.gov/2023/10/25/rep-young-kim-urges-congress-stand-israel/",
+      "title": "Rep. Young Kim Urges Congress to Stand with Israel",
+      "publisher": "Office of Rep. Young Kim",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Both incumbents' 2026 Candidate Connection survey status was not checked in detail; their stated priorities here are drawn from Ballotpedia's battleground-race summary, which quotes each campaign's own website. Federal key votes and FEC finance totals for both incumbents are added separately by script."
+  "researchNotes": "Both incumbents' 2026 Candidate Connection survey status was not checked in detail; their stated priorities here are drawn from Ballotpedia's battleground-race summary, which quotes each campaign's own website. Positions for both are drawn from their official House pages and press releases. Federal key votes and FEC finance totals for both incumbents are added separately by script."
 }

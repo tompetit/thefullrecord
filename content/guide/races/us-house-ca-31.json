@@ -44,13 +44,58 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says everyone deserves access to affordable, quality healthcare, and cites his work in Congress and as Under Secretary of Defense to expand healthcare access for working families.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Says he is a vocal advocate for keeping immigrant families together and protecting the pathway to citizenship.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Says the district's small businesses and entrepreneurs need an economy that works for everyone, and cites his seat on the House Committee on Small Business.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Led a letter urging Republican leadership not to obstruct legislation protecting Dreamers from deportation and work-authorization lapses, and has cosponsored the American Dream and Promise Act.",
+          "quote": "This failure of leadership is forcing Dreamers out of the workforce and placing them at risk of deportation. It is cruel and unjust, and it needs to end now.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Voted for legislation to restore Affordable Care Act premium tax credits, saying the credits give relief to Americans facing high healthcare costs.",
+          "quote": "Today, I proudly voted yes on the clean bill to restore the ACA tax credits, because we need these cost-saving tax credits to give relief to the millions of Americans feeling crushed by the weight of healthcare costs.",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Introduced legislation citing the need for small-business relief from the administration's tariffs, which he described as chaotic.",
+          "quote": "I hear it every day, small businesses need relief from Trump’s chaotic use of tariffs, but the Small Business Administration Office of Advocacy, which should advocate for small businesses across the federal government, ignores them.",
+          "sources": ["s9"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Armed Services (Intelligence and Special Operations Subcommittee; Military Personnel Subcommittee) and the House Committee on Small Business (Contracting and Infrastructure Subcommittee; Oversight, Investigations, and Regulations Subcommittee) in the 119th Congress (2025-2026).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced the Streamlining Small Business Contracts Act, which would raise the threshold for single-source SBA contracts to reflect current costs and inflation.",
+          "kind": "bill",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Introduced the Cut the Burden, Keep the Benefits Act, which would require the SBA Office of Advocacy to solicit and report on small-business concerns about government actions including tariffs and healthcare rules.",
+          "kind": "bill",
+          "sources": ["s9"]
         }
       ],
       "researchDepth": "basic"
@@ -120,8 +165,53 @@
       "title": "Eric Ching - Ballotpedia's Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://cisneros.house.gov/issues/health",
+      "title": "Health",
+      "publisher": "Office of Rep. Gil Cisneros",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://cisneros.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Gil Cisneros",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://cisneros.house.gov/issues/economy-and-small-businesses",
+      "title": "Economy and Small Businesses",
+      "publisher": "Office of Rep. Gil Cisneros",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://cisneros.house.gov/media/press-releases/rep-cisneros-leads-60-colleagues-letter-republican-leadership-championing",
+      "title": "Rep. Cisneros Leads 60+ Colleagues in Letter to Republican Leadership Championing Legislation to Support Dreamers",
+      "publisher": "Office of Rep. Gil Cisneros",
+      "kind": "candidate",
+      "date": "2026-07-24"
+    },
+    {
+      "id": "s8",
+      "url": "https://cisneros.house.gov/media/press-releases/rep-cisneros-votes-extend-aca-tax-credits-reduce-healthcare-costs",
+      "title": "Rep. Cisneros Votes to Extend ACA Tax Credits, Reduce Healthcare Costs",
+      "publisher": "Office of Rep. Gil Cisneros",
+      "kind": "candidate",
+      "date": "2026-01-08"
+    },
+    {
+      "id": "s9",
+      "url": "https://cisneros.house.gov/media/press-releases/rep-cisneros-introduces-bill-reduce-administrative-burden-small-businesses",
+      "title": "Rep. Cisneros Introduces Bill to Reduce Administrative Burden on Small Businesses",
+      "publisher": "Office of Rep. Gil Cisneros",
+      "kind": "candidate",
+      "date": "2025-12-03"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Gil Cisneros has not completed Ballotpedia's 2026 Candidate Connection survey and no current issue-by-issue statements were found within this session's time budget beyond his committee role; his federal floor votes and FEC totals are added separately by script. Eric Ching completed the 2026 survey and a separate quote from his campaign website, which are the basis for his priorities and the gun-rights position listed here. The 'guns' issue key in this guide is phrased as support for stricter gun laws, so a stated support for gun rights is recorded as 'opposes' that statement."
+  "researchNotes": "Gil Cisneros has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities were drawn from his official House issues pages and press releases. His federal floor votes and FEC totals are added separately by script. Eric Ching completed the 2026 survey and a separate quote from his campaign website, which are the basis for his priorities and the gun-rights position listed here. The 'guns' issue key in this guide is phrased as support for stricter gun laws, so a stated support for gun rights is recorded as 'opposes' that statement."
 }

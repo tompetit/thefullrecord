@@ -39,13 +39,57 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists restoring California's oil and gas production and cutting energy regulation as a priority, describing it as key to lowering costs and strengthening national security.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Lists cutting regulatory barriers to housing construction and expanding housing supply as a priority for lowering home prices in the Central Valley.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Supports reopening federal oil and gas leasing and expanding domestic refining capacity rather than accelerating a shift away from fossil fuels.",
+          "quote": "This important and needed move by the Bureau of Land Management is a strong step toward restoring California's oil production, lowering costs for families, reducing our reliance on foreign sources of energy by unleashing American energy independence, and protecting good-paying jobs.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports cutting regulatory barriers and streamlining permitting to expand housing supply.",
+          "quote": "Building more houses, cutting red tape, empowering local and rural lenders, and modernizing outdated federal programs is exactly how we lower costs and make housing more affordable.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supported the 2025 budget reconciliation law's $175 billion border-security investment and provisions barring federal Medicaid funds for immigrants without legal status.",
+          "quote": "Provides over $175 billion – the largest border security investment in history – to secure our borders and keep Americans safe.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Supported making the 2017 Tax Cuts and Jobs Act permanent rather than allowing its rates to expire, describing the expiration as the largest tax increase in American history.",
+          "quote": "This legislation delivers for the Central Valley by preventing the largest tax increase in American history, supporting our farmers and small businesses, and ensuring the sustainability of our government's fiscal future.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Transportation and Infrastructure (Highways and Transit; Railroads, Pipelines, and Hazardous Materials; Water Resources and Environment subcommittees) and the Committee on Science, Space, and Technology in the 119th Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Introduced H.J. Res. 210, a Congressional Review Act resolution to overturn the EPA's authorization of California's Air Resources Board At-Berth Regulation; the House passed it.",
+          "kind": "bill",
+          "date": "2026-09-15",
+          "sources": ["s7"]
         }
       ],
       "researchDepth": "basic",
@@ -110,8 +154,40 @@
       "title": "Sandra Van Scotter — Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://fong.house.gov/media/press-releases/congressman-fong-applauds-bureau-land-management-effort-reopen-oil-and-gas",
+      "title": "Congressman Fong Applauds Bureau of Land Management for effort to reopen oil and gas leasing in Central California",
+      "publisher": "Office of Rep. Vince Fong",
+      "kind": "candidate",
+      "date": "2025-06-24"
+    },
+    {
+      "id": "s5",
+      "url": "https://fong.house.gov/media/press-releases/fong-votes-lower-housing-costs",
+      "title": "Fong Votes to Lower Housing Costs",
+      "publisher": "Office of Rep. Vince Fong",
+      "kind": "candidate",
+      "date": "2026-05-20"
+    },
+    {
+      "id": "s6",
+      "url": "https://fong.house.gov/media/press-releases/congressman-fong-votes-pass-one-big-beautiful-bill-act-delivering-historic-0",
+      "title": "Congressman Fong Votes to Pass \"One Big Beautiful Bill Act,\" Delivering Historic Tax Relief for California's 20th District",
+      "publisher": "Office of Rep. Vince Fong",
+      "kind": "candidate",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://fong.house.gov/media/press-releases/fong-legislation-end-californias-hidden-tax-raising-costs-americans-passes",
+      "title": "Fong Legislation to End California's Hidden Tax Raising Costs on Americans Passes House",
+      "publisher": "Office of Rep. Vince Fong",
+      "kind": "candidate",
+      "date": "2026-09-15"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Vince Fong has not completed Ballotpedia's 2026 Candidate Connection survey and no current campaign-issues page was found; his positions/priorities are limited to committee assignments from official House records. No independent biography was found for Sandra Van Scotter beyond her Ballotpedia Candidate Connection survey answers and campaign-finance filings; researchDepth is basic given the limited public record. Federal key votes and FEC totals for the incumbent are added separately by script."
+  "researchNotes": "Vince Fong has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities above are drawn from his official House press releases (fong.house.gov), checked 2026-09-25, since his issues pages (Economy, Energy, Health, Congress) contain no position text. No independent biography was found for Sandra Van Scotter beyond her Ballotpedia Candidate Connection survey answers and campaign-finance filings; researchDepth is basic given the limited public record. Federal key votes and FEC totals for the incumbent are added separately by script."
 }

@@ -40,8 +40,44 @@
           "sources": ["s3"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says improving school safety is a central focus of his work in Congress, including legislation requiring nationwide background checks for school contractors, silent panic alarms, and improved emergency notification systems.",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Says blocking 3D-printed \"ghost guns\" and devices is part of a multi-pronged approach to ending the gun violence crisis.",
+          "quote": "It'll take a multi-pronged approach to end the ongoing gun violence crisis in our country and ensure no community has to face the tragedy my hometown of Parkland did.",
+          "sources": ["s9"]
+        },
+        {
+          "text": "Says protecting Medicaid and SNAP benefits from Republican budget cuts is a priority, citing the tens of thousands of Florida families in his district who rely on them.",
+          "sources": ["s10"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Co-led the 3D Printed Gun Safety Act to block the online distribution of blueprints for 3D-printed \"ghost guns\" and has introduced multiple school-safety bills involving background checks.",
+          "quote": "I'm once again teaming up with Sen. Markey to block 3D-printed ghost guns and devices from our streets.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Signed a discharge petition to force a vote on the Hands Off Medicaid and SNAP Act, which would block Republican cuts to Medicaid, and introduced an amendment to protect Medicaid, Medicare, and Social Security funding.",
+          "quote": "It'll clarify once and for all whether they'll stand with working families to protect these programs or cut the lifelines that tens of thousands of Florida families rely on.",
+          "sources": ["s10"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Criticized the Supreme Court decision allowing the Trump administration to end Temporary Protected Status for roughly 350,000 Haitian immigrants, calling for the administration to reverse course.",
+          "quote": "Today’s decision is a failure of judgment that puts roughly 350,000 Haitians at risk of deportation to a country our own State Department says is too dangerous to visit.",
+          "sources": ["s11"]
+        }
+      ],
       "record": [
         {
           "text": "Served on the House Committee on Foreign Affairs (Subcommittee on the Western Hemisphere) and the House Committee on Oversight and Government Reform (Subcommittee on Cybersecurity, Information Technology, and Government Innovation) during the 118th Congress (2023-2024).",
@@ -52,11 +88,26 @@
           "text": "As a Florida state representative, served on the Appropriations, Commerce, and Joint Legislative Budget Commission committees (2017 session), and earlier on Finance & Tax, Judiciary, and Regulatory Affairs (as ranking member, 2015 session).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Sponsored the Comprehensive Health & Integrity in Licensing and Documentation (CHILD) Act, which would require nationwide background checks for contractors working with students; the bill cleared the House Judiciary Committee in July 2026.",
+          "kind": "bill",
+          "sources": ["s8"]
+        },
+        {
+          "text": "Co-sponsored the 3D Printed Gun Safety Act with Sen. Ed Markey, which would prohibit the online distribution of blueprints for 3D-printed firearms.",
+          "kind": "bill",
+          "sources": ["s9"]
+        },
+        {
+          "text": "Co-led the Abraham Accords Defense Against Terror Act with Rep. Mike Lawler, which would expedite arms sales to U.S. partners that have normalized relations with Israel.",
+          "kind": "bill",
+          "sources": ["s12"]
         }
       ],
       "website": "https://www.jaredforflorida.com/",
       "researchDepth": "basic",
-      "researchNotes": "Moskowitz has not completed Ballotpedia's 2026 Candidate Connection survey; his federal key votes and FEC finance totals are added separately by script, per this project's division of labor. Committee assignments listed are from the 118th Congress; current 119th Congress assignments were not independently confirmed."
+      "researchNotes": "Moskowitz has not completed Ballotpedia's 2026 Candidate Connection survey; his federal key votes and FEC finance totals are added separately by script, per this project's division of labor. Committee assignments listed are from the 118th Congress; current 119th Congress assignments were not independently confirmed. Checked moskowitz.house.gov/issues and its Israel, Foreign Affairs, Economy, and Health topic pages; found bills expediting arms sales to Israel's regional partners and reaffirming Israel's right to self-defense, but no statement squarely addressing continued U.S. military aid to Israel, so no israel_aid position was added."
     },
     {
       "id": "scott-singer",

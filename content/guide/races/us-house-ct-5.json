@@ -30,15 +30,49 @@
         { "text": "Worked as a public-school teacher before running for Congress.", "sources": ["s2"] },
         { "text": "Has represented Connecticut's 5th District in the U.S. House since 2019, currently serving her fourth term.", "sources": ["s2"] }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        { "text": "Says she has been a strong proponent of \"commonsense gun laws that keeps our communities safe,\" supporting universal background checks, community violence prevention funding, and safe storage.", "sources": ["s5"] },
+        { "text": "Says her work has centered on \"reducing systemic barriers to healthcare that cause disparities, while increasing access and affordability,\" including lowering drug prices and stabilizing the Affordable Care Act.", "sources": ["s6"] },
+        { "text": "Says she has introduced proposals to \"mitigate carbon emissions and conserve our ecosystems, while creating high-wage, union jobs,\" and has been an original cosponsor of the Green New Deal.", "sources": ["s7"] }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Says she has supported legislation for universal background checks, community violence prevention funding, and safe storage, and serves as Deputy Whip on the Gun Violence Prevention Task Force.",
+          "quote": "She has supported legislation for universal background checks, community violence prevention funding, and safe storage.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she supported legislation during the COVID-19 pandemic to expand insurance and provide emergency coverage to people who lost coverage, and has supported legislation to strengthen Medicare and Medicaid and lower drug prices.",
+          "quote": "During the COVID-19 pandemic, Congresswoman Hayes supported legislation that would expand insurance and provide emergency coverage to the millions of individuals who lost coverage.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Has introduced legislation to mitigate carbon emissions, secured billions in federal funding to replace diesel school buses with zero-emissions buses, and has been an original cosponsor of the Green New Deal since her first term.",
+          "quote": "Since her first term, she has been an original cosponsor of the Green New Deal and knows climate change mitigation must be centered in every policy Congress considers.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Says she has advocated for the expansion of protections for renters through the pandemic and supports the Build Back Better Act's investments in affordable housing and rental assistance.",
+          "quote": "Congresswoman Hayes has advocated for the expansion of protections for renters, landlords and homeowners though the pandemic.",
+          "sources": ["s8"]
+        }
+      ],
       "record": [
         { "text": "Serves on the House Committee on Agriculture and the Committee on Education and the Workforce in the 2025–2026 Congress.", "date": "2025", "kind": "action", "sources": ["s2"] },
         { "text": "Chaired the Agriculture Subcommittee on Nutrition, Oversight, and Department Operations in the 2021–2022 Congress.", "date": "2021", "kind": "action", "sources": ["s2"] },
-        { "text": "Served as ranking member of the Agriculture Subcommittee on Nutrition, Foreign Agriculture, and Horticulture in the 2023–2024 Congress.", "date": "2023", "kind": "action", "sources": ["s2"] }
+        { "text": "Served as ranking member of the Agriculture Subcommittee on Nutrition, Foreign Agriculture, and Horticulture in the 2023–2024 Congress.", "date": "2023", "kind": "action", "sources": ["s2"] },
+        { "text": "Introduced the Clean School Bus Act and Clean Commute for Kids Act and negotiated $5 billion for these proposals in the bipartisan Infrastructure Investment and Jobs Act.", "kind": "bill", "sources": ["s7"] }
       ],
       "website": "https://www.jahanahayes.com",
-      "researchDepth": "basic"
+      "researchDepth": "full"
     },
     {
       "id": "chris-shea",
@@ -62,7 +96,11 @@
     { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Connecticut,_2026", "title": "United States House of Representatives elections in Connecticut, 2026", "publisher": "Ballotpedia", "kind": "reference" },
     { "id": "s2", "url": "https://ballotpedia.org/Jahana_Hayes", "title": "Jahana Hayes", "publisher": "Ballotpedia", "kind": "reference" },
     { "id": "s3", "url": "https://ballotpedia.org/Chris_Shea", "title": "Chris Shea", "publisher": "Ballotpedia", "kind": "reference" },
-    { "id": "s4", "url": "https://en.wikipedia.org/wiki/Jahana_Hayes", "title": "Jahana Hayes", "publisher": "Wikipedia", "kind": "reference" }
+    { "id": "s4", "url": "https://en.wikipedia.org/wiki/Jahana_Hayes", "title": "Jahana Hayes", "publisher": "Wikipedia", "kind": "reference" },
+    { "id": "s5", "url": "https://hayes.house.gov/gun-violence-prevention", "title": "Gun Violence Prevention", "publisher": "Office of Rep. Jahana Hayes", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s6", "url": "https://hayes.house.gov/health", "title": "Health", "publisher": "Office of Rep. Jahana Hayes", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s7", "url": "https://hayes.house.gov/climate-and-environment", "title": "Climate and Environment", "publisher": "Office of Rep. Jahana Hayes", "kind": "candidate", "date": "2026-09-25" },
+    { "id": "s8", "url": "https://hayes.house.gov/housing", "title": "Housing", "publisher": "Office of Rep. Jahana Hayes", "kind": "candidate", "date": "2026-09-25" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "No campaign website content, Candidate Connection survey, or independent news coverage of Chris Shea's platform was found; his entry reflects the limited public record available despite his having won a contested primary. Rep. Hayes's federal key votes and FEC finance totals are added separately by script."

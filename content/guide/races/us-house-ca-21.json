@@ -39,13 +39,70 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists expanding healthcare access and affordability in the San Joaquin Valley as a priority, including defending the Affordable Care Act and Medicare and Medicaid funding.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Lists immigration reform rooted in the Valley's economic reality as a priority, including legal status for Dreamers and farmworkers alongside effective border security.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Lists reducing emissions, expanding clean energy, and preventing wildfires as environmental priorities for the San Joaquin Valley.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Helped pass the Affordable Care Act, has defended it from repeal, and voted against 2025 reconciliation legislation that would have cut Medicaid and Medicare funding.",
+          "quote": "Costa also worked with President Obama and House Democrats to pass the Affordable Care Act (ACA), expanding coverage to over 35 million Americans, protecting 130 million people with pre-existing conditions, and lowering healthcare costs for working families.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports legal status for Dreamers and farmworkers while also backing hiring more Border Patrol agents and investing in border-detection technology.",
+          "quote": "As a member of the House Democrats' Border Security Task Force, Costa supports smart, effective border security, not fear-based politics. He has pushed and voted to hire more border patrol agents, invest in detection technology, and crack down on fentanyl trafficking.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Championed the Inflation Reduction Act, describing it as the largest climate investment in U.S. history, and has funded solar and other renewable-energy projects in his district.",
+          "quote": "Costa championed the Inflation Reduction Act, the largest climate investment in U.S. history, delivering over $15 million for a first-of-its-kind project to install solar panels over the Delta-Mendota Canal, boosting clean energy while conserving water for Valley farmers and communities.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Voted for the Inflation Reduction Act's 15% corporate minimum tax and 1% excise tax on stock buybacks.",
+          "quote": "In 2022, he voted to enact the Inflation Reduction Act, which raises $300 billion over the next decade to cut the deficit by requiring large corporations to pay a 15 percent minimum tax on profits and imposing a 1 percent excise tax on stock buybacks.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Agriculture (Livestock, Dairy, and Poultry Subcommittee) and the House Committee on Foreign Affairs in the 119th Congress.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Co-sponsored the American Dream and Promise Act, which would provide permanent legal status for immigrants brought to the U.S. as children.",
+          "kind": "bill",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Co-authored the Farm Workforce Modernization Act, providing legal status for undocumented farmworkers and modernizing the H-2A visa program.",
+          "kind": "bill",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Introduced the Expanding Medical Education Act to fund medical schools in rural and underserved areas, including plans for full medical schools at UCSF Fresno and UC Merced.",
+          "kind": "bill",
+          "sources": ["s4"]
         }
       ],
       "researchDepth": "basic",
@@ -122,8 +179,36 @@
       "title": "Kyle Kirkland — Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://costa.house.gov/issues/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Jim Costa",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://costa.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Jim Costa",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://costa.house.gov/issues/energy-environment",
+      "title": "Energy & Environment",
+      "publisher": "Office of Rep. Jim Costa",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://costa.house.gov/issues/economy",
+      "title": "Economy",
+      "publisher": "Office of Rep. Jim Costa",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate has completed Ballotpedia's 2026 Candidate Connection survey; Kirkland's positions are drawn from his 2024 survey answers (for the adjoining 20th District race he ran in that year), which may not reflect any 2026 platform changes. Jim Costa's positions/priorities are limited to committee assignments from official House records. Federal key votes and FEC totals for the incumbent are added separately by script."
+  "researchNotes": "Neither candidate has completed Ballotpedia's 2026 Candidate Connection survey; Kirkland's positions are drawn from his 2024 survey answers (for the adjoining 20th District race he ran in that year), which may not reflect any 2026 platform changes. Jim Costa's positions and priorities are drawn from his official House issues pages (costa.house.gov/issues), checked 2026-09-25. Federal key votes and FEC totals for the incumbent are added separately by script."
 }

@@ -40,8 +40,46 @@
           "sources": ["s1"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Ensuring everyone has access to affordable and quality healthcare, which he calls one of his top priorities.",
+          "quote": "Ensuring everyone has access to affordable and quality healthcare is one of Congressman Correa’s top priorities.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Helping businesses and workers get their fair share, saying the path to the middle class starts with a good job.",
+          "quote": "Congressman Correa understands that the path to the middle class starts with a good job.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Continuing to advocate for comprehensive immigration reform.",
+          "quote": "Congressman Correa continues to advocate for comprehensive immigration reform.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Opposed repealing the Affordable Care Act and has opposed cuts to Medicaid and Medicare, calling for bipartisan solutions to improve the ACA.",
+          "quote": "As a Member of Congress, he opposed the repeal of the Affordable Care Act because it would have left 22 million Americans without healthcare coverage.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Supports protections for DREAMers and immigrant families and introduced legislation to ensure refugees, immigrants and DREAMers have access to legal counsel, consistent with opposing expanded enforcement against them.",
+          "quote": "Congressman Correa supports DREAMers and understands the importance of protecting new Americans.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Has supported legislation to protect police officers and give them access to resources to better protect the communities they serve.",
+          "quote": "he has supported legislation to protect officers and help them get access to the resources they need to better protect the communities they serve",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Homeland Security (Border Security and Enforcement, and Counterterrorism and Intelligence subcommittees) and the Committee on the Judiciary (Immigration Integrity, Security, and Enforcement Subcommittee) for the 2025-2026 term.",
@@ -51,7 +89,7 @@
       ],
       "website": "https://correa.house.gov/",
       "researchDepth": "basic",
-      "researchNotes": "No 2026 campaign website content or Candidate Connection survey responses were found; his campaign website's issues pages did not return current content, so positions beyond his official committee record could not be documented."
+      "researchNotes": "His campaign website did not return current content and no 2026 Candidate Connection survey was found, but his official House website's issues page (correa.house.gov/about/issues) was reachable and provided sourced priorities and positions."
     },
     {
       "id": "david-pan",
@@ -137,6 +175,14 @@
       "title": "David Pan campaign website, quoted on Ballotpedia (2024)",
       "publisher": "David Pan for Congress (via Ballotpedia)",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://correa.house.gov/about/issues",
+      "title": "Issues",
+      "publisher": "Office of Rep. Lou Correa",
+      "kind": "official",
+      "date": "2026-09-25"
     }
   ],
   "researchedAt": "2026-09-25",

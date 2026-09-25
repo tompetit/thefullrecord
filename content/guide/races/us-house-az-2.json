@@ -4,85 +4,177 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "2",
-  "title": "U.S. House · Arizona's 2nd District",
+  "title": "U.S. House \u00b7 Arizona's 2nd District",
   "area": "A large district spanning northern and northwestern Arizona, including Flagstaff, Prescott, Lake Havasu City, Bullhead City, Kingman, and the Navajo Nation.",
   "inNYC": false,
   "electionDate": "2026-11-03",
   "context": [
     {
       "text": "Incumbent Republican Eli Crane, first elected in 2022, won the July 21, 2026 Republican primary unopposed. Jonathan Nez, former president of the Navajo Nation, won the Democratic primary unopposed after Eric Descheenie withdrew. Curtis Goodwin won the Libertarian primary. Cook Political Report rated the district R+7; in 2024 Crane defeated Nez 54.5%-45.5% in a rematch of this race.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "eli-crane",
       "name": "Eli Crane",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, AZ-2 (since 2023)",
       "ballotNote": "Won the July 21, 2026 Republican primary unopposed",
       "summary": {
         "text": "Eli Crane is the Republican incumbent for Arizona's 2nd Congressional District, first elected in 2022. He served in the U.S. Navy from 2001 to 2014 and co-founded the company Bottle Breacher. He serves on the House Committees on Oversight and Government Reform and Homeland Security.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Tucson, Arizona in 1980. Attended Arizona Western University and the University of Arizona.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served in the United States Navy from 2001 to 2014.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Co-founded and co-owned Bottle Breacher, a bottle-opener manufacturing company, after leaving the Navy.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Elected to the U.S. House in 2022 and re-elected in 2024, defeating Jonathan Nez both times.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Representative Crane understands the importance of secure borders and has worked throughout his tenure to reverse the consequences of open-border policies.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Representative Crane knows Americans thrive when taxes are low and regulations are limited. He believes the government should not pick winners and losers or prop up industries with taxpayer-funded subsidies.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Rep. Crane understands American energy dominance improves national security and lowers costs for families... Rep. Crane remains focused on restoring American energy independence and protecting consumers from costly federal overreach.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports removing people unlawfully present in the country and helped advance border-security legislation and funding.",
+          "quote": "As a representative from a border state, Rep. Crane fully supports removing individuals who are unlawfully present in the country, stopping the flow of dangerous narcotics, and strengthening deterrence to prevent future border invasions.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Has opposed subsidies for renewable energy and worked to expand oil and gas leasing rather than accelerate a shift away from fossil fuels.",
+          "quote": "He has also worked to block federal EV mandates, stop unpopular wind and solar subsidies, and expand oil and gas leasing at home.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says he helped prevent a large tax increase by working to extend the 2017 tax cuts, rather than raising taxes.",
+          "quote": "In coordination with the White House, he helped prevent the largest tax hike in U.S. history, eliminated taxes on tips, overtime, and Social Security, and advanced pro-nuclear-family reforms through reconciliation.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform (Cybersecurity, Information Technology, and Government Innovation Subcommittee; Military and Foreign Affairs Subcommittee) and the House Committee on Homeland Security (Border Security and Enforcement; Transportation and Maritime Security) in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "In the 118th Congress (2023-2024), served on the House Committee on Homeland Security, the House Committee on Veterans' Affairs, and the House Committee on Small Business.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Introduced the Subterranean Border Defense Act with Rep. Lou Correa to strengthen congressional oversight of illicit cross-border tunnels; passed the House 402-1 in March 2025.",
+          "date": "2025-03-10",
+          "kind": "bill",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Introduced the End H-1B Visa Abuse Act of 2026, which would pause issuance of H-1B visas for three years and reform the program.",
+          "date": "2026-04-22",
+          "kind": "bill",
+          "sources": [
+            "s6"
+          ]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "full"
     },
     {
       "id": "jonathan-nez",
       "name": "Jonathan Nez",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the July 21, 2026 Democratic primary unopposed",
       "currentRole": "Former President of the Navajo Nation",
       "summary": {
         "text": "Jonathan Nez is the Democratic nominee for Arizona's 2nd Congressional District, running for the seat for a third time after losing to incumbent Eli Crane in 2022 and 2024. He previously served as president of the Navajo Nation.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Tuba City, Arizona, and grew up in Shonto, Arizona.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Served as president of the Navajo Nation.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Was the Democratic nominee for AZ-2 in 2022 and 2024, losing to Eli Crane both times, most recently 54.5%-45.5% in 2024.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
@@ -93,29 +185,39 @@
     {
       "id": "curtis-goodwin",
       "name": "Curtis Goodwin",
-      "parties": ["L"],
+      "parties": [
+        "L"
+      ],
       "incumbent": false,
       "ballotNote": "Won the July 21, 2026 Libertarian primary",
       "summary": {
         "text": "Curtis Goodwin is the Libertarian nominee for Arizona's 2nd Congressional District. He is from Mesa, Arizona and has been involved in numerous cities across the country.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Born and raised in Mesa, Arizona.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
-          "text": "Says 'Washington doesn't have a revenue problem—it has a spending problem,' identifying government spending as a central concern.",
-          "quote": "Washington doesn't have a revenue problem—it has a spending problem.",
-          "sources": ["s5"]
+          "text": "Says 'Washington doesn't have a revenue problem\u2014it has a spending problem,' identifying government spending as a central concern.",
+          "quote": "Washington doesn't have a revenue problem\u2014it has a spending problem.",
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Personally passionate about Second Amendment rights and government accountability and transparency.",
           "quote": "Second amendment rights, Government Accountability and Transparency",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -123,7 +225,9 @@
           "issue": "guns",
           "stance": "opposes",
           "summary": "Lists Second Amendment rights among the public-policy areas he is personally passionate about, indicating opposition to stricter gun laws.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -166,6 +270,27 @@
       "publisher": "Ballotpedia",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s6",
+      "url": "https://crane.house.gov/issues/securing-our-border/",
+      "title": "Securing Our Border",
+      "publisher": "Office of U.S. Rep. Eli Crane",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://crane.house.gov/issues/economic-prosperity/",
+      "title": "Economic Prosperity",
+      "publisher": "Office of U.S. Rep. Eli Crane",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://crane.house.gov/issues/energy/",
+      "title": "Energy",
+      "publisher": "Office of U.S. Rep. Eli Crane",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

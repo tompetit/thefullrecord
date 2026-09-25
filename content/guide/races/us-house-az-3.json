@@ -4,71 +4,142 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "3",
-  "title": "U.S. House · Arizona's 3rd District",
+  "title": "U.S. House \u00b7 Arizona's 3rd District",
   "area": "West-central Phoenix metro area, including parts of west and south Phoenix, Tolleson, Avondale, and parts of Glendale.",
   "inNYC": false,
   "electionDate": "2026-11-03",
   "context": [
     {
       "text": "Incumbent Democrat Yassamin Ansari, first elected in 2024, won the July 21, 2026 Democratic primary unopposed. No Republican candidate advanced from the primary ballot; write-in candidate Nicholas Glenn received 437 write-in votes but did not meet Arizona's minimum vote threshold to advance to the general election. Jacob Parkman is running as a Republican write-in candidate in the general election. David Redkey won the Green Party primary and Alan Aversa won the No Labels Party primary. Cook Political Report rated the district D+22, and Democrats were guaranteed to win a seat here in 2026 since no Republican qualified for the general-election ballot.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "yassamin-ansari",
       "name": "Yassamin Ansari",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, AZ-3 (since 2025)",
       "ballotNote": "Won the July 21, 2026 Democratic primary unopposed",
       "summary": {
         "text": "Yassamin Ansari is the Democratic incumbent for Arizona's 3rd Congressional District, first elected in 2024 to succeed Ruben Gallego, who ran for U.S. Senate. She previously worked as a policy advisor and serves on the House Committees on Oversight and Government Reform, Natural Resources, and Education and the Workforce.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Seattle, Washington. Earned a bachelor's degree from Stanford University in 2014 and a master's degree from the University of Cambridge in 2015.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes working as an advisor, deputy policy director, and senior policy advisor before running for office.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Elected to the U.S. House in 2024, succeeding Ruben Gallego who ran for U.S. Senate.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Rep. Ansari believes that the climate crisis is the defining issue of our generation... In Congress, Rep. Ansari serves on the House Natural Resources Committee and as the Ranking Member of the Energy and Mineral Resources Subcommittee where she is committed to working with her colleagues on legislation to combat climate change and build a more sustainable future.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Rep. Ansari knows that housing is a human right, and she is fighting to lower the costs of rent and housing across the board.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Has cosponsored legislation opposing withdrawal from the Paris Climate Accords and supporting clean energy jobs, and works on climate legislation as Ranking Member of the Energy and Mineral Resources Subcommittee.",
+          "quote": "Since being sworn in, Rep. Ansari has cosponsored legislation disapproving of President Trump's withdrawal from the Paris Climate Accords, supporting energy resiliency, protecting our federal lands, and advocating for clean energy jobs.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says the district does not have enough housing to keep up with population growth and has pushed for additional federal housing funding.",
+          "quote": "In places like Arizona, Rep. Ansari knows we don't have nearly enough housing to keep up with our growing population. That means the cost of living is higher, rent is going up, and we've seen a spike in homelessness which is hurting families and our economy.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says the country can have both a secure border and be pro-immigration; has introduced a resolution opposing discriminatory immigration policies and backed the American Dream and Promise Act while also saying she supports securing the border.",
+          "quote": "Rep. Ansari believes that we can have a secure border, be pro-immigration, and have an economy that works for everyone.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform (Cybersecurity, Information Technology, and Government Innovation Subcommittee; Economic Growth, Energy Policy, and Regulatory Affairs Subcommittee), the House Committee on Natural Resources (Energy and Mineral Resources; Oversight and Investigations), and the House Committee on Education and the Workforce in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Introduced a resolution celebrating the contributions of immigrants and opposing discriminatory immigration policies, her first piece of legislation in Congress.",
+          "kind": "bill",
+          "sources": [
+            "s7"
+          ]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "full"
     },
     {
       "id": "david-redkey",
       "name": "David Redkey",
-      "parties": ["G"],
+      "parties": [
+        "G"
+      ],
       "incumbent": false,
       "ballotNote": "Won the July 21, 2026 Green Party primary as a write-in candidate",
       "summary": {
         "text": "David Redkey is the Green Party nominee for Arizona's 3rd Congressional District. He also sought the Green Party nomination in Arizona's 1st Congressional District but did not appear on that primary ballot. His career experience includes working in advocacy.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Bloomington, Indiana. Attended Sunnyslope High School; earned an associate degree from Glendale Community College in 2014, a bachelor's degree from Arizona State University in 2016, a master's degree from Arizona State University in 2019, and a graduate certificate from Northern Arizona University in 2023.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Career experience includes working in advocacy.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -79,12 +150,16 @@
     {
       "id": "alan-aversa",
       "name": "Alan Aversa",
-      "parties": ["No Labels Party"],
+      "parties": [
+        "No Labels Party"
+      ],
       "incumbent": false,
       "ballotNote": "Won the July 21, 2026 No Labels Party primary",
       "summary": {
         "text": "Alan Aversa is the No Labels Party nominee for Arizona's 3rd Congressional District.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -95,12 +170,16 @@
     {
       "id": "jacob-parkman",
       "name": "Jacob Parkman",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Running as a Republican write-in candidate in the general election; no Republican qualified for the primary ballot",
       "summary": {
         "text": "Jacob Parkman is running as a Republican write-in candidate for Arizona's 3rd Congressional District in the general election, after no Republican candidate met the vote threshold to advance from the primary.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -137,6 +216,27 @@
       "title": "David Redkey",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://ansari.house.gov/issues/climate-change",
+      "title": "Climate Change",
+      "publisher": "Office of U.S. Rep. Yassamin Ansari",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://ansari.house.gov/issues/housing",
+      "title": "Housing",
+      "publisher": "Office of U.S. Rep. Yassamin Ansari",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://ansari.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of U.S. Rep. Yassamin Ansari",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

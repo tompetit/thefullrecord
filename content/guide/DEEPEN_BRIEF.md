@@ -33,6 +33,15 @@ rationed; prefer direct URLs.
   rhetoric ("fiscal responsibility", "support working families", "back the blue"
   without funding) is NOT a position. Do not infer from party. When in doubt, omit.
 - `mixed` only when the source itself shows both sides.
+- The position must match the ISSUES statement's *substance*, not an adjacent topic.
+  NOT acceptable (these have been rejected by fact-checkers):
+  - opposing *taxpayer funding* of abortion ≠ `abortion: opposes` (the statement is about legal access);
+  - "unleash American energy" / supporting oil & gas ≠ `climate: opposes` unless the source
+    addresses the pace of transition away from fossil fuels or opposes clean-energy policy by name;
+  - voting for / praising a broad bill (e.g. OBBBA, 2017 tax cuts) ≠ `tax_wealthy` unless the
+    source itself talks about taxes on high earners or corporations;
+  - generic "secure the border" = `immigration_enforcement: supports` only if it calls for more
+    enforcement/deportations/detention, not just "border security" in the abstract.
 - `quote` must be verbatim — copy-paste from the fetched text (fix nothing, not
   even typos). If you paraphrase, put it in `summary` and omit `quote`.
 - Each position cites the specific page that contains the words (not a homepage

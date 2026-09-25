@@ -65,7 +65,22 @@
           "sources": ["s4"]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign site says access to healthcare is a fundamental right and calls for ensuring all individuals have affordable, comprehensive coverage through healthcare reform.",
+          "quote": "Access to healthcare is a fundamental right, and we are dedicated to ensuring that all individuals have affordable and comprehensive coverage. This includes addressing issues within Medicare to improve its efficiency and effectiveness, ensuring that our seniors receive the care and support they deserve without financial burden. Through comprehensive healthcare reform, we aim to create a system that prioritizes preventive care, reduces costs, and provides equitable access for all.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Campaign site calls for a mixed approach: legal measures to manage the number of migrants arriving in the state alongside fair and compassionate treatment for migrants already living there, while opposing other states sending migrants to New York.",
+          "quote": "Immigration in New York State demands a multifaceted approach. This involves advocating for legal measures to manage the influx of migrants while simultaneously devising fair and compassionate strategies for those already residing in the state.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "Assembly committee assignments for 2025-2026: Banks, Cities, Economic Development/Job Creation/Commerce and Industry, Energy, Housing, and Small Business.",
@@ -111,8 +126,16 @@
       "title": "Landon Dais for NY Assembly — District 77",
       "publisher": "Landon Dais for NY",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://landondais.com/issues",
+      "title": "Issues — Landon Dais for NY Assembly - District 77",
+      "publisher": "Landon Dais for NY",
+      "kind": "candidate",
+      "date": "2026"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No opposing candidate qualified for the November 3, 2026 general-election ballot in this district. Dais has not completed Ballotpedia's Candidate Connection survey; his campaign site lists priority topics without detailed issue statements, so no sourced positions with stated stances could be documented for the ISSUES list."
+  "researchNotes": "No opposing candidate qualified for the November 3, 2026 general-election ballot in this district. Dais has not completed Ballotpedia's Candidate Connection survey; his campaign site's Issues page states specific positions on healthcare and immigration, documented above, but its other listed priority topics (affordable housing, street safety, seniors, vocational training) remain general statements without a stance matching this guide's fixed issue list."
 }
