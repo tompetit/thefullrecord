@@ -29,18 +29,18 @@
         "sources": ["s1", "s2"]
       },
       "background": [
-        { "text": "Born in Indianapolis, Indiana in 1954; earned a bachelor's degree in political science from George Washington University and a J.D. from Harvard Law School in 1980.", "sources": ["s1"] },
-        { "text": "Worked as a staffer for Sen. Chris Dodd, served as Virginia Democratic Party chair, and co-founded the cell phone company that became Nextel.", "sources": ["s1"] },
-        { "text": "Served as Governor of Virginia from 2002 to 2006 before his election to the U.S. Senate.", "sources": ["s1"] }
+        { "text": "Born in Indianapolis, Indiana in 1954; earned a bachelor's degree in political science from George Washington University and a J.D. from Harvard Law School in 1980.", "sources": ["s3"] },
+        { "text": "Worked as a staffer for Sen. Chris Dodd, served as Virginia Democratic Party chair, and co-founded the cell phone company that became Nextel.", "sources": ["s3"] },
+        { "text": "Served as Governor of Virginia from 2002 to 2006 before his election to the U.S. Senate.", "sources": ["s3"] }
       ],
       "priorities": [
         { "text": "Says he has worked to strengthen America's economy and \"spearheaded the largest infrastructure investments in half a century\" and expanded Virginia's domestic manufacturing.", "sources": ["s2"] },
         { "text": "Cites work to lower health care costs for Virginia families.", "sources": ["s2"] },
-        { "text": "Describes his role as chairman of the Senate Intelligence Committee as central to \"protecting the highest levels of America's national security.\"", "sources": ["s2"] }
+        { "text": "Cites his work on the Senate Intelligence Committee, where he served as chairman in 2021-2022 and serves as vice chairman in the 119th Congress (2025-2026), as central to \"protecting the highest levels of America's national security.\"", "sources": ["s2", "s3"] }
       ],
       "positions": [],
       "record": [
-        { "text": "Serves on the Senate Committee on Banking, Housing, and Urban Affairs (Ranking Member, Subcommittee on Securities, Insurance, and Investment); the Committee on Finance; the Committee on Rules and Administration; the Select Committee on Intelligence (Vice Chairman); and the Committee on the Budget in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s1"] }
+        { "text": "Serves on the Senate Committee on Banking, Housing, and Urban Affairs (Ranking Member, Subcommittee on Securities, Insurance, and Investment); the Committee on Finance; the Committee on Rules and Administration; the Select Committee on Intelligence (Vice Chairman); and the Committee on the Budget in the 119th Congress (2025-2026).", "kind": "action", "sources": ["s3"] }
       ],
       "website": "https://www.markwarnerva.com",
       "researchDepth": "basic",
@@ -85,6 +85,14 @@
       "title": "Mark Warner - Delivering for Virginia",
       "publisher": "Mark Warner campaign",
       "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Mark_Warner",
+      "title": "Mark Warner",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
       "date": "2026-09-25"
     }
   ],
