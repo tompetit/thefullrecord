@@ -1,0 +1,163 @@
+{
+  "id": "us-house-wv-1",
+  "state": "WV",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "1",
+  "title": "U.S. House · West Virginia's 1st District",
+  "area": "West Virginia's 1st Congressional District, covering the northern and eastern parts of the state including Huntington and Morgantown.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Carol Miller (R) defeated Larry Jackson in the Republican primary on May 12, 2026 with 72.0% of the vote. Vince George defeated Britta Aguirre in the Democratic primary with 53.0% of the vote.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "carol-miller",
+      "name": "Carol Miller",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Won the May 12 Republican primary with 72.0% of the vote",
+      "currentRole": "U.S. Representative (since 2019)",
+      "summary": {
+        "text": "Carol Miller is the incumbent U.S. Representative for West Virginia's 1st District, seeking re-election in 2026. She serves on the House Committee on Ways and Means.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Columbus, Ohio; graduated from Bexley High School in 1968.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Earned a B.S. from Columbia College (1972).",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Career experience includes owning and operating Swann Ridge Bison Farm and working as a real estate manager.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Assigned to the House Committee on Ways and Means, including its Health and Trade subcommittees, for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://miller.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "M001205"
+    },
+    {
+      "id": "vince-george",
+      "name": "Vince George",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the May 12 Democratic primary with 53.0% of the vote",
+      "summary": {
+        "text": "Vince George is a retired public policy analyst running as the Democratic nominee for West Virginia's 1st District.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Raised in Dunbar and South Charleston, West Virginia; earned a graduate degree from West Virginia University (1984).",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Career experience includes working as a policy analyst, social worker, federal and state programs' eligibility examiner, and teacher (WVEA member).",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "\"Making life affordable for working West Virginians is my top priority. I support fully funding SNAP, Social Security, and veterans' benefits, and I oppose harmful funding cuts to safety net programs.\"",
+          "sources": ["s3"]
+        },
+        {
+          "text": "\"Medicare For All &/or a single payer public option in which no person is left without health & medical coverage.\"",
+          "sources": ["s3"]
+        },
+        {
+          "text": "\"More than doubling the Federal minimum wage to at least $15 per hour for all workers, expansion of eligibility & benefits for Social Security participants.\"",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports Medicare for All or a single-payer public option covering everyone.",
+          "quote": "Medicare For All &/or a single payer public option in which no person is left without health & medical coverage.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports more than doubling the federal minimum wage to at least $15 per hour.",
+          "quote": "More than doubling the Federal minimum wage to at least $15 per hour for all workers.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "belinda-fox-spencer",
+      "name": "Belinda Fox-Spencer",
+      "parties": ["Constitution Party"],
+      "incumbent": false,
+      "summary": {
+        "text": "Belinda Fox-Spencer is running as the Constitution Party nominee for West Virginia's 1st District; she also ran for the seat in 2022 and 2020.",
+        "sources": ["s4"]
+      },
+      "background": [],
+      "priorities": [
+        {
+          "text": "A 2022 campaign website statement listed education as a priority, citing high child poverty rates in West Virginia as a barrier to educational quality.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "Has not completed Ballotpedia's 2026 Candidate Connection survey; no 2026 campaign statements found."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_West_Virginia,_2026",
+      "title": "United States House of Representatives elections in West Virginia, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Carol_Miller_(West_Virginia)",
+      "title": "Carol Miller (West Virginia)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Vince_George",
+      "title": "Vince George",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Belinda_Fox-Spencer",
+      "title": "Belinda Fox-Spencer",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Isaiah Rucker withdrew as an independent candidate before the general election and was excluded. Federal key votes and FEC finance totals for Rep. Miller are added separately by script."
+}

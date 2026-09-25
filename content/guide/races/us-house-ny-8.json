@@ -84,15 +84,15 @@
       "parties": ["R", "C"],
       "incumbent": false,
       "summary": {
-        "text": "Lewis Mizrahi is the Republican and Conservative Party nominee against incumbent Hakeem Jeffries in NY-8. He has not filed a principal campaign committee with the FEC, has not completed Ballotpedia's Candidate Connection survey, and has little public campaign material available.",
-        "sources": ["s2", "s6"]
+        "text": "Lewis Mizrahi is the Republican and Conservative Party nominee against incumbent Hakeem Jeffries in NY-8. FEC data reported via Ballotpedia shows no campaign contributions for his 2026 run, he has not completed Ballotpedia's Candidate Connection survey, and has little public campaign material available.",
+        "sources": ["s2"]
       },
       "background": [],
       "priorities": [],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, FEC committee filing, or Ballotpedia Candidate Connection survey could be found for Lewis Mizrahi. FEC records show no committee registered and no funds raised as of the research date. He also filed to run in NY-9 but was disqualified from that district's Republican primary."
+      "researchNotes": "No campaign website or Ballotpedia Candidate Connection survey could be found for Lewis Mizrahi. FEC data reported via Ballotpedia shows no campaign contributions as of the research date; the FEC's own candidate-search API could not be queried directly (requires an API key). He also filed to run in NY-9 but was disqualified from that district's Republican primary."
     }
   ],
   "sources": [
@@ -100,8 +100,7 @@
     {"id": "s2", "url": "https://ballotpedia.org/Lewis_Mizrahi", "title": "Lewis Mizrahi", "publisher": "Ballotpedia", "kind": "reference"},
     {"id": "s3", "url": "https://ballotpedia.org/Hakeem_Jeffries", "title": "Hakeem Jeffries", "publisher": "Ballotpedia", "kind": "reference"},
     {"id": "s4", "url": "https://jeffries.house.gov/", "title": "Congressman Hakeem Jeffries - 8th District New York", "publisher": "Office of Rep. Hakeem Jeffries", "kind": "official"},
-    {"id": "s5", "url": "https://www.govtrack.us/congress/members/hakeem_jeffries/412561", "title": "Rep. Hakeem Jeffries [D-NY8]", "publisher": "GovTrack.us", "kind": "reference"},
-    {"id": "s6", "url": "https://api.open.fec.gov/v1/candidates/search/?q=Lewis+Mizrahi", "title": "Candidate search: Lewis Mizrahi", "publisher": "Federal Election Commission", "kind": "official"}
+    {"id": "s5", "url": "https://www.govtrack.us/congress/members/hakeem_jeffries/412561", "title": "Rep. Hakeem Jeffries [D-NY8]", "publisher": "GovTrack.us", "kind": "reference"}
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Sitting-member key floor votes and FEC finance totals for Jeffries are added separately by script and intentionally omitted here."

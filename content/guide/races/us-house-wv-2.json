@@ -1,0 +1,134 @@
+{
+  "id": "us-house-wv-2",
+  "state": "WV",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · West Virginia's 2nd District",
+  "area": "West Virginia's 2nd Congressional District, covering the eastern panhandle and central/southern parts of the state including Charleston.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Riley Moore (R) ran unopposed in the Republican primary. Ace Parsi won the Democratic primary on May 12, 2026.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "riley-moore",
+      "name": "Riley Moore",
+      "parties": ["R"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 2023)",
+      "summary": {
+        "text": "Riley Moore is the incumbent U.S. Representative for West Virginia's 2nd District, seeking re-election in 2026. He previously served as West Virginia State Treasurer.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {
+          "text": "Born in Morgantown, West Virginia; lives in Harpers Ferry, West Virginia.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Earned a bachelor's degree in government and international politics from George Mason University and a master's degree in strategic security studies from the National Defense University.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Career experience includes working as a national security staffer for the U.S. House Committee on Foreign Affairs and as a contract employee for the U.S. Department of Homeland Security.",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Served as West Virginia State Treasurer before his election to the U.S. House in 2022.",
+          "sources": ["s2"]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Assigned to the House Committee on Appropriations for the 119th Congress (2025-2026), including as Vice Chair of the Legislative Branch subcommittee, and to the Commerce-Justice-Science and Labor-HHS-Education subcommittees.",
+          "kind": "action",
+          "sources": ["s2"]
+        }
+      ],
+      "website": "https://rileymoore.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "M001235"
+    },
+    {
+      "id": "ace-parsi",
+      "name": "Ace Parsi",
+      "parties": ["D"],
+      "incumbent": false,
+      "summary": {
+        "text": "Ace Parsi is a public education and democracy advocate running as the Democratic nominee for West Virginia's 2nd District.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {
+          "text": "Immigrated to the United States at age eight and a half, having fled a dictatorship.",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Earned a high school diploma from Wyoming Area High School and a bachelor's degree from Penn State University (2005).",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Career experience includes working as an advocate on public education issues.",
+          "sources": ["s3"]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "\"We can have a more affordable future. By overturning the cuts in the Big Beautiful Bill, turning back tariffs on groceries, eliminating the current benefit cliffs... we can have that.\"",
+          "sources": ["s3"]
+        },
+        {
+          "text": "\"We can have a more caring future. By investing in infrastructure around clean drinking water and investing in the individuals in care jobs whether they're nurses and teachers or law enforcement.\"",
+          "sources": ["s3"]
+        },
+        {
+          "text": "\"We can have a more empowered future. We can take the power back from big tech and their AI imagined future and create systems and relationships where government and elected officials are more responsive.\"",
+          "sources": ["s3"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says he would work to roll back tariffs on groceries.",
+          "quote": "By overturning the cuts in the Big Beautiful Bill, turning back tariffs on groceries, eliminating the current benefit cliffs that diminish people's motivation to get ahead... we can have a more affordable future.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_West_Virginia,_2026",
+      "title": "United States House of Representatives elections in West Virginia, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Riley_Moore",
+      "title": "Riley Moore",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Ace_Parsi",
+      "title": "Ace Parsi",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Patrick Carney and Christopher Whitcomb withdrew as independent candidates and did not make the ballot. Federal key votes and FEC finance totals for Rep. Moore are added separately by script."
+}
