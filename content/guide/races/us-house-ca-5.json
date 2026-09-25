@@ -44,8 +44,44 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Fiscal reform, having proposed changes to curb unauthorized appropriations, control mandatory spending, balance the budget and protect the nation's credit.",
+          "quote": "has proposed major fiscal reforms to curb unauthorized appropriations, control mandatory spending, balance the budget and protect the nation's credit",
+          "sources": ["s6"]
+        },
+        {
+          "text": "Immigration enforcement, chairing the House Judiciary Subcommittee on Immigration Integrity, Security, and Enforcement and authoring legislation to expand deportation grounds for criminal gang members.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Reducing regulatory barriers to housing construction, attributing high housing costs in part to construction mandates, permit limits and land-use restrictions.",
+          "sources": ["s5"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "In a vote statement opposing a housing bill, said high housing costs stem from policies that impose construction mandates, limit permits, and restrict the land available for housing.",
+          "quote": "The high cost of housing is the product of bad public policy that has imposed expensive mandates on construction, limited the permits that can be issued, restricted the land available for housing, and flooded the market with subsidies that force up prices for all while hiding it for the subsidized.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Opposed H.R. 8, the Bipartisan Background Checks Act, in a House floor speech, saying it was designed to burden law-abiding gun owners rather than address crime.",
+          "quote": "HR 8 is brought to us by the same organizations and politicians who have made no secret of their intention ultimately to strip law-abiding citizens of their right to defend themselves.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Authored the Deport Alien Gang Members Act, which creates grounds of inadmissibility and deportability for aliens who are members of criminal gangs and bars them from asylum and other immigration relief.",
+          "quote": "The legislation creates clear grounds of inadmissibility and deportability for aliens who are members of criminal gangs or who have promoted, aided, conspired with, or participated in gang activities.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Judiciary Subcommittee on Immigration Integrity, Security, and Enforcement for the 2025-2026 session.",
@@ -56,6 +92,11 @@
           "text": "Serves on the House Committee on Natural Resources' Federal Lands and Water, Wildlife and Fisheries subcommittees, and on the House Committee on the Budget, for the 2025-2026 session.",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Authored the Deport Alien Gang Members Act (H.R. 175), which passed the House Judiciary Committee in June 2026 and establishes grounds of inadmissibility and deportability for members of criminal gangs.",
+          "kind": "bill",
+          "sources": ["s4"]
         }
       ],
       "researchDepth": "basic"
@@ -121,9 +162,41 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://mcclintock.house.gov/newsroom/press-releases/deport-alien-gang-members-act-hr-175-passes-judiciary-committee",
+      "title": "The Deport Alien Gang Members Act, HR 175, Passes Judiciary Committee",
+      "publisher": "Office of Rep. Tom McClintock",
+      "kind": "official",
+      "date": "2026-06-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://mcclintock.house.gov/issues/fiscal-and-economic",
+      "title": "Senate Amendments to HR 6644 – Amplifying Bad Housing Policy: NO",
+      "publisher": "Office of Rep. Tom McClintock",
+      "kind": "official",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "s6",
+      "url": "https://mcclintock.house.gov/about/biography",
+      "title": "Biography",
+      "publisher": "Office of Rep. Tom McClintock",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://mcclintock.house.gov/newsroom/speeches/a-web-of-laws-aimed-at-the-law-abiding-in-opposition-to-hr-8",
+      "title": "A Web of Laws Aimed at the Law-Abiding - In Opposition to HR 8",
+      "publisher": "Office of Rep. Tom McClintock",
+      "kind": "official",
+      "date": "2021-03-10"
     }
   ],
   "researchedAt": "2026-09-25",
   "electionDate": "2026-11-03",
-  "researchNotes": "Tom McClintock has not completed Ballotpedia's 2026 Candidate Connection survey; his official House website lists issue categories (e.g., California Water Crisis, Fiscal and Economic, Illegal Immigration) without accessible position statements, so no specific 2026 positions could be documented from it. Masuda has not held prior public office."
+  "researchNotes": "Tom McClintock has not completed Ballotpedia's 2026 Candidate Connection survey; his official House website's per-topic issue pages mainly aggregate vote notes, speeches and press releases rather than standalone position statements, so documented positions here are drawn from that vote-note and speech content. Masuda has not held prior public office."
 }

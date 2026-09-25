@@ -44,8 +44,25 @@
           "sources": ["s2", "s6"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says the Working Families Tax Cut strengthens Medicaid's accountability, efficiency, and access while ensuring taxpayer dollars are spent wisely, rather than cutting the program.",
+          "sources": ["s7"]
+        },
+        {
+          "text": "Education: co-led a Parents Roundtable and joined the introduction of the Parents Bill of Rights as chair of the Early Childhood, Elementary, and Secondary Education Subcommittee.",
+          "sources": ["s8"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Defends the 2025 reconciliation law's Medicaid changes -- new work requirements and removing certain non-citizens and able-bodied adults from the rolls -- as strengthening the program, rather than supporting an expansion of public coverage.",
+          "quote": "the bill ensures the longevity of the Medicaid program by removing ineligible recipients, illegal immigrants, and able-bodied adults without dependents who choose not to work, volunteer, or attend school.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means, including the Subcommittees on Social Security, Work and Welfare, and Oversight, in the 119th Congress (2025-2026).",
@@ -54,7 +71,7 @@
         }
       ],
       "researchDepth": "basic",
-      "researchNotes": "Federal roll-call votes and FEC finance totals for this sitting member are added by script."
+      "researchNotes": "Federal roll-call votes and FEC finance totals for this sitting member are added by script. Bean's official House issues subpages (Economy, Education, Energy, Health, Veterans) are mostly placeholder text pointing to press releases rather than stated positions; his 'Working Families Tax Cut FAQs' initiative page was the main source of a position in his own words."
     },
     {
       "id": "lashonda-holloway",
@@ -144,7 +161,9 @@
     { "id": "s3", "url": "https://ballotpedia.org/LaShonda_Holloway", "title": "LaShonda Holloway", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
     { "id": "s4", "url": "https://ballotpedia.org/Mike_Sell", "title": "Mike Sell - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
     { "id": "s5", "url": "https://ballotpedia.org/Todd_Schaefer", "title": "Todd Schaefer - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
-    { "id": "s6", "url": "https://bean.house.gov/about/committees-and-caucuses", "title": "Committees and Caucuses", "publisher": "Office of Rep. Aaron Bean", "kind": "official", "date": "2026-09-25" }
+    { "id": "s6", "url": "https://bean.house.gov/about/committees-and-caucuses", "title": "Committees and Caucuses", "publisher": "Office of Rep. Aaron Bean", "kind": "official", "date": "2026-09-25" },
+    { "id": "s7", "url": "https://bean.house.gov/initiatives/working-families-tax-cut-faqs", "title": "Working Families Tax Cut FAQs", "publisher": "Office of Rep. Aaron Bean", "kind": "official", "date": "2026-09-25" },
+    { "id": "s8", "url": "https://bean.house.gov/issues/education", "title": "Education", "publisher": "Office of Rep. Aaron Bean", "kind": "official", "date": "2026-09-25" }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Bean's federal voting record and FEC finance totals are added by script. Holloway has little documented public record beyond her repeated candidacy."
