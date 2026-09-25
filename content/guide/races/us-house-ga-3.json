@@ -36,16 +36,43 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists \"Secure our Border, End Illegal Immigration and Stop Crime\" as a top campaign priority, saying he will work to finish the border wall and deport people in the country illegally who commit crimes.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Lists \"Fix the Economy, Cut Taxes and Unleash American Energy,\" saying he will work to lower taxes, cut spending, and increase U.S. oil and natural gas production.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Lists \"End the Weaponization of Justice\" as a priority, saying he will work against what he describes as politically motivated use of the justice system.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign site says he will work to finish the border wall, fund ICE and border patrol, and deport people in the country illegally who have committed crimes; his office also highlighted co-sponsoring the Laken Riley Act, which requires DHS to detain certain unauthorized immigrants arrested for theft-related offenses.",
+          "quote": "In Congress, I will lead the fight to end Biden’s border invasion and put America First once again - completing the job President Trump and I began in 2016. That means finishing the border wall, funding for ICE and border patrol, deporting criminal illegals, and reforming our immigration laws to prioritize the prosperity of working class Americans.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform (Delivering on Government Efficiency, Federal Law Enforcement, and Government Operations subcommittees), the Committee on Rules, and the Committee on Small Business in the 119th Congress (2025-2026).",
           "kind": "action",
           "sources": ["s2"]
+        },
+        {
+          "text": "Co-sponsored the Laken Riley Act (H.R. 29/S. 5), which requires DHS to detain certain unauthorized immigrants arrested for burglary, theft, larceny, or shoplifting; it was the first bill to pass the House in the 119th Congress and was signed into law.",
+          "kind": "bill",
+          "sources": ["s5"]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Positions and priorities above are drawn from Jack's campaign website (still current on the 2026 cycle site) and an official House press release; no additional issue statements were found on his official House issues subpages (Economy, Education, Energy, Health, Veterans), which had no body text loaded."
     },
     {
       "id": "maura-keller",
@@ -111,6 +138,20 @@
       "url": "https://ballotpedia.org/Maura_Keller",
       "title": "Maura Keller",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://brianjack.com/issues",
+      "title": "Issues",
+      "publisher": "Brian Jack for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://jack.house.gov/issues/congress",
+      "title": "Congress",
+      "publisher": "Office of Rep. Brian Jack",
       "kind": "candidate"
     }
   ],

@@ -43,8 +43,46 @@
           "sources": ["s2"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Economy: says he wants to lower taxes, cut wasteful spending, and eliminate excessive regulations to create jobs and stimulate growth.",
+          "quote": "As a businessman, I believe in lowering taxes, reducing wasteful spending and eliminating excessive regulations in order to create jobs and stimulate economic growth.",
+          "sources": ["s4"]
+        },
+        {
+          "text": "Healthcare: says healthcare decisions should be made by patients and doctors, not Congress, and favors market-based solutions.",
+          "quote": "Healthcare decisions are best made by you and your doctor, not by Congress and unelected Washington bureaucrats.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "Border security: says House Republicans passed the Secure the Border Act to secure the border, improve the asylum system, and address what he calls the Biden administration's border crisis.",
+          "quote": "The Biden administration has spent years pushing an activist agenda that has created an unprecedented national security and humanitarian crisis. Their open-border policies endanger our communities, empower drug cartels and undercut our efforts to combat illegal immigration.",
+          "sources": ["s6"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he is a gun owner and Second Amendment supporter who opposes attempts to limit the rights of law-abiding gun owners.",
+          "quote": "As a gun owner and strong Second Amendment supporter, I strongly oppose attempts to limit the rights of law-abiding gun owners.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Says healthcare requires market-based solutions rather than a one-size-fits-all approach, and that decisions should be made by patients and doctors, not Congress.",
+          "quote": "Our healthcare requires market-based solutions, not a one-size fits all approach that reduces options, increases cost and impacts timely and affordable care.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Voted for the Secure the Border Act, which he says would secure the border, complete border wall construction, and increase Border Patrol hiring.",
+          "quote": "Their open-border policies endanger our communities, empower drug cartels and undercut our efforts to combat illegal immigration. Instead of working with House Republicans to develop a comprehensive plan to address this extraordinary situation at our southern border, President Biden and congressional Democrats are playing political games with American lives. I’m pleased to support this comprehensive measure that will strengthen our communities, promote long-term security, and improve the public health.",
+          "sources": ["s6"]
+        }
+      ],
       "record": [
         {
           "text": "Serves as Vice Chair of the House Appropriations Subcommittee on Agriculture, Rural Development, FDA and Related Agencies, and also sits on the Energy and Water Development subcommittee, for the 2025–2026 Congress.",
@@ -53,7 +91,8 @@
         }
       ],
       "website": "https://ballotpedia.org/Scott_Franklin",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Positions and priorities are drawn from Franklin's official House issues pages and a 2023 press release on H.R. 2, the Secure the Border Act; his issues pages do not currently address several other tracked issues (e.g. abortion, climate)."
     },
     {
       "id": "curtis-gibson",

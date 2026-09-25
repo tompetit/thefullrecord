@@ -36,8 +36,50 @@
           "sources": ["s1"]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "My top priority is addressing rising costs that are hurting Illinoisans from the grocery store to the gas pump. I'm also committed to bringing down out-of-control drug prices, especially for our seniors.",
+          "sources": ["s6"]
+        },
+        {
+          "text": "I believe everyone has the right to be healthy, which is why I'm working in Congress to make health care more affordable, accessible, and efficient.",
+          "sources": ["s5"]
+        },
+        {
+          "text": "We need to find ways to protect our homes and farms from draughts, floods, and other adverse weather events while investing in clean power sources that will create sustainable, good-paying jobs right here in our district.",
+          "sources": ["s4"]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says reproductive health care decisions should be made between a patient and their doctor, not lawmakers, and that he will work to remove barriers to reproductive care.",
+          "quote": "I believe that reproductive health care decisions should be made between an individual and their doctor – not lawmakers. ... I will continue to work in Congress to break down barriers to accessing reproductive care, not building them.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says the climate is changing and calls for investing in clean power sources while protecting communities from extreme weather.",
+          "quote": "We need to find ways to protect our homes and farms from draughts, floods, and other adverse weather events while investing in clean power sources that will create sustainable, good-paying jobs right here in our district.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he is working to invest more into local law enforcement agencies to support training, recruitment, and retention.",
+          "quote": "As your Representative, I am taking strides to invest more into local law enforcement agencies to support their training needs, help them better retain and recruit officers, and build better relationships with the communities they serve.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he wants to protect and expand the Affordable Care Act to cover preexisting conditions and let Medicare negotiate prescription drug prices.",
+          "quote": "I believe we need to protect and expand the Affordable Care Act (ACA) to ensure preexisting conditions are covered. I also support solutions that bring down the cost of prescription drugs, like allowing Medicare to negotiate with pharmaceutical companies.",
+          "sources": ["s5"]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the Committee on Agriculture (General Farm Commodities, Risk Management and Credit; Conservation, Research and Biotechnology) and the House Committee on Armed Services (Readiness; Tactical Air and Land Forces).",
@@ -45,7 +87,7 @@
           "sources": ["s1"]
         }
       ],
-      "researchDepth": "basic",
+      "researchDepth": "full",
       "bioguideId": "S001225"
     },
     {
@@ -88,8 +130,43 @@
       "title": "Dillan Vancil (Illinois)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://sorensen.house.gov/issues/reproductive-rights",
+      "title": "Reproductive Rights",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://sorensen.house.gov/issues/energy-and-environment",
+      "title": "Energy and the Environment",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://sorensen.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://sorensen.house.gov/issues/jobs-small-business-and-economy",
+      "title": "Jobs, Small Business, and the Economy",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://sorensen.house.gov/issues/public-safety",
+      "title": "Public Safety",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate has completed the 2026 Ballotpedia Candidate Connection survey with citable statements; no campaign-website issue positions were located within the research budget for this race, so priorities and positions are not documented here."
+  "researchNotes": "Sorensen's positions and priorities are drawn from his official House issues pages. No campaign website or citable public statements were found for Dillan Vancil beyond basic biographical facts."
 }
