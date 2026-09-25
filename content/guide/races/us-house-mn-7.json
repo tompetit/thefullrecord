@@ -1,0 +1,92 @@
+{
+  "id": "us-house-mn-7",
+  "state": "MN",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "7",
+  "title": "U.S. House · Minnesota's 7th District",
+  "area": "Western and northwestern Minnesota, including Moorhead, Willmar, Alexandria and the Red River Valley farm country.",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Michelle Fischbach (R) advanced from the August 11, 2026 Republican primary. Erik Osberg won the Democratic primary over Steve Carlson.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "michelle-fischbach",
+      "name": "Michelle Fischbach",
+      "parties": ["R"],
+      "incumbent": true,
+      "ballotNote": "Advanced from the August 11, 2026 Republican primary.",
+      "currentRole": "U.S. Representative (since 2021); Chair, Rules and Organization of the House Subcommittee",
+      "summary": {
+        "text": "Fischbach is the incumbent U.S. Representative for Minnesota's 7th District, first elected in 2020. She previously served in the Minnesota State Senate and as Minnesota's lieutenant governor, and currently chairs the Rules and Organization of the House Subcommittee.",
+        "sources": ["s2"]
+      },
+      "background": [
+        {"text": "Graduated from Woodbury High School in Minnesota; earned a bachelor's degree in political science and economics from St. Cloud State University and a law degree from William Mitchell College of Law.", "sources": ["s2"]},
+        {"text": "Served on the Paynesville, Minnesota city council and in the Minnesota State Senate.", "sources": ["s2"]},
+        {"text": "Served as Minnesota's lieutenant governor in 2018-2019.", "sources": ["s2"]}
+      ],
+      "priorities": [
+        {"text": "Chairs the Rules and Organization of the House Subcommittee and serves on the Committee on Ways and Means (Oversight and Trade subcommittees) in the 119th Congress.", "sources": ["s2"]},
+        {"text": "Previously served on the Committee on Agriculture, including as ranking member of the Subcommittee on Commodity Exchanges, Energy, and Credit.", "sources": ["s2"]}
+      ],
+      "positions": [],
+      "record": [
+        {"text": "Chairs the Rules and Organization of the House Subcommittee, Committee on Rules, in the 119th Congress (2025-2026); also serves on the Committee on Ways and Means (Oversight and Trade subcommittees).", "kind": "action", "sources": ["s2"]},
+        {"text": "Served on the House Committee on Budget and the Committee on Ethics during the 118th Congress (2023-2024).", "kind": "action", "sources": ["s2"]},
+        {"text": "Served as ranking member of the Agriculture Subcommittee on Commodity Exchanges, Energy, and Credit during the 117th Congress (2021-2022).", "kind": "action", "sources": ["s2"]},
+        {"text": "Participated in the January 6-7, 2021 certification of the electoral college vote count as a U.S. Senator representing Minnesota (she was appointed to the U.S. Senate before her House election).", "date": "2021-01-07", "kind": "action", "sources": ["s2"]}
+      ],
+      "website": "https://fischbach.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "F000470"
+    },
+    {
+      "id": "erik-osberg",
+      "name": "Erik Osberg",
+      "parties": ["D"],
+      "incumbent": false,
+      "ballotNote": "Won the August 11, 2026 Democratic primary over Steve Carlson.",
+      "summary": {
+        "text": "Osberg is a small business owner from western Minnesota running as the Democratic nominee against incumbent Michelle Fischbach, campaigning on rural healthcare, agriculture, public education, and reducing corporate influence in politics.",
+        "sources": ["s3"]
+      },
+      "background": [
+        {"text": "Describes himself as a husband, father, and small-business owner who has worked in the financial sector, public sector, media, and trades.", "sources": ["s3"]},
+        {"text": "Describes himself as 'a rural candidate for a rural district,' running to represent western Minnesota.", "quote": "He is a rural candidate for a rural district.", "sources": ["s3"]}
+      ],
+      "priorities": [
+        {"text": "Defend constitutional rights and protect fair elections.", "quote": "Defend our constitutional rights, protect fair elections, and stand up for the institutions that keep power in the hands of the people.", "sources": ["s3"]},
+        {"text": "Get corporate money out of politics, including a constitutional amendment ending Citizens United and a ban on individual stock trading by members of Congress.", "quote": "We believe in a constitutional amendment ending Citizens United. We believe in banning individual stock trading for congress.", "sources": ["s3"]},
+        {"text": "Make healthcare more affordable and accessible for rural families, seniors, and communities that rely on local clinics and hospitals.", "quote": "Make healthcare more affordable and accessible, especially for rural families, seniors, and communities that rely on local clinics and hospitals.", "sources": ["s3"]},
+        {"text": "Protect and expand federal support for public schools, students, and teachers.", "quote": "Protect & expand strong federal support for public schools, students, teachers, and the future of our communities.", "sources": ["s3"]},
+        {"text": "Support farms, small businesses, and rural economies with federal backing for local solutions on housing, childcare, and public safety.", "quote": "Support farms, small businesses, local innovation, and rural economies.", "sources": ["s3"]}
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaigns on making healthcare more affordable and accessible, particularly for rural communities.",
+          "quote": "Make healthcare more affordable and accessible, especially for rural families, seniors, and communities that rely on local clinics and hospitals.",
+          "sources": ["s3"]
+        }
+      ],
+      "record": [],
+      "website": "https://erikosberg4congress.com",
+      "researchDepth": "basic",
+      "researchNotes": "Osberg has not completed Ballotpedia's Candidate Connection survey; positions are drawn from his campaign website's priorities pages."
+    }
+  ],
+  "sources": [
+    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Minnesota,_2026", "title": "United States House of Representatives elections in Minnesota, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s2", "url": "https://ballotpedia.org/Michelle_Fischbach", "title": "Michelle Fischbach", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
+    {"id": "s3", "url": "https://erikosberg4congress.com", "title": "Erik Osberg for Congress", "publisher": "Erik Osberg for Congress campaign website", "kind": "candidate", "date": "2026-09-25"}
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Basic-tier research. Federal key votes and FEC finance totals for Rep. Fischbach are added separately by script."
+}
