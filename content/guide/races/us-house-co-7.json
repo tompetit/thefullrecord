@@ -11,28 +11,38 @@
   "context": [
     {
       "text": "Incumbent Brittany Pettersen (D) was unopposed in the June 30, 2026 Democratic primary. Timothy Bennett won the Republican primary over Amanda Capobianco.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "brittany-pettersen",
       "name": "Brittany Pettersen",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative for Colorado's 7th District (since 2023)",
       "summary": {
         "text": "Brittany Pettersen is the incumbent U.S. Representative for Colorado's 7th District, first elected in 2022. She previously served in the Colorado House of Representatives and Colorado State Senate.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a B.A. in political science from Metropolitan State University of Denver; career experience includes working for the youth civic-engagement organization New Era Colorado.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the Colorado House of Representatives (District 28) from 2013 to 2019, and in the Colorado State Senate (District 22) from 2019 to 2023, before her election to Congress in 2022.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -41,7 +51,33 @@
         {
           "text": "Served on the House Committee on Financial Services (Housing and Insurance; National Security, Illicit Finance, and International Financial Institutions subcommittees) in the 118th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Introduced the Romance Scam Prevention Act, which passed both chambers of Congress; it would require dating platforms to notify users who interacted with an account removed for fraud.",
+          "date": "2026-09-24",
+          "kind": "bill",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Introduced the bipartisan Fentanyl Sanctions Reauthorization Act of 2026 with Rep. Roger Williams to extend sanctions authority against foreign fentanyl traffickers before it expires in December 2026.",
+          "date": "2026-09-24",
+          "kind": "bill",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Introduced the bipartisan Promoting Financial Literacy in Secondary Schools Act with Rep. David Valadao to give high schools access to financial literacy resources.",
+          "date": "2026-09-23",
+          "kind": "bill",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -49,12 +85,16 @@
     {
       "id": "timothy-bennett",
       "name": "Timothy Bennett",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 30, 2026 Republican primary over Amanda Capobianco.",
       "summary": {
         "text": "Timothy Bennett is the Republican nominee for Colorado's 7th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -65,11 +105,15 @@
     {
       "id": "lawrence-clark",
       "name": "Lawrence Clark",
-      "parties": ["American Constitution Party"],
+      "parties": [
+        "American Constitution Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Lawrence Clark is the American Constitution Party candidate for Colorado's 7th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -80,11 +124,15 @@
     {
       "id": "dan-sallis",
       "name": "Dan Sallis",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Dan Sallis is the Libertarian Party candidate for Colorado's 7th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -95,11 +143,15 @@
     {
       "id": "joe-krzeczkowski",
       "name": "Joe Krzeczkowski",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Joe Krzeczkowski is an unaffiliated candidate running for Colorado's 7th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -110,11 +162,15 @@
     {
       "id": "susan-hall",
       "name": "Susan Hall",
-      "parties": ["Unity Party"],
+      "parties": [
+        "Unity Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Susan Hall is the Unity Party candidate for Colorado's 7th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -137,8 +193,32 @@
       "title": "Brittany Pettersen",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://pettersen.house.gov/news/documentsingle.aspx?DocumentID=1939",
+      "title": "Congresswoman Brittany Pettersen's Statement on Her Latest Bill Passed by Both Chambers",
+      "publisher": "Office of Rep. Brittany Pettersen",
+      "kind": "official",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "s4",
+      "url": "https://pettersen.house.gov/news/documentsingle.aspx?DocumentID=1940",
+      "title": "Congresswoman Brittany Pettersen Leads Sanctions Effort to Reduce Fentanyl Trafficking into United States",
+      "publisher": "Office of Rep. Brittany Pettersen",
+      "kind": "official",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "s5",
+      "url": "https://pettersen.house.gov/news/documentsingle.aspx?DocumentID=1937",
+      "title": "Congresswoman Pettersen Introduces Bill to Expand Financial Literacy Resources for High School Students",
+      "publisher": "Office of Rep. Brittany Pettersen",
+      "kind": "official",
+      "date": "2026-09-23"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No Ballotpedia biography page was found for Republican nominee Timothy Bennett (page does not exist), or for minor-party/independent candidates Lawrence Clark, Dan Sallis, Joe Krzeczkowski, and Susan Hall; their entries are limited to their ballot listing from the Colorado 2026 House elections overview. No stated issue positions were found for Pettersen beyond her committee assignments for this basic-tier entry."
+  "researchNotes": "No Ballotpedia biography page was found for Republican nominee Timothy Bennett (page does not exist), or for minor-party/independent candidates Lawrence Clark, Dan Sallis, Joe Krzeczkowski, and Susan Hall; their entries are limited to their ballot listing from the Colorado 2026 House elections overview. No stated issue positions were found for Pettersen beyond her committee assignments for this basic-tier entry. Checked Pettersen's official issues pages (Congress, Economy, Education, Energy, Health, Veterans at pettersen.house.gov/issues), which contain no issue-specific text beyond category labels, and her recent press releases; none directly addressed a Position issue-key statement (bill topics found were fraud prevention, fentanyl sanctions, and financial literacy, added as record items instead)."
 }
