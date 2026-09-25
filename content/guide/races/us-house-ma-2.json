@@ -1,0 +1,85 @@
+{
+  "id": "us-house-ma-2",
+  "state": "MA",
+  "officeType": "us-house",
+  "office": "U.S. House",
+  "district": "2",
+  "title": "U.S. House · Massachusetts's 2nd District",
+  "area": "Central Massachusetts, including Worcester and Northampton",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Jim McGovern advanced from the September 1, 2026 Democratic primary and is the only candidate listed for the November 3 general election; no Republican or other candidate is on the ballot.",
+      "sources": ["s1"]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "jim-mcgovern",
+      "name": "Jim McGovern",
+      "parties": ["D"],
+      "incumbent": true,
+      "currentRole": "U.S. Representative (since 1997)",
+      "summary": {
+        "text": "McGovern is the incumbent and unopposed on the November general-election ballot. He is Ranking Member of the House Rules Committee and also serves on the Agriculture Committee. He co-chairs the House Hunger Caucus.",
+        "sources": ["s1", "s2", "s3"]
+      },
+      "background": [
+        { "text": "Born in Worcester, Massachusetts; earned bachelor's and master's degrees from American University (1981, 1984).", "sources": ["s2"] },
+        { "text": "Worked for 14 years as a senior aide to the late U.S. Rep. John Joseph Moakley (D).", "sources": ["s2"] },
+        { "text": "In 1990, led the Moakley Commission's congressional investigation into the 1989 murder of six Jesuit priests, their housekeeper, and her daughter in El Salvador by the Salvadoran Army; the commission's report led to a change in U.S. foreign aid policy.", "sources": ["s2"] }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Serves as Ranking Member of the House Rules Committee; also co-chairs a congressional hunger caucus.",
+          "kind": "action",
+          "sources": ["s3"]
+        },
+        {
+          "text": "Serves on the House Committee on Agriculture (Nutrition and Foreign Agriculture) for the 2025-2026 term.",
+          "kind": "action",
+          "sources": ["s2"]
+        },
+        {
+          "text": "Introduced bipartisan legislation on medically tailored meals with Rep. Nicole Malliotakis (R-NY) that passed the House.",
+          "kind": "bill",
+          "sources": ["s3"]
+        }
+      ],
+      "website": "https://mcgovern.house.gov",
+      "researchDepth": "basic",
+      "bioguideId": "M000312"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Massachusetts%27_2nd_Congressional_District_election,_2026",
+      "title": "Massachusetts' 2nd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Jim_McGovern_(Massachusetts)",
+      "title": "Jim McGovern (Massachusetts)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://mcgovern.house.gov",
+      "title": "Congressman Jim McGovern - Home / Newsroom",
+      "publisher": "Office of Rep. James P. McGovern",
+      "kind": "official",
+      "date": "2026-09-25"
+    }
+  ],
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Uncontested race; only Rep. McGovern appears on the November 3, 2026 general-election ballot. His key floor votes and FEC finance totals are added separately by script."
+}
