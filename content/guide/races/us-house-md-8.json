@@ -43,7 +43,15 @@
       "url": "https://ballotpedia.org/Cheryl_Riley",
       "title": "Cheryl Riley campaign website statement",
       "publisher": "Cheryl Riley campaign website, via Ballotpedia",
-      "kind": "candidate"
+      "kind": "candidate",
+      "date": "2024"
+    },
+    {
+      "id": "s5",
+      "url": "https://democrats-judiciary.house.gov/about/committee-membership.htm",
+      "title": "Committee Membership",
+      "publisher": "House Judiciary Committee Democrats",
+      "kind": "official"
     }
   ],
   "candidates": [
@@ -124,7 +132,8 @@
           "text": "Serves as ranking member of the House Committee on Judiciary for the 2025-2026 term.",
           "kind": "action",
           "sources": [
-            "s2"
+            "s2",
+            "s5"
           ]
         },
         {
@@ -186,24 +195,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Says she will work to remove what she describes as restrictions placed on police officers, calling safety her top priority.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says she will end what she describes as an over-bearing tax burden placed on residents.",
-          "sources": [
-            "s4"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     },
