@@ -36,12 +36,12 @@ function Comparison({ race }: { race: GuideRace }) {
   if (!issues.length || race.candidates.length < 1) return null;
   return (
     <section className="mt-10">
-      <SectionLabel>Where they stand — side by side</SectionLabel>
+      <SectionLabel>Issue evidence — side by side</SectionLabel>
       <p className="mt-1 font-sans text-[12.5px] text-ink-60">
-        Only positions documented in a cited source are shown. Where an
-        officeholder&rsquo;s recorded votes speak to an issue, the votes set the position
-        (marked &ldquo;votes&rdquo;). A dash means we
-        found no clear public position — not that the candidate has none.
+        Recorded votes and documented positions are shown with sources.
+        Votes describe specific bills or motions; they do not establish overall
+        support or opposition to a broad issue. A dash means our research has no
+        evidence on that topic, not that the candidate has no position.
       </p>
       <div className="mt-3 overflow-x-auto rounded-lg border border-card bg-paper-raised">
         <table className="w-full min-w-[560px] border-collapse font-sans text-[12.5px]">
@@ -73,15 +73,11 @@ function Comparison({ race }: { race: GuideRace }) {
                   return (
                     <td key={c.id} className="p-2.5 align-top" title={p?.summary}>
                       {p ? (
-                        <span className="inline-flex items-center">
-                          <StanceChip stance={p.stance} />
+                        <div><span className="inline-flex flex-wrap items-center">
+                          <StanceChip stance={p.basis === "votes" ? "not_inferred" : p.stance} />
                           <Cites ids={p.sources} race={race} />
-                          {p.basis === "votes" && (
-                            <span className="ml-1 font-mono text-[9.5px] uppercase tracking-[0.06em] text-ink-45">
-                              votes{p.stated && p.stated.stance !== p.stance ? " · says otherwise" : ""}
-                            </span>
-                          )}
-                        </span>
+
+                        </span><p className="mt-2 max-w-sm text-xs leading-relaxed text-ink-60">{p.summary}</p></div>
                       ) : (
                         <span className="text-ink-35">—</span>
                       )}
@@ -101,7 +97,7 @@ function KeyVoteComparison({ race }: { race: GuideRace }) {
   const voters = race.candidates.filter((c) => c.keyVotes?.length);
   if (voters.length < 2) return null;
   const defs = getKeyVoteDefs().filter((d) => voters.some((c) => c.keyVotes!.some((k) => k.voteId === d.id)));
-  const word = (v?: string) => (v === "yes" ? "Yes" : v === "no" ? "No" : v === "present" ? "Present" : v ? "—" : "");
+  const word = (v?: string) => (v === "yes" ? "Yes" : v === "no" ? "No" : v === "present" ? "Present" : v ? "Not voting" : "No record");
   return (
     <section className="mt-10">
       <SectionLabel>Key votes in Congress — side by side</SectionLabel>

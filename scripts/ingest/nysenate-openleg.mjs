@@ -11,8 +11,8 @@
  * Run: node scripts/ingest/nysenate-openleg.mjs [--bills 40]
  */
 
-import { readFileSync } from "node:fs";
-import { writeFile, mkdir } from "node:fs/promises";
+import { readFileSync, existsSync } from "node:fs";
+import { writeSnapshot } from "./shared.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -24,7 +24,7 @@ const MAX_BILLS = Number(process.argv.find((a, i) => process.argv[i - 1] === "--
 
 const KEY =
   process.env.NY_OPENLEG_API_KEY ??
-  readFileSync(join(ROOT, ".env.local"), "utf8").match(/NY_OPENLEG_API_KEY=(\S+)/)?.[1];
+  (existsSync(join(ROOT, ".env.local")) ? readFileSync(join(ROOT, ".env.local"), "utf8").match(/NY_OPENLEG_API_KEY=(\S+)/)?.[1] : undefined);
 if (!KEY) throw new Error("NY_OPENLEG_API_KEY not set (env or .env.local)");
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -146,8 +146,7 @@ async function main() {
     members: senateMembers,
     rollCalls,
   };
-  await mkdir(dirname(OUT), { recursive: true });
-  await writeFile(OUT, JSON.stringify(snapshot, null, 2));
+  await writeSnapshot(OUT, snapshot);
   console.log(`\nWrote ${rollCalls.length} roll calls -> ${OUT}`);
 }
 

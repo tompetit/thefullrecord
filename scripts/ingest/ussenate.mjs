@@ -6,10 +6,10 @@
  * positions on the most recent recorded votes, keyed by bioguide id
  * (memberKeys maps "sen-1" = senior, "sen-2" = junior).
  *
- * Run: node scripts/ingest/ussenate.mjs [--count 25]
+ * Run: node scripts/ingest/ussenate.mjs [--count 150]
  */
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { decodeXml, federalVote, positiveCount, writeSnapshot } from "./shared.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -17,7 +17,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot/ussenate.json");
 const CONGRESS = 119;
 const SESSION = 2;
-const COUNT = Number(process.argv.find((a, i) => process.argv[i - 1] === "--count") ?? 25);
+const COUNT = positiveCount(process.argv.slice(2), "--count", 150);
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -31,7 +31,7 @@ async function fetchText(url) {
 }
 
 const tag = (xml, name) =>
-  xml.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`))?.[1]?.trim() ?? "";
+  decodeXml(xml.match(new RegExp(`<${name}[^>]*>([\\s\\S]*?)</${name}>`))?.[1] ?? "");
 
 const PROCEDURAL = /motion to proceed|cloture|motion to table|motion to waive|motion to discharge|motion to commit|motion to recommit|quorum|motion to instruct|point of order|motion to adjourn/i;
 
@@ -45,8 +45,7 @@ function parseVoteDate(s) {
   return [`${y}-${MONTHS[month]}-${d.padStart(2, "0")}`, `${month.slice(0, 3)} ${Number(d)}, ${y}`];
 }
 
-const mapVote = (v) =>
-  v === "Yea" || v === "Guilty" ? "yes" : v === "Nay" || v === "Not Guilty" ? "no" : "absent";
+const mapVote = federalVote;
 
 async function main() {
   // NY senators: lis id -> bioguide, seniority order from congress-legislators.
@@ -82,6 +81,7 @@ async function main() {
     nays: tag(v, "nays"),
     title: tag(v, "title"),
   }));
+  if (!menuVotes.length) throw new Error("Senate menu contains no votes; keeping previous snapshot");
   const latest = Math.max(...menuVotes.map((v) => Number(v.number)));
   const recent = menuVotes
     .sort((a, b) => Number(b.number) - Number(a.number))
@@ -97,11 +97,15 @@ async function main() {
     await sleep(200);
 
     const votes = {};
+    const rawVotes = {};
     for (const m of xml.matchAll(/<member>([\s\S]*?)<\/member>/g)) {
       const block = m[1];
       if (tag(block, "state") !== "NY") continue;
       const bioguide = lisToBioguide[tag(block, "lis_member_id")];
-      if (bioguide) votes[bioguide] = mapVote(tag(block, "vote_cast"));
+      if (bioguide) {
+        rawVotes[bioguide] = tag(block, "vote_cast");
+        votes[bioguide] = mapVote(rawVotes[bioguide]);
+      }
     }
     if (!Object.keys(votes).length) continue;
 
@@ -116,12 +120,14 @@ async function main() {
       id: `ussenate-${CONGRESS}-${SESSION}-${Number(mv.number)}`,
       bill: mv.issue || question,
       title: mv.title || question,
-      kind: PROCEDURAL.test(question) ? "procedural" : "substantive",
+      question,
+      kind: PROCEDURAL.test(`${question} ${mv.title}`) ? "procedural" : "substantive",
       outcome: `${mv.result} ${mv.yeas}–${mv.nays}`,
       date,
       dateLabel,
       sourceUrl: `https://www.senate.gov/legislative/LIS/roll_call_votes/vote${CONGRESS}${SESSION}/vote_${CONGRESS}_${SESSION}_${num}.htm`,
       votes,
+      rawVotes,
     });
     console.log(`  vote ${mv.number}: ${mv.issue} — ${mv.result} ${mv.yeas}–${mv.nays}`);
   }
@@ -134,8 +140,7 @@ async function main() {
     memberKeys,
     rollCalls,
   };
-  await mkdir(dirname(OUT), { recursive: true });
-  await writeFile(OUT, JSON.stringify(snapshot, null, 2));
+  await writeSnapshot(OUT, snapshot);
   console.log(`\nWrote ${rollCalls.length} roll calls -> ${OUT}`);
 }
 

@@ -6,7 +6,7 @@
  * data source both conform to them.
  */
 
-export type VoteChoice = "yes" | "no" | "absent";
+export type VoteChoice = "yes" | "no" | "absent" | "present";
 export type VoteKind = "substantive" | "procedural";
 export type Party = "D" | "R" | "WFP";
 export type GovernmentLevel = "city" | "state" | "federal";
@@ -55,6 +55,8 @@ export interface Official {
 }
 
 export interface VoteRecord {
+  /** Exact motion/question: a vote on a bill is not necessarily passage. */
+  question?: string;
   id: string;
   officialId: string;
   /** Route id of the bill detail page, when we have one */

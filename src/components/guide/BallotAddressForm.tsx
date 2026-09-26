@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useId, useState } from "react";
 import { useAddress } from "../useAddress";
 
 /** Address → the voter's own ballot. Any U.S. address works for Congress. */
@@ -13,6 +13,7 @@ export function BallotAddressForm({
   cta?: string;
 }) {
   const router = useRouter();
+  const privacyId = useId();
   const { setAddress } = useAddress();
   const [value, setValue] = useState("");
 
@@ -25,9 +26,13 @@ export function BallotAddressForm({
   }
 
   return (
+    <div>
     <form onSubmit={submit} className="mt-6 flex max-w-xl flex-col gap-2.5 sm:flex-row">
       <input
         type="text"
+        required
+        maxLength={250}
+        aria-describedby={privacyId}
         value={value}
         onChange={(e) => setValue(e.target.value)}
         placeholder="Your street address, city, state"
@@ -42,5 +47,7 @@ export function BallotAddressForm({
         {cta}
       </button>
     </form>
+    <p id={privacyId} className="mt-3 max-w-xl font-sans text-xs leading-relaxed text-ink-60">Your address is sent to public geocoding services to find districts and kept in this tab’s session. It appears in the results URL and may remain in browser history. No apartment number is needed.</p>
+    </div>
   );
 }

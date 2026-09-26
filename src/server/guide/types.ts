@@ -48,11 +48,11 @@ export const ISSUES = {
 } as const;
 
 export type IssueKey = keyof typeof ISSUES;
-export type Stance = "supports" | "opposes" | "mixed";
+export type Stance = "supports" | "opposes" | "mixed" | "not_inferred";
 
 export interface Position {
   issue: IssueKey;
-  /** Relative to the ISSUES statement */
+  /** Relative to the ISSUES statement; recorded votes alone use not_inferred. */
   stance: Stance;
   /** One neutral sentence describing the documented position */
   summary: string;

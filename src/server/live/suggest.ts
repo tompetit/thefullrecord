@@ -40,6 +40,7 @@ const BOROUGH_CITY: Record<string, string> = {
 
 async function nycSuggest(q: string): Promise<AddressSuggestion[]> {
   const res = await fetch(`${NYC_URL}?${new URLSearchParams({ text: q })}`, {
+    cache: "no-store",
     signal: AbortSignal.timeout(TIMEOUT_MS),
   });
   if (!res.ok) return [];
@@ -72,6 +73,7 @@ async function photonSuggest(q: string): Promise<AddressSuggestion[]> {
   const params = new URLSearchParams({ q, bbox: NY_BBOX, lang: "en", limit: "10", layer: "house" });
   const res = await fetch(`${PHOTON_URL}?${params}`, {
     headers: { "User-Agent": "TheFullRecord/1.0 (https://www.thefullrecord.org)" },
+    cache: "no-store",
     signal: AbortSignal.timeout(TIMEOUT_MS),
   });
   if (!res.ok) return [];

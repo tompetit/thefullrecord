@@ -13,10 +13,14 @@ export const metadata = { title: "Official profile — The Full Record" };
 /** The core screen: identity + committees + stats + the activity feed. */
 export default async function OfficialPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string }>;
+  searchParams: Promise<{ address?: string }>;
 }) {
   const { id } = await params;
+  const query = await searchParams;
+  const address = typeof query.address === "string" ? query.address.trim().slice(0, 250) : "";
   const ds = getDataSource();
   const official = await ds.getOfficial(id);
   if (!official) notFound();
@@ -76,7 +80,7 @@ export default async function OfficialPage({
         {/* Left rail (desktop) / header stack (mobile) */}
         <aside className="lg:sticky lg:top-4 lg:self-start">
           <Link
-            href="/representatives"
+            href={address ? `/representatives?address=${encodeURIComponent(address)}` : "/representatives"}
             className="flex min-h-11 items-center font-sans text-[12.5px] text-ink-60 hover:text-ink"
           >
             ‹ Your representatives
@@ -89,14 +93,14 @@ export default async function OfficialPage({
             const stats: Array<[string, string, string | number]> = [];
             if (official.stats.votesThisSession !== null)
               stats.push([
-                "Votes this session",
-                "votes this session",
+                "Votes in this collection",
+                "votes in collection",
                 official.stats.votesThisSession,
               ]);
             if (official.stats.rollCallsAttendedPct !== null)
               stats.push([
-                "Roll calls attended",
-                "roll calls attended",
+                "Recorded participation",
+                "recorded participation",
                 `${official.stats.rollCallsAttendedPct}%`,
               ]);
             if (official.stats.billsSponsored !== null)
@@ -147,9 +151,9 @@ export default async function OfficialPage({
 
           {election && <ElectionCard election={election} />}
 
-          <p className="mt-4 hidden font-sans text-[11.5px] leading-normal text-ink-45 lg:block">
+          <p className="mt-4 font-sans text-[11.5px] leading-normal text-ink-45">
             {official.methodologyNote}{" "}
-            <SourceLink href="#" className="text-[11.5px]">
+            <SourceLink href="/guide/methodology" className="text-[11.5px]">
               Methodology
             </SourceLink>
           </p>

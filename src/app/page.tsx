@@ -1,113 +1,92 @@
 import Link from "next/link";
 import { REPO_URL } from "@/lib/site";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
-import { SourceLink } from "@/components/SourceLink";
-import { VoteBadge } from "@/components/VoteBadge";
 import { Wordmark } from "@/components/Wordmark";
-import { getDataSource } from "@/server/datasource";
+import { getSnapshots } from "@/server/live/snapshot";
 
-const LEVELS = ["NYC Council", "State Assembly", "State Senate", "U.S. Congress"];
+const TOPICS = [
+  ["housing", "Housing", "Homes, rent & development"],
+  ["health", "Health care", "Coverage, care & public health"],
+  ["education", "Education", "Schools, students & child care"],
+  ["climate", "Climate & energy", "Energy, environment & resilience"],
+  ["economy", "Jobs & the economy", "Wages, taxes & public spending"],
+  ["rights", "Rights & public safety", "Courts, policing & civil rights"],
+];
 
-export default async function Home() {
-  const stats = await getDataSource().getSiteStats();
-
+export default function Home() {
+  const snapshots = getSnapshots();
+  const count = snapshots.reduce((n, s) => n + s.rollCalls.length, 0);
+  const dates = snapshots.flatMap((s) => s.rollCalls.map((r) => r.date)).sort();
+  const last = dates.at(-1);
   return (
-    <main className="flex min-h-screen flex-1 flex-col">
-      {/* Top bar — nav links appear on desktop only */}
-      <header className="flex items-center justify-between px-[26px] pt-5 lg:px-10">
-        <Wordmark className="text-[20px]" />
-        <nav className="hidden items-center gap-6 font-sans text-[13px] text-ink-60 lg:flex">
-          <Link href="/guide" className="font-semibold text-ink hover:underline">2026 Voter guide</Link>
-          <Link href="/guide/match" className="hover:text-ink">What matters to me</Link>
-          <Link href="/guide/methodology" className="hover:text-ink">How it works</Link>
-        </nav>
+    <main id="main-content" className="flex min-h-screen flex-1 flex-col">
+      <header className="border-b border-hairline">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-8 gap-y-1 px-6 py-4 lg:px-10">
+          <Wordmark className="text-[23px]" />
+          <nav aria-label="Main navigation" className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[13px] font-semibold text-ink-60">
+            <Link href="/issues" className="py-2 text-accent hover:underline">Explore the votes</Link>
+            <Link href="/guide" className="py-2 hover:text-ink">Voter guide</Link>
+            <Link href="/coverage" className="py-2 hover:text-ink">Our data</Link>
+          </nav>
+        </div>
       </header>
 
-      <div className="mx-auto grid w-full max-w-6xl flex-1 grid-cols-1 gap-[70px] px-[26px] pt-14 lg:grid-cols-[1fr_400px] lg:px-10 lg:pt-20">
-        {/* Hero + lookup */}
-        <section>
-          <Link
-            href="/guide"
-            className="mb-8 flex items-center justify-between gap-3 rounded-[10px] border-[1.5px] border-accent bg-accent-tint px-4 py-3 font-sans text-[13.5px] text-accent-deep hover:bg-paper-raised"
-          >
-            <span>
-              <b>Election Day is Nov 3.</b> See every candidate on your ballot —
-              records, votes, and positions, all sourced.
-            </span>
-            <span className="whitespace-nowrap font-bold">Voter guide →</span>
-          </Link>
-          <h1 className="font-serif text-[33px] font-semibold leading-[1.18] tracking-[-0.015em] text-ink text-pretty lg:text-[50px]">
-            Every level.
-            <br />
-            Every vote.
-            <br />
-            The full record.
+      <section className="mx-auto grid w-full max-w-7xl gap-10 px-6 py-12 md:py-16 lg:grid-cols-[1.35fr_1fr] lg:gap-16 lg:px-10 lg:py-20">
+        <div>
+          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent">Public service. Public record.</p>
+          <h1 className="mt-5 max-w-2xl font-serif text-[clamp(2.8rem,5.4vw,4.7rem)] font-semibold leading-[1.04] tracking-[-0.035em] text-ink">
+            Before you vote,<br />see how they did.
           </h1>
-          <p className="mt-4 max-w-md font-sans text-[14.5px] leading-[1.6] text-ink-60 lg:text-base">
-            Enter your address to see everyone who represents you in New York —
-            and what they have actually done, traced to the primary record.
+          <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-60 md:text-lg">
+            Campaigns tell you what people promise. The record shows what they did.
+            Explore the issues you care about, see the votes, and follow the evidence.
           </p>
-
-          <AddressLookupForm />
-          <p className="mt-2.5 font-sans text-[11.5px] text-ink-45">
-            Your address is used once for the lookup and never stored.
-          </p>
-        </section>
-
-        {/* Desktop: a live sample vote card */}
-        <aside className="hidden lg:block">
-          <div className="font-sans text-[11px] font-bold tracking-[0.09em] text-ink-45">
-            WHAT A RECORD LOOKS LIKE
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href="/issues" className="inline-flex min-h-12 items-center gap-8 rounded-md bg-accent px-5 py-3 text-sm font-bold text-white hover:bg-accent-deep">Explore votes by issue <span aria-hidden>↗</span></Link>
+            <a href="#find-your-reps" className="inline-flex min-h-12 items-center rounded-md border border-card-strong px-5 py-3 text-sm font-semibold text-ink hover:bg-canvas">Find my representatives <span className="ml-4" aria-hidden>↓</span></a>
           </div>
-          <article className="mt-3 rounded-lg border border-card bg-paper-raised px-4 pt-4 shadow-card">
-            <div className="flex items-start justify-between gap-3">
-              <div className="flex flex-col gap-[3px]">
-                <div className="font-sans text-[11px] font-bold tracking-[0.06em] text-ink-45">
-                  S9408-A · NY SENATE
-                </div>
-                <h3 className="font-serif text-[16.5px] font-bold leading-[1.3] text-ink text-pretty">
-                  AI chatbot toys moratorium
-                </h3>
-              </div>
-              <VoteBadge vote="yes" />
-            </div>
-            <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty">
-              Places a five-year moratorium on selling AI-companion toys for
-              children while a state study examines their risks and benefits.
-            </p>
-            <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-hairline-soft py-[11px] font-sans text-xs text-ink-60">
-              <span className="font-semibold text-ink-80">Passed Senate 57–3</span>
-              <span className="text-[#c9c0ac]">·</span>
-              <span>Jun 1, 2026</span>
-              <span className="ml-auto">
-                <SourceLink href="https://www.nysenate.gov/legislation/bills/2025/S9408/amendment/A">
-                  Roll call
-                </SourceLink>
-              </span>
-            </div>
-          </article>
-          <p className="mt-3 font-sans text-xs leading-normal text-ink-45">
-            Every claim links to the primary source. Non-partisan · no scores,
-            no grades.
-          </p>
-        </aside>
-      </div>
-
-      {/* Footer pinned to bottom */}
-      <footer className="mt-auto border-t border-hairline px-[26px] py-6 lg:px-10">
-        <div className="mx-auto grid max-w-6xl grid-cols-2 gap-3 font-sans text-xs font-semibold text-ink-80 sm:grid-cols-4">
-          {LEVELS.map((level) => (
-            <span key={level}>{level}</span>
-          ))}
+          <p className="mt-5 text-xs text-ink-60">Nonpartisan. Source-linked. Yours to judge.</p>
         </div>
-        <p className="mx-auto mt-4 max-w-6xl font-sans text-xs leading-[1.6] text-ink-45">
-          {stats.trustLine}. Every claim on this site links to the primary
-          source. Non-partisan · no scores, no grades.{" "}
-          <a href={REPO_URL} className="underline hover:text-ink">
-            Open source on GitHub
-          </a>
-        </p>
-      </footer>
+        <aside className="relative self-center border border-card bg-paper-raised p-6 shadow-card sm:p-8" aria-label="How to read a voting record">
+          <div className="flex items-center justify-between border-b border-hairline pb-4 text-[10px] font-bold uppercase tracking-[0.12em] text-ink-60"><span>A closer look</span><span className="text-accent">The evidence matters</span></div>
+          <h2 className="mt-5 font-serif text-3xl font-semibold leading-tight text-ink">One vote.<br />More than a headline.</h2>
+          <ol className="mt-6 divide-y divide-hairline text-sm">
+            {[
+              ["01", "What was being decided?", "Read the bill and the specific motion. A procedural vote is different from final passage."],
+              ["02", "What did your representative do?", "See the recorded vote, its date, and the outcome in that chamber."],
+              ["03", "Where is the evidence?", "Open the official roll call. Check the context and make your own assessment."],
+            ].map(([n, title, body]) => <li key={n} className="flex gap-4 py-4"><span className="pt-1 font-mono text-[11px] text-accent">{n}</span><div><h3 className="font-semibold text-ink">{title}</h3><p className="mt-1 text-[13px] leading-relaxed text-ink-60">{body}</p></div></li>)}
+          </ol>
+          <Link href="/guide/key-votes" className="mt-2 inline-block text-sm font-semibold text-accent hover:underline">Read selected congressional votes <span aria-hidden>→</span></Link>
+        </aside>
+      </section>
+
+      <section className="border-y border-hairline bg-canvas/60">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-5 lg:px-10">
+          <p className="text-sm text-ink-60"><strong className="font-mono text-lg font-medium text-ink">{count.toLocaleString("en-US")}</strong> roll calls in our snapshots <span className="mx-2 text-ink-35">/</span> <strong className="text-ink">{snapshots.length}</strong> legislative chambers</p>
+          <Link href="/coverage" className="text-xs font-semibold text-accent underline underline-offset-4">Selected records{last ? ` through ${new Date(`${last}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" })}` : ""} · See coverage & gaps →</Link>
+        </div>
+      </section>
+
+      <section className="mx-auto w-full max-w-7xl px-6 py-14 lg:px-10">
+        <div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">Start with what matters</p><h2 className="mt-2 font-serif text-3xl font-semibold text-ink sm:text-4xl">An issue. An action. A record.</h2></div><Link href="/issues" className="text-sm font-semibold text-accent hover:underline">Browse all issues →</Link></div>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-60">Pick a topic to explore relevant recorded votes. Add your New York address to see how the representatives we can identify voted.</p>
+        <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {TOPICS.map(([id, label, detail]) => <Link key={id} href={`/issues?topic=${id}`} className="group flex min-h-28 items-center justify-between border border-card bg-paper-raised p-5 transition-colors hover:border-accent hover:bg-accent-tint"><div><h3 className="font-serif text-xl font-semibold text-ink">{label}</h3><p className="mt-1 text-xs text-ink-60">{detail}</p></div><span aria-hidden className="ml-3 text-accent transition-transform group-hover:translate-x-1">↗</span></Link>)}
+        </div>
+      </section>
+
+      <section id="find-your-reps" className="scroll-mt-6 border-y border-hairline bg-canvas/50">
+        <div className="mx-auto grid max-w-7xl gap-7 px-6 py-12 lg:grid-cols-2 lg:gap-16 lg:px-10">
+          <div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">From City Hall to Congress</p><h2 className="mt-3 font-serif text-3xl font-semibold text-ink">Who represents you?</h2><p className="mt-3 max-w-lg text-sm leading-relaxed text-ink-60">Find your current New York representatives across city, state, and federal government. Explore their votes and the sources behind them.</p></div>
+          <div><AddressLookupForm /><Link href="/representatives?sample=1" className="mt-4 inline-block text-xs font-semibold text-accent underline underline-offset-4">Explore a Brooklyn example →</Link></div>
+        </div>
+      </section>
+
+      <section className="mx-auto grid w-full max-w-7xl gap-8 px-6 py-12 md:grid-cols-3 lg:px-10">
+        {[["Records before rhetoric", "Recorded votes and official sources are the starting point. Candidate statements are labeled separately."], ["Context before conclusions", "A yes or no belongs to a particular bill or motion. A vote alone does not explain someone’s motives."], ["Gaps in plain sight", "These are selected records, not complete careers. Missing evidence is shown as missing, never inferred from party."]].map(([title, body]) => <div key={title}><h2 className="font-serif text-xl font-semibold text-ink">{title}</h2><p className="mt-2 text-sm leading-relaxed text-ink-60">{body}</p></div>)}
+      </section>
+      <footer className="mt-auto border-t border-hairline px-6 py-7 lg:px-10"><div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 text-xs text-ink-60"><span>Independent civic research. No endorsements, scores, or grades.</span><div className="flex flex-wrap gap-5"><Link href="/guide/methodology" className="underline">How we research</Link><Link href="/coverage" className="underline">Data coverage</Link><a href={`${REPO_URL}/issues`} className="underline">Suggest a correction</a><a href={REPO_URL} className="underline">Open source</a></div></div></footer>
     </main>
   );
 }

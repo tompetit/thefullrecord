@@ -128,7 +128,6 @@ export function FinanceLine({ candidate }: { candidate: GuideCandidate }) {
 }
 
 /** The full sourced profile of one candidate. */
-const STANCE_WORD = { supports: "supports", opposes: "opposes", mixed: "mixed" } as const;
 
 export function CandidateProfile({
   race,
@@ -211,18 +210,14 @@ export function CandidateProfile({
       )}
 
       {c.positions.length > 0 && (
-        <Block title="Positions on the issues">
+        <Block title="Issue evidence and documented positions">
           <ul className="flex flex-col gap-3">
             {c.positions.map((p) => (
               <li key={p.issue} className="font-sans text-[13px] leading-[1.5] text-ink-80">
                 <div className="flex flex-wrap items-center gap-2">
-                  <StanceChip stance={p.stance} />
+                  <StanceChip stance={p.basis === "votes" ? "not_inferred" : p.stance} />
                   <span className="font-semibold text-ink">{ISSUES[p.issue]}</span>
-                  {p.basis === "votes" && (
-                    <span className="rounded-sm border border-card-strong px-1.5 py-px font-mono text-[10px] uppercase tracking-[0.08em] text-ink-60">
-                      From recorded votes
-                    </span>
-                  )}
+
                 </div>
                 <p className="mt-1">
                   {p.summary}
@@ -237,11 +232,6 @@ export function CandidateProfile({
                   <div className="mt-2 border-l-2 border-card-strong pl-3">
                     <p className="text-[12.5px] text-ink-60">
                       <span className="font-semibold text-ink-80">What they say: </span>
-                      {p.stated.stance !== p.stance && (
-                        <span className="font-semibold text-ink">
-                          (their stated position — {STANCE_WORD[p.stated.stance]} — differs from their votes) {" "}
-                        </span>
-                      )}
                       {p.stated.summary}
                       <Cites ids={p.stated.sources} race={race} />
                     </p>

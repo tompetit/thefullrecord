@@ -13,11 +13,11 @@ const DEBOUNCE_MS = 200;
  * Typing offers New York address suggestions (keyless — see /api/address-suggest);
  * free text still works if nothing is picked.
  */
-export function AddressLookupForm() {
+export function AddressLookupForm({ initialAddress = "" }: { initialAddress?: string }) {
   const router = useRouter();
   const { setAddress } = useAddress();
   const listId = useId();
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState(initialAddress);
   const [suggestions, setSuggestions] = useState<AddressSuggestion[]>([]);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
@@ -36,7 +36,9 @@ export function AddressLookupForm() {
         const res = await fetch(`/api/address-suggest?q=${encodeURIComponent(q)}`, {
           signal: ctrl.signal,
         });
+        if (!res.ok) return;
         const data = (await res.json()) as { suggestions: AddressSuggestion[] };
+        if (ctrl.signal.aborted || !Array.isArray(data.suggestions)) return;
         setSuggestions(data.suggestions);
         setActive(-1);
         setOpen(true);
@@ -52,7 +54,8 @@ export function AddressLookupForm() {
 
   function go(raw: string) {
     const address = raw.trim();
-    if (address) setAddress(address);
+    if (!address) return;
+    setAddress(address);
     router.push(
       address
         ? `/representatives?address=${encodeURIComponent(address)}`
@@ -64,12 +67,11 @@ export function AddressLookupForm() {
     picked.current = s.address;
     setValue(s.address);
     setOpen(false);
-    go(s.address);
   }
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
-    if (open && active >= 0 && suggestions[active]) return pick(suggestions[active]);
+    if (open && active >= 0 && suggestions[active]) return go(suggestions[active].address);
     go(value);
   }
 
@@ -89,17 +91,22 @@ export function AddressLookupForm() {
   const showList = open && suggestions.length > 0;
 
   return (
+    <div>
     <form onSubmit={submit} className="mt-6 flex max-w-md flex-col gap-2.5 lg:flex-row">
       <div className="relative flex-1">
         <label className="flex items-center gap-2 rounded-[10px] border-[1.5px] border-ink bg-paper-raised px-4 py-[15px]">
           <Glyph name="target" className="text-[15px] text-ink-45" />
           <input
             type="text"
+            required
+            maxLength={250}
+            aria-label="Street address, city, and ZIP code"
+            aria-describedby={`${listId}-privacy`}
             role="combobox"
             aria-expanded={showList}
             aria-controls={listId}
             aria-autocomplete="list"
-            aria-activedescendant={active >= 0 ? `${listId}-${active}` : undefined}
+            aria-activedescendant={showList && active >= 0 ? `${listId}-${active}` : undefined}
             value={value}
             onChange={(e) => {
               picked.current = null;
@@ -157,5 +164,9 @@ export function AddressLookupForm() {
         Find my representatives
       </button>
     </form>
+    <p id={`${listId}-privacy`} className="mt-3 max-w-lg font-sans text-xs leading-relaxed text-ink-60">
+      New York addresses only. Include your city or ZIP code; no apartment number needed. Your address is kept for this tab’s session and sent to public address services for lookup. It also appears in the results URL.
+    </p>
+    </div>
   );
 }

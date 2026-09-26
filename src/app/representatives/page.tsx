@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { AppHeader } from "@/components/AppHeader";
 import { OfficialCard } from "@/components/OfficialCard";
 import { SourceLink } from "@/components/SourceLink";
@@ -20,7 +21,9 @@ export default async function RepresentativesPage({
 }: {
   searchParams: Promise<{ address?: string }>;
 }) {
-  const { address = "" } = await searchParams;
+  const query = await searchParams;
+  const address = typeof query.address === "string" ? query.address.trim().slice(0, 250) : "";
+  const isSample = !address;
   const ds = getDataSource();
   const [result, stats] = await Promise.all([
     ds.getOfficialsByAddress(address),
@@ -38,6 +41,7 @@ export default async function RepresentativesPage({
           <p className="mt-4 max-w-lg rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] leading-relaxed text-ink-60">
             {LOOKUP_MESSAGES[result.reason]}
           </p>
+          <AddressLookupForm initialAddress={address} />
           <p className="mt-4 font-sans text-[13px]">
             <Link href="/" className="text-ink-60 underline hover:text-ink">
               ‹ Try another address
@@ -56,17 +60,23 @@ export default async function RepresentativesPage({
 
       <div className="px-[26px] pt-7 lg:px-10">
         <h1 className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink lg:text-[32px]">
-          Your representatives
+          {isSample ? "Explore a sample district" : "Your representatives"}
         </h1>
         <p className="mt-1 font-sans text-[13.5px] text-ink-60">
-          {count} officials represent {result.matchedAddress.toLowerCase()},
-          city to federal.
+          {count} officials found for {result.matchedAddress}.
+          {isSample && " This is an example address, not your location."}
         </p>
+        <AddressLookupForm initialAddress={address} />
+        <p className="mt-4 font-sans text-xs leading-relaxed text-ink-60">Coverage includes federal and New York state legislators, plus NYC Council members where available. Local offices outside NYC are not included. Missing records do not mean an official took no action.</p>
         <Link
-          href={`/guide/ballot?address=${encodeURIComponent(address)}`}
+          href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}
+          className="mt-4 mr-3 inline-flex rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[13.5px] font-semibold text-paper"
+        >Explore votes by issue →</Link>
+        <Link
+          href={`/guide/ballot?address=${encodeURIComponent(result.matchedAddress)}`}
           className="mt-4 inline-flex rounded-[10px] border-[1.5px] border-accent bg-accent-tint px-4 py-2.5 font-sans text-[13.5px] font-semibold text-accent-deep hover:bg-paper-raised"
         >
-          See who&rsquo;s on your Nov 3 ballot at this address →
+          Explore election information for this address →
         </Link>
       </div>
 
@@ -81,7 +91,7 @@ export default async function RepresentativesPage({
             </h2>
             <div className="flex flex-col gap-3 lg:grid lg:grid-cols-2">
               {group.officials.map((official) => (
-                <OfficialCard key={official.id} official={official} />
+                <OfficialCard key={official.id} official={official} address={address} />
               ))}
             </div>
           </section>
