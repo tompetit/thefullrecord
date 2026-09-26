@@ -29,8 +29,15 @@ const VARIANTS: Record<
     wordColor: "text-umber-deep",
     subColor: "text-umber-soft",
   },
+  present: {
+    word: "Present",
+    sub: "RECORDED",
+    box: "bg-transparent border-[1.5px] border-solid border-chip-border",
+    wordColor: "text-ink-60",
+    subColor: "text-ink-45",
+  },
   absent: {
-    word: "Absent",
+    word: "Not voting",
     sub: "NO VOTE",
     box: "bg-transparent border-[1.5px] border-dashed border-[#c9c0ac]",
     wordColor: "text-ink-45",

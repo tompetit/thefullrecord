@@ -12,7 +12,8 @@ const MESSAGES = {
 };
 
 export default async function BallotPage({ searchParams }: { searchParams: Promise<{ address?: string }> }) {
-  const { address = "" } = await searchParams;
+  const query = await searchParams;
+  const address = typeof query.address === "string" ? query.address.trim().slice(0, 250) : "";
   const result = address ? await ballotForAddress(address) : null;
 
   return (
@@ -30,9 +31,6 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
               addresses also show state races and ballot proposals.
             </p>
             <BallotAddressForm />
-            <p className="mt-2 font-sans text-[11.5px] text-ink-45">
-              Your address is sent to the U.S. Census Geocoder to find your districts and is never stored.
-            </p>
           </>
         )}
         {result && !result.ok && (
@@ -53,12 +51,13 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
               {" · "}
               <Link href="/guide/ballot" className="underline hover:text-ink">change</Link>
             </p>
+            <p className="mt-3 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">This is a researched guide, not an official sample ballot. Candidate lists and district coverage may be incomplete. Confirm your current ballot with your local election office.</p>
             <div className="mt-4 flex flex-wrap gap-2">
               <Link
                 href={`/guide/match?address=${encodeURIComponent(address)}`}
                 className="rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[14px] font-bold text-paper hover:opacity-90"
               >
-                Compare these candidates on what matters to me →
+                Compare candidate evidence by issue →
               </Link>
             </div>
             {result.races.length === 0 && (
@@ -109,7 +108,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
             {result.state !== "NY" && (
               <p className="mt-6 font-sans text-[12.5px] text-ink-45">
                 Outside New York, this guide covers U.S. House and Senate races
-                {result.state === "NJ" ? " (New Jersey has no statewide ballot questions this year)" : ""}. Your ballot may also include
+. Your ballot may also include
                 state and local contests — check your state election office.
               </p>
             )}

@@ -2,9 +2,9 @@
  * Ingested-snapshot loader.
  *
  * The one-off ingest scripts under scripts/ingest/ write one JSON file per
- * chamber into src/server/snapshot/. Each file holds recent roll calls with
- * EVERY member's position, so a single ingest covers all officials of that
- * chamber — any address's representatives get real votes.
+ * chamber into src/server/snapshot/. Each file holds a partial selection of
+ * roll calls and the member positions resolved by that import. Federal files
+ * include New York members only; state/city selections are not complete.
  *
  * Member keys: bioguide id for Congress (house.json, ussenate.json);
  * district number string for NYC Council and Albany (council.json,
@@ -16,6 +16,8 @@ import { join } from "node:path";
 import type { AttendanceEntry, VoteChoice, VoteRecord } from "../types";
 
 export interface SnapshotRollCall {
+  question?: string;
+  rawVotes?: Record<string, string>;
   id: string;
   bill: string;
   title: string;
@@ -125,6 +127,7 @@ export function snapshotVotes(
         billNumber: rc.bill,
         chamber: snapshot.chamber,
         title: rc.title,
+        question: rc.question,
         aiSummary: rc.summary,
         summarySource: rc.summarySource,
         vote,
@@ -142,7 +145,8 @@ export function snapshotVotes(
 
 /**
  * Attendance derived from the ingested roll calls: for each month, how many
- * of that chamber's ingested roll calls the member cast a vote in.
+ * of that chamber's ingested roll calls the member recorded a position in.
+ * This measures participation in this sample, not physical attendance.
  */
 export function snapshotAttendance(
   officialId: string,

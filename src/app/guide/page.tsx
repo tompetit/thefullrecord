@@ -9,7 +9,7 @@ import { toSearchRaces } from "@/server/guide/search";
 export const metadata = {
   title: "2026 Voter Guide — The Full Record",
   description:
-    "Every candidate on the Nov 3, 2026 ballot in New York City, New Jersey, and every U.S. House and Senate race — their records, votes, and positions, every claim linked to its source.",
+    "Explore researched candidate profiles, recorded votes, and documented positions for the 2026 elections, with sources and coverage notes.",
 };
 
 export const revalidate = 3600;
@@ -45,10 +45,10 @@ export default function GuidePage() {
             Know who&rsquo;s on your ballot — by what they&rsquo;ve actually done.
           </h1>
           <p className="mt-4 max-w-xl font-sans text-[15px] leading-[1.6] text-ink-60">
-            Records, votes, and positions for every candidate in New York City,
-            New Jersey, and every U.S. House and Senate race in the country.
-            Every claim links to its source, official records first. No
-            endorsements, no scores.
+            Explore researched candidates in New York City, New Jersey, and
+            U.S. House and Senate races across the country. Follow sources for
+            their votes and documented positions. Research depth varies; this
+            is not an official or complete ballot. No endorsements, no scores.
           </p>
           <BallotAddressForm />
           <div className="mt-4 flex flex-wrap gap-2">
@@ -56,7 +56,7 @@ export default function GuidePage() {
               href="/guide/match"
               className="rounded-[10px] border-[1.5px] border-ink px-4 py-2.5 font-sans text-[14px] font-bold text-ink hover:bg-ink hover:text-paper"
             >
-              What matters to me →
+              Compare candidate evidence by issue →
             </Link>
             <Link
               href="/guide/key-votes"
@@ -87,7 +87,7 @@ export default function GuidePage() {
       </section>
 
       <section className="mx-auto mt-14 w-full max-w-6xl px-[20px] lg:px-10">
-        <SectionLabel>Search every race</SectionLabel>
+        <SectionLabel>Search researched races</SectionLabel>
         <div className="mt-3">
           <GuideSearch races={toSearchRaces(races)} />
         </div>

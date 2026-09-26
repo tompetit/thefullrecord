@@ -17,8 +17,8 @@
  * Run: node scripts/ingest/assembly.mjs [--bills 25]
  */
 
-import { readFileSync } from "node:fs";
-import { writeFile, mkdir } from "node:fs/promises";
+import { readFileSync, existsSync } from "node:fs";
+import { writeSnapshot } from "./shared.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { classifyMark, parseFloorVotes, resolveNames, rosterFromHtml } from "./lrs.mjs";
@@ -41,7 +41,7 @@ const KNOWN_CHECKS = [
 
 const KEY =
   process.env.NY_OPENLEG_API_KEY ??
-  readFileSync(join(ROOT, ".env.local"), "utf8").match(/NY_OPENLEG_API_KEY=(\S+)/)?.[1];
+  (existsSync(join(ROOT, ".env.local")) ? readFileSync(join(ROOT, ".env.local"), "utf8").match(/NY_OPENLEG_API_KEY=(\S+)/)?.[1] : undefined);
 if (!KEY) throw new Error("NY_OPENLEG_API_KEY not set (env or .env.local)");
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -55,7 +55,7 @@ async function politeFetch(url) {
     headers: { "user-agent": "Mozilla/5.0 (compatible; thefullrecord-ingest)" },
     signal: AbortSignal.timeout(30_000),
   });
-  if (!res.ok) throw new Error(`${url} -> ${res.status}`);
+  if (!res.ok) throw new Error(`${new URL(url).origin}${new URL(url).pathname} -> ${res.status}`);
   return res;
 }
 
@@ -168,8 +168,8 @@ async function main() {
     }
     let vote = floorVotes.find((v) => v.date === c.passDate);
     if (!vote) {
-      vote = floorVotes.reduce((a, b) => (b.date >= a.date ? b : a));
-      console.warn(`  ${c.basePrintNo}: no floor vote dated ${c.passDate}; using most recent (${vote.date})`);
+      console.warn(`  ${c.basePrintNo}: no floor vote dated ${c.passDate}; skipping instead of substituting a different action`);
+      continue;
     }
     for (const e of vote.entries) rawNames.add(e.nameKey);
     scraped.push({ ...c, vote, url });
@@ -234,7 +234,7 @@ async function main() {
     if (!ok) checksFailed += 1;
     console.log(`  ${ok ? "OK      " : "MISMATCH"} ${k.print} ${k.date}: expected ${k.expect}, got ${got}`);
   }
-  if (checksFailed) console.warn(`  ${checksFailed} known-vote check(s) failed — inspect before shipping`);
+  if (checksFailed) throw new Error(`${checksFailed} known-vote checks failed; keeping previous snapshot`);
 
   const snapshot = {
     generatedAt: new Date().toISOString(),
@@ -243,8 +243,7 @@ async function main() {
     members,
     rollCalls,
   };
-  await mkdir(dirname(OUT), { recursive: true });
-  await writeFile(OUT, JSON.stringify(snapshot, null, 2));
+  await writeSnapshot(OUT, snapshot);
   console.log(`\nWrote ${rollCalls.length} roll calls, ${members.length} members -> ${OUT}`);
   if (skippedNames.length) console.log(`Skipped vote-table names: ${skippedNames.join(", ")}`);
 }

@@ -39,8 +39,8 @@ function stubOfficial(
     ? {
         text: `Latest: ${
           latest.vote === "absent"
-            ? "absent for"
-            : `voted ${latest.vote === "yes" ? "Yes" : "No"} on`
+            ? "not voting on"
+            : `voted ${latest.vote === "yes" ? "Yes" : latest.vote === "present" ? "Present" : "No"} on`
         } ${latest.billNumber} · ${latest.dateLabel}`,
         vote: latest.vote,
       }
@@ -154,34 +154,20 @@ export async function lookupOfficials(address: string): Promise<LookupResult> {
   const state: Official[] = [];
   const federal: Official[] = [];
 
-  if (districts.councilDistrict) {
-    const o = await resolveOfficialByDistrictKey(
-      `nyc-council-${districts.councilDistrict}`
-    );
-    if (o) city.push(o);
-  }
-  if (districts.assemblyDistrict) {
-    const o = await resolveOfficialByDistrictKey(
-      `ny-ad-${districts.assemblyDistrict}`
-    );
-    if (o) state.push(o);
-  }
-  if (districts.stateSenateDistrict) {
-    const o = await resolveOfficialByDistrictKey(
-      `ny-sd-${districts.stateSenateDistrict}`
-    );
-    if (o) state.push(o);
-  }
-  if (districts.congressionalDistrict) {
-    const o = await resolveOfficialByDistrictKey(
-      `us-house-ny-${districts.congressionalDistrict}`
-    );
-    if (o) federal.push(o);
-  }
-  for (const key of ["us-sen-ny-1", "us-sen-ny-2"]) {
-    const o = await resolveOfficialByDistrictKey(key);
-    if (o) federal.push(o);
-  }
+  const seats = [
+    ...(districts.councilDistrict ? [{ key: `nyc-council-${districts.councilDistrict}`, bucket: city }] : []),
+    ...(districts.assemblyDistrict ? [{ key: `ny-ad-${districts.assemblyDistrict}`, bucket: state }] : []),
+    ...(districts.stateSenateDistrict ? [{ key: `ny-sd-${districts.stateSenateDistrict}`, bucket: state }] : []),
+    ...(districts.congressionalDistrict ? [{ key: `us-house-ny-${districts.congressionalDistrict}`, bucket: federal }] : []),
+    { key: "us-sen-ny-1", bucket: federal },
+    { key: "us-sen-ny-2", bucket: federal },
+  ];
+  const resolved = await Promise.allSettled(seats.map(({ key }) => resolveOfficialByDistrictKey(key)));
+  resolved.forEach((result, index) => {
+    if (result.status === "fulfilled" && result.value) seats[index].bucket.push(result.value);
+  });
+  // A roster outage must not discard verified results from other chambers.
+  if (!city.length && !state.length && !federal.length) return { ok: false, reason: "lookup-failed" };
 
   const groups: OfficialGroup[] = [];
   if (city.length)

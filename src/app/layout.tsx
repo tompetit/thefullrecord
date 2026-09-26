@@ -21,9 +21,10 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  referrer: "no-referrer",
   title: "The Full Record",
   description:
-    "Every level. Every vote. The full record. See every elected official who represents you and what they have actually done — every claim linked to the primary source.",
+    "Explore your New York representatives’ recorded votes by issue. Read official sources, compare candidate evidence, and see the limits of our coverage.",
 };
 
 export default function RootLayout({

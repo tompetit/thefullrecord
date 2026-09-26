@@ -1,11 +1,12 @@
 "use client";
 
 import { useSyncExternalStore } from "react";
-import { SAMPLE_ADDRESS } from "@/server/data";
 
 const KEY = "tfr-address";
+let fallbackAddress = "";
 
 function subscribe(callback: () => void) {
+  try { window.localStorage.removeItem(KEY); } catch { /* Storage may be unavailable. */ }
   window.addEventListener("storage", callback);
   window.addEventListener("tfr-address-change", callback);
   return () => {
@@ -14,21 +15,31 @@ function subscribe(callback: () => void) {
   };
 }
 
-const getSnapshot = () => window.localStorage.getItem(KEY) ?? SAMPLE_ADDRESS;
-const getServerSnapshot = () => SAMPLE_ADDRESS;
+function getSnapshot() {
+  try {
+    return window.sessionStorage.getItem(KEY) ?? fallbackAddress;
+  } catch {
+    return fallbackAddress;
+  }
+}
+const getServerSnapshot = () => "";
 
-/**
- * Saved address — persisted in localStorage. Drives the header chip,
- * "How your reps voted", and the digest. Falls back to the sample
- * address the data snapshot was researched for.
- */
+/** Addresses stay in this tab's session; a sample is never treated as the visitor's home. */
 export function useAddress() {
   const address = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   function setAddress(next: string) {
-    window.localStorage.setItem(KEY, next);
+    fallbackAddress = next.trim();
+    try {
+      // Remove the previous version's persistent copy, if present.
+      window.localStorage.removeItem(KEY);
+      if (fallbackAddress) window.sessionStorage.setItem(KEY, fallbackAddress);
+      else window.sessionStorage.removeItem(KEY);
+    } catch {
+      // Storage can be disabled; the lookup must still work.
+    }
     window.dispatchEvent(new Event("tfr-address-change"));
   }
 
-  return { address, setAddress };
+  return { address, setAddress, clearAddress: () => setAddress("") };
 }
