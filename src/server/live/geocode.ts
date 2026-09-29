@@ -27,7 +27,15 @@ const CENSUS_URL = "https://geocoding.geo.census.gov/geocoder/geographies/onelin
 const COUNCIL_ARCGIS_URL =
   "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/ArcGIS/rest/services/NYC_City_Council_Districts/FeatureServer/0/query";
 
-const cache = new Map<string, DistrictLookup | null>();
+const cache = new Map<string, { value: DistrictLookup | null; expires: number }>();
+const CACHE_TTL = 5 * 60 * 1000;
+const CACHE_LIMIT = 100;
+function remember(key: string, value: DistrictLookup | null) {
+  const now = Date.now();
+  for (const [cachedKey, entry] of cache) if (entry.expires <= now) cache.delete(cachedKey);
+  if (cache.size >= CACHE_LIMIT) cache.delete(cache.keys().next().value!);
+  cache.set(key, { value, expires: now + CACHE_TTL });
+}
 
 /** Strip a leading district-number zero-pad: "052" -> "52". */
 const unpad = (s: string | undefined | null) =>
@@ -37,7 +45,9 @@ export async function lookupDistricts(
   address: string
 ): Promise<DistrictLookup | null> {
   const key = address.trim().toLowerCase();
-  if (cache.has(key)) return cache.get(key) ?? null;
+  const cached = cache.get(key);
+  if (cached && cached.expires > Date.now()) return cached.value;
+  cache.delete(key);
 
   const params = new URLSearchParams({
     address,
@@ -48,13 +58,14 @@ export async function lookupDistricts(
     format: "json",
   });
   const res = await fetch(`${CENSUS_URL}?${params}`, {
+    cache: "no-store",
     signal: AbortSignal.timeout(15_000),
   });
   if (!res.ok) throw new Error(`Census geocoder ${res.status}`);
   const body = await res.json();
   const match = body?.result?.addressMatches?.[0];
   if (!match) {
-    cache.set(key, null);
+    remember(key, null);
     return null;
   }
 
@@ -93,7 +104,7 @@ export async function lookupDistricts(
     assemblyDistrict,
     councilDistrict,
   };
-  cache.set(key, result);
+  remember(key, result);
   return result;
 }
 
@@ -112,7 +123,8 @@ async function lookupCouncilDistrict(
   });
   try {
     const res = await fetch(`${COUNCIL_ARCGIS_URL}?${params}`, {
-      signal: AbortSignal.timeout(15_000),
+      cache: "no-store",
+    signal: AbortSignal.timeout(15_000),
     });
     if (!res.ok) return null;
     const body = await res.json();

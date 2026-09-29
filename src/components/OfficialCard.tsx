@@ -4,10 +4,10 @@ import { Avatar } from "./Avatar";
 import { PartyChip } from "./PartyChip";
 
 /** One official in the "Your representatives" list. Links to the profile. */
-export function OfficialCard({ official }: { official: Official }) {
+export function OfficialCard({ official, address = "" }: { official: Official; address?: string }) {
   return (
     <Link
-      href={`/official/${official.id}`}
+      href={`/official/${official.id}${address ? `?address=${encodeURIComponent(address)}` : ""}`}
       className="flex items-start gap-3 rounded-[10px] border border-card bg-paper-raised p-4 shadow-card transition-shadow hover:shadow-card-raised"
     >
       <Avatar size={44} />

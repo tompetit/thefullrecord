@@ -38,7 +38,7 @@ async function check(url) {
         return "blocked";
       }
       if (method === "GET") return `http-${res.status}`;
-    } catch (e) {
+    } catch {
       if (method === "GET") return "error";
     }
   }

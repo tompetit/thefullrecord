@@ -1,306 +1,71 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
-import { ISSUES, type GuideRace, type IssueKey, type Stance } from "@/server/guide/types";
+import { useState } from "react";
+import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
+import { Cites, PartyChips } from "./ui";
 
-type View = "agree" | "disagree";
-interface Answer {
-  view: View;
-  important: boolean;
-}
-type Answers = Partial<Record<IssueKey, Answer>>;
+const TOPIC_LABELS: Record<IssueKey, string> = {
+  abortion: "Abortion", guns: "Gun laws", immigration_enforcement: "Immigration",
+  rent_regulation: "Rent & tenant protections", housing_supply: "Housing & zoning",
+  tax_wealthy: "Taxes", healthcare_public: "Health coverage", climate: "Climate & energy",
+  police_funding: "Policing", school_choice: "School choice", congestion_pricing: "Congestion pricing",
+  minimum_wage: "Minimum wage", israel_aid: "U.S. aid to Israel", tariffs: "Trade & tariffs",
+  universal_childcare: "Child care",
+};
 
-const STORE = "tfr-match-answers";
-
-function loadAnswers(): Answers {
-  try {
-    return JSON.parse(window.localStorage.getItem(STORE) ?? "{}") as Answers;
-  } catch {
-    return {};
-  }
-}
-
-function agreement(view: View, stance: Stance): number {
-  if (stance === "mixed") return 0.5;
-  return (view === "agree") === (stance === "supports") ? 1 : 0;
-}
-
-interface Score {
-  candidateId: string;
-  matched: number;
-  weight: number;
-  documented: number;
-  answeredTotal: number;
-}
-
-function scoreCandidate(c: GuideRace["candidates"][number], answers: Answers): Score {
-  let matched = 0;
-  let weight = 0;
-  let documented = 0;
-  let answeredTotal = 0;
-  for (const [issue, a] of Object.entries(answers) as Array<[IssueKey, Answer]>) {
-    answeredTotal++;
-    const p = c.positions.find((x) => x.issue === issue);
-    if (!p) continue;
-    documented++;
-    // Recorded votes count for more than campaign statements.
-    const w = (a.important ? 2 : 1) * (p.basis === "votes" ? 1.5 : 1);
-    weight += w;
-    matched += w * agreement(a.view, p.stance);
-  }
-  return { candidateId: c.id, matched, weight, documented, answeredTotal };
-}
-
-const VIEW_LABEL: Record<View, string> = { agree: "You agree", disagree: "You disagree" };
-const STANCE_LABEL: Record<Stance, string> = { supports: "Supports", opposes: "Opposes", mixed: "Mixed" };
-
+/** Topic selection narrows the evidence, never ranks candidates or infers voter beliefs. */
 export function Matcher({ races, placeLabel }: { races: GuideRace[]; placeLabel: string }) {
-  const [answers, setAnswers] = useState<Answers>({});
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- hydrate saved answers after mount
-    setAnswers(loadAnswers());
-    setLoaded(true);
-  }, []);
-  useEffect(() => {
-    if (!loaded) return;
-    try {
-      window.localStorage.setItem(STORE, JSON.stringify(answers));
-    } catch {
-      // storage unavailable — answers just won't persist
-    }
-  }, [answers, loaded]);
-
+  const [selected, setSelected] = useState<IssueKey[]>([]);
+  const [recordsOnly, setRecordsOnly] = useState(false);
   const candidateRaces = races.filter((r) => r.candidates.length > 0);
-  const issueCoverage = useMemo(() => {
-    const counts = new Map<IssueKey, number>();
-    for (const r of candidateRaces)
-      for (const c of r.candidates) for (const p of c.positions) counts.set(p.issue, (counts.get(p.issue) ?? 0) + 1);
-    return counts;
-  }, [candidateRaces]);
-  const issues = (Object.keys(ISSUES) as IssueKey[])
-    .filter((k) => issueCoverage.has(k))
-    .sort((a, b) => (issueCoverage.get(b) ?? 0) - (issueCoverage.get(a) ?? 0));
+  const issues = (Object.keys(ISSUES) as IssueKey[]).filter((key) => candidateRaces.some((r) => r.candidates.some((c) => c.positions.some((p) => p.issue === key))));
+  const visibleIssues = selected.length ? selected : issues;
 
-  const answeredCount = Object.keys(answers).length;
+  if (!candidateRaces.length) return <p className="mt-6 border border-card p-5 text-sm text-ink-60">We don&rsquo;t have researched candidate races for {placeLabel} yet. <Link href="/issues" className="text-accent underline">Explore our recorded votes</Link>.</p>;
 
-  function setView(k: IssueKey, view: View | null) {
-    setAnswers((prev) => {
-      const next = { ...prev };
-      if (view === null || prev[k]?.view === view) delete next[k];
-      else next[k] = { view, important: prev[k]?.important ?? false };
-      return next;
-    });
-  }
-  function toggleImportant(k: IssueKey) {
-    setAnswers((prev) => (prev[k] ? { ...prev, [k]: { ...prev[k]!, important: !prev[k]!.important } } : prev));
-  }
-
-  if (!candidateRaces.length) {
-    return (
-      <p className="mt-6 rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
-        We don&rsquo;t have researched candidate races for {placeLabel} yet.
-      </p>
-    );
-  }
-
-  return (
-    <div className="mt-6 grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)]">
-      {/* Step 1: the voter's views */}
-      <section>
-        <h2 className="font-serif text-[22px] font-bold text-ink">1. Where do you stand?</h2>
-        <p className="mt-1 font-sans text-[13px] leading-[1.55] text-ink-60">
-          Answer only what you care about. Tap ★ for issues that matter most —
-          they count double. Only issues where a candidate on your ballot has a
-          documented position are listed.
-        </p>
-        <ul className="mt-4 flex flex-col gap-2">
-          {issues.map((k) => {
-            const a = answers[k];
-            return (
-              <li key={k} className={`rounded-lg border bg-paper-raised p-3 ${a ? "border-card-strong" : "border-card"}`}>
-                <div className="flex items-start justify-between gap-2">
-                  <span className="font-sans text-[14px] font-semibold leading-snug text-ink">{ISSUES[k]}</span>
-                  <button
-                    onClick={() => toggleImportant(k)}
-                    disabled={!a}
-                    aria-pressed={a?.important ?? false}
-                    title="Matters a lot to me (counts double)"
-                    className={`flex-none cursor-pointer rounded px-1.5 text-[16px] leading-none disabled:cursor-default disabled:opacity-25 ${
-                      a?.important ? "text-sand" : "text-ink-35 hover:text-ink-60"
-                    }`}
-                  >
-                    ★
-                  </button>
-                </div>
-                <div className="mt-2 flex gap-1.5">
-                  {(["agree", "disagree"] as const).map((v) => (
-                    <button
-                      key={v}
-                      onClick={() => setView(k, v)}
-                      aria-pressed={a?.view === v}
-                      className={`flex-1 cursor-pointer rounded-md border-[1.5px] py-1.5 font-sans text-[12.5px] font-bold ${
-                        a?.view === v
-                          ? v === "agree"
-                            ? "border-accent bg-accent-tint text-accent-deep"
-                            : "border-umber bg-umber-tint text-umber-deep"
-                          : "border-chip-border text-ink-60 hover:border-card-strong"
-                      }`}
-                    >
-                      {v === "agree" ? "Agree" : "Disagree"}
-                    </button>
-                  ))}
-                </div>
-              </li>
-            );
+  return <div className="mt-8">
+    <section className="border border-card bg-paper-raised p-5 sm:p-6" aria-labelledby="topic-heading">
+      <h2 id="topic-heading" className="font-serif text-2xl font-semibold text-ink">Choose the subjects you want to explore.</h2>
+      <p className="mt-2 max-w-3xl text-sm leading-relaxed text-ink-60">Read the same subjects for every candidate. Recorded actions and campaign statements are labeled separately. Your selection filters the evidence; it does not produce a score, ranking, or voting recommendation.</p>
+      <div className="mt-5 flex flex-wrap gap-2" role="group" aria-label="Filter candidate evidence by topic">
+        {issues.map((key) => <button key={key} type="button" aria-pressed={selected.includes(key)} onClick={() => setSelected((prev) => prev.includes(key) ? prev.filter((k) => k !== key) : [...prev, key])} className={`min-h-11 cursor-pointer rounded-full border px-4 py-2 text-sm font-semibold ${selected.includes(key) ? "border-accent bg-accent-tint text-accent-deep" : "border-chip-border text-ink-60 hover:border-accent"}`}>{TOPIC_LABELS[key]}</button>)}
+      </div>
+      <div className="mt-5 flex flex-wrap items-center justify-between gap-4 border-t border-hairline pt-4">
+        <label className="flex min-h-11 cursor-pointer items-center gap-2 text-sm text-ink"><input type="checkbox" checked={recordsOnly} onChange={(e) => setRecordsOnly(e.target.checked)} className="size-4 accent-accent" />Show only evidence based on recorded votes</label>
+        {selected.length > 0 && <button type="button" onClick={() => setSelected([])} className="min-h-11 cursor-pointer text-sm text-accent underline">Clear topic filters</button>}
+      </div>
+      <p className="mt-2 text-xs text-ink-60">Selections stay on this page and are not saved. <Link href="/issues" className="text-accent underline">Explore individual roll calls and motions →</Link></p>
+    </section>
+    <p className="mt-6 text-sm text-ink-60" role="status">{selected.length ? `${selected.length} selected topics` : "All available topics"} · {candidateRaces.length} researched races · candidates in alphabetical order within each race</p>
+    <div className="mt-5 space-y-10">
+      {candidateRaces.map((race) => <section key={race.id} aria-labelledby={`race-${race.id}`}>
+        <div className="flex flex-wrap items-baseline justify-between gap-3 border-b border-card-strong pb-3"><h2 id={`race-${race.id}`} className="font-serif text-2xl font-semibold text-ink">{race.title}</h2><Link href={`/guide/race/${race.id}`} className="text-sm font-semibold text-accent hover:underline">Full race & sources →</Link></div>
+        <p className="mt-2 text-xs leading-relaxed text-ink-60">Research dated {race.researchedAt}. Coverage varies by candidate; missing evidence is not a position.</p>
+        <div className="mt-4 grid items-start gap-4 lg:grid-cols-2">
+          {[...race.candidates].sort((a, b) => a.name.localeCompare(b.name)).map((candidate) => {
+            const documented = visibleIssues.filter((key) => candidate.positions.some((p) => p.issue === key && (!recordsOnly || p.basis === "votes"))).length;
+            return <article key={candidate.id} className="min-w-0 border border-card bg-paper-raised p-5">
+              <div className="flex flex-wrap items-center gap-2"><h3 className="font-serif text-xl font-semibold text-ink"><Link href={`/guide/race/${race.id}/${candidate.id}`} className="hover:underline">{candidate.name}</Link></h3><PartyChips parties={candidate.parties} /></div>
+              <p className="mt-2 text-xs text-ink-60">{documented} of {visibleIssues.length} displayed topics with {recordsOnly ? "vote-based" : "documented"} evidence</p>
+              <ul className="mt-4 divide-y divide-hairline">
+                {visibleIssues.map((key) => {
+                  const position = candidate.positions.find((p) => p.issue === key && (!recordsOnly || p.basis === "votes"));
+                  return <li key={key} className="py-4 first:pt-0">
+                    <h4 className="text-sm font-bold text-ink">{TOPIC_LABELS[key]}</h4>
+                    {position ? <>
+                      <span className={`mt-2 inline-block rounded border px-2 py-1 text-[10px] font-bold uppercase tracking-wide ${position.basis === "votes" ? "border-accent-tint-border bg-accent-tint text-accent-deep" : "border-chip-border bg-canvas text-ink-60"}`}>{position.basis === "votes" ? "Based on recorded votes" : "Documented position"}</span>
+                      <p className="mt-2 text-sm leading-relaxed text-ink-80">{position.summary} <Cites ids={position.sources} race={race} /></p>
+                      {position.stated && <details className="mt-3"><summary className="cursor-pointer text-xs font-semibold text-ink-60">Also on record: the candidate&rsquo;s statements</summary><p className="mt-2 text-sm leading-relaxed text-ink-60">{position.stated.summary} <Cites ids={position.stated.sources} race={race} /></p></details>}
+                    </> : <p className="mt-2 text-sm leading-relaxed text-ink-60">No {recordsOnly ? "vote-based " : ""}evidence in our research on this topic. This does not establish the candidate&rsquo;s position.</p>}
+                  </li>;
+                })}
+              </ul>
+              {visibleIssues.length === 0 && <p className="mt-4 text-sm text-ink-60">No issue evidence is available for these races yet. Open the full profile to inspect available records.</p>}
+            </article>;
           })}
-        </ul>
-        {answeredCount > 0 && (
-          <button onClick={() => setAnswers({})} className="mt-3 cursor-pointer font-sans text-[12.5px] text-ink-60 underline">
-            Clear my answers
-          </button>
-        )}
-      </section>
-
-      {/* Step 2: the candidates, compared to those views */}
-      <section>
-        <h2 className="font-serif text-[22px] font-bold text-ink">2. How your candidates compare</h2>
-        <p className="mt-1 font-sans text-[13px] leading-[1.55] text-ink-60">
-          This is not a recommendation. It compares your answers only with
-          positions we could document from a cited source. A candidate&rsquo;s
-          silence on an issue counts neither for nor against them. Where an
-          officeholder&rsquo;s recorded votes speak to an issue, the votes set the
-          position and count 1.5&times; as much as a campaign statement. And a vote
-          is about more than issue positions.
-        </p>
-        {answeredCount === 0 ? (
-          <p className="mt-4 rounded-lg border border-dashed border-dash-border p-5 font-sans text-[13.5px] text-ink-60">
-            Answer a few questions to see how the candidates on your ballot line up.
-          </p>
-        ) : (
-          <div className="mt-4 flex flex-col gap-4">
-            {candidateRaces.map((r) => {
-              const scored = r.candidates
-                .map((c) => ({ c, s: scoreCandidate(c, answers) }))
-                .sort((a, b) => {
-                  const pa = a.s.weight ? a.s.matched / a.s.weight : -1;
-                  const pb = b.s.weight ? b.s.matched / b.s.weight : -1;
-                  return pb - pa || b.s.documented - a.s.documented;
-                });
-              return (
-                <article key={r.id} className="rounded-xl border border-card bg-paper-raised p-4">
-                  <div className="flex items-baseline justify-between gap-2">
-                    <h3 className="font-serif text-[17px] font-bold text-ink">{r.title}</h3>
-                    <Link href={`/guide/race/${r.id}`} className="whitespace-nowrap font-sans text-[12px] font-semibold text-accent">
-                      Full records →
-                    </Link>
-                  </div>
-                  <ul className="mt-3 flex flex-col gap-3">
-                    {scored.map(({ c, s }) => {
-                      const pct = s.weight ? Math.round((100 * s.matched) / s.weight) : null;
-                      return (
-                        <li key={c.id} className="border-t border-hairline-soft pt-3 first:border-0 first:pt-0">
-                          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-                            <span className="font-serif text-[16px] font-bold text-ink">{c.name}</span>
-                            {c.parties.map((p) => (
-                              <span key={p} className="rounded-[3px] border border-chip-border px-1 font-sans text-[10.5px] font-semibold">
-                                {p}
-                              </span>
-                            ))}
-                          </div>
-                          {pct === null ? (
-                            <p className="mt-1 font-sans text-[12.5px] text-ink-45">
-                              No documented positions on the issues you answered.
-                            </p>
-                          ) : (
-                            <>
-                              <div className="mt-1.5 flex items-center gap-2">
-                                <div className="h-2 flex-1 overflow-hidden rounded-full bg-hairline" aria-hidden>
-                                  <div
-                                    className={`h-full rounded-full ${s.documented < 3 ? "bg-accent-soft opacity-50" : "bg-accent"}`}
-                                    style={{ width: `${pct}%` }}
-                                  />
-                                </div>
-                                <span className="w-12 text-right font-sans text-[12.5px] font-bold text-ink-80">{pct}%</span>
-                              </div>
-                              <p className="mt-1 font-sans text-[12px] text-ink-60">
-                                Agrees with you on {Number.isInteger(s.matched) ? s.matched : s.matched.toFixed(1)} of {Number.isInteger(s.weight) ? s.weight : s.weight.toFixed(1)} weighted
-                                points · position on record for {s.documented} of your {s.answeredTotal} issues
-                              </p>
-                              {s.documented < 3 && (
-                                <p className="mt-0.5 font-sans text-[11.5px] italic text-umber-deep">
-                                  Based on only {s.documented} documented {s.documented === 1 ? "position" : "positions"} — read the evidence before drawing conclusions.
-                                </p>
-                              )}
-                              <details className="mt-1.5">
-                                <summary className="cursor-pointer font-sans text-[12px] font-semibold text-ink-80">
-                                  See the evidence
-                                </summary>
-                                <ul className="mt-2 flex flex-col gap-2">
-                                  {(Object.entries(answers) as Array<[IssueKey, Answer]>).map(([k, a]) => {
-                                    const p = c.positions.find((x) => x.issue === k);
-                                    return (
-                                      <li key={k} className="font-sans text-[12.5px] leading-[1.5] text-ink-80">
-                                        <span className="font-semibold">{ISSUES[k]}</span>{" "}
-                                        <span className="text-ink-45">
-                                          · {VIEW_LABEL[a.view]}
-                                          {a.important ? " ★" : ""} · {p ? STANCE_LABEL[p.stance] : "No position on record"}
-                                          {p?.basis === "votes" ? " (from votes)" : ""}
-                                        </span>
-                                        {p && (
-                                          <span className="block text-ink-60">
-                                            {p.summary}{" "}
-                                            {p.sources.map((sid) => {
-                                              const src = r.sources.find((x) => x.id === sid);
-                                              return src ? (
-                                                <a
-                                                  key={sid}
-                                                  href={src.url}
-                                                  target="_blank"
-                                                  rel="noopener noreferrer"
-                                                  className="mr-1 whitespace-nowrap font-semibold text-accent"
-                                                >
-                                                  {src.publisher} ↗
-                                                </a>
-                                              ) : null;
-                                            })}
-                                          </span>
-                                        )}
-                                      </li>
-                                    );
-                                  })}
-                                </ul>
-                              </details>
-                            </>
-                          )}
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </article>
-              );
-            })}
-          </div>
-        )}
-        {races.some((r) => r.officeType === "ballot-measure") && (
-          <div className="mt-6">
-            <h3 className="font-sans text-[11px] font-bold tracking-[0.08em] text-ink-45">ALSO ON YOUR BALLOT</h3>
-            <ul className="mt-2 flex flex-col gap-1">
-              {races
-                .filter((r) => r.officeType === "ballot-measure")
-                .map((r) => (
-                  <li key={r.id}>
-                    <Link href={`/guide/race/${r.id}`} className="font-sans text-[13px] font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
-                      {r.title}
-                    </Link>
-                  </li>
-                ))}
-            </ul>
-          </div>
-        )}
-      </section>
+        </div>
+      </section>)}
     </div>
-  );
+  </div>;
 }

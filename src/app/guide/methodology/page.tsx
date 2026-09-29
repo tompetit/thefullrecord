@@ -55,33 +55,22 @@ export default function MethodologyPage() {
         <section className="mt-8">
           <SectionLabel>Issue positions</SectionLabel>
           <P>
-            We compare candidates on 15 fixed issue statements (for example
-            &ldquo;Stricter gun laws&rdquo;). A position is recorded only when a source
-            shows it directly: the candidate&rsquo;s own statement, a vote, a bill they
-            sponsored, or a questionnaire answer. We never infer a position from
-            party. <b>Votes outrank words.</b> For sitting members of Congress, where
-            recorded floor votes bear directly on an issue — the Laken Riley Act
-            (immigration enforcement), tariff disapproval resolutions (tariffs), the
-            ACA subsidy extension (public coverage), and the One Big Beautiful Bill
-            Act (its Medicaid reductions, immigration-enforcement funding,
-            clean-energy credit repeal, and permanent 2017 tax rates) — the votes set
-            the position, each linked to the official roll call. What the member
-            says on the same issue is shown beneath it, flagged when it differs
-            from how they voted. For New York Assembly members, recorded votes on
-            landmark laws set positions the same way — the 2019 rent law (HSTPA), the
-            climate law (CLCPA), the red-flag and concealed-carry gun laws, the
-            Reproductive Health Act, the Protect Our Courts Act, and the 2021 tax
-            increase on high earners — read from the Assembly&rsquo;s official floor-vote
-            records. Challengers who held other office are shown with their votes
-            from those offices where official records were reachable. A dash means no clear
-            public position was found — not that the
-            candidate has none.
+            The guide groups evidence under 15 issue subjects. Candidate statements
+            are shown with citations. Recorded votes are shown as votes on specific
+            bills, with their dates and official sources. We do not treat a vote on
+            a bill as proof of a broad policy belief, or assume a no vote means the
+            opposite of every provision in a bill. This is especially important for
+            legislation that combines many policies. Statements and actions can be
+            read alongside one another without assigning a consistency verdict.
+            Missing evidence means we have not documented it; it does not establish
+            a candidate&rsquo;s position.
           </P>
           <P>
-            &ldquo;What matters to me&rdquo; compares your answers only with those
-            documented positions, counting vote-based positions 1.5&times; as much as
-            campaign statements. It is not a recommendation, and a
-            candidate&rsquo;s silence on an issue counts neither for nor against them.
+            &ldquo;Compare by issue&rdquo; filters documented evidence by subject.
+            Candidates appear alphabetically within each race, with the same topics
+            displayed for everyone. Vote-based evidence is labeled separately from
+            other documented positions. We do not collect agreement answers, weight
+            issues, or calculate candidate scores. Missing research is shown as a gap.
           </P>
         </section>
 

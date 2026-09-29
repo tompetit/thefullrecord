@@ -19,9 +19,10 @@ export const KIND_LABEL: Record<SourceKind, string> = {
 /** Guide-wide top bar. */
 export function GuideNav({ active }: { active?: "guide" | "ballot" | "match" | "votes" | "method" }) {
   const links: Array<[typeof active, string, string]> = [
+    [undefined, "/issues", "Explore votes"],
     ["guide", "/guide", "All races"],
     ["ballot", "/guide/ballot", "My ballot"],
-    ["match", "/guide/match", "What matters to me"],
+    ["match", "/guide/match", "Compare by issue"],
     ["votes", "/guide/key-votes", "Key votes"],
     ["method", "/guide/methodology", "How we research"],
   ];
@@ -29,13 +30,13 @@ export function GuideNav({ active }: { active?: "guide" | "ballot" | "match" | "
     <header className="border-b border-hairline">
       <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-1 px-[20px] pt-3 pb-2 lg:px-10">
         <Wordmark />
-        <nav className="-mx-1 flex max-w-full gap-1 overflow-x-auto pb-1 font-sans text-[13px] text-ink-60">
+        <nav aria-label="Voter guide navigation" className="-mx-1 flex max-w-full gap-1 overflow-x-auto pb-1 font-sans text-[13px] text-ink-60">
           {links.map(([key, href, label]) => (
             <Link
               key={href}
               href={href}
               className={`whitespace-nowrap rounded-full px-3 py-1.5 hover:text-ink ${
-                active === key ? "bg-ink text-paper hover:text-paper" : ""
+                active && active === key ? "bg-ink text-paper hover:text-paper" : ""
               }`}
             >
               {label}
@@ -93,6 +94,7 @@ export function Monogram({ name, size = 44 }: { name: string; size?: number }) {
 }
 
 const STANCE: Record<Stance, { word: string; cls: string; mark: string }> = {
+  not_inferred: { word: "Recorded votes", cls: "bg-neutral-chip border-neutral-chip-border text-ink-80", mark: "○" },
   supports: { word: "Supports", cls: "bg-accent-tint border-accent text-accent-deep", mark: "✓" },
   opposes: { word: "Opposes", cls: "bg-umber-tint border-umber text-umber-deep", mark: "✕" },
   mixed: { word: "Mixed", cls: "bg-neutral-chip border-neutral-chip-border text-ink-80", mark: "~" },

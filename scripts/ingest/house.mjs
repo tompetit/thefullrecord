@@ -5,17 +5,17 @@
  * Writes src/server/snapshot/house.json with every NY member's position
  * on the most recent recorded votes, keyed by bioguide id.
  *
- * Run: node scripts/ingest/house.mjs [--count 25]
+ * Run: node scripts/ingest/house.mjs [--count 150]
  */
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { decodeXml, federalVote, positiveCount, writeSnapshot } from "./shared.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot/house.json");
 const YEAR = 2026;
-const COUNT = Number(process.argv.find((a, i) => process.argv[i - 1] === "--count") ?? 25);
+const COUNT = positiveCount(process.argv.slice(2), "--count", 150);
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -30,7 +30,7 @@ async function fetchText(url) {
 }
 
 const tag = (xml, name) =>
-  xml.match(new RegExp(`<${name}[^>]*>([^<]*)</${name}>`))?.[1]?.trim() ?? "";
+  decodeXml(xml.match(new RegExp(`<${name}[^>]*>([^<]*)</${name}>`))?.[1] ?? "");
 
 /** "H RES 1399" -> "H.Res. 1399", "H R 8464" -> "H.R. 8464" */
 function formatBillNumber(legisNum) {
@@ -59,19 +59,13 @@ function parseActionDate(s) {
   return [iso, `${mon} ${Number(d)}, ${y}`];
 }
 
-const mapVote = (v) =>
-  v === "Yea" || v === "Aye" ? "yes" : v === "Nay" || v === "No" ? "no" : "absent";
+const mapVote = federalVote;
 
 async function findLatestRoll() {
-  // Probe upward in steps from a known-good floor until misses persist.
-  let latest = 0;
-  for (let roll = 200; roll < 700; roll += 1) {
-    const xml = await fetchText(`https://clerk.house.gov/evs/${YEAR}/roll${String(roll).padStart(3, "0")}.xml`);
-    await sleep(120);
-    if (xml) latest = roll;
-    else if (latest && roll - latest > 3) break;
-  }
-  return latest;
+  const index = await fetchText(`https://clerk.house.gov/evs/${YEAR}/index.asp`);
+  const rolls = [...(index ?? '').matchAll(/rollnumber=(\d+)/gi)].map(match => Number(match[1]));
+  if (!rolls.length) throw new Error('House index contains no recognizable roll calls; keeping previous snapshot');
+  return Math.max(...rolls);
 }
 
 async function main() {
@@ -96,13 +90,14 @@ async function main() {
     const rollId = String(roll).padStart(3, "0");
     const xml = await fetchText(`https://clerk.house.gov/evs/${YEAR}/roll${rollId}.xml`);
     await sleep(150);
-    if (!xml) continue;
+    if (!xml) throw new Error(`Missing House roll call ${roll}; keeping previous snapshot`);
 
     const question = tag(xml, "vote-question");
     const result = tag(xml, "vote-result");
     const legisNum = tag(xml, "legis-num");
     const desc = tag(xml, "vote-desc");
     const [date, dateLabel] = parseActionDate(tag(xml, "action-date"));
+    if (!date) throw new Error(`Unparseable House date for roll ${roll}`);
     // Overall tallies live in <totals-by-vote>; per-party blocks also carry
     // yea-total/nay-total, so scope the match.
     const totals = xml.match(
@@ -111,8 +106,9 @@ async function main() {
     const [yea, nay] = totals ? [totals[1], totals[2]] : ["", ""];
 
     const votes = {};
+    const rawVotes = {};
     const re = /<legislator name-id="([A-Z]\d+)"[^>]*state="NY"[^>]*>[^<]*<\/legislator>\s*<vote>([^<]+)<\/vote>/g;
-    for (const m of xml.matchAll(re)) votes[m[1]] = mapVote(m[2]);
+    for (const m of xml.matchAll(re)) { votes[m[1]] = mapVote(m[2]); rawVotes[m[1]] = m[2]; }
     if (!Object.keys(votes).length) continue; // not a recorded member vote
 
     const bill = legisNum ? formatBillNumber(legisNum) : question;
@@ -120,12 +116,14 @@ async function main() {
       id: `house-${YEAR}-${roll}`,
       bill,
       title: desc || question,
-      kind: PROCEDURAL.test(question) ? "procedural" : "substantive",
+      question,
+      kind: PROCEDURAL.test(question) || /providing for (consideration|further consideration)/i.test(desc) ? "procedural" : "substantive",
       outcome: `${result} ${yea}–${nay}`,
       date,
       dateLabel,
       sourceUrl: `https://clerk.house.gov/Votes/${YEAR}${roll}`,
       votes,
+      rawVotes,
     });
     console.log(`  roll ${roll}: ${bill} — ${result} ${yea}–${nay} (${question})`);
   }
@@ -138,8 +136,7 @@ async function main() {
     memberKeys,
     rollCalls,
   };
-  await mkdir(dirname(OUT), { recursive: true });
-  await writeFile(OUT, JSON.stringify(snapshot, null, 2));
+  await writeSnapshot(OUT, snapshot);
   console.log(`\nWrote ${rollCalls.length} roll calls, ${Object.keys(memberKeys).length} NY seats -> ${OUT}`);
 }
 

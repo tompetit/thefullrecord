@@ -44,6 +44,8 @@ export function VoteCard({
         <VoteBadge vote={vote.vote} />
       </div>
 
+      {vote.question && <p className="mt-3 font-sans text-xs leading-relaxed text-ink-60"><span className="font-semibold">Motion:</span> {vote.question}</p>}
+
       {vote.aiSummary && (
         <>
           <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty">

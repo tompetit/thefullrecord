@@ -2,9 +2,11 @@
 
 **What your representatives said, and how they actually voted — every claim linked to the primary source.**
 
-[thefullrecord.org](https://www.thefullrecord.org) is a non-partisan civic-transparency site for New York. Enter an address to get your City Council member, State Senator, Assemblymember, U.S. Representative, and both U.S. Senators, then see their recent roll-call votes, attendance, and a weekly digest. It also includes a voter guide for the November 3, 2026 general election. The guide covers every NYC race in depth, plus every U.S. House and Senate race nationwide.
+[thefullrecord.org](https://www.thefullrecord.org) is a non-partisan civic-transparency site for New York. Enter an address to get your City Council member, State Senator, Assemblymember, U.S. Representative, and both U.S. Senators, then see their recent roll-call votes, attendance, and a digest of the latest records on file. It also includes a voter guide for the November 3, 2026 general election. The guide includes researched NYC races and federal races nationwide; research depth, freshness, and completeness vary.
 
 No endorsements, scores, or grades. The site describes what someone did or said and links to the record.
+
+Start at **`/issues`** to filter actual roll calls by topic, text, chamber, or vote type. Add a New York address to see the on-file positions of its representatives. **`/guide/match`** compares unranked candidate evidence by topic; it does not ask for political beliefs or calculate agreement. **`/coverage`** shows the dates, counts, and limitations of every snapshot.
 
 ## Principles
 
@@ -38,7 +40,7 @@ No endorsements, scores, or grades. The site describes what someone did or said 
 
 ## Running locally
 
-Requires Node 20+.
+Requires Node 22.6+ (Node 24 recommended; the test suite uses native TypeScript stripping).
 
 ```bash
 npm install
@@ -54,7 +56,7 @@ cp .env.example .env.local   # add free keys: NY OpenLegislation, congress.gov
 npm run ingest               # all chambers + enrichment
 ```
 
-Individual chambers: `npm run ingest:house`, `ingest:ussenate`, `ingest:council`, `ingest:nysenate`, `ingest:assembly`, `ingest:enrich`. Restart the dev server after an ingest, because snapshots are cached per process.
+Individual chambers: `npm run ingest:house`, `ingest:ussenate`, `ingest:council`, `ingest:nysenate`, `ingest:assembly`, `ingest:enrich`. Restart the dev server after an ingest, because snapshots are cached per process. See [`scripts/ingest/README.md`](scripts/ingest/README.md) for selection limits, source details, and safe refresh behavior.
 
 ### Voter-guide research
 
@@ -72,6 +74,8 @@ Corrections are the most valuable contribution, and GitHub issues are the way to
 Before opening a PR:
 
 ```bash
+npm test
+npm run data:validate
 npm run lint
 npm run build
 ```

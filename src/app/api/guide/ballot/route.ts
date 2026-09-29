@@ -8,7 +8,7 @@ import { ballotForAddress, ballotForDistrict } from "@/server/guide/ballot";
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const address = url.searchParams.get("address");
-  if (address) return NextResponse.json(await ballotForAddress(address));
+  if (address) return NextResponse.json(await ballotForAddress(address.slice(0, 250)), { headers: { "Cache-Control": "private, no-store" } });
   const state = url.searchParams.get("state");
   if (!state) return NextResponse.json({ ok: false, reason: "no-match" }, { status: 400 });
   const cd = url.searchParams.get("cd");

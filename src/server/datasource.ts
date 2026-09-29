@@ -64,19 +64,30 @@ const GROUP_ORDER: Array<{ level: OfficialGroup["level"]; label: string }> = [
   { level: "federal", label: "FEDERAL — U.S. CONGRESS" },
 ];
 
-/**
- * Merge curated + ingested votes, newest first. A curated record wins over
- * its ingested twin (same bill, date, and kind — kind matters: a passage
- * vote and a same-day procedural motion on the same bill are distinct).
- */
+/** Prefer sourced snapshots; retain separate motions on the same bill and day. */
 async function mergedVotes(official: Official): Promise<VoteRecord[]> {
-  const curated = data.votes.filter((v) => v.officialId === official.id);
-  const key = (v: VoteRecord) => `${v.billNumber}|${v.date}|${v.kind}`;
-  const seen = new Set(curated.map(key));
-  const ingested = snapshotVotes(official.id, official.districtKey).filter(
-    (v) => !seen.has(key(v))
-  );
-  return [...curated, ...ingested].sort((a, b) => b.date.localeCompare(a.date));
+  const ingested = snapshotVotes(official.id, official.districtKey);
+  const key = (v: VoteRecord) => {
+    // Congressional source URLs identify the actual roll call, unlike bill pages.
+    if (/clerk\.house\.gov\/Votes\/|senate\.gov\/legislative\/LIS\/roll_call_votes\//.test(v.sourceUrl)) {
+      return v.sourceUrl.replace(/\/$/, "");
+    }
+    return `${v.billNumber}|${v.date}|${v.kind}`;
+  };
+  const seen = new Set(ingested.map(key));
+  const curated = data.votes.filter((v) => v.officialId === official.id && !seen.has(key(v)));
+  return [...ingested, ...curated].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+/** Refresh activity text without pretending partial counts are session totals. */
+function withRecordedActivity(official: Official): Official {
+  const latest = snapshotVotes(official.id, official.districtKey)[0];
+  if (!latest) return official;
+  const action = latest.vote === "absent" ? "not voting on" : latest.vote === "present" ? "recorded present on" : `voted ${latest.vote} on`;
+  return {
+    ...official,
+    teaser: { text: `Latest on file: ${action} ${latest.billNumber} · ${latest.dateLabel}`, vote: latest.vote },
+  };
 }
 
 class HybridDataSource implements DataSource {
@@ -89,16 +100,17 @@ class HybridDataSource implements DataSource {
         groups: GROUP_ORDER.map(({ level, label }) => ({
           level,
           label,
-          officials: data.officials.filter((o) => o.level === level),
+          officials: data.officials.filter((o) => o.level === level).map(withRecordedActivity),
         })),
       };
     }
-    return lookupOfficials(address);
+    const result = await lookupOfficials(address);
+    return result.ok ? { ...result, groups: result.groups.map(group => ({ ...group, officials: group.officials.map(withRecordedActivity) })) } : result;
   }
 
   async getOfficial(id: string): Promise<Official | null> {
     const curated = data.officials.find((o) => o.id === id);
-    if (curated) return curated;
+    if (curated) return withRecordedActivity(curated);
     // Stub ids are districtKeys (e.g. "nyc-council-35") — resolve via rosters.
     return resolveOfficialByDistrictKey(id);
   }
@@ -147,46 +159,35 @@ class HybridDataSource implements DataSource {
 
   async getDigest(address: string): Promise<Digest> {
     const lookup = await this.getOfficialsByAddress(address);
-    if (!lookup.ok) return data.digest;
+    if (!lookup.ok) return { dateRangeLabel: "Address could not be matched", items: [], quietLine: "Try a complete New York City street address to see your representatives’ records." };
     const officials = lookup.groups.flatMap((g) => g.officials);
-
-    // The digest window is the 7 days ending today.
-    const end = new Date();
-    const start = new Date(end.getTime() - 7 * 24 * 60 * 60 * 1000);
-    const iso = (d: Date) => d.toISOString().slice(0, 10);
-    const label = (d: Date) =>
-      d.toLocaleString("en-US", { month: "short", day: "numeric" });
-
     const items: DigestItem[] = [];
-    const quiet: string[] = [];
+    const dates: string[] = [];
+    let withoutRecords = 0;
     for (const official of officials) {
-      const recent = (await mergedVotes(official)).filter(
-        (v) => v.date >= iso(start) && v.date <= iso(end)
-      );
-      if (!recent.length) {
-        quiet.push(official.name);
-        continue;
-      }
+      const recent = await mergedVotes(official);
+      if (!recent.length) { withoutRecords += 1; continue; }
       for (const v of recent.slice(0, 2)) {
+        dates.push(v.date);
         items.push({
           officialId: official.id,
           officialName: official.name,
           chamber: v.chamber,
           billNumber: v.billNumber,
           vote: v.vote,
-          summary: v.aiSummary ?? v.title,
+          summary: `${v.question ? `${v.question}: ` : ""}${v.aiSummary ?? v.title}`,
           outcome: v.outcome,
           dateLabel: v.dateLabel,
           sourceUrl: v.sourceUrl,
         });
       }
     }
+    dates.sort();
+    const label = (date: string) => new Date(`${date}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
     return {
-      dateRangeLabel: `${label(start)} – ${label(end)}, ${end.getFullYear()}`,
+      dateRangeLabel: dates.length ? `${label(dates[0])} – ${label(dates[dates.length - 1])}` : "No records available",
       items,
-      quietLine: quiet.length
-        ? `No recorded floor votes are on file this week for your other ${quiet.length} representative${quiet.length === 1 ? "" : "s"}.`
-        : "",
+      quietLine: `Up to two latest available votes per representative. Coverage varies by chamber and is not a complete activity report.${withoutRecords ? ` No votes are currently in our dataset for ${withoutRecords} representative${withoutRecords === 1 ? "" : "s"}; this does not mean they did not vote.` : ""}`,
     };
   }
 
@@ -211,7 +212,7 @@ class HybridDataSource implements DataSource {
       rollCalls += s.rollCalls.length;
     }
     return {
-      trustLine: `Tracking ${officials} officials and ${rollCalls} recent recorded roll calls across city, state and federal government`,
+      trustLine: `Tracking ${officials} officials and ${rollCalls} recorded roll calls in a partial dataset across city, state and federal government`,
       provenanceLine: data.siteStats.provenanceLine,
     };
   }

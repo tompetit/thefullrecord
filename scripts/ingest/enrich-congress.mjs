@@ -9,7 +9,7 @@
  * Run: node scripts/ingest/enrich-congress.mjs
  */
 
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -22,7 +22,7 @@ const FILES = ["house.json", "ussenate.json"].map((f) =>
 
 const KEY =
   process.env.CONGRESS_GOV_API_KEY ??
-  readFileSync(join(ROOT, ".env.local"), "utf8").match(/CONGRESS_GOV_API_KEY=(\S+)/)?.[1];
+  (existsSync(join(ROOT, ".env.local")) ? readFileSync(join(ROOT, ".env.local"), "utf8").match(/CONGRESS_GOV_API_KEY=(\S+)/)?.[1] : undefined);
 if (!KEY) throw new Error("CONGRESS_GOV_API_KEY not set (env or .env.local)");
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -124,7 +124,8 @@ async function main() {
         console.log(`  not found on congress.gov: ${rc.bill}`);
         continue;
       }
-      if (info.title) rc.title = info.title;
+      // Preserve the actual roll-call description, especially amendment text.
+      if (info.title && !rc.title) rc.title = info.title;
       if (info.summary) {
         rc.summary = info.summary;
         rc.summarySource = "official";

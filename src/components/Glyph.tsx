@@ -43,8 +43,9 @@ export function Glyph({
 }
 
 /** The glyph conventionally paired with each vote choice. */
-export const VOTE_GLYPH: Record<"yes" | "no" | "absent", GlyphName> = {
+export const VOTE_GLYPH: Record<"yes" | "no" | "absent" | "present", GlyphName> = {
   yes: "check",
   no: "cross",
   absent: "circle",
+  present: "circle",
 };
