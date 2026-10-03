@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "8",
-  "title": "U.S. House \u00b7 New York's 8th Congressional District",
+  "title": "U.S. House · New York's 8th Congressional District",
   "area": "Central and southern Brooklyn, including Brownsville, East New York, Canarsie, Coney Island, and parts of Crown Heights.",
   "inNYC": true,
   "electionDate": "2026-11-03",
@@ -83,7 +83,44 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says House Democrats will defend access to contraception and IVF and fight until the Women's Health Protection Act, which would establish a legal right to abortion care, becomes law.",
+          "quote": "House Democrats will continue to defend access to contraception and in vitro fertilization, crush the extreme MAGA Republican effort to criminalize abortion care and fight until the Women’s Health Protection Act is the law of the land.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says Medicare and Medicaid must be protected and that he will work to strengthen and grow the Affordable Care Act.",
+          "quote": "I will continue to work with my fellow Democrats to strengthen and grow the Affordable Care Act while refusing to allow extremists to repeal it.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Cites his work to pass the Inflation Reduction Act and says he is committed to building on its progress toward a clean energy future.",
+          "quote": "First, I worked with Democrats to pass the historic Inflation Reduction Act.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "In a 2022 House floor statement before voting for the Protecting Our Kids Act, called for passing comprehensive gun violence prevention legislation.",
+          "quote": "That is why we must pass comprehensive gun violence prevention legislation, address this epidemic decisively and allow America to be the best version of itself.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on no standing committees as House Democratic Leader for the 2023-2026 period, a customary practice for the top party leader in the chamber.",
@@ -175,6 +212,34 @@
       "title": "Lewis Mizrahi - 2026 Election Polls & Odds",
       "publisher": "City & State New York",
       "kind": "news"
+    },
+    {
+      "id": "s7",
+      "title": "Protecting Reproductive Rights",
+      "url": "https://jeffries.house.gov/putting-people-over-politics/protecting-reproductive-rights/",
+      "publisher": "Rep. Hakeem Jeffries official website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "title": "Healthcare",
+      "url": "https://jeffries.house.gov/healthcare/",
+      "publisher": "Rep. Hakeem Jeffries official website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "title": "Energy and Environment",
+      "url": "https://jeffries.house.gov/energy-and-environment/",
+      "publisher": "Rep. Hakeem Jeffries official website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "title": "Rep. Jeffries: We Must Address the Gun Violence Epidemic Decisively and Allow America to Be the Best Version of Itself",
+      "url": "https://jeffries.house.gov/2022/06/08/rep-jeffries-we-must-address-the-gun-violence-epidemic-decisively-and-allow-america-to-be-the-best-version-of-itself/",
+      "publisher": "Rep. Hakeem Jeffries official website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

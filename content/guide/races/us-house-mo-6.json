@@ -47,23 +47,7 @@
           "stance": "opposes",
           "summary": "Says the Second Amendment \"is not negotiable\" and he will oppose efforts to restrict gun rights through federal overreach.",
           "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Says he is \"proudly pro-life\" and will oppose taxpayer funding for abortion while supporting efforts to protect \"innocent life,\" though he notes abortion policy is increasingly decided at the state level.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supports making President Trump's tax cuts permanent and opposes raising taxes on families, farmers and small businesses.",
-          "sources": [
-            "s2"
+            "s6"
           ]
         },
         {
@@ -71,15 +55,17 @@
           "stance": "supports",
           "summary": "Supports securing the border, finishing the border wall, ending catch-and-release policies, deporting people with criminal records who are in the country illegally, and the SAVE Act's citizenship voting requirement.",
           "sources": [
-            "s2"
+            "s6"
           ]
         },
         {
-          "issue": "tariffs",
-          "stance": "mixed",
-          "summary": "Supports President Trump's efforts to expand market access and strengthen domestic food production for farmers, without a direct statement on general tariff policy.",
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Supports the SAVE Act, which requires proof of U.S. citizenship to register for federal elections.",
+          "quote": "I also support the SAVE Act to ensure only American citizens can vote in federal elections.",
           "sources": [
-            "s2"
+            "s6",
+            "s7"
           ]
         }
       ],
@@ -130,7 +116,70 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Platform calls to eliminate ICE and to develop a humane legal immigration enforcement system separate from the Department of Homeland Security.",
+          "quote": "Eliminate ICE and any use of the military to illegally arrest, detain and/or deport",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Platform calls to stop the sweeping tariffs imposed by the administration.",
+          "quote": "Stop the sweeping, erratic tariffs that raise the cost of imported goods and services",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Platform calls for reversing the Republican tax cuts for the wealthy.",
+          "quote": "Reverse the Republicans' huge tax cuts to the wealthy",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Platform backs keeping and enforcing background checks, documenting gun sales and registration requirements for 3D-printed guns, alongside funding gun-violence research.",
+          "quote": "Keep and enforce background checks",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Platform calls to stop Missouri's Amendment 3 on the November ballot, which it says will prevent reproductive freedom.",
+          "quote": "Stop Amendment 3 in November as it will prevent reproductive freedom",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Platform supports moving to a universal healthcare system and retaining Medicaid, Medicare and SNAP.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Told St. Louis Public Radio he would have voted to curtail the President's ability to use military force in Iran; his platform calls to stop the Iran war.",
+          "sources": [
+            "s5",
+            "s4"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
       "researchNotes": "No prior elected office; positions drawn from his 2025 Ballotpedia Candidate Connection survey."
@@ -181,6 +230,38 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2025"
+    },
+    {
+      "id": "s4",
+      "url": "https://votesmead.com/the-plan/",
+      "title": "The Plan",
+      "publisher": "Josh Smead for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.stlpr.org/podcast/politically-speaking/2026-09-02/democrat-josh-smead-believes-missouris-6th-district-is-undergoing-political-shift",
+      "title": "Democrat Josh Smead believes Missouri's 6th District is undergoing political shift",
+      "publisher": "St. Louis Public Radio",
+      "kind": "news",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "s6",
+      "url": "https://stigallforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Chris Stigall for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://theharrumphsociety.substack.com/p/save-the-country-pass-the-save-act",
+      "title": "Save the Country. Pass the SAVE Act.",
+      "publisher": "The Harrumph Society (Chris Stigall)",
+      "kind": "candidate",
+      "date": "2026-01-21"
     }
   ],
   "researchedAt": "2026-09-25",

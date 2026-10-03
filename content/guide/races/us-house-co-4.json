@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "4",
-  "title": "U.S. House \u00b7 Colorado's 4th District",
+  "title": "U.S. House · Colorado's 4th District",
   "area": "Eastern Plains and parts of the western Front Range of Colorado.",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -62,6 +62,40 @@
           "quote": "I won't let them take away our guns.",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 22, the SAVE Act, and H.R. 7296, the SAVE America Act (119th Congress).",
+          "sources": [
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Told CPR News she wants to see more deportations and that people in the country illegally should go back and wait in line.",
+          "quote": "anyone who has broken our nation’s laws to be here illegally doesn’t deserve to be here and should go back and wait in line",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Told CPR News she opposes federal support for wind and solar, citing the Green New Deal.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 629, the Ending Chemical Abortions Act of 2025 (119th Congress).",
+          "sources": [
+            "s9"
           ]
         }
       ],
@@ -144,10 +178,10 @@
           ]
         },
         {
-          "issue": "abortion",
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Says she believes in the right to privacy and keeping government out of personal healthcare decisions.",
-          "quote": "Keep the government out of your personal healthcare decisions and your doctor's office, because I believe in our right to privacy and the freedom to make our own decisions",
+          "summary": "Her campaign platform says to reevaluate the tax base and get rid of tax breaks for data centers, corporations and billionaires.",
+          "quote": "Reevaluate our tax base and get rid of tax breaks for data centers, corporations, and billionaires",
           "sources": [
             "s4"
           ]
@@ -213,6 +247,35 @@
       "title": "Douglas Mangeris",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/22",
+      "title": "H.R. 22 - SAVE Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7296",
+      "title": "H.R. 7296 - SAVE America Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.cpr.org/2026/09/25/vg-2026-lauren-boebert-voter-guide/",
+      "title": "CPR News voter guide: Lauren Boebert, 4th Congressional District",
+      "publisher": "CPR News",
+      "kind": "news",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/629",
+      "title": "H.R. 629 - Ending Chemical Abortions Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

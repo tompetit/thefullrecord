@@ -81,7 +81,62 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His campaign issues page lists protecting abortion access, says he sponsors legislation to restore abortion access nationwide, and says he will vote against attempts to ban abortion.",
+          "quote": "Virginia is the last state in the South without an abortion ban, and Eugene is fighting to protect women’s reproductive freedom.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign issues page says he is working to strengthen the Affordable Care Act and protect Medicare and Medicaid, and will oppose any attempt to cut them.",
+          "quote": "In Congress, he’s working to lower the cost of prescription drugs, strengthen the Affordable Care Act, protect Medicare and Medicaid, and close the gaps in access that leave too many communities behind.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His campaign issues page says he supports clean-energy investments, reducing carbon emissions and transitioning away from fossil fuels.",
+          "quote": "He supports bold investments in clean energy, efforts to reduce carbon emissions, transitioning away from fossil fuels, lowering energy bills for Virginians and policies that position Virginia as a leader in the green economy.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign issues page says he has warned that tariffs can raise costs on everyday goods and make it harder for working families and small businesses.",
+          "quote": "He has also warned that reckless tariffs can drive up costs on everyday goods, disrupt supply chains, and make it harder for working families and small businesses to get ahead.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "His campaign issues page says he joined community leaders in opposing proposed ICE mega-detention facilities in Stafford and Hanover, while supporting action against violent criminals and transnational crime.",
+          "quote": "he joined community leaders in standing against proposed U.S. Immigration and Customs Enforcement mega-detention facilities in Stafford and Hanover.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "His campaign issues page says he is working to ensure every local police department is fully funded and that officers have the funding, training and tools they need.",
+          "quote": "He is working to ensure every local police department is fully funded",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://vindman.house.gov",
       "researchDepth": "basic",
@@ -150,12 +205,21 @@
           "summary": "Says the best way to increase housing supply is to reduce regulation on development and redevelopment.",
           "quote": "The best way to increase supply is to reduce regulation for development, redevelopment, and building supply chains, while creating some legal protections against frivolous zoning disputes.",
           "sources": [
-            "s1"
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "His campaign issues page supports national concealed-carry reciprocity and opposes requiring a government-issued permit to purchase a firearm.",
+          "quote": "I support national concealed carry reciprocity so that law-abiding gun owners are not treated as criminals when they cross a state line.",
+          "sources": [
+            "s4"
           ]
         }
       ],
       "record": [],
-      "website": "https://www.dougollivant.com",
+      "website": "https://www.dougforvirginia.com",
       "researchDepth": "basic"
     },
     {
@@ -264,6 +328,20 @@
       "title": "About Congressman Eugene Vindman",
       "publisher": "Office of Rep. Eugene Vindman",
       "kind": "official"
+    },
+    {
+      "url": "https://vindmanforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Vindman for Congress",
+      "kind": "candidate",
+      "id": "s3"
+    },
+    {
+      "url": "https://www.dougforvirginia.com/issues",
+      "title": "Issues",
+      "publisher": "Doug Ollivant for Virginia",
+      "kind": "candidate",
+      "id": "s4"
     }
   ],
   "researchedAt": "2026-09-25",

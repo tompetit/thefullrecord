@@ -11,67 +11,111 @@
   "context": [
     {
       "text": "Incumbent Julie Fedorchak (R) defeated Alex Balazs 72.8%-27.0% in the June 9, 2026 Republican primary. Trygve Hammer won the Democratic primary essentially unopposed with 99.8% of the vote after Vern Thompson withdrew.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "julie-fedorchak",
       "name": "Julie Fedorchak",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Julie Fedorchak is the Republican incumbent seeking re-election to North Dakota's at-large House seat. A former North Dakota Public Service Commissioner, she serves on the House Energy and Commerce Committee and has focused her time in office on energy production, agriculture and reducing federal spending.",
-        "sources": ["s6"]
+        "sources": [
+          "s6"
+        ]
       },
       "background": [
         {
           "text": "Earned a B.A. in journalism from the University of North Dakota in 1991; began her career as a communications and media relations specialist.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Served as a spokesperson for Gov. Ed Schafer (R) from 1995 to 2000, and became North Dakota state director for U.S. Sen. John Hoeven (R) in 2011.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Volunteered as president of the National Association of Regulatory Utility Commissioners (NARUC) and president of the Organization of MISO States (OMS).",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she is focused on energy affordability, reliability, sustainability and security, and wants to expand domestic energy production and lower costs.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says she supports balancing the federal budget and rooting out wasteful spending, citing the scale of the national debt.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says agriculture is the backbone of North Dakota's economy and supports improving the Farm Bill, strengthening crop insurance, and reducing regulations on farmers and ranchers.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "As a member of the Energy and Commerce Committee, says she is working to expand domestic energy production, including fossil fuels, rather than restrict it, and frames energy policy around affordability and reliability.",
-          "sources": ["s2"]
+          "summary": "In a September 2026 statement, welcomed the EPA's repeal of the power plant greenhouse gas rule known as Clean Power Plan 2.0 and criticized closing power plants early.",
+          "quote": "Prematurely closing power plants at a time when power demand is surging is irresponsible and reckless.",
+          "sources": [
+            "s7"
+          ]
         },
         {
-          "issue": "tax_wealthy",
+          "issue": "healthcare_public",
           "stance": "opposes",
-          "summary": "Frames federal deficits as a spending problem and calls for balancing the budget and cutting waste rather than raising taxes.",
-          "sources": ["s3"]
+          "summary": "In a January 2026 statement explaining her vote against a discharge petition, said extending the enhanced Affordable Care Act premium tax credits would not achieve long-term goals and that she supports a glide path off the current program.",
+          "quote": "Extending the enhanced premium subsidies—a temporary program that Democrats created to expire—will not achieve these long-term goals",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In a June 2026 statement supporting the Secure America Act, which funds ICE and Border Patrol through fiscal year 2029, said enforcement agents need more resources.",
+          "quote": "securing the border requires more than a return to enforcing the law—it requires giving the men and women on the front lines the resources they need to do their jobs.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "opposes",
+          "summary": "In a March 2026 press release on the Iran strikes, her office stated the President has authority to take military action without prior congressional approval.",
+          "quote": "Under Article II of the U.S. Constitution, the President has constitutional authority to take military action to protect U.S. national interests without prior congressional approval, especially in response to imminent threats.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
         {
           "text": "Sits on the House Energy and Commerce Committee, including the Communications and Technology, Energy, and Environment subcommittees, in the 119th Congress.",
           "kind": "action",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "website": "https://fedorchak.house.gov",
@@ -80,45 +124,72 @@
     {
       "id": "trygve-hammer",
       "name": "Trygve Hammer",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 9, 2026 Democratic primary with 99.8% of the vote after Vern Thompson withdrew; previously the Democratic nominee for this seat in 2024.",
       "summary": {
         "text": "Trygve Hammer is the Democratic nominee for North Dakota's at-large House seat, a Marine Corps veteran and former airline pilot who was also the Democratic nominee for the seat in 2024.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Served in the U.S. Marine Corps Reserve from 1990 to 2010, including as a helicopter pilot, forward air controller, military attaché at the U.S. Embassy in Rome, and instructor.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from the U.S. Naval Academy in 1990.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Worked as an airline pilot, defense contractor and security consultant.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "During his 2024 campaign for this seat, his website listed lowering prescription drug prices, protecting Social Security benefits, and support for rural schools and communities among his priorities.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "abortion",
-          "stance": "supports",
-          "summary": "His 2024 campaign website said the government should not intrude on personal medical decisions and called for protecting women's freedom to make their own healthcare decisions.",
-          "sources": ["s5"]
-        },
-        {
           "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "His 2024 campaign website said profitable corporations and the ultra-wealthy need to pay their fair share of taxes.",
-          "sources": ["s5"]
+          "summary": "In his 2026 Ballotpedia survey, calls for a tax code that asks as much of billionaires as it does of paychecks.",
+          "quote": "a tax code that asks as much of billionaires as it does of paychecks",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In his 2026 Ballotpedia survey, says Congress must vote before U.S. forces are sent into combat.",
+          "quote": "Congress must vote before we send Americans into combat",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In his 2026 Ballotpedia survey, lists restoring premium tax credits and protecting Medicaid as part of his health care priorities.",
+          "quote": "That means keeping rural hospitals open, restoring premium tax credits, and protecting Medicaid and Social Security.",
+          "sources": [
+            "s11"
+          ]
         }
       ],
       "record": [],
@@ -128,11 +199,15 @@
     {
       "id": "helene-neville",
       "name": "Helene Neville",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Helene Neville is an independent candidate for North Dakota's at-large House seat.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -144,11 +219,15 @@
     {
       "id": "charles-tuttle",
       "name": "Charles Tuttle",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Charles Tuttle is an independent candidate for North Dakota's at-large House seat.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -200,6 +279,41 @@
       "title": "Julie Fedorchak",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s7",
+      "url": "https://fedorchak.house.gov/media/press-releases/fedorchak-applauds-epa-repeal-clean-power-plan-20",
+      "title": "Fedorchak applauds EPA repeal of Clean Power Plan 2.0 (September 14, 2026)",
+      "publisher": "Rep. Julie Fedorchak, official website",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://fedorchak.house.gov/media/press-releases/fedorchak-statement-discharge-petition-extend-obamacare-enhanced-premium-tax",
+      "title": "Fedorchak statement on discharge petition to extend Obamacare enhanced premium tax credits (January 8, 2026)",
+      "publisher": "Rep. Julie Fedorchak, official website",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://fedorchak.house.gov/media/press-releases/fedorchak-supports-full-funding-dhs-ice-and-border-patrol",
+      "title": "Fedorchak supports full funding for DHS, ICE and Border Patrol (June 9, 2026)",
+      "publisher": "Rep. Julie Fedorchak, official website",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://fedorchak.house.gov/media/press-releases/fedorchak-statement-resolution-reaffirming-iran-worlds-leading-state-sponsor",
+      "title": "Fedorchak statement on resolution reaffirming Iran as world's leading state sponsor of terrorism (March 5, 2026)",
+      "publisher": "Rep. Julie Fedorchak, official website",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/Trygve_Hammer",
+      "title": "Trygve Hammer - Ballotpedia Candidate Connection survey (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

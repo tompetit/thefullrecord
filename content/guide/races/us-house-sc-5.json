@@ -11,24 +11,32 @@
   "context": [
     {
       "text": "Open seat: incumbent Ralph Norman (R) withdrew and did not appear on the June 9, 2026 Republican primary ballot. That primary was then canceled and Wes Climer, a sitting state senator, advanced as the Republican nominee.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Mallory Dittmer won the Democratic primary on June 9, 2026 with 55.8% of the vote, defeating Andrew Clough.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "wes-climer",
       "name": "Wes Climer",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced without a primary after the Republican primary was canceled",
       "currentRole": "South Carolina State Senator, District 15 (since 2016)",
       "summary": {
         "text": "Wes Climer is a South Carolina state senator (District 15) running as the Republican nominee for South Carolina's 5th Congressional District.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -37,32 +45,43 @@
         {
           "text": "Chairs the South Carolina Senate's Agriculture and Natural Resources Committee (2025-2026) and serves on the Family and Veterans' Services, Finance, Labor Commerce and Industry, and Transportation committees.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
-      "researchNotes": "Climer has not completed Ballotpedia's Candidate Connection survey in 2020, 2024, or 2026, and no campaign-website issue statements were located within the research budget. Specific sponsored bills were not extracted from Ballotpedia's BillTrack50-sourced table within the research budget."
+      "researchNotes": "Climer has not completed Ballotpedia's Candidate Connection survey in 2020, 2024, or 2026, and no campaign-website issue statements were located within the research budget. Specific sponsored bills were not extracted from Ballotpedia's BillTrack50-sourced table within the research budget.",
+      "website": "https://wesclimer.com/"
     },
     {
       "id": "mallory-dittmer",
       "name": "Mallory Dittmer",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the Democratic primary (June 9, 2026) with 55.8% of the vote",
       "summary": {
         "text": "Mallory Dittmer is a former fashion-industry executive running as the Democratic nominee for South Carolina's 5th Congressional District.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Worked as an executive in the fashion industry before running for Congress.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says the top priority she has heard from voters is the cost of living — groceries, gas, healthcare, and housing — and that she will prioritize economic and trade policies to curb inflation and lower costs.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -71,18 +90,41 @@
           "stance": "supports",
           "summary": "Says she will support raising the minimum wage.",
           "quote": "I'll support raising the minimum wage, making childcare more affordable, reversing cuts to health care programs and lowering housing prices through government programs and tax incentives.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says she will work to reverse cuts to healthcare programs.",
           "quote": "reversing cuts to health care programs",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign site calls for fair tax and trade policies that make billionaires and corporations pay their fair share.",
+          "quote": "Ensure fair tax and trade policies that lower costs for working families and make billionaires and corporations pay their fair share",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Her campaign site calls for keeping public taxpayer funds within the public school system.",
+          "quote": "Protect funding for public education and special education by ensuring public, taxpayer funds stay within the public school system",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.dittmerforcongress.com/"
     }
   ],
   "sources": [
@@ -106,6 +148,22 @@
       "title": "Mallory Dittmer",
       "publisher": "Ballotpedia (Candidate Connection survey)",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.dittmerforcongress.com/priorities/economy",
+      "title": "Economy",
+      "publisher": "Mallory Dittmer for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.dittmerforcongress.com/priorities/education",
+      "title": "Education",
+      "publisher": "Mallory Dittmer for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

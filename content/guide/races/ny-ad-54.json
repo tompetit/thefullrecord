@@ -69,17 +69,31 @@
           "sources": ["s2"]
         },
         {
-          "issue": "police_funding",
-          "stance": "opposes",
-          "summary": "Frames public safety primarily as a matter of community investment and prevention — youth programming, workforce development, violence interruption, and mental-health and substance-use services — rather than increased police funding or staffing.",
-          "quote": "Real public safety comes from community investment and prevention. We have to do more than just respond to crime when it happens; we have to address the generational cycles of poverty and inequality that cause crime in the first place.",
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says his community organizing has included campaigns to \"tax the rich\", freeze the rent and create a public bank.",
           "sources": ["s2"]
         },
         {
-          "issue": "tax_wealthy",
+          "issue": "abortion",
           "stance": "supports",
-          "summary": "Lists organizing campaigns to \"tax the rich\" among his community organizing work and campaign goals.",
-          "sources": ["s2"]
+          "summary": "In a 2026 Jim Owles Liberal Democratic Club questionnaire, he answered yes when asked if he supports the unrestricted right to reproductive care and abortion.",
+          "quote": "Yes, absolutely.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a 2026 Jim Owles Liberal Democratic Club questionnaire, he said he supports universal health care and adopting Coverage For All so all New Yorkers have access to health care.",
+          "quote": "That's why I support universal housing, healthcare, childcare, and dignity.",
+          "sources": ["s3"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "In a 2026 Jim Owles Liberal Democratic Club questionnaire, he said he supports universal housing, health care and child care.",
+          "quote": "That's why I support universal housing, healthcare, childcare, and dignity.",
+          "sources": ["s3"]
         }
       ],
       "record": [],
@@ -88,8 +102,30 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/New_York_State_Assembly_District_54", "title": "New York State Assembly District 54", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Christian_Celeste_Tate", "title": "Christian Celeste Tate - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York_State_Assembly_District_54",
+      "title": "New York State Assembly District 54",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Christian_Celeste_Tate",
+      "title": "Christian Celeste Tate - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s3",
+      "url": "https://jimowles.org/news/candidate-answers-to-joldc-christian-celeste-tate-for-ny-assembly-district-54-2026",
+      "title": "Candidate Answers to JOLDC: Christian Celeste Tate for NY Assembly District 54 (2026)",
+      "publisher": "Jim Owles Liberal Democratic Club questionnaire",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "This is an open seat: incumbent Erik Dilan lost the Democratic primary and is not on the November ballot, and no other party fielded a candidate, so Tate is unopposed in the general election. No campaign website could be located; all campaign-statement content comes from Tate's 2026 Ballotpedia Candidate Connection survey."

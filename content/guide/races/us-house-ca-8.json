@@ -68,11 +68,39 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Has said every American deserves access to quality, affordable health coverage, citing his tenure as California's Insurance Commissioner.",
+          "summary": "Says he supports expanding the background check system and keeping weapons of war out of communities, and that he introduced California's assault weapons ban as a state senator.",
+          "quote": "We must prevent these massacres from happening by instituting common-sense reforms, like expanding our background check system and preventing dangerous weapons from ending up in the wrong hands.",
           "sources": [
-            "s2"
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he supports a woman's fundamental right to choose and is a member of the Pro-Choice Caucus.",
+          "quote": "I fervently support a woman’s fundamental right to choose.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he supports increased investment in clean, renewable energy and a transition away from fossil fuels, with support for fossil fuel workers.",
+          "quote": "We cannot combat climate change without increasing investments in clean, renewable energy.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Introduced his own Iran war powers resolution and issued a statement welcoming House passage of the Iran War Powers Resolution, saying only Congress can declare war.",
+          "quote": "Today’s vote reaffirms the Constitutional principle that only Congress can declare war.",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -139,7 +167,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Campaign issues page criticizes power plant shutdowns by those who dislike carbon fuels, calls wind and solar unreliable, and favors more oil exploration and nuclear energy.",
+          "quote": "Green power only works when the sun is shining or wind is blowing.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     }
@@ -176,6 +214,46 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://garamendi.house.gov/legislative-work/issues/ending-gun-violence/",
+      "title": "Ending Gun Violence",
+      "publisher": "Rep. John Garamendi official House website",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://garamendi.house.gov/legislative-work/issues/womens-equality/",
+      "title": "Women's Equality",
+      "publisher": "Rep. John Garamendi official House website",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://garamendi.house.gov/legislative-work/issues/environment/",
+      "title": "Environment",
+      "publisher": "Rep. John Garamendi official House website",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://garamendi.house.gov/2026/06/03/media-press-releases-garamendi-statement-successful-iran-war-powers-resolution-passing-house/",
+      "title": "Garamendi Statement on Successful Iran War Powers Resolution Passing House",
+      "publisher": "Rep. John Garamendi official House website",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://rudyforuscongress.com/index.php/issues/energy-independence/",
+      "title": "Energy Independence",
+      "publisher": "Rudy Recile for U.S. Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

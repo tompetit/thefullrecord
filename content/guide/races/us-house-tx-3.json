@@ -11,41 +11,83 @@
   "context": [
     {
       "text": "Incumbent Keith Self (R) defeated Mark Newgent in the March 3, 2026 Republican primary. Evan Hunt won the Democratic primary unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "keith-self",
       "name": "Keith Self",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, Texas's 3rd District (since 2023)",
       "summary": {
         "text": "Keith Self is the Republican incumbent U.S. Representative for Texas's 3rd Congressional District, a retired Army officer and former Collin County Judge.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Philadelphia, Pennsylvania, in 1953; earned an engineering degree from the United States Military Academy in 1975 and a graduate degree from the University of Southern California in 1981.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the U.S. Army from 1975 to 2003 and later worked as a defense contractor.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as Collin County Judge (the county's chief administrative officer) from 2007 to 2018.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Official issues page says enforcing existing laws, giving immigration agents more resources and expanding physical barriers are needed to end the border crisis.",
+          "quote": "Enforcing existing laws, providing more resources to immigration agents, and expanding physical barriers are essential actions we must take to end the border crisis.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Official issues page says he will oppose any effort to restrict Second Amendment rights.",
+          "quote": "I will remain steadfast against any effort to restrict our Second Amendment rights.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Official issues page says he will work to end abortion procedures and refers to the rights of the unborn.",
+          "quote": "Every child deserves the right to life, and I will never relent in my efforts to end barbaric abortion procedures.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Veterans' Affairs (Disability Assistance and Memorial Affairs and Oversight and Investigations subcommittees), the House Committee on Science, Space, and Technology (Space and Aeronautics subcommittee), and the House Committee on Foreign Affairs, in the 119th Congress (2025–2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -54,54 +96,89 @@
     {
       "id": "evan-hunt",
       "name": "Evan Hunt",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary unopposed",
       "summary": {
         "text": "Evan Hunt is a 20-year military veteran and combat aviator running as the Democratic nominee for Texas's 3rd Congressional District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Describes himself as a 20-year military veteran and combat aviator, and as a community and business leader.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he will push for federal investments in public schools, healthcare access, transportation, and infrastructure to keep pace with the district's rapid population growth.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Says he wants to start \"getting big money out of our politics\" by working to repeal Citizens United, instituting term limits, and preventing insider stock trading.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Supports federal investment to expand healthcare access, citing healthcare providers closing in the district.",
-          "quote": "That means fighting for federal investments in public schools, healthcare access, transportation, and infrastructure—investments that benefit the overwhelming majority of residents.",
-          "sources": ["s1"]
+          "summary": "Campaign website says the Affordable Care Act subsidies should not expire until there is a better plan.",
+          "quote": "The ACA subsidies shouldn’t be expired until we have a better plan.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "issue": "universal_childcare",
-          "stance": "supports",
-          "summary": "Supports expanding access to affordable childcare as part of reducing cost pressures on working families.",
-          "quote": "We need to reduce the everyday cost pressures facing young and working families, starting with healthcare reforms, but also the construction of affordable housing, expanding access to affordable childcare, and preventing corporations from buying up entire neighborhoods of single-family homes and driving up prices.",
-          "sources": ["s1"]
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign website says he is against school voucher initiatives, which he says would drain funding from public schools.",
+          "quote": "I’m firmly against voucher initiatives which will inevitably harm public schools",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "issue": "housing_supply",
-          "stance": "supports",
-          "summary": "Supports construction of more affordable housing and opposes corporate buyouts of single-family homes.",
-          "quote": "the construction of affordable housing, expanding access to affordable childcare, and preventing corporations from buying up entire neighborhoods of single-family homes and driving up prices",
-          "sources": ["s1"]
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Campaign website supports more enforcement resources and deporting undocumented people who are criminals, while calling ICE raids costly, dangerous and unnecessary.",
+          "quote": "ICE raids have proven costly, dangerous, and unnecessary.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Campaign website says that until U.S. spending aligns with its values he does not support sending more money or offensive weapons to Israel.",
+          "quote": "Until we get back to spending money in line with our values, I don’t support sending another dollar or offensive weapon to Israel.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign website says tariffs are a form of taxation and that trade wars would hurt consumers, while supporting fair trade.",
+          "quote": "there is no need to instigate trade wars that will only hurt consumers in the long run.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.electevanhunt.com"
     }
   ],
   "sources": [
@@ -120,6 +197,38 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.electevanhunt.com/",
+      "title": "Priorities (campaign website)",
+      "publisher": "Elect Evan Hunt",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "url": "https://self.house.gov/issues/border-security-immigration",
+      "title": "Border Security & Immigration",
+      "publisher": "Office of Congressman Keith Self",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://self.house.gov/issues/second-amendment",
+      "title": "Second Amendment",
+      "publisher": "Office of Congressman Keith Self",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://self.house.gov/issues/life",
+      "title": "Life",
+      "publisher": "Office of Congressman Keith Self",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25"

@@ -11,41 +11,98 @@
   "context": [
     {
       "text": "Incumbent Lori Trahan advanced from the September 1, 2026 Democratic primary unopposed. Gary Grossi is the Republican nominee. Dennis Conlon is running as an Unenrolled (independent) candidate after collecting over 2,200 signatures himself.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "lori-trahan",
       "name": "Lori Trahan",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
         "text": "Trahan is the incumbent, serving since 2019. She sits on the House Energy and Commerce Committee and previously worked as chief of staff to former Rep. Marty Meehan and as a tech-industry executive.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
-        { "text": "Born in Lowell, Massachusetts, in 1973.", "sources": ["s2"] },
-        { "text": "Earned a bachelor's degree in regional and comparative studies from Georgetown University (1995).", "sources": ["s2"] },
-        { "text": "Worked for then-Rep. Marty Meehan (D), including as his chief of staff, before working as an executive at an early-stage tech firm and as CEO of the Concire Leadership Institute.", "sources": ["s2"] }
+        {
+          "text": "Born in Lowell, Massachusetts, in 1973.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in regional and comparative studies from Georgetown University (1995).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked for then-Rep. Marty Meehan (D), including as his chief of staff, before working as an executive at an early-stage tech firm and as CEO of the Concire Leadership Institute.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Lists key issues including addressing racial injustice, the opioid crisis, climate change, education, gun reform, healthcare, immigration, and women's rights on her official issues page.", "sources": ["s3"] }
+        {
+          "text": "Lists key issues including addressing racial injustice, the opioid crisis, climate change, education, gun reform, healthcare, immigration, and women's rights on her official issues page.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Official site press material describes her opposing Republican health-care cuts, including on Medicaid.",
-          "sources": ["s3"]
+          "summary": "Her official healthcare page says she voted for the Inflation Reduction Act, which extends marketplace subsidies for low-income Americans and expands coverage for millions.",
+          "sources": [
+            "s10"
+          ],
+          "quote": "She proudly voted to pass the Inflation Reduction Act, which lowers health insurance premiums and expands coverage for millions."
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her official gun reform page says she voted for the Bipartisan Safer Communities Act, the Assault Weapons Ban Act and the Bipartisan Background Checks Act, and cosponsored the No Guns For Abusers Act.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official page says she will always fight for a woman's right to choose and supported the Women's Health Protection Act.",
+          "quote": "Congresswoman Trahan will always fight for a woman’s right to choose.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In a press release, said she voted against a reconciliation package providing about $70 billion more for ICE and CBP, describing it as funding to expand mass deportation.",
+          "quote": "House Republicans handed Donald Trump nearly $70 billion to expand his mass deportation machine.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Energy and Commerce, including its Commerce, Manufacturing, and Trade and Health subcommittees, for 2025-2026.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://trahan.house.gov",
@@ -55,19 +112,48 @@
     {
       "id": "gary-grossi",
       "name": "Gary Grossi",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Grossi is a nurse and U.S. Army/Army Reserve veteran running as the Republican nominee. He worked in psychiatry and substance-abuse nursing at VA medical centers in West Palm Beach, Florida and Bedford, Massachusetts.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
-        { "text": "Born in Cambridge, Massachusetts; earned a bachelor's degree in nursing from UMass Boston.", "sources": ["s4"] },
-        { "text": "Served in the U.S. Army and Army Reserve.", "sources": ["s4"] },
-        { "text": "Worked as a nurse in psychiatry and substance abuse at the West Palm Beach VA Medical Center and Bedford VA Hospital.", "sources": ["s4"] }
+        {
+          "text": "Born in Cambridge, Massachusetts; earned a bachelor's degree in nursing from UMass Boston.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Army and Army Reserve.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Worked as a nurse in psychiatry and substance abuse at the West Palm Beach VA Medical Center and Bedford VA Hospital.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "His campaign issues page says he would stop regulations that raise housing costs and limit supply.",
+          "quote": "Stop unrealistic regulations that drive up housing costs and limit supply.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal",
       "researchNotes": "No campaign website statements or Ballotpedia Candidate Connection survey responses found beyond biographical details."
@@ -75,18 +161,37 @@
     {
       "id": "dennis-conlon",
       "name": "Dennis Conlon",
-      "parties": ["Unenrolled"],
+      "parties": [
+        "Unenrolled"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Conlon is a retired analytical chemist and former product-development principal scientist running as an Unenrolled candidate. He says his campaign is self-funded and takes no outside contributions, and that he collected over 2,200 signatures himself to qualify for the ballot.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
-        { "text": "Worked as a Principal Scientist in product development for a medical device manufacturer; career as an analytical chemist spanned 43.5 years, and he holds 9 U.S. patents as an inventor.", "sources": ["s5"] }
+        {
+          "text": "Worked as a Principal Scientist in product development for a medical device manufacturer; career as an analytical chemist spanned 43.5 years, and he holds 9 U.S. patents as an inventor.",
+          "sources": [
+            "s5"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "\"My way is also Finance-Free: I am not taking any money from anyone or any organization ever. Money corrupts politics.\"", "sources": ["s5"] },
-        { "text": "\"I am a conservative independent who wants single payer, universal, medicaid for all, whatever you want to call it. ... healthcare is a human right.\"", "sources": ["s5"] }
+        {
+          "text": "\"My way is also Finance-Free: I am not taking any money from anyone or any organization ever. Money corrupts politics.\"",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "\"I am a conservative independent who wants single payer, universal, medicaid for all, whatever you want to call it. ... healthcare is a human right.\"",
+          "sources": [
+            "s5"
+          ]
+        }
       ],
       "positions": [
         {
@@ -94,7 +199,9 @@
           "stance": "supports",
           "summary": "Says he supports a single-payer, universal health-coverage system.",
           "quote": "I am a conservative independent who wants single payer, universal, medicaid for all, whatever you want to call it.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -141,6 +248,43 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://trahan.house.gov/issues/issue/?IssueID=15000",
+      "title": "Gun Reform",
+      "publisher": "Office of Rep. Lori Trahan",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://trahan.house.gov/issues/issue/?IssueID=15046",
+      "title": "Women's Rights",
+      "publisher": "Office of Rep. Lori Trahan",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://trahan.house.gov/news/documentsingle.aspx?DocumentID=3785",
+      "title": "Trahan Opposes Republican Reconciliation Bill Giving Another $70 Billion to ICE & CBP",
+      "publisher": "Office of Rep. Lori Trahan",
+      "kind": "official",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.votegarygrossi.com/issues",
+      "title": "The Issues — Gary Grossi for Congress",
+      "publisher": "Gary Grossi for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://trahan.house.gov/issues/issue/?IssueID=14997",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Lori Trahan",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

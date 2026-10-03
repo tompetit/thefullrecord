@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "5",
-  "title": "U.S. House \u00b7 Kentucky's 5th District",
+  "title": "U.S. House · Kentucky's 5th District",
   "area": "Eastern Kentucky and Appalachia, including London, Hazard and Middlesboro.",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -68,12 +68,21 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supports the 2017 Tax Cuts and Jobs Act, describing it on his issues page as having reduced tax rates for both individuals and businesses, and calls for a simpler, flatter tax code.",
-          "quote": "The Tax Cuts and Jobs Act, signed into law in December 2017, marked the first tax code overhaul in more than 30 years. It reduced tax rates for individuals and businesses alike, allowing the average American to keep more of their hard-earned money and companies to hire more workers.",
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Voted for the Secure America Act, which provides funding for ICE and Border Patrol through September 2029, including $38 billion for ICE personnel and removal operations.",
+          "quote": "Congressman Rogers voted for the reconciliation package to provide long-term funding for ICE and Border Patrol through September 2029.",
           "sources": [
-            "s6"
+            "s8"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Voted for the SAVE America Act, which his office describes as requiring proof of American citizenship for federal voter registration.",
+          "quote": "The bill requires proof of American citizenship for federal voter registration to restore election integrity and prevent foreign interference.",
+          "sources": [
+            "s9"
           ]
         }
       ],
@@ -128,7 +137,7 @@
       ],
       "priorities": [
         {
-          "text": "\"If you support the ongoing proposed slashing of: Medicaid, Medicare, food stamps, funds to help low income folks pay their utilities, and the defunding of public television, public radio, job corp, cancer research, etc \u2013 all so the billionaire class can get a deficit busting tax break \u2013 I don't expect to persuade you to support my candidacy.\"",
+          "text": "\"If you support the ongoing proposed slashing of: Medicaid, Medicare, food stamps, funds to help low income folks pay their utilities, and the defunding of public television, public radio, job corp, cancer research, etc – all so the billionaire class can get a deficit busting tax break – I don't expect to persuade you to support my candidacy.\"",
           "sources": [
             "s2"
           ]
@@ -139,7 +148,7 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Opposes cuts to Medicaid and Medicare, criticizing incumbent Hal Rogers's support for reductions to those programs.",
-          "quote": "I truly fear for our vulnerable neighbors here in Appalachia.",
+          "quote": "if you support the ongoing proposed slashing of: Medicaid, Medicare, food stamps, funds to help low income folks pay their utilities, and the defunding of public television, public radio, job corp, cancer research, etc – all so the billionaire class can get a deficit busting tax break – I don’t expect to persuade you to support my candidacy.",
           "sources": [
             "s2"
           ]
@@ -172,7 +181,7 @@
       ],
       "priorities": [
         {
-          "text": "\"I am independent\u2014not controlled by either political party, political insiders, or special interests. I will answer to the people of Kentucky's 5th District, demand transparency, oppose wasteful omnibus bills, and insist that Congress vote on major issues openly and individually.\"",
+          "text": "\"I am independent—not controlled by either political party, political insiders, or special interests. I will answer to the people of Kentucky's 5th District, demand transparency, oppose wasteful omnibus bills, and insist that Congress vote on major issues openly and individually.\"",
           "sources": [
             "s4"
           ]
@@ -308,14 +317,6 @@
       "date": "2026-09-25"
     },
     {
-      "id": "s6",
-      "url": "https://halrogers.house.gov/taxes",
-      "title": "Taxes",
-      "publisher": "Office of Rep. Hal Rogers",
-      "kind": "candidate",
-      "date": "2026-09-25"
-    },
-    {
       "id": "s7",
       "url": "https://halrogers.house.gov/illegal-drugs",
       "title": "Illegal Drugs",
@@ -330,6 +331,22 @@
       "publisher": "Ballotpedia (Candidate Connection survey)",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://halrogers.house.gov/2026/6/congressman-rogers-votes-for-secure-america-act",
+      "title": "Congressman Rogers Helped Send Secure America Act to President Trump's Desk",
+      "publisher": "Office of Rep. Hal Rogers",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://halrogers.house.gov/press-releases?ContentRecord_id=279849DF-4A7D-4A2F-BA26-1F865CBC61CA",
+      "title": "Congressman Rogers Voted for the SAVE America Act to Protect Elections",
+      "publisher": "Office of Rep. Hal Rogers",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

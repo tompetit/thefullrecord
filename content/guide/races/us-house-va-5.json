@@ -54,7 +54,26 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "opposes",
+          "summary": "In a March 2026 press release he said he voted against a War Powers Resolution and that President Trump's military actions against Iran are within the President's authority under Article II.",
+          "quote": "As Commander-in-Chief, President Trump's actions against Iran are well within his authority under Article II of the Constitution.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a February 2026 press release he backed the SAVE America Act's requirement of documentary proof of citizenship to register to vote and urged the Senate to pass it.",
+          "quote": "By requiring photo ID to vote and proof of citizenship to register, we are taking real measures",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform (Subcommittees on Cybersecurity, Information Technology, and Government Innovation; Health Care and Financial Services; and Military and Foreign Affairs) and the House Committee on Armed Services in the 119th Congress (2025-2026).",
@@ -65,7 +84,8 @@
         }
       ],
       "researchDepth": "basic",
-      "bioguideId": "M001239"
+      "bioguideId": "M001239",
+      "website": "https://mcguire.house.gov"
     },
     {
       "id": "tom-perriello",
@@ -102,7 +122,35 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign issues page lists ending the current tariffs as his most urgent priority, citing their effect on grocery prices.",
+          "quote": "Tom's most urgent priority will be to save families money by ending the tariffs that spiked grocery bills",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "His campaign foreign-policy page says Congress should restore its role in authorizing foreign wars and states a rule that Congress vote before the U.S. fights.",
+          "quote": "Tom's rule is simple: Make Congress vote before America fights, and fund the people who stop wars before they start.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "His campaign housing page calls for building more housing and cutting red tape to bring costs down.",
+          "quote": "That means building more housing, cutting red tape, and taking on the corporate practices that are driving prices higher.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "As a member of Congress (2009-2011), voted for the American Recovery and Reinvestment Act and the Affordable Care Act, according to his own campaign account of his record.",
@@ -114,7 +162,8 @@
           ]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.tomperriello.com"
     },
     {
       "id": "cooke-harvey",
@@ -176,6 +225,43 @@
       "publisher": "Office of the Clerk, U.S. House of Representatives",
       "kind": "official",
       "date": "2010-03-21"
+    },
+    {
+      "url": "https://www.tomperriello.com/issues",
+      "title": "Issues and Priorities",
+      "publisher": "Tom Perriello for Congress",
+      "kind": "candidate",
+      "id": "s6"
+    },
+    {
+      "url": "https://www.tomperriello.com/foreign-policy",
+      "title": "Foreign Policy & Ending the Forever Wars",
+      "publisher": "Tom Perriello for Congress",
+      "kind": "candidate",
+      "id": "s7"
+    },
+    {
+      "url": "https://www.tomperriello.com/housing",
+      "title": "A Home You Can Afford",
+      "publisher": "Tom Perriello for Congress",
+      "kind": "candidate",
+      "id": "s8"
+    },
+    {
+      "url": "https://mcguire.house.gov/media/press-releases/rep-john-mcguire-applauds-failure-war-powers-resolution-vote-house",
+      "title": "Rep. John McGuire applauds failure of War Powers Resolution vote in the House of Representatives",
+      "publisher": "Office of Rep. John McGuire",
+      "kind": "official",
+      "date": "2026-03-06",
+      "id": "s9"
+    },
+    {
+      "url": "https://mcguire.house.gov/media/press-releases/rep-john-mcguire-celebrates-passage-save-america-act",
+      "title": "Rep. John McGuire celebrates passage of the Save America Act",
+      "publisher": "Office of Rep. John McGuire",
+      "kind": "official",
+      "date": "2026-02-13",
+      "id": "s11"
     }
   ],
   "researchedAt": "2026-09-25",

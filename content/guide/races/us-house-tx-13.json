@@ -11,33 +11,46 @@
   "context": [
     {
       "text": "Incumbent Republican Ronny Jackson defeated Chasity Wedgeworth in the Republican primary. Mark Nair, a former Amarillo City Councilman, won the Democratic primary unopposed.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "ronny-jackson",
       "name": "Ronny L. Jackson",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, Texas's 13th District (since 2021)",
       "ballotNote": "Won the March 3, 2026 Republican primary over Chasity Wedgeworth",
       "summary": {
         "text": "Ronny Jackson is the Republican incumbent seeking re-election in Texas's 13th District. A former Navy and Marine Corps physician who served as physician to the president under George W. Bush, Barack Obama and Donald Trump, he now serves on the House Intelligence, Armed Services, Agriculture and Foreign Affairs committees.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Levelland, Texas; served in the U.S. Navy Reserve and U.S. Marine Corps.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Earned a bachelor's degree in marine biology from Texas A&M University in 1991 and a medical degree from the University of Texas Medical Branch in 1995.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Worked as a physician with the White House Medical Unit under George W. Bush and served as physician to the president under Barack Obama and Donald Trump.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
@@ -46,17 +59,23 @@
         {
           "text": "Serves on the Permanent Select Committee on Intelligence, chairing its Subcommittee on Oversight and Investigations and also sitting on its Central Intelligence Agency Subcommittee, for the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Serves on the House Committee on Armed Services, chairing its Subcommittee on Intelligence and Special Operations, and on its Subcommittee on Seapower and Projection Forces, for the 119th Congress.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Serves on the Committee on Agriculture, including its Subcommittees on Conservation, Research, and Biotechnology and on Livestock, Dairy, and Poultry, for the 119th Congress.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://jackson.house.gov",
@@ -66,55 +85,84 @@
     {
       "id": "mark-nair",
       "name": "Mark Nair",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary unopposed",
       "summary": {
         "text": "Mark Nair is the Democratic nominee challenging incumbent Ronny Jackson in Texas's 13th District. A former Amarillo City Councilman, inventor, entrepreneur and educator who has lived in Amarillo for more than 30 years, he is campaigning on healthcare reform, government accountability and education.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Former City Councilman in Amarillo, Texas, where he has lived for more than 30 years with his wife Suzanne.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Career spent mostly in innovation and teaching, describing himself as an inventor, entrepreneur and educator.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Separate healthcare from employment through a national health care plan, saying the current system makes healthcare about insurance rather than health.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Government accountability: remove corporate and dark money from politics, ban congressional stock trading, and impose term limits on elected officials.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Education and economic opportunity, including opposition to dismantling the Department of Education and support for a national jobs program.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says he will work on a national health care plan to separate health coverage from employment.",
-          "quote": "I will work on a national health care plan to fix these problems. Separating health care from jobs will create boundless opportunities for people.",
-          "sources": ["s4"]
+          "summary": "His platform says he will work toward Medicare for All.",
+          "quote": "He'll work toward Medicare for All, making healthcare costs fair, reasonable, and affordable for every American.",
+          "sources": [
+            "s5"
+          ]
         },
         {
-          "issue": "tax_wealthy",
-          "stance": "supports",
-          "summary": "Says he will work to remove the effects of corporate and dark money from elections and politics.",
-          "sources": ["s4"]
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His platform says tariffs belong with Congress rather than the president and describes current tariffs as having raised farmers' costs and cost them export markets.",
+          "quote": "Tariffs belong in Congress's hands, not the president's.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "His platform criticizes federal spending on detention, calls for an end to for-profit detention, and calls for a path to citizenship for law-abiding families.",
+          "quote": "While our roads crumble, our water systems age, and our rural hospitals close, our government is pouring billions into detention camps. That is a choice. And it is the wrong one.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
-      "website": "https://www.marknair.com/meet-mark",
-      "researchDepth": "basic"
+      "website": "https://www.marknair.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Corrected the website field (the earlier /meet-mark page returns not-found). Removed an earlier tax_wealthy entry, which concerned money in politics rather than taxes on high earners or corporations. The existing healthcare_public entry comes from his Ballotpedia profile; his platform page separately says he will work toward Medicare for All."
     }
   ],
   "sources": [
@@ -149,6 +197,14 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-01-28"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.marknair.com/platform",
+      "title": "The People First Platform",
+      "publisher": "Mark Nair for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

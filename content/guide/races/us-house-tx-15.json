@@ -62,7 +62,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a July 2024 press release she said requiring documentary proof of citizenship to register to vote allows for fair and just elections.",
+          "quote": "requiring documentary proof of citizenship to register allows for fair and just elections, protecting one of the most fundamental rights of our country.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the Committee on Agriculture as Vice Chair of its Subcommittee on Nutrition and Foreign Agriculture, and on its Subcommittee on General Farm Commodities, Risk Management, and Credit, for the 119th Congress (2025-2026).",
@@ -147,6 +157,24 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign website says tariffs and trade wars are driving up costs and closing off opportunities for families, and calls for fair and open trade.",
+          "quote": "Tariffs and trade wars are driving up costs and closing off opportunities, leaving too many of our families struggling to keep up.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign website says Medicare is a promise to keep and make stronger, and criticizes the incumbent for voting for a bill he says put Medicaid and seniors at risk.",
+          "quote": "like Social Security, Medicare is a promise and a critical safety net that we have to keep and make stronger.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [],
@@ -194,6 +222,22 @@
       "publisher": "Bobby Pulido campaign website",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://delacruz.house.gov/news/documentsingle.aspx?DocumentID=1928",
+      "title": "De La Cruz statement on the Safeguard American Voter Eligibility Act (July 11, 2024)",
+      "publisher": "Office of Rep. Monica De La Cruz",
+      "kind": "official",
+      "date": "2024-07-11"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Bobby_Pulido",
+      "title": "Bobby Pulido - campaign website as quoted on Ballotpedia (February 2026)",
+      "publisher": "Ballotpedia (quoting Bobby Pulido's campaign website)",
+      "kind": "candidate",
+      "date": "2026-02-11"
     }
   ],
   "researchedAt": "2026-09-25",

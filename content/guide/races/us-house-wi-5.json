@@ -60,7 +60,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "In a January 2026 statement he opposed extending the temporary enhanced ACA subsidies, calling it an Obamacare bailout.",
+          "quote": "My position on this issue has remained consistent: supporting an Obamacare bailout is beyond fiscally irresponsible and does nothing to fix our failed healthcare system.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Financial Services and the House Committee on the Judiciary, chairing the Administrative State, Regulatory Reform, and Antitrust Subcommittee, in the 119th Congress (2025-2026).",
@@ -127,31 +137,35 @@
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Candidate survey says a woman's right to decide her own healthcare choices is paramount.",
+          "summary": "Campaign issues paper says women must have the right to make their own decisions about reproductive health and that he will fight for legislation that restores those rights.",
           "sources": [
-            "s3"
-          ]
+            "s5"
+          ],
+          "quote": "Women must have the right to make their own decisions about reproductive health."
         },
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Candidate survey names reducing greenhouse gases and addressing global warming as among his top three campaign priorities.",
+          "summary": "Campaign issues paper calls for reducing carbon emissions and expanding wind, solar and hydroelectric power to transition to a clean energy economy.",
           "sources": [
-            "s3"
-          ]
+            "s6"
+          ],
+          "quote": "We must take immediate action to reduce carbon emissions, protect natural resources, and transition to a clean energy economy."
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Candidate survey says everyone deserves the best healthcare the U.S. can provide at a practical price, with easy access, and highlights mental health treatment.",
+          "summary": "Campaign issues paper says Medicare and Medicaid must be protected from cuts, reductions and privatization.",
           "sources": [
-            "s3"
-          ]
+            "s7"
+          ],
+          "quote": "I will oppose any cuts, reductions, or efforts to privatize Medicare and Medicaid that would harm seniors, disabled individuals, or low-income families."
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Beck has not held elected office, so there is no official voting or legislative record."
+      "researchNotes": "Beck has not held elected office, so there is no official voting or legislative record.",
+      "website": "https://www.beckforcongress.com"
     }
   ],
   "sources": [
@@ -175,6 +189,34 @@
       "url": "https://ballotpedia.org/Andrew_Beck",
       "title": "Andrew Beck",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://fitzgerald.house.gov/media/press-releases/rep-fitzgerald-votes-against-obamacare-bailout",
+      "title": "Rep. Fitzgerald Votes Against Obamacare Bailout (Jan. 8, 2026)",
+      "publisher": "Rep. Scott Fitzgerald (official site)",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.beckforcongress.com/s/Womans-Healthcare-Rights20261.pdf",
+      "title": "Standing Up for Women’s Rights",
+      "publisher": "Beck for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.beckforcongress.com/s/Stopping-Climate-Change20261.pdf",
+      "title": "Stopping Climate Change",
+      "publisher": "Beck for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.beckforcongress.com/s/Protecting-Medicare-Medicaid20261.pdf",
+      "title": "Protecting Medicare and Medicaid",
+      "publisher": "Beck for Congress campaign website",
       "kind": "candidate"
     }
   ],

@@ -25,9 +25,9 @@ the record runs out — zero is acceptable when nothing qualifies:
 1. `immigration_enforcement`, `healthcare_public`, `abortion`, `guns`, `tax_wealthy`,
    `climate`, `tariffs`
 2. `voter_citizenship_proof`, `war_powers`, `transgender_sports`
-3. `minimum_wage`, `israel_aid`, and for New York races also `rent_regulation`,
-   `housing_supply`, `police_funding`, `congestion_pricing`, `universal_childcare`,
-   `school_choice`
+3. `minimum_wage`, `israel_aid`, `rent_regulation`, `housing_supply`, `police_funding`,
+   `universal_childcare`, `school_choice` (valid in any race when the position is directly
+   shown), and for New York races `congestion_pricing`
 
 Never duplicate an issue key the candidate already has. If an existing position
 plainly fails the rules below, fix or remove it and say so in your reply.
@@ -58,11 +58,16 @@ party. When in doubt, omit.
   supports = calls for more deportations, detention, ICE funding/hiring, ending
   "catch and release", mass deportation. Abstract "secure the border" alone does not
   count. opposes = calls to limit ICE, end detention expansion, oppose mass deportation.
+  Supporting deportation only of people with criminal records is not `supports`.
 - `healthcare_public` ("Expand public health coverage"): supports = Medicare for All,
   public option, extend/expand ACA subsidies, protect/expand Medicaid against cuts.
   opposes = repeal ACA, Medicaid cuts or caps, opposes extending ACA subsidies.
 - `abortion` ("Protect legal access to abortion"): about legal access. Opposing
   taxpayer funding alone is NOT `opposes`. Supporting bans/limits = opposes.
+  A "pro-life" self-description alone is not a position; it needs a call for legal
+  restrictions/bans or a stated stance on legal access.
+  Editorial ruling: "life begins at conception" / "rights of the unborn from conception"
+  stated as a platform position = `opposes`.
 - `guns` ("Stricter gun laws"): background checks, assault-weapons ban, red-flag laws
   = supports; constitutional carry, concealed-carry reciprocity, opposing new limits
   = opposes. "Supports the Second Amendment" alone does not count.
@@ -73,7 +78,11 @@ party. When in doubt, omit.
 - `climate` ("Faster transition away from fossil fuels"): must address the pace of
   transition or name clean-energy policy (IRA credits, renewables mandates) or
   opposition to it. "Energy independence" / "unleash American energy" alone does not count.
-- `tariffs` ("Broad tariffs on imported goods"): must address tariffs.
+  Support for or opposition to a specific named clean-energy policy or project (e.g. a
+  named offshore wind project, wind/solar research funding, IRA credits) counts.
+- `tariffs` ("Broad tariffs on imported goods"): must address tariffs. Opposing broad or
+  blanket tariffs while accepting targeted/"strategic" ones is `opposes`; mixed only when
+  a source shows support for broad tariffs and opposition to them.
 - `voter_citizenship_proof` ("Require documentary proof of citizenship to register
   to vote"): supports = SAVE Act or proof-of-citizenship registration. Voter ID at the
   polls is a DIFFERENT policy and does not count.
@@ -83,14 +92,25 @@ party. When in doubt, omit.
   congressional approval in those cases. General hawkish/dovish rhetoric does not count.
 - `transgender_sports` ("Bar transgender women and girls from women's and girls'
   school sports"): supports = backs such a ban (e.g. Protection of Women and Girls in
-  Sports Act, state bans); opposes = opposes such bans. Describe neutrally, using the
-  source's own policy terms; no loaded language.
+  Sports Act, state bans); opposes = opposes such bans. In the `summary` (our voice),
+  say "transgender girls and women" / "transgender athletes" — not "biological males",
+  "men in women's sports" or similar; those terms may appear only inside a verbatim `quote`.
+  Campaign slogans such as "keep boys out of girls' sports" / "keep men out of women's
+  sports" are the standard wording for supporting these bans and DO count as `supports`.
+  "Protect women's sports" alone counts only if the page ties it to transgender athletes
+  or eligibility by sex.
+- `housing_supply` ("Loosen zoning rules to build more housing"): loosening zoning,
+  permitting, environmental-review or other land-use rules so more homes get built counts
+  (e.g. "cut red tape that makes building homes slow"); housing funding alone does not.
+- `school_choice` ("Public funding for school choice"): must involve public funding
+  (vouchers, ESAs, charter funding); "parents should choose their child's school" alone does not.
 - `minimum_wage`, `israel_aid` (military aid specifically), and the NY statements:
   as worded; adjacent topics do not count.
 
 Each position: one neutral `summary` sentence saying what the source shows, the
 specific page that contains it in `sources` (not a homepage), and a `quote` only if
-copied verbatim from fetched text (fix nothing). Same treatment for every candidate
+copied verbatim from fetched text (fix nothing) as ONE continuous passage — never join
+separate passages with "..." or across an attribution like "said Rep. X". Same treatment for every candidate
 in a race.
 
 ## Finish

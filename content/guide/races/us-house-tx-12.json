@@ -11,65 +11,107 @@
   "context": [
     {
       "text": "Incumbent Republican Craig Goldman won his primary unopposed. Heli Rodriguez Prilliman defeated Kenneth Morgan-Aguilera in the Democratic primary, 59.8%-40.2%.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "craig-goldman",
       "name": "Craig Goldman",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, Texas's 12th District (since 2025)",
       "ballotNote": "Won the March 3, 2026 Republican primary unopposed",
       "summary": {
         "text": "Craig Goldman is the Republican incumbent seeking re-election in Texas's 12th District. A former Fort Worth businessman and Texas state representative, he serves on the House Energy and Commerce Committee and has sponsored bipartisan legislation with Fort Worth-area Democratic Rep. Marc Veasey.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Texas and lives in Fort Worth; earned a B.A. from the University of Texas at Austin.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes running a retail gourmet food and fine wine store in Fort Worth, working on political campaigns, and being a partner in several real estate investment companies.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Introduced the Better Care, Better Cost Act, which he says would use market-based incentives to strengthen Medicaid.",
-          "sources": ["s4"]
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His official issues page, describing the One Big Beautiful Bill Act he says he is proud to deliver on, lists nearly $150 billion for border security and deportations plus hiring bonuses for ICE and Border Patrol agents.",
+          "quote": "Allocates nearly $150 billion to secure our border and facilitate deportations",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "His official issues page presents the bill's cuts to clean-energy funding and rescission of electric-vehicle mandates as accomplishments.",
+          "quote": "Cuts billions in handouts for Green New Energy initiatives and groups",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "His official issues page lists the bill's support for school choice through educational savings accounts among its accomplishments.",
+          "quote": "Supports school choice through educational savings accounts",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the Committee on Energy and Commerce, including its Subcommittees on Commerce, Manufacturing, and Trade, Communications and Technology, and Energy, for the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Introduced the Kay Granger Post Office Act with Democratic Rep. Marc Veasey, who like Goldman represents the Fort Worth area, to designate a post office in honor of former Rep. Kay Granger.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Co-introduced the Stop EU Overreach Act with Reps. Jodey Arrington and Greg Steube, aimed at countering European Union corporate-sustainability regulations affecting American businesses.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Co-introduced a bipartisan Prior Authorization Transparency bill with Reps. August Pfluger, Rob Wittman, Jimmy Panetta, Donald Norcross and Kim Schrier.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Introduced the Better Care, Better Cost Act to implement market-based incentives intended to strengthen Medicaid.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://craiggoldman.house.gov",
@@ -79,35 +121,49 @@
     {
       "id": "heli-rodriguez-prilliman",
       "name": "Heli Rodriguez Prilliman",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary, 59.8%-40.2%, over Kenneth Morgan-Aguilera",
       "summary": {
         "text": "Angela 'Heli' Rodriguez Prilliman is the Democratic nominee challenging incumbent Craig Goldman in Texas's 12th District. A Fort Worth entrepreneur and educator with a decade of experience in technology, she is campaigning on universal healthcare, universal child care and fully funding public schools.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Raised in Stephenville, Texas, and a graduate of Texas A&M University.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Entrepreneur and educator with more than a decade of experience in the technology sector.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Universal health care.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Universal, publicly funded child care.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Fully funding public schools and removing what she describes as billionaire money from politics.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -115,13 +171,26 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Campaigns on fighting for universal health care, citing Texas's high rate of uninsured residents.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Lists universal child care among her core campaign issues.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign Issues page says universal health care and child care would be paid for by taxing billionaires.",
+          "quote": "I'm advocating for a universal healthcare system and a universal child care system, all paid for by taxing the small group of billionaires who have taken advantage of American workers.",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -169,6 +238,22 @@
       "publisher": "Heli Rodriguez Prilliman campaign website",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.helifortexas.com/issues",
+      "title": "The Issues & FAQ",
+      "publisher": "Heli for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://craiggoldman.house.gov/issues/onebigbeautifulbill",
+      "title": "Working Families Tax Cut (One Big Beautiful Bill) issues page",
+      "publisher": "Office of Rep. Craig Goldman",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

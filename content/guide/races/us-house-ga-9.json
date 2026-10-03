@@ -11,51 +11,71 @@
   "context": [
     {
       "text": "Cook Political Report rates this race Solid Republican; Decision Desk, Inside Elections, and Sabato's Crystal Ball also rate it Safe/Solid Republican.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "andrew-clyde",
       "name": "Andrew Clyde",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the May 19 Republican primary over Sam Couvillon and Gregg Poole, 76.0%",
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
         "text": "Andrew Clyde has represented Georgia's 9th Congressional District since 2021. He served 28 years in the U.S. Navy and founded and owns Clyde Armory, a firearms and outdoor-equipment retailer.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Served in the U.S. Navy for 28 years.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Earned a master's degree in corporate finance and entrepreneurship from the University of Georgia.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Founded and owns Clyde Armory, a firearms and military surplus retailer.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "In the 119th Congress (2025-2026), sits on the House Committee on Appropriations (Subcommittees on Commerce-Justice-Science and on Labor-HHS-Education) and the House Committee on the Budget.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "National security, saying China, Russia, Iran, and North Korea remain the greatest foreign threats and that the armed forces need the tools and resources to protect the nation.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Veterans' issues, saying the country must uphold the promises made to service members and eliminate barriers to their education and employment benefits.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Reducing the federal government's footprint on small businesses, citing his own experience as a small business owner and his role on the House Committee on Oversight and Reform.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "positions": [
@@ -64,21 +84,27 @@
           "stance": "opposes",
           "summary": "Says life begins at conception and abortions should be abolished entirely except when the mother's life is at risk; opposes any taxpayer funding of abortion.",
           "quote": "I believe that life begins at the moment of conception, and thus, abortions should be abolished entirely, except in the rare instances when the life of the mother is at risk.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Says he will oppose all bills and efforts that seek to limit or restrict Second Amendment rights, and will work to roll back existing firearms restrictions.",
           "quote": "I will always be a stalwart defender of the Second Amendment while serving in Congress. Accordingly, I will oppose all bills and efforts that seek to limit or restrict this right in any way, no matter the circumstances.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
         {
           "text": "Sits on the House Committee on Appropriations and the House Committee on the Budget in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -87,65 +113,112 @@
     {
       "id": "caitlyn-gegen",
       "name": "Caitlyn Gegen",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19 Democratic primary over Nick Alex, 60.0%",
       "summary": {
         "text": "Caitlyn Gegen is a community organizer running for Georgia's 9th Congressional District. She was raised by public-school-teacher parents, is a recipient of Georgia's HOPE Scholarship, and studied at the London School of Economics.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Parents were public school teachers; describes her sister as a labor and delivery nurse in Georgia.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Received Georgia's HOPE Scholarship for college and studied at the London School of Economics, living in the United Kingdom.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Has worked as a community organizer and in local government.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says her sister, a labor and delivery nurse, sees the effects of Georgia's six-week abortion ban, and that this motivates her to work to overturn the Dobbs decision.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Supports \"safer gun legislation,\" citing having grown up doing active-shooter drills in school.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Supports free tuition at public colleges and universities, citing her own experience with the HOPE Scholarship, and \"free universal healthcare.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Wants to overturn the Dobbs decision and opposes Georgia's six-week abortion ban.",
-          "sources": ["s3"]
+          "summary": "Says she will fight to overturn the Dobbs decision and describes Georgia's six-week abortion ban as hurting women.",
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Says she will fight for \"safer gun legislation.\"",
-          "sources": ["s3"]
+          "summary": "Says she will fight for \"safer gun legislation\" and told Now Georgia people should be trained to own a firearm.",
+          "sources": [
+            "s10",
+            "s9"
+          ],
+          "quote": "I am going to fight for safer gun legislation"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Told Now Georgia she supports abolishing U.S. Immigration and Customs Enforcement, arguing its responsibilities could be handled by other federal agencies.",
+          "quote": "I don't believe ICE serves a unique purpose",
+          "sources": [
+            "s9"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Advocates for \"free universal healthcare,\" saying government-provided healthcare is cheaper and produces better outcomes.",
-          "sources": ["s3"]
+          "summary": "Told Now Georgia she wants to restore Affordable Care Act subsidies and move toward Medicare for All; her candidate questionnaire says she will provide Medicare for all.",
+          "quote": "provide Medicare for all",
+          "sources": [
+            "s9",
+            "s10"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Campaign says she will work to \"expand access to affordable living by increasing the minimum wage.\"",
-          "sources": ["s3"]
+          "summary": "Her candidate questionnaire says she will fight to increase the minimum wage.",
+          "quote": "I will fight to increase the minimum wage",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Coverage of her campaign launch says she promised to fight for taxing billionaires.",
+          "sources": [
+            "s11"
+          ],
+          "quote": "taxing billionaires"
         }
       ],
       "record": [],
@@ -213,6 +286,30 @@
       "publisher": "Office of Rep. Andrew Clyde",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://nowgeorgia.com/gegen-pitches-progressive-platform-systemic-change-in-9th-district-race/",
+      "title": "Gegen pitches progressive platform, systemic change in 9th District race",
+      "publisher": "Now Georgia (Apr. 22, 2026)",
+      "kind": "news",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.mainstreetnews.com/braselton/news/candidate-questionnaire-caitlyn-gegen-ninth-congressional-district-candidate-democratic-primary/article_b3e5b3d6-5edb-4b1a-b4af-edf6ba749f51.html",
+      "title": "Candidate Questionnaire: Caitlyn Gegen, Ninth Congressional District candidate, Democratic primary",
+      "publisher": "Main Street News (May 12, 2026)",
+      "kind": "news",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.redandblack.com/uganews/uga-alumna-caitlyn-gegen-enters-georgia-s-9th-congressional-district-race/article_ecb604a5-c42a-45cd-b03c-d6601220657d.html",
+      "title": "UGA alumna Caitlyn Gegen enters Georgia's 9th Congressional District race",
+      "publisher": "The Red & Black (Feb. 24, 2026)",
+      "kind": "news",
+      "date": "2026-02-24"
     }
   ],
   "researchedAt": "2026-09-25",

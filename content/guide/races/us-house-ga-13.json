@@ -11,54 +11,109 @@
   "context": [
     {
       "text": "This is an open seat: incumbent David Scott (D) is not on the May 2026 primary or November general-election ballot. Cook Political Report, Decision Desk, Inside Elections, and Sabato's Crystal Ball rate the general election Solid/Safe Democratic.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jasmine-clark",
       "name": "Jasmine Clark",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19 Democratic primary, 56.1%",
       "currentRole": "Member, Georgia House of Representatives, District 108 (since 2019)",
       "summary": {
         "text": "Jasmine Clark is a Georgia state representative for District 108, first elected in 2018, and a microbiologist who has taught at the Emory University School of Nursing. She holds a bachelor's degree in microbiology and a doctorate in microbiology and molecular genetics from Emory University.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Holds a bachelor's degree in microbiology and a doctorate in microbiology and molecular genetics from Emory University; has worked as a professor at the Emory University School of Nursing.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Has served in the Georgia House of Representatives, District 108, since 2019, first winning the seat in 2018 and winning re-election in 2020, 2022, and 2024.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Said in a campaign ad that she had \"been taking on the toughest fights for Georgia families,\" including \"against Governor Kemp and the MAGA Republicans attacking our abortion rights, our voting rights, and our health.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Campaign website says she wants \"to bring a science voice to Washington.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Says she has fought against state Republican efforts targeting abortion rights and will continue that fight in Congress.",
-          "sources": ["s2"]
+          "summary": "Campaign website says the federal government must act to ensure access to full reproductive services, including abortions.",
+          "sources": [
+            "s4"
+          ],
+          "quote": "the federal government must take action to ensure that everyone who needs it has access to full reproductive services, including access to contraceptives, STI testing, cancer screenings, and abortions"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign website says Congress is overdue to raise the minimum wage so paychecks keep up with the cost of living.",
+          "quote": "we’re long overdue for increasing the minimum wage so paychecks keep up with the actual cost of living for working people",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign website says she would push in Congress for an assault weapon and bump stock ban, comprehensive background checks and safe storage laws.",
+          "quote": "I’ll push for a real assault weapon and bump stock ban, comprehensive background checks and safe storage laws",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign website calls for repealing the 2025 Trump tax cuts and making the wealthy and large corporations pay more.",
+          "quote": "repeal the Trump tax cuts and make the wealthy and big corporations pay their fair share",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign website, under the heading \"Stop Unconstitutional ICE Raids,\" says she would hold the administration and ICE accountable for what she calls illegal raids and calls for transparency on where detainees are held.",
+          "quote": "In Congress, I vow to hold the Trump administration and ICE accountable when they illegally raid our cities and lock up our neighbors",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [
         {
           "text": "Elected to the Georgia House of Representatives, District 108, in 2018 and re-elected in 2020, 2022, and 2024.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -66,31 +121,43 @@
     {
       "id": "jonathan-chavez",
       "name": "Jonathan Chavez",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Ran unopposed in the Republican primary",
       "summary": {
         "text": "Jonathan Chavez is a 23-year U.S. Air Force veteran who deployed to Iraq and holds degrees from the University of New Mexico School of Medicine, Harvard University, and Johns Hopkins University. He previously ran for this seat in 2024, losing to incumbent David Scott.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Served 23 years in the U.S. Air Force, including deployments to Iraq, where he received a commendation medal.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Holds a Bachelor of Science from the University of New Mexico School of Medicine and master's degrees from Harvard University and Johns Hopkins University focused on business, finance, and healthcare administration.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says his campaign is about \"putting our community's needs above party politics\" and will \"fight for more good-paying jobs, expanded healthcare options (including rural telehealth and Medicaid expansion), and better funding for our schools.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Supports term limits for members of Congress and greater accountability for federal spending.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -98,7 +165,9 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports expanding healthcare options including rural telehealth and Medicaid expansion.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -125,6 +194,13 @@
       "url": "https://ballotpedia.org/Georgia%27s_13th_Congressional_District_election,_2026",
       "title": "Georgia's 13th Congressional District election, 2026 (Candidate Connection survey responses)",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Jasmine_Clark",
+      "title": "Jasmine Clark (campaign website text as quoted on Ballotpedia)",
+      "publisher": "Ballotpedia",
       "kind": "candidate"
     }
   ],

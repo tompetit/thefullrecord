@@ -11,41 +11,83 @@
   "context": [
     {
       "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "In the March 3, 2026 primaries, Brandon Gill defeated Robert Chick 91.1% to 8.9% for the Republican nomination, and Steven Shook defeated Ernest Lineberger III 51.1% to 48.9% for the Democratic nomination. Phil Gray advanced as the Libertarian Party's nominee from its March 21, 2026 convention.",
-      "sources": ["s4"]
+      "sources": [
+        "s4"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "brandon-gill",
       "name": "Brandon Gill",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Brandon Gill is the incumbent Republican U.S. Representative for Texas's 26th District, a former investment banker, hedge fund analyst, and conservative media entrepreneur first elected in 2024.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Clovis, New Mexico, in 1994 and grew up outside Abilene, Texas; earned undergraduate degrees in economics and history from Dartmouth College in 2016.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an investment banker and hedge fund analyst before launching a news outlet and working as a film producer.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "His 2024 campaign website, as quoted by Ballotpedia, says he will not give an inch on gun control.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "I will not give an inch on gun control."
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His 2024 campaign website, as quoted by Ballotpedia, calls abortion something that needs to be abolished.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "Abortion is an abomination that needs to be abolished."
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His 2024 campaign website, as quoted by Ballotpedia, calls for reinstating \"Remain in Mexico\" and ending \"Catch and Release\".",
+          "sources": [
+            "s7"
+          ],
+          "quote": "Reinstate \"Remain in Mexico\" and end “Catch and Release”."
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform, the House Committee on the Judiciary, and the House Committee on the Budget in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -54,41 +96,66 @@
     {
       "id": "steven-shook",
       "name": "Steven Shook",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary with 51.1% of the vote",
       "summary": {
         "text": "Steven Shook is a nurse practitioner who has worked in North Texas healthcare for nearly two decades and won the Democratic primary to challenge Rep. Brandon Gill.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Arlington, Texas; earned an associate degree from Tarrant County College (2009), a bachelor's degree from Texas Tech University (2012), and a graduate degree from the University of Texas at Arlington (2018).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Has worked as a nurse practitioner for nearly 20 years, caring for critically ill and injured patients in North Texas.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "In his Ballotpedia survey, listed his priorities as keeping rural hospitals open, lowering healthcare costs, supporting local businesses and job growth, strengthening public safety through community policing, and restoring accountability in Washington.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says every American deserves affordable, reliable healthcare and that rural hospitals must be kept open.",
-          "sources": ["s3"]
+          "summary": "Campaign policy page calls for a step-by-step transition to universal healthcare.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "Implement planned step-by step transition to universal healthcare."
         },
         {
-          "issue": "police_funding",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Says he would strengthen public safety through community policing and support local law enforcement.",
-          "sources": ["s3"]
+          "summary": "Campaign policy page says he would close loopholes that allow gun sales without background checks and support red-flag laws.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "Close loopholes that allow guns to be sold without background checks."
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign policy page says he opposes efforts to direct school funds to voucher programs.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "oppose efforts to drain funds into unaccountable voucher programs"
         }
       ],
       "record": [],
@@ -97,23 +164,31 @@
     {
       "id": "phil-gray",
       "name": "Phil Gray",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced as the Libertarian Party's nominee from its March 21, 2026 state convention",
       "summary": {
         "text": "Phil Gray is a business owner and property manager running as the Libertarian Party nominee, focused on federal debt reduction and immigration reform.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Career experience includes owning a business and working as a property manager; has been affiliated with AARP, LULAC, and the Urban League.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "His campaign website centers on reducing the national debt, including a proposal to let immigrants pay to expedite entry with the funds used to pay down debt and fund low-interest loans in place of some tax-funded programs.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [],
@@ -155,6 +230,20 @@
       "url": "https://ballotpedia.org/Phil_Gray",
       "title": "Phil Gray",
       "publisher": "Ballotpedia (campaign website statement)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://shookforcongress2026.com/",
+      "title": "Policies & Issues",
+      "publisher": "Steven Shook for Congress 2026",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Brandon_Gill",
+      "title": "Brandon Gill (campaign website text, 2024, quoted by Ballotpedia)",
+      "publisher": "Ballotpedia, quoting the candidate's 2024 campaign website",
       "kind": "candidate"
     }
   ],

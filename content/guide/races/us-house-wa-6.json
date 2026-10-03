@@ -11,41 +11,92 @@
   "context": [
     {
       "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Emily Randall and Teresa Fox advanced from the August 4, 2026 primary, defeating Leon Lawson (Trump Republican Party), Brian O'Gorman (Independent Party), and Macy Jones (no party preference).",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "emily-randall",
       "name": "Emily Randall",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Emily Randall is the Democratic incumbent for Washington's 6th Congressional District, a former Washington state senator and nonprofit development professional first elected to Congress in 2024.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Port Orchard, Washington; earned bachelor's degrees in Spanish and women's studies from Wellesley College in 2008.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Career experience includes working as a development professional with Wellesley College, the San Francisco AIDS Foundation, Planned Parenthood Federation of America, and Legal Voice.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Sits on the House Committee on Oversight and Government Reform (Government Operations; Health Care and Financial Services subcommittees) and the Committee on Natural Resources (Federal Lands; Indian and Insular Affairs subcommittees) for the 2025-2026 Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists fighting climate change, lowering costs for families, defending democracy, enhancing healthcare, improving education, and safeguarding access to abortion as her campaign's core issues.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Calls for a just and fair transition away from fossil fuels with investment in clean energy jobs and infrastructure.",
+          "quote": "We must make a just and fair transition away from fossil fuels and invest in clean energy jobs and infrastructure.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will work to protect and strengthen the ACA and increase Medicaid flexibility so states like Washington can continue expanding coverage.",
+          "quote": "As a member of Congress, I will work hard to protect and strengthen the ACA, increase the flexibility of Medicaid dollars so that states like Washington can continue expanding coverage",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Describes herself as an abortion rights advocate in the Washington Legislature, citing her sponsored bills expanding access and a 100% lifetime pro-choice voting record, and says she will fight for abortion rights in Congress.",
+          "quote": "In Washington state, I have been one of the top abortion rights and reproductive rights advocates.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says she believes in a tax structure that requires big business to pay its fair share.",
+          "quote": "a tax structure that requires big business to pay its fair share",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://electemilyrandall.com",
       "researchDepth": "basic",
@@ -54,56 +105,74 @@
     {
       "id": "teresa-fox",
       "name": "Teresa Fox",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Teresa Fox is the Republican nominee for Washington's 6th Congressional District, an emergency manager, safety professional, and fire inspector who ran on reducing government spending and regulation.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Professional experience includes working as an emergency manager, safety professional, and fire inspector.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaigns on cutting taxes, reducing government regulation on businesses, and greater government accountability to taxpayers.",
           "quote": "Lower Taxes: Keep money in family pockets, not bureaucrat budgets. Less Regulation: Let businesses operate without constant government interference. Real Accountability: Make government answer to taxpayers, not the other way around.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "On Navy shipyard funding in Bremerton, wants money directed to shipyard workers and equipment rather than administrative overhead, and opposes prioritizing unproven \"green\" maritime technology over fleet maintenance.",
           "quote": "Modernizing the Navy shouldn't mean more middle management in D.C.; it should mean more tools and higher pay for the pipefitters and welders in Bremerton.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Says Washington ranks last in the nation in police staffing and campaigns on rural public safety.",
           "quote": "It's unacceptable that Washington ranks last in police staffing.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Opposes what she describes as government growth funded by higher taxes, campaigning on lowering taxes generally.",
-          "quote": "Lower Taxes: Keep money in family pockets, not bureaucrat budgets.",
-          "sources": ["s5"]
-        },
-        {
           "issue": "police_funding",
           "stance": "supports",
-          "summary": "Supports increasing police staffing, citing Washington's ranking as last in the nation for police staffing levels.",
-          "quote": "It's unacceptable that Washington ranks last in police staffing.",
-          "sources": ["s5"]
+          "summary": "Supports a federal \"Public Safety Floor\" of incentives for local agencies to hire and retain officers, citing Washington's last-place ranking in police staffing.",
+          "quote": "I'm advocating for a 'Federal Public Safety Floor'—direct federal incentives for local agencies to hire and retain officers.",
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Opposes federal mandates prioritizing unproven \"green\" maritime technology over maintenance of the existing Navy fleet, citing job stability and national security.",
-          "quote": "We need ships that can fight today, not social experiments that might float tomorrow.",
-          "sources": ["s5"]
+          "summary": "Opposes federal mandates for rapid electrification of Navy support vessels and \"green\" maritime technology, citing job stability and readiness.",
+          "quote": "Rapid electrification of support vessels threatens job stability.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Campaign website backs sex-based eligibility for women's and girls' sports, citing Title IX.",
+          "quote": "Title IX was created to ensure biological women had a fair playing field.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [],
@@ -145,6 +214,41 @@
       "url": "https://ballotpedia.org/Teresa_Fox",
       "title": "Teresa Fox campaign website (via Ballotpedia)",
       "publisher": "Ballotpedia (quoting Fox's campaign site, foxforwa.com)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://electemilyrandall.com/issues/fighting-climate-change/",
+      "title": "Fighting Climate Change",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://electemilyrandall.com/issues/enhancing-healthcare/",
+      "title": "Enhancing Healthcare",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://electemilyrandall.com/issues/abortion/",
+      "title": "Safeguarding Access to Abortion",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://electemilyrandall.com/issues/lowering-costs-for-families/",
+      "title": "Lowering Costs for Families",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://foxforwa.com/mission",
+      "title": "Mission & Priorities",
+      "publisher": "Teresa Fox for Congress",
       "kind": "candidate"
     }
   ],

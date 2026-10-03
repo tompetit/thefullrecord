@@ -11,47 +11,34 @@
   "context": [
     {
       "text": "Incumbent Eric Burlison won the August 4, 2026 Republican primary over John Casey and Grayson Hunt. Missi Hesketh ran unopposed in the Democratic primary. Kevin Craig advanced unopposed in the Libertarian primary.",
-      "sources": [
-        "s1"
-      ]
+      "sources": ["s1"]
     }
   ],
   "candidates": [
     {
       "id": "eric-burlison",
       "name": "Eric Burlison",
-      "parties": [
-        "R"
-      ],
+      "parties": ["R"],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Eric Burlison is the incumbent Republican U.S. Representative for Missouri's 7th District. A former Missouri state senator who worked as an investment advisor and software consultant, he previously served on the House Oversight, Transportation and Infrastructure, and Education and the Workforce committees.",
-        "sources": [
-          "s1",
-          "s2"
-        ]
+        "sources": ["s1", "s2"]
       },
       "background": [
         {
           "text": "Born in Springfield, Missouri; earned a bachelor's degree and an MBA from Missouri State University.",
-          "sources": [
-            "s2"
-          ]
+          "sources": ["s2"]
         },
         {
           "text": "Worked as an investment advisor and software consultant before serving in the Missouri House and Missouri Senate.",
-          "sources": [
-            "s2"
-          ]
+          "sources": ["s2"]
         }
       ],
       "priorities": [
         {
           "text": "As chairman of the Economic Growth, Energy Policy, and Regulatory Affairs subcommittee, has focused on opposing state and local bans on natural gas, arguing they raise energy costs for households.",
-          "sources": [
-            "s4"
-          ]
+          "sources": ["s4"]
         }
       ],
       "positions": [
@@ -60,19 +47,14 @@
           "stance": "opposes",
           "summary": "Opposes state and local government bans on natural gas and other fossil fuels intended to speed a shift to electrification, and is investigating philanthropic funding of anti-fossil-fuel advocacy groups.",
           "quote": "Over the last several years, the Biden Administration and Congressional Democrats sought to force Americans away from natural gas and other fossil fuels and towards electrification.",
-          "sources": [
-            "s4",
-            "s5"
-          ]
+          "sources": ["s4", "s5"]
         }
       ],
       "record": [
         {
           "text": "Served on the House Committee on Oversight and Government Reform, the Committee on Transportation and Infrastructure, and the Committee on Education and the Workforce during the 2023-2024 session (118th Congress).",
           "kind": "action",
-          "sources": [
-            "s2"
-          ]
+          "sources": ["s2"]
         }
       ],
       "website": "https://burlison.house.gov",
@@ -83,50 +65,35 @@
     {
       "id": "missi-hesketh",
       "name": "Missi Hesketh",
-      "parties": [
-        "D"
-      ],
+      "parties": ["D"],
       "incumbent": false,
       "ballotNote": "Ran unopposed in the August 4, 2026 Democratic primary",
       "summary": {
         "text": "Missi Hesketh is the Democratic nominee for Missouri's 7th District. A former alderwoman and mayor of Forsyth, Missouri, with a career in education, she is campaigning on restoring accountability and \"decency and decorum\" to Congress.",
-        "sources": [
-          "s1",
-          "s3"
-        ]
+        "sources": ["s1", "s3"]
       },
       "background": [
         {
           "text": "Moved to Forsyth, Missouri, with her family in 1983; worked in food service, clerical and finance jobs before earning degrees in business administration, elementary education, gifted education, and special education and assessment.",
-          "sources": [
-            "s3"
-          ]
+          "sources": ["s3"]
         },
         {
           "text": "Served the city of Forsyth as alderwoman and later as mayor, focusing on recreation and ecotourism, communications and transparency, and enforcement against nuisance and dangerous buildings.",
-          "sources": [
-            "s3"
-          ]
+          "sources": ["s3"]
         }
       ],
       "priorities": [
         {
           "text": "Says she wants to \"end the division\" in Congress and restore transparency, honesty and integrity, holding public town halls and representing all constituents regardless of party.",
-          "sources": [
-            "s3"
-          ]
+          "sources": ["s3"]
         },
         {
           "text": "Healthcare: says the healthcare system is broken and calls for caps on services, prescriptions and premiums.",
-          "sources": [
-            "s3"
-          ]
+          "sources": ["s3"]
         },
         {
           "text": "Social Security: wants to ensure Social Security stays solvent so future retirees do not face benefit cuts.",
-          "sources": [
-            "s3"
-          ]
+          "sources": ["s3"]
         }
       ],
       "positions": [
@@ -134,44 +101,36 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says she wants to \"codify Roe\" and give women and their partners autonomy over reproductive decisions.",
-          "sources": [
-            "s3"
-          ]
+          "sources": ["s3"]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Calls for caps on healthcare services, prescriptions and premiums, saying the current system is broken.",
-          "sources": [
-            "s3"
-          ]
+          "summary": "Her campaign website (July 2026), as quoted on Ballotpedia, lists \"Medicare for all who want it\" and Medicare drug price negotiation under healthcare.",
+          "quote": "Medicare for all who want it.",
+          "sources": ["s3"]
         },
         {
-          "issue": "climate",
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Says protecting water, air and soil is essential to the region's ecotourism and farming industries.",
-          "sources": [
-            "s3"
-          ]
+          "summary": "Her campaign website (July 2026) lists closing tax loopholes to end \"billionaire welfare\" as an affordability priority.",
+          "quote": "Close Tax Loopholes to End Billionaire Welfare.",
+          "sources": ["s3"]
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No prior federal or state-level elected office; positions drawn from her 2025 Ballotpedia Candidate Connection survey. Her survey response included an unverified allegation about the incumbent's vote on a discharge petition, which is omitted here because it was not independently confirmed via a reputable news source."
+      "researchNotes": "No prior federal or state-level elected office; positions drawn from her 2025 Ballotpedia Candidate Connection survey. Her survey response included an unverified allegation about the incumbent's vote on a discharge petition, which is omitted here because it was not independently confirmed via a reputable news source. October 2026: the earlier climate entry (protecting water, air and soil) was removed because it did not address the pace of the transition from fossil fuels; the healthcare entry was updated from her campaign website text quoted on Ballotpedia."
     },
     {
       "id": "kevin-craig",
       "name": "Kevin Craig",
-      "parties": [
-        "LIB"
-      ],
+      "parties": ["LIB"],
       "incumbent": false,
       "ballotNote": "Advanced unopposed in the August 4, 2026 Libertarian primary",
       "summary": {
         "text": "Kevin Craig is the Libertarian Party nominee for Missouri's 7th District.",
-        "sources": [
-          "s1"
-        ]
+        "sources": ["s1"]
       },
       "background": [],
       "priorities": [],

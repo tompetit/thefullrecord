@@ -11,52 +11,71 @@
   "context": [
     {
       "text": "Incumbent Kat Cammack's Republican primary was canceled and she advanced unopposed. Seth Harp won the Democratic primary over three opponents.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "kat-cammack",
       "name": "Kat Cammack",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Republican primary was canceled; advanced unopposed.",
       "currentRole": "U.S. Representative for Florida's 3rd District (since 2021)",
       "summary": {
         "text": "Kat Cammack is the incumbent Republican U.S. Representative for Florida's 3rd District, first elected in 2020. She previously owned a marketing firm and holds degrees in international relations and national defense/strategic studies.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in international relations from Metropolitan State University of Denver (2015) and a master's degree in national defense and strategic studies from the U.S. Naval War College (2018).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Owned a marketing firm before entering Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected to the U.S. House in 2020 and re-elected in 2022 and 2024.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Health: says she is focused on lowering prescription drug prices and holding pharmaceutical companies accountable for price increases and industry consolidation.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Economy: as the only Floridian on the House Agriculture Committee, has run an in-person listening tour with Florida farmers and ranchers to shape Farm Bill provisions affecting the state's agriculture industry.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Praised the Trump administration's February 2026 revocation of the EPA's 'Endangerment Finding,' the legal basis for federal vehicle-emissions standards, framing the rollback of the underlying climate regulation as a win for lower prices and energy production.",
+          "summary": "In a February 2026 statement on the Trump administration's revocation of the \"Endangerment Finding\" and Obama-era emissions rules, she called it the 'Green New Scam' going up in smoke and said it brings cheaper cars and more energy.",
           "quote": "'GREEN NEW SCAM' up in smoke. The climate crowd said killing Obama-era emissions rules would wreck America. Instead? Cheaper cars. More energy. Less bureaucratic chokehold. America builds again.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [],
@@ -66,43 +85,70 @@
     {
       "id": "seth-harp",
       "name": "Seth Harp",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 18, 2026 Democratic primary over three opponents.",
       "summary": {
         "text": "Seth Harp is the Democratic nominee for Florida's 3rd Congressional District. He has worked for 30 years in broadcast radio, most recently as operations manager for ESPN Gainesville, and taught as an adjunct at the University of Florida's College of Journalism.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Grew up in Indiana and attended Western Michigan University.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Worked in radio broadcasting for 30 years, including as Director of Programming and Host for iHeart Media's Fox Sports Radio/Gator Radio affiliate in Jacksonville.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served as Operations Manager for ESPN Gainesville (WRUF-AM) for the past five years and taught as an adjunct at the University of Florida's College of Journalism.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign platform titled '13 Stripes of Strength,' including a proposed child-care stipend program ('C.U.B.S. Act') rather than direct cash payments to have children.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says elected officials should be held to character standards of responsibility, respect, integrity, kindness and honesty.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "universal_childcare",
+          "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Proposes a 'Child Unity Break Stipend' to provide families relief on childcare costs, which he frames as a better use of resources than direct cash payments for having children.",
-          "sources": ["s3"]
+          "summary": "His campaign issues page calls for guaranteeing affordable health care for every American.",
+          "quote": "Guarantee affordable health care for every American and ensure that no family is forced into bankruptcy because they got sick.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His campaign issues page proposes restoring the corporate tax rate to 26%, raising the Social Security payroll tax cap to $250,000, and taxing large executive stock awards when received.",
+          "quote": "Reagan Redux restores the corporate tax rate to that level, generating hundreds of billions in revenue that can be invested in Social Security, education, health care, veterans services, and programs that strengthen working families.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [],
@@ -111,38 +157,55 @@
     {
       "id": "mike-klein",
       "name": "Mike Klein",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Mike Klein is a no-party-affiliation candidate for Florida's 3rd Congressional District. He is a combat veteran, West Point graduate and chairman of Warrior Centric Health, running on a platform of removing corporate and special-interest money from politics.",
-        "sources": ["s1", "s4"]
+        "sources": [
+          "s1",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "A fifth-generation Floridian raised in Gainesville; attended West Point and became a Ranger-qualified Infantry officer, leading soldiers in combat during Operation Desert Storm.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Co-founded and chairs Warrior Centric Health, focused on improving care for the military and veteran community, after his brother was severely wounded by an IED.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Has worked internationally in business, economic development and entrepreneurship.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Ending corruption and removing corporate PAC and special-interest money from politics.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Banning insider stock trading by members of Congress and ending gerrymandering.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Building an independent bloc in Congress to force bipartisan cooperation.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -151,13 +214,70 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_3rd_Congressional_District_election,_2026", "title": "Florida's 3rd Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Kat_Cammack", "title": "Kat Cammack", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Seth_Harp_(Florida)", "title": "Seth Harp - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://ballotpedia.org/Mike_Klein_(Florida)", "title": "Mike Klein - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
-    { "id": "s5", "url": "https://cammack.house.gov/issues/health", "title": "Health", "publisher": "Office of Rep. Kat Cammack", "kind": "official", "date": "2026-09-25" },
-    { "id": "s6", "url": "https://cammack.house.gov/issues/economy", "title": "Economy", "publisher": "Office of Rep. Kat Cammack", "kind": "official", "date": "2026-09-25" },
-    { "id": "s7", "url": "https://cammack.house.gov/issues/energy", "title": "Energy", "publisher": "Office of Rep. Kat Cammack", "kind": "official", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Florida%27s_3rd_Congressional_District_election,_2026",
+      "title": "Florida's 3rd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Kat_Cammack",
+      "title": "Kat Cammack",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Seth_Harp_(Florida)",
+      "title": "Seth Harp - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Mike_Klein_(Florida)",
+      "title": "Mike Klein - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://cammack.house.gov/issues/health",
+      "title": "Health",
+      "publisher": "Office of Rep. Kat Cammack",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://cammack.house.gov/issues/economy",
+      "title": "Economy",
+      "publisher": "Office of Rep. Kat Cammack",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://cammack.house.gov/issues/energy",
+      "title": "Energy",
+      "publisher": "Office of Rep. Kat Cammack",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.sethharpforcongress.com/issues",
+      "title": "Issues | Seth Harp for Congress",
+      "publisher": "Seth Harp for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Cammack's federal voting record and FEC finance totals are added by script."

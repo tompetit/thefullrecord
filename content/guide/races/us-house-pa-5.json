@@ -11,51 +11,88 @@
   "context": [
     {
       "text": "Mary Gay Scanlon advanced from the Democratic primary unopposed. Nick Manganaro won the Republican primary unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "mary-gay-scanlon",
       "name": "Mary Gay Scanlon",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2018)",
       "summary": {
         "text": "Mary Gay Scanlon is the Democratic incumbent, in the U.S. House since a 2018 special election. She serves on the Judiciary Committee's Immigration Integrity, Security, and Enforcement Subcommittee and the Constitution and Limited Government Subcommittee, and on the Rules Committee.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Syracuse, New York, in 1959; earned a bachelor's degree in history from Colgate University (1980) and a J.D. from the University of Pennsylvania (1984).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Previously worked as a law clerk and as an attorney at Ballard Spahr, the Education Law Center of Pennsylvania, and the Support Center for Child Advocates.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "In the 119th Congress (2025-2026), serves on the Judiciary Committee (Immigration Integrity, Security, and Enforcement Subcommittee; Constitution and Limited Government Subcommittee) and the Rules Committee.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In a June 2026 statement on the Republican reconciliation bill she criticized the added funding for ICE and CBP and said that money should go to healthcare and lower costs instead.",
+          "quote": "Instead of funding ICE and CBP, we should be funding healthcare and bringing down everyday costs.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In an April 2026 House Judiciary subcommittee statement she opposed Republican efforts to eliminate the FACE Act, which protects people seeking or providing abortion care at clinics.",
+          "quote": "And the FACE Act is needed now as much as it’s ever been.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Was ranking member of the Judiciary Committee's Constitution and Limited Government Subcommittee in the 118th Congress (2023-2024).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the Judiciary Committee's Immigration Integrity, Security, and Enforcement Subcommittee in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the House Rules Committee, which sets the terms of debate for legislation on the House floor, in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://scanlon.house.gov",
@@ -65,54 +102,53 @@
     {
       "id": "nick-manganaro",
       "name": "Nick Manganaro",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19, 2026 Republican primary unopposed.",
       "summary": {
         "text": "Nick Manganaro is a retired financial professional and former Republican precinct committeeman who has lived in the 5th District for more than 25 years. He describes himself as running against policies he says harm the district's citizens and favors fiscal discipline and limited government.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Graduated from the Episcopal Academy, earned a bachelor's degree from Reed College (1979) and a graduate degree from the Massachusetts Institute of Technology (1984).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Spent most of his career in the finance industry, in research, product development, and risk management, consulting with multi-national financial firms on quantifying and managing risk.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "A former Republican precinct committeeman; endorsed by the Delaware County GOP and Pennsylvania Young Republicans.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says federal debt is growing faster than the economy and is unsustainable, and calls for fiscal discipline and holding the line on government spending rather than expanding the social safety net.",
           "quote": "The Federal debt is too darn high because members of Congress have a hard time making decisions and just saying no sometimes. Federal debt is growing faster than the economy as a whole, which is unsustainable.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Wants to streamline regulation and encourage private capital investment so companies can raise wages, and attract more manufacturing and technology employers to the district.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Opposes removing legal barriers to entry and opposes extending government benefits to undocumented immigrants.",
-          "quote": "we cannot afford to take down the existing legal barriers to entry into our nation and give undocumented arrivals generous benefits just for being here.",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Opposes expanding the social safety net (more beneficiaries and higher payouts), which he says would worsen federal debt problems, and describes broader redistributive tax policy as \"the politics of envy.\"",
-          "quote": "Increasing the social safety net to include both more beneficiaries and higher payouts will deepen these problems, not resolve them. We need fiscal discipline.",
-          "sources": ["s3"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     }
@@ -139,6 +175,20 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s4",
+      "url": "https://scanlon.house.gov/news/documentsingle.aspx?DocumentID=2027",
+      "title": "Statement from Congresswoman Scanlon on Republican Reconciliation Bill",
+      "publisher": "Office of Rep. Mary Gay Scanlon",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/subcommittee-ranking-member-scanlon-s-opening-statement-at-hearing-on-republicans-effort-to-eliminate-face-act-safeguards",
+      "title": "Subcommittee Ranking Member Scanlon’s Opening Statement at Hearing on Republicans’ Effort to Eliminate FACE Act Safeguards",
+      "publisher": "House Judiciary Committee Democrats",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

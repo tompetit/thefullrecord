@@ -11,76 +11,113 @@
   "context": [
     {
       "text": "Incumbent James Clyburn (D) won the June 9, 2026 Democratic primary with 90.3% of the vote. John Peterson won the Republican primary with 74.0% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "james-clyburn",
       "name": "James Clyburn",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the June 9, 2026 Democratic primary with 90.3% of the vote",
       "currentRole": "U.S. Representative (since 1993); former House Majority Whip (2007-2011, 2019-2023) and Assistant Democratic Leader",
       "summary": {
         "text": "James Clyburn is the incumbent U.S. Representative for South Carolina's 6th District, seeking re-election. He has served in the House since 1993 and previously held the third-ranking House Democratic leadership position.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Sumter, South Carolina in 1940. Earned a bachelor's degree in history from South Carolina State College in 1962.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a teacher, employment counselor, and newspaper publisher, and served on South Carolina state commissions including the State Employment Security Commission and the Human Affairs Commission, before working as a staff member for Gov. John C. West (D).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected House Majority Whip for the 116th Congress in 2018, the third-ranking leadership position in the House; served in that role until 2023.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "His official site says the \"Charleston Loophole\" in firearm background checks must be narrowed and describes his Enhanced Background Checks Act as a solution.",
+          "quote": "we must narrow this loophole to prevent future tragedies",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations, including the Interior, Environment and Related Agencies subcommittee and the Energy and Water Development and Related Agencies subcommittee (2025-2026 assignments).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
       "researchNotes": "Key floor votes and FEC totals are added separately by script. No current-cycle stated campaign priorities beyond committee work were located within the research budget.",
-      "bioguideId": "C000537"
+      "bioguideId": "C000537",
+      "website": "https://clyburn.house.gov/"
     },
     {
       "id": "john-peterson",
       "name": "John Peterson",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the Republican primary (June 9, 2026) with 74.0% of the vote",
       "summary": {
         "text": "John Peterson is a hotel banquet supervisor and Republican campaign volunteer running as the Republican nominee for South Carolina's 6th Congressional District.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from the State University of New York at Brockport.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Works as a banquet supervisor at Embassy Suites in North Charleston, SC. Volunteered as a canvasser for Donald Trump's 2020 campaign in North Carolina, and as a phone caller and canvasser for Trump's 2024 campaign in South Carolina.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he will vote for fiscally conservative bills that cut spending, bring down inflation, and reduce the national debt, and supports the One Subject at a Time Act requiring each bill to cover a single topic.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Supports deregulation and reducing the size of government, including cuts to federal jobs and programs he characterizes as wasteful.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -110,6 +147,14 @@
       "title": "John Peterson (South Carolina)",
       "publisher": "Ballotpedia (Candidate Connection survey)",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://clyburn.house.gov/charleston-loophole/",
+      "title": "Charleston Loophole",
+      "publisher": "Rep. James Clyburn (house.gov)",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

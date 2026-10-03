@@ -102,10 +102,73 @@
         {
           "issue": "tariffs",
           "stance": "opposes",
-          "summary": "Proposes a \"tariff rebate\" for Americans, describing tariffs as raising costs on consumers.",
-          "quote": "provide a tariff rebate to Americans who have been paying too much for everything",
+          "summary": "Campaign platform calls for repealing or rolling back the Trump Administration's tariff policies.",
+          "quote": "Roll back the Trump Administration’s tariff policies that are raising costs for American consumers and hurting Texas business owners",
           "sources": [
-            "s1"
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign platform calls for letting every American join Medicare and for protecting the Affordable Care Act and reversing cuts to ACA enhanced tax credits, Medicare and Medicaid.",
+          "quote": "Allow every American — regardless of their age — to join Medicare",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign platform calls for federal legislation to codify Roe v. Wade and protect access to contraception and IVF.",
+          "quote": "Codify Roe v. Wade and protect access to contraception and IVF",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign platform calls for universal background checks for gun sales, secure storage around children, and a higher purchase age for certain semi-automatic rifles.",
+          "quote": "Establish universal background checks for gun sales",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Campaign platform calls for prioritizing deportation of criminals, gang members and human traffickers while creating legalization pathways for some immigrants and banning masks for ICE agents.",
+          "quote": "Prioritize the deportation of criminals, gang members, and human traffickers — not our neighbors who contribute to our communities, pay taxes, and pose no threat to our safety.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Campaign platform calls for reinstating federal tax credits and loans that accelerate renewable energy development, while also streamlining permitting for energy projects.",
+          "quote": "Reinstate federal tax credits, loans, and other tools that diversify energy production and accelerate renewable energy development",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign platform calls for raising the federal minimum wage to $15 an hour.",
+          "quote": "Raise the federal minimum wage to $15 an hour",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "mixed",
+          "summary": "Campaign platform calls for stopping offensive weapons sales to the Israeli government while supporting defensive systems such as the Iron Dome.",
+          "quote": "Protect innocent life by stopping offensive weapons sales to the Netanyahu government while supporting defensive systems like the Iron Dome",
+          "sources": [
+            "s9"
           ]
         }
       ],
@@ -159,19 +222,10 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Says he will work with President Trump to secure the border and deport people in the country illegally.",
+          "summary": "Campaign website says he will champion legislative priorities including securing the border and deporting people in the country illegally.",
           "quote": "champion President Trump's legislative priorities, including cutting taxes, securing the border and deporting illegal aliens, ending the weaponization of government, and draining the Swamp",
           "sources": [
-            "s1"
-          ]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says he will stand with President Trump to protect gun rights, opposing stricter gun laws.",
-          "quote": "He will stand with President Trump to protect our gun rights, defend the unborn",
-          "sources": [
-            "s1"
+            "s10"
           ]
         },
         {
@@ -184,12 +238,21 @@
           ],
           "stated": {
             "stance": "opposes",
-            "summary": "Says he will \"defend the unborn,\" indicating opposition to legal abortion access.",
+            "summary": "Campaign issues page says he will stand with President Trump to \"defend the unborn.\"",
             "quote": "He will stand with President Trump to protect our gun rights, defend the unborn",
             "sources": [
-              "s1"
+              "s10"
             ]
           }
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Campaign issues page says he will oppose what it calls a transgender movement seeking to place transgender athletes in girls' sports.",
+          "sources": [
+            "s10"
+          ],
+          "quote": "defeat the radical transgender movement that’s desperate to put men in girls’ sports"
         }
       ],
       "record": [
@@ -286,6 +349,62 @@
       "publisher": "The Texas Tribune",
       "kind": "news",
       "date": "2023-05-27"
+    },
+    {
+      "id": "s4",
+      "url": "https://jamestalarico.com/issue/health-care/",
+      "title": "Health Care",
+      "publisher": "Talarico for Texas campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://jamestalarico.com/issue/public-safety-justice/",
+      "title": "Public Safety & Justice",
+      "publisher": "Talarico for Texas campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://jamestalarico.com/issue/immigration-border-security/",
+      "title": "Immigration & Border Security",
+      "publisher": "Talarico for Texas campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://jamestalarico.com/issue/energy-environment/",
+      "title": "Energy & Environment",
+      "publisher": "Talarico for Texas campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://jamestalarico.com/issue/labor-business/",
+      "title": "Labor & Business",
+      "publisher": "Talarico for Texas campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://jamestalarico.com/issue/foreign-policy/",
+      "title": "Foreign Policy",
+      "publisher": "Talarico for Texas campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.kenpaxton.com/issues",
+      "title": "Issues",
+      "publisher": "Ken Paxton for Senate campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

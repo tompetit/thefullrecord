@@ -80,6 +80,24 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Told WEAU in August 2026 that he supports fully funding ICE and CBP and enforcing immigration laws.",
+          "quote": "I support fully funding ICE and CBP to give the resources they need to secure the border, crack down on cartels and fentanyl trafficking, and enforcing our immigration laws.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "opposes",
+          "summary": "In a June 2026 statement on a House-passed War Powers Resolution he said the President acted within constitutional authority on Iran and that limiting the President’s ability to respond restricts the Commander-in-Chief.",
+          "quote": "The Constitution designates the President as Commander-in-Chief for a reason. President Trump acted fully within its constitutional authority and in accordance with the War Powers Resolution of 1973.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
@@ -141,30 +159,68 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign site says she would expand Medicare to cover vision, dental and hearing, lower the Medicare eligibility age annually, increase Medicare/Medicaid reimbursement rates for rural hospitals, and provide more tax credits to lower ACA exchange premiums.",
+          "summary": "Campaign site says she would expand Medicare to cover vision, dental and hearing, lower the Medicare eligibility age annually, increase Medicare and Medicaid reimbursement rates for rural hospitals, and provide more tax credits to lower ACA exchange premiums.",
           "sources": [
-            "s3"
+            "s6"
           ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Campaign site says she supports increasing the federal minimum wage to $15 an hour with a rolling implementation plan starting with large corporations.",
+          "summary": "Campaign site says she supports raising the federal minimum wage to $15 an hour with a rolling implementation plan starting with large corporations.",
           "sources": [
-            "s3"
+            "s6"
+          ],
+          "quote": "Increasing the federal minimum wage to $15 an hour"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign priorities call for ending the use of tariffs.",
+          "quote": "End the use of tariffs that have created trade tensions globally and cut off agricultural marketplaces.",
+          "sources": [
+            "s6"
           ]
         },
         {
-          "issue": "housing_supply",
+          "issue": "climate",
           "stance": "supports",
-          "summary": "Campaign site says she supports expanding federal community block grants for affordable housing and tax credits for organizations building low- and mixed-income housing in the district.",
+          "summary": "Campaign priorities call for federal investment in wind, solar and hydro energy projects.",
+          "quote": "Draw federal funds for investment in green energy projects that harness our natural resources like wind, solar and hydro energy.",
           "sources": [
-            "s3"
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign site says every person should have the right to make decisions about starting or growing a family and that she would protect reproductive healthcare and keep Planned Parenthood federally funded.",
+          "quote": "I am a firm believer that every person should have the right to make the best decision for themselves about if, when, and how to start or grow a family, free from political or governmental interference.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign site calls for scrapping the Social Security payroll tax cap so higher earners pay more.",
+          "quote": "Scrap the cap on Social Security so that higher earners are paying their fair share and keeping the program solvent for all of us.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Campaign priorities call for fully funding law enforcement.",
+          "quote": "Fully fund law enforcement to keep our communities safe and protect our borders.",
+          "sources": [
+            "s6"
           ]
         }
       ],
       "record": [],
-      "website": "https://www.rebeccacooke.com",
+      "website": "https://cookeforwisconsin.com",
       "researchDepth": "basic",
       "researchNotes": "Cooke has not held elected office, so there is no official voting or legislative record."
     },
@@ -231,6 +287,27 @@
       "title": "Rebecca Cooke",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.weau.com/2026/08/16/decision-2026-cooke-van-orden-agree-pocketbook-pressures-split-over-causes-solutions/",
+      "title": "DECISION 2026: Cooke, Van Orden agree on pocketbook pressures, split over causes and solutions",
+      "publisher": "WEAU",
+      "kind": "news"
+    },
+    {
+      "id": "s5",
+      "url": "https://vanorden.house.gov/media/press-releases/van-orden-commander-chief-must-retain-ability-act-decisively",
+      "title": "Van Orden: The Commander-in-Chief Must Retain the Ability to Act Decisively",
+      "publisher": "Rep. Derrick Van Orden (official site)",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://cookeforwisconsin.com/priorities/",
+      "title": "Priorities - Rebecca Cooke",
+      "publisher": "Cooke for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25"

@@ -11,43 +11,85 @@
   "context": [
     {
       "text": "The Cook Political Report rates the 3rd District D+21, a safely Democratic-leaning seat.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "joyce-beatty",
       "name": "Joyce Beatty",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Incumbent, running for re-election",
       "currentRole": "U.S. Representative (since 2013)",
       "summary": {
         "text": "Beatty is the incumbent U.S. Representative for Ohio's 3rd District, first elected in 2012. She previously served in the Ohio House of Representatives and as senior vice president of outreach and engagement at Ohio State University.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Montgomery County, Ohio; graduated from Nettie Lee Roth High School and earned a bachelor's degree from Central State University and a master's degree from Wright State University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a college professor and in human services before serving in the Ohio State House and as senior vice president of outreach and engagement at Ohio State University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official site says she will protect and strengthen the Affordable Care Act while moving toward a Medicare-For-All-Who-Want-It program.",
+          "quote": "I will continue to work to protect and strengthen the Affordable Care Act, while moving toward a \"Medicare-For-All-Who-Want-It\" program which would give Americans the option to access a Medicare-type system in lieu of private insurance.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her official site says she supports reducing greenhouse gas emissions and minimizing reliance on fossil fuels, and supports the Paris Climate Agreement.",
+          "quote": "These science-backed facts are why I support taking bold steps to invest in federal programs to address climate change, prevent spending cuts to the Environmental Protection Agency (EPA), fully enforce the Clean Air Act, reduce greenhouse gas emissions, minimize our reliance on fossil fuels, and promote energy efficiency and conservation.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a January 2026 statement on U.S. military action in Venezuela, she says military action cannot be undertaken without congressional authorization.",
+          "quote": "Military action cannot be undertaken without congressional authorization, clearly defined objectives, or a plan for what comes next.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Financial Services in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the Committee on Financial Services in the 118th Congress (2023-2024), including as ranking member of the Subcommittee on National Security, Illicit Finance, and International Financial Institutions.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -56,31 +98,43 @@
     {
       "id": "cleophus-dulaney",
       "name": "Cleophus Dulaney",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 5, 2026 Republican primary",
       "summary": {
         "text": "Dulaney is a small-business owner running as the Republican nominee. His campaign website lists housing affordability, policing, homelessness and addiction, and property taxes as issues.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Grew up in Birmingham, Alabama; professional experience includes owning his own business.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign website lists gentrification and the affordable-housing crisis in the district as issues, citing regional projections of population growth.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign website calls for a 'better relationship with our police force' and addressing homelessness and opioid-addiction rehabilitation.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign website lists property taxes and home-improvement grants as an issue.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -112,6 +166,30 @@
       "publisher": "Ballotpedia (candidate campaign website, as quoted)",
       "kind": "candidate",
       "date": "2026-04-24"
+    },
+    {
+      "id": "s4",
+      "url": "https://beatty.house.gov/issues/healthcare",
+      "title": "Healthcare — Rep. Joyce Beatty",
+      "publisher": "Office of Rep. Joyce Beatty (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://beatty.house.gov/issues/climate-change-and-the-environment",
+      "title": "Climate Change and the Environment — Rep. Joyce Beatty",
+      "publisher": "Office of Rep. Joyce Beatty (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://beatty.house.gov/media-center/press-releases/statement-from-congresswoman-joyce-beatty-on-today-s-trump-administration-actions-in-venezuela",
+      "title": "Statement from Congresswoman Joyce Beatty on Today’s Trump Administration Actions in Venezuela",
+      "publisher": "Office of Rep. Joyce Beatty (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

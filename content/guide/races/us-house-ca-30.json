@@ -11,47 +11,65 @@
   "context": [
     {
       "text": "California redrew its congressional district lines for the 2026 election cycle after voters approved Proposition 50 on November 4, 2025, a mid-decade redistricting measure.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Incumbent Democrat Laura Friedman, first elected in 2024 to succeed Adam Schiff (who was elected to the U.S. Senate), and Republican Scott Meyers, an attorney, advanced from the June 2, 2026 top-two primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "laura-friedman",
       "name": "Laura Friedman",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, CA-30 (since 2025)",
       "ballotNote": "Advanced from the June 2, 2026 primary",
       "summary": {
         "text": "Laura Friedman is the Democratic incumbent for California's 30th Congressional District, first elected in 2024 to succeed Adam Schiff. She previously served on the Glendale City Council, including as mayor, and serves on the House Committee on Transportation and Infrastructure.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in New York and lives in Glendale, California; earned a bachelor's degree from the University of Rochester in 1988.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a producer and head of development in the entertainment industry and as a small-business owner selling antiques and decorative arts.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the board of the Metropolitan Water District of Southern California, as past president of the Independent Cities Association, and on the Southern California Association of Governments and Glendale Design Review Board. Elected to the Glendale City Council in 2009 and re-elected in 2013; served as mayor of Glendale from 2011 to 2012.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she is committed to making housing affordable and helping more families become homeowners, and is co-leading House Democrats' Housing Affordability Working Group.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says she will keep fighting to extend Affordable Care Act premium tax credits and protect affordable coverage for constituents.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -60,38 +78,92 @@
           "stance": "opposes",
           "summary": "Co-led the RELIEF Act to require automatic refunds to small businesses for tariffs the Trump administration collected, after the Supreme Court found the tariffs illegal.",
           "quote": "The Supreme Court finally ruled what we all knew to be true: these tariff taxes are illegal. Over the past year, President Trump has cost families $1,200 and forced small businesses to pay roughly $200 billion in tariffs – now it’s time for the President to pay them back.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Backed House passage of legislation to extend Affordable Care Act premium tax credits, saying it would make healthcare more affordable and expand access to coverage.",
           "quote": "This bill means more affordable healthcare, better access to care, and less financial strain for hardworking families. I’ll keep fighting to get it signed into law.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
-          "issue": "housing_supply",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Co-convened House Democrats' Housing Affordability Working Group, saying Congress needs to cut red tape and build more homes.",
-          "quote": "Americans need us to cut red tape, build more homes, protect tenants, and deliver real relief.",
-          "sources": ["s4"]
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, and H.R. 18, the Bipartisan Background Checks Act of 2025 (119th Congress).",
+          "sources": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 7346, the Drain ICE Act of 2026, which would remove funding for U.S. Immigration and Customs Enforcement from the 2025 reconciliation law (119th Congress).",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 10600, the Abortion is Health Care Everywhere Act of 2026, and H.R. 4876, the Reproductive Freedom for Veterans Act, which directs the Department of Veterans Affairs to provide abortion care (119th Congress).",
+          "sources": [
+            "s10",
+            "s11"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress).",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Cosponsored H.Con.Res. 38 (Iran) and H.Con.Res. 68 (Venezuela), each directing the removal of U.S. Armed Forces from hostilities that Congress has not authorized (119th Congress).",
+          "sources": [
+            "s13",
+            "s14"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 8085, the Ultra-Millionaire Tax Act of 2026, which imposes a tax on the net value of taxpayers' assets (119th Congress).",
+          "sources": [
+            "s15"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Transportation and Infrastructure (Economic Development, Public Buildings and Emergency Management Subcommittee; Highways and Transit Subcommittee; Railroads, Pipelines and Hazardous Materials Subcommittee; Water Resources and Environment Subcommittee) and the House Committee on Science, Space, and Technology (Energy Subcommittee) in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Original cosponsor of the RELIEF Act, which would require refunds of tariffs collected since January 1, 2025 that were found illegal by the Supreme Court.",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Co-convened the first meeting of House Democrats' Housing Affordability Working Group with Rep. Emilia Sykes.",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -99,43 +171,47 @@
     {
       "id": "scott-meyers",
       "name": "Scott Meyers",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "currentRole": "Attorney and small-business owner",
       "ballotNote": "Advanced from the June 2, 2026 primary",
       "summary": {
         "text": "Scott Meyers is the Republican nominee for California's 30th Congressional District. He is a small-business owner and attorney who has practiced law in the district for about three decades.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "A California native who has lived in the region for nearly 50 years; describes being raised by a schoolteacher and a minister and starting work at age 14.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Self-employed for 26 years, building a law practice over three decades.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists three key campaign messages: full accountability and transparency over how tax money is spent; keeping \"boys out of girls sports, and out of their locker rooms\"; and full access to constituents through quarterly, open, unscripted press conferences.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says he wants to \"fight to bring film and television production back\" to the district, which he calls \"the entertainment capital of the world.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says he opposes tax increases, citing concerns about rising costs for rent, groceries, and gas.",
-          "quote": "I oppose tax increases.",
-          "sources": ["s3"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     }
@@ -185,6 +261,69 @@
       "publisher": "Office of Rep. Laura Friedman",
       "kind": "candidate",
       "date": "2026-02-20"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115, Assault Weapons Ban of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18, Bipartisan Background Checks Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7346",
+      "title": "H.R. 7346, Drain ICE Act of 2026",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10600",
+      "title": "H.R. 10600, Abortion is Health Care Everywhere Act of 2026",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4876",
+      "title": "H.R. 4876, Reproductive Freedom for Veterans Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743, Raise the Wage Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/38",
+      "title": "H.Con.Res. 38, War Powers Resolution (Iran)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/68",
+      "title": "H.Con.Res. 68, Removal of Armed Forces from Venezuela",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8085",
+      "title": "H.R. 8085, Ultra-Millionaire Tax Act of 2026",
+      "publisher": "Congress.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

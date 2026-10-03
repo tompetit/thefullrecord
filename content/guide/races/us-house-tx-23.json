@@ -11,32 +11,70 @@
   "context": [
     {
       "text": "This is an open seat. Incumbent Tony Gonzales trailed Brandon Herrera in the March 3, 2026 Republican primary, 41.8% to 43.3%, forcing a runoff; Gonzales withdrew before the May 26, 2026 runoff, which was canceled, and Herrera advanced. Katy Padilla Stout won the Democratic nomination in the March 3, 2026 primary. Ben Mendoza, a perennial candidate who previously ran for El Paso mayor, is on the ballot as an independent.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "brandon-herrera",
       "name": "Brandon Herrera",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Led the March 3, 2026 Republican primary with 43.3% of the vote, then advanced to the general election after incumbent Tony Gonzales withdrew and the scheduled runoff was canceled.",
       "summary": {
         "text": "Brandon Herrera is the Republican nominee for this open border-area seat. He is a firearms manufacturer and YouTube personality whose channel focused on firearms content has more than 3 million subscribers.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Attended Campbell College, studying pre-law, before leaving to start a firearms manufacturing business.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "As of the 2024 election, hosted a YouTube channel focused on firearms-related content with more than 3 million subscribers.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign issues page says he will fight for national concealed carry reciprocity and block red flag laws and new firearms restrictions.",
+          "sources": [
+            "s5"
+          ],
+          "quote": "fight for national concealed carry reciprocity and block any attempt to pass Red Flag laws or impose new firearms restrictions"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Campaign issues page says he will sponsor legislation so education dollars follow the student to public, private or parochial schools.",
+          "sources": [
+            "s5"
+          ],
+          "quote": "ensuring education dollars follow the student, whether they attend public, private, or parochial school"
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Campaign issues page pledges to protect girls' and women's sports and opposes requiring female athletes to compete against transgender women.",
+          "quote": "ensure that America's daughters won't have their athletic careers stolen by woke leftists that force them to compete with men",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://brandonherreraforcongress.com",
       "researchDepth": "basic",
@@ -45,25 +83,70 @@
     {
       "id": "katy-padilla-stout",
       "name": "Katy Padilla Stout",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary with 52.1% of the vote over three other candidates.",
       "summary": {
         "text": "Katy Padilla Stout is the Democratic nominee for this open border-area seat. She is an attorney with a law degree from South Texas College of Law.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from the University of Texas at Austin and a law degree from the South Texas College of Law.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Has worked as a lawyer.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign issues page says she supports expanding Medicare to cover all Americans and, short of that, strengthening the Affordable Care Act.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I support expanding our Medicare system to cover all Americans."
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign issues page says no constitutional right is without reasonable limits and names universal background checks, a bump stock ban and red-flag laws as measures most Americans support.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "No constitutional right is without reasonable limits grounded in common sense, and laws concerning responsible gun ownership should be no exception."
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign issues page says women's reproductive rights need to be protected and the government should not be involved in those decisions.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I believe women’s reproductive rights need to be protected."
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign issues page says she supports raising the minimum wage.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "we should invest in families and strengthen our workforce by raising the minimum wage and requiring paid parental leave"
+        }
+      ],
       "record": [],
       "website": "https://katyforcongress.com",
       "researchDepth": "minimal",
@@ -72,16 +155,22 @@
     {
       "id": "ben-mendoza",
       "name": "Ben Mendoza",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Ben Mendoza is an independent candidate for this seat. An El Paso-area perennial candidate, he placed eighth in the 2024 El Paso mayoral general election.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Ran for Mayor of El Paso in 2024, finishing eighth in a field of eight candidates with 4.6% of the vote.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -92,10 +181,52 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026", "title": "United States House of Representatives elections in Texas, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Brandon_Herrera", "title": "Brandon Herrera", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Katy_Padilla_Stout", "title": "Katy Padilla Stout", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://ballotpedia.org/Ben_Mendoza", "title": "Ben Mendoza", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Brandon_Herrera",
+      "title": "Brandon Herrera",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Katy_Padilla_Stout",
+      "title": "Katy Padilla Stout",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Ben_Mendoza",
+      "title": "Ben Mendoza",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://brandonherreraforcongress.com/issues/",
+      "title": "On The Issues",
+      "publisher": "Brandon Herrera for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://katyforcongress.com/issues",
+      "title": "Where I Stand On The Issues",
+      "publisher": "Katy Padilla Stout for Congress",
+      "kind": "candidate"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "This is an open seat after incumbent Tony Gonzales withdrew from the Republican primary runoff. None of the three general-election candidates has completed a Ballotpedia Candidate Connection survey or published a detailed 2026 policy platform found in this session."

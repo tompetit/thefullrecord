@@ -52,7 +52,52 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "As vice-chair of the House Democratic Caucus Gun Violence Prevention Task Force, lists reinstating a federal assault weapons ban among the Task Force’s recommendations to Congress, alongside strengthening the background check database.",
+          "quote": "Reinstate and strengthen a prospective federal ban on assault weapons.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His official site says he strongly supports maintaining and strengthening Medicare and Medicaid, opposes efforts to weaken or repeal the Affordable Care Act, and describes himself as a strong supporter of single-payer health care.",
+          "quote": "Congressman Scott strongly supports maintaining and strengthening these programs to make sure that those who need them most can continue to rely on them.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His official site says he supports the Green New Deal, has cosponsored renewable-energy investment legislation, and has opposed opening new areas off Virginia’s coast to offshore oil and gas development.",
+          "quote": "Scott has co-sponsored legislation in the House of Representatives that would promote investment in renewable energy, and is a supporter of the Green New Deal.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an April 2, 2025 statement, said the across-the-board tariffs announced by President Trump would raise costs on Americans.",
+          "quote": "President Trump’s across-the-board tariffs are reckless and will raise costs on Americans without making the long overdue investments in American manufacturing capacity that would create jobs.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In January 2026, joined a letter from Virginia House Democrats to DHS and ICE opposing a proposed ICE processing facility in Hanover County and a potential 10,000-bed detention center in Stafford County.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Education and the Workforce and the House Committee on Budget in the 119th Congress (2025-2026).",
@@ -122,9 +167,10 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Campaign platform calls for increasing the number of immigration judges and fixing the green card process, without a stated position on enforcement or deportations specifically.",
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "His campaign platform says to increase and fully fund law enforcement and community-based programs.",
+          "quote": "Increase and support(fully fund) law enforcement and community based programs (such as national night out) which helps strengthen relationships across our different communities.",
           "sources": [
             "s3"
           ]
@@ -197,6 +243,46 @@
       "publisher": "Edwin Rivera campaign, via Ballotpedia",
       "kind": "candidate",
       "date": "2026-07-10"
+    },
+    {
+      "id": "s4",
+      "url": "https://bobbyscott.house.gov/issues/gun-safety",
+      "title": "Gun Safety | Congressman Bobby Scott",
+      "publisher": "Office of Rep. Bobby Scott",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://bobbyscott.house.gov/issues/health-care",
+      "title": "Health Care | Congressman Bobby Scott",
+      "publisher": "Office of Rep. Bobby Scott",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://bobbyscott.house.gov/issues/energy-environment",
+      "title": "Energy & Environment | Congressman Bobby Scott",
+      "publisher": "Office of Rep. Bobby Scott",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://bobbyscott.house.gov/media-center/press-releases/scott-statement-trumps-recession-day",
+      "title": "Scott Statement on Trump’s Recession Day",
+      "publisher": "Office of Rep. Bobby Scott",
+      "kind": "official",
+      "date": "2025-04-02"
+    },
+    {
+      "id": "s8",
+      "url": "https://bobbyscott.house.gov/media-center/press-releases/scott-joins-virginia-house-democrats-oppose-proposed-ice-facilities",
+      "title": "Scott Joins Virginia House Democrats to Oppose Proposed ICE Facilities in Hanover and Stafford Counties",
+      "publisher": "Office of Rep. Bobby Scott",
+      "kind": "official",
+      "date": "2026-02-03"
     }
   ],
   "researchedAt": "2026-09-25",

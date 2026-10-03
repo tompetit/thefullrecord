@@ -47,7 +47,35 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Official issues page says he will continue to support policies that strengthen the Affordable Care Act.",
+          "quote": "In Congress, I will continue to support policies that strengthen the ACA and improve health care for every American.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Official issues page says Congress must act on gun reform and lists proposals including an assault weapons ban and a three-day waiting period for handgun purchases.",
+          "quote": "we cannot leave it to them alone to fight for commonsense gun reform.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His 2019 climate framework, still posted on his official site, calls for science-based targets for greenhouse gas neutrality by mid-century and accelerating the clean energy transition.",
+          "quote": "Adopt Science-Based Targets for Greenhouse Gas Neutrality by Mid-Century",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Energy and Commerce Committee (Oversight and Investigations; Energy; Environment subcommittees) and the House Budget Committee in the 119th Congress (2025-2026).",
@@ -111,7 +139,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "In a 2026 Protect the Adirondacks questionnaire, he opposed the Polluters Pay Climate Fund Act, said restrictions on fossil fuels and nuclear while subsidizing other energy sources have raised energy costs, and said fracking bans harm New York.",
+          "quote": "Restrictions on fossil fuel and nuclear while subsidizing non-scalable and inefficient energy sources has driven up energy costs and stifled economic prosperity.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     }
@@ -154,6 +192,38 @@
       "publisher": "Ralph Ambrosio for Congress campaign website",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://tonko.house.gov/Issues/Issue/?IssueID=74",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Paul Tonko, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://tonko.house.gov/Issues/Issue/?IssueID=15249",
+      "title": "Gun Violence",
+      "publisher": "Office of Rep. Paul Tonko, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://tonko.house.gov/Issues/Issue/?IssueID=15252",
+      "title": "Climate Change",
+      "publisher": "Office of Rep. Paul Tonko, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.protectadks.org/federal-and-state-candidates-answer-questions-on-environmental-matters-in-adirondack-park/",
+      "title": "Federal and State Candidates Answer Questions on Environmental Matters in Adirondack Park",
+      "publisher": "Protect the Adirondacks! (candidate questionnaire, 2026)",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

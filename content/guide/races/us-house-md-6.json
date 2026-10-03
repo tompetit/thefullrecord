@@ -65,6 +65,29 @@
       "title": "Moshe Landman Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://mfume.house.gov/media/press-releases/mfume-maryland-delegation-members-urge-republican-leaders-to-reopen-government-prevent-health-care-costs-from-skyrocketing-and-protect-rural-health-care-access",
+      "title": "Mfume, Maryland Delegation Members Urge Republican Leaders to Reopen Government, Prevent Health Care Costs from Skyrocketing and Protect Rural Health Care Access",
+      "publisher": "Office of Rep. Kweisi Mfume",
+      "kind": "official",
+      "date": "2025-10-16"
+    },
+    {
+      "id": "s9",
+      "url": "https://mcclaindelaney.house.gov/media/press-releases/congresswoman-april-mcclain-delaney-calls-revocation-trumps-tariff-powers",
+      "title": "Congresswoman April McClain Delaney Calls for Revocation of Trump's Tariff Powers",
+      "publisher": "Office of Rep. April McClain Delaney",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://mcclaindelaney.house.gov/media/press-releases/rep-mcclain-delaney-issues-statement-voting-against-funding-department",
+      "title": "Rep. McClain Delaney Issues Statement on Voting Against Funding for the Department of Homeland Security",
+      "publisher": "Office of Rep. April McClain Delaney",
+      "kind": "official",
+      "date": "2026-02-03"
     }
   ],
   "candidates": [
@@ -129,6 +152,33 @@
           "summary": "Describes herself as an unwavering supporter of reproductive rights and the right to an abortion.",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Joined the Maryland delegation in a letter urging House Republican leaders to extend the ACA enhanced premium tax credits and warning of Medicaid losses under H.R. 1.",
+          "quote": "we urge leadership to act swiftly to extend the ePTCs",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Urged Congress to revoke President Trump's tariff authority, saying the tariffs raise costs for families, while also calling for a bipartisan strategy that combines carefully considered tariffs with incentives to rebuild American industry.",
+          "quote": "it is time for Congress to reclaim the authority to levy tariffs, as intended by the Constitution",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Voted no on a February 2026 funding bill and said she opposes further DHS funding without guardrails such as a ban on ICE agents wearing masks, body cameras and an end to arrests without judicial warrants.",
+          "quote": "I remain opposed to any funding - for any length of time, even 10 days as laid out by this bill - to further fund the Department of Homeland Security (DHS) while it continues to terrorize American communities through unlawful raids, arrests, detentions, and discriminatory practices.",
+          "sources": [
+            "s10"
           ]
         }
       ],

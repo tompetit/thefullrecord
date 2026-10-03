@@ -71,7 +71,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "As of October 2025, AZPM reported he had signed onto a bill that would have extended the enhanced ACA tax credits through 2026, and he said there needed to be a discussion on the subsidy extension.",
+          "quote": "We need to have a discussion on the subsidy extension,",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations (2025-2026), as vice chair of the Homeland Security Subcommittee and a member of the National Security, Department of State and Related Programs Subcommittee.",
@@ -153,10 +163,46 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says she is committed to increasing access to affordable healthcare.",
-          "quote": "I am committed to improving our public education system, increasing access to affordable healthcare, and preserving our natural environment and scarce water resources.",
+          "summary": "Says she would work to reverse cuts to AHCCCS (Arizona's Medicaid program) and to enhanced Affordable Care Act subsidies.",
+          "quote": "That’s why JoAnna will work to reverse disastrous cuts to healthcare, including to AHCCCS and enhanced Affordable Care Act (ACA) subsidies.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says she would stop tariffs that raise prices on farm equipment and fertilizer.",
+          "quote": "Stability and consistency for farmers, also means stopping reckless tariffs that jack up prices on equipment and fertilizer and make it difficult for farmers and other small business owners to plan ahead.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says that in Congress she would cancel tax cuts for billionaires.",
+          "quote": "In Congress, I’ll cancel tax cuts for billionaires, expand the Child Tax Credit, make tax cuts on overtime and tips permanent, and support the PRO Act.",
           "sources": [
             "s4"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says she would work on deporting violent criminals and strengthening border security at ports of entry, while also supporting legal pathways to citizenship and the Stop Excessive Force in Immigration Act.",
+          "quote": "In Congress, JoAnna will work with both parties to strengthen border security at ports of entry, deporting violent criminals, holding cartels accountable, and ensuring that immigration enforcement is professional, properly trained, and consistent with the law.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says she would support investments in clean energy and protect local solar projects, and criticizes Rep. Ciscomani's vote to roll back clean-energy investments.",
+          "quote": "In Congress, JoAnna will support investments in American-made energy, including clean energy, which will save money for ratepayers.",
+          "sources": [
+            "s9"
           ]
         }
       ],
@@ -411,6 +457,35 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-01-01"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.joannamendoza.com/issues/healthcare/",
+      "title": "Strengthening our Healthcare System",
+      "publisher": "Mendoza for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.joannamendoza.com/issues/environment/",
+      "title": "Climate, Water & Energy Security for Rural Arizona",
+      "publisher": "Mendoza for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.joannamendoza.com/issues/immigration-border-security/",
+      "title": "Safe Communities, Strong Borders & Real Immigration Solutions",
+      "publisher": "Mendoza for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://news.azpm.org/p/news-topical-health/2025/10/7/226773-kelly-ciscomani-support-extending-aca-tax-credits-disagree-on-how-to-get-there/",
+      "title": "Kelly, Ciscomani support extending ACA tax credits, disagree on how to get there",
+      "publisher": "Arizona Public Media",
+      "kind": "news",
+      "date": "2025-10-07"
     }
   ],
   "researchedAt": "2026-09-25",

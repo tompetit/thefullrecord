@@ -63,6 +63,15 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "His House Second Amendment page says law-abiding Americans should be unencumbered by excessive regulations, and that he opposed New York's SAFE Act and federal background-check expansion.",
+          "quote": "Law abiding Americans should be unencumbered by excessive regulations that would undermine the Second Amendment rights beyond reasonable measure.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [
@@ -131,10 +140,27 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says health care access should not depend on ZIP code, job, or bank account, and criticizes his opponent's vote that he says will cause New Yorkers to lose Medicaid coverage.",
-          "quote": "Healthcare shouldn't depend on your ZIP code, your job, or your bank account.",
+          "summary": "At a Democratic candidate forum, a local news report says he stated he supports Medicare for all.",
+          "quote": "he supports Medicare for all",
           "sources": [
-            "s3"
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign site says tariffs should be used strategically against unfair trade practices, not as a blanket tax on consumers, and that broad tariffs raise costs for Long Island families.",
+          "quote": "I believe tariffs should be used strategically to address unfair trade practices — not as a blanket tax on American consumers.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "A local news report on a Democratic candidate forum says he stated he supports protecting access to abortion.",
+          "sources": [
+            "s6"
           ]
         }
       ],
@@ -173,6 +199,27 @@
       "title": "Patrick Halpin",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://garbarino.house.gov/issues/second-amendment",
+      "title": "Second Amendment",
+      "publisher": "Office of Rep. Andrew Garbarino",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://halpinforcongress.com/affordability-crisis",
+      "title": "Fighting for Life That's Affordable",
+      "publisher": "Halpin for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://bellporter.com/stories/democratic-congressional-candidates-introduce-themselves-to-voters,106489",
+      "title": "Democratic congressional candidates introduce themselves to voters",
+      "publisher": "Bellporter",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",
