@@ -52,7 +52,51 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "His official issues page lists support for reinstating the assault weapons ban, universal background checks, safe-storage requirements, limits on high-capacity magazines and silencers, and stronger red flag laws.",
+          "quote": "Reinstate the ban on assault weapons used in many mass shootings",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His official issues page says he is fighting to codify the protections of Roe v. Wade nationally.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His official issues page says he is committed to accelerating the transition to a clean energy future.",
+          "quote": "committed to accelerating the transition to a clean energy future",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Joined Rhode Island health care leaders in calling for extending Affordable Care Act tax credits and restoring Medicaid funding.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Filed an amicus brief at the Supreme Court challenging the President's use of IEEPA to impose sweeping tariffs, saying they raise costs for Rhode Islanders.",
+          "quote": "Rhode Islanders are being hurt by President Trump’s sweeping tariffs, which are driving up the cost of food, energy, and other everyday essentials,",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "For the 2025-2026 Congress, serves on the House Committee on Homeland Security (Subcommittees on Counterterrorism and Intelligence, and Cybersecurity and Infrastructure) and the House Committee on Natural Resources (Subcommittees on Energy and Mineral Resources, and Water, Wildlife and Fisheries).",
@@ -129,24 +173,17 @@
           ]
         },
         {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says the Second Amendment must remain strong so every law-abiding citizen can access and use firearms.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "immigration_enforcement",
+          "issue": "housing_supply",
           "stance": "supports",
-          "summary": "Says he supports continuing to secure and seal the border.",
+          "summary": "His campaign site calls for streamlining years-long permitting processes to speed construction of homes, and says \"Build more, regulate less.\"",
+          "quote": "Build more, regulate less, own your future.",
           "sources": [
-            "s3"
+            "s9"
           ]
         }
       ],
       "record": [],
-      "website": "https://www.mellorforcongress.com/",
+      "website": "https://vicmellor.com/",
       "researchDepth": "basic"
     }
   ],
@@ -174,6 +211,54 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-08-09"
+    },
+    {
+      "id": "s4",
+      "url": "https://magaziner.house.gov/issues/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Rep. Seth Magaziner (house.gov)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://magaziner.house.gov/issues/reproductive-rights",
+      "title": "Reproductive Rights",
+      "publisher": "Rep. Seth Magaziner (house.gov)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://magaziner.house.gov/issues/energy-and-environment",
+      "title": "Energy and Environment",
+      "publisher": "Rep. Seth Magaziner (house.gov)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://magaziner.house.gov/media/press-releases/magaziner-and-amo-join-health-care-leaders-call-urgent-action-address-health",
+      "title": "Magaziner and Amo Join Health Care Leaders to Call for Urgent Action to Address Health Care Affordability Crisis",
+      "publisher": "Rep. Seth Magaziner (house.gov)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://magaziner.house.gov/media/press-releases/magaziner-joins-amicus-brief-supreme-court-opposing-trump-tariffs",
+      "title": "Magaziner Joins Amicus Brief to Supreme Court Opposing Trump Tariffs",
+      "publisher": "Rep. Seth Magaziner (house.gov)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://vicmellor.com/affordable-housing-in-rhode-island/",
+      "title": "Housing That Is Affordable",
+      "publisher": "Vic Mellor campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25"
