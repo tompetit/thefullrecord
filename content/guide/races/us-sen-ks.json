@@ -65,7 +65,34 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "In a February 2025 statement, Marshall backed President Trump's imposition of reciprocal tariffs.",
+          "quote": "Reciprocal tariffs are strong, strategic negotiating tools that ultimately strike better trade deals, ensure long-term economic growth and strengthen our national security.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Marshall joined Senate Republicans in introducing a resolution calling on the NCAA to revoke its transgender student-athlete eligibility policy and to protect women's sports for biological women and girls.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a June 2026 interview, Marshall said the Senate needs to pass the SAVE America Act, discussing its voter ID and proof-of-citizenship provisions.",
+          "quote": "if we want to save this republic, then we need to pass the SAVE America Act.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the Senate Committee on Health, Education, Labor, and Pensions.",
@@ -137,18 +164,20 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Wants to reverse Medicaid cuts, restore ACA premium tax credits, and expand Medicare drug-price negotiation.",
-          "quote": "We must reverse the disastrous cuts to Medicaid that threaten our rural hospitals. We should restore the ACA premium credits whose expiration raised the typical Kansan's premium by more than half.",
+          "summary": "Hamilton's issues page calls for reversing Medicaid cuts, restoring the ACA subsidies, and expanding Medicare drug price negotiation.",
+          "quote": "Reverse the cuts to Medicaid and restore the ACA subsidies that hold premiums down.",
           "sources": [
+            "s4",
             "s1"
           ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
-          "summary": "Opposes current broad tariffs, describing them as a self-destructive policy raising costs for Kansas families.",
-          "quote": "end the self destructive policies coming out of Washington like tariffs and war",
+          "summary": "Hamilton's issues page calls for ending tariffs and requiring congressional approval for new tariffs.",
+          "quote": "End self-destructive tariffs and unnecessary wars",
           "sources": [
+            "s4",
             "s1"
           ]
         }
@@ -217,6 +246,34 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.hamiltonforkansas.com/issues",
+      "title": "Issues — Hamilton for Kansas",
+      "publisher": "Hamilton for Kansas (campaign)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-releases-statement-in-support-of-reciprocal-tariffs/",
+      "title": "Senator Marshall Releases Statement in Support of Reciprocal Tariffs",
+      "publisher": "Office of Sen. Roger Marshall",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.marshall.senate.gov/newsroom/press-releases/senators-marshall-blackburn-introduce-bills-to-protect-young-women-in-sports/",
+      "title": "Senators Marshall, Blackburn Introduce Bills to Protect Young Women in Sports",
+      "publisher": "Office of Sen. Roger Marshall",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.marshall.senate.gov/newsroom/press-releases/senator-marshall-we-need-the-save-america-act-to-save-our-republic/",
+      "title": "Senator Marshall: We Need the SAVE America Act to Save Our Republic",
+      "publisher": "Office of Sen. Roger Marshall",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
