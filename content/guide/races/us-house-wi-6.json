@@ -47,7 +47,17 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "His official issues page says he supports repealing and replacing Obamacare with a more free-market system while keeping protections for pre-existing conditions.",
+          "quote": "I support repealing and replacing Obamacare with a more free-market system, while keeping parts of Obamacare that make sense, like protecting coverage for individuals with pre-existing conditions.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on the Budget, the Committee on Education and the Workforce, and the Committee on the Judiciary, and chairs the Health Care and Financial Services Subcommittee of the Committee on Oversight and Government Reform, in the 119th Congress (2025-2026).",
@@ -120,17 +130,37 @@
           ]
         },
         {
-          "issue": "minimum_wage",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Candidate survey says he will fight for livable wages for every worker.",
+          "summary": "Campaign site says he supports universal background checks, red flag laws and secure storage.",
+          "quote": "I support common-sense safety measures such as universal background checks, red flag laws, and secure storage.",
           "sources": [
-            "s3"
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign site says he will defend reproductive freedom.",
+          "quote": "We’ll defend reproductive freedom and ensure women, not politicians, have the right to make their own healthcare choices.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Campaign site says he will invest in solar and wind and aims for Wisconsin to lead in the clean energy transition.",
+          "quote": "That means investing in solar and wind, promoting clean water standards, and ensuring WI leads in clean energy transition.",
+          "sources": [
+            "s7"
           ]
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Smith has not held elected office, so there is no official voting or legislative record."
+      "researchNotes": "Smith has not held elected office, so there is no official voting or legislative record.",
+      "website": "https://www.bradsmithforcongress.com"
     },
     {
       "id": "matthew-arndt",
@@ -284,6 +314,20 @@
       "url": "https://ballotpedia.org/Mike_Thurow",
       "title": "Mike Thurow",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://grothman.house.gov/issues/issue/?IssueID=14888",
+      "title": "Health Care",
+      "publisher": "Rep. Glenn Grothman (official site)",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.bradsmithforcongress.com",
+      "title": "Brad Smith for Congress",
+      "publisher": "Citizens for Brad Smith",
       "kind": "candidate"
     }
   ],
