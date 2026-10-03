@@ -11,37 +11,59 @@
   "context": [
     {
       "text": "Incumbent Nathaniel Moran (R) ran unopposed in the March 3, 2026 Republican primary. Yolanda Prince won a May 26, 2026 Democratic primary runoff against Dax Alexander, 72.3% to 27.7%.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "nathaniel-moran",
       "name": "Nathaniel Moran",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, Texas's 1st District (since 2023)",
       "summary": {
         "text": "Nathaniel Moran is the Republican incumbent U.S. Representative for Texas's 1st Congressional District, an attorney and former Tyler City Council member.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Whitehouse, Texas; graduated from Whitehouse High School and earned a law degree from Texas Tech University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an attorney and partner with the law firm Ramey & Flock, P.C. before serving on the Tyler City Council.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a September 2024 official statement on voting for the SAVE Act, he said it helps secure elections by requiring proof of citizenship to register to vote.",
+          "quote": "The SAVE Act helps achieve these goals by requiring proof of citizenship when individuals register to vote and removing non-citizens from voter rolls.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the U.S. House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, among other committee assignments, in the 2025–2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -50,28 +72,74 @@
     {
       "id": "yolanda-prince",
       "name": "Yolanda Prince",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 26, 2026 Democratic primary runoff",
       "summary": {
         "text": "Yolanda Prince is the Democratic nominee for Texas's 1st Congressional District, a university project manager.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from Stephen F. Austin University and a graduate degree from the University of Texas at Arlington.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes working as a university project manager.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign issues page says she supports raising the federal minimum wage to at least $15 per hour.",
+          "quote": "I support raising the minimum wage to at least $15 per hour so that full-time workers can earn a living wage and support their families without relying on government assistance.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign issues page says she supports a Medicare for All single-payer system.",
+          "quote": "I support a Medicare for All single-payer healthcare systems, that guarantees health insurance coverage for every American.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign issues page describes her as pro-choice and says she supports restoring Roe and protecting access to reproductive healthcare.",
+          "quote": "I am pro-choice. Decisions regarding reproductive healthcare belong to women, their families, and their healthcare providers—not politicians. I support restoring Roe and protecting access to reproductive healthcare.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign issues page says she would advocate for ending the use of immigration detention centers.",
+          "quote": "I will also advocate for ending the use of detention centers.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, candidate questionnaire, or public policy statements found for Prince; only basic biographical facts from Ballotpedia are documented."
+      "researchNotes": "No campaign website, candidate questionnaire, or public policy statements found for Prince; only basic biographical facts from Ballotpedia are documented.",
+      "website": "https://yolandaprince.com/"
     }
   ],
   "sources": [
@@ -98,6 +166,22 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://yolandaprince.com/issues",
+      "title": "Issues",
+      "publisher": "Yolanda R. Prince for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://moran.house.gov/news/documentsingle.aspx?DocumentID=729",
+      "title": "Congressman Moran Statement on Vote to Protect American Elections from Illegal Immigrants (Sept. 18, 2024)",
+      "publisher": "Office of Congressman Nathaniel Moran",
+      "kind": "official",
+      "date": "2024-09-18"
     }
   ],
   "researchedAt": "2026-09-25"

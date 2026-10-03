@@ -11,37 +11,68 @@
   "context": [
     {
       "text": "Incumbent Lance Gooden (R) ran unopposed in the March 3, 2026 Republican primary. Chelsey Hockett won a Democratic primary runoff against Ruth Torres on May 26, 2026.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "lance-gooden",
       "name": "Lance Gooden",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, Texas's 5th District (since 2019)",
       "summary": {
         "text": "Lance Gooden is the Republican incumbent U.S. Representative for Texas's 5th Congressional District, a former state legislator and insurance broker.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Nashville, Tennessee, in 1982; earned a bachelor's degree in finance and government from the University of Texas in 2004.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an insurance broker and risk-management consultant; served in the Texas House of Representatives (District 4) from 2011 to 2015 and 2017 to 2019.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Official issues page says the federal government should not strip law-abiding gun owners of their right to bear arms.",
+          "quote": "the federal government should not strip law-abiding gun owners of our right to bear arms because of a few unstable lunatics.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Official issues page criticizes proposals to socialize medicine as raising costs and favors free-market approaches.",
+          "quote": "radical proposals like these will make only healthcare more expensive and pass those costs along to the taxpayers at a time when they simply can’t afford it.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on the Judiciary (including the Courts, Intellectual Property, Artificial Intelligence, and the Internet Subcommittee) and the House Committee on Armed Services in the 2025–2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -50,42 +81,127 @@
     {
       "id": "chelsey-hockett",
       "name": "Chelsey Hockett",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 26, 2026 Democratic primary runoff against Ruth Torres",
       "summary": {
         "text": "Chelsey Hockett is the Democratic nominee for Texas's 5th Congressional District, running on a progressive platform.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [
         {
           "text": "Says she will fight for fair wages, affordable healthcare, and cost-of-living relief for working families.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Says she supports well-funded public schools, safe communities, and what she describes as a \"humane border system.\"",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Says she believes in reproductive freedom.",
-          "quote": "I believe in reproductive freedom, immigrant rights, strong unions, fully funded public schools, and a government that actually works for the people who live here.",
-          "sources": ["s1"]
+          "summary": "Campaign issues page calls for codifying Roe v. Wade and leaving women’s health decisions to each woman and her doctor.",
+          "quote": "Codify Roe V. Wade and return control of women's health decisions to each woman, her doctor, and her conscience.",
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says healthcare is a human right and supports expanding healthcare access.",
-          "quote": "I believe healthcare is a human right.",
-          "sources": ["s1"]
+          "summary": "Campaign issues page calls for enacting Medicare for All, a universal healthcare system.",
+          "quote": "Enact Medicare for All.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls for ending the current tariffs, citing their effect on prices.",
+          "quote": "End Trump's Tariffs.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for a $25 minimum wage tied to the cost of living.",
+          "quote": "Tie the Minimum to Wage Cost of Living , starting with a $25 Minimum Wage .",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for enacting universal childcare.",
+          "quote": "Enact Universal Childcare so parents can afford to raise their kids and participate in the workforce.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for making corporations and billionaires pay more through closing loopholes, a progressive income tax and a wealth tax.",
+          "quote": "Make corporations and billionaires pay their fair share by closing tax loopholes and instituting a progressive income tax and a wealth tax.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls for abolishing ICE and replacing it with other immigration services.",
+          "quote": "Abolish and Prosecute ICE and replace it with humane, accountable immigration services.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for a Green New Deal to expand renewable energy.",
+          "quote": "Enact a Green New Deal to expand renewable energy initiatives and bring in more jobs.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign About page says she would work to stop school voucher programs.",
+          "quote": "I will fight to protect public schools, stop voucher schemes that drain classrooms of resources",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls for legislation ending all U.S. funding to Israel, including the Block the Bombs Act.",
+          "quote": "legislation that will terminate all US funding for the apartheid state of Israel",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://chelseyhockettforcongress.com"
     }
   ],
   "sources": [
@@ -104,6 +220,38 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://gooden.house.gov/our-constitution",
+      "title": "Our Constitution",
+      "publisher": "Office of Congressman Lance Gooden",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "url": "https://gooden.house.gov/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Congressman Lance Gooden",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://chelseyhockettforcongress.com/issues.html",
+      "title": "Issues",
+      "publisher": "Chelsey Hockett for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://chelseyhockettforcongress.com/about.html",
+      "title": "About",
+      "publisher": "Chelsey Hockett for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25"
