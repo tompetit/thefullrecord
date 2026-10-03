@@ -334,6 +334,16 @@ export async function lookupOfficials(address: string): Promise<LookupResult> {
     else if (Array.isArray(result.value)) tasks[index].bucket.push(...result.value);
     else if (result.value) tasks[index].bucket.push(result.value);
   });
+  // A House seat with nobody in the roster is a vacancy: say so rather than
+  // silently returning no Representative.
+  if (
+    houseSeat &&
+    failures === 0 &&
+    !federal.some((o) => o.districtKey.startsWith("us-house-"))
+  )
+    gaps.push(
+      `No current U.S. Representative is listed for ${st}-${houseSeat === "al" ? "AL" : houseSeat} in the congress-legislators roster — the seat may be vacant.`
+    );
   // A roster outage must not discard verified results from other chambers.
   if (!city.length && !state.length && !federal.length)
     return { ok: false, reason: failures ? "lookup-failed" : "no-match" };

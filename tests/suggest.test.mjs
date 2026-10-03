@@ -188,3 +188,21 @@ test('suggestAddresses (US scope) uses Photon nationwide and Census for complete
   assert.equal(calls.some((u) => u.includes('geosearch')), false, 'a non-NY state skips the NY-only services');
   assert.equal(new URL(calls.find((u) => u.includes('photon'))).searchParams.get('bbox'), null);
 });
+
+test('ranking: a partly typed city after house + street is a city prefix', () => {
+  const q = parseQuery('1100 Congress Ave Aus');
+  const out = rankCandidates(q, [
+    cand('1100', 'Congress Avenue', 'Aurora', '44202', 'osm', 'OH'),
+    cand('1100', 'Congress Avenue', 'Tampa', '33602', 'osm', 'FL'),
+    cand('1100', 'Congress Avenue', 'Austin', '78701', 'census', 'TX'),
+  ]);
+  assert.deepEqual(out.map((s) => s.address), ['1100 Congress Avenue, Austin, TX 78701']);
+  // multi-word city prefixes, and a trailing direction is not a city
+  const fw = rankCandidates(parseQuery('500 Main St Fort Wor'), [cand('500', 'Main Street', 'Fort Worth', '76102', 'osm', 'TX'), cand('500', 'Main Street', 'Fort Wayne', '46802', 'osm', 'IN')]);
+  assert.deepEqual(fw.map((s) => s.address), ['500 Main Street, Fort Worth, TX 76102']);
+  const dir = rankCandidates(parseQuery('100 Park Ave S'), [cand('100', 'Park Avenue South', 'New York', '10017', 'nyc')]);
+  assert.equal(dir.length, 1);
+  // a borough typed in place of the postal city still matches through the detail line
+  const bk = rankCandidates(parseQuery('100 Smith St Manh'), [{ ...cand('100', 'Smith Street', 'New York', '10001', 'nyc'), detail: 'Manhattan, NY 10001' }]);
+  assert.equal(bk.length, 1);
+});

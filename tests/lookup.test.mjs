@@ -109,6 +109,14 @@ test("a vacancy is reported as a gap, never filled", async () => {
   assert.equal(result.groups[0].officials.length, 1);
   assert.match(result.context.gaps[0], /No current member listed for State Senate district State Senate District 99 .*may be vacant/);
 });
+test("a vacant U.S. House seat is reported as a gap (e.g. TX-23), not silently dropped", async () => {
+  const d = { ...txDistrict, current: { ...txDistrict.current, congressionalDistrict: "23" } };
+  const result = await lookup({ geocode: async () => d })("test");
+  const federal = result.groups.find((g) => g.level === "federal");
+  assert.equal(federal.officials.some((o) => o.districtKey.startsWith("us-house-")), false);
+  assert.equal(federal.officials.length, 2);
+  assert.match(result.context.gaps[0], /No current U\.S\. Representative is listed for TX-23.*vacant/);
+});
 test("when TIGERweb is unavailable the fallback source is surfaced and no district change is claimed", async () => {
   const d = { ...txDistrict, current: { ...txDistrict.current, congressionalDistrict: "10", source: "census-2026-fallback" } };
   const result = await lookup({ geocode: async () => d })("test");
