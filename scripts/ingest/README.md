@@ -11,10 +11,11 @@ on final passage or on the topic generally.
 
 | Chamber | Selection | Member keys |
 | --- | --- | --- |
-| U.S. House | Latest 150 recorded votes by default, from Clerk XML and published index | New York members' bioguide IDs; district map uses congress-legislators |
-| U.S. Senate | Latest 150 recorded votes by default, from Senate menu and roll-call XML | New York senators' bioguide IDs; LIS ID map uses congress-legislators |
+| U.S. House | Latest 150 recorded votes by default, from Clerk XML and published index | Every member's bioguide ID; seat map (`{st}-{n|al}`) uses congress-legislators; the Clerk index falls back to probing roll XML |
+| U.S. Senate | Latest 150 recorded votes by default, from Senate menu and roll-call XML | Every senator's bioguide ID (`sen-{st}-{1|2}`, senior first); LIS ID map uses congress-legislators |
 | NY Senate | Capped bill-discovery sample within a hardcoded update window; not the latest 40 votes overall | District, resolved from OpenLegislation members |
 | NY Assembly | Capped sample of bills recorded as passed in 2026, with fixed validation bills included | District, mapped from official roster to LRS names |
+| Other states + D.C. | Key-gated (`OPENSTATES_API_KEY`), `npm run ingest:openstates`: up to 10 pages (200 bills) per state, 300 most recent floor votes per chamber, one file per state and chamber (`state-{st}-{chamber}.json`); only roll calls with identified voters and an official legislature source URL are kept | Open States person id (`ocd-person/{uuid}`) |
 | NYC Council | Explicitly selected matters in `SELECTED_FILES`, from June 2026 meetings | District, mapped from Legistar roster |
 
 Federal data refreshed September 26, 2026: House 150 roll calls from May 13
@@ -34,7 +35,7 @@ original source-specific normalization; review the linked original for detail.
 State/city member IDs are currently district-based. They do not establish which
 person occupied a seat across a mid-session replacement. Do not extend imports
 to earlier sessions without a dated membership mapping. Federal imports cover
-current New York members, not every historical member of Congress.
+current members of Congress, not every historical member.
 
 ## Refresh and validation
 
