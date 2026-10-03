@@ -57,7 +57,7 @@ export function VoteCard({
         <Dot />
         <span>{vote.dateLabel}</span>
         <span className="ml-auto">
-          <SourceLink href={vote.sourceUrl}>
+          <SourceLink href={vote.sourceUrl} className="relative after:absolute after:inset-x-0 after:-inset-y-3.5 after:content-['']">
             {desktop ? vote.sourceLabel : "Roll call"}
           </SourceLink>
         </span>

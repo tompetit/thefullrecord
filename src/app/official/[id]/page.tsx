@@ -63,7 +63,7 @@ export default async function OfficialPage({
         ))}
         <a
           href={official.contactUrl}
-          className="rounded-full border border-chip-border px-2.5 py-1 hover:border-card-strong"
+          className="relative rounded-full border border-chip-border px-2.5 py-1 hover:border-card-strong after:absolute after:inset-x-0 after:-inset-y-2.5 after:content-['']"
         >
           Contact ↗
         </a>
