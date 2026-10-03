@@ -17,10 +17,10 @@ export function OfficialCard({ official, address = "" }: { official: Official; a
         </span>
         <span className="flex flex-wrap items-center gap-1 font-sans text-xs text-ink-60">
           {official.role}
-          {official.party && (
+          {(official.party || official.partyLabel) && (
             <>
               {" "}
-              · <PartyChip party={official.party} />
+              · <PartyChip party={official.party ?? undefined} label={official.partyLabel} />
             </>
           )}
         </span>

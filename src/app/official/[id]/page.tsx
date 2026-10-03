@@ -47,11 +47,13 @@ export default async function OfficialPage({
             {official.name}
           </h1>
           <p className="font-sans text-[13px] text-ink-80">{roleLine}</p>
-          {(official.tenure || official.party) && (
+          {(official.tenure || official.party || official.partyLabel) && (
             <p className="flex items-center gap-1.5 font-sans text-xs text-ink-60">
               {official.tenure}
-              {official.tenure && official.party && " · "}
-              {official.party && <PartyChip party={official.party} />}
+              {official.tenure && (official.party || official.partyLabel) && " · "}
+              {(official.party || official.partyLabel) && (
+                <PartyChip party={official.party ?? undefined} label={official.partyLabel} />
+              )}
             </p>
           )}
         </div>

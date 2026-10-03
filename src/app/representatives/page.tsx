@@ -4,17 +4,42 @@ import { AppHeader } from "@/components/AppHeader";
 import { OfficialCard } from "@/components/OfficialCard";
 import { SourceLink } from "@/components/SourceLink";
 import { getDataSource } from "@/server/datasource";
+import type { LookupContext } from "@/server/types";
 
 export const metadata = { title: "Your representatives — The Full Record" };
 
 const LOOKUP_MESSAGES: Record<string, string> = {
   "no-match":
     "We couldn't match that address. Check the street number and spelling, and include the city or ZIP code.",
-  "outside-ny":
-    "That address matched, but it's outside New York — The Full Record currently covers New York representation only.",
   "lookup-failed":
     "The district lookup service didn't respond. Try again in a moment.",
 };
+
+function LookupNotes({ context }: { context: LookupContext }) {
+  const lines: string[] = [];
+  if (context.geographySource === "census-2026-fallback")
+    lines.push(
+      "We could not confirm today’s district boundaries, so these results use the districts for the November 2026 election. District boundaries may have changed, and the officials listed could differ from your current representatives."
+    );
+  lines.push(...context.gaps, ...context.notes);
+  const change = context.houseDistrictChange;
+  if (!lines.length && !change) return null;
+  return (
+    <div className="mt-4 flex max-w-2xl flex-col gap-2 rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
+      {change && (
+        <p>
+          Your district changes for the Nov 3, 2026 election: you’ll vote in the {change.ballotLabel} race (your current representative serves {change.currentLabel}).{" "}
+          <Link href={`/guide/race/${change.ballotSeat}`} className="font-semibold text-accent-deep underline">
+            See the {change.ballotLabel} race →
+          </Link>
+        </p>
+      )}
+      {lines.map((line) => (
+        <p key={line}>{line}</p>
+      ))}
+    </div>
+  );
+}
 
 export default async function RepresentativesPage({
   searchParams,
@@ -67,7 +92,8 @@ export default async function RepresentativesPage({
           {isSample && " This is an example address, not your location."}
         </p>
         <AddressLookupForm initialAddress={address} />
-        <p className="mt-4 font-sans text-xs leading-relaxed text-ink-60">Coverage includes federal and New York state legislators, plus NYC Council members where available. Local offices outside NYC are not included. Missing records do not mean an official took no action.</p>
+        <p className="mt-4 font-sans text-xs leading-relaxed text-ink-60">Coverage includes U.S. Congress and state legislators for any U.S. address, plus the NYC Council and the D.C. Council. Mayors, county offices and other local bodies are not included. Recorded votes are in our dataset for every member of Congress and for New York officials; other states’ legislators appear with their rosters, and some have selected votes (<Link href="/coverage" className="underline hover:text-ink">see coverage by place</Link>). Missing records do not mean an official took no action.</p>
+        {result.context && <LookupNotes context={result.context} />}
         <Link
           href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}
           className="mt-4 mr-3 inline-flex rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[13.5px] font-semibold text-paper"
@@ -99,8 +125,8 @@ export default async function RepresentativesPage({
       </div>
 
       <p className="mt-8 px-[26px] font-sans text-xs leading-normal text-ink-45 lg:px-10">
-        Districts resolved with the U.S. Census Geocoder and NYC Planning
-        district boundaries. {stats.provenanceLine}.{" "}
+        Districts resolved with the U.S. Census Geocoder and TIGERweb district
+        boundaries (plus NYC Planning boundaries for the NYC Council). {stats.provenanceLine}.{" "}
         <SourceLink href="https://geocoding.geo.census.gov/" className="text-xs">
           How lookup works
         </SourceLink>
