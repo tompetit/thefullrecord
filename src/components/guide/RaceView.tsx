@@ -206,7 +206,7 @@ export function RaceView({ race }: { race: GuideRace }) {
   const isMeasure = race.officeType === "ballot-measure";
   return (
     <div className="mx-auto w-full max-w-6xl px-[20px] pt-6 lg:px-10">
-      <nav className="font-sans text-[12.5px] text-ink-60">
+      <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
         <Link href="/guide" className="hover:text-ink">Guide</Link> ›{" "}
         <Link href={`/guide/state/${race.state.toLowerCase()}`} className="hover:text-ink">
           {stateName(race.state)}
