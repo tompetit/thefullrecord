@@ -76,6 +76,8 @@ party. When in doubt, omit.
 - `climate` ("Faster transition away from fossil fuels"): must address the pace of
   transition or name clean-energy policy (IRA credits, renewables mandates) or
   opposition to it. "Energy independence" / "unleash American energy" alone does not count.
+  Support for or opposition to a specific named clean-energy policy or project (e.g. a
+  named offshore wind project, wind/solar research funding, IRA credits) counts.
 - `tariffs` ("Broad tariffs on imported goods"): must address tariffs.
 - `voter_citizenship_proof` ("Require documentary proof of citizenship to register
   to vote"): supports = SAVE Act or proof-of-citizenship registration. Voter ID at the
