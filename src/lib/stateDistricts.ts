@@ -50,3 +50,11 @@ export function matchDistrictLabels(census: CensusDistrict, labels: Iterable<str
 export function isAtLarge(label: string): boolean {
   return /^(at-?large|chairman|chair)$/i.test(label.trim());
 }
+
+/**
+ * Seat suffix for a Census congressional district code (unpadded):
+ * "0" (at-large) and "98" (non-voting delegate seat) → "al"; "18" → "18".
+ */
+export function congressSeat(code: string): string {
+  return code === "0" || code === "98" ? "al" : code;
+}
