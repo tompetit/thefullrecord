@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Source_Serif_4, Public_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
 
 const sourceSerif = Source_Serif_4({
   variable: "--font-source-serif",
@@ -24,7 +26,7 @@ export const metadata: Metadata = {
   referrer: "no-referrer",
   title: "The Full Record",
   description:
-    "Explore your New York representatives’ recorded votes by issue. Read official sources, compare candidate evidence, and see the limits of our coverage.",
+    "Look up any U.S. address to explore your representatives’ recorded votes by issue, and read sourced candidate research for New York and U.S. House and Senate races. Coverage has limits; we show them.",
 };
 
 export default function RootLayout({
@@ -37,7 +39,20 @@ export default function RootLayout({
       lang="en"
       className={`${sourceSerif.variable} ${publicSans.variable} ${plexMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <a
+          href="#main-content"
+          className="sr-only z-50 rounded-md bg-ink px-4 py-3 font-sans text-sm font-semibold text-paper focus:not-sr-only focus:fixed focus:left-3 focus:top-3"
+        >
+          Skip to main content
+        </a>
+        <SiteHeader />
+        {/* Skip-link target for every page (pages render their own <main>). */}
+        <div id="main-content" tabIndex={-1} className="flex flex-1 flex-col outline-none">
+          {children}
+        </div>
+        <SiteFooter />
+      </body>
     </html>
   );
 }

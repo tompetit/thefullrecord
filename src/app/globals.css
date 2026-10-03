@@ -80,6 +80,11 @@ body {
   outline: 2px solid var(--color-accent);
   outline-offset: 4px;
 }
+/* The address combobox draws its focus ring on its bordered field box
+   (AddressInput's focus-within), so the bare input doesn't get a second one. */
+input[role="combobox"]:focus-visible { outline: none; }
+/* The skip-link target is focused programmatically; no ring around the page. */
+#main-content:focus { outline: none; }
 ::selection { background: #dcebdd; color: #211e19; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }

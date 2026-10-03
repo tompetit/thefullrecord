@@ -4,11 +4,14 @@
  * The one-off ingest scripts under scripts/ingest/ write one JSON file per
  * chamber into src/server/snapshot/. Each file holds a partial selection of
  * roll calls and the member positions resolved by that import. Federal files
- * include New York members only; state/city selections are not complete.
+ * cover every member of Congress (selected recent roll calls); state/city
+ * selections are not complete.
  *
  * Member keys: bioguide id for Congress (house.json, ussenate.json);
  * district number string for NYC Council and Albany (council.json,
- * senate-ny.json, assembly-ny.json).
+ * senate-ny.json, assembly-ny.json); Open States person id
+ * ("ocd-person/{uuid}") for other states' legislatures
+ * (state-{st}-{chamber}.json, keyBy "openstates").
  */
 
 import { readFileSync, readdirSync } from "node:fs";
@@ -37,8 +40,14 @@ export interface ChamberSnapshot {
   sourceLabel: string;
   /** Total roll calls held this session, when the source publishes it */
   sessionRollCallTotal?: number;
-  /** For Congress files: maps district ("10") or seat ("sen-1") to bioguide */
+  /** For Congress files: maps "{st}-{n|al}" (House) or "sen-{st}-{1|2}" (Senate) to bioguide */
   memberKeys?: Record<string, string>;
+  /** Open States snapshots: votes are keyed by "ocd-person/{uuid}" for this state and chamber */
+  keyBy?: "openstates";
+  /** Open States snapshots: lowercase postal code, e.g. "tx" */
+  jurisdiction?: string;
+  /** Open States snapshots: which chamber of the jurisdiction this file covers */
+  legislativeChamber?: "upper" | "lower" | "legislature";
   members?: Array<{
     key: string;
     name: string;
@@ -46,6 +55,45 @@ export interface ChamberSnapshot {
     district?: string;
   }>;
   rollCalls: SnapshotRollCall[];
+}
+
+/** Roll call as stored on disk: verbose (votes) or compact (codes). */
+type StoredRollCall = Omit<SnapshotRollCall, "votes"> & {
+  votes?: Record<string, VoteChoice>;
+  /** One char per snapshot.memberIndex entry: Y yes, N no, A absent, P present, "-" none */
+  codes?: string;
+};
+
+/** On-disk form: a ChamberSnapshot, optionally with compact votes. */
+export interface StoredSnapshot extends Omit<ChamberSnapshot, "rollCalls"> {
+  /** Compact form: member keys, indexed by each roll call's `codes` string */
+  memberIndex?: string[];
+  rollCalls: StoredRollCall[];
+}
+
+const CODE_CHOICE: Record<string, VoteChoice> = {
+  Y: "yes",
+  N: "no",
+  A: "absent",
+  P: "present",
+};
+
+/** Expand compact `codes` into the verbose `votes` map (verbose files pass through). */
+export function expandSnapshot(stored: StoredSnapshot): ChamberSnapshot {
+  const { memberIndex, rollCalls, ...rest } = stored;
+  return {
+    ...rest,
+    rollCalls: rollCalls.map(({ codes, votes, ...roll }) => {
+      if (votes || !memberIndex || codes === undefined)
+        return { ...roll, votes: votes ?? {} };
+      const expanded: Record<string, VoteChoice> = {};
+      for (let i = 0; i < memberIndex.length; i++) {
+        const choice = CODE_CHOICE[codes[i]];
+        if (choice) expanded[memberIndex[i]] = choice;
+      }
+      return { ...roll, votes: expanded };
+    }),
+  };
 }
 
 const SNAPSHOT_DIR = join(process.cwd(), "src/server/snapshot");
@@ -65,8 +113,8 @@ export function getSnapshots(): ChamberSnapshot[] {
     try {
       const parsed = JSON.parse(
         readFileSync(join(SNAPSHOT_DIR, file), "utf8")
-      ) as ChamberSnapshot;
-      if (Array.isArray(parsed.rollCalls)) snapshots.push(parsed);
+      ) as StoredSnapshot;
+      if (Array.isArray(parsed.rollCalls)) snapshots.push(expandSnapshot(parsed));
     } catch (err) {
       console.error(`[snapshot] failed to load ${file}:`, err);
     }
@@ -76,7 +124,7 @@ export function getSnapshots(): ChamberSnapshot[] {
 }
 
 /** Map an official's districtKey to their member key within a snapshot. */
-function memberKeyFor(
+export function memberKeyFor(
   snapshot: ChamberSnapshot,
   districtKey: string
 ): string | null {
@@ -86,12 +134,20 @@ function memberKeyFor(
   if (sd && snapshot.chamber === "NY SENATE") return sd[1];
   const ad = districtKey.match(/^ny-ad-(\d+)$/);
   if (ad && snapshot.chamber === "NY ASSEMBLY") return ad[1];
-  const house = districtKey.match(/^us-house-ny-(\d+)$/);
+  const house = districtKey.match(/^us-house-([a-z]{2})-(\d+|al)$/);
   if (house && snapshot.chamber === "U.S. HOUSE")
-    return snapshot.memberKeys?.[house[1]] ?? null;
-  const sen = districtKey.match(/^us-sen-ny-(\d)$/);
+    return snapshot.memberKeys?.[`${house[1]}-${house[2]}`] ?? null;
+  const sen = districtKey.match(/^us-sen-([a-z]{2})-([12])$/);
   if (sen && snapshot.chamber === "U.S. SENATE")
-    return snapshot.memberKeys?.[`sen-${sen[1]}`] ?? null;
+    return snapshot.memberKeys?.[`sen-${sen[1]}-${sen[2]}`] ?? null;
+  const state = districtKey.match(/^([a-z]{2})-(upper|lower|legislature)-([0-9a-f-]{36})$/);
+  if (
+    state &&
+    snapshot.keyBy === "openstates" &&
+    snapshot.jurisdiction === state[1] &&
+    snapshot.legislativeChamber === state[2]
+  )
+    return `ocd-person/${state[3]}`;
   return null;
 }
 

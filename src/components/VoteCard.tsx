@@ -1,9 +1,9 @@
-import Link from "next/link";
 import type { VoteRecord } from "@/server/types";
 import { AiMarker } from "./AiMarker";
 import { SourceLink } from "./SourceLink";
 import { VoteBadge } from "./VoteBadge";
 
+const sameText = (a: string, b: string) => a.trim().replace(/\s+/g, " ").toLowerCase() === b.trim().replace(/\s+/g, " ").toLowerCase();
 const Dot = () => <span className="text-[#c9c0ac]">·</span>;
 
 /**
@@ -18,14 +18,6 @@ export function VoteCard({
   vote: VoteRecord;
   desktop?: boolean;
 }) {
-  const title = vote.billId ? (
-    <Link href={`/bill/${vote.billId}`} className="hover:underline">
-      {vote.title}
-    </Link>
-  ) : (
-    vote.title
-  );
-
   return (
     <article className="flex flex-col rounded-lg border border-card bg-paper-raised px-4 pt-4 shadow-card transition-shadow hover:shadow-card-raised">
       <div className="flex items-start justify-between gap-3">
@@ -38,7 +30,7 @@ export function VoteCard({
               desktop ? "text-lg" : "text-[16.5px]"
             }`}
           >
-            {title}
+            {vote.title}
           </h3>
         </div>
         <VoteBadge vote={vote.vote} />
@@ -46,13 +38,13 @@ export function VoteCard({
 
       {vote.question && <p className="mt-3 font-sans text-xs leading-relaxed text-ink-60"><span className="font-semibold">Motion:</span> {vote.question}</p>}
 
-      {vote.aiSummary && (
+      {vote.aiSummary && !sameText(vote.aiSummary, vote.title) && (
         <>
           <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty">
             {vote.aiSummary}
           </p>
           <AiMarker
-            billTextUrl={vote.billId ? `/bill/${vote.billId}` : vote.sourceUrl}
+            billTextUrl={vote.sourceUrl}
             source={vote.summarySource ?? "ai"}
           />
         </>
@@ -65,7 +57,7 @@ export function VoteCard({
         <Dot />
         <span>{vote.dateLabel}</span>
         <span className="ml-auto">
-          <SourceLink href={vote.sourceUrl}>
+          <SourceLink href={vote.sourceUrl} className="relative after:absolute after:inset-x-0 after:-inset-y-3.5 after:content-['']">
             {desktop ? vote.sourceLabel : "Roll call"}
           </SourceLink>
         </span>
