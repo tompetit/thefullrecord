@@ -66,6 +66,8 @@ party. When in doubt, omit.
   taxpayer funding alone is NOT `opposes`. Supporting bans/limits = opposes.
   A "pro-life" self-description alone is not a position; it needs a call for legal
   restrictions/bans or a stated stance on legal access.
+  Editorial ruling: "life begins at conception" / "rights of the unborn from conception"
+  stated as a platform position = `opposes`.
 - `guns` ("Stricter gun laws"): background checks, assault-weapons ban, red-flag laws
   = supports; constitutional carry, concealed-carry reciprocity, opposing new limits
   = opposes. "Supports the Second Amendment" alone does not count.
