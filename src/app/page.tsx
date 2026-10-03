@@ -4,10 +4,6 @@ import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { ISSUE_TOPICS } from "@/lib/issues";
 
 export default function Home() {
-  const snapshots = getSnapshots();
-  const count = snapshots.reduce((n, s) => n + s.rollCalls.length, 0);
-  const dates = snapshots.flatMap((s) => s.rollCalls.map((r) => r.date)).sort();
-  const last = dates.at(-1);
   return (
     <main className="flex flex-1 flex-col">
 
@@ -39,13 +35,6 @@ export default function Home() {
           </ol>
           <Link href="/guide/key-votes" className="mt-2 inline-block text-sm font-semibold text-accent hover:underline">Read selected congressional votes <span aria-hidden>→</span></Link>
         </aside>
-      </section>
-
-      <section className="border-y border-hairline bg-canvas/60">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-5 lg:px-10">
-          <p className="text-sm text-ink-60"><strong className="font-mono text-lg font-medium text-ink">{count.toLocaleString("en-US")}</strong> roll calls in our snapshots <span className="mx-2 text-ink-35">/</span> <strong className="text-ink">{snapshots.length}</strong> legislative chambers</p>
-          <Link href="/coverage" className="text-xs font-semibold text-accent underline underline-offset-4">Selected records{last ? ` through ${new Date(`${last}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" })}` : ""} · See coverage & gaps →</Link>
-        </div>
       </section>
 
       <section className="mx-auto w-full max-w-7xl px-6 py-14 lg:px-10">
