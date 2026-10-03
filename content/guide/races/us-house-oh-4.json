@@ -11,34 +11,54 @@
   "context": [
     {
       "text": "The Cook Political Report rates the 4th District R+21, a safely Republican-leaning seat.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jim-jordan",
       "name": "Jim Jordan",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Incumbent, unopposed in the May 5, 2026 Republican primary",
       "currentRole": "U.S. Representative (since 2007)",
       "summary": {
         "text": "Jordan is the incumbent U.S. Representative for Ohio's 4th District, first elected in 2006, and chairs the House Judiciary Committee.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Troy, Ohio; earned a bachelor's degree from the University of Wisconsin (1986), a master's degree from Ohio State University (1991), and a law degree from Capital University (2001).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In June 2026 he told The National News Desk that there should be a citizenship requirement, in the context of the SAVE America Act, which would require proof of citizenship to register to vote.",
+          "quote": "We should have photo ID. We should have a citizenship requirement.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Committee on the Judiciary and serves on the Committee on Oversight and Government Reform in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -47,40 +67,63 @@
     {
       "id": "joshua-kolasinski",
       "name": "Joshua Kolasinski",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 5, 2026 Democratic primary",
       "summary": {
         "text": "Kolasinski is a business owner running as the Democratic nominee, with a platform centered on government accountability, economic opportunity for workers, and healthcare cost reform.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned an associate degree from Owens Community College and a bachelor's degree from Siena Heights University; works as a business owner.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign website calls for government accountability and transparency, including a 'Registered Voter Lobby' and a district think tank, and says full-time work 'deserves economic stability.'",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign website calls for healthcare reform, including allowing Medicare to negotiate drug prices and increasing price transparency.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign website calls for getting 'big money out of politics,' including repealing Citizens United, banning members of Congress from trading individual stocks, and supporting term limits.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
+          "issue": "war_powers",
           "stance": "supports",
-          "summary": "Campaign platform calls for allowing Medicare to negotiate drug prices and exploring public and private options to reduce healthcare costs.",
-          "quote": "Allow Medicare to negotiate drug prices. Increase price transparency so patients know costs before care.",
-          "sources": ["s3"]
+          "summary": "His campaign website says Congress must reclaim its constitutional authority over war and that he would oppose military action unless absolutely necessary.",
+          "quote": "Congress must reclaim its constitutional authority over war",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "His campaign website criticizes school voucher programs as funding for-profit schools at the cost of public education.",
+          "quote": "School voucher programs are trying to fund for-profit schools at the cost of public education for Ohio’s youth.",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -89,35 +132,49 @@
     {
       "id": "tracey-tackett",
       "name": "Tracey Tackett",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Tackett is the Assistant Mayor of Springfield, Ohio and a development manager at Glen Helen Nature Preserve, running as an independent on a platform of local empowerment and government accountability.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in organizational leadership and political science from Wittenberg University (2022) and a master's degree in public policy and leadership from Ohio State University's John Glenn College of Public Affairs (2024).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Serves as Assistant Mayor of Springfield, Ohio and as Development Manager for Glen Helen Nature Preserve; is also a small-business owner.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she is an independent who believes 'solving problems is more important than partisan fighting' and will work with anyone with a good idea.",
           "quote": "I'm an Independent who believes solving problems is more important than partisan fighting.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says decisions should empower local governments and institutions, and pledges to 'bring resources back home, support first responders, strengthen infrastructure.'",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Calls for fiscal responsibility and government transparency, and for supporting agriculture and small businesses.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -157,6 +214,22 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://thenationaldesk.com/news/americas-news-now/exclusive-rep-jim-jordan-talks-election-integrity-actblue-nfl-probes-citizenship-democratic-investigation-doj",
+      "title": "EXCLUSIVE: Rep. Jim Jordan explains why SAVE America Act will restore election integrity",
+      "publisher": "The National News Desk",
+      "kind": "news",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://joshuaforohio.com/",
+      "title": "Home | Josh Kolasinski For Congress",
+      "publisher": "Kolasinski for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -45,10 +45,25 @@
           "sources": ["s1"]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says Montana needs to make it easier to build homes and businesses and to reduce regulations, in the context of housing demand and prices.",
+          "quote": "We also need to make it easier to build homes and businesses in our state.",
+          "sources": ["s6"]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "opposes",
+          "summary": "In a March 2026 questionnaire, said he would not support measures that tie the military's hands or keep the President from acting quickly when American lives are at risk, in answer to a question on enforcing the War Powers Resolution.",
+          "quote": "I would not support anything that ties the hands of our military or prevents the President from acting quickly when American lives are at risk.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Basic-tier research from Ballotpedia; campaign website Candidate Connection survey not separately reviewed in the time available."
+      "researchNotes": "Basic-tier research from Ballotpedia; campaign website Candidate Connection survey not separately reviewed in the time available. Positions added October 2026 from the Montana Free Press March 2026 questionnaire and the candidate's campaign site."
     },
     {
       "id": "sam-forstag",
@@ -84,10 +99,60 @@
           "sources": ["s1"]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Calls for letting everyone buy into Medicare and for restoring and expanding enhanced ACA subsidies.",
+          "quote": "Restore and expand the enhanced ACA subsidies to ensure access to free health coverage for anyone making $70,000 or less and affordable healthcare for everyone.",
+          "sources": ["s7", "s5"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Calls for raising the corporate income tax rate to 35%, a 30% minimum tax rate on income over $1 million, and a 5% tax on fortunes over $1 billion.",
+          "quote": "Make corporations carry their own weight by raising the corporate income tax rate to 35%.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he would protect access to abortion by codifying Roe v. Wade.",
+          "quote": "Protect access to abortion and reproductive health by codifying Roe v. Wade",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Calls for raising the federal minimum wage to at least $15 per hour and indexing it to inflation.",
+          "quote": "Raise the federal minimum wage to at least $15 per hour and fix it permanently by tying it to the rate of inflation.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Calls for federal incentives for zoning and regulatory reform where restrictions block housing, alongside affordable-housing investment.",
+          "quote": "Incentivize zoning and regulatory reform in places where onerous and outdated zoning restrictions are standing in the way of building housing where working people need it most.",
+          "sources": ["s7"]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a March 2026 questionnaire, said Congress should act under the War Powers Resolution and Article I and vote to end the war with Iran.",
+          "quote": "Congress should do their job as outlined in the War Powers Resolution and Article I of the U.S. Constitution",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says tariffs can be a responsible tool in targeted uses, but calls recent tariff policy reckless and destructive and says tariffs should not be used to punish allies.",
+          "quote": "what we’ve seen over the past couple years has been a reckless, destructive tariff policy that’s hurt Montana farmers and ranchers",
+          "sources": ["s7"]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Basic-tier research from Ballotpedia; campaign website reviewed only via Ballotpedia's quoted excerpt."
+      "researchNotes": "Basic-tier research from Ballotpedia; campaign website reviewed only via Ballotpedia's quoted excerpt. Positions added October 2026 from the Montana Free Press March 2026 questionnaire and the candidate's campaign site."
     },
     {
       "id": "nick-sheedy",
@@ -129,6 +194,36 @@
       "title": "Nick Sheedy",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/aaron-flint/",
+      "title": "Aaron Flint — 2026 Montana Election Guide (candidate questionnaire, March 2026)",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "s5",
+      "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/sam-forstag/",
+      "title": "Sam Forstag — 2026 Montana Election Guide (candidate questionnaire, March 2026)",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "s6",
+      "url": "https://flintformontana.com/issues",
+      "title": "Issues — Aaron Flint for Montana",
+      "publisher": "Flint for Montana",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://samformontana.com/policies/",
+      "title": "Policies — Sam Forstag for Montana",
+      "publisher": "Sam for Montana",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

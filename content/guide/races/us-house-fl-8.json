@@ -11,51 +11,71 @@
   "context": [
     {
       "text": "Both party primaries were canceled after only one candidate qualified in each: incumbent Republican Mike Haridopolos and Democrat Jennifer Jenkins advance directly to the November 3, 2026 general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "mike-haridopolos",
       "name": "Mike Haridopolos",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Mike Haridopolos is the Republican incumbent seeking re-election to Florida's 8th Congressional District. He previously served in the Florida House of Representatives and Florida Senate, including as Senate President, and is a college professor by profession.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a B.A. from Stetson University in 1992, an M.A. from the University of Arkansas in 1993, and a Ph.D. from the University of Arkansas in 1999.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an author and college professor before and during his political career.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the Florida House of Representatives (2000-2003) and the Florida State Senate (2003-2012), including as Senate President.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected to the U.S. House in 2024, succeeding Bill Posey; assumed office in January 2025.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says restoring and improving water quality in the Indian River Lagoon, and supporting science-based conservation, is a priority; co-chairs the bipartisan Estuary Caucus.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "On health care, says he is focused on lowering costs through more transparency, competition, and patient choice while protecting Medicare.",
           "quote": "I am fighting to lower costs by increasing transparency, expanding competition, strengthening doctor-patient relationships, and giving Americans more choices in their care.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Cites his Greenlighting Growth Act (H.R. 3343), passed by the House, as reflecting his approach of cutting red tape for small, high-growth businesses.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "positions": [
@@ -64,26 +84,34 @@
           "stance": "supports",
           "summary": "Says he is committed to securing the border and strengthening immigration enforcement.",
           "quote": "I am committed to restoring law and order by securing the border, strengthening immigration enforcement, and ending policies that incentivize illegal immigration.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Supports extending the 2017 tax cuts, cutting taxes further, and a 15% corporate tax rate for firms that create jobs in the U.S.",
           "quote": "We can do this by extending the 2017 tax cuts and reducing taxes further especially to reshore jobs lost due to past policies. We must also reduce regulations. I’m also committed to no tax on tips, no tax on social security, no tax on overtime and a 15% corporate tax rate for firms that create jobs in the USA.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
         {
           "text": "Assigned to the Committee on Financial Services and the Committee on Science, Space, and Technology (as Chair of the Space and Aeronautics Subcommittee) for the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Cites his Greenlighting Growth Act (H.R. 3343) as having passed the U.S. House.",
           "kind": "bill",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "website": "https://www.mike4congress.com/",
@@ -93,25 +121,52 @@
     {
       "id": "jennifer-jenkins",
       "name": "Jennifer Jenkins",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "currentRole": "Former Brevard Public Schools school board member, District 3 (2020-2024)",
       "summary": {
         "text": "Jennifer Jenkins is the Democratic nominee for Florida's 8th Congressional District. She is a former Brevard Public Schools school board member who also briefly sought the 2026 U.S. Senate special election before running for this House seat.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Elected to the Brevard Public Schools school board, District 3, in 2020, defeating incumbent Tina Descovich; she did not seek re-election in 2024.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Also filed to run in the 2026 U.S. Senate special election in Florida before running for this U.S. House seat; she did not appear on the special Democratic primary ballot.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign priorities page pledges to expand Medicaid and to restore and strengthen ACA subsidies.",
+          "quote": "Expand Medicaid so Floridians aren’t forced into emergency care or medical debt. Restore and strengthen ACA subsidies to lower premiums immediately.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her campaign priorities page says she will oppose tariffs that raise the cost of everyday goods.",
+          "quote": "Oppose reckless tariffs that drive up the cost of everyday goods.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
       "researchNotes": "Jenkins has not completed Ballotpedia's 2026 Candidate Connection survey and her campaign website could not be loaded in the time available, so no sourced statements of her priorities or issue positions are included; only biographical facts and organizational endorsements (Democratic Environmental Caucus of Florida, Florida LGBTQ+ Democratic Caucus) are documented on Ballotpedia."
@@ -166,6 +221,14 @@
       "title": "Financial Services",
       "publisher": "Office of Rep. Mike Haridopolos",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://jenkinsforfl.com/priorities",
+      "title": "Priorities - Jennifer Jenkins for U.S. Congress",
+      "publisher": "Jennifer Jenkins for U.S. Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

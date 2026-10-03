@@ -11,28 +11,39 @@
   "context": [
     {
       "text": "Incumbent Shontel Brown (D) defeated Ardelia Holmes and Sean Freeman in the May 5, 2026 Democratic primary, 85.5%-7.9%-6.6%. Mike Kirchner won the Republican primary. Independent Cortney Peterson withdrew or was disqualified before the general election.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "shontel-brown",
       "name": "Shontel Brown",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
         "text": "Shontel Brown is the Democratic incumbent seeking re-election in Ohio's 11th Congressional District, which she has represented since a 2021 special election. She previously chaired the Cuyahoga County Democratic Party and served on the Cuyahoga County Council.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Cleveland, Ohio.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Owned Diversified Digital Solutions and worked as director of sales for Hotcards.com, a senior account manager with Radio One, and a marketing support representative with Telco Communications Group before her political career.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
@@ -41,24 +52,50 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Supported Ohio Issue 1 (2023), the ballot measure establishing a state constitutional right to make reproductive decisions including abortion.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a July 2026 press release she called on Republicans in Congress to work with Democrats to restore the Affordable Care Act after Ohioans lost marketplace coverage.",
+          "quote": "It is time for Republicans in Congress to work with us to restore the Affordable Care Act – the stakes are too high",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an October 2025 op-ed for Fox News she wrote that President Trump's tariff war is crushing American farmers and called for ending it.",
+          "quote": "President Donald Trump’s reckless tariff war is crushing America’s farmers",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform, the House Committee on Agriculture, and the Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party (119th Congress, 2025-2026).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Supported Ohio Issue 1 (2023) establishing a state constitutional right to abortion, which voters approved.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Opposed Ohio Issue 1 (August 2023), which would have raised the vote threshold to approve future constitutional amendments to 60%; voters rejected that measure.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -67,11 +104,15 @@
     {
       "id": "mike-kirchner",
       "name": "Mike Kirchner",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Mike Kirchner is the Republican nominee for Ohio's 11th Congressional District.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -101,6 +142,22 @@
       "title": "Shontel Brown",
       "publisher": "Wikipedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://shontelbrown.house.gov/media/press-releases/brown-blasts-catastrophic-loss-health-care-coverage-ohio",
+      "title": "Brown Blasts Catastrophic Loss of Health Care Coverage in Ohio",
+      "publisher": "Office of Rep. Shontel Brown",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.foxnews.com/opinion/farmageddon-trumps-trade-war-shutdown-crushing-heartland",
+      "title": "Farmageddon: Trump’s trade war and shutdown are crushing the heartland",
+      "publisher": "Fox News (op-ed by Rep. Shontel Brown)",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

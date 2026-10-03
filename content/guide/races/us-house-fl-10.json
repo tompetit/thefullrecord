@@ -11,70 +11,147 @@
   "context": [
     {
       "text": "This race is uncontested. No Republican candidates filed, and the Democratic primary was canceled; incumbent Maxwell Alejandro Frost won the seat outright without appearing on the November 3, 2026 ballot. Brent Lawhon (No Party Affiliation) filed as a write-in candidate but did not make the ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "maxwell-alejandro-frost",
       "name": "Maxwell Alejandro Frost",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Maxwell Alejandro Frost is the Democratic incumbent representing Florida's 10th Congressional District, first elected in 2022. Before Congress, he worked as a national organizer for gun-violence-prevention and civil-liberties groups.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Orlando, Florida in 1997; attended Valencia College.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a rideshare driver, national organizing director for March For Our Lives, national advance manager for Sen. Bernie Sanders' 2020 presidential campaign, and a national organizing specialist with the ACLU.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected to the U.S. House in 2022, succeeding Val Demings; assumed office in January 2023.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
-        { "text": "Says the administration's immigration detention system is being used to punish people rather than uphold human dignity, and has pushed for accountability over conditions in ICE facilities.", "sources": ["s3"] },
-        { "text": "Says young people should have a direct role in shaping federal climate policy and introduced the Youth Climate Leadership Act to create youth advisory councils at federal agencies.", "sources": ["s4"] },
-        { "text": "Led a bipartisan discharge petition to extend Temporary Protected Status for Haitians in the United States.", "sources": ["s5"] }
+        {
+          "text": "Says the administration's immigration detention system is being used to punish people rather than uphold human dignity, and has pushed for accountability over conditions in ICE facilities.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says young people should have a direct role in shaping federal climate policy and introduced the Youth Climate Leadership Act to create youth advisory councils at federal agencies.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Led a bipartisan discharge petition to extend Temporary Protected Status for Haitians in the United States.",
+          "sources": [
+            "s5"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Joined other House Oversight Committee Democrats in demanding answers from ICE over reported dangerous and inhumane conditions at immigration detention facilities in Florida, and led a discharge petition to extend Temporary Protected Status for Haitians rather than allow their removal.",
+          "summary": "Joined other House Oversight Committee Democrats in demanding answers from ICE over reported dangerous and inhumane conditions at immigration detention facilities in Florida, and called the detention system cruel and unnecessary.",
           "quote": "Trump's immigration detention system is as cruel as it is unnecessary, and this administration's deliberate efforts to hide the conditions inside ICE facilities in Miramar and Orlando, Florida are abhorrent.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "issue": "climate",
+          "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Re-introduced the Youth Climate Leadership Act to create youth advisory councils on climate and environmental issues within federal agencies, and said federal leadership is rolling back climate progress that must be protected.",
-          "quote": "At a time when federal leadership is rolling back climate progress, we cannot afford to leave young voices behind. We must act now to protect the progress we've made and empower the next generation to lead in building a safer, more sustainable future.",
-          "sources": ["s4"]
+          "summary": "Cosponsored H.R. 3069, the Medicare for All Act (119th Congress).",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 10600, the Abortion is Health Care Everywhere Act of 2026 (119th Congress).",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025 (119th Congress), and H.R. 18, the Bipartisan Background Checks Act of 2025.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 5427, the Billionaires Income Tax Act (119th Congress).",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress).",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Cosponsored H.Con.Res. 38 (119th Congress), a concurrent resolution directing the President under section 5(c) of the War Powers Resolution to remove U.S. Armed Forces from unauthorized hostilities in Iran.",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "record": [
         {
           "text": "Assigned to the Committee on Oversight and Government Reform (Economic Growth, Energy Policy, and Regulatory Affairs; Government Operations subcommittees) and the Committee on Science, Space, and Technology for the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Re-introduced the Youth Climate Leadership Act to establish youth advisory councils on environmental issues at the EPA, Department of the Interior, Department of Energy, Department of Agriculture, and Department of Commerce.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Led a bipartisan discharge petition, co-led with Rep. Ayanna Pressley, to extend Temporary Protected Status for Haitians, which passed the House.",
           "kind": "bill",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "researchDepth": "full",
@@ -119,6 +196,55 @@
       "publisher": "Office of Rep. Maxwell Frost",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069",
+      "title": "H.R. 3069 - Medicare for All Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10600",
+      "title": "H.R. 10600 - Abortion is Health Care Everywhere Act of 2026 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115 - Assault Weapons Ban of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18 - Bipartisan Background Checks Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5427",
+      "title": "H.R. 5427 - Billionaires Income Tax Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743 - Raise the Wage Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/38",
+      "title": "H.Con.Res. 38 - Directing the President pursuant to section 5(c) of the War Powers Resolution to remove United States Armed Forces from unauthorized hostilities in the Islamic Republic of Iran (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

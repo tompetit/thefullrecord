@@ -11,48 +11,145 @@
   "context": [
     {
       "text": "This is an open seat. Incumbent Robin Kelly (D) ran for U.S. Senate instead of seeking re-election to this seat and did not appear on the District 2 primary ballot. Donna Miller, a Cook County Board Commissioner, won the March 17, 2026 Democratic primary over ten other candidates. Mike Noack won the Republican primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Ashley Banks is running as a write-in independent candidate.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "donna-miller",
       "name": "Donna Miller",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Democratic primary",
       "currentRole": "Cook County Board of Commissioners (since 2018)",
       "summary": {
         "text": "Miller is a Cook County Board Commissioner with a career in sales and marketing, including work with Genentech, UnitedHealth Group, and the American Heart Association.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Earned a bachelor's degree in marketing from Howard University.", "sources": ["s1"] },
-        { "text": "Worked in sales training with Genentech and UnitedHealth Group, and in marketing with the American Heart Association; worked as an independent sales-training and marketing consultant for 15 years.", "sources": ["s1"] },
-        { "text": "Has served on the Cook County Board of Commissioners since 2018.", "sources": ["s1"] }
+        {
+          "text": "Earned a bachelor's degree in marketing from Howard University.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Worked in sales training with Genentech and UnitedHealth Group, and in marketing with the American Heart Association; worked as an independent sales-training and marketing consultant for 15 years.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Has served on the Cook County Board of Commissioners since 2018.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says she has \"spent her career serving the community and fighting to lower costs for working families, increase opportunity, and expand access to healthcare, particularly for women and communities of color.\"", "sources": ["s1"] },
-        { "text": "Cites family legacy in public service, saying her great-grandfather was a Pullman Porter and her grandmother, mother, and sister were all teachers.", "sources": ["s1"] },
-        { "text": "Says she is running \"to fight back against those in Washington who are trying to tear down all of the progress she's made for working families\" and to \"build a future we can all afford.\"", "sources": ["s1"] }
+        {
+          "text": "Says she has \"spent her career serving the community and fighting to lower costs for working families, increase opportunity, and expand access to healthcare, particularly for women and communities of color.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Cites family legacy in public service, saying her great-grandfather was a Pullman Porter and her grandmother, mother, and sister were all teachers.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she is running \"to fight back against those in Washington who are trying to tear down all of the progress she's made for working families\" and to \"build a future we can all afford.\"",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign priorities page says she supports a Medicare for All framework.",
+          "quote": "Health care is a human right and I support a Medicare for All framework.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign priorities page says that in Congress she will focus on codifying Roe v. Wade.",
+          "quote": "In Congress, my focus will be to codify Roe v. Wade and ensure every woman can make her own health care decisions.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign priorities page says she will fight to repeal tax breaks for billionaires.",
+          "quote": "fight to repeal tax breaks for billionaires",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her campaign priorities page says she will support rejoining the Paris Climate Agreement and cites renewable-energy investments she sponsored on the Cook County Board.",
+          "quote": "In Congress, I will support rejoining the Paris Climate Agreement",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her campaign priorities page says she will work with anyone willing to take on the gun lobby to pass new gun laws.",
+          "sources": [
+            "s2"
+          ],
+          "quote": "I will partner with anyone that is willing to take on the National Rifle Association and the gun lobby"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her campaign priorities page criticizes the effects of Republican tariffs on Illinois farmers and says she will fight for fair trade policies.",
+          "quote": "small family farms like those across Illinois are being hit the hardest by Republican tariffs",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     },
     {
       "id": "mike-noack",
       "name": "Mike Noack",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Republican primary",
       "summary": {
         "text": "Noack won the Republican primary for this open seat.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -63,21 +160,50 @@
     {
       "id": "ashley-banks",
       "name": "Ashley Banks",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Running as a write-in independent candidate",
       "summary": {
         "text": "Banks is a Chicago-area freelance journalist, photographer, and election judge running an independent write-in campaign focused on government transparency.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Graduate of Crete-Monee High School; pursuing degrees in journalism at Olive-Harvey College and international marketing at DePaul University, by her own account.", "sources": ["s1"] },
-        { "text": "Has worked as a CTA bus driver, truck driver, tutor, and Amazon warehouse employee, by her own account.", "sources": ["s1"] }
+        {
+          "text": "Graduate of Crete-Monee High School; pursuing degrees in journalism at Olive-Harvey College and international marketing at DePaul University, by her own account.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Has worked as a CTA bus driver, truck driver, tutor, and Amazon warehouse employee, by her own account.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says her experience living and working in the district gives her real experience representing it, summed up in her campaign's own phrase: \"Real Experience. Real Representation.\"", "sources": ["s1"] },
-        { "text": "Campaign focuses on \"restoring respect, value, and transparency between the people and those elected to serve them.\"", "sources": ["s1"] },
-        { "text": "Says she stands for \"efficiency, timely action, and clear plans that keep District 2 moving forward.\"", "sources": ["s1"] }
+        {
+          "text": "Says her experience living and working in the district gives her real experience representing it, summed up in her campaign's own phrase: \"Real Experience. Real Representation.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaign focuses on \"restoring respect, value, and transparency between the people and those elected to serve them.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she stands for \"efficiency, timely action, and clear plans that keep District 2 moving forward.\"",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "positions": [],
       "record": [],
@@ -92,8 +218,24 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://donnaforcongress.com/priorities",
+      "title": "Priorities — Donna Miller for Congress",
+      "publisher": "Donna Miller for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "url": "https://noack4congress.com/",
+      "title": "Mike Noack for Congress — home page",
+      "publisher": "Noack for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website, public statements, or Candidate Connection survey were found for Mike Noack beyond his name appearing on the primary and general-election ballot; his entry is marked minimal. Miller's and Banks's material comes from Ballotpedia's compiled candidate profiles (Miller's campaign website and LinkedIn; Banks's Candidate Connection survey)."
+  "researchNotes": "No campaign website, public statements, or Candidate Connection survey were found for Mike Noack beyond his name appearing on the primary and general-election ballot; his entry is marked minimal. Miller's and Banks's material comes from Ballotpedia's compiled candidate profiles (Miller's campaign website and LinkedIn; Banks's Candidate Connection survey). Later pass (Oct 2026): added issue positions from Miller's campaign priorities page and Noack's campaign site."
 }

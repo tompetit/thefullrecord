@@ -11,42 +11,93 @@
   "context": [
     {
       "text": "Incumbent Troy Balderson (R) advanced unopposed from the May 5, 2026 Republican primary. Jerrad Christian (D) defeated Daniel Crawford and Jason Reynard in the Democratic primary, 46.4%-33.6%-20.1%.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "troy-balderson",
       "name": "Troy Balderson",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2018)",
       "summary": {
         "text": "Troy Balderson is the Republican incumbent seeking re-election in Ohio's 12th Congressional District, which he has represented since a 2018 special election. He is a former co-owner of a car dealership and previously served in the Ohio Senate.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Attended Ohio State University and Muskingum College.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Co-owned Balderson Motor Sales before his political career.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "In a September 2026 statement, applauded the EPA repeal of the Biden-era \"Clean Power Plan 2.0\" power-plant emissions rule.",
+          "quote": "Shortsighted, anti-energy policies like this drive up electricity costs for Ohio families and severely weaken our grid’s ability to keep up with growing power demand.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His 2018 campaign website said he would fight alongside President Trump to deport those here illegally.",
+          "quote": "will fight alongside President Trump to deport those here illegally.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "His 2018 campaign website said Congress must repeal and replace the Affordable Care Act.",
+          "quote": "Troy Balderson believes we must repeal and replace Obamacare once and for all.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His 2018 campaign website said he voted for an Ohio ban on abortion after a fetal heartbeat is detected and would fight in Congress to ban late-term abortions and defund Planned Parenthood.",
+          "quote": "In the legislature, Troy voted to ban abortions after a fetal heartbeat is detected. In Congress, Balderson will fight to ban late-term abortions and defund Planned Parenthood.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves as vice chair of the House Energy and Commerce Committee's Subcommittee on Oversight and Investigations, and also sits on its Energy Subcommittee (119th Congress, 2025-2026).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served on the House Committee on Agriculture and the House Committee on Transportation and Infrastructure in the 117th Congress (2021-2022).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -55,24 +106,96 @@
     {
       "id": "jerrad-christian",
       "name": "Jerrad Christian",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Jerrad Christian is the Democratic nominee for Ohio's 12th Congressional District. He is a U.S. Navy veteran who has worked as a software engineer.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Ohio; served in the U.S. Navy from 2002 to 2007, working as a meteorologist and oceanographer.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Works as a software engineer.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Calls for abolishing ICE as it currently exists and replacing it with a narrowly tailored, accountable system, and says agents who break the law should be prosecuted.",
+          "quote": "Abolishing ICE as it exists and replacing it with a narrowly tailored, accountable system focused on real public safety is a serious conversation this country needs to have.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign site calls for passing universal healthcare.",
+          "quote": "Universal healthcare is a non-partisan policy in nearly every other modern country.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports raising the minimum wage, while saying the exact number and phase-in can be debated.",
+          "quote": "Raising the minimum wage is not radical.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Calls for making the wealthy and large corporations pay more, including taxing capital gains at the same rate as wages, ending indefinite borrowing against assets without taxation, and uncapping Social Security payroll taxes.",
+          "quote": "Capital gains should not be taxed at a lower rate than wages.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports scaling up wind and solar alongside domestic production and grid modernization to cut energy costs.",
+          "quote": "That includes domestic production, but it also includes scaling renewables that have no fuel cost once built.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports reforming exclusionary zoning to allow duplexes and small multifamily units.",
+          "quote": "Reform exclusionary zoning so duplexes and small multifamily units can exist in places that outlaw them.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Calls for ending U.S. funding for the Gaza war, halting offensive military aid to Israel and conditioning future assistance on compliance with international law.",
+          "quote": "We should immediately halt offensive military aid, demand a permanent ceasefire, and condition any future assistance on compliance with international law.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     }
@@ -91,6 +214,30 @@
       "title": "Jerrad Christian",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "url": "https://www.christianforohio.com/issues",
+      "title": "Issues | Jerrad Christian For Congress",
+      "publisher": "Jerrad Christian for Congress",
+      "kind": "candidate",
+      "id": "s3",
+      "date": "2026-04-23"
+    },
+    {
+      "url": "https://balderson.house.gov/news/documentsingle.aspx?DocumentID=3005",
+      "title": "Balderson Applauds EPA Announcement to Repeal Biden-Era Overreach and Unleash American Energy Dominance",
+      "publisher": "Office of Rep. Troy Balderson",
+      "kind": "official",
+      "id": "s4",
+      "date": "2026-09-15"
+    },
+    {
+      "url": "https://ballotpedia.org/Troy_Balderson#Campaign_themes",
+      "title": "Troy Balderson (campaign website text quoted by Ballotpedia, 2018 campaign)",
+      "publisher": "Ballotpedia (quoting Balderson for Congress site)",
+      "kind": "candidate",
+      "id": "s5",
+      "date": "2018-01-01"
     }
   ],
   "researchedAt": "2026-09-25",

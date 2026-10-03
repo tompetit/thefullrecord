@@ -13,75 +13,101 @@
     {
       "id": "brett-guthrie",
       "name": "Brett Guthrie",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the May 19, 2026 Republican primary.",
       "currentRole": "U.S. Representative, Kentucky's 2nd District (since 2009); Chair, House Committee on Energy and Commerce",
       "summary": {
         "text": "Brett Guthrie is the Republican incumbent for Kentucky's 2nd Congressional District, first elected in 2008. He chairs the House Committee on Energy and Commerce and previously served in the Kentucky State Senate.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in economics from the U.S. Military Academy at West Point in 1987 and a master's degree in Public and Private Management from Yale University in 1997.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served in the U.S. Army from 1987 to 1990 and the U.S. Army Reserve from 1990 to 2002.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served in the Kentucky State Senate from 1999 to 2008 before his election to Congress.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Technology: focused on improving cellular and broadband service in rural areas and \"maintaining America's technological competitive edge against the Chinese Communist Party.\"",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Health Care: as Chair of the Energy and Commerce Committee's Health Subcommittee, says he advances policies to lower costs through competition and price transparency.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Fiscal Responsibility: says he wants to get the national debt under control and has consistently supported a balanced budget amendment to the Constitution.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Says climate change is a real threat but opposes the Green New Deal and other rapid, mandated shifts away from fossil fuels, favoring an \"all-of-the-above\" energy strategy and market-based solutions instead.",
+          "summary": "Says climate change is a real and serious threat but does not support the Green New Deal, favoring an \"all-of-the-above\" energy strategy and market-based solutions.",
           "quote": "I am a member of the Conservative Climate Caucus and think that climate change is a real and serious threat. However, I do not believe that radical solutions proposed in the Democrats’ “Green New Deal” are the solution. The Green New Deal is projected to cost up to $93 trillion over ten years, at an estimated cost of over $60,000 per year per household. I believe that we need innovative and market-based solutions to combat climate change.",
-          "sources": ["s4"]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Opposes proposed changes to the stepped-up basis and capital gains tax, saying they could force families to sell farms.",
-          "quote": "I strongly oppose Democrat policies like the methane tax, or proposed changes to the current stepped-up basis and capital gains tax that could force families to sell their farms.",
-          "sources": ["s5"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "Calls Democratic proposals for government-run health care financially \"disastrous,\" grouping it with other policies he opposes as reckless spending.",
           "quote": "The Democrats’ proposed policies such as the Green New Deal, government-run health care, and other reckless spending packages would be disastrous for the financial stability of our country.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Said he voted for S. 2, the Secure America Act, which funds ICE and CBP enforcement operations through fiscal year 2029, and criticized “catch-and-release policies.”",
+          "quote": "Our nation cannot afford to return to the open borders and catch-and-release policies that caused the worst immigration crisis in our nation’s history. I was proud to vote in favor of legislation to provide funding for essential border security and immigration enforcement operations through September 2029,",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
         {
           "text": "Chairs the House Committee on Energy and Commerce (119th Congress, 2025-2026).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Chaired the Energy and Commerce Subcommittee on Health in the 118th Congress (2023-2024) before becoming full committee chair.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "website": "https://guthrie.house.gov",
@@ -91,31 +117,69 @@
     {
       "id": "megan-wingfield",
       "name": "Megan Wingfield",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19, 2026 Democratic primary with 40.7% of the vote, defeating Hank Linderman, David Hatfield and William Compton.",
       "summary": {
         "text": "Megan Wingfield is a mechanic from Bowling Green, Kentucky, running as the Democratic nominee. Her campaign describes her as \"fighting for working families, affordable healthcare, and a future where every Kentucky family has a fair shot, not just the wealthy and politically connected.\"",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Graduated from Southcentral Kentucky Community and Technical College (SKYCTC) with a degree in Automotive Technology and worked as a mechanic.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaigns on affordable healthcare and support for working families.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaigns for affordable healthcare access as a central issue.",
-          "sources": ["s2"]
+          "summary": "Platform page lists Medicare for All among her stated healthcare positions and calls for universal, affordable, accessible healthcare.",
+          "quote": "Expanding affordable housing programs and supporting Medicare for All to ease financial burdens.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Platform page says she would protect reproductive freedom and the right to choose.",
+          "quote": "Protect reproductive freedom and the right to choose.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Platform page says she is pushing for tax equity in which corporations and the ultra-wealthy pay their fair share.",
+          "quote": "Pushing for tax equity—where corporations and the ultra-wealthy pay their fair share.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Platform page lists raising the minimum wage among her economic commitments.",
+          "quote": "Raising the minimum wage and protecting gig workers and union organizing efforts.",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [],
@@ -125,11 +189,15 @@
     {
       "id": "thomas-loecken",
       "name": "Thomas Loecken",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Thomas Loecken is an independent candidate for Kentucky's 2nd Congressional District. No campaign website, public statements, or biographical profile were found for this candidate.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -172,14 +240,6 @@
       "date": "2026-09-25"
     },
     {
-      "id": "s5",
-      "url": "https://guthrie.house.gov/Issues/Issue/?IssueID=72008",
-      "title": "Agriculture",
-      "publisher": "Office of Rep. Brett Guthrie",
-      "kind": "official",
-      "date": "2026-09-25"
-    },
-    {
       "id": "s6",
       "url": "https://guthrie.house.gov/Issues/Issue/?IssueID=72006",
       "title": "Fiscal Responsibility",
@@ -202,6 +262,22 @@
       "publisher": "Office of Rep. Brett Guthrie",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.wingfieldforcongress.com/platform-values",
+      "title": "Megan Wingfield's Platform Values",
+      "publisher": "Wingfield for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://guthrie.house.gov/news/documentsingle.aspx?DocumentID=391088",
+      "title": "Guthrie Votes to Fund ICE, Border Patrol, and End Democrats' Open-Border Distraction",
+      "publisher": "Office of Rep. Brett Guthrie",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -11,39 +11,53 @@
   "context": [
     {
       "text": "Summer Lee defeated William Parker 81.2% to 18.8% in the May 19, 2026 Democratic primary. James Hayes was unopposed in the Republican primary. Lee defeated Hayes in the 2024 general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "summer-lee",
       "name": "Summer Lee",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Summer Lee is the incumbent U.S. Representative for Pennsylvania's 12th District, first elected in 2022. Before Congress she served in the Pennsylvania House of Representatives. She serves on the House Committee on Oversight and Government Reform and the Committee on Education and the Workforce, and campaigns on reproductive rights, gun-violence prevention, and affordable housing.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in North Braddock, Pennsylvania, in 1987; earned a bachelor's degree in journalism from Pennsylvania State University in 2009 and a J.D. from Howard University in 2015.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Worked as a summer intern with the NAACP Legal Defense and Educational Fund and the Office of the Attorney General of the District of Columbia.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says Congress must protect federal abortion rights, repeal the Hyde Amendment, and pass legislation such as the Women's Health Protection Act and the EACH Act.",
           "quote": "We need to protect reproductive rights at the federal level. And Congress must not only safeguard the federal right to abortion, but also repeal laws like the Hyde amendment.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says gun violence in western Pennsylvania requires both an assault-weapons ban and expanded background checks, as well as investment in underfunded communities to address the root causes of street violence.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -52,31 +66,77 @@
           "stance": "supports",
           "summary": "Supports codifying federal abortion rights, repealing the Hyde Amendment, and ending the federal criminalization of abortion; supports expanding the Supreme Court in response to its abortion rulings.",
           "quote": "The right-wing extremists on the Supreme Court have gutted our constitutional right to abortion care, and Congress must do everything in its power to protect this fundamental right.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "Supports an assault-weapons ban, expanded background checks, and ending legal protections for gun manufacturers.",
-          "quote": "We need an assault weapons ban, expanded background checks, end protections for corporate gun manufacturers and bold gun-safety legislation.",
-          "sources": ["s3"]
+          "quote": "We need an assault weapons ban, expanded background checks, end protections for corporate gun manufacturers and bold gun-safety legislation",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In February 2026 reiterated her call to abolish ICE and urged House members to vote against giving ICE additional funding.",
+          "quote": "to reiterate her call to fire Department of Homeland Security Secretary Kristi Noem and to abolish ICE",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Called for extending the ACA premium tax credits and for a Medicare for All, single-payer system.",
+          "quote": "We have so much research and data that shows a Medicare for all, single-payer system will not only allow more folks to get basic healthcare, but it’s significantly cheaper than what we have now.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In June 2026 urged colleagues to support the Lebanon War Powers Resolution (H.Con.Res.84), saying U.S. participation in Israel's operations in Lebanon was not authorized by Congress.",
+          "quote": "This participation was not authorized by Congress, and it supports strikes that are illegal under U.S. and international law.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "In a June 2026 floor speech on Lebanon, argued that U.S. weapons and logistical support to Israel's military operations should end and that tax dollars should not fund them.",
+          "quote": "This bill is urgently needed to stop using our tax dollars to fund Israeli war crimes.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [
         {
           "text": "Assigned to the Committee on Oversight and Government Reform (Federal Law Enforcement Subcommittee) and the Committee on Education and the Workforce in the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Joined Reps. Frost and Mfume in pressing the ATF director for answers on Trump administration rollbacks of gun-safety regulations, May 2026.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Elected to the Pennsylvania's 12th Congressional District in 2022 and re-elected in 2024, defeating James Hayes.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "website": "https://summerlee.house.gov",
@@ -86,32 +146,45 @@
     {
       "id": "james-hayes",
       "name": "James Hayes",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "currentRole": "Businessman and economist",
       "summary": {
         "text": "James Hayes is a businessman and economist who previously worked for the Federal Reserve Bank of Richmond. He is challenging incumbent Summer Lee for the second consecutive election, after losing to her in 2024. He campaigns on reducing regulation, school choice, and law-enforcement support.",
-        "sources": ["s1", "s4"]
+        "sources": [
+          "s1",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Lancaster, Pennsylvania. Earned a bachelor's degree from Georgetown University in 1983, a graduate degree from Princeton University in 1985, and a graduate degree from the University of Chicago in 1989.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Worked for six years at the Federal Reserve Bank of Richmond, and has worked in industry and finance as a businessman.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he supports ending overregulation that he says is costing the region jobs and causing industry to leave, and supports school choice to improve educational outcomes regardless of zip code.",
           "quote": "He will support ending the overregulation that is costing our region valuable jobs and causing industry to flee.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Lists economic growth and energy independence, border security, access to quality education, and public safety and support of law enforcement as areas of passion.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -120,21 +193,9 @@
           "stance": "supports",
           "summary": "Supports implementing school choice so that children are not \"condemned to a poor education because of their zip code.\"",
           "quote": "Children should not be condemned to a poor education because of their zip code and we must implement school choice to provide the incentives to improve outcomes across the educational spectrum.",
-          "sources": ["s4"]
-        },
-        {
-          "issue": "israel_aid",
-          "stance": "supports",
-          "summary": "Supports Israel and its right to defend itself.",
-          "quote": "He supports Israel and its right to defend itself, opposes excessive government spending and will work to restore balance, accountability and civility to our government.",
-          "sources": ["s4"]
-        },
-        {
-          "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Says he supports law enforcement and will work to ensure officers have the tools needed to keep communities safe.",
-          "quote": "James supports our law enforcement and will work to ensure they have the tools they need to keep our communities safe.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -172,6 +233,30 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2023"
+    },
+    {
+      "id": "s5",
+      "url": "https://summerlee.house.gov/newsroom/press-releases/at-ice-headquarters-and-press-conference-rep-summer-lee-reiterates-calls-to-abolish-ice-and-impeach-dhs-secretary-noem",
+      "title": "At ICE Headquarters and Press Conference, Rep. Summer Lee Reiterates Calls to Abolish ICE and Impeach DHS Secretary Noem",
+      "publisher": "Office of Rep. Summer Lee",
+      "kind": "official",
+      "date": "2026-02-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://summerlee.house.gov/newsroom/press-releases/rep-summer-lee-calls-for-immediate-extension-of-aca-tax-credits-during-shadow-hearing",
+      "title": "Rep. Summer Lee Calls for Immediate Extension of ACA Tax Credits During Shadow Hearing",
+      "publisher": "Office of Rep. Summer Lee",
+      "kind": "official",
+      "date": "2025-12-02"
+    },
+    {
+      "id": "s7",
+      "url": "https://summerlee.house.gov/newsroom/press-releases/rep-summer-lee-calls-on-congress-to-pass-lebanon-war-powers-resolution-to-end-illegal-war",
+      "title": "Rep. Summer Lee Calls on Congress to Pass Lebanon War Powers Resolution to End Illegal War",
+      "publisher": "Office of Rep. Summer Lee",
+      "kind": "official",
+      "date": "2026-06-04"
     }
   ],
   "researchedAt": "2026-09-25",

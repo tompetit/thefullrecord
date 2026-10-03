@@ -56,14 +56,6 @@
       ],
       "positions": [
         {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Describes himself as a \"steadfast champion of Pro-Life legislation\" and is a cosponsor of the Born Alive Abortion Survivors Protection Act.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Says he will \"vigorously fight on behalf of gun owners and the Second Amendment\" in Congress, citing his role in passing Missouri's Constitutional Carry law and Second Amendment Preservation Act as a state senator.",
@@ -77,6 +69,15 @@
           "summary": "As a Missouri House member, sponsored and passed HB1549 (2008) to ban sanctuary cities, penalize employers who hire undocumented workers, and end \"catch-and-release\"; the Federation for American Immigration Reform called it the strongest state anti-illegal-immigration law in the country.",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "His official site describes him as a strong supporter of school choice and charter schools, and says he backed legislation expanding virtual and charter school options.",
+          "quote": "Congressman Onder is a strong supporter of school choice, charter schools, and parents’ choice for their children’s education.",
+          "sources": [
+            "s5"
           ]
         }
       ],
@@ -181,11 +182,30 @@
           ]
         },
         {
-          "issue": "climate",
-          "stance": "supports",
-          "summary": "Calls for holding corporate polluters accountable and creating union-led jobs in clean energy and rural broadband as part of modernizing infrastructure.",
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a 2024 St. Louis Public Radio interview, said tariffs on imports would not hurt China and would be passed on to American consumers.",
+          "quote": "When we slap a tariff on something that's imported, what the corporation is going to do is turn around and just charge the American consumer enough so that they are making up their profit margins for that particular piece.",
           "sources": [
-            "s4"
+            "s6"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In a 2024 interview, said she wants more taxation responsibility placed on corporations in excess of $100 million rather than on small businesses or the middle class.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I'm talking about corporations that are in excess of $100 million, so it's not going to impact small to medium-sized business owners here domestically"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Her platform criticizes private schools receiving public money while public school teachers struggle, and calls for full and equal funding of public education.",
+          "quote": "Our system is overwhelmed by a lack of resources with private schools receiving public money while public school teachers struggle to make ends meet.",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -246,6 +266,30 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s5",
+      "url": "https://onder.house.gov/issues/education",
+      "title": "Education",
+      "publisher": "Office of Rep. Bob Onder",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.stlpr.org/podcast/politically-speaking/2024-10-31/missouri-3rd-congressional-district-candidate-mann-doesnt-support-increasing-tariffs",
+      "title": "Missouri 3rd Congressional District candidate Mann doesn't support increasing tariffs",
+      "publisher": "St. Louis Public Radio",
+      "kind": "news",
+      "date": "2024-10-31"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.bethanymannforcongress.com/platform",
+      "title": "Platform",
+      "publisher": "Bethany Mann for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

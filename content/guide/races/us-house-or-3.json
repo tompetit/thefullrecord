@@ -11,59 +11,109 @@
   "context": [
     {
       "text": "Incumbent Maxine Dexter defeated Jessica Salas and Andrew Castilleja with 89.1% in the May 19, 2026 Democratic primary. Loran Ayles ran unopposed for the Republican nomination.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "maxine-dexter",
       "name": "Maxine Dexter",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Maxine Dexter is the Democratic nominee for re-election to Oregon's 3rd Congressional District, which she has represented since 2025. She is a physician and former chair of the Oregon House Housing and Homelessness Committee.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Seattle, Washington, in 1972; earned a bachelor's degree in political science and communications and an M.D. from the University of Washington.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Practiced for over 15 years as a lung and critical-care physician at Kaiser Permanente, where she was elected chair of the Board of Directors at Northwest Permanente, the first woman to hold the role.",
-          "sources": ["s2", "s3"]
+          "sources": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Appointed to the Oregon House of Representatives in 2020 for the 33rd District, where she chaired the House Housing and Homelessness Committee and led passage of a multi-billion-dollar bill addressing housing and homelessness; also worked on abortion access, addiction treatment, public lands and gun-violence legislation before being elected to Congress in 2024.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her official issues page says she supports defunding and dismantling ICE.",
+          "quote": "Dexter supports defunding and dismantling ICE.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official issues page says she believes everyone has the right to make health care decisions about their own bodies, including access to abortion services.",
+          "quote": "She knows that access to the full spectrum of reproductive health services— from birth control to abortions—is critical to building healthy, thriving communities.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official issues page calls her a defender of Medicaid who is pushing back against efforts to cut or restrict access to it.",
+          "quote": "Congresswoman Dexter is a strong defender of Medicaid, which provides lifesaving care to children, low-income families, people with disabilities, and older Americans.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Committee on Veterans' Affairs (Subcommittee on Disability Assistance and Memorial Affairs; Subcommittee on Health) and is Ranking Member of the Natural Resources Committee's Subcommittee on Oversight and Investigations.",
           "kind": "action",
-          "sources": ["s2", "s4"]
+          "sources": [
+            "s2",
+            "s4"
+          ]
         },
         {
           "text": "As an Oregon state representative, chaired the House Housing and Homelessness Committee and sponsored legislation to address the state's housing and homelessness crisis, addiction treatment, abortion access, and gun violence.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "website": "https://dexterforcongress.com/",
+      "website": "https://maxinefororegon.com",
       "researchDepth": "basic"
     },
     {
       "id": "loran-ayles",
       "name": "Loran Ayles",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Loran Ayles is the Republican nominee for Oregon's 3rd Congressional District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -101,6 +151,27 @@
       "title": "Maxine Dexter",
       "publisher": "Wikipedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://dexter.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Maxine Dexter",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://dexter.house.gov/issues/reproductive-rights",
+      "title": "Reproductive Rights",
+      "publisher": "Office of Rep. Maxine Dexter",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://dexter.house.gov/issues/health",
+      "title": "Health",
+      "publisher": "Office of Rep. Maxine Dexter",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -76,35 +76,20 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Campaign site says he supports a $35-per-month cap on insulin costs and measures to bring down prescription drug and health care costs.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "climate",
-          "stance": "supports",
-          "summary": "Says climate change is an existential threat and that he introduced the FARM Act, which he describes as backed by both environmental and agricultural groups, to help Valley farmers address climate change.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Says he supports a pathway to citizenship for Dreamers and comprehensive immigration reform, while also calling for strong border security and enhanced technology to stop drug smuggling and trafficking.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says he stands with law enforcement and helped secure federal funding for a task force targeting methamphetamine and fentanyl trafficking and for new police officers and equipment.",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His official House page says he will fight to protect access to coverage under the Affordable Care Act and to continue to expand health insurance coverage.",
+          "quote": "I will always fight to protect that access and continue to expand health insurance coverage.",
+          "sources": [
+            "s6"
           ]
         }
       ],
@@ -175,32 +160,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Campaign site lists a \"stronger southern border\" and support for criminal prosecution under his public-safety priorities.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Campaign site calls for reducing what he describes as oppressive tax policies and no tax on Social Security, alongside drastically shrinking government spending.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Campaign site lists support for local law enforcement among his \"Safer Communities\" priorities.",
-          "sources": [
-            "s5"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "website": "https://JohnMcBrideForCongress.com",
       "researchDepth": "basic"
@@ -242,6 +202,13 @@
       "title": "Priorities",
       "publisher": "John McBride for Congress campaign website",
       "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://harder.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Josh Harder",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25"

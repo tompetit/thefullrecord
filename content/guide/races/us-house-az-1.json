@@ -79,15 +79,37 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Voted no on SB 1164 (banning abortion after 15 weeks of pregnancy), which passed the Arizona House 31-26 on 2022-03-24.",
-          "sources": ["s7"],
+          "sources": [
+            "s7"
+          ],
           "basis": "votes"
         },
         {
           "issue": "school_choice",
           "stance": "opposes",
           "summary": "Voted no on HB 2853 (expanding Arizona's Empowerment Scholarship Account voucher program to all students statewide), which passed the Arizona House 31-26 on 2022-06-22.",
-          "sources": ["s8"],
+          "sources": [
+            "s8"
+          ],
           "basis": "votes"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign website says that in Congress he will work to expand coverage, protect Medicare, and lower prescription drug prices, and lists reversing Medicaid cuts among his goals.",
+          "quote": "In Congress, Dr. Shah will work to expand coverage, protect Medicare, and lower prescription drug prices.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign website says he will work to roll back tariffs and lists ending tariffs among his goals.",
+          "quote": "In Congress, Amish will continue working to lower costs, including by rolling back reckless tariffs, so families can continue to afford to live and raise a family here.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
@@ -102,19 +124,25 @@
           "text": "Voted no on SB 1164 (banning abortion after 15 weeks of pregnancy), which passed the Arizona House 31-26 on 2022-03-24.",
           "date": "2022-03-24",
           "kind": "vote",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Voted no on HB 2853 (expanding Arizona's Empowerment Scholarship Account voucher program to all students statewide), which passed the Arizona House 31-26 on 2022-06-22.",
           "date": "2022-06-22",
           "kind": "vote",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Voted no on SB 1485 (removing voters from the Permanent Early Voting List if they do not vote by mail in two consecutive election cycles), which passed the Arizona House 31-29 on 2021-04-20.",
           "date": "2021-04-20",
           "kind": "vote",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "website": "https://www.shahforarizona.com",
@@ -158,7 +186,26 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His campaign website says he supports mass deportations of violent offenders and backing police, Border Patrol and ICE agents.",
+          "quote": "That includes supporting mass deportations of violent offenders, fully backing our police, Border Patrol and ICE agents",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "His campaign website says transgender girls should not compete in girls' sports and that he will work to codify laws ensuring fair competition in women's sports.",
+          "quote": "boys should not be competing against girls in sports.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.jayfeelyforcongress.com",
       "researchDepth": "basic"
@@ -293,6 +340,20 @@
       "publisher": "Arizona State Legislature",
       "kind": "official",
       "date": "2021-04-20"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Amish_Shah",
+      "title": "Amish Shah campaign website (via Ballotpedia, July 29, 2026)",
+      "publisher": "Ballotpedia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.jayfeelyforcongress.com/issues",
+      "title": "Jay Feely for Congress — Issues",
+      "publisher": "Jay Feely for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

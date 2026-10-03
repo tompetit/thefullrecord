@@ -74,7 +74,7 @@
           ]
         }
       ],
-      "website": "https://www.addisonmcdowell.com/",
+      "website": "https://www.mcdowellfornc.com",
       "researchDepth": "basic",
       "researchNotes": "Federal key votes and FEC totals for this sitting member of Congress are added separately. His current house.gov issues pages (economy, energy, health, education, congress, veterans) were checked but contain no text. Positions are drawn from his official House 'About' biography and his 2024 campaign website platform as quoted by Ballotpedia (his most recent statement on file; he has not updated a Ballotpedia Candidate Connection survey for 2026)."
     },
@@ -121,7 +121,35 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a WSOC-TV candidate questionnaire, said he would protect Medicaid and Medicare and lower prescription drug costs.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "It also means protecting healthcare programs like Medicaid and Medicare, lowering prescription drug costs, treating mental health like physical health, and addressing hunger as a health issue."
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says he does not support fear-based approaches to immigration but supports adding border agents, judges and E-Verify.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I do not support approaches to immigration that rely on fear, chaos, or the dehumanization of people."
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "mixed",
+          "summary": "In a WSOC-TV candidate questionnaire, said U.S. policy should ensure Israel's security while conditioning security assistance on adherence to humanitarian standards.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "Security assistance should be conditioned on adherence to humanitarian standards, ensuring U.S. support does not contribute to disproportionate harm and that humanitarian access remains non-negotiable."
+        }
+      ],
       "record": [
         {
           "text": "Serves as Mayor of High Point, North Carolina, since being elected in 2023.",
@@ -132,7 +160,7 @@
           ]
         }
       ],
-      "website": "https://cyriljefferson.com/",
+      "website": "https://www.cyrilforcongress.com",
       "researchDepth": "basic",
       "researchNotes": "Jefferson's 2025 Ballotpedia Candidate Connection survey emphasizes his biography and leadership philosophy over specific policy stances; no detailed issue-by-issue positions were found within the research budget."
     }
@@ -177,6 +205,13 @@
       "publisher": "Ballotpedia (quoting McDowell's 2024 campaign website)",
       "kind": "candidate",
       "date": "2024"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.wsoctv.com/news/local/political-beat-candidate-guide-house-representatives-district-6/WEWHKVS75RC37ELWIFPUKYJQEY/",
+      "title": "The Political Beat Candidate Guide: House of Representatives District 6",
+      "publisher": "WSOC-TV (candidate questionnaire)",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

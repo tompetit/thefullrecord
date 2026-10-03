@@ -84,17 +84,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "healthcare_public",
-          "stance": "opposes",
-          "summary": "Opposes expanding government-run health coverage, saying the Affordable Care Act restricted care and that health care decisions should stay with patients and doctors rather than the government.",
-          "quote": "It is my priority to ensure your health care remains in the hands of you and your doctor, not the government.",
-          "sources": [
-            "s4"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [
         {
           "text": "Chairs the House Appropriations Subcommittee on the Legislative Branch and serves on its Defense and Agriculture, Rural Development, Food and Drug Administration subcommittees in the 119th Congress.",
@@ -182,9 +172,28 @@
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Supports the PRO Act to strengthen workers' ability to organize for better wages, benefits, and working conditions.",
+          "summary": "Calls for raising the minimum wage, noting that it has stayed at $7.25 an hour.",
           "sources": [
             "s3"
+          ],
+          "quote": "Raise the minimum wage"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Calls current policies of blanket detention and deportation unconstitutional and supports a path to citizenship for undocumented residents.",
+          "quote": "The current policies of blanket detention and deportation are unconstitutional and un-American.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Calls for taxing the top 1% of income earners and wealth holders as the way to increase government revenue.",
+          "quote": "The most effective and fair way to increase government revenue is to tax the top 1% of income earners and wealth holders, and give working families the break we’ve earned.",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -234,6 +243,27 @@
       "title": "Tax Reform",
       "publisher": "Office of Rep. David Valadao",
       "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.villegasforcongress.com/issues/immigration-1",
+      "title": "Issues: Immigration",
+      "publisher": "Villegas for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.villegasforcongress.com/issues/jobs-the-economy",
+      "title": "Issues: Jobs & The Economy",
+      "publisher": "Villegas for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.yahoo.com/news/gop-rep-says-tariff-power-163020060.html",
+      "title": "GOP rep says tariff power ‘belongs in the Congress’",
+      "publisher": "The Hill (via Yahoo News)",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

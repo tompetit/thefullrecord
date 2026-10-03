@@ -62,14 +62,6 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says Washington's environment of high taxes, overregulation and debt has sidelined capital and hurt job creation, and that constituents want to keep more of their paychecks.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "climate",
           "stance": "opposes",
           "summary": "Says the U.S. should fully cultivate domestic oil resources by ending drilling moratoriums and increasing onshore and offshore production rather than relying on oil imports.",
@@ -155,6 +147,24 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Calls for immediately raising the federal minimum wage.",
+          "quote": "We must immediately raise the federal minimum wage",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Says Congress must exercise its constitutional war powers and that the Iran conflict lacks congressional authorization.",
+          "quote": "Congress must exercise its constitutional war powers, demand clear objectives and accountability, and pursue serious diplomacy.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -214,6 +224,14 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.wellmanformo.com/policy",
+      "title": "Fred On The Issues",
+      "publisher": "Fred Wellman for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

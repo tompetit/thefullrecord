@@ -59,7 +59,26 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "His official site says he supports stopping government subsidies for green energy and cutting regulations on oil and natural gas producers.",
+          "quote": "we need to stop government subsidies for green energy and cut the burdensome regulations placed on oil and natural gas producers.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In a November 2025 statement he welcomed Border Patrol agents releasing no illegal immigrants back into the country.",
+          "quote": "US Border Patrol agents releasing ZERO illegal aliens back into America. This is great news!!!",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://brecheen.house.gov",
       "researchDepth": "basic",
@@ -107,10 +126,55 @@
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Says he is passionate about restoring women's rights to make their own healthcare decisions.",
-          "quote": "Restoring our women’s rights. We must make sure that our women have the right to privacy in their healthcare and our able to make their own decisions about their health and bodies.",
+          "summary": "His campaign site says Roe v. Wade should be codified into federal law and that no one should face prosecution for seeking or receiving health care.",
+          "quote": "I believe Roe v. Wade should be codified into federal law to guarantee the right to privacy in healthcare decisions.",
           "sources": [
-            "s4"
+            "s8"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign site calls for a nationwide system providing affordable healthcare to every U.S. citizen, naming a Medicare for All approach among models to explore.",
+          "quote": "Develop a nationwide system that provides affordable healthcare to every U.S. citizen.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His campaign site calls for reforming the tax system so the wealthy and large corporations pay more, with a corporate rate between 21% and 28%.",
+          "quote": "Reform the tax system so the wealthy and large corporations pay their fair share.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign site says current tariff policies raise costs for everyday Americans and calls for replacing them with other policy.",
+          "quote": "Current tariff policies are increasing costs for everyday Americans.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "His campaign site calls for federal and state education funds to go to public schools rather than private institutions.",
+          "quote": "Ensure federal and state funds are directed to public schools, not diverted to private institutions.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "A 2023-era issues page (it cites fourteen years without an increase since 2009) says the minimum wage must be raised and calls for moving it to $16.00 immediately.",
+          "quote": "We must continue to demand the minimum wage be raised.",
+          "sources": [
+            "s9"
           ]
         }
       ],
@@ -179,6 +243,35 @@
       "publisher": "Office of Rep. Josh Brecheen",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "url": "https://brecheen.house.gov/Issues/Issue/?IssueID=10177",
+      "title": "Energy Dominance | Rep. Josh Brecheen",
+      "publisher": "Office of Rep. Josh Brecheen",
+      "kind": "official",
+      "id": "s6"
+    },
+    {
+      "url": "https://brecheen.house.gov/news/documentsingle.aspx?DocumentID=1520",
+      "title": "Congressman Brecheen on Securing Our Border",
+      "publisher": "Office of Rep. Josh Brecheen",
+      "kind": "official",
+      "id": "s7",
+      "date": "2025-11-10"
+    },
+    {
+      "url": "https://brandon4congress.com/policies/",
+      "title": "Policies | Brandon Wade for Congress",
+      "publisher": "Brandon Wade for Congress",
+      "kind": "candidate",
+      "id": "s8"
+    },
+    {
+      "url": "https://brandon4congress.com/ok-cd2-issues/",
+      "title": "OK CD2 Issues | Brandon Wade for Congress",
+      "publisher": "Brandon Wade for Congress",
+      "kind": "candidate",
+      "id": "s9"
     }
   ],
   "researchedAt": "2026-09-25"

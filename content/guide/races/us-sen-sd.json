@@ -51,7 +51,40 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Sponsored S. 4880, the Dismemberment Abortion Ban Act of 2026, a bill to prohibit dismemberment abortions.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Cosponsored S. 65, the Constitutional Concealed Carry Reciprocity Act of 2025, a bill to allow reciprocity for the carrying of certain concealed firearms.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Cosponsored S. 9, the Protection of Women and Girls in Sports Act of 2025, which provides that for Title IX compliance in athletics, sex is recognized based solely on reproductive biology and genetics at birth.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Cosponsored S. 128, the SAVE Act, a bill to amend the National Voter Registration Act of 1993 to require proof of U.S. citizenship to register to vote in federal elections.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "For the 2025-2026 Congress, chairs the Armed Services Subcommittee on Cybersecurity and the Banking Subcommittee on Securities, Insurance, and Investment, and also serves on the Senate Committee on Appropriations, the Committee on Indian Affairs and the Select Committee on Intelligence.",
@@ -161,6 +194,38 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2025-01-01"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.govtrack.us/congress/bills/119/s4880",
+      "title": "S. 4880: Dismemberment Abortion Ban Act of 2026",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.govtrack.us/congress/bills/119/s65",
+      "title": "S. 65: Constitutional Concealed Carry Reciprocity Act of 2025",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.govtrack.us/congress/bills/119/s9",
+      "title": "S. 9: Protection of Women and Girls in Sports Act of 2025",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.govtrack.us/congress/bills/119/s128",
+      "title": "S. 128: SAVE Act",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25"

@@ -11,33 +11,53 @@
   "context": [
     {
       "text": "Incumbent David Joyce (R) defeated Nicole Frenchko in the May 5, 2026 Republican primary. Maria Jukic (D) defeated Bill O'Neill and Carl Setzer in the Democratic primary.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "david-joyce",
       "name": "David Joyce",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2013)",
       "summary": {
         "text": "David Joyce is the Republican incumbent seeking re-election in Ohio's 14th Congressional District, which he has represented since 2013. He chairs the House Appropriations Subcommittee on Financial Services and General Government.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "In January 2026 he said he voted for a three-year extension of the ACA enhanced premium tax credits as short-term relief, while calling a clean extension not a solution to a flawed system.",
+          "quote": "I supported this legislation to make clear that Congress cannot ignore the consequences of the credits’ expiration and to force a real conversation about responsible, short-term relief paired with meaningful reforms.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Appropriations Subcommittee on Financial Services and General Government (119th Congress, 2025-2026), also sitting on the Defense subcommittee.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served as ranking member of the Appropriations Subcommittee on Interior, Environment, and Related Agencies and on the House Committee on Ethics in the 117th Congress (2021-2022).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -46,24 +66,87 @@
     {
       "id": "maria-jukic",
       "name": "Maria Jukic",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Maria Jukic is the Democratic nominee for Ohio's 14th Congressional District. She is an attorney and small-business owner.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a high school diploma from Villa Angela Academy, a bachelor's degree from the University of Notre Dame, a graduate degree from John Carroll University, and a law degree from Cleveland State University College of Law.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Works as an attorney and small-business owner.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign site supports lowering the Medicare eligibility age to 62 and says the U.S. must ultimately guarantee universal healthcare.",
+          "quote": "Maria believes the United States must ultimately join every other high-income nation in guaranteeing universal healthcare.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her campaign site says ICE must be reined in, retrained and restructured, and criticizes the administration's mass deportation campaign.",
+          "quote": "ICE must be reined in, retrained, and restructured. Enforcement must be targeted, lawful, and humane.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign site supports closing the carried interest loophole, taxing investment income at rates comparable to work, and ending corporate tax avoidance.",
+          "quote": "Maria supports closing those loopholes, cracking down on offshore tax shelters, and making sure corporations that profit from American workers and infrastructure actually pay their fair share.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her campaign site opposes the administration's tariffs as a hidden tax and says they are imposed without congressional approval.",
+          "quote": "Tariffs raise prices on goods that ordinary people buy every day, from groceries to appliances to clothing.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her campaign site supports significant federal investment in clean energy and an energy strategy that aggressively expands clean energy while managing the transition away from fossil fuels.",
+          "quote": "She supports a responsible all-of-the-above energy strategy that aggressively expands clean energy while managing the transition away from fossil fuels in a way that protects workers, keeps energy affordable, and maintains grid reliability.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Her campaign site supports raising the federal minimum wage.",
+          "quote": "Maria also supports raising the federal minimum wage",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     }
@@ -82,6 +165,22 @@
       "title": "Maria Jukic",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "url": "https://joyce.house.gov/posts/joyce-releases-statement-on-vote-to-extend-aca-advanced-premium-tax-credits",
+      "title": "Joyce Releases Statement on Vote to Extend ACA Advanced Premium Tax Credits",
+      "publisher": "Office of Rep. Dave Joyce",
+      "kind": "official",
+      "id": "s3",
+      "date": "2026-01-08"
+    },
+    {
+      "url": "https://ballotpedia.org/Maria_Jukic#Campaign_themes",
+      "title": "Maria Jukic (campaign website and survey text quoted by Ballotpedia, 2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "id": "s4",
+      "date": "2026-04-24"
     }
   ],
   "researchedAt": "2026-09-25",

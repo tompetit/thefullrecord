@@ -68,11 +68,40 @@
       ],
       "positions": [
         {
-          "issue": "guns",
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign site says he would support protecting and expanding Medicare and Medicaid and providing a public health care option available to everyone.",
+          "quote": "Providing a public health care option available for everyone.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His campaign site says he would support passage of the Women’s Health Protection Act to create a legal protection for the right to provide and access abortion.",
+          "quote": "Passage of the Women’s Health Protection Act, creating a new legal protection for the right to provide and access abortion, free from medically unnecessary restrictions and bans.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Voted yes on SB 93 (allowing concealed carry of firearms with a permit), which the Assembly concurred in 68-27 on 2011-06-21.",
-          "sources": ["s4"],
-          "basis": "votes"
+          "summary": "His campaign site criticizes quota-driven mass deportations and the planned growth of ICE, and says he would focus enforcement on violent criminals while still supporting deportation of criminals.",
+          "quote": "Focusing immigration enforcement on keeping violent criminals off of our streets, not harassing legal immigrants while executing mass, quota-driven deportations.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His campaign plan calls for a tax code in which the wealthiest individuals and corporations pay their share, and for tax reform that reverses past tax cuts for the wealthiest Americans and most profitable corporations.",
+          "quote": "We need a fair tax code that ensures everybody pays their share, including the wealthiest individuals and corporations.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
@@ -87,19 +116,25 @@
           "text": "Voted no on Assembly Bill 11, January 2011 Special Session (2011 Wisconsin Act 10, eliminating most collective bargaining for public employees), which the Assembly concurred in 53-42 on 2011-03-10.",
           "date": "2011-03-10",
           "kind": "vote",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Voted yes on SB 93 (allowing concealed carry of firearms with a permit), which the Assembly concurred in 68-27 on 2011-06-21.",
           "date": "2011-06-21",
           "kind": "vote",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Voted no on AB 7 (requiring photo identification to vote), which passed the Assembly 60-35 on 2011-05-11.",
           "date": "2011-05-11",
           "kind": "vote",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -133,7 +168,26 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "His campaign site says he backs constitutional carry and will protect the Second Amendment against attempts to weaken it.",
+          "quote": "He backs constitutional carry and our right to defend ourselves.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His campaign site describes him as pro-life from conception, praises the overturning of Roe v. Wade so states can protect the unborn, and says he opposes expanding mail-in abortion pills.",
+          "quote": "Like our Founding Fathers, Michael believes every person has an inherent right to life—from conception to natural death.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal",
       "researchNotes": "Alfonso has not completed Ballotpedia's 2026 Candidate Connection survey, and no working campaign website with policy statements was found as of the research date."
@@ -185,6 +239,41 @@
       "publisher": "Wisconsin State Legislature",
       "kind": "official",
       "date": "2011-05-11"
+    },
+    {
+      "url": "https://www.clarkforwi.com/issues/health-care-for-everyone",
+      "title": "Health Care for Everyone",
+      "publisher": "Clark for Wisconsin (campaign site)",
+      "kind": "candidate",
+      "id": "s7"
+    },
+    {
+      "url": "https://www.clarkforwi.com/issues/supporting-womens-rights-and-womens-health",
+      "title": "Supporting Women’s Rights and Women’s Health",
+      "publisher": "Clark for Wisconsin (campaign site)",
+      "kind": "candidate",
+      "id": "s8"
+    },
+    {
+      "url": "https://www.clarkforwi.com/issues/border-safety-and-immigration",
+      "title": "Border Safety and Immigration",
+      "publisher": "Clark for Wisconsin (campaign site)",
+      "kind": "candidate",
+      "id": "s9"
+    },
+    {
+      "url": "https://www.clarkforwi.com/new-north-woods",
+      "title": "The New Northwoods: Fred Clark's Plan for Prosperity",
+      "publisher": "Clark for Wisconsin (campaign site)",
+      "kind": "candidate",
+      "id": "s10"
+    },
+    {
+      "url": "https://www.alfonsoforwisconsin.com/issues/",
+      "title": "Michael Alfonso on the Issues That Matter",
+      "publisher": "Alfonso for Congress (campaign site)",
+      "kind": "candidate",
+      "id": "s11"
     }
   ],
   "researchedAt": "2026-09-25"

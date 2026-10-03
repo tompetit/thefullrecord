@@ -107,6 +107,30 @@
           "sources": [
             "s7"
           ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 4099, the Ensuring Women’s Right to Reproductive Freedom Act (119th Congress), which would prohibit interference under color of State law with interstate abortion services.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress).",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Cosponsored H.Con.Res. 68 (119th Congress), which directs the removal of U.S. Armed Forces from Venezuela that have not been authorized by Congress.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
@@ -135,7 +159,7 @@
           ]
         }
       ],
-      "website": "https://www.rosaforcongress.com",
+      "website": "https://rosadelauro.com/",
       "researchDepth": "basic"
     },
     {
@@ -154,9 +178,18 @@
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Told WNHH FM he opposes transgender students participating in female school sports and that this was a reason he decided to run.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [],
-      "website": "https://www.lanciaforcongress2026.com",
+      "website": "https://lanciaforcongress2026.org/",
       "researchDepth": "minimal"
     }
   ],
@@ -208,6 +241,35 @@
       "url": "https://delauro.house.gov/issues/energy",
       "title": "Energy",
       "publisher": "Office of Rep. Rosa DeLauro",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.newhavenindependent.org/2026/09/23/cable-guy-runs-shhh-for-congress/",
+      "title": "Cable Guy Runs (Shhh!) For Congress",
+      "publisher": "New Haven Independent",
+      "kind": "news",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4099",
+      "title": "H.R. 4099 - Ensuring Women’s Right to Reproductive Freedom Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/68",
+      "title": "H.Con.Res. 68 - Directing removal of U.S. Armed Forces from Venezuela not authorized by Congress (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743 - Raise the Wage Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
       "kind": "official"
     }
   ],

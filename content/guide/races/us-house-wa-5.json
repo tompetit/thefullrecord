@@ -11,37 +11,52 @@
   "context": [
     {
       "text": "Michael Baumgartner and Carmela Conroy advanced from the August 4, 2026 top-two primary out of a field of twelve candidates.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "michael-baumgartner",
       "name": "Michael Baumgartner",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced from the August 4 top-two primary",
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Michael Baumgartner is the incumbent Republican U.S. Representative for Washington's 5th District, elected in 2024 to succeed Cathy McMorris Rodgers. He previously served as Spokane County Treasurer and in the Washington State Senate.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in Pullman, Washington, in 1975. Earned a bachelor's degree in economics from Washington State University (1999) and a Master's of Public Administration from Harvard University (2002).",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Worked as an economic affairs officer with the U.S. State Department in Iraq and as a part-time economic adviser to the U.S. military.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served in the Washington State Senate from 2011 to 2019 and as Spokane County Treasurer from 2019 to 2025, overseeing a roughly $1.9 billion fixed-income investment fund.",
-          "sources": ["s1", "s2"]
+          "sources": [
+            "s1",
+            "s2"
+          ]
         },
         {
           "text": "As a state senator, says he played a lead role in creating a WSU medical school in Spokane, securing funding to complete the North-South Freeway, and leading a successful push to reduce the cost of college tuition.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -50,12 +65,16 @@
         {
           "text": "Sits on the House Committee on the Judiciary (Courts, Intellectual Property, AI and the Internet subcommittee; Administrative State, Regulatory Reform and Antitrust subcommittee), the Committee on Education and the Workforce, and the Committee on Foreign Affairs for the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served in the Washington State Senate representing the 6th Legislative District from 2011 to 2019.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "website": "https://baumgartner.house.gov",
@@ -65,73 +84,113 @@
     {
       "id": "carmela-conroy",
       "name": "Carmela Conroy",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the August 4 top-two primary",
       "summary": {
         "text": "Carmela Conroy is a Democratic candidate for Washington's 5th District, a former U.S. Foreign Service Officer and deputy prosecuting attorney.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Spokane, Washington. Earned a bachelor's degree from the University of Washington, a graduate degree from the U.S. Naval War College, and a law degree from the University of Washington School of Law.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes serving as a U.S. Foreign Service Officer, national security professional, and deputy prosecuting attorney.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Has been affiliated with the League of Women Voters, Friends of the Bluff, Spokane Preservation Advocates, and the American Foreign Service Association.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Calls for ending \"tariff chaos\" to lower prices for consumers and businesses and restore normal trade relations with Canada and Mexico.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Supports restoring Medicare and Medicaid funding, extending Medicaid coverage to all children up to age 19, and allowing federal health programs to negotiate lower drug prices.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Calls for a federal minimum-wage law indexed to inflation with paid time off and paid sick leave.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "On government accountability, supports prohibiting members of Congress from trading individual stocks.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "tariffs",
-          "stance": "opposes",
-          "summary": "Calls for ending current tariff policy, saying it would cut prices for consumers and businesses and restore normal trade relations with neighboring countries.",
-          "sources": ["s3"]
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a 2024 Ballotpedia Candidate Connection survey, said she would defend the right to reproductive healthcare and opposes a nationwide abortion ban.",
+          "quote": "Carmela will defend our rights and uphold our individual freedoms, including the right to reproductive healthcare.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Supports restoring Medicare and Medicaid funding to previous levels, extending Medicaid to all children under 19, and allowing federal health programs to negotiate drug prices.",
-          "sources": ["s3"]
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Calls for ending tariff policy, saying it would cut prices for consumers and businesses.",
+          "quote": "End the tariff chaos. That will cut prices for consumers and for businesses, both importers and exporters.",
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Supports an inflation-indexed federal minimum wage with paid time off and paid sick leave.",
-          "sources": ["s3"]
+          "quote": "Pass an inflation-indexed federal minimum wage law with paid time off and paid sick leave.",
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Calls for defunding border-security assets not directed to official ports of entry and defunding detention-center construction, while excepting people facing criminal charges.",
-          "sources": ["s3"]
+          "summary": "Calls for defunding detention centers and releasing people detained by DHS, except those facing criminal charges.",
+          "quote": "Defund construction and operation of detention centers as fast as humanely possible.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports restoring Medicare and Medicaid funding, extending Medicaid to all children under 19, and letting federal health programs negotiate drug prices.",
+          "quote": "Extend Medicaid coverage to all children from birth to their 19th birthdays.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://conroy4congress.com"
     }
   ],
   "sources": [
@@ -154,6 +213,13 @@
       "url": "https://ballotpedia.org/Carmela_Conroy",
       "title": "Carmela Conroy's campaign website (quoted July 22, 2026)",
       "publisher": "Ballotpedia, quoting Carmela Conroy's campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://conroy4congress.com/priorities/",
+      "title": "Priorities",
+      "publisher": "Conroy for Congress",
       "kind": "candidate"
     }
   ],

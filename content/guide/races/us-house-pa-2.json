@@ -11,46 +11,83 @@
   "context": [
     {
       "text": "Brendan Boyle advanced from the Democratic primary unopposed. Jessica Arriaga won the Republican primary unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "brendan-boyle",
       "name": "Brendan Boyle",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2015)",
       "summary": {
         "text": "Brendan Boyle is the Democratic incumbent, in the U.S. House since 2015 after six years in the Pennsylvania House of Representatives. He sits on the Ways and Means Committee and is the top Democrat (ranking member) on the House Budget Committee.",
-        "sources": ["s2", "s4"]
+        "sources": [
+          "s2",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Philadelphia in 1977; earned a bachelor's degree in government from the University of Notre Dame (1999) and a Master of Public Policy from Harvard University (2005).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a management consultant, radio broadcaster and adjunct professor before serving in the Pennsylvania House of Representatives from 2009 to 2015.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Budget Committee (as ranking member) and the Ways and Means Committee's Health and Trade subcommittees.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In May 2026 announced federal legislation to stop the Medicaid cuts in the 2025 budget law from taking effect, saying about 300,000 Pennsylvanians are projected to lose coverage.",
+          "quote": "My bill very simply would say these Medicaid cuts do not take effect in December.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a January 2025 statement opposed the 25 percent tariffs on Canada and Mexico, saying they would raise costs for families and manufacturers.",
+          "quote": "Let’s be clear: tariffs are taxes.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves as ranking member (top Democrat) of the House Committee on the Budget in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2", "s4"]
+          "sources": [
+            "s2",
+            "s4"
+          ]
         },
         {
           "text": "Serves on the Ways and Means Committee's Health and Trade subcommittees in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://boyle.house.gov",
@@ -60,32 +97,42 @@
     {
       "id": "jessica-arriaga",
       "name": "Jessica Arriaga",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19, 2026 Republican primary unopposed.",
       "summary": {
         "text": "Jessica Arriaga is a healthcare professional from North Philadelphia running as the Republican nominee. Her campaign describes more than 20 years working in operating rooms and helping families access healthcare and community resources.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born and raised in North Philadelphia.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Has worked in operating rooms as a healthcare professional for more than 20 years, and says she has helped families in her community find healthcare, resources and opportunity.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign messaging centers on rising costs, public safety and fewer opportunities for Philadelphia families, and presents herself as a political outsider not backed by \"political insiders.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "website": "https://jessforphilly.com",
+      "website": "https://jessforcongress.com",
       "researchDepth": "minimal"
     }
   ],
@@ -115,6 +162,20 @@
       "id": "s4",
       "url": "https://boyle.house.gov/about",
       "title": "About",
+      "publisher": "Office of Rep. Brendan Boyle",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://boyle.house.gov/media-center/press-releases/icymi-congressman-boyle-rep-bellmon-announce-legislation-fighting-back",
+      "title": "ICYMI: Congressman Boyle, Rep. Bellmon Announce Legislation Fighting Back Against Health Care Cuts in Pennsylvania",
+      "publisher": "Office of Rep. Brendan Boyle",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://boyle.house.gov/media-center/press-releases/boyle-statement-trump-administration-implementing-25-percent-tariffs",
+      "title": "Boyle Statement on Trump Administration Implementing 25 Percent Tariffs on Mexico and Canada Tomorrow",
       "publisher": "Office of Rep. Brendan Boyle",
       "kind": "official"
     }

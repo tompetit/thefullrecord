@@ -73,11 +73,20 @@
       ],
       "positions": [
         {
-          "issue": "guns",
+          "issue": "abortion",
           "stance": "opposes",
-          "summary": "His official Senate website lists 'protecting the Second Amendment' among the priorities that define his record in the Senate.",
+          "summary": "Risch's Senate issues page says he is strongly pro-life and has advocated legislation that protects the unborn.",
+          "quote": "I am strongly pro-life and always have been. I have consistently advocated for legislation that protects and promotes human life, including the unborn.",
           "sources": [
-            "s2"
+            "s6"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Risch's office says he introduced the Protection of Women and Girls in Sports Act and the Fair Play for Girls Act and welcomed the Supreme Court ruling upholding Idaho's law barring transgender athletes from girls' and women's sports.",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -212,13 +221,17 @@
           "text": "Voted no on H668 (banning public funds, including Medicaid and state employee insurance, from paying for gender-transition treatment), which passed the Idaho House 58-11 on March 11, 2024.",
           "date": "2024-03-11",
           "kind": "vote",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Voted no on H599 (prohibiting ballot harvesting and setting penalties for violations), which passed the Idaho House 58-11 on March 11, 2024.",
           "date": "2024-03-11",
           "kind": "vote",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -321,6 +334,20 @@
       "publisher": "Idaho House of Representatives",
       "kind": "official",
       "date": "2024-03-11"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.risch.senate.gov/about/issues/putting-families-first/",
+      "title": "Putting Families First — Sen. Jim Risch",
+      "publisher": "Office of Sen. Jim Risch",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.risch.senate.gov/news/press-releases/risch-applauds-supreme-court-ruling-upholding-idaho-womens-sports-case/",
+      "title": "Risch Applauds Supreme Court Ruling Upholding Idaho Women's Sports Case",
+      "publisher": "Office of Sen. Jim Risch",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

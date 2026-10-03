@@ -11,59 +11,117 @@
   "context": [
     {
       "text": "Madeleine Dean advanced from the Democratic primary unopposed. Aurora Stuski won the Republican primary unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "madeleine-dean",
       "name": "Madeleine Dean",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
         "text": "Madeleine Dean is the Democratic incumbent, in the U.S. House since 2019 after serving in the Pennsylvania House of Representatives from 2012 to 2018. In the 119th Congress (2025-2026), she serves on the House Appropriations and House Foreign Affairs committees.",
-        "sources": ["s9"]
+        "sources": [
+          "s9"
+        ]
       },
       "background": [
         {
           "text": "Born in Philadelphia in 1959; earned a B.A. in English language and literature from La Salle University (1981) and a J.D. from Widener University School of Law (1984).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a professor, lawyer, and columnist before serving in the Pennsylvania House of Representatives from 2012 to 2018.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "In the 118th Congress served on the Judiciary Committee (as vice chair in 2021-2022) and the Foreign Affairs Committee.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official site says reproductive healthcare is a fundamental right and that she cosponsored the Women’s Health Protection Act of 2021.",
+          "quote": "Rep. Dean unequivocally supports women and their right to make intimate medical decisions in consultation with their doctors.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official site describes her as supporting universal, affordable healthcare, defending the ACA and Medicaid expansion, and making the enhanced ACA premium subsidies permanent.",
+          "quote": "Rep. Dean supports universal, affordable high-quality healthcare.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her official site describes her work for universal background checks (H.R. 8), the Bipartisan Safer Communities Act and limits on undetectable firearms.",
+          "quote": "Rep. Dean also championed the first meaningful gun violence prevention legislation in nearly 30 years",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her official site says she supports legislation to boost investment in renewable energy and cosponsored the Climate Action Now Act and a carbon-fee bill aiming for net zero emissions by 2050.",
+          "quote": "Rep. Dean supports legislation to boost America’s investments in renewable energy, fund green infrastructure, and reengage in global agreements to combat climate change.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Reintroduced legislation to protect children from gun violence and introduced the Gun Violence Prevention Through Financial Intelligence Act with colleagues.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Reintroduced a bill with Sen. Gillibrand to empower victims of significant PFAS exposure to sue manufacturers.",
           "date": "2025-12-11",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Celebrated the first national standard to limit PFAS pollution in drinking water.",
           "date": "2024-04-10",
           "kind": "action",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Voted for the CHIPS and Science Act, which she said would lower families' costs and boost American manufacturing.",
           "date": "2022-07-28",
           "kind": "vote",
-          "sources": ["s6", "s10"]
+          "sources": [
+            "s6",
+            "s10"
+          ]
         }
       ],
       "website": "https://dean.house.gov",
@@ -73,35 +131,49 @@
     {
       "id": "aurora-stuski",
       "name": "Aurora Stuski",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19, 2026 Republican primary unopposed.",
       "summary": {
         "text": "Aurora Stuski is a West Norriton, Montgomery County business owner running as the Republican nominee. She is the founder and owner of AAS Appraisal Lab, a jewelry and collectibles appraisal business, and describes her platform around limited government, lower taxes on homeowners, and community safety.",
-        "sources": ["s7"]
+        "sources": [
+          "s7"
+        ]
       },
       "background": [
         {
           "text": "Has lived in West Norriton, Montgomery County, for more than 35 years after moving from Philadelphia in 1987.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Founder and owner of AAS Appraisal Lab, an appraisal business for jewelry, coins and collectibles in Montgomery County since 1989; is a Graduate Gemologist.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Serves as a board member of West Norriton United, a community civic organization.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign focuses on \"safe communities, a stronger economy, secure borders, and government that answers to the people again.\"",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Says she is focused on reducing the tax burden on homeowners, protecting seniors from being forced out of their homes, and preserving green space in West Norriton.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "positions": [],

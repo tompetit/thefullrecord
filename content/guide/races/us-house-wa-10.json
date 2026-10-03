@@ -11,43 +11,59 @@
   "context": [
     {
       "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Marilyn Strickland and Chris Chung advanced from the August 4, 2026 primary, defeating fellow Democrats Adam Arafat and Alex Scheel and two minor-party candidates. Strickland won the primary with 49.3% of the vote to Chung's 33.4%.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "marilyn-strickland",
       "name": "Marilyn Strickland",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
         "text": "Marilyn Strickland is the Democratic incumbent for Washington's 10th Congressional District, a former mayor of Tacoma who has represented the district since 2021 and serves on the Transportation and Infrastructure and Armed Services committees.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Seoul, South Korea, and lives in Tacoma, Washington; earned a bachelor's degree in sociology from the University of Washington and a master's degree in business administration from Clark-Atlanta University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as campaign chair of the United Way of Pierce County, as a trustee of the Tacoma Public Library and Annie Wright Schools, and as a board member of Grand Cinema.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "For the 119th Congress (2025-2026), sits on the House Committee on Transportation and Infrastructure (Subcommittee on Coast Guard and Maritime Transportation; Subcommittee on Highways and Transit) and the House Committee on Armed Services (Subcommittee on Military Personnel; Subcommittee on Readiness).",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists building an economy that works for working people, protecting access to health care, fighting pollution and protecting the environment, and supporting servicemembers, military families, and veterans as her campaign's priorities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says she has focused on lowering costs, creating jobs, and building more housing, and has led bipartisan legislation to help military families with food insecurity and affordable housing.",
           "quote": "I've fought to build more housing, fix our roads and bridges, and train students for careers in nursing, health care, teaching, and the building trades... I've led bipartisan legislation to help military families facing food insecurity and to make sure military families have access to affordable housing.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -56,21 +72,45 @@
           "stance": "supports",
           "summary": "Says she will continue to protect Medicare and oppose efforts to take health care away from Americans.",
           "quote": "I will continue to stand up to extreme attempts to take away health care from Americans, protect Medicare, and make health care more affordable.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Says she is working in Congress to boost renewable energy as part of protecting the environment.",
           "quote": "We need to do more to protect our planet for our kids and future generations. In Congress, I'm working to boost renewable energy.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a June 2024 statement she said reproductive freedom must continue to be protected and that she looks forward to codifying a woman’s right to make private medical decisions.",
+          "quote": "We must continue to protect reproductive freedom, and I look forward to codifying a woman’s right to make private medical decisions.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In an April 2025 statement she criticized the SAVE Act, which would require proof of citizenship to register, as voter suppression.",
+          "quote": "These extreme voter registration requirements and restrictions on absentee and mail-in voting are nothing more than voter suppression.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [
         {
           "text": "Led bipartisan legislation to help military families facing food insecurity and to expand access to affordable housing for military families.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://stricklandforwashington.com",
@@ -80,24 +120,34 @@
     {
       "id": "chris-chung",
       "name": "Chris Chung",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Chris Chung is the Republican nominee for Washington's 10th Congressional District, a pharmacist from Lakewood, Washington, who previously ran for Washington Insurance Commissioner as a Democrat in 2024.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Lives in Lakewood, Washington; earned a graduate degree in pharmacy from St. John's University.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Career experience includes working as a pharmacist.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Ran for Washington Commissioner of Insurance in 2024 as a Democrat, placing sixth in the primary with 2.9% of the vote.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -140,6 +190,20 @@
       "url": "https://strickland.house.gov/committees",
       "title": "Committees and Caucuses",
       "publisher": "Office of Rep. Marilyn Strickland, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://strickland.house.gov/2024/06/13/strickland-statement-on-supreme-court-abortion-pill-decision/",
+      "title": "Strickland Statement on Supreme Court Abortion Pill Decision",
+      "publisher": "Rep. Marilyn Strickland (official site)",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://strickland.house.gov/2025/04/10/new-dem-whip-marilyn-strickland-on-save-act-disenfranchising-tens-of-millions-of-american-citizens/",
+      "title": "New Dem Whip Marilyn Strickland on SAVE Act",
+      "publisher": "Rep. Marilyn Strickland (official site)",
       "kind": "official"
     }
   ],

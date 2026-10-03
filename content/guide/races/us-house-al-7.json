@@ -65,10 +65,59 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says she strongly supports the Affordable Care Act, citing its protections against denial of coverage for pre-existing conditions and caps on out-of-pocket costs.",
+          "summary": "Her House website health-care page says she strongly supports the Affordable Care Act, citing its protections for people with pre-existing conditions and caps on out-of-pocket costs.",
           "quote": "That is why I strongly support President Obama’s health care plan and the health care reform signed in to law last March.",
           "sources": [
             "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 18, the Bipartisan Background Checks Act of 2025, which requires background checks for firearm transfers between private parties, and H.R. 3115, the Assault Weapons Ban of 2025.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025, a bill to raise the federal minimum wage.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 12, the Women's Health Protection Act of 2025, which prohibits governmental restrictions on the provision of, and access to, abortion services.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Cosponsored H.Con.Res. 40, which directs the President to remove U.S. Armed Forces from hostilities with Iran unless Congress has authorized them by a declaration of war or authorization for use of military force.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 7392, a bill to impose a hiring freeze on U.S. Immigration and Customs Enforcement.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 407, the Prevent Tariff Abuse Act, which prohibits the President from using International Emergency Economic Powers Act authorities to impose tariffs or import quotas.",
+          "sources": [
+            "s14"
           ]
         }
       ],
@@ -199,6 +248,55 @@
       "title": "Voting Rights",
       "publisher": "Office of Rep. Terri Sewell",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18 — Bipartisan Background Checks Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115 — Assault Weapons Ban of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743 — Raise the Wage Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/12",
+      "title": "H.R. 12 — Women's Health Protection Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/40",
+      "title": "H.Con.Res. 40 — Directing the President to remove U.S. Armed Forces from hostilities with Iran",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7392",
+      "title": "H.R. 7392 — To impose a hiring freeze on U.S. Immigration and Customs Enforcement",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/407",
+      "title": "H.R. 407 — Prevent Tariff Abuse Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25"

@@ -84,6 +84,26 @@ function matchLegislator(candidateName, state, pool = legislators) {
   return hits.length === 1 ? hits[0] : null;
 }
 
+/**
+ * Fallback for sitting members whose listed name differs from the roster's
+ * ("Lou Correa" vs "J. Luis Correa", "Nicholas J. LaLota" vs "Nick LaLota"):
+ * an incumbent in a House race is the member who holds that district now, and
+ * an incumbent senator is one of the state's two senators — confirmed by last name.
+ */
+function matchIncumbentBySeat(candidate, race) {
+  if (!candidate.incumbent) return null;
+  const last = nameParts(candidate.name).last;
+  const district = race.district === "AL" || !race.district ? 0 : Number(race.district);
+  const hits = legislators.filter((l) => {
+    const t = l.terms[l.terms.length - 1];
+    if (t.state !== race.state) return false;
+    if (race.officeType === "us-house" && (t.type !== "rep" || (t.district ?? 0) !== district)) return false;
+    if (race.officeType === "us-senate" && t.type !== "sen") return false;
+    return norm(l.name.last).split(" ").includes(last);
+  });
+  return hits.length === 1 ? hits[0] : null;
+}
+
 // ---------- key votes → positions per member
 const keyVotes = JSON.parse(readFileSync(join(GUIDE, "key-votes.json"), "utf8")).votes;
 const positions = {}; // voteId -> { memberId -> vote }
@@ -166,7 +186,9 @@ for (const race of races) {
   for (const c of race.candidates) {
     const key = `${race.id}/${c.id}`;
     const federalOrStatewide = ["us-house", "us-senate", "governor", "attorney-general", "comptroller"].includes(race.officeType);
-    const current = federalOrStatewide ? matchLegislator(c.name, race.state) : null;
+    const current = federalOrStatewide
+      ? matchLegislator(c.name, race.state) ?? (["us-house", "us-senate"].includes(race.officeType) ? matchIncumbentBySeat(c, race) : null)
+      : null;
     const leg = current ?? (federalOrStatewide ? matchLegislator(c.name, race.state, historical) : null);
     if (leg) {
       const kvs = [];

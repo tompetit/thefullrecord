@@ -76,6 +76,33 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign site says people who enter the country illegally should be returned to their home countries and calls for restoring enforcement.",
+          "quote": "ensure that those who enter the country illegally are returned to their home countries",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Supports the SAVE Act, which requires proof of U.S. citizenship to register for federal elections.",
+          "quote": "I also support the Safeguard American Voter Eligibility (SAVE) Act, which requires proof of U.S. citizenship to register for federal elections",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he will oppose any attempt by Washington to erode the right to keep and bear arms.",
+          "quote": "In Congress, I will oppose any attempt by Washington to erode this fundamental freedom",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [
@@ -240,32 +267,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Describes himself as \"pro life\" in his survey response.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says he is passionate about protecting constitutional rights, especially the first and second amendments.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
-          "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Says he supports law enforcement, the military and veterans.",
-          "sources": [
-            "s6"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     },
@@ -326,15 +328,6 @@
       ],
       "positions": [
         {
-          "issue": "abortion",
-          "stance": "supports",
-          "summary": "Says decisions about women's healthcare should be made between a woman and her medical professionals.",
-          "quote": "Women's healthcare should be a matter of decision-making between a woman and her medical professionals.",
-          "sources": [
-            "s7"
-          ]
-        },
-        {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says healthcare should be viewed as a human right and opposes Medicaid cuts that threaten rural hospitals in the district.",
@@ -343,9 +336,9 @@
           ]
         },
         {
-          "issue": "tax_wealthy",
-          "stance": "supports",
-          "summary": "Says working people are \"starved financially and paid sparsely while repeated tax cuts favor only the most wealthy.\"",
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Calls for reforming immigration laws and returning to an immigration and naturalization service rather than ICE enforcement in communities.",
           "sources": [
             "s7"
           ]
@@ -369,7 +362,17 @@
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Pledges to protect Medicaid, Medicare and Social Security, and says she would protect Medicaid so no one loses care over paperwork.",
+          "quote": "I will protect Medicaid, Medicare and Social Security.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     },
@@ -457,6 +460,22 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://michaelechols.com/issues",
+      "title": "Michael Echols for Congress — Issues",
+      "publisher": "Echols for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Pat_Moore_(Louisiana)",
+      "title": "Pat Moore — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

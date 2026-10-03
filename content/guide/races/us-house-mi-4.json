@@ -11,51 +11,71 @@
   "context": [
     {
       "text": "Cook Political Report rated Michigan's 4th District R+3 for the 2026 cycle. Donald Trump won the district 52.0%–46.5% in 2024.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Incumbent Bill Huizenga defeated Philip Tanis in the August 4, 2026 Republican primary. Sean McCann defeated Diop Harris II in the Democratic primary.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "bill-huizenga",
       "name": "Bill Huizenga",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the August 4, 2026 Republican primary",
       "currentRole": "U.S. Representative, Michigan's 4th District (since 2023); in the U.S. House since 2011",
       "summary": {
         "text": "Huizenga is the incumbent U.S. Representative, first elected to the U.S. House in 2010 to represent Michigan's then-2nd District and representing the current 4th District since redistricting took effect in 2023. He chairs the House Committee on Foreign Affairs and previously worked as director of public policy for then-Rep. Pete Hoekstra.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Zeeland, Michigan; graduated Holland Christian High School (1987) and earned a B.A. from Calvin College (1991).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as Director of Public Policy for then-U.S. Rep. Pete Hoekstra (R) from 1997 to 2003.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Co-owned Huizenga Gravel Inc., a gravel business in Jenison, Michigan, before being elected to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he has focused on fiscal discipline and lower costs for energy, groceries, and housing in response to inflation.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Supports expanding American energy production, saying it will lower utility bills and strengthen the economy.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "As a member of the House Financial Services Committee, has worked to remove regulations he says burden small businesses' access to capital.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -64,19 +84,25 @@
           "stance": "opposes",
           "summary": "A member of the Pro-Life Caucus, has worked to prevent taxpayer funding of abortion, supported legislation such as the Born-Alive Abortion Survivors Protection Act, and opposes late-term abortions.",
           "quote": "As a member of the bipartisan pro-life caucus, Congressman Huizenga has remained steadfast in his defense of the unborn by working to prevent taxpayer dollars from being used to fund abortions; promote quality care centers over abortion facilities; and advocate against gruesome, late-term abortions.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
         {
           "text": "In the 119th Congress (2025–2026), serves on the House Committee on Financial Services and chairs the House Committee on Foreign Affairs.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Introduced the Deport the Terrorists Act, which would allow the federal government to strip citizenship from, and deport, naturalized U.S. citizens convicted of financing, materially supporting, or committing acts of terrorism.",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "website": "https://huizenga.house.gov",
@@ -86,31 +112,78 @@
     {
       "id": "sean-mccann",
       "name": "Sean McCann",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 4, 2026 Democratic primary",
       "currentRole": "Michigan State Senator, District 20 (Kalamazoo area)",
       "summary": {
         "text": "McCann is a Michigan state senator representing the Kalamazoo area, running as the Democratic nominee against incumbent Bill Huizenga.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a B.A. in political science from Western Michigan University (1993).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served as executive director of Kalamazoo Friends of Recreation, director of financial development for the American Red Cross, and executive director of the Vine Neighborhood Association.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he voted in the Michigan Senate to repeal the state's 1931 abortion ban and that abortion decisions belong to families and doctors.",
+          "quote": "In the Michigan Senate, I was proud to vote to repeal the 1931 abortion ban, ensuring these often difficult decisions are made by families and doctors, not politicians.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists extending the Affordable Care Act tax credits among his health care goals and cites his Michigan Senate vote to expand Medicaid.",
+          "quote": "Extend the ACA tax credits and reduce the cost of health care.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says the Trump administration's tariff policy is raising costs for farmers and rural Michigan.",
+          "quote": "Farmers and rural Michigan are bearing the brunt of the Trump administration’s tariff policy.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Backs solar, wind and nuclear energy in Michigan and criticizes keeping aging coal plants open.",
+          "quote": "Solar, wind, and nuclear energy here in Michigan will help us support US energy independence, reduce pollution, and create good-paying jobs in our community.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "In the Michigan Senate's 2025–2026 session, serves as Majority Vice Chair of the Senate Appropriations Committee and chairs the Energy and Environment Committee; also sits on the Finance and Transportation and Infrastructure committees.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -119,9 +192,16 @@
     {
       "id": "shafina-barnett",
       "name": "Shafina Barnett",
-      "parties": ["G"],
+      "parties": [
+        "G"
+      ],
       "incumbent": false,
-      "summary": { "text": "Barnett is the Green Party nominee for Michigan's 4th District.", "sources": ["s1"] },
+      "summary": {
+        "text": "Barnett is the Green Party nominee for Michigan's 4th District.",
+        "sources": [
+          "s1"
+        ]
+      },
       "background": [],
       "priorities": [],
       "positions": [],
@@ -173,6 +253,13 @@
       "publisher": "Office of Rep. Bill Huizenga",
       "kind": "candidate",
       "date": "2026-06-02"
+    },
+    {
+      "id": "s7",
+      "url": "https://seanmccannforcongress.com/issues/",
+      "title": "Issues",
+      "publisher": "Sean McCann for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -11,80 +11,97 @@
   "context": [
     {
       "text": "Incumbent Darin LaHood ran essentially unopposed, winning the March 17, 2026 Republican primary with 99.8% (write-in votes made up the remainder). Paul Nolley won the Democratic primary unopposed with 100% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "darin-lahood",
       "name": "Darin LaHood",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the March 17, 2026 Republican primary with 99.8% of the vote",
       "currentRole": "U.S. Representative (since 2015)",
       "summary": {
         "text": "Darin LaHood is the Republican U.S. Representative for Illinois's 16th District, first elected in 2015. He is a former federal and state prosecutor and previously served in the Illinois State Senate.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from Loras College and a law degree from the University of Illinois-Chicago, John Marshall Law School.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Career experience includes working as an attorney in private practice, an assistant state's attorney, a chief terrorism prosecutor, an Assistant United States Attorney, and a state and federal prosecutor.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Our state and our nation needs a jobs revival, but the employment landscape won't change if crippling policies do not. I believe it is the government's responsibility to create an atmosphere where businesses can thrive. To get there, we need to cut overreaching regulations, eliminate burdensome mandates, and reform and simplify the tax code by closing loopholes and cutting rates.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "In Central Illinois, our farmers work tirelessly to provide for our families in Illinois as well as our country and nations abroad. To fully support the agriculture community, we must maintain effective programs that allow our farmers to remain globally competitive, we must reduce regulations, and we must expand opportunities for trade.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Trade is of paramount importance to the economy of the 16th Congressional district. In order to continue to facilitate trade that benefits American workers, I believe it is essential to strengthen dialogue with our trade partners, to have clear agreements, and enforceable free and fair trade laws.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says the U.S. must secure the southern border and enforce immigration laws.",
-          "quote": "However, the American rule of law must be respected, especially among those who hope to live here. We need to secure our southern border and enforce our immigration laws.",
-          "sources": ["s3"]
-        },
         {
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Describes himself as pro-life and says he will continue to advocate in Congress for protecting life and the rights of the unborn from conception.",
           "quote": "I firmly believe that we must stand up and protect the sanctity of life from the moment of conception on. I will continue to serve as a proud and active advocate in Congress for protecting life and preserving the rights of the unborn.",
-          "sources": ["s4"]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says he strongly supports the Second Amendment and will work to defend hunters, sportsmen, and firearm owners.",
-          "quote": "I strongly support the Second Amendment and in Congress I will fight to defend the hunters, sportsmen, and firearm owners of Central and West Central Illinois.",
-          "sources": ["s5"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
-          "summary": "Says his priority is to repeal components of the Affordable Care Act and move toward a patient-centered, market-based healthcare system rather than expanded government coverage.",
+          "summary": "Says his priority is to repeal components of the Affordable Care Act and work toward a patient-centered health care system.",
           "quote": "In Congress, my priority is to repeal the damaging components of Obamacare and work towards a patient—centered efficient and effective health care system.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says tariffs are taxes on farmers and manufacturers and that he does not support blanket tariffs, while supporting strategic tariffs against China.",
+          "quote": "Ultimately, tariffs are taxes - they are a tax on our farmers and manufacturers and impact consumer prices. However, tariffs can also be used strategically as a tool, not a strategy, to hold our adversaries and others accountable for unfair trade practices.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party; the Committee on Ways and Means (chairs the Work and Welfare subcommittee); and the Permanent Select Committee on Intelligence (vice chair, Central Intelligence Agency subcommittee; chair, National Security Agency and Cyber subcommittee).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "full",
@@ -93,25 +110,43 @@
     {
       "id": "paul-nolley",
       "name": "Paul Nolley",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Democratic primary unopposed",
       "summary": {
         "text": "Paul Nolley is the Democratic nominee for Illinois's 16th Congressional District. He is the executive director at Project First Rate.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Rockford, Illinois; attended Illinois State University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Career experience as executive director at Project First Rate.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports a national health insurance program, a Medicare buy-in for people 50 and older, and restoring cuts to Medicaid and the Affordable Care Act.",
+          "quote": "The next step is to allow people who are 50 and above to buy into Medicare to make sure that people at the kind of last stage of their career, when they have more health concerns, are able to buy into that",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     }
@@ -179,6 +214,22 @@
       "title": "Trade",
       "publisher": "Office of Rep. Darin LaHood",
       "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.shawlocal.com/news/election/2026/09/25/2026-election-questionnaire-darin-lahood-us-house-of-representatives-16th-district/",
+      "title": "2026 Election Questionnaire: Darin LaHood, U.S. House of Representatives, 16th District",
+      "publisher": "Shaw Local",
+      "kind": "news",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.wglt.org/local-news/2026-10-01/congressional-candidates-address-inflation-and-the-rising-cost-of-living",
+      "title": "Congressional candidates address inflation and the rising cost of living",
+      "publisher": "WGLT",
+      "kind": "news",
+      "date": "2026-10-01"
     }
   ],
   "researchedAt": "2026-09-25",

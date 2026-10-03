@@ -11,51 +11,71 @@
   "context": [
     {
       "text": "Both candidates ran unopposed in their March 17, 2026 primaries: Mike Bost won the Republican primary with 100% (81,400 votes) and Julie Fortier won the Democratic primary with 100% (26,791 votes).",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "mike-bost",
       "name": "Mike Bost",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the March 17, 2026 Republican primary unopposed",
       "currentRole": "U.S. Representative (since 2015)",
       "summary": {
         "text": "Mike Bost is the Republican U.S. Representative for Illinois's 12th District, first elected in 2014. He previously served six terms in the Illinois House of Representatives (1995-2014) and worked in his family's trucking business.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born and raised in Murphysboro, Illinois; graduated Murphysboro High School in 1979.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served in the U.S. Marine Corps from 1979 to 1982 as an electronic specialist and radar repairman, receiving an honorable discharge as a Corporal E-4.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served on the Jackson County Board (1984-1988) and as Treasurer of Murphysboro Township (1989-1992).",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served six terms in the Illinois House of Representatives, District 115, from 1995 to 2014.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says his plan for health care is to continue supporting the repeal of the Affordable Care Act and replace it with fiscally responsible, patient-centered reforms.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says he is committed to maintaining the farm safety net established by the 2018 Farm Bill and reducing regulatory burdens on agriculture.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says Washington must stop spending money it doesn't have and focus on creating opportunities for job growth.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -64,28 +84,36 @@
           "stance": "opposes",
           "summary": "Says he strongly supported the U.S. Supreme Court's decision overturning Roe v. Wade and has voted against what he calls the \"pro-abortion agenda,\" and supports defunding Planned Parenthood.",
           "quote": "I strongly supported the U.S. Supreme Court’s decision to overturn Roe v. Wade and restore the American people’s power to determine for themselves how abortion services are regulated in their state.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "Says he will continue to support repealing the Affordable Care Act and has voted to repeal it and eliminate its individual and employer mandates.",
           "quote": "This is why I will continue to support policies to repeal Obamacare and replace it with fiscally-responsible patient-centric reforms that help reduce costs without sacrificing access to care.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Opposes limiting fossil-fuel and coal use, saying he will push for an \"all-of-the-above\" energy policy against those who oppose any use of fossil fuels.",
+          "summary": "Says he will push an all-of-the-above energy policy, highlights coal, and criticizes those opposed to any use of fossil fuels.",
           "quote": "Unfortunately, despite the successes and benefits of these new technologies, there remain those opposed to any use of fossil fuels. A particular target has been coal.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the Committee on Agriculture (General Farm Commodities, Risk Management and Credit) and the House Committee on Veterans' Affairs, and the Committee on Transportation and Infrastructure (Highways and Transit; Railroads, Pipelines).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -94,21 +122,55 @@
     {
       "id": "julie-fortier",
       "name": "Julie Fortier",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Democratic primary unopposed",
       "summary": {
         "text": "Julie Fortier is the Democratic nominee for Illinois's 12th Congressional District. She is a U.S. Air Force veteran.",
-        "sources": ["s7"]
+        "sources": [
+          "s7"
+        ]
       },
       "background": [
         {
           "text": "Served in the U.S. Air Force.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign site says the country must move toward a universal care option.",
+          "quote": "our country must move towards a universal care option",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign site says she supports codifying Roe v. Wade into federal law.",
+          "quote": "I support codifying Roe v. Wade into federal law to restore medical privacy and ensure access to safe, legal reproductive services nationwide.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign site lists fighting policies like tariffs among her agriculture priorities, saying they disrupt the market and raise costs.",
+          "quote": "fighting against policies like tariffs and forever wars that disrupt the market and spike costs for necessary items like fertilizer",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     }
@@ -162,6 +224,14 @@
       "title": "Julie Fortier",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.juliefortier.org/issues",
+      "title": "Julie Fortier Issues Platform for IL-12 Voters",
+      "publisher": "Julie Fortier for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

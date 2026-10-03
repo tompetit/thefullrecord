@@ -11,38 +11,52 @@
   "context": [
     {
       "text": "California uses a top-two nonpartisan primary. Incumbent Norma Torres (D) and Mike Cargile (R) were the only two candidates to advance to the November general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "norma-torres",
       "name": "Norma Torres",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative for California's 35th District (since 2015)",
       "summary": {
         "text": "Norma Torres is the incumbent U.S. Representative for California's 35th District. She previously served in both houses of the California state Legislature and as mayor of Pomona.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Immigrated to the United States from Guatemala and worked as a 911 dispatcher with the Los Angeles Police Department for 17 years.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the Pomona, California City Council from 2000 to 2006 and as mayor of Pomona from 2006 to 2008.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the California state Legislature from 2008 to 2014, first in the state Assembly and then in the state Senate, before her election to Congress in 2014.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says her priorities include promoting energy efficiency and renewable energy sources, increasing investments in water infrastructure, and expanding water recycling and desalination technology.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
@@ -51,28 +65,60 @@
           "stance": "supports",
           "summary": "Says she has consistently supported funding for California's public health care system, safety-net hospitals, and health centers, and opposes efforts to repeal the Affordable Care Act.",
           "quote": "While the Affordable Care Act isn't perfect, I oppose efforts to repeal it and take away health insurance for millions of Americans.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Wrote to ICE's acting director demanding answers about what she described as aggressive, racially discriminatory enforcement actions against Latino residents of her district and called for an end to the tactics.",
-          "quote": "What we are witnessing in our communities is racial terror. Latino residents are being targeted based on their appearance, not their actions. That's not just immoral—it's unconstitutional.",
-          "sources": ["s7"]
+          "quote": "Latino residents are being targeted based on their appearance, not their actions. That's not just immoral—it's unconstitutional.",
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Says she has demonstrated a commitment to taking on climate change and prioritizes promoting energy efficiency and renewable energy sources like solar.",
           "quote": "I have demonstrated a commitment to taking on challenges like drought and climate change that are impacting California.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 4099, the Ensuring Women's Right to Reproductive Freedom Act, a bill to prohibit interference, under color of State law, with the provision of interstate abortion services (119th Congress).",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, a bill to regulate assault weapons (119th Congress).",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025, a bill to provide for increases in the federal minimum wage (119th Congress).",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations (National Security, Department of State and Related Programs subcommittee), the Committee on House Administration (Modernization and Innovation subcommittee), and the Joint Committee on the Library in the 119th Congress (2025–2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -81,49 +127,83 @@
     {
       "id": "mike-cargile",
       "name": "Mike Cargile",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Mike Cargile is a Republican candidate for California's 35th Congressional District who has run for the seat in multiple previous cycles. He describes himself as a 'Reagan Republican, a Constitutional Conservative and America First.'",
         "quote": "I am a Reagan Republican, a Constitutional Conservative and America First.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Says he worked in Hollywood as a writer, actor, director, producer, editor, and marketing director, and previously served as a Quartermaster Army officer before going into the Individual Ready Reserve after the Gulf War.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Has completed Ballotpedia's Candidate Connection survey in multiple election cycles, including 2020, 2022, and 2024, for prior runs for this seat.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "In his 2024 survey, listed border security, opposition to transgender participation in girls' sports and to 'the sexualization of our children,' and protecting gas stoves, gas-powered cars, food prices, and family safety as key campaign messages.",
           "quote": "I stand against boys in girls' sports, men in women's bathrooms, the sexualization of our children and racism in ANY form. I promise to protect the gas in your stoves, the gas in your cars, the price of food on your table and the safety of your family.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says he is passionate about international relations with the Latino community, veterans and the military, energy independence, and domestic manufacturing.",
           "quote": "International relations with the Latino community, veterans and the military, energy independence and environmentally friendly alternatives to wind and solar, domestic manufacturing.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Describes illegal crossings at the southern border as a top concern tied to trafficking, fentanyl, crime, and job losses, and says stopping it is his first priority.",
-          "quote": "First, we must stop the invasion of our country through our Southern border.",
-          "sources": ["s3"]
-        },
         {
           "issue": "climate",
           "stance": "opposes",
           "summary": "Promises to 'protect the gas in your stoves, the gas in your cars,' and lists energy independence and alternatives to wind and solar as a policy focus.",
           "quote": "I promise to protect the gas in your stoves, the gas in your cars, the price of food on your table and the safety of your family.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says life begins at conception and that he would not support abortion except in cases of rape, incest or to save the life of the mother.",
+          "quote": "except in the case of rape, incest or the life of the mother, I will never support abortion.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says any restriction, registration or regulation of the right to keep and bear arms is an infringement and unconstitutional.",
+          "quote": "Any restriction, registration or regulation of that right, is by definition, an \"infringement\" and is unconstitutional.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Says he opposes transgender girls competing in girls' sports.",
+          "quote": "Mike wholeheartedly stands against boys in girls’ sports",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "record": [],
@@ -174,6 +254,41 @@
       "publisher": "Office of Rep. Norma J. Torres",
       "kind": "official",
       "date": "2025-07-14"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4099",
+      "title": "H.R. 4099: Ensuring Women's Right to Reproductive Freedom Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115: Assault Weapons Ban of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743: Raise the Wage Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.cargileforcongress.com/life-1",
+      "title": "Life",
+      "publisher": "Cargile for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.cargileforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Cargile for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -82,10 +82,29 @@
         {
           "issue": "school_choice",
           "stance": "supports",
-          "summary": "Supports the federal Education Freedom Tax Credit, a tax-credit scholarship program that lets taxpayers claim a credit for donations to scholarship-granting organizations that fund families' private-school and other education expenses, and has publicly pressed California to opt in.",
-          "quote": "Last year, I fought for $5 billion in education dollars for low and middle-income families to access services like special education, tuition, and tutoring. It is unfortunate that Governor Newsom is refusing to let California families access funds that will be available to other students across the country.",
+          "summary": "Supports the federal Education Freedom Tax Credit, which gives taxpayers a credit for donations to scholarship-granting organizations that fund families' education expenses, and has publicly called on California to participate.",
+          "quote": "Last year, I fought for $5 billion in education dollars for low and middle-income families to access services like special education, tuition, and tutoring.",
           "sources": [
             "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "Introduced bipartisan legislation with Rep. Sam Liccardo to extend the expiring Affordable Care Act subsidies; CalMatters reports he also supports the Medicaid work requirements enacted in H.R. 1.",
+          "quote": "I introduced the Fix It Act with Sam Liccardo, bipartisan legislation to extend these expiring Affordable Care Act subsidies.",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says he voted to disapprove the tariffs on Canada and to reclaim Congress's authority over tariffs because tariffs have raised the cost of living.",
+          "quote": "I voted to disapprove the tariffs for Canada because I think tariffs have raised the cost of living.",
+          "sources": [
+            "s9"
           ]
         }
       ],
@@ -155,10 +174,11 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign frames his candidacy around defending public health policy and science-based healthcare against administration rollbacks.",
+          "summary": "Campaign site says that in Congress he will stop the administration from gutting the Affordable Care Act and will protect Medicare.",
           "sources": [
-            "s3"
-          ]
+            "s11"
+          ],
+          "quote": "In Congress, Dr. Pan will stop Trump from gutting the Affordable Care Act, protect Medicare, stop insurance companies from denying critical care prescribed by doctors, and fight to lower prescription drug costs."
         },
         {
           "issue": "rent_regulation",
@@ -177,6 +197,42 @@
             "s8"
           ],
           "basis": "votes"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign site says that in Congress he will work to institute universal background checks and a ban on assault weapons.",
+          "quote": "In Congress he’ll work to institute universal background checks and a ban on assault weapons.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign site says he protected abortion rights after Roe v. Wade was overturned and will work to codify Roe in Congress.",
+          "quote": "In Congress he will work to codify Roe.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign site says he will fight to roll back the President's tariffs, which he says are raising prices.",
+          "quote": "fight to roll back Trump's tariff taxes that are raising prices on Californians",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign site says he believes ICE must be overhauled and replaced with an agency that enforces the law fairly, and that he will fight for a path to citizenship.",
+          "quote": "Dr. Pan believes Trump's ICE must be overhauled and replaced with an agency that doesn't kill Americans and separate families, enforces the law fairly, and protects people's constitutional rights.",
+          "sources": [
+            "s11"
+          ]
         }
       ],
       "record": [
@@ -278,6 +334,30 @@
       "publisher": "California Legislative Information",
       "kind": "official",
       "date": "2017-06-01"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.capradio.org/articles/2026/09/25/rocklin-congressman-aims-to-chart-an-independent-course-if-reelected-in-district-6/",
+      "title": "Rocklin Congressman aims to chart an ‘independent’ course if reelected in District 6",
+      "publisher": "CapRadio",
+      "kind": "news",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://calmatters.org/health/2026/09/pan-kiley-california-district-healthcare/",
+      "title": "Vaccine proponent faces party-shifting conservative in CA midterm",
+      "publisher": "CalMatters",
+      "kind": "news",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://drpanforcongress.com/",
+      "title": "Dr. Pan for Congress",
+      "publisher": "Dr. Richard Pan for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -11,46 +11,64 @@
   "context": [
     {
       "text": "The Democratic primary was canceled and incumbent Darren Soto advanced unopposed. Dan Green won a seven-way Republican primary on August 18, 2026 with 25.4% of the vote, narrowly ahead of Ben Butler (24.4%) and Thomas Chalifoux (20.3%).",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "darren-soto",
       "name": "Darren Soto",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2017)",
       "summary": {
         "text": "Darren Soto is the Democratic incumbent seeking re-election to Florida's 9th Congressional District. An attorney, he previously served in the Florida House of Representatives and Florida Senate before his election to Congress in 2016.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Graduated from Rutgers College in 2000 and earned a law degree from George Washington University in 2004.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as president of D. Soto Law Offices and as a financial analyst with Prudential Insurance before entering politics.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the Florida House of Representatives (2007-2012) and the Florida Senate (2012-2016) before his election to the U.S. House in 2016.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he works to help agriculture producers feed America, protect food-assistance programs, combat citrus greening, secure disaster relief, and invest in new agricultural technologies for Central Florida.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says education is fundamental to upward mobility, and that every child should have access to a high-quality K-12 public education, college or technical education, and lifelong learning opportunities.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Says protecting Florida's environment is a main priority, citing work to restore the Kissimmee River and Chain of Lakes, secure water-supply funding, and protect the Indian River Lagoon.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
@@ -59,29 +77,89 @@
           "stance": "supports",
           "summary": "Says he advocates for renewable energy and tax credits for electric vehicles, hybrid, solar, and wind, and works to protect clean energy.",
           "quote": "In the current Congress, he serves on the Energy & Commerce Committee’s Subcommittee on Environment, where he advocates for renewable energy and electric-vehicle, hybrid, solar, and wind tax credits, among other priorities. He also serves on the Natural Resources Committee, where he works to protect clean energy, advance clean water projects, enhance conservation efforts, and more.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His official issues page says he is committed to protecting healthcare and fighting cuts to the Affordable Care Act, Medicare, and Medicaid.",
+          "quote": "Congressman Soto is committed to protecting healthcare and fighting cuts to the Affordable Care Act (ACA), Medicare, and Medicaid.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 12, the Women's Health Protection Act of 2025 (119th Congress), which would protect access to abortion services.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 18, the Bipartisan Background Checks Act of 2025 (119th Congress), which would expand background checks on firearm transfers.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress), which would raise the federal minimum wage.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 7392 (119th Congress), a bill to impose a hiring freeze on U.S. Immigration and Customs Enforcement.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an October 2026 Central Florida Public Media interview he named tariffs among the main drivers of rising costs.",
+          "quote": "The main drivers of costs right now [are] the tariffs, the war in Iran, and the mass deportations.",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "record": [
         {
           "text": "Assigned to the Committee on Energy and Commerce (Commerce, Manufacturing, and Trade; Communications and Technology; Environment subcommittees) and the Committee on Natural Resources (Water, Wildlife and Fisheries subcommittee) for the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Introduced H.R. 9094, the Florida Freeze Disaster Assistance Act of 2026, which would authorize USDA grants to states for agricultural losses caused by freezes.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Introduced H.R. 8728, the Feed Our Kids Act of 2026, which would amend federal child-nutrition law to make school breakfasts and lunches free for all children.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Sponsored the Restoring Resilient Reefs Act, which was enacted as part of the National Defense Authorization Act in the 117th Congress and reauthorizes and modernizes the Coral Reef Conservation Act of 2000.",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "website": "https://www.darrensoto.com/",
@@ -91,39 +169,55 @@
     {
       "id": "dan-green",
       "name": "Dan Green",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Dan Green is the Republican nominee for Florida's 9th Congressional District. A retired U.S. Navy Reserve officer who served multiple tours in the Middle East and Central Asia, he was appointed by President Trump in 2019 as Deputy Assistant Secretary of Defense for Strategy and Force Development.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a high school diploma from Vero Beach High School, a bachelor's degree from American University (1998), a graduate degree from Florida State University (1999), and a Ph.D. from George Washington University (2012).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served in the U.S. Navy Reserve, completing four tours in the Middle East and Central Asia and a civilian tour to southern Afghanistan with the U.S. Department of State; holds the rank of Commander and has been selected for promotion to Captain.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Appointed by President Trump in 2019 as Deputy Assistant Secretary of Defense for Strategy and Force Development at the U.S. Department of Defense.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"Make America Affordable Again\" — lists reducing grocery, gas, and property-insurance costs and balancing the federal budget among his goals.",
           "quote": "Reducing grocery and gas prices, reducing property insurance rates, balancing the budget and paying off the national debt, and having a strong military in order to ensure the peace.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"Restoring Constitutional Government,\" one of his three named campaign themes.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"Build Peace Through Strength,\" citing his military and defense-policy background as central to his approach to foreign policy.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -174,6 +268,48 @@
       "title": "Environment",
       "publisher": "Office of Rep. Darren Soto",
       "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://soto.house.gov/issues",
+      "title": "Issues | Congressman Darren Soto",
+      "publisher": "Office of Rep. Darren Soto",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/12",
+      "title": "H.R. 12 - Women's Health Protection Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18 - Bipartisan Background Checks Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743 - Raise the Wage Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7392",
+      "title": "H.R. 7392 - To impose a hiring freeze on United States Immigration and Customs Enforcement (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.cfpublic.org/politics/2026-10-02/florida-redistricting-darren-soto-against-odds",
+      "title": "In Florida's Ninth, Rep. Darren Soto makes his case against stacked odds",
+      "publisher": "Central Florida Public Media",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

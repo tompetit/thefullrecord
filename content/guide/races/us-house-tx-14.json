@@ -11,89 +11,141 @@
   "context": [
     {
       "text": "Incumbent Republican Randy Weber defeated Jessica Forgy in the Republican primary, 88.6%-11.4%. Thurman Bill Bartie, a former Mayor of Port Arthur, defeated Richard Davis in the May 26, 2026 Democratic primary runoff, 51.0%-49.0%, after the two advanced from a three-candidate March primary.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "randy-weber",
       "name": "Randy Weber",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, Texas's 14th District (since 2013)",
       "ballotNote": "Won the March 3, 2026 Republican primary, 88.6%-11.4%, over Jessica Forgy",
       "summary": {
         "text": "Randy Weber is the Republican incumbent seeking re-election in Texas's 14th District. A former air-conditioning company owner and Texas state representative, he chairs the House Science, Space, and Technology Committee's Subcommittee on Energy and is vice chair of the Energy and Commerce Committee's Subcommittee on Energy.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Pearland, Texas; attended Alvin Community College and earned a bachelor's degree from the University of Houston-Clear Lake.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Owned an air-conditioning company from 1981 until 2016; served on the Pearland City Council from 1990 to 1996 and as a Texas state representative from 2008 to 2012.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In a 2026 constituent newsletter he said he voted for the Secure America Act, which he described as a $70 billion investment in border security that ensures ICE and CBP agents have the resources they need.",
+          "quote": "ensures our Immigration and Customs Enforcement (ICE) agents and Customs and Border Protection (CBP) officers have the resources they need",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the Committee on Energy and Commerce as Vice Chair of its Subcommittee on Energy, and on its Subcommittees on Oversight and Investigations and Environment, for the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Serves on the Committee on Science, Space, and Technology, chairing its Subcommittee on Energy, for the 119th Congress.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://weber.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "W000814"
+      "bioguideId": "W000814",
+      "researchNotes": "Position drawn from a newsletter on his official site; his issues pages list only older press releases. Sponsored bills and roll-call votes are left to separate scripts."
     },
     {
       "id": "thurman-bill-bartie",
       "name": "Thurman Bill Bartie",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 26, 2026 Democratic primary runoff, 51.0%-49.0%, over Richard Davis",
       "summary": {
         "text": "Thurman Bill Bartie is the Democratic nominee challenging incumbent Randy Weber in Texas's 14th District. He was the first African American Justice of the Peace in Jefferson County's Precinct 8 and later served two terms as Mayor of Port Arthur before terming out.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Elected the first African American Justice of the Peace in Precinct 8 of Jefferson County, Port Arthur.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Elected Mayor of Port Arthur and served two consecutive terms until terming out.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Economic opportunity: supports small-business growth, fair wages and safe working conditions.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Public education funding: supports fair and equal funding for public schools and opposes dismantling the Department of Education.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Disaster resilience for southeast Texas, citing the district's history of hurricanes, floods, ice storms and periods of very high heat.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says he supports healthcare access for every American through complete funding of the Affordable Care Act.",
-          "sources": ["s4"]
+          "summary": "Says he supports strengthening and restoring the Affordable Care Act so people can manage health concerns.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I support strengthening and restoring the Affordable Care Act so people can manage health concerns and still maintain a good quality of life."
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign site says policy is needed to roll back tariffs, which he says have raised prices.",
+          "quote": "we need policy that will roll back tariffs which have raised prices",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -133,6 +185,22 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-02-19"
+    },
+    {
+      "id": "s5",
+      "url": "https://weber.house.gov/news/email/show.aspx?ID=NHTYEZWXSFU2WFXCID6RDKCKKQ",
+      "title": "The Secure America Act (newsletter)",
+      "publisher": "Office of Rep. Randy Weber",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://votebartie.org/where",
+      "title": "Where I Stand",
+      "publisher": "Thurman Bill Bartie campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

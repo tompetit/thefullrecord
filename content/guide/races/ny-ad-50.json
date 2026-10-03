@@ -61,23 +61,44 @@
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Says the state must expand and enforce the Climate Leadership and Community Protection Act and stop building new fossil-fuel pipelines; as a legislator she led passage of the All-Electric Buildings Act, a first-in-the-nation law phasing out fossil-gas hookups in new construction.",
+          "summary": "In a 2020 Ballotpedia Candidate Connection survey she said the state must expand and enforce the Climate Leadership and Community Protection Act and stop building new pipelines; her Assembly biography says she led the 2023 All-Electric Buildings Act, which phases out fossil-gas hookups in new construction.",
           "quote": "We must expand and enforce the Climate Leadership and Community Protection Act, fully fund the Department of Environmental Conversation, stop building new pipelines and dumping sewage in Newtown Creek, and bring a real Green New Deal to New York.",
           "sources": ["s2", "s3"]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
-          "summary": "Calls for passing universal rent control and says the state should stop incentivizing luxury development, framing housing as a core priority.",
+          "summary": "In a 2020 Ballotpedia Candidate Connection survey she called for passing universal rent control and for the state to stop incentivizing luxury development.",
           "quote": "We need to pass universal rent control, bring massive new state investments in NYCHA, and stop incentivizing luxury development.",
           "sources": ["s2"]
         },
         {
-          "issue": "minimum_wage",
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her campaign platform calls for abolishing ICE and passing the New York For All Act to limit state cooperation with federal immigration enforcement.",
+          "quote": "ICE has terrorized our communities, immigrant and citizen alike, for decades, and it has increased in a terrifying way under Trump.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Says the state needs representatives who will stand up for a real living wage and workers' right to organize.",
-          "quote": "We need a representative who will stand up for a real living wage and the right to organize.",
-          "sources": ["s2"]
+          "summary": "Her campaign platform says she has advocated every year of her term for higher taxes on people earning over $1 million and the most profitable corporations.",
+          "quote": "Every year of my term, I've advocated for increased taxes on those making above $1 million and the most profitable corporations",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign platform calls for passing the New York Health Act, a single-payer health system for New York.",
+          "quote": "Passing the New York Health Act! Reversing Trump's cuts with a real single-payer system for New York.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign platform lists abortion rights as an issue, calling for increased access and availability of abortion care.",
+          "quote": "Fighting for increased access and availability in the wake of the disastrous right-wing restrictions on our care.",
+          "sources": ["s4"]
         }
       ],
       "record": [
@@ -104,9 +125,37 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/New_York_State_Assembly_District_50", "title": "New York State Assembly District 50", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Emily_Gallagher", "title": "Emily Gallagher - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2020" },
-    { "id": "s3", "url": "https://nyassembly.gov/mem/Emily-Gallagher/bio", "title": "Emily Gallagher - Biography", "publisher": "New York State Assembly", "kind": "official" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York_State_Assembly_District_50",
+      "title": "New York State Assembly District 50",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Emily_Gallagher",
+      "title": "Emily Gallagher - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2020"
+    },
+    {
+      "id": "s3",
+      "url": "https://nyassembly.gov/mem/Emily-Gallagher/bio",
+      "title": "Emily Gallagher - Biography",
+      "publisher": "New York State Assembly",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.emilyforassembly.com/issues/",
+      "title": "Emily's 2026 Platform (issues)",
+      "publisher": "Emily Gallagher for Assembly campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "This is an uncontested general election: Gallagher defeated a primary challenger (Andrew Bodiford) but faces no opponent on the November 3, 2026 ballot."

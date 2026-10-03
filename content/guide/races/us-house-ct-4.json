@@ -113,6 +113,32 @@
           "sources": [
             "s9"
           ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says he supported the Inflation Reduction Act, which he describes as including provisions to close tax loopholes and ensure wealthy corporations pay their fair share.",
+          "quote": "ensure wealthy corporations pay their fair share",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Says Congress, not the President, has the authority to declare war, and that he has sponsored and supported War Powers Resolutions on the Iran conflict.",
+          "quote": "The Constitution is clear: Congress – not the President – has the sole authority to declare war.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress).",
+          "sources": [
+            "s13"
+          ]
         }
       ],
       "record": [
@@ -181,7 +207,35 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Calls for funding and staffing enforcement of existing immigration law, ending sanctuary policies, mandatory E-Verify, and funding for wall construction and Border Patrol hiring.",
+          "quote": "Local law enforcement should cooperate with federal immigration authorities.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "mixed",
+          "summary": "Says he would oppose new federal bans and registries for law-abiding gun owners, while also calling for requiring all states to submit mental health records to the background check system and for red flag proceedings with due process protections.",
+          "quote": "No new bans. No federal registries.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Under a plan to stand with Israel, calls for maintaining and increasing U.S. security assistance.",
+          "quote": "Maintain and increase assistance.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.goldsteinforcongress.com",
       "researchDepth": "minimal"
@@ -314,6 +368,27 @@
       "url": "https://himes.house.gov/issues/foreign-affairs-national-security/",
       "title": "Foreign Affairs & National Security",
       "publisher": "Office of Rep. Jim Himes",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://goldstein-for-congress-lvf6w6f.gamma.site/",
+      "title": "Where I Stand",
+      "publisher": "Goldstein for Congress (campaign site)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://himes.house.gov/issues/economy-jobs/",
+      "title": "Economy & Jobs",
+      "publisher": "Office of Rep. Jim Himes",
+      "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743 - Raise the Wage Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
       "kind": "official"
     }
   ],
