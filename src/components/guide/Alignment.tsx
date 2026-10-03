@@ -30,12 +30,17 @@ export const DISCLAIMER =
 
 export function AlignmentDisclaimer({ className = "" }: { className?: string }) {
   return (
-    <p className={`border-l-4 border-ink bg-paper-raised px-4 py-3 font-sans text-[14px] font-semibold leading-snug text-ink ${className}`}>
-      {DISCLAIMER}{" "}
-      <Link href="/guide/methodology#where-i-stand" className="font-normal text-ink-60 underline hover:text-ink">
-        How this works
-      </Link>
-    </p>
+    <div className={className}>
+      <p className="border-l-4 border-ink bg-paper-raised px-4 py-3 font-sans text-[14px] font-semibold leading-snug text-ink">
+        {DISCLAIMER}{" "}
+        <Link href="/guide/methodology#where-i-stand" className="font-normal text-ink-60 underline hover:text-ink">
+          How this works
+        </Link>
+      </p>
+      <p className="mt-2 font-sans text-[12px] leading-snug text-ink-60">
+        &ldquo;No documented position&rdquo; means our research found nothing on that topic for this candidate. Missing evidence is not a position.
+      </p>
+    </div>
   );
 }
 
@@ -89,13 +94,8 @@ export function AlignmentBreakdown({
         </div>
       )}
       <p className="mt-2 font-sans text-[13px] font-semibold text-ink-80">{countsSentence(counts)}</p>
-      {counts.none > 0 && (
-        <p className="mt-1 font-sans text-[12px] leading-snug text-ink-60">
-          &ldquo;No documented position&rdquo; means our research found nothing on that topic for this candidate. Missing evidence is not a position.
-        </p>
-      )}
       <ul className="mt-3 divide-y divide-hairline">
-        {items.map((item) => {
+        {items.filter((item) => item.outcome !== "none").map((item) => {
           const p = item.position;
           return (
             <li key={item.issue} className="py-4 first:pt-1">
@@ -140,6 +140,11 @@ export function AlignmentBreakdown({
           );
         })}
       </ul>
+      {counts.none > 0 && (
+        <p className="mt-3 border-t border-hairline pt-3 font-sans text-[12.5px] leading-snug text-ink-60">
+          No documented position on: {items.filter((item) => item.outcome === "none").map((item) => TOPIC_LABELS[item.issue]).join(", ")}
+        </p>
+      )}
     </article>
   );
 }
