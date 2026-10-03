@@ -88,36 +88,30 @@
       ],
       "positions": [
         {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says state and local law enforcement need resources and supports more federal funding to boost officer and firefighter pay to improve retention.",
+          "quote": "Marie believes we need to provide more federal funding to boost officer and firefighter pay to improve retention",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Supports legal access to abortion and says she will work to prevent a national abortion ban.",
-          "quote": "Marie is fighting to ensure every woman can see a doctor whenever she wants, for whatever reason.",
+          "summary": "Says she will do whatever it takes to prevent a national abortion ban and is working to protect access to medical care and women's freedom to choose.",
+          "quote": "Marie will do whatever it takes to prevent a national abortion ban, which would override the will of the people of Washington State.",
           "sources": [
-            "s2"
+            "s4"
           ]
         },
         {
           "issue": "climate",
-          "stance": "supports",
-          "summary": "States that climate change is real and man-made and disproportionately affects the working class; has backed tax rebates for energy-efficiency upgrades.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "healthcare_public",
           "stance": "mixed",
-          "summary": "Campaign platform emphasizes lowering healthcare costs and cutting out middlemen rather than a specific public-coverage expansion.",
+          "summary": "Says climate change is real and man-made and has championed tax rebates for energy-efficiency upgrades, while also saying abundant, cheap energy from traditional and renewable sources will give consumers price relief.",
+          "quote": "Marie believes that climate change is real and is man-made.",
           "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "universal_childcare",
-          "stance": "supports",
-          "summary": "Supports re-introducing and expanding the Child Tax Credit and increasing childcare accessibility, particularly in rural communities.",
-          "sources": [
-            "s2"
+            "s4"
           ]
         }
       ],
@@ -208,33 +202,28 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Supports completing border barriers, hiring more agents, tightening asylum loopholes, and targeting cartel supply chains; says his opponent voted against the 2023 Secure the Border Act (H.R. 2) in Congress.",
+          "summary": "Calls for completing border barriers, hiring and equipping more agents, tightening asylum loopholes and going after cartel supply chains.",
+          "quote": "I'll complete high-priority barriers, hire and equip more agents, deploy proven technology, tighten asylum loopholes, and go after cartel supply chains.",
           "sources": [
-            "s3"
+            "s5"
           ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Opposed Washington's 2023 state rifle ban and says he will protect the constitutional rights of gun owners and sportsmen in Congress.",
+          "summary": "Says he opposed Washington's 2023 rifle ban because it punishes the law-abiding, and will oppose limits on responsible gun owners in Congress.",
+          "quote": "In my legislative races I opposed Olympia's 2023 rifle ban because it punishes the law-abiding and doesn't target criminals.",
           "sources": [
-            "s3"
+            "s5"
           ]
         },
         {
-          "issue": "climate",
-          "stance": "mixed",
-          "summary": "Supports an \"all of the above\" energy approach including hydropower, solar, oil, natural gas and nuclear power rather than a transition away from fossil fuels specifically.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "school_choice",
+          "issue": "transgender_sports",
           "stance": "supports",
-          "summary": "Supports the federal Parents Bill of Rights and says parents, not \"bureaucrats,\" should control decisions about their children's education.",
+          "summary": "Supports the House-passed Protection of Women and Girls in Sports Act and says he would vote to base women's sports eligibility on sex, citing Title IX.",
+          "quote": "I support federal protections like the House-passed Protection of Women and Girls in Sports Act (2023) and similar 2025 legislation.",
           "sources": [
-            "s3"
+            "s5"
           ]
         }
       ],
@@ -254,7 +243,8 @@
           ]
         }
       ],
-      "researchDepth": "full"
+      "researchDepth": "full",
+      "website": "https://www.votebraun.com"
     }
   ],
   "sources": [
@@ -277,6 +267,20 @@
       "url": "https://ballotpedia.org/John_Braun",
       "title": "John Braun's campaign website (quoted July 17, 2026)",
       "publisher": "Ballotpedia, quoting John Braun's campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://marieforcongress.com/issues/",
+      "title": "Issues",
+      "publisher": "Marie for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.votebraun.com/issues",
+      "title": "Issues",
+      "publisher": "John Braun for Congress",
       "kind": "candidate"
     }
   ],
