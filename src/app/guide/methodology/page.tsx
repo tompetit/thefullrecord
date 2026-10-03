@@ -69,8 +69,53 @@ export default function MethodologyPage() {
             &ldquo;Compare by issue&rdquo; filters documented evidence by subject.
             Candidates appear alphabetically within each race, with the same topics
             displayed for everyone. Vote-based evidence is labeled separately from
-            other documented positions. We do not collect agreement answers, weight
-            issues, or calculate candidate scores. Missing research is shown as a gap.
+            other documented positions. We do not weight issues or calculate
+            candidate scores. Missing research is shown as a gap.
+          </P>
+        </section>
+
+        <section className="mt-8 scroll-mt-4" id="where-i-stand">
+          <SectionLabel>&ldquo;Where I stand&rdquo; — how the comparison works</SectionLabel>
+          <P>
+            On &ldquo;Compare by issue&rdquo; you can optionally answer Agree or Disagree to
+            any of the issue statements (for example, &ldquo;Stronger rent regulation and
+            tenant protections&rdquo;). Anything you leave as &ldquo;Not sure / skip&rdquo; is
+            left out. For each statement you answered, every candidate&rsquo;s documented
+            position on that same statement is put next to your answer:
+          </P>
+          <ul className="mt-2 flex list-disc flex-col gap-1.5 pl-5 font-sans text-[14.5px] leading-[1.65] text-ink-80">
+            <li><b>= Same as you</b> — you agree and their documented position supports the statement, or you disagree and it opposes it.</li>
+            <li><b>≠ Different from you</b> — the documented position points the other way from your answer.</li>
+            <li><b>~ Mixed record</b> — the documented position is mixed (for example, support for part of a policy). It is not counted as same or different.</li>
+            <li><b>○ Votes shown — not compared</b> — the evidence is recorded votes. As explained above, we don&rsquo;t infer a direction on a broad statement from votes on specific bills, so these are shown with their official sources but are not counted as same or different. Any statements the candidate made on the topic are shown alongside.</li>
+            <li><b>– No documented position</b> — our research found nothing on the topic. That is a gap in our research, not a position.</li>
+          </ul>
+          <P>
+            Each comparison shows the position&rsquo;s summary and citations and is labeled
+            &ldquo;Based on statements&rdquo; or &ldquo;Based on recorded votes&rdquo;. Under each
+            candidate we give a plain tally — for example, &ldquo;Same on 3 · Different on 1 ·
+            Mixed 1 · No record 2 of the 7 topics you answered&rdquo;. There is no
+            percentage, score, meter, weighting, or &ldquo;best match&rdquo;. Every answered
+            topic counts the same, candidates stay in alphabetical order, and the
+            comparison is not a recommendation.
+          </P>
+          <P>
+            <b>Limits.</b> Research coverage varies a lot between candidates — incumbents
+            and well-funded campaigns leave more public record, so a candidate with
+            fewer documented positions will show more &ldquo;No record&rdquo; results.
+            Missing evidence is not a position. Statements are not actions, and recorded
+            votes are not broad policy positions. A single statement can&rsquo;t capture
+            every nuance, and candidates may have changed their positions since the
+            sources were published, so check the dates on the citations. The issue
+            statements are fixed wording and may not match exactly how you would put it.
+          </P>
+          <P>
+            <b>Privacy.</b> Your answers aren&rsquo;t stored by us or tied to you. They live
+            in the page&rsquo;s link (as <code className="font-mono text-[13px]">?stand=…</code>,
+            so you can bookmark or share it) and, for convenience, in your browser tab
+            until you close it. Like any web address, the link may appear in routine
+            web-server request logs, and anyone you share it with will see your answers
+            and any address it contains.
           </P>
         </section>
 

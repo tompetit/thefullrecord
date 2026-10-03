@@ -1,7 +1,9 @@
 import Link from "next/link";
+import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
 import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
 import { CandidateProfile, FinanceLine } from "./CandidateProfile";
+import { RaceStand } from "./StandClient";
 import {
   CitedText,
   Cites,
@@ -269,6 +271,7 @@ export function RaceView({ race }: { race: GuideRace }) {
             </div>
           </section>
 
+          <RaceStand race={alignmentRace(race)} />
           <Comparison race={race} />
           <KeyVoteComparison race={race} />
 
