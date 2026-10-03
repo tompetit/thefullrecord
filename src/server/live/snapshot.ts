@@ -57,6 +57,45 @@ export interface ChamberSnapshot {
   rollCalls: SnapshotRollCall[];
 }
 
+/** Roll call as stored on disk: verbose (votes) or compact (codes). */
+type StoredRollCall = Omit<SnapshotRollCall, "votes"> & {
+  votes?: Record<string, VoteChoice>;
+  /** One char per snapshot.memberIndex entry: Y yes, N no, A absent, P present, "-" none */
+  codes?: string;
+};
+
+/** On-disk form: a ChamberSnapshot, optionally with compact votes. */
+export interface StoredSnapshot extends Omit<ChamberSnapshot, "rollCalls"> {
+  /** Compact form: member keys, indexed by each roll call's `codes` string */
+  memberIndex?: string[];
+  rollCalls: StoredRollCall[];
+}
+
+const CODE_CHOICE: Record<string, VoteChoice> = {
+  Y: "yes",
+  N: "no",
+  A: "absent",
+  P: "present",
+};
+
+/** Expand compact `codes` into the verbose `votes` map (verbose files pass through). */
+export function expandSnapshot(stored: StoredSnapshot): ChamberSnapshot {
+  const { memberIndex, rollCalls, ...rest } = stored;
+  return {
+    ...rest,
+    rollCalls: rollCalls.map(({ codes, votes, ...roll }) => {
+      if (votes || !memberIndex || codes === undefined)
+        return { ...roll, votes: votes ?? {} };
+      const expanded: Record<string, VoteChoice> = {};
+      for (let i = 0; i < memberIndex.length; i++) {
+        const choice = CODE_CHOICE[codes[i]];
+        if (choice) expanded[memberIndex[i]] = choice;
+      }
+      return { ...roll, votes: expanded };
+    }),
+  };
+}
+
 const SNAPSHOT_DIR = join(process.cwd(), "src/server/snapshot");
 
 let loaded: ChamberSnapshot[] | null = null;
@@ -74,8 +113,8 @@ export function getSnapshots(): ChamberSnapshot[] {
     try {
       const parsed = JSON.parse(
         readFileSync(join(SNAPSHOT_DIR, file), "utf8")
-      ) as ChamberSnapshot;
-      if (Array.isArray(parsed.rollCalls)) snapshots.push(parsed);
+      ) as StoredSnapshot;
+      if (Array.isArray(parsed.rollCalls)) snapshots.push(expandSnapshot(parsed));
     } catch (err) {
       console.error(`[snapshot] failed to load ${file}:`, err);
     }

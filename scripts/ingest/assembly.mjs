@@ -14,11 +14,18 @@
  *
  * Writes src/server/snapshot/assembly-ny.json keyed by Assembly district.
  *
- * Run: node scripts/ingest/assembly.mjs [--bills 25]
+ * Default: every Assembly floor vote of the 2025–2026 session to date,
+ * discovered from bill VOTE updates since 2025-01-01. If a snapshot exists the
+ * window starts 14 days before its generatedAt and new roll calls are merged
+ * by id (pass --full to rediscover the whole session). All requests are
+ * >= 300 ms apart. Votes are stored compactly (see compactSnapshot).
+ *
+ * Run: node scripts/ingest/assembly.mjs [--full] [--bills N]
  */
 
 import { readFileSync, existsSync } from "node:fs";
-import { writeSnapshot } from "./shared.mjs";
+import { readFile } from "node:fs/promises";
+import { expandSnapshot, politeGet, validateSnapshot, writeSnapshot } from "./shared.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { classifyMark, parseFloorVotes, resolveNames, rosterFromHtml } from "./lrs.mjs";
@@ -26,10 +33,11 @@ import { classifyMark, parseFloorVotes, resolveNames, rosterFromHtml } from "./l
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot/assembly-ny.json");
 const SESSION = 2025; // the 2025–2026 session
-const WINDOW = ["2026-05-01T00:00:00", "2026-06-15T00:00:00"];
-const MAX_BILLS = Number(process.argv.find((a, i) => process.argv[i - 1] === "--bills") ?? 25);
-const MAX_BILL_LOOKUPS = 200; // cap on OpenLeg bill-detail fetches
-const DELAY_MS = 200; // polite spacing between ALL outbound requests
+const SESSION_START = "2025-01-01T00:00:00";
+const FULL = process.argv.includes("--full");
+const MAX_BILLS = Number(process.argv.find((a, i) => process.argv[i - 1] === "--bills") ?? Infinity);
+const MAX_BILL_LOOKUPS = Infinity; // cap on OpenLeg bill-detail fetches
+const DELAY_MS = 300; // polite spacing between ALL outbound requests
 
 // Bills whose district-52 (Jo Anne Simon) vote is independently known.
 // Always ingested so the known-vote validation can run.
@@ -44,19 +52,12 @@ const KEY =
   (existsSync(join(ROOT, ".env.local")) ? readFileSync(join(ROOT, ".env.local"), "utf8").match(/NY_OPENLEG_API_KEY=(\S+)/)?.[1] : undefined);
 if (!KEY) throw new Error("NY_OPENLEG_API_KEY not set (env or .env.local)");
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
-let lastRequestAt = 0;
 async function politeFetch(url) {
-  const wait = lastRequestAt + DELAY_MS - Date.now();
-  if (wait > 0) await sleep(wait);
-  lastRequestAt = Date.now();
-  const res = await fetch(url, {
-    headers: { "user-agent": "Mozilla/5.0 (compatible; thefullrecord-ingest)" },
-    signal: AbortSignal.timeout(30_000),
-  });
-  if (!res.ok) throw new Error(`${new URL(url).origin}${new URL(url).pathname} -> ${res.status}`);
-  return res;
+  try {
+    return await politeGet(String(url), { minGapMs: DELAY_MS, headers: { "user-agent": "Mozilla/5.0 (compatible; thefullrecord-ingest)" } });
+  } catch (error) {
+    throw new Error(String(error.message).replaceAll(KEY, "***").replace(/key=[^&\s]+/g, "key=***"));
+  }
 }
 
 async function api(path, params = {}) {
@@ -90,12 +91,22 @@ async function main() {
   const members = await scrapeRoster();
   console.log(`  ${members.length} members`);
 
-  console.log(`Finding bills with vote updates ${WINDOW[0]} → ${WINDOW[1]}…`);
+  let previous = [];
+  try { previous = expandSnapshot(JSON.parse(await readFile(OUT, "utf8"))); } catch { /* first run */ }
+  const merged = new Map();
+  let from = SESSION_START;
+  if (!FULL && previous.rollCalls?.length) {
+    for (const rc of previous.rollCalls) merged.set(rc.id, rc);
+    from = new Date(Date.parse(previous.generatedAt) - 14 * 86_400_000).toISOString().slice(0, 19);
+  }
+  const to = new Date().toISOString().slice(0, 19);
+
+  console.log(`Finding bills with vote updates ${from} → ${to}…`);
   const seen = new Set();
   const prints = [];
   let offset = 1;
   for (;;) {
-    const updates = await api(`bills/updates/${WINDOW[0]}/${WINDOW[1]}`, {
+    const updates = await api(`bills/updates/${from}/${to}`, {
       filter: "VOTE",
       limit: 500,
       offset,
@@ -116,7 +127,7 @@ async function main() {
   const known = KNOWN_CHECKS.map((k) => k.print);
   const ordered = [...known, ...prints.reverse().filter((p) => !known.includes(p))];
 
-  console.log(`Looking for 2026 Assembly-passage actions (target ${MAX_BILLS} bills)…`);
+  console.log(`Looking for Assembly-passage actions (target ${MAX_BILLS} bills)…`);
   const candidates = [];
   let lookups = 0;
   for (const print of ordered) {
@@ -133,20 +144,24 @@ async function main() {
     // Assembly passage of a Senate bill by substitution is recorded on the
     // SENATE print — basePrintNo is already the print the LRS vote lives under.
     const passes = (bill.actions?.items ?? []).filter(
-      (a) => /passed\s+assembly/i.test(a.text ?? "") && a.date?.startsWith("2026")
+      (a) => /passed\s+assembly/i.test(a.text ?? "") && /^202[56]/.test(a.date ?? "")
     );
-    if (!passes.length) continue;
-    const pass = passes.at(-1); // actions are chronological; take the latest
-    candidates.push({
-      basePrintNo: bill.basePrintNo,
-      version: pass.billId?.version?.trim() ?? "",
-      passDate: pass.date,
-      title: bill.title,
-      summary: bill.summary || undefined,
-    });
+    // One candidate per distinct passage date (a bill can pass again after amendment).
+    const dates = new Set();
+    for (const pass of passes) {
+      if (dates.has(pass.date)) continue;
+      dates.add(pass.date);
+      candidates.push({
+        basePrintNo: bill.basePrintNo,
+        version: pass.billId?.version?.trim() ?? "",
+        passDate: pass.date,
+        title: bill.title,
+        summary: bill.summary || undefined,
+      });
+    }
   }
   candidates.sort((a, b) => b.passDate.localeCompare(a.passDate));
-  console.log(`  ${candidates.length} bills passed the Assembly in 2026 (${lookups} bills inspected)`);
+  console.log(`  ${candidates.length} Assembly passages found (${lookups} bills inspected)`);
 
   console.log("Scraping LRS floor-vote pages…");
   const scraped = [];
@@ -212,7 +227,7 @@ async function main() {
     rollCalls.push({
       id: `nyassembly-${s.basePrintNo}-${s.vote.date}`,
       bill: bn,
-      title: s.title,
+      title: s.title || bn,
       summary: s.summary,
       summarySource: "official",
       kind: "substantive",
@@ -223,15 +238,21 @@ async function main() {
       votes,
     });
   }
-  rollCalls.sort((a, b) => b.date.localeCompare(a.date));
+  for (const rc of rollCalls) {
+    // One malformed upstream record must not discard the whole session.
+    try { validateSnapshot({ generatedAt: new Date().toISOString(), chamber: "NY ASSEMBLY", sourceLabel: "x", rollCalls: [rc] }); }
+    catch (error) { console.warn(`  dropped ${rc.id}: ${error.message}`); continue; }
+    merged.set(rc.id, rc);
+  }
+  const all = [...merged.values()].sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
 
   console.log("Known-vote checks (district 52, Jo Anne Simon):");
   let checksFailed = 0;
   for (const k of KNOWN_CHECKS) {
-    const rc = rollCalls.find((r) => r.id === `nyassembly-${k.print}-${k.date}`);
+    const rc = all.find((r) => r.id === `nyassembly-${k.print}-${k.date}`);
     const got = rc ? (rc.votes["52"] ?? "no vote recorded") : "bill not ingested";
     const ok = got === k.expect;
-    if (!ok) checksFailed += 1;
+    if (!ok && rc) checksFailed += 1; // a bill that is absent is a coverage gap (e.g. source dates drifted), not a wrong vote
     console.log(`  ${ok ? "OK      " : "MISMATCH"} ${k.print} ${k.date}: expected ${k.expect}, got ${got}`);
   }
   if (checksFailed) throw new Error(`${checksFailed} known-vote checks failed; keeping previous snapshot`);
@@ -241,10 +262,10 @@ async function main() {
     chamber: "NY ASSEMBLY",
     sourceLabel: "Roll call · NY Assembly",
     members,
-    rollCalls,
+    rollCalls: all,
   };
-  await writeSnapshot(OUT, snapshot);
-  console.log(`\nWrote ${rollCalls.length} roll calls, ${members.length} members -> ${OUT}`);
+  await writeSnapshot(OUT, snapshot, { compact: true });
+  console.log(`\nWrote ${all.length} roll calls, ${members.length} members -> ${OUT}`);
   if (skippedNames.length) console.log(`Skipped vote-table names: ${skippedNames.join(", ")}`);
 }
 

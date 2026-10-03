@@ -11,6 +11,77 @@ export function positiveCount(args, flag, fallback) {
   return value;
 }
 
+export const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+/**
+ * GET with timeout, retry and exponential backoff. Returns the Response, or
+ * null on a 404 when allow404 is set. minGapMs spaces successive calls.
+ */
+let lastFetchAt = 0;
+export async function politeGet(url, { retries = 4, minGapMs = 150, allow404 = false, headers = {} } = {}) {
+  for (let attempt = 0; ; attempt++) {
+    const wait = lastFetchAt + minGapMs - Date.now();
+    if (wait > 0) await sleep(wait);
+    lastFetchAt = Date.now();
+    try {
+      const res = await fetch(url, {
+        signal: AbortSignal.timeout(30_000),
+        headers: { 'User-Agent': 'thefullrecord-ingest/1.0 (civic transparency)', ...headers },
+      });
+      if (res.status === 404 && allow404) return null;
+      if (res.ok) return res;
+      if (res.status < 500 && res.status !== 429) throw Object.assign(new Error(`${url} -> ${res.status}`), { fatal: true });
+      throw new Error(`${url} -> ${res.status}`);
+    } catch (error) {
+      if (error.fatal || attempt >= retries) throw error;
+      await sleep(1000 * 2 ** attempt);
+    }
+  }
+}
+
+/**
+ * Compact vote storage. A snapshot may carry memberIndex (member keys) and,
+ * per roll call, codes: one character per memberIndex entry, Y yes, N no,
+ * A not voting/absent, P present, "-" no recorded position (e.g. not yet in
+ * office). expandSnapshot() is the inverse and yields the verbose votes map.
+ * rawVotes is not stored in compact form (validate against source to re-derive).
+ */
+const CODE = { yes: 'Y', no: 'N', absent: 'A', present: 'P' };
+const CHOICE = { Y: 'yes', N: 'no', A: 'absent', P: 'present' };
+
+export function compactSnapshot(snapshot) {
+  const keys = new Set();
+  for (const roll of snapshot.rollCalls) for (const key of Object.keys(roll.votes ?? {})) keys.add(key);
+  const memberIndex = [...keys].sort((a, b) => a.localeCompare(b, 'en', { numeric: true }));
+  const position = new Map(memberIndex.map((key, i) => [key, i]));
+  const rollCalls = snapshot.rollCalls.map((roll) => {
+    const chars = new Array(memberIndex.length).fill('-');
+    for (const [key, choice] of Object.entries(roll.votes)) chars[position.get(key)] = CODE[choice];
+    const rest = { ...roll };
+    delete rest.votes;
+    delete rest.rawVotes;
+    return { ...rest, codes: chars.join('') };
+  });
+  return { ...snapshot, memberIndex, rollCalls };
+}
+
+export function expandSnapshot(snapshot) {
+  if (!snapshot.memberIndex) return snapshot;
+  const { memberIndex, ...rest } = snapshot;
+  return {
+    ...rest,
+    rollCalls: snapshot.rollCalls.map(({ codes, ...roll }) => {
+      if (roll.votes) return roll;
+      const votes = {};
+      for (let i = 0; i < memberIndex.length; i++) {
+        const choice = CHOICE[codes[i]];
+        if (choice) votes[memberIndex[i]] = choice;
+      }
+      return { ...roll, votes };
+    }),
+  };
+}
+
 export function decodeXml(text) {
   return text.replace(/<[^>]*>/g, ' ').replace(/&#x([\da-f]+);/gi, (_, n) => String.fromCodePoint(parseInt(n, 16)))
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
@@ -62,9 +133,9 @@ export function validateSnapshot(snapshot) {
 }
 
 /** Validate before replacing a working file; retain prior summaries for matching votes. */
-export async function writeSnapshot(file, snapshot) {
+export async function writeSnapshot(file, snapshot, { compact = false } = {}) {
   let previous;
-  try { previous = JSON.parse(await readFile(file, 'utf8')); }
+  try { previous = expandSnapshot(JSON.parse(await readFile(file, 'utf8'))); }
   catch (error) { if (error.code !== 'ENOENT') throw error; }
   const old = new Map((previous?.rollCalls ?? []).map(roll => [roll.id, roll]));
   for (const roll of snapshot.rollCalls) {
@@ -77,6 +148,6 @@ export async function writeSnapshot(file, snapshot) {
   validateSnapshot(snapshot);
   await mkdir(dirname(file), { recursive: true });
   const temporary = `${file}.${process.pid}.tmp`;
-  await writeFile(temporary, `${JSON.stringify(snapshot, null, 2)}\n`);
+  await writeFile(temporary, `${JSON.stringify(compact ? compactSnapshot(snapshot) : snapshot, null, 2)}\n`);
   await rename(temporary, file);
 }
