@@ -11,90 +11,127 @@
   "context": [
     {
       "text": "Incumbent Alicia Hyndman advanced from the Democratic, Republican and Working Families Party primaries without appearing on the ballot (the Republican primary was canceled for lack of a candidate). Hyndman is unopposed in the November 3, 2026 general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "alicia-hyndman",
       "name": "Alicia Hyndman",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": true,
       "currentRole": "NY State Assembly Member, District 29 (since 2015)",
       "summary": {
         "text": "Alicia Hyndman is the Democratic and Working Families Party incumbent for NY State Assembly District 29, first elected in 2015. She chairs the Higher Education Committee and also serves on the Economic Development, Education, Rules and Ways and Means committees. She is running unopposed for re-election.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "The daughter of Caribbean immigrants, she emigrated to the U.S. from London, England, as a young child and grew up in Hollis and South Ozone Park, attending New York City public schools including John Adams High School.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the NYC Department of Education's Community District Education Council 29 for ten years, the last four as president, and helped secure $30 million in capital funding for the district's 36 elementary and middle schools.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked more than fifteen years at the NYS Department of Education as a Senior Professional Conduct Investigator overseeing adult trade and vocational schools, and previously held posts including counselor for the Brooklyn College Educational Talent Search Program and Director of Minority Affairs at the New York College of Osteopathic Medicine of NYIT.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Chairs the Assembly's Higher Education Committee in the 2025-2026 session.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Career and higher-education access, reflected in bills addressing student loan forgiveness, oversight of non-degree proprietary schools, and grants renamed in honor of the late Assemblyman Leonard P. Stavisky to support independent institutions of higher learning.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Consumer and financial protections for lower-income residents, including barring fees for paper bank statements required for public-assistance applications and studying minimum auto-insurance coverage requirements.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Healthcare workforce development, including the \"Nurse of Tomorrow Act\" to fund nurse recruitment, education and retention, and the \"Sickle Cell Treatment Act\" establishing designated treatment centers.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "school_choice",
           "stance": "opposes",
-          "summary": "Sponsored A3396, which would impose additional conditions on approving a charter-school application that converts an existing public school into a charter school.",
-          "sources": ["s4"]
+          "summary": "Sponsored A04975, which would repeal the requirement that certain cities pay charter school rents, and A10466, which would limit the city reimbursement rate for charter school facilities.",
+          "sources": [
+            "s9",
+            "s10"
+          ]
         }
       ],
       "record": [
         {
           "text": "Sponsored A1799, barring certain financial institutions from charging a fee for periodic paper statements when those statements are required for a public-assistance application; passed the Assembly May 28, 2025 and was delivered to the Senate, where it died in committee and was returned to the Assembly on January 7, 2026; the Assembly repassed it January 21, 2026 and it was again delivered to the Senate, where it remains referred to the Banks Committee.",
           "kind": "bill",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Sponsored A3396, imposing additional conditions on approving a charter-school application to convert an existing public school; referred to the Education Committee.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Sponsored A3676-B, the \"Sickle Cell Treatment Act,\" designating sickle cell centers of excellence and outpatient treatment centers; referred to the Health Committee.",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Sponsored A1864, the \"Nurse of Tomorrow Act,\" providing state grants for nurse recruitment, education and retention at hospitals, schools and skilled nursing facilities; referred to the Higher Education Committee.",
           "kind": "bill",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Sponsored A2182, establishing the Non-Degree Proprietary School Supervision and Student Protection Act; referred to the Higher Education Committee.",
           "kind": "bill",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Chairs the Higher Education Committee and serves on the Economic Development, Job Creation, Commerce and Industry, Education, Rules and Ways and Means committees in the 2025-2026 session.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "full"
@@ -155,6 +192,20 @@
       "id": "s8",
       "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A02182&term=2025&Summary=Y&Actions=Y",
       "title": "A02182: Establishes the Non-Degree Proprietary School Supervision and Student Protection Act",
+      "publisher": "New York State Assembly",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A04975&term=2025&Summary=Y&Actions=Y",
+      "title": "A04975: Repeals requirement that certain cities pay charter school rents",
+      "publisher": "New York State Assembly",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A10466&term=2025&Summary=Y&Actions=Y",
+      "title": "A10466: Limits charter school facilities reimbursement rate",
       "publisher": "New York State Assembly",
       "kind": "official"
     }

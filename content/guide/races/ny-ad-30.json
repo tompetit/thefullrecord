@@ -11,66 +11,94 @@
   "context": [
     {
       "text": "Incumbent Steven Raga did not seek re-election to this seat, running instead for NY State Senate District 12. Patrick Martinez won a three-way Democratic primary on June 23, 2026 by seven votes over Shamsul Haque (2,784 to 2,777, with Somnath Ghimire receiving 718) after an automatic recount triggered by an initial 13-vote margin. Brandon Castro, who ran against Raga for this seat in 2024, advanced unopposed on the Republican and Conservative Party lines.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "patrick-martinez",
       "name": "Patrick Martinez",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 23, 2026 Democratic primary by seven votes after an automatic recount.",
       "summary": {
         "text": "Patrick Martinez is the Democratic nominee for the open NY State Assembly District 30 seat. A Democratic District Leader for the 30th Assembly District and member of Queens Community Board 2, he won a close three-way Democratic primary with backing from the Queens County Democratic Party and several labor unions.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Grew up in Elmhurst, Queens, attended local public schools, and graduated from Stuyvesant High School.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from Middlebury College in 2009, majoring in Latin American Studies, and a graduate degree from Baruch College in 2020.",
-          "sources": ["s1", "s4"]
+          "sources": [
+            "s1",
+            "s4"
+          ]
         },
         {
           "text": "Worked in the tech startup world, including with Coalition for Queens on tech training and job placement for underrepresented groups; his career background includes work as a marketing director.",
-          "sources": ["s1", "s4"]
+          "sources": [
+            "s1",
+            "s4"
+          ]
         },
         {
           "text": "Moved back to Woodside and joined Queens Community Board 2 in 2022, where he focuses on land use and the OneLIC task force; currently serves as Democratic District Leader for Assembly District 30.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Tenant protections and housing affordability, including protecting Mitchell-Lama affordability, expanding property tax relief, and requiring deeply affordable units in new development.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Public investment in schools, transit and infrastructure, including full funding for public schools, expanded after-school programs, accelerated subway and bus improvements, and climate resiliency against flooding.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Workers' rights, including strengthening labor protections and supporting union growth.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "rent_regulation",
           "stance": "supports",
-          "summary": "Says he will fight for stronger tenant protections and housing policies that stabilize the community, citing his work protecting Mitchell-Lama affordability on Queens Community Board 2.",
-          "quote": "Rising rents are displacing long-time neighbors, and I will fight for stronger tenant protections and housing policies that stabilize our community.",
-          "sources": ["s4"]
+          "summary": "Says he supports comprehensive housing reform that includes stronger tenant protections and good-cause eviction.",
+          "quote": "stronger tenant protections, good-cause eviction",
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "housing_supply",
-          "stance": "mixed",
-          "summary": "Supports building more housing but says it should come through \"sensible housing policies that increase supply without sacrificing the character of our neighborhoods.\"",
-          "quote": "sensible housing policies that increase supply without sacrificing the character of our neighborhoods",
-          "sources": ["s4"]
+          "stance": "supports",
+          "summary": "Says he supports upzoning near transit with affordability mandates as part of housing reform.",
+          "quote": "upzoning near transit with affordability mandates",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -79,65 +107,76 @@
     {
       "id": "brandon-castro",
       "name": "Brandon Castro",
-      "parties": ["R", "C", "Arts & Culture Party", "Reform Party"],
+      "parties": [
+        "R",
+        "C",
+        "Arts & Culture Party",
+        "Reform Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Brandon Castro is the Republican, Conservative, Arts & Culture and Reform Party nominee for the open NY State Assembly District 30 seat. A CUNY Queens College graduate and former NYC Small Business Services liaison, he previously ran against Steven Raga for this seat in 2024.",
-        "sources": ["s1", "s5"]
+        "sources": [
+          "s1",
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Born in New York City to Ecuadorian immigrant parents; educated in New York City public schools and Queens Technical High School.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from the City University of New York, Queens College, in 2023.",
-          "sources": ["s1", "s5"]
+          "sources": [
+            "s1",
+            "s5"
+          ]
         },
         {
           "text": "Worked as a liaison for the NYC Department of Small Business Services, supporting and assisting small businesses.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Ran unsuccessfully against incumbent Steven Raga for this seat in the 2024 general election.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Education and workforce reform, including investing in trade schools and vocational training, keeping the SHSAT, and expanding merit-based financial aid.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Infrastructure investment, including upgrading sewer and stormwater systems and improving public transit, saying growth requires that \"infrastructure and public safety must come first.\"",
           "quote": "I believe in smart growth, but infrastructure and public safety must come first.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Public safety, including increasing NYPD staffing and training to restore a visible police presence.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "police_funding",
           "stance": "supports",
-          "summary": "Says restoring safety requires \"increasing NYPD manpower, investing in better training, and ensuring officers can protect our communities effectively and responsibly.\"",
-          "quote": "increasing NYPD manpower, investing in better training, and ensuring officers can protect our communities effectively and responsibly",
-          "sources": ["s5"]
-        },
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Supports keeping the SHSAT admissions test and expanding merit-based financial aid rather than broader admissions changes.",
-          "sources": ["s5"]
-        },
-        {
-          "issue": "housing_supply",
-          "stance": "mixed",
-          "summary": "Supports continued housing growth but says infrastructure investment (sewer, stormwater, transit) must keep pace, warning that \"without investment in the foundation, we risk overburdening the very neighborhoods we are trying to grow.\"",
-          "quote": "Without investment in the foundation, we risk overburdening the very neighborhoods we are trying to grow.",
-          "sources": ["s5"]
+          "summary": "Branch summarizes his platform as opposing defunding police and supporting additional NYPD funding for staffing and training.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [],
@@ -183,6 +222,20 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://jimowles.org/news/candidate-answers-to-joldc-patrick-martinez-for-ny-assembly-district-30",
+      "title": "Candidate Answers to JOLDC: Patrick Martinez for NY Assembly District 30",
+      "publisher": "Jim Owles Liberal Democratic Club",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.branch.vote/races/2026-new-york-general-election-ny-state-state-representative-ny-state-house-30/candidates/brandon-p-castro",
+      "title": "Brandon P. Castro platform & website",
+      "publisher": "Branch",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
