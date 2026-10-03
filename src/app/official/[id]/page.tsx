@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Avatar } from "@/components/Avatar";
 import { ElectionCard } from "@/components/ElectionCard";
 import { PartyChip } from "@/components/PartyChip";
 import { ProfileTabs } from "@/components/ProfileTabs";
@@ -40,7 +39,6 @@ export default async function OfficialPage({
   const identity = (
     <>
       <div className="flex items-start gap-3.5 lg:flex-col lg:gap-4">
-        <Avatar size={64} />
         <div className="flex flex-col gap-1">
           <h1 className="font-serif text-[26px] font-bold leading-[1.1] tracking-[-0.01em] text-ink">
             {official.name}

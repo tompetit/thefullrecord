@@ -3,6 +3,7 @@ import { AiMarker } from "./AiMarker";
 import { SourceLink } from "./SourceLink";
 import { VoteBadge } from "./VoteBadge";
 
+const sameText = (a: string, b: string) => a.trim().replace(/\s+/g, " ").toLowerCase() === b.trim().replace(/\s+/g, " ").toLowerCase();
 const Dot = () => <span className="text-[#c9c0ac]">·</span>;
 
 /**
@@ -37,7 +38,7 @@ export function VoteCard({
 
       {vote.question && <p className="mt-3 font-sans text-xs leading-relaxed text-ink-60"><span className="font-semibold">Motion:</span> {vote.question}</p>}
 
-      {vote.aiSummary && (
+      {vote.aiSummary && !sameText(vote.aiSummary, vote.title) && (
         <>
           <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty">
             {vote.aiSummary}
