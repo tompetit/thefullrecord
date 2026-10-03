@@ -81,18 +81,9 @@
       ],
       "positions": [
         {
-          "issue": "housing_supply",
-          "stance": "supports",
-          "summary": "In a vote statement opposing a housing bill, said high housing costs stem from policies that impose construction mandates, limit permits, and restrict the land available for housing.",
-          "quote": "The high cost of housing is the product of bad public policy that has imposed expensive mandates on construction, limited the permits that can be issued, restricted the land available for housing, and flooded the market with subsidies that force up prices for all while hiding it for the subsidized.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Opposed H.R. 8, the Bipartisan Background Checks Act, in a House floor speech, saying it was designed to burden law-abiding gun owners rather than address crime.",
+          "summary": "Opposed H.R. 8, the Bipartisan Background Checks Act, in a House floor speech, describing it as a web of laws aimed at law-abiding gun owners.",
           "quote": "HR 8 is brought to us by the same organizations and politicians who have made no secret of their intention ultimately to strip law-abiding citizens of their right to defend themselves.",
           "sources": [
             "s7"
@@ -105,6 +96,15 @@
           "quote": "The legislation creates clear grounds of inadmissibility and deportability for aliens who are members of criminal gangs or who have promoted, aided, conspired with, or participated in gang activities.",
           "sources": [
             "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "His campaign website calls for complete repeal of the Affordable Care Act, to be followed by tax advantages for individuals, Health Savings Accounts and other changes.",
+          "quote": "There is no substitute for its complete repeal.",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -177,7 +177,26 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign issues page lists protecting Medicare and Medi-Cal and reducing barriers to obtaining and keeping coverage among his healthcare priorities.",
+          "quote": "Protect Medicare and Medi-Cal Reduce barriers to obtaining and keeping coverage",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign issues page says he opposes unpredictable tariffs that raise costs and hurt farmers.",
+          "quote": "Oppose unpredictable tariffs that raise costs and hurt farmers",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     }
@@ -238,6 +257,22 @@
       "publisher": "Office of Rep. Tom McClintock",
       "kind": "official",
       "date": "2021-03-10"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.tommcclintock.com/issues/healthcare-and-obamacare",
+      "title": "Healthcare and Obamacare",
+      "publisher": "McClintock for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.votemasuda.com/issues",
+      "title": "Issues | Policy Positions",
+      "publisher": "Michael Masuda for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",
