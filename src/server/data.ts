@@ -24,7 +24,6 @@
 
 import type {
   AttendanceEntry,
-  Digest,
   Official,
   SaidDidPair,
   SiteStats,
@@ -761,49 +760,3 @@ export const attendance: AttendanceEntry[] = [];
  */
 export const saidDidPairs: SaidDidPair[] = [];
 export const saidDidTotal = 0;
-
-export const digest: Digest = {
-  dateRangeLabel: "Jun 26 – Jul 2, 2026",
-  items: [
-    {
-      officialId: "lincoln-restler",
-      officialName: "Lincoln Restler",
-      chamber: "Council",
-      billNumber: "Int 0966-2026",
-      vote: "yes",
-      summary:
-        "Establishes a New York City rental assistance voucher program, passed at the Fiscal Year 2027 budget meeting.",
-      outcome: "Passed 51–0",
-      dateLabel: "Jun 30",
-      sourceUrl:
-        "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=8122647&GUID=8AD7CBC2-C463-46AD-9660-BD56A314108E",
-    },
-    {
-      officialId: "lincoln-restler",
-      officialName: "Lincoln Restler",
-      chamber: "Council",
-      billNumber: "Res 0539-2026",
-      vote: "yes",
-      summary:
-        "Adopts New York City's Fiscal Year 2027 expense budget, appropriating the amounts necessary for the support of city government.",
-      outcome: "Passed 45–6",
-      dateLabel: "Jun 30",
-      sourceUrl:
-        "https://legistar.council.nyc.gov/LegislationDetail.aspx?ID=8123423&GUID=1E07A91E-832D-4F62-A654-5957F7AF81E0",
-    },
-    {
-      officialId: "dan-goldman",
-      officialName: "Daniel S. Goldman",
-      chamber: "U.S. House",
-      billNumber: "H.Con.Res. 108",
-      vote: "yes",
-      summary:
-        "Directs the President, under the War Powers Resolution, to remove United States Armed Forces from hostilities in Lebanon.",
-      outcome: "Failed House 189–235",
-      dateLabel: "Jun 30",
-      sourceUrl: "https://clerk.house.gov/evs/2026/roll232.xml",
-    },
-  ],
-  quietLine:
-    "No other recorded floor votes are on file for your representatives this week — Albany's 2026 session adjourned June 10.",
-};

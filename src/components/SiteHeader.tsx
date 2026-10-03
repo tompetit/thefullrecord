@@ -7,7 +7,7 @@ import { useAddress } from "./useAddress";
 
 type Section = "reps" | "votes" | "guide" | "data";
 
-/** Which primary section a path belongs to (null: home, digest, 404…). */
+/** Which primary section a path belongs to (null: home, 404…). */
 export function sectionFor(pathname: string): Section | null {
   const top = pathname.split("/")[1] ?? "";
   if (top === "representatives" || top === "official") return "reps";

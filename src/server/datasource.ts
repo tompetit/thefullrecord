@@ -19,9 +19,7 @@ import { lookupOfficials, resolveOfficialByDistrictKey } from "./live/lookup";
 import { getSnapshots, snapshotAttendance, snapshotVotes } from "./live/snapshot";
 import type {
   AttendanceEntry,
-  Digest,
   LookupContext,
-  DigestItem,
   Official,
   OfficialGroup,
   Paginated,
@@ -53,7 +51,6 @@ export interface DataSource {
   getSponsorships(officialId: string): Promise<Paginated<Sponsorship>>;
   getAttendance(officialId: string): Promise<Paginated<AttendanceEntry>>;
   getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>>;
-  getDigest(address: string): Promise<Digest>;
   /** 2026 slate for a seat, or when it's next on the ballot. */
   getSeatElection(
     districtKey: string
@@ -154,40 +151,6 @@ class HybridDataSource implements DataSource {
     const { reviewedPairsFor } = await import("./editorial");
     const items = await reviewedPairsFor(officialId);
     return { items, total: items.length, page: 1, pageSize: items.length };
-  }
-
-  async getDigest(address: string): Promise<Digest> {
-    const lookup = await this.getOfficialsByAddress(address);
-    if (!lookup.ok) return { dateRangeLabel: "Address could not be matched", items: [], quietLine: "Try a complete U.S. street address, with city and ZIP code, to see your representatives’ records." };
-    const officials = lookup.groups.flatMap((g) => g.officials);
-    const items: DigestItem[] = [];
-    const dates: string[] = [];
-    let withoutRecords = 0;
-    for (const official of officials) {
-      const recent = await mergedVotes(official);
-      if (!recent.length) { withoutRecords += 1; continue; }
-      for (const v of recent.slice(0, 2)) {
-        dates.push(v.date);
-        items.push({
-          officialId: official.id,
-          officialName: official.name,
-          chamber: v.chamber,
-          billNumber: v.billNumber,
-          vote: v.vote,
-          summary: `${v.question ? `${v.question}: ` : ""}${v.aiSummary ?? v.title}`,
-          outcome: v.outcome,
-          dateLabel: v.dateLabel,
-          sourceUrl: v.sourceUrl,
-        });
-      }
-    }
-    dates.sort();
-    const label = (date: string) => new Date(`${date}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
-    return {
-      dateRangeLabel: dates.length ? `${label(dates[0])} – ${label(dates[dates.length - 1])}` : "No records available",
-      items,
-      quietLine: `Up to two latest available votes per representative. Coverage varies by chamber and is not a complete activity report.${withoutRecords ? ` No votes are currently in our dataset for ${withoutRecords} representative${withoutRecords === 1 ? "" : "s"}; this does not mean they did not vote.` : ""}`,
-    };
   }
 
   async getSeatElection(districtKey: string) {

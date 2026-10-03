@@ -134,25 +134,6 @@ export interface SaidDidPair {
   whyNote?: string;
 }
 
-export interface DigestItem {
-  officialId: string;
-  officialName: string;
-  chamber: string;
-  billNumber: string;
-  vote: VoteChoice;
-  summary: string;
-  outcome: string;
-  dateLabel: string;
-  sourceUrl: string;
-}
-
-export interface Digest {
-  dateRangeLabel: string;
-  items: DigestItem[];
-  /** e.g. "Your other 3 representatives had no recorded votes this week." */
-  quietLine: string;
-}
-
 export interface Paginated<T> {
   items: T[];
   total: number;
