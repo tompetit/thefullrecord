@@ -43,12 +43,32 @@ function LookupNotes({ context }: { context: LookupContext }) {
 export default async function RepresentativesPage({
   searchParams,
 }: {
-  searchParams: Promise<{ address?: string }>;
+  searchParams: Promise<{ address?: string; sample?: string }>;
 }) {
   const query = await searchParams;
   const address = typeof query.address === "string" ? query.address.trim().slice(0, 250) : "";
   const isSample = !address;
   const ds = getDataSource();
+
+  // No address: just the form and a link to a sample district.
+  if (isSample && query.sample !== "1") {
+    return (
+      <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
+        <div className="px-[26px] pt-7 lg:px-10">
+          <h1 className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink lg:text-[32px]">
+            Your representatives
+          </h1>
+          <AddressLookupForm />
+          <Link
+            href="/representatives?sample=1"
+            className="mt-3 inline-flex min-h-11 items-center font-sans text-[13.5px] text-ink-60 underline hover:text-ink"
+          >
+            See an example
+          </Link>
+        </div>
+      </main>
+    );
+  }
   const [result, stats] = await Promise.all([
     ds.getOfficialsByAddress(address),
     ds.getSiteStats(),
