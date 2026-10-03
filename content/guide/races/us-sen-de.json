@@ -10,37 +10,96 @@
   "context": [
     {
       "text": "Incumbent Chris Coons (D) won the September 15, 2026 Democratic primary with 78% of the vote. Michael Katz, a physician and former Delaware state senator, won the Republican primary with 77.3%. Travis Stevens is running as a write-in candidate unaffiliated with either major party.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "chris-coons",
       "name": "Chris Coons",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Senator (since 2010)",
       "summary": {
         "text": "Chris Coons is the Democratic incumbent seeking re-election. He previously served as executive of New Castle County and president of the New Castle County Council, and has served in the U.S. Senate since 2010.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Greenwich, Connecticut, in 1963; earned a bachelor's degree in chemistry and political science from Amherst College (1985), an M.A.R. from Yale Divinity School, and a J.D. from Yale Law School (both 1992).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a nonprofit executive and attorney before serving as president of the New Castle County Council (2001-2005) and executive of New Castle County (2005-2010).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His Senate issues page says he is working to protect and strengthen Medicaid, Medicare and the Affordable Care Act, and to make expanded ACA marketplace tax credits permanent.",
+          "quote": "protecting and strengthening the programs that give people a health care lifeline: Medicaid, Medicare, and the Affordable Care Act",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His Senate issues page says he is fighting to restore and protect reproductive freedom, including access to abortion, and supports the Reproductive Freedom for Women Act, which would put the protections of Roe v. Wade into federal law.",
+          "quote": "He is fighting to restore and protect reproductive freedom including access to abortion, birth control, and fertility treatments",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a February 2026 statement on the Supreme Court's tariff ruling, he criticized the administration's tariffs as unlawful and unwise and said they raised prices on everyday goods.",
+          "quote": "President Trump’s arbitrary tariff regime is as unlawful as it is unwise.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In an April 2026 statement, he said he voted to end the Iran war under a War Powers Resolution, and called the war one waged without a publicly stated rationale, strategy or goal.",
+          "quote": "I just voted once again to end President Trump’s war of choice with Iran",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Introduced the PUBLIC SAFETY Act in January 2026 with Sen. Cortez Masto, which would redirect almost $75 billion in ICE funding from the 2025 reconciliation law to local law enforcement programs.",
+          "quote": "introduced the PUBLIC SAFETY Act to redirect almost $75 billion in funding passed in the Republicans’ One Big Beautiful Bill Act (OBBBA) from Immigration and Customs Enforcement (ICE)",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves as Vice Chairman of the Senate Select Committee on Ethics and is a member of the Judiciary Committee, Foreign Relations Committee, Appropriations Committee (Ranking Member, Defense Subcommittee), and Small Business and Entrepreneurship Committee in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.chriscoons.com/",
@@ -50,66 +109,110 @@
     {
       "id": "michael-katz",
       "name": "Michael Katz",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "currentRole": "Former Delaware State Senator",
       "summary": {
         "text": "Michael Katz is the Republican nominee. He is a pediatric critical care anesthesiologist, small-business owner, and former Delaware state senator running on term limits, fiscal accountability, and a \"people over party\" message.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Grew up in a working-class family and was the first man in his family to attend college.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Recruited from Boston Children's Hospital to A.I. duPont Hospital for Children roughly 30 years ago; has practiced as a pediatric critical care anesthesiologist in Delaware for over 20 years.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served as a member of the Delaware State Senate.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Bringing real-world medical and business problem-solving experience to the Senate.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "A \"Delaware first, people over party\" approach, working across party lines as he says he did in the state senate.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Government accountability and reform, including congressional term limits, fiscal responsibility, and reducing the influence of special interests.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "His campaign platform backs passing the SAVE Act and lists mandatory proof of citizenship as part of his voter integrity framework.",
+          "quote": "Mandatory Proof of Citizenship — Passing the SAVE Act",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "guns",
           "stance": "opposes",
-          "summary": "Frames his campaign around fiscal responsibility and rooting out government waste rather than raising taxes, and says he supports congressional term limits and reducing special-interest influence.",
-          "sources": ["s3"]
+          "summary": "His campaign platform says he would oppose federal red-flag mandates and firearm registries.",
+          "quote": "I will oppose any federal red-flag mandates, firearm registries, or unconstitutional restrictions",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "His campaign platform says he would support policies that preserve women's sports as a competitive category for biological females.",
+          "quote": "I will support policies that preserve women's sports as a competitive category for biological females",
+          "sources": [
+            "s11"
+          ]
         }
       ],
       "record": [
         {
           "text": "Served as a member of the Delaware State Senate before running for U.S. Senate.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Sponsored and passed SB 241 (146th General Assembly), establishing the Brandywine Valley National Scenic Byway Advisory Board to oversee preservation of the byway corridor.",
           "date": "2012-06-06",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Sponsored Senate Resolution No. 14, expressing the Senate's intent to stream live audio of its sessions.",
           "date": "2011-05-04",
           "kind": "bill",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -118,31 +221,44 @@
     {
       "id": "travis-stevens",
       "name": "Travis Stevens",
-      "parties": ["Unaffiliated"],
+      "parties": [
+        "Unaffiliated"
+      ],
       "incumbent": false,
       "ballotNote": "Write-in candidate",
       "summary": {
         "text": "Travis Stevens is an unaffiliated write-in candidate who publishes a daily public letter to Delaware voters at travisjackstevens.com covering healthcare, foreign policy, housing, and democratic reform.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Publishes a series of daily public letters to Delaware voters at travisjackstevens.com covering healthcare, foreign policy, housing, and democratic reform.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Universal healthcare access and lower prescription drug prices.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Expanded housing supply and affordability measures statewide.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign finance reform and ranked-choice voting; says he accepts no Super PAC money.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -150,13 +266,17 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports universal healthcare access and opposes pharmaceutical industry pricing practices.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "Supports expanded housing supply and affordability measures statewide.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -166,11 +286,94 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026", "title": "United States Senate election in Delaware, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Chris_Coons", "title": "Chris Coons", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026", "title": "Michael Katz and Travis Stevens - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://legis.delaware.gov/json/BillDetail/GetPdfDocument?fileAttachmentId=41506", "title": "Senate Bill No. 241, 146th General Assembly (Brandywine Valley National Scenic Byway)", "publisher": "Delaware General Assembly", "kind": "official", "date": "2012-06-06" },
-    { "id": "s5", "url": "https://legis.delaware.gov/json/BillDetail/GetPdfDocument?fileAttachmentId=41616", "title": "Senate Resolution No. 14, 146th General Assembly (live-stream audio of Senate sessions)", "publisher": "Delaware General Assembly", "kind": "official", "date": "2011-05-04" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026",
+      "title": "United States Senate election in Delaware, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Chris_Coons",
+      "title": "Chris Coons",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Delaware,_2026",
+      "title": "Michael Katz and Travis Stevens - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://legis.delaware.gov/json/BillDetail/GetPdfDocument?fileAttachmentId=41506",
+      "title": "Senate Bill No. 241, 146th General Assembly (Brandywine Valley National Scenic Byway)",
+      "publisher": "Delaware General Assembly",
+      "kind": "official",
+      "date": "2012-06-06"
+    },
+    {
+      "id": "s5",
+      "url": "https://legis.delaware.gov/json/BillDetail/GetPdfDocument?fileAttachmentId=41616",
+      "title": "Senate Resolution No. 14, 146th General Assembly (live-stream audio of Senate sessions)",
+      "publisher": "Delaware General Assembly",
+      "kind": "official",
+      "date": "2011-05-04"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.coons.senate.gov/issues/health-care/",
+      "title": "Health Care - Senator Christopher Coons",
+      "publisher": "Office of Senator Chris Coons",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.coons.senate.gov/issues/womens-rights/",
+      "title": "Women’s Rights - Senator Christopher Coons",
+      "publisher": "Office of Senator Chris Coons",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.coons.senate.gov/news/press-releases/senator-coons-statement-on-supreme-court-tariff-decision/",
+      "title": "Senator Coons statement on Supreme Court tariff decision",
+      "publisher": "Office of Senator Chris Coons",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.coons.senate.gov/news/press-releases/senator-coons-statement-supporting-war-powers-resolution/",
+      "title": "Senator Coons statement supporting War Powers Resolution",
+      "publisher": "Office of Senator Chris Coons",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.coons.senate.gov/news/press-releases/senators-coons-cortez-masto-introduce-legislation-to-redirect-excessive-ice-funding-to-local-police/",
+      "title": "Senators Coons, Cortez Masto introduce legislation to redirect excessive ICE funding to local police",
+      "publisher": "Office of Senator Chris Coons",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://drmikekatz.com/platform.html",
+      "title": "Platform - Dr. Mike Katz for U.S. Senate",
+      "publisher": "Katz for Delaware campaign",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Chris Coons's key floor votes and FEC finance totals are filled in separately by script. Michael Katz and Travis Stevens's positions are drawn entirely from their 2026 Ballotpedia Candidate Connection survey responses; no independent campaign websites with additional issue detail were located within the research time budget for Stevens beyond his personal site's stated focus areas."
