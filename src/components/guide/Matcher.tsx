@@ -100,7 +100,8 @@ export function Matcher({ races, placeLabel, initialStand }: { races: GuideRace[
               <p className="font-serif text-[16px] leading-snug text-ink">{ISSUES[key]}</p>
             </div>
             <div className="grid grid-cols-3 gap-1.5 sm:flex">
-              {CHOICES.map((choice) => <label key={choice.value} className="flex min-h-11 cursor-pointer items-center justify-center rounded-md border-[1.5px] border-chip-border px-2 text-center text-[13px] font-semibold leading-tight text-ink-60 hover:border-ink-45 has-checked:border-ink has-checked:bg-ink has-checked:text-paper has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-accent sm:px-3">
+              {/* A selected skip is the quiet default — it must not read like an answer. */}
+              {CHOICES.map((choice) => <label key={choice.value} className={`flex min-h-11 cursor-pointer items-center justify-center rounded-md border-[1.5px] border-chip-border px-2 text-center text-[13px] font-semibold leading-tight text-ink-60 hover:border-ink-45 ${choice.value === "skip" ? "has-checked:border-ink-45 has-checked:bg-canvas has-checked:text-ink-80" : "has-checked:border-ink has-checked:bg-ink has-checked:text-paper"} has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-accent sm:px-3`}>
                 <input type="radio" name={`stand-${key}`} value={choice.value} checked={current === choice.value} onChange={() => answer(key, choice.value)} className="sr-only" />
                 {choice.value === "agree" && <span aria-hidden className="mr-1">✓</span>}{choice.value === "disagree" && <span aria-hidden className="mr-1">✕</span>}{choice.label}
               </label>)}
