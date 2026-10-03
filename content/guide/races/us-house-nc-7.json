@@ -52,7 +52,26 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "In a September 2021 statement, opposed H.R. 3755, legislation to preempt almost all state and federal restrictions on abortion, and said he will keep fighting for pro-life protections.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "I strongly oppose the extreme abortion bill brought to the House floor today that allows abortion for any reason, at any stage of pregnancy, even until right before birth."
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "In a June 2023 statement, supported overturning the ATF pistol-brace rule as an infringement on gun owners' rights.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "The Biden Administration's unconstitutional pistol brace rule infringes on the Second Amendment rights of millions of law-abiding gun owners, including many disabled combat veterans"
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Agriculture, the Committee on Transportation and Infrastructure, where he chairs the Highways and Transit Subcommittee and is vice chair of the General Farm Commodities, Risk Management, and Credit Subcommittee, and the Committee on Science, Space, and Technology.",
@@ -111,12 +130,22 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Lists expanding Medicaid among her top campaign priorities.",
+          "summary": "In a Port City Daily questionnaire, said she would fund a tax cut for lower earners with a surtax on incomes over $1 million and an excise tax on large corporations that do not pay a living wage.",
           "sources": [
-            "s4"
-          ]
+            "s6"
+          ],
+          "quote": "I would pay for this cut by putting a tiered surtax on incomes over $1 million per year."
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a Port City Daily questionnaire, said the administration needs congressional approval for continued military action in Iran.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "Yes, absolutely, the administration needs Congressional approval for continued military action in Iran."
         }
       ],
       "record": [],
@@ -211,6 +240,29 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026"
+    },
+    {
+      "id": "s6",
+      "url": "https://portcitydaily.com/kim-hardy-for-congress/",
+      "title": "Kim Hardy 2026 candidate questionnaire",
+      "publisher": "Port City Daily (candidate questionnaire)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://rouzer.house.gov/news/documentsingle.aspx?DocumentID=558",
+      "title": "Rouzer Statement on House Democrats' Extreme Abortion Bill",
+      "publisher": "Office of Rep. David Rouzer",
+      "kind": "official",
+      "date": "2021-09-24"
+    },
+    {
+      "id": "s8",
+      "url": "https://rouzer.house.gov/news/documentsingle.aspx?DocumentID=990",
+      "title": "Rouzer Votes to End Unconstitutional Pistol Brace Rule",
+      "publisher": "Office of Rep. David Rouzer",
+      "kind": "official",
+      "date": "2023-06-13"
     }
   ],
   "researchedAt": "2026-09-25",
