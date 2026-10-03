@@ -11,33 +11,46 @@
   "context": [
     {
       "text": "Incumbent Republican Glenn Thompson and Democrat Ray Bilger each ran unopposed in their May 19, 2026 primaries.",
-      "sources": ["s1", "s3"]
+      "sources": [
+        "s1",
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "glenn-thompson",
       "name": "Glenn Thompson",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Ran unopposed in the May 19 Republican primary",
       "currentRole": "U.S. Representative (since 2009); Chair, House Committee on Agriculture",
       "summary": {
         "text": "Glenn Thompson is the incumbent U.S. Representative for Pennsylvania's 15th District, serving since 2009 (representing the old 5th District from 2009–2019). He chairs the House Committee on Agriculture.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in Howard, Pennsylvania, in 1959; earned a bachelor's degree in therapeutic rehabilitation from Pennsylvania State University in 1981 and an M.Ed. from Temple University in 1998.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Worked as a rehabilitation therapist and volunteer firefighter before elected office.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served on the Bald Eagle Area School Board from 1990 to 1995 and chaired the Centre County Republican Party from 2002 to 2008.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
@@ -46,38 +59,45 @@
           "issue": "guns",
           "stance": "opposes",
           "summary": "Voted no on the Bipartisan Background Checks Act of 2019, which would have required background checks on private firearm transfers.",
-          "sources": ["s1", "s5"]
+          "sources": [
+            "s1",
+            "s5"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Voted yes on the Pain-Capable Unborn Child Protection Act, which would restrict abortion later in pregnancy.",
-          "sources": ["s1", "s7"]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Voted no on the American Dream and Promise Act of 2019, which sought to protect certain immigrants from removal and provide a path to permanent residency.",
-          "sources": ["s6"]
+          "sources": [
+            "s1",
+            "s7"
+          ]
         }
       ],
       "record": [
         {
           "text": "Chairs the House Committee on Agriculture for the 2025–2026 term (previously Chairman in 2023–2024 and Ranking Member in 2021–2022); also serves on the Committee on Education and the Workforce.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Voted no on the Bipartisan Background Checks Act of 2019 (H.R. 8), which passed the House 240–190.",
           "date": "2019-02-27",
           "kind": "vote",
-          "sources": ["s1", "s5"]
+          "sources": [
+            "s1",
+            "s5"
+          ]
         },
         {
           "text": "Voted no on the American Dream and Promise Act of 2019 (H.R. 6), which passed the House 237–187.",
           "date": "2019-06-04",
           "kind": "vote",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "website": "https://thompson.house.gov",
@@ -87,40 +107,56 @@
     {
       "id": "ray-bilger",
       "name": "Ray Bilger",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Ran unopposed in the May 19 Democratic primary",
       "summary": {
         "text": "Ray Bilger is a Democratic candidate and former NSA Technical Director for Cyber Analysis (2015-2017) from Centre County, running to bring 'opportunity and hope back to rural PA.'",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Bellefonte and grew up in Pleasant Gap, Centre County, Pennsylvania; entered the Air Force in August 1986 as an Airborne Cryptologic Linguist.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Served in both Desert Shield and Desert Storm over a 35-year career as a security officer and intelligence analyst for the Air Force, National Security Agency, and State Department.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Served as NSA Technical Director for Cyber Analysis from 2015 to 2017.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says the district needs better jobs, higher quality and accessible healthcare, and improved infrastructure.",
           "quote": "What motivates me as a candidate is bringing hope and opportunity back to the 15th Congressional District, and to do that, we need better jobs, higher quality, accessible healthcare and improved infrastructure.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says Congress should reclaim its constitutional authority over spending and tariffs rather than ceding it to the executive branch.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Calls for a single standard of accountability applied to ICE and CBP officers, including visible identification, adherence to use-of-force policy, and independent review of enforcement-related deaths.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -129,27 +165,45 @@
           "stance": "supports",
           "summary": "Says the right to abortion should be codified in federal law and access should be available without political interference.",
           "quote": "Every Pennsylvanian should have access to reproductive healthcare, including abortion, without political interference. Those decisions belong with a woman, her family, and her doctor—not with Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports protecting affordable insurance coverage, lowering prescription drug costs, and defending Medicare and Medicaid; criticizes Rep. Thompson for voting against extending enhanced ACA premium tax credits.",
-          "quote": "For four years, enhanced tax credits through Pennsylvania's health insurance marketplace, Pennie, helped hundreds of thousands of Pennsylvanians afford coverage. When Congress had the opportunity to extend those credits, Glenn Thompson voted no.",
-          "sources": ["s2"]
+          "quote": "For four years, enhanced tax credits through Pennsylvania’s health insurance marketplace, Pennie, helped hundreds of thousands of Pennsylvanians afford coverage. When Congress had the opportunity to extend those credits, Glenn Thompson voted no",
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "guns",
-          "stance": "mixed",
-          "summary": "Describes himself as a gun owner who supports the Second Amendment while also supporting background checks that keep guns away from people who pose a danger.",
+          "stance": "supports",
+          "summary": "Describes himself as a gun owner who supports the Second Amendment and also backs background checks that keep guns from people who pose a danger, and says he favors gun laws alongside it.",
           "quote": "A gun owner and veteran can believe in the Second Amendment while also believing in common-sense gun laws.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "issue": "immigration_enforcement",
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Calls for a War Powers Resolution to rein in the Iran war and restore Congress's constitutional authority to declare war.",
+          "quote": "We must support a War Powers Resolution now to rein in Trump’s war in Iran.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "israel_aid",
           "stance": "mixed",
-          "summary": "Supports securing the border and creating legal immigration pathways, while calling for stricter accountability standards on ICE and CBP enforcement.",
-          "sources": ["s2"]
+          "summary": "Says Israel has the right to defend itself but that U.S. military aid must be conditioned on compliance with the laws of war and the terms of the ceasefire; supports the Ceasefire Compliance Act.",
+          "quote": "Military aid must be conditioned on compliance with the laws of war and the terms of the ceasefire.",
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],

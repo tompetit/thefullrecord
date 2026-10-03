@@ -11,37 +11,53 @@
   "context": [
     {
       "text": "Incumbent Republican Guy Reschenthaler and Democrat Alan Bradstock each advanced from their May 19, 2026 primaries.",
-      "sources": ["s1", "s3"]
+      "sources": [
+        "s1",
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "guy-reschenthaler",
       "name": "Guy Reschenthaler",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the May 19 Republican primary",
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
         "text": "Guy Reschenthaler is the incumbent U.S. Representative for Pennsylvania's 14th District, a former Navy JAG attorney who previously served in the Pennsylvania State Senate and as an Allegheny County magisterial district judge.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Served as a Navy Judge Advocate General (JAG) attorney.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served as an Allegheny County Magisterial District Court judge, 2013–2015.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served in the Pennsylvania State Senate representing the 37th District, 2015–2019, before being elected to the U.S. House in 2018.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served as Vice Chairman of the House Committee on Rules and on the House Committee on Appropriations (Energy and Water Development, Interior and Environment, and State-Foreign Operations subcommittees) during the 118th Congress (2023–2024). In the 119th Congress (2025–2026), serves as House Chief Deputy Whip and a member of the House Appropriations Committee.",
-          "sources": ["s1", "s4"]
+          "sources": [
+            "s1",
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -50,49 +66,62 @@
           "issue": "guns",
           "stance": "opposes",
           "summary": "Voted no on the Bipartisan Background Checks Act of 2019, which would have required background checks on private firearm transfers.",
-          "sources": ["s1", "s5"]
-        },
-        {
-          "issue": "healthcare_public",
-          "stance": "opposes",
-          "summary": "Voted no on the Elijah E. Cummings Lower Drug Costs Now Act, which sought to have Medicare negotiate drug prices and expand Medicare coverage.",
-          "sources": ["s1", "s6"]
+          "sources": [
+            "s1",
+            "s5"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Voted no on the American Dream and Promise Act of 2019, which sought to protect certain immigrants from removal and provide a path to permanent residency.",
-          "sources": ["s1", "s7"]
+          "summary": "In May 2023 praised House passage of H.R. 2, the Secure the Border Act, a package his statement says would, among other things, increase Border Patrol agents, end catch and release and resume border wall construction.",
+          "quote": "The Secure the Border Act is the most comprehensive immigration package passed through a chamber of Congress in modern history.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [
         {
           "text": "Vice Chairman of the House Committee on Rules and member of the House Committee on Appropriations (Energy and Water Development, Interior and Environment, and State-Foreign Operations subcommittees) during the 118th Congress, 2023–2024.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "In the 119th Congress (2025–2026), serves as House Chief Deputy Whip and a member of the House Appropriations Committee.",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Voted no on the Bipartisan Background Checks Act of 2019 (H.R. 8), which passed the House 240–190.",
           "date": "2019-02-27",
           "kind": "vote",
-          "sources": ["s1", "s5"]
+          "sources": [
+            "s1",
+            "s5"
+          ]
         },
         {
           "text": "Voted no on the Elijah E. Cummings Lower Drug Costs Now Act (H.R. 3), which passed the House 230–192.",
           "date": "2019-12-12",
           "kind": "vote",
-          "sources": ["s1", "s6"]
+          "sources": [
+            "s1",
+            "s6"
+          ]
         },
         {
           "text": "Voted no on the American Dream and Promise Act of 2019 (H.R. 6), which passed the House 237–187.",
           "date": "2019-06-04",
           "kind": "vote",
-          "sources": ["s1", "s7"]
+          "sources": [
+            "s1",
+            "s7"
+          ]
         }
       ],
       "website": "https://reschenthaler.house.gov",
@@ -102,52 +131,53 @@
     {
       "id": "alan-bradstock",
       "name": "Alan Bradstock",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19 Democratic primary",
       "summary": {
         "text": "Alan Bradstock is a Democratic candidate, Desert Storm-era Army veteran, and retired FBI Special Agent from western Pennsylvania who led investigations into public corruption, terrorism, and violent crime during a 20-year FBI career.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Served as a U.S. Army aviation officer, including during the fall of the Berlin Wall.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Spent 20 years as an FBI Special Agent, leading investigations into public corruption, terrorism, and violent crime, and held coordination roles with the CIA, DEA, and the U.S. Embassy in Ottawa.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Calls for policies that raise wages, strengthen workers' rights, and expand opportunities for small businesses so economic growth benefits working families rather than just the wealthy.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says no one should go bankrupt because they got sick, citing rising premiums and medical debt as reasons to expand access to affordable health care.",
           "quote": "In the richest country on earth, no one should go bankrupt just because they got sick.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Calls for stronger campaign finance laws, greater transparency in political donations, and limits on dark money to reduce the influence of wealthy donors and corporate lobbyists.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Committed to protecting Social Security and Medicare and expanding access to affordable health care.",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "minimum_wage",
-          "stance": "supports",
-          "summary": "Calls for policies that raise wages and strengthen workers' rights.",
-          "sources": ["s3"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     }
@@ -197,6 +227,14 @@
       "publisher": "Office of the Clerk, U.S. House of Representatives",
       "kind": "official",
       "date": "2019-06-04"
+    },
+    {
+      "id": "s8",
+      "url": "https://reschenthaler.house.gov/media/press-releases/reschenthaler-applauds-house-passage-of-the-secure-the-border-act",
+      "title": "Reschenthaler Applauds House Passage of the Secure the Border Act",
+      "publisher": "Office of Rep. Guy Reschenthaler",
+      "kind": "official",
+      "date": "2023-05-11"
     }
   ],
   "researchedAt": "2026-09-25",
