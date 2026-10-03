@@ -58,7 +58,62 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her House issues page says she introduced a bump-stock ban and cosponsored bills to ban assault weapons and require background checks on all gun purchases.",
+          "quote": "Additionally, I have co-sponsored bills to ban assault weapons and require comprehensive background checks for all gun purchases.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her House issues page says she supports a transition to a clean energy economy that significantly reduces greenhouse gas emissions.",
+          "quote": "I support a transition to a clean energy economy that could create millions of good-paying jobs while significantly reducing greenhouse gas emissions.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Her House issues page says she cosponsored the Raise the Wage Act, which would raise the minimum wage to $15 per hour.",
+          "quote": "I have co-sponsored the Raise the Wage Act, which would raise the minimum wage to $15 per hour.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire she answered yes to reinstating Affordable Care Act premium subsidies, and said Medicaid work requirements are a ploy to reduce the Medicaid rolls.",
+          "quote": "The action by the Republican Congress to allow the premium tax credits to expire has forced thousands of Nevadans to either lose their insurance or pay exorbitant premiums",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent questionnaire she agreed that President Trump's tariffs have harmed Nevada.",
+          "quote": "President Trump's tariffs have driven up the cost of living in Southern Nevada and caused a downturn in our tourism economy, leading to lost jobs and less revenue to support critical government services",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent questionnaire she said she opposes the SAVE America Act.",
+          "quote": "would disenfranchise millions of Americans from voting through onerous voter registration and identification requirements, and restrictions on mail-in ballot access.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
       "bioguideId": "T000468"
@@ -128,7 +183,7 @@
         {
           "issue": "school_choice",
           "stance": "supports",
-          "summary": "Says she believes firmly in expanded funding of Opportunity Scholarships, which fund private-school tuition for lower-income families, and that parents alone should make critical decisions about their child's education.",
+          "summary": "Says she believes firmly in expanded funding of Opportunity Scholarships so more lower-income families can send their children to the schools that best fit them.",
           "quote": "I believe firmly in exanded funding of Opportunity Scholarships which would allow more underprivileged families to send their children to schools that are the best fit for them.",
           "sources": [
             "s3"
@@ -143,6 +198,42 @@
             "s6"
           ],
           "basis": "votes"
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire she said Congress should pass the SAVE America Act and called proof of citizenship to register a safeguard.",
+          "quote": "Requiring proof of citizenship to register to vote is a commonsense safeguard that helps protect election integrity.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire she said she supports extending the Affordable Care Act premium subsidies, and also wants action on prescription drug and out-of-pocket costs.",
+          "quote": "I support extending these subsidies so families do not face higher premiums",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent questionnaire she called tariffs a useful tool but said they should be targeted and used strategically rather than become permanent policies; she answered \"in the middle\" on whether they have harmed Nevada.",
+          "quote": "they should be targeted and used strategically, not become permanent policies that drive up costs for Nevada families and small businesses.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire on the Iran war she said any sustained or expanded military campaign beyond limited defensive or targeted operations must have Congressional approval.",
+          "quote": "Any sustained or expanded military campaign beyond limited defensive or targeted operations must have clear objectives, a defined strategy, Congressional approval, and serve America's national security interests.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [
@@ -261,6 +352,34 @@
       "publisher": "Nevada Legislature, 82nd (2023) Session",
       "kind": "official",
       "date": "2023-04-17"
+    },
+    {
+      "id": "s7",
+      "url": "https://thenevadaindependent.com/article/heres-where-the-candidates-stand-on-the-issues-in-nevadas-1st-congressional-district",
+      "title": "Here's where the candidates stand on the issues in Nevada's 1st Congressional District",
+      "publisher": "The Nevada Independent",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://titus.house.gov/Issues/Issue/?IssueID=14894",
+      "title": "Preventing Gun Violence",
+      "publisher": "Office of Rep. Dina Titus",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://titus.house.gov/Issues/Issue/?IssueID=14890",
+      "title": "Protecting the Environment and Stopping Yucca Mountain",
+      "publisher": "Office of Rep. Dina Titus",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://titus.house.gov/Issues/Issue/?IssueID=14893",
+      "title": "Creating Jobs, Boosting Wages, and Investing in Infrastructure",
+      "publisher": "Office of Rep. Dina Titus",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
