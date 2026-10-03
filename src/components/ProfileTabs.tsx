@@ -19,13 +19,6 @@ import { AiMarker } from "./AiMarker";
 type Tab = "votes" | "sponsorships" | "attendance" | "said-vs-did";
 type VoteFilter = "all" | VoteKind;
 
-const TABS: Array<{ id: Tab; label: string }> = [
-  { id: "votes", label: "Votes" },
-  { id: "sponsorships", label: "Sponsorships" },
-  { id: "attendance", label: "Participation" },
-  { id: "said-vs-did", label: "Said vs. did" },
-];
-
 /**
  * Official-profile tab bar + feed. Tabs switch the feed in place;
  * the Votes tab filters via chips and refetches from the API.
@@ -43,6 +36,13 @@ export function ProfileTabs({
   attendance: Paginated<AttendanceEntry>;
   saidDidPairs: Paginated<SaidDidPair>;
 }) {
+  // A tab with nothing behind it is not offered.
+  const TABS: Array<{ id: Tab; label: string }> = [
+    { id: "votes", label: "Votes" },
+    ...(sponsorships.items.length ? [{ id: "sponsorships" as const, label: "Sponsorships" }] : []),
+    ...(attendance.items.length ? [{ id: "attendance" as const, label: "Participation" }] : []),
+    ...(saidDidPairs.items.length ? [{ id: "said-vs-did" as const, label: "Said vs. did" }] : []),
+  ];
   const [tab, setTab] = useState<Tab>("votes");
   const [voteFilter, setVoteFilter] = useState<VoteFilter>("all");
   const [votes, setVotes] = useState(initialVotes);
@@ -73,7 +73,7 @@ export function ProfileTabs({
 
   return (
     <div className="flex flex-col gap-4">
-      <nav aria-label="Record sections" className="flex flex-wrap items-end gap-x-[18px] border-b border-hairline font-sans text-[13px]">
+      {TABS.length > 1 && <nav aria-label="Record sections" className="flex flex-wrap items-end gap-x-[18px] border-b border-hairline font-sans text-[13px]">
         {TABS.map((t) => (
           <button
             key={t.id}
@@ -89,7 +89,7 @@ export function ProfileTabs({
             {t.label}
           </button>
         ))}
-      </nav>
+      </nav>}
 
       {tab === "votes" && (
         <div className="flex flex-col gap-3">
@@ -135,14 +135,7 @@ export function ProfileTabs({
         </div>
       )}
 
-      {tab === "sponsorships" &&
-        (sponsorships.items.length === 0 ? (
-          <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
-            No sponsored bills are on file for this official yet. Their full
-            sponsorship record is available from the official chamber records
-            linked on each vote.
-          </p>
-        ) : (
+      {tab === "sponsorships" && (
         <div className="flex flex-col gap-3">
           {sponsorships.items.map((s) => (
             <article
@@ -187,16 +180,9 @@ export function ProfileTabs({
             sponsored bills on file.
           </p>
         </div>
-        ))}
+      )}
 
-      {tab === "attendance" &&
-        (attendance.items.length === 0 ? (
-          <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
-            Source roll callss for this official are not yet available here.
-            Roll-call attendance is published by the chamber; each vote in the
-            Votes tab links to its official roll call.
-          </p>
-        ) : (
+      {tab === "attendance" && (
           <div className="flex flex-col gap-3">
             <p className="font-sans text-xs leading-relaxed text-ink-60">Participation reflects recorded votes in our collection, not physical attendance. A recorded non-vote does not tell us why the member did not vote. Coverage may be incomplete.</p>
             <section className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">
@@ -225,7 +211,7 @@ export function ProfileTabs({
               </p>
             )}
           </div>
-        ))}
+      )}
 
       {tab === "said-vs-did" && (
         <SaidVsDid pairs={saidDidPairs.items} total={saidDidPairs.total} />
