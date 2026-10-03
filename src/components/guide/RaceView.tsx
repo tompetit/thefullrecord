@@ -2,7 +2,7 @@ import Link from "next/link";
 import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
 import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
-import { CandidateProfile, FinanceLine } from "./CandidateProfile";
+import { CandidateProfile } from "./CandidateProfile";
 import { RaceStand } from "./StandClient";
 import {
   CitedText,
@@ -256,11 +256,6 @@ export function RaceView({ race }: { race: GuideRace }) {
                     </span>
                     {c.currentRole && (
                       <span className="mt-1 block font-sans text-[12px] leading-snug text-ink-60">{c.currentRole}</span>
-                    )}
-                    {c.finance && (
-                      <span className="mt-1 block font-sans text-[11.5px] text-ink-45">
-                        <FinanceLine candidate={c} />
-                      </span>
                     )}
                   </span>
                 </a>
