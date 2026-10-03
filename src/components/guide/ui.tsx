@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { REPO_URL } from "@/lib/site";
 import type {
   Cited,
   GuideRace,
@@ -14,48 +12,6 @@ export const KIND_LABEL: Record<SourceKind, string> = {
   news: "News report",
   reference: "Reference",
 };
-
-/**
- * Voter-guide section links — secondary navigation shown below the site
- * header on every /guide page (the site header carries the primary nav).
- */
-export function GuideNav({ active }: { active?: "guide" | "ballot" | "match" | "votes" | "method" }) {
-  const links: Array<[typeof active, string, string]> = [
-    ["guide", "/guide", "All races"],
-    ["ballot", "/guide/ballot", "My ballot"],
-    ["match", "/guide/match", "Compare by issue"],
-    ["votes", "/guide/key-votes", "Key votes"],
-    ["method", "/guide/methodology", "How we research"],
-  ];
-  return (
-    <div className="border-b border-hairline-soft bg-canvas/40">
-      <nav
-        aria-label="Voter guide sections"
-        className="mx-auto flex w-full max-w-6xl flex-wrap items-center gap-x-1 px-2 font-sans text-[13px] text-ink-60 lg:px-7"
-      >
-        {links.map(([key, href, label]) => {
-          const current = active === key;
-          return (
-            <Link
-              key={href}
-              href={href}
-              aria-current={current ? "page" : undefined}
-              className="group inline-flex min-h-11 items-center whitespace-nowrap"
-            >
-              <span
-                className={`rounded-full px-3 py-1.5 ${
-                  current ? "bg-ink text-paper" : "group-hover:text-ink"
-                }`}
-              >
-                {label}
-              </span>
-            </Link>
-          );
-        })}
-      </nav>
-    </div>
-  );
-}
 
 export function PartyChips({ parties, size = "sm" }: { parties: string[]; size?: "sm" | "md" }) {
   return (
@@ -189,6 +145,22 @@ export function SourceList({ race, ids }: { race: GuideRace; ids?: Set<string> }
               {s.date ? ` · ${s.date}` : ""}
             </span>{" "}
             <KindBadge kind={s.kind} />
+            {s.deadLink &&
+              (s.deadLink.archivedUrl ? (
+                <>
+                  {" "}
+                  <a
+                    href={s.deadLink.archivedUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="whitespace-nowrap text-[11px] text-ink-60 underline decoration-hairline underline-offset-2 hover:decoration-ink"
+                  >
+                    archived copy
+                  </a>
+                </>
+              ) : (
+                <span className="whitespace-nowrap text-[11px] italic text-ink-45"> · link may be broken</span>
+              ))}
           </span>
         </li>
       ))}
@@ -233,25 +205,3 @@ export const OFFICE_LABEL: Record<string, string> = {
   "ballot-measure": "Ballot measure",
   other: "Other",
 };
-
-export function GuideFooter() {
-  return (
-    <footer className="mt-16 border-t border-hairline">
-      <div className="mx-auto max-w-6xl px-[20px] py-6 font-sans text-xs leading-[1.6] text-ink-45 lg:px-10">
-        The Full Record is non-partisan: no endorsements, no scores, no grades.
-        Every claim links to its source — official records first.{" "}
-        <Link href="/guide/methodology" className="underline hover:text-ink">
-          How we research
-        </Link>{" "}
-        ·{" "}
-        <Link href="/" className="underline hover:text-ink">
-          Your current representatives
-        </Link>{" "}
-        ·{" "}
-        <a href={REPO_URL} className="underline hover:text-ink">
-          Open source on GitHub
-        </a>
-      </div>
-    </footer>
-  );
-}

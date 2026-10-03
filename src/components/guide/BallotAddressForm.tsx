@@ -12,14 +12,17 @@ import { useAddress } from "../useAddress";
 export function BallotAddressForm({
   target = "/guide/ballot",
   cta = "See my ballot",
+  initialAddress = "",
 }: {
+  initialAddress?: string;
   target?: string;
   cta?: string;
 }) {
   const router = useRouter();
   const privacyId = useId();
-  const { setAddress } = useAddress();
-  const [value, setValue] = useState("");
+  const { address: saved, setAddress } = useAddress();
+  const [typed, setValue] = useState<string | null>(null);
+  const value = typed ?? (initialAddress || saved);
 
   function submit(e: React.FormEvent) {
     e.preventDefault();

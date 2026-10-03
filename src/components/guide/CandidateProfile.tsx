@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { getKeyVoteDefs } from "@/server/guide/load";
 import { ISSUES, type GuideCandidate, type GuideRace } from "@/server/guide/types";
 import {
@@ -10,6 +9,7 @@ import {
   StanceChip,
   money,
 } from "./ui";
+import { StandLink } from "./StandClient";
 
 const DEPTH_NOTE: Record<GuideCandidate["researchDepth"], string | null> = {
   full: null,
@@ -285,9 +285,9 @@ export function CandidateProfile({
           </a>
         )}
         {showProfileLink && (
-          <Link href={`/guide/race/${race.id}/${c.id}`} className="font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
+          <StandLink href={`/guide/race/${race.id}/${c.id}`} className="font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
             Shareable profile page
-          </Link>
+          </StandLink>
         )}
       </div>
     </article>

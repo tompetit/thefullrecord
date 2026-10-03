@@ -22,6 +22,8 @@ export interface GuideSource {
   kind: SourceKind;
   /** ISO publication date when known */
   date?: string;
+  /** Set by the loader from content/guide/link-health.json, only for dead links. */
+  deadLink?: { archivedUrl?: string };
 }
 
 export interface Cited {

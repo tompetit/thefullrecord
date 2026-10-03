@@ -27,7 +27,7 @@
 
 export type SuggestScope = "NY" | "US";
 /** The scope the site's lookup currently supports. */
-export const SUGGEST_SCOPE: SuggestScope = "NY";
+export const SUGGEST_SCOPE: SuggestScope = "US";
 
 export interface AddressSuggestion {
   /** One-line address handed to the Census geocoder. */
@@ -317,6 +317,14 @@ export function scoreCandidate(q: ParsedQuery, c: Candidate): Scored {
   const nameWords = typeAt > 0 ? q.words.slice(0, typeAt).filter((w) => !DIRECTIONS.has(w)) : [];
   const nameConflict = nameWords.some((w) => !streetForms.has(w));
   const stateConflict = q.state !== null && q.state !== c.state;
+  // House number + street + a partly typed city ("1100 Congress Ave Aus"): the
+  // words after the street type are a city prefix, so a candidate whose city
+  // doesn't start with it (Aurora, FL for "Aus") is dropped.
+  const cityWords = typeAt > 0 ? q.words.slice(typeAt + 1).filter((w) => !DIRECTIONS.has(w)) : [];
+  const cityPrefix = q.house && cityWords.length ? cityWords.join(" ") : null;
+  const cityConflict =
+    cityPrefix !== null &&
+    ![c.city, c.detail ?? ""].some((text) => tokenize(text).join(" ").startsWith(cityPrefix));
   if (q.zip) score += c.zip === q.zip ? 20 : -15;
   score += { nyc: 4, nys: 3, census: 3, osm: 0 }[c.source];
   const coverage = q.words.length ? matched / q.words.length : 1;
@@ -327,6 +335,7 @@ export function scoreCandidate(q: ParsedQuery, c: Candidate): Scored {
     !dirConflict &&
     !nameConflict &&
     !stateConflict &&
+    !cityConflict &&
     (q.words.length < 2 ? coverage > 0 || !q.words.length : coverage >= 0.5);
   return { score, coverage, houseMatch, keep };
 }
