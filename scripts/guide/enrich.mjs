@@ -15,6 +15,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { expandSnapshot } from "../ingest/shared.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const GUIDE = join(ROOT, "content/guide");
@@ -222,7 +223,7 @@ for (const race of races) {
 const stateVotes = {};
 let nState = 0;
 for (const file of ["assembly-ny.json", "senate-ny.json"]) {
-  const snap = JSON.parse(readFileSync(join(ROOT, "src/server/snapshot", file), "utf8"));
+  const snap = expandSnapshot(JSON.parse(readFileSync(join(ROOT, "src/server/snapshot", file), "utf8")));
   const contested = snap.rollCalls.filter((rc) => {
     const v = Object.values(rc.votes);
     const yes = v.filter((x) => x === "yes").length;
@@ -258,6 +259,9 @@ for (const file of ["assembly-ny.json", "senate-ny.json"]) {
     }
   }
 }
+// Keep the profile list readable (and the file small): the most recent contested votes.
+const RECENT_STATE_VOTES = 25;
+for (const key of Object.keys(stateVotes)) stateVotes[key] = stateVotes[key].sort((a, b) => b.date.localeCompare(a.date)).slice(0, RECENT_STATE_VOTES);
 writeFileSync(join(GEN, "state-votes.json"), JSON.stringify(stateVotes, null, 1));
 console.log(`attached NY legislature floor votes to ${nState} candidates`);
 
