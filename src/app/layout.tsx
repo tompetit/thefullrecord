@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Serif_4, Public_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
 const sourceSerif = Source_Serif_4({
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
   referrer: "no-referrer",
   title: "The Full Record",
   description:
-    "Explore your representatives’ recorded votes by issue. Read official sources, compare candidate evidence, and see the limits of our coverage.",
+    "Look up any U.S. address to explore your representatives’ recorded votes by issue, and read sourced candidate research for New York and U.S. House and Senate races. Coverage has limits; we show them.",
 };
 
 export default function RootLayout({
@@ -50,6 +51,7 @@ export default function RootLayout({
         <div id="main-content" tabIndex={-1} className="flex flex-1 flex-col outline-none">
           {children}
         </div>
+        <SiteFooter />
       </body>
     </html>
   );

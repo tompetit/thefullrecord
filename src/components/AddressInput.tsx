@@ -67,10 +67,12 @@ export function AddressInput({
   const [active, setActive] = useState(-1);
   // Skip fetching for a value we just filled in from a suggestion.
   const picked = useRef<string | null>(null);
+  // Only typing asks for suggestions, not an address filled in from the saved session.
+  const typed = useRef(false);
 
   useEffect(() => {
     const q = value.trim();
-    if (q.length < MIN_CHARS || q === picked.current) {
+    if (!typed.current || q.length < MIN_CHARS || q === picked.current) {
       setSuggestions([]);
       return;
     }
@@ -155,6 +157,7 @@ export function AddressInput({
           value={value}
           onChange={(e) => {
             picked.current = null;
+            typed.current = true;
             onValueChange(e.target.value);
           }}
           onKeyDown={onKeyDown}

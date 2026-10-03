@@ -16,20 +16,16 @@
 
 import * as data from "./data";
 import { lookupOfficials, resolveOfficialByDistrictKey } from "./live/lookup";
-import { getSnapshots, snapshotAttendance, snapshotVotes } from "./live/snapshot";
+import { snapshotAttendance, snapshotVotes } from "./live/snapshot";
 import type {
   AttendanceEntry,
-  Bill,
-  Digest,
   LookupContext,
-  DigestItem,
   Official,
   OfficialGroup,
   Paginated,
   SaidDidPair,
   SeatElection,
   SeatNotOnBallot,
-  SiteStats,
   Sponsorship,
   VoteKind,
   VoteRecord,
@@ -53,14 +49,11 @@ export interface DataSource {
   getVotes(officialId: string, query?: VotesQuery): Promise<Paginated<VoteRecord>>;
   getSponsorships(officialId: string): Promise<Paginated<Sponsorship>>;
   getAttendance(officialId: string): Promise<Paginated<AttendanceEntry>>;
-  getBill(id: string): Promise<Bill | null>;
   getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>>;
-  getDigest(address: string): Promise<Digest>;
   /** 2026 slate for a seat, or when it's next on the ballot. */
   getSeatElection(
     districtKey: string
   ): Promise<SeatElection | SeatNotOnBallot | null>;
-  getSiteStats(): Promise<SiteStats>;
 }
 
 const GROUP_ORDER: Array<{ level: OfficialGroup["level"]; label: string }> = [
@@ -152,76 +145,15 @@ class HybridDataSource implements DataSource {
     return { items, total: items.length, page: 1, pageSize: items.length };
   }
 
-  async getBill(id: string): Promise<Bill | null> {
-    return data.bills.find((b) => b.id === id) ?? null;
-  }
-
   async getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>> {
     const { reviewedPairsFor } = await import("./editorial");
     const items = await reviewedPairsFor(officialId);
     return { items, total: items.length, page: 1, pageSize: items.length };
   }
 
-  async getDigest(address: string): Promise<Digest> {
-    const lookup = await this.getOfficialsByAddress(address);
-    if (!lookup.ok) return { dateRangeLabel: "Address could not be matched", items: [], quietLine: "Try a complete U.S. street address, with city and ZIP code, to see your representatives’ records." };
-    const officials = lookup.groups.flatMap((g) => g.officials);
-    const items: DigestItem[] = [];
-    const dates: string[] = [];
-    let withoutRecords = 0;
-    for (const official of officials) {
-      const recent = await mergedVotes(official);
-      if (!recent.length) { withoutRecords += 1; continue; }
-      for (const v of recent.slice(0, 2)) {
-        dates.push(v.date);
-        items.push({
-          officialId: official.id,
-          officialName: official.name,
-          chamber: v.chamber,
-          billNumber: v.billNumber,
-          vote: v.vote,
-          summary: `${v.question ? `${v.question}: ` : ""}${v.aiSummary ?? v.title}`,
-          outcome: v.outcome,
-          dateLabel: v.dateLabel,
-          sourceUrl: v.sourceUrl,
-        });
-      }
-    }
-    dates.sort();
-    const label = (date: string) => new Date(`${date}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
-    return {
-      dateRangeLabel: dates.length ? `${label(dates[0])} – ${label(dates[dates.length - 1])}` : "No records available",
-      items,
-      quietLine: `Up to two latest available votes per representative. Coverage varies by chamber and is not a complete activity report.${withoutRecords ? ` No votes are currently in our dataset for ${withoutRecords} representative${withoutRecords === 1 ? "" : "s"}; this does not mean they did not vote.` : ""}`,
-    };
-  }
-
   async getSeatElection(districtKey: string) {
     const { electionForSeat } = await import("./live/elections");
     return electionForSeat(districtKey);
-  }
-
-  async getSiteStats(): Promise<SiteStats> {
-    // Completeness is visible: the trust line states what we actually track,
-    // computed from the ingested snapshots rather than hardcoded.
-    const snapshots = getSnapshots();
-    if (!snapshots.length) return data.siteStats;
-    let officials = 0;
-    let rollCalls = 0;
-    for (const s of snapshots) {
-      // Count seats, not member records — mid-session replacements can leave
-      // two records for one district.
-      officials += s.members
-        ? new Set(s.members.map((m) => m.district ?? m.key)).size
-        : s.keyBy === "openstates"
-          ? new Set(s.rollCalls.flatMap((r) => Object.keys(r.votes))).size
-          : Object.keys(s.memberKeys ?? {}).length;
-      rollCalls += s.rollCalls.length;
-    }
-    return {
-      trustLine: `Tracking ${officials} officials and ${rollCalls} recorded roll calls in a partial dataset across city, state and federal government`,
-      provenanceLine: data.siteStats.provenanceLine,
-    };
   }
 }
 
