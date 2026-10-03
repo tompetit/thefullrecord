@@ -7,28 +7,34 @@
  * votes, keyed by bioguide id. memberKeys maps "{st}-{n|al}" -> bioguide
  * (at-large seats and delegates use "al").
  *
- * Run: node scripts/ingest/house.mjs [--count 150]
+ * Default: every recorded roll call of the 119th Congress (2025 and 2026).
+ * Roll calls already in the snapshot are reused rather than refetched
+ * (recorded votes do not change); pass --refetch to re-download them.
+ *
+ * Run: node scripts/ingest/house.mjs [--all | --year 2026 [--year 2025]] [--count N] [--refetch]
+ *   --count N  only the N most recent rolls of each selected year
+ * Votes are stored compactly (see compactSnapshot in shared.mjs).
  */
 
-import { decodeXml, federalVote, positiveCount, writeSnapshot } from "./shared.mjs";
+import { readFile } from "node:fs/promises";
+import { decodeXml, expandSnapshot, federalVote, politeGet, writeSnapshot } from "./shared.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot/house.json");
-const YEAR = 2026;
-const COUNT = positiveCount(process.argv.slice(2), "--count", 150);
-
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const ARGS = process.argv.slice(2);
+const argValues = (flag) => ARGS.flatMap((a, i) => (a === flag ? [ARGS[i + 1]] : []));
+const CONGRESS_YEARS = [2025, 2026]; // 119th Congress
+const YEARS = argValues("--year").length ? argValues("--year").map(Number) : CONGRESS_YEARS;
+if (YEARS.some((y) => !CONGRESS_YEARS.includes(y))) throw new Error(`--year must be one of ${CONGRESS_YEARS.join(", ")}`);
+const COUNT = argValues("--count")[0] === undefined ? Infinity : Number(argValues("--count")[0]);
+if (!(COUNT >= 1)) throw new Error("--count must be a positive integer");
+const REFETCH = ARGS.includes("--refetch");
 
 async function fetchText(url) {
-  const res = await fetch(url, {
-    signal: AbortSignal.timeout(20_000),
-    headers: { "User-Agent": "thefullrecord-ingest/1.0 (civic transparency)" },
-  });
-  if (res.status === 404) return null;
-  if (!res.ok) throw new Error(`${url} -> ${res.status}`);
-  return res.text();
+  const res = await politeGet(url, { allow404: true, minGapMs: 150 });
+  return res ? res.text() : null;
 }
 
 const tag = (xml, name) =>
@@ -71,7 +77,7 @@ const isRoll = (xml) => typeof xml === "string" && xml.includes("<rollcall-vote"
  * with a binary search — unpublished rolls come back as a 200 error stub, so
  * "is a real roll call" means the XML contains <rollcall-vote>.
  */
-async function findLatestRoll() {
+async function findLatestRoll(YEAR) {
   const index = await fetchText(`https://clerk.house.gov/evs/${YEAR}/index.asp`).catch(() => null);
   const rolls = [...(index ?? "").matchAll(/rollnumber=(\d+)/gi)].map((match) => Number(match[1]));
   if (rolls.length) return Math.max(...rolls);
@@ -89,10 +95,17 @@ async function findLatestRoll() {
 }
 
 async function main() {
-  console.log("Probing for the latest 2026 House roll call…");
-  const latest = await findLatestRoll();
-  if (!latest) throw new Error("No 2026 rolls found");
-  console.log(`Latest roll: ${latest}. Ingesting the ${COUNT} most recent…`);
+  const latestByYear = {};
+  for (const year of YEARS) {
+    console.log(`Probing for the latest ${year} House roll call…`);
+    latestByYear[year] = await findLatestRoll(year);
+    if (!latestByYear[year]) throw new Error(`No ${year} rolls found`);
+    console.log(`  ${year}: latest roll ${latestByYear[year]}`);
+  }
+
+  let previous = [];
+  try { previous = expandSnapshot(JSON.parse(await readFile(OUT, "utf8"))).rollCalls; } catch { /* first run */ }
+  const known = new Map(previous.map((rc) => [rc.id, rc]));
 
   // Seat -> bioguide map for every House seat, from the congress-legislators dataset.
   const legislators = JSON.parse(
@@ -106,14 +119,28 @@ async function main() {
   }
   if (Object.keys(memberKeys).length < 400) throw new Error("congress-legislators House roster looks incomplete; keeping previous snapshot");
 
-  const rollCalls = [];
-  for (let roll = latest; roll > latest - COUNT && roll > 0; roll--) {
+  // Years not selected this run keep their previously ingested roll calls.
+  const rollCalls = previous.filter((rc) => !YEARS.includes(Number(rc.id.split("-")[1])));
+  const jobs = YEARS.flatMap((year) => {
+    const latest = latestByYear[year];
+    const out = [];
+    for (let roll = latest; roll > latest - COUNT && roll > 0; roll--) out.push([year, roll]);
+    return out;
+  });
+  for (const [YEAR, roll] of jobs) {
+    const reused = !REFETCH && known.get(`house-${YEAR}-${roll}`);
+    if (reused) { rollCalls.push(reused); continue; }
     const rollId = String(roll).padStart(3, "0");
     const xml = await fetchText(`https://clerk.house.gov/evs/${YEAR}/roll${rollId}.xml`);
-    await sleep(150);
     if (!isRoll(xml)) throw new Error(`Missing House roll call ${roll}; keeping previous snapshot`);
 
     const question = tag(xml, "vote-question");
+    // Speaker elections record a candidate name per member, not yea/nay; they
+    // do not fit the yes/no/present/absent model, so they are not imported.
+    if (/^election of the speaker/i.test(question) || tag(xml, "vote-type").toUpperCase() === "ELECTION") {
+      console.log(`  roll ${roll}: ${question} (election by candidate name) — skipped`);
+      continue;
+    }
     const result = tag(xml, "vote-result");
     const legisNum = tag(xml, "legis-num");
     const desc = tag(xml, "vote-desc");
@@ -127,9 +154,8 @@ async function main() {
     const [yea, nay] = totals ? [totals[1], totals[2]] : ["", ""];
 
     const votes = {};
-    const rawVotes = {};
     const re = /<legislator name-id="([A-Z]\d+)"[^>]*>[^<]*<\/legislator>\s*<vote>([^<]+)<\/vote>/g;
-    for (const m of xml.matchAll(re)) { votes[m[1]] = mapVote(m[2]); rawVotes[m[1]] = m[2]; }
+    for (const m of xml.matchAll(re)) votes[m[1]] = mapVote(m[2]);
     if (!Object.keys(votes).length) continue; // not a recorded member vote
 
     const bill = legisNum ? formatBillNumber(legisNum) : question;
@@ -144,7 +170,6 @@ async function main() {
       dateLabel,
       sourceUrl: `https://clerk.house.gov/Votes/${YEAR}${roll}`,
       votes,
-      rawVotes,
     });
     console.log(`  roll ${roll}: ${bill} — ${result} ${yea}–${nay} (${question})`);
   }
@@ -153,11 +178,11 @@ async function main() {
     generatedAt: new Date().toISOString(),
     chamber: "U.S. HOUSE",
     sourceLabel: "Roll call · U.S. House",
-    sessionRollCallTotal: latest,
+    sessionRollCallTotal: Object.values(latestByYear).reduce((a, b) => a + b, 0),
     memberKeys,
-    rollCalls,
+    rollCalls: rollCalls.sort((a, b) => b.date.localeCompare(a.date) || Number(b.id.split("-")[2]) - Number(a.id.split("-")[2])),
   };
-  await writeSnapshot(OUT, snapshot);
+  await writeSnapshot(OUT, snapshot, { compact: true });
   console.log(`\nWrote ${rollCalls.length} roll calls, ${Object.keys(memberKeys).length} seats -> ${OUT}`);
 }
 

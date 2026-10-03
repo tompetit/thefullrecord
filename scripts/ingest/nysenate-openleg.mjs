@@ -8,33 +8,41 @@
  *
  * Writes src/server/snapshot/senate-ny.json keyed by district code.
  *
- * Run: node scripts/ingest/nysenate-openleg.mjs [--bills 40]
+ * Default: every FLOOR vote of the 2025–2026 session to date, discovered from
+ * bill VOTE updates since 2025-01-01. If a snapshot already exists the window
+ * starts 14 days before its generatedAt and new roll calls are merged in by
+ * id (pass --full to rediscover the whole session). Requests are >= 300 ms
+ * apart. Votes are stored compactly (see compactSnapshot in shared.mjs).
+ *
+ * Run: node scripts/ingest/nysenate-openleg.mjs [--full] [--bills N]
  */
 
 import { readFileSync, existsSync } from "node:fs";
-import { writeSnapshot } from "./shared.mjs";
+import { readFile } from "node:fs/promises";
+import { expandSnapshot, politeGet, validateSnapshot, writeSnapshot } from "./shared.mjs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot/senate-ny.json");
 const SESSION = 2025; // the 2025–2026 session
-const WINDOW = ["2026-02-01T00:00:00", "2026-06-15T00:00:00"];
-const MAX_BILLS = Number(process.argv.find((a, i) => process.argv[i - 1] === "--bills") ?? 40);
+const SESSION_START = "2025-01-01T00:00:00";
+const FULL = process.argv.includes("--full");
+const MAX_BILLS = Number(process.argv.find((a, i) => process.argv[i - 1] === "--bills") ?? Infinity);
+const DELAY_MS = 300; // polite spacing between requests
 
 const KEY =
   process.env.NY_OPENLEG_API_KEY ??
   (existsSync(join(ROOT, ".env.local")) ? readFileSync(join(ROOT, ".env.local"), "utf8").match(/NY_OPENLEG_API_KEY=(\S+)/)?.[1] : undefined);
 if (!KEY) throw new Error("NY_OPENLEG_API_KEY not set (env or .env.local)");
 
-const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
-
 async function api(path, params = {}) {
   const url = new URL(`https://legislation.nysenate.gov/api/3/${path}`);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   url.searchParams.set("key", KEY);
-  const res = await fetch(url, { signal: AbortSignal.timeout(30_000) });
-  if (!res.ok) throw new Error(`${path} -> ${res.status}`);
+  let res;
+  try { res = await politeGet(url.href, { minGapMs: DELAY_MS }); }
+  catch (error) { throw new Error(`${path} -> ${String(error.message).replaceAll(KEY, "***").replace(/key=[^&\s]+/g, "key=***")}`); }
   const body = await res.json();
   if (!body.success) throw new Error(`${path} -> ${body.message}`);
   return body.result;
@@ -67,12 +75,22 @@ async function main() {
   }
   console.log(`  ${senateMembers.length} senators mapped`);
 
-  console.log(`Finding bills with vote updates ${WINDOW[0]} → ${WINDOW[1]}…`);
+  let previous = [];
+  try { previous = expandSnapshot(JSON.parse(await readFile(OUT, "utf8"))); } catch { /* first run */ }
+  const merged = new Map();
+  let from = SESSION_START;
+  if (!FULL && previous.rollCalls?.length) {
+    for (const rc of previous.rollCalls) merged.set(rc.id, rc);
+    from = new Date(Date.parse(previous.generatedAt) - 14 * 86_400_000).toISOString().slice(0, 19);
+  }
+  const to = new Date().toISOString().slice(0, 19);
+
+  console.log(`Finding bills with vote updates ${from} → ${to}…`);
   const seen = new Set();
   const prints = [];
   let offset = 1;
   for (;;) {
-    const updates = await api(`bills/updates/${WINDOW[0]}/${WINDOW[1]}`, {
+    const updates = await api(`bills/updates/${from}/${to}`, {
       filter: "VOTE",
       limit: 500,
       offset,
@@ -86,13 +104,12 @@ async function main() {
     }
     if (offset + updates.items.length > updates.total || !updates.items.length) break;
     offset += updates.items.length;
-    await sleep(150);
   }
   console.log(`  ${prints.length} distinct bills with vote activity`);
 
   const rollCalls = [];
   // Most recently updated bills first; cap the fetch count.
-  for (const print of prints.reverse().slice(0, MAX_BILLS * 2)) {
+  for (const print of prints.reverse()) {
     if (rollCalls.length >= MAX_BILLS) break;
     let bill;
     try {
@@ -101,7 +118,6 @@ async function main() {
       console.warn(`  ${print}: ${err.message}`);
       continue;
     }
-    await sleep(150);
 
     for (const vote of bill.votes?.items ?? []) {
       if (vote.voteType !== "FLOOR") continue;
@@ -124,7 +140,7 @@ async function main() {
       rollCalls.push({
         id: `nysenate-${bill.basePrintNo}-${vote.voteDate}`,
         bill: bn,
-        title: bill.title,
+        title: bill.title || bn,
         summary: bill.summary || undefined,
         summarySource: "official",
         kind: "substantive",
@@ -138,16 +154,22 @@ async function main() {
     }
   }
 
-  rollCalls.sort((a, b) => b.date.localeCompare(a.date));
+  for (const rc of rollCalls) {
+    // One malformed upstream record must not discard the whole session.
+    try { validateSnapshot({ generatedAt: new Date().toISOString(), chamber: "NY SENATE", sourceLabel: "x", rollCalls: [rc] }); }
+    catch (error) { console.warn(`  dropped ${rc.id}: ${error.message}`); continue; }
+    merged.set(rc.id, rc);
+  }
+  const all = [...merged.values()].sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
   const snapshot = {
     generatedAt: new Date().toISOString(),
     chamber: "NY SENATE",
     sourceLabel: "Roll call · NY Senate",
     members: senateMembers,
-    rollCalls,
+    rollCalls: all,
   };
-  await writeSnapshot(OUT, snapshot);
-  console.log(`\nWrote ${rollCalls.length} roll calls -> ${OUT}`);
+  await writeSnapshot(OUT, snapshot, { compact: true });
+  console.log(`\nWrote ${all.length} roll calls -> ${OUT}`);
 }
 
 main().catch((err) => {
