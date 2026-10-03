@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { AddressInput } from "../AddressInput";
+import { useAddress } from "../useAddress";
 
 /**
  * The /issues address form — a plain GET form (works without JavaScript).
@@ -9,7 +10,9 @@ import { AddressInput } from "../AddressInput";
  * so the id and the `address` field name are part of the contract.
  */
 export function IssueAddressForm({ initialAddress = "" }: { initialAddress?: string }) {
-  const [value, setValue] = useState(initialAddress);
+  const { address: saved } = useAddress();
+  const [typed, setValue] = useState<string | null>(null);
+  const value = typed ?? (initialAddress || saved);
   return (
     <form id="issue-address-form" action="/issues" className="mt-5">
       <label htmlFor="issue-address" className="text-xs font-semibold text-ink-80">

@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Suspense, useEffect } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 import { Wordmark } from "./Wordmark";
 import { useAddress } from "./useAddress";
 
@@ -14,6 +15,18 @@ export function sectionFor(pathname: string): Section | null {
   if (top === "issues") return "votes";
   if (top === "guide") return "guide";
   if (top === "coverage") return "data";
+  return null;
+}
+
+/** A page opened with ?address= saves it for this tab, so the header and every form pick it up. */
+function SaveUrlAddress() {
+  const fromUrl = useSearchParams().get("address")?.trim() ?? "";
+  const { setAddress } = useAddress();
+  useEffect(() => {
+    if (fromUrl) setAddress(fromUrl);
+    // Only when the URL's address changes; clearing must not re-save it.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [fromUrl]);
   return null;
 }
 
@@ -59,6 +72,9 @@ export function SiteHeader() {
 
   return (
     <header className="relative border-b border-hairline bg-paper print:hidden">
+      <Suspense fallback={null}>
+        <SaveUrlAddress />
+      </Suspense>
       <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center gap-x-8 px-4 py-1.5 sm:px-6 lg:px-10">
         <Wordmark className="text-[21px]" />
 

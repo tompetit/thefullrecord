@@ -13,9 +13,11 @@ import { useAddress } from "./useAddress";
  */
 export function AddressLookupForm({ initialAddress = "" }: { initialAddress?: string }) {
   const router = useRouter();
-  const { setAddress } = useAddress();
+  const { address: saved, setAddress } = useAddress();
   const privacyId = useId();
-  const [value, setValue] = useState(initialAddress);
+  // Saved address shows once mounted (it is empty during SSR, so no mismatch).
+  const [typed, setValue] = useState<string | null>(null);
+  const value = typed ?? (initialAddress || saved);
 
   function submit(e: React.FormEvent) {
     e.preventDefault();
