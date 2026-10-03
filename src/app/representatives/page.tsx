@@ -126,7 +126,8 @@ export default async function RepresentativesPage({
 
       <p className="mt-8 px-[26px] font-sans text-xs leading-normal text-ink-45 lg:px-10">
         Districts resolved with the U.S. Census Geocoder and TIGERweb district
-        boundaries (plus NYC Planning boundaries for the NYC Council). {stats.provenanceLine}.{" "}
+        boundaries (plus NYC Planning boundaries for the NYC Council).{" "}
+        {(!result.context || result.context.state === "NY") && <>{stats.provenanceLine}. </>}
         <SourceLink href="https://geocoding.geo.census.gov/" className="text-xs">
           How lookup works
         </SourceLink>
