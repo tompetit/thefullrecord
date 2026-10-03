@@ -3,7 +3,8 @@ import { Matcher } from "@/components/guide/Matcher";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
 import { GuideFooter, GuideNav } from "@/components/guide/ui";
 import { ballotForAddress, ballotForDistrict } from "@/server/guide/ballot";
-import type { GuideRace } from "@/server/guide/types";
+import { parseStand, serializeStand, withStand } from "@/lib/alignment";
+import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
 
 export const metadata = {
   title: "Compare issue evidence — The Full Record",
@@ -11,13 +12,15 @@ export const metadata = {
     "Explore candidates’ documented actions and statements by topic, with cited sources and clear research gaps.",
 };
 
-type SP = Promise<{ address?: string | string[]; state?: string | string[]; cd?: string | string[] }>;
+type SP = Promise<{ address?: string | string[]; state?: string | string[]; cd?: string | string[]; stand?: string | string[] }>;
 
 export default async function MatchPage({ searchParams }: { searchParams: SP }) {
   const query = await searchParams;
   const address = typeof query.address === "string" ? query.address.trim().slice(0, 250) : "";
   const state = typeof query.state === "string" ? query.state.trim().toUpperCase() : "";
   const cd = typeof query.cd === "string" ? query.cd.trim().slice(0, 3) : "";
+  // The voter's own answers: validated, used for this render only, never stored.
+  const stand = parseStand(query.stand, Object.keys(ISSUES) as IssueKey[]);
   let races: GuideRace[] | null = null;
   let placeLabel = "";
   let error: string | null = null;
@@ -70,6 +73,7 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
                 ))}
               </select>
               <input aria-label="Congressional district number" name="cd" placeholder="District # (blank = at-large / Senate only)" className="w-72 rounded-md border border-chip-border bg-paper-raised px-2 py-2" />
+              {stand.length > 0 && <input type="hidden" name="stand" value={serializeStand(stand)} />}
               <button className="cursor-pointer rounded-md bg-ink px-4 py-2 font-bold text-paper">Go</button>
             </form>
           </>
@@ -79,9 +83,9 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
             <p className="mt-2 font-sans text-[14px] text-ink-60">
               Researched races for {placeLabel} · {races.length} researched{" "}
               {races.length === 1 ? "contest" : "contests"} ·{" "}
-              <a href="/guide/match" className="underline hover:text-ink">change</a>
+              <a href={withStand("/guide/match", serializeStand(stand))} className="underline hover:text-ink">change</a>
             </p>
-            <Matcher races={races} placeLabel={placeLabel} />
+            <Matcher races={races} placeLabel={placeLabel} initialStand={stand} />
           </>
         )}
       </div>
