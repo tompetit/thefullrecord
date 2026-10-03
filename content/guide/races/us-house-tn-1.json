@@ -58,7 +58,8 @@
         }
       ],
       "researchDepth": "basic",
-      "bioguideId": "H001086"
+      "bioguideId": "H001086",
+      "researchNotes": "Her official issues pages (border security, health care, defending life, Second Amendment) were reviewed; they mostly describe general principles or cosponsored bills, which are added separately from congress.gov, so no further position was recorded from her own statements."
     },
     {
       "id": "kristi-burke",
@@ -94,15 +95,53 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign message emphasizes that healthcare should not depend on wealth and says no one in the district should be 'one medical emergency away from ruin.'",
-          "quote": "I believe that essential needs like healthcare, housing, and a clean environment, should never be gatekept by wealth.",
+          "summary": "Her campaign site says she supports a universal, single-payer system and Medicare for All.",
+          "quote": "I support a universal, single-payer system.",
           "sources": [
-            "s3"
+            "r1"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her campaign site calls for no mass deportations, no family separation and no inhumane treatment in immigration policy.",
+          "quote": "No mass deportations, no family separation, and no inhumane treatment.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign site says access to abortion, birth control and reproductive healthcare must be protected.",
+          "quote": "Access to abortion, birth control, and reproductive healthcare must be protected.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign site says the tax burden should shift off working people and onto corporations and the ultra-wealthy.",
+          "quote": "The tax burden must shift off working people and onto corporations and the ultra-wealthy.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Her campaign site says public dollars must go to public schools and criticizes Tennessee's private school voucher programs for diverting taxpayer dollars from them.",
+          "quote": "Public dollars must go to public schools, and education must be accessible from early childhood through higher education.",
+          "sources": [
+            "r1"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://votekristiburke.com",
+      "researchNotes": "Positions come from her campaign site (votekristiburke.com) Non-Negotiables page. Her Ballotpedia survey also mentions \"Reclaiming War Powers\" as a policy area without stating a position, so no war_powers entry was made."
     },
     {
       "id": "joshua-ray-ashburn",
@@ -267,6 +306,13 @@
       "url": "https://ballotpedia.org/Tennessee%27s_1st_Congressional_District_election,_2026",
       "title": "Chris Campbell's Ballotpedia Candidate Connection survey responses",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "r1",
+      "url": "https://votekristiburke.com/non-negotiables",
+      "title": "Non-Negotiables",
+      "publisher": "Kristi for Congress campaign website",
       "kind": "candidate"
     }
   ],

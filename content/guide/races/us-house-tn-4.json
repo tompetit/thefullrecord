@@ -11,29 +11,39 @@
   "context": [
     {
       "text": "Incumbent Scott DesJarlais (R) defeated Thomas Davis, Harold Jones, and Joshua James in the August 6, 2026 Republican primary. Victoria Broderick won a contested Democratic primary over Mike Cortese, Cliff Huffman, Tim Lanier, and Joyce Neal. The district's 2026 Cook Partisan Voter Index is R+11, and forecasters rate the general election Safe/Solid Republican. After the 2026 filing deadline reopened following Tennessee's new congressional map, the 4th District drew nine candidates in total, tied with the 6th District for the most of any Tennessee district.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "scott-desjarlais",
       "name": "Scott DesJarlais",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won a contested August 6, 2026 Republican primary",
       "currentRole": "U.S. Representative (since 2011)",
       "summary": {
         "text": "Scott DesJarlais is the incumbent U.S. Representative for Tennessee's 4th District, a physician who serves on the House Agriculture and Armed Services committees.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Des Moines, Iowa in 1964; earned a bachelor's degree (1987) and M.D. (1991) from the University of South Dakota.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a physician before being elected to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -42,74 +52,127 @@
         {
           "text": "Serves on the House Committee on Agriculture (2025-2026), including its Nutrition and Foreign Agriculture and Livestock, Dairy, and Poultry subcommittees.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the House Committee on Armed Services (2025-2026), chairing the Subcommittee on Strategic Forces and also sitting on the Seapower and Projection Forces Subcommittee.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
-      "bioguideId": "D000616"
+      "bioguideId": "D000616",
+      "researchNotes": "His official site issues pages (desjarlais.house.gov) returned errors or no issue text when fetched, and no campaign statements on the priority issues were located; sponsored bills are added separately from congress.gov."
     },
     {
       "id": "victoria-broderick",
       "name": "Victoria Broderick",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won a contested August 6, 2026 Democratic primary",
       "summary": {
         "text": "Victoria Broderick is the Democratic nominee for Tennessee's 4th District, a mother of two and tech-industry worker who says she became politically active after the overturning of Roe v. Wade.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Says she began her political involvement in 2021 and became her local county Democratic Party chair after the U.S. Supreme Court overturned Roe v. Wade during her maternity leave.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says she works full-time in the tech industry while running her campaign.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists safety, affordability, and freedom as her core campaign themes.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Says her political involvement began after the overturning of Roe v. Wade while she was navigating a personal pregnancy experience, and lists 'freedom' among her core campaign themes.",
-          "quote": "Roe was overtuned during my maternity leave, and I sprang into action.",
-          "sources": ["s3"]
+          "summary": "Her campaign site says she will work to codify abortion access into federal law and protect access to IVF and contraception.",
+          "quote": "I will work to codify abortion access into federal law",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her campaign site says she backs federal background check laws that close loopholes and funding for state red flag programs, while protecting responsible gun ownership.",
+          "quote": "I'll back federal background check laws that actually close existing loopholes, and I'll support funding for state red flag programs",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign site says she would strengthen the ACA and support a Medicare-like program for Tennesseans who fall in the Medicaid coverage gap.",
+          "quote": "In Congress, I'll fight to strengthen the Affordable Care Act by lowering premiums, reducing deductibles, and cutting out-of-pocket costs for families.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign site says she will work to raise the corporate tax rate on the largest, most profitable businesses.",
+          "quote": "I will work to raise the corporate tax rate on the largest, most profitable businesses",
+          "sources": [
+            "r1"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.victoria4tennessee.org"
     },
     {
       "id": "jacob-anders",
       "name": "Jacob Anders",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Jacob Anders is an independent candidate and self-described historian, author, and digital ethics researcher running on economic security in the face of AI and automation, and opposition to foreign wars.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Says he studied psychology at the University of Alabama in Huntsville and earned a bachelor's degree from Hiwassee College in 2016, and that he previously volunteered for the Ron Paul, Bernie Sanders, and Andrew Yang presidential campaigns.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he is focused on protecting workers and wages from AI and automation, and supports universal basic income and digital rights protections.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -119,11 +182,15 @@
     {
       "id": "clay-faircloth",
       "name": "Clay Faircloth",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Clay Faircloth is an independent candidate on the November 3, 2026 general-election ballot for Tennessee's 4th District. No campaign website or public policy statements were found.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -161,6 +228,13 @@
       "url": "https://ballotpedia.org/Tennessee%27s_4th_Congressional_District_election,_2026",
       "title": "Jacob Anders's Ballotpedia Candidate Connection survey responses",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "r1",
+      "url": "https://www.victoria4tennessee.org/more-about-my-platform",
+      "title": "More about my platform",
+      "publisher": "Victoria Broderick for Congress campaign website",
       "kind": "candidate"
     }
   ],

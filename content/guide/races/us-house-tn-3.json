@@ -11,116 +11,228 @@
   "context": [
     {
       "text": "Incumbent Charles J. \"Chuck\" Fleischmann (R) advanced unopposed from the August 6, 2026 Republican primary. Anna Golladay won the Democratic primary. The district's 2026 Cook Partisan Voter Index is R+18, and forecasters rate the general election Safe/Solid Republican.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "chuck-fleischmann",
       "name": "Charles J. \"Chuck\" Fleischmann",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced unopposed from the August 6, 2026 Republican primary",
       "currentRole": "U.S. Representative (since 2011)",
       "summary": {
         "text": "Chuck Fleischmann is the incumbent U.S. Representative for Tennessee's 3rd District, an attorney from Chattanooga who chairs an Appropriations subcommittee.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in New York, New York in 1962; earned a bachelor's degree in political science from the University of Illinois (1983) and a J.D. from the University of Tennessee-Knoxville (1986).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Ran a law firm with his wife in Chattanooga after law school and served as president of the Chattanooga Bar Association in 1996.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "His official issues page says he supports legislation that defunds, repeals and replaces Obamacare with free market solutions.",
+          "quote": "We must not only repeal Obamacare but replace it with free market solutions empowering our citizens.",
+          "sources": [
+            "r2"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations (2025-2026), chairing the Subcommittee on Energy and Water Development and Related Agencies, and also sits on the Labor, Health and Human Services, Education Subcommittee and the Defense Subcommittee.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the House Committee on Science, Space, and Technology (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
-      "bioguideId": "F000459"
+      "bioguideId": "F000459",
+      "researchNotes": "His official issues pages for immigration and border security call for more border patrol agents and enforcing existing law, which is general border-security language; no further positions recorded. The health care page is undated."
     },
     {
       "id": "anna-golladay",
       "name": "Anna Golladay",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 6, 2026 Democratic primary",
       "summary": {
         "text": "Anna Golladay is the Democratic nominee for Tennessee's 3rd District, a small-business owner and faith leader from Chattanooga running on healthcare access, economic fairness, and environmental protection.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Describes herself as a community builder, progressive faith leader, and small-business owner in Hamilton County who has served as vice president of her neighborhood association.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says she worked for several years as a protest chaplain in Chattanooga.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says rising costs for groceries, housing, childcare, healthcare, and utilities are 'squeezing everyone who isn't a billionaire or a massive corporation.'",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Cites Tennessee's decision not to expand Medicaid as a driver of the state's rural healthcare crisis.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Cites Tennessee wage data and says she will fight to raise the federal minimum wage.",
-          "quote": "I will fight to raise the federal minimum wage, strengthen workers' right to organize, and close loopholes that allow corporations to suppress wages in rural communities with limited competition.",
-          "sources": ["s3"]
+          "summary": "Her campaign site lists raising the federal minimum wage as a legislative priority, citing that 36% of Tennessee workers earn less than $15 an hour.",
+          "quote": "Raise the federal minimum wage - 36% of Tennessee workers earn less than $15/hour, so this puts real money back into the pockets of working families across District 3.",
+          "sources": [
+            "r1"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says Tennessee's refusal to expand Medicaid has left over 300,000 residents without insurance and calls healthcare a human right.",
-          "quote": "I believe healthcare is a human right — not a privilege reserved for those who can afford it.",
-          "sources": ["s3"]
+          "summary": "Her campaign site lists protecting and expanding Medicare and the ACA as a priority and notes Tennessee has not expanded Medicaid.",
+          "quote": "Protect and Expand Medicare and the ACA - Defending Medicare and the ACA keeps affordable coverage in reach for TN seniors and working families alike.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign site calls for an annual wealth tax on billionaires and removing the Social Security payroll tax cap for high earners.",
+          "quote": "An annual wealth tax on billionaires' stock gains and closed-loop loans makes the ultra-wealthy pay their share",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign site lists passing the Women's Health Protection Act, restoring the protections of Roe and Casey.",
+          "quote": "Pass the Women's Health Protection Act - Restoring the protections of Roe and Casey means Tennessee women get to make their own healthcare decisions again.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her campaign site lists support for stricter gun laws as a keeping-families-safe priority.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her campaign site calls for sweeping divestment of ICE with ultimate abolishment and opposes 287(g) agreements.",
+          "quote": "Begin sweeping divestment of ICE with ultimate abolishment.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "Her campaign site says she opposes the SAVE Act, which would require proof of citizenship to register to vote.",
+          "quote": "Oppose Voter Suppression and the SAVE Act",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her campaign site lists expanding TVA renewable energy programs.",
+          "quote": "Expand TVA Renewable Energy Programs",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Her campaign site says she opposes federal expansion of school voucher programs.",
+          "quote": "Oppose Federal Expansion of School Voucher Programs",
+          "sources": [
+            "r1"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://annagolladay.com"
     },
     {
       "id": "rodney-king",
       "name": "Rodney King",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Rodney King is an independent candidate and retired U.S. Navy submarine officer from rural Tennessee running on support for Social Security, healthcare, gun rights, and lower taxes on working Americans.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Says he is retired from the U.S. Navy, where he served as a submarine and nuclear weapons officer from 1983 to 1988, and now farms in Tennessee.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists saving Social Security, fixing healthcare, lowering taxes on working Americans, and requiring congressional approval before military action as priorities.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -129,7 +241,9 @@
           "stance": "opposes",
           "summary": "Says he supports the Second Amendment.",
           "quote": "I believe in the “Right to Life”, and support the second amendment.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -138,22 +252,30 @@
     {
       "id": "donnie-ownby",
       "name": "Donnie Ownby",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Donnie Ownby is an independent candidate who describes himself as a Christian conservative and supports congressional term limits.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Says he is 69, semi-retired, and has worked in military service, power line construction, transportation, medical imaging, and running his own small trucking company.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Supports term limits of three terms for the House and two for the Senate.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [],
@@ -163,11 +285,15 @@
     {
       "id": "dean-arnold",
       "name": "Dean Arnold",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Dean Arnold is an independent candidate on the November 3, 2026 general-election ballot for Tennessee's 3rd District. No campaign website or public policy statements were found.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -178,11 +304,15 @@
     {
       "id": "jean-howard-hill",
       "name": "Jean Howard-Hill",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Jean Howard-Hill is an independent candidate on the November 3, 2026 general-election ballot for Tennessee's 3rd District. No campaign website or public policy statements were found.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -193,11 +323,15 @@
     {
       "id": "edward-roland",
       "name": "Edward Roland",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Edward Roland is an independent candidate on the November 3, 2026 general-election ballot for Tennessee's 3rd District. No campaign website or public policy statements were found.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -243,6 +377,20 @@
       "title": "Donnie Ownby's Ballotpedia Candidate Connection survey responses",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "r1",
+      "url": "https://annagolladay.com/policy/",
+      "title": "Campaign commitments and legislative priorities",
+      "publisher": "Golladay for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "r2",
+      "url": "https://fleischmann.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Chuck Fleischmann",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -85,9 +85,83 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign FAQ says he believes in ending broad tariffs.",
+          "quote": "Mike believes in ending broad tariffs",
+          "sources": [
+            "r2"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he said ending tax loopholes and more evenly taxing the ultra wealthy is a priority.",
+          "quote": "Ending tax loopholes and restructuring our tax structure to more evenly tax the ultra wealthy is a priority for me.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he listed raising the federal minimum wage to $20 per hour.",
+          "quote": "Raising the federal minimum wage to $20 per hour.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he said the federal government should spend much more on health care benefits and that he supports universal basic healthcare.",
+          "quote": "Much more, I fully support universal basic healthcare.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he said he does not support a federal ban on abortion.",
+          "quote": "It is absurd that one person feels they can tell another person what they can and cannot do with their own bodies.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In a Nashville Banner questionnaire he said enforcement under the second Trump term has been too strict and that ICE needs an overhaul that may mean abolishing the current agency.",
+          "quote": "ICE needs a complete overhaul to the point that it is likely better to abolish the current agency and establish a new, more heavily regulated and mission-defined agency.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he said a president needs congressional approval to wage a war.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he listed making Tennessee the leader in green, renewable energy among his policies.",
+          "quote": "making Tennessee the leader in green, renewable energy",
+          "sources": [
+            "r1"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://croleyforcongress.com",
+      "researchNotes": "Positions come from his Nashville Banner candidate questionnaire (July 2026) and campaign FAQ. Reporting that he opposes U.S. military aid to Israel and supports \"safeguards around gun ownership\" came from a reporter's summary, not his own words, so no israel_aid or guns position was recorded."
     },
     {
       "id": "johnny-garrett",
@@ -144,10 +218,19 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Campaign ad states he supports finishing the border wall and deporting undocumented immigrants.",
-          "quote": "I'll stand with President Trump to finish the wall, deport all illegal immigrants, cut our taxes, and stop China from buying up our land.",
+          "summary": "His campaign site says he implemented a Tennessee State Border Czar to work with ICE to deport all illegal immigrants from the state, and supports finishing the border wall.",
+          "quote": "Johnny took action in the Tennessee House to implement a State Border Czar who will work hand in glove with ICE to deport all illegal aliens from the Volunteer State.",
           "sources": [
-            "s3"
+            "r3"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "His campaign site says that as a Tennessee state representative he passed legislation restricting competition in women's sports by sex and pledges to continue that effort in Washington.",
+          "quote": "As State Representative, Johnny passed legislation banning men from competing in women’s sports",
+          "sources": [
+            "r3"
           ]
         }
       ],
@@ -161,7 +244,8 @@
         }
       ],
       "website": "https://www.johnnygarrettfortn.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "His campaign site states positions on Israel (\"every available resource to defend itself\"), Second Amendment (general), and \"100% Pro-Life\" (no legal-access policy stated); these were not recorded as positions under the brief's rules. He did not answer the Nashville Banner questionnaire."
     },
     {
       "id": "christopher-monday",
@@ -249,6 +333,28 @@
       "title": "HILLEARY, William Van (Biographical Directory of the U.S. Congress)",
       "publisher": "U.S. Congress",
       "kind": "official"
+    },
+    {
+      "id": "r1",
+      "url": "https://nashvillebanner.com/2026/07/16/mike-croley-congress-tennessee-district-6/",
+      "title": "Mike Croley: Democratic candidate for Congress 6",
+      "publisher": "Nashville Banner candidate questionnaire",
+      "kind": "candidate",
+      "date": "2026-07-16"
+    },
+    {
+      "id": "r2",
+      "url": "https://croleyforcongress.com/meet-mike/",
+      "title": "Meet Mike (FAQ)",
+      "publisher": "Croley for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "r3",
+      "url": "https://johnnygarrettforcongress.com/issues/",
+      "title": "Issues",
+      "publisher": "Johnny Garrett for Congress campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
