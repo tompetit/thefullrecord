@@ -11,37 +11,68 @@
   "context": [
     {
       "text": "Incumbent Joaquin Castro (D) defeated two challengers in the March 3, 2026 Democratic primary. Edgardo Baez ran unopposed for the Republican nomination.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "joaquin-castro",
       "name": "Joaquin Castro",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2013)",
       "summary": {
         "text": "Joaquin Castro is the Democratic incumbent seeking re-election to Texas's 20th District. An attorney and former law professor, he serves on the House Permanent Select Committee on Intelligence and the Committee on Foreign Affairs.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in San Antonio, Texas, and graduated from Thomas Jefferson High School; earned a bachelor's degree from Stanford University and a law degree from Harvard University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an attorney and law professor before entering elected office.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a May 2025 statement he opposed the House Republican budget bill, citing its effects on Medicaid for nearly 150,000 people in his district and on ACA premiums.",
+          "quote": "Nearly 150K Texans in my district rely on Medicaid for their healthcare",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "He co-introduced a War Powers Resolution in December 2025 to block hostilities against Venezuela absent congressional authorization.",
+          "quote": "He has put our country at the brink of a war with Venezuela without a debate or vote in the Congress",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Permanent Select Committee on Intelligence, including its Central Intelligence Agency and National Security Agency and Cyber subcommittees, and on the Committee on Foreign Affairs, in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://castro.house.gov",
@@ -51,53 +82,97 @@
     {
       "id": "edgardo-baez",
       "name": "Edgardo Baez",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Ran unopposed for the Republican nomination in the March 3, 2026 primary.",
       "summary": {
         "text": "Edgardo Baez is the Republican nominee challenging Castro. He is an attorney and U.S. Army veteran with more than 30 years of military, medical and legal public service.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Born in Ponce, Puerto Rico; served in the U.S. Army from 1989 to 2002.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from Wayland Baptist University (2002), a law degree from Texas Southern University (2004), and a Ph.D. from Liberty University (2023).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Has worked as an attorney, business owner, nurse, and EMT; affiliated with the Texas Criminal Defense Lawyers Association and the National Association of Criminal Defense Lawyers.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Cites over 30 years of public service across military, medical and legal fields as proof of his commitment to the district.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says he will promote policies that support families and strong communities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Says he prioritizes improving healthcare access and quality and supports policies that make healthcare competitive and accessible.",
-          "sources": ["s3"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026", "title": "United States House of Representatives elections in Texas, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Joaquin_Castro", "title": "Joaquin Castro", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Edgardo_Baez", "title": "Edgardo Baez - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Joaquin_Castro",
+      "title": "Joaquin Castro",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Edgardo_Baez",
+      "title": "Edgardo Baez - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://castro.house.gov/media-center/press-releases/castro-statement-on-disastrous-republican-budget-bill",
+      "title": "Castro Statement on Disastrous Republican Budget Bill (May 22, 2025)",
+      "publisher": "Office of Rep. Joaquin Castro",
+      "kind": "official",
+      "date": "2025-05-22"
+    },
+    {
+      "id": "s5",
+      "url": "https://mcgovern.house.gov/news/documentsingle.aspx?DocumentID=400277",
+      "title": "McGovern, Massie, Castro Introduce Bipartisan War Powers Resolution (Dec. 2, 2025)",
+      "publisher": "Office of Rep. James McGovern",
+      "kind": "official",
+      "date": "2025-12-02"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Joaquin Castro's key floor votes and FEC finance totals are filled in separately by script."
