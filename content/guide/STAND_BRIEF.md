@@ -78,7 +78,9 @@ party. When in doubt, omit.
   opposition to it. "Energy independence" / "unleash American energy" alone does not count.
   Support for or opposition to a specific named clean-energy policy or project (e.g. a
   named offshore wind project, wind/solar research funding, IRA credits) counts.
-- `tariffs` ("Broad tariffs on imported goods"): must address tariffs.
+- `tariffs` ("Broad tariffs on imported goods"): must address tariffs. Opposing broad or
+  blanket tariffs while accepting targeted/"strategic" ones is `opposes`; mixed only when
+  a source shows support for broad tariffs and opposition to them.
 - `voter_citizenship_proof` ("Require documentary proof of citizenship to register
   to vote"): supports = SAVE Act or proof-of-citizenship registration. Voter ID at the
   polls is a DIFFERENT policy and does not count.
