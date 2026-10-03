@@ -11,46 +11,73 @@
   "context": [
     {
       "text": "Incumbent Warren Davidson (R) advanced unopposed from the May 5, 2026 Republican primary. Vanessa Enoch (D) defeated Madaris Grant in the Democratic primary, 74.5%-25.5%. Enoch previously ran against Davidson in the 2022 and 2024 general elections, losing both.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "warren-davidson",
       "name": "Warren Davidson",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2016)",
       "summary": {
         "text": "Warren Davidson is the Republican incumbent seeking re-election in Ohio's 8th Congressional District, a seat he has held since a 2016 special election. He chairs the House Financial Services Committee and previously served on the Foreign Affairs Committee.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Graduated from Sidney High School in Sidney, Ohio; earned a bachelor's degree from the U.S. Military Academy at West Point and an MBA from the University of Notre Dame.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served in the U.S. Army from 1988 to 2000, including in the Old Guard, the 75th Ranger Regiment and the 101st Airborne Division.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Succeeded former House Speaker John Boehner in Congress, first winning a June 2016 special election.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His official site's pro-life page says life begins at conception and that the right to life is a freedom government has a duty to protect.",
+          "quote": "Life begins at conception, and the right to life is the first freedom government has a duty to protect.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Committee on Financial Services in the 119th Congress (2025-2026); also assigned to the Committee on Foreign Affairs.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Chaired the Financial Services Subcommittee on Housing and Insurance and served as vice chairman of the Subcommittee on Digital Assets, Financial Technology and Inclusion in the 118th Congress (2023-2024).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "website": "https://davidson.house.gov",
@@ -60,28 +87,75 @@
     {
       "id": "vanessa-enoch",
       "name": "Vanessa Enoch",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Vanessa Enoch is the Democratic nominee challenging incumbent Warren Davidson in Ohio's 8th Congressional District. She is a management and policy consultant based in West Chester, Ohio, and is running for the seat for a fifth time after losing the 2018, 2020, 2022 and 2024 general elections.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Cincinnati, Ohio; earned a bachelor's degree in criminal justice from Ohio State University (1992), an MBA from Xavier University (1999), and a doctorate in public policy from Union Institute & University (2017).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Has worked as a journalist, television reporter, college professor, dean of students, and as president and CEO of Cultural Impact, LLC, a management and policy consulting firm.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves as board president of Vision Works, Inc. and has held board roles with the Black Greeks Speak-Social Justice Organization and Joseph Dream, a race reconciliation and healing organization.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a March 2026 campaign post on the conflict with Iran, she says the power to declare war belongs to Congress and that sustained military action requires congressional authorization.",
+          "quote": "The United States Constitution is clear: the power to declare war belongs to Congress.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In an August 2024 campaign post she says she supports reproductive rights for women and will fight for access to reproductive care.",
+          "quote": "I will fight every day for a woman’s right to safe, accessible, and affordable reproductive care.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Her campaign issues page lists raising the minimum wage among policies to make costs more affordable.",
+          "quote": "raising the minimum wage",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Her campaign issues page says home costs have outpaced incomes because of zoning laws and other policies, and calls for rewriting land-use rules and investing in mixed-income developments.",
+          "quote": "We can change course by rewriting land‑use rules, investing in mixed-income developments",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.enochforcongress.com",
       "researchDepth": "basic"
@@ -101,6 +175,46 @@
       "title": "Vanessa Enoch",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://davidson.house.gov/pro-life-and-family-issues",
+      "title": "Pro-Life and Family Issues",
+      "publisher": "Office of Rep. Warren Davidson",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "url": "https://enochforcongress.com/2026/03/08/war-requires-the-voice-of-the-people/",
+      "title": "War Requires the Voice of the People",
+      "publisher": "Enoch for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://enochforcongress.com/2024/08/01/i-will-fight-every-day-for-a-womans-right-to-safe-accessible-and-affordable-reproductive-care/",
+      "title": "I will fight every day for a woman’s right to safe, accessible, and affordable reproductive care",
+      "publisher": "Enoch for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://enochforcongress.com/issue/a-secure-and-prosperous-future/",
+      "title": "Building a secure and prosperous future for everyone",
+      "publisher": "Enoch for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://enochforcongress.com/issue/homes-and-communities-as-foundations-for-wellbeing/",
+      "title": "Homes and communities as foundations for wellbeing",
+      "publisher": "Enoch for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",
