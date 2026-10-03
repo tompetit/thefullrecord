@@ -11,35 +11,80 @@
   "context": [
     {
       "text": "Texas redrew its congressional map for the 2026 election cycle. This is an open seat with no incumbent on the general-election ballot; Rep. Greg Casar, who represented a differently drawn 35th District, is instead running for re-election in the redrawn 37th District. Johnny Garcia defeated Maureen Galindo in the Democratic primary runoff, and Carlos De La Cruz defeated John Lujan in the Republican primary runoff.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "johnny-garcia",
       "name": "Johnny Garcia",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the Democratic primary runoff against Maureen Galindo",
       "currentRole": "Former Bexar County Sheriff's Office deputy and SWAT hostage negotiator",
       "summary": {
         "text": "Johnny Garcia is a former Bexar County Sheriff's Office deputy, SWAT hostage negotiator, and public information officer from San Antonio's West Side, running as a Democrat focused on lowering costs and affordable health care.",
-        "sources": ["s2", "s3"]
+        "sources": [
+          "s2",
+          "s3"
+        ]
       },
       "background": [
-        { "text": "Born and raised in San Antonio's West Side; graduated from Memorial High School and attended St. Philip's College.", "sources": ["s2", "s3"] },
-        { "text": "Worked in construction before spending nearly two decades at the Bexar County Sheriff's Office, including as a SWAT hostage negotiator and public information officer.", "sources": ["s2", "s3"] }
+        {
+          "text": "Born and raised in San Antonio's West Side; graduated from Memorial High School and attended St. Philip's College.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "Worked in construction before spending nearly two decades at the Bexar County Sheriff's Office, including as a SWAT hostage negotiator and public information officer.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says he is fighting for lower costs, affordable health care, and economic opportunity for working families in TX-35.", "quote": "An old school Democrat, Johnny is fighting for the working families in TX-35 — for lower costs, affordable healthcare, and the chance to get ahead.", "sources": ["s3"] }
+        {
+          "text": "Says he is fighting for lower costs, affordable health care, and economic opportunity for working families in TX-35.",
+          "quote": "An old school Democrat, Johnny is fighting for the working families in TX-35 — for lower costs, affordable healthcare, and the chance to get ahead.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign describes him as fighting for affordable health care for working families.",
-          "quote": "for lower costs, affordable healthcare, and the chance to get ahead",
-          "sources": ["s3"]
+          "summary": "Says he would reverse Republicans' health care cuts, always fund Medicare and support expanding what Medicare covers.",
+          "quote": "I’ll reverse Republicans’ healthcare cuts and invest in our rural hospitals. I’ll always fund Medicare and support expanding what Medicare covers.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says tariffs have driven up prices and that they should end.",
+          "quote": "We need to end reckless tariffs that have driven up the price of everything from coffee to tomatoes to appliances.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Says ICE should focus on criminals and be held to the same standard as police.",
+          "quote": "ICE should be focused on criminals and held to the same standard as police.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -48,37 +93,61 @@
     {
       "id": "carlos-de-la-cruz",
       "name": "Carlos De La Cruz",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the Republican primary runoff against John Lujan",
       "currentRole": "U.S. Air Force veteran; small business owner",
       "summary": {
         "text": "Carlos De La Cruz is a 20-year U.S. Air Force veteran who deployed to Afghanistan, Iraq, and the U.S.-Mexico border, and who co-founded a kickboxing gym in San Antonio with his wife after leaving the military.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
-        { "text": "Served 20 years in the U.S. Air Force, deploying to Afghanistan, Iraq, and the border with Mexico.", "sources": ["s4"] },
-        { "text": "Co-founded a kickboxing gym in San Antonio with his wife, a VA nurse practitioner, after leaving the Air Force.", "sources": ["s4"] }
+        {
+          "text": "Served 20 years in the U.S. Air Force, deploying to Afghanistan, Iraq, and the border with Mexico.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Co-founded a kickboxing gym in San Antonio with his wife, a VA nurse practitioner, after leaving the Air Force.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Supports continued efforts to secure the border and equip Border Patrol agents.", "sources": ["s4"] },
-        { "text": "Supports holding the Mexican government accountable for delivering water it owes to Texas agricultural communities.", "sources": ["s4"] },
-        { "text": "Says he will support President Trump's agenda in Congress, including on manufacturing and trade with China.", "sources": ["s4"] }
+        {
+          "text": "Supports continued efforts to secure the border and equip Border Patrol agents.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Supports holding the Mexican government accountable for delivering water it owes to Texas agricultural communities.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says he will support President Trump's agenda in Congress, including on manufacturing and trade with China.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
+          "issue": "police_funding",
           "stance": "supports",
-          "summary": "Supports continuing to secure the border and providing Border Patrol agents more resources.",
-          "quote": "We need to continue securing our border and ensure our Border Patrol agents have the tools, manpower, and support they deserve.",
-          "sources": ["s4"]
-        },
-        {
-          "issue": "tariffs",
-          "stance": "supports",
-          "summary": "Supports trade measures aimed at stopping China from what he describes as unfair trade practices, as part of an \"America First\" platform.",
-          "quote": "stopping communist China from ripping us off",
-          "sources": ["s4"]
+          "summary": "Says he will make sure law enforcement officers have the resources they need.",
+          "quote": "I’ll make sure our officers have the resources they need to protect our families and restore law and order.",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -112,6 +181,20 @@
       "id": "s4",
       "url": "https://ballotpedia.org/Carlos_De_La_Cruz",
       "title": "Carlos De La Cruz",
+      "publisher": "Ballotpedia (quoting De La Cruz's campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.votejohnnygarcia.com/general-5",
+      "title": "Issues — Johnny Garcia for Congress",
+      "publisher": "Johnny Garcia for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Carlos_De_La_Cruz",
+      "title": "Carlos De La Cruz — campaign website statement (Defending Law Enforcement)",
       "publisher": "Ballotpedia (quoting De La Cruz's campaign website)",
       "kind": "candidate"
     }
