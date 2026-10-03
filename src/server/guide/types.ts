@@ -55,6 +55,15 @@ export const ISSUES = {
 export type IssueKey = keyof typeof ISSUES;
 export type Stance = "supports" | "opposes" | "mixed" | "not_inferred";
 
+export interface RecordedVote {
+  /** e.g. "Voted yes on the Laken Riley Act (S. 5, 2025-01-22)" */
+  text: string;
+  vote: "yes" | "no";
+  /** A Yes vote supports / opposes the ISSUES statement; absent = no direction recorded. */
+  yesMeans?: "supports" | "opposes";
+  sources: string[];
+}
+
 export interface Position {
   issue: IssueKey;
   /** Relative to the ISSUES statement; recorded votes alone use not_inferred. */
@@ -68,6 +77,12 @@ export interface Position {
   basis?: "votes" | "statements";
   /** When votes set the position, what the candidate has said on the same issue */
   stated?: { stance: Stance; summary: string; quote?: string; sources: string[] };
+  /**
+   * Set by the loader on vote-based positions: each recorded vote and, when the
+   * editors recorded one, which way a Yes vote points relative to the statement.
+   * Votes are compared one at a time; no overall stance is inferred from them.
+   */
+  votes?: RecordedVote[];
 }
 
 export interface RecordItem {

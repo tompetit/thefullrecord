@@ -10,6 +10,7 @@ import type {
   Finance,
   GuideCandidate,
   GuideRace,
+  RecordedVote,
   IssueKey,
   KeyVote,
   OfficeType,
@@ -84,46 +85,59 @@ export function getKeyVoteDefs(): KeyVoteDef[] {
  * Editorial topic associations for browsing exact votes. They do not establish
  * a broad policy stance, including when a vote concerns an omnibus bill.
  */
-type VoteIssue = { issue: IssueKey; why?: string };
+/**
+ * `yes`: which way a Yes vote points relative to the ISSUES statement. Set only
+ * when the bill's central effect squarely matches the statement (and `why` names
+ * the provision when the bill is broad). Used to compare single votes with a
+ * voter's answer — never to infer a candidate's overall stance.
+ * Directions reviewed 2026-10-03 by Claude (AI editor — review delegated by site owner).
+ */
+type VoteIssue = { issue: IssueKey; why?: string; yes?: "supports" | "opposes" };
 
 const OBBBA: VoteIssue[] = [
-  { issue: "healthcare_public", why: "which reduced federal Medicaid spending and added Medicaid work requirements" },
-  { issue: "immigration_enforcement", why: "which funded expanded immigration enforcement, detention and border operations" },
-  { issue: "climate", why: "which phased out Inflation Reduction Act clean-energy tax credits" },
-  { issue: "tax_wealthy", why: "which made the 2017 individual tax rates, including the 37% top rate, permanent" },
+  { issue: "healthcare_public", yes: "opposes", why: "which reduced federal Medicaid spending and added Medicaid work requirements" },
+  { issue: "immigration_enforcement", yes: "supports", why: "which funded expanded immigration enforcement, detention and border operations" },
+  { issue: "climate", yes: "opposes", why: "which phased out Inflation Reduction Act clean-energy tax credits" },
+  { issue: "tax_wealthy", yes: "opposes", why: "which made the 2017 individual tax rates, including the 37% top rate, permanent" },
 ];
 
 /** Key votes that bear directly on an ISSUES statement. `why` names the provision. */
 const VOTE_ISSUES: Record<string, VoteIssue[]> = {
-  "h-2025-23": [{ issue: "immigration_enforcement" }],
-  "s-2025-7": [{ issue: "immigration_enforcement" }],
-  "h-2026-11": [{ issue: "healthcare_public" }],
-  "h-2026-65": [{ issue: "tariffs" }],
-  "s-2025-225": [{ issue: "tariffs" }],
-  "s-2025-600": [{ issue: "tariffs" }],
+  "h-2025-23": [{ issue: "immigration_enforcement", yes: "supports" }],
+  "s-2025-7": [{ issue: "immigration_enforcement", yes: "supports" }],
+  "h-2026-11": [{ issue: "healthcare_public", yes: "supports", why: "which extended enhanced ACA premium subsidies" }],
+  "h-2026-65": [{ issue: "tariffs", yes: "opposes", why: "which disapproved the tariffs on Canadian imports" }],
+  "s-2025-225": [{ issue: "tariffs", yes: "opposes", why: "which would have ended the emergency used to impose global tariffs" }],
+  "s-2025-600": [{ issue: "tariffs", yes: "opposes", why: "which would end the emergency used to impose global tariffs" }],
   // Landmark votes from earlier Congresses (current and former members)
-  "h-2010-165": [{ issue: "healthcare_public" }],
-  "h-2017-256": [{ issue: "healthcare_public", why: "which would have capped federal Medicaid funding and ended enhanced funding for the Medicaid expansion" }],
-  "h-2017-699": [{ issue: "tax_wealthy", why: "which cut the corporate tax rate from 35% to 21% and the top individual rate from 39.6% to 37%" }],
+  "h-2010-165": [{ issue: "healthcare_public", yes: "supports" }],
+  "h-2017-256": [{ issue: "healthcare_public", yes: "opposes", why: "which would have capped federal Medicaid funding and ended enhanced funding for the Medicaid expansion" }],
+  "h-2017-699": [{ issue: "tax_wealthy", yes: "opposes", why: "which cut the corporate tax rate from 35% to 21% and the top individual rate from 39.6% to 37%" }],
   "h-2021-385": [
-    { issue: "climate", why: "which would have funded clean-energy tax credits" },
-    { issue: "universal_childcare", why: "which would have funded universal pre-K and child-care subsidies" },
+    { issue: "climate", yes: "supports", why: "which would have funded clean-energy tax credits" },
+    { issue: "universal_childcare", yes: "supports", why: "which would have funded universal pre-K and child-care subsidies" },
   ],
   "h-2022-420": [
-    { issue: "climate", why: "which enacted clean-energy and climate tax credits" },
-    { issue: "tax_wealthy", why: "which added a 15% minimum tax on large corporations and a stock-buyback excise tax" },
+    { issue: "climate", yes: "supports", why: "which enacted clean-energy and climate tax credits" },
+    { issue: "tax_wealthy", yes: "supports", why: "which added a 15% minimum tax on large corporations and a stock-buyback excise tax" },
   ],
-  "h-2019-99": [{ issue: "guns" }],
-  "h-2022-410": [{ issue: "guns" }],
-  "h-2022-299": [{ issue: "guns" }],
-  "h-2017-663": [{ issue: "guns" }],
-  "h-2019-496": [{ issue: "minimum_wage" }],
-  "h-2021-295": [{ issue: "abortion" }],
-  "h-2022-360": [{ issue: "abortion" }],
-  "h-2017-549": [{ issue: "abortion" }],
-  "h-2023-209": [{ issue: "immigration_enforcement" }],
+  "h-2019-99": [{ issue: "guns", yes: "supports", why: "which would have required background checks on most private gun sales" }],
+  "h-2022-410": [{ issue: "guns", yes: "supports", why: "which would have banned the sale of many semiautomatic assault weapons" }],
+  "h-2022-299": [{ issue: "guns", yes: "supports", why: "which expanded background checks for buyers under 21 and funded state red-flag programs" }],
+  "h-2017-663": [{ issue: "guns", yes: "opposes", why: "which would have required states to honor other states' concealed-carry permits" }],
+  "h-2019-496": [{ issue: "minimum_wage", yes: "supports" }],
+  "h-2021-295": [{ issue: "abortion", yes: "supports" }],
+  "h-2022-360": [{ issue: "abortion", yes: "supports" }],
+  "h-2017-549": [{ issue: "abortion", yes: "opposes", why: "which would have banned most abortions after 20 weeks" }],
+  "h-2023-209": [{ issue: "immigration_enforcement", yes: "supports" }],
   "h-2019-240": [{ issue: "immigration_enforcement" }],
   "h-2021-91": [{ issue: "immigration_enforcement" }],
+  // New statements (October 2026)
+  "h-2025-102": [{ issue: "voter_citizenship_proof", yes: "supports" }],
+  "h-2025-346": [{ issue: "war_powers", yes: "supports", why: "which would have directed the removal of U.S. forces from hostilities against Venezuela absent congressional authorization" }],
+  "h-2026-199": [{ issue: "war_powers", yes: "supports", why: "which directed the removal of U.S. forces from hostilities against Iran absent congressional authorization" }],
+  "s-2025-328": [{ issue: "war_powers", yes: "supports", why: "a motion to bring a war powers resolution on Iran to a vote" }],
+  "s-2025-608": [{ issue: "war_powers", yes: "supports", why: "a motion to bring a war powers resolution on Venezuela to a vote" }],
   "h-2025-145": OBBBA,
   "h-2025-190": OBBBA,
   "s-2025-372": OBBBA,
@@ -143,12 +157,12 @@ const BILL_SOURCES: Record<string, { id: string; url: string; title: string }> =
  */
 function addVotePositions(race: GuideRace, c: GuideCandidate) {
   const defs = new Map(getKeyVoteDefs().map((d) => [d.id, d]));
-  const byIssue = new Map<IssueKey, Array<{ def: KeyVoteDef; vote: string; why?: string }>>();
+  const byIssue = new Map<IssueKey, Array<{ def: KeyVoteDef; vote: "yes" | "no"; why?: string; yesMeans?: "supports" | "opposes" }>>();
   for (const kv of c.keyVotes ?? []) {
     const def = defs.get(kv.voteId);
     if (!def || (kv.vote !== "yes" && kv.vote !== "no")) continue;
     for (const map of VOTE_ISSUES[kv.voteId] ?? []) {
-      byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { def, vote: kv.vote, why: map.why }]);
+      byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { def, vote: kv.vote, why: map.why, yesMeans: map.yes }]);
     }
   }
   const addSource = (src: GuideRace["sources"][number]) => {
@@ -175,12 +189,15 @@ function addVotePositions(race: GuideRace, c: GuideCandidate) {
     // One sentence per bill (House and Senate passage of the same bill read as one line).
     const seen = new Set<string>();
     const lines: string[] = [];
-    for (const { def, vote, why } of votes) {
+    const recorded: RecordedVote[] = [];
+    for (const { def, vote, why, yesMeans } of votes) {
       const k = `${def.bill}|${vote}`;
       if (seen.has(k)) continue;
       seen.add(k);
-      const dates = votes.filter((v) => v.def.bill === def.bill && v.vote === vote).map((v) => v.def.date);
-      lines.push(`Voted ${vote} on ${def.shortTitle.replace(/ — .*$/, "")} (${def.bill}, ${dates.join("; ")})${why ? `, ${why}` : ""}.`);
+      const same = votes.filter((v) => v.def.bill === def.bill && v.vote === vote);
+      const line = `Voted ${vote} on ${def.shortTitle.replace(/ — .*$/, "")} (${def.bill}, ${same.map((v) => v.def.date).join("; ")})${why ? `, ${why}` : ""}.`;
+      lines.push(line);
+      recorded.push({ text: line, vote, yesMeans, sources: same.map((v) => `kv-${v.def.id}`) });
     }
     const existing = c.positions.findIndex((p) => p.issue === issue);
     const prior = existing >= 0 ? c.positions[existing] : undefined;
@@ -190,6 +207,7 @@ function addVotePositions(race: GuideRace, c: GuideCandidate) {
       summary: lines.join(" "),
       sources: [...sourceIds],
       basis: "votes",
+      votes: recorded,
       ...(prior && prior.basis !== "votes" ? { stated: { stance: prior.stance, summary: prior.summary, quote: prior.quote, sources: prior.sources } } : {}),
     };
     if (existing >= 0) c.positions[existing] = pos;
@@ -199,20 +217,20 @@ function addVotePositions(race: GuideRace, c: GuideCandidate) {
 
 /** Landmark Albany votes that squarely address an issue statement. */
 const NY_VOTE_ISSUES: Record<string, VoteIssue> = {
-  "nya-2019-S06458": { issue: "rent_regulation" },
-  "nya-2019-S06599": { issue: "climate" },
-  "nya-2019-S02451": { issue: "guns" },
-  "nya-2021-S51001": { issue: "guns" },
-  "nya-2019-S00240": { issue: "abortion" },
-  "nya-2019-A02176": { issue: "immigration_enforcement" },
-  "nya-2021-S02509": { issue: "tax_wealthy" },
-  "nys-2019-S6458": { issue: "rent_regulation" },
-  "nys-2019-S6599": { issue: "climate" },
-  "nys-2019-S2451": { issue: "guns" },
-  "nys-2021-S51001": { issue: "guns" },
-  "nys-2019-S240": { issue: "abortion" },
-  "nys-2019-S425": { issue: "immigration_enforcement" },
-  "nys-2021-S2509": { issue: "tax_wealthy" },
+  "nya-2019-S06458": { issue: "rent_regulation", yes: "supports" },
+  "nya-2019-S06599": { issue: "climate", yes: "supports" },
+  "nya-2019-S02451": { issue: "guns", yes: "supports" },
+  "nya-2021-S51001": { issue: "guns", yes: "supports" },
+  "nya-2019-S00240": { issue: "abortion", yes: "supports" },
+  "nya-2019-A02176": { issue: "immigration_enforcement", yes: "opposes" },
+  "nya-2021-S02509": { issue: "tax_wealthy", yes: "supports" },
+  "nys-2019-S6458": { issue: "rent_regulation", yes: "supports" },
+  "nys-2019-S6599": { issue: "climate", yes: "supports" },
+  "nys-2019-S2451": { issue: "guns", yes: "supports" },
+  "nys-2021-S51001": { issue: "guns", yes: "supports" },
+  "nys-2019-S240": { issue: "abortion", yes: "supports" },
+  "nys-2019-S425": { issue: "immigration_enforcement", yes: "opposes" },
+  "nys-2021-S2509": { issue: "tax_wealthy", yes: "supports" },
 };
 
 const NY_LANDMARK_SUMMARY: Record<string, string> = {
@@ -244,12 +262,19 @@ function addStateVotePositions(race: GuideRace, c: GuideCandidate, votes: Array<
     const existing = c.positions.findIndex((p) => p.issue === issue);
     const prior = existing >= 0 ? c.positions[existing] : undefined;
     if (prior?.basis === "votes") continue;
+    const recorded: RecordedVote[] = list.map(({ v }, i) => ({
+      text: `Voted ${v.vote} on ${v.bill} (${v.title}, ${v.date})${v.summary ? `: ${v.summary}` : "."}`,
+      vote: v.vote as "yes" | "no",
+      yesMeans: NY_VOTE_ISSUES[v.id]?.yes,
+      sources: [sources[i]],
+    }));
     const pos: Position = {
       issue,
       stance: "not_inferred",
-      summary: list.map(({ v }) => `Voted ${v.vote} on ${v.bill} (${v.title}, ${v.date})${v.summary ? `: ${v.summary}` : "."}`).join(" "),
+      summary: recorded.map((r) => r.text).join(" "),
       sources,
       basis: "votes",
+      votes: recorded,
       ...(prior ? { stated: { stance: prior.stance, summary: prior.summary, quote: prior.quote, sources: prior.sources } } : {}),
     };
     if (existing >= 0) c.positions[existing] = pos;

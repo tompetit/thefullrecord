@@ -80,20 +80,22 @@ export default function MethodologyPage() {
             any of the issue statements (for example, &ldquo;Stronger rent regulation and
             tenant protections&rdquo;). Anything you leave as &ldquo;Not sure / skip&rdquo; is
             left out. For each statement you answered, every candidate&rsquo;s documented
-            position on that same statement is put next to your answer:
+            position on that same statement is put next to your answer. What a candidate
+            <i>says</i> and how they <i>voted</i> are compared separately:
           </P>
           <ul className="mt-2 flex list-disc flex-col gap-1.5 pl-5 font-sans text-[14.5px] leading-[1.65] text-ink-80">
             <li><b>= Same as you</b> — you agree and their documented position supports the statement, or you disagree and it opposes it.</li>
             <li><b>≠ Different from you</b> — the documented position points the other way from your answer.</li>
             <li><b>~ Mixed record</b> — the documented position is mixed (for example, support for part of a policy). It is not counted as same or different.</li>
-            <li><b>○ Votes shown — not compared</b> — the evidence is recorded votes. As explained above, we don&rsquo;t infer a direction on a broad statement from votes on specific bills, so these are shown with their official sources but are not counted as same or different. Any statements the candidate made on the topic are shown alongside.</li>
+            <li><b>Recorded votes, one at a time</b> — for officeholders, each key floor vote on the topic is listed with its official roll call. For every vote we note which way a Yes points relative to the statement — only when the bill&rsquo;s central effect squarely matches it (for example, a Yes on the Bipartisan Background Checks Act is in line with &ldquo;Stricter gun laws&rdquo;; a Yes on concealed-carry reciprocity is not). Each vote is then marked <b>= In line with your answer</b> or <b>≠ Not in line with your answer</b>. A No vote is read only as a vote against that measure — never as support for some opposite policy — and we never turn a set of votes into an overall stance. Votes where we haven&rsquo;t recorded a direction are shown but not compared. The direction notes are in the site&rsquo;s open-source code, with the provision each one rests on.</li>
             <li><b>– No documented position</b> — our research found nothing on the topic. That is a gap in our research, not a position.</li>
           </ul>
           <P>
-            Each comparison shows the position&rsquo;s summary and citations and is labeled
-            &ldquo;Based on statements&rdquo; or &ldquo;Based on recorded votes&rdquo;. Under each
-            candidate we give a plain tally — for example, &ldquo;Same on 3 · Different on 1 ·
-            Mixed 1 · No record 2 of the 7 topics you answered&rdquo;. There is no
+            Each comparison shows the summary, the votes and their citations. Under each
+            candidate we give plain tallies that keep statements and votes apart — for
+            example, &ldquo;Statements: same as you on 3, different on 1 · Recorded votes:
+            4 votes in line with your answers, 1 not · No record on 2 of the 7 topics you
+            answered&rdquo;. There is no
             percentage, score, meter, weighting, or &ldquo;best match&rdquo;. Every answered
             topic counts the same, candidates stay in alphabetical order, and the
             comparison is not a recommendation.
