@@ -11,65 +11,94 @@
   "context": [
     {
       "text": "California uses a top-two nonpartisan primary. In the June 2, 2026 primary, incumbent Jimmy Gomez (D) placed first with 46.0% and Angela Gonzales-Torres (D) placed second with 30.7%, so both Democrats advance to the November general election; no Republican advanced.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jimmy-gomez",
       "name": "Jimmy Gomez",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative for California's 34th District (since 2017)",
       "summary": {
         "text": "Jimmy Gomez is the incumbent U.S. Representative for California's 34th District, serving on the House Committee on Ways and Means and the House Permanent Select Committee on Intelligence.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a B.A. in political science from the University of California, Los Angeles, and a master's degree in public policy from Harvard University's John F. Kennedy School of Government.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as political director for the United Nurses Associations of California before being elected to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "In his most recent completed Ballotpedia survey (2020), described himself as a 'working-class progressive' and cited co-sponsoring the Green New Deal, Medicare for All, the Rent Relief Act, the George Floyd Justice in Policing Act, and the American Dream and Promise Act.",
           "quote": "I am a co-sponsor of the Green New Deal, Medicare for All, the Rent Relief Act, the George Floyd Justice in Policing Act, and the American Dream and Promise Act.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Co-sponsored Medicare for All, according to his 2020 Ballotpedia Candidate Connection survey response.",
-          "quote": "I am a co-sponsor of the Green New Deal, Medicare for All, the Rent Relief Act, the George Floyd Justice in Policing Act, and the American Dream and Promise Act.",
-          "sources": ["s2"]
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, and H.R. 18, the Bipartisan Background Checks Act of 2025 (119th Congress).",
+          "sources": [
+            "s5",
+            "s6"
+          ]
         },
         {
-          "issue": "climate",
+          "issue": "abortion",
           "stance": "supports",
-          "summary": "Co-sponsored the Green New Deal, according to his 2020 Ballotpedia Candidate Connection survey response.",
-          "quote": "I am a co-sponsor of the Green New Deal, Medicare for All, the Rent Relief Act, the George Floyd Justice in Policing Act, and the American Dream and Promise Act.",
-          "sources": ["s2"]
+          "summary": "Cosponsored H.R. 4099, the Ensuring Women’s Right to Reproductive Freedom Act, and H.R. 10600, the Abortion is Health Care Everywhere Act of 2026 (119th Congress).",
+          "sources": [
+            "s7",
+            "s8"
+          ]
         },
         {
-          "issue": "rent_regulation",
+          "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Co-sponsored the Rent Relief Act, according to his 2020 Ballotpedia Candidate Connection survey response.",
-          "quote": "I am a co-sponsor of the Green New Deal, Medicare for All, the Rent Relief Act, the George Floyd Justice in Policing Act, and the American Dream and Promise Act.",
-          "sources": ["s2"]
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress).",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Cosponsored H.Con.Res. 40 (Iran) and H.Con.Res. 68 (Venezuela), each directing the removal of U.S. Armed Forces from hostilities (119th Congress).",
+          "sources": [
+            "s10",
+            "s11"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means (Tax and Work and Welfare subcommittees) and the House Permanent Select Committee on Intelligence in the 119th Congress (2025–2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -78,27 +107,37 @@
     {
       "id": "angela-gonzales-torres",
       "name": "Angela Gonzales-Torres",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Angela Gonzales-Torres is a community organizer and equity and justice advocate running as a Democrat against incumbent Jimmy Gomez, after placing second in the June 2026 top-two primary.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Describes herself as a lifelong Angeleno and 'the daughter of a deportee' whose path went from community organizer to congressional candidate.",
           "quote": "Angela Gonzales-Torres is a lifelong Angeleno, the daughter of a deportee, and an equity and justice advocate.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Placed second in the June 2, 2026 nonpartisan primary with 30.7% of the vote (36,708 votes), advancing to a same-party general election against incumbent Jimmy Gomez.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign lists four priorities: 'Affordability' (fighting for working people), 'Accountability' (equitably taxing and investing), 'Access' (funding education and youth programs), and 'Abolition' (ending ICE and for-profit prisons).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -107,27 +146,54 @@
           "stance": "supports",
           "summary": "Campaign site says she is co-sponsoring Medicare for All and investing in mental health, addiction care, and local clinics for everyone regardless of immigration status or income.",
           "quote": "Angela is fighting to make that a reality by co-sponsoring Medicare for All, investing in mental health and addiction care, and strengthening local clinics that serve everyone, regardless of immigration status or income.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Campaign site says she is fighting for a 'community-driven Green New Deal' prioritizing renewable energy and unionized green jobs.",
           "quote": "Angela is fighting for a bold, community-driven Green New Deal that prioritizes renewable energy, unionized green jobs, and neighborhood-level projects like rooftop gardens, urban farms, and native plant healing spaces.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
-          "summary": "Campaign site says she supports expanding emergency rental assistance and housing vouchers and building permanently affordable housing.",
-          "quote": "I'm fighting for bold, people-first housing policies — from expanding emergency rental assistance and housing vouchers to supporting community land trusts and rapid rehousing programs.",
-          "sources": ["s4"]
+          "summary": "Campaign site calls for expanding Housing Choice Vouchers and emergency rental assistance, a right to an attorney in eviction court, and prosecution of corporate landlords for tenant harassment.",
+          "quote": "A legally-enshrined right to housing, and a right to an attorney in eviction court",
+          "sources": [
+            "s14"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Campaign lists 'Abolition' — ending ICE and for-profit prisons — as one of her four core priorities, and calls for a pathway to citizenship and expanded services for mixed-status households.",
-          "sources": ["s3", "s4"]
+          "summary": "Her campaign homepage lists \"Abolition: Ending ICE & for-profit prisons\" among her four priorities.",
+          "sources": [
+            "s3"
+          ],
+          "quote": "Abolition: Ending ICE & for-profit prisons"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign site calls for a federal wealth tax on the ultra-rich and says she will support the Make Billionaires Pay Their Fair Share Act.",
+          "quote": "Support a federal wealth tax on the ultra-rich.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Campaign site calls for an immediate arms embargo on Israel and says she will never vote to send weapons to the Israeli military.",
+          "quote": "will never vote to send weapons to the Israeli military",
+          "sources": [
+            "s13"
+          ]
         }
       ],
       "record": [],
@@ -161,6 +227,76 @@
       "id": "s4",
       "url": "https://www.angela4congress.com/issues",
       "title": "Issues — Angela Gonzales-Torres for Congress",
+      "publisher": "Angela Gonzales-Torres campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115, Assault Weapons Ban of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18, Bipartisan Background Checks Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4099",
+      "title": "H.R. 4099, Ensuring Women’s Right to Reproductive Freedom Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/10600",
+      "title": "H.R. 10600, Abortion is Health Care Everywhere Act of 2026",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743, Raise the Wage Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/40",
+      "title": "H.Con.Res. 40, War Powers Resolution (Iran)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/68",
+      "title": "H.Con.Res. 68, Removal of Armed Forces from Venezuela",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.angela4congress.com/issues/tax-the-rich-not-the-rest-of-us",
+      "title": "Tax the Rich, Not the Rest of Us",
+      "publisher": "Angela Gonzales-Torres for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.angela4congress.com/issues/pro-peace-foreign-policy",
+      "title": "Pro-Peace Foreign Policy",
+      "publisher": "Angela Gonzales-Torres for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.angela4congress.com/issues/issue-1",
+      "title": "Housing for All",
       "publisher": "Angela Gonzales-Torres campaign",
       "kind": "candidate"
     }
