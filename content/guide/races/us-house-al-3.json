@@ -55,7 +55,24 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 722, the Life at Conception Act, a bill to implement equal protection under the 14th Amendment for the right to life of each born and preborn human person.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 38, the Constitutional Concealed Carry Reciprocity Act of 2025, a bill allowing nonresidents of a state to carry concealed firearms there if their home state permits it.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Chairs the House Committee on Armed Services in the 119th Congress (2025-2026).",
@@ -140,14 +157,6 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Says GOP cuts to health spending will be \"catastrophic\" for rural Alabama hospitals and that a robust Veterans Health Care System is needed.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "Says the ultra-rich and large corporations should pay a fair share of taxes, and that working and middle-class Americans have carried too much of the tax burden.",
@@ -198,6 +207,20 @@
       "title": "Mike Rogers For Congress",
       "publisher": "Mike Rogers for Congress campaign website",
       "kind": "candidate"
+    },
+    {
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/722",
+      "title": "H.R. 722, Life at Conception Act (cosponsors)",
+      "publisher": "Congress.gov",
+      "kind": "official",
+      "id": "s5"
+    },
+    {
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/38",
+      "title": "H.R. 38, Constitutional Concealed Carry Reciprocity Act of 2025 (cosponsors)",
+      "publisher": "Congress.gov",
+      "kind": "official",
+      "id": "s6"
     }
   ],
   "researchedAt": "2026-09-25"

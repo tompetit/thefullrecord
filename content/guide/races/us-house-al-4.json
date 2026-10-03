@@ -64,18 +64,9 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says the border must be secured first, through physical barriers, technology, and more personnel, and opposes granting amnesty to people who entered the country illegally.",
-          "quote": "To effectively deal with the immigration concerns in the United States we must, first and foremost, control our borders.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Says gun owners' rights should be expanded rather than restricted, and cosponsored the National Right-To-Carry Reciprocity Act.",
+          "summary": "Says gun owners' rights should be expanded rather than restricted, and says he cosponsored H.R. 822, the National Right-To-Carry Reciprocity Act, in the 112th Congress.",
           "quote": "I firmly believe that we need to expand the rights of gun owners rather than seeking new ways to impose restrictions.",
           "sources": [
             "s7"
@@ -91,21 +82,20 @@
           ]
         },
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Opposed the January 2013 tax deal (H.R. 8) that raised taxes on individuals earning over $400,000 and couples earning over $450,000, saying targeted spending cuts, not tax increases, are the responsible fix.",
-          "quote": "I opposed this legislation. I believe that targeted spending cuts are the most responsible way to address the fiscal crisis facing our country, not increasing taxes on families and small businesses.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Says he believes in looking for ways to curb and stop abortions in the United States.",
           "quote": "I also wholeheartedly believe that we should look for ways to curb and stop abortions in the United States.",
           "sources": [
             "s9"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 28, the Protection of Women and Girls in Sports Act of 2025, which would recognize sex in school athletics under Title IX based solely on reproductive biology and genetics at birth.",
+          "sources": [
+            "s10"
           ]
         }
       ],
@@ -183,7 +173,35 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "As a nurse, says healthcare workers' firsthand experience should inform legislation to ensure affordable, quality care and protect those who provide it.",
+          "summary": "Ballotpedia survey response lists \"Expand Medicaid and move towards Universal Healthcare\" and reversing Medicaid cuts among her campaign priorities.",
+          "sources": [
+            "s3"
+          ],
+          "quote": "Expand Medicaid and move towards Universal Healthcare"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Ballotpedia survey response lists \"End current ICE funding\" among her campaign priorities.",
+          "quote": "End current ICE funding",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Ballotpedia survey response lists codifying Roe v. Wade among her campaign priorities.",
+          "quote": "Codify Roe v Wade",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Ballotpedia survey response lists investing in green energy among her campaign priorities.",
+          "quote": "Invest in green energy",
           "sources": [
             "s3"
           ]
@@ -231,13 +249,6 @@
       "kind": "candidate"
     },
     {
-      "id": "s6",
-      "url": "https://aderholt.house.gov/issues/immigration",
-      "title": "Immigration",
-      "publisher": "Office of Rep. Robert Aderholt",
-      "kind": "candidate"
-    },
-    {
       "id": "s7",
       "url": "https://aderholt.house.gov/issues/gun-rights",
       "title": "Gun Rights",
@@ -257,6 +268,13 @@
       "title": "Family Values",
       "publisher": "Office of Rep. Robert Aderholt",
       "kind": "candidate"
+    },
+    {
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/28",
+      "title": "H.R. 28, Protection of Women and Girls in Sports Act of 2025 (cosponsors)",
+      "publisher": "Congress.gov",
+      "kind": "official",
+      "id": "s10"
     }
   ],
   "researchedAt": "2026-09-25"
