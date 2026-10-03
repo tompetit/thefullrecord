@@ -11,12 +11,16 @@
  * get a free key and exits 0 without writing anything.
  *
  * Run: npm run ingest:openstates -- [--states tx,ca] [--pages 10] [--max-votes 300] [--resume]
+ *      npm run ingest:openstates -- --daily --budget 200
+ *   --daily: never-attempted states first, then the states refreshed longest ago,
+ *   until --budget requests are used (the free key allows 250/day). Progress is
+ *   kept in scripts/ingest/openstates-progress.json.
  * Defaults: 10 pages (200 bills) per state, the 300 most recent vote events
  * kept per chamber. We wait ~1 s between requests, back off exponentially on
  * HTTP 429 and keep going, and stop cleanly if the limit persists. Each state
  * is written as it completes, so an interruption keeps earlier states.
  */
-import { existsSync, mkdirSync, readFileSync, readdirSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { writeSnapshot } from "./shared.mjs";
@@ -52,6 +56,9 @@ const PAGES = Number(flag("--pages") ?? 10);
 if (!Number.isInteger(PAGES) || PAGES < 1 || PAGES > 50) throw new Error("--pages must be 1-50");
 const MAX_VOTES = Number(flag("--max-votes") ?? 300);
 if (!Number.isInteger(MAX_VOTES) || MAX_VOTES < 1) throw new Error("--max-votes must be a positive integer");
+const BUDGET = Number(flag("--budget") ?? Infinity);
+const PROGRESS_FILE = join(dirname(fileURLToPath(import.meta.url)), "openstates-progress.json");
+const progress = existsSync(PROGRESS_FILE) ? JSON.parse(readFileSync(PROGRESS_FILE, "utf8")) : {};
 let rateLimited = 0;
 const NOT_JURISDICTIONS = new Set(["NY", "GU", "VI", "AS", "MP"]);
 const states = (flag("--states")?.split(",").map((s) => s.trim().toLowerCase()) ??
@@ -59,9 +66,14 @@ const states = (flag("--states")?.split(",").map((s) => s.trim().toLowerCase()) 
   .filter((s) => s !== "ny");
 
 // --resume: skip states that already have snapshot files (continue after a rate-limit stop).
-const resumed = args.includes("--resume")
-  ? states.filter((st) => !readdirSync(SNAPSHOT_DIR).some((f) => f.startsWith(`state-${st}-`)))
-  : states;
+// --daily: never-attempted states first, then oldest refresh first.
+const hasFiles = (st) => readdirSync(SNAPSHOT_DIR).some((f) => f.startsWith(`state-${st}-`));
+const lastRun = (st) => progress[st]?.lastRun ?? (hasFiles(st) ? "2026-10-03" : "");
+const resumed = args.includes("--daily")
+  ? [...states].sort((a, b) => lastRun(a).localeCompare(lastRun(b)) || a.localeCompare(b))
+  : args.includes("--resume")
+    ? states.filter((st) => !hasFiles(st))
+    : states;
 
 let lastRequest = 0;
 class RateLimited extends Error {}
@@ -75,6 +87,9 @@ async function api(st, page) {
     const res = await fetch(url, { headers: { "X-API-KEY": KEY, "User-Agent": "thefullrecord-ingest/1.0 (civic transparency)" }, signal: AbortSignal.timeout(60_000) });
     if (res.status === 429) {
       rateLimited++;
+      // A daily cap won't clear by waiting; stop now and keep what's written.
+      const detail = await res.text();
+      if (/\/day/.test(detail)) throw new RateLimited(`daily limit reached (${detail.trim()})`);
       if (attempt === 5) throw new RateLimited(`429 for ${st} page ${page}`);
       const backoff = 10_000 * 2 ** attempt;
       console.log(`  429 rate limited; waiting ${backoff / 1000}s`);
@@ -89,6 +104,10 @@ async function api(st, page) {
 let requests = 0;
 let written = 0;
 for (const st of resumed) {
+  if (requests + PAGES > BUDGET) {
+    console.log(`Stopping: request budget of ${BUDGET} reached.`);
+    break;
+  }
   const bills = [];
   try {
     for (let page = 1; page <= PAGES; page++) {
@@ -116,6 +135,8 @@ for (const st of resumed) {
     }
   }
   if (!snapshots.size) console.log(`  ${st}: no usable floor votes in ${bills.length} bills`);
+  progress[st] = { lastRun: new Date().toISOString().slice(0, 10), bills: bills.length, rollCalls: [...snapshots.values()].reduce((n, s) => n + s.rollCalls.length, 0) };
+  writeFileSync(PROGRESS_FILE, `${JSON.stringify(progress, null, 2)}\n`);
   if (Object.keys(skipped).length) console.log(`  ${st}: skipped ${JSON.stringify(skipped)}`);
 }
 console.log(`Done: ${requests} requests, ${rateLimited} HTTP 429 responses, ${written} snapshot files written.`);
