@@ -28,7 +28,7 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
     <main className="flex-1">
       <GuideNav active="guide" />
       <div className="mx-auto w-full max-w-6xl px-[20px] pt-6 lg:px-10">
-        <nav className="font-sans text-[12.5px] text-ink-60">
+        <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
           <Link href="/guide" className="hover:text-ink">Guide</Link> › {stateName(st)}
         </nav>
         <h1 className="mt-2 font-serif text-[32px] font-semibold tracking-[-0.015em] text-ink lg:text-[44px]">

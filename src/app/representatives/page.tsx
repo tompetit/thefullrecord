@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
-import { AppHeader } from "@/components/AppHeader";
 import { OfficialCard } from "@/components/OfficialCard";
 import { SourceLink } from "@/components/SourceLink";
 import { getDataSource } from "@/server/datasource";
@@ -58,7 +57,6 @@ export default async function RepresentativesPage({
   if (!result.ok) {
     return (
       <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-        <AppHeader />
         <div className="px-[26px] pt-7 lg:px-10">
           <h1 className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink lg:text-[32px]">
             Your representatives
@@ -81,8 +79,6 @@ export default async function RepresentativesPage({
 
   return (
     <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-      <AppHeader />
-
       <div className="px-[26px] pt-7 lg:px-10">
         <h1 className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink lg:text-[32px]">
           {isSample ? "Explore a sample district" : "Your representatives"}
@@ -97,7 +93,7 @@ export default async function RepresentativesPage({
         <Link
           href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}
           className="mt-4 mr-3 inline-flex rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[13.5px] font-semibold text-paper"
-        >Explore votes by issue →</Link>
+        >Explore the votes by issue →</Link>
         <Link
           href={`/guide/ballot?address=${encodeURIComponent(result.matchedAddress)}`}
           className="mt-4 inline-flex rounded-[10px] border-[1.5px] border-accent bg-accent-tint px-4 py-2.5 font-sans text-[13.5px] font-semibold text-accent-deep hover:bg-paper-raised"

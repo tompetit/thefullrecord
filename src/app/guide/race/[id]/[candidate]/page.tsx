@@ -42,7 +42,7 @@ export default async function CandidatePage({ params }: { params: Params }) {
     <main className="flex-1 pb-4">
       <GuideNav active="guide" />
       <div className="mx-auto w-full max-w-4xl px-[20px] pt-6 lg:px-10">
-        <nav className="font-sans text-[12.5px] text-ink-60">
+        <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
           <Link href="/guide" className="hover:text-ink">Guide</Link> ›{" "}
           <Link href={`/guide/race/${race.id}`} className="hover:text-ink">{race.title}</Link>
         </nav>
