@@ -66,6 +66,33 @@
             "s8"
           ],
           "basis": "votes"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His campaign issues page calls for finishing the border wall, funding agents, ending catch-and-release and mandating E-Verify.",
+          "quote": "In Congress he’ll finish the wall, fund the agents, end catch-and-release, mandate E-Verify",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "His campaign issues page says he helped lead the effort to keep men out of women's sports and will carry that fight to Washington.",
+          "quote": "Blake helped lead the effort to keep men out of girls’ bathrooms and out of women’s sports.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "His campaign issues page lists proof of citizenship among his election priorities and calls on Congress to pass the SAVE America Act.",
+          "quote": "Congress needs to pass the SAVE America Act and get it to the President’s desk.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
@@ -132,7 +159,17 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Said he would not favor restoring the expired enhanced Affordable Care Act subsidies, favors expanded health savings accounts, and supports the new Medicaid work requirements.",
+          "quote": "I am a strong proponent of the open market,",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Served in the Louisiana House of Representatives for District 66 (2016–2024); now serves in the Louisiana State Senate for District 6 (since 2024).",
@@ -197,7 +234,16 @@
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "At a Republican candidate forum, said he would eliminate Medicaid and give recipients vouchers for private health insurance.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     },
@@ -295,7 +341,26 @@
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Said he would reverse the cuts to Affordable Care Act subsidies and would work to repeal the Medicaid work requirements.",
+          "quote": "I would reverse the cuts to the Affordable Care Act subsidies,",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign site says tariffs, along with wars and tax cuts for billionaires, are driving up the cost of living for Louisiana families.",
+          "quote": "Reckless tariffs, misguided wars, and tax cuts for billionaires are driving up the cost of living for Louisiana families.",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     },
@@ -354,7 +419,25 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Said she would work to bring back the Affordable Care Act subsidies, would work to repeal Medicaid work requirements, and eventually wants a taxpayer-funded national health insurance plan.",
+          "quote": "Healthcare is a human right in the United States,",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "In her Candidate Connection survey, says she supports raising the federal minimum wage so full-time workers are not living in poverty.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     }
@@ -431,6 +514,38 @@
       "publisher": "Louisiana House of Representatives",
       "kind": "official",
       "date": "2022-06-02"
+    },
+    {
+      "id": "s10",
+      "url": "https://blakemiguez.com/issues",
+      "title": "Issues — Blake Miguez for U.S. Congress",
+      "publisher": "Blake Miguez for Louisiana",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://lailluminator.com/2026/09/16/ideas-on-healthcare-affordability-differ-among-6th-district-candidates/",
+      "title": "Ideas on healthcare affordability differ among 6th District candidates",
+      "publisher": "Louisiana Illuminator",
+      "kind": "news",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.theadvocate.com/baton_rouge/news/politics/5-republicans-offer-views-at-louisiana-congressional-forum/article_d5f1262f-59b4-5bcd-9f95-6c714b61cb55.html",
+      "title": "Republican congressional candidates talk immigration, data centers — and criticize a no-show",
+      "publisher": "The Advocate | The Times-Picayune",
+      "kind": "news",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.patforbes.com/",
+      "title": "Pat Forbes for U.S. Congress",
+      "publisher": "Pat Forbes for U.S. Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",
