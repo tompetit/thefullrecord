@@ -88,6 +88,8 @@ party. When in doubt, omit.
   "men in women's sports" or similar; those terms may appear only inside a verbatim `quote`.
   Campaign slogans such as "keep boys out of girls' sports" / "keep men out of women's
   sports" are the standard wording for supporting these bans and DO count as `supports`.
+  "Protect women's sports" alone counts only if the page ties it to transgender athletes
+  or eligibility by sex.
 - `housing_supply` ("Loosen zoning rules to build more housing"): loosening zoning,
   permitting, environmental-review or other land-use rules so more homes get built counts
   (e.g. "cut red tape that makes building homes slow"); housing funding alone does not.
