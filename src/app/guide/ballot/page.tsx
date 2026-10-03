@@ -2,14 +2,10 @@ import Link from "next/link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { stateName } from "@/components/guide/RaceView";
 import { GuideFooter, GuideNav, IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { LOOKUP_MESSAGES } from "@/lib/site";
 import { ballotForAddress } from "@/server/guide/ballot";
 
 export const metadata = { title: "My 2026 ballot — The Full Record" };
-
-const MESSAGES = {
-  "no-match": "We couldn't match that address. Include the street number, city, and state or ZIP code.",
-  "lookup-failed": "The Census district lookup didn't respond. Try again in a moment.",
-};
 
 export default async function BallotPage({ searchParams }: { searchParams: Promise<{ address?: string }> }) {
   const query = await searchParams;
@@ -35,9 +31,9 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
         {result && !result.ok && (
           <>
             <p className="mt-4 max-w-lg rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
-              {MESSAGES[result.reason]}
+              {LOOKUP_MESSAGES[result.reason]}
             </p>
-            <BallotAddressForm />
+            <BallotAddressForm initialAddress={address} />
           </>
         )}
         {result?.ok && (

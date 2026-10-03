@@ -3,17 +3,10 @@ import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { OfficialCard } from "@/components/OfficialCard";
 import { SourceLink } from "@/components/SourceLink";
 import { getDataSource } from "@/server/datasource";
-import { LOOKUP_SCOPE } from "@/lib/site";
+import { LOOKUP_MESSAGES, LOOKUP_SCOPE } from "@/lib/site";
 import type { LookupContext } from "@/server/types";
 
 export const metadata = { title: "Your representatives — The Full Record" };
-
-const LOOKUP_MESSAGES: Record<string, string> = {
-  "no-match":
-    "We couldn't match that address. Check the street number and spelling, and include the city or ZIP code.",
-  "lookup-failed":
-    "The district lookup service didn't respond. Try again in a moment.",
-};
 
 function LookupNotes({ context }: { context: LookupContext }) {
   const lines: string[] = [];

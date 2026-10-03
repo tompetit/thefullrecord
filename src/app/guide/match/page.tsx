@@ -3,6 +3,7 @@ import { Matcher } from "@/components/guide/Matcher";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
 import { GuideFooter, GuideNav } from "@/components/guide/ui";
 import { ballotForAddress, ballotForDistrict } from "@/server/guide/ballot";
+import { LOOKUP_MESSAGES } from "@/lib/site";
 import { parseStand, serializeStand, withStand } from "@/lib/alignment";
 import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
 
@@ -31,10 +32,7 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
       races = result.races;
       placeLabel = result.matchedAddress;
     } else {
-      error =
-        result.reason === "no-match"
-          ? "We couldn't match that address — include the street number, city, and state."
-          : "The district lookup didn't respond. Try again, or pick your state and district below.";
+      error = LOOKUP_MESSAGES[result.reason];
     }
   } else if (state && (ALL_STATES as readonly string[]).includes(state)) {
     const st = state.toUpperCase();
@@ -63,7 +61,7 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
             {error && (
               <p className="mt-4 max-w-lg rounded-lg border border-hairline-soft bg-paper-raised p-3 font-sans text-[13px] text-ink-60">{error}</p>
             )}
-            <BallotAddressForm target="/guide/match" cta="Start" />
+            <BallotAddressForm target="/guide/match" cta="Start" initialAddress={address} />
             <form action="/guide/match" className="mt-6 flex max-w-xl flex-wrap items-end gap-2 font-sans text-[13px] text-ink-80">
               <span className="basis-full text-[12px] text-ink-45">Or pick your state and congressional district:</span>
               <select aria-label="State" name="state" required defaultValue="" className="rounded-md border border-chip-border bg-paper-raised px-2 py-2">
