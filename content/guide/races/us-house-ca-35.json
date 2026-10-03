@@ -57,7 +57,7 @@
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Wrote to ICE's acting director demanding answers about what she described as aggressive, racially discriminatory enforcement actions against Latino residents of her district and called for an end to the tactics.",
-          "quote": "What we are witnessing in our communities is racial terror. Latino residents are being targeted based on their appearance, not their actions. That's not just immoral—it's unconstitutional.",
+          "quote": "Latino residents are being targeted based on their appearance, not their actions. That's not just immoral—it's unconstitutional.",
           "sources": ["s7"]
         },
         {
@@ -66,6 +66,24 @@
           "summary": "Says she has demonstrated a commitment to taking on climate change and prioritizes promoting energy efficiency and renewable energy sources like solar.",
           "quote": "I have demonstrated a commitment to taking on challenges like drought and climate change that are impacting California.",
           "sources": ["s6"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 4099, the Ensuring Women's Right to Reproductive Freedom Act, a bill to prohibit interference, under color of State law, with the provision of interstate abortion services (119th Congress).",
+          "sources": ["s8"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, a bill to regulate assault weapons (119th Congress).",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025, a bill to provide for increases in the federal minimum wage (119th Congress).",
+          "sources": ["s10"]
         }
       ],
       "record": [
@@ -112,18 +130,32 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Describes illegal crossings at the southern border as a top concern tied to trafficking, fentanyl, crime, and job losses, and says stopping it is his first priority.",
-          "quote": "First, we must stop the invasion of our country through our Southern border.",
-          "sources": ["s3"]
-        },
-        {
           "issue": "climate",
           "stance": "opposes",
           "summary": "Promises to 'protect the gas in your stoves, the gas in your cars,' and lists energy independence and alternatives to wind and solar as a policy focus.",
           "quote": "I promise to protect the gas in your stoves, the gas in your cars, the price of food on your table and the safety of your family.",
           "sources": ["s3"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says life begins at conception and that he would not support abortion except in cases of rape, incest or to save the life of the mother.",
+          "quote": "except in the case of rape, incest or the life of the mother, I will never support abortion.",
+          "sources": ["s11"]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says any restriction, registration or regulation of the right to keep and bear arms is an infringement and unconstitutional.",
+          "quote": "Any restriction, registration or regulation of that right, is by definition, an \"infringement\" and is unconstitutional.",
+          "sources": ["s12"]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Says he stands against boys competing in girls' sports.",
+          "quote": "Mike wholeheartedly stands against boys in girls’ sports",
+          "sources": ["s12"]
         }
       ],
       "record": [],
@@ -174,6 +206,41 @@
       "publisher": "Office of Rep. Norma J. Torres",
       "kind": "official",
       "date": "2025-07-14"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4099",
+      "title": "H.R. 4099: Ensuring Women's Right to Reproductive Freedom Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115: Assault Weapons Ban of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743: Raise the Wage Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.cargileforcongress.com/life-1",
+      "title": "Life",
+      "publisher": "Cargile for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.cargileforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Cargile for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
