@@ -54,6 +54,34 @@
           "stance": "supports",
           "summary": "Cites her own eviction from a rent-stabilized apartment as the origin of her tenant-organizing career and says she was instrumental in passing the 2019 Housing Stability and Tenant Protection Act strengthening tenants' rights.",
           "sources": ["s2"]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign website issues page (text dating from her 2020 campaign) calls for significantly raising taxes on the top 1 percent, luxury housing and Wall Street transactions.",
+          "quote": "We must significantly raise taxes for the 1%, luxury housing and Wall Street transactions",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her campaign website issues page (text dating from her 2020 campaign) says she will push back against the deportation machine and make New York ICE-free.",
+          "quote": "I will continue to push back against the deportation machine, make New York ICE-free, and ensure that we keep families together.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her campaign website issues page (text dating from her 2020 campaign) calls for a Green New Deal for New York centered on green jobs and funding for the Sunset Park waterfront.",
+          "quote": "The Sunset Park waterfront deserves the funding and support necessary to become a center of green jobs through a true Green New Deal for New York.",
+          "sources": ["s9"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "In a January 2026 statement on Governor Hochul's child care plan, she said the expansion brings New York closer to universal child care and applauded moving toward a future where every family has access to high-quality, affordable child care.",
+          "quote": "This commitment brings us closer to universal child care, eases the crushing cost burden on parents, and invests in the caregivers and educators who make our communities stronger.",
+          "sources": ["s10"]
         }
       ],
       "record": [
@@ -103,12 +131,70 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/New_York_State_Assembly_District_51", "title": "New York State Assembly District 51", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://nyassembly.gov/mem/Marcela-Mitaynes/bio/", "title": "Assemblymember Marcela Mitaynes - Biography", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06100&term=2025&Summary=Y&Actions=Y&Memo=Y", "title": "Bill A06100 - Summary, Actions, Memo", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03578&term=2025&Summary=Y&Actions=Y&Memo=Y", "title": "Bill A03578 - Summary, Actions, Memo", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
-    { "id": "s5", "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A07180&term=2025&Summary=Y&Actions=Y&Memo=Y", "title": "Bill A07180 - Summary, Actions, Memo", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" },
-    { "id": "s8", "url": "https://nyassembly.gov/mem/Marcela-Mitaynes/comm/", "title": "Assemblymember Marcela Mitaynes - Committee Membership", "publisher": "New York State Assembly", "kind": "official", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York_State_Assembly_District_51",
+      "title": "New York State Assembly District 51",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://nyassembly.gov/mem/Marcela-Mitaynes/bio/",
+      "title": "Assemblymember Marcela Mitaynes - Biography",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A06100&term=2025&Summary=Y&Actions=Y&Memo=Y",
+      "title": "Bill A06100 - Summary, Actions, Memo",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A03578&term=2025&Summary=Y&Actions=Y&Memo=Y",
+      "title": "Bill A03578 - Summary, Actions, Memo",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A07180&term=2025&Summary=Y&Actions=Y&Memo=Y",
+      "title": "Bill A07180 - Summary, Actions, Memo",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://nyassembly.gov/mem/Marcela-Mitaynes/comm/",
+      "title": "Assemblymember Marcela Mitaynes - Committee Membership",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://marcelaforny.org/issues",
+      "title": "Issues - Marcela Mitaynes for AD 51",
+      "publisher": "Marcela Mitaynes campaign website (issues page; archived versions date from 2020)",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.governor.ny.gov/news/what-they-are-saying-advocates-unions-child-care-leaders-elected-officials-educators-and",
+      "title": "What They Are Saying: ... Applaud Governor Hochul's Plan to Deliver Universal Child Care for New York Children Under Five (January 9, 2026)",
+      "publisher": "Office of the Governor of New York",
+      "kind": "official",
+      "date": "2026-10-03"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Marcela Mitaynes has no completed Ballotpedia Candidate Connection survey and no located 2026 campaign website, so her priorities/positions rely only on her official Assembly biography and legislative record. Carla Danielson has no located campaign website, survey response, or news coverage; her entry reflects only the Ballotpedia race page listing her ballot lines."

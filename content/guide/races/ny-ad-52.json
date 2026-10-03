@@ -4,87 +4,61 @@
   "officeType": "state-assembly",
   "office": "NY State Assembly",
   "district": "52",
-  "title": "NY State Assembly \u00b7 District 52",
+  "title": "NY State Assembly · District 52",
   "area": "Downtown Brooklyn, including Brooklyn Heights, DUMBO, Boerum Hill, Cobble Hill, Carroll Gardens and Fort Greene.",
   "inNYC": true,
   "electionDate": "2026-11-03",
   "context": [
     {
-      "text": "Incumbent Jo Anne Simon (D/WFP), first elected in 2014, defeated Lydia Green 71.1%\u201328.4% in the June 23, 2026 Democratic primary. She faces Brett Wynkoop (R/C), a perennial candidate who has run against her in 2022 and 2024 and previously ran for New York City Council, in the general election.",
-      "sources": [
-        "s1"
-      ]
+      "text": "Incumbent Jo Anne Simon (D/WFP), first elected in 2014, defeated Lydia Green 71.1%–28.4% in the June 23, 2026 Democratic primary. She faces Brett Wynkoop (R/C), a perennial candidate who has run against her in 2022 and 2024 and previously ran for New York City Council, in the general election.",
+      "sources": ["s1"]
     }
   ],
   "candidates": [
     {
       "id": "jo-anne-simon",
       "name": "Jo Anne Simon",
-      "parties": [
-        "D",
-        "WFP"
-      ],
+      "parties": ["D", "WFP"],
       "incumbent": true,
       "currentRole": "NY State Assembly Member, District 52 (since 2015)",
       "summary": {
         "text": "Jo Anne Simon is the incumbent Democratic and Working Families Party nominee for NY State Assembly District 52, seeking a seventh term. A disability-rights attorney, she chairs the Assembly's Mental Health Committee and also serves on the Higher Education Committee.",
-        "sources": [
-          "s1",
-          "s2",
-          "s3"
-        ]
+        "sources": ["s1", "s2", "s3"]
       },
       "background": [
         {
           "text": "Grew up in a working-class family in Yonkers, NY, the daughter of Italian immigrants; was the first in her family to attend college.",
-          "sources": [
-            "s2"
-          ]
+          "sources": ["s2"]
         },
         {
           "text": "Earned a bachelor's degree in Communication Sciences from Iona College, a master's degree in Education of the Deaf from Gallaudet University, and a law degree from Fordham University School of Law, completed at night while working full-time.",
-          "sources": [
-            "s2"
-          ]
+          "sources": ["s2"]
         },
         {
           "text": "Worked as a judicial law secretary and taught in Hofstra University School of Law's clinical program before founding a disability civil rights law firm in Downtown Brooklyn; is also an adjunct assistant professor of law at Fordham.",
-          "sources": [
-            "s2"
-          ]
+          "sources": ["s2"]
         },
         {
           "text": "Served as President of the Boerum Hill Association and was a founder or co-founder of several Brooklyn civic organizations, including BrooklynSpeaks.net and the Council of Brooklyn Neighborhoods.",
-          "sources": [
-            "s2"
-          ]
+          "sources": ["s2"]
         },
         {
           "text": "Elected female District Leader and State Committeewoman for the 52nd Assembly District in 2004, before her 2014 election to the Assembly succeeding Joan Millman.",
-          "sources": [
-            "s1",
-            "s2"
-          ]
+          "sources": ["s1", "s2"]
         }
       ],
       "priorities": [
         {
           "text": "Preserving rent-stabilized housing: \"In this increasingly expensive neighborhood, protecting our remaining rent-stabilized housing is more important than ever.\"",
-          "sources": [
-            "s8"
-          ]
+          "sources": ["s8"]
         },
         {
           "text": "Shifting New York off gas infrastructure toward affordable energy: \"We should be accelerating investments in affordable energy that creates jobs and builds a healthier future.\"",
-          "sources": [
-            "s9"
-          ]
+          "sources": ["s9"]
         },
         {
           "text": "Expanding non-police mental health crisis response: \"Tragedies like this underscore the need for greater investment in preventive care and an evidence-based response to mental health crises... We cannot continue to ask police officers to function as mental health care providers.\"",
-          "sources": [
-            "s12"
-          ]
+          "sources": ["s12"]
         }
       ],
       "positions": [
@@ -92,52 +66,74 @@
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Joined tenants and a city council member to press a landlord over conditions at rent-stabilized buildings, calling for repairs and protection of tenants' right to stay, and said protecting remaining rent-stabilized housing is increasingly important.",
-          "quote": "In this increasingly expensive neighborhood, protecting our remaining rent-stabilized housing is more important than ever... I will fight with the tenants of the Riverside Buildings for repairs, accountability, and the right to stay safely in their homes.",
-          "sources": [
-            "s8"
-          ]
+          "quote": "In this increasingly expensive neighborhood, protecting our remaining rent-stabilized housing is more important than ever.",
+          "sources": ["s8"]
         },
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Opposed efforts to roll back New York's Climate Leadership and Community Protection Act, condemned state approval of the NESE gas pipeline, and co-sponsored legislation to move customers off gas infrastructure toward cheaper, cleaner heating alternatives.",
+          "summary": "Opposed efforts to roll back New York's Climate Leadership and Community Protection Act, and condemned state approval of the NESE gas pipeline.",
           "quote": "Rolling back New York's signature climate law would move the state in the wrong direction. We should be accelerating investments in affordable energy that creates jobs and builds a healthier future.",
-          "sources": [
-            "s9",
-            "s10"
-          ]
+          "sources": ["s9", "s10"]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her campaign issues page says she sponsored New York's red-flag law and pushed for a package of bills including comprehensive background checks, a bump-stock ban and safe-storage requirements.",
+          "quote": "Jo Anne sponsored a major piece of legislation establishing a \"red flag\" law to help family members, law enforcement, and school officials prevent gun tragedies",
+          "sources": ["s18"]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign issues page cites her role in passing legislation codifying Roe v. Wade in state law to protect the right to an abortion in New York.",
+          "quote": "Jo Anne helped pass a historic package of women's rights bills, including codifying Roe v. Wade into state law to ensure a woman's right to an abortion in New York well in advance of the Supreme Court's decision in Dobbs",
+          "sources": ["s18"]
+        },
+        {
+          "issue": "congestion_pricing",
+          "stance": "supports",
+          "summary": "In a June 7, 2024 statement she opposed delaying congestion pricing, saying she had advocated for it for almost 20 years and co-sponsored the state's congestion pricing bill.",
+          "quote": "I strongly oppose the Governor's sudden backtracking & derailment of congestion pricing.",
+          "sources": ["s19"]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Her 2026 campaign website says she is passing bills to deliver universal child care.",
+          "quote": "I'm passing bills to tackle the affordability crisis, deliver universal child care, protect health care, improve education, and protect NY from ICE.",
+          "sources": ["s20"]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her 2026 campaign website says she is passing bills to protect New York from ICE.",
+          "quote": "I'm passing bills to tackle the affordability crisis, deliver universal child care, protect health care, improve education, and protect NY from ICE.",
+          "sources": ["s20"]
         }
       ],
       "record": [
         {
-          "text": "Chairs the Assembly's Mental Health Committee and serves as a member of the Higher Education Committee in the 2025\u20132026 session.",
+          "text": "Chairs the Assembly's Mental Health Committee and serves as a member of the Higher Education Committee in the 2025–2026 session.",
           "kind": "action",
-          "sources": [
-            "s3"
-          ]
+          "sources": ["s3"]
         },
         {
           "text": "Prime sponsor, with State Senator Liz Krueger, of the Customer Savings and Reliability Act, introduced June 10, 2025, which would end the \"100-foot rule\" requiring utilities to subsidize new gas-line extensions and amend the gas-service mandate on an opt-out, regional basis.",
           "date": "2025-06-10",
           "kind": "bill",
-          "sources": [
-            "s11"
-          ]
+          "sources": ["s11"]
         },
         {
           "text": "Prime sponsor of A6004, the Local Input in Community Healthcare Act, requiring advance public notice, a community forum and disclosure before a hospital or critical care unit closes; passed the Assembly and Senate twice, and was vetoed by Governor Hochul in December 2025 after an earlier 2024 veto.",
           "date": "2025-12-16",
           "kind": "bill",
-          "sources": [
-            "s13"
-          ]
+          "sources": ["s13"]
         },
         {
           "text": "Sponsors a large number of bills each session as a senior Brooklyn Democrat, including A08222 (extending the statute of limitations for certain deed-theft lawsuits and reviving time-barred claims), A10648 (the \"utility shutoff protection act\") and A03614 (the \"New York Stock Act,\" barring public officers and employees from trading on nonpublic information gained through their official position); as of January 2026 these remained in committee without floor votes.",
           "kind": "bill",
-          "sources": [
-            "s4"
-          ]
+          "sources": ["s4"]
         }
       ],
       "website": "https://nyassembly.gov/mem/Jo-Anne-Simon/",
@@ -147,29 +143,50 @@
     {
       "id": "brett-wynkoop",
       "name": "Brett Wynkoop",
-      "parties": [
-        "R",
-        "C"
-      ],
+      "parties": ["R", "C"],
       "incumbent": false,
       "ballotNote": "Previously ran against Jo Anne Simon for this seat in 2022 and 2024, and ran for New York City Council in 2021 and 2025.",
       "summary": {
         "text": "Brett Wynkoop is the Republican and Conservative Party nominee challenging incumbent Jo Anne Simon for NY State Assembly District 52, a race he has also run in 2022 and 2024. He has also run for New York City Council.",
-        "sources": [
-          "s1",
-          "s7"
-        ]
+        "sources": ["s1", "s7"]
       },
       "background": [
         {
           "text": "Wynkoop holds a bachelor's degree in nautical science from the U.S. Merchant Marine Academy and has worked as a senior technical resource for Wynn Data Limited.",
-          "sources": [
-            "s14"
-          ]
+          "sources": ["s14"]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "His campaign energy page describes wind and solar as supplements to baseload power rather than replacements and criticizes subsidies and mandates for renewables, calling instead for an all-of-the-above approach that includes natural gas and nuclear.",
+          "quote": "Realistically integrating renewables like wind and solar where they make economic and practical sense-as supplements to baseload power, not replacements.",
+          "sources": ["s15"]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "In a 2025 City Council campaign pledge posted on his website, he committed to sponsor legislation to expand private and charter schools and create a school voucher program.",
+          "quote": "I pledge to sponsor or co-sponsor legislation to expand private and charter schools and create a full school voucher program that gives families real choices in education.",
+          "sources": ["s16"]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "In his 2025 City Council campaign page on police policy, he says he would introduce bills to raise starting police pay and increase the size of the police force.",
+          "quote": "My bill will also increase the size of our police force.",
+          "sources": ["s17"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "opposes",
+          "summary": "In a 2025 City Council campaign pledge posted on his website, he committed to sponsor legislation to stop the 'City of Yes' zoning plan, saying it threatens to override local zoning laws.",
+          "quote": "I pledge to sponsor or co-sponsor legislation to stop the so-called \"City of Yes\" plan, which may sound positive but threatens to override local zoning laws.",
+          "sources": ["s16"]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
       "researchNotes": "No Ballotpedia Candidate Connection survey response for Wynkoop's 2026 run. His campaign website (wynkoop.nyc) was unreachable as of September 25, 2026, so no verbatim, directly-sourced policy positions or priorities could be confirmed for this cycle; his site is summarized secondhand by third-party voter guides (e.g. branch.vote, describing his 2025 NYC Council platform) but those summaries are not used here as primary quotes. Ballotpedia records $0 in reported contributions and expenditures for his 2022 and 2024 runs for this seat."
@@ -270,6 +287,54 @@
       "title": "Brett Wynkoop candidate profile, NYC Council District 39 (2025)",
       "publisher": "Branch",
       "kind": "reference"
+    },
+    {
+      "id": "s15",
+      "url": "http://www.wynkoop.nyc/energy-policy/",
+      "title": "Sane, Affordable, and Reliable Energy for District 52 Families",
+      "publisher": "Brett Wynkoop campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s16",
+      "url": "http://www.wynkoop.nyc/contract-with-nyc/",
+      "title": "Common Sense Contract With NYC (City Council District 39 pledge, 2025)",
+      "publisher": "Brett Wynkoop campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s17",
+      "url": "http://www.wynkoop.nyc/police/",
+      "title": "Police Policy (City Council District 39, 2025)",
+      "publisher": "Brett Wynkoop campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s18",
+      "url": "https://simonforbrooklyn.com/issues/",
+      "title": "Issues",
+      "publisher": "Jo Anne for Assembly 2026 campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s19",
+      "url": "https://nyassembly.gov/mem/Jo-Anne-Simon/story/111047",
+      "title": "Statement from Assemblymember Simon on Governor's Decision to Indefinitely Delay Congestion Pricing (June 7, 2024)",
+      "publisher": "NY State Assembly",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s20",
+      "url": "https://simonforbrooklyn.com/",
+      "title": "Re-Elect Jo Anne Simon to the NY State Assembly",
+      "publisher": "Jo Anne for Assembly 2026 campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",
