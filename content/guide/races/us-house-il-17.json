@@ -11,43 +11,59 @@
   "context": [
     {
       "text": "Incumbent Eric Sorensen ran unopposed in the March 17, 2026 Democratic primary. Dillan Vancil defeated Julie Bickelhaupt in the Republican primary, 58.4% to 41.6%.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "eric-sorensen",
       "name": "Eric Sorensen",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the March 17, 2026 Democratic primary unopposed",
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Eric Sorensen is the Democratic U.S. Representative for Illinois's 17th District, first elected in 2022. He worked as a television meteorologist before entering politics.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in Rockford, Illinois; earned a bachelor's degree from Northern Illinois University in 1999.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Worked as a meteorologist and served on the boards of Clock, Inc. and the Project of the Quad Cities.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "My top priority is addressing rising costs that are hurting Illinoisans from the grocery store to the gas pump. I'm also committed to bringing down out-of-control drug prices, especially for our seniors.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "I believe everyone has the right to be healthy, which is why I'm working in Congress to make health care more affordable, accessible, and efficient.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "We need to find ways to protect our homes and farms from draughts, floods, and other adverse weather events while investing in clean power sources that will create sustainable, good-paying jobs right here in our district.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -55,36 +71,64 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says reproductive health care decisions should be made between a patient and their doctor, not lawmakers, and that he will work to remove barriers to reproductive care.",
-          "quote": "I believe that reproductive health care decisions should be made between an individual and their doctor – not lawmakers. ... I will continue to work in Congress to break down barriers to accessing reproductive care, not building them.",
-          "sources": ["s3"]
+          "quote": "I believe that reproductive health care decisions should be made between an individual and their doctor – not lawmakers.",
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Says the climate is changing and calls for investing in clean power sources while protecting communities from severe-weather damage.",
           "quote": "We need to find ways to protect our homes and farms from draughts, floods, and other adverse weather events while investing in clean power sources that will create sustainable, good-paying jobs right here in our district.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says he is working to invest more into local law enforcement agencies to support training, recruitment, and retention.",
           "quote": "As your Representative, I am taking strides to invest more into local law enforcement agencies to support their training needs, help them better retain and recruit officers, and build better relationships with the communities they serve.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says he wants to protect and expand the Affordable Care Act to cover preexisting conditions and let Medicare negotiate prescription drug prices.",
           "quote": "I believe we need to protect and expand the Affordable Care Act (ACA) to ensure preexisting conditions are covered. I also support solutions that bring down the cost of prescription drugs, like allowing Medicare to negotiate with pharmaceutical companies.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports legislation banning certain semi-automatic weapons and magazines holding more than 15 rounds.",
+          "quote": "Military-style assault weapons, capable of killing dozens of people in minutes, do not belong on our streets.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Criticizes the Trump administration’s tariffs as harmful to farmers and small businesses and cosponsored bills to rein in presidential tariff authority.",
+          "quote": "Donald Trump’s tariffs have bankrupted farmers, caused small businesses to close, and made it harder for my neighbors to pay their bills.",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the Committee on Agriculture (General Farm Commodities, Risk Management and Credit; Conservation, Research and Biotechnology) and the House Committee on Armed Services (Readiness; Tactical Air and Land Forces).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "full",
@@ -93,25 +137,70 @@
     {
       "id": "dillan-vancil",
       "name": "Dillan Vancil",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Republican primary with 58.4% of the vote",
       "summary": {
         "text": "Dillan Vancil is the Republican nominee for Illinois's 17th Congressional District. He is a small business owner, railroad worker, and school board member.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Illinois.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Career experience as a small business owner and railroad worker; served as a member of the West Central School Board.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Says his first priority is to unleash American energy by letting coal be burned again, expanding natural gas and investing in nuclear.",
+          "quote": "reversing the war on reliable baseload power and letting us start burning coal again, expanding natural gas, and investing in safe nuclear",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "mixed",
+          "summary": "Says the President should be able to order limited military strikes without waiting for Congress, but that a sustained war or regime-change campaign must return to Congress for explicit authorization.",
+          "quote": "anything that amounts to a sustained war or regime‑change campaign must come back to Congress for explicit authorization and ongoing oversight",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Praised the Medicaid work requirements in the 2025 reconciliation law, according to WGLT.",
+          "sources": [
+            "s11"
+          ],
+          "quote": "I've had to work for everything that I've earned in my life. Why shouldn't they"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "mixed",
+          "summary": "Described himself as leery of the Trump tariffs but said they seem to be working, per WGLT.",
+          "quote": "It seems to be working. More time will tell on how that will all play out",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     }
@@ -165,6 +254,38 @@
       "title": "Public Safety",
       "publisher": "Office of Rep. Eric Sorensen",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://sorensen.house.gov/media/press-releases/congressman-sorensen-supports-assault-weapons-ban-amidst-political-and-gun",
+      "title": "Congressman Sorensen Supports Assault Weapons Ban Amidst Political and Gun Violence",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate",
+      "date": "2025-09-23"
+    },
+    {
+      "id": "s9",
+      "url": "https://sorensen.house.gov/media/press-releases/congressman-sorensen-statement-supreme-courts-decision-strike-down-trumps",
+      "title": "Congressman Sorensen Statement on Supreme Court’s Decision to Strike Down Trump’s Tariff Scheme",
+      "publisher": "Office of Rep. Eric Sorensen",
+      "kind": "candidate",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.shawlocal.com/sauk-valley/2026/02/18/2026-election-questionnaire-dillan-vancil-us-house-of-representatives-17th-district/",
+      "title": "2026 Election Questionnaire: Dillan Vancil, U.S. House of Representatives, 17th District",
+      "publisher": "Shaw Local",
+      "kind": "candidate",
+      "date": "2026-02-18"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.wglt.org/local-news/2025-08-12/gop-candidate-for-17th-congressional-district-is-active-early-this-election-cycle",
+      "title": "GOP candidate for 17th Congressional District is active early this election cycle",
+      "publisher": "WGLT",
+      "kind": "news",
+      "date": "2025-08-12"
     }
   ],
   "researchedAt": "2026-09-25",
