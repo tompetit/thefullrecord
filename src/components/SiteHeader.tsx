@@ -108,9 +108,6 @@ export function SiteHeader() {
             <span className="min-w-0 truncate text-ink-80" title={address}>
               {address}
             </span>
-            <Link href="/#find-your-reps" className="inline-flex min-h-11 shrink-0 items-center underline hover:text-ink">
-              Change
-            </Link>
             <button
               type="button"
               onClick={clearAddress}
