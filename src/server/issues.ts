@@ -28,6 +28,5 @@ export function getIssueRecords(officials?: Official[]) {
   }))).filter((record) => !officials || record.representatives.length > 0).sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
   return {
     records,
-    coverage: snapshots.map((snapshot) => ({ chamber: snapshot.chamber, count: snapshot.rollCalls.length, updated: snapshot.generatedAt.slice(0, 10) })),
   };
 }
