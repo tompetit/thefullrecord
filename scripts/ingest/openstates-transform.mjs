@@ -62,6 +62,8 @@ export function transformBills(bills, st, now = new Date().toISOString(), maxVot
       const toHttps = (u) => (typeof u === "string" ? u.replace(/^http:\/\//i, "https://") : u);
       const sourceUrl = [vote.sources?.[0]?.url, bill.sources?.[0]?.url].map(toHttps).find((u) => u && isOfficialStateSource(u));
       if (!sourceUrl) { skip("no-official-source"); continue; }
+      // Committee votes are sometimes filed under the parent chamber; they are not floor votes.
+      if ([vote, bill].some((x) => (x.sources ?? []).some((src) => /committee/i.test(src.url ?? "")))) { skip("committee-vote"); continue; }
       const votes = {};
       for (const v of vote.votes ?? []) {
         const id = v.voter?.id;
@@ -70,6 +72,10 @@ export function transformBills(bills, st, now = new Date().toISOString(), maxVot
         votes[id] = mapped;
       }
       if (!Object.keys(votes).length) { skip("no-identified-voters"); continue; }
+      // Open States sometimes lists only some voters; a partial list would misstate who voted, so require
+      // that the identified voters cover at least 85% of the vote's own tally.
+      const tallied = (vote.counts ?? []).reduce((n, c) => n + (Number(c.value) || 0), 0);
+      if (tallied > 0 && Object.keys(votes).length < 0.85 * tallied) { skip("incomplete-voter-list"); continue; }
       const tally = (option) => {
         const fromCounts = (vote.counts ?? []).find((c) => c.option === option)?.value;
         return fromCounts ?? (vote.votes ?? []).filter((x) => x.option === option).length;

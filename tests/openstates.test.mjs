@@ -11,7 +11,7 @@ const vote = (extra) => ({
   start_date: "2025-08-25",
   result: "pass",
   organization: { classification: "lower" },
-  counts: [{ option: "yes", value: 90 }, { option: "no", value: 50 }],
+  counts: [{ option: "yes", value: 1 }, { option: "no", value: 1 }, { option: "excused", value: 1 }, { option: "abstain", value: 1 }, { option: "not voting", value: 1 }, { option: "other", value: 1 }],
   sources: [{ url: "https://capitol.texas.gov/BillLookup/Votes.aspx?id=1" }],
   votes: [
     { option: "yes", voter_name: "A", voter: { id: P(1) } },
@@ -52,7 +52,7 @@ test("v3 bills become per-chamber snapshots keyed by ocd-person id", () => {
   const roll = lower.rollCalls.find((r) => r.id === "os-tx-aaaaaaaa-0000-0000-0000-000000000001");
   assert.equal(roll.bill, "HB 20");
   assert.equal(roll.kind, "substantive");
-  assert.equal(roll.outcome, "Passed 90–50");
+  assert.equal(roll.outcome, "Passed 1–1");
   assert.equal(roll.date, "2025-08-25");
   assert.equal(roll.dateLabel, "Aug 25, 2025");
   assert.equal(roll.sourceUrl, "https://capitol.texas.gov/BillLookup/Votes.aspx?id=1");
@@ -75,6 +75,17 @@ test("http:// legislature URLs are upgraded to https", () => {
   const b = [{ identifier: "AB 1", title: "T", sources: [], votes: [vote({ sources: [{ url: "http://leginfo.legislature.ca.gov/faces/x" }] })] }];
   const { snapshots } = transformBills(b, "ca", "2026-01-01T00:00:00Z");
   assert.equal(snapshots.get("lower").rollCalls[0].sourceUrl, "https://leginfo.legislature.ca.gov/faces/x");
+});
+test("committee votes and partial voter lists are excluded", () => {
+  const b = [{ identifier: "HB 1", title: "T", sources: [{ url: "https://leg.colorado.gov/bills/hb1" }], votes: [
+    vote({ id: "ocd-vote/c1", sources: [{ url: "https://leg.colorado.gov/committee_meeting_hearing_items/1/votes/2" }] }),
+    vote({ id: "ocd-vote/c2", counts: [{ option: "yes", value: 26 }, { option: "no", value: 0 }] }),
+    vote({ id: "ocd-vote/c3" }),
+  ] }];
+  const { snapshots, skipped } = transformBills(b, "co", "2026-01-01T00:00:00Z");
+  assert.equal(snapshots.get("lower").rollCalls.length, 1);
+  assert.equal(skipped["committee-vote"], 1);
+  assert.equal(skipped["incomplete-voter-list"], 1);
 });
 test("future-dated events are rejected", () => {
   const { snapshots } = transformBills(bills, "tx", "2025-01-01T00:00:00Z");
