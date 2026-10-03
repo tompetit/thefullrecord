@@ -14,6 +14,7 @@ const ISSUES = new Set([
   "abortion", "guns", "immigration_enforcement", "rent_regulation", "housing_supply",
   "tax_wealthy", "healthcare_public", "climate", "police_funding", "school_choice",
   "congestion_pricing", "minimum_wage", "israel_aid", "tariffs", "universal_childcare",
+  "voter_citizenship_proof", "war_powers", "transgender_sports",
 ]);
 const OFFICE_TYPES = new Set(["us-senate", "us-house", "governor", "attorney-general",
   "comptroller", "state-senate", "state-assembly", "ballot-measure", "other"]);

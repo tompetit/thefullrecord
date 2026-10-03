@@ -42,6 +42,9 @@ export const TOPIC_LABELS: Record<IssueKey, string> = {
   police_funding: "Policing", school_choice: "School choice", congestion_pricing: "Congestion pricing",
   minimum_wage: "Minimum wage", israel_aid: "U.S. aid to Israel", tariffs: "Trade & tariffs",
   universal_childcare: "Child care",
+  voter_citizenship_proof: "Voter registration & citizenship",
+  war_powers: "War powers",
+  transgender_sports: "Transgender athletes",
 };
 
 const ANSWERS: readonly Answer[] = ["agree", "disagree"];

@@ -47,6 +47,9 @@ export const ISSUES = {
   israel_aid: "Continue U.S. military aid to Israel",
   tariffs: "Broad tariffs on imported goods",
   universal_childcare: "Universal, publicly funded child care",
+  voter_citizenship_proof: "Require documentary proof of citizenship to register to vote",
+  war_powers: "Require Congress to approve U.S. military action abroad",
+  transgender_sports: "Bar transgender women and girls from women's and girls' school sports",
 } as const;
 
 export type IssueKey = keyof typeof ISSUES;
