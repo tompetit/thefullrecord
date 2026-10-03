@@ -58,11 +58,14 @@ party. When in doubt, omit.
   supports = calls for more deportations, detention, ICE funding/hiring, ending
   "catch and release", mass deportation. Abstract "secure the border" alone does not
   count. opposes = calls to limit ICE, end detention expansion, oppose mass deportation.
+  Supporting deportation only of people with criminal records is not `supports`.
 - `healthcare_public` ("Expand public health coverage"): supports = Medicare for All,
   public option, extend/expand ACA subsidies, protect/expand Medicaid against cuts.
   opposes = repeal ACA, Medicaid cuts or caps, opposes extending ACA subsidies.
 - `abortion` ("Protect legal access to abortion"): about legal access. Opposing
   taxpayer funding alone is NOT `opposes`. Supporting bans/limits = opposes.
+  A "pro-life" self-description alone is not a position; it needs a call for legal
+  restrictions/bans or a stated stance on legal access.
 - `guns` ("Stricter gun laws"): background checks, assault-weapons ban, red-flag laws
   = supports; constitutional carry, concealed-carry reciprocity, opposing new limits
   = opposes. "Supports the Second Amendment" alone does not count.
