@@ -54,7 +54,53 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign website calls for lowering the Medicare buy-in age to 55 and reversing Medicaid cuts.",
+          "quote": "I will work to lower the Medicare buy in age to 55",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign website calls for restoring Roe v. Wade as the law of the land.",
+          "quote": "Restore Roe v. Wade to be the law of the land and defend a woman’s right to make her own medical decision with her body.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign website calls for closing loopholes, mandating background checks, red flag laws and an assault weapons ban.",
+          "quote": "We must close loopholes, mandate violent history checks, pass red flag laws, and ban assault weapons.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign website says increased child tax credit investments should be financed by the ultra-wealthy and large corporations paying more.",
+          "quote": "We need to finance these investments by ensuring the ultra wealthy and large corporations pay their fair share.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Campaign website calls for cutting red tape so more homes can be built.",
+          "quote": "We must cut red tape and roll back tariffs on building materials so we can build millions of new homes.",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the Iowa House Commerce, Environmental Protection, Judiciary, and Ways and Means committees (2025-2026).",
@@ -130,7 +176,9 @@
           "stated": {
             "stance": "opposes",
             "summary": "Mitchell's campaign site says he will \"defend the Second Amendment.\"",
-            "sources": ["s3"]
+            "sources": [
+              "s3"
+            ]
           }
         },
         {
@@ -179,19 +227,25 @@
           "text": "Voted yes on HF 756 (removing the permit requirement to carry a handgun in Iowa), which passed the Iowa House 60-37 on 2021-03-17.",
           "date": "2021-03-17",
           "kind": "vote",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Voted yes on SF 413 (an elections bill shortening the absentee-voting window and tightening voter-list maintenance), which passed the Iowa House 57-37 on 2021-02-24.",
           "date": "2021-02-24",
           "kind": "vote",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "text": "Voted yes on HF 2317 (replacing Iowa's graduated income tax with a 3.9% flat tax), which passed the Iowa House 61-37 on 2022-02-16.",
           "date": "2022-02-16",
           "kind": "vote",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "website": "https://mitchellforiowa.com",
@@ -392,6 +446,27 @@
       "publisher": "Iowa Legislature",
       "kind": "official",
       "date": "2021-02-24"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.lindsayforiowa.com/issues/issue-2",
+      "title": "Lindsay James for Iowa: issues",
+      "publisher": "Lindsay James for Iowa campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.lindsayforiowa.com/issues/keep-our-communities-safe",
+      "title": "Lindsay James for Iowa: issues",
+      "publisher": "Lindsay James for Iowa campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.lindsayforiowa.com/issues/issue-1",
+      "title": "Lindsay James for Iowa: issues",
+      "publisher": "Lindsay James for Iowa campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
