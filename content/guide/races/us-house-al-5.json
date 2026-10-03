@@ -62,31 +62,6 @@
       ],
       "positions": [
         {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Describes himself as a pro-life Christian who will \"stand up for the unborn.\"",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says he is a lifetime NRA member who will fight for Second Amendment rights.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says \"raising taxes is not an option\" and that cutting wasteful federal spending must be a top priority.",
-          "quote": "Raising taxes is not an option.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says he will always support law enforcement and, as Madison County Commission chairman, raised starting pay for sheriff's deputies.",
@@ -97,9 +72,18 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Campaign website calls for stronger border security and criticizes Congress for what he describes as inadequate enforcement.",
+          "summary": "Campaign website says he fully supports building the wall, sending people in the country illegally back to their country of origin, and fully enforcing the law.",
           "sources": [
             "s3"
+          ],
+          "quote": "I fully support building the wall, sending illegals back to their country of origin, and fully enforcing the law on those that are in our country illegally."
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 7296, the SAVE America Act, which requires documentary proof of U.S. citizenship to register to vote in federal elections and photo identification to vote.",
+          "sources": [
+            "s5"
           ]
         }
       ],
@@ -229,6 +213,13 @@
       "title": "Andrew Sneed",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7296",
+      "title": "H.R. 7296 — SAVE America Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25"

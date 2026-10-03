@@ -73,15 +73,6 @@
       ],
       "positions": [
         {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "States that life begins at conception and opposes taxpayer funding of abortion.",
-          "quote": "I believe that life begins at conception. As your congressman, I promise to support policies that protect life and human dignity and oppose any attempts to use taxpayer funds for abortion.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Supports securing the border and continuing programs that let local police work with ICE agents on immigration enforcement.",
@@ -93,19 +84,26 @@
         {
           "issue": "healthcare_public",
           "stance": "opposes",
-          "summary": "Opposes the expansion of government health coverage under the Affordable Care Act and calls for repealing its most significant provisions.",
+          "summary": "Calls the passage of the ACA an unprecedented expansion of government and says Congress must continue to focus on repealing and amending its most troublesome aspects.",
           "quote": "Congress must continue to focus on repealing and amending the most troublesome aspects of the law and pass real reforms – such as tort reforms and health insurance portability – that will bend health care's exploding cost curve.",
           "sources": [
             "s7"
           ]
         },
         {
-          "issue": "climate",
-          "stance": "opposes",
-          "summary": "Favors an 'all-of-the-above' energy policy that keeps oil, gas and coal competing alongside renewables rather than prioritizing a faster shift away from fossil fuels.",
-          "quote": "We must take an all-of-the-above approach to our energy policy and allow all American energy sources – oil, gas, coal, nuclear, and renewables – to compete on a level playing field.",
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 22, the SAVE Act, which requires documentary proof of U.S. citizenship to register to vote in federal elections.",
           "sources": [
-            "s8"
+            "s12"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 38, the Constitutional Concealed Carry Reciprocity Act, which would allow a person eligible to carry a concealed firearm in one state to carry in other states that allow concealed carry.",
+          "sources": [
+            "s13"
           ]
         }
       ],
@@ -274,13 +272,6 @@
       "kind": "reference"
     },
     {
-      "id": "s5",
-      "url": "https://womack.house.gov/Issues/Issue/?IssueID=35369",
-      "title": "Abortion",
-      "publisher": "Office of U.S. Rep. Steve Womack",
-      "kind": "official"
-    },
-    {
       "id": "s6",
       "url": "https://womack.house.gov/Issues/Issue/?IssueID=35375",
       "title": "Immigration",
@@ -291,13 +282,6 @@
       "id": "s7",
       "url": "https://womack.house.gov/Issues/Issue/?IssueID=27218",
       "title": "Health Care",
-      "publisher": "Office of U.S. Rep. Steve Womack",
-      "kind": "official"
-    },
-    {
-      "id": "s8",
-      "url": "https://womack.house.gov/Issues/Issue/?IssueID=27020",
-      "title": "Energy",
       "publisher": "Office of U.S. Rep. Steve Womack",
       "kind": "official"
     },
@@ -320,6 +304,20 @@
       "url": "https://womack.house.gov/Issues/Issue/?IssueID=26653",
       "title": "Veterans",
       "publisher": "Office of U.S. Rep. Steve Womack",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/22",
+      "title": "H.R. 22 — SAVE Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/38",
+      "title": "H.R. 38 — Constitutional Concealed Carry Reciprocity Act of 2025",
+      "publisher": "Congress.gov",
       "kind": "official"
     }
   ],
