@@ -11,42 +11,65 @@
   "context": [
     {
       "text": "Incumbent Carol Miller (R) defeated Larry Jackson in the Republican primary on May 12, 2026 with 72.0% of the vote. Vince George defeated Britta Aguirre in the Democratic primary with 53.0% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "carol-miller",
       "name": "Carol Miller",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the May 12 Republican primary with 72.0% of the vote",
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
         "text": "Carol Miller is the incumbent U.S. Representative for West Virginia's 1st District, seeking re-election in 2026. She serves on the House Committee on Ways and Means.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Columbus, Ohio; graduated from Bexley High School in 1968.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Earned a B.S. from Columbia College (1972).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Career experience includes owning and operating Swann Ridge Bison Farm and working as a real estate manager.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "In a February 4, 2025 Newsmax interview summarized in her office's press release, she backed President Trump's plan to place tariffs on Canada and China, saying he is bringing those countries to the table and tying the effort to securing the border.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the House Committee on Ways and Means, including its Health and Trade subcommittees, for the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://miller.house.gov",
@@ -56,35 +79,49 @@
     {
       "id": "vince-george",
       "name": "Vince George",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 12 Democratic primary with 53.0% of the vote",
       "summary": {
         "text": "Vince George is a retired public policy analyst running as the Democratic nominee for West Virginia's 1st District.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Raised in Dunbar and South Charleston, West Virginia; earned a graduate degree from West Virginia University (1984).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes working as a policy analyst, social worker, federal and state programs' eligibility examiner, and teacher (WVEA member).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"Making life affordable for working West Virginians is my top priority. I support fully funding SNAP, Social Security, and veterans' benefits, and I oppose harmful funding cuts to safety net programs.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"Medicare For All &/or a single payer public option in which no person is left without health & medical coverage.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"More than doubling the Federal minimum wage to at least $15 per hour for all workers, expansion of eligibility & benefits for Social Security participants.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -93,14 +130,18 @@
           "stance": "supports",
           "summary": "Supports Medicare for All or a single-payer public option covering everyone.",
           "quote": "Medicare For All &/or a single payer public option in which no person is left without health & medical coverage.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Supports more than doubling the federal minimum wage to at least $15 per hour.",
           "quote": "More than doubling the Federal minimum wage to at least $15 per hour for all workers.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -109,17 +150,23 @@
     {
       "id": "belinda-fox-spencer",
       "name": "Belinda Fox-Spencer",
-      "parties": ["Constitution Party"],
+      "parties": [
+        "Constitution Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Belinda Fox-Spencer is running as the Constitution Party nominee for West Virginia's 1st District; she also ran for the seat in 2022 and 2020.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [],
       "priorities": [
         {
           "text": "A 2022 campaign website statement listed education as a priority, citing high child poverty rates in West Virginia as a barrier to educational quality.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -156,6 +203,14 @@
       "title": "Belinda Fox-Spencer",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "url": "https://miller.house.gov/media/press-releases/miller-joins-newsmaxs-national-report-discuss-tariffs-0",
+      "title": "Miller Joins Newsmax's National Report to Discuss Tariffs",
+      "publisher": "Office of Rep. Carol Miller",
+      "kind": "official",
+      "date": "2025-02-04",
+      "id": "s5"
     }
   ],
   "researchedAt": "2026-09-25",
