@@ -3,10 +3,14 @@
  *
  * The UI (server components and API routes) talks only to the DataSource
  * interface. The current implementation is a hybrid:
- *  - address lookup is LIVE (Census geocoder + NYC ArcGIS + public rosters),
- *    so any New York address resolves to real, current officeholders
+ *  - address lookup is LIVE (Census geocoder + TIGERweb + NYC ArcGIS +
+ *    public rosters), so any U.S. address resolves to real, current
+ *    officeholders: Congress and state legislators everywhere, NYC Council
+ *    in NYC, and the D.C. Council in D.C.
  *  - vote records merge the hand-verified snapshot in data.ts with the
- *    chamber-wide roll calls ingested by scripts/ingest/ (src/server/snapshot/)
+ *    chamber-wide roll calls ingested by scripts/ingest/ (src/server/snapshot/):
+ *    every member of Congress, New York's Albany and NYC bodies, and other
+ *    states' legislatures only where an Open States snapshot exists
  *  - said-vs-did pairs come from the editorial pipeline (content/said-vs-did)
  */
 
@@ -17,6 +21,7 @@ import type {
   AttendanceEntry,
   Bill,
   Digest,
+  LookupContext,
   DigestItem,
   Official,
   OfficialGroup,
@@ -37,8 +42,8 @@ export interface VotesQuery {
 }
 
 export type OfficialsLookup =
-  | { ok: true; matchedAddress: string; groups: OfficialGroup[] }
-  | { ok: false; reason: "no-match" | "outside-ny" | "lookup-failed" };
+  | { ok: true; matchedAddress: string; groups: OfficialGroup[]; context?: LookupContext }
+  | { ok: false; reason: "no-match" | "lookup-failed" };
 
 export interface DataSource {
   /** Resolve an address to the officials who represent it, grouped by level. */
@@ -159,7 +164,7 @@ class HybridDataSource implements DataSource {
 
   async getDigest(address: string): Promise<Digest> {
     const lookup = await this.getOfficialsByAddress(address);
-    if (!lookup.ok) return { dateRangeLabel: "Address could not be matched", items: [], quietLine: "Try a complete New York City street address to see your representatives’ records." };
+    if (!lookup.ok) return { dateRangeLabel: "Address could not be matched", items: [], quietLine: "Try a complete U.S. street address, with city and ZIP code, to see your representatives’ records." };
     const officials = lookup.groups.flatMap((g) => g.officials);
     const items: DigestItem[] = [];
     const dates: string[] = [];
@@ -208,7 +213,9 @@ class HybridDataSource implements DataSource {
       // two records for one district.
       officials += s.members
         ? new Set(s.members.map((m) => m.district ?? m.key)).size
-        : Object.keys(s.memberKeys ?? {}).length;
+        : s.keyBy === "openstates"
+          ? new Set(s.rollCalls.flatMap((r) => Object.keys(r.votes))).size
+          : Object.keys(s.memberKeys ?? {}).length;
       rollCalls += s.rollCalls.length;
     }
     return {

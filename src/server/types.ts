@@ -30,13 +30,16 @@ export interface Official {
   name: string;
   /**
    * Canonical seat key tying an official to a geocoded district:
-   * "nyc-council-33" | "ny-ad-52" | "ny-sd-26" | "us-house-ny-10" | "us-sen-ny-<n>"
+   * "nyc-council-33" | "ny-ad-52" | "ny-sd-26" | "us-house-{st}-{n|al}" |
+   * "us-sen-{st}-<1|2>" | "{st}-{upper|lower|legislature}-{openStatesUuid}"
    */
   districtKey: string;
   /** e.g. "Council Member · District 33" */
   role: string;
   /** null when the roster source doesn't state it — never guessed */
   party: Party | null;
+  /** Party as the source states it when `party` has no code for it (e.g. "Independent"); shown neutrally */
+  partyLabel?: string;
   level: GovernmentLevel;
   /** Group heading, e.g. "CITY — NYC COUNCIL" */
   levelLabel: string;
@@ -211,6 +214,20 @@ export interface OfficialGroup {
   level: GovernmentLevel;
   label: string;
   officials: Official[];
+}
+
+/** Honest context for an address lookup: gaps and caveats, never filled in by guessing. */
+export interface LookupContext {
+  /** Upper-case postal abbreviation of the matched address */
+  state: string;
+  /** Where the officeholder districts came from; the fallback may be the 2026 map */
+  geographySource: "tigerweb-2024" | "census-2026-fallback";
+  /** Set when the Nov 2026 U.S. House district differs from today's district */
+  houseDistrictChange?: { ballotSeat: string; ballotLabel: string; currentLabel: string };
+  /** Seats that matched nobody in the roster (vacancies), as display lines */
+  gaps: string[];
+  /** Other coverage caveats for this address */
+  notes: string[];
 }
 
 export interface SiteStats {
