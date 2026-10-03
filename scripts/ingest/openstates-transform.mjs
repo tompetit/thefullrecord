@@ -73,9 +73,9 @@ export function transformBills(bills, st, now = new Date().toISOString(), maxVot
       }
       if (!Object.keys(votes).length) { skip("no-identified-voters"); continue; }
       // Open States sometimes lists only some voters; a partial list would misstate who voted, so require
-      // that the identified voters cover at least 85% of the vote's own tally.
+      // that the identified voters cover at least 97% of the vote's own tally.
       const tallied = (vote.counts ?? []).reduce((n, c) => n + (Number(c.value) || 0), 0);
-      if (tallied > 0 && Object.keys(votes).length < 0.85 * tallied) { skip("incomplete-voter-list"); continue; }
+      if (tallied > 0 && Object.keys(votes).length < 0.97 * tallied) { skip("incomplete-voter-list"); continue; }
       const tally = (option) => {
         const fromCounts = (vote.counts ?? []).find((c) => c.option === option)?.value;
         return fromCounts ?? (vote.votes ?? []).filter((x) => x.option === option).length;

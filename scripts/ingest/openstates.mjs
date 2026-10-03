@@ -10,13 +10,13 @@
  * Needs OPENSTATES_API_KEY (env or .env.local). Without it this prints how to
  * get a free key and exits 0 without writing anything.
  *
- * Run: npm run ingest:openstates -- [--states tx,ca] [--pages 10] [--max-votes 300]
+ * Run: npm run ingest:openstates -- [--states tx,ca] [--pages 10] [--max-votes 300] [--resume]
  * Defaults: 10 pages (200 bills) per state, the 300 most recent vote events
  * kept per chamber. We wait ~1 s between requests, back off exponentially on
  * HTTP 429 and keep going, and stop cleanly if the limit persists. Each state
  * is written as it completes, so an interruption keeps earlier states.
  */
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, readdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { writeSnapshot } from "./shared.mjs";
@@ -26,6 +26,7 @@ import { STATE_NAMES } from "../../src/lib/usStates.ts";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const SNAPSHOT_DIR = join(ROOT, "src/server/snapshot");
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+mkdirSync(SNAPSHOT_DIR, { recursive: true });
 const SPACING_MS = 1000;
 
 function loadKey() {
@@ -57,6 +58,11 @@ const states = (flag("--states")?.split(",").map((s) => s.trim().toLowerCase()) 
   Object.keys(STATE_NAMES).filter((s) => !NOT_JURISDICTIONS.has(s)).map((s) => s.toLowerCase()))
   .filter((s) => s !== "ny");
 
+// --resume: skip states that already have snapshot files (continue after a rate-limit stop).
+const resumed = args.includes("--resume")
+  ? states.filter((st) => !readdirSync(SNAPSHOT_DIR).some((f) => f.startsWith(`state-${st}-`)))
+  : states;
+
 let lastRequest = 0;
 class RateLimited extends Error {}
 
@@ -82,7 +88,7 @@ async function api(st, page) {
 
 let requests = 0;
 let written = 0;
-for (const st of states) {
+for (const st of resumed) {
   const bills = [];
   try {
     for (let page = 1; page <= PAGES; page++) {
