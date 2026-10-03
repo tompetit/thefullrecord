@@ -42,7 +42,7 @@ export function AddressInput({
 }: {
   value: string;
   onValueChange: (value: string) => void;
-  /** "us" for forms that accept any U.S. address; omit for the site's NY scope. */
+  /** "us" pins nationwide suggestions; omitted, the site default (SUGGEST_SCOPE) applies. */
   scope?: "us";
   id?: string;
   name?: string;

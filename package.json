@@ -13,6 +13,7 @@
     "ingest:council": "node scripts/ingest/council.mjs",
     "ingest:nysenate": "node scripts/ingest/nysenate-openleg.mjs",
     "ingest:assembly": "node scripts/ingest/assembly.mjs",
+    "ingest:openstates": "node scripts/ingest/openstates.mjs",
     "ingest:enrich": "node scripts/ingest/enrich-congress.mjs",
     "test": "node --experimental-strip-types --test tests/*.test.mjs scripts/test/*.test.mjs",
     "guide:check-links": "node scripts/guide/check-links.mjs",

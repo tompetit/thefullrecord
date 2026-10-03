@@ -27,6 +27,19 @@ export function federalVote(raw) {
   throw new Error(`Unrecognized official vote value: ${JSON.stringify(raw)}`);
 }
 
+/**
+ * Source hosts for Open States snapshots. State legislatures publish on many
+ * domains, so instead of an allowlist: https, and a host that is a .gov or .us
+ * site or whose name says it is a legislature (leg*, senate, house, assembly,
+ * capitol, congress). Anything else (news, wikis, aggregators) is rejected.
+ */
+export function isOfficialStateSource(rawUrl) {
+  try {
+    const url = new URL(rawUrl);
+    return url.protocol === 'https:' && /(\.gov|\.us)$|leg|senate|house|assembly|capitol|congress/i.test(url.hostname);
+  } catch { return false; }
+}
+
 export function validateSnapshot(snapshot) {
   if (!snapshot.chamber || !snapshot.sourceLabel || !Number.isFinite(Date.parse(snapshot.generatedAt))) throw new Error('Invalid snapshot metadata');
   if (!Array.isArray(snapshot.rollCalls) || !snapshot.rollCalls.length) throw new Error('Refusing to publish an empty snapshot');
@@ -38,7 +51,10 @@ export function validateSnapshot(snapshot) {
     if (roll.date > snapshot.generatedAt.slice(0, 10)) throw new Error(`Future roll call: ${roll.id}`);
     if (!roll.title || !roll.bill || !roll.outcome || !['substantive', 'procedural'].includes(roll.kind)) throw new Error(`Invalid roll-call metadata: ${roll.id}`);
     const url = new URL(roll.sourceUrl);
-    if (url.protocol !== 'https:' || !/(^|\.)(house\.gov|senate\.gov|nysenate\.gov|nyassembly\.gov|council\.nyc\.gov)$/.test(url.hostname)) throw new Error(`Nonofficial source: ${roll.id}`);
+    const official = snapshot.keyBy === 'openstates'
+      ? isOfficialStateSource(roll.sourceUrl)
+      : url.protocol === 'https:' && /(^|\.)(house\.gov|senate\.gov|nysenate\.gov|nyassembly\.gov|council\.nyc\.gov)$/.test(url.hostname);
+    if (!official) throw new Error(`Nonofficial source: ${roll.id}`);
     const votes = Object.values(roll.votes ?? {});
     if (!votes.length || votes.some(v => !['yes', 'no', 'absent', 'present'].includes(v))) throw new Error(`Invalid member positions: ${roll.id}`);
     if (roll.summary && !['official', 'ai'].includes(roll.summarySource)) throw new Error(`Missing summary provenance: ${roll.id}`);

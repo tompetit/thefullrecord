@@ -3,7 +3,7 @@ import { SUGGEST_SCOPE, suggestAddresses, type SuggestScope } from "@/server/liv
 
 /**
  * GET /api/address-suggest?q=…[&scope=us] — keyless address autocomplete.
- * Defaults to the site's lookup scope (New York); `scope=us` serves forms that
+ * Defaults to the site's lookup scope (U.S.-wide); `scope=us` is accepted for forms that
  * accept any U.S. address (the voter guide).
  */
 export async function GET(request: NextRequest) {

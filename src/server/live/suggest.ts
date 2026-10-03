@@ -27,7 +27,7 @@
 
 export type SuggestScope = "NY" | "US";
 /** The scope the site's lookup currently supports. */
-export const SUGGEST_SCOPE: SuggestScope = "NY";
+export const SUGGEST_SCOPE: SuggestScope = "US";
 
 export interface AddressSuggestion {
   /** One-line address handed to the Census geocoder. */

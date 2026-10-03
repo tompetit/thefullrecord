@@ -59,7 +59,7 @@ export default function Home() {
 
       <section className="mx-auto w-full max-w-7xl px-6 py-14 lg:px-10">
         <div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">Start with what matters</p><h2 className="mt-2 font-serif text-3xl font-semibold text-ink sm:text-4xl">An issue. An action. A record.</h2></div><Link href="/issues" className="text-sm font-semibold text-accent hover:underline">Browse all issues →</Link></div>
-        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-60">Pick a topic to explore relevant recorded votes. Add your New York address to see how the representatives we can identify voted.</p>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-60">Pick a topic to explore relevant recorded votes. Add your address to see how the representatives we can identify voted.</p>
         <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {TOPICS.map(([id, label, detail]) => <Link key={id} href={`/issues?topic=${id}`} className="group flex min-h-28 items-center justify-between border border-card bg-paper-raised p-5 transition-colors hover:border-accent hover:bg-accent-tint"><div><h3 className="font-serif text-xl font-semibold text-ink">{label}</h3><p className="mt-1 text-xs text-ink-60">{detail}</p></div><span aria-hidden className="ml-3 text-accent transition-transform group-hover:translate-x-1">↗</span></Link>)}
         </div>
@@ -67,7 +67,7 @@ export default function Home() {
 
       <section id="find-your-reps" className="scroll-mt-6 border-y border-hairline bg-canvas/50">
         <div className="mx-auto grid max-w-7xl gap-7 px-6 py-12 lg:grid-cols-2 lg:gap-16 lg:px-10">
-          <div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">From City Hall to Congress</p><h2 className="mt-3 font-serif text-3xl font-semibold text-ink">Who represents you?</h2><p className="mt-3 max-w-lg text-sm leading-relaxed text-ink-60">Find your current New York representatives across city, state, and federal government. Explore their votes and the sources behind them.</p></div>
+          <div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">From City Hall to Congress</p><h2 className="mt-3 font-serif text-3xl font-semibold text-ink">Who represents you?</h2><p className="mt-3 max-w-lg text-sm leading-relaxed text-ink-60">Find your current representatives in Congress and your state legislature, plus the city council in New York City and Washington, D.C. Explore their votes and the sources behind them.</p></div>
           <div><AddressLookupForm /><Link href="/representatives?sample=1" className="mt-4 inline-block text-xs font-semibold text-accent underline underline-offset-4">Explore a Brooklyn example →</Link></div>
         </div>
       </section>

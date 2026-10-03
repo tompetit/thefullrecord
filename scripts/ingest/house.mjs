@@ -2,8 +2,10 @@
  * One-off ingest: U.S. House roll calls (2026 session) from the House
  * Clerk's official XML at clerk.house.gov — keyless.
  *
- * Writes src/server/snapshot/house.json with every NY member's position
- * on the most recent recorded votes, keyed by bioguide id.
+ * Writes src/server/snapshot/house.json with every member's position (all
+ * states, DC and the territories' delegates) on the most recent recorded
+ * votes, keyed by bioguide id. memberKeys maps "{st}-{n|al}" -> bioguide
+ * (at-large seats and delegates use "al").
  *
  * Run: node scripts/ingest/house.mjs [--count 150]
  */
@@ -61,11 +63,29 @@ function parseActionDate(s) {
 
 const mapVote = federalVote;
 
+const isRoll = (xml) => typeof xml === "string" && xml.includes("<rollcall-vote");
+
+/**
+ * Latest roll number. The Clerk's yearly index page is the primary source;
+ * when it is missing (it has returned 404) probe the roll XML files directly
+ * with a binary search — unpublished rolls come back as a 200 error stub, so
+ * "is a real roll call" means the XML contains <rollcall-vote>.
+ */
 async function findLatestRoll() {
-  const index = await fetchText(`https://clerk.house.gov/evs/${YEAR}/index.asp`);
-  const rolls = [...(index ?? '').matchAll(/rollnumber=(\d+)/gi)].map(match => Number(match[1]));
-  if (!rolls.length) throw new Error('House index contains no recognizable roll calls; keeping previous snapshot');
-  return Math.max(...rolls);
+  const index = await fetchText(`https://clerk.house.gov/evs/${YEAR}/index.asp`).catch(() => null);
+  const rolls = [...(index ?? "").matchAll(/rollnumber=(\d+)/gi)].map((match) => Number(match[1]));
+  if (rolls.length) return Math.max(...rolls);
+  console.log("House index unavailable; probing roll XML files directly…");
+  const exists = async (n) => isRoll(await fetchText(`https://clerk.house.gov/evs/${YEAR}/roll${String(n).padStart(3, "0")}.xml`).catch(() => null));
+  if (!(await exists(1))) throw new Error("House roll 1 not found; keeping previous snapshot");
+  let lo = 1;
+  let hi = 2;
+  while (await exists(hi)) { lo = hi; hi *= 2; if (hi > 4000) throw new Error("Implausible House roll count"); }
+  while (hi - lo > 1) {
+    const mid = Math.floor((lo + hi) / 2);
+    if (await exists(mid)) lo = mid; else hi = mid;
+  }
+  return lo;
 }
 
 async function main() {
@@ -74,23 +94,24 @@ async function main() {
   if (!latest) throw new Error("No 2026 rolls found");
   console.log(`Latest roll: ${latest}. Ingesting the ${COUNT} most recent…`);
 
-  // District -> bioguide map for NY, from the congress-legislators dataset.
+  // Seat -> bioguide map for every House seat, from the congress-legislators dataset.
   const legislators = JSON.parse(
     await fetchText("https://unitedstates.github.io/congress-legislators/legislators-current.json")
   );
   const memberKeys = {};
   for (const leg of legislators) {
     const term = leg.terms[leg.terms.length - 1];
-    if (term.state === "NY" && term.type === "rep")
-      memberKeys[String(term.district)] = leg.id.bioguide;
+    if (term.type === "rep")
+      memberKeys[`${term.state.toLowerCase()}-${term.district ? term.district : "al"}`] = leg.id.bioguide;
   }
+  if (Object.keys(memberKeys).length < 400) throw new Error("congress-legislators House roster looks incomplete; keeping previous snapshot");
 
   const rollCalls = [];
   for (let roll = latest; roll > latest - COUNT && roll > 0; roll--) {
     const rollId = String(roll).padStart(3, "0");
     const xml = await fetchText(`https://clerk.house.gov/evs/${YEAR}/roll${rollId}.xml`);
     await sleep(150);
-    if (!xml) throw new Error(`Missing House roll call ${roll}; keeping previous snapshot`);
+    if (!isRoll(xml)) throw new Error(`Missing House roll call ${roll}; keeping previous snapshot`);
 
     const question = tag(xml, "vote-question");
     const result = tag(xml, "vote-result");
@@ -107,7 +128,7 @@ async function main() {
 
     const votes = {};
     const rawVotes = {};
-    const re = /<legislator name-id="([A-Z]\d+)"[^>]*state="NY"[^>]*>[^<]*<\/legislator>\s*<vote>([^<]+)<\/vote>/g;
+    const re = /<legislator name-id="([A-Z]\d+)"[^>]*>[^<]*<\/legislator>\s*<vote>([^<]+)<\/vote>/g;
     for (const m of xml.matchAll(re)) { votes[m[1]] = mapVote(m[2]); rawVotes[m[1]] = m[2]; }
     if (!Object.keys(votes).length) continue; // not a recorded member vote
 
@@ -137,7 +158,7 @@ async function main() {
     rollCalls,
   };
   await writeSnapshot(OUT, snapshot);
-  console.log(`\nWrote ${rollCalls.length} roll calls, ${Object.keys(memberKeys).length} NY seats -> ${OUT}`);
+  console.log(`\nWrote ${rollCalls.length} roll calls, ${Object.keys(memberKeys).length} seats -> ${OUT}`);
 }
 
 main().catch((err) => {

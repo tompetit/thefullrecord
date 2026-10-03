@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   referrer: "no-referrer",
   title: "The Full Record",
   description:
-    "Explore your New York representatives’ recorded votes by issue. Read official sources, compare candidate evidence, and see the limits of our coverage.",
+    "Explore your representatives’ recorded votes by issue. Read official sources, compare candidate evidence, and see the limits of our coverage.",
 };
 
 export default function RootLayout({
