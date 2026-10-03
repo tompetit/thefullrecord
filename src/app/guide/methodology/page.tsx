@@ -1,4 +1,4 @@
-import { GuideFooter, GuideNav, SectionLabel } from "@/components/guide/ui";
+import { GuideFooter, SectionLabel } from "@/components/guide/ui";
 import { getGuideStats } from "@/server/guide/load";
 
 export const metadata = { title: "How we research — The Full Record" };
@@ -11,7 +11,6 @@ export default function MethodologyPage() {
   const s = getGuideStats();
   return (
     <main className="flex-1">
-      <GuideNav active="method" />
       <article className="mx-auto w-full max-w-3xl px-[20px] pt-8 lg:px-10">
         <h1 className="font-serif text-[30px] font-semibold tracking-[-0.015em] text-ink lg:text-[42px]">How we research</h1>
         <P>

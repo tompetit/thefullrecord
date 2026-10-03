@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { stateName } from "@/components/guide/RaceView";
-import { GuideFooter, GuideNav, IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { GuideFooter, IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
 import { LOOKUP_MESSAGES } from "@/lib/site";
 import { ballotForAddress } from "@/server/guide/ballot";
 
@@ -14,7 +14,6 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
 
   return (
     <main className="flex-1">
-      <GuideNav active="ballot" />
       <div className="mx-auto w-full max-w-5xl px-[20px] pt-8 lg:px-10">
         <h1 className="font-serif text-[30px] font-semibold tracking-[-0.015em] text-ink lg:text-[40px]">
           My ballot

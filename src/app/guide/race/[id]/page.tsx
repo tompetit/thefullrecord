@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RaceView } from "@/components/guide/RaceView";
-import { GuideFooter, GuideNav } from "@/components/guide/ui";
+import { GuideFooter } from "@/components/guide/ui";
 import { getAllRaces, getRace } from "@/server/guide/load";
 
 export function generateStaticParams() {
@@ -29,7 +29,6 @@ export default async function RacePage({ params }: { params: Promise<{ id: strin
   if (!race) notFound();
   return (
     <main className="flex-1 pb-4">
-      <GuideNav active="guide" />
       <RaceView race={race} />
       <GuideFooter />
     </main>

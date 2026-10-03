@@ -2,7 +2,7 @@ import Link from "next/link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { GuideSearch } from "@/components/guide/GuideSearch";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
-import { GuideFooter, GuideNav, SectionLabel } from "@/components/guide/ui";
+import { GuideFooter, SectionLabel } from "@/components/guide/ui";
 import { GUIDE_SCOPE } from "@/lib/site";
 import { getAllRaces, getGuideStats } from "@/server/guide/load";
 import { toSearchRaces } from "@/server/guide/search";
@@ -35,7 +35,6 @@ export default function GuidePage() {
 
   return (
     <main className="flex-1">
-      <GuideNav active="guide" />
 
       <section className="mx-auto grid w-full max-w-6xl gap-10 px-[20px] pt-10 lg:grid-cols-[1.2fr_1fr] lg:px-10 lg:pt-14">
         <div>
@@ -54,13 +53,19 @@ export default function GuidePage() {
               href="/guide/match"
               className="rounded-[10px] border-[1.5px] border-ink px-4 py-2.5 font-sans text-[14px] font-bold text-ink hover:bg-ink hover:text-paper"
             >
-              Compare candidate evidence by issue →
+              Compare by issue →
             </Link>
             <Link
               href="/guide/key-votes"
               className="rounded-[10px] border border-chip-border px-4 py-2.5 font-sans text-[14px] font-semibold text-ink-80 hover:border-card-strong"
             >
               Key votes in Congress
+            </Link>
+            <Link
+              href="/guide/methodology"
+              className="rounded-[10px] border border-chip-border px-4 py-2.5 font-sans text-[14px] font-semibold text-ink-80 hover:border-card-strong"
+            >
+              How we research
             </Link>
           </div>
         </div>

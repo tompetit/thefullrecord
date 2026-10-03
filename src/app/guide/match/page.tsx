@@ -1,7 +1,7 @@
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { Matcher } from "@/components/guide/Matcher";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
-import { GuideFooter, GuideNav } from "@/components/guide/ui";
+import { GuideFooter } from "@/components/guide/ui";
 import { ballotForAddress, ballotForDistrict } from "@/server/guide/ballot";
 import { LOOKUP_MESSAGES } from "@/lib/site";
 import { parseStand, serializeStand, withStand } from "@/lib/alignment";
@@ -44,7 +44,6 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
 
   return (
     <main className="flex-1">
-      <GuideNav active="match" />
       <div className="mx-auto w-full max-w-6xl px-[20px] pt-8 lg:px-10">
         <p className="font-sans text-[11px] font-bold tracking-[0.1em] text-accent">YOUR ISSUES · THEIR DOCUMENTED RECORD</p>
         <h1 className="mt-2 font-serif text-[30px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink lg:text-[42px]">

@@ -15,48 +15,6 @@ export const KIND_LABEL: Record<SourceKind, string> = {
   reference: "Reference",
 };
 
-/**
- * Voter-guide section links — secondary navigation shown below the site
- * header on every /guide page (the site header carries the primary nav).
- */
-export function GuideNav({ active }: { active?: "guide" | "ballot" | "match" | "votes" | "method" }) {
-  const links: Array<[typeof active, string, string]> = [
-    ["guide", "/guide", "All races"],
-    ["ballot", "/guide/ballot", "My ballot"],
-    ["match", "/guide/match", "Compare by issue"],
-    ["votes", "/guide/key-votes", "Key votes"],
-    ["method", "/guide/methodology", "How we research"],
-  ];
-  return (
-    <div className="border-b border-hairline-soft bg-canvas/40">
-      <nav
-        aria-label="Voter guide sections"
-        className="mx-auto flex w-full max-w-6xl flex-wrap items-center gap-x-1 px-2 font-sans text-[13px] text-ink-60 lg:px-7"
-      >
-        {links.map(([key, href, label]) => {
-          const current = active === key;
-          return (
-            <Link
-              key={href}
-              href={href}
-              aria-current={current ? "page" : undefined}
-              className="group inline-flex min-h-11 items-center whitespace-nowrap"
-            >
-              <span
-                className={`rounded-full px-3 py-1.5 ${
-                  current ? "bg-ink text-paper" : "group-hover:text-ink"
-                }`}
-              >
-                {label}
-              </span>
-            </Link>
-          );
-        })}
-      </nav>
-    </div>
-  );
-}
-
 export function PartyChips({ parties, size = "sm" }: { parties: string[]; size?: "sm" | "md" }) {
   return (
     <>

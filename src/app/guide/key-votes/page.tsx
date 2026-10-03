@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GuideFooter, GuideNav, SectionLabel } from "@/components/guide/ui";
+import { GuideFooter, SectionLabel } from "@/components/guide/ui";
 import { getAllRaces, getKeyVoteDefs } from "@/server/guide/load";
 
 export const metadata = {
@@ -32,7 +32,6 @@ export default function KeyVotesPage() {
 
   return (
     <main className="flex-1">
-      <GuideNav active="votes" />
       <div className="mx-auto w-full max-w-5xl px-[20px] pt-8 lg:px-10">
         <h1 className="font-serif text-[30px] font-semibold tracking-[-0.015em] text-ink lg:text-[42px]">
           Key votes in Congress, 2025–26

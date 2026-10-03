@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { CandidateProfile } from "@/components/guide/CandidateProfile";
 import { CandidateStand, StandLink } from "@/components/guide/StandClient";
 import { alignmentRace } from "@/lib/alignment";
-import { GuideFooter, GuideNav, SectionLabel, SourceList } from "@/components/guide/ui";
+import { GuideFooter, SectionLabel, SourceList } from "@/components/guide/ui";
 import { getAllRaces, getCandidate } from "@/server/guide/load";
 
 export function generateStaticParams() {
@@ -43,7 +43,6 @@ export default async function CandidatePage({ params }: { params: Params }) {
 
   return (
     <main className="flex-1 pb-4">
-      <GuideNav active="guide" />
       <div className="mx-auto w-full max-w-4xl px-[20px] pt-6 lg:px-10">
         <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
           <Link href="/guide" className="hover:text-ink">Guide</Link> ›{" "}
