@@ -11,42 +11,59 @@
   "context": [
     {
       "text": "Incumbent Brad Schneider won the March 17, 2026 Democratic primary against Morgan Coghill. Carl Lambrecht ran unopposed for the Republican nomination. Ballotpedia calculated the district's Cook Partisan Voter Index as D+12, based on the 2020 and 2024 presidential elections.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "brad-schneider",
       "name": "Brad Schneider",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2017; also served 2013-2015)",
       "summary": {
         "text": "Brad Schneider is the Democratic incumbent seeking re-election to Illinois's 10th District. He sits on the House Ways and Means and Foreign Affairs committees and won his March 2026 primary against Morgan Coghill.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Has represented Illinois's 10th District in Congress since 2017, after also serving one term from 2013 to 2015.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he supports growing manufacturing jobs, rebuilding infrastructure, and educating children to succeed in a 21st-century global economy.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says the country needs commonsense action to reduce gun violence while respecting Second Amendment rights.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says he wants to fix the Affordable Care Act by building on its successes and fixing its flaws to improve health outcomes and lower costs.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Supports comprehensive, bipartisan immigration reform, saying it would grow the economy, reduce the debt and strengthen communities.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -54,26 +71,27 @@
           "issue": "guns",
           "stance": "supports",
           "summary": "Supports reasonable gun-violence-reduction laws while saying Second Amendment rights should be respected.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Wants to build on and fix the Affordable Care Act to improve health outcomes while lowering individual and national costs.",
-          "sources": ["s2"]
-        },
-        {
-          "issue": "climate",
-          "stance": "supports",
-          "summary": "Describes climate change as a grave threat to the nation and planet and says failure to address it will cause environmental degradation.",
-          "sources": ["s2"]
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a September 2026 press release he says he voted against giving the President more tariff power and has introduced legislation to rein in the tariffs.",
+          "quote": "I will continue working to both rein in Trump’s trade war and lower costs",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means, including its Tax and Trade subcommittees, and the Committee on Foreign Affairs, in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://schneider.house.gov",
@@ -83,20 +101,29 @@
     {
       "id": "carl-lambrecht",
       "name": "Carl Lambrecht",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Carl Lambrecht is the Republican nominee for Illinois's 10th District, an optics manufacturer who previously ran unsuccessfully for the Illinois House of Representatives in 2024.",
-        "sources": ["s1", "s4"]
+        "sources": [
+          "s1",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Career experience includes working as an optics manufacturer.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Ran unsuccessfully for Illinois House of Representatives District 58 in 2024.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -137,6 +164,14 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://schneider.house.gov/media/press-releases/schneider-opposes-effort-give-trump-broader-tariff-authority",
+      "title": "Schneider Opposes Effort to Give Trump Broader Tariff Authority",
+      "publisher": "Rep. Brad Schneider official website (press release)",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",
