@@ -161,11 +161,6 @@ export interface LookupContext {
   notes: string[];
 }
 
-export interface SiteStats {
-  trustLine: string;
-  provenanceLine: string;
-}
-
 export interface ElectionCandidate {
   name: string;
   /** Ballot-line labels as listed by the source (D, R, C, WFP…) */

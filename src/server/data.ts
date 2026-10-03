@@ -26,20 +26,12 @@ import type {
   AttendanceEntry,
   Official,
   SaidDidPair,
-  SiteStats,
   Sponsorship,
   VoteRecord,
 } from "./types";
 
 export const SAMPLE_ADDRESS = "125 Court St, Brooklyn 11201";
 export const SAMPLE_ADDRESS_SHORT = "125 Court St";
-
-export const siteStats: SiteStats = {
-  trustLine:
-    "Tracking 6 officials and 27 recorded votes across city, state and federal records in this preview",
-  provenanceLine:
-    "District assignments confirmed against official district pages and the Brooklyn Heights Association directory, July 2026",
-};
 
 export const officials: Official[] = [
   {

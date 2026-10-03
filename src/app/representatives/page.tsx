@@ -63,10 +63,8 @@ export default async function RepresentativesPage({
       </main>
     );
   }
-  const [result, stats] = await Promise.all([
-    ds.getOfficialsByAddress(address),
-    ds.getSiteStats(),
-  ]);
+
+  const result = await ds.getOfficialsByAddress(address);
 
   if (!result.ok) {
     return (
@@ -106,14 +104,8 @@ export default async function RepresentativesPage({
         {result.context && <LookupNotes context={result.context} />}
         <Link
           href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}
-          className="mt-4 mr-3 inline-flex rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[13.5px] font-semibold text-paper"
-        >Explore the votes by issue →</Link>
-        <Link
-          href={`/guide/ballot?address=${encodeURIComponent(result.matchedAddress)}`}
-          className="mt-4 inline-flex rounded-[10px] border-[1.5px] border-accent bg-accent-tint px-4 py-2.5 font-sans text-[13.5px] font-semibold text-accent-deep hover:bg-paper-raised"
-        >
-          Explore election information for this address →
-        </Link>
+          className="mt-4 inline-flex rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[13.5px] font-semibold text-paper"
+        >Explore their votes by issue →</Link>
       </div>
 
       <div className="mt-6 flex flex-col gap-7 px-4 sm:px-6 lg:px-10">
@@ -134,10 +126,7 @@ export default async function RepresentativesPage({
         ))}
       </div>
 
-      <p className="mt-8 px-4 sm:px-6 font-sans text-xs leading-normal text-ink-45 lg:px-10">
-        Districts resolved with the U.S. Census Geocoder and TIGERweb district
-        boundaries (plus NYC Planning boundaries for the NYC Council).{" "}
-        {(!result.context || result.context.state === "NY") && <>{stats.provenanceLine}. </>}
+      <p className="mt-8 px-4 font-sans text-xs text-ink-45 sm:px-6 lg:px-10">
         <SourceLink href="https://geocoding.geo.census.gov/" className="text-xs">
           How lookup works
         </SourceLink>

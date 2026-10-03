@@ -16,7 +16,7 @@
 
 import * as data from "./data";
 import { lookupOfficials, resolveOfficialByDistrictKey } from "./live/lookup";
-import { getSnapshots, snapshotAttendance, snapshotVotes } from "./live/snapshot";
+import { snapshotAttendance, snapshotVotes } from "./live/snapshot";
 import type {
   AttendanceEntry,
   LookupContext,
@@ -26,7 +26,6 @@ import type {
   SaidDidPair,
   SeatElection,
   SeatNotOnBallot,
-  SiteStats,
   Sponsorship,
   VoteKind,
   VoteRecord,
@@ -55,7 +54,6 @@ export interface DataSource {
   getSeatElection(
     districtKey: string
   ): Promise<SeatElection | SeatNotOnBallot | null>;
-  getSiteStats(): Promise<SiteStats>;
 }
 
 const GROUP_ORDER: Array<{ level: OfficialGroup["level"]; label: string }> = [
@@ -156,29 +154,6 @@ class HybridDataSource implements DataSource {
   async getSeatElection(districtKey: string) {
     const { electionForSeat } = await import("./live/elections");
     return electionForSeat(districtKey);
-  }
-
-  async getSiteStats(): Promise<SiteStats> {
-    // Completeness is visible: the trust line states what we actually track,
-    // computed from the ingested snapshots rather than hardcoded.
-    const snapshots = getSnapshots();
-    if (!snapshots.length) return data.siteStats;
-    let officials = 0;
-    let rollCalls = 0;
-    for (const s of snapshots) {
-      // Count seats, not member records — mid-session replacements can leave
-      // two records for one district.
-      officials += s.members
-        ? new Set(s.members.map((m) => m.district ?? m.key)).size
-        : s.keyBy === "openstates"
-          ? new Set(s.rollCalls.flatMap((r) => Object.keys(r.votes))).size
-          : Object.keys(s.memberKeys ?? {}).length;
-      rollCalls += s.rollCalls.length;
-    }
-    return {
-      trustLine: `Tracking ${officials} officials and ${rollCalls} recorded roll calls in a partial dataset across city, state and federal government`,
-      provenanceLine: data.siteStats.provenanceLine,
-    };
   }
 }
 
