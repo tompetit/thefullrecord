@@ -11,38 +11,60 @@
   "context": [
     {
       "text": "The Cook Political Report rates the 2nd District R+21, one of the more strongly Republican-leaning seats in Ohio's 2026 map.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "david-taylor",
       "name": "David Taylor",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Incumbent; defeated Bob Carr in the May 5, 2026 Republican primary, 75.0% to 25.0%",
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
         "text": "Taylor is the incumbent U.S. Representative for Ohio's 2nd District, elected in 2024. He previously worked as an attorney, including as assistant attorney for Clermont County, and as a businessman.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Ohio in 1969; earned a bachelor's degree from Miami University (1992) and a law degree from the University of Dayton School of Law.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an attorney, including as assistant attorney for Clermont County, and as a businessman at Sardinia Ready Mix, Inc.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His official site says he will continue to stand for pro-life policies and laws that defend the lives of unborn children.",
+          "quote": "I will continue to stand for pro-life policies and laws that defend the lives of unborn children.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Agriculture (Commodity Markets, Digital Assets and Rural Development; General Farm Commodities, Risk Management and Credit) and the Committee on Transportation and Infrastructure (Highways and Transit; Railroads, Pipelines and Hazardous Materials; Water Resources and Environment) in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -51,32 +73,44 @@
     {
       "id": "jen-mazzuckelli",
       "name": "Jen Mazzuckelli",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 5, 2026 Democratic primary, 53.3% to 46.7%, over Todd Wilson",
       "summary": {
         "text": "Mazzuckelli is a former high school English teacher and human-resources professional running as the Democratic nominee. She says her campaign centers on making Congress responsive to constituents and on economic hardship, including domestic-violence survivors' economic security.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Graduated from Glen Este High School (Clermont County, Ohio); attended Trinity College and earned a bachelor's degree from Illinois College (1991) and a graduate degree from Miami University of Ohio (2005).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Worked in human resources, then became a licensed teacher and taught high school English until 2013.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says Congress needs a representative who 'genuinely listens to our concerns and is responsive to OUR needs' and 'acts as a public servant NOT a politician,' criticizing incumbent David Taylor for refusing in-person town halls.",
           "quote": "We need a representative who genuinely listens to our concerns and is responsive to OUR needs. We need a representative that acts as a public servant NOT a politician.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says a key responsibility of Congress is oversight of the executive branch, including scrutinizing spending and released frozen or impounded appropriations.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -108,6 +142,14 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://taylor.house.gov/issues/pro-life",
+      "title": "Pro-Life — Rep. Dave Taylor",
+      "publisher": "Office of Rep. Dave Taylor (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",
