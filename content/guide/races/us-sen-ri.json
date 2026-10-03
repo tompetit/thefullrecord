@@ -51,7 +51,56 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Sponsored S. 1903, a bill to prohibit changes to Medicare and Medicaid in reconciliation legislation.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored S. 2150, the Women's Health Protection Act of 2025, a bill to protect a person's ability to determine whether to continue or end a pregnancy and a provider's ability to provide abortion services.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored S. 3214, the Background Check Expansion Act, a bill to require a background check for every firearm sale.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Cosponsored S. 2845, the Billionaires Income Tax Act, a bill to require billionaires to pay taxes annually by modifying provisions that allow them to defer tax indefinitely.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored S. 1332, the Raise the Wage Act of 2025, a bill to provide for increases in the federal minimum wage.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Cosponsored S. 5390, the End Trump's Tariff Tax Act, a bill to terminate and refund certain duties imposed by the President.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "For the 2025-2026 Congress, serves as Ranking Member of the Senate Armed Services Committee, Ranking Member of the Appropriations Subcommittee on Financial Services and General Government, and a member of the Senate Committee on Banking, Housing, and Urban Affairs and the Select Committee on Intelligence.",
@@ -132,16 +181,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says the country must secure its borders and enforce its laws.",
-          "sources": [
-            "s3"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "website": "https://www.mckayforsenate.com/",
       "researchDepth": "basic",
@@ -264,6 +304,54 @@
       "publisher": "Bahry for Senate campaign website",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.govtrack.us/congress/bills/119/s1903",
+      "title": "S. 1903: A bill to prohibit changes to Medicare and Medicaid in reconciliation",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.govtrack.us/congress/bills/119/s2150",
+      "title": "S. 2150: Women's Health Protection Act of 2025",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.govtrack.us/congress/bills/119/s3214",
+      "title": "S. 3214: Background Check Expansion Act",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.govtrack.us/congress/bills/119/s2845",
+      "title": "S. 2845: Billionaires Income Tax Act",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.govtrack.us/congress/bills/119/s1332",
+      "title": "S. 1332: Raise the Wage Act of 2025",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.govtrack.us/congress/bills/119/s5390",
+      "title": "S. 5390: End Trump's Tariff Tax Act",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25"
