@@ -1,16 +1,7 @@
 import Link from "next/link";
 import { REPO_URL } from "@/lib/site";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
-import { getSnapshots } from "@/server/live/snapshot";
-
-const TOPICS = [
-  ["housing", "Housing", "Homes, rent & development"],
-  ["health", "Health care", "Coverage, care & public health"],
-  ["education", "Education", "Schools, students & child care"],
-  ["climate", "Climate & energy", "Energy, environment & resilience"],
-  ["economy", "Jobs & the economy", "Wages, taxes & public spending"],
-  ["rights", "Rights & public safety", "Courts, policing & civil rights"],
-];
+import { ISSUE_TOPICS } from "@/lib/issues";
 
 export default function Home() {
   const snapshots = getSnapshots();
@@ -61,7 +52,7 @@ export default function Home() {
         <div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">Start with what matters</p><h2 className="mt-2 font-serif text-3xl font-semibold text-ink sm:text-4xl">An issue. An action. A record.</h2></div><Link href="/issues" className="text-sm font-semibold text-accent hover:underline">Browse all issues →</Link></div>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-60">Pick a topic to explore relevant recorded votes. Add your address to see how the representatives we can identify voted.</p>
         <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {TOPICS.map(([id, label, detail]) => <Link key={id} href={`/issues?topic=${id}`} className="group flex min-h-28 items-center justify-between border border-card bg-paper-raised p-5 transition-colors hover:border-accent hover:bg-accent-tint"><div><h3 className="font-serif text-xl font-semibold text-ink">{label}</h3><p className="mt-1 text-xs text-ink-60">{detail}</p></div><span aria-hidden className="ml-3 text-accent transition-transform group-hover:translate-x-1">↗</span></Link>)}
+          {ISSUE_TOPICS.map(({ id, label, description }) => <Link key={id} href={`/issues?topic=${id}`} className="group flex min-h-28 items-center justify-between border border-card bg-paper-raised p-5 transition-colors hover:border-accent hover:bg-accent-tint"><div><h3 className="font-serif text-xl font-semibold text-ink">{label}</h3><p className="mt-1 text-xs text-ink-60">{description}</p></div><span aria-hidden className="ml-3 text-accent transition-transform group-hover:translate-x-1">↗</span></Link>)}
         </div>
       </section>
 
