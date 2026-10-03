@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Serif_4, Public_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+import { SiteAnalytics } from "@/components/SiteAnalytics";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
@@ -52,6 +53,7 @@ export default function RootLayout({
           {children}
         </div>
         <SiteFooter />
+        <SiteAnalytics />
       </body>
     </html>
   );
