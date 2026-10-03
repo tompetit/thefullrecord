@@ -4,7 +4,7 @@ import { GuideSearch } from "@/components/guide/GuideSearch";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
 import { SectionLabel } from "@/components/guide/ui";
 import { GUIDE_SCOPE } from "@/lib/site";
-import { getAllRaces, getGuideStats } from "@/server/guide/load";
+import { getAllRaces } from "@/server/guide/load";
 import { toSearchRaces } from "@/server/guide/search";
 
 export const metadata = {
@@ -22,7 +22,6 @@ const DAYS_UNTIL = (() => {
 
 export default function GuidePage() {
   const races = getAllRaces();
-  const stats = getGuideStats();
   const nyc = races.filter((r) => r.inNYC);
   const nycGroups: Array<[string, typeof races]> = [
     ["Statewide & ballot measures", nyc.filter((r) => ["governor", "attorney-general", "comptroller", "ballot-measure"].includes(r.officeType))],
@@ -36,7 +35,7 @@ export default function GuidePage() {
   return (
     <main className="flex-1">
 
-      <section className="mx-auto grid w-full max-w-7xl gap-10 px-4 sm:px-6 pt-10 lg:grid-cols-[1.2fr_1fr] lg:px-10 lg:pt-14">
+      <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-10 lg:px-10 lg:pt-14">
         <div>
           <p className="font-sans text-[11px] font-bold tracking-[0.1em] text-accent">
             GENERAL ELECTION · TUESDAY, NOVEMBER 3, 2026 · {DAYS_UNTIL} DAYS AWAY
@@ -69,24 +68,6 @@ export default function GuidePage() {
             </Link>
           </div>
         </div>
-        <aside className="grid grid-cols-2 content-start gap-3 self-start">
-          {[
-            [stats.races.toLocaleString(), "races researched"],
-            [stats.candidates.toLocaleString(), "candidates profiled"],
-            [stats.sources.toLocaleString(), "sources cited"],
-            [stats.officialSources.toLocaleString(), "official records cited"],
-          ].map(([n, l]) => (
-            <div key={l} className="rounded-lg border border-card bg-paper-raised p-4">
-              <div className="font-serif text-[30px] font-bold leading-none text-ink">{n}</div>
-              <div className="mt-1.5 font-sans text-[12px] text-ink-60">{l}</div>
-            </div>
-          ))}
-          <p className="col-span-2 font-sans text-[12px] leading-normal text-ink-45">
-            Researched from roll calls, bill records, FEC filings, candidate
-            statements, and reporting. See{" "}
-            <Link href="/guide/methodology" className="underline">how we research</Link>.
-          </p>
-        </aside>
       </section>
 
       <section className="mx-auto mt-14 w-full max-w-7xl px-4 sm:px-6 lg:px-10">
