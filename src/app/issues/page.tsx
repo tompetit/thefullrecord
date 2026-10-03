@@ -1,12 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { Wordmark } from "@/components/Wordmark";
+import { IssueAddressForm } from "@/components/issues/IssueAddressForm";
 import { IssueExplorer } from "@/components/issues/IssueExplorer";
 import { getDataSource } from "@/server/datasource";
 import { getIssueRecords } from "@/server/issues";
 
 export const metadata: Metadata = {
-  title: "Explore votes by issue — The Full Record",
+  title: "Explore the votes by issue — The Full Record",
   referrer: "no-referrer",
   description: "Start with housing, health, education or another issue. Explore recorded legislative votes and see how your New York representatives voted, with links to official records.",
 };
@@ -28,10 +28,9 @@ export default async function IssuesPage({ searchParams }: { searchParams: Promi
   const dates = records.map((record) => record.date).sort();
 
   return <main className="mx-auto w-full max-w-6xl flex-1 px-5 pb-12 sm:px-8 lg:px-12">
-    <header className="flex flex-wrap items-center justify-between gap-3 border-b border-card py-4"><Wordmark /><nav aria-label="Issue explorer navigation" className="flex items-center gap-5 text-xs font-semibold text-ink-60"><Link href="/" className="inline-flex min-h-11 items-center hover:text-ink">Home</Link><Link href={address ? `/representatives?address=${encodeURIComponent(address)}` : "/representatives"} className="inline-flex min-h-11 items-center hover:text-ink">Representatives →</Link></nav></header>
     <section className="grid gap-8 border-b border-card py-9 sm:py-12 lg:grid-cols-[1.3fr_1fr] lg:gap-14">
       <div><p className="text-[11px] font-bold tracking-[0.16em] text-accent-deep">THE RECORD, BY ISSUE</p><h1 className="mt-4 max-w-xl font-serif text-4xl font-semibold leading-[1.1] tracking-tight text-ink sm:text-5xl">Start with what<br className="hidden sm:block" /> matters to you.</h1><p className="mt-5 max-w-lg text-base leading-relaxed text-ink-60">Housing. Health care. Your daily commute. Find the votes behind the issues, then read what your representatives actually did.</p><div className="mt-6 flex gap-6 border-t border-hairline pt-4"><div><p className="font-serif text-3xl font-semibold text-ink">{records.length}</p><p className="mt-1 text-[11px] text-ink-60">roll calls on file{officials ? " for these officials" : " across tracked chambers"}</p></div><div><p className="font-serif text-3xl font-semibold text-ink">{new Set(records.map((record) => record.chamber)).size}</p><p className="mt-1 text-[11px] text-ink-60">legislative chambers</p></div></div></div>
-      <div className="self-start rounded-xl border border-card-strong bg-paper-raised p-5 sm:p-6"><p className="text-[11px] font-bold tracking-widest text-accent-deep">MAKE IT LOCAL</p><h2 className="mt-2 font-serif text-2xl font-semibold text-ink">How did your representatives vote?</h2><p className="mt-3 text-sm leading-relaxed text-ink-60">Enter a New York address to see the recorded positions of its city, state and federal representatives.</p><form id="issue-address-form" action="/issues" className="mt-5"><label htmlFor="issue-address" className="text-xs font-semibold text-ink-80">Street address, city and ZIP code</label><input id="issue-address" name="address" type="text" autoComplete="street-address" required maxLength={300} defaultValue={address} placeholder="123 Main St, Albany, NY 12207" className="mt-2 min-h-12 w-full rounded-lg border border-chip-border bg-paper px-3 text-sm outline-offset-4 focus:outline-accent" /><button type="submit" className="mt-3 min-h-12 w-full rounded-lg bg-accent px-4 text-sm font-semibold text-white hover:bg-accent-deep">Find my representatives’ votes →</button></form><p className="mt-3 text-[11px] leading-relaxed text-ink-60">No sign-up. Address lookup uses public geocoding services. The address appears in this page’s URL; remove it before sharing.</p></div>
+      <div className="self-start rounded-xl border border-card-strong bg-paper-raised p-5 sm:p-6"><p className="text-[11px] font-bold tracking-widest text-accent-deep">MAKE IT LOCAL</p><h2 className="mt-2 font-serif text-2xl font-semibold text-ink">How did your representatives vote?</h2><p className="mt-3 text-sm leading-relaxed text-ink-60">Enter a New York address to see the recorded positions of its city, state and federal representatives.</p><IssueAddressForm key={address} initialAddress={address} /><p className="mt-3 text-[11px] leading-relaxed text-ink-60">No sign-up. Address lookup uses public geocoding services. The address appears in this page’s URL; remove it before sharing.</p></div>
     </section>
     {invalidAddress && <div role="alert" className="mt-6 rounded-lg border border-umber-tint-border bg-umber-tint p-4 text-sm leading-relaxed text-umber-deep">Please enter an address of 300 characters or fewer. Showing all tracked records until a valid address is submitted.</div>}
     {lookup && !lookup.ok && <div role="alert" className="mt-6 rounded-lg border border-umber-tint-border bg-umber-tint p-4 text-sm leading-relaxed text-umber-deep">{ERRORS[lookup.reason]} Showing all tracked records, not a local result.</div>}

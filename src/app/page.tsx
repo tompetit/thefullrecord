@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { REPO_URL } from "@/lib/site";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
-import { Wordmark } from "@/components/Wordmark";
 import { getSnapshots } from "@/server/live/snapshot";
 
 const TOPICS = [
@@ -19,17 +18,7 @@ export default function Home() {
   const dates = snapshots.flatMap((s) => s.rollCalls.map((r) => r.date)).sort();
   const last = dates.at(-1);
   return (
-    <main id="main-content" className="flex min-h-screen flex-1 flex-col">
-      <header className="border-b border-hairline">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-8 gap-y-1 px-6 py-4 lg:px-10">
-          <Wordmark className="text-[23px]" />
-          <nav aria-label="Main navigation" className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[13px] font-semibold text-ink-60">
-            <Link href="/issues" className="py-2 text-accent hover:underline">Explore the votes</Link>
-            <Link href="/guide" className="py-2 hover:text-ink">Voter guide</Link>
-            <Link href="/coverage" className="py-2 hover:text-ink">Our data</Link>
-          </nav>
-        </div>
-      </header>
+    <main className="flex flex-1 flex-col">
 
       <section className="mx-auto grid w-full max-w-7xl gap-10 px-6 py-12 md:py-16 lg:grid-cols-[1.35fr_1fr] lg:gap-16 lg:px-10 lg:py-20">
         <div>
@@ -42,7 +31,7 @@ export default function Home() {
             Explore the issues you care about, see the votes, and follow the evidence.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/issues" className="inline-flex min-h-12 items-center gap-8 rounded-md bg-accent px-5 py-3 text-sm font-bold text-white hover:bg-accent-deep">Explore votes by issue <span aria-hidden>↗</span></Link>
+            <Link href="/issues" className="inline-flex min-h-12 items-center gap-8 rounded-md bg-accent px-5 py-3 text-sm font-bold text-white hover:bg-accent-deep">Explore the votes by issue <span aria-hidden>↗</span></Link>
             <a href="#find-your-reps" className="inline-flex min-h-12 items-center rounded-md border border-card-strong px-5 py-3 text-sm font-semibold text-ink hover:bg-canvas">Find my representatives <span className="ml-4" aria-hidden>↓</span></a>
           </div>
           <p className="mt-5 text-xs text-ink-60">Nonpartisan. Source-linked. Yours to judge.</p>

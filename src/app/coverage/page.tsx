@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Wordmark } from "@/components/Wordmark";
 import { getSnapshots } from "@/server/live/snapshot";
 import { REPO_URL } from "@/lib/site";
 
@@ -17,8 +16,7 @@ function date(value: string) {
 }
 export default function CoveragePage() {
   const snapshots = getSnapshots();
-  return <main id="main-content" className="flex-1">
-    <header className="border-b border-hairline"><div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-6 py-4"><Wordmark /><Link href="/issues" className="text-sm font-semibold text-accent">Explore the votes →</Link></div></header>
+  return <main className="flex-1">
     <div className="mx-auto max-w-6xl px-6 py-12">
       <p className="text-xs font-bold uppercase tracking-widest text-accent">What is here. What is missing.</p>
       <h1 className="mt-3 font-serif text-4xl font-semibold text-ink sm:text-5xl">A record you can inspect.</h1>

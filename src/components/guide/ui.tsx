@@ -7,7 +7,6 @@ import type {
   SourceKind,
   Stance,
 } from "@/server/guide/types";
-import { Wordmark } from "../Wordmark";
 
 export const KIND_LABEL: Record<SourceKind, string> = {
   official: "Official record",
@@ -16,10 +15,12 @@ export const KIND_LABEL: Record<SourceKind, string> = {
   reference: "Reference",
 };
 
-/** Guide-wide top bar. */
+/**
+ * Voter-guide section links — secondary navigation shown below the site
+ * header on every /guide page (the site header carries the primary nav).
+ */
 export function GuideNav({ active }: { active?: "guide" | "ballot" | "match" | "votes" | "method" }) {
   const links: Array<[typeof active, string, string]> = [
-    [undefined, "/issues", "Explore votes"],
     ["guide", "/guide", "All races"],
     ["ballot", "/guide/ballot", "My ballot"],
     ["match", "/guide/match", "Compare by issue"],
@@ -27,24 +28,32 @@ export function GuideNav({ active }: { active?: "guide" | "ballot" | "match" | "
     ["method", "/guide/methodology", "How we research"],
   ];
   return (
-    <header className="border-b border-hairline">
-      <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-1 px-[20px] pt-3 pb-2 lg:px-10">
-        <Wordmark />
-        <nav aria-label="Voter guide navigation" className="-mx-1 flex max-w-full gap-1 overflow-x-auto pb-1 font-sans text-[13px] text-ink-60">
-          {links.map(([key, href, label]) => (
+    <div className="border-b border-hairline-soft bg-canvas/40">
+      <nav
+        aria-label="Voter guide sections"
+        className="mx-auto flex w-full max-w-6xl flex-wrap items-center gap-x-1 px-2 font-sans text-[13px] text-ink-60 lg:px-7"
+      >
+        {links.map(([key, href, label]) => {
+          const current = active === key;
+          return (
             <Link
               key={href}
               href={href}
-              className={`whitespace-nowrap rounded-full px-3 py-1.5 hover:text-ink ${
-                active && active === key ? "bg-ink text-paper hover:text-paper" : ""
-              }`}
+              aria-current={current ? "page" : undefined}
+              className="group inline-flex min-h-11 items-center whitespace-nowrap"
             >
-              {label}
+              <span
+                className={`rounded-full px-3 py-1.5 ${
+                  current ? "bg-ink text-paper" : "group-hover:text-ink"
+                }`}
+              >
+                {label}
+              </span>
             </Link>
-          ))}
-        </nav>
-      </div>
-    </header>
+          );
+        })}
+      </nav>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { AiMarker } from "@/components/AiMarker";
-import { AppHeader } from "@/components/AppHeader";
+import { RepsBackLink } from "@/components/RepsBackLink";
 import { HowYourRepsVoted } from "@/components/HowYourRepsVoted";
 import { RollCallCard } from "@/components/RollCallCard";
 import { SourceLink } from "@/components/SourceLink";
@@ -70,9 +70,11 @@ export default async function BillPage({
 
   return (
     <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-      <AppHeader backHref="/representatives" backLabel="Back" />
+      <div className="px-[26px] pt-2 lg:px-10">
+        <RepsBackLink />
+      </div>
 
-      <div className="px-[26px] pt-6 lg:px-10">
+      <div className="px-[26px] pt-2 lg:px-10">
         <div className="font-sans text-[11px] font-bold tracking-[0.06em] text-ink-45">
           {bill.number} · {bill.chamber} · {bill.session}
         </div>

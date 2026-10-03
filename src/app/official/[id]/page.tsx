@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AppHeader } from "@/components/AppHeader";
 import { Avatar } from "@/components/Avatar";
 import { ElectionCard } from "@/components/ElectionCard";
 import { PartyChip } from "@/components/PartyChip";
@@ -74,8 +73,6 @@ export default async function OfficialPage({
 
   return (
     <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-      <AppHeader />
-
       <div className="px-[26px] pt-5 lg:grid lg:grid-cols-[300px_1fr] lg:gap-10 lg:px-10">
         {/* Left rail (desktop) / header stack (mobile) */}
         <aside className="lg:sticky lg:top-4 lg:self-start">

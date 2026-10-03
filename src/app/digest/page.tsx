@@ -20,7 +20,7 @@ export default async function DigestPage({ searchParams }: { searchParams: Promi
   const ds = getDataSource();
   if (address) {
     const lookup = await ds.getOfficialsByAddress(address);
-    if (!lookup.ok) return <main className="mx-auto max-w-2xl p-6"><Wordmark /><h1 className="mt-6 font-serif text-2xl">We couldn’t look up that address</h1><p className="mt-3">Check the address and try again. No sample records have been substituted.</p><AddressLookupForm initialAddress={address} /></main>;
+    if (!lookup.ok) return <main className="mx-auto max-w-2xl p-6"><h1 className="mt-6 font-serif text-2xl">We couldn’t look up that address</h1><p className="mt-3">Check the address and try again. No sample records have been substituted.</p><AddressLookupForm initialAddress={address} /></main>;
   }
   const digest = await ds.getDigest(address);
 
