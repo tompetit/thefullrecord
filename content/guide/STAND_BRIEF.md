@@ -25,9 +25,9 @@ the record runs out — zero is acceptable when nothing qualifies:
 1. `immigration_enforcement`, `healthcare_public`, `abortion`, `guns`, `tax_wealthy`,
    `climate`, `tariffs`
 2. `voter_citizenship_proof`, `war_powers`, `transgender_sports`
-3. `minimum_wage`, `israel_aid`, and for New York races also `rent_regulation`,
-   `housing_supply`, `police_funding`, `congestion_pricing`, `universal_childcare`,
-   `school_choice`
+3. `minimum_wage`, `israel_aid`, `rent_regulation`, `housing_supply`, `police_funding`,
+   `universal_childcare`, `school_choice` (valid in any race when the position is directly
+   shown), and for New York races `congestion_pricing`
 
 Never duplicate an issue key the candidate already has. If an existing position
 plainly fails the rules below, fix or remove it and say so in your reply.
