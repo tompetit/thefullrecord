@@ -58,7 +58,9 @@ export function transformBills(bills, st, now = new Date().toISOString(), maxVot
       if (!["upper", "lower", "legislature"].includes(chamber)) { skip("not-floor-vote"); continue; }
       const when = dateParts(vote.start_date);
       if (!when || when[0] > now.slice(0, 10)) { skip("bad-date"); continue; }
-      const sourceUrl = [vote.sources?.[0]?.url, bill.sources?.[0]?.url].find((u) => u && isOfficialStateSource(u));
+      // Some legislatures (e.g. CA leginfo) are listed with http:// URLs; their sites serve https, so upgrade before the https-only official-source check.
+      const toHttps = (u) => (typeof u === "string" ? u.replace(/^http:\/\//i, "https://") : u);
+      const sourceUrl = [vote.sources?.[0]?.url, bill.sources?.[0]?.url].map(toHttps).find((u) => u && isOfficialStateSource(u));
       if (!sourceUrl) { skip("no-official-source"); continue; }
       const votes = {};
       for (const v of vote.votes ?? []) {

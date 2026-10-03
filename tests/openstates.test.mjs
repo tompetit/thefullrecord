@@ -71,6 +71,11 @@ test("generated snapshots pass validation and the --max-votes cap keeps the newe
   const capped = transformBills(bills, "tx", "2026-01-01T00:00:00Z", 1);
   assert.equal(capped.snapshots.get("lower").rollCalls.length, 1);
 });
+test("http:// legislature URLs are upgraded to https", () => {
+  const b = [{ identifier: "AB 1", title: "T", sources: [], votes: [vote({ sources: [{ url: "http://leginfo.legislature.ca.gov/faces/x" }] })] }];
+  const { snapshots } = transformBills(b, "ca", "2026-01-01T00:00:00Z");
+  assert.equal(snapshots.get("lower").rollCalls[0].sourceUrl, "https://leginfo.legislature.ca.gov/faces/x");
+});
 test("future-dated events are rejected", () => {
   const { snapshots } = transformBills(bills, "tx", "2025-01-01T00:00:00Z");
   assert.equal(snapshots.size, 0);
