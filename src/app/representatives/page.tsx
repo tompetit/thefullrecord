@@ -12,7 +12,7 @@ function LookupNotes({ context }: { context: LookupContext }) {
   const lines: string[] = [];
   if (context.geographySource === "census-2026-fallback")
     lines.push(
-      "We could not confirm today’s district boundaries, so these results use the districts for the November 2026 election. District boundaries may have changed, and the officials listed could differ from your current representatives."
+      "We could not confirm today’s district boundaries, so these results use the districts for the November 2026 election. District boundaries may have changed, and the representatives listed could differ from your current representatives."
     );
   lines.push(...context.gaps, ...context.notes);
   const change = context.houseDistrictChange;
@@ -98,11 +98,11 @@ export default async function RepresentativesPage({
           {isSample ? "Explore a sample district" : "Your representatives"}
         </h1>
         <p className="mt-1 font-sans text-[13.5px] text-ink-60">
-          {count} officials found for {result.matchedAddress}.
+          {count} representatives found for {result.matchedAddress}.
           {isSample && " This is an example address, not your location."}
         </p>
         <AddressLookupForm initialAddress={address} />
-        <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">{LOOKUP_SCOPE} Missing records do not mean an official took no action. <Link href="/coverage" className="underline hover:text-ink">See coverage by place</Link>.</p>
+        <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">{LOOKUP_SCOPE} Missing records do not mean a representative took no action. <Link href="/coverage" className="underline hover:text-ink">See coverage by place</Link>.</p>
         {result.context && <LookupNotes context={result.context} />}
         <Link
           href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}

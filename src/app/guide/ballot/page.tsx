@@ -51,7 +51,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                 href={`/guide/match?address=${encodeURIComponent(address)}`}
                 className="rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[14px] font-bold text-paper hover:opacity-90"
               >
-                Compare candidate evidence by issue →
+                Compare by issue →
               </Link>
             </div>
             {result.races.length === 0 && (

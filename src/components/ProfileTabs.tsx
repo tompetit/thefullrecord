@@ -109,7 +109,7 @@ export function ProfileTabs({
           {votes.items.length === 0 ? (
             <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
               {voteFilter === "all"
-                ? "No vote records are available here for this official yet. This is a coverage gap, not evidence that the official did not vote."
+                ? "No vote records are available here for this representative yet. This is a coverage gap, not evidence that they did not vote."
                 : `No ${voteFilter} votes are available in this collection. Try All to see other records.`}
               {" "}<SourceLink href={official.contactUrl}>Official website</SourceLink>
             </p>

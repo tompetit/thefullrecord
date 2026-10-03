@@ -7,7 +7,7 @@ import { parseStand, serializeStand, withStand } from "@/lib/alignment";
 import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
 
 export const metadata = {
-  title: "Compare issue evidence — The Full Record",
+  title: "Compare by issue — The Full Record",
   description:
     "Explore candidates’ documented actions and statements by topic, with cited sources and clear research gaps.",
 };
@@ -46,7 +46,7 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-8 lg:px-10">
         <p className="font-sans text-[11px] font-bold tracking-[0.1em] text-accent">YOUR ISSUES · THEIR DOCUMENTED RECORD</p>
         <h1 className="mt-2 font-serif text-[30px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink lg:text-[42px]">
-          Compare issue evidence
+          Compare by issue
         </h1>
         {!races && (
           <>
