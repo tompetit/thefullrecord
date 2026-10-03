@@ -189,6 +189,22 @@ export function SourceList({ race, ids }: { race: GuideRace; ids?: Set<string> }
               {s.date ? ` · ${s.date}` : ""}
             </span>{" "}
             <KindBadge kind={s.kind} />
+            {s.deadLink &&
+              (s.deadLink.archivedUrl ? (
+                <>
+                  {" "}
+                  <a
+                    href={s.deadLink.archivedUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="whitespace-nowrap text-[11px] text-ink-60 underline decoration-hairline underline-offset-2 hover:decoration-ink"
+                  >
+                    archived copy
+                  </a>
+                </>
+              ) : (
+                <span className="whitespace-nowrap text-[11px] italic text-ink-45"> · link may be broken</span>
+              ))}
           </span>
         </li>
       ))}

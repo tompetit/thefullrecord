@@ -64,7 +64,7 @@ Race files follow the standard in [`content/guide/README.md`](content/guide/READ
 
 ```bash
 node scripts/guide/validate.mjs content/guide/races/<raceId>.json
-node scripts/guide/check-links.mjs
+npm run guide:check-links   # writes content/guide/link-health.json
 ```
 
 ## Contributing
