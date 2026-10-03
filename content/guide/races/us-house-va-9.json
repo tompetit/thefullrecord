@@ -11,57 +11,97 @@
   "context": [
     {
       "text": "This is an open contest on the Democratic side: Joy Powers won the August 4, 2026 Democratic primary with 51.6% of the vote over Adam Murphy (36.1%) and Douglas Crockett (12.2%). Incumbent H. Morgan Griffith advanced from the Republican primary unopposed after it was canceled. Cook Political Report, Decision Desk, Inside Elections and Sabato's Crystal Ball all rate the race Solid/Safe Republican as of September 22, 2026.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "morgan-griffith",
       "name": "H. Morgan Griffith",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced from the Republican primary unopposed after the primary was canceled.",
       "currentRole": "U.S. Representative for Virginia's 9th District (since 2011)",
       "summary": {
         "text": "Morgan Griffith is the Republican incumbent seeking re-election to a ninth term representing Virginia's 9th District. He serves on the House Energy and Commerce Committee, chairing its Health Subcommittee, and previously served 17 years in the Virginia House of Delegates, including as House Majority Leader.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Served in the Virginia House of Delegates from 1994 to 2011, representing the 8th District; was elected House Majority Leader in 2000, the first Republican in Virginia history to hold that position.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Practiced law in Southwest Virginia for nearly three decades after graduating from Washington and Lee University School of Law.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Honors graduate of Emory & Henry College and graduate of Andrew Lewis High School in Salem, Virginia.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "His official energy page, which cites 2023 legislation, says he supports increasing coal production, easing coal regulations and an all-of-the-above energy approach, and notes he cosponsored 2023 bills barring EPA from banning internal-combustion engines.",
+          "quote": "We need to increase current coal production and eliminate overly burdensome regulations that hurt industry with little to no environmental gains.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "In a July 2022 statement he called the assault weapons ban an unconstitutional infringement on law-abiding gun owners.",
+          "quote": "The assault weapons ban is an unconstitutional infringement on the rights of law-abiding gun owners.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Energy and Commerce Committee, chairing its Subcommittee on Health in the 119th Congress; also a senior member of its Environment and Communications & Technology subcommittees.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the Committee on House Administration, which oversees House operations, Capitol security and federal-election oversight.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Appointed by Speaker Johnson to the House Committee on Rules in the 119th Congress and serves as its Vice Chairman.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Chaired the Energy and Commerce Committee's Subcommittee on Oversight and Investigations in the 118th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://morgangriffith.house.gov",
@@ -71,28 +111,38 @@
     {
       "id": "joy-powers",
       "name": "Joy Powers",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 4, 2026 Democratic primary with 51.6% of the vote over Adam Murphy and Douglas Crockett.",
       "summary": {
         "text": "Joy Powers is the Democratic nominee challenging incumbent Morgan Griffith. She describes herself as a Southwest Virginia native running on a \"HOME Plan\" covering health care, economic opportunity, markets and education for the region.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [
         {
           "text": "Universal healthcare paired with direct investment in rural hospitals, clinics, pharmacies, EMS, mental-health and maternal care, and the healthcare workforce.",
           "quote": "I believe healthcare is a human right, and I support universal healthcare. But universal coverage alone will not fix the healthcare crisis in Southwest Virginia if there is nowhere close to home to receive care.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Rebuilding rural economic infrastructure, including rail, roads, broadband, energy, water/sewer systems, industrial sites, agriculture and manufacturing.",
           "quote": "My HOME Plan focuses on rebuilding the foundations of a real rural economy: rail, roads, broadband, energy, water and sewer infrastructure, industrial sites, small businesses, agriculture, manufacturing, and the trades.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Full federal funding for Title I, IDEA special education, Head Start, school nutrition, career and technical education, and investment in rural school buildings and teacher pay.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
@@ -101,11 +151,23 @@
           "stance": "supports",
           "summary": "Says healthcare is a human right and supports universal healthcare, paired with investment in rural health infrastructure.",
           "quote": "I believe healthcare is a human right, and I support universal healthcare.",
-          "sources": ["s1"]
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her campaign issues page says tariffs and trade fights have raised costs for families and farmers and cost producers export markets.",
+          "quote": "Trade fights and tariffs have raised the cost of fuel, fertilizer, and a lot of what farmers buy and what families pay at checkout.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.joyforva.com"
     }
   ],
   "sources": [
@@ -123,6 +185,36 @@
       "title": "Biography | Congressman Morgan Griffith",
       "publisher": "Office of Rep. Morgan Griffith",
       "kind": "official"
+    },
+    {
+      "url": "https://morgangriffith.house.gov/Issues/Issue/?IssueID=44643",
+      "title": "Energy and Environment",
+      "publisher": "Office of Rep. Morgan Griffith",
+      "kind": "official",
+      "id": "s3"
+    },
+    {
+      "url": "https://morgangriffith.house.gov/news/documentsingle.aspx?DocumentID=402708",
+      "title": "Griffith Opposes Assault Weapons Ban",
+      "publisher": "Office of Rep. Morgan Griffith",
+      "kind": "official",
+      "date": "2022-07-29",
+      "id": "s4"
+    },
+    {
+      "url": "https://www.joyforva.com/copy-of-priorities",
+      "title": "The Issues",
+      "publisher": "Joy Powers for Virginia",
+      "kind": "candidate",
+      "id": "s5"
+    },
+    {
+      "url": "https://ballotpedia.org/Joy_Powers",
+      "title": "Joy Powers",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026",
+      "id": "s6"
     }
   ],
   "researchedAt": "2026-09-25",

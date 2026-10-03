@@ -93,17 +93,9 @@
           ]
         },
         {
-          "issue": "housing_supply",
-          "stance": "supports",
-          "summary": "Says he has championed expansion of the Affordable Housing Tax Credit in Congress to spur construction of new homes.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says he helped pass legislation extending health-care tax credits that make coverage more affordable, and opposes legislation that would drive up electricity prices by cutting clean-energy investment.",
+          "summary": "Says he helped pass legislation extending health-care tax credits that make health coverage more affordable.",
           "sources": [
             "s1"
           ]
@@ -114,6 +106,51 @@
           "summary": "Lists fighting gun violence and climate change among his priorities, and opposed legislation he said would drive up electricity prices by killing clean-energy investment.",
           "sources": [
             "s1"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "His official issues page says he supports a background check on every gun sale, restrictions on weapons designed for the battlefield, and red flag (risk protection order) laws.",
+          "quote": "I strongly believe we should enact laws requiring a background check on every gun sale to help keep guns out of the hands of criminals.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His official healthcare page criticizes the Supreme Court decision overturning Roe v. Wade and says the protections it provided should be restored and codified.",
+          "quote": "I was outraged by the Supreme Court’s decision to eliminate the protections women enjoyed for half a century under Roe v. Wade.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His official economy page lists asking the wealthy and large corporations to pay their fair share in taxes among his near-term priorities.",
+          "quote": "asking the wealthy and large corporations to pay their fair share in taxes to finance further investments in American workers and infrastructure",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "His official economy page says Congress must raise the minimum wage.",
+          "quote": "We must raise the minimum wage, end government shutdowns and brinksmanship over spending, and promote tax policies that empower workers and grow the middle class.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "His official education page says he opposes vouchers and \"school choice\" initiatives that would undermine public schools.",
+          "quote": "I oppose any initiative (like vouchers or “school choice”) that would undermine our public schools or re-segregate our society.",
+          "sources": [
+            "s6"
           ]
         }
       ],
@@ -126,7 +163,7 @@
           ]
         }
       ],
-      "website": "https://donbeyer.com",
+      "website": "https://beyer.house.gov",
       "researchDepth": "basic",
       "bioguideId": "B001292"
     },
@@ -174,7 +211,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "His campaign health plan proposes market-based coverage with guaranteed access for preexisting conditions and a time-limited, state-administered safety net, and contrasts it with Medicare for All and the ACA's subsidies.",
+          "quote": "This plan delivers universal access without a government takeover and lowers costs without permanent subsidies",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.sabioforcongress.com",
       "researchDepth": "basic"
@@ -233,6 +280,41 @@
       "title": "Biography | U.S. Representative Don Beyer",
       "publisher": "Office of Rep. Don Beyer",
       "kind": "official"
+    },
+    {
+      "url": "https://beyer.house.gov/issues/issue/?IssueID=15196",
+      "title": "Gun Violence",
+      "publisher": "Office of Rep. Don Beyer",
+      "kind": "official",
+      "id": "s3"
+    },
+    {
+      "url": "https://beyer.house.gov/issues/issue/?IssueID=15197",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Don Beyer",
+      "kind": "official",
+      "id": "s4"
+    },
+    {
+      "url": "https://beyer.house.gov/issues/issue/?IssueID=15200",
+      "title": "Economy",
+      "publisher": "Office of Rep. Don Beyer",
+      "kind": "official",
+      "id": "s5"
+    },
+    {
+      "url": "https://beyer.house.gov/issues/issue/?IssueID=15222",
+      "title": "Education",
+      "publisher": "Office of Rep. Don Beyer",
+      "kind": "official",
+      "id": "s6"
+    },
+    {
+      "url": "https://sabioforcongress.com/affordable-healthcare-1",
+      "title": "The American Health Freedom Plan",
+      "publisher": "Sabio for Congress",
+      "kind": "candidate",
+      "id": "s7"
     }
   ],
   "researchedAt": "2026-09-25",
