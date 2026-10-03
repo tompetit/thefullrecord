@@ -11,37 +11,105 @@
   "context": [
     {
       "text": "Incumbent Suzanne Bonamici defeated Jamil Ahmad 86.6%-12.8% in the May 19, 2026 Democratic primary. Barbara Kahl defeated John Verbeek 71.5%-27.4% in the Republican primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "suzanne-bonamici",
       "name": "Suzanne Bonamici",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2012)",
       "summary": {
         "text": "Suzanne Bonamici is the Democratic and Working Families Party nominee for re-election to Oregon's 1st Congressional District, which she has represented since a 2012 special election. She previously served in both chambers of the Oregon Legislature.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Detroit, Michigan; earned an associate degree from Lane Community College and a B.A. and J.D. from the University of Oregon.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a consumer protection attorney and as a legal assistant for Lane County Legal Aid Service before serving in the Oregon House of Representatives (2007-2008) and Oregon State Senate (2008-2012).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports universal background checks, a ban on magazines holding more than ten rounds, and reinstating the assault weapons ban, per her official issues page.",
+          "quote": "I have consistently supported bipartisan legislation to establish universal background checks, which would help stop criminals from getting weapons they are not legally allowed to purchase.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports universal health care and describes working to expand coverage as a member of the Medicare for All Caucus; also says the ACA's protections and subsidies must be maintained.",
+          "quote": "I support universal health care and as a member of the Medicare for All Caucus I will continue to work to expand coverage and make health care more affordable for all.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she is committed to Americans' right to choose their own health care and will keep advocating for the Women's Health Protection Act.",
+          "quote": "As a member of the Congressional Pro-Choice Caucus, I am committed to working for reproductive equity and the right of Oregonians and Americans to choose their own healthcare and method of family planning.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Describes the 2020 House Select Committee on the Climate Crisis action plan she served on as aimed at accelerating the transition to a 100 percent clean energy economy and net-zero emissions by mid-century.",
+          "quote": "We focused on meeting the needs of frontline communities, accelerating our transition to a 100 percent clean energy economy, and creating good-paying jobs.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a February 2026 statement on the Supreme Court tariffs ruling, criticized President Trump's tariff policies as raising costs and said Congress, not the President, sets tariffs.",
+          "quote": "Tariffs are taxes, and Donald Trump’s chaotic tariff policies have been raising costs and causing economic uncertainty.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In July 2026 said she will fight against funding for immigration enforcement and introduced the Daycare Not Detentions Act to redirect $70 billion from ICE and CBP to child care programs.",
+          "quote": "I will continue doing all I can to fight against funding for dangerous immigration enforcement and advocate for our nation’s children and a brighter future.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Committee on Science, Space, and Technology (Subcommittee on Environment; Subcommittee on Investigations and Oversight) and the Committee on Education and the Workforce.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://bonamiciforcongress.com/",
@@ -51,38 +119,54 @@
     {
       "id": "barbara-kahl",
       "name": "Barbara Kahl",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Barbara Kahl is the Republican nominee for Oregon's 1st Congressional District. She is a veterinarian who has run a mobile large-animal veterinary practice in the district and served on an Oregon Department of Agriculture advisory committee.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "A fourth-generation Oregonian; earned a bachelor's degree from Oregon State University (2001) and a doctorate from Oregon State's College of Veterinary Medicine (2006).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Spent nearly 20 years running a mobile veterinary practice serving large animals, equine, and livestock across the district, and spent two decades earlier in corporate accounting, finance and purchasing, including at Intel's Hillsboro campus (1990-1997).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Founded a nonprofit rescue organization and currently serves as a public member of the Oregon Department of Agriculture's CAFO Advisory Committee; has testified before the Oregon Legislature on agriculture-related bills.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Fiscal discipline: cutting federal spending and redundant offices, removing ineligible recipients from benefit programs, and requiring agencies to justify funding or lose it.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Education: revising federal K-12 policy to focus on core academics (math, reading, writing, civics, history, science), restoring PE/music/art for grades K-6, and strengthening special-education support under IDEA.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Government accountability: strict budget discrepancy standards, year-end account closing, public spending reports, and routine forensic financial audits.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -91,11 +175,13 @@
           "stance": "supports",
           "summary": "Says she supports expanding land and timber use for housing supply, workforce training in the trades, cutting permitting time and costs, and a 'buildable homes' package.",
           "quote": "Housing: expanding land/timber use for supply, trades workforce training, cutting permitting time and costs, a \"buildable homes\" package",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
-      "website": "https://www.barbarakahlforcongress.com/",
+      "website": "https://drkahlforcongress.com",
       "researchDepth": "basic"
     }
   ],
@@ -120,6 +206,48 @@
       "title": "Barbara Kahl",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://bonamici.house.gov/issues/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Suzanne Bonamici",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://bonamici.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Suzanne Bonamici",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://bonamici.house.gov/issues/reproductive-rights",
+      "title": "Reproductive Rights",
+      "publisher": "Office of Rep. Suzanne Bonamici",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://bonamici.house.gov/issues/climate-action-plan",
+      "title": "Climate Action Plan",
+      "publisher": "Office of Rep. Suzanne Bonamici",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://bonamici.house.gov/media/statements/bonamici-statement-scotus-tariffs-decision",
+      "title": "Bonamici Statement on SCOTUS Tariffs Decision",
+      "publisher": "Office of Rep. Suzanne Bonamici",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://bonamici.house.gov/media/press-releases/bonamici-introduces-legislation-redirect-70b-ice-cbp-child-care",
+      "title": "Bonamici Introduces Legislation to Redirect $70B from ICE, CBP to Child Care",
+      "publisher": "Office of Rep. Suzanne Bonamici",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

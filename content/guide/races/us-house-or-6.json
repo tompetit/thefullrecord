@@ -11,84 +11,156 @@
   "context": [
     {
       "text": "Incumbent Andrea Salinas ran unopposed in the May 19, 2026 Democratic primary. David Russ won the Republican primary with 98.4% of the vote. Jason Faler, an unaffiliated candidate, withdrew or was disqualified before the general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "andrea-salinas",
       "name": "Andrea Salinas",
-      "parties": ["D", "Independent Party of Oregon"],
+      "parties": [
+        "D",
+        "Independent Party of Oregon"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Andrea Salinas is the Democratic and Independent Party of Oregon nominee for re-election to Oregon's 6th Congressional District, which she has represented since 2023. She previously served in the Oregon House of Representatives, including as Majority Whip.",
-        "sources": ["s2", "s3"]
+        "sources": [
+          "s2",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "A first-generation American whose father immigrated from Mexico as a child; a first-generation college student who earned a bachelor's degree from the University of California, Berkeley.",
-          "sources": ["s2", "s3"]
+          "sources": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Worked as a congressional aide and policy advisor to U.S. Senator Harry Reid and U.S. Representatives Pete Stark and Darlene Hooley, and later as an advocate for labor unions, environmental groups, and reproductive-rights organizations in Oregon.",
-          "sources": ["s2", "s3"]
+          "sources": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "Appointed to the Oregon House of Representatives in 2017 and served through 2022, serving as House Majority Whip and chairing the House Health Care Committee.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she works to craft agriculture and science policy that supports Oregon farmers, rural communities, and good-paying union jobs, and to make mental health care and addiction treatment more accessible and affordable as co-chair of the bipartisan Mental Health Caucus.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official issues page says Medicare and Medicaid should be protected rather than undermined or defunded, and that she supports expanding Medicare to cover dental, hearing, vision and mental health care.",
+          "quote": "Millions of Americans depend on Medicare and Medicaid (in Oregon, we know this as the Oregon Health Plan) for care, and we need to protect – not undermine or defund – these programs.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official issues page says she supports legislation establishing a federal statutory right to reproductive health care, including abortion care.",
+          "quote": "I am proud to support legislation that would establish a federal statutory right to reproductive health care, including abortion care.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her official issues page says she supports reinstating a ban on assault weapons and legislation to create a national Office of Gun Violence Prevention.",
+          "quote": "I support reinstating a ban on assault weapons, which we have seen used in mass shootings time and time again.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Co-led a February 2026 letter opposing any plans to open or expand ICE detention facilities in Oregon, and said Oregonians never wanted one.",
+          "quote": "Oregonians never wanted an ICE detention facility in our state, especially as ICE and DHS have repeatedly abused their power and terrorized our communities",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Committee on Agriculture (Subcommittee on Nutrition and Foreign Agriculture) and the Committee on Science, Space, and Technology (Subcommittees on Energy; Space and Aeronautics); co-chairs the bipartisan Mental Health Caucus.",
           "kind": "action",
-          "sources": ["s2", "s3"]
+          "sources": [
+            "s2",
+            "s3"
+          ]
         },
         {
           "text": "As an Oregon state representative, served as House Majority Whip and chaired the House Health Care Committee.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "website": "https://andreasalinasforcongress.com/",
+      "website": "https://www.andreasalinasfororegon.com",
       "researchDepth": "basic"
     },
     {
       "id": "david-russ",
       "name": "David Russ",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "currentRole": "Mayor of Dundee, Oregon",
       "summary": {
         "text": "David Russ is the Republican nominee for Oregon's 6th Congressional District. He is the mayor of Dundee, Oregon, and has a background in accounting and real estate.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in California; earned a bachelor's degree from Eastern Washington University (1986).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Career experience includes working as an accountant, consultant, and real estate broker, as well as in manufacturing and technology administration.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Has been elected mayor of Dundee, Oregon multiple times.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says his central concern is what he describes as the federal government's disregard for the U.S. Constitution, and that he would introduce legislation aimed at limiting executive-branch actions he views as unconstitutional and returning authority to states.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -126,6 +198,34 @@
       "title": "David Russ (Oregon)",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://salinas.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Andrea Salinas",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://salinas.house.gov/issues/reproductive-freedom",
+      "title": "Reproductive Freedom",
+      "publisher": "Office of Rep. Andrea Salinas",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://salinas.house.gov/issues/public-safety",
+      "title": "Public Safety",
+      "publisher": "Office of Rep. Andrea Salinas",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://hoyle.house.gov/media/press-releases/salinas-merkley-hoyle-led-letter-forces-ice-to-confirm-no-plans-to-expand-or-build-ice-detention-facilities-in-oregon",
+      "title": "Salinas, Merkley, Hoyle-Led Letter Forces ICE to Confirm: No Plans to Expand or Build ICE Detention Facilities in Oregon",
+      "publisher": "Office of Rep. Val Hoyle",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
