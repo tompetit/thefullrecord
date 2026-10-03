@@ -25,8 +25,9 @@ strictly), `content/guide/README.md`, and the fetch instructions in
      independence" alone ≠ climate stance; opposing taxpayer funding ≠ abortion access);
    - party or caucus membership, endorsements, or ratings by advocacy groups.
    `mixed` only when the source itself shows both sides of the same statement.
-3. **Quotes** must appear verbatim on the cited page (ignore whitespace and curly
-   quotes). Otherwise replace with the exact wording or delete the quote.
+3. **Quotes** must appear verbatim on the cited page as one continuous passage (ignore
+   whitespace and curly quotes; no "..." splices). Otherwise replace with the exact
+   wording or delete the quote.
 4. **Summary** must be one neutral sentence describing what the source shows — no
    loaded words, same treatment for every candidate. For `transgender_sports`, our
    summary says "transgender girls and women" / "transgender athletes"; partisan terms

@@ -103,7 +103,8 @@ party. When in doubt, omit.
 
 Each position: one neutral `summary` sentence saying what the source shows, the
 specific page that contains it in `sources` (not a homepage), and a `quote` only if
-copied verbatim from fetched text (fix nothing). Same treatment for every candidate
+copied verbatim from fetched text (fix nothing) as ONE continuous passage — never join
+separate passages with "..." or across an attribution like "said Rep. X". Same treatment for every candidate
 in a race.
 
 ## Finish
