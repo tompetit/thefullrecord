@@ -79,8 +79,7 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
         {races && (
           <>
             <p className="mt-2 font-sans text-[14px] text-ink-60">
-              Researched races for {placeLabel} · {races.length} researched{" "}
-              {races.length === 1 ? "contest" : "contests"} ·{" "}
+              Researched races for {placeLabel} ·{" "}
               <a href={withStand("/guide/match", serializeStand(stand))} className="underline hover:text-ink">change</a>
             </p>
             <Matcher races={races} placeLabel={placeLabel} initialStand={stand} />
