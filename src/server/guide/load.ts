@@ -49,6 +49,19 @@ interface Enrichment {
   stateVotes: Record<string, StateVote[]>;
 }
 
+interface LinkHealth {
+  checkedAt?: string;
+  results: Record<string, { status: string; archivedUrl?: string }>;
+}
+
+let linkHealth: LinkHealth["results"] | null = null;
+
+/** Static, build-time results of `npm run guide:check-links`. */
+function getLinkHealth(): LinkHealth["results"] {
+  if (!linkHealth) linkHealth = readJson<LinkHealth>(join(ROOT, "link-health.json"), { results: {} }).results;
+  return linkHealth;
+}
+
 let races: Map<string, GuideRace> | null = null;
 let keyVoteDefs: KeyVoteDef[] | null = null;
 
@@ -285,6 +298,11 @@ function load(): Map<string, GuideRace> {
         if (mem.fecId) c.fecId = mem.fecId;
         addVotePositions(race, c);
       }
+    }
+    const health = getLinkHealth();
+    for (const s of race.sources) {
+      const h = health[s.url];
+      if (h?.status === "dead") s.deadLink = h.archivedUrl ? { archivedUrl: h.archivedUrl } : {};
     }
     map.set(race.id, race);
   }
