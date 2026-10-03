@@ -11,61 +11,106 @@
   "context": [
     {
       "text": "Incumbent Richard Neal defeated Jeromie Whalen, a Belchertown schoolteacher, in the September 1, 2026 Democratic primary, 55.2% to 44.8%. No Republican candidate appeared on the primary ballot.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "richard-neal",
       "name": "Richard Neal",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2013); previously represented MA-2 (1989-2013)",
       "summary": {
         "text": "Neal is the incumbent, serving since 2013 (and MA's 2nd District from 1989-2013). He is the Ranking Member of the House Ways and Means Committee and previously served as Mayor of Springfield and a Springfield city councilman.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [
-        { "text": "Received a bachelor's degree from American International College (1972) and a master's degree from the University of Hartford (1976).", "sources": ["s1"] },
-        { "text": "Worked as a staffer for Springfield Mayor William C. Sullivan, 1973-1978.", "sources": ["s1"] },
-        { "text": "Served as a Springfield City Councilmember (1978-1984) and Mayor of Springfield (1984-1988) before election to Congress.", "sources": ["s1"] }
+        {
+          "text": "Received a bachelor's degree from American International College (1972) and a master's degree from the University of Hartford (1976).",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Worked as a staffer for Springfield Mayor William C. Sullivan, 1973-1978.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Served as a Springfield City Councilmember (1978-1984) and Mayor of Springfield (1984-1988) before election to Congress.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "\"I've fought tirelessly for policies that make a difference for hard-working families and future generations: fairer taxes, affordable and accessible healthcare, taking on climate change, preserving Social Security, and more.\"", "sources": ["s1"] },
-        { "text": "Campaign statement: fighting \"back against Donald Trump and Republicans' reckless budget that slashes healthcare for working families to give tax breaks to the wealthy and add trillions to the deficit.\"", "sources": ["s1"] }
+        {
+          "text": "\"I've fought tirelessly for policies that make a difference for hard-working families and future generations: fairer taxes, affordable and accessible healthcare, taking on climate change, preserving Social Security, and more.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaign statement: fighting \"back against Donald Trump and Republicans' reckless budget that slashes healthcare for working families to give tax breaks to the wealthy and add trillions to the deficit.\"",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign describes fighting a Republican budget he says \"slashes healthcare for working families to give tax breaks to the wealthy.\"",
-          "quote": "fighting back against Donald Trump and Republicans' reckless budget that slashes healthcare for working families to give tax breaks to the wealthy and add trillions to the deficit",
-          "sources": ["s1"]
+          "summary": "In an official statement on the Medicare and Medicaid anniversary, said Democrats will keep fighting to protect and strengthen both programs and expand access to care, and criticized Medicaid cuts.",
+          "quote": "Democrats will continue fighting to protect and strengthen these programs, lower costs, expand access to care",
+          "sources": [
+            "s6"
+          ]
         },
         {
-          "issue": "tax_wealthy",
-          "stance": "supports",
-          "summary": "Campaign material frames his record as pursuing \"fairer taxes\" and opposing tax breaks for the wealthy.",
-          "sources": ["s1"]
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "With Sen. Wyden, opposed giving the President new authority to impose tariffs of up to 100 percent in the Sanctioning Russia Act and criticized the administration's existing tariffs.",
+          "quote": "we cannot support awarding even more tariff power to Trump.",
+          "sources": [
+            "s7"
+          ]
         },
         {
-          "issue": "climate",
+          "issue": "war_powers",
           "stance": "supports",
-          "summary": "Cites \"taking on climate change\" among his record in Congress.",
-          "sources": ["s1"]
+          "summary": "In a statement on House passage of a War Powers Resolution on Iran, said the power to declare war rests with Congress.",
+          "quote": "the House reminded the President and the nation who the power to declare war rests with, and that is with Congress.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves as Ranking Member of the House Ways and Means Committee.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Statement on House passage of a War Powers Resolution following U.S. strikes in Iran, saying Congress \"reminded the President and the nation who the power to declare war rests with.\"",
           "date": "2026-06-03",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://neal.house.gov",
@@ -75,15 +120,29 @@
     {
       "id": "nadia-milleron",
       "name": "Nadia Milleron",
-      "parties": ["Unenrolled"],
+      "parties": [
+        "Unenrolled"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Milleron is running as an unenrolled candidate. She holds a bachelor's degree from Smith College and a law degree from the University of Iowa, and has worked as an attorney and small business owner.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
-        { "text": "Earned a bachelor's degree from Smith College (1986) and a law degree from the University of Iowa (1994).", "sources": ["s5"] },
-        { "text": "Career experience includes working as an attorney and small business owner.", "sources": ["s5"] }
+        {
+          "text": "Earned a bachelor's degree from Smith College (1986) and a law degree from the University of Iowa (1994).",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Career experience includes working as an attorney and small business owner.",
+          "sources": [
+            "s5"
+          ]
+        }
       ],
       "priorities": [],
       "positions": [],
@@ -132,6 +191,30 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://neal.house.gov/2026/07/30/neal-statement-on-the-61st-anniversary-of-medicare-and-medicaid/",
+      "title": "Neal Statement on the 61st Anniversary of Medicare and Medicaid",
+      "publisher": "Office of Rep. Richard Neal",
+      "kind": "official",
+      "date": "2026-07-30"
+    },
+    {
+      "id": "s7",
+      "url": "https://neal.house.gov/2026/07/14/neal-wyden-oppose-giving-trump-new-unilateral-tariff-power-in-sanctioning-russia-act/",
+      "title": "Neal, Wyden Oppose Giving Trump New, Unilateral Tariff Power in Sanctioning Russia Act",
+      "publisher": "Office of Rep. Richard Neal",
+      "kind": "official",
+      "date": "2026-07-14"
+    },
+    {
+      "id": "s8",
+      "url": "https://neal.house.gov/2026/06/03/neal-statement-on-house-passage-of-war-powers-resolution/",
+      "title": "Neal Statement on House Passage of War Powers Resolution",
+      "publisher": "Office of Rep. Richard Neal",
+      "kind": "official",
+      "date": "2026-06-03"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -53,7 +53,62 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Official site says the country should institute universal background checks, an assault weapons ban and limits on high-capacity magazines, and notes he cosponsored a bill expanding background checks to all commercial firearm sales.",
+          "quote": "instituting universal background checks, an assault weapons ban and limiting high capacity magazines",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Official site describes the Affordable Care Act as a major step toward expanding coverage and says he is its ardent defender against repeal attempts and works to protect Medicare and Medicaid.",
+          "quote": "He continues to be its ardent defender in the face of numerous Congressional \"repeal and replace\" attempts.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Official site says he advocates incentivizing clean, renewable energy such as solar and wind, has supported offshore wind development for New Jersey, and strongly supports remaining in the Paris Agreement.",
+          "quote": "Congressman Pallone has supported efforts to allow offshore wind development to supply clean energy to New Jersey.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Official site says he supports policies that would significantly raise the minimum wage.",
+          "quote": "Congressman Pallone supports policies that would significantly raise the minimum wage",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a May 2024 press release he vowed to fight to codify abortion rights into federal law.",
+          "quote": "Pallone Vows to Fight to Codify Abortion Rights into Federal Law",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In an August 2025 statement on an immigration raid in Edison he said ICE should not be descending on communities, schools, hospitals and places of worship, criticized new funding for deportations, and called for a pathway to citizenship.",
+          "quote": "Americans don't want millions of undocumented, law-abiding immigrants arrested and deported.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Sits on the House Committee on Energy and Commerce (ex officio on its Commerce, Manufacturing, and Trade; Environment; Health; Oversight and Investigations; Communications and Technology; and Energy subcommittees), which he chaired 2019-2023 and previously served as Ranking Member (2015-2016).",
@@ -151,16 +206,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Campaigns on national sovereignty and immigration reform, listing it among her core priorities.",
-          "sources": [
-            "s8"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "website": "https://herzigforcongress.com",
       "researchDepth": "basic",
@@ -219,6 +265,50 @@
       "title": "About Hillary",
       "publisher": "Herzig for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://pallone.house.gov/issues/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Frank Pallone Jr.",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://pallone.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Frank Pallone Jr.",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://pallone.house.gov/issues/energy",
+      "title": "Energy",
+      "publisher": "Office of Rep. Frank Pallone Jr.",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://pallone.house.gov/issues/labor",
+      "title": "Labor",
+      "publisher": "Office of Rep. Frank Pallone Jr.",
+      "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://pallone.house.gov/media/press-releases/pallone-trump-republicans-want-completely-eliminate-womens-access-health-care",
+      "title": "Pallone: Trump & Republicans Want to Completely Eliminate Women's Access to Health Care and Destroy Our Democracy",
+      "publisher": "Office of Rep. Frank Pallone Jr.",
+      "kind": "official",
+      "date": "2024-05-10"
+    },
+    {
+      "id": "s14",
+      "url": "https://pallone.house.gov/media/statements/pallone-statement-trumps-immigration-raids-edison",
+      "title": "Pallone Statement on Trump's Immigration Raids in Edison",
+      "publisher": "Office of Rep. Frank Pallone Jr.",
+      "kind": "official",
+      "date": "2025-08-25"
     }
   ],
   "researchedAt": "2026-09-25",

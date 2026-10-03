@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
-import { GuideFooter, GuideNav, IncumbentTag, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { IncumbentTag, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
 import { getAllRaces } from "@/server/guide/load";
 import type { GuideRace } from "@/server/guide/types";
 
@@ -26,9 +26,8 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
   }
   return (
     <main className="flex-1">
-      <GuideNav active="guide" />
-      <div className="mx-auto w-full max-w-6xl px-[20px] pt-6 lg:px-10">
-        <nav className="font-sans text-[12.5px] text-ink-60">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-6 lg:px-10">
+        <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
           <Link href="/guide" className="hover:text-ink">Guide</Link> › {stateName(st)}
         </nav>
         <h1 className="mt-2 font-serif text-[32px] font-semibold tracking-[-0.015em] text-ink lg:text-[44px]">
@@ -67,7 +66,6 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
           </section>
         ))}
       </div>
-      <GuideFooter />
     </main>
   );
 }

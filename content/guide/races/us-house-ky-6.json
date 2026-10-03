@@ -65,7 +65,53 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Priorities page calls for reversing Medicaid cuts, restoring and expanding ACA tax credits, and a public option.",
+          "quote": "In Congress, I’ll fight to restore and expand ACA tax credits so that health insurance remains within reach for working families.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Priorities page says he would be a vote to codify Roe v. Wade and protect IVF.",
+          "quote": "I would be a vote to codify Roe v. Wade, which worked for over 50 years, and protect fertility treatments like IVF.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Priorities page calls tariffs taxes on businesses and consumers and says he would fight to end the trade war.",
+          "quote": "In Congress, I’ll fight to end this senseless trade war, support free and open trade that helps our farmers and distillers compete globally,",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Priorities page says everyone should make a living wage of at least $15 an hour and notes Congress has not raised the minimum wage in 17 years.",
+          "quote": "Everyone should make a living wage of at least $15 an hour",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Priorities page calls ICE overfunded and undersupervised, wants it focused on violent criminals rather than law-abiding people, and supports a path to citizenship.",
+          "quote": "The firing of Kristi Noem was long overdue and in no way addresses the underlying problems with that overfunded and undersupervised agency.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://zachdembo.com",
       "researchDepth": "basic"
@@ -115,15 +161,6 @@
         }
       ],
       "positions": [
-        {
-          "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Campaigns primarily on lowering healthcare costs through bipartisan cooperation, without specifying support for a public-coverage expansion.",
-          "quote": "In Congress, I'll work with both parties to fight for affordable healthcare, lower costs, and practical solutions that help Kentucky families.",
-          "sources": [
-            "s4"
-          ]
-        },
         {
           "issue": "abortion",
           "stance": "opposes",
@@ -354,6 +391,46 @@
       "publisher": "Kentucky Legislative Research Commission",
       "kind": "official",
       "date": "2021-03-16"
+    },
+    {
+      "id": "s8",
+      "url": "https://zachdembo.com/priority/make-healthcare-affordable-for-everyone/",
+      "title": "Make Healthcare Affordable for Everyone",
+      "publisher": "Zach Dembo for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://zachdembo.com/priority/let-women-make-their-own-healthcare-decisions-and-support-families/",
+      "title": "Let women make their own healthcare decisions and support families",
+      "publisher": "Zach Dembo for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://zachdembo.com/priority/end-the-trade-war-and-get-costs-down-for-kentucky-families/",
+      "title": "End the Trade War and Get Costs Down for Kentucky Families",
+      "publisher": "Zach Dembo for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://zachdembo.com/priority/rebuild-the-american-dream/",
+      "title": "Rebuild the American Dream",
+      "publisher": "Zach Dembo for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "url": "https://zachdembo.com/priority/commonsense-immigration-reform/",
+      "title": "Commonsense Immigration Reform",
+      "publisher": "Zach Dembo for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

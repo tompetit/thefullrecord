@@ -11,46 +11,88 @@
   "context": [
     {
       "text": "California redrew its congressional district lines for the 2026 election cycle after voters approved Proposition 50 on November 4, 2025, a mid-decade redistricting measure.",
-      "sources": ["s5"]
+      "sources": [
+        "s5"
+      ]
     },
     {
       "text": "This is an open seat: incumbent Democrat Julia Brownley did not seek re-election to this district in 2026. Democrat Jacqui Irwin, currently a member of the California State Assembly, won the June 2, 2026 top-two primary with 41.3% of the vote; Republican Samuel Gallucci advanced with 20.9%.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jacqui-irwin",
       "name": "Jacqui Irwin",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "currentRole": "Member, California State Assembly, District 42 (since 2022; term ends December 2026)",
       "ballotNote": "Won the June 2, 2026 primary with 41.3% of the vote",
       "summary": {
         "text": "Jacqui Irwin is the Democratic nominee for California's 26th Congressional District, an open seat. She is a systems engineer and currently represents California's 42nd Assembly District; she previously served on the Thousand Oaks City Council, including two terms as mayor.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Woodland Hills, California; graduated from Taft High School and earned a bachelor of science in systems engineering from UC San Diego in 1985.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an engineer at Teledyne Systems and at Johns Hopkins University's Applied Physics Lab.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected to the Thousand Oaks City Council in 2004 and served two terms as mayor of Thousand Oaks before her election to the State Assembly.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "At a Sept. 25 League of Women Voters debate, said she would pursue stronger red-flag laws and expanded background checks.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "At the Sept. 25 debate, said Congress should have a greater role in decisions to enter war and criticized the Iran military campaign.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "At the Sept. 25 debate, called ICE a lawless agency and criticized its enforcement practices, and supported a pathway to citizenship for longtime farmworkers.",
+          "quote": "I think ICE is a lawless agency",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "In the 2025-2026 California State Assembly session, serves as chair of the Climate Change Policies Committee and as a member of the Agriculture, Business and Professions, Privacy and Consumer Protection, Rules, Utilities and Energy, and Fairs, Allocation, and Classification committees.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -58,21 +100,46 @@
     {
       "id": "samuel-gallucci",
       "name": "Samuel Gallucci",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the June 2, 2026 primary with 20.9% of the vote",
       "summary": {
         "text": "Samuel Gallucci is the Republican nominee for California's 26th Congressional District. He previously ran for governor of California in the 2021 recall election.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Ran as a candidate in the 2021 California gubernatorial recall election.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "mixed",
+          "summary": "At the Sept. 25 debate, said California already has strict gun laws and gun restrictions are not a high priority for people he hears from, while saying background checks and keeping guns from criminals are important.",
+          "quote": "some of the tightest gun laws in the country",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "At the Sept. 25 debate, said agricultural workers who have been in the country for decades should be allowed to remain and that people who are criminals should be removed.",
+          "quote": "All the workers need to stay. All the criminals need to go",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     }
@@ -105,6 +172,13 @@
       "title": "United States House of Representatives elections in California, 2026",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.simivalleyacorn.com/articles/congressional-forum-puts-key-issues-in-the-spotlight/",
+      "title": "Congressional forum puts key issues in the spotlight",
+      "publisher": "Simi Valley Acorn",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -11,36 +11,50 @@
   "context": [
     {
       "text": "The Democratic primary was canceled after incumbent Steven Horsford (D) faced no primary challenger and advanced automatically. Cody Whipple won the Republican primary. Independent American Party candidate Russell Best and no-party candidate William Johnson also qualified for the general-election ballot; Gary Steele (No Political Party) withdrew or was disqualified.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "steven-horsford",
       "name": "Steven Horsford",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2019, previously 2013-2015)",
       "summary": {
         "text": "Steven Horsford is the Democratic incumbent seeking re-election to U.S. House Nevada District 4, unopposed in a canceled Democratic primary. He is a former Nevada State Senate Majority Leader and former executive director of the Culinary Training Academy of Las Vegas.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Las Vegas, Nevada; graduated from Clark High School and earned a bachelor's degree in political science from the University of Nevada, Reno.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Worked as executive director of the Culinary Training Academy of Las Vegas before being elected to Congress.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Served in the Nevada State Senate from 2004 to 2012, including as Majority Leader from 2009 to 2012.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Currently sits on the House Committee on Ways and Means, including the Health and Social Security subcommittees (2025-2026).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -48,9 +62,56 @@
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "His official House website states he is fighting for comprehensive immigration reform and is an original co-sponsor of the American Dream and Promise Act, which would create a path to citizenship for \"Dreamers\" and protect Temporary Protected Status and Deferred Enforced Departure recipients from removal.",
-          "quote": "Congressman Horsford is an original co-sponsor of the American Dream and Promise Act, a landmark bill that will create a path to citizenship for dreamers and protect Temporary Protected Status (TPS) holders, and Deferred Enforced Departure (DED) recipients from being forced to leave the country they love.",
-          "sources": ["s2"]
+          "summary": "In a Nevada Independent questionnaire he answered \"mostly no\" to deporting all undocumented immigrants, supporting the removal of dangerous criminals but opposing indiscriminate mass deportation.",
+          "quote": "indiscriminate mass deportation that sweeps up hardworking people and terrorizes communities makes us less safe, not more.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent questionnaire he said Congress should not pass the SAVE America Act.",
+          "quote": "This bill threatens the freedom to vote to solve a problem that does not exist",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent questionnaire he agreed that President Trump's tariffs have harmed Nevada and said he introduced the RELIEF Act to refund tariff costs to small businesses.",
+          "quote": "The Supreme Court ruled he lacked the authority to impose them under emergency powers, yet Nevadans already paid",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire he answered yes to reinstating Affordable Care Act premium subsidies and no to the Medicaid work requirements.",
+          "quote": "These 80-hour rules do not create jobs",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire he said he supports higher taxes on billionaires and large corporations but not across-the-board increases.",
+          "quote": "on billionaires and mega-corporations that have long dodged their fair share.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "mixed",
+          "summary": "In a Nevada Independent questionnaire he said he supports Israel's defensive systems such as Iron Dome and also supports conditioning or withholding assistance that fails U.S. law, civilian-protection and security tests.",
+          "quote": "I support conditioning or withholding assistance that fails those tests while pursuing lasting peace, security and dignity for Israelis and Palestinians.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -60,26 +121,54 @@
     {
       "id": "cody-whipple",
       "name": "Cody Whipple",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Cody Whipple is the Republican nominee for U.S. House Nevada District 4, having raised roughly $885,000 in campaign contributions as of the 2026 election cycle.",
-        "sources": ["s1", "s3"]
+        "sources": [
+          "s1",
+          "s3"
+        ]
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire he answered yes to passing the SAVE America Act.",
+          "quote": "Voting should be easy, but cheating should be impossible",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent questionnaire he answered \"mostly no\" to reinstating Affordable Care Act premium subsidies and yes to Medicaid work requirements with existing exemptions.",
+          "quote": "The Affordable Care Act is set up for those who make too much for assistance programs like Medicaid",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     },
     {
       "id": "russell-best",
       "name": "Russell Best",
-      "parties": ["Independent American Party"],
+      "parties": [
+        "Independent American Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Russell Best is the Independent American Party candidate for U.S. House Nevada District 4.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -90,11 +179,15 @@
     {
       "id": "william-johnson",
       "name": "William Johnson",
-      "parties": ["No Political Party"],
+      "parties": [
+        "No Political Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "William Johnson is a no-party candidate on the November general-election ballot for U.S. House Nevada District 4.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -135,6 +228,13 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://thenevadaindependent.com/article/where-do-the-candidates-in-nevadas-4th-congressional-district-stand-on-the-issues",
+      "title": "Where do the candidates in Nevada's 4th Congressional District stand on the issues?",
+      "publisher": "The Nevada Independent",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
-  alignmentRace, alphabetical, compareCandidate, compareCandidates, compareIssue,
+  alignmentRace, alphabetical, compareCandidate, compareCandidates, compareIssue, compareVote,
   countsSentence, parseStand, serializeStand, withStand,
 } from '../src/lib/alignment.ts';
 import { ISSUES } from '../src/server/guide/types.ts';
@@ -30,42 +30,69 @@ test('stand param: unknown issues, skips, bad answers, malformed and duplicate p
 });
 
 test('each comparison outcome follows the documented stance relative to the statement', () => {
-  assert.equal(compareIssue(pos('guns', 'supports'), 'agree'), 'same');
-  assert.equal(compareIssue(pos('guns', 'opposes'), 'disagree'), 'same');
-  assert.equal(compareIssue(pos('guns', 'supports'), 'disagree'), 'different');
-  assert.equal(compareIssue(pos('guns', 'opposes'), 'agree'), 'different');
-  assert.equal(compareIssue(pos('guns', 'mixed'), 'agree'), 'mixed');
-  assert.equal(compareIssue(pos('guns', 'mixed'), 'disagree'), 'mixed');
+  assert.equal(compareIssue('supports', 'agree'), 'same');
+  assert.equal(compareIssue('opposes', 'disagree'), 'same');
+  assert.equal(compareIssue('supports', 'disagree'), 'different');
+  assert.equal(compareIssue('opposes', 'agree'), 'different');
+  assert.equal(compareIssue('mixed', 'agree'), 'mixed');
+  assert.equal(compareIssue('mixed', 'disagree'), 'mixed');
+  assert.equal(compareIssue('not_inferred', 'agree'), 'none');
   assert.equal(compareIssue(undefined, 'agree'), 'none');
 });
 
-test('vote-based and not_inferred positions are shown but never given a direction or counted as same/different', () => {
-  const votes = pos('guns', 'not_inferred', { basis: 'votes', stated: { stance: 'supports', summary: 'said', sources: ['s2'] } });
-  assert.equal(compareIssue(votes, 'agree'), 'not_inferred');
-  // Even if a vote-based entry somehow carried a direction, it is not compared.
-  assert.equal(compareIssue(pos('guns', 'supports', { basis: 'votes' }), 'agree'), 'not_inferred');
-  assert.equal(compareIssue(pos('guns', 'not_inferred'), 'disagree'), 'not_inferred');
-  const { items, counts } = compareCandidate([votes], [{ issue: 'guns', answer: 'agree' }]);
-  assert.equal(items[0].basis, 'votes');
-  assert.equal(items[0].position, votes);
-  assert.deepEqual(counts, { answered: 1, same: 0, different: 0, mixed: 0, notInferred: 1, none: 0 });
+test('each recorded vote is compared on its own, using which way a Yes points', () => {
+  const v = (vote, yesMeans) => ({ text: 't', vote, yesMeans, sources: ['k'] });
+  assert.equal(compareVote(v('yes', 'supports'), 'agree'), 'in_line');
+  assert.equal(compareVote(v('no', 'supports'), 'agree'), 'not_in_line');
+  assert.equal(compareVote(v('yes', 'opposes'), 'agree'), 'not_in_line');
+  assert.equal(compareVote(v('no', 'opposes'), 'agree'), 'in_line');
+  assert.equal(compareVote(v('yes', 'supports'), 'disagree'), 'not_in_line');
+  assert.equal(compareVote(v('no', 'opposes'), 'disagree'), 'not_in_line');
+  // No direction recorded by the editors -> shown, never compared.
+  assert.equal(compareVote(v('yes', undefined), 'agree'), 'not_compared');
+});
+
+test('an incumbent is compared on statements AND on each vote, kept apart, with no stance inferred from votes', () => {
+  const votesPos = pos('guns', 'not_inferred', {
+    basis: 'votes',
+    stated: { stance: 'supports', summary: 'said', sources: ['s2'] },
+    votes: [
+      { text: 'Voted yes on A', vote: 'yes', yesMeans: 'supports', sources: ['k1'] },
+      { text: 'Voted yes on B', vote: 'yes', yesMeans: 'opposes', sources: ['k2'] },
+      { text: 'Voted no on C', vote: 'no', sources: ['k3'] },
+    ],
+  });
+  const { items, counts } = compareCandidate([votesPos], [{ issue: 'guns', answer: 'agree' }]);
+  assert.equal(items[0].outcome, 'same'); // from the statement only
+  assert.equal(items[0].statement.summary, 'said');
+  assert.deepEqual(items[0].votes.map((x) => x.match), ['in_line', 'not_in_line', 'not_compared']);
+  assert.deepEqual(counts, { answered: 1, same: 1, different: 0, mixed: 0, votesOnly: 0, none: 0, votesInLine: 1, votesNotInLine: 1 });
+  // Votes without any statement: no topic verdict, only per-vote results.
+  const onlyVotes = pos('guns', 'not_inferred', { basis: 'votes', votes: votesPos.votes });
+  const r = compareCandidate([onlyVotes], [{ issue: 'guns', answer: 'disagree' }]);
+  assert.equal(r.items[0].outcome, 'votes_only');
+  assert.equal(r.items[0].statement, undefined);
+  assert.equal(r.counts.same + r.counts.different, 0);
 });
 
 test('counts are plain facts and the sentence carries no percentage or rating', () => {
   const positions = [pos('abortion', 'supports'), pos('guns', 'opposes'), pos('climate', 'mixed'), pos('tariffs', 'supports')];
   const stand = parseStand('abortion:agree,guns:agree,climate:agree,tariffs:agree,minimum_wage:disagree', KEYS);
   const { items, counts } = compareCandidate(positions, stand);
-  assert.deepEqual(items.map((i) => [i.issue, i.outcome, i.basis]), [
-    ['abortion', 'same', 'statements'],
-    ['guns', 'different', 'statements'],
-    ['climate', 'mixed', 'statements'],
-    ['minimum_wage', 'none', undefined],
-    ['tariffs', 'same', 'statements'],
+  assert.deepEqual(items.map((i) => [i.issue, i.outcome]), [
+    ['abortion', 'same'],
+    ['guns', 'different'],
+    ['climate', 'mixed'],
+    ['minimum_wage', 'none'],
+    ['tariffs', 'same'],
   ]);
   const sentence = countsSentence(counts);
-  assert.equal(sentence, 'Same on 2 · Different on 1 · Mixed 1 · No record 1 of the 5 topics you answered');
+  assert.equal(sentence, 'Statements: same as you on 2, different on 1, mixed on 1 · No record on 1 of the 5 topics you answered');
   assert.doesNotMatch(sentence, /%|score|match|best|rank/i);
-  assert.match(countsSentence({ answered: 1, same: 0, different: 0, mixed: 0, notInferred: 1, none: 0 }), /Votes only, not compared 1 · No record 0 of the 1 topic you answered/);
+  assert.equal(
+    countsSentence({ answered: 2, same: 0, different: 0, mixed: 0, votesOnly: 1, none: 1, votesInLine: 1, votesNotInLine: 2 }),
+    'Statements: same as you on 0, different on 0 · Recorded votes: 1 vote in line with your answers, 2 not · No record on 1 of the 2 topics you answered',
+  );
 });
 
 test('output order equals input (alphabetical) order, never alignment order', () => {

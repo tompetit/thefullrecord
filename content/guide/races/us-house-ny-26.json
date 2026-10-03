@@ -11,47 +11,110 @@
   "context": [
     {
       "text": "Both the Democratic and Republican/Conservative primaries for this seat were canceled; incumbent Timothy M. Kennedy and Dennis Hannon each advanced without appearing on a primary ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "timothy-kennedy",
       "name": "Timothy M. Kennedy",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, NY-26 (since 2024)",
       "summary": {
         "text": "Timothy M. Kennedy is the Democratic incumbent, a licensed occupational therapist and former Erie County legislator and NY State Senator who won a 2024 special election to the House. He serves on the Homeland Security and Veterans' Affairs committees and is seeking a first full term.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Buffalo, New York in 1976; earned bachelor's and master's degrees in occupational therapy from D'Youville College in 1999.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a licensed occupational therapist before entering public office.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the Erie County legislature from 2004 to 2010 and in the New York State Senate from 2011 to 2024.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "His official site says he is advocating legislation to ban assault weapons, pass universal background checks, strengthen red flag laws and prohibit sales of ghost guns and high-capacity ammunition.",
+          "quote": "Ban assault weapons and modifiers, including bump stocks Pass universal background checks for all firearm purchases Strengthen red flag laws Prohibit the sale of ghost guns and high-capacity ammunition",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His official site lists protecting and expanding the Affordable Care Act among his healthcare goals.",
+          "quote": "Protect and expand the Affordable Care Act",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His official site says he worked to protect reproductive rights in New York, including codifying Roe v. Wade, and is committed to leading that fight in Congress.",
+          "quote": "In New York, Kennedy has worked to protect reproductive rights and is committed to leading that fight at the national level in Congress.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "His official site criticizes the Trump administration's expansion of immigration enforcement tactics, says he voted against unchecked ICE funding and supports bills such as the Freeze ICE Act.",
+          "quote": "Voted against unchecked funding for ICE",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In an April 2026 statement on the war in Iran, he says the war began without a vote of Congress and calls on the Speaker to bring a war powers resolution to the House floor.",
+          "quote": "I call on Congressional Republicans to put our nation above their fear of President Trump and finally exercise the authority they have under the Constitution. Speaker Johnson must immediately bring a war powers resolution to the House Floor to bring an end to this illegal war and rein in this dangerous and delusional president.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Homeland Security (Emergency Management and Technology; Transportation and Maritime Security subcommittees) and the House Committee on Veterans' Affairs (Economic Opportunity; Oversight and Investigations subcommittees) in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Introduced H.R. 9382, requiring U.S. Customs and Border Protection to link together family members' applications throughout the NEXUS trusted-traveler application process; the bill passed the House on September 16, 2026 and was sent to the Senate.",
           "date": "2026-06-22",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://kennedyforuscongress.com",
@@ -60,45 +123,53 @@
     {
       "id": "dennis-hannon",
       "name": "Dennis Hannon",
-      "parties": ["R", "C"],
+      "parties": [
+        "R",
+        "C"
+      ],
       "incumbent": false,
       "currentRole": "Technology professional",
       "summary": {
         "text": "Dennis Hannon is a technology professional and first-time candidate running as the Republican and Conservative nominee, with a campaign centered on public safety, lowering costs and child-protection policy.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Works as a technology professional.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Grew up working in his father's construction business.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Public safety, including strengthening cooperation between local and federal agencies, enforcing immigration and worksite laws, and cracking down on fentanyl trafficking.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Lowering costs, including tax relief for working-class families and lower prescription drug and healthcare costs, especially for seniors.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Child-protection policy, including online privacy protections for minors and opposing gender-affirming medical care for minors.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Supports enforcing immigration and worksite laws, focused on serious public safety threats, and cracking down on fentanyl trafficking.",
-          "sources": ["s3"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     }
@@ -134,6 +205,46 @@
       "title": "H.R. 9382: NEXUS for Families Act",
       "publisher": "GovTrack.us",
       "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://kennedy.house.gov/Issues/Issue/?IssueID=15077",
+      "title": "Gun Violence Prevention — Rep. Tim Kennedy",
+      "publisher": "Office of Rep. Tim Kennedy (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://kennedy.house.gov/Issues/Issue/?IssueID=74",
+      "title": "Healthcare — Rep. Tim Kennedy",
+      "publisher": "Office of Rep. Tim Kennedy (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://kennedy.house.gov/Issues/Issue/?IssueID=15080",
+      "title": "Upholding Democracy and Freedoms — Rep. Tim Kennedy",
+      "publisher": "Office of Rep. Tim Kennedy (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://kennedy.house.gov/Issues/Issue/?IssueID=15081",
+      "title": "Immigration Enforcement — Rep. Tim Kennedy",
+      "publisher": "Office of Rep. Tim Kennedy (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://kennedy.house.gov/news/documentsingle.aspx?DocumentID=2406",
+      "title": "Statement from Congressman Kennedy on Trump’s Threats to Iran as his War of Choice Escalates",
+      "publisher": "Office of Rep. Tim Kennedy (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

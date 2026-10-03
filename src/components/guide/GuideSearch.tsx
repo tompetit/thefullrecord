@@ -57,7 +57,8 @@ export function GuideSearch({ races, initialQuery = "" }: { races: SearchRace[];
   }, [haystacks, q, office, nycOnly]);
 
   const tokens = norm(q).split(/\s+/).filter(Boolean);
-  const shown = results.slice(0, 60);
+  const searching = Boolean(tokens.length || office || nycOnly);
+  const shown = searching ? results.slice(0, 60) : [];
 
   return (
     <div>
@@ -93,10 +94,10 @@ export function GuideSearch({ races, initialQuery = "" }: { races: SearchRace[];
         </label>
       </div>
 
-      <p className="mt-4 font-sans text-[12px] text-ink-45">
+      {searching && <p className="mt-4 font-sans text-[12px] text-ink-45">
         {results.length} {results.length === 1 ? "race" : "races"}
         {results.length > shown.length ? ` · showing first ${shown.length}` : ""}
-      </p>
+      </p>}
       <ul className="mt-2 grid gap-2.5 md:grid-cols-2">
         {shown.map((r) => {
           const hitCandidates = tokens.length

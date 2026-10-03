@@ -11,41 +11,66 @@
   "context": [
     {
       "text": "Incumbent Mike Carey (R) advanced from the May 5, 2026 Republican primary; Samuel Ronan appeared on that primary's ballot but was disqualified, and he is now running in the general election as an independent write-in candidate. Don Leonard (D) defeated Adam Miller in the Democratic primary. Brennan Barrington won the Libertarian primary. Gary Josephson is also running as an independent write-in candidate.",
-      "sources": ["s2", "s4"]
+      "sources": [
+        "s2",
+        "s4"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "mike-carey",
       "name": "Mike Carey",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
         "text": "Mike Carey is the Republican incumbent seeking re-election in Ohio's 15th Congressional District, which he has represented since a 2021 special election. He previously worked in coal-industry government affairs, including as president of the Ohio Coal Association.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in Sabina, Ohio; graduated from East Clinton High School (1989) and served in the U.S. Army Reserve from 1989 to 1999.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Earned an A.S. in economics from Marion Military Institute (1991) and a B.A. in history from Ohio State University (1993).",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Worked as vice president of government affairs at American Consolidated Natural Resources and at Murray Energy Corporation, and as chairman and president of the Ohio Coal Association.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In January 2026 he said he voted to extend the enhanced ACA premium tax credits so constituents with those plans do not lose access.",
+          "quote": "I voted today to extend the enhanced tax credits for ACA plans.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means (Social Security and Work and Welfare subcommittees), the House Committee on Budget, and the Committee on House Administration's Modernization and Innovation Subcommittee (119th Congress, 2025-2026).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -54,40 +79,82 @@
     {
       "id": "don-leonard",
       "name": "Don Leonard",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Don Leonard is the Democratic nominee for Ohio's 15th Congressional District. He is a professor of city and regional planning at Ohio State University and a former U.S. Peace Corps volunteer.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in political science and a master's degree in regional development from the University of Massachusetts, Lowell, and a Ph.D. in government from Cornell University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Works as a professor of city and regional planning at The Ohio State University; served in the U.S. Peace Corps in South America.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His survey answer calls for giving all Americans access to a public option for health insurance and cutting out-of-pocket private insurance costs in half.",
+          "quote": "We must cut the out-of-pocket cost of private health insurance in half while at the same time ensuring that all Americans have access to a public option for their health insurance.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "His survey answer lists universal childcare as a priority, including expanding Head Start and subsidies for private care.",
+          "quote": "UNIVERSAL CHILDCARE: Childcare should not cost families a second mortgage. Expand head start and provide subsidies for private care.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His survey answer says the \"tariff war\" threatened to drive up prices and disrupt the supply chain.",
+          "quote": "Trump’s tariff war was threatening to drive up prices, crash the supply chain, and wipe out everyone’s retirement savings.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     },
     {
       "id": "brennan-barrington",
       "name": "Brennan Barrington",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Brennan Barrington is the Libertarian Party nominee for Ohio's 15th Congressional District.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Graduated from Licking Heights High School and earned a bachelor's degree from Ohio State University in 2019.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
@@ -98,12 +165,16 @@
     {
       "id": "gary-josephson",
       "name": "Gary Josephson",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Filed as an independent write-in candidate.",
       "summary": {
         "text": "Gary Josephson is an independent write-in candidate for Ohio's 15th Congressional District in the November 2026 general election.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -114,12 +185,17 @@
     {
       "id": "samuel-ronan",
       "name": "Samuel Ronan",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Ran in and was disqualified from the Republican primary; running in the general election as an independent write-in candidate.",
       "summary": {
         "text": "Samuel Ronan is an independent write-in candidate for Ohio's 15th Congressional District. He ran against incumbent Mike Carey in the Republican primary but was disqualified from that result.",
-        "sources": ["s4", "s2"]
+        "sources": [
+          "s4",
+          "s2"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -156,6 +232,22 @@
       "title": "United States House of Representatives elections in Ohio, 2026",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "url": "https://carey.house.gov/2026/01/08/carey-statement-on-unaffordable-aca-subsidy-extension-vote/",
+      "title": "Carey Statement on Unaffordable ACA Subsidy Extension Vote",
+      "publisher": "Office of Rep. Mike Carey",
+      "kind": "official",
+      "id": "s5",
+      "date": "2026-01-08"
+    },
+    {
+      "url": "https://ballotpedia.org/Don_Leonard#Campaign_themes",
+      "title": "Don Leonard (Ballotpedia Candidate Connection survey, 2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "id": "s6",
+      "date": "2026-04-24"
     }
   ],
   "researchedAt": "2026-09-25",

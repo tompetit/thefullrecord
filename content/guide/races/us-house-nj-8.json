@@ -59,7 +59,35 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Official site says he is fighting to protect Medicaid and that the country should build on the Affordable Care Act.",
+          "quote": "I am fighting back alongside House to protect Medicaid and defend the care millions rely on.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Official site calls for closing private detention centers, a pathway to citizenship and robust asylum protections, and says he will conduct oversight of detention facilities.",
+          "quote": "closing private detention centers",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Official site says he is fighting for a clean energy economy that reduces dependence on extractive industries and supports the transition to net-zero.",
+          "quote": "I am fighting for a clean energy economy that keeps costs low, generates good paying jobs, reduces our dependence on extractive industries, and ensures that frontline communities share in and lead our transition to net-zero.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Energy and Commerce, including its Communications and Technology, Environment, and Energy subcommittees.",
@@ -219,6 +247,27 @@
       "title": "Aristotle Eliopoulos — Ballotpedia Candidate Connection survey",
       "publisher": "Ballotpedia (Candidate Connection survey)",
       "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://menendez.house.gov/issues/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Rob Menendez",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://menendez.house.gov/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Rob Menendez",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://menendez.house.gov/issues/climate-change-and-environmental-justice",
+      "title": "Climate Change and Environmental Justice",
+      "publisher": "Office of Rep. Rob Menendez",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

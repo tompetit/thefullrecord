@@ -74,15 +74,6 @@
       "priorities": [],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Says he is working to expand access to quality health care services in the Phoenix area and lower prescription drug and insulin costs, while protecting coverage for pre-existing conditions.",
-          "quote": "That starts with reducing prescription drug costs for seniors, capping insulin at just $35 a month, cracking down on fraud and waste in Medicare’s hospice networks, expanding access to quality healthcare services in the Valley, and protecting insurance coverage for pre-existing conditions.",
-          "sources": [
-            "s7"
-          ]
-        },
-        {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says he supports restoring a woman's right to reproductive care and protecting access to contraceptives and IVF.",
@@ -92,12 +83,19 @@
           ]
         },
         {
-          "issue": "climate",
-          "stance": "supports",
-          "summary": "Says he is working across party lines to combat climate change and invest in renewable hydropower to lower energy costs.",
-          "quote": "To effectively fight against climate change, we’ve all got to work together. I’ve partnered with Republicans to better combat drought and boost wildfire recovery efforts in the West.",
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Introduced the Fund Schools, Not ICE Act with Reps. Ansari and Grijalva, which would transfer unobligated ICE funding from the 2025 reconciliation law to Title I school grants and require DHS to sell 11 recently purchased warehouse detention facilities.",
           "sources": [
-            "s8"
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Led a House resolution to terminate the national emergency used to impose tariffs on Canada, and has backed the Prevent Tariff Abuse Act, which would bar tariffs under a national emergency without congressional approval.",
+          "sources": [
+            "s10"
           ]
         }
       ],
@@ -158,26 +156,10 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says that as a representative of a border state he would prioritize the security and safety of the nation, indicating support for expanded immigration enforcement.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
           "issue": "school_choice",
           "stance": "supports",
           "summary": "Supports 'educational freedom' and policies that direct public funding to students rather than school systems, including empowering parents' school choices.",
           "quote": "I support educational freedom in education, and funding students — not systems.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "healthcare_public",
-          "stance": "opposes",
-          "summary": "As a physician, criticizes current health spending and government handling of health policy during the COVID-19 pandemic, favoring individual choice over expanded government-directed health programs.",
           "sources": [
             "s5"
           ]
@@ -265,25 +247,27 @@
       "kind": "candidate"
     },
     {
-      "id": "s6",
-      "url": "https://stanton.house.gov/immigration",
-      "title": "Immigration",
-      "publisher": "Office of Rep. Greg Stanton",
-      "kind": "candidate"
-    },
-    {
       "id": "s7",
-      "url": "https://stanton.house.gov/health-care",
+      "url": "https://stanton.house.gov/issues/expanding-access-to-healthcare",
       "title": "Health Care",
       "publisher": "Office of Rep. Greg Stanton",
       "kind": "candidate"
     },
     {
-      "id": "s8",
-      "url": "https://stanton.house.gov/water-and-climate",
-      "title": "Water and Climate",
+      "id": "s9",
+      "url": "https://stanton.house.gov/media/press-releases/stanton-ansari-grijalva-introduce-bill-to-redirect-ice-funding-to-public-schools-require-sale-of-detention-warehouses",
+      "title": "Stanton, Ansari, Grijalva Introduce Bill to Redirect ICE Funding to Public Schools, Require Sale of Detention Warehouses",
       "publisher": "Office of Rep. Greg Stanton",
-      "kind": "candidate"
+      "kind": "official",
+      "date": "2026-07-17"
+    },
+    {
+      "id": "s10",
+      "url": "https://stanton.house.gov/media/press-releases/bipartisan-majority-in-house-defies-trump-passes-stanton-led-resolution-ending-trump-s-tariffs-on-canada",
+      "title": "Bipartisan Majority in House Defies Trump, Passes Stanton-Led Resolution Ending Trump's Tariffs on Canada",
+      "publisher": "Office of Rep. Greg Stanton",
+      "kind": "official",
+      "date": "2026-02-11"
     }
   ],
   "researchedAt": "2026-09-25",

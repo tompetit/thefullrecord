@@ -11,41 +11,69 @@
   "context": [
     {
       "text": "Incumbent Jake Ellzey (R) defeated James Buford and Brian Stahl in the March 3, 2026 Republican primary. Danny Minton won the Democratic primary unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jake-ellzey",
       "name": "Jake Ellzey",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, Texas's 6th District (since 2021)",
       "summary": {
         "text": "Jake Ellzey is the Republican incumbent U.S. Representative for Texas's 6th Congressional District, a retired Navy pilot and former state legislator.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Potter County, Texas, in 1970; earned a bachelor's degree in political science from the United States Naval Academy in 1992.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the U.S. Navy from 1992 to 2012; later worked as a civilian contractor, commercial airline pilot, and commissioner for the Texas Veterans Commission.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the Texas House of Representatives in 2021 before being elected to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a February 2026 official statement on voting for the SAVE Act, he said proof of citizenship should be required to register to vote.",
+          "quote": "Proof of citizenship is not optional. It is fundamental. The SAVE Act ensures that only American citizens decide American elections.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations (including the Defense, Interior-Environment, and Labor, Health and Human Services, Education subcommittees) and the House Committee on Small Business in the 2025–2026 Congress.",
           "kind": "action",
-          "sources": ["s3", "s4", "s5", "s6", "s7"]
+          "sources": [
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -54,35 +82,49 @@
     {
       "id": "danny-minton",
       "name": "Danny Minton",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary unopposed",
       "summary": {
         "text": "Danny Minton is a former Republican and medical-field sales consultant running as the Democratic nominee for Texas's 6th Congressional District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Graduated from the University of Oklahoma with a degree in zoology and completed master's-level work in epidemiology.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Worked in the medical field as a consultative salesman, training physicians and supporting patients with illnesses including breast cancer and Alzheimer's disease.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Says he was raised as a Republican but switched his party affiliation to Democratic.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he will fight to cut taxes for working and middle-class families rather than the wealthy.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Says he will oppose attempts to weaken Social Security, Medicare, Medicaid, or veterans' benefits.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
@@ -91,25 +133,32 @@
           "stance": "supports",
           "summary": "Says he will fight to cut taxes for working and middle-class families while making the wealthiest Americans pay their fair share.",
           "quote": "Danny will fight to put money back in the pockets of everyday Texans and make sure the richest Americans finally pay their fair share.",
-          "sources": ["s1"]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Supports strong, fair immigration enforcement combined with a path to citizenship for people who want to contribute to the country.",
-          "quote": "Danny supports strong, fair immigration enforcement that keeps us safe and treats people with dignity. He believes in enforcing the law while creating a clear and efficient path to citizenship for those who want to contribute to our country.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says he will fight any attempt to weaken Social Security, Medicare, or Medicaid.",
           "quote": "Danny will fight any attempt to weaken Social Security, Medicare, Medicaid, or the VA. These are not entitlements. They are earned promises we must keep.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign priorities page calls for making school vouchers illegal nationwide.",
+          "quote": "And school vouchers made illegal nationwide, before public education is sold off piece by piece.",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.dannyfortexas.com"
     }
   ],
   "sources": [
@@ -168,6 +217,22 @@
       "publisher": "U.S. House Committee on Small Business",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://ellzey.house.gov/2026/2/congressman-jake-ellzey-votes-to-strengthen-election-integrity-with-save-act",
+      "title": "Congressman Jake Ellzey Votes to Strengthen Election Integrity with SAVE Act (Feb. 17, 2026)",
+      "publisher": "Office of Congressman Jake Ellzey",
+      "kind": "official",
+      "date": "2026-02-17"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.dannyfortexas.com/priorities",
+      "title": "Priorities",
+      "publisher": "Danny Minton for Texas",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25"

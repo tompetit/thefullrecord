@@ -11,32 +11,44 @@
   "context": [
     {
       "text": "Texas redrew its congressional district boundaries in August 2025 ahead of the 2026 elections, a mid-decade redistricting.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "In the March 3, 2026 Democratic primary, Tanya Lloyd defeated Eustaquio Castro-Mendoza and Wayne Raasch. Raasch subsequently ran as a write-in independent candidate in the general election. Incumbent Michael Cloud defeated Chris Hatley in the Republican primary.",
-      "sources": ["s3"]
+      "sources": [
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "michael-cloud",
       "name": "Michael Cloud",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2018)",
       "summary": {
         "text": "Michael Cloud is the incumbent Republican U.S. Representative for Texas's 27th District, a former Victoria County Republican Party chairman who has served in the House since a 2018 special election.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Baton Rouge, Louisiana; graduated from Miamisburg High School in Ohio and earned a bachelor's degree from Oral Roberts University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the Texas State Executive Republican Committee and as chairman of the Victoria County Republican Party; owned Bright Ideas Media and served as media and communications director at Faith Family Church in Victoria, Texas.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -45,7 +57,9 @@
         {
           "text": "Serves on the House Committee on Oversight and Government Reform and the House Committee on Appropriations, including as Vice Chair of its Energy and Water Development subcommittee, in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -54,27 +68,37 @@
     {
       "id": "tanya-lloyd",
       "name": "Tanya Lloyd",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary",
       "summary": {
         "text": "Tanya Lloyd is a public school teacher with more than 20 years in the classroom who won the Democratic primary to challenge Rep. Michael Cloud.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from Texas State University in 2006; has worked as a public school teacher and is a Texas AFT member.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Has served on school district advisory and bond oversight committees in her community.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "In her 2026 Ballotpedia survey, said her priorities are lowering costs for working families, fully funding public education, strengthening rural healthcare access, and investing in rural infrastructure such as broadband and water systems.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -82,13 +106,46 @@
           "issue": "school_choice",
           "stance": "opposes",
           "summary": "Says she would oppose voucher programs that divert public dollars to private interests, and would fight to fully fund public schools.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ],
+          "quote": "oppose voucher programs that divert public dollars to private interests"
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says she would fight for affordable healthcare and lower prescription drug prices, and would advocate for investment in rural hospitals and clinics.",
-          "sources": ["s3"]
+          "summary": "In a candidate questionnaire she says she supports moving toward a universal system like Medicare for All.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I support moving toward a universal system like Medicare for All"
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In her Ballotpedia survey she lists protecting reproductive rights, with the government not coming between women and their doctors, among her key messages.",
+          "sources": [
+            "s3"
+          ],
+          "quote": "Standing up for reproductive rights: ensuring the government doesn't get between women and their doctors."
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "In a candidate questionnaire she says she supports raising the minimum wage and indexing it to inflation, with small-business tax relief and a phase-in.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I support raising the minimum wage (and indexing it to inflation) to ensure that any Texan working a full-time job can actually afford to live in the community where they work."
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In a candidate questionnaire she says she supports progressive taxation and making multinational corporations pay their fair share.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "By closing loopholes used by the ultra-wealthy and ensuring multinational corporations pay their fair share, we can reduce the tax burden on middle-class families and small business owners."
         }
       ],
       "record": [],
@@ -97,12 +154,16 @@
     {
       "id": "wayne-raasch",
       "name": "Wayne Raasch",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Lost the Democratic primary, then filed as a write-in independent candidate for the general election",
       "summary": {
         "text": "Wayne Raasch is running as a write-in independent candidate after losing the March 2026 Democratic primary for this seat.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -139,6 +200,14 @@
       "title": "United States House of Representatives elections in Texas, 2026",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.lonestarleft.com/p/meet-the-candidates-tanya-lloyd-for",
+      "title": "Meet The Candidates: Tanya Lloyd For Texas Congressional District 27",
+      "publisher": "Lone Star Left",
+      "kind": "news",
+      "date": "2026-05-04"
     }
   ],
   "researchedAt": "2026-09-25",

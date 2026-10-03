@@ -22,7 +22,6 @@ export function SaidVsDid({
   pairs: SaidDidPair[];
   total: number;
 }) {
-  const noPairs = pairs.length === 0;
   const [labelFilter, setLabelFilter] = useState<LabelFilter>("all");
   const [topicFilter, setTopicFilter] = useState<string>("all");
   const [expanded, setExpanded] = useState<Set<string>>(
@@ -60,19 +59,6 @@ export function SaidVsDid({
     });
   }
 
-  if (noPairs) {
-    return (
-      <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
-        No statement–vote pairs are on file for this official yet. Pairs are
-        matched by subject and reviewed before publication — labels describe
-        one statement next to one vote, never an overall judgment.{" "}
-        <SourceLink href="#" className="text-[13px]">
-          Methodology
-        </SourceLink>
-      </p>
-    );
-  }
-
   return (
     <div className="flex flex-col gap-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -107,10 +93,7 @@ export function SaidVsDid({
 
       <p className="font-sans text-[11.5px] leading-normal text-ink-45">
         Labels describe one statement next to one vote — never an overall
-        judgment of an official. Pairs are matched by subject, then reviewed.{" "}
-        <SourceLink href="#" className="text-[11.5px]">
-          Methodology
-        </SourceLink>
+        judgment of an official. Pairs are matched by subject, then reviewed.
       </p>
 
       <div className="flex flex-col gap-3">

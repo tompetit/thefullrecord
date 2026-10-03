@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "7",
-  "title": "U.S. House \u00b7 Florida's 7th District",
+  "title": "U.S. House · Florida's 7th District",
   "area": "East-central Florida, including parts of Volusia, Seminole and Orange counties.",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -68,19 +68,20 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says he is a fiscal conservative who will fight to keep taxes low and reduce federal spending and debt.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says he will push for federal funding for law-enforcement training, technology and personnel, and support tougher penalties for assaulting or shooting officers.",
           "sources": [
             "s2"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "His campaign issues page says he strongly supports the Save America Act, which he describes as ensuring only American citizens can vote.",
+          "quote": "He strongly supports the Save America Act, which ensures only American citizens can vote in our elections — because citizenship must matter.",
+          "sources": [
+            "s5"
           ]
         }
       ],
@@ -146,17 +147,37 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says Congress made health care worse by cutting Medicaid and Medicare and raising premiums, and calls for restoring that funding, negotiating drug prices, and building on the Affordable Care Act.",
+          "summary": "His campaign priorities page calls for restoring Medicaid funding, reversing health care premium increases, and building on the Affordable Care Act.",
+          "quote": "We need to elect members of Congress who will restore funding to Medicaid, reverse premium cuts, and protect Social Security and Medicare for generations to come.",
           "sources": [
-            "s3"
+            "s6"
           ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
-          "summary": "Calls for reversing what he describes as the tariffs predecessor Cory Mills voted for, saying they squeeze small businesses and raise supply-chain costs.",
+          "summary": "His campaign priorities page calls for reversing tariffs that he says raise costs for families and small businesses.",
+          "quote": "We need to stop the bleeding, by reversing health care premium hikes and illegal, unpredictable tariffs.",
           "sources": [
-            "s3"
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His campaign priorities page says he supports codifying Roe into federal law.",
+          "quote": "That’s why I support codifying Roe into federal law, to put these decisions back where they belong – with patients.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "His campaign priorities page says he supports raising the federal minimum wage.",
+          "quote": "With prices rising, wages also need to keep up – which is why I support raising the federal minimum wage and passing the PRO Act, so labor unions can advocate for workers in a changing economy.",
+          "sources": [
+            "s6"
           ]
         }
       ],
@@ -216,6 +237,22 @@
       "title": "Christopher Dennison",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://elijahforcongress.com/issues",
+      "title": "Key Objectives - Ryan Elijah for Congress",
+      "publisher": "Ryan Elijah for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://baledalton.com/priorities",
+      "title": "Priorities - Bale Dalton",
+      "publisher": "Bale Dalton for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

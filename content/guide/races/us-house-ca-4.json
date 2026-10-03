@@ -75,12 +75,48 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Says addressing the federal debt requires a balanced approach that includes asking higher earners to pay their fair share.",
-          "quote": "the best way to do this is through a balanced approach that cuts spending, asks everyone to pay their fair share, and creates jobs.",
+          "summary": "Authored bipartisan legislation requiring criminal background checks for all commercial gun sales.",
+          "quote": "That’s why I have written and introduced bipartisan legislation that would require comprehensive and enforceable criminal background checks for all commercial gun sales.",
           "sources": [
-            "s2"
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he is fighting the Medicaid and health coverage cuts in the 2025 budget law, and voted for the Affordable Care Act.",
+          "quote": "I continue to fight against the healthcare cuts in the Big Ugly Law which kicks 15 million Americans off their healthcare, reversing many of the healthcare coverage gains Democrats have secured.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he authored the largest clean energy and energy efficiency climate law and is fighting to restore the clean energy tax provisions the 2025 budget law ended.",
+          "quote": "The Big Ugly Law ended many of the clean energy tax provisions, and I'm fighting to restore them.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Blames the Administration's tariff war, along with the pandemic, for the high cost of living.",
+          "quote": "the high cost of living that has been turbocharged by the pandemic and the Administration's tariff war",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says he has supported reform proposals that would increase immigration enforcement while also supporting a pathway to citizenship, protections for DREAMers and a guest worker program.",
+          "quote": "During my time in Congress, I have supported many immigration reform proposals that would increase immigration enforcement policies, while also supporting policies that would help immigrants who are suffering due to our broken system.",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -168,9 +204,19 @@
         {
           "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Proposes a $10,000 middle-class tax credit as direct relief for working families, funded as part of a broader affordability agenda.",
+          "summary": "Platform calls for restoring corporate tax rates and closing zero-tax loopholes, using the revenue to lower costs and reduce taxes for working Americans.",
           "sources": [
-            "s3"
+            "s8"
+          ],
+          "quote": "Restore fair corporate tax rates and close the zero-tax loopholes"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Platform calls for restoring Congress's constitutional war powers, with no new wars without a congressional vote.",
+          "quote": "Restore Congress's constitutional war powers : no new wars without a congressional vote",
+          "sources": [
+            "s9"
           ]
         }
       ],
@@ -202,6 +248,54 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.mikethompsonforcongress.com/issues/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Mike Thompson for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.mikethompsonforcongress.com/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Mike Thompson for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.mikethompsonforcongress.com/issues/jobs-and-economy",
+      "title": "Jobs and the Economy",
+      "publisher": "Mike Thompson for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.mikethompsonforcongress.com/issues/immigration",
+      "title": "Immigration",
+      "publisher": "Mike Thompson for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.ericjones.us/priorities/fight-corruption",
+      "title": "Fight Corruption",
+      "publisher": "Eric Jones for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.ericjones.us/priorities/protect-our-future",
+      "title": "Protect Our Future",
+      "publisher": "Eric Jones for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

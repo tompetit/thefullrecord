@@ -11,80 +11,132 @@
   "context": [
     {
       "text": "California redrew its congressional district lines for the 2026 election cycle after voters approved Proposition 50 on November 4, 2025, a mid-decade redistricting measure.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Under California's top-two primary system, the two highest vote-getters in the June 2, 2026 primary advance regardless of party. Incumbent Democrat Luz Maria Rivas and fellow Democrat Angélica María Dueñas both advanced, so no Republican appears on the November 3, 2026 general-election ballot for this seat.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "luz-maria-rivas",
       "name": "Luz Maria Rivas",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, CA-29 (since 2025); previously California State Assembly, 2018-2024",
       "ballotNote": "Advanced from the June 2, 2026 top-two primary",
       "summary": {
         "text": "Luz Maria Rivas is the Democratic incumbent for California's 29th Congressional District, first elected to the U.S. House in 2024 after serving in the California State Assembly from 2018 to 2024. She is an electrical engineer and founder of the nonprofit DIY Girls.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Los Angeles, California, in 1974; graduated from San Fernando High School in 1991. Earned a bachelor's degree in electrical engineering from MIT in 1995 and a master's degree in technology in education from Harvard University in 2003.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Founded and served as executive director of DIY Girls, co-founded KitHub, worked as director of research and corporate partnerships at Iridescent, and worked as an electrical design engineer at Motorola.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as a commissioner on the Los Angeles Board of Public Works, then served in the California State Assembly from 2018 to 2024 before her election to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Has conducted repeated oversight visits at immigration detention facilities in California and Texas and calls for the Dilley Immigration Processing Center to be shut down.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says she is working to protect environmental justice communities in the San Fernando Valley from pollution linked to oil and gas operations.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Conducted oversight visits at immigration detention facilities, called for the Dilley Immigration Processing Center to be shut down, and introduced legislation to fund mental-health services for communities affected by ICE actions.",
+          "summary": "Conducted a congressional oversight visit at the Dilley Immigration Processing Center and called for the Dilley Detention Facility to be shut down and for children not to be detained.",
           "quote": "The Trump Administration must be held accountable for the trauma it is inflicting on immigrant families. Children should not be detained, and I am continuing to call for the Dilley Detention Facility to be shut down, immediately.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
-          "issue": "climate",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Introduced the Methane Pollution Accountability Act to hold oil and gas companies accountable for pollution and a resolution supporting the EPA's Greenhouse Gas Reporting Program against elimination.",
-          "quote": "The Trump Administration’s elimination of the GHGRP will leave environmental justice communities without the tools needed to address the harmful environmental, health, and economic impacts of climate change.",
-          "sources": ["s6"]
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, and H.R. 18, the Bipartisan Background Checks Act of 2025 (119th Congress).",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 3069, the Medicare for All Act (119th Congress).",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress).",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 4099, the Ensuring Women’s Right to Reproductive Freedom Act, which prohibits interference under color of State law with the provision of interstate abortion services (119th Congress).",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Natural Resources (Energy and Mineral Resources Subcommittee; Water, Wildlife and Fisheries Subcommittee) and the House Committee on Science, Space, and Technology (Investigations and Oversight Subcommittee; Research and Technology Subcommittee) in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Introduced the Methane Pollution Accountability Act, which would hold oil and gas companies accountable for pollutants released through venting, flaring, and leaking.",
           "kind": "bill",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Introduced the Healing and Equity for Enforcement-Affected Residents and Trauma (HEART) Act of 2026 to fund mental-health services for communities affected by ICE immigration enforcement actions.",
           "kind": "bill",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -92,60 +144,52 @@
     {
       "id": "angelica-maria-duenas",
       "name": "Angélica María Dueñas",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the June 2, 2026 top-two primary as a fellow Democrat challenging the incumbent",
       "summary": {
         "text": "Angélica María Dueñas is a Democratic candidate challenging incumbent Luz Maria Rivas for California's 29th Congressional District, running as a progressive on a platform that includes Medicare for All and a Green New Deal. She has run for this seat in prior cycles and was active in Bernie Sanders' and Jill Stein's presidential campaigns.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in political science and public administration from California State University, Los Angeles, in 2007 and a master's degree in organizational leadership from Woodbury University in 2013.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Worked as the Southern California campaign coordinator for Jill Stein's 2016 presidential campaign and as a human resources manager and specialist; served as president and vice president of the Sun Valley Area Neighborhood Council.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served as a member of the Bernie Sanders delegation to the 2016 and 2020 Democratic National Conventions.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign platform describes a \"People First approach to governance,\" citing a peaceful foreign policy, guaranteed healthcare, a federal jobs guarantee, affordable housing, education as a right, clean energy, immigration reform, criminal justice reform, and veteran care.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Advocates for a Green New Deal, describing a goal of 100% clean energy by 2030.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Advocates for Medicare for All and a single-payer health-care system.",
-          "quote": "Advocating for Medicare for All, promoting a single-payer solution for reform to our current healthcare system.",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "climate",
-          "stance": "supports",
-          "summary": "Calls for a Green New Deal and 100% clean energy by 2030.",
-          "quote": "Determined to achieve 100% clean energy by 2030. Advocating for a Green New Deal, prioritizing jobs, justice, and a sustainable future for all.",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "rent_regulation",
-          "stance": "supports",
-          "summary": "Says she combats gentrification and advocates for affordable housing as a fundamental right.",
-          "quote": "Ensuring housing as a fundamental right, we combat gentrification, advocate for affordable homes, and strive to end homelessness through comprehensive programs and healthcare reform.",
-          "sources": ["s3"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     }
@@ -188,18 +232,46 @@
       "kind": "candidate"
     },
     {
-      "id": "s6",
-      "url": "https://rivas.house.gov/media/press-releases/congresswoman-luz-rivas-introduces-resolution-supporting-greenhouse-gas",
-      "title": "Congresswoman Luz Rivas Introduces Resolution Supporting Greenhouse Gas Reporting Program",
-      "publisher": "Office of Rep. Luz Rivas",
-      "kind": "candidate"
-    },
-    {
       "id": "s7",
       "url": "https://rivas.house.gov/media/press-releases/congresswoman-luz-rivas-introduces-bill-support-communities-impacted-ice-raids",
       "title": "Congresswoman Luz Rivas Introduces Bill to Support Communities Impacted by ICE Raids",
       "publisher": "Office of Rep. Luz Rivas",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115, Assault Weapons Ban of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18, Bipartisan Background Checks Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069",
+      "title": "H.R. 3069, Medicare for All Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743, Raise the Wage Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4099",
+      "title": "H.R. 4099, Ensuring Women’s Right to Reproductive Freedom Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

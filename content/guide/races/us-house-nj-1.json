@@ -11,52 +11,107 @@
   "context": [
     {
       "text": "Incumbent Donald Norcross ran unopposed in the June 2, 2026 Democratic primary, winning 100% of the vote (66,059 votes). Damon Galdo won the Republican primary unopposed with 100% of the vote (16,265 votes).",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Cook Political Report rated the district's Partisan Voter Index as D+10 as of September 2026; Kamala Harris won the district 58.6%–39.9% under the current district lines in the 2024 presidential election.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "donald-norcross",
       "name": "Donald Norcross",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Ran unopposed in the June 2 Democratic primary",
       "currentRole": "U.S. Representative for New Jersey's 1st Congressional District (since 2014)",
       "summary": {
         "text": "Donald Norcross is the incumbent U.S. Representative for New Jersey's 1st District, in office since a November 2014 special election. He previously served in the New Jersey General Assembly and State Senate and worked as an electrician and union official before elected office. He ran unopposed in the 2026 Democratic primary.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Attended Camden County College; worked as an electrical apprentice and as assistant business manager of Local 251 of the International Brotherhood of Electrical Workers, and served as president of the Southern New Jersey AFL-CIO.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Elected to the New Jersey General Assembly in 2009; appointed to fill a vacancy in the New Jersey Senate in 2010 and served there until his election to the U.S. House in 2014.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "WHYY reports he lists protecting access to reproductive health care as a priority and called the Supreme Court decision overturning Roe v. Wade \"disgraceful.\"",
+          "quote": "disgraceful",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Said in a statement that he opposes broad tariffs, as quoted by WHYY in 2026.",
+          "quote": "broad reckless tariffs that act as a tax on the working class and destabilize our supply chains",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His official site lists investment in clean energy, including offshore wind and solar, as part of addressing climate change.",
+          "quote": "This responsibility also presents opportunities to create jobs and grow our economy by inventing in, manufacturing, and installing clean energy technology and other sustainable solutions here in South Jersey, including offshore wind and solar.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His official budget page calls for boosting tax revenue by ensuring the wealthiest pay their fair share.",
+          "quote": "We need to address the national debt by cutting wasteful spending, boosting tax revenue by ensuring the wealthiest pay their fair share, and investing in programs that promote economic growth and create family-sustaining jobs.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Sits on the House Committee on Armed Services (Seapower and Projection Forces; Tactical Air and Land Forces subcommittees) and the Committee on Education and the Workforce for the 119th Congress (2025–2026).",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "In prior Congresses, introduced the Veterans Freedom of Healthcare Act, which would have expanded the Veterans Choice program to let veterans obtain care from local providers regardless of distance to a VA facility, and the WORC Grant Program Act, which would have created competitive federal grants for manufacturing-worker scholarships.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says he supported the bipartisan Denying Firearms and Explosives to Dangerous Terrorists Act, which would bar individuals on the federal Terrorist Watchlist from legally purchasing firearms, and served on the House Gun Violence Prevention Task Force.",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "researchDepth": "full",
@@ -65,40 +120,56 @@
     {
       "id": "damon-galdo",
       "name": "Damon Galdo",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 2 Republican primary unopposed",
       "summary": {
         "text": "Damon Galdo is a construction superintendent and small-business owner from West Deptford, New Jersey. He is the Republican nominee for NJ-1, having previously lost Republican primaries for the seat in 2022 and 2024.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Born in Philadelphia, Pennsylvania; lives in West Deptford, New Jersey; graduated from La Salle College High School in 1999.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Career experience includes working as a carpenter foreman and construction superintendent; describes himself as a small-business owner.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Lost the Republican primary for NJ-1 in 2022 (31.0% to Claire Gustafson) and again in 2024 (14.9%, finishing third of three candidates) before winning the nomination unopposed in 2026.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Signed the Americans for Tax Reform Taxpayer Protection Pledge in his 2024 campaign.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says his top messages are bringing real-world working experience to Congress, restoring fiscal accountability and secure borders, and defending free speech, parental rights, and the Constitution.",
           "quote": "I'm a constrruction superintendent, small business owner, husband, and father who knows what it means to work hard and make payroll. I'm running to bring real world experience to Congress and to stand up for families who feel ignored by career polititions.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Says he is passionate about border security and enforcement of immigration law, election integrity, reducing federal spending to fight inflation, and protecting working families from rising costs.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -106,19 +177,18 @@
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Says he is passionate about keeping the border secure and enforcing immigration law; his 2024 platform called for reinstating the Remain in Mexico policy and ending sanctuary policies.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
-          "issue": "tax_wealthy",
+          "issue": "climate",
           "stance": "opposes",
-          "summary": "Says he will vote against legislation that increases taxes and calls for cutting wasteful federal spending to reduce inflation.",
-          "sources": ["s5"]
-        },
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Supports parental rights in education and has called for restoring parental say over school curriculum.",
-          "sources": ["s5"]
+          "summary": "His 2024 campaign website called for legislation to allow more oil drilling, coal mining and fracking and to invest in nuclear energy research, and criticized the Biden administration's climate agenda.",
+          "quote": "When I'm in Congress, I will propose and support legislation that will allow us to drill for oil, mine for coal, frack, and invest in nuclear energy research.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -164,6 +234,27 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://whyy.org/articles/election-2026-new-jersey-1st-congressional-district-voter-guide/",
+      "title": "NJ election 2026: 1st Congressional District voter guide",
+      "publisher": "WHYY",
+      "kind": "news"
+    },
+    {
+      "id": "s7",
+      "url": "https://norcross.house.gov/environment",
+      "title": "Environment",
+      "publisher": "Office of Rep. Donald Norcross",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://norcross.house.gov/budget",
+      "title": "Budget",
+      "publisher": "Office of Rep. Donald Norcross",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

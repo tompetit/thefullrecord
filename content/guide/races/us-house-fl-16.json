@@ -4,8 +4,8 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "16",
-  "title": "U.S. House \u00b7 Florida's 16th District",
-  "area": "The Sarasota\u2013Bradenton area on Florida's Gulf Coast, including Sarasota, North Port, and parts of Manatee County, under Florida's 2026 congressional map.",
+  "title": "U.S. House · Florida's 16th District",
+  "area": "The Sarasota–Bradenton area on Florida's Gulf Coast, including Sarasota, North Port, and parts of Manatee County, under Florida's 2026 congressional map.",
   "inNYC": false,
   "electionDate": "2026-11-03",
   "context": [
@@ -107,6 +107,15 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In his Ballotpedia Candidate Connection survey he says only Congress has the constitutional power to declare war and criticizes Washington for avoiding debate over \"wars of choice.\"",
+          "quote": "Under the Constitution, only Congress has the power to declare war.",
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],
@@ -154,19 +163,20 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Says she will work with President Trump and ICE to increase immigration enforcement.",
-          "quote": "Sydney will work with President Trump and ICE to keep our families safe from violent criminals entering our country illegally.",
+          "summary": "Says she backs the Trump administration's efforts to deport people in the country illegally, and that existing immigration laws need to be enforced rather than new ones added; her site also lists working with ICE under \"Secure Border.\"",
+          "quote": "I don't think we need more laws in place. The laws are there. We just have to enforce them.",
           "sources": [
-            "s3"
+            "s3",
+            "s7"
           ]
         },
         {
-          "issue": "tax_wealthy",
+          "issue": "healthcare_public",
           "stance": "opposes",
-          "summary": "Campaign platform calls for cutting taxes generally rather than raising them, framed as helping working families keep more of their earnings.",
-          "quote": "Sydney is ready to cut taxes and fight rising costs so working families can afford gas, groceries, and everyday essentials.",
+          "summary": "At the League of Women Voters CD16 debate she said she does not want nationalized health care and called for cutting and not expanding government spending.",
+          "quote": "I do not want the government taking over my healthcare",
           "sources": [
-            "s3"
+            "s7"
           ]
         }
       ],
@@ -230,7 +240,7 @@
           "issue": "guns",
           "stance": "mixed",
           "summary": "Says he supports both the 2nd Amendment and additional gun-safety laws.",
-          "quote": "I support the 2nd amendment AND common sense gun laws because kids shouldn\u2019t be getting shot in schools while politicians cash NRA checks.",
+          "quote": "I support the 2nd amendment AND common sense gun laws because kids shouldn’t be getting shot in schools while politicians cash NRA checks.",
           "sources": [
             "s5"
           ]
@@ -301,6 +311,13 @@
       "publisher": "WWSB News",
       "kind": "news",
       "date": "2026-07-30"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.wusf.org/politics-issues/2026-09-24/candidates-to-replace-vern-buchanan-in-congress-spar-in-an-online-forum",
+      "title": "Candidates to replace Vern Buchanan in Congress spar in an online forum",
+      "publisher": "WUSF (League of Women Voters CD16 debate coverage)",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

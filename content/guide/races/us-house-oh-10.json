@@ -11,28 +11,38 @@
   "context": [
     {
       "text": "Incumbent Michael Turner (R) advanced unopposed from the May 5, 2026 Republican primary. Kristina Knickerbocker won the Democratic primary. Thomas McMasters won the Libertarian primary.",
-      "sources": ["s3"]
+      "sources": [
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "michael-turner",
       "name": "Michael Turner",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2003)",
       "summary": {
         "text": "Michael Turner is the Republican incumbent seeking re-election in Ohio's 10th Congressional District, which he has represented since 2003. He is a former chairman of the House Permanent Select Committee on Intelligence and previously served as mayor of Dayton.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in Dayton, Ohio; graduated from Belmont High School and earned a bachelor's degree from Ohio Northern University.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served as mayor of Dayton before his election to Congress.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
@@ -41,12 +51,16 @@
         {
           "text": "Serves on the House Committee on Oversight and Government Reform and the House Committee on Armed Services, including its Strategic Forces and Tactical Air and Land Forces subcommittees (119th Congress, 2025-2026).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Chaired the House Permanent Select Committee on Intelligence in the 118th Congress (2023-2024), after serving as its ranking member in the 117th Congress (2021-2022).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -55,44 +69,88 @@
     {
       "id": "kristina-knickerbocker",
       "name": "Kristina Knickerbocker",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Kristina Knickerbocker is the Democratic nominee for Ohio's 10th Congressional District. She is a family nurse practitioner and U.S. Air Force veteran.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Served in the U.S. Air Force from 2015 to 2025.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from Azusa Pacific University (2014) and a graduate degree from The Ohio State University (2022); works as a family nurse practitioner.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign priorities page says she will protect Medicaid, Medicare, CHIP and the Affordable Care Act and support a public option.",
+          "quote": "I’ll protect Medicaid, Medicare, CHIP, and the Affordable Care Act; support a public option to lower premiums and expand care",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her campaign priorities page says she will repeal harmful tariffs that raise prices.",
+          "quote": "repeal harmful tariffs that raise prices",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Her campaign priorities page says she will invest in law enforcement and fire departments and fight for more resources for local first responders.",
+          "quote": "I’ll invest in law enforcement, fire departments, and prevention strategies that strengthen safety while building trust in our communities.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic"
     },
     {
       "id": "thomas-mcmasters",
       "name": "Thomas McMasters",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Thomas McMasters is the Libertarian Party nominee for Ohio's 10th Congressional District. He is a U.S. Air Force veteran who has worked as a senior consultant.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Served in the U.S. Air Force from 1989 to 2009.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from the State University of New York, Buffalo (1989) and a graduate degree from The Citadel (1997).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -129,6 +187,14 @@
       "title": "Thomas McMasters (Ohio U.S. House)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://kristinaknickerbocker.com/my-priorities/",
+      "title": "My Priorities",
+      "publisher": "Knickerbocker for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

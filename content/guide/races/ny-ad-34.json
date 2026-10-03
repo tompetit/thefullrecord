@@ -11,69 +11,139 @@
   "context": [
     {
       "text": "Incumbent Jessica González-Rojas did not seek re-election to this seat; she instead ran for the New York State Senate's 13th District in 2026, leaving Assembly District 34 an open seat.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Brian Romero won the June 23, 2026 Democratic primary 66.8% to 32.4% over Rosa Sanchez, and separately won the Working Families Party primary; he is the only candidate on the November 3, 2026 general-election ballot. Sanchez had qualified for a general-election line under the \"Affordable & Safe Party\" but withdrew.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "brian-romero",
       "name": "Brian Romero",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 23, 2026 Democratic primary 66.8% to 32.4%; unopposed in the general election",
       "summary": {
         "text": "Brian Romero is running for the open Assembly District 34 seat in western Queens after winning the Democratic and Working Families Party primaries. He is unopposed in the November 3, 2026 general election.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Romero says he is the son of Colombian immigrants, was born in a basement apartment, and was raised in New York City Housing Authority (NYCHA) housing in Queens.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "He states he grew up experiencing housing insecurity firsthand in the district he is running to represent, which covers Astoria, Corona, East Elmhurst, Jackson Heights, and Woodside.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Romero's housing and quality-of-life message is that \"every family has a real chance to thrive, not just survive,\" including having a home and enough food.",
           "quote": "Every family has a real chance to thrive, not just survive. Where no child goes to school hungry or without a home.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "He emphasizes walkable neighborhoods and safe schools for the district.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "On labor, he says he wants \"workers earn a living wage, pay the rent, and still have time and dignity left at the end of the day.\"",
           "quote": "workers earn a living wage, pay the rent, and still have time and dignity left at the end of the day",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "On foreign policy, he calls to \"invest in people, not in endless war and genocide in Gaza and abroad.\"",
           "quote": "Invest in people, not in endless war and genocide in Gaza and abroad.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Says he wants workers to \"earn a living wage, pay the rent, and still have time and dignity left at the end of the day.\"",
-          "quote": "workers earn a living wage, pay the rent, and still have time and dignity left at the end of the day",
-          "sources": ["s2"]
+          "summary": "Says he will fight for a living wage indexed to inflation and the end of all sub-minimum wages.",
+          "quote": "It is time to fight for a living wage indexed to inflation and the end of all sub minimum wages.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "issue": "israel_aid",
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Calls for increasing the corporate tax, raising taxes on top earners and passing a stock transfer tax.",
+          "quote": "Make the rich pay their fair share by increasing the corporate tax, increasing taxes on the top earners, and passing a stock transfer tax.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he will pass the New York Health Act to provide universal health care to all New Yorkers.",
+          "quote": "Pass the New York Health Act to provide universal healthcare to all New Yorkers regardless of their immigration status, income, or employment.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Calls for investing in people \"not in endless war and genocide in Gaza and abroad,\" opposing continued military spending directed to the conflict.",
-          "quote": "Invest in people, not in endless war and genocide in Gaza and abroad.",
-          "sources": ["s2"]
+          "summary": "Calls for passing the New York for All Act to prohibit law enforcement collaboration with ICE, plus the MELT Act on masked immigration enforcement.",
+          "quote": "Protect families from ICE by passing the New York for All Act to prohibit law enforcement from collaborating with ICE",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he will push the New York Power Authority to build 15 GW of renewable energy and pass the New York Heat Act.",
+          "quote": "I will push the New York Power Authority to build 15 GW of renewable energy, push for the passage of the New York Heat Act to ensure we protect our pockets and our planet",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Lists universal child care as a top issue, calling for funding free child care and better pay for child care workers.",
+          "quote": "Fund free child care for children and pay child care workers what they deserve",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Lists housing as a top issue, calling for building social and affordable housing and protecting tenants from displacement.",
+          "quote": "Build social and affordable housing and protect our tenants from displacement.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -94,6 +164,13 @@
       "id": "s2",
       "url": "https://www.brianr4ny.com/about",
       "title": "About Brian Romero",
+      "publisher": "Brian Romero campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.brianr4ny.com/issues",
+      "title": "Issues",
       "publisher": "Brian Romero campaign website",
       "kind": "candidate"
     }

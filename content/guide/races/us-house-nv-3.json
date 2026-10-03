@@ -11,40 +11,81 @@
   "context": [
     {
       "text": "Incumbent Susie Lee (D) won the Democratic primary and faces Republican nominee Marty O'Donnell in the general election. The district last elected a Republican in 2014; Lee won re-election 52.0%-48.0% in 2022 and 51.4%-48.6% in 2024, while Donald Trump defeated Kamala Harris 49.5%-48.8% in the district in 2024. As of July 2026, major election forecasters rated the race Lean Democratic.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "susie-lee",
       "name": "Susie Lee",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
         "text": "Susie Lee is the Democratic incumbent seeking re-election to U.S. House Nevada District 3. Before Congress she worked in policy consulting, served as a campaign policy advisor to Las Vegas Mayor Jan Laverty Jones, and founded a homeless shelter for parents and children.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in Canton, Ohio, in 1966; earned a bachelor's degree in policy and management and a master's degree in public policy and management, both from Carnegie Mellon University.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Moved to Las Vegas in 1993; worked as a campaign policy advisor to Las Vegas Mayor Jan Laverty Jones and founded a homeless shelter for parents and children in need.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Became president of the board of Communities In Schools of Nevada, a program aimed at lowering high-school dropout rates, in 2010.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Currently sits on the House Committee on Appropriations (Energy and Water Development, and Defense subcommittees) and the Committee on Natural Resources (2025-2026).",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent interview she said Congress should not pass the SAVE America Act, calling it an attempt to disenfranchise millions of Americans and noting that many lack the proof-of-citizenship documents it would require to register.",
+          "quote": "an attempt by the Trump administration to disenfranchise millions of Americans,",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a Nevada Independent interview she said she cosponsored a bipartisan bill to extend the Affordable Care Act tax credits and noted she voted against the One Big Beautiful Bill Act over its Medicaid cuts.",
+          "quote": "voted against the Big Beautiful Bill that cut Medicaid in order to get tax breaks to millionaires.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent interview she agreed that President Trump's tariffs have harmed Nevada, citing a drop in Canadian tourism and higher home costs.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
       "bioguideId": "L000590"
@@ -52,26 +93,61 @@
     {
       "id": "marty-odonnell",
       "name": "Marty O'Donnell",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Marty O'Donnell is the Republican nominee for U.S. House Nevada District 3, running in a district Ballotpedia has identified as a battleground race in a longtime Republican target.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire he answered yes to passing the SAVE America Act.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "In a Nevada Independent questionnaire he answered no to reinstating Affordable Care Act premium subsidies and yes to Medicaid work requirements.",
+          "quote": "Reinstating these subsidies won't fix our healthcare system that Democrats broke",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "In a Nevada Independent questionnaire he defended President Trump's tariffs as a tool of trade diplomacy and national security.",
+          "quote": "President Trump uses tariffs as a form of diplomacy to level the playing field on trade or to protect our national security",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     },
     {
       "id": "jon-kamerath",
       "name": "Jon Kamerath",
-      "parties": ["Independent American Party"],
+      "parties": [
+        "Independent American Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Jon Kamerath is the Independent American Party candidate for U.S. House Nevada District 3.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -96,6 +172,13 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://thenevadaindependent.com/article/where-do-the-candidates-for-nevadas-most-competitive-house-seat-stand-on-the-issues",
+      "title": "Where do the candidates for Nevada's most competitive House seat stand on the issues?",
+      "publisher": "The Nevada Independent",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

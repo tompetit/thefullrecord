@@ -65,9 +65,27 @@
         }
       ],
       "priorities": [
-        { "text": "Official site says every human life is precious and should be protected from conception, and supports pro-life pregnancy centers.", "quote": "I firmly believe that life begins at conception, and unborn children should be afforded the same natural and God-given rights as all other living persons.", "sources": ["s3"] },
-        { "text": "Official site says he supports legislation upholding Second Amendment rights.", "quote": "I am proud to support legislation that upholds the Second Amendment rights of the American people.", "sources": ["s3"] },
-        { "text": "Official site calls for an all-of-the-above energy strategy prioritizing oil, gas, biofuels, and renewables rather than what he calls a Green New Deal agenda.", "quote": "we need an all-of-the-above energy strategy that prioritizes American oil, gas, biofuels, and renewables, not a Green New Deal agenda that picks winners and losers", "sources": ["s3"] }
+        {
+          "text": "Official site says every human life is precious and should be protected from conception, and supports pro-life pregnancy centers.",
+          "quote": "I firmly believe that life begins at conception, and unborn children should be afforded the same natural and God-given rights as all other living persons.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Official site says he supports legislation upholding Second Amendment rights.",
+          "quote": "I am proud to support legislation that upholds the Second Amendment rights of the American people.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Official site calls for an all-of-the-above energy strategy prioritizing oil, gas, biofuels, and renewables rather than what he calls a Green New Deal agenda.",
+          "quote": "we need an all-of-the-above energy strategy that prioritizes American oil, gas, biofuels, and renewables, not a Green New Deal agenda that picks winners and losers",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "positions": [
         {
@@ -75,21 +93,27 @@
           "stance": "opposes",
           "summary": "Official site says life begins at conception and unborn children should have the same rights as other people, and supports pro-life pregnancy centers.",
           "quote": "I firmly believe that life begins at conception, and unborn children should be afforded the same natural and God-given rights as all other living persons.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Official site says he supports legislation upholding Second Amendment rights and opposes efforts he describes as attempts to strip away the right to keep and bear arms.",
           "quote": "We can no longer sit idle and watch Washington Democrats attempt to strip away our right to keep and bear arms in pursuit of their progressive agenda.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Official site calls for an all-of-the-above energy strategy prioritizing oil and gas production and opposes what he calls a Green New Deal agenda.",
+          "summary": "Official site calls for an all-of-the-above energy strategy including oil, gas, biofuels and renewables, and opposes what he calls a Green New Deal agenda.",
           "quote": "not a Green New Deal agenda that picks winners and losers",
-          "sources": ["s3"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [
@@ -177,15 +201,6 @@
           "sources": [
             "s1"
           ]
-        },
-        {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Supports affordable, quality, accessible health care for all.",
-          "quote": "healthcare reform (affordable, quality, accessible care for all)",
-          "sources": [
-            "s1"
-          ]
         }
       ],
       "record": [],
@@ -258,6 +273,14 @@
       "publisher": "Office of Rep. Tracey Mann",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://mann.house.gov/issues/energy",
+      "title": "Energy",
+      "publisher": "Office of Rep. Tracey Mann",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

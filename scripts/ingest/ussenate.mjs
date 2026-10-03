@@ -2,9 +2,10 @@
  * One-off ingest: U.S. Senate roll calls (119th Congress, 2nd session)
  * from senate.gov's official vote-menu + per-vote XML — keyless.
  *
- * Writes src/server/snapshot/ussenate.json with both NY senators'
- * positions on the most recent recorded votes, keyed by bioguide id
- * (memberKeys maps "sen-1" = senior, "sen-2" = junior).
+ * Writes src/server/snapshot/ussenate.json with every senator's position
+ * on the most recent recorded votes, keyed by bioguide id (memberKeys maps
+ * "sen-{st}-1" = senior, "sen-{st}-2" = junior; seniority = earliest start
+ * of Senate service).
  *
  * Run: node scripts/ingest/ussenate.mjs [--count 150]
  */
@@ -48,25 +49,29 @@ function parseVoteDate(s) {
 const mapVote = federalVote;
 
 async function main() {
-  // NY senators: lis id -> bioguide, seniority order from congress-legislators.
+  // All senators: lis id -> bioguide, seniority order from congress-legislators.
   const legislators = JSON.parse(
     await fetchText("https://unitedstates.github.io/congress-legislators/legislators-current.json")
   );
-  const nySenators = legislators
-    .filter((l) => {
-      const t = l.terms[l.terms.length - 1];
-      return t.state === "NY" && t.type === "sen";
-    })
+  const senators = legislators
+    .filter((l) => l.terms[l.terms.length - 1].type === "sen")
     .map((l) => ({
       bioguide: l.id.bioguide,
       lis: l.id.lis,
       name: l.name.official_full,
-      firstSenTerm: l.terms.find((t) => t.type === "sen")?.end ?? "",
+      state: l.terms[l.terms.length - 1].state.toLowerCase(),
+      firstSenateStart: l.terms.find((t) => t.type === "sen")?.start ?? "",
     }))
-    .sort((a, b) => a.firstSenTerm.localeCompare(b.firstSenTerm));
-  const lisToBioguide = Object.fromEntries(nySenators.map((s) => [s.lis, s.bioguide]));
-  const memberKeys = Object.fromEntries(nySenators.map((s, i) => [`sen-${i + 1}`, s.bioguide]));
-  console.log("NY senators:", nySenators.map((s) => `${s.name} (${s.bioguide})`).join(", "));
+    .sort((a, b) => a.firstSenateStart.localeCompare(b.firstSenateStart) || a.name.localeCompare(b.name));
+  if (senators.length < 90) throw new Error("congress-legislators Senate roster looks incomplete; keeping previous snapshot");
+  const lisToBioguide = Object.fromEntries(senators.map((s) => [s.lis, s.bioguide]));
+  const memberKeys = {};
+  const perState = {};
+  for (const s of senators) {
+    perState[s.state] = (perState[s.state] ?? 0) + 1;
+    memberKeys[`sen-${s.state}-${perState[s.state]}`] = s.bioguide;
+  }
+  console.log(`${senators.length} senators from ${Object.keys(perState).length} states`);
 
   const menuXml = await fetchText(
     `https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_${CONGRESS}_${SESSION}.xml`
@@ -100,7 +105,6 @@ async function main() {
     const rawVotes = {};
     for (const m of xml.matchAll(/<member>([\s\S]*?)<\/member>/g)) {
       const block = m[1];
-      if (tag(block, "state") !== "NY") continue;
       const bioguide = lisToBioguide[tag(block, "lis_member_id")];
       if (bioguide) {
         rawVotes[bioguide] = tag(block, "vote_cast");

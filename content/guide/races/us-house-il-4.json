@@ -11,52 +11,128 @@
   "context": [
     {
       "text": "This is an open seat. Incumbent Jesus \"Chuy\" Garcia (D) withdrew from the Democratic primary in November 2025, after the candidate filing deadline, citing health and family reasons. Patty Garcia, who served as his district director and chief of staff, was the only other candidate who had filed and won the Democratic primary unopposed. Lupe Castillo won the Republican primary and Ed Hershey won the Working Class Party primary, both unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Chris Getty, Mayor of Lyons and Lyons Township Supervisor, is running as an independent after collecting signatures to appear on the general-election ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "patty-garcia",
       "name": "Patty Garcia",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Democratic primary unopposed",
       "summary": {
         "text": "Garcia is a former district director and chief of staff to outgoing U.S. Rep. Jesus \"Chuy\" Garcia, with a doctorate in educational policy studies.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Earned bachelor's degrees in political science and speech communication, an M.A. in educational policy studies, and a Ph.D. in educational policy studies, all from the University of Illinois Urbana-Champaign.", "sources": ["s1"] },
-        { "text": "Served as U.S. Rep. Jesus Garcia's district director and later his chief of staff.", "sources": ["s1"] }
+        {
+          "text": "Earned bachelor's degrees in political science and speech communication, an M.A. in educational policy studies, and a Ph.D. in educational policy studies, all from the University of Illinois Urbana-Champaign.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Served as U.S. Rep. Jesus Garcia's district director and later his chief of staff.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Campaign website says she has built coalitions \"standing with immigrant families facing detention and deportation, helping tenants and homeowners navigate rising costs and displacement, and working with labor and community partners.\"", "sources": ["s1"] },
-        { "text": "On affordability, says she would work on raising the federal minimum wage, passing the PRO Act, expanding the Child Tax Credit, reducing prescription drug costs, and building more affordable homes.", "sources": ["s1"] },
-        { "text": "On immigration, her campaign website says she supports a pathway to citizenship, protections for Dreamers and mixed-status families, and restructuring immigration enforcement agencies, including abolishing ICE.", "sources": ["s1"] }
+        {
+          "text": "Campaign website says she has built coalitions \"standing with immigrant families facing detention and deportation, helping tenants and homeowners navigate rising costs and displacement, and working with labor and community partners.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "On affordability, says she would work on raising the federal minimum wage, passing the PRO Act, expanding the Child Tax Credit, reducing prescription drug costs, and building more affordable homes.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "On immigration, her campaign website says she supports a pathway to citizenship, protections for Dreamers and mixed-status families, and restructuring immigration enforcement agencies, including abolishing ICE.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Says she would work to raise the federal minimum wage.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Supports a pathway to citizenship and restructuring immigration enforcement agencies, including abolishing ICE, rather than expanding enforcement.",
           "quote": "supports a pathway to citizenship, protections for Dreamers and mixed-status families, expanded legal services for immigrants, and stronger oversight and accountability for federal immigration agencies. She also supports fundamentally restructuring immigration enforcement agencies, including abolishing ICE.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
-          "issue": "rent_regulation",
+          "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says she has worked helping tenants and homeowners navigate rising costs and displacement.",
-          "sources": ["s1"]
+          "summary": "Her campaign issues page says she backs Medicare for All.",
+          "quote": "Patty backs Medicare for All to ensure healthcare as a human right",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign issues page says she is advocating for making the rich pay their due share.",
+          "quote": "making the rich pay their due share",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her campaign issues page says she favors expanding clean energy and moving toward a clean energy economy.",
+          "quote": "finally moving towards a clean energy economy",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Her campaign issues page says she favors more congressional control over the use of military force.",
+          "quote": "Patty favors more congressional control over the use of military force",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Her campaign issues page calls for ending all U.S. military assistance and arms shipments to Israel in its attack on Gaza.",
+          "quote": "cessation of all United States military assistance and arms shipments to Israel in its attack on Gaza",
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],
@@ -65,12 +141,16 @@
     {
       "id": "lupe-castillo",
       "name": "Lupe Castillo",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Republican primary unopposed",
       "summary": {
         "text": "Castillo won the Republican primary for this open seat.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -81,12 +161,16 @@
     {
       "id": "ed-hershey",
       "name": "Ed Hershey",
-      "parties": ["Working Class Party"],
+      "parties": [
+        "Working Class Party"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Working Class Party primary unopposed",
       "summary": {
         "text": "Hershey won the Working Class Party primary for this open seat.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -97,26 +181,66 @@
     {
       "id": "chris-getty",
       "name": "Chris Getty",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "currentRole": "Mayor of Lyons, Illinois (since 2009); Lyons Township Supervisor (since 2017)",
       "summary": {
         "text": "Getty is the Mayor of the Village of Lyons and Lyons Township Supervisor, running his campaign on nearly two decades of local public service.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Earned a bachelor's degree in corporate communications from Eastern Illinois University.", "sources": ["s1"] },
-        { "text": "Licensed insurance producer and president of Getty Insurance Agency.", "sources": ["s1"] },
-        { "text": "Mayor of the Village of Lyons since 2009 and Lyons Township Supervisor since 2017.", "sources": ["s1"] }
+        {
+          "text": "Earned a bachelor's degree in corporate communications from Eastern Illinois University.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Licensed insurance producer and president of Getty Insurance Agency.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Mayor of the Village of Lyons since 2009 and Lyons Township Supervisor since 2017.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Campaign focuses on cost of living, immigration and public safety, and government accountability, per his campaign website.", "sources": ["s1"] },
-        { "text": "\"I'm running as an independent because this moment demands an independent voice. I don't answer to a party, I answer to the people.\"", "sources": ["s1"] },
-        { "text": "Says his time as mayor \"focused on responsible leadership, economic development, and building partnerships that create real opportunity for residents and local businesses.\"", "sources": ["s1"] }
+        {
+          "text": "Campaign focuses on cost of living, immigration and public safety, and government accountability, per his campaign website.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "\"I'm running as an independent because this moment demands an independent voice. I don't answer to a party, I answer to the people.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says his time as mayor \"focused on responsible leadership, economic development, and building partnerships that create real opportunity for residents and local businesses.\"",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "positions": [],
       "record": [
-        { "text": "As Mayor of Lyons, oversaw local economic development initiatives, according to his campaign materials.", "kind": "action", "sources": ["s1"] }
+        {
+          "text": "As Mayor of Lyons, oversaw local economic development initiatives, according to his campaign materials.",
+          "kind": "action",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "researchDepth": "basic"
     }
@@ -129,6 +253,22 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://pattyforillinois.com/issues",
+      "title": "Issues — Patty Garcia for Illinois",
+      "publisher": "Patty Garcia campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s3",
+      "url": "https://castillolupe.com/values",
+      "title": "Values — Lupe Castillo for Congress",
+      "publisher": "Lupe Castillo for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

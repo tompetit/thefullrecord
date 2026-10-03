@@ -11,40 +11,82 @@
   "context": [
     {
       "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Pramila Jayapal and Nirav Sheth advanced from the August 4, 2026 primary, defeating Gwen Kirkland (D) and David Blomstrom (Fifth Republic Party). Jayapal won the primary with 83.8% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "pramila-jayapal",
       "name": "Pramila Jayapal",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2017)",
       "summary": {
         "text": "Pramila Jayapal is the Democratic incumbent for Washington's 7th Congressional District, a former Washington state senator and immigrant-rights nonprofit founder who has represented the district since 2017.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Chennai, India, in 1965; earned a bachelor's degree in English literature from Georgetown University in 1986 and a master's degree in marketing from Northwestern University in 1990.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a nonprofit executive, founding the immigrant-rights group OneAmerica, serving as a director at the Program for Appropriate Technology in Health, and co-chairing the group We Belong Together; also worked as a financial analyst for PaineWebber Incorporated.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as a Democratic member of the Washington State Senate representing District 37 from 2015 to 2016 before her election to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "For the 2025-2026 Congress, sits on the Committee on the Judiciary (Immigration Integrity, Security, and Enforcement subcommittee; the Constitution and Limited Government subcommittee), the Committee on the Budget, and the Committee on Foreign Affairs.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Is a lead sponsor of the Medicare for All Act and says Medicare for All is the path to fix the health care system.",
+          "quote": "Medicare for All is the path to fix the broken healthcare system that has let corporate interests determine who lives and dies.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Led a War Powers Resolution to end U.S. hostilities in Iran, saying Congress was not consulted and that the war is unconstitutional.",
+          "quote": "From the beginning, this war has had no clear mission, no strategy, no end goal. Congress has not been consulted.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "As Ranking Member of the House Judiciary immigration subcommittee, criticized the administration's mass deportation agenda and ICE arrest and detention practices.",
+          "quote": "ICE’s own data shows that the majority of people they arrest have ZERO criminal charges or convictions.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://pramilaforcongress.com",
       "researchDepth": "basic",
@@ -53,46 +95,72 @@
     {
       "id": "nirav-sheth",
       "name": "Nirav Sheth",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Nirav Sheth is the Republican nominee for Washington's 7th Congressional District, a Marine Corps veteran, former police officer, and small business owner who immigrated from India.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Served in the U.S. Marine Corps from 2011 to 2014; earned an associate degree from the Government Polytechnic State Institute of Gujarat in India in 2006.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes working as an electrical engineer, in computer science, as an aircraft mechanic, as an automotive service advisor, and in property management; served as a police officer in Lakewood, Washington, starting in 2017.",
-          "sources": ["s3", "s4"]
+          "sources": [
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "Describes himself as a legal immigrant who worked his way from being homeless into becoming a small business owner in Pierce County.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists public safety, education, strong infrastructure, and immigration as his campaign's core issues.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "police_funding",
           "stance": "supports",
-          "summary": "Supports increased funding and equipment for emergency services, law enforcement, and fire departments.",
-          "quote": "Supporting our emergency services and making crime illegal again in Washington State is crucial. By providing adequate funding and better equipment, we can ensure the safety of our communities.",
-          "sources": ["s4"]
+          "summary": "Supports using state funding from HB 2015 to hire more police officers, with money going to recruitment, training and retention.",
+          "quote": "Support funding from HB 2015 to hire more police",
+          "sources": [
+            "s10"
+          ]
         },
         {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "As a legal immigrant, emphasizes support for legal immigration and integration rather than describing specific enforcement measures.",
-          "quote": "As an Immigrant, I know that legal immigration not only ensures a successful integration into our great nation but also upholds the values of fairness, opportunity, and diversity.",
-          "sources": ["s4"]
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Campaign education page calls for passing the Protecting Fairness in Girls' Sports initiative and cites federal guidance defining sex under Title IX.",
+          "quote": "Pass the Protecting Fairness in Girls’ Sports initiative to preserve opportunity and safety for female athletes.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Campaign affordability page criticizes the proposed Washington \"millionaires tax\" as part of what he calls a layering of state taxes.",
+          "quote": "Adding the “millionaires tax” with the claim of fixing our “regressive” tax code while refusing to lower the most regressive tax — our sales tax.",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [],
@@ -126,6 +194,48 @@
       "id": "s4",
       "url": "https://shethforcongress.com",
       "title": "Home - Nirav Sheth",
+      "publisher": "Nirav Sheth for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://jayapal.house.gov/2026/07/22/jayapal-dingell-cpc-members-host-universal-healthcare-shadow-hearing/",
+      "title": "Jayapal, Dingell, CPC Members Host Universal Healthcare Shadow Hearing",
+      "publisher": "Office of Rep. Pramila Jayapal",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://jayapal.house.gov/2026/07/23/jayapal-statement-on-war-powers-resolution-passage/",
+      "title": "Jayapal Statement on War Powers Resolution Passage",
+      "publisher": "Office of Rep. Pramila Jayapal",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://jayapal.house.gov/2026/09/01/ranking-member-jayapals-opening-statement-at-hearing-on-trumps-immigration-dragnet-and-republican-threats-to-defund-local-police/",
+      "title": "Ranking Member Jayapal's Opening Statement at Hearing on Trump's Immigration Dragnet and Republican Threats to Defund Local Police",
+      "publisher": "Office of Rep. Pramila Jayapal",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://shethforcongress.com/issues/education-and-local-control/",
+      "title": "Education & Local Control",
+      "publisher": "Nirav Sheth for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://shethforcongress.com/issues/affordability-economy-employment/",
+      "title": "Affordability, Economy, Employment",
+      "publisher": "Nirav Sheth for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://shethforcongress.com/issues/public-safety/",
+      "title": "Public Safety - Nirav Sheth for Congress",
       "publisher": "Nirav Sheth for Congress",
       "kind": "candidate"
     }

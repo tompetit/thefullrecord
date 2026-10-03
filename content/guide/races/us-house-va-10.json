@@ -63,11 +63,21 @@
       ],
       "positions": [
         {
-          "issue": "guns",
+          "issue": "war_powers",
           "stance": "supports",
-          "summary": "Passed bipartisan gun-safety legislation while serving in the Virginia General Assembly.",
+          "summary": "In a February 2026 statement on U.S. military action in Iran he said the authority to declare war rests with Congress and that the President must seek congressional authorization.",
+          "quote": "The authority to declare war resides with Congress. As these developments unfold, President Trump must seek proper Congressional authorization.",
           "sources": [
-            "s2"
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a January 2026 statement he called extending the ACA tax credits an imperative and said Congress needs comprehensive changes to make health care more affordable and accessible.",
+          "quote": "Extending the ACA tax credits has always been an imperative.",
+          "sources": [
+            "s4"
           ]
         }
       ],
@@ -140,34 +150,10 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Wants to keep the $40,000 SALT deduction permanent and index capital gains to inflation, which would reduce taxes for higher earners.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Says he will work to ensure prosecutors and judges hold repeat offenders accountable and supports deploying resources to address violent crime.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Supports expanding school choice and vocational education and training.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.beckwithforcongress.com"
     },
     {
       "id": "ahsen-malik",
@@ -264,6 +250,22 @@
       "title": "About | Representative Suhas Subramanyam",
       "publisher": "Office of Rep. Suhas Subramanyam",
       "kind": "official"
+    },
+    {
+      "url": "https://subramanyam.house.gov/media/press-releases/ranking-member-subramanyam-statement-us-military-action-iran",
+      "title": "Ranking Member Subramanyam Statement on U.S. Military Action in Iran",
+      "publisher": "Office of Rep. Suhas Subramanyam",
+      "kind": "official",
+      "date": "2026-02-28",
+      "id": "s3"
+    },
+    {
+      "url": "https://subramanyam.house.gov/media/press-releases/rep-subramanyam-statement-after-bill-extend-aca-tax-credits-passes-house",
+      "title": "Rep. Subramanyam Statement After Bill to Extend the ACA Tax Credits Passes House",
+      "publisher": "Office of Rep. Suhas Subramanyam",
+      "kind": "official",
+      "date": "2026-01-08",
+      "id": "s4"
     }
   ],
   "researchedAt": "2026-09-25",

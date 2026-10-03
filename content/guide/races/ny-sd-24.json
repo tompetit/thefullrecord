@@ -4,7 +4,7 @@
   "officeType": "state-senate",
   "office": "NY State Senate",
   "district": "24",
-  "title": "NY State Senate \u00b7 District 24",
+  "title": "NY State Senate · District 24",
   "area": "Most of Staten Island (Mid-Island and South Shore).",
   "inNYC": true,
   "electionDate": "2026-11-03",
@@ -87,10 +87,18 @@
         {
           "issue": "congestion_pricing",
           "stance": "opposes",
-          "summary": "Called Manhattan's congestion pricing program \"this scheme\" and said he hoped the incoming EPA administrator, whom he described as an opponent of the program, would help revisit it.",
+          "summary": "Called Manhattan's congestion pricing program \"this scheme\" and described Lee Zeldin, then the incoming EPA administrator, as an opponent of it.",
           "quote": "We're going to have a new EPA in Lee Zeldin, a good friend and opponent of this scheme.",
           "sources": [
             "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Sponsors S2538, which would require police, courts and correctional facilities to notify ICE about arrested or convicted people who are not U.S. citizens and would repeal parts of the Protect Our Courts Act; the bill was defeated in the Senate Codes Committee in May 2026.",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -203,6 +211,13 @@
       "publisher": "ABC7 New York",
       "kind": "news",
       "date": "2024-11-12"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S2538",
+      "title": "S2538 (2025-2026): Requires law enforcement and courts to notify ICE when an arrested person is not a U.S. citizen",
+      "publisher": "NYSenate.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

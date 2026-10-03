@@ -11,64 +11,127 @@
   "context": [
     {
       "text": "Open seat: incumbent Michael McCaul (R) retired from public office rather than seek re-election following Texas's August 2025 congressional redistricting. Caitlin Rourk won a three-candidate Democratic primary; Chris Gober won a multi-candidate Republican primary.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "caitlin-rourk",
       "name": "Caitlin Rourk",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary",
       "summary": {
         "text": "Caitlin Rourk is the Democratic nominee for the open U.S. House seat in Texas's 10th District. An Army veteran and business leader, she is campaigning on healthcare affordability and economic opportunity.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Army veteran.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Worked as a business leader prior to running for Congress.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Affordable, accessible healthcare: lower drug costs, protect coverage for pre-existing conditions, expand mental health care and strengthen the ACA.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Economic opportunity: raise and index the federal minimum wage to the cost of living, expand affordable child care, and protect and strengthen Social Security.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says she will work to lower drug costs, protect coverage for pre-existing conditions and strengthen the Affordable Care Act.",
-          "sources": ["s3"]
+          "summary": "Her campaign issues page says she would permanently extend enhanced Affordable Care Act subsidies, pursue a public option and protect coverage for pre-existing conditions.",
+          "sources": [
+            "s5"
+          ],
+          "quote": "Permanently extend enhanced Affordable Care Act subsidies and pursue a public option to give families more affordable coverage choices."
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Lists a 'living minimum wage' among her economic priorities.",
-          "sources": ["s3"]
+          "summary": "Her campaign issues page says she would raise and index the federal minimum wage.",
+          "sources": [
+            "s5"
+          ],
+          "quote": "Raise and index the federal minimum wage, so it better reflects the cost of living and economic realities facing working families."
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
-          "summary": "Lists affordable child care among her priorities for the district.",
-          "sources": ["s3"]
+          "summary": "Her campaign issues page says she would expand affordable child care by fully funding federal programs such as the Child Care and Development Block Grant.",
+          "sources": [
+            "s5"
+          ],
+          "quote": "Expand affordable child care by strengthening and fully funding federal programs like the Child Care and Development Block Grant."
         },
         {
           "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Says economic policy 'too often' favors the wealthy and well-connected and that she will hold corporations accountable to pay 'their fair share.'",
-          "sources": ["s3"]
+          "summary": "Her campaign issues page says she would close loopholes so the wealthiest Americans and large corporations pay their fair share.",
+          "sources": [
+            "s5"
+          ],
+          "quote": "Make the tax code work for working families by closing loopholes and ensuring the wealthiest Americans and large corporations pay their fair share."
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign issues page lists restoring nationwide protections for reproductive freedom by codifying Roe v. Wade.",
+          "quote": "Restore nationwide protections for reproductive freedom by codifying Roe v. Wade and protecting access to contraception, IVF, and emergency reproductive care.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Her campaign issues page says she would strengthen Congressional oversight of military action and reaffirm Congress's constitutional role in decisions of war and peace.",
+          "quote": "Strengthen Congressional oversight of military action and reaffirm Congress's constitutional role in decisions of war and peace.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Her campaign issues page says she would oppose federal efforts to expand or subsidize private school voucher programs.",
+          "quote": "Protect public dollars for public schools and oppose federal efforts to expand or subsidize private school voucher programs, including proposals supported by Texas leaders.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "mixed",
+          "summary": "Her campaign issues page calls for halting U.S. funding and sales of offensive weapons to Israel while maintaining defensive support.",
+          "quote": "Halt U.S. funding and sales of offensive weapons to Israel while maintaining defensive support, with much stronger transparency and oversight.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -78,49 +141,58 @@
     {
       "id": "chris-gober",
       "name": "Chris Gober",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Republican primary",
       "summary": {
         "text": "Chris Gober is the Republican nominee for the open U.S. House seat in Texas's 10th District. An attorney who built a national conservative law practice, he previously directed America PAC, a super PAC founded by Elon Musk that supported Donald Trump's 2024 campaign, and describes himself as an 'America First' candidate.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Graduated from Texas A&M University and Harvard Law School; worked on national-security and border-security matters at the U.S. Department of Justice before serving as a top lawyer for the Republican Party of Texas.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Built a national conservative litigation practice and, in 2024, served as director and chief lawyer for America PAC, which he says deployed nearly $300 million supporting Donald Trump's presidential campaign.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Represented the IRS-targeting case brought by conservative nonprofit organizations against the agency over its handling of tax-exempt applications, which he says resulted in a ruling against the IRS's rules.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Secure the border and reduce illegal immigration, crime and drug trafficking, working with the Trump administration.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Oppose what he describes as the 'weaponization' of federal agencies against conservatives.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says he will cut regulations, expand small-business opportunities, and strengthen rural healthcare access for rural Texans; also calls for AI-infrastructure policy that protects rural electricity rates and local water supplies from large data-center projects.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says he will work with President Trump to 'secure our border and crush the cartels' by enforcing immigration laws and empowering Texas law enforcement.",
-          "sources": ["s4"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "website": "https://chrisgober.com/",
       "researchDepth": "basic"
@@ -158,6 +230,14 @@
       "publisher": "Chris Gober campaign website",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.caitlinrourk.com/issues",
+      "title": "Issues | Caitlin Rourk for Congress",
+      "publisher": "Caitlin Rourk campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

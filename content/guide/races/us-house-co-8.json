@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "8",
-  "title": "U.S. House \u00b7 Colorado's 8th District",
+  "title": "U.S. House · Colorado's 8th District",
   "area": "North Denver suburbs and Weld County, including Thornton, Greeley and Brighton.",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -60,16 +60,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Campaign website says educational freedom means families should be able to choose the education that works best for them.",
-          "sources": [
-            "s2"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [
         {
           "text": "Serves on the House Committee on Homeland Security (Counterterrorism and Intelligence; Emergency Management and Technology subcommittees) and the House Committee on Energy and Commerce (Commerce, Manufacturing, and Trade; Energy; Environment subcommittees) in the 119th Congress.",
@@ -125,7 +116,71 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says he would make billionaires pay what they owe in taxes and close tax loopholes for corporations.",
+          "quote": "I’ll expand tax credits for millions of working parents, make billionaires pay what they owe in taxes, and close tax loopholes for corporations.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says tariffs raise the cost of groceries and housing and lists stopping tariffs among his priorities.",
+          "quote": "Trump’s tariffs drive up the cost of everyday goods like groceries and housing.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Opposes federal cuts to Medicaid and the Affordable Care Act and lists stopping health care cuts among his priorities.",
+          "quote": "Trump and Gabe Evans’ cuts to Medicaid and the Affordable Care Act will kick hundreds of thousands of Coloradans off their health care.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says government should respect people’s decisions on abortion, and lists cosponsoring Colorado SB25-129, which shields Colorado abortion providers from out-of-state prosecution.",
+          "quote": "Politicians have no place in a private medical decision.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Lists among bills he cosponsored in the Colorado legislature SB25-003, which restricts semiautomatic weapons and rapid-fire devices.",
+          "quote": "SB25-003, to restrict semiautomatic weapons and rapid-fire devices in Colorado.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Cosponsored Colorado SB25-276, which he describes as keeping state law enforcement from supporting ICE, and says enforcement should focus on deporting violent criminals, gang members and human traffickers.",
+          "quote": "In Congress, I will hold Trump and ICE accountable for their actions.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says he would work to raise the federal minimum wage.",
+          "quote": "raise the federal minimum wage",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Served as a member of the Colorado House of Representatives, District 32, from October 2023 until leaving office on September 4, 2026.",
@@ -230,6 +285,13 @@
       "url": "https://ballotpedia.org/David_Wood_(Colorado)",
       "title": "David Wood's Ballotpedia Candidate Connection survey responses",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://mannyforcolorado.com/issues",
+      "title": "On the Issues",
+      "publisher": "Manny for Colorado (campaign site)",
       "kind": "candidate"
     }
   ],

@@ -74,20 +74,30 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
+          "issue": "climate",
           "stance": "supports",
-          "summary": "Describes herself as a leader on establishing and improving the Affordable Care Act and expanding telehealth access.",
-          "quote": "Congresswoman Matsui has been a leader in Congress on a broad range of health care issues, from establishing and improving the Affordable Care Act, to reforming mental health and substance abuse care, to expanding the use of telehealth.",
+          "summary": "Says she co-chairs the House Sustainable Energy and Environment Coalition and supports local initiatives on clean school buses and 100% clean energy by 2030.",
           "sources": [
             "s3"
+          ],
+          "quote": "support many local initiatives on clean school buses and 100% clean energy by 2030"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Said only Congress has the authority to declare war and that she would support a War Powers resolution on the strikes on Iran.",
+          "quote": "only Congress has the authority to declare war",
+          "sources": [
+            "s7"
           ]
         },
         {
-          "issue": "climate",
-          "stance": "supports",
-          "summary": "Co-chairs the House Sustainable Energy and Environment Coalition and says she has made bringing clean-energy technology to Sacramento a top priority.",
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign site says she repeatedly votes no on funding ICE and opposes allowing masked ICE agents to disregard the rule of law.",
+          "quote": "repeatedly votes no on funding ICE, and opposes allowing masked ICE agents to disregard the rule of law",
           "sources": [
-            "s3"
+            "s6"
           ]
         }
       ],
@@ -145,7 +155,80 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Platform calls for Medicare for All and protecting Social Security and Medicare from cuts.",
+          "quote": "In Congress, I will be a relentless advocate for Medicare for All to guarantee healthcare as a right for every American.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Platform calls for federal protections guaranteeing the right to choose, regardless of state.",
+          "quote": "We need federal protections that guarantee the right to choose for everyone, no matter what state they live in.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Platform says she will vote to make billionaires pay their fair share and close corporate loopholes.",
+          "quote": "I'll vote to make billionaires pay their fair share and close corporate loopholes so we can invest that money back into the communities that need it.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Platform calls for funding a Green New Deal to transition the economy to clean energy and for stopping new fossil fuel projects.",
+          "quote": "I’ll fight to fund a Green New Deal that transitions our economy to clean energy, creates good-paying jobs, and makes sure frontline communities are first in line for investment.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Platform calls the President's tariffs a hidden tax on families and small businesses and says she opposes the tariffs squeezing California producers.",
+          "quote": "Donald Trump’s illegal tariffs acted as a hidden tax on every working family and small business in our region.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Platform calls for abolishing ICE, ending its funding, and closing for-profit detention centers.",
+          "quote": "Here’s how we can Abolish ICE",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Platform says she will fight to raise the minimum wage and tie it to inflation.",
+          "quote": "I will fight to raise the minimum wage and tie it to inflation",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Platform says she will fight to end military aid that enables war crimes and the occupation of Gaza and will sign onto the \"Block the Bombs\" legislation.",
+          "quote": "In Congress, I will fight to end military aid that enables war crimes and the occupation of Gaza.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Elected to the Sacramento City Council, District 8, in 2020, after serving on the Sacramento City Unified School District board from 2016 to 2020.",
@@ -190,6 +273,30 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.maiforus.com/platform",
+      "title": "Mai's Platform",
+      "publisher": "Mai Vang for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://matsuiforcongress.com/issues/",
+      "title": "Issues",
+      "publisher": "Doris Matsui for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://matsuiforcongress.com/gov-newsom-california-lawmakers-react-to-us-israel-attack-on-iran-that-killed-ali-khamenei/",
+      "title": "Gov. Newsom, California lawmakers react to US-Israel attack on Iran that killed Ali Khamenei",
+      "publisher": "Doris Matsui for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

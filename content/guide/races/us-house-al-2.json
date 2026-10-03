@@ -81,9 +81,10 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign website says he will build on the Affordable Care Act, expand healthcare networks and community health centers, and address the state's maternal health crisis.",
+          "summary": "Campaign website says he will build on the Affordable Care Act and expand healthcare networks and community health centers; he also cosponsored H.R. 3069, the Medicare for All Act.",
           "sources": [
-            "s3"
+            "s3",
+            "s8"
           ]
         },
         {
@@ -96,26 +97,19 @@
         },
         {
           "issue": "guns",
-          "stance": "mixed",
-          "summary": "Campaign website says he supports a \"holistic approach\" to gun violence while also pledging to protect the constitutional rights of residents.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "universal_childcare",
           "stance": "supports",
-          "summary": "Campaign website says he will fight for paid parental leave and expand access to affordable, high-quality childcare.",
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, a bill \"to regulate assault weapons\"; his campaign website also describes a \"holistic approach\" to gun violence while pledging to protect residents' constitutional rights.",
           "sources": [
-            "s3"
+            "s3",
+            "s6"
           ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Campaign website says he will work to raise wages for families struggling with rising costs.",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025, a bill to provide for increases in the federal minimum wage.",
           "sources": [
-            "s3"
+            "s7"
           ]
         }
       ],
@@ -198,15 +192,16 @@
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Campaign website frames the right to bear arms as \"God-given\" and says he opposes efforts by the political left to restrict it.",
+          "summary": "Campaign website says the right to protect oneself is \"God-given\" and guaranteed by the Second Amendment, and that he will not let the Left take it away.",
           "sources": [
             "s5"
           ]
         },
         {
-          "issue": "tax_wealthy",
+          "issue": "abortion",
           "stance": "opposes",
-          "summary": "Campaign website says he will fight to eliminate wasteful government spending, lower taxes, and put more money back in workers' pockets.",
+          "summary": "Campaign website (quoted on Ballotpedia) says he is pro-life and will work to defund Planned Parenthood and bar taxpayer money for ending life.",
+          "quote": "I am unapologetically pro-life",
           "sources": [
             "s5"
           ]
@@ -262,6 +257,27 @@
       "title": "Rhett Marques campaign website (via Ballotpedia)",
       "publisher": "Ballotpedia",
       "kind": "candidate"
+    },
+    {
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115, Assault Weapons Ban of 2025 (cosponsors)",
+      "publisher": "Congress.gov",
+      "kind": "official",
+      "id": "s6"
+    },
+    {
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743, Raise the Wage Act of 2025 (cosponsors)",
+      "publisher": "Congress.gov",
+      "kind": "official",
+      "id": "s7"
+    },
+    {
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069",
+      "title": "H.R. 3069, Medicare for All Act (cosponsors)",
+      "publisher": "Congress.gov",
+      "kind": "official",
+      "id": "s8"
     }
   ],
   "researchedAt": "2026-09-25"

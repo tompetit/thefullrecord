@@ -80,11 +80,37 @@
       ],
       "positions": [
         {
-          "issue": "guns",
+          "issue": "healthcare_public",
           "stance": "opposes",
-          "summary": "Holds an enhanced-carry permit and describes herself as a strong advocate for the Second Amendment right to keep and bear arms.",
+          "summary": "Her Senate issues page says she believes the Affordable Care Act should be repealed.",
+          "quote": "She believes the Patient Protection and Affordable Care Act, better known as Obamacare, should be repealed.",
           "sources": [
-            "s4"
+            "s10"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Her Senate issues page says she is committed to supporting policies and legislation to protect the lives of unborn children and has a record of opposing measures that encourage abortion.",
+          "quote": "She is committed to supporting policies and legislation to protect the lives of unborn children.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Cosponsored S. 128, the SAVE Act, which requires documentary proof of citizenship to register to vote in federal elections.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Cosponsored S. 9, the Protection of Women and Girls in Sports Act of 2025, which would bar transgender women and girls from women's and girls' school sports.",
+          "sources": [
+            "s13"
           ]
         }
       ],
@@ -160,9 +186,37 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign site lists saving Mississippi's rural hospitals as a core priority.",
+          "summary": "In a Starkville Daily News Q&A he called for restoring the expired health insurance tax credits and reversing Medicaid cuts.",
           "sources": [
-            "s6"
+            "s14"
+          ],
+          "quote": "restore the tax credits that helped working people afford coverage, and reverse the Medicaid cuts that put eight rural hospitals at risk of closing"
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In a Starkville Daily News Q&A he said he opposes the SAVE Act's documentary proof-of-citizenship requirement.",
+          "quote": "The problem is the SAVE Act is different — it requires documentary proof of citizenship, and I oppose that.",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "In the same Q&A he said raising the minimum wage is long overdue.",
+          "quote": "Raising the minimum wage is long overdue",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In the same Q&A he called for asking the highest earners to pay Social Security payroll tax on income above the current cap.",
+          "quote": "We should ask the highest earners to contribute their part.",
+          "sources": [
+            "s14"
           ]
         }
       ],
@@ -310,6 +364,41 @@
       "title": "Scott Colom",
       "publisher": "Wikipedia",
       "kind": "reference"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.hydesmith.senate.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Sen. Cindy Hyde-Smith",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.hydesmith.senate.gov/issues/pro-life",
+      "title": "Pro-Life",
+      "publisher": "Office of Sen. Cindy Hyde-Smith",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/128/cosponsors",
+      "title": "S.128 - SAVE Act (119th Congress), cosponsors",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/9/cosponsors",
+      "title": "S.9 - Protection of Women and Girls in Sports Act of 2025, cosponsors",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.starkvilledailynews.com/news/your-decision-2026-scott-colom-q-a/article_f2a64a2c-8d6a-4882-92f0-347a7121c29a.html",
+      "title": "YOUR DECISION 2026: Scott Colom Q&A",
+      "publisher": "Starkville Daily News",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

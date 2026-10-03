@@ -81,14 +81,6 @@
       ],
       "positions": [
         {
-          "issue": "abortion",
-          "stance": "supports",
-          "summary": "Participates in the Assembly's Bipartisan Pro-Choice legislative caucus.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Describes herself as a leading advocate for affordable housing and for landmark housing-reform laws that abolished vacancy decontrol and restricted rent hikes.",
@@ -99,9 +91,29 @@
         {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Participates in the Assembly's Gun Reform legislative caucus.",
+          "summary": "Her campaign site lists gun legislation she passed, including a law to revoke firearm rights of people convicted of domestic violence, and says she cosponsored a bump-stock ban.",
+          "quote": "Rebecca passed legislation which has been signed into law to revoke firearm rights of convicted domestic violence offenders.",
           "sources": [
+            "s8",
             "s2"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her campaign site says she cosponsored the state Climate Leadership and Community Protection Act, which sets renewable energy goals and greenhouse gas reductions.",
+          "quote": "Seawright cosponsored the New York State Climate Leadership and Community Protection Act to reduce greenhouse gas emissions, implement the state’s renewable energy goals for 2030, support disadvantaged communities, and invest in green energy projects that pay prevailing wages.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "opposes",
+          "summary": "Her campaign site says she opposed repeal of New York City’s residential floor-area-ratio cap and supports capping building heights.",
+          "quote": "Rebecca has strenuously opposed the repeal of New York City’s cap on residential floor-area-ratio (FAR) in the multiple dwelling law which would allow for more out-of-scale buildings.",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -199,16 +211,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "school_choice",
-          "stance": "mixed",
-          "summary": "Focuses his education platform on curriculum fundamentals (reading, writing, math, science, civics) and limiting technology in classrooms rather than school-choice funding specifically.",
-          "sources": [
-            "s5"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     }
@@ -236,6 +239,27 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-01-01"
+    },
+    {
+      "id": "s6",
+      "url": "https://rebeccaseawright.com/issues/environmental/",
+      "title": "Environmental — Rebecca Seawright for Assembly",
+      "publisher": "Friends of Rebecca Seawright",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://rebeccaseawright.com/issues/housing/",
+      "title": "Housing — Rebecca Seawright for Assembly",
+      "publisher": "Friends of Rebecca Seawright",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://rebeccaseawright.com/issues/gun-reform/",
+      "title": "Gun Reform — Rebecca Seawright for Assembly",
+      "publisher": "Friends of Rebecca Seawright",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

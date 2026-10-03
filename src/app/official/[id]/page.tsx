@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { AppHeader } from "@/components/AppHeader";
-import { Avatar } from "@/components/Avatar";
 import { ElectionCard } from "@/components/ElectionCard";
 import { PartyChip } from "@/components/PartyChip";
 import { ProfileTabs } from "@/components/ProfileTabs";
@@ -41,17 +39,18 @@ export default async function OfficialPage({
   const identity = (
     <>
       <div className="flex items-start gap-3.5 lg:flex-col lg:gap-4">
-        <Avatar size={64} />
         <div className="flex flex-col gap-1">
           <h1 className="font-serif text-[26px] font-bold leading-[1.1] tracking-[-0.01em] text-ink">
             {official.name}
           </h1>
           <p className="font-sans text-[13px] text-ink-80">{roleLine}</p>
-          {(official.tenure || official.party) && (
+          {(official.tenure || official.party || official.partyLabel) && (
             <p className="flex items-center gap-1.5 font-sans text-xs text-ink-60">
               {official.tenure}
-              {official.tenure && official.party && " · "}
-              {official.party && <PartyChip party={official.party} />}
+              {official.tenure && (official.party || official.partyLabel) && " · "}
+              {(official.party || official.partyLabel) && (
+                <PartyChip party={official.party ?? undefined} label={official.partyLabel} />
+              )}
             </p>
           )}
         </div>
@@ -64,7 +63,7 @@ export default async function OfficialPage({
         ))}
         <a
           href={official.contactUrl}
-          className="rounded-full border border-chip-border px-2.5 py-1 hover:border-card-strong"
+          className="relative rounded-full border border-chip-border px-2.5 py-1 hover:border-card-strong after:absolute after:inset-x-0 after:-inset-y-2.5 after:content-['']"
         >
           Contact ↗
         </a>
@@ -73,10 +72,8 @@ export default async function OfficialPage({
   );
 
   return (
-    <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-      <AppHeader />
-
-      <div className="px-[26px] pt-5 lg:grid lg:grid-cols-[300px_1fr] lg:gap-10 lg:px-10">
+    <main className="mx-auto w-full max-w-7xl flex-1 pb-12">
+      <div className="px-4 sm:px-6 pt-5 lg:grid lg:grid-cols-[300px_1fr] lg:gap-10 lg:px-10">
         {/* Left rail (desktop) / header stack (mobile) */}
         <aside className="lg:sticky lg:top-4 lg:self-start">
           <Link

@@ -79,37 +79,11 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Calls for securing the border, finishing the border wall, and says he has prosecuted traffickers who bring drugs across it.",
-          "quote": "Secure the border, finish the wall, and let law enforcement do its job.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says the right to keep and bear arms is not negotiable and cites an A+ rating from the NRA.",
-          "quote": "The right to keep and bear arms is not negotiable.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Says he will back police, sheriffs and prosecutors with the tools and respect they have earned.",
-          "sources": [
-            "s3"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "website": "https://martyjackley.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Two earlier entries (guns, immigration_enforcement) were removed because the issues page only says he supports the Second Amendment and \"secure the border, finish the wall,\" which are general statements. At the Oct. 1, 2026 debate he described support for \"targeted tariffs\" on China and opposed the Argentine beef import plan; no position was recorded for broad tariffs or health coverage."
     },
     {
       "id": "nicole-gronli",
@@ -152,11 +126,32 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "At the Oct. 1, 2026 debate she criticized the Trump administration's tariffs, including those on Canada, and in an August press release criticized 50% tariffs on Canadian products.",
+          "quote": "All Americans are suffering under the tariffs",
+          "sources": [
+            "r1",
+            "r2"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Criticized the Medicaid changes in the 2025 budget law at the debate, saying they would limit people's access to health insurance, and wrote that she was dismayed by cuts to federal health care spending in that law.",
+          "quote": "People aren’t going to have access to health insurance",
+          "sources": [
+            "r1",
+            "r3"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.nikkigforsd.com/",
       "researchDepth": "basic",
-      "researchNotes": "Gronli's campaign site did not have an accessible detailed policy-positions page at the time of research (a linked \"Priorities\" page returned a 404); positions beyond her general economic message could not be documented from primary sources found."
+      "researchNotes": "Gronli's campaign site has no issues page (a linked \"Priorities\" page returned a 404); positions are drawn from her campaign blog posts and press releases and the Oct. 1, 2026 debate coverage. Her statements on abortion and child care were general and not recorded as positions."
     }
   ],
   "sources": [
@@ -191,6 +186,29 @@
       "publisher": "Nikki G for SD campaign website",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "r1",
+      "url": "https://southdakotasearchlight.com/2026/10/01/us-house-candidates-disagree-on-tariffs-but-find-common-ground-on-opposition-to-trump-beef-imports/",
+      "title": "US House candidates disagree on tariffs, but find common ground on opposition to Trump beef imports",
+      "publisher": "South Dakota Searchlight",
+      "kind": "news",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "r2",
+      "url": "https://www.nikkigforsd.com/post/press-release-gronli-warns-trump-s-actions-are-double-whammy-for-sd-farmers",
+      "title": "Gronli warns Trump's actions are double whammy for SD farmers",
+      "publisher": "Nikki G for SD campaign website",
+      "kind": "candidate",
+      "date": "2025-08-25"
+    },
+    {
+      "id": "r3",
+      "url": "https://www.nikkigforsd.com/post/we-need-a-long-term-commitment-to-rural-health-care",
+      "title": "We Need a Long-Term Commitment to Rural Health Care",
+      "publisher": "Nikki G for SD campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25"

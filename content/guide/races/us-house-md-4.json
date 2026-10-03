@@ -51,6 +51,13 @@
       "title": "Sam Husseini",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/George_McDermott",
+      "title": "George McDermott - Baltimore Sun interview (Mar. 12, 2024), as reproduced by Ballotpedia",
+      "publisher": "Ballotpedia",
+      "kind": "candidate"
     }
   ],
   "candidates": [
@@ -94,7 +101,43 @@
         {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Supports universal background checks and a federal license requirement to purchase a firearm, holding the gun industry accountable through liability, increasing ATF funding, and reinstating a ban on military-style assault weapons.",
+          "summary": "His 2022 campaign website says there should be universal background checks and a federal license to purchase a firearm, more ATF funding, accountability for the gun industry, and a renewed ban on military-style assault weapons.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His 2022 campaign website says Congress must codify safe access to reproductive health and urges passage of the Women's Health Protection Act.",
+          "quote": "Congress must act to codify safe access to reproductive health.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His 2022 campaign website says he supports restructuring the tax system so the wealthiest Americans and big corporations pay their fair share.",
+          "quote": "restructuring the tax system so that the wealthiest Americans and big corporations pay their fair share",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "His 2022 campaign website says he supports increasing the minimum wage to a livable wage.",
+          "quote": "I support increasing the minimum wage to a livable wage",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His 2022 campaign website says he would work to create green energy jobs by moving the country away from dependence on fossil fuels.",
+          "quote": "moving us away from our dependence on fossil fuels",
           "sources": [
             "s3"
           ]
@@ -141,7 +184,17 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a March 2024 Baltimore Sun interview, says Congress should protect the right to choose after Dobbs.",
+          "quote": "Yes, this candidate believes that Congress should protect the legal and civil rights of all citizens in human beings in this nation the right to choice",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     },

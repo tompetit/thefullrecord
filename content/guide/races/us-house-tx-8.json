@@ -11,42 +11,60 @@
   "context": [
     {
       "text": "Open seat: incumbent Morgan Luttrell (R) retired from public office rather than seek re-election after Texas redrew its congressional district boundaries in August 2025. Laura Jones won the March 3, 2026 Democratic primary over Keith Coleman after having previously run for this seat in 2020, 2022 and 2024, losing each time. Jessica Steinmann won a multi-candidate Republican primary.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "laura-jones",
       "name": "Laura Jones",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary over Keith Coleman, 65.7% to 34.3%",
       "summary": {
         "text": "Laura Jones is the Democratic nominee for the open U.S. House seat in Texas's 8th District. A businesswoman from the Houston area, she has run for this seat in each of the last three election cycles (2020, 2022 and 2024), losing the 2020 Democratic primary and the 2022 and 2024 general elections to the Republican incumbent.",
-        "sources": ["s3", "s4"]
+        "sources": [
+          "s3",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Houston, Texas; profession listed as businesswoman.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Previously ran for Texas's 8th Congressional District in 2020 (lost the Democratic primary), 2022 and 2024 (won the Democratic nomination both years but lost the general election to Republican incumbents).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Affordability and a living wage: raise the minimum wage and tie it to the cost of living so that a full-time worker can afford housing, utilities and food.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Expand and improve Medicare for All, arguing it is the only way to guarantee healthcare access and bring down costs.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Lower taxes for the '99%' by making billionaires and large corporations 'pay what they owe.'",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -54,19 +72,25 @@
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Says the federal minimum wage has been stagnant since 2009 and should be raised and tied to the cost of living.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports expanding and improving Medicare for All, saying healthcare is a right rather than a privilege tied to employment.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "Says billionaires and large corporations should pay more so taxes can be lowered for working families.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -76,39 +100,55 @@
     {
       "id": "jessica-steinmann",
       "name": "Jessica Steinmann",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Republican primary over five other candidates",
       "summary": {
         "text": "Jessica Steinmann is the Republican nominee for the open U.S. House seat in Texas's 8th District. She served in the first Trump administration as Director of the Justice Department's Office for Victims of Crime and later as Executive General Counsel at the America First Policy Institute, and describes herself as an 'America First conservative.'",
-        "sources": ["s6"]
+        "sources": [
+          "s6"
+        ]
       },
       "background": [
         {
           "text": "Served in President Trump's Department of Justice as Director of the Office for Victims of Crime, where she says she oversaw nearly $9 billion and awarded over $2.5 billion in 2020 funding to crime victims, including the largest federal funding to combat domestic human trafficking.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "After leaving the Trump administration, worked as Executive General Counsel at the America First Policy Institute, where she says she led litigation including a lawsuit representing 36 U.S. Air Force members against the Biden administration's COVID-19 vaccine mandate and a lawsuit on behalf of high school track athletes over transgender participation in girls' sports.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Describes herself as a wife, mother of two, and Christian conservative.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Secure the southern border: finish the border wall, end 'catch-and-release,' and reduce illegal immigration.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "'Protect children and families': campaign material says she will oppose gender-identity curricula in schools and defend parental rights over children's upbringing.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Combat human trafficking, citing her DOJ record directing federal anti-trafficking funding.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
@@ -117,7 +157,18 @@
           "stance": "supports",
           "summary": "Says she will fight to finish the border wall, end 'catch-and-release,' and restore 'law and order' at the southern border.",
           "quote": "I will fight to finish President Trump's wall, end catch-and-release, and restore law and order at our southern border.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Her campaign site says she led a legal effort to bar transgender athletes from girls' sports and, with Riley Gaines, sued Oregon over a transgender athlete competing in girls' track and field.",
+          "quote": "I led the legal fight to keep boys out of girls’ sports",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [],
@@ -173,6 +224,14 @@
       "publisher": "Jessica Steinmann campaign website",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.jessicasteinmann.com/issues",
+      "title": "Issues",
+      "publisher": "Jessica Steinmann campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

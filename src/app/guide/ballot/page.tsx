@@ -1,15 +1,11 @@
 import Link from "next/link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { stateName } from "@/components/guide/RaceView";
-import { GuideFooter, GuideNav, IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { LOOKUP_MESSAGES } from "@/lib/site";
 import { ballotForAddress } from "@/server/guide/ballot";
 
 export const metadata = { title: "My 2026 ballot — The Full Record" };
-
-const MESSAGES = {
-  "no-match": "We couldn't match that address. Include the street number, city, and state or ZIP code.",
-  "lookup-failed": "The Census district lookup didn't respond. Try again in a moment.",
-};
 
 export default async function BallotPage({ searchParams }: { searchParams: Promise<{ address?: string }> }) {
   const query = await searchParams;
@@ -18,8 +14,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
 
   return (
     <main className="flex-1">
-      <GuideNav active="ballot" />
-      <div className="mx-auto w-full max-w-5xl px-[20px] pt-8 lg:px-10">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-8 lg:px-10">
         <h1 className="font-serif text-[30px] font-semibold tracking-[-0.015em] text-ink lg:text-[40px]">
           My ballot
         </h1>
@@ -27,8 +22,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
           <>
             <p className="mt-2 max-w-xl font-sans text-[14.5px] leading-[1.6] text-ink-60">
               Enter your address to see the races on your November 3 ballot.
-              Any U.S. address shows your House and Senate races; New York
-              addresses also show state races and ballot proposals.
+              Any U.S. address shows your House and Senate races; New York addresses also show state races and ballot proposals.
             </p>
             <BallotAddressForm />
           </>
@@ -36,9 +30,9 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
         {result && !result.ok && (
           <>
             <p className="mt-4 max-w-lg rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
-              {MESSAGES[result.reason]}
+              {LOOKUP_MESSAGES[result.reason]}
             </p>
-            <BallotAddressForm />
+            <BallotAddressForm initialAddress={address} />
           </>
         )}
         {result?.ok && (
@@ -57,7 +51,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                 href={`/guide/match?address=${encodeURIComponent(address)}`}
                 className="rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[14px] font-bold text-paper hover:opacity-90"
               >
-                Compare candidate evidence by issue →
+                Compare by issue →
               </Link>
             </div>
             {result.races.length === 0 && (
@@ -107,15 +101,12 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
             </ol>
             {result.state !== "NY" && (
               <p className="mt-6 font-sans text-[12.5px] text-ink-45">
-                Outside New York, this guide covers U.S. House and Senate races
-. Your ballot may also include
-                state and local contests — check your state election office.
+                Outside New York, this guide covers U.S. House and Senate races. Your ballot may also include state and local contests; check your state election office.
               </p>
             )}
           </>
         )}
       </div>
-      <GuideFooter />
     </main>
   );
 }

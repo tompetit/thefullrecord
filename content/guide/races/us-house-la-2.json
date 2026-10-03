@@ -11,62 +11,112 @@
   "context": [
     {
       "text": "Louisiana's 2026 U.S. House elections use a \"majority vote\" (all-party) system: every candidate, regardless of party, appears on one ballot on November 3, 2026. If no candidate wins a majority, the top two finishers advance to a December 12, 2026 general election. The partisan primary and runoff originally scheduled for May and June 2026 were canceled after the U.S. Supreme Court ruled in Louisiana v. Callais that the state's congressional map was an unconstitutional racial gerrymander, requiring a new map.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "troy-carter",
       "name": "Troy Carter",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative for Louisiana's 2nd District (since 2021)",
       "summary": {
         "text": "Troy Carter represents Louisiana's 2nd Congressional District, covering New Orleans, Jefferson, St. Bernard and the River Parishes, and is now seeking a third full term. He serves on the House Committee on Energy and Commerce and the House Homeland Security Committee, is a Deputy Whip for House Democratic leadership, and is 1st Vice Chairman of the Congressional Black Caucus.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Graduate of Xavier University of Louisiana (BA, political science and business administration) and the University of Holy Cross (MS, business).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "In 1991, became the first African American elected to represent Louisiana's 102nd District in the Louisiana House of Representatives; later became the first African American elected to New Orleans City Council District C.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as a Louisiana State Senator for the 7th District, including as Senate Minority Leader, before winning a 2021 special election to the U.S. House.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Site describes him as authoring or co-authoring laws focused on infrastructure, economic development, women's healthcare, criminal justice reform and reducing homelessness during his time in the Louisiana Legislature.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Describes himself as a steadfast advocate for civil rights, healthcare and environmental justice.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Official biography describes him as an advocate for healthcare and having authored legislation on women's healthcare in the Louisiana Legislature.",
-          "sources": ["s2"]
+          "summary": "Statement on voting against a budget that did not extend ACA premium tax credits, calling the lapse unconscionable and warning against Medicaid cuts.",
+          "quote": "Not extending Affordable Care Act tax credits is unconscionable.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Said military action against Venezuela without congressional authorization was unconstitutional and that he voted for a war powers resolution.",
+          "quote": "The power to authorize the use of military force rests with Congress.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "Statement during the House debate on the SAVE Act said the bill demands burdensome documentation and would make it harder for eligible Americans to vote.",
+          "quote": "This legislation is not only unnecessary — it is un-American. It demands burdensome documentation under the false pretense of preventing a problem that does not exist.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In remarks at a Democratic forum on immigration raids and mass deportations, criticized the planned Border Patrol sweep of the New Orleans area as a show of force rather than public safety.",
+          "quote": "What is being planned for our region is not real public safety. It is a political stunt wrapped in badges and guns.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Energy and Commerce and the House Homeland Security Committee in the 119th Congress; previously served on the Committees on Small Business and on Transportation and Infrastructure.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected 1st Vice Chairman of the Congressional Black Caucus and selected by House Democratic leadership as a Deputy Whip on the House floor.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://troycarter.house.gov",
@@ -75,58 +125,61 @@
     {
       "id": "renada-collins",
       "name": "Renada Collins",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "currentRole": "Banking executive and entrepreneur",
       "summary": {
         "text": "Renada Collins is a banking executive and entrepreneur running as a Democratic candidate for Louisiana's 2nd Congressional District, campaigning on affordability, infrastructure investment and housing stability.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Career in banking; founded a makeup line in 2005 after entering the business world in 1999.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says her candidacy prioritizes an economic model favoring residents' well-being over corporate interests, including advocating for a livable wage tied to the true cost of living.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Wants to direct federal infrastructure funding to local needs such as fixing broken water mains and maintaining fire hydrants.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaigns on making housing affordable, targeting 80% of Area Median Income, and providing \"Voucher Literacy\" to help residents use housing benefits.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "minimum_wage",
-          "stance": "supports",
-          "summary": "Campaign message \"People Over Profit\" calls for a livable wage that reflects the true cost of living.",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "rent_regulation",
-          "stance": "supports",
-          "summary": "Campaigns on housing as \"a fundamental right\" and on making housing affordable at 80% of Area Median Income, with help navigating housing vouchers.",
-          "sources": ["s3"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "basic"
     },
     {
       "id": "peter-williams",
       "name": "Peter Williams",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Peter Williams is the Republican candidate on the ballot for Louisiana's 2nd Congressional District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -137,11 +190,15 @@
     {
       "id": "lisa-ballay",
       "name": "Lisa Ballay",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Lisa Ballay is the Libertarian Party candidate on the ballot for Louisiana's 2nd Congressional District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -152,11 +209,15 @@
     {
       "id": "walter-beach",
       "name": "Walter Beach",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Walter Beach is an unaffiliated candidate on the ballot for Louisiana's 2nd Congressional District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -189,6 +250,38 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://troycarter.house.gov/media/press-releases/rep-carter-statement-disastrous-republican-budget-abandons-working-families",
+      "title": "Rep. Carter Statement on Disastrous Republican Budget that Abandons Working Families",
+      "publisher": "Office of Rep. Troy Carter",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://troycarter.house.gov/media/press-releases/congressman-troy-carter-sr-statement-military-action-venezuela",
+      "title": "Congressman Troy A. Carter, Sr. Statement on Military Action in Venezuela",
+      "publisher": "Office of Rep. Troy Carter",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://troycarter.house.gov/media/press-releases/congressman-carter-statement-save-act",
+      "title": "Congressman Carter Statement on SAVE Act",
+      "publisher": "Office of Rep. Troy Carter",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://troycarter.house.gov/media/press-releases/rep-carter-statement-forum-federal-militarized-immigration-sweeps",
+      "title": "Rep. Carter Statement for Forum on Federal Militarized Immigration Sweeps",
+      "publisher": "Office of Rep. Troy Carter",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -11,41 +11,108 @@
   "context": [
     {
       "text": "Incumbent Veronica Escobar (D) ran unopposed in the March 3, 2026 Democratic primary. Adam Bauman won the Republican nomination in a May 26, 2026 primary runoff, defeating Manuel Barraza.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "veronica-escobar",
       "name": "Veronica Escobar",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
         "text": "Veronica Escobar is the Democratic incumbent seeking re-election to Texas's 16th District. A former El Paso County Commissioner and County Judge, she serves on the House Appropriations and Budget committees in the 119th Congress (2025-2026).",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in El Paso, Texas, in 1969; earned a bachelor's degree from the University of Texas in 1991 and a master's degree in English Literature from New York University in 1993.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a professor, a nonprofit executive, and communications director for the mayor of El Paso's office before entering elected office.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as an El Paso County Commissioner from 2006 to 2010 and as El Paso County Judge from 2011 to 2017.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official site says healthcare is a right every American should enjoy and lists the Medicare for All Act among legislation she supports.",
+          "quote": "Congresswoman Escobar believes healthcare is a right every American should enjoy",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official site lists the Women's Health Protection Act, which would create a federal right to access abortion, among legislation she supports.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her official site calls universal background checks and an assault weapons ban a top priority and lists her cosponsorship of the Assault Weapons Ban of 2025.",
+          "quote": "Common-sense gun violence prevention, such as requiring universal background checks and banning assault weapons, has been a top priority for Congresswoman Escobar.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her official site says tax policy should prioritize working families and small businesses rather than billionaires and corporations, and cites her support for the Inflation Reduction Act, which it says holds corporations accountable to pay their fair share of taxes.",
+          "quote": "Congresswoman Escobar believes tax policies should prioritize working families and small businesses, not billionaires and corporations.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Her official site lists the Raise the Wage Act, which would gradually raise the minimum wage to $17 by 2030, among legislation she supports.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her official site says she will continue to support a transition to a clean energy future and cites her role in passing the Inflation Reduction Act's clean-energy investments.",
+          "quote": "I will continue to support our transition to a clean energy future",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Appropriations (Subcommittee on Homeland Security; Subcommittee on Military Construction, Veterans Affairs, and Related Agencies) and the Committee on the Budget in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://escobar.house.gov",
@@ -55,43 +122,61 @@
     {
       "id": "adam-bauman",
       "name": "Adam Bauman",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 26, 2026 Republican primary runoff over Manuel Barraza.",
       "summary": {
         "text": "Adam Bauman is the Republican nominee challenging Escobar. He is a U.S. Navy Special Warfare Combatant Crewman veteran who also served in the U.S. Border Patrol's BORTAC tactical team, campaigning on lower property taxes, border security, and veterans' issues.",
-        "sources": ["s3", "s4"]
+        "sources": [
+          "s3",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Served as a U.S. Navy Special Warfare Combatant Crewman (Navy SWCC).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Served in the U.S. Border Patrol as part of the Border Patrol Tactical Team (BORTAC).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lowering El Paso property taxes, which he says are among the highest in Texas.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Supporting Customs and Border Protection's mission to secure the border.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Expanding care and benefits for military veterans.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
+          "issue": "transgender_sports",
           "stance": "supports",
-          "summary": "Says a secure border is essential to prevent criminals and narcotics from crossing into El Paso, and supports the Customs and Border Protection mission.",
-          "sources": ["s4"]
+          "summary": "His campaign website says he is committed to women-only sports, in the wording quoted here.",
+          "quote": "Biological men have no business competing in women's sports",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [],
@@ -101,10 +186,78 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026", "title": "United States House of Representatives elections in Texas, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Veronica_Escobar", "title": "Veronica Escobar", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Texas%27_16th_Congressional_District_election,_2026", "title": "Texas' 16th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://adambaumanforcongress.com/", "title": "Adam Bauman for Congress", "publisher": "Adam Bauman for Congress campaign website", "kind": "candidate", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Veronica_Escobar",
+      "title": "Veronica Escobar",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Texas%27_16th_Congressional_District_election,_2026",
+      "title": "Texas' 16th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://adambaumanforcongress.com/",
+      "title": "Adam Bauman for Congress",
+      "publisher": "Adam Bauman for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://escobar.house.gov/Issues/Issue/?IssueID=15506",
+      "title": "Healthcare - Congresswoman Veronica Escobar",
+      "publisher": "Office of Rep. Veronica Escobar",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://escobar.house.gov/Issues/Issue/?IssueID=15508",
+      "title": "Gun Violence Prevention - Congresswoman Veronica Escobar",
+      "publisher": "Office of Rep. Veronica Escobar",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://escobar.house.gov/Issues/Issue/?IssueID=15488",
+      "title": "Economy - Congresswoman Veronica Escobar",
+      "publisher": "Office of Rep. Veronica Escobar",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://escobar.house.gov/Issues/Issue/?IssueID=15490",
+      "title": "Environment and Animals - Congresswoman Veronica Escobar",
+      "publisher": "Office of Rep. Veronica Escobar",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Adam_Bauman",
+      "title": "Adam Bauman - campaign website as quoted on Ballotpedia (February 2026)",
+      "publisher": "Ballotpedia (quoting Adam Bauman's campaign website)",
+      "kind": "candidate",
+      "date": "2026-02-11"
+    }
   ],
   "researchedAt": "2026-09-25",
   "researchNotes": "Veronica Escobar's key floor votes and FEC finance totals are filled in separately by script. Adam Bauman has not completed a Ballotpedia Candidate Connection survey; his positions come from his campaign website."

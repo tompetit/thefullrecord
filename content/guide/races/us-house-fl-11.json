@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "11",
-  "title": "U.S. House \u00b7 Florida's 11th District",
+  "title": "U.S. House · Florida's 11th District",
   "area": "Central Florida, including parts of Orange and Lake counties north and west of Orlando.",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -140,6 +140,15 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Lists \"Protect Women's Sports\" among his campaign priorities, with the stated aim quoted here.",
+          "quote": "Keep men out of women's sports and protect fairness for girls and women.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [],
@@ -239,7 +248,7 @@
           "issue": "climate",
           "stance": "opposes",
           "summary": "Supports increasing fossil fuel output and says a transition to renewable energy will take decades, rather than favoring a faster shift away from fossil fuels.",
-          "quote": "Transition to \u201cgreen energy\u201d will take decades to accomplish.",
+          "quote": "Transition to “green energy” will take decades to accomplish.",
           "sources": [
             "s6"
           ]
@@ -305,8 +314,15 @@
     {
       "id": "s7",
       "url": "https://www.grovesforcongress.com/position-papers",
-      "title": "Position Papers \u2014 Gun Ownership in the Context of America\u2019s Social Problems",
+      "title": "Position Papers — Gun Ownership in the Context of America’s Social Problems",
       "publisher": "Groves for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://votestrada.com/priorities",
+      "title": "Priorities | Joe Strada for Congress",
+      "publisher": "Joe Strada for Congress",
       "kind": "candidate"
     }
   ],

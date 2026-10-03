@@ -69,8 +69,8 @@
       "positions": [
         {
           "issue": "guns",
-          "stance": "mixed",
-          "summary": "Says he strongly supports the Second Amendment, while also saying it is appropriately subject to reasonable, commonsense measures including background checks to limit access by those whose mental health or criminal history shows a lack of responsibility.",
+          "stance": "supports",
+          "summary": "His issues page says the Second Amendment is subject to reasonable, commonsense measures, including background checks to limit access by those whose mental health or criminal history shows a lack of responsibility.",
           "quote": "The Second Amendment to the United States Constitution, which Congressman Bishop strongly supports, is appropriately subject to reasonable, commonsense measures, including background checks to limit access by those whose mental health or criminal history demonstrates a lack of requisite responsibility.",
           "sources": [
             "s3"
@@ -83,6 +83,24 @@
           "quote": "Any immigration reform must include provisions that strengthen border security by increasing law enforcement manpower, utilizing new technology and fencing, and providing the tools, resources, and infrastructure necessary to enforce existing immigration laws and punish offenders.",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a March 2026 statement on H.Con.Res. 38, said only Congress can declare war and that the President's strikes on Iran violated the Constitution.",
+          "quote": "War is one of the most solemn responsibilities of Congress, and the U.S. Constitution says that only Congress can declare war.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His official healthcare page says he has supported expanding the Affordable Care Act tax credits to help people buy health insurance.",
+          "quote": "expanding the tax credits under the Affordable Care Act to help people purchase health insurance",
+          "sources": [
+            "s5"
           ]
         }
       ],
@@ -169,6 +187,22 @@
       "title": "All Legislative Issues",
       "publisher": "Office of Rep. Sanford D. Bishop, Jr.",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://bishop.house.gov/media-center/press-releases/congressman-bishop-defends-the-constitution-with-war-powers-vote",
+      "title": "Congressman Bishop Defends the Constitution with War Powers Vote",
+      "publisher": "Office of Rep. Sanford Bishop",
+      "kind": "official",
+      "date": "2026-03-05"
+    },
+    {
+      "id": "s5",
+      "url": "https://bishop.house.gov/legislative-work/healthcare",
+      "title": "Healthcare - Congressman Sanford Bishop",
+      "publisher": "Office of Rep. Sanford Bishop",
+      "kind": "official",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25"

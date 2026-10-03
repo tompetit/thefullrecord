@@ -30,13 +30,16 @@ export interface Official {
   name: string;
   /**
    * Canonical seat key tying an official to a geocoded district:
-   * "nyc-council-33" | "ny-ad-52" | "ny-sd-26" | "us-house-ny-10" | "us-sen-ny-<n>"
+   * "nyc-council-33" | "ny-ad-52" | "ny-sd-26" | "us-house-{st}-{n|al}" |
+   * "us-sen-{st}-<1|2>" | "{st}-{upper|lower|legislature}-{openStatesUuid}"
    */
   districtKey: string;
   /** e.g. "Council Member · District 33" */
   role: string;
   /** null when the roster source doesn't state it — never guessed */
   party: Party | null;
+  /** Party as the source states it when `party` has no code for it (e.g. "Independent"); shown neutrally */
+  partyLabel?: string;
   level: GovernmentLevel;
   /** Group heading, e.g. "CITY — NYC COUNCIL" */
   levelLabel: string;
@@ -59,8 +62,6 @@ export interface VoteRecord {
   question?: string;
   id: string;
   officialId: string;
-  /** Route id of the bill detail page, when we have one */
-  billId?: string;
   /** e.g. "S4821-A" */
   billNumber: string;
   /** e.g. "SENATE" */
@@ -110,54 +111,6 @@ export interface AttendanceEntry {
   sourceUrl: string;
 }
 
-export interface BillStatusStep {
-  label: string;
-  dateLabel: string;
-  state: "done" | "current" | "future";
-}
-
-export interface RollCallMember {
-  name: string;
-  /** e.g. "D–21" */
-  district: string;
-  vote: VoteChoice;
-}
-
-export interface RollCall {
-  outcome: string;
-  dateLabel: string;
-  yes: number;
-  no: number;
-  absent: number;
-  members: RollCallMember[];
-  totalMembers: number;
-  sourceUrl: string;
-}
-
-export interface BillSource {
-  label: string;
-  url: string;
-}
-
-export interface Bill {
-  id: string;
-  number: string;
-  chamber: string;
-  session: string;
-  title: string;
-  /** e.g. "Sponsor: Sen. Dana Okafor (D–SD 21) · 14 co-sponsors" */
-  sponsorLine: string;
-  whatItDoes: string;
-  whoItAffects: string;
-  statusSteps: BillStatusStep[];
-  rollCall: RollCall;
-  /** Note under "How your reps voted", incl. companion bill */
-  yourRepsNote: string;
-  /** Explicit recorded votes by the user's own representatives */
-  yourRepsVotes: Array<{ officialId: string; vote: VoteChoice }>;
-  sources: BillSource[];
-}
-
 export interface Evidence {
   /** Direct quote (said) or neutral sentence (did) */
   text: string;
@@ -181,25 +134,6 @@ export interface SaidDidPair {
   whyNote?: string;
 }
 
-export interface DigestItem {
-  officialId: string;
-  officialName: string;
-  chamber: string;
-  billNumber: string;
-  vote: VoteChoice;
-  summary: string;
-  outcome: string;
-  dateLabel: string;
-  sourceUrl: string;
-}
-
-export interface Digest {
-  dateRangeLabel: string;
-  items: DigestItem[];
-  /** e.g. "Your other 3 representatives had no recorded votes this week." */
-  quietLine: string;
-}
-
 export interface Paginated<T> {
   items: T[];
   total: number;
@@ -213,9 +147,18 @@ export interface OfficialGroup {
   officials: Official[];
 }
 
-export interface SiteStats {
-  trustLine: string;
-  provenanceLine: string;
+/** Honest context for an address lookup: gaps and caveats, never filled in by guessing. */
+export interface LookupContext {
+  /** Upper-case postal abbreviation of the matched address */
+  state: string;
+  /** Where the officeholder districts came from; the fallback may be the 2026 map */
+  geographySource: "tigerweb-2024" | "census-2026-fallback";
+  /** Set when the Nov 2026 U.S. House district differs from today's district */
+  houseDistrictChange?: { ballotSeat: string; ballotLabel: string; currentLabel: string };
+  /** Seats that matched nobody in the roster (vacancies), as display lines */
+  gaps: string[];
+  /** Other coverage caveats for this address */
+  notes: string[];
 }
 
 export interface ElectionCandidate {

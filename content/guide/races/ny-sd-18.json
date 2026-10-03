@@ -11,63 +11,91 @@
   "context": [
     {
       "text": "Julia Salazar is unopposed on the November 3 general-election ballot. The Democratic and Working Families Party primaries scheduled for June 23, 2026 were both canceled because she had no primary opponent.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "julia-salazar",
       "name": "Julia Salazar",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": true,
       "ballotNote": "Nominated without a primary opponent; running unopposed in the general election",
       "currentRole": "New York State Senator, District 18 (since January 2019)",
       "summary": {
         "text": "Julia Salazar is the incumbent Democratic and Working Families Party state senator for District 18, first elected in 2018. She chairs the Senate's Crime Victims, Crime and Correction Committee and serves as Deputy Majority Leader for Senate and Assembly Relations. She is running unopposed for a fourth term.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Attended Columbia University and began advocacy work there on tenant and worker rights.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as a community organizer for Jews for Racial & Economic Justice (JFREJ), focusing on criminal justice and police accountability, before her 2018 election.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Elected to the State Senate in 2018 at age 27, becoming, per her official Senate biography, the youngest woman elected in the history of the New York State Senate.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Chairs the Senate Crime Victims, Crime and Correction Committee; previously chaired the Senate Committee on Women's Issues (2019-2020).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves as Deputy Majority Leader for Senate and Assembly Relations and as Treasurer of the legislature's Black, Puerto Rican, Hispanic & Asian Caucus.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Public Safety",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Housing",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Healthcare",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Climate",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Reproductive Rights",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -75,26 +103,60 @@
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Co-led, with Assemblymember Diana Moreno and NYC Councilmember Shahana Hanif, a coalition of 143 New York state and local elected officials calling on congressional Democratic leaders to support abolishing U.S. Immigration and Customs Enforcement (ICE).",
-          "sources": ["s4"]
-        },
-        {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Sponsored the Maternal Health, Dignity and Consent Act, requiring informed consent before drug testing pregnant patients or newborns, to address disparities in testing practices.",
-          "quote": "This is an invasive and racist pattern that is disproportionately harming Black and brown New Yorkers.",
-          "sources": ["s5"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Played a role in passing the 2019 Housing Stability and Tenant Protection Act and sponsored the Good Cause Eviction bill, signed into law in 2024, both of which strengthen tenant protections and regulate rent increases.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Co-sponsored the Build Public Renewables Act, climate-justice legislation enacted in 2023 that expands the state power authority's role in building renewable energy.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign platform lists support for the New York Health Act, which creates a single-payer healthcare system, and for repealing the Global Medicaid Cap.",
+          "quote": "Julia is fighting to improve healthcare for all New Yorkers by supporting bills such as Fair Pay for Home Care and the New York Health Act to make healthcare universal and comprehensive",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Joined a May 2026 protest at the Governor's Manhattan office calling for taxes on the wealthy; her platform also lists support for progressive income, capital gains, corporate and wealth tax bills.",
+          "quote": "It is time to tax the rich and ensure New Yorkers can afford to live dignified lives.",
+          "sources": [
+            "s9",
+            "s8"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Her platform lists support for the Raise the Wage Act (S1978).",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her platform lists support for providing abortion medication at CUNY/SUNY campus health centers and for the Reproductive Freedom and Equity Program.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [
@@ -102,34 +164,46 @@
           "text": "Sponsored S845, the Maternal Health, Dignity and Consent Act, which passed the Senate with bipartisan support in 2026.",
           "date": "2026-06-05",
           "kind": "bill",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Sponsored S2667, prohibiting restraints on pregnant and postpartum people in law enforcement custody except in specified emergency circumstances and banning restraints during active labor; passed both the Senate and Assembly.",
           "date": "2026-06-05",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Sponsored S8353, the Tampons Aren't Contraband Act, barring state and local correctional facilities from denying visitors entry over menstrual products or IUDs; passed both the Senate and Assembly and was awaiting the Governor's signature as of the source date.",
           "date": "2026-06-04",
           "kind": "bill",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Was the lead sponsor of the HALT Solitary Confinement Act (2021), which ended the use of long-term solitary confinement in New York state prisons.",
           "kind": "bill",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Sponsored the Comprehensive Contraception Coverage Act (2019), requiring insurance companies to cover all FDA-approved forms of contraception.",
           "kind": "bill",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Chairs the Senate Crime Victims, Crime and Correction Committee in the 2025-2026 session.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.salazarforsenate.com/",
@@ -189,6 +263,20 @@
       "publisher": "NYSenate.gov",
       "kind": "official",
       "date": "2026-06-04"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.salazarforsenate.com/platform/",
+      "title": "Platform — Julia Salazar for State Senate",
+      "publisher": "Salazar for Senate campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.nysenate.gov/newsroom/press-releases/2026/julia-salazar/senator-salazar-joins-new-yorkers-governors-office-calls",
+      "title": "Senator Salazar Joins New Yorkers at Governor's Office; Calls on Governor to Tax the Rich",
+      "publisher": "NYSenate.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

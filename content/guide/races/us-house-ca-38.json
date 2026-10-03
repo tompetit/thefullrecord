@@ -44,7 +44,15 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "As an L.A. County supervisor, says she has led 14 motions in response to federal immigration raids, including legal action against unlawful arrests and seizures.",
+          "quote": "since the raids began, I’ve led 14 motions to protect Los Angeles County residents.",
+          "sources": ["s7"]
+        }
+      ],
       "record": [
         {
           "text": "Authored SB 115 (1999), California's first environmental justice law, requiring the state EPA to adopt environmental justice standards; the Senate passed it 23-14 on 1999-05-24 and Governor Gray Davis signed it.",
@@ -96,18 +104,11 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
+          "issue": "transgender_sports",
           "stance": "supports",
-          "summary": "Says he will work to secure the southern border and implement immigration reforms prioritizing national security.",
-          "quote": "I will work to secure our southern border and implement immigration reforms that prioritize national security.",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Proposes tax cuts and reducing regulation on small businesses to stimulate economic growth, rather than raising taxes.",
-          "quote": "To stimulate economic growth, I propose tax cuts, reduction of bureaucratic red tape and excessive regulations on small businesses, allowing the free market to recalibrate itself.",
-          "sources": ["s3"]
+          "summary": "Lists barring transgender women from competing against women in sports among his priorities.",
+          "quote": "Back to basics in sports by restricting biological men from competing against women.",
+          "sources": ["s8"]
         }
       ],
       "record": [],
@@ -160,6 +161,20 @@
       "publisher": "California Legislative Information",
       "kind": "official",
       "date": "1999-09-09"
+    },
+    {
+      "id": "s7",
+      "url": "https://hildalsolis.org/immigration/",
+      "title": "Immigrations: Actions and Resources",
+      "publisher": "Office of Supervisor Hilda L. Solis",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://casasforcongress.com/priorities/",
+      "title": "Priorities",
+      "publisher": "Casas for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

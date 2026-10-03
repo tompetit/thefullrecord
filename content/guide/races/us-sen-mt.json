@@ -3,7 +3,7 @@
   "state": "MT",
   "officeType": "us-senate",
   "office": "U.S. Senate",
-  "title": "U.S. Senate \u00b7 Montana",
+  "title": "U.S. Senate · Montana",
   "area": "Statewide, Montana.",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -24,7 +24,7 @@
       ],
       "incumbent": false,
       "ballotNote": "Advanced from the Republican primary on June 2, 2026; entered the race March 4, 2026 after Sen. Steve Daines withdrew and endorsed him.",
-      "currentRole": "Former U.S. Attorney for the District of Montana (Oct. 2025\u2013March 2026)",
+      "currentRole": "Former U.S. Attorney for the District of Montana (Oct. 2025–March 2026)",
       "summary": {
         "text": "Kurt Alme is the Republican nominee for the open Montana U.S. Senate seat. He is an attorney who served as U.S. Attorney for Montana, budget director under Gov. Greg Gianforte, and director of the Montana Department of Revenue under Gov. Judy Martz, before entering the race when Sen. Steve Daines withdrew and endorsed him.",
         "sources": [
@@ -68,7 +68,8 @@
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Basic-tier research from Ballotpedia; no personal campaign website or additional issue statements located in the time available."
+      "researchNotes": "Basic-tier research from Ballotpedia. His campaign website (almeforsenate.com) was reviewed in October 2026; its priorities page had no issue statements yet.",
+      "website": "https://almeforsenate.com/"
     },
     {
       "id": "alani-bankhead",
@@ -119,7 +120,35 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In her Ballotpedia survey she names reproductive freedom as a policy priority and says Montanans wrote it into the state constitution.",
+          "quote": "Reproductive freedom - Montanans already wrote it into our constitution, and Washington keeps trying to override them.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign site says she will protect the Medicare and Medicaid payments rural hospitals depend on and protect and properly fund Medicaid long-term care.",
+          "quote": "We will keep those doors open — by protecting the Medicare and Medicaid payments they depend on, and paying for it by cutting Washington’s waste, not Montana’s care.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign site says she would remove the Social Security wage cap so the wealthiest pay in on all their income.",
+          "quote": "Fund Social Security for good by removing the wage cap so the wealthiest pay in on all their income",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
       "researchNotes": "Basic-tier research from Ballotpedia; no personal campaign website or additional issue statements located in the time available."
@@ -255,6 +284,13 @@
       "title": "Kyle Austin (Montana)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Alani_Bankhead",
+      "title": "Alani Bankhead, Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

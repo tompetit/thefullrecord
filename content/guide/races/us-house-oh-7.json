@@ -11,42 +11,75 @@
   "context": [
     {
       "text": "The Cook Political Report rates the 7th District R+5. Eight Democrats ran in the primary, the most candidates for any Ohio U.S. House district in 2026; Brian Poindexter won with 37.0% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Two independent write-in candidates, Thahbia Asad and Andrey Martinichin, are also seeking write-in votes in the general election; they do not appear as printed ballot lines and are not profiled here.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "max-miller",
       "name": "Max Miller",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Incumbent, unopposed in the May 5, 2026 Republican primary",
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Miller is the incumbent U.S. Representative for Ohio's 7th District, first elected in 2022. He previously served as director of presidential advance and a senior advisor in the first Trump administration.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Ohio in 1988; earned a bachelor's degree in history from Cleveland State University (2013).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the U.S. Marine Corps Reserves and worked as director of presidential advance and a senior advisor in the first Trump administration before being elected to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a September 2026 Akron Beacon Journal candidate Q&A he said he does not support tariffs, but that he did not go against his party's president after the Supreme Court declared them legal.",
+          "quote": "I don't support tariffs, however, once the Supreme Court declared they were legal, I wasn't going to go against my party's president just as any Democrat wouldn't.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In the same Q&A he said he supports Ohio's proposed proof-of-citizenship voting requirement and has supported the federal SAVE America Act.",
+          "quote": "I support the law Ohio is putting on the ballot this year, requiring proof of citizenship prior to voting. I have also supported the SAVE America Act on the federal level.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Served on the Committee on Science, Space, and Technology and the Committee on Agriculture during the 118th Congress (2023-2024).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -55,52 +88,97 @@
     {
       "id": "brian-poindexter",
       "name": "Brian Poindexter",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 5, 2026 Democratic primary with 37.0% in an eight-candidate field",
       "summary": {
         "text": "Poindexter is a union ironworker and apprenticeship instructor running as the Democratic nominee, with an at-large seat on the Brook Park City Council. His platform centers on workers' rights, wages, and healthcare.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Earned an associate degree from Cuyahoga Community College; has worked as a union ironworker and, as of 2026, as an apprenticeship instructor for Ironworkers Local 17.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served as an at-large member of the Brook Park City Council.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign website says the economy should be 'built from the foundation up' by workers, criticizing policies he says protect corporate profits over wages.",
           "quote": "An economy that works can't be built from the penthouse down. It has to be built from the foundation up, and workers are that foundation.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign website supports the right to organize and says unions 'raise standards not just for their members, but for entire industries.'",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign website says healthcare 'shouldn't disappear when a job does' and calls for healthcare that is portable and not tied to employment.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Campaign website calls for policies that strengthen wages so that working people can 'afford to live with dignity.'",
-          "quote": "My focus is simple: if you work hard, you should be able to afford to live with dignity, support your family, and plan for the future.",
-          "sources": ["s3"]
+          "summary": "In his Ballotpedia Candidate Connection survey (2026) he says he supports expanding access to unions and raising the minimum wage.",
+          "quote": "I support expanding access to unions and raising the minimum wage.",
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign website calls for healthcare that is 'portable and dependable' and not tied to employment status.",
-          "quote": "Healthcare should be portable and dependable, so a change in work doesn't turn into a crisis for you or your family.",
-          "sources": ["s3"]
+          "summary": "In a September 2026 Akron Beacon Journal Q&A he said he supports undoing the health care cuts in the 2025 budget law and working toward universal health care over time.",
+          "quote": "I support working towards universal health care over time.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In his Ballotpedia Candidate Connection survey (2026) he says he opposes blanket tariffs while saying targeted tariffs can be a tool.",
+          "quote": "I oppose the blanket tariffs that are making everything more expensive.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In his Ballotpedia Candidate Connection survey (2026) he says he wants to end the tax cuts for the wealthy.",
+          "quote": "end the tax cuts for the wealthy",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a September 2026 Akron Beacon Journal Q&A he said he supports Ohio's 2024 reproductive-rights amendment and would oppose bills that threaten women or doctors with jail time.",
+          "quote": "In 2024, Ohio voted to protect a woman's right to make her own decisions about reproductive health care. I support that law, and I will oppose any bills that would threaten women or doctors with jail time.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -131,6 +209,22 @@
       "publisher": "Ballotpedia (candidate campaign website, as quoted)",
       "kind": "candidate",
       "date": "2026-04-24"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.yahoo.com/news/politics/articles/7th-district-candidates-talk-tariffs-100307836.html",
+      "title": "7th district candidates talk tariffs, health care and abortion (Akron Beacon Journal candidate Q&A)",
+      "publisher": "Akron Beacon Journal via Yahoo News",
+      "kind": "news",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Brian_Poindexter",
+      "title": "Brian Poindexter",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -70,6 +70,31 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, and H.R. 18, the Bipartisan Background Checks Act of 2025 (119th Congress).",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Cosponsored H.Con.Res. 68 (119th Congress), which directs the removal of U.S. Armed Forces from Venezuela that have not been authorized by Congress.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 4876, the Reproductive Freedom for Veterans Act (119th Congress), which would direct the Secretary of Veterans Affairs to provide abortion care, counseling and related services and medication to certain veterans.",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "record": [
@@ -133,7 +158,17 @@
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Calls for replacing catch-and-release with consistent processing backed by sufficient detention and monitoring capacity so people who do not meet legal standards can be removed, and for improved interior enforcement.",
+          "quote": "Replace catch‑and‑release with consistent processing.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.votegeorgeforcongress.com",
       "researchDepth": "minimal"
@@ -191,6 +226,41 @@
       "publisher": "Office of Rep. Joe Courtney",
       "kind": "official",
       "date": "2026-04-02"
+    },
+    {
+      "id": "s8",
+      "url": "https://votegeorgeforcongress.com/secure-our-borders/",
+      "title": "Securing Our Borders, Fixing a Broken System",
+      "publisher": "George Austin for Congress (campaign site)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115 - Assault Weapons Ban of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18 - Bipartisan Background Checks Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/68",
+      "title": "H.Con.Res. 68 - Directing removal of U.S. Armed Forces from Venezuela not authorized by Congress (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4876",
+      "title": "H.R. 4876 - Reproductive Freedom for Veterans Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

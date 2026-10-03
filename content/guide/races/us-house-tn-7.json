@@ -87,7 +87,8 @@
       ],
       "website": "https://vanepps.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "V000139"
+      "bioguideId": "V000139",
+      "researchNotes": "His official site issue pages are topic indexes without stated positions, he did not answer the Nashville Banner questionnaire, and no interview statements on the priority issues were found; floor votes are added separately from official records."
     },
     {
       "id": "darden-copeland",
@@ -147,9 +148,57 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he said to protect and expand Medicaid in Tennessee, strengthen Medicare and keep the ACA's enhanced subsidies in place.",
+          "quote": "We need to protect and expand Medicaid in Tennessee.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he supported restoring the top marginal income tax rate for the highest earners, closing the carried interest loophole and strengthening the corporate minimum tax.",
+          "quote": "Restoring the top marginal income tax rate for the highest earners.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he said waging war should require a congressional declaration, with the President able to use military power to stop immediate threats.",
+          "quote": "waging war should require a Congressional declaration",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a Nashville Banner questionnaire he said he does not support a federal abortion ban and that a woman's healthcare decisions should be left up to her.",
+          "quote": "I believe a woman’s healthcare decisions should be left up to her and her alone.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a Nashville Banner questionnaire answer on easing cost-of-living increases he said tariffs and \"wars of choice\" don't help.",
+          "quote": "Tariffs and “wars of choice” don’t help.",
+          "sources": [
+            "r1"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.dardenforcongress.com",
+      "researchNotes": "His immigration answer criticized deportations to countries migrants have no ties to while supporting secure borders; it was not recorded as a position on enforcement expansion."
     },
     {
       "id": "andrew-koontz",
@@ -263,6 +312,14 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "r1",
+      "url": "https://nashvillebanner.com/2026/07/16/darden-copeland-congress-tennessee-district-7/",
+      "title": "Darden Copeland: Democratic Candidate for Congress, District 7",
+      "publisher": "Nashville Banner candidate questionnaire",
+      "kind": "candidate",
+      "date": "2026-07-16"
     }
   ],
   "researchedAt": "2026-09-25",

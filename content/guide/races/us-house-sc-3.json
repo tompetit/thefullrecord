@@ -53,7 +53,17 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Her campaign site (text written during the Biden administration) says she will work to build the wall, stop illegal immigration and replace \"catch-and-release\" with \"stop-and-deport.\"",
+          "quote": "replace “catch-and-release” with “stop-and-deport.”",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Homeland Security (Border Security and Enforcement; Transportation and Maritime Security subcommittees), the Committee on Science, Space, and Technology (Energy; Research and Technology subcommittees), and the Committee on Foreign Affairs (2025-2026 assignments).",
@@ -65,7 +75,8 @@
       ],
       "researchDepth": "basic",
       "researchNotes": "Biggs has not completed Ballotpedia's 2026 Candidate Connection survey; no current-cycle campaign statements were located within the research budget. Key floor votes and FEC totals are added separately by script.",
-      "bioguideId": "B001325"
+      "bioguideId": "B001325",
+      "website": "https://sheribiggs.house.gov"
     },
     {
       "id": "eunice-lehmacher",
@@ -134,10 +145,20 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "In her Ballotpedia Candidate Connection survey she says she would restore and increase subsidies for renewable energy.",
+          "quote": "Reduce the cost of electricity by restoring and increasing subsidies for renewable energy and by improving the energy grid.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.euniceforsc.com/"
     },
     {
       "id": "brian-corriea",
@@ -182,6 +203,14 @@
       "title": "Eunice Lehmacher",
       "publisher": "Ballotpedia (Candidate Connection survey)",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.sheribiggs.com/issues",
+      "title": "Issues",
+      "publisher": "Sheri Biggs campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

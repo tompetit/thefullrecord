@@ -11,48 +11,110 @@
   "context": [
     {
       "text": "Ohio redrew its congressional map ahead of 2026 under a new Ohio Redistricting Commission plan. The Cook Political Report rates the 1st District R+1.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "greg-landsman",
       "name": "Greg Landsman",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Incumbent, running for re-election",
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Landsman is the incumbent U.S. Representative for Ohio's 1st District, first elected in 2022. He previously served on the Cincinnati City Council from 2018 to 2022.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Cincinnati in 1976; earned a B.A. in economics and political science from Ohio University (1999) and an M.A. in theological studies, religion, and public policy from Harvard University (2004).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as executive director of The Strive Partnership with the KnowledgeWorks Foundation and as director of the Ohio Governor's Office of Faith-Based and Community Initiatives before elected office.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the Cincinnati City Council from 2018 to 2022 before being elected to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In an April 2026 statement he says he voted for an Iran War Powers Resolution and that the President should come to Congress for help; he supported only targeted strikes.",
+          "quote": "It's time to be done in Iran, and I hope my vote in favor of the War Powers Resolution sends that message.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a February 2023 statement on joining the House Pro-Choice Caucus, he says he will work to combat attacks on abortion access and restore reproductive freedoms.",
+          "quote": "I will work with the House Pro-Choice Caucus to combat these attacks and restore these freedoms.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In a July 2026 statement he says he voted against a bill including parts of the SAVE America Act, which he says would prevent millions of Americans from voting.",
+          "quote": "The bill includes aspects of Trump's voter suppression bill the \"SAVE America Act,\" which will prevent tens of millions of Americans from voting.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In a January 2026 statement he calls on ICE to immediately withdraw from Minneapolis.",
+          "quote": "ICE should immediately withdraw from Minneapolis before more innocent Americans are hurt.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In a September 2026 release he announced a bill funded by a Billionaire Income Tax Act that sets a minimum 20 percent tax rate for households worth over $100 million.",
+          "quote": "Implement a Billionaire Income Tax Act to ensure households worth over $100 million pay at least a 20 percent tax rate on their full income, including unrealized gains.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Energy and Commerce (Environment; Health; Communications and Technology subcommittees) in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Said on July 19, 2024 that President Joe Biden should withdraw from the 2024 Democratic presidential race, saying 'It is time for President Biden to step aside and allow us to nominate a new leader who can reliably and consistently make the case against Donald Trump and make the case for the future of America.'",
           "date": "2024-07-19",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -61,96 +123,112 @@
     {
       "id": "eric-conroy",
       "name": "Eric Conroy",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 5, 2026 Republican primary",
       "summary": {
         "text": "Conroy is an Air Force veteran and former CIA case officer running as the Republican nominee. He describes his campaign as focused on national security, border security, and fiscal responsibility.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Grew up on the West Side of Cincinnati and graduated from Elder High School, then the U.S. Air Force Academy.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served on active duty in the Air Force and later worked overseas in national security as a CIA case officer.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says national security and border security must be restored, supporting 'strong border enforcement, modernizing our immigration system, and ensuring that federal law is consistently upheld.'",
           "quote": "National security and border security must be restored. A safe nation is the foundation for prosperity.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Calls for fiscal responsibility, citing federal spending as a driver of inflation, and says he will 'advocate for responsible budgeting, reducing waste, and policies that promote economic growth and job creation.'",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Supports energy independence and expanding domestic energy production and American manufacturing.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
+          "issue": "transgender_sports",
           "stance": "supports",
-          "summary": "Supports stronger border enforcement and says federal immigration law should be consistently upheld.",
-          "quote": "I support strong border enforcement, modernizing our immigration system, and ensuring that federal law is consistently upheld to protect American communities and sovereignty.",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Campaign website says he will 'stand with law enforcement, oppose defunding the police.'",
-          "quote": "Eric Conroy will stand with law enforcement, oppose defunding the police, and fight for policies that keep violent criminals off our streets.",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "israel_aid",
-          "stance": "supports",
-          "summary": "Campaign website says he will 'be a steadfast ally of Israel and our national security.'",
-          "quote": "Eric Conroy will strengthen America's military, invest in next-generation defense, and be a steadfast ally of Israel and our national security.",
-          "sources": ["s3"]
+          "summary": "Campaign site says he supports legislation reserving women's sports by sex, which would bar transgender women and girls.",
+          "quote": "Eric Conroy supports legislation to ensure women’s sports are reserved for biological females, protecting fairness and equal opportunity.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [],
-      "website": "https://www.conroyforcongress.com",
+      "website": "https://ericconroy.com/",
       "researchDepth": "basic"
     },
     {
       "id": "nathan-weise",
       "name": "Nathan Weise",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Weise is the Libertarian Party nominee, a software engineer who chairs the Hamilton County Libertarian Party and has served as communications director for the Ohio Libertarian Party.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from the University of Cincinnati (2013) and a graduate degree from Grand Canyon University (2019); works as a software engineer.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Joined the Libertarian Party in 2012, has represented Ohio at the Libertarian National Convention, and chairs the Hamilton County Libertarian Party.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Supports 'responsible spending reforms' to address inflation and make homeownership more attainable, under the message 'Make America Affordable Again.'",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Supports ending U.S. involvement in foreign wars and reducing the number of U.S. military bases abroad.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Supports an 'Ellis Island-style' immigration policy that eases entry and provides a path to permanent residency, and opposes militarized border enforcement.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -159,7 +237,9 @@
           "stance": "opposes",
           "summary": "Supports easier legal immigration and opposes militarized immigration enforcement; says he would abolish ICE.",
           "quote": "He supports eliminating the militarization of border security and immigration enforcement, believing that force should not be used against individuals who are not violent. Abolish ICE and replace it with nothing.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -198,6 +278,54 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://landsman.house.gov/media/press-releases/landsman-on-supporting-iran-war-powers-resolution",
+      "title": "Landsman on Supporting Iran War Powers Resolution",
+      "publisher": "Office of Rep. Greg Landsman (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://landsman.house.gov/media/press-releases/landsman-joins-house-pro-choice-caucus",
+      "title": "Landsman Joins House Pro-Choice Caucus",
+      "publisher": "Office of Rep. Greg Landsman (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://landsman.house.gov/media/press-releases/landsman-voted-to-stop-insider-trading-and-voter-suppression",
+      "title": "Landsman Voted to Stop Insider Trading and Voter Suppression",
+      "publisher": "Office of Rep. Greg Landsman (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://landsman.house.gov/media/press-releases/landsman-ice-should-immediately-withdraw-from-minneapolis-before-more-innocent-americans-are-hurt",
+      "title": "Landsman: \"Ice should immediately withdraw from Minneapolis before more innocent Americans are hurt\"",
+      "publisher": "Office of Rep. Greg Landsman (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://landsman.house.gov/media/press-releases/landsman-to-trump-workers-need-relief-now-make-billionaires-cover-cost",
+      "title": "Landsman to Trump: Workers Need Relief Now, Make Billionaires Cover Cost",
+      "publisher": "Office of Rep. Greg Landsman (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://ericconroy.com/issues/",
+      "title": "Issues — Eric Conroy for Congress",
+      "publisher": "Eric Conroy for Congress campaign site",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -59,7 +59,26 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her House issues page says she strongly supports fully funding and strengthening Medicare, Medicaid and community health centers.",
+          "quote": "I strongly support fully funding and strengthening Medicare, Medicaid, and our nation’s network of community health centers to make sure everyone can access care.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her House issues page says she voted for the Inflation Reduction Act, which she describes as the largest action on the climate crisis, investing in clean energy production and manufacturing.",
+          "quote": "The IRA is the largest action to combat the climate crisis in our nation’s history. It invests in clean energy production and manufacturing right here in the United States and puts us on track to reduce carbon emissions by 40 percent by 2030.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Committee on Natural Resources (Federal Lands; Indian and Insular Affairs subcommittees) and the House Committee on Rules (Legislative and Budget Process subcommittee).",
@@ -97,7 +116,17 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His campaign border page lists ending catch-and-release and mandatory detention for illegal border crossers, plus finishing the border wall and more Border Patrol resources, among his policy priorities.",
+          "quote": "End catch-and-release and enforce mandatory detention for illegal border crossers",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "As a New Mexico state representative, served on the Agriculture, Acequias and Water Resources Committee and the State Government, Elections & Indian Affairs Committee (Ranking Member, 2023-2024); currently serves on both committees for 2025-2026.",
@@ -139,6 +168,27 @@
       "title": "Martin Ruben Zamora",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://fernandez.house.gov/Issues/Issue/?IssueID=14895",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Teresa Leger Fernández",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://fernandez.house.gov/Issues/Issue/?IssueID=74",
+      "title": "Our Planet",
+      "publisher": "Office of Rep. Teresa Leger Fernández",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://zamorafornewmexico.com/border",
+      "title": "Securing the Southern Border",
+      "publisher": "Zamora for New Mexico",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

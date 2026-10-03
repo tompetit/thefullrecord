@@ -52,6 +52,22 @@
       "title": "Committee Membership",
       "publisher": "House Judiciary Committee Democrats",
       "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://mfume.house.gov/media/press-releases/mfume-maryland-delegation-members-urge-republican-leaders-to-reopen-government-prevent-health-care-costs-from-skyrocketing-and-protect-rural-health-care-access",
+      "title": "Mfume, Maryland Delegation Members Urge Republican Leaders to Reopen Government, Prevent Health Care Costs from Skyrocketing and Protect Rural Health Care Access",
+      "publisher": "Office of Rep. Kweisi Mfume",
+      "kind": "official",
+      "date": "2025-10-16"
+    },
+    {
+      "id": "s7",
+      "url": "https://raskin.house.gov/2026/4/raskin-statement-on-gop-s-dangerous-ice-boondoggle",
+      "title": "Raskin Statement on GOP's Dangerous ICE Boondoggle",
+      "publisher": "Office of Rep. Jamie Raskin",
+      "kind": "official",
+      "date": "2026-04-30"
     }
   ],
   "candidates": [
@@ -113,7 +129,7 @@
         {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Worked with then-state Senator Brian Frosh to pass what Ballotpedia describes as one of the most comprehensive state gun safety laws in the nation in 2013.",
+          "summary": "Per his 2016 campaign website as quoted by Ballotpedia, worked with then-state Senator Brian Frosh to pass what the page describes as one of the most comprehensive state gun safety laws in the nation in 2013.",
           "sources": [
             "s2"
           ]
@@ -121,9 +137,27 @@
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Has called for dramatically reducing greenhouse gas emissions and investing in renewable energy such as solar and wind power.",
+          "summary": "Per his 2016 campaign website as quoted by Ballotpedia, says he will work to dramatically reduce greenhouse gas emissions and invest in clean energy such as solar and wind power.",
           "sources": [
             "s2"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Joined the Maryland delegation in a letter urging House Republican leaders to extend the ACA enhanced premium tax credits and warning of Medicaid losses under H.R. 1.",
+          "quote": "we urge leadership to act swiftly to extend the ePTCs",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Said he voted against House Republicans' budget resolution to provide billions more in taxpayer funding for ICE and CBP.",
+          "quote": "House Republicans’ latest scheme to funnel billions of taxpayer funding toward Donald Trump and Stephen Miller’s reign of ICE lawlessness",
+          "sources": [
+            "s7"
           ]
         }
       ],

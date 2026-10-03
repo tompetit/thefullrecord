@@ -51,22 +51,24 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supports making the Tax Cuts and Jobs Act's lower tax rates permanent and has cosponsored repeal of the federal estate tax.",
-          "sources": ["s2"]
-        },
-        {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Says fossil fuels are an abundant, cost-efficient energy source and supports coal, oil and gas production over restrictions aimed at reducing emissions.",
+          "summary": "Calls fossil fuels an abundant, cost-efficient energy source, supports coal and oil and gas development, and opposes federal rules such as the MATS rule and a fracking ban.",
           "sources": ["s2"]
         },
         {
-          "issue": "school_choice",
+          "issue": "war_powers",
+          "stance": "mixed",
+          "summary": "In a March 2026 questionnaire, said the President may act swiftly with limited engagement while Congress reviews, but that sustained combat requires formal congressional authorization.",
+          "quote": "If operations extend into sustained combat, Congress must provide formal authorization or determine the appropriate course forward.",
+          "sources": ["s5"]
+        },
+        {
+          "issue": "housing_supply",
           "stance": "supports",
-          "summary": "Supports reducing federal involvement in education and says parents are best suited to make educational choices for their children.",
-          "sources": ["s2"]
+          "summary": "Says he has supported policies that reduce regulatory barriers to building new housing.",
+          "quote": "I've also supported policies that expand access to capital and reduce regulatory barriers that make it harder to build new housing.",
+          "sources": ["s5"]
         }
       ],
       "record": [
@@ -101,10 +103,32 @@
       },
       "background": [],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a March 2026 questionnaire, said only Congress has the power to declare war and that he would put Congress back in charge of any use of military force against a foreign nation.",
+          "quote": "If I’m elected to Congress, I will make sure that we put Congress back in charge of any use of military force against any foreign nation, no matter how slight.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Names restoring Medicaid funding and the ACA subsidies among his first priorities and calls for repealing and replacing the One Big Beautiful Bill's Medicaid cuts.",
+          "quote": "Restore Medicaid funding and the ACA subsidies.",
+          "sources": ["s4"]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says the regulatory process for building houses is too slow and expensive and should be streamlined.",
+          "quote": "We need to streamline that process if we want to get serious about this issue.",
+          "sources": ["s4"]
+        }
+      ],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Candidate Connection survey response, or other public statements found for Brian Miller in the time available."
+      "researchNotes": "Positions drawn from the Montana Free Press March 2026 candidate questionnaire; no campaign issues page was reviewed."
     },
     {
       "id": "patrick-mccracken",
@@ -161,6 +185,22 @@
       "title": "Brian Miller (Montana)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/brian-j-miller/",
+      "title": "Brian J Miller — 2026 Montana Election Guide (candidate questionnaire, March 2026)",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "s5",
+      "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/troy-downing/",
+      "title": "Troy Downing — 2026 Montana Election Guide (candidate questionnaire, March 2026)",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-03-01"
     }
   ],
   "researchedAt": "2026-09-25",

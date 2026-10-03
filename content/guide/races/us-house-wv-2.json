@@ -11,45 +11,80 @@
   "context": [
     {
       "text": "Incumbent Riley Moore (R) ran unopposed in the Republican primary. Ace Parsi won the Democratic primary on May 12, 2026.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "riley-moore",
       "name": "Riley Moore",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
         "text": "Riley Moore is the incumbent U.S. Representative for West Virginia's 2nd District, seeking re-election in 2026. He previously served as West Virginia State Treasurer.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in Morgantown, West Virginia; lives in Harpers Ferry, West Virginia.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Earned a bachelor's degree in government and international politics from George Mason University and a master's degree in strategic security studies from the National Defense University.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Career experience includes working as a national security staffer for the U.S. House Committee on Foreign Affairs and as a contract employee for the U.S. Department of Homeland Security.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as West Virginia State Treasurer before his election to the U.S. House in 2022.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In a 2025 op-ed he called for the largest deportation operation in American history and praised funding for expanded ICE detention capacity and more ICE agents.",
+          "quote": "President Trump needs to finish the wall and engage in the largest deportation operation in American history to undo the Biden border invasion.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "supports",
+          "summary": "After the Supreme Court struck down tariffs imposed under IEEPA, he criticized the ruling and introduced the U.S. Reciprocal Trade Act to authorize the President to impose reciprocal tariffs.",
+          "quote": "The Court’s decision to strike down President Trump’s tariff policy is egregiously wrong, both as a matter of law and as a matter of justice for American workers.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Assigned to the House Committee on Appropriations for the 119th Congress (2025-2026), including as Vice Chair of the Legislative Branch subcommittee, and to the Commerce-Justice-Science and Labor-HHS-Education subcommittees.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://rileymoore.house.gov",
@@ -59,47 +94,110 @@
     {
       "id": "ace-parsi",
       "name": "Ace Parsi",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Ace Parsi is a public education and democracy advocate running as the Democratic nominee for West Virginia's 2nd District.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Immigrated to the United States at age eight and a half, having fled a dictatorship.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Earned a high school diploma from Wyoming Area High School and a bachelor's degree from Penn State University (2005).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Career experience includes working as an advocate on public education issues.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"We can have a more affordable future. By overturning the cuts in the Big Beautiful Bill, turning back tariffs on groceries, eliminating the current benefit cliffs... we can have that.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"We can have a more caring future. By investing in infrastructure around clean drinking water and investing in the individuals in care jobs whether they're nurses and teachers or law enforcement.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"We can have a more empowered future. We can take the power back from big tech and their AI imagined future and create systems and relationships where government and elected officials are more responsive.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "tariffs",
           "stance": "opposes",
-          "summary": "Says he would work to roll back tariffs on groceries.",
-          "quote": "By overturning the cuts in the Big Beautiful Bill, turning back tariffs on groceries, eliminating the current benefit cliffs that diminish people's motivation to get ahead... we can have a more affordable future.",
-          "sources": ["s3"]
+          "summary": "His campaign platform calls for ending the current tariffs and for Congress to exercise authority over them, while saying tariffs should be used to level the playing field.",
+          "quote": "Tariffs are taxes on consumers that have raised the prices for everything from ground beef to Christmas toys.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign platform calls for pursuing a single-payer public option and reversing Medicaid cuts in the 2025 budget law.",
+          "quote": "Healthcare: Fund rural hospitals; pursue a single-payer public option",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "His campaign platform lists raising the minimum wage to a living wage.",
+          "quote": "Raise the minimum wage to a living wage",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "His campaign platform calls for tax incentives and zoning reform to build more housing.",
+          "quote": "Housing: Tax incentives and zoning reform to build more housing so West Virginians can afford to stay in West Virginia",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "His campaign platform calls for redirecting funds lost to vouchers back into public schools.",
+          "quote": "redirect lost funds for vouchers back into public schools",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His campaign platform calls for diversifying energy supply through wind, solar and other sources and for cutting fossil fuel subsidies.",
+          "quote": "Energy: Diversify supply through wind, solar, and other sources to drive down heating bills",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -127,6 +225,28 @@
       "title": "Ace Parsi",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "url": "https://www.theintermountain.com/news/local-news/2025/07/op-ed-one-big-beautiful-bill-delivers-for-west-virginia-by-congressman-riley-moore/",
+      "title": "Op-Ed: One Big Beautiful Bill Delivers for West Virginia by Congressman Riley Moore",
+      "publisher": "The Intermountain",
+      "kind": "candidate",
+      "date": "2025-07",
+      "id": "s4"
+    },
+    {
+      "url": "https://rileymoore.house.gov/media/press-releases/congressman-riley-m-moore-responds-supreme-courts-decision-president-trumps",
+      "title": "Congressman Riley M. Moore responds to Supreme Court's decision on President Trump's tariffs",
+      "publisher": "Office of Rep. Riley Moore",
+      "kind": "official",
+      "id": "s5"
+    },
+    {
+      "url": "https://www.aceforcongress.com/aceplatform",
+      "title": "Platform",
+      "publisher": "Ace For Congress (campaign site)",
+      "kind": "candidate",
+      "id": "s6"
     }
   ],
   "researchedAt": "2026-09-25",

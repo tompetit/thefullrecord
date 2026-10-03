@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "2",
-  "title": "U.S. House \u00b7 Arkansas's 2nd District",
+  "title": "U.S. House · Arkansas's 2nd District",
   "area": "Central Arkansas, including Little Rock, North Little Rock, and Conway.",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -76,10 +76,26 @@
         {
           "issue": "housing_supply",
           "stance": "supports",
-          "summary": "Sponsored the 21st Century ROAD to Housing Act, enacted in 2026, which he describes as reducing regulatory barriers to new home construction and modernizing local zoning rules to increase housing supply.",
-          "quote": "It cuts red tape, increases housing supply, and makes homeownership more attainable for families across Arkansas and the nation.",
+          "summary": "Held a press conference celebrating his 21st Century ROAD to Housing Act becoming law (July 11, 2026); the release says it includes provisions to reduce regulatory barriers to new home construction and makes local zoning rules more competitive.",
+          "quote": "makes local zoning rules more competitive",
           "sources": [
             "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 38, the Constitutional Concealed Carry Reciprocity Act, which would allow a person eligible to carry a concealed firearm in one state to carry in other states that allow concealed carry.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Cosponsored H.J.Res. 88, which revokes the waiver granted to California for its Advanced Clean Cars II regulations, which include zero-emission vehicle requirements.",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -108,7 +124,7 @@
           ]
         }
       ],
-      "website": "https://electfrenchhill.com/",
+      "website": "https://www.electfrench.com/",
       "researchDepth": "full"
     },
     {
@@ -211,6 +227,20 @@
       "publisher": "Office of U.S. Rep. French Hill",
       "kind": "official",
       "date": "2026-07-22"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/38",
+      "title": "H.R. 38 — Constitutional Concealed Carry Reciprocity Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/88",
+      "title": "H.J.Res. 88 — Disapproval of EPA notice on California Advanced Clean Cars II waiver",
+      "publisher": "Congress.gov",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

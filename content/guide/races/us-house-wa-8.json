@@ -11,78 +11,131 @@
   "context": [
     {
       "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Kim Schrier and Spencer Meline advanced from the August 4, 2026 primary over a crowded Republican field that included Trinh Ha, Bob Hagglund, and Andres Valleza, and Democrat Keith Arnold. Schrier won the primary with 53.8% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "kim-schrier",
       "name": "Kim Schrier",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
         "text": "Kim Schrier is the Democratic incumbent for Washington's 8th Congressional District, a pediatrician who has represented the district since 2019 and serves on the Energy and Commerce Committee.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree in astrophysics from the University of California, Berkeley in 1991 and an M.D. from the University of California, Davis in 1997; completed a pediatrics residency at Stanford University School of Medicine and began practicing as a pediatrician in 2000.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "For the 2025-2026 Congress, sits on the Committee on Energy and Commerce (Commerce, Manufacturing, and Trade subcommittee; Health subcommittee; Energy subcommittee).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Has type 1 diabetes, diagnosed at age 16, which she cites in her work on healthcare and prescription drug costs.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Highlights healthcare affordability, gun safety, and the economy and trade as core campaign issues, drawing on her background as a pediatrician and patient.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Has worked on legislation to end surprise medical billing, prevent Medicare cuts, and lower prescription drug costs, and re-introduced a bill to expand pediatric care access.",
-          "quote": "I have worked to get bills passed into law to end surprise medical billing, prevent Medicare cuts, and make healthcare more affordable by shoring up the ACA... this year I re-introduced the Helping Families Access Pediatric Care Act (HR 8573).",
-          "sources": ["s3"]
+          "summary": "Says she has worked on legislation to end surprise medical billing, prevent Medicare cuts and strengthen the ACA, and re-introduced a bill on children's access to pediatric care.",
+          "quote": "I have worked to get bills passed into law to end surprise medical billing, prevent Medicare cuts, and make healthcare more affordable by shoring up the ACA.",
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says she will protect a woman's right to choose and keep politicians out of medical decisions between a woman and her doctor.",
           "quote": "As a doctor, I will always fight to protect a woman's right to choose and to keep politicians out of private decisions between a woman and her doctor.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Supports background-check expansion and other gun-safety measures while saying she backs the rights of responsible gun owners; voted for the bipartisan Safer Communities Act and cosponsored universal background-check legislation.",
+          "summary": "Supports background-check expansion and other gun-safety measures while saying she backs the rights of responsible gun owners; cosponsored universal background-check legislation and helped pass the bipartisan Safer Communities Act.",
           "quote": "I cosponsored universal, comprehensive background check legislation in Congress because guns should never be allowed in the hands of someone with a history of domestic violence, a violent criminal record, convicted stalkers, or those with severe mental illness.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says climate change requires immediate action, cosponsored the Climate Action Now Act to keep the U.S. in the Paris Climate Accords, and supports action to reduce carbon emissions and create clean energy jobs.",
+          "quote": "Climate change is real and I know we must take immediate action.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says she will make the wealthiest corporations pay their fair share of taxes without raising taxes on middle-class families.",
+          "quote": "I will bring financial relief to families experiencing these rising costs by finally making sure the wealthiest corporations pay their fair share of taxes, without raising taxes on middle-class families.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says she sponsored a bill to triple funding for COPS grants and voted to increase law enforcement funding, and says she opposes efforts to defund the police.",
+          "quote": "I sponsored the COPS on the Beat Grant Program Reauthorization and Parity Act that would triple funding for COPS grants",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
         {
           "text": "Re-introduced the Helping Families Access Pediatric Care Act (H.R. 8573) to expand access to pediatric care.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Sponsored a bill, signed into law, to speed federal approval of generic insulin to bring down costs.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Cosponsored the reauthorization of the Violence Against Women Act, which includes provisions to keep guns from people convicted of domestic-violence offenses.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://drkimschrier.com",
@@ -92,46 +145,53 @@
     {
       "id": "spencer-meline",
       "name": "Spencer Meline",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Spencer Meline is the Republican nominee for Washington's 8th Congressional District, a small business owner from Cashmere who is running on lowering the cost of living and supporting small businesses.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Born and raised in Edmonds, Washington; now lives in Cashmere in the 8th District.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Built businesses from the ground up in Leavenworth, Washington, gaining experience managing payroll, navigating regulations, and leading teams; career experience includes working as a business owner.",
-          "sources": ["s5", "s6"]
+          "sources": [
+            "s5",
+            "s6"
+          ]
         },
         {
           "text": "Endorsed by the King County and Snohomish County Republican parties.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists strong small businesses, lowering the cost of living, safe communities, responsible stewardship of public lands, and smart and secure immigration as his campaign's priorities.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Says small businesses are the backbone of the district's economy and that his own experience building businesses gives him a practical understanding of how federal policy affects employers and workers.",
           "quote": "Small businesses are the backbone of Washington's 8th District. When small businesses are strong, communities are strong, workers have opportunity, and the American Dream is within reach.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
-      "positions": [
-        {
-          "issue": "school_choice",
-          "stance": "mixed",
-          "summary": "Supports parental involvement in education and homeschools his own children, without describing a specific federal school-choice funding proposal.",
-          "quote": "My wife and I homeschool our children because we believe parents should play a meaningful role in education.",
-          "sources": ["s7"]
-        }
-      ],
+      "positions": [],
       "record": [],
       "website": "https://www.melineforcongress.com",
       "researchDepth": "basic"
@@ -185,6 +245,27 @@
       "url": "https://ballotpedia.org/Spencer_Meline",
       "title": "Spencer Meline - Ballotpedia Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://drkimschrier.com/climate-change-and-the-environment/",
+      "title": "Climate Change and the Environment",
+      "publisher": "Dr. Kim Schrier for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://drkimschrier.com/economy/",
+      "title": "Economy + Trade",
+      "publisher": "Dr. Kim Schrier for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://drkimschrier.com/public-safety/",
+      "title": "Public Safety",
+      "publisher": "Dr. Kim Schrier for Congress",
       "kind": "candidate"
     }
   ],

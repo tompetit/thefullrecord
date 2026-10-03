@@ -11,38 +11,123 @@
   "context": [
     {
       "text": "Rick Larsen and Edwin Feller advanced from the August 4, 2026 top-two primary, defeating two other Democratic candidates. Larsen won the primary with 44.9% of the vote to Feller's 32.9%.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "rick-larsen",
       "name": "Rick Larsen",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the August 4 top-two primary with 44.9% of the vote",
       "currentRole": "U.S. Representative (since 2001)",
       "summary": {
         "text": "Rick Larsen is the incumbent Democratic U.S. Representative for Washington's 2nd District, first elected in 2000. He serves on the House Committee on Transportation and Infrastructure, including its Aviation and Coast Guard/Maritime Transportation subcommittees.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born in Arlington, Washington, in 1965. Earned a bachelor's degree from Pacific Lutheran University in 1983 and a master's degree in public affairs from the University of Minnesota in 1990.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Worked as director of public affairs for the Washington State Dental Association and as an economic development official with the Port of Everett before serving on the Snohomish County Council.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Criticizes the current administration's immigration enforcement and calls for ending child and family detention, ending private immigration detention facilities, and prohibiting masked ICE officers during arrests.",
+          "quote": "President Trump’s brutal immigration enforcement agenda is separating families, deporting our neighbors and detaining and killing citizens.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says extending the ACA tax credits is essential and cosponsored legislation to permanently extend them and to reverse Medicaid, Medicare and ACA cuts in the 2025 budget law.",
+          "quote": "Extending the ACA tax credits is essential for lowering skyrocketing health care costs.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored the Women's Health Protection Act to restore Roe v. Wade protections and re-establish a nationwide right to access abortion care.",
+          "quote": "I cosponsored legislation to restore the protections of Roe v. Wade and re-establish a nationwide right to access abortion care",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he strongly opposed the U.S. withdrawal from the Paris Climate Accord and the rollback of clean vehicle emissions standards, and cosponsored legislation promoting clean energy manufacturing.",
+          "quote": "Strongly opposed President Trump’s decision to remove the United States from the Paris Climate Accord, an agreement between 195 countries to slow the impacts of global climate change.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an August 2026 statement, called for ending new U.S. tariffs on Canadian goods and renegotiating the USMCA.",
+          "quote": "The U.S. must renegotiate the U.S.-Mexico-Canada trade agreement (USMCA) and end these pointless, reckless tariffs.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports raising the federal minimum wage to $15 per hour and tying future increases to the median hourly wage.",
+          "quote": "I also support efforts to raise the federal minimum wage to $15 per hour and tie future adjustments to the median hourly wage.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports raising the amount wealthy individuals contribute to Social Security, including scrapping the cap on income subject to Social Security taxes.",
+          "quote": "I support extending the long-term solvency of Social Security by increasing the amount wealthy individuals contribute to the system and oppose efforts to privatize the program.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Supports full funding for the Byrne JAG and COPS grant programs that fund local police departments for officers, equipment and training.",
+          "quote": "I support full funding for the Edward Byrne Memorial Justice Assistance Grant (JAG) Program and Community Oriented Policing Services (COPS) Grant Program, which provide federal funding to local police departments for officers, equipment, training, and community policing efforts.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Sits on the House Committee on Transportation and Infrastructure for the 2025-2026 Congress, including the Aviation, Coast Guard and Maritime Transportation, Highways and Transit, and Water Resources and Environment subcommittees.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "website": "https://larsen.house.gov",
@@ -52,41 +137,64 @@
     {
       "id": "edwin-feller",
       "name": "Edwin Feller",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the August 4 top-two primary with 32.9% of the vote",
       "summary": {
         "text": "Edwin Feller is a Republican candidate for Washington's 2nd District who has not completed Ballotpedia's Candidate Connection survey. His campaign website lists positions on public safety, energy, and immigration policy.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       "background": [],
       "priorities": [
         {
           "text": "Feller's campaign platform calls for a federal \"Safe Streets\" mandate tying grants to local cooperation, designating cartels as foreign terrorist organizations, and ending sanctuary policies.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Calls for dismantling current environmental mandates, streamlining energy permits, expanding nuclear and hydroelectric capacity, and repealing federal carbon taxes.",
           "quote": "Dismantling radical environmental mandates, streamlining energy permits, expanding nuclear and hydroelectric capacity, and repealing federal carbon taxes to deliver affordable, reliable American-made energy.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Supports a federal Safe Streets mandate tying grants to local cooperation with immigration enforcement and ending sanctuary policies.",
-          "sources": ["s2"]
+          "summary": "Campaign platform calls for a federal Safe Streets mandate tying grants to local cooperation and for ending sanctuary policies.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Campaign platform calls for codifying in Title IX a sex-based definition that governs school sports eligibility, citing fairness for female athletes.",
+          "quote": "Codifying that \"sex\" in Title IX refers exclusively to biological sex, ensuring fairness and safety for female athletes across our collegiate and high school programs.",
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Campaign platform calls for repealing federal carbon taxes, dismantling current environmental mandates, and expanding nuclear and hydroelectric energy capacity.",
-          "sources": ["s2"]
+          "summary": "His campaign platform lists repealing federal carbon taxes among its energy priorities.",
+          "quote": "repealing federal carbon taxes to deliver affordable, reliable American-made energy",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://fellerforcongress.com"
     }
   ],
   "sources": [
@@ -102,6 +210,62 @@
       "url": "https://ballotpedia.org/Edwin_Feller",
       "title": "Edwin Feller",
       "publisher": "Ballotpedia (quoting Edwin Feller's campaign website, July 20, 2026)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://larsen.house.gov/issues/issue/?IssueID=14896",
+      "title": "Immigration Reform",
+      "publisher": "Office of Rep. Rick Larsen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://larsen.house.gov/issues/issue/?IssueID=14895",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Rick Larsen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://larsen.house.gov/issues/issue/?IssueID=14892",
+      "title": "Energy & Environment",
+      "publisher": "Office of Rep. Rick Larsen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://larsen.house.gov/news/documentsingle.aspx?DocumentID=4251",
+      "title": "Larsen Releases Statement on Collapse of U.S.-Canada Talks to Prevent Trump's Pointless New Tariffs",
+      "publisher": "Office of Rep. Rick Larsen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://larsen.house.gov/issues/issue/?IssueID=14897",
+      "title": "Jobs & the Economy",
+      "publisher": "Office of Rep. Rick Larsen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://larsen.house.gov/issues/issue/?IssueID=14898",
+      "title": "Seniors",
+      "publisher": "Office of Rep. Rick Larsen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://larsen.house.gov/issues/issue/?IssueID=14910",
+      "title": "Opioids & Law Enforcement",
+      "publisher": "Office of Rep. Rick Larsen",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://fellerforcongress.com/",
+      "title": "Edwin Feller for Congress",
+      "publisher": "Feller for Congress",
       "kind": "candidate"
     }
   ],
