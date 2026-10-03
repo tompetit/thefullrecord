@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { REPO_URL } from "@/lib/site";
+import { LOOKUP_SCOPE, REPO_URL } from "@/lib/site";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { ISSUE_TOPICS } from "@/lib/issues";
 
@@ -47,7 +47,7 @@ export default function Home() {
 
       <section id="find-your-reps" className="scroll-mt-6 border-y border-hairline bg-canvas/50">
         <div className="mx-auto grid max-w-7xl gap-7 px-6 py-12 lg:grid-cols-2 lg:gap-16 lg:px-10">
-          <div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">From City Hall to Congress</p><h2 className="mt-3 font-serif text-3xl font-semibold text-ink">Who represents you?</h2><p className="mt-3 max-w-lg text-sm leading-relaxed text-ink-60">Find your current representatives in Congress and your state legislature, plus the city council in New York City and Washington, D.C. Explore their votes and the sources behind them.</p></div>
+          <div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">From City Hall to Congress</p><h2 className="mt-3 font-serif text-3xl font-semibold text-ink">Who represents you?</h2><p className="mt-3 max-w-lg text-sm leading-relaxed text-ink-60">{LOOKUP_SCOPE} Explore their votes and the sources behind them.</p></div>
           <div><AddressLookupForm /><Link href="/representatives?sample=1" className="mt-4 inline-block text-xs font-semibold text-accent underline underline-offset-4">Explore a Brooklyn example →</Link></div>
         </div>
       </section>

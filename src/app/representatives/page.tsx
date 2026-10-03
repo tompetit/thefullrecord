@@ -3,6 +3,7 @@ import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { OfficialCard } from "@/components/OfficialCard";
 import { SourceLink } from "@/components/SourceLink";
 import { getDataSource } from "@/server/datasource";
+import { LOOKUP_SCOPE } from "@/lib/site";
 import type { LookupContext } from "@/server/types";
 
 export const metadata = { title: "Your representatives — The Full Record" };
@@ -108,7 +109,7 @@ export default async function RepresentativesPage({
           {isSample && " This is an example address, not your location."}
         </p>
         <AddressLookupForm initialAddress={address} />
-        <p className="mt-4 font-sans text-xs leading-relaxed text-ink-60">Coverage includes U.S. Congress and state legislators for any U.S. address, plus the NYC Council and the D.C. Council. Mayors, county offices and other local bodies are not included. Recorded votes are in our dataset for every member of Congress and for New York officials; other states’ legislators appear with their rosters, and some have selected votes (<Link href="/coverage" className="underline hover:text-ink">see coverage by place</Link>). Missing records do not mean an official took no action.</p>
+        <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">{LOOKUP_SCOPE} Missing records do not mean an official took no action. <Link href="/coverage" className="underline hover:text-ink">See coverage by place</Link>.</p>
         {result.context && <LookupNotes context={result.context} />}
         <Link
           href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}

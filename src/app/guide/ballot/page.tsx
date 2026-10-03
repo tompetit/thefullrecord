@@ -27,8 +27,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
           <>
             <p className="mt-2 max-w-xl font-sans text-[14.5px] leading-[1.6] text-ink-60">
               Enter your address to see the races on your November 3 ballot.
-              Any U.S. address shows your House and Senate races; New York
-              addresses also show state races and ballot proposals.
+              Any U.S. address shows your House and Senate races; New York addresses also show state races and ballot proposals.
             </p>
             <BallotAddressForm />
           </>
@@ -107,9 +106,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
             </ol>
             {result.state !== "NY" && (
               <p className="mt-6 font-sans text-[12.5px] text-ink-45">
-                Outside New York, this guide covers U.S. House and Senate races
-. Your ballot may also include
-                state and local contests — check your state election office.
+                Outside New York, this guide covers U.S. House and Senate races. Your ballot may also include state and local contests; check your state election office.
               </p>
             )}
           </>

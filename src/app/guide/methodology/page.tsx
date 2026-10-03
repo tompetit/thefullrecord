@@ -28,7 +28,7 @@ export default function MethodologyPage() {
             every U.S. House district that touches the city, every NYC State Senate
             and Assembly district, and the city&rsquo;s ballot proposals.{" "}
             <b>Everywhere else:</b> every U.S. House and U.S. Senate race in the
-            country, plus New Jersey&rsquo;s federal races in depth.
+            country.
           </P>
         </section>
 

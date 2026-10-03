@@ -3,13 +3,14 @@ import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { GuideSearch } from "@/components/guide/GuideSearch";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
 import { GuideFooter, GuideNav, SectionLabel } from "@/components/guide/ui";
+import { GUIDE_SCOPE } from "@/lib/site";
 import { getAllRaces, getGuideStats } from "@/server/guide/load";
 import { toSearchRaces } from "@/server/guide/search";
 
 export const metadata = {
   title: "2026 Voter Guide — The Full Record",
   description:
-    "Explore researched candidate profiles, recorded votes, and documented positions for the 2026 elections, with sources and coverage notes.",
+    "Researched candidate profiles, recorded votes and documented positions for the 2026 elections, with sources and coverage notes.",
 };
 
 export const revalidate = 3600;
@@ -45,10 +46,7 @@ export default function GuidePage() {
             Know who&rsquo;s on your ballot — by what they&rsquo;ve actually done.
           </h1>
           <p className="mt-4 max-w-xl font-sans text-[15px] leading-[1.6] text-ink-60">
-            Explore researched candidates in New York City, New Jersey, and
-            U.S. House and Senate races across the country. Follow sources for
-            their votes and documented positions. Research depth varies; this
-            is not an official or complete ballot. No endorsements, no scores.
+            {GUIDE_SCOPE} Follow sources for their votes and documented positions. Research depth varies; this is not an official or complete ballot. No endorsements, no scores.
           </p>
           <BallotAddressForm />
           <div className="mt-4 flex flex-wrap gap-2">
