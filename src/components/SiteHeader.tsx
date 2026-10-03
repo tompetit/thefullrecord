@@ -10,7 +10,7 @@ type Section = "reps" | "votes" | "guide" | "data";
 /** Which primary section a path belongs to (null: home, digest, 404…). */
 export function sectionFor(pathname: string): Section | null {
   const top = pathname.split("/")[1] ?? "";
-  if (top === "representatives" || top === "official" || top === "bill") return "reps";
+  if (top === "representatives" || top === "official") return "reps";
   if (top === "issues") return "votes";
   if (top === "guide") return "guide";
   if (top === "coverage") return "data";

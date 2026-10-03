@@ -1,4 +1,3 @@
-import Link from "next/link";
 import type { VoteRecord } from "@/server/types";
 import { AiMarker } from "./AiMarker";
 import { SourceLink } from "./SourceLink";
@@ -18,14 +17,6 @@ export function VoteCard({
   vote: VoteRecord;
   desktop?: boolean;
 }) {
-  const title = vote.billId ? (
-    <Link href={`/bill/${vote.billId}`} className="hover:underline">
-      {vote.title}
-    </Link>
-  ) : (
-    vote.title
-  );
-
   return (
     <article className="flex flex-col rounded-lg border border-card bg-paper-raised px-4 pt-4 shadow-card transition-shadow hover:shadow-card-raised">
       <div className="flex items-start justify-between gap-3">
@@ -38,7 +29,7 @@ export function VoteCard({
               desktop ? "text-lg" : "text-[16.5px]"
             }`}
           >
-            {title}
+            {vote.title}
           </h3>
         </div>
         <VoteBadge vote={vote.vote} />
@@ -52,7 +43,7 @@ export function VoteCard({
             {vote.aiSummary}
           </p>
           <AiMarker
-            billTextUrl={vote.billId ? `/bill/${vote.billId}` : vote.sourceUrl}
+            billTextUrl={vote.sourceUrl}
             source={vote.summarySource ?? "ai"}
           />
         </>

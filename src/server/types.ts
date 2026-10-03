@@ -62,8 +62,6 @@ export interface VoteRecord {
   question?: string;
   id: string;
   officialId: string;
-  /** Route id of the bill detail page, when we have one */
-  billId?: string;
   /** e.g. "S4821-A" */
   billNumber: string;
   /** e.g. "SENATE" */
@@ -111,54 +109,6 @@ export interface AttendanceEntry {
   attended: number;
   total: number;
   sourceUrl: string;
-}
-
-export interface BillStatusStep {
-  label: string;
-  dateLabel: string;
-  state: "done" | "current" | "future";
-}
-
-export interface RollCallMember {
-  name: string;
-  /** e.g. "D–21" */
-  district: string;
-  vote: VoteChoice;
-}
-
-export interface RollCall {
-  outcome: string;
-  dateLabel: string;
-  yes: number;
-  no: number;
-  absent: number;
-  members: RollCallMember[];
-  totalMembers: number;
-  sourceUrl: string;
-}
-
-export interface BillSource {
-  label: string;
-  url: string;
-}
-
-export interface Bill {
-  id: string;
-  number: string;
-  chamber: string;
-  session: string;
-  title: string;
-  /** e.g. "Sponsor: Sen. Dana Okafor (D–SD 21) · 14 co-sponsors" */
-  sponsorLine: string;
-  whatItDoes: string;
-  whoItAffects: string;
-  statusSteps: BillStatusStep[];
-  rollCall: RollCall;
-  /** Note under "How your reps voted", incl. companion bill */
-  yourRepsNote: string;
-  /** Explicit recorded votes by the user's own representatives */
-  yourRepsVotes: Array<{ officialId: string; vote: VoteChoice }>;
-  sources: BillSource[];
 }
 
 export interface Evidence {

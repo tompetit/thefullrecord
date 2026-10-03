@@ -19,7 +19,6 @@ import { lookupOfficials, resolveOfficialByDistrictKey } from "./live/lookup";
 import { getSnapshots, snapshotAttendance, snapshotVotes } from "./live/snapshot";
 import type {
   AttendanceEntry,
-  Bill,
   Digest,
   LookupContext,
   DigestItem,
@@ -53,7 +52,6 @@ export interface DataSource {
   getVotes(officialId: string, query?: VotesQuery): Promise<Paginated<VoteRecord>>;
   getSponsorships(officialId: string): Promise<Paginated<Sponsorship>>;
   getAttendance(officialId: string): Promise<Paginated<AttendanceEntry>>;
-  getBill(id: string): Promise<Bill | null>;
   getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>>;
   getDigest(address: string): Promise<Digest>;
   /** 2026 slate for a seat, or when it's next on the ballot. */
@@ -150,10 +148,6 @@ class HybridDataSource implements DataSource {
       ? snapshotAttendance(official.id, official.districtKey)
       : [];
     return { items, total: items.length, page: 1, pageSize: items.length };
-  }
-
-  async getBill(id: string): Promise<Bill | null> {
-    return data.bills.find((b) => b.id === id) ?? null;
   }
 
   async getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>> {

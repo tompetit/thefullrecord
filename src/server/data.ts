@@ -24,7 +24,6 @@
 
 import type {
   AttendanceEntry,
-  Bill,
   Digest,
   Official,
   SaidDidPair,
@@ -292,7 +291,6 @@ export const votes: VoteRecord[] = [
   {
     id: "gounardes-s9408a",
     officialId: "andrew-gounardes",
-    billId: "s9408-a",
     billNumber: "S9408-A",
     chamber: "NY SENATE",
     title: "AI chatbot toys moratorium",
@@ -426,7 +424,6 @@ export const votes: VoteRecord[] = [
   {
     id: "simon-s9408a",
     officialId: "jo-anne-simon",
-    billId: "s9408-a",
     billNumber: "S9408-A",
     chamber: "NY ASSEMBLY",
     title: "AI chatbot toys moratorium",
@@ -757,67 +754,6 @@ export const sponsorships: Sponsorship[] = [
  * an explanatory empty state and links each vote to its official roll call.
  */
 export const attendance: AttendanceEntry[] = [];
-
-export const bills: Bill[] = [
-  {
-    id: "s9408-a",
-    number: "S9408-A",
-    chamber: "NY SENATE",
-    session: "2025–2026 SESSION",
-    title: "AI Chatbot Toys Moratorium",
-    sponsorLine:
-      "Sponsor: Sen. Andrew Gounardes (D–SD 26) · Assembly companion by M. of A. Kassay",
-    whatItDoes:
-      "Places a five-year temporary moratorium on the commercial manufacture, distribution and sale of 'chatbot toys' — children's toys with an integrated AI companion that retains user information, asks unprompted emotion-based questions, and sustains ongoing personal dialogue. A mandated state study of their risks and benefits must be delivered to the Governor and Legislature and published before the moratorium can be lifted or renewed.",
-    whoItAffects:
-      "Toy manufacturers, distributors and retailers selling AI-companion toys in New York; children and their parents; and the state agencies tasked with conducting the mandated study.",
-    statusSteps: [
-      { label: "Introduced", dateLabel: "Mar 10", state: "done" },
-      { label: "Amended (A)", dateLabel: "May 14", state: "done" },
-      { label: "Passed Senate", dateLabel: "Jun 1", state: "done" },
-      { label: "Passed Assembly", dateLabel: "Jun 2", state: "done" },
-      { label: "To Governor", dateLabel: "now", state: "current" },
-    ],
-    rollCall: {
-      outcome: "Passed 57–3",
-      dateLabel: "JUN 1, 2026",
-      yes: 57,
-      no: 3,
-      absent: 3,
-      totalMembers: 63,
-      members: [
-        { name: "Gounardes, Andrew", district: "D–26", vote: "yes" },
-        { name: "Kavanagh, Brian", district: "D–27", vote: "yes" },
-        { name: "Gianaris, Michael", district: "D–12", vote: "yes" },
-        { name: "Krueger, Liz", district: "D–28", vote: "yes" },
-        { name: "Stewart-Cousins, Andrea", district: "D–35", vote: "yes" },
-        { name: "Borrello, George", district: "R–57", vote: "no" },
-        { name: "Gallivan, Patrick", district: "R–60", vote: "no" },
-        { name: "Martins, Jack", district: "R–7", vote: "no" },
-        { name: "Parker, Kevin", district: "D–21", vote: "absent" },
-        { name: "Cooney, Jeremy", district: "D–56", vote: "absent" },
-      ],
-      sourceUrl:
-        "https://www.nysenate.gov/legislation/bills/2025/S9408/amendment/A",
-    },
-    yourRepsNote:
-      "Both of your Albany seats voted on this bill. The Assembly vote is recorded under the Senate bill number after substitution for companion bill A11144-B.",
-    yourRepsVotes: [
-      { officialId: "andrew-gounardes", vote: "yes" },
-      { officialId: "jo-anne-simon", vote: "yes" },
-    ],
-    sources: [
-      {
-        label: "Full bill text and Senate roll call — nysenate.gov",
-        url: "https://www.nysenate.gov/legislation/bills/2025/S9408/amendment/A",
-      },
-      {
-        label: "Assembly actions and roll call — nyassembly.gov",
-        url: "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S09408&term=2025&Summary=Y&Actions=Y&Floor%26nbspVotes=Y",
-      },
-    ],
-  },
-];
 
 /**
  * Statement–vote pairs require editorial review before publication against
