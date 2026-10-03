@@ -95,12 +95,12 @@
           ]
         },
         {
-          "issue": "minimum_wage",
-          "stance": "supports",
-          "summary": "Says he has been a champion of America's working people, supporting strong labor unions and a higher minimum wage.",
-          "quote": "Congressman Lynch has been a champion of America’s working people, supporting strong labor unions and a higher minimum wage and worker protections.",
+          "issue": "climate",
+          "stance": "mixed",
+          "summary": "Says America needs a long-term plan including alternatives to fossil fuels, describes an \"all of the above\" energy policy, and has cosponsored climate legislation.",
+          "quote": "Congressman Lynch believes America needs to have a long-term plan for reducing dependence on foreign oil, pursuing alternatives to fossil fuels, and improving efficiency across the entire energy spectrum.",
           "sources": [
-            "s8"
+            "s9"
           ]
         }
       ],
@@ -173,21 +173,12 @@
       ],
       "positions": [
         {
-          "issue": "police_funding",
+          "issue": "voter_citizenship_proof",
           "stance": "supports",
-          "summary": "Says he opposes cuts to police funding and calls for stronger law enforcement.",
-          "quote": "How can anybody feel safe when crime is up, cops are being defunded, and the streets feel lawless? We need real law & order and we need to get criminals off the streets.",
+          "summary": "Campaign priorities page calls for passing the SAVE America Act and says voters must be U.S. citizens.",
+          "quote": "Pass the SAVE America Act.",
           "sources": [
-            "s4"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Lists cutting taxes as a top priority rather than raising them.",
-          "quote": "As Congressman of the 6th district, I'd make it a TOP priority to cut taxes, bring manufacturing back, and kill inflation.",
-          "sources": [
-            "s4"
+            "s10"
           ]
         }
       ],
@@ -271,6 +262,20 @@
       "url": "https://lynch.house.gov/labor-working-families",
       "title": "Labor and Working Families",
       "publisher": "Office of Rep. Stephen Lynch",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://lynch.house.gov/environment",
+      "title": "Energy and Environment | Congressman Stephen Lynch",
+      "publisher": "Office of Rep. Stephen Lynch",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://burke4congress.us/priorities",
+      "title": "My Priorities for MA-8 | Burke4Congress",
+      "publisher": "Burke4Congress",
       "kind": "candidate"
     }
   ],

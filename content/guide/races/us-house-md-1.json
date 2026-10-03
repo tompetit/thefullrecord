@@ -58,6 +58,13 @@
       "title": "About",
       "publisher": "Office of Rep. Andy Harris",
       "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://harris.house.gov/issues/economy",
+      "title": "Economy | Congressman Andy Harris",
+      "publisher": "Office of Rep. Andy Harris",
+      "kind": "official"
     }
   ],
   "candidates": [
@@ -118,19 +125,12 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says illegal immigration undermines the American workforce and creates national security risks, and supports enforcement against undocumented immigrants and visa overstays.",
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says lowering the corporate tax rate would keep large businesses from sending jobs overseas.",
+          "quote": "Lowering the corporate tax rate will keep large businesses from sending jobs overseas, and a simpler tax code would allow small businesses to save money and grow.",
           "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Says local governments, not federal micromanagement, should determine curricula, and that parents should be able to choose between public, private or home education.",
-          "sources": [
-            "s3"
+            "s7"
           ]
         }
       ],
@@ -209,14 +209,6 @@
           "stance": "opposes",
           "summary": "Says he will fight tariff policies that he says make it impossible for families to save and small businesses to plan for the future.",
           "quote": "I will fight dangerous policies like spending freezes and tariffs that make it impossible for families to save, and small businesses to plan for the future.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Says he will improve and protect access to affordable health care and support public health research funding.",
           "sources": [
             "s5"
           ]
