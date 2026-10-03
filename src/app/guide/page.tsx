@@ -36,7 +36,7 @@ export default function GuidePage() {
   return (
     <main className="flex-1">
 
-      <section className="mx-auto grid w-full max-w-6xl gap-10 px-[20px] pt-10 lg:grid-cols-[1.2fr_1fr] lg:px-10 lg:pt-14">
+      <section className="mx-auto grid w-full max-w-7xl gap-10 px-4 sm:px-6 pt-10 lg:grid-cols-[1.2fr_1fr] lg:px-10 lg:pt-14">
         <div>
           <p className="font-sans text-[11px] font-bold tracking-[0.1em] text-accent">
             GENERAL ELECTION · TUESDAY, NOVEMBER 3, 2026 · {DAYS_UNTIL} DAYS AWAY
@@ -89,7 +89,7 @@ export default function GuidePage() {
         </aside>
       </section>
 
-      <section className="mx-auto mt-14 w-full max-w-6xl px-[20px] lg:px-10">
+      <section className="mx-auto mt-14 w-full max-w-7xl px-4 sm:px-6 lg:px-10">
         <SectionLabel>Search researched races</SectionLabel>
         <div className="mt-3">
           <GuideSearch races={toSearchRaces(races)} />
@@ -97,7 +97,7 @@ export default function GuidePage() {
       </section>
 
       {nyc.length > 0 && (
-        <section className="mx-auto mt-14 w-full max-w-6xl px-[20px] lg:px-10">
+        <section className="mx-auto mt-14 w-full max-w-7xl px-4 sm:px-6 lg:px-10">
           <SectionLabel>New York City ballot</SectionLabel>
           <div className="mt-4 grid gap-8 lg:grid-cols-2">
             {nycGroups.filter(([, list]) => list.length).map(([label, list]) => (
@@ -123,7 +123,7 @@ export default function GuidePage() {
         </section>
       )}
 
-      <section className="mx-auto mt-14 w-full max-w-6xl px-[20px] lg:px-10">
+      <section className="mx-auto mt-14 w-full max-w-7xl px-4 sm:px-6 lg:px-10">
         <SectionLabel>Congress, state by state</SectionLabel>
         <div className="mt-3 grid grid-cols-2 gap-1.5 sm:grid-cols-3 md:grid-cols-5">
           {ALL_STATES.map((st) => (

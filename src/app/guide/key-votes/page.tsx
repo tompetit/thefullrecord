@@ -32,7 +32,7 @@ export default function KeyVotesPage() {
 
   return (
     <main className="flex-1">
-      <div className="mx-auto w-full max-w-5xl px-[20px] pt-8 lg:px-10">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-8 lg:px-10">
         <h1 className="font-serif text-[30px] font-semibold tracking-[-0.015em] text-ink lg:text-[42px]">
           Key votes in Congress, 2025–26
         </h1>

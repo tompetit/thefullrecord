@@ -43,7 +43,7 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
 
   return (
     <main className="flex-1">
-      <div className="mx-auto w-full max-w-6xl px-[20px] pt-8 lg:px-10">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-8 lg:px-10">
         <p className="font-sans text-[11px] font-bold tracking-[0.1em] text-accent">YOUR ISSUES · THEIR DOCUMENTED RECORD</p>
         <h1 className="mt-2 font-serif text-[30px] font-semibold leading-[1.15] tracking-[-0.015em] text-ink lg:text-[42px]">
           Compare issue evidence

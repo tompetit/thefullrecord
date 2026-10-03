@@ -72,8 +72,8 @@ export default async function OfficialPage({
   );
 
   return (
-    <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-      <div className="px-[26px] pt-5 lg:grid lg:grid-cols-[300px_1fr] lg:gap-10 lg:px-10">
+    <main className="mx-auto w-full max-w-7xl flex-1 pb-12">
+      <div className="px-4 sm:px-6 pt-5 lg:grid lg:grid-cols-[300px_1fr] lg:gap-10 lg:px-10">
         {/* Left rail (desktop) / header stack (mobile) */}
         <aside className="lg:sticky lg:top-4 lg:self-start">
           <Link

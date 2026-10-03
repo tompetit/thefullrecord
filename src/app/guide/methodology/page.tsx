@@ -11,7 +11,7 @@ export default function MethodologyPage() {
   const s = getGuideStats();
   return (
     <main className="flex-1">
-      <article className="mx-auto w-full max-w-3xl px-[20px] pt-8 lg:px-10">
+      <article className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10 pt-8 [&>*]:max-w-3xl">
         <h1 className="font-serif text-[30px] font-semibold tracking-[-0.015em] text-ink lg:text-[42px]">How we research</h1>
         <P>
           The goal of this guide is to inform, not to persuade. It covers{" "}

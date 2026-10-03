@@ -26,7 +26,7 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
   }
   return (
     <main className="flex-1">
-      <div className="mx-auto w-full max-w-6xl px-[20px] pt-6 lg:px-10">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-6 lg:px-10">
         <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
           <Link href="/guide" className="hover:text-ink">Guide</Link> › {stateName(st)}
         </nav>

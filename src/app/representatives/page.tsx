@@ -47,8 +47,8 @@ export default async function RepresentativesPage({
   // No address: just the form and a link to a sample district.
   if (isSample && query.sample !== "1") {
     return (
-      <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-        <div className="px-[26px] pt-7 lg:px-10">
+      <main className="mx-auto w-full max-w-7xl flex-1 pb-12">
+        <div className="px-4 sm:px-6 pt-7 lg:px-10">
           <h1 className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink lg:text-[32px]">
             Your representatives
           </h1>
@@ -70,8 +70,8 @@ export default async function RepresentativesPage({
 
   if (!result.ok) {
     return (
-      <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-        <div className="px-[26px] pt-7 lg:px-10">
+      <main className="mx-auto w-full max-w-7xl flex-1 pb-12">
+        <div className="px-4 sm:px-6 pt-7 lg:px-10">
           <h1 className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink lg:text-[32px]">
             Your representatives
           </h1>
@@ -92,8 +92,8 @@ export default async function RepresentativesPage({
   const count = result.groups.reduce((n, g) => n + g.officials.length, 0);
 
   return (
-    <main className="mx-auto w-full max-w-5xl flex-1 pb-12">
-      <div className="px-[26px] pt-7 lg:px-10">
+    <main className="mx-auto w-full max-w-7xl flex-1 pb-12">
+      <div className="px-4 sm:px-6 pt-7 lg:px-10">
         <h1 className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink lg:text-[32px]">
           {isSample ? "Explore a sample district" : "Your representatives"}
         </h1>
@@ -116,7 +116,7 @@ export default async function RepresentativesPage({
         </Link>
       </div>
 
-      <div className="mt-6 flex flex-col gap-7 px-[26px] lg:px-10">
+      <div className="mt-6 flex flex-col gap-7 px-4 sm:px-6 lg:px-10">
         {result.groups.map((group) => (
           <section
             key={group.level}
@@ -134,7 +134,7 @@ export default async function RepresentativesPage({
         ))}
       </div>
 
-      <p className="mt-8 px-[26px] font-sans text-xs leading-normal text-ink-45 lg:px-10">
+      <p className="mt-8 px-4 sm:px-6 font-sans text-xs leading-normal text-ink-45 lg:px-10">
         Districts resolved with the U.S. Census Geocoder and TIGERweb district
         boundaries (plus NYC Planning boundaries for the NYC Council).{" "}
         {(!result.context || result.context.state === "NY") && <>{stats.provenanceLine}. </>}

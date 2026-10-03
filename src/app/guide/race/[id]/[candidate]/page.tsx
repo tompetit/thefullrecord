@@ -43,7 +43,7 @@ export default async function CandidatePage({ params }: { params: Params }) {
 
   return (
     <main className="flex-1 pb-4">
-      <div className="mx-auto w-full max-w-4xl px-[20px] pt-6 lg:px-10">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10 pt-6 [&>*]:max-w-4xl">
         <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
           <Link href="/guide" className="hover:text-ink">Guide</Link> ›{" "}
           <StandLink href={`/guide/race/${race.id}`} className="hover:text-ink">{race.title}</StandLink>

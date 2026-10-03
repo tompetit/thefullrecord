@@ -207,7 +207,7 @@ function VerificationNote({ raceId }: { raceId: string }) {
 export function RaceView({ race }: { race: GuideRace }) {
   const isMeasure = race.officeType === "ballot-measure";
   return (
-    <div className="mx-auto w-full max-w-6xl px-[20px] pt-6 lg:px-10">
+    <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-6 lg:px-10">
       <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
         <Link href="/guide" className="hover:text-ink">Guide</Link> ›{" "}
         <Link href={`/guide/state/${race.state.toLowerCase()}`} className="hover:text-ink">

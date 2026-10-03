@@ -14,7 +14,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
 
   return (
     <main className="flex-1">
-      <div className="mx-auto w-full max-w-5xl px-[20px] pt-8 lg:px-10">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-8 lg:px-10">
         <h1 className="font-serif text-[30px] font-semibold tracking-[-0.015em] text-ink lg:text-[40px]">
           My ballot
         </h1>

@@ -45,7 +45,7 @@ export default function CoveragePage() {
   ];
 
   return <main className="flex-1">
-    <div className="mx-auto max-w-6xl px-6 py-12">
+    <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-10">
       <p className="text-xs font-bold uppercase tracking-widest text-accent">What is here. What is missing.</p>
       <h1 className="mt-3 font-serif text-4xl font-semibold text-ink sm:text-5xl">A record you can inspect.</h1>
       <p className="mt-5 max-w-3xl text-base leading-relaxed text-ink-60">The Full Record combines selected roll-call snapshots (every member of Congress, New York bodies, and some other states’ legislatures) with researched candidate profiles. It is not a complete voting history. These counts and dates come directly from the snapshots currently included in this site.</p>
