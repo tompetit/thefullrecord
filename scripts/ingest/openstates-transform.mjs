@@ -45,9 +45,10 @@ function dateParts(startDate) {
  * @param bills  API v3 `results` array
  * @param st     lowercase postal code
  * @param now    ISO date used to reject future-dated events
+ * @param maxVotes keep only this many most-recent vote events per chamber
  * @returns { snapshots: Map<chamber, snapshot>, skipped: {reason: count} }
  */
-export function transformBills(bills, st, now = new Date().toISOString()) {
+export function transformBills(bills, st, now = new Date().toISOString(), maxVotes = 300) {
   const rollsByChamber = new Map();
   const skipped = {};
   const skip = (reason) => { skipped[reason] = (skipped[reason] ?? 0) + 1; };
@@ -94,6 +95,7 @@ export function transformBills(bills, st, now = new Date().toISOString()) {
   const snapshots = new Map();
   for (const [chamber, rollCalls] of rollsByChamber) {
     rollCalls.sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
+    rollCalls.length = Math.min(rollCalls.length, maxVotes);
     const label = snapshotChamberName(st, chamber);
     snapshots.set(chamber, {
       generatedAt: now,

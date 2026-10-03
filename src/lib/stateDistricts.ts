@@ -48,7 +48,7 @@ export function matchDistrictLabels(census: CensusDistrict, labels: Iterable<str
 
 /** Labels that apply statewide within a chamber (DC Council chair and at-large seats, Puerto Rico at-large seats). */
 export function isAtLarge(label: string): boolean {
-  return /^(at-?large|chairman|chair)$/i.test(label.trim());
+  return /^(at[- ]?large|chairman|chair)$/i.test(label.trim());
 }
 
 /**
