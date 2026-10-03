@@ -48,6 +48,7 @@ interface Enrichment {
   landmark: Record<string, Array<StateVote & { id: string }>>;
   senateLandmark: Record<string, Array<StateVote & { id: string }>>;
   stateVotes: Record<string, StateVote[]>;
+  cosponsors: CosponsorData;
 }
 
 interface LinkHealth {
@@ -282,11 +283,49 @@ function addStateVotePositions(race: GuideRace, c: GuideCandidate, votes: Array<
   }
 }
 
+interface CosponsorData {
+  generatedAt: string;
+  bills: Array<{ key: string; label: string; issue: IssueKey; supports: boolean; why: string; url: string; title: string; members: Record<string, "sponsor" | "cosponsor"> }>;
+  candidates: Record<string, string>;
+}
+
+/**
+ * Sponsoring or cosponsoring a bill whose purpose squarely matches a statement is a
+ * documented position (README rule 4). Membership comes from official congress.gov
+ * lists (scripts/guide/cosponsors.mjs); the bill list and directions are editorial
+ * (content/guide/cosponsor-bills.json). A candidate's own statement on the issue
+ * always takes precedence, so this only fills topics they haven't addressed.
+ */
+function addBillPositions(race: GuideRace, c: GuideCandidate, data: CosponsorData) {
+  const bioguide = data.candidates[`${race.id}/${c.id}`];
+  if (!bioguide) return;
+  const byIssue = new Map<IssueKey, CosponsorData["bills"]>();
+  for (const b of data.bills) if (b.members[bioguide]) byIssue.set(b.issue, [...(byIssue.get(b.issue) ?? []), b]);
+  for (const [issue, bills] of byIssue) {
+    if (c.positions.some((p) => p.issue === issue && p.basis !== "votes")) continue;
+    const sources = bills.map((b) => {
+      const id = `bill-${b.key}`;
+      if (!race.sources.some((src) => src.id === id))
+        race.sources.push({ id, url: b.url, title: `${b.label} (${b.title}) — sponsors and cosponsors`, publisher: "Congress.gov", kind: "official" });
+      return id;
+    });
+    const directions = new Set(bills.map((b) => b.supports));
+    c.positions.push({
+      issue,
+      stance: directions.size > 1 ? "mixed" : bills[0].supports ? "supports" : "opposes",
+      summary: bills.map((b) => `${b.members[bioguide] === "sponsor" ? "Sponsored" : "Cosponsored"} ${b.label} (119th Congress), ${b.why}.`).join(" "),
+      sources,
+      basis: "statements",
+    });
+  }
+}
+
 function load(): Map<string, GuideRace> {
   if (races) return races;
   const enrich: Enrichment = {
     finance: readJson(join(GEN_DIR, "finance.json"), {}),
     members: readJson(join(GEN_DIR, "members.json"), {}),
+    cosponsors: readJson<CosponsorData>(join(GEN_DIR, "cosponsors.json"), { generatedAt: "", bills: [], candidates: {} }),
     stateVotes: readJson(join(GEN_DIR, "state-votes.json"), {}),
     landmark: {
       ...readJson(join(GEN_DIR, "ny-landmark-votes.json"), {}),
@@ -309,6 +348,8 @@ function load(): Map<string, GuideRace> {
         if (position.basis === "votes") position.stance = "not_inferred";
       }
       const key = `${race.id}/${c.id}`;
+      // Before vote positions, so a bill-based stance becomes the "stated" side next to votes.
+      addBillPositions(race, c, enrich.cosponsors);
       const sv = enrich.stateVotes[key];
       const lmList = [...(enrich.landmark[key] ?? []), ...(enrich.senateLandmark[key] ?? [])];
       const lm = lmList.length ? lmList : undefined;

@@ -17,7 +17,8 @@
     "ingest:enrich": "node scripts/ingest/enrich-congress.mjs",
     "test": "node --experimental-strip-types --test tests/*.test.mjs scripts/test/*.test.mjs",
     "guide:check-links": "node scripts/guide/check-links.mjs",
-    "data:validate": "node scripts/ingest/validate.mjs"
+    "data:validate": "node scripts/ingest/validate.mjs",
+    "guide:cosponsors": "node scripts/guide/cosponsors.mjs"
   },
   "dependencies": {
     "next": "16.2.10",
