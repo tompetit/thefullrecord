@@ -11,61 +11,104 @@
   "context": [
     {
       "text": "Incumbent Nellie Pou won the June 2, 2026 Democratic primary unopposed. Rosemary Pino won a contested Republican primary, defeating Tiffany Burress 51.3%-48.7%.",
-      "sources": ["s1", "s5"]
+      "sources": [
+        "s1",
+        "s5"
+      ]
     },
     {
       "text": "Ballotpedia identifies NJ-9 as a 2026 battleground race. Citing New Jersey Monitor reporting, Ballotpedia notes the district has historically been safe Democratic ground but grew more Republican after 2021 redistricting; Pou's 4.9-point win in 2024 was the narrowest this millennium, and Donald Trump narrowly carried the district that year. As of August 2026, major forecasters rated the race Likely Democratic or Leans Democratic.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     },
     {
       "text": "As of June 30, 2026, Pou had raised $2.66 million in campaign funds and Pino had raised $438,000.",
-      "sources": ["s2"]
+      "sources": [
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "nellie-pou",
       "name": "Nellie Pou",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, NJ-9 (since 2024)",
       "summary": {
         "text": "Nellie Pou is the Democratic incumbent for New Jersey's 9th Congressional District, elected in 2024 to succeed the late Rep. Bill Pascrell. She previously served 13 years in the New Jersey Senate and 14 years in the New Jersey General Assembly, and serves on the House Committee on Homeland Security and the Committee on Transportation and Infrastructure.",
-        "sources": ["s2", "s3"]
+        "sources": [
+          "s2",
+          "s3"
+        ]
       },
       "background": [
         {
           "text": "Studied at Kean College, Rutgers University, and the University of Virginia.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Chaired the City of Paterson Department of Human Resources from 1983 to 1997, and served on the New Jersey Task Force on Child Abuse and Neglect and the Passaic County Planning and Policy Partnership Committee.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Served 14 years in the New Jersey General Assembly and 13 years in the New Jersey Senate before her 2024 election to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign website says she has been \"committed to improving the lives of New Jerseyans,\" citing better schools, more affordable healthcare, and criminal-justice reform as career priorities.",
           "quote": "From fighting for better schools for our kids to more affordable health care, to criminal justice reform – Nellie has been at the forefront of some of New Jersey's and America's toughest fights.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In a February 2025 press release she called the 25 percent tariffs on Canada and Mexico a mistake that will raise the cost of living.",
+          "quote": "These tariffs, created by Donald Trump and supported by House Republicans, are a grave mistake",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In her February 2025 floor speech she opposed the Republican budget, saying it would destroy Medicaid and take health care away from millions of Americans.",
+          "quote": "This GOP budget will destroy Medicaid and take health care away from millions of Americans.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Homeland Security (Subcommittee on Counterterrorism and Intelligence) and the Committee on Transportation and Infrastructure (Aviation; Highways and Transit; Water Resources and Environment subcommittees).",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Announced $3 million in federal funding her office says it helped secure for road-safety improvements to Passaic Avenue in Kearny, including upgraded pedestrian crossings and traffic signalization.",
           "date": "2026-07-07",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://pou.house.gov",
@@ -75,45 +118,89 @@
     {
       "id": "rosemary-pino",
       "name": "Rosemary Pino",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won a contested June 2, 2026 Republican primary, defeating Tiffany Burress 51.3%-48.7%.",
       "summary": {
         "text": "Rosemary Pino is the Republican nominee for New Jersey's 9th Congressional District. She has served on the Clifton City Council since 2019 and previously served on the Clifton Board of Education from 2014 to 2019.",
-        "sources": ["s5"]
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Her family emigrated to the United States from Ecuador when she was a child. She attended Clifton High School, earned her GED, and received a Bachelor's degree in Finance from Rutgers University.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Began her career in the Passaic County Community College finance department, then joined Passaic County One Stop, a career-development center that teaches résumé and interview skills to unemployed residents.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Ran unsuccessfully for the Clifton school board in 2011, finishing in fifth place.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign website says that on the Clifton Board of Education she \"fought tirelessly to ensure the city provided students with a top-notch education while maintaining fiscal responsibility,\" citing more than $8 million invested in capital improvements and more than $3 million allocated for children's safety.",
           "quote": "Rosie fought tirelessly to ensure the city provided students with a top-notch education while maintaining fiscal responsibility.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Campaign website says she is pro-life and believes abortion should be rare and limited, with exceptions for rape, incest or the life of the mother.",
+          "quote": "I am proudly pro-life and believe abortion should be rare and limited, with exceptions in cases of rape, incest, or when the life of the mother is at risk.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Campaign website says she supports school choice, including charter schools and education savings accounts, and policies that let funding follow the student.",
+          "quote": "I support school choice, including charter schools, education savings accounts, and policies that let funding follow the student",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Campaign website says she supports fully funding law enforcement at the federal level.",
+          "quote": "At the federal level, I support fully funding law enforcement",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Has served on the Clifton City Council since 2019.",
           "kind": "action",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Served on the Clifton Board of Education from 2014 to 2019.",
           "kind": "action",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -121,11 +208,15 @@
     {
       "id": "terrisa-bukovinac",
       "name": "Terrisa Bukovinac",
-      "parties": ["Save Our Babies Party"],
+      "parties": [
+        "Save Our Babies Party"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Terrisa Bukovinac is running in New Jersey's 9th Congressional District on the \"Save Our Babies Party\" ballot line.",
-        "sources": ["s6"]
+        "sources": [
+          "s6"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -178,6 +269,29 @@
       "title": "Terrisa Bukovinac",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s7",
+      "url": "https://pou.house.gov/media/press-releases/congresswoman-pou-blasts-destructive-trump-tariffs",
+      "title": "Congresswoman Pou Blasts Destructive Trump Tariffs",
+      "publisher": "Office of Rep. Nellie Pou",
+      "kind": "official",
+      "date": "2025-02-01"
+    },
+    {
+      "id": "s8",
+      "url": "https://pou.house.gov/media/press-releases/congresswoman-pou-gives-maiden-floor-speech-blasting-cruel-republican-budget",
+      "title": "Congresswoman Pou Gives Maiden Floor Speech Blasting Cruel Republican Budget",
+      "publisher": "Office of Rep. Nellie Pou",
+      "kind": "official",
+      "date": "2025-02-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://rosiepinofornj.com/issues",
+      "title": "Issues",
+      "publisher": "Pino for Congress campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
