@@ -86,6 +86,8 @@ party. When in doubt, omit.
   Sports Act, state bans); opposes = opposes such bans. In the `summary` (our voice),
   say "transgender girls and women" / "transgender athletes" — not "biological males",
   "men in women's sports" or similar; those terms may appear only inside a verbatim `quote`.
+  Campaign slogans such as "keep boys out of girls' sports" / "keep men out of women's
+  sports" are the standard wording for supporting these bans and DO count as `supports`.
 - `minimum_wage`, `israel_aid` (military aid specifically), and the NY statements:
   as worded; adjacent topics do not count.
 
