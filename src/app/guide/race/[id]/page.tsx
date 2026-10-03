@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RaceView } from "@/components/guide/RaceView";
-import { GuideFooter } from "@/components/guide/ui";
 import { getAllRaces, getRace } from "@/server/guide/load";
 
 export function generateStaticParams() {
@@ -30,7 +29,6 @@ export default async function RacePage({ params }: { params: Promise<{ id: strin
   return (
     <main className="flex-1 pb-4">
       <RaceView race={race} />
-      <GuideFooter />
     </main>
   );
 }

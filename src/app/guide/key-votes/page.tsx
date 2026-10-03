@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { GuideFooter, SectionLabel } from "@/components/guide/ui";
+import { SectionLabel } from "@/components/guide/ui";
 import { getAllRaces, getKeyVoteDefs } from "@/server/guide/load";
 
 export const metadata = {
@@ -111,7 +111,6 @@ export default function KeyVotesPage() {
           </section>
         ))}
       </div>
-      <GuideFooter />
     </main>
   );
 }

@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { REPO_URL } from "@/lib/site";
 import type {
   Cited,
   GuideRace,
@@ -207,25 +205,3 @@ export const OFFICE_LABEL: Record<string, string> = {
   "ballot-measure": "Ballot measure",
   other: "Other",
 };
-
-export function GuideFooter() {
-  return (
-    <footer className="mt-16 border-t border-hairline">
-      <div className="mx-auto max-w-6xl px-[20px] py-6 font-sans text-xs leading-[1.6] text-ink-45 lg:px-10">
-        The Full Record is non-partisan: no endorsements, no scores, no grades.
-        Every claim links to its source — official records first.{" "}
-        <Link href="/guide/methodology" className="underline hover:text-ink">
-          How we research
-        </Link>{" "}
-        ·{" "}
-        <Link href="/" className="underline hover:text-ink">
-          Your current representatives
-        </Link>{" "}
-        ·{" "}
-        <a href={REPO_URL} className="underline hover:text-ink">
-          Open source on GitHub
-        </a>
-      </div>
-    </footer>
-  );
-}

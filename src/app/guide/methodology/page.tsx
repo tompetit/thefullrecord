@@ -1,4 +1,4 @@
-import { GuideFooter, SectionLabel } from "@/components/guide/ui";
+import { SectionLabel } from "@/components/guide/ui";
 import { getGuideStats } from "@/server/guide/load";
 
 export const metadata = { title: "How we research — The Full Record" };
@@ -140,7 +140,6 @@ export default function MethodologyPage() {
           </P>
         </section>
       </article>
-      <GuideFooter />
     </main>
   );
 }

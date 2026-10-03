@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
-import { GuideFooter, IncumbentTag, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { IncumbentTag, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
 import { getAllRaces } from "@/server/guide/load";
 import type { GuideRace } from "@/server/guide/types";
 
@@ -66,7 +66,6 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
           </section>
         ))}
       </div>
-      <GuideFooter />
     </main>
   );
 }

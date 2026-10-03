@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { LOOKUP_SCOPE, REPO_URL } from "@/lib/site";
+import { LOOKUP_SCOPE } from "@/lib/site";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { ISSUE_TOPICS } from "@/lib/issues";
 
@@ -55,7 +55,6 @@ export default function Home() {
       <section className="mx-auto grid w-full max-w-7xl gap-8 px-6 py-12 md:grid-cols-3 lg:px-10">
         {[["Records before rhetoric", "Recorded votes and official sources are the starting point. Candidate statements are labeled separately."], ["Context before conclusions", "A yes or no belongs to a particular bill or motion. A vote alone does not explain someone’s motives."], ["Gaps in plain sight", "These are selected records, not complete careers. Missing evidence is shown as missing, never inferred from party."]].map(([title, body]) => <div key={title}><h2 className="font-serif text-xl font-semibold text-ink">{title}</h2><p className="mt-2 text-sm leading-relaxed text-ink-60">{body}</p></div>)}
       </section>
-      <footer className="mt-auto border-t border-hairline px-6 py-7 lg:px-10"><div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 text-xs text-ink-60"><span>Independent civic research. No endorsements, scores, or grades.</span><div className="flex flex-wrap gap-5"><Link href="/guide/methodology" className="underline">How we research</Link><Link href="/coverage" className="underline">Data coverage</Link><a href={`${REPO_URL}/issues`} className="underline">Suggest a correction</a><a href={REPO_URL} className="underline">Open source</a></div></div></footer>
     </main>
   );
 }

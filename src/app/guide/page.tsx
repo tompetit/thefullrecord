@@ -2,7 +2,7 @@ import Link from "next/link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { GuideSearch } from "@/components/guide/GuideSearch";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
-import { GuideFooter, SectionLabel } from "@/components/guide/ui";
+import { SectionLabel } from "@/components/guide/ui";
 import { GUIDE_SCOPE } from "@/lib/site";
 import { getAllRaces, getGuideStats } from "@/server/guide/load";
 import { toSearchRaces } from "@/server/guide/search";
@@ -138,7 +138,6 @@ export default function GuidePage() {
           ))}
         </div>
       </section>
-      <GuideFooter />
     </main>
   );
 }

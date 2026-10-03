@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { stateName } from "@/components/guide/RaceView";
-import { GuideFooter, IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
 import { LOOKUP_MESSAGES } from "@/lib/site";
 import { ballotForAddress } from "@/server/guide/ballot";
 
@@ -107,7 +107,6 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
           </>
         )}
       </div>
-      <GuideFooter />
     </main>
   );
 }

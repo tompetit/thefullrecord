@@ -1,7 +1,6 @@
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { Matcher } from "@/components/guide/Matcher";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
-import { GuideFooter } from "@/components/guide/ui";
 import { ballotForAddress, ballotForDistrict } from "@/server/guide/ballot";
 import { LOOKUP_MESSAGES } from "@/lib/site";
 import { parseStand, serializeStand, withStand } from "@/lib/alignment";
@@ -85,7 +84,6 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
           </>
         )}
       </div>
-      <GuideFooter />
     </main>
   );
 }

@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { CandidateProfile } from "@/components/guide/CandidateProfile";
 import { CandidateStand, StandLink } from "@/components/guide/StandClient";
 import { alignmentRace } from "@/lib/alignment";
-import { GuideFooter, SectionLabel, SourceList } from "@/components/guide/ui";
+import { SectionLabel, SourceList } from "@/components/guide/ui";
 import { getAllRaces, getCandidate } from "@/server/guide/load";
 
 export function generateStaticParams() {
@@ -76,7 +76,6 @@ export default async function CandidatePage({ params }: { params: Params }) {
           </div>
         </section>
       </div>
-      <GuideFooter />
     </main>
   );
 }
