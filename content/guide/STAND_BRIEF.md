@@ -83,8 +83,9 @@ party. When in doubt, omit.
   congressional approval in those cases. General hawkish/dovish rhetoric does not count.
 - `transgender_sports` ("Bar transgender women and girls from women's and girls'
   school sports"): supports = backs such a ban (e.g. Protection of Women and Girls in
-  Sports Act, state bans); opposes = opposes such bans. Describe neutrally, using the
-  source's own policy terms; no loaded language.
+  Sports Act, state bans); opposes = opposes such bans. In the `summary` (our voice),
+  say "transgender girls and women" / "transgender athletes" — not "biological males",
+  "men in women's sports" or similar; those terms may appear only inside a verbatim `quote`.
 - `minimum_wage`, `israel_aid` (military aid specifically), and the NY statements:
   as worded; adjacent topics do not count.
 
