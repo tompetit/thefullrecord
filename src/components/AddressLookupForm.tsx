@@ -29,7 +29,7 @@ export function AddressLookupForm({ initialAddress = "" }: { initialAddress?: st
 
   return (
     <div>
-      <form onSubmit={submit} className="mt-6 flex max-w-md flex-col gap-2.5 lg:flex-row">
+      <form onSubmit={submit} className="mt-6 flex max-w-xl flex-col gap-2.5 lg:flex-row">
         <AddressInput
           value={value}
           onValueChange={setValue}
