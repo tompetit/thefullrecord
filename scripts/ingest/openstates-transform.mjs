@@ -48,6 +48,19 @@ function dateParts(startDate) {
  * @param maxVotes keep only this many most-recent vote events per chamber
  * @returns { snapshots: Map<chamber, snapshot>, skipped: {reason: count} }
  */
+/** The state's own abstract of the bill, trimmed to a few sentences, when it adds to the title. */
+export function billSummary(bill, max = 600) {
+  const text = String(bill.abstracts?.[0]?.abstract ?? "").replace(/\s+/g, " ").trim();
+  if (!text || text.toLowerCase() === String(bill.title ?? "").toLowerCase()) return {};
+  let summary = text;
+  if (text.length > max) {
+    const cut = text.slice(0, max);
+    const end = cut.lastIndexOf(". ");
+    summary = end > max / 3 ? cut.slice(0, end + 1) : `${cut.replace(/\s+\S*$/, "")}…`;
+  }
+  return { summary, summarySource: "official" };
+}
+
 export function transformBills(bills, st, now = new Date().toISOString(), maxVotes = 300) {
   const rollsByChamber = new Map();
   const skipped = {};
@@ -86,6 +99,7 @@ export function transformBills(bills, st, now = new Date().toISOString(), maxVot
         id: `os-${st}-${String(vote.id).replace(/^ocd-vote\//, "")}`,
         bill: bill.identifier,
         title: bill.title,
+        ...billSummary(bill),
         question: vote.motion_text || undefined,
         kind: classify(vote),
         outcome: `${word} ${tally("yes")}–${tally("no")}`,

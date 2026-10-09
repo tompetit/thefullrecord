@@ -2,6 +2,11 @@ import { classifyIssues, type IssueRecord } from "@/lib/issues";
 import { getSnapshots, snapshotVotes } from "./live/snapshot";
 import type { Official } from "./types";
 
+function isSplit(votes: Record<string, string>): boolean {
+  const all = Object.values(votes);
+  return all.includes("yes") && all.includes("no");
+}
+
 export function getIssueRecords(officials?: Official[]) {
   const snapshots = getSnapshots();
   const localVotes = (officials ?? []).flatMap((official) =>
@@ -16,6 +21,7 @@ export function getIssueRecords(officials?: Official[]) {
     chamber: snapshot.chamber,
     kind: roll.kind,
     outcome: roll.outcome,
+    split: isSplit(roll.votes),
     question: roll.question,
     date: roll.date,
     dateLabel: roll.dateLabel,

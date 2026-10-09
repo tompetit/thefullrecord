@@ -3,12 +3,12 @@ import assert from 'node:assert/strict';
 import { classifyIssues, filterIssueRecords, parseIssueTopics } from '../src/lib/issues.ts';
 
 const records = [
-  { id: 'housing', bill: 'S101', title: 'Rental assistance', summary: 'Assistance for tenants', chamber: 'NY SENATE', kind: 'substantive', topics: ['housing'] },
-  { id: 'both', bill: 'S102', title: 'Energy efficiency in dwellings', chamber: 'NY SENATE', kind: 'substantive', topics: ['housing', 'climate'] },
-  { id: 'procedure', bill: 'H.R. 25', title: 'Motion to proceed on student loans', chamber: 'U.S. SENATE', kind: 'procedural', question: 'On the Cloture Motion', topics: ['education'] },
-  { id: 'unclassified', bill: 'S105', title: 'A technical correction', chamber: 'NY SENATE', kind: 'substantive', topics: [] },
+  { id: 'housing', bill: 'S101', title: 'Rental assistance', summary: 'Assistance for tenants', chamber: 'NY SENATE', kind: 'substantive', split: true, topics: ['housing'] },
+  { id: 'both', bill: 'S102', title: 'Energy efficiency in dwellings', chamber: 'NY SENATE', kind: 'substantive', split: false, topics: ['housing', 'climate'] },
+  { id: 'procedure', bill: 'H.R. 25', title: 'Motion to proceed on student loans', chamber: 'U.S. SENATE', kind: 'procedural', split: true, question: 'On the Cloture Motion', topics: ['education'] },
+  { id: 'unclassified', bill: 'S105', title: 'A technical correction', chamber: 'NY SENATE', kind: 'substantive', split: false, topics: [] },
 ];
-const defaults = { topics: [], query: '', chamber: '', kind: '' };
+const defaults = { topics: [], query: '', chamber: '', kind: '', margin: '' };
 
 test('classification allows overlapping issues without assigning a policy stance', () => {
   assert.deepEqual(classifyIssues('Energy efficiency in multiple dwellings'), ['housing', 'climate']);
@@ -51,4 +51,8 @@ test('shareable topics preserve valid multiple selections and reject unknown or 
   assert.deepEqual(parseIssueTopics('housing'), ['housing']);
   assert.deepEqual(parseIssueTopics('housing,bogus,housing,other'), ['housing', 'other']);
   assert.deepEqual(parseIssueTopics(''), []);
+});
+
+test('the split-vote filter hides unanimous votes', () => {
+  assert.deepEqual(filterIssueRecords(records, { ...defaults, margin: 'split' }).map((r) => r.id), ['housing', 'procedure']);
 });

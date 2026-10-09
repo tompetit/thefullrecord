@@ -81,7 +81,7 @@ class RateLimited extends Error {}
 async function api(st, page) {
   const wait = lastRequest + SPACING_MS - Date.now();
   if (wait > 0) await sleep(wait);
-  const url = `https://v3.openstates.org/bills?${new URLSearchParams({ jurisdiction: st, sort: "latest_action_desc", per_page: "20", page: String(page) })}&include=votes`;
+  const url = `https://v3.openstates.org/bills?${new URLSearchParams({ jurisdiction: st, sort: "latest_action_desc", per_page: "20", page: String(page) })}&include=votes&include=abstracts`;
   for (let attempt = 0; attempt < 6; attempt++) {
     lastRequest = Date.now();
     const res = await fetch(url, { headers: { "X-API-KEY": KEY, "User-Agent": "thefullrecord-ingest/1.0 (civic transparency)" }, signal: AbortSignal.timeout(60_000) });
