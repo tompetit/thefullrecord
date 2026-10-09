@@ -95,3 +95,12 @@ test("official-source rule for state sites", () => {
   for (const ok of ["https://capitol.texas.gov/x", "https://www.leg.state.fl.us/x", "https://malegislature.gov/x", "https://le.utah.gov"]) assert.equal(isOfficialStateSource(ok), true, ok);
   for (const bad of ["http://capitol.texas.gov/x", "https://example.com/vote", "https://ballotpedia.org/x", "not a url"]) assert.equal(isOfficialStateSource(bad), false, bad);
 });
+
+test("billSummary uses the state's abstract, trimmed at a sentence, and skips one that repeats the title", async () => {
+  const { billSummary } = await import("../scripts/ingest/openstates-transform.mjs");
+  assert.deepEqual(billSummary({ title: "Peace officers", abstracts: [] }), {});
+  assert.deepEqual(billSummary({ title: "Rent Act", abstracts: [{ abstract: "rent act" }] }), {});
+  assert.deepEqual(billSummary({ title: "X", abstracts: [{ abstract: "Caps  rent increases." }] }), { summary: "Caps rent increases.", summarySource: "official" });
+  const long = billSummary({ title: "X", abstracts: [{ abstract: `${"Existing law does a thing. ".repeat(40)}` }] }, 100);
+  assert.ok(long.summary.length <= 100 && long.summary.endsWith("."));
+});

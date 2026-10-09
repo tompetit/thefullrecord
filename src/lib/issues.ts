@@ -31,6 +31,8 @@ export interface IssueRecord {
   chamber: string;
   kind: "substantive" | "procedural";
   outcome: string;
+  /** At least one member voted on each side (not unanimous). */
+  split: boolean;
   question?: string;
   date: string;
   dateLabel: string;
@@ -45,6 +47,8 @@ export interface IssueFilters {
   query: string;
   chamber: string;
   kind: string;
+  /** "split" (default view) hides unanimous votes; "" shows all. */
+  margin: string;
 }
 
 export function filterIssueRecords(records: IssueRecord[], filters: IssueFilters): IssueRecord[] {
@@ -53,6 +57,7 @@ export function filterIssueRecords(records: IssueRecord[], filters: IssueFilters
     (!filters.topics.length || filters.topics.some((topic) => topic === "other" ? !record.topics.length : record.topics.includes(topic))) &&
     (!filters.chamber || record.chamber === filters.chamber) &&
     (!filters.kind || record.kind === filters.kind) &&
+    (filters.margin !== "split" || record.split) &&
     (!query || `${record.bill} ${record.title} ${record.summary ?? ""} ${record.question ?? ""}`.toLowerCase().includes(query))
   );
 }

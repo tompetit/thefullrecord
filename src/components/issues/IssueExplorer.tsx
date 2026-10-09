@@ -12,9 +12,12 @@ export function IssueExplorer({ records, initialTopic = "", local = false, addre
   const [query, setQuery] = useState("");
   const [chamber, setChamber] = useState("");
   const [kind, setKind] = useState("");
+  const [margin, setMargin] = useState("split");
   const [limit, setLimit] = useState(PAGE_SIZE);
   const chambers = useMemo(() => [...new Set(records.map((record) => record.chamber))].sort(), [records]);
-  const filtered = useMemo(() => filterIssueRecords(records, { topics, query, chamber, kind }), [records, topics, query, chamber, kind]);
+  const filtered = useMemo(() => filterIssueRecords(records, { topics, query, chamber, kind, margin }), [records, topics, query, chamber, kind, margin]);
+  // Topic counts follow the split/all choice so they match the list.
+  const shown = useMemo(() => (margin === "split" ? records.filter((record) => record.split) : records), [records, margin]);
   function updateTopics(next: string[]) {
     setTopics(next);
     const url = new URL(window.location.href);
@@ -26,8 +29,8 @@ export function IssueExplorer({ records, initialTopic = "", local = false, addre
   function toggleTopic(id: string) {
     updateTopics(topics.includes(id) ? topics.filter((topic) => topic !== id) : [...topics, id]);
   }
-  function reset() { updateTopics([]); setQuery(""); setChamber(""); setKind(""); }
-  const otherCount = records.filter((record) => !record.topics.length).length;
+  function reset() { updateTopics([]); setQuery(""); setChamber(""); setKind(""); setMargin("split"); }
+  const otherCount = shown.filter((record) => !record.topics.length).length;
 
   return (
     <div>
@@ -39,7 +42,7 @@ export function IssueExplorer({ records, initialTopic = "", local = false, addre
         </div>
         <div className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3">
           {ISSUE_TOPICS.map((topic, index) => {
-            const count = records.filter((record) => record.topics.includes(topic.id)).length;
+            const count = shown.filter((record) => record.topics.includes(topic.id)).length;
             return <button key={topic.id} type="button" aria-pressed={topics.includes(topic.id)} onClick={() => toggleTopic(topic.id)} className={`group min-h-24 rounded-lg border p-3 text-left transition-colors sm:p-4 ${topics.includes(topic.id) ? "border-accent bg-accent-tint ring-1 ring-accent" : "border-card bg-paper-raised hover:border-accent"}`}>
               <span className="flex items-center justify-between gap-2 font-mono text-[10px] text-ink-60"><span>0{index + 1}</span><span>{count} {count === 1 ? "vote" : "votes"}</span></span>
               <span className="mt-2 block text-sm font-semibold text-ink">{topic.label}</span>
@@ -52,10 +55,11 @@ export function IssueExplorer({ records, initialTopic = "", local = false, addre
       </section>
 
       <section aria-labelledby="record-results" className="border-t border-card pt-7">
-        <div className="grid gap-3 sm:grid-cols-[2fr_1fr_1fr]">
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr]">
           <label className="text-xs font-semibold text-ink-60">Search titles, bill numbers, summaries & vote questions<input className={`${fieldClass} mt-2`} value={query} onChange={(event) => { setQuery(event.target.value); setLimit(PAGE_SIZE); }} placeholder="Try rent, H.R. 25 or student loans" type="search" /></label>
           <label className="text-xs font-semibold text-ink-60">Chamber<select className={`${fieldClass} mt-2`} value={chamber} onChange={(event) => { setChamber(event.target.value); setLimit(PAGE_SIZE); }}><option value="">All chambers</option>{chambers.map((value) => <option key={value}>{value}</option>)}</select></label>
           <label className="text-xs font-semibold text-ink-60">Vote type<select className={`${fieldClass} mt-2`} value={kind} onChange={(event) => { setKind(event.target.value); setLimit(PAGE_SIZE); }}><option value="">All vote types</option><option value="substantive">Substantive</option><option value="procedural">Procedural</option></select></label>
+          <label className="text-xs font-semibold text-ink-60">Margin<select className={`${fieldClass} mt-2`} value={margin} onChange={(event) => { setMargin(event.target.value); setLimit(PAGE_SIZE); }}><option value="split">Split votes only</option><option value="">Include unanimous votes</option></select></label>
         </div>
         <div className="my-5 flex items-center justify-between gap-3">
           <h2 id="record-results" aria-live="polite" className="text-sm font-semibold text-ink">{filtered.length} recorded roll {filtered.length === 1 ? "call" : "calls"}{local ? " for these representatives" : " on file"}</h2>
@@ -66,10 +70,10 @@ export function IssueExplorer({ records, initialTopic = "", local = false, addre
             <div className="p-5 sm:p-6">
               <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[11px] font-semibold tracking-wide text-ink-60"><span>{record.chamber}</span><span aria-hidden="true">/</span><span>{record.bill || "Roll call"}</span><time className="sm:ml-auto" dateTime={record.date}>{record.dateLabel}</time></div>
               <h3 className="mt-3 font-serif text-xl font-semibold leading-snug text-ink"><a href={record.sourceUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">{record.title}</a></h3>
+              {record.summary && record.summary !== record.title && <p className="mt-3 text-sm leading-relaxed text-ink-80"><strong>What it does:</strong> {record.summary} <span className="text-xs text-ink-60">({record.summarySource === "official" ? "official summary" : "AI-generated summary; check the primary source"})</span></p>}
               {record.question && <p className="mt-3 text-sm leading-relaxed text-ink-80"><strong>Question before the chamber:</strong> {record.question}</p>}
               <div className="mt-3 flex flex-wrap gap-2 text-xs"><span className="rounded border border-chip-border bg-neutral-chip px-2 py-1">{record.kind === "procedural" ? "Procedural vote" : "Substantive vote"}</span><span className="py-1 font-semibold text-ink-80">{record.outcome}</span></div>
               {record.kind === "procedural" && <p className="mt-3 text-xs leading-relaxed text-ink-60">This is a vote on a procedural question, such as whether to take up or advance a measure. It is not necessarily a vote on final passage.</p>}
-              {record.summary && record.summary !== record.title && <details className="mt-4 text-sm"><summary className="min-h-9 cursor-pointer text-accent-deep underline underline-offset-4">Read {record.summarySource === "official" ? "official" : "AI-generated"} summary</summary><p className="mt-2 leading-relaxed text-ink-80">{record.summary}</p><p className="mt-2 text-xs text-ink-60">{record.summarySource === "official" ? "Summary supplied by the official source." : "AI-generated summary; check the primary source for the full context."}</p></details>}
               {record.representatives.length > 0 && <div className="mt-5 divide-y divide-hairline-soft border-t border-hairline-soft">{record.representatives.map((rep) => <div key={rep.id} className="flex items-center justify-between gap-4 py-3"><div><Link href={`/official/${rep.id}${address ? `?address=${encodeURIComponent(address)}` : ""}`} className="text-sm font-semibold text-ink underline decoration-chip-border underline-offset-4">{rep.name}</Link><p className="mt-1 text-xs text-ink-60">{rep.role}</p></div><span className={`shrink-0 rounded-md border px-3 py-1.5 text-sm font-semibold ${rep.vote === "yes" ? "border-accent-tint-border bg-accent-tint text-accent-deep" : rep.vote === "no" ? "border-umber-tint-border bg-umber-tint text-umber-deep" : "border-dashed border-chip-border text-ink-60"}`}>{rep.vote === "yes" ? "Yes" : rep.vote === "no" ? "No" : rep.vote === "present" ? "Present" : "Not voting"}</span></div>)}</div>}
             </div>
             <div className="flex flex-wrap items-center justify-between gap-3 border-t border-hairline-soft bg-canvas/40 px-5 py-3 text-xs sm:px-6"><span className="text-ink-60">{record.topics.map((id) => ISSUE_TOPICS.find((topic) => topic.id === id)?.label).join(" · ")}</span><a href={record.sourceUrl} target="_blank" rel="noopener noreferrer" className="inline-flex min-h-8 items-center font-semibold text-accent-deep underline underline-offset-4">Read the official record ↗</a></div>
