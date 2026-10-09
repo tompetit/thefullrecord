@@ -93,6 +93,10 @@ export const SCOPES: Record<SuggestScope, ScopeConfig> = {
 /** NYC ZIPs (Manhattan, SI, Bronx, Brooklyn, Queens) — GeoSearch owns these; OSM's are noisier. */
 const NYC_ZIP = /^1(0[0-4]|1[1-46])\d\d$/;
 const TIMEOUT_MS = 2500;
+/** The NYS locator is only a backup and often hangs; don't let it hold up the answer. */
+const NYS_TIMEOUT_MS = 1200;
+/** For a complete address, answer after this with what has arrived instead of waiting for Photon (often 1.5–3 s). */
+const EARLY_MS = 900;
 export const LIMIT = 6;
 
 // ---------------------------------------------------------------------------
@@ -393,8 +397,8 @@ const BOROUGH_CITY: Record<string, string> = {
   "Staten Island": "Staten Island",
 };
 
-async function getJson<T>(f: FetchLike, url: string, headers?: Record<string, string>): Promise<T | null> {
-  const res = await f(url, { headers, cache: "no-store", signal: AbortSignal.timeout(TIMEOUT_MS) });
+async function getJson<T>(f: FetchLike, url: string, headers?: Record<string, string>, timeout = TIMEOUT_MS): Promise<T | null> {
+  const res = await f(url, { headers, cache: "no-store", signal: AbortSignal.timeout(timeout) });
   if (!res.ok) return null;
   return (await res.json()) as T;
 }
@@ -438,7 +442,7 @@ export async function nysCandidates(f: FetchLike, q: string): Promise<Candidate[
   });
   const data = await getJson<{
     candidates?: Array<{ address: string; score: number; attributes: { Loc_name?: string; Addr_type?: string } }>;
-  }>(f, `${NYS_URL}?${params}`);
+  }>(f, `${NYS_URL}?${params}`, undefined, NYS_TIMEOUT_MS);
   const out: Candidate[] = [];
   // Candidates named by postal city ("…_ZipName") match what Census expects;
   // town-name variants ("…_CTName") can label a Wantagh address "Hempstead",
@@ -563,6 +567,18 @@ export async function suggestAddresses(
     if (parsed.house && (parsed.words.length >= 2 || parsed.zip)) providers.push(nysCandidates(f, q));
   }
   if (cfg.census && looksComplete(parsed)) providers.push(censusCandidates(f, q));
-  const results = await Promise.all(providers.map((p) => p.catch(() => [] as Candidate[])));
-  return rankCandidates(parsed, results.flat());
+  const done: Candidate[] = [];
+  const all = Promise.all(providers.map((p) => p.catch(() => [] as Candidate[]).then((r) => void done.push(...r))));
+  // Don't wait for Photon when a complete address already matched (Census/NYC/NYS answer
+  // those) or NYC GeoSearch — itself a prefix autocomplete — found the city address.
+  const early = new Promise<AddressSuggestion[] | null>((resolve) =>
+    setTimeout(() => {
+      const ranked = rankCandidates(parsed, done);
+      resolve(ranked.length && (looksComplete(parsed) || ranked.some((r) => r.source === "nyc")) ? ranked : null);
+    }, EARLY_MS)
+  );
+  const first = await Promise.race([all.then(() => null), early]);
+  if (first) return first;
+  await all;
+  return rankCandidates(parsed, done);
 }
