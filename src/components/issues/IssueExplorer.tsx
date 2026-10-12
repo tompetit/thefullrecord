@@ -69,11 +69,11 @@ export function IssueExplorer({ topics, query, chamber, kind, show, limit, total
       </section>
 
       <section aria-labelledby="record-results" className="border-t border-card pt-7">
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr]">
-          <label className="text-xs font-semibold text-ink-60">Search titles, bill numbers, summaries & vote questions<input className={`${fieldClass} mt-2`} value={text} onChange={(event) => type(event.target.value)} placeholder="Try rent, H.R. 25 or student loans" type="search" /></label>
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-[2fr_1fr_1fr_1fr]">
+          <label className="col-span-2 text-xs font-semibold text-ink-60 lg:col-span-1">Search titles, bill numbers, summaries & vote questions<input className={`${fieldClass} mt-2`} value={text} onChange={(event) => type(event.target.value)} placeholder="Try rent, H.R. 25 or student loans" type="search" /></label>
           <label className="text-xs font-semibold text-ink-60">Chamber<select className={`${fieldClass} mt-2`} value={chamber} onChange={(event) => go({ chamber: event.target.value })}><option value="">All chambers</option>{chambers.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
           <label className="text-xs font-semibold text-ink-60">Vote type<select className={`${fieldClass} mt-2`} value={kind} onChange={(event) => go({ kind: event.target.value })}><option value="">All vote types</option><option value="substantive">Final votes & amendments</option><option value="procedural">Procedural (scheduling, rules)</option></select></label>
-          <label className="text-xs font-semibold text-ink-60">Show<select className={`${fieldClass} mt-2`} value={show || "split"} onChange={(event) => go({ show: event.target.value === "split" ? "" : event.target.value })}>{showOptions.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
+          <label className="col-span-2 text-xs font-semibold text-ink-60 lg:col-span-1">Show<select className={`${fieldClass} mt-2`} value={show || "split"} onChange={(event) => go({ show: event.target.value === "split" ? "" : event.target.value })}>{showOptions.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
         </div>
         <p className="mt-3 text-xs leading-relaxed text-ink-60">Procedural votes are about scheduling, rules or whether to take up a measure, not necessarily final passage.</p>
         <div className="my-5 flex items-center justify-between gap-3">
