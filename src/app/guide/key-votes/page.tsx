@@ -82,9 +82,9 @@ export default function KeyVotesPage() {
                           <div className="mt-2 grid gap-3 sm:grid-cols-2">
                             {VOTE_GROUPS.filter(([k]) => groups.get(k)?.length).map(([k, label]) => (
                               <div key={k}>
-                                <h3 className="font-sans text-[11px] font-bold tracking-[0.05em] text-ink-45 uppercase">
-                                  {label} · {groups.get(k)!.length}
-                                </h3>
+                                <p className="font-sans text-[11px] font-bold tracking-[0.05em] text-ink-45 uppercase">
+                                  {`${label} · ${groups.get(k)!.length}`}
+                                </p>
                                 <p className="mt-1 font-sans text-[12.5px] leading-[1.7] text-ink-80">
                                   {groups
                                     .get(k)!
