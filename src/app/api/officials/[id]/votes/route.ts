@@ -12,6 +12,7 @@ export async function GET(
   const votes = await getDataSource().getVotes(id, {
     filter:
       filter === "substantive" || filter === "procedural" ? filter : "all",
+    hideUnanimous: sp.get("unanimous") !== "1",
     page: Math.max(1, Number(sp.get("page")) || 1),
     pageSize: Math.min(50, Math.max(1, Number(sp.get("pageSize")) || 10)),
   });

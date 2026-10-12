@@ -50,3 +50,21 @@ test("brokeWithParty", () => {
   const tie = partySplit(votes({ D: [3, 3], R: [0, 4] }), party);
   assert.equal(brokeWithParty("yes", "D", tie), false);
 });
+
+import { standoutSentence, summarizeStandout, topStandoutVotes } from "../src/lib/divisive.ts";
+
+test("summarizeStandout counts breaks from party majority", () => {
+  const meta = (d, kind = "substantive") => ({ id: d, bill: "B", title: "T", kind, date: d, dateLabel: d, sourceUrl: "u", chamber: "H" });
+  const split = partySplit(votes({ D: [20, 0], R: [1, 19] }), party);
+  const inputs = (v) => Array.from({ length: 5 }, (_, i) => ({ vote: v, split, meta: meta(`2026-0${i + 1}-01`, i === 4 ? "procedural" : "substantive") }));
+  const s = summarizeStandout("R", inputs("yes"));
+  assert.equal(s.m, 5);
+  assert.equal(s.n, 5);
+  assert.equal(s.votes[0].breakdown, "Democrats 20–0, Republicans 1–19");
+  assert.equal(topStandoutVotes(s, 5)[4].kind, "procedural");
+  assert.equal(standoutSentence(s), "Voted against most of their party on 5 of 5 party-divided votes on file.");
+  assert.equal(summarizeStandout("R", inputs("no")).n, 0);
+  assert.equal(summarizeStandout("I", inputs("no")), null);
+  assert.equal(summarizeStandout("R", inputs("no").slice(0, 4)), null);
+  assert.match(standoutSentence({ m: 12, n: 0 }), /all 12/);
+});
