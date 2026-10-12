@@ -101,6 +101,9 @@ export default async function RepresentativesPage({
         </p>
         <AddressLookupForm initialAddress={address} hint={false} />
         <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">{LOOKUP_SCOPE} Missing records do not mean a representative took no action. <Link href="/coverage" className="underline hover:text-ink">See coverage by place</Link>.</p>
+        {result.context?.state === "DC" && (
+          <p className="mt-2 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">D.C. has no U.S. senators; its House delegate can’t vote on final passage of bills.</p>
+        )}
         {result.context && <LookupNotes context={result.context} />}
         <Link
           href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}
