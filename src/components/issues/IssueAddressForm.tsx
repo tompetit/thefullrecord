@@ -6,7 +6,7 @@ import { useAddress } from "../useAddress";
 
 /**
  * The /issues address form — a plain GET form (works without JavaScript).
- * IssueExplorer attaches its topic/filter inputs with form="issue-address-form",
+ * IssueExplorer attaches its filter inputs with form="issue-address-form",
  * so the id and the `address` field name are part of the contract.
  */
 export function IssueAddressForm({ initialAddress = "" }: { initialAddress?: string }) {
@@ -26,7 +26,7 @@ export function IssueAddressForm({ initialAddress = "" }: { initialAddress?: str
           onValueChange={setValue}
           maxLength={300}
           placeholder="123 Main St, Albany, NY 12207"
-          fieldClassName="min-h-12 rounded-lg border border-chip-border bg-paper px-3"
+          fieldClassName="min-h-12 rounded-lg border border-chip-border bg-paper px-3 focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-accent"
           inputClassName="text-sm"
         />
       </div>
