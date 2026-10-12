@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
-import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
+import { ISSUES, type GuideCandidate, type GuideRace, type IssueKey } from "@/server/guide/types";
 import { CandidateProfile } from "./CandidateProfile";
 import { RaceStand } from "./StandClient";
 import {
@@ -31,6 +31,18 @@ const STATE_NAMES: Record<string, string> = {
 export const stateName = (st: string) => STATE_NAMES[st.toUpperCase()] ?? st;
 export const ALL_STATES = Object.keys(STATE_NAMES);
 
+function Position({ p, race }: { p: GuideCandidate["positions"][number]; race: GuideRace }) {
+  return (
+    <div>
+      <span className="inline-flex flex-wrap items-center">
+        <StanceChip stance={p.basis === "votes" ? "not_inferred" : p.stance} />
+        <Cites ids={p.sources} race={race} />
+      </span>
+      <p className="mt-2 max-w-sm text-xs leading-relaxed text-ink-60">{p.summary}</p>
+    </div>
+  );
+}
+
 function Comparison({ race }: { race: GuideRace }) {
   const issues = (Object.keys(ISSUES) as IssueKey[]).filter((k) =>
     race.candidates.some((c) => c.positions.some((p) => p.issue === k))
@@ -45,7 +57,25 @@ function Comparison({ race }: { race: GuideRace }) {
         support or opposition to a broad issue. A dash means our research has no
         evidence on that topic, not that the candidate has no position.
       </p>
-      <div className="mt-3 overflow-x-auto rounded-lg border border-card bg-paper-raised">
+      <div className="mt-3 flex flex-col gap-3 sm:hidden">
+        {issues.map((k) => (
+          <div key={k} className="rounded-lg border border-card bg-paper-raised p-3 font-sans">
+            <h3 className="text-[13px] font-semibold text-ink-80">{ISSUES[k]}</h3>
+            <ul className="mt-2 flex flex-col divide-y divide-hairline-soft">
+              {race.candidates.map((c) => {
+                const p = c.positions.find((x) => x.issue === k);
+                return (
+                  <li key={c.id} className="py-2 first:pt-0 last:pb-0">
+                    <span className="font-serif text-[14px] font-bold text-ink">{c.name}</span>
+                    <div className="mt-1">{p ? <Position p={p} race={race} /> : <span className="text-ink-35">—</span>}</div>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <div className="mt-3 hidden overflow-x-auto rounded-lg border border-card bg-paper-raised sm:block">
         <table className="w-full min-w-[560px] border-collapse font-sans text-[12.5px]">
           <thead>
             <tr className="border-b border-card">
@@ -74,15 +104,7 @@ function Comparison({ race }: { race: GuideRace }) {
                   const p = c.positions.find((x) => x.issue === k);
                   return (
                     <td key={c.id} className="p-2.5 align-top" title={p?.summary}>
-                      {p ? (
-                        <div><span className="inline-flex flex-wrap items-center">
-                          <StanceChip stance={p.basis === "votes" ? "not_inferred" : p.stance} />
-                          <Cites ids={p.sources} race={race} />
-
-                        </span><p className="mt-2 max-w-sm text-xs leading-relaxed text-ink-60">{p.summary}</p></div>
-                      ) : (
-                        <span className="text-ink-35">—</span>
-                      )}
+                      {p ? <Position p={p} race={race} /> : <span className="text-ink-35">—</span>}
                     </td>
                   );
                 })}
