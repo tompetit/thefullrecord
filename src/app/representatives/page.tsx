@@ -6,7 +6,10 @@ import { getDataSource } from "@/server/datasource";
 import { LOOKUP_SCOPE, lookupMessage } from "@/lib/site";
 import type { LookupContext } from "@/server/types";
 
-export const metadata = { title: "Your representatives — The Full Record" };
+export const metadata = {
+  title: "Your representatives — The Full Record",
+  description: "Find the officials who represent a U.S. address and see how they voted.",
+};
 
 function LookupNotes({ context }: { context: LookupContext }) {
   const lines: string[] = [];

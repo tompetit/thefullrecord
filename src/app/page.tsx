@@ -2,6 +2,11 @@ import Link from "next/link";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { ISSUE_TOPICS } from "@/lib/issues";
 
+export const metadata = {
+  description:
+    "Look up any U.S. address to explore your representatives’ recorded votes by issue, with links to the official record.",
+};
+
 export default function Home() {
   return (
     <main className="flex flex-1 flex-col">
