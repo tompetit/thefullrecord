@@ -20,9 +20,17 @@ export function parseIssueTopics(value: string): string[] {
   return [...new Set(value.split(",").filter((topic) => allowed.has(topic)))];
 }
 
+const classified = new Map<string, string[]>();
+/** Keyword topics; single-word terms are a set lookup, phrases a substring check. Memoized per text (many votes share a bill). */
 export function classifyIssues(title: string, summary = "", question = ""): string[] {
+  const key = `${title}\u0001${summary}\u0001${question}`;
+  const hit = classified.get(key);
+  if (hit) return hit;
   const text = ` ${title} ${summary} ${question} `.toLowerCase().replace(/[^a-z0-9]+/g, " ");
-  return ISSUE_TOPICS.filter((topic) => topic.terms.some((term) => text.includes(` ${term} `))).map((topic) => topic.id);
+  const words = new Set(text.split(" "));
+  const topics = ISSUE_TOPICS.filter((topic) => topic.terms.some((term) => (term.includes(" ") ? text.includes(` ${term} `) : words.has(term)))).map((topic) => topic.id);
+  classified.set(key, topics);
+  return topics;
 }
 
 export interface IssueRecord {
