@@ -31,13 +31,16 @@ export default async function CandidatePage({ params }: { params: Params }) {
   if (!found) notFound();
   const { race, candidate: c } = found;
 
-  const used = new Set<string>([
+  // Number citations 1..n in the order they appear on this page (matches CandidateProfile's layout).
+  const order = [
     ...c.summary.sources,
-    ...c.background.flatMap((x) => x.sources),
-    ...c.priorities.flatMap((x) => x.sources),
-    ...c.positions.flatMap((x) => x.sources),
     ...c.record.flatMap((x) => x.sources),
-  ]);
+    ...c.positions.flatMap((x) => [...x.sources, ...(x.stated?.sources ?? [])]),
+    ...c.priorities.flatMap((x) => x.sources),
+    ...c.background.flatMap((x) => x.sources),
+  ];
+  const sources = [...new Set(order)].flatMap((id) => race.sources.find((s) => s.id === id) ?? []);
+  const pageRace = { ...race, sources };
   const opponents = race.candidates.filter((o) => o.id !== c.id);
   const slim = alignmentRace(race);
 
@@ -49,7 +52,7 @@ export default async function CandidatePage({ params }: { params: Params }) {
           <StandLink href={`/guide/race/${race.id}`} className="hover:text-ink">{race.title}</StandLink>
         </nav>
         <div className="mt-3">
-          <CandidateProfile race={race} candidate={c} headingLevel="h1" />
+          <CandidateProfile race={pageRace} candidate={c} headingLevel="h1" />
         </div>
         <CandidateStand race={{ ...slim, candidates: slim.candidates.filter((x) => x.id === c.id) }} candidateId={c.id} />
         {opponents.length > 0 && (
@@ -72,7 +75,7 @@ export default async function CandidatePage({ params }: { params: Params }) {
         <section className="mt-8">
           <SectionLabel>Sources cited in this profile</SectionLabel>
           <div className="mt-3">
-            <SourceList race={race} ids={used} />
+            <SourceList race={pageRace} />
           </div>
         </section>
       </div>

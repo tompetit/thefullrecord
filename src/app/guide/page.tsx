@@ -5,6 +5,7 @@ import { ALL_STATES, stateName } from "@/components/guide/RaceView";
 import { SectionLabel } from "@/components/guide/ui";
 import { GUIDE_SCOPE } from "@/lib/site";
 import { getAllRaces } from "@/server/guide/load";
+import type { GuideRace } from "@/server/guide/types";
 import { toSearchRaces } from "@/server/guide/search";
 
 export const metadata = {
@@ -19,6 +20,28 @@ const DAYS_UNTIL = (() => {
   const ms = Date.UTC(2026, 10, 3) - Date.now();
   return Math.max(0, Math.ceil(ms / 86_400_000));
 })();
+
+const SUFFIX = /^(jr|sr|ii|iii|iv)\.?$/i;
+const surname = (name: string) => name.split(" ").filter((w) => !SUFFIX.test(w)).slice(-1)[0];
+
+function RaceRows({ list }: { list: GuideRace[] }) {
+  return (
+    <ul className="mt-2 flex flex-col divide-y divide-hairline-soft border-y border-hairline-soft">
+      {list.map((r) => (
+        <li key={r.id}>
+          <Link href={`/guide/race/${r.id}`} className="flex items-baseline justify-between gap-3 py-2 hover:bg-paper-raised">
+            <span className="font-sans text-[13.5px] font-semibold text-ink-80">
+              {r.title.replace(/^.*?·\s*/, "")}
+            </span>
+            <span className="truncate text-right font-sans text-[12px] text-ink-45">
+              {r.candidates.map((c) => surname(c.name)).join(" · ")}
+            </span>
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export default function GuidePage() {
   const races = getAllRaces();
@@ -47,26 +70,14 @@ export default function GuidePage() {
             {GUIDE_SCOPE} Follow sources for their votes and documented positions. Research depth varies; this is not an official or complete ballot. No endorsements, no scores.
           </p>
           <BallotAddressForm />
-          <div className="mt-4 flex flex-wrap gap-2">
-            <Link
-              href="/guide/match"
-              className="rounded-[10px] border-[1.5px] border-ink px-4 py-2.5 font-sans text-[14px] font-bold text-ink hover:bg-ink hover:text-paper"
-            >
-              Compare by issue →
-            </Link>
-            <Link
-              href="/guide/key-votes"
-              className="rounded-[10px] border border-chip-border px-4 py-2.5 font-sans text-[14px] font-semibold text-ink-80 hover:border-card-strong"
-            >
-              Key votes in Congress
-            </Link>
-            <Link
-              href="/guide/methodology"
-              className="rounded-[10px] border border-chip-border px-4 py-2.5 font-sans text-[14px] font-semibold text-ink-80 hover:border-card-strong"
-            >
-              How we research
-            </Link>
-          </div>
+          <p className="mt-4 font-sans text-[13.5px] text-ink-60">
+            Or{" "}
+            <Link href="/guide/match" className="underline hover:text-ink">compare by issue</Link>
+            {" · "}
+            <Link href="/guide/key-votes" className="underline hover:text-ink">key votes in Congress</Link>
+            {" · "}
+            <Link href="/guide/methodology" className="underline hover:text-ink">how we research</Link>
+          </p>
         </div>
       </section>
 
@@ -83,21 +94,19 @@ export default function GuidePage() {
           <div className="mt-4 grid gap-8 lg:grid-cols-2">
             {nycGroups.filter(([, list]) => list.length).map(([label, list]) => (
               <div key={label}>
-                <h3 className="font-serif text-[20px] font-bold text-ink">{label}</h3>
-                <ul className="mt-2 flex flex-col divide-y divide-hairline-soft border-y border-hairline-soft">
-                  {list.map((r) => (
-                    <li key={r.id}>
-                      <Link href={`/guide/race/${r.id}`} className="flex items-baseline justify-between gap-3 py-2 hover:bg-paper-raised">
-                        <span className="font-sans text-[13.5px] font-semibold text-ink-80">
-                          {r.title.replace(/^.*?·\s*/, "")}
-                        </span>
-                        <span className="truncate text-right font-sans text-[12px] text-ink-45">
-                          {r.candidates.map((c) => c.name.split(" ").slice(-1)[0]).join(" · ")}
-                        </span>
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+                {list.length > 20 ? (
+                  <details>
+                    <summary className="cursor-pointer font-serif text-[20px] font-bold text-ink">
+                      {label} <span className="font-sans text-[13px] font-normal text-ink-45">· {list.length} districts</span>
+                    </summary>
+                    <RaceRows list={list} />
+                  </details>
+                ) : (
+                  <>
+                    <h3 className="font-serif text-[20px] font-bold text-ink">{label}</h3>
+                    <RaceRows list={list} />
+                  </>
+                )}
               </div>
             ))}
           </div>

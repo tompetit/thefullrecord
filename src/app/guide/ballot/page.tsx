@@ -5,7 +5,10 @@ import { IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "
 import { LOOKUP_MESSAGES } from "@/lib/site";
 import { ballotForAddress } from "@/server/guide/ballot";
 
-export const metadata = { title: "My 2026 ballot — The Full Record" };
+export const metadata = {
+  title: "My 2026 ballot — The Full Record",
+  description: "Enter an address to see the researched 2026 races and candidates on your ballot, with sources.",
+};
 
 export default async function BallotPage({ searchParams }: { searchParams: Promise<{ address?: string }> }) {
   const query = await searchParams;
@@ -67,7 +70,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                       {i + 1}. {OFFICE_LABEL[r.officeType]}
                     </SectionLabel>
                     <Link href={`/guide/race/${r.id}`} className="whitespace-nowrap font-sans text-[12.5px] font-semibold text-accent">
-                      Full comparison →
+                      Race details →
                     </Link>
                   </div>
                   <Link href={`/guide/race/${r.id}`} className="mt-1 block font-serif text-[20px] font-bold text-ink hover:underline">

@@ -9,7 +9,6 @@ import {
   StanceChip,
   money,
 } from "./ui";
-import { StandLink } from "./StandClient";
 
 const DEPTH_NOTE: Record<GuideCandidate["researchDepth"], string | null> = {
   full: null,
@@ -20,9 +19,9 @@ const DEPTH_NOTE: Record<GuideCandidate["researchDepth"], string | null> = {
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-5">
-      <h4 className="font-sans text-[11px] font-bold tracking-[0.07em] text-ink-45 uppercase">
+      <h2 className="font-sans text-[11px] font-bold tracking-[0.07em] text-ink-45 uppercase">
         {title}
-      </h4>
+      </h2>
       <div className="mt-2">{children}</div>
     </section>
   );
@@ -133,12 +132,10 @@ export function CandidateProfile({
   race,
   candidate: c,
   headingLevel = "h3",
-  showProfileLink = false,
 }: {
   race: GuideRace;
   candidate: GuideCandidate;
   headingLevel?: "h1" | "h3";
-  showProfileLink?: boolean;
 }) {
   const H = headingLevel;
   const depthNote = DEPTH_NOTE[c.researchDepth];
@@ -172,6 +169,10 @@ export function CandidateProfile({
       </p>
       {depthNote && (
         <p className="mt-2 font-sans text-[11.5px] italic text-ink-45">{depthNote}</p>
+      )}
+
+      {!c.incumbent && !c.keyVotes?.length && !c.stateVotes?.length && !c.record.length && (
+        <p className="mt-4 font-sans text-[12.5px] text-ink-45">No recorded votes — not a current officeholder.</p>
       )}
 
       {(c.keyVotes?.length ?? 0) > 0 && (
@@ -283,11 +284,6 @@ export function CandidateProfile({
           <a href={c.website} target="_blank" rel="noopener noreferrer" className="font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
             Campaign website ↗
           </a>
-        )}
-        {showProfileLink && (
-          <StandLink href={`/guide/race/${race.id}/${c.id}`} className="font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
-            Shareable profile page
-          </StandLink>
         )}
       </div>
     </article>
