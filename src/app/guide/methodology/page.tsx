@@ -47,7 +47,9 @@ export default function MethodologyPage() {
           <P>
             Each sentence about a candidate carries numbered citations that open the
             source. If a claim can&rsquo;t be sourced, it isn&rsquo;t published. Each race
-            page lists every source it uses and notes what we couldn&rsquo;t find.
+            page lists every source it uses and notes what we couldn&rsquo;t find. Before
+            publishing, a second research pass re-opens every cited source and corrects
+            or removes anything the source doesn&rsquo;t support.
           </P>
         </section>
 

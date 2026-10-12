@@ -205,23 +205,12 @@ function VerificationNote({ raceId }: { raceId: string }) {
   const v = getVerification(raceId);
   if (!v) return null;
   return (
-    <details className="mt-3 max-w-3xl rounded-lg border border-accent-tint-border bg-accent-tint px-3.5 py-2 font-sans text-[12.5px] text-accent-deep">
-      <summary className="cursor-pointer font-semibold">
-        ✓ Fact-checked {v.checkedAt}: {v.claimsChecked} claims re-checked against their sources
-        {v.corrected || v.removed ? ` · ${v.corrected} corrected · ${v.removed} removed` : ""}
-      </summary>
-      <p className="mt-1.5 text-ink-60">
-        A second, independent research pass re-opened every cited source for this race and
-        corrected or removed anything the source didn&rsquo;t support.
-      </p>
-      {v.notes.length > 0 && (
-        <ul className="mt-1.5 list-disc pl-5 text-ink-60">
-          {v.notes.map((n, i) => (
-            <li key={i}>{n}</li>
-          ))}
-        </ul>
-      )}
-    </details>
+    <p className="mt-3 font-sans text-[12.5px] text-ink-60">
+      Sources re-checked{" "}
+      {new Date(`${v.checkedAt}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}
+      {" · "}
+      <Link href="/guide/methodology" className="underline hover:text-ink">How we research</Link>
+    </p>
   );
 }
 
