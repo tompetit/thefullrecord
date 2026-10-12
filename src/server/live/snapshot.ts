@@ -135,6 +135,8 @@ function summaryJuris(file: string): string | undefined {
   if (file.startsWith("state-")) return file.split("-")[1];
   return ({ house: "us", ussenate: "us", "senate-ny": "ny", "assembly-ny": "ny", council: "nyc" } as Record<string, string>)[file];
 }
+const longDate = (iso: string) =>
+  new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
 const normTitle = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 
 /**
@@ -142,7 +144,7 @@ const normTitle = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").tri
  * none. Applied only when the bill title matches the one summarized, since bill numbers
  * repeat across sessions; an official summary always wins.
  */
-let voteSummaries: Record<string, { title: string; summary: string }> | null = null;
+let voteSummaries: Record<string, { title: string; summary: string; asOf?: string }> | null = null;
 function addSummaries(snapshot: ChamberSnapshot) {
   if (!voteSummaries) {
     try {
@@ -158,7 +160,9 @@ function addSummaries(snapshot: ChamberSnapshot) {
     if (rc.summary && rc.summary !== rc.title) continue;
     const s = all[`${juris}:${rc.bill}`];
     if (s && normTitle(s.title) === normTitle(rc.title)) {
-      rc.summary = s.summary;
+      // Each summary was checked against one vote's version of the bill; on other votes say which.
+      const other = s.asOf && s.asOf !== rc.date && !/^As /.test(s.summary);
+      rc.summary = other ? `On the version voted ${longDate(s.asOf!)}: ${s.summary}` : s.summary;
       rc.summarySource = "ai";
     }
   }
