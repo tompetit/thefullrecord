@@ -60,8 +60,8 @@ const BUDGET = Number(flag("--budget") ?? Infinity);
 const PROGRESS_FILE = join(dirname(fileURLToPath(import.meta.url)), "openstates-progress.json");
 const progress = existsSync(PROGRESS_FILE) ? JSON.parse(readFileSync(PROGRESS_FILE, "utf8")) : {};
 let rateLimited = 0;
-// States with their own official-source ingest; never overwritten from Open States (NY: nysenate/assembly; CA: ca-leginfo.mjs; WA: wa-leg.mjs; UT: ut-leg.mjs; AZ: az-leg.mjs; OR: or-leg.mjs; OH: oh-leg.mjs; GA: ga-leg.mjs; NJ: nj-leg.mjs).
-const OFFICIAL_SOURCES = new Set(["ny", "ca", "wa", "ut", "az", "or", "oh", "ga", "nj"]);
+// States with their own official-source ingest; never overwritten from Open States (NY: nysenate/assembly; CA: ca-leginfo.mjs; WA: wa-leg.mjs; UT: ut-leg.mjs; AZ: az-leg.mjs; OR: or-leg.mjs; OH: oh-leg.mjs; GA: ga-leg.mjs; NJ: nj-leg.mjs; VA: va-lis.mjs).
+const OFFICIAL_SOURCES = new Set(["ny", "ca", "wa", "ut", "az", "or", "oh", "ga", "nj", "va"]);
 const NOT_JURISDICTIONS = new Set(["NY", "GU", "VI", "AS", "MP"]);
 const states = (flag("--states")?.split(",").map((s) => s.trim().toLowerCase()) ??
   Object.keys(STATE_NAMES).filter((s) => !NOT_JURISDICTIONS.has(s)).map((s) => s.toLowerCase()))
