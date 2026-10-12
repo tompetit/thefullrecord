@@ -12,7 +12,9 @@
  * slug (the CSV's ohiohouse.gov/ohiosenate.gov member links), then by chamber + name; former members fall back to
  * Open States' retired list on full name. Simple resolutions (HR/SR) are omitted. The Votes tab carries no motion text
  * and no absentee list, so `question` is omitted and only recorded Yeas/Nays are stored.
- * No bill summary: Ohio's LSC bill analyses are PDFs only (not in the API), so summaries are omitted.
+ * Summary: the opening bullets of the latest LSC bill analysis PDF listed on the bill's Documents tab
+ * (SUMMARY / Highlights / Synopsis section), text-extracted by pdf-text.py (needs pypdf; set PYTHONPATH if not
+ * installed), joined into sentences and trimmed; omitted when the bill has no analysis.
  *
  * Both hosts have an incomplete certificate chain, so requests go through `curl -k`; responses are cached in --work
  * (default ~/.cache/oh-leg) so reruns make no requests (<= 3 requests/second otherwise).
@@ -24,7 +26,7 @@ import { join, dirname } from "node:path";
 import { homedir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { decodeXml, politeGet, sleep, writeSnapshot } from "./shared.mjs";
-import { classify, snapshotChamberName } from "./openstates-transform.mjs";
+import { billSummary, classify, snapshotChamberName } from "./openstates-transform.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot");
@@ -134,6 +136,7 @@ for (const b of bills) {
     const k = `${chamber}-${day}`; seen[k] = (seen[k] ?? 0) + 1;
     rolls[chamber].push({
       id: `oh-${b.number}-${chamber === "lower" ? "h" : "s"}-${day}-${seen[k]}`,
+      number: b.number,
       bill: label(b.number),
       title: b.short_title,
       kind: classify({ motion_text: "", motion_classification: ["passage"] }), // the Votes tab lists passage/concurrence votes only
@@ -146,8 +149,47 @@ for (const b of bills) {
   }
 }
 
+const PDFTXT = join(dirname(fileURLToPath(import.meta.url)), "pdf-text.py");
+async function pdfText(url, name) {
+  const txt = join(work, `${name}.txt`);
+  if (existsSync(txt)) return readFileSync(txt, "utf8");
+  const pdf = join(work, `${name}.pdf`);
+  if (!existsSync(pdf)) {
+    last = Math.max(last + 350, Date.now());
+    if (last > Date.now()) await sleep(last - Date.now());
+    await new Promise((resolve, reject) => execFile("curl", ["-skL", "--max-time", "60", "-o", pdf, url], (e) => (e ? reject(e) : resolve())));
+  }
+  const text = await new Promise((resolve) => execFile("python3", [PDFTXT, pdf], { maxBuffer: 64e6 }, (_, out) => resolve(out ?? "")));
+  writeFileSync(txt, text);
+  return text;
+}
+/** Opening bullets of an LSC analysis ("SUMMARY" / "Highlights" / "Synopsis") as plain sentences. */
+function analysisSummary(text) {
+  const lines = text.replace(/\r/g, "").split("\n").map((l) => l.trim());
+  const start = lines.findIndex((l) => /^(summary|highlights|synopsis)$/i.test(l));
+  if (start < 0) return "";
+  const body = [];
+  for (const l of lines.slice(start + 1)) {
+    if (/^[A-Z][A-Z ,&'’-]{3,}$/.test(l) || /^table of contents/i.test(l)) break;
+    body.push(l);
+  }
+  const items = body.join(" ").split(/[▪•]/).map((x) => x.replace(/\s+/g, " ").replace(/\s+([,.;:])/g, "$1").replace(/(\w) -(?=\w)/g, "$1-").trim()).filter(Boolean);
+  return items.map((x) => (/[.!?]$/.test(x) ? x : `${x}.`)).join(" ");
+}
+const analyses = new Map(); // bill number -> { summary, summarySource }
+for (const num of new Set(Object.values(rolls).flat().map((r) => r.number))) {
+  const docs = await get(`${SITE}/${num}/documents`, `docs-${num}.html`);
+  const sec = /<h2>Analysis<\/h2>([\s\S]*?)<\/section>/.exec(docs)?.[1] ?? "";
+  const key = /download\?key=(\d+)/.exec(sec)?.[1]; // listed newest first: final analysis, else as passed, else as introduced
+  if (!key) continue;
+  analyses.set(num, billSummary({ title: "", abstracts: [{ abstract: analysisSummary(await pdfText(`https://www.legislature.ohio.gov/download?key=${key}`, `analysis-${num}-${key}`)) }] }));
+}
+console.log(`${analyses.size} bills with an analysis summary`);
+for (const r of Object.values(rolls).flat()) Object.assign(r, analyses.get(r.number));
+
 for (const chamber of ["lower", "upper"]) {
   const list = rolls[chamber];
+  for (const r of list) delete r.number;
   list.sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
   await writeSnapshot(join(OUT, `state-oh-${chamber}.json`), {
     generatedAt: now,
@@ -158,7 +200,7 @@ for (const chamber of ["lower", "upper"]) {
     legislativeChamber: chamber,
     rollCalls: list,
   }, { compact: true });
-  console.log(`${chamber}: ${list.length} roll calls`);
+  console.log(`${chamber}: ${list.length} roll calls, ${list.filter((r) => r.summary).length} with official summary`);
 }
 console.log("skipped:", skipped, "| tally mismatches:", tallyMismatch);
 console.log("unmatched member names (votes dropped):", Object.fromEntries(unmatched));
