@@ -27,6 +27,8 @@ export interface SnapshotRollCall {
   title: string;
   summary?: string;
   summarySource?: "ai" | "official";
+  /** AI-written one-line explanation of what a yes vote did (procedural/amendment votes) */
+  meaning?: string;
   kind: "substantive" | "procedural";
   outcome: string;
   date: string;
@@ -120,6 +122,7 @@ export function getSnapshots(): ChamberSnapshot[] {
       if (Array.isArray(parsed.rollCalls)) {
         const snapshot = { ...expandSnapshot(parsed), file: file.replace(/\.json$/, "") };
         addSummaries(snapshot);
+        addMeanings(snapshot);
         snapshots.push(snapshot);
       }
     } catch (err) {
@@ -165,6 +168,22 @@ function addSummaries(snapshot: ChamberSnapshot) {
       rc.summary = other ? `On the version voted ${longDate(s.asOf!)}: ${s.summary}` : s.summary;
       rc.summarySource = "ai";
     }
+  }
+}
+
+/** AI-written "what a yes vote did" lines (src/server/vote-meanings.json), keyed "<file stem>|<roll call id>". */
+let voteMeanings: Record<string, { meaning: string }> | null = null;
+function addMeanings(snapshot: ChamberSnapshot) {
+  if (!voteMeanings) {
+    try {
+      voteMeanings = JSON.parse(readFileSync(join(process.cwd(), "src/server/vote-meanings.json"), "utf8")).meanings ?? {};
+    } catch {
+      voteMeanings = {};
+    }
+  }
+  for (const rc of snapshot.rollCalls) {
+    const m = voteMeanings![`${snapshot.file}|${rc.id}`];
+    if (m) rc.meaning = m.meaning;
   }
 }
 
@@ -265,6 +284,7 @@ export function snapshotVotes(
         question: rc.question,
         aiSummary: rc.summary,
         summarySource: rc.summarySource,
+        meaning: rc.meaning,
         vote,
         kind: rc.kind,
         unanimous: rollCallSplit(snapshot, rc).kind === "unanimous" || undefined,
