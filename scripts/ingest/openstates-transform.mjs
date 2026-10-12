@@ -20,7 +20,7 @@ export function mapOpenStatesVote(option) {
 
 const PROCEDURAL = /journal|previous question|adjourn|recess|\btable\b|tabled|recommit|\brefer\b|referred|call of the (house|senate)|quorum|point of order|reconsider|rules? suspension|suspend the rules|\bcalendar\b/i;
 
-function classify(vote) {
+export function classify(vote) {
   const classes = vote.motion_classification ?? [];
   if (classes.some((c) => /passage/.test(c))) return "substantive";
   return PROCEDURAL.test(vote.motion_text ?? "") ? "procedural" : "substantive";
