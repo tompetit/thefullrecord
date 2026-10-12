@@ -91,3 +91,8 @@ test('chambers are readable and ordered: U.S., New York, D.C., then states', () 
     ['U.S. House', 'U.S. Senate', 'New York Senate', 'New York Assembly', 'NYC Council', 'D.C. Council', 'California Assembly', 'California Senate', 'Nebraska Legislature', 'Wisconsin Assembly']);
 });
 
+test('rental vehicles and hotel rental taxes are not housing', () => {
+  assert.deepEqual(classifyIssues('Rental vehicle company fees'), []);
+  assert.deepEqual(classifyIssues('Authorizes a hotel and motel tax', 'on room rental and occupancy'), ['economy']);
+  assert.deepEqual(classifyIssues('Rental assistance for tenants'), ['housing']);
+});

@@ -3,7 +3,7 @@ import type { SplitKind } from "./divisive";
 
 /** Topic tags are discovery aids, not judgments about a vote's policy direction. */
 export const ISSUE_TOPICS = [
-  { id: "housing", label: "Housing & rent", description: "Homes, tenants, development", terms: ["housing", "rent", "rental", "tenant", "tenants", "dwelling", "dwellings", "homeless", "homelessness", "landlord", "landlords", "mortgage"] },
+  { id: "housing", label: "Housing & rent", description: "Homes, tenants, development", terms: ["housing", "rent", "rental housing", "rental assistance", "rental property", "rental units", "rental agreements", "rental residential", "rental home", "rental supplement", "tenant", "tenants", "dwelling", "dwellings", "homeless", "homelessness", "landlord", "landlords", "mortgage"] },
   { id: "health", label: "Health & care", description: "Care, coverage, public health", terms: ["health", "healthcare", "medical", "medicaid", "medicare", "hospital", "hospitals", "patient", "patients", "reproductive", "abortion", "nursing", "mental health"] },
   { id: "education", label: "Education & families", description: "Schools, students, child care", terms: ["education", "school", "schools", "student", "students", "tuition", "college", "child care", "childcare", "children", "child"] },
   { id: "economy", label: "Jobs & cost of living", description: "Work, taxes, consumer costs", terms: ["labor", "labour", "worker", "workers", "employment", "wage", "wages", "union", "tax", "taxes", "taxation", "budget", "debt", "consumer", "consumers", "appropriations", "affordability"] },
