@@ -6,7 +6,14 @@ import { ProfileTabs } from "@/components/ProfileTabs";
 import { SourceLink } from "@/components/SourceLink";
 import { getDataSource } from "@/server/datasource";
 
-export const metadata = { title: "Official profile — The Full Record" };
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const official = await getDataSource().getOfficial((await params).id);
+  if (!official) return { title: "Official not found · The Full Record" };
+  return {
+    title: `${official.name} — votes and record · The Full Record`,
+    description: `How ${official.name} (${official.role}) voted, with links to the official record.`,
+  };
+}
 
 /** The core screen: identity + committees + stats + the activity feed. */
 export default async function OfficialPage({
