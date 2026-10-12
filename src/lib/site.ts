@@ -17,7 +17,7 @@ export const LOOKUP_MESSAGES = {
 /** Failure text for an address, with a sharper hint when the input is only a ZIP/city or a territory. */
 export function lookupMessage(reason: keyof typeof LOOKUP_MESSAGES, address: string) {
   if (reason !== "no-match") return LOOKUP_MESSAGES[reason];
-  if (!/\d+\s+\S/.test(address.replace(/\b\d{5}(-\d{4})?\s*$/, "")))
+  if (!/\d/.test(address.replace(/\b\d{5}(-\d{4})?\s*$/, "")))
     return "Enter a street address — a ZIP code alone can't tell us your district.";
   if (/\b(PR|GU|VI|AS|MP|Puerto Rico|Guam|Virgin Islands|American Samoa|Northern Mariana)\b/i.test(address))
     return `${LOOKUP_MESSAGES[reason]} U.S. territories aren't covered yet.`;
