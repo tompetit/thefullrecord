@@ -68,3 +68,18 @@ test("summarizeStandout counts breaks from party majority", () => {
   assert.equal(summarizeStandout("R", inputs("no").slice(0, 4)), null);
   assert.match(standoutSentence({ m: 12, n: 0 }), /all 12/);
 });
+
+test("summarizeStandout: top 3 topics of breaking votes, only with >= 5 tagged", async () => {
+  const { summarizeStandout } = await import("../src/lib/divisive.ts");
+  const split = partySplit(votes({ D: [10, 0], R: [0, 10] }), party);
+  const input = (vote, topics) => ({ vote, split, topics, meta: { date: "2026-01-01" } });
+  const mk = (n) => [
+    ...Array.from({ length: 5 }, () => input("yes", ["economy"])), // R majority voted no: these break
+    ...Array.from({ length: n }, () => input("yes", ["health", "economy"])),
+  ];
+  assert.equal(summarizeStandout("R", mk(0)).n, 5);
+  assert.deepEqual(summarizeStandout("R", mk(0)).topTopics, [["economy", 5]]);
+  assert.deepEqual(summarizeStandout("R", mk(2)).topTopics, [["economy", 7], ["health", 2]]);
+  const few = [...Array.from({ length: 4 }, () => input("yes", ["economy"])), ...Array.from({ length: 6 }, () => input("yes", []))];
+  assert.equal(summarizeStandout("R", few).topTopics, undefined);
+});

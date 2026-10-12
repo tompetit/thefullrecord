@@ -1,6 +1,6 @@
 import { brokeWithParty } from "@/lib/divisive";
-import { classifyIssues, type IssueRecord } from "@/lib/issues";
-import { getSnapshots, memberKeyFor, partyFor, rollCallSplit } from "./live/snapshot";
+import type { IssueRecord } from "@/lib/issues";
+import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, rollCallTopics } from "./live/snapshot";
 import type { Official } from "./types";
 
 let allRecords: IssueRecord[] | null = null;
@@ -30,7 +30,7 @@ function baseRecords(): IssueRecord[] {
       dateLabel: roll.dateLabel,
       sourceUrl: roll.sourceUrl,
       sourceLabel: snapshot.sourceLabel,
-      topics: classifyIssues(roll.title, roll.summary, roll.question),
+      topics: rollCallTopics(roll),
       representatives: [],
     } satisfies IssueRecord;
   })).sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));

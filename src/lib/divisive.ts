@@ -81,11 +81,14 @@ export interface Standout {
   n: number;
   /** The n votes, newest first */
   votes: StandoutVote[];
+  /** Top 3 topic ids among the n votes with counts; only when at least MIN_DIVIDED of them have a topic */
+  topTopics?: Array<[string, number]>;
 }
 
 export interface StandoutInput {
   vote: string;
   split: PartySplit;
+  topics?: string[];
   meta: Omit<StandoutVote, "vote" | "partySide" | "breakdown">;
 }
 
@@ -104,18 +107,23 @@ export function summarizeStandout(party: string | undefined, inputs: StandoutInp
   if (party !== "D" && party !== "R") return null;
   let m = 0;
   const votes: StandoutVote[] = [];
-  for (const { vote, split, meta } of inputs) {
+  const counts = new Map<string, number>();
+  let tagged = 0;
+  for (const { vote, split, meta, topics } of inputs) {
     if (split.kind !== "party-line" && split.kind !== "crossed") continue;
     if (vote !== "yes" && vote !== "no") continue;
     const side = majority(split.byParty[party]);
     if (!side) continue;
     m++;
-    if (brokeWithParty(vote, party, split))
-      votes.push({ ...meta, vote, partySide: side, breakdown: breakdown(split) });
+    if (!brokeWithParty(vote, party, split)) continue;
+    votes.push({ ...meta, vote, partySide: side, breakdown: breakdown(split) });
+    if (topics?.length) tagged++;
+    for (const t of topics ?? []) counts.set(t, (counts.get(t) ?? 0) + 1);
   }
   if (m < MIN_DIVIDED) return null;
   votes.sort((a, b) => b.date.localeCompare(a.date));
-  return { party, m, n: votes.length, votes };
+  const topTopics = tagged >= MIN_DIVIDED ? [...counts].sort((a, b) => b[1] - a[1]).slice(0, 3) : undefined;
+  return { party, m, n: votes.length, votes, topTopics };
 }
 
 /** Up to `max` votes, substantive first, newest first within each group. */

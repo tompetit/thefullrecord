@@ -16,6 +16,7 @@
 
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { ISSUE_TOPICS, classifyIssues } from "../../lib/issues";
 import { partySplit, type PartySplit } from "../../lib/divisive";
 import type { AttendanceEntry, VoteChoice, VoteRecord } from "../types";
 
@@ -29,6 +30,8 @@ export interface SnapshotRollCall {
   summarySource?: "ai" | "official";
   /** AI-written one-line explanation of what a yes vote did (procedural/amendment votes) */
   meaning?: string;
+  /** AI-assigned topic ids (vote-topics.json); [] = Other. Absent when not tagged. */
+  topics?: string[];
   kind: "substantive" | "procedural";
   outcome: string;
   date: string;
@@ -123,6 +126,7 @@ export function getSnapshots(): ChamberSnapshot[] {
         const snapshot = { ...expandSnapshot(parsed), file: file.replace(/\.json$/, "") };
         addSummaries(snapshot);
         addMeanings(snapshot);
+        addTopics(snapshot);
         snapshots.push(snapshot);
       }
     } catch (err) {
@@ -186,6 +190,28 @@ function addMeanings(snapshot: ChamberSnapshot) {
     if (m) rc.meaning = m.meaning;
   }
 }
+
+/** AI-assigned topics (src/server/vote-topics.json), keyed "<juris>:<bill>|<normTitle[0..80]>". */
+let voteTopics: Record<string, string[]> | null = null;
+function addTopics(snapshot: ChamberSnapshot) {
+  if (!voteTopics) {
+    try {
+      voteTopics = JSON.parse(readFileSync(join(process.cwd(), "src/server/vote-topics.json"), "utf8")).topics ?? {};
+    } catch {
+      voteTopics = {};
+    }
+  }
+  const juris = snapshot.file && summaryJuris(snapshot.file);
+  if (!juris) return;
+  const known = new Set<string>(ISSUE_TOPICS.map((t) => t.id));
+  for (const rc of snapshot.rollCalls) {
+    const t = voteTopics![`${juris}:${rc.bill}|${normTitle(rc.title).slice(0, 80)}`];
+    if (t) rc.topics = t.filter((id) => known.has(id));
+  }
+}
+
+/** AI topics when tagged, else keyword matching. */
+export const rollCallTopics = (rc: SnapshotRollCall) => rc.topics ?? classifyIssues(rc.title, rc.summary, rc.question);
 
 let partyRoster: Record<string, Record<string, string>> | null = null;
 

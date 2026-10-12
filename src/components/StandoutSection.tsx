@@ -1,5 +1,6 @@
 import Link from "@/components/Link";
 import { partyName, standoutSentence, topStandoutVotes, type Standout } from "@/lib/divisive";
+import { ISSUE_TOPICS } from "@/lib/issues";
 import { SourceLink } from "./SourceLink";
 
 /** "Where they stood out": votes against the member's own party's majority. Neutral styling, no scores. */
@@ -19,6 +20,11 @@ export function StandoutSection({
     <section aria-labelledby="stood-out" className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">
       <h2 id="stood-out" className="font-serif text-[17px] font-bold text-ink">Where they stood out</h2>
       <p className="mt-1.5 font-sans text-[13.5px] leading-[1.5] text-ink-80">{standoutSentence(standout)}</p>
+      {standout.topTopics && (
+        <p className="mt-1 font-sans text-[13px] leading-[1.5] text-ink-60">
+          Most often on: {standout.topTopics.map(([id, c]) => `${ISSUE_TOPICS.find((t) => t.id === id)?.label ?? id} (${c})`).join(", ")}
+        </p>
+      )}
       {votes.length > 0 && (
         <ul className="mt-2 flex flex-col divide-y divide-hairline-soft">
           {votes.map((v) => (

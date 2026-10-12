@@ -1,4 +1,4 @@
-import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, type ChamberSnapshot } from "./live/snapshot";
+import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, rollCallTopics, type ChamberSnapshot } from "./live/snapshot";
 import { summarizeStandout, type Standout, type StandoutInput } from "../lib/divisive";
 
 function compute(keyOf: (s: ChamberSnapshot) => string | null): Standout | null {
@@ -12,6 +12,7 @@ function compute(keyOf: (s: ChamberSnapshot) => string | null): Standout | null 
       inputs.push({
         vote,
         split: rollCallSplit(snap, rc),
+        topics: rollCallTopics(rc),
         meta: {
           id: rc.id,
           bill: rc.bill,
