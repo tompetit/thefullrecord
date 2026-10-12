@@ -63,7 +63,7 @@ export default async function OfficialPage({
         ))}
         <a
           href={official.contactUrl}
-          className="relative rounded-full border border-chip-border px-2.5 py-1 hover:border-card-strong after:absolute after:inset-x-0 after:-inset-y-2.5 after:content-['']"
+          className="inline-flex min-h-11 items-center rounded-full border border-chip-border px-2.5 hover:border-card-strong"
         >
           Contact ↗
         </a>
@@ -150,9 +150,11 @@ export default async function OfficialPage({
 
           <p className="mt-4 font-sans text-[11.5px] leading-normal text-ink-45">
             {official.methodologyNote}{" "}
-            <SourceLink href="/guide/methodology" className="text-[11.5px]">
-              Methodology
-            </SourceLink>
+            <span className="inline-flex min-h-11 items-center">
+              <SourceLink href="/guide/methodology" className="text-[11.5px]">
+                Methodology
+              </SourceLink>
+            </span>
           </p>
         </aside>
 

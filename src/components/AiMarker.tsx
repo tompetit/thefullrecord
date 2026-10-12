@@ -19,7 +19,7 @@ export function AiMarker({
           href={billTextUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-ink-60 underline"
+          className="inline-flex min-h-11 items-center text-ink-60 underline"
         >
           read the bill text ↗
         </a>
