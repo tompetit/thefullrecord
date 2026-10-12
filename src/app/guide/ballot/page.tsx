@@ -67,7 +67,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                       {i + 1}. {OFFICE_LABEL[r.officeType]}
                     </SectionLabel>
                     <Link href={`/guide/race/${r.id}`} className="whitespace-nowrap font-sans text-[12.5px] font-semibold text-accent">
-                      Full comparison →
+                      Race details →
                     </Link>
                   </div>
                   <Link href={`/guide/race/${r.id}`} className="mt-1 block font-serif text-[20px] font-bold text-ink hover:underline">
