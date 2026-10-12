@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { SectionLabel } from "@/components/guide/ui";
 import { getAllRaces, getKeyVoteDefs } from "@/server/guide/load";
 
@@ -89,15 +88,8 @@ export default function KeyVotesPage() {
                                   {groups
                                     .get(k)!
                                     .sort((a, b) => a.name.localeCompare(b.name))
-                                    .map((m, i) => (
-                                      <span key={m.raceId + m.cid}>
-                                        {i > 0 && ", "}
-                                        <Link href={`/guide/race/${m.raceId}/${m.cid}`} className="hover:underline">
-                                          {m.name}
-                                        </Link>{" "}
-                                        <span className="text-ink-45">({m.label})</span>
-                                      </span>
-                                    ))}
+                                    .map((m) => `${m.name} (${m.label})`)
+                                    .join(", ")}
                                 </p>
                               </div>
                             ))}
