@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { SectionLabel } from "@/components/guide/ui";
 import { getAllRaces, getKeyVoteDefs } from "@/server/guide/load";
 

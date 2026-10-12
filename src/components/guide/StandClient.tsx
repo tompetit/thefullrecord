@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/Link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { Suspense, type ComponentProps } from "react";
 import { parseStand, serializeStand, withStand, type AlignmentRace, type StandEntry } from "@/lib/alignment";

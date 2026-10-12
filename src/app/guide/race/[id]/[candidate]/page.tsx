@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { notFound } from "next/navigation";
 import { CandidateProfile } from "@/components/guide/CandidateProfile";
 import { CandidateStand, StandLink } from "@/components/guide/StandClient";

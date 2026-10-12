@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { LOOKUP_SCOPE } from "@/lib/site";
 import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { ISSUE_TOPICS } from "@/lib/issues";

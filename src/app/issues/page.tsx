@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import type { Metadata } from "next";
 import { IssueAddressForm } from "@/components/issues/IssueAddressForm";
 import { IssueExplorer } from "@/components/issues/IssueExplorer";
