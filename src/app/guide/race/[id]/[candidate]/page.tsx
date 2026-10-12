@@ -5,6 +5,8 @@ import { CandidateProfile } from "@/components/guide/CandidateProfile";
 import { CandidateStand, StandLink } from "@/components/guide/StandClient";
 import { alignmentRace } from "@/lib/alignment";
 import { SectionLabel, SourceList } from "@/components/guide/ui";
+import { StandoutSection } from "@/components/StandoutSection";
+import { standoutForBioguide, standoutForDistrict } from "@/server/standout";
 import { getAllRaces, getCandidate } from "@/server/guide/load";
 
 export function generateStaticParams() {
@@ -43,6 +45,12 @@ export default async function CandidatePage({ params }: { params: Params }) {
   const pageRace = { ...race, sources };
   const opponents = race.candidates.filter((o) => o.id !== c.id);
   const slim = alignmentRace(race);
+  // Incumbents only: Congress by bioguide id, Albany by the race's district when the votes were matched.
+  const standout = c.bioguideId
+    ? standoutForBioguide(c.bioguideId)
+    : c.incumbent && c.stateVotes?.length && /^ny-(ad|sd)-\d+$/.test(race.id)
+      ? standoutForDistrict(race.id)
+      : null;
 
   return (
     <main className="flex-1 pb-4">
@@ -54,6 +62,11 @@ export default async function CandidatePage({ params }: { params: Params }) {
         <div className="mt-3">
           <CandidateProfile race={pageRace} candidate={c} headingLevel="h1" />
         </div>
+        {standout && (
+          <div className="mt-4">
+            <StandoutSection standout={standout} max={3} fullRecordHref={`/official/${race.id}`} />
+          </div>
+        )}
         <CandidateStand race={{ ...slim, candidates: slim.candidates.filter((x) => x.id === c.id) }} candidateId={c.id} />
         {opponents.length > 0 && (
           <p className="mt-4 font-sans text-[13px] text-ink-60">

@@ -4,7 +4,9 @@ import { ElectionCard } from "@/components/ElectionCard";
 import { PartyChip } from "@/components/PartyChip";
 import { ProfileTabs } from "@/components/ProfileTabs";
 import { SourceLink } from "@/components/SourceLink";
+import { StandoutSection } from "@/components/StandoutSection";
 import { getDataSource } from "@/server/datasource";
+import { standoutForDistrict } from "@/server/standout";
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const official = await getDataSource().getOfficial((await params).id);
@@ -32,12 +34,14 @@ export default async function OfficialPage({
 
   const [votes, sponsorships, attendance, saidDidPairs, election] =
     await Promise.all([
-      ds.getVotes(id),
+      ds.getVotes(id, { hideUnanimous: true }),
       ds.getSponsorships(id),
       ds.getAttendance(id),
       ds.getSaidDidPairs(id),
       ds.getSeatElection(official.districtKey),
     ]);
+
+  const standout = standoutForDistrict(official.districtKey);
 
   const roleLine = official.locality
     ? `${official.role} · ${official.locality}`
@@ -166,7 +170,8 @@ export default async function OfficialPage({
         </aside>
 
         {/* Feed */}
-        <div className="mt-6 lg:mt-0">
+        <div className="mt-6 flex flex-col gap-4 lg:mt-0">
+          {standout && <StandoutSection standout={standout} />}
           <ProfileTabs
             official={official}
             initialVotes={votes}

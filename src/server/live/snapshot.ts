@@ -263,6 +263,7 @@ export function snapshotVotes(
         summarySource: rc.summarySource,
         vote,
         kind: rc.kind,
+        unanimous: rollCallSplit(snapshot, rc).kind === "unanimous" || undefined,
         outcome: rc.outcome,
         date: rc.date,
         dateLabel: rc.dateLabel,
