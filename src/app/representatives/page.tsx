@@ -3,10 +3,13 @@ import { AddressLookupForm } from "@/components/AddressLookupForm";
 import { OfficialCard } from "@/components/OfficialCard";
 import { SourceLink } from "@/components/SourceLink";
 import { getDataSource } from "@/server/datasource";
-import { LOOKUP_MESSAGES, LOOKUP_SCOPE } from "@/lib/site";
+import { LOOKUP_SCOPE, lookupMessage } from "@/lib/site";
 import type { LookupContext } from "@/server/types";
 
-export const metadata = { title: "Your representatives — The Full Record" };
+export const metadata = {
+  title: "Your representatives — The Full Record",
+  description: "Find the officials who represent a U.S. address and see how they voted.",
+};
 
 function LookupNotes({ context }: { context: LookupContext }) {
   const lines: string[] = [];
@@ -74,7 +77,7 @@ export default async function RepresentativesPage({
             Your representatives
           </h1>
           <p className="mt-4 max-w-lg rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] leading-relaxed text-ink-60">
-            {LOOKUP_MESSAGES[result.reason]}
+            {lookupMessage(result.reason, address)}
           </p>
           <AddressLookupForm initialAddress={address} />
           <p className="mt-4 font-sans text-[13px]">
@@ -99,8 +102,11 @@ export default async function RepresentativesPage({
           {count} representatives found for {result.matchedAddress}.
           {isSample && " This is an example address, not your location."}
         </p>
-        <AddressLookupForm initialAddress={address} />
+        <AddressLookupForm initialAddress={address} hint={false} />
         <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">{LOOKUP_SCOPE} Missing records do not mean a representative took no action. <Link href="/coverage" className="underline hover:text-ink">See coverage by place</Link>.</p>
+        {result.context?.state === "DC" && (
+          <p className="mt-2 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">D.C. has no U.S. senators; its House delegate can’t vote on final passage of bills.</p>
+        )}
         {result.context && <LookupNotes context={result.context} />}
         <Link
           href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}

@@ -58,6 +58,10 @@
   --shadow-card-raised: 0 1px 4px rgba(60, 50, 30, 0.06);
 }
 
+html {
+  color-scheme: light;
+}
+
 body {
   background: var(--color-paper);
   color: var(--color-ink-80);

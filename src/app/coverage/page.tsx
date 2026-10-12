@@ -69,7 +69,7 @@ export default function CoveragePage() {
             <p className="mt-3 text-sm"><strong className="font-mono text-2xl text-accent">{s.rollCalls.length}</strong> votes included</p>
             <dl className="mt-4 space-y-2 text-sm"><div className="flex flex-wrap justify-between gap-2"><dt className="text-ink-60">Vote dates</dt><dd>{dates.length ? `${date(dates[0])} – ${date(dates.at(-1)!)}` : "No records"}</dd></div><div className="flex flex-wrap justify-between gap-2"><dt className="text-ink-60">Snapshot generated</dt><dd>{date(s.generatedAt)}</dd></div></dl>
             <p className="mt-4 border-t border-hairline pt-4 text-sm leading-relaxed text-ink-60">{NOTES[s.chamber] ?? (s.keyBy === "openstates" ? "Selected recent floor votes retrieved through Open States, drawn from the most recently acted-on bills. Not every vote in the session; voice votes and votes without identified members are excluded." : "Selected roll calls; coverage may be incomplete.")}</p>
-            {s.rollCalls[0] && <a href={s.rollCalls[0].sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-4 inline-block text-xs font-semibold text-accent underline">Inspect a source record · {s.sourceLabel} ↗</a>}
+            {s.rollCalls[0] && <a href={s.rollCalls[0].sourceUrl} target="_blank" rel="noopener noreferrer" className="mt-2 inline-flex min-h-11 items-center text-xs font-semibold text-accent underline">Inspect a source record · {s.sourceLabel} ↗</a>}
           </section>;
         })}
       </div>

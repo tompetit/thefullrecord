@@ -46,6 +46,7 @@ export function VoteCard({
           <AiMarker
             billTextUrl={vote.sourceUrl}
             source={vote.summarySource ?? "ai"}
+            amended={/concur|amendment/i.test(vote.question ?? "")}
           />
         </>
       )}
@@ -56,8 +57,8 @@ export function VoteCard({
         <span>{vote.kind === "substantive" ? "Substantive" : "Procedural"}</span>
         <Dot />
         <span>{vote.dateLabel}</span>
-        <span className="ml-auto">
-          <SourceLink href={vote.sourceUrl} className="relative after:absolute after:inset-x-0 after:-inset-y-3.5 after:content-['']">
+        <span className="ml-auto -my-3 inline-flex min-h-11 items-center">
+          <SourceLink href={vote.sourceUrl}>
             {desktop ? vote.sourceLabel : "Roll call"}
           </SourceLink>
         </span>
