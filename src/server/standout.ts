@@ -17,6 +17,7 @@ function compute(keyOf: (s: ChamberSnapshot) => string | null): Standout | null 
           bill: rc.bill,
           title: rc.title,
           summary: rc.summary && rc.summary !== rc.title ? rc.summary : undefined,
+          meaning: rc.meaning,
           kind: rc.kind,
           date: rc.date,
           dateLabel: rc.dateLabel,

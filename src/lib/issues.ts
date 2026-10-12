@@ -31,6 +31,8 @@ export interface IssueRecord {
   title: string;
   summary?: string;
   summarySource?: "ai" | "official";
+  /** AI-written one-line explanation of what a yes vote did (procedural/amendment votes) */
+  meaning?: string;
   chamber: string;
   kind: "substantive" | "procedural";
   outcome: string;

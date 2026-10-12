@@ -38,6 +38,8 @@ export function VoteCard({
 
       {vote.question && <p className="mt-3 font-sans text-xs leading-relaxed text-ink-60"><span className="font-semibold">Motion:</span> {vote.question}</p>}
 
+      {vote.meaning && <p className="mt-1 font-sans text-xs leading-relaxed text-ink-60">{vote.meaning} (AI-written)</p>}
+
       {vote.aiSummary && !sameText(vote.aiSummary, vote.title) && (
         <>
           <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty">

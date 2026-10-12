@@ -24,6 +24,7 @@ export function StandoutSection({
           {votes.map((v) => (
             <li key={v.id} className="py-3">
               <p className="line-clamp-2 font-serif text-[15px] font-bold leading-[1.3] text-ink">{v.title}</p>
+              {v.meaning && <p className="mt-1 font-sans text-xs leading-[1.5] text-ink-60">{v.meaning} (AI-written)</p>}
               {v.summary && (
                 <p className="mt-1 font-sans text-[13px] leading-[1.5] text-ink-80">
                   <span className="font-semibold">What it does:</span> {v.summary.length > 220 ? `${v.summary.slice(0, 217).trimEnd()}…` : v.summary}

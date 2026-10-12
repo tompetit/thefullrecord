@@ -60,6 +60,7 @@ export interface StandoutVote {
   bill: string;
   title: string;
   summary?: string;
+  meaning?: string;
   kind: "substantive" | "procedural";
   date: string;
   dateLabel: string;

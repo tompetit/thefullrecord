@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
       "./src/server/snapshot/**/*.json",
       "./src/server/parties.json",
       "./src/server/vote-summaries.json",
+      "./src/server/vote-meanings.json",
     ],
   },
 };
