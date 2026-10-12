@@ -9,7 +9,6 @@ import {
   StanceChip,
   money,
 } from "./ui";
-import { StandLink } from "./StandClient";
 
 const DEPTH_NOTE: Record<GuideCandidate["researchDepth"], string | null> = {
   full: null,
@@ -133,12 +132,10 @@ export function CandidateProfile({
   race,
   candidate: c,
   headingLevel = "h3",
-  showProfileLink = false,
 }: {
   race: GuideRace;
   candidate: GuideCandidate;
   headingLevel?: "h1" | "h3";
-  showProfileLink?: boolean;
 }) {
   const H = headingLevel;
   const depthNote = DEPTH_NOTE[c.researchDepth];
@@ -283,11 +280,6 @@ export function CandidateProfile({
           <a href={c.website} target="_blank" rel="noopener noreferrer" className="font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
             Campaign website ↗
           </a>
-        )}
-        {showProfileLink && (
-          <StandLink href={`/guide/race/${race.id}/${c.id}`} className="font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
-            Shareable profile page
-          </StandLink>
         )}
       </div>
     </article>

@@ -2,8 +2,7 @@ import Link from "next/link";
 import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
 import { ISSUES, type GuideCandidate, type GuideRace, type IssueKey } from "@/server/guide/types";
-import { CandidateProfile } from "./CandidateProfile";
-import { RaceStand } from "./StandClient";
+import { RaceStand, StandLink } from "./StandClient";
 import {
   CitedText,
   Cites,
@@ -84,9 +83,9 @@ function Comparison({ race }: { race: GuideRace }) {
               </th>
               {race.candidates.map((c) => (
                 <th key={c.id} className="p-2.5 text-left align-bottom">
-                  <a href={`#${c.id}`} className="font-serif text-[14px] font-bold text-ink hover:underline">
+                  <StandLink href={`/guide/race/${race.id}/${c.id}`} className="font-serif text-[14px] font-bold text-ink hover:underline">
                     {c.name}
-                  </a>
+                  </StandLink>
                   <div className="mt-0.5 flex flex-wrap gap-1">
                     <PartyChips parties={c.parties} />
                   </div>
@@ -264,9 +263,9 @@ export function RaceView({ race }: { race: GuideRace }) {
             <SectionLabel>On the ballot · {race.candidates.length} {race.candidates.length === 1 ? "candidate" : "candidates"}</SectionLabel>
             <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {race.candidates.map((c) => (
-                <a
+                <StandLink
                   key={c.id}
-                  href={`#${c.id}`}
+                  href={`/guide/race/${race.id}/${c.id}`}
                   className="flex items-start gap-3 rounded-lg border border-card bg-paper-raised p-3.5 hover:border-card-strong"
                 >
                   <Monogram name={c.name} />
@@ -279,8 +278,9 @@ export function RaceView({ race }: { race: GuideRace }) {
                     {c.currentRole && (
                       <span className="mt-1 block font-sans text-[12px] leading-snug text-ink-60">{c.currentRole}</span>
                     )}
+                    <span className="mt-1.5 block font-sans text-[12.5px] font-semibold text-accent">Full profile →</span>
                   </span>
-                </a>
+                </StandLink>
               ))}
               {!race.candidates.length && (
                 <p className="font-sans text-[13px] text-ink-60">No candidates verified for this seat yet.</p>
@@ -291,15 +291,6 @@ export function RaceView({ race }: { race: GuideRace }) {
           <RaceStand race={alignmentRace(race)} />
           <Comparison race={race} />
           <KeyVoteComparison race={race} />
-
-          <section className="mt-10">
-            <SectionLabel>The candidates, in full</SectionLabel>
-            <div className="mt-3 flex flex-col gap-5">
-              {race.candidates.map((c) => (
-                <CandidateProfile key={c.id} race={race} candidate={c} showProfileLink />
-              ))}
-            </div>
-          </section>
         </>
       )}
 
