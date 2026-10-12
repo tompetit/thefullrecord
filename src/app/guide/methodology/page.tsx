@@ -1,7 +1,10 @@
 import { SectionLabel } from "@/components/guide/ui";
 import { getGuideStats } from "@/server/guide/load";
 
-export const metadata = { title: "How we research — The Full Record" };
+export const metadata = {
+  title: "How we research — The Full Record",
+  description: "Where the voter guide's facts come from: official records first, every claim cited, and what we leave out.",
+};
 
 function P({ children }: { children: React.ReactNode }) {
   return <p className="mt-2 font-sans text-[14.5px] leading-[1.7] text-ink-80">{children}</p>;
