@@ -46,6 +46,7 @@ export function VoteCard({
           <AiMarker
             billTextUrl={vote.sourceUrl}
             source={vote.summarySource ?? "ai"}
+            amended={/concur|amendment/i.test(vote.question ?? "")}
           />
         </>
       )}
