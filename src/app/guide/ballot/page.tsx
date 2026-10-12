@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { stateName } from "@/components/guide/RaceView";
 import { IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";

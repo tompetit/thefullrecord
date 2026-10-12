@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
 import { ISSUES, type GuideCandidate, type GuideRace, type IssueKey } from "@/server/guide/types";

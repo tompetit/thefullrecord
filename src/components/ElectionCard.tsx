@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { getRace } from "@/server/guide/load";
 import type { SeatElection, SeatNotOnBallot } from "@/server/types";
 import { SourceLink } from "./SourceLink";

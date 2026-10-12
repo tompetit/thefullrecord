@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { notFound } from "next/navigation";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
 import { IncumbentTag, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";

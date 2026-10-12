@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { REPO_URL } from "@/lib/site";
 
 /** The one site footer, rendered by the root layout on every page. */

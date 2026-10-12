@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { ISSUE_TOPICS, SPLIT_LABELS, chamberLabel, repsSplit, type IssueRecord } from "@/lib/issues";
 
 const chip = "rounded border border-chip-border bg-neutral-chip px-2 py-1";
