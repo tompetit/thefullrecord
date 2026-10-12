@@ -112,6 +112,12 @@ export default async function RepresentativesPage({
           href={`/issues${address ? `?address=${encodeURIComponent(address)}` : ""}`}
           className="mt-4 inline-flex rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[13.5px] font-semibold text-paper"
         >Explore their votes by issue →</Link>
+        {address && count > 1 && (
+          <Link
+            href={`/issues?address=${encodeURIComponent(address)}&show=reps-split`}
+            className="mt-4 ml-3 inline-flex min-h-11 items-center font-sans text-[13.5px] font-semibold text-accent-deep underline"
+          >Votes where your representatives split →</Link>
+        )}
       </div>
 
       <div className="mt-6 flex flex-col gap-7 px-4 sm:px-6 lg:px-10">
