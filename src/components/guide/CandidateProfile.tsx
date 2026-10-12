@@ -171,6 +171,10 @@ export function CandidateProfile({
         <p className="mt-2 font-sans text-[11.5px] italic text-ink-45">{depthNote}</p>
       )}
 
+      {!c.incumbent && !c.keyVotes?.length && !c.stateVotes?.length && !c.record.length && (
+        <p className="mt-4 font-sans text-[12.5px] text-ink-45">No recorded votes — not a current officeholder.</p>
+      )}
+
       {(c.keyVotes?.length ?? 0) > 0 && (
         <Block title="Key votes in Congress">
           <KeyVoteList candidate={c} />
