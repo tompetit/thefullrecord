@@ -114,7 +114,7 @@ export function Cites({
           target="_blank"
           rel="noopener noreferrer"
           title={`${KIND_LABEL[s.kind]} · ${s.publisher}: ${s.title}`}
-          className={`ml-0.5 align-super font-sans text-[9.5px] font-bold no-underline hover:underline ${
+          className={`relative ml-0.5 align-super font-sans text-[9.5px] font-bold no-underline before:absolute before:-inset-2 before:content-[""] hover:underline ${
             s.kind === "official" ? "text-accent" : "text-ink-45"
           }`}
         >
