@@ -117,13 +117,51 @@ export function getSnapshots(): ChamberSnapshot[] {
       const parsed = JSON.parse(
         readFileSync(join(SNAPSHOT_DIR, file), "utf8")
       ) as StoredSnapshot;
-      if (Array.isArray(parsed.rollCalls)) snapshots.push({ ...expandSnapshot(parsed), file: file.replace(/\.json$/, "") });
+      if (Array.isArray(parsed.rollCalls)) {
+        const snapshot = { ...expandSnapshot(parsed), file: file.replace(/\.json$/, "") };
+        addSummaries(snapshot);
+        snapshots.push(snapshot);
+      }
     } catch (err) {
       console.error(`[snapshot] failed to load ${file}:`, err);
     }
   }
   loaded = snapshots;
   return snapshots;
+}
+
+/** Jurisdiction prefix used by vote-summaries.json keys ("<juris>:<bill>"). */
+function summaryJuris(file: string): string | undefined {
+  if (file.startsWith("state-")) return file.split("-")[1];
+  return ({ house: "us", ussenate: "us", "senate-ny": "ny", "assembly-ny": "ny", council: "nyc" } as Record<string, string>)[file];
+}
+const normTitle = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+/**
+ * AI-written summaries (src/server/vote-summaries.json) for roll calls whose source has
+ * none. Applied only when the bill title matches the one summarized, since bill numbers
+ * repeat across sessions; an official summary always wins.
+ */
+let voteSummaries: Record<string, { title: string; summary: string }> | null = null;
+function addSummaries(snapshot: ChamberSnapshot) {
+  if (!voteSummaries) {
+    try {
+      voteSummaries = JSON.parse(readFileSync(join(process.cwd(), "src/server/vote-summaries.json"), "utf8")).summaries ?? {};
+    } catch {
+      voteSummaries = {};
+    }
+  }
+  const all = voteSummaries!;
+  const juris = snapshot.file && summaryJuris(snapshot.file);
+  if (!juris) return;
+  for (const rc of snapshot.rollCalls) {
+    if (rc.summary && rc.summary !== rc.title) continue;
+    const s = all[`${juris}:${rc.bill}`];
+    if (s && normTitle(s.title) === normTitle(rc.title)) {
+      rc.summary = s.summary;
+      rc.summarySource = "ai";
+    }
+  }
 }
 
 let partyRoster: Record<string, Record<string, string>> | null = null;

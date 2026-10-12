@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
       "./content/guide/**/*.json",
       "./content/said-vs-did/**/*.json",
       "./src/server/snapshot/**/*.json",
+      "./src/server/parties.json",
+      "./src/server/vote-summaries.json",
     ],
   },
 };
