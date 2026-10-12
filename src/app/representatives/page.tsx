@@ -99,7 +99,7 @@ export default async function RepresentativesPage({
           {count} representatives found for {result.matchedAddress}.
           {isSample && " This is an example address, not your location."}
         </p>
-        <AddressLookupForm initialAddress={address} />
+        <AddressLookupForm initialAddress={address} hint={false} />
         <p className="mt-4 max-w-2xl font-sans text-xs leading-relaxed text-ink-60">{LOOKUP_SCOPE} Missing records do not mean a representative took no action. <Link href="/coverage" className="underline hover:text-ink">See coverage by place</Link>.</p>
         {result.context && <LookupNotes context={result.context} />}
         <Link
