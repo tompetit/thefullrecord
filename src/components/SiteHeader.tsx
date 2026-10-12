@@ -40,7 +40,6 @@ export function SiteHeader() {
   const pathname = usePathname() ?? "/";
   const { address, clearAddress } = useAddress();
   const router = useRouter();
-  const searchParams = useSearchParams();
   const active = sectionFor(pathname);
   const repsHref = address ? `/representatives?address=${encodeURIComponent(address)}` : "/representatives";
   const items: Array<[Section, string, string]> = [
@@ -115,8 +114,8 @@ export function SiteHeader() {
               onClick={() => {
                 clearAddress();
                 // Drop ?address= too, so the page stops showing address-scoped content.
-                if (searchParams.has("address")) {
-                  const rest = new URLSearchParams(searchParams);
+                const rest = new URLSearchParams(window.location.search);
+                if (rest.has("address")) {
                   rest.delete("address");
                   const qs = rest.toString();
                   router.replace(qs ? `${pathname}?${qs}` : pathname);
