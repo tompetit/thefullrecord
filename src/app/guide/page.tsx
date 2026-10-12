@@ -47,26 +47,14 @@ export default function GuidePage() {
             {GUIDE_SCOPE} Follow sources for their votes and documented positions. Research depth varies; this is not an official or complete ballot. No endorsements, no scores.
           </p>
           <BallotAddressForm />
-          <div className="mt-4 flex flex-wrap gap-2">
-            <Link
-              href="/guide/match"
-              className="rounded-[10px] border-[1.5px] border-ink px-4 py-2.5 font-sans text-[14px] font-bold text-ink hover:bg-ink hover:text-paper"
-            >
-              Compare by issue →
-            </Link>
-            <Link
-              href="/guide/key-votes"
-              className="rounded-[10px] border border-chip-border px-4 py-2.5 font-sans text-[14px] font-semibold text-ink-80 hover:border-card-strong"
-            >
-              Key votes in Congress
-            </Link>
-            <Link
-              href="/guide/methodology"
-              className="rounded-[10px] border border-chip-border px-4 py-2.5 font-sans text-[14px] font-semibold text-ink-80 hover:border-card-strong"
-            >
-              How we research
-            </Link>
-          </div>
+          <p className="mt-4 font-sans text-[13.5px] text-ink-60">
+            Or{" "}
+            <Link href="/guide/match" className="underline hover:text-ink">compare by issue</Link>
+            {" · "}
+            <Link href="/guide/key-votes" className="underline hover:text-ink">key votes in Congress</Link>
+            {" · "}
+            <Link href="/guide/methodology" className="underline hover:text-ink">how we research</Link>
+          </p>
         </div>
       </section>
 
