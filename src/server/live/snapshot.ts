@@ -16,6 +16,7 @@
 
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { partySplit, type PartySplit } from "../../lib/divisive";
 import type { AttendanceEntry, VoteChoice, VoteRecord } from "../types";
 
 export interface SnapshotRollCall {
@@ -35,6 +36,8 @@ export interface SnapshotRollCall {
 }
 
 export interface ChamberSnapshot {
+  /** File stem under snapshot/, e.g. "house" or "state-tx-lower"; set by the loader */
+  file?: string;
   generatedAt: string;
   chamber: string;
   sourceLabel: string;
@@ -114,13 +117,47 @@ export function getSnapshots(): ChamberSnapshot[] {
       const parsed = JSON.parse(
         readFileSync(join(SNAPSHOT_DIR, file), "utf8")
       ) as StoredSnapshot;
-      if (Array.isArray(parsed.rollCalls)) snapshots.push(expandSnapshot(parsed));
+      if (Array.isArray(parsed.rollCalls)) snapshots.push({ ...expandSnapshot(parsed), file: file.replace(/\.json$/, "") });
     } catch (err) {
       console.error(`[snapshot] failed to load ${file}:`, err);
     }
   }
   loaded = snapshots;
   return snapshots;
+}
+
+let partyRoster: Record<string, Record<string, string>> | null = null;
+
+/** Party code (D/R/I/...) of a member key in a snapshot, from parties.json; undefined if unknown. */
+export function partyFor(
+  snapshot: ChamberSnapshot,
+  memberKey: string
+): string | undefined {
+  if (!partyRoster) {
+    try {
+      partyRoster = JSON.parse(
+        readFileSync(join(process.cwd(), "src/server/parties.json"), "utf8")
+      ).parties;
+    } catch {
+      partyRoster = {};
+    }
+  }
+  return snapshot.file ? partyRoster?.[snapshot.file]?.[memberKey] : undefined;
+}
+
+const splits = new WeakMap<SnapshotRollCall, PartySplit>();
+
+/** Party breakdown of one roll call (memoized). */
+export function rollCallSplit(
+  snapshot: ChamberSnapshot,
+  rc: SnapshotRollCall
+): PartySplit {
+  let split = splits.get(rc);
+  if (!split) {
+    split = partySplit(rc.votes, (k) => partyFor(snapshot, k));
+    splits.set(rc, split);
+  }
+  return split;
 }
 
 /** Map an official's districtKey to their member key within a snapshot. */

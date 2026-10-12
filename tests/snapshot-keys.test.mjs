@@ -5,6 +5,7 @@ import { loadTs } from "./helpers/loadTs.mjs";
 const { memberKeyFor } = loadTs("../src/server/live/snapshot.ts", {
   "node:fs": { readFileSync: () => "", readdirSync: () => [] },
   "node:path": { join: (...p) => p.join("/") },
+  "../../lib/divisive": {},
 }, { process: { cwd: () => "/" } });
 
 const house = { chamber: "U.S. HOUSE", memberKeys: { "tx-37": "D000399", "ak-al": "A1", "ny-10": "N10" } };

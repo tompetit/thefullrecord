@@ -82,3 +82,5 @@ research use different validation workflows and are not checked by it.
 Bill summaries describe legislation, not necessarily the motion on the displayed
 roll call. Enrichment must preserve specific roll-call titles (especially
 amendments) and may not replace them with the parent bill's title.
+
+Party rosters (`src/server/parties.json`, used for party-split analysis): refresh with `node --experimental-strip-types scripts/ingest/parties.mjs` after any snapshot ingest.

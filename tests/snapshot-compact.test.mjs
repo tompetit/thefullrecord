@@ -6,6 +6,7 @@ import { compactSnapshot, expandSnapshot as expandScript } from "../scripts/inge
 const { expandSnapshot } = loadTs("../src/server/live/snapshot.ts", {
   "node:fs": { readFileSync: () => "", readdirSync: () => [] },
   "node:path": { join: (...p) => p.join("/") },
+  "../../lib/divisive": {},
 }, { process: { cwd: () => "/" } });
 
 const verbose = () => ({
