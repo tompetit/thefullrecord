@@ -19,9 +19,9 @@ const DEPTH_NOTE: Record<GuideCandidate["researchDepth"], string | null> = {
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-5">
-      <h4 className="font-sans text-[11px] font-bold tracking-[0.07em] text-ink-45 uppercase">
+      <h2 className="font-sans text-[11px] font-bold tracking-[0.07em] text-ink-45 uppercase">
         {title}
-      </h4>
+      </h2>
       <div className="mt-2">{children}</div>
     </section>
   );
