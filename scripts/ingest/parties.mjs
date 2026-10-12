@@ -8,6 +8,7 @@
  *
  * Usage: node --experimental-strip-types scripts/ingest/parties.mjs
  */
+import { execFileSync } from "node:child_process";
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -37,6 +38,21 @@ const csvs = {};
 const stateCsv = async (st) =>
   (csvs[st] ??= parseCsv(await (await get(`${OS}${st}.csv`)).text()));
 
+// Retired legislators: one repo-tree listing (via authenticated gh), then raw
+// yaml only for ids missing from the current CSVs. Last party listed wins.
+let retiredTree;
+const retiredParty = async (st, id) => {
+  retiredTree ??= JSON.parse(
+    execFileSync("gh", ["api", "repos/openstates/people/git/trees/main?recursive=1"], { maxBuffer: 1 << 28 }),
+  ).tree.map((t) => t.path);
+  const uuid = id.replace("ocd-person/", "");
+  const path = retiredTree.find((p) => p.startsWith(`data/${st}/retired/`) && p.includes(uuid));
+  if (!path) return;
+  const yml = await (await get(`https://raw.githubusercontent.com/openstates/people/main/${path}`)).text();
+  const block = yml.match(/^party:\n((?:- .*\n|  .*\n)+)/m)?.[1] ?? "";
+  return code([...block.matchAll(/^- name: (.+)$/gm)].at(-1)?.[1].replace(/^['"]|['"]$/g, ""));
+};
+
 const parties = {};
 const coverage = {};
 const files = readdirSync(SNAP).filter((f) =>
@@ -58,6 +74,8 @@ for (const file of files) {
       if (r.current_chamber === chamber) out[r.current_district] = code(r.current_party);
   } else {
     for (const r of await stateCsv(snap.jurisdiction)) out[r.id] = code(r.current_party);
+    for (const k of keys)
+      if (!out[k] && k.startsWith("ocd-person/")) out[k] = await retiredParty(snap.jurisdiction, k);
   }
   parties[stem] = Object.fromEntries(
     Object.entries(out).filter(([k, v]) => v && keys.has(k)),
@@ -73,6 +91,7 @@ writeFileSync(
       CL + "legislators-current.json",
       CL + "legislators-historical.json",
       OS + "{st}.csv",
+      "https://github.com/openstates/people (data/{st}/retired)",
       "src/server/snapshot/council.json",
     ],
     parties,
