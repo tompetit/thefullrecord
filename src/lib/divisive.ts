@@ -24,7 +24,9 @@ export function partySplit(
   let yes = 0;
   let no = 0;
   const byParty: PartySplit["byParty"] = {};
-  for (const [key, v] of Object.entries(votes)) {
+  // for-in, not Object.entries: this runs over every vote of ~50k roll calls on a cold start.
+  for (const key in votes) {
+    const v = votes[key];
     if (v !== "yes" && v !== "no") continue;
     if (v === "yes") yes++;
     else no++;
