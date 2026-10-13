@@ -117,7 +117,7 @@ const parsed = {};
 for (let i = 0; i < files.length; i += 40) {
   const batch = files.slice(i, i + 40).filter((f) => existsSync(f.path));
   const out = await new Promise((resolve, reject) =>
-    execFile("python3", [join(HERE, "nm-pdf.py"), ...batch.map((f) => f.path)], { maxBuffer: 256e6}, (e, o) => (e ? reject(e) : resolve(o))));
+    execFile("python3", [join(HERE, "nm-pdf.py"), ...batch.map((f) => f.path)], { maxBuffer: 256e6 }, (e, o) => (e ? reject(e) : resolve(o))));
   Object.assign(parsed, JSON.parse(out));
 }
 
