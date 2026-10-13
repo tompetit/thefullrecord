@@ -241,7 +241,9 @@ export function rollCallSplit(
 ): PartySplit {
   let split = splits.get(rc);
   if (!split) {
-    split = partySplit(rc.votes, (k) => partyFor(snapshot, k));
+    partyFor(snapshot, ""); // loads the roster
+    const roster = (snapshot.file && partyRoster?.[snapshot.file]) || {};
+    split = partySplit(rc.votes, (k) => roster[k]);
     splits.set(rc, split);
   }
   return split;
