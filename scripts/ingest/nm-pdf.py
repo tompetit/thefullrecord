@@ -1,5 +1,5 @@
 """Parse New Mexico floor-vote PDFs (nmlegis.gov/Sessions/<yy Regular>/votes) by text position.
-Usage: PYTHONPATH=/tmp/claude-1000/pp python3 -I nm-pdf.py file.pdf... -> JSON {file: {head, members: [[name, column]], junk}}
+Usage: python3 nm-pdf.py file.pdf... -> JSON {file: {head, members: [[name, column]], junk}}
 Each member row has an X under a column header (YEA/YES, NAY/NO, PNV, EXC, ABSENT/ABS, REC); two panels per page (split at x=300)."""
 import json, re, sys
 from pypdf import PdfReader

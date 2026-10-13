@@ -5,14 +5,14 @@
  * Source: the open directory listing /Sessions/{25|26} Regular/votes/ holds one text PDF per bill and chamber
  * ({HB0002HVOTE.PDF}, {SB0012SVOTE.PDF}; plus numbered {day}.{rcs}.PDF House copies). NM publishes the chamber's
  * recorded roll call for a bill (final passage or concurrence), not every procedural vote, so that is what is imported.
- * PDFs are parsed by text position (scripts/ingest/nm-pdf.py, needs pypdf: PYTHONPATH=/tmp/claude-1000/pp): each member row has an X
+ * PDFs are parsed by text position (scripts/ingest/nm-pdf.py, needs pypdf: `pip install pypdf`): each member row has an X
  * under a YEA/NAY/PNV/EXC/ABSENT (House) or YES/NO/ABS/EXC/REC (Senate) column. Title comes from the bill page
  * (/Legislation/Legislation?chamber=H&legType=B&legNo=2&year=25). NM publishes no plain-language summary, so none is stored.
  * Members are keyed "ocd-person/<uuid>" via https://data.openstates.org/people/current/nm.csv by chamber + surname
  * (+ initials the House adds for shared surnames), then Open States' retired list. Excused, absent and recused are stored as "absent".
  * A roll call is kept only if its parsed Yes/No counts equal the tally printed on the PDF. Files are cached in --work
  * (default ~/.cache/nm-leg); <= 3 requests/second.
- * Run: PYTHONPATH=/tmp/claude-1000/pp node scripts/ingest/nm-leg.mjs [--work dir]
+ * Run: node scripts/ingest/nm-leg.mjs [--work dir]
  */
 import { execFile } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -117,7 +117,7 @@ const parsed = {};
 for (let i = 0; i < files.length; i += 40) {
   const batch = files.slice(i, i + 40).filter((f) => existsSync(f.path));
   const out = await new Promise((resolve, reject) =>
-    execFile("python3", [join(HERE, "nm-pdf.py"), ...batch.map((f) => f.path)], { maxBuffer: 256e6, env: { ...process.env, PYTHONPATH: process.env.PYTHONPATH ?? "/tmp/claude-1000/pp" } }, (e, o) => (e ? reject(e) : resolve(o))));
+    execFile("python3", [join(HERE, "nm-pdf.py"), ...batch.map((f) => f.path)], { maxBuffer: 256e6}, (e, o) => (e ? reject(e) : resolve(o))));
   Object.assign(parsed, JSON.parse(out));
 }
 
