@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import Link from "next/link";
+import Link from "@/components/Link";
 import { ISSUE_TOPICS, filterIssueRecords, parseIssueTopics, type IssueRecord } from "@/lib/issues";
 
 const fieldClass = "min-h-11 w-full rounded-lg border border-chip-border bg-paper-raised px-3 text-sm text-ink outline-offset-4 focus:outline-accent";

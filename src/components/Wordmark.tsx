@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 
 /** "The **Full** Record" — Source Serif, "Full" at weight 900 against 400. */
 export function Wordmark({

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { GuideSearch } from "@/components/guide/GuideSearch";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
