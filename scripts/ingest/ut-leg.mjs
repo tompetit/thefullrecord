@@ -172,7 +172,8 @@ for (const session of SESSIONS) {
         ...(info.summary ? { summary: info.summary, summarySource: info.summarySource } : {}),
         question: motion,
         kind: classify({ motion_text: motion, motion_classification: /passed (2nd|3rd)|2nd & 3rd|concur|final passage/i.test(motion) ? ["passage"] : [] }),
-        outcome: `${page.result === "passed" ? "Passed" : "Failed"} ${ayes}–${noes}`,
+        // The action text ("House/ failed") is authoritative; the page regex can catch an unrelated "Passed".
+        outcome: `${(/\b(passed|failed)\b/i.exec(motion)?.[1]?.toLowerCase() ?? page.result) === "passed" ? "Passed" : "Failed"} ${ayes}–${noes}`,
         date: day,
         dateLabel: `${MONTHS[Number(day.slice(5, 7)) - 1]} ${Number(day.slice(8, 10))}, ${day.slice(0, 4)}`,
         sourceUrl: `${BASE}/DynaBill/svotes.jsp?sessionid=${session}&voteid=${a.voteID}&house=${a.voteHouse}`,
