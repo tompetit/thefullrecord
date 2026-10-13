@@ -7,19 +7,22 @@
 export function AiMarker({
   billTextUrl,
   source = "ai",
+  amended = false,
 }: {
   billTextUrl: string;
   source?: "ai" | "official";
+  /** The motion concerns an amendment, so the summary may describe the amended bill. */
+  amended?: boolean;
 }) {
   return (
     <div className="mt-[9px] flex flex-wrap items-center gap-1.5 font-sans text-[11px] text-ink-45">
       <span className="rounded-full border border-chip-border px-2 py-0.5">
-        {source === "ai" ? "AI summary" : "Official summary"} —{" "}
+        {source === "ai" ? "AI summary" : amended ? "Latest official summary of the bill (as amended)" : "Official summary"} —{" "}
         <a
           href={billTextUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-ink-60 underline"
+          className="inline-flex min-h-11 items-center text-ink-60 underline"
         >
           read the bill text ↗
         </a>

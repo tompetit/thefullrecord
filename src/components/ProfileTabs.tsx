@@ -46,23 +46,25 @@ export function ProfileTabs({
   const [tab, setTab] = useState<Tab>("votes");
   const [voteFilter, setVoteFilter] = useState<VoteFilter>("all");
   const [votes, setVotes] = useState(initialVotes);
+  const [showUnanimous, setShowUnanimous] = useState(false);
   const [loading, setLoading] = useState(false);
 
   const [error, setError] = useState("");
   const request = useRef(0);
 
-  async function loadVotes(filter: VoteFilter, append = false) {
+  async function loadVotes(filter: VoteFilter, append = false, unanimous = showUnanimous) {
     const requestId = ++request.current;
     setLoading(true);
     setError("");
     try {
       const page = append ? votes.page + 1 : 1;
-      const res = await fetch(`/api/officials/${encodeURIComponent(official.id)}/votes?filter=${filter}&page=${page}`);
+      const res = await fetch(`/api/officials/${encodeURIComponent(official.id)}/votes?filter=${filter}&page=${page}${unanimous ? "&unanimous=1" : ""}`);
       if (!res.ok) throw new Error("Request failed");
       const next = await res.json() as Paginated<VoteRecord>;
       if (!Array.isArray(next.items)) throw new Error("Invalid response");
       if (requestId !== request.current) return;
       setVoteFilter(filter);
+      setShowUnanimous(unanimous);
       setVotes(previous => append ? { ...next, items: [...previous.items, ...next.items] } : next);
     } catch {
       if (requestId === request.current) setError("We couldn’t load those votes. Your current results are still shown. Try again.");
@@ -102,6 +104,10 @@ export function ProfileTabs({
               { value: "procedural", label: "Procedural" },
             ]}
           />
+          <label className="flex min-h-11 items-center gap-2 font-sans text-[13px] text-ink-80">
+            <input type="checkbox" checked={showUnanimous} disabled={loading} onChange={(e) => loadVotes(voteFilter, false, e.target.checked)} className="size-4" />
+            Include unanimous votes
+          </label>
           <p className="font-sans text-xs leading-relaxed text-ink-60">
             Substantive votes concern legislation or nominations; procedural votes concern how the chamber considers them. A Yes vote applies to the motion shown, which may not be final passage.
           </p>

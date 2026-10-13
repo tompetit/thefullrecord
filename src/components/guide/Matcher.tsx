@@ -49,6 +49,16 @@ export function Matcher({ races, placeLabel, initialStand }: { races: GuideRace[
   // Offer every documented topic, plus any answered via a shared link.
   const offered = ISSUE_KEYS.filter((key) => issues.includes(key) || stand.some((s) => s.issue === key));
   const param = serializeStand(stand);
+  const [seen, setSeen] = useState(false);
+  const answered = stand.length > 0;
+  // Phone-only jump bar stays until the results are scrolled into view.
+  useEffect(() => {
+    const el = document.getElementById("comparison");
+    if (!answered || !el) return;
+    const io = new IntersectionObserver(([e]) => setSeen(e.isIntersecting));
+    io.observe(el);
+    return () => io.disconnect();
+  }, [answered]);
 
   // Restore this tab's answers after an address change (the address form drops the query).
   useEffect(() => {
@@ -82,6 +92,7 @@ export function Matcher({ races, placeLabel, initialStand }: { races: GuideRace[
   if (!candidateRaces.length) return <p className="mt-6 border border-card p-5 text-sm text-ink-60">We don&rsquo;t have researched candidate races for {placeLabel} yet. <Link href="/issues" className="text-accent underline">Explore our recorded votes</Link>.</p>;
 
   return <div className="mt-8">
+    {answered && !seen && <a href="#comparison" className="fixed inset-x-0 bottom-0 z-20 bg-ink px-4 py-3.5 text-center text-sm font-bold text-paper sm:hidden">See the comparison ↓ ({stand.length} answered)</a>}
     <section className="border border-card bg-paper-raised p-4 sm:p-6" aria-labelledby="stand-heading">
       <p className="font-sans text-[11px] font-bold tracking-[0.1em] text-accent">OPTIONAL</p>
       <h2 id="stand-heading" className="mt-1 font-serif text-2xl font-semibold text-ink">Where I stand</h2>

@@ -74,8 +74,12 @@ export interface VoteRecord {
    * or "official" (CRS / LRS text, gets the official-summary marker).
    */
   summarySource?: "ai" | "official";
+  /** AI-written one-line explanation of what a yes vote did */
+  meaning?: string;
   vote: VoteChoice;
   kind: VoteKind;
+  /** Every member who voted yes/no voted the same way (ingested roll calls only) */
+  unanimous?: boolean;
   /** e.g. "Passed Senate 42–18" */
   outcome: string;
   /** ISO date for sorting */

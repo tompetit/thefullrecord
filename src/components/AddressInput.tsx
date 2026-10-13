@@ -6,6 +6,7 @@ import type { AddressSuggestion } from "@/server/live/suggest";
 
 const DEBOUNCE_MS = 200;
 const MIN_CHARS = 3;
+const NONE: AddressSuggestion[] = [];
 
 const CREDIT: Record<AddressSuggestion["source"], string> = {
   nyc: "NYC Planning",
@@ -62,7 +63,9 @@ export function AddressInput({
   const uid = useId();
   const listId = `${uid}-list`;
   const inputRef = useRef<HTMLInputElement>(null);
-  const [suggestions, setSuggestions] = useState<AddressSuggestion[]>([]);
+  const [fetched, setFetched] = useState<{ q: string; list: AddressSuggestion[] }>({ q: "", list: [] });
+  // Suggestions only count for the text they were fetched for, so a slow answer never lingers after typing on.
+  const suggestions = fetched.q === value.trim() ? fetched.list : NONE;
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
   // Skip fetching for a value we just filled in from a suggestion.
@@ -73,7 +76,6 @@ export function AddressInput({
   useEffect(() => {
     const q = value.trim();
     if (!typed.current || q.length < MIN_CHARS || q === picked.current) {
-      setSuggestions([]);
       return;
     }
     const ctrl = new AbortController();
@@ -84,7 +86,7 @@ export function AddressInput({
         if (!res.ok) return;
         const data = (await res.json()) as { suggestions: AddressSuggestion[] };
         if (ctrl.signal.aborted || !Array.isArray(data.suggestions)) return;
-        setSuggestions(data.suggestions);
+        setFetched({ q, list: data.suggestions });
         setActive(-1);
         setOpen(document.activeElement === inputRef.current);
       } catch {

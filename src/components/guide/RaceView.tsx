@@ -1,9 +1,8 @@
 import Link from "@/components/Link";
 import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
-import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
-import { CandidateProfile } from "./CandidateProfile";
-import { RaceStand } from "./StandClient";
+import { ISSUES, type GuideCandidate, type GuideRace, type IssueKey } from "@/server/guide/types";
+import { RaceStand, StandLink } from "./StandClient";
 import {
   CitedText,
   Cites,
@@ -31,6 +30,18 @@ const STATE_NAMES: Record<string, string> = {
 export const stateName = (st: string) => STATE_NAMES[st.toUpperCase()] ?? st;
 export const ALL_STATES = Object.keys(STATE_NAMES);
 
+function Position({ p, race }: { p: GuideCandidate["positions"][number]; race: GuideRace }) {
+  return (
+    <div>
+      <span className="inline-flex flex-wrap items-center">
+        <StanceChip stance={p.basis === "votes" ? "not_inferred" : p.stance} />
+        <Cites ids={p.sources} race={race} />
+      </span>
+      <p className="mt-2 max-w-sm text-xs leading-relaxed text-ink-60">{p.summary}</p>
+    </div>
+  );
+}
+
 function Comparison({ race }: { race: GuideRace }) {
   const issues = (Object.keys(ISSUES) as IssueKey[]).filter((k) =>
     race.candidates.some((c) => c.positions.some((p) => p.issue === k))
@@ -45,7 +56,25 @@ function Comparison({ race }: { race: GuideRace }) {
         support or opposition to a broad issue. A dash means our research has no
         evidence on that topic, not that the candidate has no position.
       </p>
-      <div className="mt-3 overflow-x-auto rounded-lg border border-card bg-paper-raised">
+      <div className="mt-3 flex flex-col gap-3 sm:hidden">
+        {issues.map((k) => (
+          <div key={k} className="rounded-lg border border-card bg-paper-raised p-3 font-sans">
+            <h3 className="text-[13px] font-semibold text-ink-80">{ISSUES[k]}</h3>
+            <ul className="mt-2 flex flex-col divide-y divide-hairline-soft">
+              {race.candidates.map((c) => {
+                const p = c.positions.find((x) => x.issue === k);
+                return (
+                  <li key={c.id} className="py-2 first:pt-0 last:pb-0">
+                    <span className="font-serif text-[14px] font-bold text-ink">{c.name}</span>
+                    <div className="mt-1">{p ? <Position p={p} race={race} /> : <span className="text-ink-35">—</span>}</div>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <div className="mt-3 hidden overflow-x-auto rounded-lg border border-card bg-paper-raised sm:block">
         <table className="w-full min-w-[560px] border-collapse font-sans text-[12.5px]">
           <thead>
             <tr className="border-b border-card">
@@ -54,9 +83,9 @@ function Comparison({ race }: { race: GuideRace }) {
               </th>
               {race.candidates.map((c) => (
                 <th key={c.id} className="p-2.5 text-left align-bottom">
-                  <a href={`#${c.id}`} className="font-serif text-[14px] font-bold text-ink hover:underline">
+                  <StandLink href={`/guide/race/${race.id}/${c.id}`} className="font-serif text-[14px] font-bold text-ink hover:underline">
                     {c.name}
-                  </a>
+                  </StandLink>
                   <div className="mt-0.5 flex flex-wrap gap-1">
                     <PartyChips parties={c.parties} />
                   </div>
@@ -74,15 +103,7 @@ function Comparison({ race }: { race: GuideRace }) {
                   const p = c.positions.find((x) => x.issue === k);
                   return (
                     <td key={c.id} className="p-2.5 align-top" title={p?.summary}>
-                      {p ? (
-                        <div><span className="inline-flex flex-wrap items-center">
-                          <StanceChip stance={p.basis === "votes" ? "not_inferred" : p.stance} />
-                          <Cites ids={p.sources} race={race} />
-
-                        </span><p className="mt-2 max-w-sm text-xs leading-relaxed text-ink-60">{p.summary}</p></div>
-                      ) : (
-                        <span className="text-ink-35">—</span>
-                      )}
+                      {p ? <Position p={p} race={race} /> : <span className="text-ink-35">—</span>}
                     </td>
                   );
                 })}
@@ -184,23 +205,12 @@ function VerificationNote({ raceId }: { raceId: string }) {
   const v = getVerification(raceId);
   if (!v) return null;
   return (
-    <details className="mt-3 max-w-3xl rounded-lg border border-accent-tint-border bg-accent-tint px-3.5 py-2 font-sans text-[12.5px] text-accent-deep">
-      <summary className="cursor-pointer font-semibold">
-        ✓ Fact-checked {v.checkedAt}: {v.claimsChecked} claims re-checked against their sources
-        {v.corrected || v.removed ? ` · ${v.corrected} corrected · ${v.removed} removed` : ""}
-      </summary>
-      <p className="mt-1.5 text-ink-60">
-        A second, independent research pass re-opened every cited source for this race and
-        corrected or removed anything the source didn&rsquo;t support.
-      </p>
-      {v.notes.length > 0 && (
-        <ul className="mt-1.5 list-disc pl-5 text-ink-60">
-          {v.notes.map((n, i) => (
-            <li key={i}>{n}</li>
-          ))}
-        </ul>
-      )}
-    </details>
+    <p className="mt-3 font-sans text-[12.5px] text-ink-60">
+      Sources re-checked{" "}
+      {new Date(`${v.checkedAt}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}
+      {" · "}
+      <Link href="/guide/methodology" className="underline hover:text-ink">How we research</Link>
+    </p>
   );
 }
 
@@ -242,9 +252,9 @@ export function RaceView({ race }: { race: GuideRace }) {
             <SectionLabel>On the ballot · {race.candidates.length} {race.candidates.length === 1 ? "candidate" : "candidates"}</SectionLabel>
             <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {race.candidates.map((c) => (
-                <a
+                <StandLink
                   key={c.id}
-                  href={`#${c.id}`}
+                  href={`/guide/race/${race.id}/${c.id}`}
                   className="flex items-start gap-3 rounded-lg border border-card bg-paper-raised p-3.5 hover:border-card-strong"
                 >
                   <Monogram name={c.name} />
@@ -257,8 +267,9 @@ export function RaceView({ race }: { race: GuideRace }) {
                     {c.currentRole && (
                       <span className="mt-1 block font-sans text-[12px] leading-snug text-ink-60">{c.currentRole}</span>
                     )}
+                    <span className="mt-1.5 block font-sans text-[12.5px] font-semibold text-accent">Full profile →</span>
                   </span>
-                </a>
+                </StandLink>
               ))}
               {!race.candidates.length && (
                 <p className="font-sans text-[13px] text-ink-60">No candidates verified for this seat yet.</p>
@@ -269,15 +280,6 @@ export function RaceView({ race }: { race: GuideRace }) {
           <RaceStand race={alignmentRace(race)} />
           <Comparison race={race} />
           <KeyVoteComparison race={race} />
-
-          <section className="mt-10">
-            <SectionLabel>The candidates, in full</SectionLabel>
-            <div className="mt-3 flex flex-col gap-5">
-              {race.candidates.map((c) => (
-                <CandidateProfile key={c.id} race={race} candidate={c} showProfileLink />
-              ))}
-            </div>
-          </section>
         </>
       )}
 

@@ -1,7 +1,9 @@
 import Link from "@/components/Link";
 import type { Metadata } from "next";
 import { IssueAddressForm } from "@/components/issues/IssueAddressForm";
+import { IssueCards } from "@/components/issues/IssueCards";
 import { IssueExplorer } from "@/components/issues/IssueExplorer";
+import { SHOW_OPTIONS, chamberOptions, filterIssueRecords, parseIssueTopics } from "@/lib/issues";
 import { LOOKUP_SCOPE } from "@/lib/site";
 import { getDataSource } from "@/server/datasource";
 import { getIssueRecords } from "@/server/issues";
@@ -17,14 +19,43 @@ const ERRORS = {
   "lookup-failed": "The address service is unavailable right now. Try again shortly; the records below are still available.",
 };
 
-export default async function IssuesPage({ searchParams }: { searchParams: Promise<{ address?: string | string[]; topic?: string | string[] }> }) {
+const PAGE_SIZE = 12;
+const SHOW_NOUN: Record<string, [string, string]> = {
+  split: ["split vote · unanimous hidden", "split votes · unanimous hidden"],
+  "party-line": ["party-line vote", "party-line votes"],
+  crossed: ["vote that crossed party lines", "votes that crossed party lines"],
+  close: ["close vote", "close votes"],
+  all: ["vote, including unanimous", "votes, including unanimous"],
+  "reps-split": ["vote where your representatives split", "votes where your representatives split"],
+};
+
+export default async function IssuesPage({ searchParams }: { searchParams: Promise<Record<string, string | string[] | undefined>> }) {
   const params = await searchParams;
-  const address = typeof params.address === "string" ? params.address.trim() : "";
+  const text = (key: string) => (typeof params[key] === "string" ? (params[key] as string) : "");
+  const address = text("address").trim();
   const invalidAddress = address.length > 300;
-  const topic = typeof params.topic === "string" ? params.topic : "";
+  const topics = parseIssueTopics(text("topic"));
+  const query = text("q").trim().slice(0, 200);
+  const kind = ["substantive", "procedural"].includes(text("kind")) ? text("kind") : "";
   const lookup = address && !invalidAddress ? await getDataSource().getOfficialsByAddress(address) : null;
   const officials = lookup?.ok ? lookup.groups.flatMap((group) => group.officials) : undefined;
   const { records } = getIssueRecords(officials);
+  const local = Boolean(lookup?.ok);
+  const chambers = chamberOptions(records.map((record) => record.chamber));
+  const chamber = chambers.some((option) => option.value === text("chamber")) ? text("chamber") : "";
+  const showValues = [...SHOW_OPTIONS.map((option) => option.value) as string[], ...(local ? ["reps-split"] : [])];
+  const show = showValues.includes(text("show")) && text("show") !== "split" ? text("show") : "";
+  const limit = Math.min(Math.max(Math.floor(Number(text("limit"))) || PAGE_SIZE, PAGE_SIZE), 1000);
+  const filters = { topics, query, chamber, kind, show };
+  const filtered = filterIssueRecords(records, filters);
+  const topicCounts: Record<string, number> = { other: 0 };
+  for (const record of filterIssueRecords(records, { ...filters, topics: [] })) {
+    for (const id of record.topics) topicCounts[id] = (topicCounts[id] ?? 0) + 1;
+    if (!record.topics.length) topicCounts.other++;
+  }
+  const searching = Boolean(query) && !show;
+  const noun = searching ? ["vote · unanimous included while searching", "votes · unanimous included while searching"][filtered.length === 1 ? 0 : 1] : SHOW_NOUN[show || "split"][filtered.length === 1 ? 0 : 1];
+  const countLine = `${filtered.length.toLocaleString("en-US")} ${noun}${local && show !== "reps-split" ? " for these representatives" : ""}`;
 
   return <main className="mx-auto w-full max-w-7xl flex-1 px-4 pb-12 sm:px-6 lg:px-10">
     <section className="grid gap-8 border-b border-card py-9 sm:py-12 lg:grid-cols-[1.3fr_1fr] lg:gap-14">
@@ -33,8 +64,10 @@ export default async function IssuesPage({ searchParams }: { searchParams: Promi
     </section>
     {invalidAddress && <div role="alert" className="mt-6 rounded-lg border border-umber-tint-border bg-umber-tint p-4 text-sm leading-relaxed text-umber-deep">Please enter an address of 300 characters or fewer. Showing all tracked records until a valid address is submitted.</div>}
     {lookup && !lookup.ok && <div role="alert" className="mt-6 rounded-lg border border-umber-tint-border bg-umber-tint p-4 text-sm leading-relaxed text-umber-deep">{ERRORS[lookup.reason]} Showing all tracked records, not a local result.</div>}
-    {lookup?.ok && <div className="mt-6 rounded-lg border border-hairline bg-canvas/50 p-4 text-sm leading-relaxed text-ink-60"><><p className="font-semibold text-ink">Recorded votes for {lookup.matchedAddress}</p><p className="mt-1">{officials?.map((official) => official.name).join(" · ")}</p><p className="mt-2 text-xs">Only roll calls with an on-file position for at least one of these representatives appear below. Missing representatives or chambers can reflect incomplete district, roster or vote coverage. “Not voting” is a recorded non-vote, not a reason for the absence.</p></></div>}
-    <IssueExplorer key={`${address}:${topic}`} records={records} initialTopic={topic} local={Boolean(lookup?.ok)} address={lookup?.ok ? address : ""} />
+    {lookup?.ok && <div className="mt-6 rounded-lg border border-hairline bg-canvas/50 p-4 text-sm leading-relaxed text-ink-60"><><p className="font-semibold text-ink">Recorded votes for {lookup.matchedAddress}</p><p className="mt-1">{officials?.map((official) => official.name).join(" · ")}</p><p className="mt-2 text-xs">Only votes with an on-file position for at least one of these representatives appear below. Missing representatives or chambers can reflect incomplete district, roster or vote coverage. “Not voting” is a recorded non-vote, not a reason for the absence.</p></></div>}
+    <IssueExplorer topics={topics} query={query} chamber={chamber} kind={kind} show={show} limit={limit} total={filtered.length} topicCounts={topicCounts} chambers={chambers} countLine={countLine} local={local}>
+      <IssueCards records={filtered.slice(0, limit)} address={lookup?.ok ? address : ""} />
+    </IssueExplorer>
     <p className="mt-10 text-sm"><Link href="/coverage" className="inline-flex min-h-11 items-center font-semibold text-accent-deep underline">See our data coverage →</Link></p>
   </main>;
 }

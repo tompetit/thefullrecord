@@ -17,6 +17,8 @@
 import * as data from "./data";
 import { lookupOfficials, resolveOfficialByDistrictKey } from "./live/lookup";
 import { snapshotAttendance, snapshotVotes } from "./live/snapshot";
+import { standoutForDistrict } from "./standout";
+import { standoutSentence } from "../lib/divisive";
 import type {
   AttendanceEntry,
   LookupContext,
@@ -33,6 +35,8 @@ import type {
 
 export interface VotesQuery {
   filter?: "all" | VoteKind;
+  /** Leave out roll calls every member voted the same way on */
+  hideUnanimous?: boolean;
   page?: number;
   pageSize?: number;
 }
@@ -82,6 +86,8 @@ function withRecordedActivity(official: Official): Official {
   const latest = snapshotVotes(official.id, official.districtKey)[0];
   if (!latest) return official;
   const action = latest.vote === "absent" ? "not voting on" : latest.vote === "present" ? "recorded present on" : `voted ${latest.vote} on`;
+  const so = standoutForDistrict(official.districtKey);
+  if (so) return { ...official, teaser: { text: standoutSentence(so, true).replace(/\.$/, ""), vote: latest.vote } };
   return {
     ...official,
     teaser: { text: `Latest on file: ${action} ${latest.billNumber} · ${latest.dateLabel}`, vote: latest.vote },
@@ -117,11 +123,11 @@ class HybridDataSource implements DataSource {
     officialId: string,
     query: VotesQuery = {}
   ): Promise<Paginated<VoteRecord>> {
-    const { filter = "all", page = 1, pageSize = 10 } = query;
+    const { filter = "all", hideUnanimous = false, page = 1, pageSize = 10 } = query;
     const official = await this.getOfficial(officialId);
     if (!official) return { items: [], total: 0, page, pageSize };
     const all = (await mergedVotes(official)).filter(
-      (v) => filter === "all" || v.kind === filter
+      (v) => (filter === "all" || v.kind === filter) && !(hideUnanimous && v.unanimous)
     );
     const start = (page - 1) * pageSize;
     return {

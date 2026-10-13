@@ -13,17 +13,30 @@ export const KIND_LABEL: Record<SourceKind, string> = {
   reference: "Reference",
 };
 
+const PARTY_NAMES: Record<string, string> = {
+  D: "Democratic",
+  R: "Republican",
+  C: "Conservative",
+  WFP: "Working Families",
+  LIB: "Libertarian",
+  IND: "Independent",
+  G: "Green",
+};
+export const partyName = (p: string) => PARTY_NAMES[p] ?? p;
+
 export function PartyChips({ parties, size = "sm" }: { parties: string[]; size?: "sm" | "md" }) {
   return (
     <>
       {parties.map((p) => (
         <span
           key={p}
+          title={partyName(p)}
+          aria-label={partyName(p)}
           className={`rounded-[3px] border border-chip-border font-sans font-semibold leading-normal text-ink-80 ${
             size === "md" ? "px-1.5 text-[11.5px]" : "px-1 text-[10.5px]"
           }`}
         >
-          {p}
+          {size === "md" ? partyName(p) : p}
         </span>
       ))}
     </>
@@ -101,7 +114,7 @@ export function Cites({
           target="_blank"
           rel="noopener noreferrer"
           title={`${KIND_LABEL[s.kind]} · ${s.publisher}: ${s.title}`}
-          className={`ml-0.5 align-super font-sans text-[9.5px] font-bold no-underline hover:underline ${
+          className={`relative ml-0.5 align-super font-sans text-[9.5px] font-bold no-underline before:absolute before:-inset-2 before:content-[""] hover:underline ${
             s.kind === "official" ? "text-accent" : "text-ink-45"
           }`}
         >

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   referrer: "no-referrer",
   title: "The Full Record",
   description:
-    "Look up any U.S. address to explore your representatives’ recorded votes by issue, and read sourced candidate research for New York and U.S. House and Senate races. Coverage has limits; we show them.",
+    "Recorded votes and sourced research on U.S. elected officials. Coverage has limits; we show them.",
 };
 
 export default function RootLayout({

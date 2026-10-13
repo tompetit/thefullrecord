@@ -2,7 +2,7 @@
 
 import Link from "@/components/Link";
 import { Suspense, useEffect } from "react";
-import { usePathname, useSearchParams } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Wordmark } from "./Wordmark";
 import { useAddress } from "./useAddress";
 
@@ -39,6 +39,7 @@ function SaveUrlAddress() {
 export function SiteHeader() {
   const pathname = usePathname() ?? "/";
   const { address, clearAddress } = useAddress();
+  const router = useRouter();
   const active = sectionFor(pathname);
   const repsHref = address ? `/representatives?address=${encodeURIComponent(address)}` : "/representatives";
   const items: Array<[Section, string, string]> = [
@@ -110,8 +111,17 @@ export function SiteHeader() {
             </span>
             <button
               type="button"
-              onClick={clearAddress}
-              className="min-h-11 shrink-0 cursor-pointer underline hover:text-ink"
+              onClick={() => {
+                clearAddress();
+                // Drop ?address= too, so the page stops showing address-scoped content.
+                const rest = new URLSearchParams(window.location.search);
+                if (rest.has("address")) {
+                  rest.delete("address");
+                  const qs = rest.toString();
+                  router.replace(qs ? `${pathname}?${qs}` : pathname);
+                }
+              }}
+              className="inline-flex min-h-11 min-w-11 shrink-0 cursor-pointer items-center justify-center underline hover:text-ink"
             >
               Clear<span className="sr-only"> saved address</span>
             </button>

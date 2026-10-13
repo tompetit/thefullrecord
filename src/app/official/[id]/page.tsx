@@ -4,9 +4,18 @@ import { ElectionCard } from "@/components/ElectionCard";
 import { PartyChip } from "@/components/PartyChip";
 import { ProfileTabs } from "@/components/ProfileTabs";
 import { SourceLink } from "@/components/SourceLink";
+import { StandoutSection } from "@/components/StandoutSection";
 import { getDataSource } from "@/server/datasource";
+import { standoutForDistrict } from "@/server/standout";
 
-export const metadata = { title: "Official profile — The Full Record" };
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
+  const official = await getDataSource().getOfficial((await params).id);
+  if (!official) return { title: "Official not found · The Full Record" };
+  return {
+    title: `${official.name} — votes and record · The Full Record`,
+    description: `How ${official.name} (${official.role}) voted, with links to the official record.`,
+  };
+}
 
 /** The core screen: identity + committees + stats + the activity feed. */
 export default async function OfficialPage({
@@ -25,12 +34,14 @@ export default async function OfficialPage({
 
   const [votes, sponsorships, attendance, saidDidPairs, election] =
     await Promise.all([
-      ds.getVotes(id),
+      ds.getVotes(id, { hideUnanimous: true }),
       ds.getSponsorships(id),
       ds.getAttendance(id),
       ds.getSaidDidPairs(id),
       ds.getSeatElection(official.districtKey),
     ]);
+
+  const standout = standoutForDistrict(official.districtKey);
 
   const roleLine = official.locality
     ? `${official.role} · ${official.locality}`
@@ -63,7 +74,7 @@ export default async function OfficialPage({
         ))}
         <a
           href={official.contactUrl}
-          className="relative rounded-full border border-chip-border px-2.5 py-1 hover:border-card-strong after:absolute after:inset-x-0 after:-inset-y-2.5 after:content-['']"
+          className="inline-flex min-h-11 items-center rounded-full border border-chip-border px-2.5 hover:border-card-strong"
         >
           Contact ↗
         </a>
@@ -150,14 +161,17 @@ export default async function OfficialPage({
 
           <p className="mt-4 font-sans text-[11.5px] leading-normal text-ink-45">
             {official.methodologyNote}{" "}
-            <SourceLink href="/guide/methodology" className="text-[11.5px]">
-              Methodology
-            </SourceLink>
+            <span className="inline-flex min-h-11 items-center">
+              <SourceLink href="/guide/methodology" className="text-[11.5px]">
+                Methodology
+              </SourceLink>
+            </span>
           </p>
         </aside>
 
         {/* Feed */}
-        <div className="mt-6 lg:mt-0">
+        <div className="mt-6 flex flex-col gap-4 lg:mt-0">
+          {standout && <StandoutSection standout={standout} />}
           <ProfileTabs
             official={official}
             initialVotes={votes}

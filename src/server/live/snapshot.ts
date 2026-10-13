@@ -16,6 +16,8 @@
 
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import { ISSUE_TOPICS, classifyIssues } from "../../lib/issues";
+import { partySplit, type PartySplit } from "../../lib/divisive";
 import type { AttendanceEntry, VoteChoice, VoteRecord } from "../types";
 
 export interface SnapshotRollCall {
@@ -26,6 +28,10 @@ export interface SnapshotRollCall {
   title: string;
   summary?: string;
   summarySource?: "ai" | "official";
+  /** AI-written one-line explanation of what a yes vote did (procedural/amendment votes) */
+  meaning?: string;
+  /** AI-assigned topic ids (vote-topics.json); [] = Other. Absent when not tagged. */
+  topics?: string[];
   kind: "substantive" | "procedural";
   outcome: string;
   date: string;
@@ -35,6 +41,8 @@ export interface SnapshotRollCall {
 }
 
 export interface ChamberSnapshot {
+  /** File stem under snapshot/, e.g. "house" or "state-tx-lower"; set by the loader */
+  file?: string;
   generatedAt: string;
   chamber: string;
   sourceLabel: string;
@@ -114,13 +122,129 @@ export function getSnapshots(): ChamberSnapshot[] {
       const parsed = JSON.parse(
         readFileSync(join(SNAPSHOT_DIR, file), "utf8")
       ) as StoredSnapshot;
-      if (Array.isArray(parsed.rollCalls)) snapshots.push(expandSnapshot(parsed));
+      if (Array.isArray(parsed.rollCalls)) {
+        const snapshot = { ...expandSnapshot(parsed), file: file.replace(/\.json$/, "") };
+        addSummaries(snapshot);
+        addMeanings(snapshot);
+        addTopics(snapshot);
+        snapshots.push(snapshot);
+      }
     } catch (err) {
       console.error(`[snapshot] failed to load ${file}:`, err);
     }
   }
   loaded = snapshots;
   return snapshots;
+}
+
+/** Jurisdiction prefix used by vote-summaries.json keys ("<juris>:<bill>"). */
+function summaryJuris(file: string): string | undefined {
+  if (file.startsWith("state-")) return file.split("-")[1];
+  return ({ house: "us", ussenate: "us", "senate-ny": "ny", "assembly-ny": "ny", council: "nyc" } as Record<string, string>)[file];
+}
+const longDate = (iso: string) =>
+  new Date(`${iso}T12:00:00Z`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+const normTitle = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+/**
+ * AI-written summaries (src/server/vote-summaries.json) for roll calls whose source has
+ * none. Applied only when the bill title matches the one summarized, since bill numbers
+ * repeat across sessions; an official summary always wins.
+ */
+let voteSummaries: Record<string, { title: string; summary: string; asOf?: string }> | null = null;
+function addSummaries(snapshot: ChamberSnapshot) {
+  if (!voteSummaries) {
+    try {
+      voteSummaries = JSON.parse(readFileSync(join(process.cwd(), "src/server/vote-summaries.json"), "utf8")).summaries ?? {};
+    } catch {
+      voteSummaries = {};
+    }
+  }
+  const all = voteSummaries!;
+  const juris = snapshot.file && summaryJuris(snapshot.file);
+  if (!juris) return;
+  for (const rc of snapshot.rollCalls) {
+    if (rc.summary && rc.summary !== rc.title) continue;
+    const s = all[`${juris}:${rc.bill}`];
+    if (s && normTitle(s.title) === normTitle(rc.title)) {
+      // Each summary was checked against one vote's version of the bill; on other votes say which.
+      const other = s.asOf && s.asOf !== rc.date && !/^As /.test(s.summary);
+      rc.summary = other ? `On the version voted ${longDate(s.asOf!)}: ${s.summary}` : s.summary;
+      rc.summarySource = "ai";
+    }
+  }
+}
+
+/** AI-written "what a yes vote did" lines (src/server/vote-meanings.json), keyed "<file stem>|<roll call id>". */
+let voteMeanings: Record<string, { meaning: string }> | null = null;
+function addMeanings(snapshot: ChamberSnapshot) {
+  if (!voteMeanings) {
+    try {
+      voteMeanings = JSON.parse(readFileSync(join(process.cwd(), "src/server/vote-meanings.json"), "utf8")).meanings ?? {};
+    } catch {
+      voteMeanings = {};
+    }
+  }
+  for (const rc of snapshot.rollCalls) {
+    const m = voteMeanings![`${snapshot.file}|${rc.id}`];
+    if (m) rc.meaning = m.meaning;
+  }
+}
+
+/** AI-assigned topics (src/server/vote-topics.json), keyed "<juris>:<bill>|<normTitle[0..80]>". */
+let voteTopics: Record<string, string[]> | null = null;
+function addTopics(snapshot: ChamberSnapshot) {
+  if (!voteTopics) {
+    try {
+      voteTopics = JSON.parse(readFileSync(join(process.cwd(), "src/server/vote-topics.json"), "utf8")).topics ?? {};
+    } catch {
+      voteTopics = {};
+    }
+  }
+  const juris = snapshot.file && summaryJuris(snapshot.file);
+  if (!juris) return;
+  const known = new Set<string>(ISSUE_TOPICS.map((t) => t.id));
+  for (const rc of snapshot.rollCalls) {
+    const t = voteTopics![`${juris}:${rc.bill}|${normTitle(rc.title).slice(0, 80)}`];
+    if (t) rc.topics = t.filter((id) => known.has(id));
+  }
+}
+
+/** AI topics when tagged, else keyword matching. */
+export const rollCallTopics = (rc: SnapshotRollCall) => rc.topics ?? classifyIssues(rc.title, rc.summary, rc.question);
+
+let partyRoster: Record<string, Record<string, string>> | null = null;
+
+/** Party code (D/R/I/...) of a member key in a snapshot, from parties.json; undefined if unknown. */
+export function partyFor(
+  snapshot: ChamberSnapshot,
+  memberKey: string
+): string | undefined {
+  if (!partyRoster) {
+    try {
+      partyRoster = JSON.parse(
+        readFileSync(join(process.cwd(), "src/server/parties.json"), "utf8")
+      ).parties;
+    } catch {
+      partyRoster = {};
+    }
+  }
+  return snapshot.file ? partyRoster?.[snapshot.file]?.[memberKey] : undefined;
+}
+
+const splits = new WeakMap<SnapshotRollCall, PartySplit>();
+
+/** Party breakdown of one roll call (memoized). */
+export function rollCallSplit(
+  snapshot: ChamberSnapshot,
+  rc: SnapshotRollCall
+): PartySplit {
+  let split = splits.get(rc);
+  if (!split) {
+    split = partySplit(rc.votes, (k) => partyFor(snapshot, k));
+    splits.set(rc, split);
+  }
+  return split;
 }
 
 /** Map an official's districtKey to their member key within a snapshot. */
@@ -186,8 +310,10 @@ export function snapshotVotes(
         question: rc.question,
         aiSummary: rc.summary,
         summarySource: rc.summarySource,
+        meaning: rc.meaning,
         vote,
         kind: rc.kind,
+        unanimous: rollCallSplit(snapshot, rc).kind === "unanimous" || undefined,
         outcome: rc.outcome,
         date: rc.date,
         dateLabel: rc.dateLabel,
