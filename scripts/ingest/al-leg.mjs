@@ -140,7 +140,8 @@ const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const skipped = {}; const skip = (why) => { skipped[why] = (skipped[why] ?? 0) + 1; };
 const codes = {};
-let tallyMismatch = 0;
+let tallyMismatch = 0, nelsonKept = 0;
+const NELSON = people.find((p) => p.name === "Kristin Nelson")?.id;
 for (const session of SESSIONS) {
   const history = await pages("history", HISTORY, "instrumentHistories", session);
   const titles = new Map((await pages("bills", BILLS, "instruments", session)).map((b) => [b.instrumentNbr, b]));
@@ -163,20 +164,23 @@ for (const session of SESSIONS) {
     if (!bill) { skip("no-bill"); continue; }
     const rc = (await gql(`votes-${session}-${h.body}-${h.rollCallNbr}.json`, VOTES, { s: session, b: h.body, n: h.rollCallNbr })).rollCallVotes;
     if (!rc?.votes?.length) { skip("no-votes"); continue; }
-    const votes = {}; let yes = 0, no = 0;
+    const votes = {}; let yes = 0, no = 0, missed = false;
     for (const v of rc.votes) {
       codes[v.vote] = (codes[v.vote] ?? 0) + 1;
       const pos = POSITION[v.vote];
       if (!pos) throw new Error(`Unknown vote code ${JSON.stringify(v)}`);
       if (pos === "yes") yes++; else if (pos === "no") no++;
       const id = person(chamber, v.memberName);
-      if (!id) { const k = `${chamber}:${v.memberName}`; unmatched.set(k, (unmatched.get(k) ?? 0) + 1); continue; }
+      if (!id) { const k = `${chamber}:${v.memberName}`; unmatched.set(k, (unmatched.get(k) ?? 0) + 1); missed = true; continue; }
       votes[id] = pos;
     }
     if (!Object.keys(votes).length) { skip("no-matched-voters"); continue; }
-    if (yes !== rc.yeas || no !== rc.nays || yes !== h.yeas || no !== h.nays) { tallyMismatch++; continue; }
+    // Only exception: ALISON's House list omits Rep. Kristin Nelson but its tally counts her yes (one yes short, all listed names matched); her vote is not inferred.
+    const nelsonGap = chamber === "lower" && !missed && !Object.keys(votes).includes(NELSON) && yes + 1 === rc.yeas && yes + 1 === h.yeas && no === rc.nays && no === h.nays;
+    if (!nelsonGap && (yes !== rc.yeas || no !== rc.nays || yes !== h.yeas || no !== h.nays)) { tallyMismatch++; continue; }
+    if (nelsonGap) nelsonKept++;
     const question = h.matter.replace(/\s*-?\s*(Adopted|Failed|Passed|Lost|Not Adopted|Defeated)?\s*Roll Call \d+\s*$/i, "").trim() || h.matter;
-    const outcome = /\b(Failed|Lost|Not Adopted|Defeated)\b/i.test(h.matter) ? "Failed" : /\b(Adopted|Passed|Carried)\b/i.test(h.matter) ? "Passed" : yes > no ? "Passed" : "Failed";
+    const outcome = /\b(Failed|Lost|Not Adopted|Defeated)\b/i.test(h.matter) ? "Failed" : /\b(Adopted|Passed|Carried)\b/i.test(h.matter) ? "Passed" : rc.yeas > rc.nays ? "Passed" : "Failed";
     const { summary, summarySource } = billSummary({ title: bill.shortTitle, abstracts: [{ abstract: bill.actSummary }] });
     rolls[chamber].push({
       id: `al-${session.toLowerCase()}-${h.body[0].toLowerCase()}${h.rollCallNbr}`,
@@ -185,7 +189,7 @@ for (const session of SESSIONS) {
       ...(summary ? { summary, summarySource } : {}),
       question,
       kind: classify({ motion_text: question, motion_classification: /pass|concur|third reading/i.test(question) ? ["passage"] : [] }),
-      outcome: `${outcome} ${yes}–${no}`,
+      outcome: `${outcome} ${rc.yeas}–${rc.nays}`,
       date: h.calendarDate,
       dateLabel: `${MONTHS[Number(h.calendarDate.slice(5, 7)) - 1]} ${Number(h.calendarDate.slice(8, 10))}, ${h.calendarDate.slice(0, 4)}`,
       sourceUrl: `${SITE}/bill-search?tab=1&search=${encodeURIComponent(h.instrumentNbr)}`,
@@ -209,6 +213,6 @@ for (const chamber of ["lower", "upper"]) {
   console.log(`${chamber}: ${list.length} roll calls (${list[list.length - 1]?.date} to ${list[0]?.date}), ${list.filter((r) => r.summary).length} with official summary`);
 }
 console.log("vote codes:", codes);
-console.log("skipped:", skipped, "| tally mismatches dropped:", tallyMismatch);
+console.log("skipped:", skipped, "| tally mismatches dropped:", tallyMismatch, "| kept with Nelson gap:", nelsonKept);
 console.log("ambiguous names (votes dropped):", Object.fromEntries(ambiguous));
 console.log("unmatched member names (votes dropped):", Object.fromEntries(unmatched));
