@@ -39,6 +39,21 @@ test("merge rules: bioguide, incumbent seat+surname, exact name; otherwise separ
   assert.equal(people[2].candidacies.length, 1);
 });
 
+test("merge rules: prefix nickname with same state and surname, only when unambiguous", () => {
+  const people = [
+    official("os:k", "Alex Kolodin", "AZ"),
+    official("os:d1", "Dan Ruiz", "AZ"),
+    official("os:d2", "Daniela Ruiz", "AZ"),
+  ];
+  const idx = buildOfficialIndex(people);
+  const add = (c) => addCandidate(c, idx, people);
+  assert.ok(add(cand("c:1", "Alexander Kolodin", "AZ")));
+  assert.ok(!add(cand("c:2", "Alexander Kolodin", "NV")));
+  assert.ok(!add(cand("c:3", "Daniel Ruiz", "AZ")));
+  assert.ok(!add(cand("c:4", "Al Kolodin", "AZ")));
+  assert.ok(!add(cand("c:5", "Alexander E. Kolodin", "AZ")));
+});
+
 test("slug collisions: state, then tag, then number; deterministic", () => {
   const mk = () => [
     official("k:3", "John Smith", "TX", { tag: "house-12" }),
