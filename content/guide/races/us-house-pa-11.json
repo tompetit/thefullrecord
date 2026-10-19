@@ -163,10 +163,91 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Her campaign website says she will fight to raise the federal minimum wage.",
+          "quote": "She’ll fight to raise the federal minimum wage so folks can afford the basics—like rent and groceries.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her campaign website says she would remove the current tariffs and replace them with targeted ones.",
+          "quote": "She’d get rid of the tariffs President Trump put in place and swap them for targeted tariffs that protect American jobs.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her campaign website says she supports stronger gun laws.",
+          "quote": "She supports stronger gun laws and more mental health support in our schools.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign website says reproductive decisions should be made between the patient, family and a medical provider, without government intrusion.",
+          "quote": "She believes reproductive decisions should be made only between the patient, their family, and a medical provider. No government should intrude in this decision.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Her campaign website says she is not in favor of tax credits or vouchers that send money to private schools.",
+          "quote": "Nancy is not in favor of tax credits or voucher programs that push money toward private schools.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign website says she would close tax loopholes benefiting wealthy people and big companies and roll back the 2025 corporate tax rate cut.",
+          "quote": "Nancy’s plan includes rolling back the 2025 corporate tax rate drop.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Her campaign website says she supports strong borders and treating immigration violations as civil offenses, with ICE focused on those with serious criminal records.",
+          "quote": "Immigration violations are a civil offense and should be treated as such. ICE should be focused on those with serious criminal records.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No prior elected office; positions are drawn from her Ballotpedia Candidate Connection survey response. Her campaign website could not be reached within the research budget."
+      "researchNotes": "Positions are from the Priorities page of her campaign website (written in the third person) and her Ballotpedia Candidate Connection survey. No statements were found on rent regulation, police funding, or Israel. Positions and statements from nancymannion.com/Priorities are third-person campaign text, not her own first-person words. A 'war_powers' statement about unauthorized wars was removed as a budget comment, not a stance on congressional approval.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "She’s all for bringing back Affordable Care Act subsidies and expanding childcare tax credits so families can get a break.",
+          "context": "On her campaign website (third-person campaign text)",
+          "sources": [
+            "s7"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -215,6 +296,13 @@
       "publisher": "Office of Rep. Lloyd Smucker",
       "kind": "official",
       "date": "2026-01-08"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.nancymannion.com/Priorities/",
+      "title": "Nancy's Priorities",
+      "publisher": "Nancy Mannion for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

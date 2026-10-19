@@ -153,10 +153,59 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Describes himself as anti-war while advocating for a strong military.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I am anti-war while also advocating for a strong military."
+        },
+        {
+          "text": "Lists military spending and readiness, and efficiency and value for tax dollars, as the policy areas he is most passionate about.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "Military spending and readiness.  Efficiency and value for our tax dollars."
+        },
+        {
+          "text": "Supports removing party affiliation from the ballot.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "I believe that eliminating party affiliation on the ballot would be helpful."
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We don't need ICE going to swearing in ceremonies to deport people that have legitimately made it that far into the citizenship process.",
+          "context": "In his answers to the League of Women Voters questions, posted on his campaign website Aug. 23, 2026",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "We aren't going to get rid of fossil fuel-based power, but we can't be antagonist to green energy either.",
+          "context": "In his answers to the League of Women Voters questions, posted on his campaign website Aug. 23, 2026",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "This is a bad idea.  Higher income tax rates make much better sense.",
+          "context": "On his campaign website, in a Feb. 5, 2019 post about Sen. Elizabeth Warren's proposed wealth tax",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from his Ballotpedia Candidate Connection survey and his own campaign website (answers to the League of Women Voters questions, 2026; one 2019 post). No stated position found that directly takes a side on the guide's issue statements, so only statements are shown. His tommcmasters.org site blocked automated access and was not used."
     }
   ],
   "sources": [
@@ -195,6 +244,29 @@
       "publisher": "Knickerbocker for Congress campaign website",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Thomas_McMasters_(Ohio_U.S._House)",
+      "title": "Thomas McMasters, Ballotpedia Candidate Connection survey (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "http://tommcmasters.us/forum/index.php?page=topicview&id=advocacy%2F2026-leageu-of-women",
+      "title": "2026 Leageu of Women Voters Questions",
+      "publisher": "TomMcMasters.US (candidate website)",
+      "kind": "candidate",
+      "date": "2026-08-23"
+    },
+    {
+      "id": "s8",
+      "url": "http://tommcmasters.us/forum/index.php?page=topicview&id=advocacy%2Fwealth-tax-no",
+      "title": "Wealth tax - No",
+      "publisher": "TomMcMasters.US (candidate website)",
+      "kind": "candidate",
+      "date": "2019-02-05"
     }
   ],
   "researchedAt": "2026-09-25",

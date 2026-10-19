@@ -178,11 +178,40 @@
           "sources": [
             "s10"
           ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Campaign site says he supports continued military aid to Israel.",
+          "quote": "He supports continued military aid to Israel",
+          "sources": [
+            "s13"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://ericconroy.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "He supports critical funding for law enforcement and equipping officers with the necessary resources and training to serve safely and effectively.",
+          "context": "On his campaign website (third-person issue page)",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "and he supports the swift deportation of violent illegal immigrant criminals.",
+          "context": "On his campaign website (third-person issue page)",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign issue pages reviewed; other pages (economy, education, Social Security) do not map to the guide's issues."
     },
     {
       "id": "nathan-weise",
@@ -326,6 +355,30 @@
       "publisher": "Eric Conroy for Congress campaign site",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://ericconroy.com/issues/border-security/",
+      "title": "Border Security",
+      "publisher": "Eric Conroy for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://ericconroy.com/issues/safe-neighborhoods/",
+      "title": "Safe Neighborhoods",
+      "publisher": "Eric Conroy for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "https://ericconroy.com/issues/national-defense/",
+      "title": "National Defense",
+      "publisher": "Eric Conroy for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

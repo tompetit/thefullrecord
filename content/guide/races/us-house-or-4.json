@@ -150,10 +150,68 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she will oppose any effort in Congress to limit or restrict abortion access for Oregonians.",
+          "quote": "I will oppose any effort in Congress to limit or restrict abortion access for Oregonians.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says noncitizens who commit serious violent crimes or trafficking should be removed, and that she supports border barriers and a staffed Border Patrol; says mass deportation is not a realistic solution and supports a one-time path to lawful status for long-settled, non-criminal residents.",
+          "quote": "Indiscriminate mass deportation is neither a realistic nor constructive solution.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says she supports ending permitting costs, building regulations and land-use restrictions that limit new construction.",
+          "quote": "I support ending prohibitive and inflationary policies that stifle new construction with excessive permitting costs, building regulations, city and county codes, bureaucratic red tape, and outdated land-use restrictions imposed by the government itself.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "website": "https://www.moniqueforcongress.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "I will support a Parents’ Bill of Rights to ensure real transparency and accountability: full access to curricula, clear reporting on school performance, and genuine school choice.",
+          "context": "On her campaign website, Education page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "It is my goal to ensure they have the necessary authority and resources to do their job effectively, from Customs and Border Patrol to our local sheriffs, police, and district attorneys.",
+          "context": "On her campaign website, Public Safety and Crime page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Consumers and businesses—not distant bureaucrats—should decide when and how to adopt alternative energy options, free from prohibitive costs or forced transitions.",
+          "context": "On her campaign website, Energy page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements are from the Priorities page of her campaign website. She did not state a position on several guide issues (rent, taxes, tariffs, minimum wage); her Israel and election-integrity pages do not map to the guide statements on military aid or proof of citizenship."
     },
     {
       "id": "justin-filip",
@@ -189,12 +247,57 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "text": "In July 2026 Eugene Weekly reported his priorities as ending U.S. imperialism, addressing homelessness, improving health care and protecting the environment.",
+          "sources": [
+            "s11"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In OPB's October 2024 candidate questionnaire (from his 2024 run), said he would support codifying reproductive rights in law.",
+          "quote": "No. I believe in women’s reproductive rights and I would support codifying it in law.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "In OPB's October 2024 candidate questionnaire (from his 2024 run), called for an arms embargo on Israel until the occupation of Gaza and the West Bank ends.",
+          "quote": "We must put an arms embargo in place until Israel ends the occupation of Gaza and the West Bank.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Filip has not completed Ballotpedia's 2026 Candidate Connection survey; priorities are drawn from his 2024 campaign website as archived by Ballotpedia, and no updated 2026 statements were found."
+      "researchDepth": "basic",
+      "researchNotes": "Statements are from OPB's 2024 candidate questionnaire (verbatim answers), since no 2026 campaign site or questionnaire was found; his positions may have changed. Eugene Weekly (July 2026) paraphrases his priorities. Positions and statements come from OPB's October 2024 candidate questionnaire and have not been confirmed for 2026.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I support the right to seek asylum and a path to citizenship for our immigrant neighbors. I would not support any bill that would infringe on that.",
+          "context": "In OPB's October 2024 candidate questionnaire (from his 2024 run)",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "We need to listen to the experts who have studied the science and take strong action to protect our environment.",
+          "context": "In OPB's October 2024 candidate questionnaire (from his 2024 run)",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -253,6 +356,29 @@
       "title": "Health",
       "publisher": "Office of Rep. Val Hoyle",
       "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.moniqueforcongress.com/issues/",
+      "title": "Monique's Priorities",
+      "publisher": "Monique DeSpain for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://opb.org/article/2024/10/17/justin-filip-oregon-4th-congressional-district-politics-election-congress",
+      "title": "Justin Filip, candidate for Oregon's 4th Congressional District, on Israel, abortion and peace",
+      "publisher": "OPB",
+      "kind": "news",
+      "date": "2024-10-17"
+    },
+    {
+      "id": "s11",
+      "url": "https://eugeneweekly.com/2026/07/23/revolution-from-the-inside/",
+      "title": "Revolution from the inside",
+      "publisher": "Eugene Weekly",
+      "kind": "news",
+      "date": "2026-07-23"
     }
   ],
   "researchedAt": "2026-09-25",
