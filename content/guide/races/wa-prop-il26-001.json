@@ -71,7 +71,68 @@
           "s1"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://www.sos.wa.gov/sites/default/files/2026-10/Voters%20Pamphlet%202026%20-%20Edition%2011%20-%20Whatcom.pdf",
+    "currentLaw": {
+      "text": "Attorney General's explanatory statement, 'The Law as It Presently Exists': in 2024 the Legislature passed Initiative to the Legislature 2081 listing certain rights of parents and guardians of public-school children, and in 2025 it made several changes to that list. The current list is in RCW 28A.605.005 and includes, among others, a right to education records within a reasonable period not to exceed 45 days and a right to immediate notification when a criminal action is alleged to have been committed against their child on school property during the school day.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "fiscalImpact": {
+      "text": "Office of Financial Management fiscal impact statement: the initiative would have no fiscal impact on state government and would not affect state or local revenue; local school districts could incur minor costs to update policies and procedures, but this impact is indeterminate.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Let's Go Washington (political committee led by Brian Heywood), which gathered the signatures and is registered in favor with the Public Disclosure Commission.",
+        "sources": [
+          "s6",
+          "s5"
+        ]
+      },
+      {
+        "text": "Authors of the voters' pamphlet statement for: Travis Reep, Alesha Perkins, Peter Rosenkranz (superintendent, La Center School District), Tony Harris, Amy Sousa and Jess Grant (Democrats for an Informed Approach to Gender).",
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "text": "47th District Republicans (registered in favor with the Public Disclosure Commission).",
+        "sources": [
+          "s5"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "No Hate in WA State (political committee registered against; contact listed on the pamphlet statement against).",
+        "sources": [
+          "s1",
+          "s5"
+        ]
+      },
+      {
+        "text": "Authors of the voters' pamphlet statement against: State Sen. John Lovick (D), Washington Coalition Against Domestic Violence and Sexual Assault, Washington State Nurses Association, League of Women Voters of Washington, Planned Parenthood Alliance Advocates, and a school counselor from Fife.",
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "text": "WA Families for Freedom, which the Washington State Standard describes as opposed to the initiatives and supported by SEIU 775, the ACLU of Washington and the Washington Education Association.",
+        "sources": [
+          "s6"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Per the Public Disclosure Commission's committee summary data (records updated Oct. 13-18, 2026; amounts are each committee's cumulative totals across all the measures it is registered on, not split by measure): Let's Go Washington (Sponsored by Brian Heywood), registered in favor of IL26-001, IL26-638 and a third initiative, reported $3,936,674.72 in contributions and $3,918,275.65 in expenditures. No Hate in WA State, registered against IL26-001 and IL26-638, reported $3,276,741.81 in contributions and $2,049,008.78 in expenditures. Defend Washington, registered against IL26-001, IL26-638 and a third initiative, reported $352,407.33 in contributions and $337,625.99 in expenditures. Other smaller committees are also registered on both sides.",
+      "sources": [
+        "s5"
+      ]
+    }
   },
   "sources": [
     {
@@ -88,6 +149,22 @@
       "publisher": "Washington Secretary of State",
       "kind": "official",
       "date": "2026-08-21"
+    },
+    {
+      "id": "s5",
+      "url": "https://data.wa.gov/resource/3h9x-7bvm.json",
+      "title": "Public Disclosure Commission campaign finance summary dataset (committees registered for 2026 ballot measures), records updated Oct. 13-19, 2026",
+      "publisher": "Washington Public Disclosure Commission (data.wa.gov)",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
+      "url": "https://washingtonstatestandard.com/2026/01/03/signatures-filed-for-initiatives-on-parental-rights-blocking-trans-athletes-from-girls-sports/",
+      "title": "Signatures filed for initiatives on parental rights, blocking trans athletes from girls' sports",
+      "publisher": "Washington State Standard",
+      "kind": "news",
+      "date": "2026-01-03"
     }
   ],
   "researchedAt": "2026-10-19",
