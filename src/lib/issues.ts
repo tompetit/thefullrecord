@@ -49,6 +49,8 @@ export interface IssueRecord {
   splitKind: SplitKind;
   /** Split vote decided by a narrow margin. */
   close: boolean;
+  /** 0-1 how contested the vote was (see contention in divisive.ts). */
+  contention: number;
   /** Democratic / Republican [yes, no] counts, when known. */
   parties?: { D?: [number, number]; R?: [number, number] };
   question?: string;

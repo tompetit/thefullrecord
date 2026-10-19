@@ -1,4 +1,4 @@
-import { brokeWithParty } from "@/lib/divisive";
+import { brokeWithParty, contention } from "@/lib/divisive";
 import type { IssueRecord } from "@/lib/issues";
 import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, rollCallTopics } from "./live/snapshot";
 import type { Official } from "./types";
@@ -24,6 +24,7 @@ function baseRecords(): IssueRecord[] {
       split: split.kind !== "unanimous",
       splitKind: split.kind,
       close: split.close,
+      contention: contention(split, roll.kind),
       parties: D || R ? { D: D && [D.yes, D.no], R: R && [R.yes, R.no] } : undefined,
       question: roll.question,
       date: roll.date,

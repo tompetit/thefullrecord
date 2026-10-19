@@ -46,6 +46,20 @@ export function partySplit(
   return { yes, no, byParty, kind, close };
 }
 
+export const CONTENTION_EXPLANATION =
+  "Votes are ranked by how close the final tally was and how far apart the two parties voted. A 218–214 vote with Democrats and Republicans on opposite sides ranks highest; a lopsided vote that both parties backed ranks low. Procedural votes (motions, amendments) count half as much as votes on a bill itself.";
+
+/** 0 (unanimous) to 1: average of closeness of the tally and the gap between D and R yes-shares; procedural votes halved. */
+export function contention(split: PartySplit, kind: "substantive" | "procedural"): number {
+  const total = split.yes + split.no;
+  if (split.yes === 0 || split.no === 0) return 0;
+  const closeness = 1 - Math.abs(split.yes - split.no) / total;
+  const { D, R } = split.byParty;
+  const share = (p: { yes: number; no: number }) => p.yes / (p.yes + p.no);
+  const gap = D && R && D.yes + D.no >= 2 && R.yes + R.no >= 2 ? Math.abs(share(D) - share(R)) : 0;
+  return ((closeness + gap) / 2) * (kind === "procedural" ? 0.5 : 1);
+}
+
 /** True when the member voted yes/no against the strict majority of their own party. */
 export function brokeWithParty(
   vote: VoteChoice,
