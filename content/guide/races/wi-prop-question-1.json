@@ -40,11 +40,108 @@
         "sources": [
           "s5"
         ]
+      },
+      {
+        "text": "State Rep. Amanda Nedweski (R), the amendment's Assembly author, in Senate committee testimony: \"No governor—Republican or Democrat—should be able to singlehandedly raise taxes on Wisconsin families with the stroke of a pen. The governor is not a king.\"",
+        "sources": [
+          "s9"
+        ]
+      },
+      {
+        "text": "State Sen. Chris Kapenga (R-Delafield), the resolution's author, told Wisconsin Watch: \"It's always about separation of powers.\"",
+        "sources": [
+          "s12"
+        ]
       }
     ],
     "argumentsAgainst": [
       {
         "text": "State Sen. Chris Larson (D-Milwaukee): \"So what would this amendment actually do? It would make it harder for any future governor to right the wrongs of any legislature that fails to provide sufficient revenues to meet our shared priorities – education-related or otherwise.\"",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "David Crowley, the Democratic candidate for governor: \"What I've seen from the Republican-controlled legislatures is that, anytime that there's a stop gap on all the policies, dangerous policies, that they want to push through, they want to eliminate the power of the governor.\"",
+        "sources": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Debra Cronmiller, executive director of the League of Women Voters of Wisconsin: \"But the powers of the governor, as defined, should be upheld. So that kind of good government position that we've always taken is what compelled us to say vote no on this.\"",
+        "sources": [
+          "s12"
+        ]
+      }
+    ],
+    "fullTextUrl": "https://docs.legis.wisconsin.gov/2025/related/enrolled/sjr116",
+    "currentLaw": {
+      "text": "Per the Legislative Reference Bureau analysis: currently, in exercising the partial veto power, the governor is limited only in that he or she may not create a new word by rejecting individual letters in the words of the enrolled bill and may not create a new sentence by combining parts of two or more sentences of the enrolled bill. The analysis adds that in Bartlett v. Evers, 2020 WI 68, the Wisconsin Supreme Court further restricted the governor's partial veto power, but there was no agreement by the court on the reasons for the new restrictions. The new restriction in the amendment would be in addition to the current ones.",
+      "sources": [
+        "s8"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Americans for Prosperity-Wisconsin (testified in support of SJR 116 on January 7, 2026)",
+        "sources": [
+          "s9"
+        ]
+      },
+      {
+        "text": "Wisconsin Manufacturers & Commerce, the state chamber of commerce (testified in support of SJR 116 on January 7, 2026)",
+        "sources": [
+          "s9"
+        ]
+      },
+      {
+        "text": "State Sen. Chris Kapenga (R-Delafield) and Rep. Amanda Nedweski (R), the resolution's authors, who testified for it",
+        "sources": [
+          "s9"
+        ]
+      },
+      {
+        "text": "Wisconsin Institute for Law & Liberty, listed by WUWM among groups supporting the amendment",
+        "sources": [
+          "s10"
+        ]
+      },
+      {
+        "text": "Wisconsin Property Taxpayers and the Wisconsin Realtors Association, listed by WUWM among groups supporting the amendment",
+        "sources": [
+          "s10"
+        ]
+      },
+      {
+        "text": "Tom Tiffany, the Republican candidate for governor, who has said he will vote for the amendment",
+        "sources": [
+          "s10",
+          "s11"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "David Crowley, the Democratic candidate for governor, who told reporters he would \"absolutely not\" vote for the amendment",
+        "sources": [
+          "s11"
+        ]
+      },
+      {
+        "text": "League of Women Voters of Wisconsin (its executive director said the group came to \"vote no on this\"); listed by WUWM among groups opposing the amendment",
+        "sources": [
+          "s10",
+          "s12"
+        ]
+      },
+      {
+        "text": "Wisconsin Education Association Council, listed by WUWM among groups opposing the amendment",
+        "sources": [
+          "s10"
+        ]
+      },
+      {
+        "text": "State Sen. Chris Larson (D), who wrote that the amendment should be rejected",
         "sources": [
           "s4"
         ]
@@ -95,8 +192,47 @@
       "title": "What to know about Wisconsin's November 2026 referendums",
       "publisher": "Wisconsin Public Radio",
       "kind": "news"
+    },
+    {
+      "id": "s8",
+      "url": "https://docs.legis.wisconsin.gov/2025/related/proposals/sjr116",
+      "title": "SJR116: Joint Resolution Text (with Legislative Reference Bureau analysis)",
+      "publisher": "Wisconsin Legislature",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://docs.legis.wisconsin.gov/misc/lc/hearing_testimony_and_materials/2025/sjr116/sjr0116_2026_01_07.pdf",
+      "title": "Public hearing testimony and materials on 2025 SJR 116 (Senate Committee on Licensing, Regulatory Reform, State and Federal Affairs)",
+      "publisher": "Wisconsin Legislative Council",
+      "kind": "official",
+      "date": "2026-01-07"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.wuwm.com/what-to-know-about-the-partial-veto-referendum-on-nov-3-ballot",
+      "title": "What to know about the partial veto referendum on Nov. 3 ballot",
+      "publisher": "WUWM",
+      "kind": "news",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "s11",
+      "url": "https://wisconsinexaminer.com/2026/08/25/crowley-says-he-wont-vote-to-limit-governors-veto-pen",
+      "title": "Crowley says he won't vote to limit governor's veto pen",
+      "publisher": "Wisconsin Examiner",
+      "kind": "news",
+      "date": "2026-08-25"
+    },
+    {
+      "id": "s12",
+      "url": "https://wisconsinexaminer.com/2026/09/28/three-constitutional-amendments-on-wisconsin-ballots-this-fall/",
+      "title": "Three constitutional amendments on Wisconsin ballots this fall",
+      "publisher": "Wisconsin Examiner",
+      "kind": "news",
+      "date": "2026-09-28"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Wisconsin publishes no state voter pamphlet with pro/con arguments, and the Wisconsin Elections Commission pages returned HTTP 403 to automated requests and were not bypassed, so the question text is taken from the enrolled joint resolution on docs.legis.wisconsin.gov, which states the ballot question verbatim (machine-checked; each enrolled resolution labels its question 'Question 1' because each was enacted separately). Official vote tallies are from the Legislature's bill history page. Arguments are an advocacy group's statement and a legislator's press release (the cited Larson release also discusses the other amendments; only the Question 1 passage is used). Sen. Chris Kapenga's quoted rationale reported by Ballotpedia comes from a hearing document that could not be machine-read and is not used. WPR's voter guide confirms there are exactly three statewide questions on the Nov. 3, 2026 ballot and their numbering."
+  "researchNotes": "Wisconsin publishes no state voter pamphlet with pro/con arguments, and the Wisconsin Elections Commission pages returned HTTP 403 to automated requests and were not bypassed, so the question text is taken from the enrolled joint resolution on docs.legis.wisconsin.gov, which states the ballot question verbatim (machine-checked; each enrolled resolution labels its question 'Question 1' because each was enacted separately). Official vote tallies are from the Legislature's bill history page. Arguments are an advocacy group's statement and a legislator's press release (the cited Larson release also discusses the other amendments; only the Question 1 passage is used). Sen. Chris Kapenga's quoted rationale reported by Ballotpedia comes from a hearing document that could not be machine-read and is not used. WPR's voter guide confirms there are exactly three statewide questions on the Nov. 3, 2026 ballot and their numbering. Added October 19, 2026: current law is from the Legislative Reference Bureau analysis on the resolution text. No official fiscal estimate and no campaign-finance filings for a registered committee on this question were found (the Wisconsin Ethics Commission's campaign-finance system could not be queried), so those fields are omitted. Supporter and opponent lists are not exhaustive; group stances come from legislative hearing records and WUWM's list of groups 'including, but not limited to' those named. The quote attributed to Sen. Kapenga is as reported by the Wisconsin Examiner from an interview with Wisconsin Watch."
 }
