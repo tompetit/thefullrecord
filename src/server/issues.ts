@@ -1,5 +1,5 @@
 import { brokeWithParty, contention } from "@/lib/divisive";
-import type { IssueRecord } from "@/lib/issues";
+import { chamberState, type IssueRecord } from "@/lib/issues";
 import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, rollCallTopics } from "./live/snapshot";
 import { rollCallHref } from "./rollcall";
 import type { Official } from "./types";
@@ -21,8 +21,10 @@ function baseRecords(): IssueRecord[] {
       summarySource: roll.summarySource,
       meaning: roll.meaning,
       chamber: snapshot.chamber,
+      state: chamberState(snapshot.chamber),
       kind: roll.kind,
       outcome: roll.outcome,
+      tally: [split.yes, split.no],
       split: split.kind !== "unanimous",
       splitKind: split.kind,
       close: split.close,

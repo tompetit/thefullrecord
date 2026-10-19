@@ -44,8 +44,12 @@ export interface IssueRecord {
   /** AI-written one-line explanation of what a yes vote did (procedural/amendment votes) */
   meaning?: string;
   chamber: string;
+  /** "us" for Congress, else the lowercase postal code */
+  state: string;
   kind: "substantive" | "procedural";
   outcome: string;
+  /** Total [yes, no] */
+  tally: [number, number];
   /** At least one member voted on each side (not unanimous). */
   split: boolean;
   splitKind: SplitKind;
@@ -78,6 +82,8 @@ export interface IssueFilters {
   topics: string[];
   query: string;
   chamber: string;
+  /** "" (all), "us" or a lowercase postal code */
+  state?: string;
   kind: string;
   /** One of SHOW_OPTIONS / LOCAL_SHOW values; "" is the default (split votes). */
   show: string;
@@ -98,6 +104,19 @@ export function chamberLabel(raw: string): string {
   return `${stateName(st)} ${body}`;
 }
 
+/** "us" for Congress, else the lowercase postal code ("NYC COUNCIL" counts as NY). */
+export function chamberState(raw: string): string {
+  const [first] = raw.split(" ");
+  return first === "U.S." ? "us" : first === "NYC" ? "ny" : first.toLowerCase();
+}
+
+/** U.S. Congress, then states by name. */
+export function stateOptions(records: Iterable<{ state: string }>): Array<{ value: string; label: string }> {
+  return [...new Set([...records].map((r) => r.state))]
+    .map((value) => ({ value, label: value === "us" ? "U.S. Congress" : stateName(value) }))
+    .sort((a, b) => Number(b.value === "us") - Number(a.value === "us") || a.label.localeCompare(b.label));
+}
+
 /** U.S. chambers, then New York, D.C., then other states by name. */
 export function chamberOptions(raws: Iterable<string>): Array<{ value: string; label: string }> {
   const order = ["U.S. HOUSE", "U.S. SENATE", "NY SENATE", "NY ASSEMBLY", "NYC COUNCIL", "DC COUNCIL"];
@@ -113,9 +132,17 @@ export function filterIssueRecords(records: IssueRecord[], filters: IssueFilters
   const show = query && (!filters.show || filters.show === "split") ? "all" : filters.show || "split";
   return records.filter((record) =>
     (!filters.topics.length || filters.topics.some((topic) => topic === "other" ? !record.topics.length : record.topics.includes(topic))) &&
+    (!filters.state || record.state === filters.state) &&
     (!filters.chamber || record.chamber === filters.chamber) &&
     (!filters.kind || record.kind === filters.kind) &&
     (show === "all" || (show === "split" ? record.split : show === "close" ? record.close : show === "reps-split" ? repsSplit(record) : record.splitKind === show)) &&
     (!query || (billSearch ? normBill(record.bill) === bill : `${record.bill} ${record.title} ${record.summary ?? ""} ${record.question ?? ""}`.toLowerCase().includes(query)))
   );
+}
+
+export const SORT_OPTIONS = [{ value: "contested", label: "Most contested" }, { value: "newest", label: "Newest" }] as const;
+
+/** Sorts in place: by contention then date, or by date alone. */
+export function sortIssueRecords(records: IssueRecord[], sort: string): IssueRecord[] {
+  return sort === "newest" ? records : records.sort((a, b) => b.contention - a.contention || b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
 }
