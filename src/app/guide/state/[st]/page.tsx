@@ -3,8 +3,14 @@ import Link from "@/components/Link";
 import { notFound } from "next/navigation";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
 import { IncumbentTag, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { SourceLink } from "@/components/SourceLink";
+import { chamberLabel } from "@/lib/issues";
 import { getAllRaces } from "@/server/guide/load";
+import { daysAgo, topContested } from "@/server/issues";
 import type { GuideRace } from "@/server/guide/types";
+
+// The 12-month window moves; rebuild daily.
+export const revalidate = 86400;
 
 export function generateStaticParams() {
   return ALL_STATES.map((st) => ({ st: st.toLowerCase() }));
@@ -19,6 +25,8 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
   const st = (await params).st.toUpperCase();
   if (!ALL_STATES.includes(st)) notFound();
   const races = getAllRaces().filter((r) => r.state === st);
+  const since = daysAgo(365);
+  const contested = topContested((r) => r.state === st.toLowerCase() && r.chamber !== "NYC COUNCIL" && r.date >= since, 5);
   const groups = new Map<string, GuideRace[]>();
   for (const r of races) {
     const k = OFFICE_LABEL[r.officeType];
@@ -41,6 +49,20 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
             Research for {stateName(st)} is in progress.
           </p>
         )}
+        {contested.length > 0 && <section aria-labelledby="contested-state" className="mt-8">
+          <h2 id="contested-state" className="font-serif text-[22px] font-semibold text-ink">Most contested votes in the {stateName(st)} Legislature</h2>
+          <p className="mt-1 font-sans text-[13px] text-ink-60">Roll calls from the last 12 months, ranked by how close the vote was and how far apart the parties voted. <Link href="/coverage#party-splits" className="underline">How we rank</Link></p>
+          <ul className="mt-3 divide-y divide-hairline-soft rounded-lg border border-card bg-paper-raised px-4">
+            {contested.map((r) => (
+              <li key={r.id} className="py-3">
+                <p className="font-serif text-[16px] font-bold leading-snug text-ink"><Link href={r.href} className="hover:underline">{r.title}</Link></p>
+                <p className="mt-1 font-sans text-xs text-ink-60">{chamberLabel(r.chamber)} · {r.outcome} · Yes {r.tally[0]} · No {r.tally[1]} · {r.dateLabel}</p>
+                <span className="inline-flex min-h-11 items-center font-sans text-xs"><SourceLink href={r.sourceUrl}>Official record</SourceLink></span>
+              </li>
+            ))}
+          </ul>
+          <Link href={`/votes?state=${st.toLowerCase()}`} className="inline-flex min-h-11 items-center font-sans text-[13px] font-semibold text-accent underline">See all contested votes in {stateName(st)} →</Link>
+        </section>}
         {[...groups.entries()].map(([label, list]) => (
           <section key={label} className="mt-8">
             <SectionLabel>{label}</SectionLabel>
