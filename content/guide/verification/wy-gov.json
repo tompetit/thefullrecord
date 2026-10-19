@@ -1,0 +1,36 @@
+{
+  "raceId": "wy-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 46,
+  "corrected": 7,
+  "removed": 1,
+  "unverifiable": 0,
+  "notes": [
+    "Slate confirmed against the Wyoming Secretary of State General Election Candidate Roster (generated 2026-09-09): exactly Barlow (R), Casner (D), Bextel (Constitution); no other printed candidates. Added as source s14.",
+    "All five Barlow Senate votes (SF 101 passed 26-5 on Feb 19 and veto override failed 12-18 on Mar 11; HB 178 21-10 on Mar 5; SJ 5 19-12 on Feb 24; SJ 9 27-4 on Feb 23) verified against the Wyoming Legislature's official bill-information API. SJ 9 record now states Barlow is the sponsor (official) and cites the official page; SJ 5 and SF 101 notes add their later outcomes.",
+    "Barlow: 'property taxes and energy' removed from the platform summary (not in sources); House service restated as 2013-2023 with Majority Leader/Speaker dates per Wikipedia; public-lands priority reworded to match the quote ('does not support a wholesale sale').",
+    "Casner: 'small business owner' removed (unsourced); currentRole and summary now say Democratic nominee with an Elk Mountain address per the SOS roster.",
+    "Bextel: removed 'Teton County' and 'with her husband' (not in cited sources); removed uncited WyoFile announcement source (s3)."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 48,
+    "corrected": 2,
+    "removed": 1,
+    "notes": [
+      "Removed Bextel's immigration_enforcement position: her site addresses refugee resettlement and driver's licenses, not enforcement or deportations (kept as a priority).",
+      "HB 178 and SJ 9 vote descriptions reworded to match the bills' official titles; all Barlow votes and tallies re-confirmed against wyoleg.gov bill API; slate re-confirmed against the SOS roster PDF."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 50,
+    "corrected": 0,
+    "removed": 0,
+    "notes": [
+      "No changes. Slate re-confirmed against the SOS roster PDF (9/9/2026): Barlow (R), Casner (D, Elk Mountain), Bextel (Constitution).",
+      "All five Barlow votes re-verified against the Wyoming Legislature's BillInformation API roll calls: SF 101 Senate 26-5 on 2/19 (Yes) and override failed 12-18 on 3/11 (No); HB 178 Senate 21-10 on 3/5 (Yes); SJ 5 Senate 19-12 on 2/24 (Yes), later failed in House COW 21-28; SJ 9 Senate 27-4 on 2/23 (Yes), Barlow primary sponsor.",
+      "Primary 45.1% (58,820), Casner 10,706 unopposed, Casner 2002/2018 candidacies, Barlow bio and positions, and Bextel quotes/priorities all matched sources."
+    ]
+  }
+}

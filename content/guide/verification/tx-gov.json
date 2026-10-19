@@ -1,0 +1,43 @@
+{
+  "raceId": "tx-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 48,
+  "corrected": 6,
+  "removed": 2,
+  "unverifiable": 0,
+  "notes": [
+    "Slate verified against the Texas SOS certified ballot (Abbott, Hinojosa, Dixon): no change.",
+    "Hinojosa SB 8 vote corrected: the cited 84-44 was an amendment vote; the House third-reading passage vote was 86-45 (Aug 28, Day 10 journal), she voted no. Source changed to Day 10 journal.",
+    "Hinojosa HB 4 88-52 confirmed as the third-reading passage vote (Aug 20, 5th day journal); previous citation was the second-reading vote on the 4th day with the same count; source repointed. HB 7 82-48 confirmed (Aug 28, third reading), she voted no.",
+    "Abbott: removed unsupported priority 'border security and girls sports'; removed 'lower taxes' from the affordability priority (not on cited page).",
+    "Hinojosa priority on school funding re-cited to add CBS Austin.",
+    "Dixon: quote was cited to the wrong article (San Antonio Report) and now cites Herald-Zeitung; reworded 'school competition' and 'opposes tax cuts' to what the article says.",
+    "Removed duplicate/unused sources s25, s26."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 48,
+    "corrected": 2,
+    "removed": 0,
+    "notes": [
+      "Slate re-confirmed against Wikipedia and San Antonio Report candidate list (Abbott R, Hinojosa D, Dixon LIB); all journal votes re-verified from the House Journal rosters: HB 4 88-52, HB 7 82-48, SB 8 86-45, Hinojosa in the Nays each time.",
+      "SB 4 (2023) was signed in the 88th Legislature's fourth called session, not the second; position summary corrected.",
+      "HB 7 'qui tam civil actions' changed to 'qui tam actions' to match the bill caption.",
+      "Merged duplicate sources (s10, s12, s13)."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 48,
+    "corrected": 5,
+    "removed": 1,
+    "notes": [
+      "Slate now cited to the official Texas SOS Ballot Certification Report (2026-ballot-cert.pdf, dated Aug 28, 2026; loaded at sos.texas.gov/elections/forms/2026-ballot-cert.pdf): Governor = Abbott REP, Hinojosa DEM, Dixon LIB; no change to the slate.",
+      "Removed 'Texas has no gubernatorial term limit' from the Abbott context item: not stated in the cited sources.",
+      "HB 1927: the legislature page caption does not say 'handgun' or 'without a license'; reworded and added a Longview News-Journal report (June 16, 2021) that says the bill removes the handgun license requirement.",
+      "HB 9: description reworded to the bill caption (tangible personal property held or used for the production of income).",
+      "SB 8: 'restrooms' replaced with the House Journal caption wording (designation and use of certain spaces and facilities according to sex). Vote counts and Hinojosa's no votes (HB 4 88-52, HB 7 82-48, SB 8 86-45) re-verified against the journal rosters.",
+      "Dixon priority: 'less regulation and lower taxes' reworded to what the Herald-Zeitung article says (companies come for resources and people if not overly regulated or taxed)."
+    ]
+  }
+}

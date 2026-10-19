@@ -1,6 +1,8 @@
 import Link from "@/components/Link";
 import { getSnapshots } from "@/server/live/snapshot";
+import { CONTENTION_EXPLANATION } from "@/lib/divisive";
 import { REPO_URL } from "@/lib/site";
+import { stateSlateStats } from "@/server/live/elections";
 
 export const metadata = { title: "Data coverage & limitations — The Full Record", description: "See exactly which roll-call records The Full Record includes, their dates, sources, and the gaps in our coverage." };
 const NOTES: Record<string, string> = {
@@ -76,6 +78,7 @@ export default function CoveragePage() {
       <section id="party-splits" className="mt-10 max-w-3xl scroll-mt-6 space-y-3 text-sm leading-relaxed text-ink-60">
         <h2 className="font-serif text-2xl font-semibold text-ink">How party splits are counted</h2>
         <p>A member’s party comes from public rosters (the congress-legislators project for Congress, Open States people files for state legislatures). A vote is “party-divided” when most Democrats and most Republicans voted on opposite sides. It is “party-line” when each party was at least 90% united, and “crossed party lines” otherwise. A vote is “close” when it was decided by the larger of 2 votes or 5% of those cast, or less. “Voted against most of their party” compares a member with the majority of their own party on party-divided votes only, and we show it once there are at least five. Members without a known Democratic or Republican party are not labeled.</p>
+        <p id="ranking" className="scroll-mt-6">{CONTENTION_EXPLANATION} In numbers: closeness is 1 minus the gap between yes and no votes as a share of those cast; the party gap is how far apart the Democratic and Republican yes-shares were (counted only when each party had at least two members voting yes or no); the score is the average of the two, halved for procedural votes. It ranks roll calls, never people.</p>
       </section>
       <section className="mt-10 max-w-3xl space-y-5 text-sm leading-relaxed text-ink-60">
         <h2 className="font-serif text-2xl font-semibold text-ink">Read the limits alongside the results.</h2>
@@ -84,8 +87,14 @@ export default function CoveragePage() {
         <p id="vote-summaries" className="scroll-mt-6"><strong className="text-ink">Vote summaries.</strong> Congress, New York and some states publish their own summaries, which we show as “official.” Where a state publishes none, the summary is AI-written from the official bill page (digest, fiscal note or bill text) and checked against that page by a second AI pass; it is labeled as AI. One summary covers a bill, so on a bill that changed during the session it can describe a different version than the one a vote was on. The official record link shows exactly what was voted. Procedural and amendment votes may carry an AI-written line explaining what a yes vote did, checked the same way.</p>
         <p><strong className="text-ink">A vote is on a specific question.</strong> Procedural votes, amendments, confirmations, and final passage have different meanings. A bill passing one chamber does not by itself make it law. Large bills can contain several unrelated policies.</p>
         <p><strong className="text-ink">Candidate research is a separate collection.</strong> Profile records and selected key votes may cover other dates and are not counted in this snapshot inventory. Research depth varies. Check each race’s research date, notes, and cited sources.</p>
+        <p><strong className="text-ink">State legislative candidate lists.</strong> {slateParagraph()}</p>
         <p><strong className="text-ink">We welcome corrections.</strong> <a href={`${REPO_URL}/issues`} className="text-accent underline">Report a problem</a> with the page URL and a primary source. Our <Link href="/guide/methodology" className="text-accent underline">research methodology</Link> explains source selection and AI-assisted summaries.</p>
       </section>
     </div>
   </main>;
+}
+
+function slateParagraph() {
+  const s = stateSlateStats();
+  return `Candidate lists for ${s.contests.toLocaleString("en-US")} state legislative contests in ${s.states} states come from Ballotpedia's statewide general-election tables, generated ${s.generatedAt ? date(s.generatedAt) : "on an unknown date"}. They list names and parties only. Ballotpedia notes its lists may be incomplete, write-in candidates are not marked, and seats decided in the primary (Hawaii, Oklahoma) are omitted. New York is researched separately, and a state or chamber with no seat up this year, or not in the file, shows no claim.`;
 }

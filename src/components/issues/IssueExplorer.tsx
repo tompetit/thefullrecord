@@ -2,19 +2,19 @@
 
 import { useEffect, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
-import { ISSUE_TOPICS, LOCAL_SHOW, SHOW_OPTIONS } from "@/lib/issues";
+import { ISSUE_TOPICS, LOCAL_SHOW, SHOW_OPTIONS, SORT_OPTIONS } from "@/lib/issues";
 
 const fieldClass = "min-h-11 w-full rounded-lg border border-chip-border bg-paper-raised px-3 text-sm text-ink outline-offset-4 focus:outline-accent";
 const PAGE_SIZE = 12;
 const n = (value: number) => value.toLocaleString("en-US");
 
 /**
- * Filter controls for /issues. The filters live in the URL: every change calls
+ * Filter controls for /votes. The filters live in the URL: every change calls
  * router.replace and the server page re-renders the matching cards (passed in
  * as children), so the browser never receives the full record list.
  */
-export function IssueExplorer({ topics, query, chamber, kind, show, limit, total, topicCounts, chambers, countLine, local = false, children }: {
-  topics: string[]; query: string; chamber: string; kind: string; show: string; limit: number; total: number;
+export function IssueExplorer({ topics, query, chamber, kind, show, sort, state, states, limit, total, topicCounts, chambers, countLine, local = false, children }: {
+  topics: string[]; query: string; chamber: string; kind: string; show: string; sort: string; state: string; states: Array<{ value: string; label: string }>; limit: number; total: number;
   topicCounts: Record<string, number>; chambers: Array<{ value: string; label: string }>; countLine: string; local?: boolean; children: React.ReactNode;
 }) {
   const router = useRouter();
@@ -34,7 +34,7 @@ export function IssueExplorer({ topics, query, chamber, kind, show, limit, total
       if (value) params.set(key, value); else params.delete(key);
     }
     const qs = params.toString();
-    startTransition(() => router.replace(qs ? `/issues?${qs}` : "/issues", { scroll: false }));
+    startTransition(() => router.replace(qs ? `/votes?${qs}` : "/votes", { scroll: false }));
   }
   const toggleTopic = (id: string) => go({ topic: (topics.includes(id) ? topics.filter((t) => t !== id) : [...topics, id]).join(",") });
   function type(value: string) {
@@ -42,16 +42,16 @@ export function IssueExplorer({ topics, query, chamber, kind, show, limit, total
     clearTimeout(timer.current);
     timer.current = setTimeout(() => { setSyncedQuery(value.trim()); go({ q: value.trim() }); }, 250);
   }
-  const reset = () => { setText(""); setSyncedQuery(""); go({ topic: "", q: "", chamber: "", kind: "", show: "" }); };
+  const reset = () => { setText(""); setSyncedQuery(""); go({ topic: "", q: "", chamber: "", state: "", kind: "", show: "", sort: "" }); };
   const showOptions = local ? [...SHOW_OPTIONS, LOCAL_SHOW] : SHOW_OPTIONS;
 
   return (
     <div>
       {/* Carry the filters along when the address form is submitted. */}
-      {[["topic", topics.join(",")], ["q", text.trim()], ["chamber", chamber], ["kind", kind], ["show", show]].map(([name, value]) => value && <input key={name} type="hidden" form="issue-address-form" name={name} value={value} />)}
+      {[["topic", topics.join(",")], ["q", text.trim()], ["chamber", chamber], ["state", state], ["kind", kind], ["show", show], ["sort", sort]].map(([name, value]) => value && <input key={name} type="hidden" form="issue-address-form" name={name} value={value} />)}
       <section aria-labelledby="choose-topics" className="py-8">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <h2 id="choose-topics" className="font-serif text-2xl font-semibold text-ink">What do you want to look into?</h2>
+          <h2 id="choose-topics" className="font-serif text-2xl font-semibold text-ink">Narrow by issue</h2>
           <span className="text-xs text-ink-60">Choose any topics · no selection shows everything</span>
         </div>
         <div className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3">
@@ -69,11 +69,13 @@ export function IssueExplorer({ topics, query, chamber, kind, show, limit, total
       </section>
 
       <section aria-labelledby="record-results" className="border-t border-card pt-7">
-        <div className="grid grid-cols-2 gap-3 lg:grid-cols-[2fr_1fr_1fr_1fr]">
+        <div className="grid grid-cols-2 gap-3 lg:grid-cols-3">
           <label className="col-span-2 text-xs font-semibold text-ink-60 lg:col-span-1">Search titles, bill numbers, summaries & vote questions<input className={`${fieldClass} mt-2`} value={text} onChange={(event) => type(event.target.value)} placeholder="Try rent, H.R. 25 or student loans" type="search" /></label>
+          <label className="text-xs font-semibold text-ink-60">State<select className={`${fieldClass} mt-2`} value={state} onChange={(event) => go({ state: event.target.value, chamber: "" })}><option value="">All states and Congress</option>{states.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
           <label className="text-xs font-semibold text-ink-60">Chamber<select className={`${fieldClass} mt-2`} value={chamber} onChange={(event) => go({ chamber: event.target.value })}><option value="">All chambers</option>{chambers.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
           <label className="text-xs font-semibold text-ink-60">Vote type<select className={`${fieldClass} mt-2`} value={kind} onChange={(event) => go({ kind: event.target.value })}><option value="">All vote types</option><option value="substantive">Final votes & amendments</option><option value="procedural">Procedural (scheduling, rules)</option></select></label>
-          <label className="col-span-2 text-xs font-semibold text-ink-60 lg:col-span-1">Show<select className={`${fieldClass} mt-2`} value={show || "split"} onChange={(event) => go({ show: event.target.value === "split" ? "" : event.target.value })}>{showOptions.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
+          <label className="text-xs font-semibold text-ink-60">Show<select className={`${fieldClass} mt-2`} value={show || "split"} onChange={(event) => go({ show: event.target.value === "split" ? "" : event.target.value })}>{showOptions.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
+          <label className="text-xs font-semibold text-ink-60">Sort<select className={`${fieldClass} mt-2`} value={sort || "contested"} onChange={(event) => go({ sort: event.target.value === "contested" ? "" : event.target.value })}>{SORT_OPTIONS.map((option) => <option key={option.value} value={option.value}>{option.label}</option>)}</select></label>
         </div>
         <p className="mt-3 text-xs leading-relaxed text-ink-60">Procedural votes are about scheduling, rules or whether to take up a measure, not necessarily final passage.</p>
         <div className="my-5 flex items-center justify-between gap-3">
@@ -82,7 +84,7 @@ export function IssueExplorer({ topics, query, chamber, kind, show, limit, total
         </div>
         <div aria-busy={pending} className={pending ? "opacity-60 transition-opacity" : "transition-opacity"}>
           {total === 0 ? <div className="rounded-xl border border-dashed border-card-strong p-8 text-center"><h3 className="font-serif text-xl text-ink">No matching records on file</h3><p className="mx-auto mt-2 max-w-lg text-sm leading-relaxed text-ink-60">Try a broader search or another topic. Missing records reflect our coverage and tagging; they do not show that a representative took no action.</p><button type="button" onClick={reset} className="mt-4 min-h-11 rounded-lg bg-accent px-5 text-sm font-semibold text-white">Show all available votes</button></div> : <div className="space-y-4">{children}</div>}
-          {total > 0 && <div className="mt-6 flex flex-col items-center gap-3"><p className="text-xs text-ink-60">Showing {n(Math.min(limit, total))} of {n(total)} matching votes · newest first</p>{limit < total && <button type="button" onClick={() => go({ limit: String(limit + PAGE_SIZE) }, true)} className="min-h-11 rounded-lg border border-accent bg-paper-raised px-6 text-sm font-semibold text-accent-deep hover:bg-accent-tint">Show {n(Math.min(PAGE_SIZE, total - limit))} more votes</button>}</div>}
+          {total > 0 && <div className="mt-6 flex flex-col items-center gap-3"><p className="text-xs text-ink-60">Showing {n(Math.min(limit, total))} of {n(total)} matching votes · {sort ? "newest first" : "most contested first"}</p>{limit < total && <button type="button" onClick={() => go({ limit: String(limit + PAGE_SIZE) }, true)} className="min-h-11 rounded-lg border border-accent bg-paper-raised px-6 text-sm font-semibold text-accent-deep hover:bg-accent-tint">Show {n(Math.min(PAGE_SIZE, total - limit))} more votes</button>}</div>}
         </div>
       </section>
     </div>

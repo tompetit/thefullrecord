@@ -6,7 +6,7 @@
 
 No endorsements, scores, or grades. The site describes what someone did or said and links to the record.
 
-Start at **`/issues`** to filter actual roll calls by topic, text, chamber, or vote type. Add an address to see the on-file positions of its representatives. **`/guide/match`** compares unranked candidate evidence by topic; it does not ask for political beliefs or calculate agreement. **`/coverage`** shows the dates, counts, and limitations of every snapshot.
+Start at **`/votes`** to filter actual roll calls by topic, text, chamber, or vote type. Add an address to see the on-file positions of its representatives. **`/guide/match`** compares unranked candidate evidence by topic; it does not ask for political beliefs or calculate agreement. **`/coverage`** shows the dates, counts, and limitations of every snapshot.
 
 ## Principles
 

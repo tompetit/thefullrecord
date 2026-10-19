@@ -1,0 +1,36 @@
+{
+  "raceId": "mn-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 45,
+  "corrected": 5,
+  "removed": 1,
+  "unverifiable": 0,
+  "notes": [
+    "Slate: MN SOS site blocked (bot check); MPR News and Sahan Journal both list Klobuchar, Demuth and Green nominee Steven Young as the only governor candidates (news-only). Name corrected to 'Steven Young'.",
+    "Demuth SF 856 vote source URL fixed (SF0856); votes verified on house.mn.gov: SF856 passage 127-5 yes, HF5140 suspension 67-67 no, HF5084 suspension 52-71 yes, SF4401 92-42 yes; bill descriptions from repo House snapshot.",
+    "Demuth tax position reworded to 'business tax rates' (source does not say corporate rates will be lowered).",
+    "Fraud-plan quote verified verbatim; Klobuchar Senate votes verified on senate.gov (Laken Riley 64-35 no; H.R.1 50-50 no)."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 52,
+    "corrected": 3,
+    "removed": 0,
+    "notes": [
+      "Slate: the Freeborn County General Election sample ballot (official) loads and lists exactly three governor/lieutenant-governor teams: Klobuchar/Schierer (DFL), Demuth/Wilson (Republican), Young/Kirby (Green), plus write-in; added as source. Ballotpedia's Kohler/Newcome entries are not on the printed ballot.",
+      "Klobuchar housing_supply re-cited to her housing plan page (path to 100,000 homes by reforming permitting, cutting red tape, removing delays and fees) instead of the generic 'build more homes' line.",
+      "Demuth: H.F. 5140 described by the bill's actual title (regulating semiautomatic military-style assault weapons and large-capacity magazines); Speaker background reworded to match the sources (power-sharing deal ended a DFL boycott after a Supreme Court quorum ruling; 'first Black Speaker' attributed to her campaign).",
+      "Re-verified: primary percentages (Klobuchar 89.7, Layne 5.8; Demuth 43.4, Lindell 32.5, Qualls 21.4), Walz Jan. 5, 2026 announcement (FOX 9), all four Demuth House roll calls against the official vote pages and House snapshot (SF 856 127-5 yes; HF 5140 67-67 no; HF 5084 52-71 yes; SF 4401 92-42 yes), Klobuchar Senate votes (nay on 64-35 and 50-50), Demuth fraud quote and affordability, education and public-safety plan claims."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 10,
+    "corrected": 2,
+    "removed": 1,
+    "notes": [
+      "Removed Klobuchar housing_supply: re-fetched her housing page; plan is permitting reform, deadlines, red tape and building codes, no zoning/land-use change.",
+      "Removed now-uncited source s19. Re-checked Demuth affordability page (business tax rates, bracket cuts, $99 car tabs)."
+    ]
+  }
+}

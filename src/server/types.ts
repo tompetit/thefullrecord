@@ -74,6 +74,8 @@ export interface VoteRecord {
    * or "official" (CRS / LRS text, gets the official-summary marker).
    */
   summarySource?: "ai" | "official";
+  /** Official amendment this roll call decided (federal chambers); purpose is verbatim official text. */
+  amendment?: { number: string; sponsor?: string; purpose?: string; sourceUrl: string };
   /** AI-written one-line explanation of what a yes vote did */
   meaning?: string;
   vote: VoteChoice;
@@ -182,6 +184,8 @@ export interface SeatElection {
   electionDate: string;
   dateLabel: string;
   candidates: ElectionCandidate[];
+  /** Multi-member districts: how many seats this contest fills */
+  seats?: number;
   /** Ran in the primary for this seat and was not nominated */
   primaryNotNominated?: ElectionCandidate[];
   sourceUrl: string;

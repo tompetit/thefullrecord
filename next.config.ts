@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  redirects: async () => [{ source: "/issues", destination: "/votes", permanent: false }],
   // Research files and vote snapshots are read from disk at request time,
   // via computed paths the tracer can't see — ship them with every route.
   outputFileTracingIncludes: {

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { brokeWithParty, partySplit } from "../src/lib/divisive.ts";
+import { brokeWithParty, contention, partySplit } from "../src/lib/divisive.ts";
 
 // keys like "D1" carry their party in the first letter
 const party = (k) => (k === "?" ? undefined : k[0]);
@@ -82,4 +82,14 @@ test("summarizeStandout: top 3 topics of breaking votes, only with >= 5 tagged",
   assert.deepEqual(summarizeStandout("R", mk(2)).topTopics, [["economy", 7], ["health", 2]]);
   const few = [...Array.from({ length: 4 }, () => input("yes", ["economy"])), ...Array.from({ length: 6 }, () => input("yes", []))];
   assert.equal(summarizeStandout("R", few).topTopics, undefined);
+});
+
+test("contention: unanimous 0, party-line close high, bipartisan lopsided low, procedural halved", () => {
+  assert.equal(contention(partySplit(votes({ D: [5, 0], R: [4, 0] }), party), "substantive"), 0);
+  const close = partySplit(votes({ D: [3, 211], R: [215, 3] }), party);
+  const high = contention(close, "substantive");
+  assert.ok(high > 0.9, String(high));
+  const low = contention(partySplit(votes({ D: [45, 5], R: [45, 5] }), party), "substantive");
+  assert.ok(low < 0.15, String(low));
+  assert.equal(contention(close, "procedural"), high / 2);
 });
