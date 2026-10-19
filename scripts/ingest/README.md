@@ -102,3 +102,17 @@ roll call. Enrichment must preserve specific roll-call titles (especially
 amendments) and may not replace them with the parent bill's title.
 
 Party rosters (`src/server/parties.json`, used for party-split analysis): refresh with `node --experimental-strip-types scripts/ingest/parties.mjs` after any snapshot ingest.
+
+## State legislature general-election slates
+
+`npm run ingest:slates` (not part of `ingest`) scrapes Ballotpedia's statewide
+chamber pages ("<Chamber> general election, 2026" table) for every chamber with
+a Nov 3, 2026 election except New York, and writes
+`src/server/snapshot/candidates-state-legislatures.json`. Ballotpedia sits behind
+a bot WAF: the script uses `curl` with a browser User-Agent, waits at least 1 s
+between requests, backs off when the WAF answers HTTP 202, and caches raw HTML in
+`~/.cache/bp-slates` (use `--offline` to re-parse from cache, `--only TX,CA` for a
+dry run that writes nothing). District labels are normalised to Open States
+`current_district`; per-state fixes live in `NORMALIZERS`. Seats with no listed
+candidates are omitted and counted in the printed summary. Party codes: D, R, LIB, G,
+IND, otherwise the verbatim party name; fusion candidates carry several parties.
