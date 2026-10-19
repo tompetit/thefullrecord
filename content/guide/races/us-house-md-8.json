@@ -68,6 +68,62 @@
       "publisher": "Office of Rep. Jamie Raskin",
       "kind": "official",
       "date": "2026-04-30"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.cheryl4maryland.com/",
+      "title": "Cheryl Riley for Congress, MD-8",
+      "publisher": "Cheryl Riley campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.nancywallace.us/issues/",
+      "title": "Issues",
+      "publisher": "Nancy Wallace campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "http://www.nancywallace.us/health-care-for-all/",
+      "title": "Health Care for All",
+      "publisher": "Nancy Wallace campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "http://www.nancywallace.us/federal-tax-reform/",
+      "title": "Federal Tax Reform",
+      "publisher": "Nancy Wallace campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "http://www.nancywallace.us/community%e2%80%90based-economics-and-economic-justice/",
+      "title": "Community Based Economics and Economic Justice",
+      "publisher": "Nancy Wallace campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s14",
+      "url": "http://www.nancywallace.us/women-and-girls-survival/",
+      "title": "Women and Girls’ Survival",
+      "publisher": "Nancy Wallace campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s15",
+      "url": "http://www.nancywallace.us/immigration-reform/",
+      "title": "Immigration Reform",
+      "publisher": "Nancy Wallace campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "candidates": [
@@ -211,19 +267,19 @@
       ],
       "priorities": [
         {
-          "text": "Public safety, saying she would support giving police officers more latitude.",
+          "text": "Public safety, saying she would support giving police officers more latitude. (2024 campaign website text)",
           "sources": [
             "s4"
           ]
         },
         {
-          "text": "Reducing the tax burden on residents.",
+          "text": "Reducing the tax burden on residents. (2024 campaign website text)",
           "sources": [
             "s4"
           ]
         },
         {
-          "text": "Creating affordable housing options for all residents.",
+          "text": "Creating affordable housing options for all residents. (2024 campaign website text)",
           "sources": [
             "s4"
           ]
@@ -231,7 +287,18 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "America First means sealed borders, unleashed energy for jobs and lower costs here in Maryland, and parents' rights to real education",
+          "context": "On her campaign website (page undated; accessed Oct. 19, 2026)",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Current website (2026) is mostly general themes (safety, prosperity, freedom); the stated priorities in this entry come from the 2024 version of the site, via Ballotpedia. No issue-by-issue questionnaire or detailed platform found; she has not completed Ballotpedia's 2026 survey."
     },
     {
       "id": "nancy-wallace",
@@ -247,12 +314,106 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Climate change, including a transition to renewable energy. (undated website text; archived copies from 2019-2021)",
+          "quote": "Climate Change – implement an emergency economic transformation to renewable energy, including 100% renewable electricity supply by 2020, and all other energy uses by 2030",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Survival and protection of women and girls. (undated website text; archived copies from 2019-2021)",
+          "quote": "Women and Girls’ Survival – violence against women in the US and worldwide has reached epidemic proportions, and we must protect the lives of women and girls along with all other victims of our culture of violence",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A community-based economy and economic justice, including a Green New Deal. (undated website text; archived copies from 2019-2021)",
+          "quote": "Community Based Economics and Economic Justice – a just, prosperous and sustainable economy begins at home, in our communities with small businesses and green jobs, in a Green New Deal",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign website says she supports a right to reproductive choice, including legal abortion available on demand and covered by health insurance. (Website issue pages are undated; web-archive copies of the same text date from 2019-2021.)",
+          "quote": "The Green Party and I unequivocally support a woman's right to reproductive choice, no matter her marital status or age, and that contraception and safe, legal abortion procedures be available on demand",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign website lists closing gun loopholes and banning assault weapons among her proposals. (Website issue pages are undated; web-archive copies of the same text date from 2019-2021.)",
+          "quote": "Closing all gun loopholes, banning assault weapons",
+          "sources": [
+            "s14"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign website calls for raising the minimum wage to $17.07 per hour. (Website issue pages are undated; web-archive copies of the same text date from 2019-2021.)",
+          "quote": "Raise the minimum wage to $17.07 per hour ensure self sufficiency of full time workers.",
+          "sources": [
+            "s13"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign website supports reinstating estate and capital gains taxes at 1970s rates and requiring all corporations to pay income taxes. (Website issue pages are undated; web-archive copies of the same text date from 2019-2021.)",
+          "quote": "I support reinstating estate and capital gains taxes at 1970s rates.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign website supports a national single-payer health care system. (Website issue pages are undated; web-archive copies of the same text date from 2019-2021.)",
+          "quote": "The Green Party and I support single-payer universal health care and preventive care for all.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Campaign website calls for an emergency economic transformation to renewable energy. (Website issue pages are undated; web-archive copies of the same text date from 2019-2021.)",
+          "quote": "implement an emergency economic transformation to renewable energy, including 100% renewable electricity supply by 2020, and all other energy uses by 2030",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Undocumented immigrants already residing and working in the United States should be granted a legal status which includes the chance to become U.S. citizens, as long as they present no danger to other members of society.",
+          "context": "On her campaign website (issue page undated; web-archive copies of the same text date from 2019; accessed Oct. 19, 2026)",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
+      "researchNotes": "Positions come from the issue pages of her campaign website. Some page text carries older dates (for example a 100%-renewable-electricity target of 2020), and Ballotpedia shows the same home-page text on her 2024 site, so the pages may not have been updated for 2026. She has not completed Ballotpedia's 2026 survey."
     }
   ],
-  "researchNotes": "No individual Ballotpedia profile, campaign website, or Candidate Connection survey was found for Green Party nominee Nancy Wallace; only her name appears on the state candidate list.",
+  "researchNotes": "Nancy Wallace's campaign website (nancywallace.us) issue pages are undated and appear to be older text (web-archive copies from 2019-2021; the climate page cites a 2020 target), so her positions are stated as of that text and may not reflect 2026 views.",
   "researchedAt": "2026-09-25"
 }

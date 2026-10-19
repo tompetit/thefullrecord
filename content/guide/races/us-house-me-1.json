@@ -204,10 +204,57 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "mixed",
+          "summary": "Campaign website supports background-check integration and mental-health reforms and opposes what he calls burdensome gun-control measures (2024 campaign website).",
+          "quote": "I support targeted reforms that improve background check integration, expand mental health resources, and strengthen interagency coordination without infringing on constitutional rights.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Campaign website calls for providing law enforcement with resources and paying officers a decent wage to attract recruits (2024 campaign website).",
+          "quote": "We need to pay our law enforcement and first responders a decent wage so we attract the best and the brightest to the field.",
+          "sources": [
+            "s13"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Positions drawn from his Ballotpedia Candidate Connection survey; no independent campaign website content reviewed."
+      "researchNotes": "Priorities come from his Ballotpedia Candidate Connection survey; issue statements come from the issue pages of his campaign website (several pages refer to the Biden administration and appear to date from 2024). The site's voter-ID text was not used because it does not address documentary proof of citizenship.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We must prioritize securing our border to stem the illegal flow of unsustainable numbers of immigrants.",
+          "context": "On his campaign website (page footer shows 2024 copyright; accessed Oct. 19, 2026)",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I will not support any efforts to mandate the energy sources that Mainers' choose to power their vehicles or heat their homes.",
+          "context": "On his campaign website (page footer shows 2024 copyright; accessed Oct. 19, 2026)",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "We must measure results, reward what works, and embrace reforms like school choice to ensure every student has the best shot at success.",
+          "context": "On his campaign website (page footer shows 2024 copyright; accessed Oct. 19, 2026)",
+          "sources": [
+            "s16"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -290,6 +337,46 @@
       "publisher": "Office of Rep. Chellie Pingree",
       "kind": "official",
       "date": "2025-11-12"
+    },
+    {
+      "id": "s12",
+      "url": "https://ronrussellforcongress.com/project/gun-control/",
+      "title": "Gun Control",
+      "publisher": "Ron Russell for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "https://ronrussellforcongress.com/project/reducing-crime-supporting-first-responders/",
+      "title": "Reducing Crime & Supporting First Responders",
+      "publisher": "Ron Russell for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s14",
+      "url": "https://ronrussellforcongress.com/project/immigration/",
+      "title": "Immigration",
+      "publisher": "Ron Russell for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s15",
+      "url": "https://ronrussellforcongress.com/project/energy-and-the-economy/",
+      "title": "Energy and the Economy",
+      "publisher": "Ron Russell for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s16",
+      "url": "https://ronrussellforcongress.com/project/education/",
+      "title": "Education",
+      "publisher": "Ron Russell for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
