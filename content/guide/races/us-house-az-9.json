@@ -147,7 +147,8 @@
       "summary": {
         "text": "Danielle Sterbinsky, a U.S. Navy veteran and human-resources professional, is the Democratic nominee challenging incumbent Paul Gosar.",
         "sources": [
-          "s2"
+          "s2",
+          "s11"
         ]
       },
       "background": [
@@ -191,9 +192,42 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign site lists raising the federal minimum wage among her affordability goals.",
+          "quote": "raise the federal minimum wage",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign site lists a public option among her health care goals.",
+          "quote": "offer a public option so families have affordable coverage",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.sterbinskyforcongress.com",
+      "statements": [
+        {
+          "issue": "universal_childcare",
+          "quote": "Bring down childcare costs — work toward affordable, quality childcare so no parent has to choose between a paycheck and caring for their kids",
+          "context": "On her campaign website",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statement come from the Affordability section of her campaign website. The site's Immigration/other 'More Priorities' menu pages could not be loaded, so no stance on other tracked issues is recorded."
     },
     {
       "id": "william-perry",
@@ -214,7 +248,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, news coverage, or completed Ballotpedia Candidate Connection survey found beyond his listing as a candidate."
+      "researchNotes": "No campaign website, news coverage, or completed Ballotpedia Candidate Connection survey found beyond his listing as a candidate. Rechecked Oct. 2026 (web search): nothing further found."
     },
     {
       "id": "g-seville-hatch",
@@ -235,7 +269,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, news coverage, or completed Ballotpedia Candidate Connection survey found beyond his listing as a candidate."
+      "researchNotes": "No campaign website, news coverage, or completed Ballotpedia Candidate Connection survey found beyond his listing as a candidate. Rechecked Oct. 2026 (web search): nothing further found."
     }
   ],
   "sources": [
@@ -312,6 +346,14 @@
       "title": "Tax Reform",
       "publisher": "Office of Rep. Paul Gosar",
       "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.sterbinskyforcongress.com",
+      "title": "Dani for Congress",
+      "publisher": "Sterbinsky for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
