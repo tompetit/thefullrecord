@@ -1,5 +1,6 @@
 import { SectionLabel } from "@/components/guide/ui";
 import { getGuideStats } from "@/server/guide/load";
+import { stateSlateStats } from "@/server/live/elections";
 
 export const metadata = {
   title: "How we research — The Full Record",
@@ -12,6 +13,7 @@ function P({ children }: { children: React.ReactNode }) {
 
 export default function MethodologyPage() {
   const s = getGuideStats();
+  const slates = stateSlateStats();
   return (
     <main className="flex-1">
       <article className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10 pt-8 [&>*]:max-w-3xl">
@@ -133,6 +135,19 @@ export default function MethodologyPage() {
             <a className="underline" href="https://github.com/unitedstates/congress-legislators">congress-legislators</a>{" "}
             crosswalk. Campaign-finance totals come from the Federal Election
             Commission&rsquo;s bulk candidate summary for the 2026 cycle.
+          </P>
+        </section>
+
+        <section className="mt-8">
+          <SectionLabel>State legislative candidate lists</SectionLabel>
+          <P>
+            For states other than New York, the candidate lists for state legislative races come from{" "}
+            <a className="underline" href="https://ballotpedia.org">Ballotpedia</a>&rsquo;s statewide general-election
+            tables ({slates.contests.toLocaleString("en-US")} contests in {slates.states} states, generated{" "}
+            {slates.generatedAt.slice(0, 10) || "on an unknown date"}). They are names and parties only, not researched in depth.
+            Ballotpedia notes its lists may be incomplete, write-in candidates are not marked, and seats decided in the
+            primary (Hawaii, Oklahoma) are omitted. We match each contest to your address by district name and to the sitting
+            member by name and district.
           </P>
         </section>
 
