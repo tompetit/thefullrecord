@@ -28,9 +28,10 @@
       ]
     },
     {
-      "text": "The No Labels Party and Green Party also have nominees on the ballot. No Libertarian candidate qualified.",
+      "text": "The No Labels Party and Green Party also have nominees on the ballot. No Libertarian candidate qualified. The printed Maricopa County sample ballot lists exactly four governor-and-lieutenant-governor tickets.",
       "sources": [
-        "s1"
+        "s1",
+        "s23"
       ]
     }
   ],
@@ -116,7 +117,7 @@
         {
           "issue": "housing_supply",
           "stance": "supports",
-          "summary": "Her office says she signed four pieces of legislation to cut housing regulations and lower costs, and her housing plan calls for cutting bureaucracy while letting local communities tailor incentives rather than imposing a one-size-fits-all mandate.",
+          "summary": "Her office says she signed four pieces of legislation to cut housing regulations and lower costs, and her housing plan calls for cutting needless bureaucracy while letting local governments tailor incentives rather than imposing a one-size-fits-all mandate.",
           "sources": [
             "s7",
             "s4"
@@ -276,7 +277,7 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Calls for state and local participation in the federal 287(g) program; as a House member voted yes on the Laken Riley Act, which requires detention of certain immigrants arrested or charged with theft or violent crimes.",
+          "summary": "Calls for state and local participation in the federal 287(g) program; as a House member voted yes on the Laken Riley Act, which requires federal detention of certain immigrants charged with theft and related crimes.",
           "sources": [
             "s14",
             "s17"
@@ -318,7 +319,7 @@
           "date": "2025-04-10"
         },
         {
-          "text": "Voted yes on H.R. 1 (One Big Beautiful Bill Act) final passage, 218–214.",
+          "text": "Voted yes on H.R. 1 (One Big Beautiful Bill Act) when the House voted to concur in the Senate amendment, 218–214.",
           "kind": "vote",
           "sources": [
             "s18"
@@ -345,26 +346,27 @@
         "Green"
       ],
       "incumbent": false,
-      "ballotNote": "Green Party nominee; won the Green primary with 67% of votes cast.",
+      "ballotNote": "Green Party nominee, running with Lisa Castillo; won the Green primary with 67% of votes cast.",
       "summary": {
         "text": "Risa Lombardo is the Arizona Green Party nominee for governor and a former Arizona Republican Party precinct committee member. She won the Green primary over write-in candidates. She says she would stop data centers, end the use of Flock cameras and work against climate change.",
         "sources": [
           "s1",
-          "s2"
+          "s2",
+          "s23"
         ]
       },
       "background": [
         {
           "text": "Former precinct committee member for the Arizona Republican Party.",
           "sources": [
-            "s1"
+            "s22"
           ]
         },
         {
-          "text": "The Arizona Green Party has disavowed her candidacy, accusing her of being a Republican running to draw votes from Gov. Hobbs; Lombardo has denied this.",
+          "text": "The Arizona Green Party has disavowed her candidacy, accusing her of being a Republican running to draw votes from Gov. Hobbs. Lombardo told the Arizona Mirror in April that she had been a Democrat most of her life and had been registered with both parties.",
           "sources": [
-            "s1",
-            "s20"
+            "s20",
+            "s22"
           ]
         },
         {
@@ -579,8 +581,23 @@
       "title": "Andy Biggs",
       "publisher": "Wikipedia",
       "kind": "reference"
+    },
+    {
+      "id": "s22",
+      "url": "https://azmirror.com/2026/07/27/sham-green-party-candidates-tied-to-gop-machine-as-they-funnel-cash-to-a-mystery-company/",
+      "title": "'Sham' Green Party candidates tied to GOP machine as they funnel cash to a mystery company",
+      "publisher": "Arizona Mirror",
+      "kind": "news",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "s23",
+      "url": "https://www.scottsdaleaz.gov/docs/default-source/scottsdaleaz/elections/2026sampleballot.pdf",
+      "title": "Sample Ballot, November 3, 2026 General Election (Maricopa County)",
+      "publisher": "City of Scottsdale / Maricopa County Elections",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Running mates are listed in each candidate's ballotNote rather than as separate entries. Ballotpedia and the Arizona Secretary of State site were blocked (HTTP 403), so the four-candidate slate was confirmed against news only (azfamily, KJZZ, Arizona Mirror) rather than the official certified list. A Libertarian candidate (Barry Hess) failed to qualify. Hobbs's and Biggs's issue positions come from official government pages and campaign materials; only positions with direct sources are listed. Federal key votes for Biggs and campaign-finance figures are expected to be added by script. Lombardo's running mate is not stated in her entry: azfamily (Sept. 15) names Lisa Castillo, but Wikipedia's Green primary section says Castillo failed to qualify, so it is left out. Primary-result percentages come from Wikipedia's results tables (citing state returns); the Arizona Mirror voter guide, azfamily and Arizona Ballot Guide all list the same four gubernatorial nominees."
+  "researchNotes": "Running mates are listed in each candidate's ballotNote rather than as separate entries. The four-candidate slate and all four running mates (Hobbs/Giles, Biggs/Kerr, Lombardo/Castillo, Hourihan/Harrolle Mohan) match the printed Maricopa County sample ballot for Nov. 3, 2026 (a copy hosted by the City of Scottsdale); Ballotpedia and the Arizona Secretary of State site were blocked. Wikipedia lists Castillo as having failed to qualify at the primary stage, but it also lists her as Lombardo's running mate on the general-election ticket and the printed ballot shows her. A Libertarian candidate (Barry Hess) failed to qualify. Hobbs's and Biggs's issue positions come from official government pages and campaign materials; only positions stated directly there are listed. Federal key votes for Biggs and campaign-finance figures are expected to be added by script. Primary-result percentages come from Wikipedia's results tables (citing state returns)."
 }
