@@ -217,6 +217,13 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "text": "Says he supports congressional term limits and a ban on stock trading by members of Congress, staffers and federal officials, and opposes the Citizens United decision.",
+          "quote": "I support term limits for Congress. I support bans on stock trading for members, staffers and federal officials.",
+          "sources": [
+            "s13"
+          ]
         }
       ],
       "positions": [
@@ -233,7 +240,7 @@
       "record": [],
       "website": "https://www.utahriley.com",
       "researchDepth": "basic",
-      "researchNotes": "Owen has not held prior elected office; no record items available. He has not published a detailed policy platform beyond his Ballotpedia Candidate Connection survey answers."
+      "researchNotes": "Owen has not held prior elected office; no record items available. His campaign site (utahriley.com) could not be loaded (bot-check page), so his site text is taken from Ballotpedia's verbatim quote of it. Added a stated priority from the Salt Lake Tribune candidate questionnaire (Oct. 12, 2026); no further statements matched the guide's issue list."
     },
     {
       "id": "jesse-west",
@@ -257,11 +264,98 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Foreign policy: says troops should be brought home and defense should mean defending rather than nation-building.",
+          "quote": "The best way to support the troops is to bring them home.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Criminal justice: proposes abolishing the federal death penalty.",
+          "quote": "Abolish the death penalty at the federal level",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Immigration: proposes clear pathways to citizenship and integration.",
+          "quote": "Create clear, straightforward pathways to citizenship and integration.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Lists requiring congressional authorization for any new military engagement among his specific proposals.",
+          "quote": "Require Congressional authorization for any new military engagement",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Calls for abolishing ICE, reducing DHS and cutting spending on detention, walls and deportation.",
+          "quote": "ICE must go and the DHS needs to be reduced significantly.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Lists repealing zoning laws that restrict housing supply among his economic proposals.",
+          "quote": "Repeal zoning laws that restrict home businesses and housing supply",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website content, Candidate Connection survey, or detailed public statements found beyond basic Ballotpedia biographical facts."
+      "researchDepth": "basic",
+      "researchNotes": "Positions and statements come from West's campaign platform page (jessewest2026.com/policy) and his answers to the Salt Lake Tribune candidate questionnaire (Oct. 12, 2026). He did not complete a Ballotpedia Candidate Connection survey. No stated positions found on abortion, guns, minimum wage, tariffs or voter citizenship proof.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "The fix isn't more government. It's less.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Simplify the tax code and lower rates across the board",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "End taxpayer subsidies for fossil fuel extraction on public lands",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "quote": "I would work to cut funding to Israel",
+          "context": "In the Salt Lake Tribune candidate questionnaire, Oct. 12, 2026",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     },
     {
       "id": "elias-montgomery",
@@ -316,12 +410,65 @@
           "stance": "supports",
           "summary": "Supports streamlining approval of \"missing-middle\" housing such as duplexes and townhomes while limiting large-scale corporate purchases of single-family homes.",
           "sources": [
-            "s5"
-          ]
+            "s5",
+            "s14"
+          ],
+          "quote": "Legalize and streamline \"missing-middle\" housing like duplexes, townhomes, and small apartments."
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "Criminalizing abortion does not work to eradicate the practice.",
+          "context": "On his campaign website (Abortion plank)",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "Shift law enforcement focus away from penalizing lawful gun owners and redirect resources to aggressively tracking and prosecuting violent felons, straw-purchasers, and criminal syndicates running black-market weapon networks.",
+          "context": "On his campaign website (Gun Rights plank)",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Redirect enforcement assets entirely to high-impact tracking models targeting violent transnational syndicates and cartels.",
+          "context": "On his campaign website (Immigration Enforcement plank)",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Provide robust community funding for advanced law enforcement training, mental health resources, and competitive retention pay.",
+          "context": "On his campaign website (Police Reform plank)",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Pass a universal catastrophic healthcare floor to shield every family from medical bankruptcy.",
+          "context": "On his campaign website (Healthcare plank)",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Empower communities to develop advanced small-scale nuclear and solar setups without waiting through multi-year federal administrative freezes.",
+          "context": "On his campaign website (Climate Policy plank)",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "researchNotes": "Statements come from the issue planks on Montgomery's campaign website (eliasmontgomery.com) and his Ballotpedia Candidate Connection survey. He did not answer the Salt Lake Tribune candidate questionnaire. His planks do not take a direct side on the guide's issue statements, so no stances are recorded."
     }
   ],
   "sources": [
@@ -412,6 +559,30 @@
       "publisher": "Riley Owen campaign website, via Ballotpedia",
       "kind": "candidate",
       "date": "2026-04-09"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.jessewest2026.com/policy",
+      "title": "Jesse West for Congress: platform (full policy positions)",
+      "publisher": "Jesse West campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.sltrib.com/news/politics/2026/10/12/ben-mcadams-faces-riley-owen-three/",
+      "title": "Ben McAdams faces Riley Owen and three others in 2026 Utah 1st Congressional District race (candidate questionnaire)",
+      "publisher": "The Salt Lake Tribune",
+      "kind": "news",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.eliasmontgomery.com/",
+      "title": "Elias Montgomery for Congress: policy agenda",
+      "publisher": "Elias Montgomery campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
