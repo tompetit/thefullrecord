@@ -166,11 +166,67 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Healthcare choice and price transparency.",
+          "quote": "Expand healthcare choice and competition to lower costs.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Tax and spending cuts to fight inflation.",
+          "quote": "Cut taxes and reduce government spending to fight inflation.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "An all-of-the-above energy strategy, including nuclear.",
+          "quote": "Support an all-of-the-above energy strategy to keep energy affordable and reliable.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Border security and immigration enforcement.",
+          "quote": "Secure the border and enforce immigration laws.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No campaign website located; background limited to what Ballotpedia's biography section documents."
+      "researchNotes": "Campaign website (terrideboer.com) priorities page read in full; Ballotpedia shows she has not completed the Candidate Connection survey. Site statements are general and do not name specific bills or policies, so they are listed as statements without stances.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Remove dangerous criminals who enter the country illegally.",
+          "context": "On her campaign website's priorities page",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Oppose costly energy mandates that increase utility bills for families.",
+          "context": "On her campaign website's priorities page",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Put patients and doctors—not insurance companies or bureaucrats—in charge of healthcare decisions.",
+          "context": "On her campaign website's priorities page",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "website": "https://www.terrideboer.com/"
     },
     {
       "id": "joe-jock",
@@ -186,11 +242,54 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Getting money out of politics.",
+          "quote": "Get Money Out of Politics",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Family court reform and equal parental rights.",
+          "quote": "Family Court Reform and Equal Parental Rights",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Limiting foreign-government-aligned lobbying influence on U.S. policy.",
+          "quote": "No Foreign Government or Lobby Should Buy U.S. Policy",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "israel_aid",
+          "stance": "mixed",
+          "summary": "Says he supports ending unconditional U.S. military aid to Israel.",
+          "quote": "I support ending unconditional U.S. military aid to Israel and believe American foreign policy should prioritize diplomacy, human rights, international law, and the needs of Americans at home.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchDepth": "basic",
+      "researchNotes": "Based on his 2026 Ballotpedia Candidate Connection survey. No campaign website found. 'Universal healthcare' is listed as a statement without a stance since the survey does not say whether it would be publicly funded.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "My priorities include universal healthcare",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -258,6 +357,22 @@
       "publisher": "Hillary Scholten for Congress",
       "kind": "candidate",
       "date": "2022-02-01"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.terrideboer.com/priorities",
+      "title": "Terri's Priorities for West Michigan",
+      "publisher": "Terri DeBoer for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/Joe_Jock",
+      "title": "Joe Jock (2026 Candidate Connection survey)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
