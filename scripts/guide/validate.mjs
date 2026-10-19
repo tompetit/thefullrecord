@@ -20,6 +20,9 @@ const OFFICE_TYPES = new Set(["us-senate", "us-house", "governor", "attorney-gen
   "comptroller", "secretary-of-state", "state-senate", "state-assembly", "ballot-measure", "other"]);
 const KINDS = new Set(["official", "candidate", "news", "reference"]);
 const REC_KINDS = new Set(["vote", "bill", "action", "finance", "legal"]);
+// bioguide -> name for current members, to catch a candidate tagged with another member's ID
+const MEMBERS = new Map(JSON.parse(readFileSync(join(ROOT, "src/server/people.json"), "utf8")).filter((p) => p.key.startsWith("bio:")).map((p) => [p.key.slice(4), p.name]));
+const lastWord = (n) => n.toLowerCase().replace(/,?\s+(jr|sr|ii|iii|iv)\.?$/i, "").replace(/[^a-z\s-]/g, "").trim().split(/\s+/).pop();
 const BANNED = /\b(extreme|radical|common[- ]sense|controversial|far-left|far-right|disgraced|hypocrit\w*|flip-flop\w*)\b/i;
 
 const files = process.argv.slice(2).length
@@ -66,6 +69,8 @@ for (const file of files) {
   (r.context ?? []).forEach((c, i) => cites(c, `context[${i}]`));
   const cids = new Set();
   for (const c of r.candidates ?? []) {
+    if (c.bioguideId && MEMBERS.has(c.bioguideId) && lastWord(MEMBERS.get(c.bioguideId)) !== lastWord(c.name) && !c.name.toLowerCase().includes(lastWord(MEMBERS.get(c.bioguideId))))
+      errs.push(`${c.id}: bioguideId ${c.bioguideId} belongs to ${MEMBERS.get(c.bioguideId)}`);
     const w = `candidate ${c.id}`;
     need(c, ["id", "name", "parties", "summary", "researchDepth"], w);
     if (cids.has(c.id)) errs.push(`${w}: duplicate id`);
