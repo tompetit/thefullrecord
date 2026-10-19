@@ -1,5 +1,5 @@
 import { brokeWithParty, contention } from "@/lib/divisive";
-import { chamberState, type IssueRecord } from "@/lib/issues";
+import { chamberState, sortIssueRecords, type IssueRecord } from "@/lib/issues";
 import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, rollCallTopics } from "./live/snapshot";
 import { rollCallHref } from "./rollcall";
 import type { Official } from "./types";
@@ -41,6 +41,23 @@ function baseRecords(): IssueRecord[] {
   })).sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
   return allRecords;
 }
+
+/** Most contested substantive roll calls matching `where`; at most one per state when `perState`. */
+export function topContested(where: (record: IssueRecord) => boolean, max: number, perState = false): IssueRecord[] {
+  const picked: IssueRecord[] = [];
+  const seen = new Set<string>();
+  const hits = baseRecords().filter((r) => r.kind === "substantive" && r.contention > 0 && where(r));
+  for (const r of sortIssueRecords(hits, "contested")) {
+    if (perState && seen.has(r.state)) continue;
+    seen.add(r.state);
+    picked.push(r);
+    if (picked.length === max) break;
+  }
+  return picked;
+}
+
+/** ISO date `days` ago. */
+export const daysAgo = (days: number) => new Date(Date.now() - days * 864e5).toISOString().slice(0, 10);
 
 /** All records, or with officials only those where at least one of them has a position. */
 export function getIssueRecords(officials?: Official[]) {
