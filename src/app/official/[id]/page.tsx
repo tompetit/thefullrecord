@@ -1,13 +1,7 @@
-import Link from "@/components/Link";
-import { notFound } from "next/navigation";
-import { ElectionCard } from "@/components/ElectionCard";
-import { PartyChip } from "@/components/PartyChip";
-import { ProfileTabs } from "@/components/ProfileTabs";
-import { SourceLink } from "@/components/SourceLink";
-import { StandoutSection } from "@/components/StandoutSection";
+import { notFound, permanentRedirect } from "next/navigation";
+import { OfficialProfile } from "@/components/OfficialProfile";
 import { getDataSource } from "@/server/datasource";
-import { ContestedVotesSection } from "@/components/ContestedVotesSection";
-import { contestedForDistrict, standoutForDistrict } from "@/server/standout";
+import { personForOfficial } from "@/server/people";
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const official = await getDataSource().getOfficial((await params).id);
@@ -18,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   };
 }
 
-/** The core screen: identity + committees + stats + the activity feed. */
+/** Legacy URL: ids that map to a person redirect (308) to /people/<slug>; vacant seats and stubs render here. */
 export default async function OfficialPage({
   params,
   searchParams,
@@ -28,162 +22,14 @@ export default async function OfficialPage({
 }) {
   const { id } = await params;
   const query = await searchParams;
+  const person = personForOfficial(id);
+  if (person) permanentRedirect(`/people/${person.slug}${query.address ? `?address=${encodeURIComponent(String(query.address))}` : ""}`);
   const address = typeof query.address === "string" ? query.address.trim().slice(0, 250) : "";
-  const ds = getDataSource();
-  const official = await ds.getOfficial(id);
+  const official = await getDataSource().getOfficial(id);
   if (!official) notFound();
-
-  const [votes, sponsorships, attendance, saidDidPairs, election] =
-    await Promise.all([
-      ds.getVotes(id, { hideUnanimous: true }),
-      ds.getSponsorships(id),
-      ds.getAttendance(id),
-      ds.getSaidDidPairs(id),
-      ds.getSeatElection(official.districtKey),
-    ]);
-
-  const standout = standoutForDistrict(official.districtKey);
-  const contested = contestedForDistrict(official.districtKey);
-
-  const roleLine = official.locality
-    ? `${official.role} · ${official.locality}`
-    : official.role;
-
-  const identity = (
-    <>
-      <div className="flex items-start gap-3.5 lg:flex-col lg:gap-4">
-        <div className="flex flex-col gap-1">
-          <h1 className="font-serif text-[26px] font-bold leading-[1.1] tracking-[-0.01em] text-ink">
-            {official.name}
-          </h1>
-          <p className="font-sans text-[13px] text-ink-80">{roleLine}</p>
-          {(official.tenure || official.party || official.partyLabel) && (
-            <p className="flex items-center gap-1.5 font-sans text-xs text-ink-60">
-              {official.tenure}
-              {official.tenure && (official.party || official.partyLabel) && " · "}
-              {(official.party || official.partyLabel) && (
-                <PartyChip party={official.party ?? undefined} label={official.partyLabel} />
-              )}
-            </p>
-          )}
-        </div>
-      </div>
-      <div className="mt-4 flex flex-wrap gap-1.5 font-sans text-[11.5px] text-ink-80">
-        {official.committees.map((c) => (
-          <span key={c} className="rounded-full border border-chip-border px-2.5 py-1">
-            {c}
-          </span>
-        ))}
-        <a
-          href={official.contactUrl}
-          className="inline-flex min-h-11 items-center rounded-full border border-chip-border px-2.5 hover:border-card-strong"
-        >
-          Contact ↗
-        </a>
-      </div>
-    </>
-  );
-
   return (
     <main className="mx-auto w-full max-w-7xl flex-1 pb-12">
-      <div className="px-4 sm:px-6 pt-5 lg:grid lg:grid-cols-[300px_1fr] lg:gap-10 lg:px-10">
-        {/* Left rail (desktop) / header stack (mobile) */}
-        <aside className="lg:sticky lg:top-4 lg:self-start">
-          <Link
-            href={address ? `/representatives?address=${encodeURIComponent(address)}` : "/representatives"}
-            className="flex min-h-11 items-center font-sans text-[12.5px] text-ink-60 hover:text-ink"
-          >
-            ‹ Your representatives
-          </Link>
-
-          {identity}
-
-          {/* Stat strip (mobile) / stat table (desktop) — omit stats the source doesn't provide yet */}
-          {(() => {
-            const stats: Array<[string, string, string | number]> = [];
-            if (official.stats.votesThisSession !== null)
-              stats.push([
-                "Votes in this collection",
-                "votes in collection",
-                official.stats.votesThisSession,
-              ]);
-            if (official.stats.rollCallsAttendedPct !== null)
-              stats.push([
-                "Recorded participation",
-                "recorded participation",
-                `${official.stats.rollCallsAttendedPct}%`,
-              ]);
-            if (official.stats.billsSponsored !== null)
-              stats.push([
-                "Bills sponsored",
-                "bills sponsored",
-                official.stats.billsSponsored,
-              ]);
-            if (!stats.length) return null;
-            return (
-              <>
-                <div
-                  className="mt-5 grid overflow-hidden rounded-[10px] border border-card bg-paper-raised lg:hidden"
-                  style={{
-                    gridTemplateColumns: `repeat(${stats.length}, 1fr)`,
-                  }}
-                >
-                  {stats.map(([, label, value], i) => (
-                    <div
-                      key={label}
-                      className={`px-2 py-3 text-center ${i < stats.length - 1 ? "border-r border-hairline-soft" : ""}`}
-                    >
-                      <div className="font-serif text-[19px] font-bold text-ink">
-                        {value}
-                      </div>
-                      <div className="font-sans text-[10.5px] text-ink-45">
-                        {label}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                <dl className="mt-5 hidden flex-col divide-y divide-hairline-soft rounded-[10px] border border-card bg-paper-raised lg:flex">
-                  {stats.map(([label, , value]) => (
-                    <div
-                      key={label}
-                      className="flex items-center justify-between px-4 py-2.5"
-                    >
-                      <dt className="font-sans text-xs text-ink-60">{label}</dt>
-                      <dd className="font-serif text-[17px] font-bold text-ink">
-                        {value}
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
-              </>
-            );
-          })()}
-
-          {election && <ElectionCard election={election} />}
-
-          <p className="mt-4 font-sans text-[11.5px] leading-normal text-ink-45">
-            {official.methodologyNote}{" "}
-            <span className="inline-flex min-h-11 items-center">
-              <SourceLink href="/guide/methodology" className="text-[11.5px]">
-                Methodology
-              </SourceLink>
-            </span>
-          </p>
-        </aside>
-
-        {/* Feed */}
-        <div className="mt-6 flex flex-col gap-4 lg:mt-0">
-          {standout && <StandoutSection standout={standout} />}
-          <ContestedVotesSection votes={contested} allHref={`/votes${address ? `?address=${encodeURIComponent(address)}&show=reps-split` : ""}`} />
-          <ProfileTabs
-            official={official}
-            initialVotes={votes}
-            sponsorships={sponsorships}
-            attendance={attendance}
-            saidDidPairs={saidDidPairs}
-          />
-        </div>
-      </div>
+      <OfficialProfile official={official} address={address} />
     </main>
   );
 }

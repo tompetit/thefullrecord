@@ -5,6 +5,7 @@ import { IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "
 import { SourceLink } from "@/components/SourceLink";
 import { VoteBadge } from "@/components/VoteBadge";
 import { LOOKUP_MESSAGES } from "@/lib/site";
+import { personHrefForOfficial } from "@/server/people";
 import { ballotForAddress, type BallotStateSeat } from "@/server/guide/ballot";
 
 export const metadata = {
@@ -169,7 +170,7 @@ function StateSeatItem({ n, seat }: { n: number; seat: BallotStateSeat }) {
           ) : (
             <p className="mt-1 font-sans text-xs text-ink-60">No contested votes for this member are in our dataset yet.</p>
           )}
-          <Link href={`/official/${inc.officialId}`} className="inline-flex min-h-11 items-center font-sans text-xs font-semibold text-accent underline">
+          <Link href={personHrefForOfficial(inc.officialId)} className="inline-flex min-h-11 items-center font-sans text-xs font-semibold text-accent underline">
             Full voting record →
           </Link>
         </div>
