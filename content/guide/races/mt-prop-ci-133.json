@@ -61,7 +61,32 @@
           "s4"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/CI-133(ba9d97da675a9f26f24b5f9e333b35b7).pdf",
+    "supporters": [
+      {
+        "text": "Montanans Decide, the ballot-issue committee supporting CI-133 (spokesperson Dani Hess).",
+        "sources": [
+          "s5",
+          "s3"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Montana Chamber of Commerce (Charles Robison), which opposes CI-133 as \"vaguely written.\"",
+        "sources": [
+          "s5"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Per the Daily Montanan's reading of the most recent campaign finance reports (Oct. 12, 2026), Montanans Decide raised $2.44 million since December 2025, mostly from national groups. Per Montana Free Press (June 23, 2026), more than 99% of its funding had come from three 501(c)(4) nonprofits: The Fairness Project ($847,500), Global Impact Social Welfare Fund-Montana ($605,000) and American Opportunity Action Fund ($380,000, contributed between October and late May). No registered committee opposing CI-133 was found.",
+      "sources": [
+        "s5",
+        "s3"
+      ]
+    }
   },
   "sources": [
     {
@@ -94,8 +119,16 @@
       "publisher": "Montana Free Press",
       "kind": "news",
       "date": "2026-10-13"
+    },
+    {
+      "id": "s5",
+      "url": "https://dailymontanan.com/2026/10/12/measure-to-protect-citizen-initiatives-on-montanas-ballot/",
+      "title": "Measure to protect citizen initiatives on Montana's ballot",
+      "publisher": "Daily Montanan",
+      "kind": "news",
+      "date": "2026-10-12"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "The Montana Secretary of State's ballot-issues web pages returned HTTP 403 to automated requests and were not bypassed; the official ballot language was read from the SOS-hosted PDF, and certification status from Ballotpedia News' report of the Aug. 17, 2026 certification. A fiscal note and official 'a vote FOR/AGAINST means' statements were not retrieved (the ballot-language PDF contains none), so yesMeans/noMeans are derived strictly from the official ballot language and no fiscal impact is stated. A 2026 Voter Information Pamphlet with official arguments is listed on sosmt.gov but could not be read (the site returned HTTP 403 and was not bypassed); arguments are the campaigns' or opponents' own statements as reported by news. No named opposition committee statement was found; the opposing views come from a legislator and news summaries."
+  "researchNotes": "The Montana Secretary of State's ballot-issues web pages returned HTTP 403 to automated requests and were not bypassed; the official ballot language was read from the SOS-hosted PDF, and certification status from Ballotpedia News' report of the Aug. 17, 2026 certification. A fiscal note and official 'a vote FOR/AGAINST means' statements were not retrieved (the ballot-language PDF contains none), so yesMeans/noMeans are derived strictly from the official ballot language and no fiscal impact is stated. A 2026 Voter Information Pamphlet with official arguments is listed on sosmt.gov but could not be read (the site returned HTTP 403 and was not bypassed); arguments are the campaigns' or opponents' own statements as reported by news. No named opposition committee statement was found; the opposing views come from a legislator and news summaries. Added Oct. 19: no fiscal note was found for CI-133 (none in the Secretary of State's ballot-language PDF), so fiscalImpact is omitted; the Commissioner of Political Practices' filing system was not queried directly."
 }

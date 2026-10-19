@@ -39,6 +39,18 @@
         "sources": [
           "s4"
         ]
+      },
+      {
+        "text": "Jack Cardetti, spokesman for the Yes on Amendment 6 campaign: \"Amendment 6 ensures that Missourians can be a check and balance on politicians when they are ignoring our voices.\"",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Eric Bronner, co-founder of Veterans for All Voters, a supporter of Amendment 6, in a news release: \"For more than 118 years, Missourians have had the power to put issues directly before the voters,\" and \"Amendment 6 is about protecting that right and making sure that when Missourians vote for something, politicians can't simply undo their decision after the election.\"",
+        "sources": [
+          "s7"
+        ]
       }
     ],
     "argumentsAgainst": [
@@ -47,8 +59,119 @@
         "sources": [
           "s5"
         ]
+      },
+      {
+        "text": "State Sen. Joe Nicola (R-Grain Valley), who recently wrote: \"This is the most important amendment on the ballot,\" and \"If it passes, it will begin to deconstruct our Constitutional Republic.\"",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Secretary of State Denny Hoskins, in a statement to ABC17: \"Proposed Amendment 6 would permanently handcuff lawmakers from cleaning up or responding to bad or misleading ballot measures, or those that simply have unintended consequences.\"",
+        "sources": [
+          "s8"
+        ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://www.sos.mo.gov/CMSImages/Elections/Petitions/2026-106.pdf",
+    "currentLaw": {
+      "text": "Currently there are no restrictions on lawmakers altering or repealing laws passed by initiative, as happened in 2025 when the legislature repealed paid sick leave and minimum-wage inflation adjustments. A majority of lawmakers in both chambers can propose changes to initiative-passed constitutional amendments, but those changes must also pass statewide. A \"no\" vote leaves the current constitutional initiative and referendum provisions unchanged.",
+      "sources": [
+        "s7",
+        "s1"
+      ]
+    },
+    "fiscalImpact": {
+      "text": "Official ballot statement: State and local governmental entities estimate no costs or savings. The Fair Ballot Language adds that, if passed, the measure will not increase or decrease taxes.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Respect MO Voters / Yes on Amendment 6 campaign (sponsor), whose spokesman is Jack Cardetti.",
+        "sources": [
+          "s6",
+          "s4"
+        ]
+      },
+      {
+        "text": "Missouri AFL-CIO.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Former Republican U.S. Sen. Jack Danforth.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Former Democratic Secretary of State Jason Kander.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Former Republican state Sen. Bob Johnson.",
+        "sources": [
+          "s6",
+          "s8"
+        ]
+      },
+      {
+        "text": "Veterans for All Voters (co-founder Eric Bronner).",
+        "sources": [
+          "s7"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Missouri Republican State Committee (resolution opposing Amendment 6).",
+        "sources": [
+          "s9",
+          "s5"
+        ]
+      },
+      {
+        "text": "Secretary of State Denny Hoskins, who called the measure something that would \"permanently handcuff lawmakers\" (statement to ABC17).",
+        "sources": [
+          "s8"
+        ]
+      },
+      {
+        "text": "Attorney General Catherine Hanaway, who wrote on X in August (as reported by ABC17) that she opposes Amendment 6.",
+        "sources": [
+          "s8"
+        ]
+      },
+      {
+        "text": "State Sen. Joe Nicola (R-Grain Valley).",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Missouri Chamber of Commerce and Industry, which has warned that businesses need confidence the state can respond when a policy proves unworkable.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "MO Protect PAC, described by the Missouri Independent as the organized opposition.",
+        "sources": [
+          "s6"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Per the Missouri Independent's review of Missouri Ethics Commission filings (Oct. 14, 2026): a committee called Vote Yes on Amendment 6 has reported more than $4.7 million in large contributions since Sept. 8, including more than $1.1 million from the Missouri AFL-CIO, $500,000 from the Mid-America Carpenters Regional Council, $400,000 from IBEW Local 124 and $300,000 from Sheet Metal Workers Local 36. On the opposing side, MO Protect PAC reported $14,870 on hand on Oct. 1 and later received $10,000 each from political committees supporting Republican state Sens. Jason Bean and Brad Hudson.",
+      "sources": [
+        "s6"
+      ]
+    }
   },
   "sources": [
     {
@@ -87,8 +210,40 @@
       "publisher": "Missouri Republican State Committee",
       "kind": "candidate",
       "date": "2026-09-29"
+    },
+    {
+      "id": "s6",
+      "url": "https://missouriindependent.com/2026/10/14/amendment-6-would-remake-balance-of-power-between-missouri-voters-and-lawmakers/",
+      "title": "Amendment 6 would remake balance of power between Missouri voters and lawmakers",
+      "publisher": "Missouri Independent",
+      "kind": "news",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "s7",
+      "url": "https://missouriindependent.com/2026/09/03/missouri-voters-will-decide-limits-on-lawmakers-rewriting-ballot-measures/",
+      "title": "Missouri voters will decide limits on lawmakers rewriting ballot measures",
+      "publisher": "Missouri Independent",
+      "kind": "news",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://abc17news.com/news/truth-alert/2026/10/15/truth-alert-amendment-6-empowers-direct-democracy-in-missouri-but-opponents-warn-of-consequences/",
+      "title": "TRUTH ALERT: Amendment 6 empowers direct democracy in Missouri, but opponents warn of consequences",
+      "publisher": "ABC17 News (KMIZ)",
+      "kind": "news",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "s9",
+      "url": "https://missouriindependent.com/2026/09/29/missouri-republicans-scramble-to-launch-late-campaigns-on-two-ballot-measures/",
+      "title": "Missouri Republicans scramble to launch late campaigns on two ballot measures",
+      "publisher": "Missouri Independent",
+      "kind": "news",
+      "date": "2026-09-29"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Official ballot title, fiscal statement and Fair Ballot Language are quoted from the Missouri Secretary of State's certified-measure page. Missouri publishes no state voter pamphlet with pro/con arguments, so arguments are from campaign materials and news reports. Registered supporting campaign: Respect MO Voters. The Missouri Republican State Committee is the only organized opponent found (Ballotpedia lists no separate opposition committee). The Secretary of State's yes/no text is abridged with an ellipsis in yesMeans; the full Fair Ballot Language is in the cited page. Verified that the Secretary of State lists exactly five measures for Nov 3, 2026 (Amendments 3, 6, 7, 8 and Proposition A). To keep one statement per side, the quote from a campaign volunteer (KFVS) was dropped; the opposition has only the Missouri Republican State Committee resolution."
+  "researchNotes": "Official ballot title, fiscal statement and Fair Ballot Language are quoted from the Missouri Secretary of State's certified-measure page. Missouri publishes no state voter pamphlet with pro/con arguments, so arguments are from campaign materials and news reports. Registered supporting campaign: Respect MO Voters. The Missouri Republican State Committee is the only organized opponent found (Ballotpedia lists no separate opposition committee). The Secretary of State's yes/no text is abridged with an ellipsis in yesMeans; the full Fair Ballot Language is in the cited page. Verified that the Secretary of State lists exactly five measures for Nov 3, 2026 (Amendments 3, 6, 7, 8 and Proposition A). To keep one statement per side, the quote from a campaign volunteer (KFVS) was dropped; the opposition has only the Missouri Republican State Committee resolution. Added Oct. 19: supporters, opponents and finance come from Missouri Independent and ABC17 reports of Ethics Commission filings; the Ethics Commission's own database was not queried directly. Hoskins and Hanaway are named as opponents on the strength of their own public statements as reported by ABC17."
 }

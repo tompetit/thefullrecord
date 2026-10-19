@@ -61,7 +61,44 @@
           "s4"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/CI-132(3a70e31b2fe58baa619ffb1d9b23c8ff).pdf",
+    "currentLaw": {
+      "text": "Montana has elected judges on a nonpartisan basis since 1936, but the practice is not written into the Constitution, so the Legislature could change it at any time. Bills to make judicial races partisan failed in the 2025 session.",
+      "sources": [
+        "s5",
+        "s3"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Montanans for Nonpartisan Courts, the ballot-issue committee behind CI-132.",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Retired Montana Supreme Court Justice Mike McGrath, who endorsed the initiative.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Montana Republican Party, which passed a resolution opposing CI-132 and whose chairman, Art Wittich, said the initiative is an attempt to restrict candidates.",
+        "sources": [
+          "s3",
+          "s2"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Per Montana Free Press's reading of campaign finance filings, Montanans for Nonpartisan Courts raised $2.79 million from July 2025 to late May 2026 and spent just over $2 million. About 79% came from four groups: the ACLU Foundation and Global Impact Social Welfare Fund-Montana ($600,000 each) and The Fairness Project and A Better Big Sky ($500,000 each). No registered committee opposing CI-132 was found; more recent filings were not retrieved.",
+      "sources": [
+        "s3"
+      ]
+    }
   },
   "sources": [
     {
@@ -93,8 +130,15 @@
       "title": "Montana's 2026 statewide ballot initiatives explained",
       "publisher": "KULR-8 (NonStop Local)",
       "kind": "news"
+    },
+    {
+      "id": "s5",
+      "url": "https://dailymontanan.com/voter-guides/ballot-measures/constitutional-initiative-132/",
+      "title": "Constitutional Initiative 132 (2026 General Election Voter Guide)",
+      "publisher": "Daily Montanan",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "The Montana Secretary of State's ballot-issues web pages returned HTTP 403 to automated requests and were not bypassed; the official ballot language was read from the SOS-hosted PDF, and certification status from Ballotpedia News' report of the Aug. 17, 2026 certification. A fiscal note and official 'a vote FOR/AGAINST means' statements were not retrieved (the ballot-language PDF contains none), so yesMeans/noMeans are derived strictly from the official ballot language and no fiscal impact is stated. A 2026 Voter Information Pamphlet with official arguments is listed on sosmt.gov but could not be read (the site returned HTTP 403 and was not bypassed); arguments are the campaigns' or opponents' own statements as reported by news. "
+  "researchNotes": "The Montana Secretary of State's ballot-issues web pages returned HTTP 403 to automated requests and were not bypassed; the official ballot language was read from the SOS-hosted PDF, and certification status from Ballotpedia News' report of the Aug. 17, 2026 certification. A fiscal note and official 'a vote FOR/AGAINST means' statements were not retrieved (the ballot-language PDF contains none), so yesMeans/noMeans are derived strictly from the official ballot language and no fiscal impact is stated. A 2026 Voter Information Pamphlet with official arguments is listed on sosmt.gov but could not be read (the site returned HTTP 403 and was not bypassed); arguments are the campaigns' or opponents' own statements as reported by news.  Added Oct. 19: no fiscal note was found for CI-132 (none in the Secretary of State's ballot-language PDF), so fiscalImpact is omitted. The Commissioner of Political Practices' filing system (cers-ext.mt.gov) was not queried directly; finance figures are as reported by Montana Free Press."
 }

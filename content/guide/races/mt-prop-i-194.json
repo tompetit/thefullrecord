@@ -61,7 +61,92 @@
           "s4"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/I-194(d4249530242056d948420c5212f6f750).pdf",
+    "supporters": [
+      {
+        "text": "The Montana Plan, the ballot-issue committee backing I-194.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Transparent Election Initiative (president Jeff Mangan, former Commissioner of Political Practices), which launched the Montana Plan.",
+        "sources": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Former Republican Gov. Marc Racicot, who has endorsed the initiative.",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Former Democratic Gov. Steve Bullock, who has endorsed the initiative.",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Former Democratic U.S. Sen. Jon Tester, who has endorsed the initiative.",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Pete Buttigieg, former U.S. transportation secretary, who headlined a Butte event promoting it in May 2026.",
+        "sources": [
+          "s5"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Montana Chamber of Commerce (president Todd O'Hair), which has contributed to the committee opposing I-194.",
+        "sources": [
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "text": "Montanans for Free Speech, the political committee opposing I-194.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Montana Mining Association.",
+        "sources": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Montana Republican Party, which has added opposition to I-194 to its platform.",
+        "sources": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Billings and Kalispell chambers of commerce, which joined the Montana Chamber in litigation seeking to keep the initiative off the ballot.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Americans for Prosperity, named by KULR as an opponent of I-194.",
+        "sources": [
+          "s4"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Per Montana Free Press (June 2026), The Montana Plan committee raised $145,892 from July 2025 through the end of May 2026 ($112,089 in cash from Transparent Election Initiative) and spent just under $50,000. KTVH reports Transparent Election Initiative had passed roughly $240,000 to the committee as of August. Montanans for Free Speech (opposed) showed no donations as of August, with expenditures of about $9,000 and about $45,000 for polling, per KTVH. Later filings were not retrieved.",
+      "sources": [
+        "s3",
+        "s6"
+      ]
+    }
   },
   "sources": [
     {
@@ -93,8 +178,23 @@
       "title": "Montana's 2026 statewide ballot initiatives explained",
       "publisher": "KULR-8 (NonStop Local)",
       "kind": "news"
+    },
+    {
+      "id": "s5",
+      "url": "https://dailymontanan.com/2026/10/13/i-194-seeks-to-remove-dark-money-from-politics/",
+      "title": "I-194 seeks to remove 'dark money' from politics",
+      "publisher": "Daily Montanan",
+      "kind": "news",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.ktvh.com/news/montana-politics/montanas-ballot-measure-on-political-spending-explained",
+      "title": "Montana's ballot measure on political spending, explained",
+      "publisher": "KTVH (NonStop Local)",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "The Montana Secretary of State's ballot-issues web pages returned HTTP 403 to automated requests and were not bypassed; the official ballot language was read from the SOS-hosted PDF, and certification status from Ballotpedia News' report of the Aug. 17, 2026 certification. A fiscal note and official 'a vote FOR/AGAINST means' statements were not retrieved (the ballot-language PDF contains none), so yesMeans/noMeans are derived strictly from the official ballot language and no fiscal impact is stated. A 2026 Voter Information Pamphlet with official arguments is listed on sosmt.gov but could not be read (the site returned HTTP 403 and was not bypassed); arguments are the campaigns' or opponents' own statements as reported by news. "
+  "researchNotes": "The Montana Secretary of State's ballot-issues web pages returned HTTP 403 to automated requests and were not bypassed; the official ballot language was read from the SOS-hosted PDF, and certification status from Ballotpedia News' report of the Aug. 17, 2026 certification. A fiscal note and official 'a vote FOR/AGAINST means' statements were not retrieved (the ballot-language PDF contains none), so yesMeans/noMeans are derived strictly from the official ballot language and no fiscal impact is stated. A 2026 Voter Information Pamphlet with official arguments is listed on sosmt.gov but could not be read (the site returned HTTP 403 and was not bypassed); arguments are the campaigns' or opponents' own statements as reported by news.  Added Oct. 19: no fiscal note was found for I-194 (none in the Secretary of State's ballot-language PDF), so fiscalImpact is omitted; the Commissioner of Political Practices' filing system was not queried directly (cers-ext.mt.gov redirected)."
 }
