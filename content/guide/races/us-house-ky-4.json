@@ -46,9 +46,52 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign issues page lists getting government out of reproductive healthcare; her Ballotpedia survey says laws protecting access to such care must exist at the federal level.",
+          "quote": "Get the government out of your reproductive healthcare",
+          "sources": [
+            "s2",
+            "s1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign issues page lists protecting and expanding Medicare, Medicaid and Social Security.",
+          "quote": "Protect and expand Medicare, Medicaid, and Social Security.",
+          "sources": [
+            "s2"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign website says she wants to end tariffs she describes as inflationary.",
+          "quote": "end inflationary tariffs",
+          "sources": [
+            "s3"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://strangeforky.com",
+      "statements": [
+        {
+          "issue": "minimum_wage",
+          "quote": "everyone deserves to be paid a fair, livable wage.",
+          "context": "In her Ballotpedia Candidate Connection survey (2026)",
+          "sources": [
+            "s1"
+          ]
+        }
+      ]
     },
     {
       "id": "ed-gallrein",
@@ -80,15 +123,42 @@
       ],
       "priorities": [
         {
-          "text": "On the economy, Gallrein said he would work to \"cut taxes, stop the reckless spending that has driven up inflation, and fight to bring good-paying jobs back home to Kentucky.\"",
+          "text": "Campaign website priorities: \"Unleash Our Economy,\" \"Secure the Border & Protect our Nation,\" \"Defend Our Gun Rights,\" \"Protect the Unborn,\" and \"End the Woke Agenda.\"",
           "sources": [
-            "s1"
+            "s4"
           ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.edgallrein.com",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Gallrein will team up with President Trump and the Republican Party to finish the wall, fully fund Border Patrol & ICE, secure the border once and for all",
+          "context": "Under \"Secure the Border & Protect our Nation\" on his campaign website",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "Gallrein will protect our right to keep and bear arms without compromise and back the blue.",
+          "context": "Under \"Defend Our Gun Rights\" on his campaign website",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "quote": "Gallrein is Pro-Life!",
+          "context": "Under \"Protect the Unborn\" on his campaign website",
+          "sources": [
+            "s4"
+          ]
+        }
+      ]
     },
     {
       "id": "jeremy-todd",
@@ -110,21 +180,79 @@
           "sources": [
             "s1"
           ]
-        }
-      ],
-      "positions": [
+        },
         {
-          "issue": "israel_aid",
-          "stance": "opposes",
-          "summary": "Supports closing overseas U.S. military bases and reducing foreign military commitments generally.",
-          "quote": "If you elect me, I will advocate to close our overseas bases, bring our brave troops back home to their loved ones, and focus our resources on defending our own homeland.",
+          "text": "\"If elected, I will focus on restoring financial sanity and easing this pressure, so that we can keep the American dream alive right here in our neighborhood.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "\"I will advocate to close our overseas bases, bring our brave troops back home to their loved ones, and focus our resources on defending our own homeland.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "\"That means stopping the spread of FLOCK cameras on our local streets, and banning any future implementation of Central Bank Digital Currencies and social credit systems.\"",
           "sources": [
             "s1"
           ]
         }
       ],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Campaign website says he supports the SAVE Act, which he describes as requiring proof of citizenship to register to vote in federal elections.",
+          "quote": "I support the SAVE Act because I believe American elections should be decided only by American citizens.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "Describes himself as pro-life and supports returning abortion policy to the states, with no federal funding for abortion services.",
+          "quote": "That’s why I support returning the question of abortion policy to the states and to the democratic process closest to the people.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign website says gun regulations burden responsible owners and that \"gun safety\" policies have failed.",
+          "quote": "So-called “gun-free zones” have too often become targets for those who seek to do harm, while endless regulations continue to burden responsible gun owners rather than criminals.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://jeremy-todd.com",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "Our goal should be a dramatic reduction in taxation across the board, moving toward a system where people keep as much of what they earn as possible",
+          "context": "Campaign website, \"Taxes and the Fed\" issue page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I do not support open borders, because a functioning nation requires sovereignty, structure, and the ability to know who is entering and residing within its territory.",
+          "context": "Campaign website, immigration issue page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     },
     {
       "id": "peter-harmon-williams",
@@ -155,8 +283,72 @@
       "publisher": "Ballotpedia (Candidate Connection survey for Strange, Todd; staff-compiled for Gallrein)",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://strangeforky.com/issues/",
+      "title": "Issues – Strange for KY",
+      "publisher": "Melissa Strange campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://strangeforky.com/",
+      "title": "Strange for KY",
+      "publisher": "Melissa Strange campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.edgallrein.com/",
+      "title": "Ed Gallrein for Congress",
+      "publisher": "Ed Gallrein campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s5",
+      "url": "https://jeremy-todd.com/issue-7",
+      "title": "Issue: The SAVE Act",
+      "publisher": "Jeremy Todd campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
+      "url": "https://jeremy-todd.com/issue-8",
+      "title": "Issue: Abortion",
+      "publisher": "Jeremy Todd campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
+      "url": "https://jeremy-todd.com/issue-2",
+      "title": "Issues: Second Amendment",
+      "publisher": "Jeremy Todd campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s8",
+      "url": "https://jeremy-todd.com/issue-10",
+      "title": "Issue: Taxes and the Fed",
+      "publisher": "Jeremy Todd campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://jeremy-todd.com/issue-9",
+      "title": "Issue: Immigration",
+      "publisher": "Jeremy Todd campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Open seat: Thomas Massie lost the Republican primary. No background/education information was found for Strange or Jeremy Todd, or any information beyond the ballot listing for write-in candidate Peter Harmon Williams, in the time available."
+  "researchNotes": "Open seat: Thomas Massie lost the Republican primary. Strange, Gallrein and Todd positions and statements come from their campaign websites and Strange's and Todd's Ballotpedia Candidate Connection surveys; Gallrein has not completed the Ballotpedia survey and his site has no issue pages beyond five priority headings. Todd's earlier Israel-aid entry was removed because his cited statement is about closing overseas bases generally, not Israel aid. No campaign website, questionnaire or news coverage was found for write-in candidate Peter Harmon Williams (Kentucky Secretary of State lists a write-in filing dated Aug. 21, 2026); no positions added."
 }

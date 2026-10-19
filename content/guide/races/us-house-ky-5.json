@@ -141,22 +141,36 @@
           "sources": [
             "s2"
           ]
-        }
-      ],
-      "positions": [
+        },
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Opposes cuts to Medicaid and Medicare, criticizing incumbent Hal Rogers's support for reductions to those programs.",
-          "quote": "if you support the ongoing proposed slashing of: Medicaid, Medicare, food stamps, funds to help low income folks pay their utilities, and the defunding of public television, public radio, job corp, cancer research, etc – all so the billionaire class can get a deficit busting tax break – I don’t expect to persuade you to support my candidacy.",
+          "text": "\"I intend to campaign on rural issues that include the expansion of healthcare access, the expansion of better internet access, expansion of educational opportunities, and to finally do something about the lack of cleaning drinking water in many of our communities.\"",
           "sources": [
-            "s2"
+            "s10"
           ]
         }
       ],
+      "positions": [],
       "record": [],
       "website": "https://nedforcongress.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "I won’t stop fighting until every resident of the 5th District gets the coverage and care they deserve.",
+          "context": "Press release on the 60th anniversary of Medicare and Medicaid, July 30, 2025",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Instead they insist that giving another round of massive tax breaks to the billionaire class will solve all of our problems.",
+          "context": "Press release on filing his candidacy, Nov. 13, 2025",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     },
     {
       "id": "gerardo-serrano",
@@ -185,21 +199,46 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "text": "\"Our children should not have to leave Eastern Kentucky to build a future. I want to attract businesses, create good jobs, strengthen infrastructure, and make this district a place where families can prosper.\"",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "\"In Congress, I will fight civil asset forfeiture so the government cannot take your property without first proving you committed a crime.\"",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says he will defend the Second Amendment as part of a broader commitment to constitutional rights and due process.",
-          "quote": "I will defend due process, privacy, the Second Amendment, and Congress's constitutional responsibility to decide when America goes to war.",
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Campaign website says Congress, not one president, must decide whether America goes to war; his survey lists requiring Congress to vote before sending Americans into war.",
+          "quote": "Congress—not a militia and not one president—must decide whether America goes to war.",
           "sources": [
+            "s12",
             "s4"
-          ]
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://serranoforamerica.com",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I will support stronger border enforcement, faster lawful immigration, and firm action against cartels and traffickers—while protecting due process and America’s constitutional principles.",
+          "context": "On his campaign website (\"Border Security Is National Security\")",
+          "sources": [
+            "s12"
+          ]
+        }
+      ]
     },
     {
       "id": "mikel-wein",
@@ -271,16 +310,32 @@
       "incumbent": false,
       "ballotNote": "Independent write-in candidate.",
       "summary": {
-        "text": "Billy Ray Wilson is an independent write-in candidate for Kentucky's 5th Congressional District. No detailed public statements or biographical profile beyond his name on the ballot were found for this candidate.",
+        "text": "Billy Ray Wilson is an independent write-in candidate for Kentucky's 5th Congressional District. His campaign website says he would propose constitutional amendments if elected; no other issue statements or biographical profile were found.",
         "sources": [
-          "s1"
+          "s1",
+          "s13"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "\"I will submit Constitutional Amendments to bring the US Constitution up to date for the future.\"",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "\"Other amendments will address immigration, socialism, religious abuse, and foreign policy.\"",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://billyraywilson.com",
+      "statements": []
     }
   ],
   "sources": [
@@ -347,8 +402,32 @@
       "publisher": "Office of Rep. Hal Rogers",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://nedforcongress.com/press-releases/",
+      "title": "Press releases",
+      "publisher": "Ned Pillersdorf campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://serranoforamerica.com/stories",
+      "title": "Stories",
+      "publisher": "Gerardo Serrano campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "https://billyraywilson.com/from-38-years-of-public-service-to-the-u-s-house-why-im-running-to-restore-our-constitutional-republic/",
+      "title": "From 38 Years of Public Service to the U.S. House: Why I’m Running to Restore Our Constitutional Republic",
+      "publisher": "Billy Ray Wilson campaign website (blog post)",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Rogers's federal key floor votes and FEC finance totals are added separately by script; his vote on the 2025 reconciliation bill is included here only as characterized by his opponent's campaign, since the official roll call was not independently checked. Checked Rogers's official issues pages (appropriations, economic development, education, energy, environment, homeland security, health care, illegal drugs, taxes, tourism, transportation, veterans) and immigration services page; no statements found there addressing abortion, guns, immigration enforcement specifically, rent regulation, housing supply, climate transition pace, police funding, school choice, congestion pricing, minimum wage, Israel aid, or tariffs. No public information beyond his name on the ballot was found for write-in candidate Billy Ray Wilson."
+  "researchNotes": "Rogers's federal key floor votes and FEC finance totals are added separately by script; his vote on the 2025 reconciliation bill is included here only as characterized by his opponent's campaign, since the official roll call was not independently checked. Checked Rogers's official issues pages (appropriations, economic development, education, energy, environment, homeland security, health care, illegal drugs, taxes, tourism, transportation, veterans) and immigration services page; no statements found there addressing abortion, guns, immigration enforcement specifically, rent regulation, housing supply, climate transition pace, police funding, school choice, congestion pricing, minimum wage, Israel aid, or tariffs. No public information beyond his name on the ballot was found for write-in candidate Billy Ray Wilson. Update: Pillersdorf's positions come from his campaign press releases (no Ballotpedia survey; no abortion, guns, climate or minimum-wage statements found). Serrano's earlier guns entry was moved to a statement because \"defend the Second Amendment\" does not address stricter gun laws. Wilson (write-in) has a personal campaign blog with one statement on presidential war powers; his other posts are on religion and history and were not used."
 }
