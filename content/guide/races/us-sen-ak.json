@@ -210,11 +210,58 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "In a 2024 Alaska Beacon questionnaire, asked what Alaska's biggest need is, he answered: \"Is to get out of the federal government control, exercise the states rights through our state constitution.\"",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "In the same 2024 questionnaire, asked what Congress should do on immigration, he answered: \"Enforcing the law, protecting the borders.\"",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Heikes has run for federal office in Alaska multiple times since at least 2016 (including a 2020 write-in run for U.S. House) but has not completed a Ballotpedia Candidate Connection survey and no campaign website or public statement of positions could be located."
+      "researchDepth": "basic",
+      "researchNotes": "He did not respond to the 2026 Alaska Beacon voter guide, and no 2026 campaign website or interview was found. Positions are not recorded because the only statements are from his 2024 Alaska Beacon questionnaire for the U.S. House race and are dated as such. His 2024 answer on Israel concerned U.S. support generally rather than military aid and is not included.",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "Congress has no right to mandate, anything on these issues or support them. The latest ruling from the supreme court has given states the right to decide on these issues.",
+          "context": "2024 Alaska Beacon questionnaire for his U.S. House run, on abortion and contraceptives",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Enforcing the law, protecting the borders.",
+          "context": "2024 Alaska Beacon questionnaire for his U.S. House run, on what Congress should do on immigration",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Climate change is a fear factor of the ignorant, and teaching in the school systems of America.",
+          "context": "2024 Alaska Beacon questionnaire for his U.S. House run",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "So, men who want to compete in women’s sports, or use women’s restrooms, or showers is a complete lunacy to even consider.",
+          "context": "2024 Alaska Beacon questionnaire for his U.S. House run, on transgender policy",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     },
     {
       "id": "dan-sullivan-retired-teacher",
@@ -238,11 +285,71 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "\"Of greatest importance now is housing and affordability, two factors that will keep our young people and elderly from moving South.\"",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "\"Housing, healthcare and high fuel costs are immediate needs that I see my community struggle with.\"",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "\"The war in Iran was ill-conceived and poorly planned. I do not support it.\"",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In the 2026 Alaska Beacon voter guide questionnaire he said ICE is overfunded and tasked with unrealistic deportation goals, and that the system should maintain strong borders.",
+          "quote": "ICE is overfunded, under-trained, and tasked with unrealistic deportation goals.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an Aug. 2026 Alaska Public Media interview he said tariffs can be a tool if used precisely, and that the tariffs imposed were not effective and raised prices.",
+          "quote": "It seems like we went in with a hammer and just started smashing things. To my mind, they weren’t very effective, they raised the price on lots of things.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In the 2026 Alaska Beacon voter guide questionnaire he said he would oppose legislation like the SAVE Act.",
+          "quote": "I would oppose legislation like the SAVE act as Congress should not meddle in a state’s responsibility for fair elections and it would likely make voting much harder for rural Alaskans.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website or independent statement of positions could be located; Ballotpedia's coverage of Sullivan focuses on the ballot-eligibility dispute rather than his platform."
+      "researchDepth": "basic",
+      "researchNotes": "Positions and statements come from his answers in the 2026 Alaska Beacon voter guide questionnaire and an Aug. 3, 2026 Alaska Public Media interview. The questionnaire lists him as a retired teacher who also worked about 13 years as a Forest Service forestry technician; Alaska Public Media says 15 years with the Forest Service. No campaign website was found. His answers did not address abortion, guns, taxes, minimum wage, school choice or Israel.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Continue to fund and support research to mitigate climate change effects.",
+          "context": "In the 2026 Alaska Beacon voter guide questionnaire, on climate change",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -316,6 +423,28 @@
       "publisher": "Office of Senator Dan Sullivan",
       "kind": "official",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://alaskabeacon.com/voter-guides/contests/2026-u-s-senate/",
+      "title": "U.S. Senator - 2026 General Election Voter Guide",
+      "publisher": "Alaska Beacon (collaborative Alaska news organizations voter guide, candidate questionnaire)",
+      "kind": "news"
+    },
+    {
+      "id": "s12",
+      "url": "https://alaskapublic.org/news/politics/elections/2026-08-03/petersburgs-dan-j-sullivan-will-be-on-the-ballot-for-u-s-senate-what-are-his-policies",
+      "title": "Petersburg's Dan J. Sullivan will be on the ballot for U.S. Senate. What are his policies?",
+      "publisher": "Alaska Public Media",
+      "kind": "news",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://alaskabeacon.com/race-details/u-s-house-of-representatives-candidates-election-2024/",
+      "title": "U.S. House of Representatives candidates, election 2024 (candidate questionnaire)",
+      "publisher": "Alaska Beacon",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",
