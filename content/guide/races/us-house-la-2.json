@@ -131,7 +131,7 @@
       "incumbent": false,
       "currentRole": "Banking executive and entrepreneur",
       "summary": {
-        "text": "Renada Collins is a banking executive and entrepreneur running as a Democratic candidate for Louisiana's 2nd Congressional District, campaigning on affordability, infrastructure investment and housing stability.",
+        "text": "Renada Collins is an entrepreneur running as an unaffiliated candidate for Louisiana's 2nd Congressional District, campaigning on affordability, infrastructure investment and housing stability.",
         "sources": [
           "s3"
         ]
@@ -195,16 +195,85 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Lisa Ballay is the Libertarian Party candidate on the ballot for Louisiana's 2nd Congressional District.",
+        "text": "Lisa Ballay is the Libertarian candidate for Louisiana's 2nd Congressional District, a nurse and Senior Director of Surgical Services at a multi-hospital system. Her campaign website lists three priorities: Louisiana's fair share of federal dollars, lowering everyday costs and healthcare.",
         "sources": [
-          "s1"
+          "s1",
+          "s8",
+          "s11"
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Campaign site lists three priorities: Louisiana's fair share of federal dollars, \"Easier to Live Here\" (insurance, housing, energy, groceries) and \"Healthcare That Works\".",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Supports banning congressional stock trading and spending discipline and serious fiscal reform, per her campaign issues page.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "Issues page says she opposes elective late-term abortion and supports exceptions, and that reproductive medical decisions belong to a woman and her physician.",
+          "quote": "reproductive medical decisions belong to a woman in consultation with her physician — not to politicians and not to the federal government. She supports exceptions involving rape, incest, and threats to the life or health of the mother.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://ballayforcongress.com/",
+      "statements": [
+        {
+          "issue": "rent_regulation",
+          "quote": "Lisa opposes federal rent and price controls as the primary answer.",
+          "context": "On her campaign issues page, Housing affordability",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "She would focus on what actually limits supply — construction costs, insurance, financing, and the regulatory pile-up that makes building slow and expensive.",
+          "context": "On her campaign issues page, Housing affordability",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I believe the federal government has both the authority and the responsibility to enforce federal immigration law, and I support securing the border.",
+          "context": "In a written answer on her campaign website",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Congress has an obligation to protect access to essential healthcare while demanding that taxpayer dollars are spent effectively.",
+          "context": "In a written answer on her campaign website, on Medicaid",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Lisa supports responsible domestic production, including offshore.",
+          "context": "On her campaign issues page, Energy and offshore production",
+          "sources": [
+            "s8"
+          ]
+        }
+      ]
     },
     {
       "id": "walter-beach",
@@ -214,16 +283,42 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Walter Beach is an unaffiliated candidate on the ballot for Louisiana's 2nd Congressional District.",
+        "text": "Walter \"Rocky\" Beach is an unaffiliated candidate for Louisiana's 2nd Congressional District, a paramedic of more than 37 years who co-founded EMS Reform. His campaign website focuses on EMS funding, first responder protections and ending ambulance monopolies.",
         "sources": [
-          "s1"
+          "s1",
+          "s9",
+          "s10"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Campaign site lists strengthening EMS as essential healthcare, protecting EMTs and paramedics, ending ambulance monopolies and bringing Louisiana's voice to Washington.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "In his Ballotpedia survey, lists election security with ballot access, limits on eminent domain, and protecting Louisiana's aquifer.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://voteforrocky.com/",
+      "statements": [
+        {
+          "issue": "voter_citizenship_proof",
+          "quote": "The SAVE Act is about strengthening the verification of citizenship when registering to vote in federal elections.",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -282,8 +377,39 @@
       "publisher": "Office of Rep. Troy Carter",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballayforcongress.com/issues.html",
+      "title": "The Positions — Lisa Ballay for Congress",
+      "publisher": "Lisa Ballay campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Walter_Beach",
+      "title": "Walter Beach — Candidate Connection survey (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
+      "url": "https://voteforrocky.com/",
+      "title": "Walter \"Rocky\" Beach for U.S. House — Louisiana's 2nd District",
+      "publisher": "Walter Beach campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballayforcongress.com/",
+      "title": "Lisa Ballay for Congress (home page)",
+      "publisher": "Lisa Ballay campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website or public statements were found for Peter Williams, Lisa Ballay or Walter Beach beyond their names and party affiliation appearing on the ballot; none completed Ballotpedia's Candidate Connection survey."
+  "researchNotes": "Lisa Ballay: positions from her campaign website, whose issue text is written in the third person. Walter Beach: one statement from his Ballotpedia survey and EMS-focused campaign site; remains minimal on the guide issues. Renada Collins: campaign site (RenadaCollinsForYou.org) did not load; Ballotpedia survey and Baton Rouge Press Club forum coverage (WBRZ, 2026-10-06) gave no stance on the guide issues. No campaign website or public statements were found for Peter Williams beyond his name, party and the forum, where he said he wants better representation for middle-class families."
 }

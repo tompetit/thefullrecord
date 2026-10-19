@@ -187,26 +187,49 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "John Day is the leading Democratic candidate on the ballot for Louisiana's 3rd Congressional District.",
+        "text": "John Day is a Democratic candidate on the ballot for Louisiana's 3rd Congressional District.",
         "sources": [
           "s1"
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [
+      "priorities": [
         {
-          "issue": "climate",
-          "stance": "mixed",
-          "summary": "Describes an all-of-the-above energy strategy that supports oil and gas jobs while also investing in renewable energy.",
-          "quote": "an all-of-the-above energy strategy — supporting the oil and gas jobs that power our economy and investing in renewable energy to lower costs, strengthen our grid, and secure our future.",
+          "text": "Lists lower costs, better pay, safer communities and storm protection as what he would deliver.",
+          "quote": "I’m running to deliver results you can feel at home: lower costs, better pay, safer communities, and real storm protection — with honesty, accountability, and respect for taxpayers.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists expanding rural care and keeping patients in charge of healthcare decisions as a campaign theme.",
+          "quote": "Protect your right to make your own medical decisions, expand rural care, and put patients — not politicians — in charge of healthcare.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists keeping families in their homes and supporting first-time buyers as a campaign theme.",
+          "quote": "Keep families in their homes. Support first-time buyers.",
           "sources": [
             "s6"
           ]
         }
       ],
+      "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Ballotpedia Candidate Connection survey (2026) reviewed; the only statement matching the guide's issues is the energy position already listed. No campaign website found.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "an all-of-the-above energy strategy — supporting the oil and gas jobs that power our economy and investing in renewable energy to lower costs, strengthen our grid, and secure our future.",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "priscilla-gonzalez",
@@ -222,10 +245,54 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says she is committed to a justice system that emphasizes rehabilitation.",
+          "quote": "I am dedicated to creating a fair and equitable justice system that prioritizes rehabilitation over punishment.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Describes access to healthcare as a fundamental right and lists plans to improve services and reduce costs.",
+          "quote": "Access to quality healthcare is a fundamental right.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Says she will pursue initiatives to increase teacher salaries.",
+          "quote": "Teachers are the backbone of our education system. Learn about my commitment to increasing teacher salaries and ensuring they receive the respect and compensation they deserve.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says Louisiana should continue to expand Medicaid eligibility.",
+          "quote": "Louisiana should continue to expand Medicaid eligibility to help more low-income people and families.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Long-term hurricane vulnerability reduction in Louisiana depends on addressing climate change and its effects.",
+          "context": "On her campaign website's hurricanes page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign site prisforcongress.com reviewed (issues pages). Several pages are written about Louisiana state policy and are headed 'State Representative'; positions are taken only where the text directly addresses a guide issue. Did not complete Ballotpedia's 2026 survey."
     },
     {
       "id": "caleb-walker",
@@ -241,10 +308,43 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lists lowering the cost of living as a priority issue.",
+          "quote": "Groceries, insurance, housing, and everyday costs are squeezing Louisiana families.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Lists investing in people, including teacher pay, as a priority issue.",
+          "quote": "Caleb will fight to increase teacher pay and make the first $50,000 of every educator’s salary exempt from federal income tax.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Lists defending the coastline and growing jobs as a priority issue.",
+          "quote": "Caleb will fight for coastal restoration, stronger flood protection, and storm-resilient infrastructure that safeguards our homes, businesses, seafood industry, and coastal communities.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Caleb will confront global warming with practical, science-based solutions while supporting responsible carbon-capture projects that reduce emissions, protect communities, create jobs, and preserve Louisiana’s energy leadership.",
+          "context": "On his campaign website's issues page (third person)",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign site calebforcongress.com reviewed; it states priorities but takes a side on few guide issues. Only one statement (climate) found. Did not complete Ballotpedia's 2026 survey."
     },
     {
       "id": "kate-cotten",
@@ -263,7 +363,8 @@
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website or public statements found; Ballotpedia lists no website and no survey response."
     }
   ],
   "sources": [
@@ -314,8 +415,36 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "kind": "candidate",
+      "publisher": "Priscilla Gonzalez for Congress",
+      "url": "https://prisforcongress.com/issues/healthcare/",
+      "title": "Healthcare"
+    },
+    {
+      "id": "s9",
+      "kind": "candidate",
+      "publisher": "Priscilla Gonzalez for Congress",
+      "url": "https://prisforcongress.com/issues/hurricanes/",
+      "title": "Hurricanes"
+    },
+    {
+      "id": "s10",
+      "kind": "candidate",
+      "publisher": "Caleb for Congress",
+      "url": "https://www.calebforcongress.com/issues",
+      "title": "Issues & Platform"
+    },
+    {
+      "id": "s11",
+      "url": "https://prisforcongress.com/issues/",
+      "title": "Issues",
+      "publisher": "Priscilla Gonzalez for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "John Day, Priscilla Gonzalez, Caleb Walker and Kate Cotten did not complete Ballotpedia's Candidate Connection survey, and no campaign website or public statements were found for them beyond their names and party affiliation on the ballot."
+  "researchNotes": "Priscilla Gonzalez's and Caleb Walker's campaign websites and John Day's 2026 Ballotpedia Candidate Connection survey were used for the items shown. Kate Cotten did not complete the survey and no campaign website or public statements were found for her beyond her name and party on the ballot."
 }
