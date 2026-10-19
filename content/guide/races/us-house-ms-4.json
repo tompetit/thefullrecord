@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "4",
-  "title": "U.S. House \u00b7 Mississippi's 4th District",
+  "title": "U.S. House · Mississippi's 4th District",
   "area": "South Mississippi, including the Gulf Coast, Hattiesburg, and the Pine Belt",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -180,9 +180,59 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says in his Candidate Connection survey that he would vote to raise the federal minimum wage to $15 and index it to the cost of living.",
+          "quote": "In Congress I will vote to raise the federal minimum wage to $15 and index it to the cost of living",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says in his Candidate Connection survey that he would vote to bring home federal Medicaid dollars Mississippi has not accepted, make the ACA premium tax credits permanent and let Medicare negotiate prescription prices.",
+          "quote": "I will vote to bring home the federal Medicaid dollars Mississippi has turned away for over a decade, make the Affordable Care Act premium tax credits permanent to cut your premium, let Medicare negotiate the price of your prescriptions",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Says in his Candidate Connection survey that, as a Mississippi state representative, he championed public schools in the fight against school choice.",
+          "quote": "I championed our public schools in the fight against school choice.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tariffs",
+          "quote": "vote against tariffs that land on your grocery bill",
+          "context": "In his Candidate Connection survey",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "cut the tax giveaway to the wealthiest before anyone touches your child's Head Start seat, your SNAP benefits, or your kids' summer meals",
+          "context": "In his Candidate Connection survey",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "researchNotes": "Basic-tier research from his Ballotpedia Candidate Connection survey (2026) and campaign website. No statements found on abortion, guns, immigration enforcement, or rent regulation."
     },
     {
       "id": "carl-boyanton",
@@ -236,16 +286,30 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
+          "issue": "abortion",
           "stance": "opposes",
-          "summary": "Survey response focuses on cutting government spending and reducing the debt rather than raising taxes.",
+          "summary": "On his campaign website, says abortion should be prohibited in all but the most exceptional circumstances, with exceptions for the mother's health, rape and incest.",
+          "quote": "Abortion is not a form of healthcare or a casual choice—it is the ending of a human life, and as such, it should be prohibited in all but the most exceptional circumstances.",
           "sources": [
-            "s7"
-          ]
+            "s13"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "On his campaign website, says the U.S. should deport as many illegal entrants as possible, focusing on criminals, recent arrivals and those who refuse to assimilate.",
+          "quote": "We should deport as many illegal entrants as possible, focusing on criminals, recent arrivals, and those who refuse to assimilate.",
+          "sources": [
+            "s14"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://carl4congress.com/",
+      "researchNotes": "Basic-tier research from his campaign website position pages (abortion, immigration, federal budget, education) and Ballotpedia survey. An earlier tax-on-high-earners entry was removed because no statement addresses that topic. No statements found on guns, taxes on high earners, healthcare, or climate."
     }
   ],
   "sources": [
@@ -281,7 +345,7 @@
       "id": "s5",
       "url": "https://ballotpedia.org/Jeffrey_Hulum_III",
       "title": "Jeffrey Hulum III - campaign website via Ballotpedia",
-      "publisher": "Jeffrey Hulum III for Congress campaign site (via Ballotpedia)",
+      "publisher": "Ballotpedia (Candidate Connection survey and campaign website excerpt)",
       "kind": "candidate"
     },
     {
@@ -331,6 +395,21 @@
       "url": "https://ezell.house.gov/issues/issue/?IssueID=72",
       "title": "Agriculture",
       "publisher": "Office of Rep. Mike Ezell",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://carl4congress.com/position-on-life-and-abortion/",
+      "title": "Position on Life and Abortion",
+      "publisher": "Carl 4 Congress",
+      "kind": "candidate",
+      "date": "2026-02-08"
+    },
+    {
+      "id": "s14",
+      "url": "https://carl4congress.com/position-on-immigration/",
+      "title": "Position on Immigration",
+      "publisher": "Carl 4 Congress",
       "kind": "candidate"
     }
   ],

@@ -133,7 +133,29 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lists making housing, healthcare, groceries and energy more affordable as an issue.",
+          "quote": "Make housing, healthcare, groceries, and energy more affordable.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists eliminating taxes on tips and defending overtime pay as an issue.",
+          "quote": "Protect tipped workers by eliminating taxes on tips and defending overtime pay.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists protecting Medicaid and Social Security by eliminating waste, fraud and abuse as an issue.",
+          "quote": "Eliminate waste, fraud, and abuse to protect this vital safety net.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "voter_citizenship_proof",
@@ -155,7 +177,26 @@
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tariffs",
+          "quote": "This is one of the tools in the President's tool box to restore fairness and protect workers.",
+          "context": "In his Nevada Independent questionnaire answer on whether Trump's tariffs have harmed Nevada (he answered 'In the middle')",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "He is a strong advocate for school choice, career and technical education, and expanding youth sports opportunities to ensure every child has the chance to succeed.",
+          "context": "On his campaign website's About section",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "website": "https://codyk4congress.com/"
     },
     {
       "id": "russell-best",
@@ -234,9 +275,23 @@
       "url": "https://thenevadaindependent.com/article/where-do-the-candidates-in-nevadas-4th-congressional-district-stand-on-the-issues",
       "title": "Where do the candidates in Nevada's 4th Congressional District stand on the issues?",
       "publisher": "The Nevada Independent",
+      "kind": "news"
+    },
+    {
+      "id": "s6",
+      "url": "https://codyk4congress.com/issues/",
+      "title": "Issues",
+      "publisher": "Cody K 4 Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://codyk4congress.com/",
+      "title": "Cody K Whipple For Congress",
+      "publisher": "Cody K 4 Congress",
       "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Federal key votes and FEC finance totals for Horsford are added separately by script. No campaign website, public statements, or Candidate Connection survey were found for Cody Whipple, Russell Best, or William Johnson beyond their ballot qualification and (for Whipple) FEC-reported contribution totals."
+  "researchNotes": "Federal key votes and FEC finance totals for Horsford are added separately by script. No campaign website, public statements, or Candidate Connection survey were found for Russell Best or William Johnson beyond their ballot qualification. Cody Whipple: campaign site codyk4congress.com (About and Issues pages) and the Nevada Independent questionnaire were loaded; positions on the SAVE America Act and ACA premium subsidies come from his questionnaire answers, with tariffs and school-choice statements and priorities from the questionnaire and his site. His other answers (immigration, Iran, Israel) are summarized rather than quoted in the questionnaire, so they were not added. Russell Best (Independent American Party; the Nevada Independent lists a campaign link that is a Facebook profile) and William Johnson (no website found): no public issue statements found."
 }
