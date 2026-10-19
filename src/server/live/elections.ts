@@ -133,6 +133,20 @@ export function stateSlates(st: string): SeatElection[] {
   return [...getElections().values()].filter((e) => prefix.test(e.districtKey));
 }
 
+/** Seat counts by chamber for the state-legislative slates, plus the file's generation date. */
+export function stateSlateStats(st?: string) {
+  const rows = st ? stateSlates(st) : [...getElections().values()].filter((e) => parseSlateKey(e.districtKey));
+  const seats = (chamber: string) =>
+    rows.filter((e) => parseSlateKey(e.districtKey)!.chamber === chamber).reduce((n, e) => n + (e.seats ?? 1), 0);
+  let generatedAt = "";
+  try {
+    generatedAt = (JSON.parse(readFileSync(join(SNAPSHOT_DIR, "candidates-state-legislatures.json"), "utf8")) as CandidatesFile).generatedAt;
+  } catch {
+    // file missing: callers show an unknown date
+  }
+  return { generatedAt, contests: rows.length, upper: seats("upper"), lower: seats("lower"), legislature: seats("legislature"), states: new Set(rows.map((e) => e.districtKey.slice(0, 2))).size };
+}
+
 /** "tx-lower-12" -> { chamber: "lower", label: "12" } */
 export function parseSlateKey(districtKey: string) {
   const m = districtKey.match(/^[a-z]{2}-(upper|lower|legislature)-(.+)$/);

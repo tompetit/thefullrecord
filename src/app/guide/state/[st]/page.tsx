@@ -6,6 +6,8 @@ import { IncumbentTag, OFFICE_LABEL, PartyChips, SectionLabel } from "@/componen
 import { SourceLink } from "@/components/SourceLink";
 import { chamberLabel } from "@/lib/issues";
 import { getAllRaces } from "@/server/guide/load";
+import { chamberName } from "@/lib/usStates";
+import { stateSlateStats } from "@/server/live/elections";
 import { daysAgo, topContested } from "@/server/issues";
 import type { GuideRace } from "@/server/guide/types";
 
@@ -27,6 +29,12 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
   const races = getAllRaces().filter((r) => r.state === st);
   const since = daysAgo(365);
   const contested = topContested((r) => r.state === st.toLowerCase() && r.chamber !== "NYC COUNCIL" && r.date >= since, 5);
+  const slates = stateSlateStats(st);
+  const legSeats = [
+    slates.upper && `${slates.upper} ${chamberName(st, "upper")}`,
+    slates.legislature && `${slates.legislature} ${chamberName(st, "legislature")}`,
+    slates.lower && `${slates.lower} ${chamberName(st, "lower")}`,
+  ].filter(Boolean);
   const groups = new Map<string, GuideRace[]>();
   for (const r of races) {
     const k = OFFICE_LABEL[r.officeType];
@@ -62,6 +70,12 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
             ))}
           </ul>
           <Link href={`/votes?state=${st.toLowerCase()}`} className="inline-flex min-h-11 items-center font-sans text-[13px] font-semibold text-accent underline">See all contested votes in {stateName(st)} →</Link>
+        </section>}
+        {legSeats.length > 0 && <section aria-labelledby="state-leg" className="mt-8">
+          <h2 id="state-leg" className="font-serif text-[22px] font-semibold text-ink">State legislative races on the ballot</h2>
+          <p className="mt-1 max-w-3xl font-sans text-[13px] leading-[1.6] text-ink-60">
+            Seats up on November 3: {legSeats.join(", ")}. We list the candidates for each, without in-depth research. <Link href="/guide/ballot" className="underline">Enter your address on the ballot page</Link> to see yours.
+          </p>
         </section>}
         {[...groups.entries()].map(([label, list]) => (
           <section key={label} className="mt-8">
