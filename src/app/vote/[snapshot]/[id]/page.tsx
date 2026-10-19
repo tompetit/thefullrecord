@@ -6,6 +6,7 @@ import { SourceLink } from "@/components/SourceLink";
 import { VoteBadge } from "@/components/VoteBadge";
 import { partyName } from "@/lib/divisive";
 import { SPLIT_LABELS, chamberLabel } from "@/lib/issues";
+import { personHrefForOfficial } from "@/server/people";
 import { getRollCallDetail, partySides, type PartyTally, type RollMember } from "@/server/rollcall";
 import type { Party, VoteChoice } from "@/server/types";
 
@@ -40,7 +41,7 @@ function Bar({ t }: { t: PartyTally }) {
 
 function MemberRow({ m, vote }: { m: RollMember; vote?: boolean }) {
   return <li className="flex flex-wrap items-baseline gap-x-2 py-1.5 text-sm">
-    {m.officialId ? <Link href={`/official/${m.officialId}`} className="inline-flex min-h-11 items-center font-semibold text-ink underline decoration-chip-border underline-offset-4">{m.name}</Link> : <span className="inline-flex min-h-11 items-center text-ink-80">{m.name}</span>}
+    {m.officialId ? <Link href={personHrefForOfficial(m.officialId)} className="inline-flex min-h-11 items-center font-semibold text-ink underline decoration-chip-border underline-offset-4">{m.name}</Link> : <span className="inline-flex min-h-11 items-center text-ink-80">{m.name}</span>}
     {m.party && <PartyChip party={m.party as Party} label={m.party} />}
     {m.district && <span className="text-xs text-ink-60">{m.district}</span>}
     {vote && <span className="ml-auto"><VoteBadge vote={m.vote} compact /></span>}
