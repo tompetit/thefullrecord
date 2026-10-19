@@ -21,6 +21,13 @@
       "sources": [
         "s3"
       ]
+    },
+    {
+      "text": "Andrew Underwood (Libertarian), whom Ballotpedia lists as withdrawn or disqualified, does not appear on the printed U.S. House District 14 contest on the Paulding County Nov. 3, 2026 composite sample ballot (Clay Fuller and Shawn Harris) or on the Georgia Secretary of State's Sept. 15, 2026 list of certified write-in candidates.",
+      "sources": [
+        "s13",
+        "s14"
+      ]
     }
   ],
   "candidates": [
@@ -142,83 +149,72 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says he would publicly list every bill on his website in everyday language with how he intends to vote and why, and hold monthly town halls with no screened questions.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Says his priority in Washington is making sure working people in Georgia can build a good life, and proposes policies on housing costs, gas prices, and grocery prices.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says real healthcare reform means protecting and expanding local medical infrastructure and bringing more healthcare providers to Northwest Georgia.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign website says he would defend Medicaid and Medicare against proposed congressional cuts.",
-          "quote": "Defend Medicaid and Medicare from Congress’s proposed cuts",
+          "summary": "Campaign website lists expanding Medicare to include nursing homes for long-term care, alongside defending Medicaid and Medicare.",
+          "quote": "Expand Medicare to include nursing homes for long-term care.",
           "sources": [
-            "s7"
-          ]
+            "s11"
+          ],
+          "basis": "statements"
         },
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Campaign website says he would restore Roe protections.",
-          "quote": "Restore Roe protections and stop political interference",
+          "summary": "Campaign website says he supports the Women's Health Protection Act, which he describes as establishing a nationwide right to provide and receive abortion care.",
+          "quote": "This legislation establishes a nationwide right to provide and receive abortion care. This is a health care issue, and the decision belongs between a woman and her doctor — not politicians.",
           "sources": [
-            "s7"
-          ]
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign website proposes scrapping the Social Security payroll tax cap so high earners continue paying into the system through the year.",
+          "quote": "Set the rules fairly, so all Americans pay the same rate for the same guarantee, by scrapping the payroll tax cap.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
-    },
-    {
-      "id": "andrew-underwood",
-      "name": "Andrew Underwood",
-      "parties": [
-        "LIB"
-      ],
-      "incumbent": false,
-      "summary": {
-        "text": "Andrew Underwood is a Libertarian Party candidate from Chickamauga, Georgia, whose campaign focuses on inflation, tariffs, and requiring members of Congress to read legislation before voting on it.",
-        "sources": [
-          "s5"
-        ]
-      },
-      "background": [
+      "researchDepth": "basic",
+      "statements": [
         {
-          "text": "Majored in physics in college; work experience has mainly been in manufacturing and quality control.",
+          "issue": "guns",
+          "quote": "I have no interest in taking anyone’s gun. What I want is for gun owners to be responsible — trained on the firearms they own, and storing them safely.",
+          "context": "On his campaign website",
           "sources": [
-            "s5"
+            "s10"
           ]
         }
       ],
-      "priorities": [
-        {
-          "text": "Says affordability has become a major issue due to inflation, tariffs, and excessive regulation, and pledges to \"work to remove these problems.\"",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "text": "Says no legislator should vote for a bill without reading it in full, and that he would vote no on anything he could not read in time.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "text": "Says the national debt, which he notes has exceeded $38.6 trillion, is \"out of control\" and calls for balancing the federal budget.",
-          "sources": [
-            "s5"
-          ]
-        }
-      ],
-      "positions": [
-        {
-          "issue": "tariffs",
-          "stance": "opposes",
-          "summary": "Says \"unnecessary and inconsistent tariffs\" are hurting businesses and preventing them from planning for future expenses.",
-          "sources": [
-            "s5"
-          ]
-        }
-      ],
-      "record": [],
-      "researchDepth": "basic"
+      "researchNotes": "Positions and statements from his campaign issue pages (shawnharrisforcongress.com). Some pages carry no date; the site also lists 2026 media interviews whose text was not reviewed. The site does not state positions on immigration, tariffs, or most other tracked issues.",
+      "website": "https://www.shawnharrisforcongress.com/"
     },
     {
       "id": "rob-ruszkowski",
@@ -228,9 +224,10 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Rob Ruszkowski is an independent candidate for Georgia's 14th Congressional District, a small-business owner who also ran in the 2026 special election for this seat.",
+        "text": "Rob Ruszkowski is an independent candidate for Georgia's 14th Congressional District and a certified write-in candidate: his name is on the Georgia Secretary of State's list of certified write-in candidates for U.S. House District 14 and is not printed on the ballot. He founded Hi-Tech Paging Inc. in Atlanta in 1991.",
         "sources": [
-          "s2"
+          "s5",
+          "s14"
         ]
       },
       "background": [
@@ -255,9 +252,40 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Ballotpedia survey response says he would use House revenue powers to end tax loopholes that benefit corporations and billionaires.",
+          "quote": "End tax loopholes and special-interest giveaways that allow corporations and billionaires to hoard wealth while our communities fight rising costs.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "establishing a new Human Rights Bill that guarantees clean air and water, a living wage, fair healthcare, equal justice, and the right to build a secure future",
+          "context": "In his Ballotpedia Candidate Connection survey response",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I’m committed to rural revitalization, renewable energy independence, strengthening democracy",
+          "context": "In his Ballotpedia Candidate Connection survey response",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "researchNotes": "Statements from his Ballotpedia Candidate Connection survey (2026). No campaign website found. Ballotpedia lists him as an independent write-in candidate. Survey does not directly address most tracked issues.",
+      "ballotNote": "Certified write-in candidate (not printed on the ballot)"
     }
   ],
   "sources": [
@@ -304,13 +332,57 @@
       "kind": "candidate"
     },
     {
-      "id": "s7",
-      "url": "https://ballotpedia.org/Shawn_Harris_(Georgia)",
-      "title": "Shawn Harris (campaign website text as quoted on Ballotpedia)",
-      "publisher": "Ballotpedia",
+      "id": "s8",
+      "url": "https://www.shawnharrisforcongress.com/on-the-issues/womens-health/",
+      "title": "Shawn Harris: Women's Health",
+      "publisher": "Shawn for Georgia",
       "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.shawnharrisforcongress.com/on-the-issues/affordability/",
+      "title": "Shawn Harris: Affordability",
+      "publisher": "Shawn for Georgia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.shawnharrisforcongress.com/on-the-issues/second-amendment/",
+      "title": "Shawn Harris: Second Amendment",
+      "publisher": "Shawn for Georgia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.shawnharrisforcongress.com/on-the-issues/healthcare/",
+      "title": "Shawn Harris: Healthcare",
+      "publisher": "Shawn for Georgia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.shawnharrisforcongress.com/on-the-issues/accountability-and-reform/",
+      "title": "Shawn Harris: Accountability and Corruption",
+      "publisher": "Shawn for Georgia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://paulding.gov/DocumentCenter/View/19236/Paulding-County-Composite-Sample-Ballot-November-3-2026-General-Election?bidId=",
+      "title": "Paulding County Composite Sample Ballot, November 3, 2026 General Election",
+      "publisher": "Paulding County Elections",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.whitecountyga.gov/DocumentCenter/View/3746/11032026-Consolidated-Sample-Ballot-Write-Ins",
+      "title": "Consolidated Sample Ballot with Secretary of State final list of certified write-in candidates (Sept. 15, 2026)",
+      "publisher": "White County, Georgia / Georgia Secretary of State",
+      "kind": "official",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Basic-tier research from Ballotpedia. No additional public statements from Shawn Harris's 2026 campaign were located beyond his biographical page."
+  "researchNotes": "Basic-tier research from Ballotpedia. Shawn Harris's positions come from his campaign issue pages. Andrew Underwood (Libertarian) was removed: he is not on the printed Nov. 3 ballot per the Paulding County sample ballot and is not a certified write-in per the Secretary of State list."
 }
