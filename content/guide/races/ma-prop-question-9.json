@@ -37,6 +37,12 @@
         "sources": [
           "s1"
         ]
+      },
+      {
+        "text": "In the same 150-word argument in favor signed by Ned Notis-McConarty of Vote Yes for a Safe Massachusetts, as printed in the Information for Voters: \"Thanks to our comprehensive approach to gun violence prevention, Massachusetts has a gun death rate 70% lower than the national average.\"",
+        "sources": [
+          "s1"
+        ]
       }
     ],
     "argumentsAgainst": [
@@ -45,8 +51,93 @@
         "sources": [
           "s1"
         ]
+      },
+      {
+        "text": "In the same 150-word argument against signed by Toby Leary of The Civil Rights Coalition, as printed in the Information for Voters: \"State agencies have struggled to explain the law, issuing dozens of clarifications for rules that treat harmless historical re-enactors and antique hobbyists like criminals.\"",
+        "sources": [
+          "s1"
+        ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://www.sec.state.ma.us/divisions/elections/download/information-for-voters/archive/IFV_2026%20English.pdf",
+    "currentLaw": {
+      "text": "The 2024 firearms law that the question asks voters to approve or repeal is in effect now. The Executive Office for Administration and Finance states that since its passage in 2024 the Commonwealth \"has made significant investments to implement the law including training employees, promulgating new gun licensure processes, and developing IT infrastructure.\"",
+      "sources": [
+        "s1"
+      ]
+    },
+    "fiscalImpact": {
+      "text": "Executive Office for Administration and Finance: repealing the law \"would require the Commonwealth to expend resources in suspending or re-directing\" the investments made since 2024 to implement it (employee training, new licensure processes and IT infrastructure). No dollar estimate is given.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Yes for A Safe Massachusetts (registered ballot question committee supporting Question 9; author of the pro argument)",
+        "sources": [
+          "s2",
+          "s1"
+        ]
+      },
+      {
+        "text": "Gov. Maura Healey and Attorney General Andrea Campbell (listed among the campaign's endorsers)",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Everytown for Gun Safety and Giffords (listed as national partners of the campaign)",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Massachusetts Teachers Association and Massachusetts Nurses Association (listed as labor endorsers)",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "League of Women Voters of Massachusetts (listed as an endorser)",
+        "sources": [
+          "s3"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "The Civil Rights Coalition (registered ballot question committee opposing Question 9; author of the con argument)",
+        "sources": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "text": "Gun Owners Action League (GOAL) (listed as an endorser of the repeal campaign)",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "State Rep. John Gaskey and State Rep. Norman Orrall (listed as endorsers of the repeal campaign)",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Mass Conservation Alliance and Worcester County League of Sportsmen's Clubs (listed as endorsers of the repeal campaign)",
+        "sources": [
+          "s4"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Receipts reported to the Massachusetts Office of Campaign and Political Finance (OCPF) by registered ballot question committees, summed across the calendar-year totals OCPF publishes (year-to-date through each committee's most recent filed report; OCPF's data does not show a single as-of date; retrieved October 19, 2026). In-kind contributions are reported separately and not included. Supporting Question 9: Yes for A Safe Massachusetts reported $738,539.50 ($70,367.50 in 2025; $668,172 in 2026) and Democratic Socialists For a Fair Massachusetts $50. Opposing: The Civil Rights Coalition reported $508,727.90 ($136,086.62 in 2024; $144,419.64 in 2025; $228,221.64 in 2026).",
+      "sources": [
+        "s2"
+      ]
+    }
   },
   "sources": [
     {
@@ -55,8 +146,32 @@
       "title": "2026 Massachusetts Information for Voters (State Election, November 3, 2026)",
       "publisher": "Secretary of the Commonwealth of Massachusetts",
       "kind": "official"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.ocpf.us/Reports/BallotQuestionReports",
+      "title": "Ballot question committee reports, 2026 (OCPF; data from api.ocpf.us)",
+      "publisher": "Massachusetts Office of Campaign and Political Finance",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.yesforasafema.com/endorsements",
+      "title": "Endorsements (Vote Yes for a Safe Massachusetts)",
+      "publisher": "Vote Yes for a Safe Massachusetts",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s4",
+      "url": "https://thecivilrightscoalition.com/endorsements",
+      "title": "Endorsements to Repeal Chapter 135 (The Civil Rights Coalition)",
+      "publisher": "The Civil Rights Coalition",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
-  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions.",
+  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions. Supporters and opponents are drawn from each campaign's own endorsement page (a group's own list shows its stance) plus OCPF's registered-committee designations; the pages list far more endorsers than shown here.",
   "id": "ma-prop-question-9"
 }

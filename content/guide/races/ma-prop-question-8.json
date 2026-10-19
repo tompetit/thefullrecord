@@ -58,7 +58,61 @@
           "s1"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://www.sec.state.ma.us/divisions/elections/download/information-for-voters/archive/IFV_2026%20English.pdf",
+    "currentLaw": {
+      "text": "Retail sale of adult-use recreational marijuana is legal, regulated and taxed in Massachusetts under the 2016 voter-approved initiative, which the Legislature's Special Joint Committee on Initiative Petitions describes in its majority report in the Information for Voters booklet as the 2016 ballot initiative \"that legalized, regulated, and imposed taxation on the retail sale of adult-use recreational marijuana in Massachusetts.\" The Executive Office for Administration and Finance states that taxation of those sales raised approximately $280 million in state revenue and $50 million in local revenue in fiscal year 2025.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "fiscalImpact": {
+      "text": "Executive Office for Administration and Finance: repealing the laws that legalize and tax recreational retail sales \"would reduce the amount that state and municipal governments receive from the taxation of those sales\"; in fiscal year 2025 that taxation raised approximately $280 million in state revenue and $50 million in local revenue, and the state budget funds local aid for schools and municipal budgets.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Coalition for a Healthy Massachusetts, Inc. (registered ballot question committee supporting Question 8; author of the pro argument in the Information for Voters)",
+        "sources": [
+          "s2",
+          "s1"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Committee to Protect Cannabis Regulation (registered ballot question committee opposing Question 8)",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Coalition for Responsible Cannabis Policy (registered ballot question committee opposing Question 8)",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Committee for Keep Cannabis Legal, Vote No on 8 (registered ballot question committee opposing Question 8)",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Massachusetts Cannabis Coalition (author of the con argument in the Information for Voters)",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Receipts reported to the Massachusetts Office of Campaign and Political Finance (OCPF) by registered ballot question committees, summed across the calendar-year totals OCPF publishes (year-to-date through each committee's most recent filed report; OCPF's data does not show a single as-of date; retrieved October 19, 2026). In-kind contributions are reported separately and not included. Supporting Question 8: Coalition for a Healthy Massachusetts, Inc. reported $3,531,625 ($1,550,000 in 2025 and $1,981,625 in 2026). Opposing: Committee to Protect Cannabis Regulation $2,189,846.87 ($10,050 in 2025; $2,179,796.87 in 2026), Coalition for Responsible Cannabis Policy $150,100, Committee for Keep Cannabis Legal, Vote No on 8 $11,277.52 and Democratic Socialists Against Reactionary Rollbacks $50, about $2,351,274 in all.",
+      "sources": [
+        "s2"
+      ]
+    }
   },
   "sources": [
     {
@@ -67,8 +121,16 @@
       "title": "2026 Massachusetts Information for Voters (State Election, November 3, 2026)",
       "publisher": "Secretary of the Commonwealth of Massachusetts",
       "kind": "official"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.ocpf.us/Reports/BallotQuestionReports",
+      "title": "Ballot question committee reports, 2026 (OCPF; data from api.ocpf.us)",
+      "publisher": "Massachusetts Office of Campaign and Political Finance",
+      "kind": "official",
+      "date": "2026-10-19"
     }
   ],
-  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions.",
+  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions. Committee stances and money totals come from OCPF's ballot-question committee data (the committees' registered support/oppose designation); OCPF publishes year-to-date totals without a single as-of date. No officeholder or organization endorsement lists were found for Question 8 on the campaign pages that could be fetched, so supporters and opponents are limited to registered committees and the signed argument authors.",
   "id": "ma-prop-question-8"
 }
