@@ -126,10 +126,54 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists keeping communities safe and backing law enforcement as a campaign focus.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "A career law enforcement officer who will always Back the Blue and stand with our first responders."
+        },
+        {
+          "text": "Lists border security as a campaign focus.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "No more open borders. Fund the wall, deport criminal illegals, and stop the flow of deadly fentanyl."
+        },
+        {
+          "text": "Lists the economy and energy as a campaign focus.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "Pro-growth policies that empower small businesses, unleash energy dominance, and create good-paying jobs."
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His issues page calls for funding the border wall and Border Patrol, deporting criminal immigrants and enforcing immigration laws.",
+          "quote": "Deport all criminal illegals.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "Give cops the tools, training, and support they need to keep our streets safe.",
+          "context": "On his campaign website's Keeping Pennsylvania Safe section",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "website": "https://tonyguyforcongress.com/"
     }
   ],
   "sources": [
@@ -177,8 +221,15 @@
       "publisher": "Office of Rep. Chris Deluzio",
       "kind": "official",
       "date": "2025-04-02"
+    },
+    {
+      "id": "s7",
+      "url": "https://tonyguyforcongress.com/issues/",
+      "title": "The Issues",
+      "publisher": "Tony Guy for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Deluzio's federal key floor votes and FEC finance totals are added by script. Tony Guy has no Ballotpedia biography or Candidate Connection survey response, and his campaign website (tonyguyforcongress.com) could not be reached during this research, so his entry is marked minimal; no positions or background could be documented from a source meeting the research standard."
+  "researchNotes": "Deluzio's federal key floor votes and FEC finance totals are added by script. Tony Guy has no Ballotpedia biography or Candidate Connection survey response, and his campaign website (tonyguyforcongress.com) could not be reached during this research, so his entry is marked minimal; no positions or background could be documented from a source meeting the research standard. Campaign website tonyguyforcongress.com now loads; issues page added."
 }

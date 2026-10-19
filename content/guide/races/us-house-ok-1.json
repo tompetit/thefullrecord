@@ -74,10 +74,49 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His campaign website lists strict enforcement of immigration laws and support for deporting people it calls criminal aliens among his issues.",
+          "quote": "Strict enforcement of immigration laws",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His campaign website lists protecting the unborn among his priorities under faith, family and freedom.",
+          "quote": "Protect the unborn",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No congressional record; record items limited to state legislative committee role, since a comprehensive list of Oklahoma House bills was not independently verified beyond the committee assignment."
+      "researchNotes": "Campaign website (tedfordforcongress.com) read in full; it lists issues as short bullets without detailed policy text. No stated position found on healthcare coverage, minimum wage, tariffs, or other listed topics.",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Defend the Second Amendment",
+          "context": "On his campaign website",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Unleash American energy production",
+          "context": "On his campaign website, under rebuilding the economy",
+          "sources": [
+            "s5"
+          ]
+        }
+      ]
     },
     {
       "id": "john-croisant",
@@ -201,6 +240,14 @@
       "publisher": "Croisant for Congress",
       "kind": "candidate",
       "id": "s4"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.tedfordforcongress.com",
+      "title": "Mark Tedford for U.S. Congress",
+      "publisher": "Tedford for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25"

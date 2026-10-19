@@ -164,15 +164,6 @@
       ],
       "positions": [
         {
-          "issue": "climate",
-          "stance": "opposes",
-          "summary": "Opposes reliance on wind and solar power, calling them unreliable and expensive, and supports restoring fossil fuel production including a new natural gas pipeline.",
-          "quote": "I also support an energy policy that restores reliable fossil fuel production and use. Renewable sources are intermittent and unreliable.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "His campaign site calls for streamlining years-long permitting processes to speed construction of homes, and says \"Build more, regulate less.\"",
@@ -180,11 +171,58 @@
           "sources": [
             "s9"
           ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "His campaign site says he will work in Congress to block \"Red Flag\" laws and opposes broad bans, including those targeting so-called \"assault weapons.\"",
+          "quote": "He will actively work in Congress to block \"Red Flag\" laws and other measures that violate the fundamental principle of due process by allowing the government to seize property before a person is convicted of a crime.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "His campaign site says he supports school choice vouchers and funding for private, charter, or homeschool options.",
+          "quote": "Vic supports school choice vouchers and funding that give working-class families the power to choose the best private, charter, or homeschool options for their children.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://vicmellor.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Vic stands for the rule of law, including the immediate removal of criminal illegals. He supports a pathway to permanent residency for law-abiding, tax-paying foreigners.",
+          "context": "On his campaign website, 2026",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I also support an energy policy that restores reliable fossil fuel production and use. Renewable sources are intermittent and unreliable.",
+          "context": "In his Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "Parents should not have to worry about their daughters sharing locker rooms or competing on unfair athletic fields against biological males. Vic will fight to preserve women’s sports and private spaces.",
+          "context": "On his campaign website",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements from his campaign website issue pages and Ballotpedia Candidate Connection survey. Voter-ID page not used (photo ID is not documentary proof of citizenship)."
     }
   ],
   "sources": [
@@ -259,6 +297,30 @@
       "publisher": "Vic Mellor campaign website",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://vicmellor.com/second-amendment/",
+      "title": "Second Amendment",
+      "publisher": "Vic Mellor campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "https://vicmellor.com/parental-rights/",
+      "title": "Parental Rights",
+      "publisher": "Vic Mellor campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://vicmellor.com/",
+      "title": "Vic Mellor: Candidate for Rhode Island's 2nd Congressional District",
+      "publisher": "Vic Mellor campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25"

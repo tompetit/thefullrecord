@@ -128,12 +128,45 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Lists public safety, costs and opportunity, and education as campaign themes.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "Her focus is straightforward: safer neighborhoods, lower costs, and real paths to opportunity."
         }
       ],
       "positions": [],
       "record": [],
       "website": "https://jessforcongress.com",
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "Jessica will push for federal resources that help local law enforcement target repeat violent offenders, and expand community-based prevention programs.",
+          "context": "On her campaign website",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Jessica will advocate for policies that expand access to childcare, support working parents, and strengthen community-based programs that promote long-term stability and economic mobility.",
+          "context": "On her campaign website",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "She will work to expand access to affordable care, reduce costs, and increase transparency so families understand what they are paying for.",
+          "context": "On her campaign website",
+          "sources": [
+            "s7"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -178,8 +211,15 @@
       "title": "Boyle Statement on Trump Administration Implementing 25 Percent Tariffs on Mexico and Canada Tomorrow",
       "publisher": "Office of Rep. Brendan Boyle",
       "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://jessforcongress.com/results-for-philadelphia/",
+      "title": "Results for Philadelphia",
+      "publisher": "Jessica Arriaga for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website, issue statements, or Candidate Connection survey found for Jessica Arriaga beyond general biographical messaging on her campaign site, so no specific issue positions are documented. Federal key votes and FEC totals for Boyle are added separately by script."
+  "researchNotes": "No campaign website, issue statements, or Candidate Connection survey found for Jessica Arriaga beyond general biographical messaging on her campaign site, so no specific issue positions are documented. Federal key votes and FEC totals for Boyle are added separately by script. Campaign site 'Results for Philadelphia' page added; it is written in the third person and states priorities but no clear stance on the guide's issues."
 }

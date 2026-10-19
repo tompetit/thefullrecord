@@ -179,7 +179,41 @@
       "positions": [],
       "record": [],
       "website": "https://aurora4pa.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "israel_aid",
+          "quote": "I do not condone much of what has happened in Gaza, and I believe the United States must carefully evaluate how its financial assistance, weapons transfers, and diplomatic support are being used.",
+          "context": "On her campaign website",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "Any proposed deployment should have a clear mission, a lawful basis, appropriate congressional authorization, defined limits, and a credible plan to transfer responsibilities or bring our personnel home.",
+          "context": "On her campaign website, on an open-ended ground combat mission abroad",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "They should have access to every reasonable protection, resource, and tool necessary to keep themselves and our communities safe.",
+          "context": "On her campaign website",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Enforce immigration law, stop trafficking, and put Pennsylvania's security first.",
+          "context": "On her campaign website home page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -256,8 +290,23 @@
       "publisher": "Office of the Clerk, U.S. House of Representatives",
       "kind": "official",
       "date": "2022-07-28"
+    },
+    {
+      "id": "s11",
+      "url": "https://aurora4pa.com/peace-through-strength-accountability-and-responsible-alliances/",
+      "title": "America First: Peace Through Strength, Accountability, and Responsible Alliances",
+      "publisher": "Aurora Stuski for Congress",
+      "kind": "candidate",
+      "date": "2026-10"
+    },
+    {
+      "id": "s12",
+      "url": "https://aurora4pa.com/supporting-those-who-serve-why-i-stand-with-law-enforcement/",
+      "title": "Supporting Those Who Serve: Why I Stand With Law Enforcement",
+      "publisher": "Aurora Stuski for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Stuski's campaign site discusses several issue areas (food safety, a Pennsylvania regulation, education) in blog posts, but does not state clear stances on any of the guide's fixed issue keys, so no positions are documented for her. Federal key votes and FEC totals for Dean are added separately by script."
+  "researchNotes": "Stuski's campaign site discusses several issue areas (food safety, a Pennsylvania regulation, education) in blog posts, but does not state clear stances on any of the guide's fixed issue keys, so no positions are documented for her. Federal key votes and FEC totals for Dean are added separately by script. Issue pages on foreign policy, law enforcement and a platform outline added as statements; no clear stance on the guide's issues beyond these."
 }

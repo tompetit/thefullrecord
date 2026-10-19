@@ -127,7 +127,25 @@
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Explore both public and private options that reduce costs for every American",
+          "context": "On his campaign website, under healthcare reform",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Oversight & Transparency in Immigration Enforcement",
+          "context": "On his campaign website, listed under legislative goals",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "tracey-tackett",
@@ -177,9 +195,47 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Her campaign website says the country must end all illegal immigration and says enforcement resources should focus on criminals, while also calling for a pathway to citizenship for some people who entered illegally.",
+          "quote": "Focusing enforcement resources on criminals, prioritizing the worst offenders.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "We will make Congress reclaim its Constitutional Powers and Responsibility to write the laws, to check the other branches, to prevent the unconstitutional levying of taxes and declaration of war.",
+          "context": "On her campaign website",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "We need an All of the Above energy policy. Committed to developing the lowest cost, cleanest, and most abundant energy sources.",
+          "context": "On her campaign website",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Every community will have the needed funding for frontline workers, police, and firemen.",
+          "context": "On her campaign website, under local government",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign website issues page (traceytackett.org) read in full; no stated position found on abortion, guns, taxes, health coverage, minimum wage, tariffs or other listed topics. Her site calls for state-funded photo ID for voting, which is not a documentary proof-of-citizenship requirement, so no position was recorded on that issue."
     }
   ],
   "sources": [
@@ -230,6 +286,14 @@
       "publisher": "Kolasinski for Congress campaign website",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.traceytackett.org/issues",
+      "title": "Issues | Tracey Tackett for US Representative",
+      "publisher": "Tackett for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

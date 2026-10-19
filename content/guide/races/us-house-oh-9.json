@@ -236,10 +236,72 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists a universal healthcare system among her issues.",
+          "quote": "Healthcare should not be a privilege—it is a fundamental right.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Lists an affordable homeownership initiative and eliminating property taxes on homeowners among her issues.",
+          "quote": "I will work toward eliminating burdensome property taxes on homeowners",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Lists full funding of the VA among her issues.",
+          "quote": "fighting for full and responsible funding of the VA, reducing wait times for care, and expanding access to mental health services",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign website says she will fight for a universal healthcare system.",
+          "quote": "I will fight for a universal healthcare system that ensures every American has access to affordable, high-quality care, reduces costs, and puts people over profits.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Her campaign website calls for consistent, constitutional enforcement of immigration laws together with legislation and oversight protecting due process.",
+          "quote": "I will push for the consistent and constitutional enforcement of immigration laws, and I will fight for legislation and oversight that protects due process",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I will fight for legislation and oversight that protect the integrity of the doctor-patient relationship, safeguard medical privacy rights, and limit unnecessary government interference in personal healthcare decisions.",
+          "context": "On her campaign website, under \"Abortion & Medical Freedom\"",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "I will fight for increased and equitable federal investment in public education",
+          "context": "On her campaign website, under education",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "researchNotes": "Write-in candidate. Campaign website issues page (kathymckinstry.com/issues, a JavaScript site read with a headless browser) used; no Ballotpedia survey, news interview or forum coverage found. No stated position found on guns, taxes, minimum wage, tariffs or other listed topics."
     }
   ],
   "sources": [
@@ -287,6 +349,14 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://kathymckinstry.com/issues",
+      "title": "Issues | Kathy McKinstry Campaign for Congress",
+      "publisher": "McKinstry campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

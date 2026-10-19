@@ -177,9 +177,31 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign site calls for a universal system covering every American and says health care should be guaranteed as a right.",
+          "quote": "It's time to guarantee health care as a right, not a privilege. A universal system would cover every American, lower out-of-pocket costs, and make prescriptions and emergency care affordable.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "reforming the tax code so it rewards work rather than just wealth",
+          "context": "On his campaign website's Economic Security issue page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "website": "https://www.bradstockforcongress.com"
     }
   ],
   "sources": [
@@ -235,8 +257,15 @@
       "publisher": "Office of Rep. Guy Reschenthaler",
       "kind": "official",
       "date": "2023-05-11"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.bradstockforcongress.com/issues",
+      "title": "On the Issues",
+      "publisher": "Bradstock for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Reschenthaler's federal key floor votes and FEC finance totals are added by script; only pre-2025 key votes and committee roles listed here are from Ballotpedia. No campaign website was located for Bradstock during this research; his statements are drawn from his Ballotpedia Candidate Connection survey."
+  "researchNotes": "Reschenthaler's federal key floor votes and FEC finance totals are added by script; only pre-2025 key votes and committee roles listed here are from Ballotpedia. No campaign website was located for Bradstock during this research; his statements are drawn from his Ballotpedia Candidate Connection survey. Campaign website bradstockforcongress.com located (issues page added); it states a position on health coverage and a general tax-code statement."
 }
