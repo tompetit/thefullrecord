@@ -303,20 +303,45 @@
           "stance": "opposes",
           "summary": "Supports abolishing and prosecuting ICE and replacing it with what he calls an \"American Defense Unit.\"",
           "sources": [
-            "s7"
-          ]
+            "s7",
+            "s10"
+          ],
+          "quote": "Replace ICE with American Defense Unit (ADU)"
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Supports abolishing private health insurance in favor of Medicare for All.",
+          "summary": "Campaign site lists Medicare / government healthcare for all and getting rid of insurance companies as healthcare priorities.",
           "sources": [
-            "s7"
-          ]
+            "s7",
+            "s9"
+          ],
+          "quote": "Medicare/ Gov. quality HealthCare for all"
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he is \"first and foremost pro-choice.\"",
+          "quote": "I am First and Foremost Pro-Choice. Every woman, EVERY person, deserves to be able to have full autonomy over their own body full stop.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Lists increasing taxes on the wealthy among the ways to pay for a college-tuition program.",
+          "quote": "Paid for by reducing military budgets by cutting fraudulent spending there; increasing taxes on the wealthy cheats; and increased tax collection from better paid careers without increasing tax rates.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Campaign site southjerseygrit.com (issue pages) and his Ballotpedia survey and a July 2026 Front Runner NJ interview were reviewed. His foreign-policy page says \"No reason we should be funding nearly all of the costs for another country's social programs\" but does not name military aid, so it is not recorded. Quotes are from the site, which is written in his own words; spelling is as published. He has not taken a position in these sources on guns, rent regulation, tariffs or several other listed issues."
     }
   ],
   "sources": [
@@ -374,6 +399,27 @@
       "publisher": "Office of the Clerk, U.S. House of Representatives",
       "kind": "official",
       "date": "2025-05-22"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.southjerseygrit.com/issues/healthcare-agenda",
+      "title": "HealthCare Agenda | Ramon Mora Jr for Congress",
+      "publisher": "Ramon Mora Jr campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.southjerseygrit.com/issues/law-enforcement-ice",
+      "title": "Law Enforcement & ICE | Ramon Mora Jr for Congress",
+      "publisher": "Ramon Mora Jr campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.southjerseygrit.com/issues/general-cost-savings",
+      "title": "General Cost Savings | Ramon Mora Jr for Congress",
+      "publisher": "Ramon Mora Jr campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

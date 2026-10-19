@@ -196,11 +196,47 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Her campaign site says she opposes efforts to defund the police and will work to get law enforcement more funding, training and tools.",
+          "quote": "She will fight to get law enforcement the funding, training, and tools they need to do their jobs effectively and keep our community safe.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://www.kaileebuller.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We need to make sure that the labor that we bring in is legitimate but also that those who are criminals are out of our country.",
+          "context": "In a March 2026 CNYCentral interview, reposted on her campaign site",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Kailee believes we need practical solutions that expand access to affordable, high-quality childcare and give parents the flexibility they need.",
+          "context": "On her campaign website",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Protect Coverage for Pre-Existing Conditions to ensure coverage can’t be denied or changed because someone got sick.",
+          "context": "On her campaign website",
+          "sources": [
+            "s4"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -274,8 +310,16 @@
       "publisher": "Office of Rep. John Mannion (official site)",
       "kind": "official",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://kaileebuller.com/meet-republican-candidate-for-ny-22-congressional-district-kailee-buller/",
+      "title": "Meet Republican Candidate for NY-22 Congressional District Kailee Buller (CNYCentral interview, posted on campaign site)",
+      "publisher": "Kailee Buller for Congress",
+      "kind": "candidate",
+      "date": "2026-03-23"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate has completed Ballotpedia's 2026 Candidate Connection survey; Mannion has no current campaign-site issues page identified, so his positions section is limited to what his official biography documents. Federal key votes and FEC totals for incumbent John Mannion are added separately by script."
+  "researchNotes": "Neither candidate has completed Ballotpedia's 2026 Candidate Connection survey; Mannion has no current campaign-site issues page identified, so his positions section is limited to what his official biography documents. Federal key votes and FEC totals for incumbent John Mannion are added separately by script. Pass 2 (Oct. 2026): added a police-funding position and immigration, child-care and health-coverage statements from her campaign site. Her immigration answer is quoted from a CNYCentral interview that her campaign reposted; the original CNYCentral page was not loaded."
 }

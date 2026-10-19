@@ -144,7 +144,8 @@
       ],
       "website": "https://www.herbforcongress.com",
       "researchDepth": "full",
-      "bioguideId": "C001133"
+      "bioguideId": "C001133",
+      "researchNotes": ""
     },
     {
       "id": "michael-mcguire",
@@ -213,7 +214,26 @@
         }
       ],
       "record": [],
-      "researchDepth": "full"
+      "researchDepth": "full",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "strengthening border security through enforcement of existing laws",
+          "context": "In his Ballotpedia Candidate Connection survey, listing areas of public policy he cares about",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "vital national security interests at stake, clearly defined and attainable objectives, robust congressional oversight, and a focus on keeping our service members out of unnecessary harm.",
+          "context": "As quoted in WHYY's 2026 NJ-3 voter guide",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": " No campaign website text could be fetched; added immigration and war-powers statements from his Ballotpedia survey and WHYY's voter guide."
     },
     {
       "id": "ryan-kelly",
@@ -253,16 +273,29 @@
       ],
       "positions": [
         {
-          "issue": "housing_supply",
+          "issue": "war_powers",
           "stance": "supports",
-          "summary": "Says he wants to expand access to affordable housing as part of lowering the cost of living for working families.",
+          "summary": "Opposes open-ended war without congressional authorization and wants Congress to reclaim its war-powers role (per WHYY).",
+          "quote": "But that is different from allowing a president to conduct an open-ended war without meaningful congressional authorization and oversight.",
           "sources": [
-            "s6"
-          ]
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "israel_aid",
+          "quote": "The United States should not provide a blank check for military actions that violate international or humanitarian law",
+          "context": "As quoted in WHYY's 2026 NJ-3 voter guide",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": " Added war-powers and Israel statements from WHYY's voter guide (quotes of Kelly). No campaign website text was fetched."
     },
     {
       "id": "steven-welzer",
@@ -339,7 +372,8 @@
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": ""
     }
   ],
   "sources": [

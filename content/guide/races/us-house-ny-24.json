@@ -181,12 +181,34 @@
           "summary": "Her campaign site says she has long supported reproductive freedom.",
           "sources": [
             "s3"
-          ]
+          ],
+          "quote": "Alissa has long supported LGBTQ+ rights, reproductive freedom, and equal rights for all Americans.",
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Told the Niagara Gazette she wants an expansion of Medicare.",
+          "quote": "I want an expansion of Medicare.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://ellmanforcongress.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "universal_childcare",
+          "quote": "Expanding access to affordable childcare so parents don’t have to choose between earning a living and caring for their children.",
+          "context": "On her campaign priorities page",
+          "sources": [
+            "s3"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -268,8 +290,16 @@
       "publisher": "Office of Rep. Claudia Tenney (official site)",
       "kind": "official",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.yahoo.com/news/politics/articles/alissa-ellman-finding-common-ground-214600832.html",
+      "title": "Alissa Ellman finding common ground as she campaigns for Congress",
+      "publisher": "Niagara Gazette (via Yahoo News)",
+      "kind": "news",
+      "date": "2026-10-10"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Removed an unverified claim about Tenney's vote on the Respect for Marriage Act sourced only to her opponent's campaign site, since it could not be confirmed against an official roll call within this session; her voting record on that and other bills is covered separately by the script that adds federal key votes. Tenney has not completed Ballotpedia's 2026 Candidate Connection survey and her current campaign-site issues page was not accessible, limiting her priorities/positions to committee assignments and dated past statements."
+  "researchNotes": "Removed an unverified claim about Tenney's vote on the Respect for Marriage Act sourced only to her opponent's campaign site, since it could not be confirmed against an official roll call within this session; her voting record on that and other bills is covered separately by the script that adds federal key votes. Tenney has not completed Ballotpedia's 2026 Candidate Connection survey and her current campaign-site issues page was not accessible, limiting her priorities/positions to committee assignments and dated past statements. Pass 2 (Oct. 2026): added a healthcare position from Niagara Gazette coverage and a child-care statement from her priorities page; her site's priorities page is third-person, and no direct quotes were found on guns, tariffs or taxes on high earners."
 }
