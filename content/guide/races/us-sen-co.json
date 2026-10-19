@@ -257,11 +257,33 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lists getting federal finances in order, ending deficit spending and reducing the national debt as a key campaign message.",
+          "sources": [
+            "s20"
+          ],
+          "quote": "We need to get the Federal Government finances in order. We need to end deficit spending and start working on reducing the national debt."
+        },
+        {
+          "text": "Lists reducing government involvement in daily life, adhering to the U.S. Constitution, as a key campaign message.",
+          "sources": [
+            "s20"
+          ],
+          "quote": "We need to reduce government involvement in our lives by adhering to the principles of the US Constitution."
+        },
+        {
+          "text": "Says he is running primarily to publicize approval voting.",
+          "sources": [
+            "s20"
+          ],
+          "quote": "I am running primarily to publicize approval voting, which is a system that allows voters to select more than one candidate for an office"
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+      "researchNotes": "Ballotpedia Candidate Connection survey (2026) found; it lists campaign priorities but no statement that squarely addresses the guide's issues. No campaign website found."
     },
     {
       "id": "robert-chew",
@@ -277,11 +299,102 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he would make long-term fiscal responsibility and reducing the national debt one of his highest priorities.",
+          "sources": [
+            "s16"
+          ],
+          "quote": "If elected to the United States Senate, I will make long-term fiscal responsibility one of my highest priorities."
+        },
+        {
+          "text": "Lists proposals to address projected Social Security and Medicare shortfalls and says Congress should act within the next six years.",
+          "sources": [
+            "s16"
+          ],
+          "quote": "Reform must happen in the next six years!"
+        },
+        {
+          "text": "Says Congress should reassert its constitutional tariff authority and that he would work to reduce tariffs.",
+          "sources": [
+            "s16"
+          ],
+          "quote": "Congress needs to re-assert its tariff authority under the Constitution. I will work with any member of Congress to reduce tariffs."
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says tariffs raise prices and that he would work with members of Congress to reduce them.",
+          "quote": "Tariffs are a tax, plain and simple. They raise prices for consumers, create uncertainty for small businesses, and punish our domestic exporters.",
+          "sources": [
+            "s16"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Lists tax reform that brings in more revenue from the wealthiest Americans as one of four steps on deficit spending.",
+          "quote": "enact fair and responsible tax reform to bring in more revenue from the wealthiest Americans.",
+          "sources": [
+            "s16"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says families should be able to choose schools and be given support to afford them.",
+          "quote": "We should empower families to choose the schools that best meet their children's needs and provide support so they can afford it.",
+          "sources": [
+            "s16"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports removing violent criminals and cartel traffickers; says limited resources should not go to pursuing peaceful immigrants who contribute to the economy.",
+          "quote": "Deporting a drug kingpin makes us safer; deporting a local farm hand makes us poorer.",
+          "sources": [
+            "s16"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+      "researchDepth": "basic",
+      "researchNotes": "Positions and statements are from the Issues page of his campaign website (bobchew2026.com). No Ballotpedia Candidate Connection survey or debate transcript was reviewed; Colorado Public Radio pages could not be loaded. No stated position found on abortion, guns, rent regulation or the minimum wage.",
+      "website": "https://bobchew2026.com/",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "We need a practical, honest conversation about how to deliver better care at lower cost while preserving the innovation and quality that Americans depend on.",
+          "context": "On his campaign website's Issues page",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I support an all-of-above energy strategy that includes a heavy reliance on nuclear power.",
+          "context": "On his campaign website's Issues page",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "He did not seek congressional authority and did not build both domestic and international support before taking actions with global consequences.",
+          "context": "On his campaign website's Issues page, about President Trump's Iran war",
+          "sources": [
+            "s16"
+          ]
+        }
+      ],
+      "sources": []
     },
     {
       "id": "blake-huber",
@@ -301,7 +414,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+      "researchNotes": "No 2026 campaign website, questionnaire or Ballotpedia Candidate Connection survey found; the Libertarian Party of Colorado and Colorado Public Radio pages could not be loaded. His 2018 Ballotpedia survey (for another office) is not used."
     },
     {
       "id": "adam-withrow",
@@ -336,6 +449,13 @@
           "sources": [
             "s9"
           ]
+        },
+        {
+          "text": "Proposes that Senate votes be put to Coloradans directly before he casts them.",
+          "sources": [
+            "s19"
+          ],
+          "quote": "I'd like to establish a system of direct democracy where when a vote comes up in the Senate, I'll put that vote to the people of the State of Colorado first."
         }
       ],
       "positions": [
@@ -344,13 +464,45 @@
           "stance": "supports",
           "summary": "Supports a federal living wage indexed to the Consumer Price Index, phased in starting with the highest-revenue organizations.",
           "sources": [
-            "s9"
-          ]
+            "s9",
+            "s19"
+          ],
+          "quote": "I want to move to establish a federal living wage that is tied to the consumer price index.",
+          "basis": "statements"
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says fossil fuels are finite and that the country should begin a transition to clean energy now.",
+          "quote": "The possibilities for the future are amazingly bright, and we must pave the way for a smooth transition starting today.",
+          "sources": [
+            "s17"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Limited public record beyond his Ballotpedia Candidate Connection survey response; no campaign website found."
+      "researchDepth": "basic",
+      "researchNotes": "Sources: his Ballotpedia Candidate Connection survey, a Fort Collins Coloradoan questionnaire (Oct. 1, 2026) and his campaign website (senatorwithrow.com). The Platform Discussion page is undated and refers to a House race; its quote is labeled accordingly. His abortion, immigration and tax stances were not found in loaded text.",
+      "website": "https://www.senatorwithrow.com",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "It's time to re imagine our healthcare system and create one that works for everyone.  Healthcare for all would cost less than half of our defense budget.",
+          "context": "On his campaign website's home page",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "While I think that many people who have a gun should not, and while I think many people who have a gun do not need one, it is not my place to decide who, what types, or how many.",
+          "context": "On the Platform Discussion page of his campaign website (undated; the page discusses the Colorado 3rd District race)",
+          "sources": [
+            "s18"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -464,6 +616,46 @@
       "publisher": "The Center Square",
       "kind": "news",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s16",
+      "url": "https://bobchew2026.com/issues/",
+      "title": "Issues, Bob Chew for Senate",
+      "publisher": "Bob Chew for Senate",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.senatorwithrow.com",
+      "title": "Adam Withrow for Senate (home page)",
+      "publisher": "Adam Withrow for Senate",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s18",
+      "url": "https://www.senatorwithrow.com/platform-discussion",
+      "title": "Platform Discussion, Adam Withrow for Senate",
+      "publisher": "Adam Withrow for Senate",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s19",
+      "url": "https://www.aol.com/articles/colorado-election-q-u-senate-110309000.html",
+      "title": "Colorado election: Q&A with U.S. Senate candidate Adam Withrow",
+      "publisher": "Fort Collins Coloradoan (via AOL)",
+      "kind": "news",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "s20",
+      "url": "https://ballotpedia.org/Chris_Baum",
+      "title": "Ballotpedia Candidate Connection survey response, Chris Baum (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

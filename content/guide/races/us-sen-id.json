@@ -144,11 +144,44 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Immigration: mass deportation and 'remigration', as he describes it in the survey.",
+          "quote": "I will push not only to enable the mass deportation of illegal immigrants, but the remigration of foreign ethnic enclaves which create political power bases that subvert US politics against the interests of the American people.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Transfer federal land in Idaho to the state.",
+          "quote": "I will push for all federal land in Idaho to be ceded to the State of Idaho",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Cut entitlement programs and overseas military funding to address the deficit.",
+          "quote": "Congress needs to aggressively cut entitlements, including the golden calf called Social Security, and discipline the last several Presidents' foreign policy by cutting funding for all overseas military operations.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In the CBS2/FOX9 candidate survey, says he would push to enable mass deportation of illegal immigrants and the return of many legal immigrants and their children to their home countries.",
+          "quote": "I will push not only to enable the mass deportation of illegal immigrants, but the remigration of foreign ethnic enclaves which create political power bases that subvert US politics against the interests of the American people.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public policy statements found beyond a brief Ballotpedia biography."
+      "researchNotes": "Drawn from his answers to the CBS2/FOX9 Idaho candidate survey (Aug. 2026). No campaign website, Ballotpedia survey or other statements found. Only one statement mapped onto the guide's fixed issue list, so researchDepth stays minimal."
     },
     {
       "id": "todd-achilles",
@@ -294,7 +327,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Positions drawn from her Ballotpedia Candidate Connection survey; no independent campaign website content reviewed. None of her stated priorities map cleanly onto the guide's fixed issue list, so no Position entries were added."
+      "researchNotes": "Positions drawn from her Ballotpedia Candidate Connection survey; no independent campaign website content reviewed. Her CBS2/FOX9 candidate survey answers (Aug. 2026) were also reviewed; none squarely addressed a guide issue, so no Position or statement entries were added."
     }
   ],
   "sources": [
@@ -348,6 +381,14 @@
       "title": "Risch Applauds Supreme Court Ruling Upholding Idaho Women's Sports Case",
       "publisher": "Office of Sen. Jim Risch",
       "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://idahonews.com/politics/know-your-candidates/2026-general-election-survey-us-senator",
+      "title": "2026 general election survey: U.S. Senator",
+      "publisher": "CBS2/FOX9 Idaho candidate survey (idahonews.com)",
+      "kind": "news",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

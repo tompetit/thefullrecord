@@ -194,7 +194,26 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "minimum_wage",
+          "quote": "It's the bottom rung of the success ladder and that's why the focus is misplaced on the minimum wage",
+          "context": "At the Feb. 11, 2026 Republican primary debate (ABC-7 Chicago, Univision, League of Women Voters), per Capitol News Illinois",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "the jury's still out",
+          "context": "At the Feb. 11, 2026 Republican primary debate, on whether President Trump's tariffs will achieve their policy aims, per Capitol News Illinois",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "researchNotes": "Statements come from Capitol News Illinois coverage of the Feb. 11, 2026 Republican primary debate. No campaign website with issue pages was found. Reported answers on abortion (leave to the states, no national ban) and voter ID were paraphrased by the reporter or did not match the guide's issue statements, so no Positions were added."
     },
     {
       "id": "whitfield-harrington-jr",
@@ -252,7 +271,8 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "No campaign website found (searches and the party's site did not load or list one); a Facebook page exists but was not reviewed. Ballotpedia has no Candidate Connection survey page for him. No verbatim statements on the guide's issues were found."
     }
   ],
   "sources": [
@@ -270,6 +290,14 @@
       "title": "Juliana's Priorities — Juliana Stratton for Illinois",
       "publisher": "Juliana for Illinois (campaign)",
       "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.nprillinois.org/government-politics/2026-02-12/illinois-gop-senate-candidates-take-stage-in-first-major-debate",
+      "title": "Illinois GOP Senate candidates take the stage in first major debate",
+      "publisher": "NPR Illinois / Capitol News Illinois",
+      "kind": "news",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
