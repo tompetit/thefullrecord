@@ -175,9 +175,107 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says abortion should be legal as part of his reproductive health platform.",
+          "quote": "Abortion should be safe, legal, and rare.",
+          "sources": [
+            "a1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Proposes a single-payer health system.",
+          "quote": "By transitioning to a streamlined, single-payer framework, we eliminate the middlemen who profit from complexity.",
+          "sources": [
+            "a1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Proposes a 42% corporate tax rate and a 50% rate on income above $500,000.",
+          "quote": "By adjusting the corporate tax rate to 42%, corporate revenue will double from $497 billion to $995 billion",
+          "sources": [
+            "a1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports encouraging local zoning reform to allow more housing types.",
+          "quote": "we need to drastically increase housing supply by cutting federal red tape and incentivizing local communities to reform rigid zoning rules for starter homes, duplexes, and modern manufactured housing.",
+          "sources": [
+            "a1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports a $15 federal minimum wage.",
+          "quote": "we must increase the minimum wage to $15 an hour",
+          "sources": [
+            "a1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Lists ending U.S. tax dollars to Israel among his policy goals.",
+          "quote": "No More Tax Dollars To Israel",
+          "sources": [
+            "a1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Says Congress should debate and vote on war.",
+          "quote": "Congress must reclaim its Constitutional duty to debate and vote on war.",
+          "sources": [
+            "a1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Domestically, we must embrace a pragmatic energy portfolio that prioritizes the high-capacity, carbon-free potential of safe and modern nuclear energy.",
+          "context": "On his campaign website, Climate & Energy",
+          "sources": [
+            "a1"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We can enforce our laws and protect our communities by deporting criminals without resorting to reckless unaccountable enforcement tactics that put innocent people in harm's way.",
+          "context": "On his campaign website, Immigration & Border Reform",
+          "sources": [
+            "a1"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "We must begin by offering universal pre-K for every family, giving children a strong developmental head start while providing working parents much-needed relief from skyrocketing childcare costs.",
+          "context": "On his campaign website, Education & Pre-K",
+          "sources": [
+            "a1"
+          ]
+        }
+      ],
+      "website": "https://jacobanders.org/"
     },
     {
       "id": "clay-faircloth",
@@ -193,10 +291,42 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says his priorities are to improve public safety in every community, expand access to quality and affordable healthcare, and protect freedoms and opportunities.",
+          "sources": [
+            "cf3"
+          ]
+        },
+        {
+          "text": "Says he is committed to fighting corruption, including dark money in elections.",
+          "sources": [
+            "cf4"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Healthcare options should be private decisions made with the advice of a healthcare professional and free from government oversight or control.",
+          "context": "On his campaign website, Healthcare Plan",
+          "sources": [
+            "cf1"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "And most of all some financial relief to help parents meet the changing financial demands of childcare while also helping upgrade facilities and salaries to keep up with the expectations of families and communities.",
+          "context": "On his campaign website, Childcare Plan",
+          "sources": [
+            "cf2"
+          ]
+        }
+      ],
+      "website": "https://claycares.org/"
     }
   ],
   "sources": [
@@ -236,8 +366,48 @@
       "title": "More about my platform",
       "publisher": "Victoria Broderick for Congress campaign website",
       "kind": "candidate"
+    },
+    {
+      "id": "a1",
+      "url": "https://jacobanders.org/",
+      "title": "Jacob Anders for Congress",
+      "publisher": "Jacob Anders campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "cf1",
+      "url": "https://claycares.org/healthcare-plan/",
+      "title": "Healthcare Plan",
+      "publisher": "Faircloth for Congress / Clay Cares campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "cf2",
+      "url": "https://claycares.org/childcare-plan/",
+      "title": "Childcare Plan",
+      "publisher": "Faircloth for Congress / Clay Cares campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "cf3",
+      "url": "https://claycares.org/?page_id=68",
+      "title": "Meet Clay Faircloth",
+      "publisher": "Faircloth for Congress / Clay Cares campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "cf4",
+      "url": "https://claycares.org/corruption-elimination-plan/",
+      "title": "Corruption Elimination Plan",
+      "publisher": "Faircloth for Congress / Clay Cares campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Scott DesJarlais did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. Clay Faircloth is an independent candidate with no discoverable campaign platform for 2026 beyond appearing on the ballot list."
+  "researchNotes": "Scott DesJarlais did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. Jacob Anders and Clay Faircloth were researched from their own campaign websites; Faircloth's issue pages are brief and state no positions on most of the guide's issues."
 }

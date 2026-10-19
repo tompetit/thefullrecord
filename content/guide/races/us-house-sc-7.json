@@ -147,11 +147,68 @@
           "sources": [
             "s6"
           ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His fiscal policy backgrounder proposes raising the top individual income tax rate to 39.6% for high incomes.",
+          "quote": "Return the top marginal individual income tax rate from 37% to 39.6% for taxable income above $400,000 (single) / $450,000 (married filing jointly).",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "His SAVE Act policy backgrounder states he opposes the act and its documentary requirements.",
+          "quote": "that right should not be burdened by unnecessary, costly, and discriminatory documentary requirements",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "His education policy backgrounder criticizes South Carolina's school voucher program.",
+          "quote": "misguided, scandal-plagued school voucher program that drains hundreds of millions of dollars away from the children and communities who need public schools the most",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "website": "https://www.vincentforcongress.com/"
+      "website": "https://www.vincentforcongress.com/",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "provide low-cost insurance for every American who chooses it, without eliminating private insurance and without adding one dollar to the debt",
+          "context": "On his campaign policy page, describing his planned ALL American Healthcare Act",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "A gradually rising fee on fossil fuel companies ($40–50/ton, rising $5–10/year).",
+          "context": "In his National Fiscal Policy backgrounder, describing a carbon fee and dividend",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Rather than proposing an entirely new federal program, John Vincent advocates building on existing, proven frameworks for maximum achievability.",
+          "context": "In his National Fiscal Policy backgrounder",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from his campaign website policy page and policy backgrounders (PDFs, March-April 2026), accessed Oct. 19, 2026, plus his 2025 Ballotpedia survey. The backgrounders are campaign-authored documents. No stated position found on abortion, guns, immigration enforcement, or transgender sports."
     }
   ],
   "sources": [
@@ -198,6 +255,30 @@
       "publisher": "John Vincent for Congress campaign website",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.vincentforcongress.com/pb-20260420-national-fiscal-policy.pdf",
+      "title": "National Fiscal Policy backgrounder (April 2026)",
+      "publisher": "John Vincent for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.vincentforcongress.com/policy-brief-20260307-the-save-act.pdf",
+      "title": "The SAVE America Act policy backgrounder (March 7, 2026)",
+      "publisher": "John Vincent for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.vincentforcongress.com/pb-20260308-education.pdf",
+      "title": "Education Policies backgrounder (March 2026)",
+      "publisher": "John Vincent for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
