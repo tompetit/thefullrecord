@@ -112,7 +112,7 @@ export default async function PersonPage({ params, searchParams }: { params: Par
                 <li key={s.id} id={`bio-src-${s.id}`}>[{n + 1}] <SourceLink href={s.url}>{s.title}</SourceLink> — {s.publisher}</li>
               ))}
             </ol>
-            <p className="mt-1 font-sans text-[11.5px] text-ink-45">Researched from the cited sources on {bio.researchedAt}.</p>
+            <p className="mt-1 font-sans text-[11.5px] text-ink-45">Researched from the cited sources on {bio.researchedAt}.{bio.factChecked === false && " Not yet independently fact-checked."}</p>
           </Section>
         )}
         {candidacies.map((c) => {

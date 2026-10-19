@@ -32,6 +32,7 @@ for (const file of files) {
     if (BAD_HOST.test(s.url ?? "")) errs.push(`banned source ${s.url}`);
     ids.add(s.id);
   }
+  if ("factChecked" in b && b.factChecked !== false) errs.push("factChecked: omit, or false for unchecked drafts");
   if (!Array.isArray(b.bio) || !b.bio.length || b.bio.length > 6) errs.push("bio: 1–6 sentences required");
   const used = new Set();
   for (const [i, c] of (b.bio ?? []).entries()) {
