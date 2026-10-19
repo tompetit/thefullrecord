@@ -17,7 +17,7 @@ const ISSUES = new Set([
   "voter_citizenship_proof", "war_powers", "transgender_sports",
 ]);
 const OFFICE_TYPES = new Set(["us-senate", "us-house", "governor", "attorney-general",
-  "comptroller", "state-senate", "state-assembly", "ballot-measure", "other"]);
+  "comptroller", "secretary-of-state", "state-senate", "state-assembly", "ballot-measure", "other"]);
 const KINDS = new Set(["official", "candidate", "news", "reference"]);
 const REC_KINDS = new Set(["vote", "bill", "action", "finance", "legal"]);
 const BANNED = /\b(extreme|radical|common[- ]sense|controversial|far-left|far-right|disgraced|hypocrit\w*|flip-flop\w*)\b/i;
@@ -77,6 +77,11 @@ for (const file of files) {
       if (!Array.isArray(c[k])) errs.push(`${w}: ${k} must be an array`);
     (c.background ?? []).forEach((x, i) => cites(x, `${w}.background[${i}]`));
     (c.priorities ?? []).forEach((x, i) => cites(x, `${w}.priorities[${i}]`));
+    (c.statements ?? []).forEach((s, i) => {
+      if (!ISSUES.has(s.issue)) errs.push(`${w}.statements[${i}]: bad issue ${s.issue}`);
+      if (!s.quote || typeof s.quote !== "string") errs.push(`${w}.statements[${i}]: quote required`);
+      cites({ text: s.quote, sources: s.sources }, `${w}.statements[${i}]`);
+    });
     (c.positions ?? []).forEach((p, i) => {
       if (!ISSUES.has(p.issue)) errs.push(`${w}.positions[${i}]: bad issue ${p.issue}`);
       if (!["supports", "opposes", "mixed"].includes(p.stance)) errs.push(`${w}.positions[${i}]: bad stance`);

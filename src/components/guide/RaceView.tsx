@@ -42,16 +42,40 @@ function Position({ p, race }: { p: GuideCandidate["positions"][number]; race: G
   );
 }
 
+/** The candidate's own words, with no stance inferred. */
+function Statement({ s, race }: { s: NonNullable<GuideCandidate["statements"]>[number]; race: GuideRace }) {
+  return (
+    <div>
+      <span className="inline-flex flex-wrap items-center">
+        <span className="inline-flex items-center gap-1 rounded-md border-[1.5px] border-dashed border-chip-border px-1.5 py-0.5 font-sans text-[11.5px] font-bold text-ink-80">
+          <span aria-hidden>“</span>In their own words
+        </span>
+        <Cites ids={s.sources} race={race} />
+      </span>
+      <blockquote className="mt-2 max-w-sm font-serif text-[13px] italic leading-relaxed text-ink-60">“{s.quote}”</blockquote>
+      {s.context && <p className="mt-1 max-w-sm text-xs text-ink-45">{s.context}</p>}
+    </div>
+  );
+}
+
+function Cell({ c, k, race }: { c: GuideCandidate; k: IssueKey; race: GuideRace }) {
+  const p = c.positions.find((x) => x.issue === k);
+  if (p) return <Position p={p} race={race} />;
+  const s = c.statements?.find((x) => x.issue === k);
+  return s ? <Statement s={s} race={race} /> : <span className="text-ink-35">—</span>;
+}
+
 function Comparison({ race }: { race: GuideRace }) {
   const issues = (Object.keys(ISSUES) as IssueKey[]).filter((k) =>
-    race.candidates.some((c) => c.positions.some((p) => p.issue === k))
+    race.candidates.some((c) => c.positions.some((p) => p.issue === k) || c.statements?.some((s) => s.issue === k))
   );
   if (!issues.length || race.candidates.length < 1) return null;
   return (
     <section className="mt-10">
       <SectionLabel>Issue evidence — side by side</SectionLabel>
       <p className="mt-1 font-sans text-[12.5px] text-ink-60">
-        Recorded votes and documented positions are shown with sources.
+        Recorded votes, documented positions and candidates&rsquo; own words are shown with sources.
+        &ldquo;In their own words&rdquo; quotes a candidate on the topic without inferring a stance.
         Votes describe specific bills or motions; they do not establish overall
         support or opposition to a broad issue. A dash means our research has no
         evidence on that topic, not that the candidate has no position.
@@ -62,11 +86,10 @@ function Comparison({ race }: { race: GuideRace }) {
             <h3 className="text-[13px] font-semibold text-ink-80">{ISSUES[k]}</h3>
             <ul className="mt-2 flex flex-col divide-y divide-hairline-soft">
               {race.candidates.map((c) => {
-                const p = c.positions.find((x) => x.issue === k);
                 return (
                   <li key={c.id} className="py-2 first:pt-0 last:pb-0">
                     <span className="font-serif text-[14px] font-bold text-ink">{c.name}</span>
-                    <div className="mt-1">{p ? <Position p={p} race={race} /> : <span className="text-ink-35">—</span>}</div>
+                    <div className="mt-1"><Cell c={c} k={k} race={race} /></div>
                   </li>
                 );
               })}
@@ -100,10 +123,9 @@ function Comparison({ race }: { race: GuideRace }) {
                   {ISSUES[k]}
                 </th>
                 {race.candidates.map((c) => {
-                  const p = c.positions.find((x) => x.issue === k);
                   return (
-                    <td key={c.id} className="p-2.5 align-top" title={p?.summary}>
-                      {p ? <Position p={p} race={race} /> : <span className="text-ink-35">—</span>}
+                    <td key={c.id} className="p-2.5 align-top" title={c.positions.find((x) => x.issue === k)?.summary}>
+                      <Cell c={c} k={k} race={race} />
                     </td>
                   );
                 })}

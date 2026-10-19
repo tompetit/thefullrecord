@@ -85,6 +85,16 @@ export interface Position {
   votes?: RecordedVote[];
 }
 
+/** A candidate's own words on an issue, shown without a stance (none is inferred). */
+export interface IssueStatement {
+  issue: IssueKey;
+  /** Verbatim from the cited source */
+  quote: string;
+  /** Optional neutral context, e.g. "On her campaign site" */
+  context?: string;
+  sources: string[];
+}
+
 export interface RecordItem {
   /** Neutral description, e.g. "Voted yes on H.R. 1 (One Big Beautiful Bill Act), which passed 218–214." */
   text: string;
@@ -135,6 +145,8 @@ export interface GuideCandidate {
   /** What the candidate says are their priorities (from their own materials) */
   priorities: Cited[];
   positions: Position[];
+  /** Verbatim statements on an issue where no stance is documented (or in addition to one) */
+  statements?: IssueStatement[];
   /** Official actions: votes, sponsored bills, executive acts, court records */
   record: RecordItem[];
   website?: string;
@@ -166,6 +178,7 @@ export type OfficeType =
   | "governor"
   | "attorney-general"
   | "comptroller"
+  | "secretary-of-state"
   | "state-senate"
   | "state-assembly"
   | "ballot-measure"
