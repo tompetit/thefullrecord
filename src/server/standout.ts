@@ -47,17 +47,23 @@ function contested(keyOf: (s: ChamberSnapshot) => string | null, max: number): C
     const key = keyOf(snap);
     if (!key) continue;
     const party = partyFor(snap, key);
-    const ranked: Array<{ score: number; vote: ContestedVote }> = [];
+    const ranked: Array<{ score: number; bill: string; vote: ContestedVote }> = [];
     for (const rc of snap.rollCalls) {
       const vote = rc.votes[key];
       if ((vote !== "yes" && vote !== "no") || rc.kind !== "substantive") continue;
       const split = rollCallSplit(snap, rc);
       const score = contention(split, rc.kind);
       if (!score) continue;
-      ranked.push({ score, vote: { id: rc.id, href: rollCallHref(snap.file!, rc.id), title: rc.title, date: rc.date, dateLabel: rc.dateLabel, sourceUrl: rc.sourceUrl, outcome: rc.outcome, vote, partySide: party ? majority(split.byParty[party]) : undefined, breakdown: breakdown(split), tally: [split.yes, split.no] } });
+      ranked.push({ score, bill: rc.bill, vote: { id: rc.id, href: rollCallHref(snap.file!, rc.id), title: rc.title, date: rc.date, dateLabel: rc.dateLabel, sourceUrl: rc.sourceUrl, outcome: rc.outcome, vote, partySide: party ? majority(split.byParty[party]) : undefined, breakdown: breakdown(split), tally: [split.yes, split.no] } });
     }
     if (!ranked.length) continue;
-    return ranked.sort((a, b) => b.score - a.score || b.vote.date.localeCompare(a.vote.date)).slice(0, max).map((x) => x.vote);
+    // One row per bill: a bill's readings and concurrences tend to rank alike.
+    const seen = new Set<string>();
+    return ranked
+      .sort((a, b) => b.score - a.score || b.vote.date.localeCompare(a.vote.date))
+      .filter(({ vote, bill }) => !seen.has(bill || vote.title) && Boolean(seen.add(bill || vote.title)))
+      .slice(0, max)
+      .map((x) => x.vote);
   }
   return [];
 }

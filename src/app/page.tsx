@@ -24,8 +24,10 @@ function ContestedCard({ record }: { record: IssueRecord }) {
 
 export default function Home() {
   const since = daysAgo(90);
-  const congress = topContested((r) => r.state === "us" && r.date >= since, 3);
-  const states = topContested((r) => r.state !== "us" && r.chamber !== "NYC COUNCIL" && r.date >= since, 3, true);
+  // Skip bare motion titles ("On Agreeing to the Amendment") that don't say what was decided.
+  const named = (r: IssueRecord) => r.date >= since && (!/^On /.test(r.title) || Boolean(r.meaning));
+  const congress = topContested((r) => r.state === "us" && named(r), 3);
+  const states = topContested((r) => r.state !== "us" && r.chamber !== "NYC COUNCIL" && named(r), 3, true);
   return (
     <main className="flex flex-1 flex-col">
 

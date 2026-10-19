@@ -48,8 +48,10 @@ export function topContested(where: (record: IssueRecord) => boolean, max: numbe
   const seen = new Set<string>();
   const hits = baseRecords().filter((r) => r.kind === "substantive" && r.contention > 0 && where(r));
   for (const r of sortIssueRecords(hits, "contested")) {
-    if (perState && seen.has(r.state)) continue;
-    seen.add(r.state);
+    // One card per bill (several readings of one bill rank alike); per state when asked.
+    const key = perState ? r.state : `${r.chamber}|${r.bill || r.title}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
     picked.push(r);
     if (picked.length === max) break;
   }
