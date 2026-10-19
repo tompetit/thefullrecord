@@ -151,8 +151,7 @@
         {
           "text": "Restore the statutory Permanent Fund dividend.",
           "sources": [
-            "s17",
-            "s1"
+            "s17"
           ]
         },
         {
@@ -168,11 +167,44 @@
             "s6"
           ],
           "quote": "I will never allow Alaska to be littered with hyperscale data centers that take our resources and spoil our lands."
+        },
+        {
+          "text": "Ending income-based inequality in education, with more transparency and accountability in education funding and consideration of education savings accounts and backpack funding.",
+          "sources": [
+            "s18"
+          ],
+          "quote": "It’s time to end discrimination and income-based inequality in education."
+        },
+        {
+          "text": "Developing Alaska’s oil, gas and mineral projects.",
+          "sources": [
+            "s17"
+          ],
+          "quote": "we will develop and we will build."
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "Educational Savings Accounts, Backpack Funding, No More Lines and Learn Everywhere models are just a few of the innovative solutions Alaska must seriously consider if we are truly committed to educating the best and brightest.",
+          "context": "On the education page of her campaign site",
+          "sources": [
+            "s18"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "whether it’s AKLNG, NPRA, ANWR, or Willow, Ambler Road, West Susitna, King Cove, or beyond, we will develop and we will build.",
+          "context": "On the “Vision for Alaska” section of her campaign site, in a passage about oil, gas and resource projects",
+          "sources": [
+            "s17"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign site (bernadetteforgovernor.com) has an On the Issues page covering education and the Permanent Fund dividend and a Vision for Alaska statement; no site text found on abortion, guns, immigration, taxes, housing or the other listed issues, so no stances were entered. She did not respond to interview requests, per Alaska reporting."
     },
     {
       "id": "dave-bronson",
@@ -225,11 +257,41 @@
             "s6"
           ],
           "quote": "I'm a big believer in data centers."
+        },
+        {
+          "text": "Public education: aims for top-10 national rankings in 4th- and 8th-grade reading and math within 10 years, with school choice and workforce pathways (the AK 10/10 Plan).",
+          "sources": [
+            "s20"
+          ],
+          "quote": "Alaska will rank in the top 10 states for 4th- and 8th-grade reading and math within 10 years"
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "His education plan says he supports school choice, including vouchers, and would raise education tax credits to $3,000 per student.",
+          "quote": "Support school choice, including vouchers, so families can select the learning environment that best fits their child",
+          "sources": [
+            "s20"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "We will pursue an all-of-the-above infrastructure strategy that delivers reliable power, lower costs, and energy security for all Alaskans—urban, rural, military, and commercial.",
+          "context": "In his Alaska Infrastructure & Energy plan (campaign policy PDF), which also lists small modular nuclear reactors, natural gas and small-scale hydro",
+          "sources": [
+            "s21"
+          ]
+        }
+      ],
+      "website": "https://www.davebronson.com/",
+      "researchNotes": "Positions and statements come from his campaign policy page and two policy PDFs (education; infrastructure and energy). His election-reform PDF (voter ID, absentee notarization) addresses voter ID, not documentary proof of citizenship, so it was not mapped to that issue. No campaign text found on abortion, guns, immigration, housing regulation or taxes."
     },
     {
       "id": "treg-taylor",
@@ -447,6 +509,27 @@
       "publisher": "Wilson campaign",
       "kind": "candidate",
       "date": "2026-10-19"
+    },
+    {
+      "id": "s18",
+      "url": "https://bernadetteforgovernor.com/on-the-issues/",
+      "title": "On the Issues",
+      "publisher": "Bernadette for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s20",
+      "url": "https://www.davebronson.com/s/AK-10-10-Plan",
+      "title": "AK 10/10 Plan - Workforce First Public Education (policy PDF)",
+      "publisher": "Bronson for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s21",
+      "url": "https://www.davebronson.com/s/Alaska-Infrastructure-and-Energy",
+      "title": "Alaska Infrastructure & Energy / Build Big Again (policy PDF)",
+      "publisher": "Bronson for Governor campaign",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-10-19",
