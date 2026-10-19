@@ -200,7 +200,25 @@
       "record": [],
       "website": "https://clydeforcongress.com",
       "researchDepth": "basic",
-      "researchNotes": "Ballotpedia's basic biography was supplemented with Clyde Jones's 2026 Candidate Connection survey (completed, contrary to an earlier note that he had not) and his campaign website's Issues page, which supply his background, priorities, and two documented positions here."
+      "researchNotes": "Ballotpedia's basic biography was supplemented with Clyde Jones's 2026 Candidate Connection survey and his campaign website's Issues page. His site discusses a federal minimum wage figure and child care funding but does not state a position on raising the minimum wage or on universal child care, so those appear as statements only.",
+      "statements": [
+        {
+          "issue": "minimum_wage",
+          "quote": "In Baldwin County alone, a single person has to make at least $22 an hour to live here. If that person has a child and needs childcare, the minimum is $27. The federal minimum wage is still $7.25.",
+          "context": "On his campaign website",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Child care is the backbone of our economy, our communities, and our children's future.",
+          "context": "On his campaign website",
+          "sources": [
+            "s7"
+          ]
+        }
+      ]
     }
   ],
   "sources": [

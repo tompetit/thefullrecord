@@ -173,7 +173,7 @@
       ],
       "priorities": [
         {
-          "text": "Says she would \"put Alabama first\" by prioritizing families, workers, small businesses, and local communities over partisan politics.",
+          "text": "Says she would \"put Alabama first\" by prioritizing families, workers, small businesses, and local communities over politics.",
           "sources": [
             "s3"
           ]
@@ -194,8 +194,26 @@
       "positions": [],
       "record": [],
       "website": "https://www.akinforcongress.com",
-      "researchDepth": "minimal",
-      "researchNotes": "Akin has not completed a Ballotpedia Candidate Connection survey and has no Ballotpedia biography beyond her campaign profile; her campaign website is limited to brief priority statements with little further detail on specific policy positions."
+      "researchDepth": "basic",
+      "researchNotes": "Akin has not completed a Ballotpedia Candidate Connection survey. Her campaign website's Issues page gives brief priority statements; it does not take a side on the guide's issue statements, so they appear as statements only.",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "Keep families safe by giving law enforcement, firefighters, and EMS the resources and support they need to do their jobs.",
+          "context": "On her campaign website",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Strengthen rural hospitals and expand access to care for the communities that have to travel farthest to get it.",
+          "context": "On her campaign website",
+          "sources": [
+            "s15"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -297,6 +315,14 @@
       "title": "H.R. 407 — Prevent Tariff Abuse Act",
       "publisher": "Congress.gov",
       "kind": "official"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.akinforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Akin for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25"

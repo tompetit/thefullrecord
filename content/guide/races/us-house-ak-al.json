@@ -147,19 +147,35 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "I think everybody should have access to good health care. That's the bottom line.",
+          "context": "In a KMXT interview, May 2026",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "So, let’s find ways to implement renewable energies.",
+          "context": "In a KFSK interview in Petersburg, August 2026",
+          "sources": [
+            "s12"
+          ]
+        },
         {
           "issue": "tax_wealthy",
-          "stance": "supports",
-          "summary": "Says billionaires and corporations need to pay their share like everyone else, as part of his campaign against what he calls the corrupt D.C. elite.",
           "quote": "Billionaires and corporations need to pay their share like the rest of us. And we need to get big money out of our elections.",
           "sources": [
             "s3"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "basic"
+      "researchNotes": "Hill has no campaign site text that could be fetched here; statements come from KMXT and KFSK interviews. His interviews take sides on few of the guide's statements; he describes himself as pro-development and opposes the Pebble Mine (not a guide issue)."
     },
     {
       "id": "eric-hafner",
@@ -257,11 +273,62 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Term limits: says career politicians surrounded by other career politicians stop thinking clearly about what ordinary Americans need, and that he would not seek a third term.",
+          "quote": "Term limits are the cure.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Fiscal accountability: supports zero-based budgeting and balanced budget requirements at the federal level.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Civil liberties: says the Patriot Act and the NDAA drove him out of the Republican Party and that they should be repealed or fundamentally reformed.",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign website says tariffs are paid by American businesses and consumers and calls for no international tariffs or trade barriers.",
+          "quote": "No international tariffs, no trade barriers, no federal schemes that make Alaskans pay more for the things they need.",
+          "sources": [
+            "s13"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Campaign website says he does not support open-ended military commitments made without Congressional authorization.",
+          "quote": "He does not support open-ended military commitments made without Congressional authorization. The War Powers Resolution exists for a reason.",
+          "sources": [
+            "s13"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "McDermott has not completed a Ballotpedia Candidate Connection survey and no campaign website content with specific 2026 positions could be located."
+      "researchDepth": "basic",
+      "researchNotes": "Positions come from the issues page of his campaign website (jamesmcdermott.org), which is written in the third person. He has not completed a Ballotpedia Candidate Connection survey. His answers to the Alaska newsroom questionnaire were not located.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "He opposes treating immigration as primarily a law enforcement issue when the underlying cause is an immigration system that does not function.",
+          "context": "On his campaign website",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -326,6 +393,30 @@
       "publisher": "Congress.gov",
       "kind": "official",
       "id": "s10"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.kmxt.org/elections/2026-05-05/interview-with-bill-hill-2026-candidate-for-alaskas-u-s-house-seat",
+      "title": "Interview with Bill Hill, 2026 candidate for Alaska's U.S. House seat",
+      "publisher": "KMXT (Kodiak Public Broadcasting)",
+      "kind": "news",
+      "date": "2026-05-05"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.kfsk.org/2026/08/10/independent-u-s-house-candidate-bill-hill-talks-corruption-cost-of-living-during-petersburg-visit/",
+      "title": "Independent U.S. House candidate Bill Hill talks corruption, cost of living during Petersburg visit",
+      "publisher": "KFSK",
+      "kind": "news",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "s13",
+      "url": "https://jamesmcdermott.org/issues",
+      "title": "Jim McDermott on the Issues",
+      "publisher": "Jim McDermott for U.S. House campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
