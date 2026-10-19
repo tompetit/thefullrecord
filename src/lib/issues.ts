@@ -41,6 +41,8 @@ export interface IssueRecord {
   title: string;
   summary?: string;
   summarySource?: "ai" | "official";
+  /** Official amendment this roll call decided (federal chambers); purpose is verbatim official text. */
+  amendment?: { number: string; sponsor?: string; purpose?: string; sourceUrl: string };
   /** AI-written one-line explanation of what a yes vote did (procedural/amendment votes) */
   meaning?: string;
   chamber: string;

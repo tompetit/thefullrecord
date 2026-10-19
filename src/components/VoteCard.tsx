@@ -40,10 +40,12 @@ export function VoteCard({
 
       {vote.meaning && <p className="mt-1 font-sans text-xs leading-relaxed text-ink-60">{vote.meaning} (AI-written)</p>}
 
+      {vote.amendment?.purpose && <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty"><span className="font-semibold">Amendment purpose (official):</span> {vote.amendment.purpose}</p>}
+
       {vote.aiSummary && !sameText(vote.aiSummary, vote.title) && (
         <>
           <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty">
-            {vote.aiSummary}
+            {vote.amendment && <span className="font-semibold">Bill summary: </span>}{vote.aiSummary}
           </p>
           <AiMarker
             billTextUrl={vote.sourceUrl}

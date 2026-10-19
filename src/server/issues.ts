@@ -19,6 +19,7 @@ function baseRecords(): IssueRecord[] {
       title: roll.title,
       summary: roll.summary,
       summarySource: roll.summarySource,
+      amendment: roll.amendment,
       meaning: roll.meaning,
       chamber: snapshot.chamber,
       state: chamberState(snapshot.chamber),
