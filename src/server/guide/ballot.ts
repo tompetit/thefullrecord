@@ -48,7 +48,7 @@ async function stateSeatsFor(st: string, ballot: { upper: NamedDistrict | null; 
         .flatMap((c) => {
           const m = roster.find((r) => r.chamber === chamber && r.districtLabel === label && lastName(r.name) === lastName(c.name));
           if (!m) return [];
-          const officialId = `${st}-${chamber}-${m.id}`;
+          const officialId = `${st.toLowerCase()}-${chamber}-${m.id}`;
           return [{ name: c.name, officialId, contested: contestedForDistrict(officialId, 3) }];
         });
       seats.push({
