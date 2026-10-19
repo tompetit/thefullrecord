@@ -1,0 +1,36 @@
+{
+  "raceId": "fl-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 60,
+  "corrected": 3,
+  "removed": 0,
+  "unverifiable": 0,
+  "notes": [
+    "Slate matches the Florida Division of Elections 2026 general-election candidate listing (8 ballot candidates plus write-ins Anderson and Morris); added it as a source.",
+    "Corrected running mate Joe Van Victor to Van Vactor, Datto's first name to Jeffrey, and added Dimanche's 'Moe' per the official list.",
+    "Removed claim that Dembinsky and Khan are listed write-ins (not on the official list). House roll-call totals and Congress.gov bill data confirmed; primary percentages rest on Wikipedia (state results site not loadable)."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 70,
+    "corrected": 2,
+    "removed": 1,
+    "notes": [
+      "Slate re-confirmed against Florida Division of Elections list; roll-call tallies/votes (House Clerk) and Congress.gov bill data (via GovInfo BILLSTATUS) re-verified.",
+      "Reworded DeSantis context to 'ineligible' (source wording) and replaced the unsupported jointly-elected ticket sentence with a statement the official list supports.",
+      "Removed Donalds transgender_sports position: it rested only on a floor vote, not his own statement (vote remains in record)."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 70,
+    "corrected": 3,
+    "removed": 0,
+    "notes": [
+      "Donalds insurance priority: removed 'recent' (source says 'protect reforms').",
+      "Jolly school_choice summary: removed 'rather than eliminated' (not stated on the issues page).",
+      "Stop Act bill description reworded to the bill's 'directly soliciting contributions to or on behalf of political committees'.",
+      "Slate re-confirmed against FL Division of Elections list; roll-call tallies/votes, bill sponsorships/dates, primary percentages and bios re-verified."
+    ]
+  }
+}

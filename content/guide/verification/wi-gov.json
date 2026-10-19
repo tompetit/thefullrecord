@@ -1,0 +1,38 @@
+{
+  "raceId": "wi-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 50,
+  "corrected": 8,
+  "removed": 2,
+  "unverifiable": 0,
+  "notes": [
+    "Slate: confirmed against Wisconsin Elections Commission June 9, 2026 Ballot Access Report (official): only major-party candidates approved; every independent filer (incl. David D. King, 1,731 of 2,000 signatures) recommended denied. WUWM and BallotReady list only Crowley and Tiffany. Added WEC report as source.",
+    "Tiffany quotes and Crowley '7% cap' quote verified verbatim on raw pages (Tiffany pages and Milwaukee County release read from Internet Archive copies; live sites bot-blocked). Crowley plan page fetched raw.",
+    "Crowley Act 12 item: removed 'lobbied' claim (Wikipedia-only), now signing of 0.4% sales tax Aug. 3, 2023 per FOX6; opioid item re-sourced to WPR (Mar. 13, 2023); Climate Action 2050 re-sourced to Milwaukee County release (Apr. 30, 2025); Right to Counsel date 2021-07-19 confirmed by Urban Milwaukee copy of the press release.",
+    "Removed Tiffany tax_wealthy position (tax cuts for working families does not show a stance on raising taxes on high earners); removed unused Act 12 text source.",
+    "Tiffany House votes verified on clerk.house.gov."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 58,
+    "corrected": 4,
+    "removed": 2,
+    "notes": [
+      "Slate: the Wisconsin Elections Commission June 9, 2026 ballot-access report was re-read (King 1,731 valid signatures, Deny; all independent filers denied), and a printed official Nov. 3 ballot (City of Glendale clerk) now confirms the governor contest lists only Tiffany/Varnam (Republican) and Crowley/Godlewski (Democratic). Added as source; the Green candidate printed on that ballot is for Assembly, not governor.",
+      "Removed Tiffany voter_citizenship_proof position: its only support was his SAVE Act vote, which is not a stated position (the vote stays under record). Removed Crowley police_funding position: his plan only lists police and fire departments among services local governments should be able to fund, not a pledge to increase police funding or staffing.",
+      "Tiffany committees re-cited to the Clerk of the House member page (Judiciary and Natural Resources, current Congress) with explicit wording; H.R. 1 item now says the House voted to concur in the Senate amendment (218-214, July 3, 2025) rather than 'final passage'.",
+      "Crowley: staffer history corrected (aide to Supervisor Harris Dodd; policy director after she became a state senator); opioid item says 15 projects as WPR does.",
+      "Re-verified from raw copies: Tiffany pages (Internet Archive capture, Oct. 3, 2026) including both quotes and every priority; Crowley plan quote and housing/childcare/climate claims; primary percentages (Crowley 39.81 v. Hong 39.35, Tiffany 95.32); Crowley suspension (July 8) and re-entry (July 18) dates; four House roll calls (Tiffany yes/yes/yes/no); Right to Counsel (July 19, 2021), sales tax (15-3, Aug. 3, 2023), Climate Action 2050 (Apr. 30, 2025) sources."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 10,
+    "corrected": 2,
+    "removed": 2,
+    "notes": [
+      "Removed Crowley housing_supply: plan says 'cut barriers that slow new housing' with no zoning/land-use change; Crowley's permitting/red tape language is for small business.",
+      "Removed Tiffany housing_supply: 'target unnecessary regulations and delays' is not zoning/land-use loosening. Tiffany's live pages are bot-blocked; kept pass-2 verified remaining claims."
+    ]
+  }
+}
