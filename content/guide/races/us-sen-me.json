@@ -288,10 +288,21 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign website describes a proposed Women's Health Earned Income Credit funded by closing tax loopholes for high-net-worth individuals and raising billionaire tax rates.",
+          "quote": "funded entirely by closing high-net-worth tax loopholes and spiking billionaire tax rates",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Write-in candidate; positions drawn from her Ballotpedia Candidate Connection survey."
+      "researchNotes": "Write-in candidate; positions drawn from her Ballotpedia Candidate Connection survey and the Mission Statement page of her campaign website (truthpointusa.com). Her survey and 'My Platform' page cover healthcare accountability, rural infrastructure and foreign policy in terms that do not squarely answer the guide's other issue statements, so no other stances or statements were added."
     },
     {
       "id": "sigrid-ann-olson",
@@ -312,7 +323,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements found; checked Ballotpedia and Maine news coverage of the six write-in filings (Maine Morning Star, Maine Wire, Bangor Daily News)."
     },
     {
       "id": "joseph-steinberger",
@@ -333,7 +344,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements found; checked Ballotpedia and Maine news coverage of the six write-in filings (Maine Morning Star, Maine Wire, Bangor Daily News)."
     },
     {
       "id": "brent-andrews",
@@ -354,7 +365,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements found; checked Ballotpedia and Maine news coverage of the six write-in filings (Maine Morning Star, Maine Wire, Bangor Daily News)."
     },
     {
       "id": "michael-turcotte",
@@ -371,11 +382,19 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "In announcing his campaign, cited healthcare costs, housing, food prices, Social Security, immigration and economic security as concerns.",
+          "quote": "Washington produces conflict and instability while families are dealing with healthcare costs, housing, food prices, Social Security, immigration, and basic economic security",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website or issue statements found; only a campaign-announcement statement quoted by The Maine Wire. It names issue areas but takes no side on the guide's issue statements."
     },
     {
       "id": "gina-oswald",
@@ -396,7 +415,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements found; checked Ballotpedia and Maine news coverage of the six write-in filings (Maine Morning Star, Maine Wire, Bangor Daily News)."
     }
   ],
   "sources": [
@@ -472,6 +491,21 @@
       "title": "Troy's priorities in the Senate — Troy Jackson for Maine",
       "publisher": "Troy Jackson for Maine (campaign)",
       "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.truthpointusa.com/mission-statement",
+      "title": "\"The Power of the 99%\" (Mission Statement)",
+      "publisher": "Ashley J. Webb for U.S. Senate (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.themainewire.com/2026/08/six-write-in-candidates-complicate-maines-u-s-senate-race-trigger-ranked-choice-voting/",
+      "title": "Six Write-In Candidates Complicate Maine's U.S. Senate Race, Trigger Ranked-Choice Voting",
+      "publisher": "The Maine Wire",
+      "kind": "news",
+      "date": "2026-08"
     }
   ],
   "researchedAt": "2026-09-25",

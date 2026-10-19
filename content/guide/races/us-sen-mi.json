@@ -165,6 +165,13 @@
           "sources": [
             "s1"
           ]
+        },
+        {
+          "text": "Says Michigan needs to end the tariff war with Canada and lower prices.",
+          "quote": "We need to end this tariff war — now.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "positions": [
@@ -189,7 +196,7 @@
       "record": [],
       "website": "https://mikerogers.com",
       "researchDepth": "basic",
-      "researchNotes": "Rogers's campaign site (mikerogers.com) is JavaScript-rendered and its issue pages (healthcare plan, housing plan) did not return readable text via direct fetch, so specific issue positions beyond the quoted priority statement in Ballotpedia's race summary could not be documented from primary sources within the time available."
+      "researchNotes": "Rogers's campaign site (mikerogers.com) is JavaScript-rendered and its issue pages (healthcare plan, housing plan) did not return readable text via direct fetch, so specific issue positions beyond the quoted priority statement in Ballotpedia's race summary could not be documented from primary sources within the time available. Added Oct. 2026: a campaign ad transcript on tariffs; his housing and healthcare plan pages show headings only, and debate coverage (Oct. 8 WOOD-TV) did not quote him on abortion, guns or immigration enforcement in a form usable here."
     },
     {
       "id": "douglas-p-marsh",
@@ -205,11 +212,47 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Affordable healthcare for every person, available free or for a nominal fee at the point of service.",
+          "quote": "We demand affordable healthcare for every person in the United States of America. This should be available for free, or for a nominal fee, at the point of service.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Housing policy reforms so every person is adequately housed.",
+          "quote": "We demand housing policy reforms such that every person in the United States is adequately housed and so that home ownership is attainable for all people, and not private equity firms.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Survey answer calls for affordable healthcare for every person, free or at a nominal fee at the point of service.",
+          "quote": "We demand affordable healthcare for every person in the United States of America. This should be available for free, or for a nominal fee, at the point of service.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found beyond Ballotpedia's listing within the time available for this research."
+      "researchDepth": "basic",
+      "researchNotes": "Positions drawn from his 2026 and 2024 Ballotpedia Candidate Connection surveys. No campaign website text was loaded. His survey answer on 'states engaged in apartheid and genocide' does not name a country, so it is not recorded under Israel aid.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Stop Line 5 and the Line 5 Tunnel - pivot to full investment in sustainable energy and infrastructure",
+          "context": "In his 2024 Ballotpedia Candidate Connection survey (his 2026 survey does not address energy)",
+          "sources": [
+            "s8"
+          ]
+        }
+      ]
     },
     {
       "id": "lydia-christensen",
@@ -225,11 +268,54 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Preserving the constitution, upholding civil rights and declaring digital rights.",
+          "quote": "The core component of my campaign is that of preservation of our constitution, upholding our civil rights and declaring our digital rights are necessary to ensuring that the American people remain free.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Preserving national forests and transitioning to clean renewable energy.",
+          "quote": "The second key component of my campaign is preserving our national forests and clean renewable energy.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A Medicaid for all proposal.",
+          "quote": "The Third component of my campaign is a Medicaid for all proposal.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Survey answer proposes Medicaid for all as a comprehensive healthcare plan for all U.S. citizens.",
+          "quote": "Medicaid for all is a complete and comprehensive healthcare plan from birth to the grave for all US Citizens.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found beyond Ballotpedia's listing within the time available for this research."
+      "researchDepth": "basic",
+      "researchNotes": "Positions drawn from her 2026 Ballotpedia Candidate Connection survey; no campaign website text was loaded.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Transitioning to clean renewable energy gives humanity a sustainable future and helps create a strong economy by creating jobs and strength in the American Economy",
+          "context": "In her 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     },
     {
       "id": "timothy-long",
@@ -249,7 +335,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found beyond Ballotpedia's listing within the time available for this research."
+      "researchNotes": "Ballotpedia shows no Candidate Connection survey for Long; no campaign website or issue statements were found (only Facebook and Instagram pages, not loaded)."
     }
   ],
   "sources": [
@@ -301,6 +387,27 @@
       "title": "Mike Rogers wants a job in the US Senate. What'd he do in the House?",
       "publisher": "Bridge Michigan",
       "kind": "news"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Douglas_P._Marsh",
+      "title": "Douglas P. Marsh (2026 Candidate Connection survey)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Lydia_Christensen",
+      "title": "Lydia Christensen (2026 Candidate Connection survey)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://rogersforsenate.com/news/ad-we-need-to-end-the-tariff-war-now",
+      "title": "Ad: We need to end the tariff war — now",
+      "publisher": "Rogers for Senate campaign site",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

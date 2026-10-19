@@ -298,22 +298,50 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Supports Medicare for All, saying insurance-based healthcare cannot adequately cover maintenance care.",
+          "summary": "Supports Medicare for All and says she will sign on to S. 1506.",
+          "quote": "I am a FIERCE supporter of M4A and will sign on to Bernie Sander’s Bill S1506 immediately.",
           "sources": [
-            "s1"
-          ]
+            "s1",
+            "s9"
+          ],
+          "basis": "statements"
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Supports abolishing ICE, closing detention centers, and a fast-tracked path to citizenship for immigrants without more than a misdemeanor conviction.",
+          "summary": "Calls for abolishing ICE immediately and replacing it with a fast-tracked path to citizenship.",
+          "quote": "ABOLISH immediately and replace with a vigorous and fast-tracked path to citizenship.",
           "sources": [
-            "s1"
-          ]
+            "s1",
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports passing gun control laws, citing gun deaths among children.",
+          "quote": "we will be able to finally protect our children with the passage of meaningful gun control laws",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Says she will not vote to continue arming Netanyahu's government.",
+          "quote": "Unlike Cory Booker, I will NOT vote in any way to continue arming Netanyahu",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://veronicaforsenate.com",
+      "researchNotes": "Positions are from her campaign policies page and Ballotpedia. WHYY (Sept. 22, 2026) also quotes her on Israel (\"I would vote to not send money to Israel\") and the Iran war."
     },
     {
       "id": "joanne-kuniansky",
@@ -336,10 +364,45 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Standing with workers who resist 'the bosses’ attacks on their jobs, wages and working conditions' and building unions, per her email to WHYY.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "A public works program providing jobs at union-scale wages, a shorter work week with no pay cuts, and automatic cost-of-living increases in union contracts, pensions and Social Security (as described by WHYY).",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In her 2021 official candidate statement (New Jersey governor race), called for fighting for women's right to family planning including birth control and abortion.",
+          "quote": "fight for the right of women to family planning, including safe and secure birth control and abortion",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "calling for an amnesty for workers in the U.S. without papers",
+          "context": "In an email to WHYY, per its Sept. 22, 2026 voter guide",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "researchNotes": "No 2026 campaign website or Candidate Connection survey was found. The abortion position is from her 2021 gubernatorial candidate statement as quoted by Ballotpedia. Other statements come from her emailed answers to WHYY (Sept. 22, 2026)."
     },
     {
       "id": "eduardo-castillo",
@@ -388,22 +451,37 @@
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Supports a $31 minimum wage indexed to inflation.",
+          "summary": "In his 2026 Ballotpedia Candidate Connection survey, listed a $31 minimum wage indexed to inflation among his key campaign messages.",
           "sources": [
-            "s1"
-          ]
+            "s12"
+          ],
+          "quote": "$31 minimum wage indexed to inflation",
+          "basis": "statements"
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
-          "summary": "Supports free childcare, pre-K, and four-year college for all.",
+          "summary": "In his 2026 Ballotpedia Candidate Connection survey, listed free childcare, Pre-K and 4-year college for all among his key campaign messages.",
           "sources": [
-            "s1"
-          ]
+            "s12"
+          ],
+          "quote": "Free childcare, Pre-K, and 4-year college for all",
+          "basis": "statements"
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "In his 2025 Ballotpedia Candidate Connection survey, listed rent stabilization among his housing proposals.",
+          "quote": "Rent stabilization— no rent increases",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Positions are from his Ballotpedia Candidate Connection surveys (2026 and 2025; the rent stabilization item is from the 2025 survey). No campaign website was found."
     }
   ],
   "sources": [
@@ -468,6 +546,37 @@
       "title": "Environment",
       "publisher": "Office of Sen. Cory Booker",
       "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://veronicaforsenate.com/policies",
+      "title": "Policies",
+      "publisher": "Veronica for Senate",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://whyy.org/articles/election-2026-new-jersey-senate-voter-guide-booker/",
+      "title": "New Jersey election 2026: Cory Booker faces 3 challengers in U.S. Senate race. Here's what to know",
+      "publisher": "WHYY",
+      "kind": "news",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/Joanne_Kuniansky",
+      "title": "Joanne Kuniansky's 2021 official candidate statement (NJ ELEC), quoted verbatim",
+      "publisher": "Joanne Kuniansky 2021 candidate statement (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2021"
+    },
+    {
+      "id": "s12",
+      "url": "https://ballotpedia.org/Eduardo_Castillo",
+      "title": "Eduardo Castillo",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026"
     }
   ],
   "researchedAt": "2026-09-25",

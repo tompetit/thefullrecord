@@ -288,17 +288,48 @@
       ],
       "positions": [
         {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "States on his campaign site that he supports a woman's right to make personal health decisions, including abortion care.",
+          "quote": "I believe strongly in a woman’s right to make personal decisions about her health and her future. That includes access to contraception, prenatal care, and yes, when necessary, abortion care.",
+          "sources": [
+            "s16"
+          ],
+          "basis": "statements"
+        },
+        {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Ballotpedia Candidate Connection survey lists expanding access to affordable healthcare, especially in rural areas, as a passion.",
+          "summary": "States on his campaign site that he supports the Medicare for All Act.",
+          "quote": "I support the Medicare for All Act—because it’s time we guarantee every American access to high-quality, affordable healthcare, no matter where they live or what they earn.",
           "sources": [
-            "s8"
-          ]
+            "s15"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://www.typinkins.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Investing in sustainable, resilient infrastructure that meets our energy needs today and lays the foundation for a cleaner, more reliable system our kids and grandkids can count on.",
+          "context": "On his campaign website's Environment page, listing what he will focus on",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "we need to support responsible policing by ensuring law enforcement has the training and resources needed to serve communities effectively and safely.",
+          "context": "On his campaign website's Criminal Justice page",
+          "sources": [
+            "s18"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements from his campaign site issue pages (healthcare, women's access to healthcare, environment, criminal justice; undated). Housing, education, jobs, national security and voting-rights pages were read; none squarely takes a side on another guide issue (his housing page mentions new construction and infill development but not zoning)."
     }
   ],
   "sources": [
@@ -399,6 +430,34 @@
       "title": "YOUR DECISION 2026: Scott Colom Q&A",
       "publisher": "Starkville Daily News",
       "kind": "news"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.typinkins.com/issues-1/healthcare",
+      "title": "Healthcare",
+      "publisher": "Ty Pinkins for U.S. Senate campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.typinkins.com/issues-1/women's-reproductive-freedom",
+      "title": "Women's Access to Healthcare",
+      "publisher": "Ty Pinkins for U.S. Senate campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.typinkins.com/issues-1/environment",
+      "title": "Environment",
+      "publisher": "Ty Pinkins for U.S. Senate campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s18",
+      "url": "https://www.typinkins.com/issues-1/criminal-justice",
+      "title": "Criminal Justice",
+      "publisher": "Ty Pinkins for U.S. Senate campaign site",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
