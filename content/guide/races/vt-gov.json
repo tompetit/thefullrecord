@@ -41,7 +41,7 @@
       "ballotNote": "Seeking a sixth term; unopposed in the Republican primary.",
       "currentRole": "Governor of Vermont (since January 2017)",
       "summary": {
-        "text": "Phil Scott is the Republican Governor of Vermont, first elected in 2016. A longtime business owner from Barre, he served in the state Senate (2001–2011) and as lieutenant governor (2011–2017). In 2026 he vetoed bills on reference-based health-care pricing, energy facilities, school mental-health funding and public-employee union organizing, and signed an education-system reform bill.",
+        "text": "Phil Scott is the Republican Governor of Vermont, first elected in 2016. A longtime business owner from Barre, he served in the state Senate (2001–2011) and as lieutenant governor (2011–2017). In 2026 he vetoed bills on reference-based health-care pricing, energy facilities, school mental-health programs and union organizing among Department of Corrections employees, and signed an education-system reform bill.",
         "sources": [
           "s6",
           "s8",
@@ -100,7 +100,7 @@
       ],
       "record": [
         {
-          "text": "Vetoed S.190 (reference-based pricing and the Green Mountain Care Board) on June 16, 2026, saying its savings would exclude most payers while hospital revenue reductions would affect all Vermonters buying insurance.",
+          "text": "Vetoed S.190 (reference-based pricing and the Green Mountain Care Board) on June 16, 2026, saying the bill would exclude most payers from affordability gains and that a veto means the Green Mountain Care Board's 2027 hospital revenue reductions apply to all Vermonters paying for insurance.",
           "date": "2026-06-16",
           "kind": "action",
           "sources": [
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "text": "Vetoed H.710 (defining electricity generating facilities) and H.817 (school mental health supports) on June 17, 2026; on H.817 he called a requirement to propose funding in his budget \"a clear separation of powers violation.\"",
+          "text": "Vetoed H.710 (defining electricity generating facilities) and H.817 (mental health literacy and peer-to-peer supports in schools) on June 17, 2026; on H.817 he called a requirement to propose funding in his budget \"a clear separation of powers violation.\"",
           "date": "2026-06-17",
           "kind": "action",
           "sources": [
@@ -147,7 +147,7 @@
       "ballotNote": "Won the August 2026 Democratic primary; also the Progressive Party candidate.",
       "currentRole": "Economist",
       "summary": {
-        "text": "Amanda Janoo is a first-time candidate and economist who has worked in economic development for the United Nations and with the Wellbeing Economy Alliance. She proposes higher taxes on top earners, second homes and large tech companies to fund free primary and preventive health care and reduce property taxes.",
+        "text": "Amanda Janoo is a first-time candidate and economist who has worked in economic development for the United Nations and with the Wellbeing Economy Alliance. She proposes higher taxes on top earners, second homes and large tech companies' digital advertising revenue; she says the income surcharge would fund free primary and preventive health care and second-home revenue would reduce property taxes.",
         "sources": [
           "s11",
           "s12"
@@ -170,7 +170,7 @@
       "priorities": [
         {
           "text": "Raising revenue from high earners, second homes and large digital advertisers to fund free primary and preventive care and lower property taxes.",
-          "quote": "Phil Scott's definition of affordability is tax cuts.",
+          "quote": "Taxes are one of the levers, or tools, that we can utilize as a way to achieve that.",
           "sources": [
             "s12"
           ]
@@ -217,15 +217,41 @@
         "text": "June Goodband is the Peace and Justice Party candidate for governor and was the party's 2024 nominee. A reference listing describes her as a psychotherapist and progressive activist.",
         "sources": [
           "s13",
-          "s14"
+          "s14",
+          "s16"
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Tax policy: progressive taxation in place of homestead taxes to pay for education, with higher taxes on high incomes and on vacant buildings that could be used for housing.",
+          "quote": "Increase taxes on high incomes and buildings that could be used for housing but are left vacant for most of the year.",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Universal health care by implementing Vermont's law to reduce costs and increase access.",
+          "sources": [
+            "s16"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign site calls for increasing taxes on high incomes.",
+          "quote": "Increase taxes on high incomes and buildings that could be used for housing but are left vacant for most of the year.",
+          "sources": [
+            "s16"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website or public statements were found."
+      "researchDepth": "basic",
+      "researchNotes": "Positions come from her campaign website only; no news interviews were found.",
+      "website": "https://june4govvt.org"
     },
     {
       "id": "brian-judd",
@@ -365,6 +391,14 @@
       "publisher": "Fortune (Associated Press)",
       "kind": "news",
       "date": "2026-03-27"
+    },
+    {
+      "id": "s16",
+      "url": "https://june4govvt.org",
+      "title": "June Goodband for Governor of Vermont",
+      "publisher": "Goodband campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchNotes": "Slate matches the Vermont Secretary of State's 2026 general-election qualified-candidate list (Scott R; Janoo DEM/PROG; Goodband Peace and Justice; Roy Freedom and Unity; Judd Independent). Write-ins are noted but not profiled. Running mates do not apply (Vermont elects the governor separately). Ballotpedia was blocked here, so minor-candidate summaries rely on Politics1 and AP coverage."
