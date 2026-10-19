@@ -58,7 +58,45 @@
           "s1"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026%20Ballot%20Measures%20Pamphlet.pdf",
+    "currentLaw": {
+      "text": "Currently, all sports wagering in Nebraska must take place in person at one of the state's five racetrack casinos. Nebraska voters approved ballot measures in 2020 to legalize, regulate and tax casino-style gambling at state-licensed racetracks.",
+      "sources": [
+        "e1",
+        "e3"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Tax Relief Nebraska, the committee that organized both sports wagering petitions (Initiatives 440 and 441).",
+        "sources": [
+          "e1",
+          "e2"
+        ]
+      },
+      {
+        "text": "WarHorse Casinos, a subsidiary of Ho-Chunk Inc., has publicly stated support for the petitions.",
+        "sources": [
+          "e1"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Save Nebraska Sports, an opposing campaign announced in September 2026 by the Nebraska Family Alliance, Nebraska football coach Ron Brown, State Treasurer Joey Spellerberg and State Auditor Mike Foley.",
+        "sources": [
+          "e1"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Tax Relief Nebraska, which backs both Initiative 440 and Initiative 441, has raised $14.65 million for the election cycle, according to Nebraska Public Media citing the latest campaign finance data (a reporting period running from late July to late September 2026). DK Crown Holdings (DraftKings) and FanDuel each gave $3.5 million in that period and have each given more than $7 million for the cycle; Roar Digital (MGM) has given $500,000. The Nebraska Examiner reported that through July 27 the committee had raised $7.4 million and spent $6.93 million, and that no committee was registered in opposition at that time. No later totals for Save Nebraska Sports were found.",
+      "sources": [
+        "e1",
+        "e3"
+      ]
+    }
   },
   "sources": [
     {
@@ -75,8 +113,30 @@
       "publisher": "Nebraska Examiner",
       "kind": "news",
       "date": "2026-09-11"
+    },
+    {
+      "id": "e1",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/online-sports-betting-petitions-in-nebraska-get-another-7-million-from-draftkings-and-fanduel/",
+      "title": "Online sports betting petitions in Nebraska get another $7 million from DraftKings and FanDuel",
+      "publisher": "Nebraska Public Media",
+      "kind": "news"
+    },
+    {
+      "id": "e2",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/here-are-the-statewide-ballot-measures-on-the-november-ballot/",
+      "title": "Voter guide: Here are the statewide ballot measures on the November ballot",
+      "publisher": "Nebraska Public Media",
+      "kind": "news",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "e3",
+      "url": "https://nebraskaexaminer.com/voter-guides/ballot-measures/online-sports-wagering-regulation-initiative/",
+      "title": "Initiative Measure 441 (2026 General Election voter guide)",
+      "publisher": "Nebraska Examiner",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Arguments are the 'Supporters contend' and 'Opponents contend' statements printed in the Secretary of State's official pamphlet, which says they are 'derived from information provided to the Secretary of State from supporters and opponents'; the pamphlet does not name the authors. The revenue figures in the arguments are the arguments' own claims, not an official fiscal estimate. The summary of Initiative 441's provisions is drawn from the full text printed in the pamphlet (the 70 percent revenue share appears only in the supporters' argument, not in the extracted bill text). Each argument item is a separate sentence from the same paragraph."
+  "researchNotes": "Arguments are the 'Supporters contend' and 'Opponents contend' statements printed in the Secretary of State's official pamphlet, which says they are 'derived from information provided to the Secretary of State from supporters and opponents'; the pamphlet does not name the authors. The revenue figures in the arguments are the arguments' own claims, not an official fiscal estimate. The summary of Initiative 441's provisions is drawn from the full text printed in the pamphlet (the 70 percent revenue share appears only in the supporters' argument, not in the extracted bill text). Each argument item is a separate sentence from the same paragraph. No official fiscal estimate is published in the Secretary of State's pamphlet, so fiscalImpact is omitted. Finance totals come from news reports of Nebraska Accountability and Disclosure Commission filings and are not independently checked against the portal."
 }
