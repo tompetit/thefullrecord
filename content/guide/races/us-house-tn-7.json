@@ -218,7 +218,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, biography, or public statements found for Andrew Koontz beyond his name appearing on the ballot."
+      "researchNotes": "No campaign website, biography, or public statements found for Andrew Koontz beyond his name appearing on the ballot. The Nashville Banner's voter's guide lists him with an empty questionnaire; the Banner notes he chose not to respond."
     },
     {
       "id": "lowell-reynolds",
@@ -259,11 +259,94 @@
           "sources": [
             "s6"
           ]
+        },
+        {
+          "text": "Says he supports building a high-speed rail system connecting major cities, with Nashville as its home city.",
+          "sources": [
+            "r2"
+          ],
+          "quote": "I am very much for high speed rails."
+        },
+        {
+          "text": "Says elder care needs to be addressed, citing treatment of relatives who needed nursing home care.",
+          "sources": [
+            "r2"
+          ],
+          "quote": "we need to address elder law."
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In the Nashville Banner questionnaire he said he supports greater taxes at the top of the income scale.",
+          "quote": "Greater tax at the top, lower taxes at the bottom.",
+          "sources": [
+            "r2"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In the Nashville Banner questionnaire he said tariffs should end.",
+          "quote": "we need to end the tariffs, as they are just a tax on Americans.",
+          "sources": [
+            "r2"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In the Nashville Banner questionnaire, asked whether a president needs congressional approval to wage war, he answered yes.",
+          "quote": "Yes, and so does the Constitution.",
+          "sources": [
+            "r2"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Asked in the Nashville Banner questionnaire whether immigration enforcement in the second Trump term has been too strict, not strict enough or appropriately strict, he answered too strict.",
+          "quote": "Too strict. We need immigrants to survive.",
+          "sources": [
+            "r2"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.lowellforcongress.com",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "No",
+          "context": "In the Nashville Banner candidate questionnaire (July 2026), answering whether he supports a federal ban on abortion",
+          "sources": [
+            "r2"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Allow and provide for more multi-family dwellings in lower income areas.",
+          "context": "In the Nashville Banner candidate questionnaire (July 2026), on how he would address housing supply",
+          "sources": [
+            "r2"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Considerably more",
+          "context": "In the Nashville Banner candidate questionnaire (July 2026), answering whether the federal government should spend more or less on health care benefits",
+          "sources": [
+            "r2"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from his July 2026 Nashville Banner candidate questionnaire; his campaign site is a one-page biography without issue pages. Immigration, abortion and health-care answers are short; the abortion answer addresses a federal ban only."
     }
   ],
   "sources": [
@@ -320,6 +403,13 @@
       "publisher": "Nashville Banner candidate questionnaire",
       "kind": "candidate",
       "date": "2026-07-16"
+    },
+    {
+      "id": "r2",
+      "url": "https://nashvillebanner.com/2026/07/16/lowell-reynolds-congress-tennessee-district-7/",
+      "title": "Lowell Reynolds: Independent Candidate for Congress, District 7",
+      "publisher": "Nashville Banner (candidate questionnaire)",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",
