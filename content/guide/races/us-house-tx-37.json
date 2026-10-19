@@ -213,11 +213,84 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "text": "End corruption and government waste: lists auditing federal agencies for fraud, waste and abuse.",
+          "quote": "Audit every federal agency for fraud, waste, and abuse",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Lower energy costs: lists eliminating federal regulations on Texas energy production.",
+          "quote": "Eliminate federal regulations strangling Texas energy production",
+          "sources": [
+            "s10"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says she will vote to fully fund federal programs that help local police departments recruit, equip and train officers.",
+          "quote": "Lauren will vote to fully fund the COPS program, the Byrne JAG grant program, and other federal resources that help cities like Austin recruit officers, purchase equipment, and train personnel.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Lists expanding school choice and education savings accounts among her platform items.",
+          "quote": "Expand school choice and education savings accounts",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Lists opposing any assault weapons ban, universal background check mandates and federal red flag laws among her platform items.",
+          "quote": "Oppose any assault weapons ban",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Lauren will push to streamline permitting, reduce compliance burdens, and free up land for affordable housing development.",
+          "context": "On the Austin affordability page of her campaign site",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Close the border. Finish the wall. End catch-and-release.",
+          "context": "On her campaign site's home page",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Oppose Green New Deal mandates that raise electricity costs",
+          "context": "On her campaign site's platform page, under 'Lower Energy Costs'",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign site (lauren4congress.com) platform and issue pages reviewed; positions and statements are taken from it (Oct. 19, 2026). The 2025 Ballotpedia Candidate Connection survey did not address the guide's issues directly. No abortion, health-care or tax positions found.",
+      "website": "https://www.lauren4congress.com/"
     }
   ],
   "sources": [
@@ -284,6 +357,38 @@
       "title": "Housing — Rep. Greg Casar official site",
       "publisher": "Office of Rep. Greg Casar",
       "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.lauren4congress.com/issues",
+      "title": "Where Lauren stands: platform",
+      "publisher": "Lauren B. Peña for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.lauren4congress.com/issues/fund-the-police",
+      "title": "Public safety: Fund the police",
+      "publisher": "Lauren B. Peña for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.lauren4congress.com/issues/austin-affordability",
+      "title": "Austin affordability",
+      "publisher": "Lauren B. Peña for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.lauren4congress.com/",
+      "title": "Lauren B. Peña for Congress (home)",
+      "publisher": "Lauren B. Peña for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

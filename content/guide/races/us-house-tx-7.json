@@ -98,12 +98,96 @@
           "s1"
         ]
       },
-      "background": [],
-      "priorities": [],
-      "positions": [],
+      "background": [
+        {
+          "text": "Energy and chemicals consultant at Alvarez & Marsal; previously worked at AEI, in the U.S. Senate and at Patriot Capital (as described in his Community Impact candidate profile).",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Houston's energy economy: defend Houston's role in the energy industry.",
+          "quote": "Defend Houston's role as the energy capital of America.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Affordability and fiscal responsibility, starting with federal deficit spending.",
+          "quote": "Affordability and Fiscal Responsibility: fix what's driving prices up in the first place, starting with Washington's wasteful deficit spending.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Healthcare costs: price transparency and competition.",
+          "quote": "Healthcare: lower costs through price transparency and real competition, not more middlemen.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says he will fight to restore full Byrne JAG federal grant funding for local law enforcement, and lists funding law enforcement among his priorities.",
+          "quote": "Alexander will fight to restore full Byrne JAG funding and oppose any effort to condition those grants on the adoption of progressive policing mandates dressed up as reform.",
+          "sources": [
+            "s5",
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or curated biography/key-messages profile was found for Hale; only the primary result is documented."
+      "researchDepth": "basic",
+      "researchNotes": "Found halefortexas.com priority pages, a Community Impact Q&A (Aug. 28, 2026) and the Ballotpedia-quoted Feb. 2026 version of his site. The school choice and border statements come from that earlier site text, which has since been replaced by the current priority pages. No Ballotpedia Candidate Connection survey. Positions on abortion, guns, taxes and tariffs not found.",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Build more, faster. Cut the federal red tape that makes it more expensive to build a house, a power plant, or a pipeline in Houston.",
+          "context": "On the Affordability page of his campaign site",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Let families pay their doctor directly with pre-tax dollars, and keep insurance for real emergencies.",
+          "context": "On the Healthcare page of his campaign site",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Champion an all-of-the-above strategy: oil, gas, nuclear, refining, and innovation.",
+          "context": "On the Energy page of his campaign site",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "School choice and innovative approaches are key to improving student outcomes within the district.",
+          "context": "On his campaign website, as quoted by Ballotpedia on Feb. 20, 2026",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We must continue to secure our border and counter the negative effects of illegal entry.",
+          "context": "On his campaign website, as quoted by Ballotpedia on Feb. 20, 2026",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "website": "https://halefortexas.com/"
     },
     {
       "id": "espoir-ngabo",
@@ -154,7 +238,8 @@
           "summary": "Supports a $25 federal minimum wage indexed to the cost of living.",
           "quote": "a $25 federal minimum wage that keeps up with the cost of living",
           "sources": [
-            "s1"
+            "s1",
+            "s11"
           ]
         },
         {
@@ -163,12 +248,24 @@
           "summary": "Supports a single-payer healthcare system covering everyone.",
           "quote": "healthcare for everyone through a single-payer system",
           "sources": [
-            "s1"
+            "s1",
+            "s11"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "billionaires should pay their fair share instead of gaming the system while working families get squeezed.",
+          "context": "In his Ballotpedia Candidate Connection survey (Sept. 23, 2026)",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Ballotpedia Candidate Connection survey (May and Sept. 2026) and a Community Impact Q&A (Aug. 28, 2026) reviewed. Housing, flood, transit and campaign-finance proposals he lists do not map directly to the guide's issues. No abortion, guns, immigration, tax-rate or climate positions found beyond the statement shown."
     }
   ],
   "sources": [
@@ -203,6 +300,62 @@
       "publisher": "Office of Rep. Lizzie Fletcher",
       "kind": "official",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://halefortexas.com/priorities/safety",
+      "title": "Priority 04: Public Safety",
+      "publisher": "Hale for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
+      "url": "https://halefortexas.com/priorities/energy",
+      "title": "Priority 01: Houston's Energy Economy",
+      "publisher": "Hale for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
+      "url": "https://halefortexas.com/priorities/healthcare",
+      "title": "Priority 03: Lowering Healthcare Costs",
+      "publisher": "Hale for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s8",
+      "url": "https://halefortexas.com/priorities/affordability",
+      "title": "Priority 02: Increasing Affordability",
+      "publisher": "Hale for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://communityimpact.com/heights-river-oaks-montrose/election/qa-meet-the-candidates-running-for-us-house-district-7/",
+      "title": "Q&A: Meet the candidates running for US House District 7",
+      "publisher": "Community Impact",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Alexander_Hale",
+      "title": "Alexander Hale",
+      "publisher": "Ballotpedia (quoting Hale's campaign website, Feb. 20, 2026)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/Espoir_Ngabo",
+      "title": "Espoir Ngabo",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25"
