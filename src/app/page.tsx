@@ -33,9 +33,9 @@ export default function Home() {
 
       <section className="mx-auto grid w-full max-w-7xl gap-10 px-4 sm:px-6 py-12 md:py-16 lg:grid-cols-[1.35fr_1fr] lg:gap-16 lg:px-10 lg:py-20">
         <div>
-          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent">Public record</p>
+          <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent">Public service. Public record.</p>
           <h1 className="mt-5 max-w-2xl font-serif text-[clamp(2.8rem,5.4vw,4.7rem)] font-semibold leading-[1.04] tracking-[-0.035em] text-ink">
-            Where they split<br />is where they differ.
+            Before you vote,<br />see how they did.
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-60 md:text-lg">
             Most votes are unanimous and tell you little. The roll calls where legislators divided are the ones that set them apart. See the contested votes, check your own representatives, and follow the evidence.
