@@ -30,7 +30,8 @@
       "text": "Only Lamont and Fazio appear on the general-election ballot with party lines. Write-in campaigns by Christian Noe and Zenobia Adgers are listed for governor, and Politics1 also lists Lee Whitnum as a write-in.",
       "sources": [
         "s1",
-        "s17"
+        "s17",
+        "s26"
       ]
     }
   ],
@@ -102,6 +103,7 @@
           "stance": "supports",
           "summary": "Signed a 2022 law protecting patients who travel to Connecticut for abortion care and the providers who treat them, which his campaign calls the first such law after Roe v. Wade was overturned.",
           "sources": [
+            "s4",
             "s5",
             "s7"
           ]
@@ -161,7 +163,7 @@
           "kind": "bill"
         },
         {
-          "text": "Signed Public Act 23-53, An Act Addressing Gun Violence, which among other provisions prohibits carrying a firearm with intent to display it and expands restrictions on ghost guns.",
+          "text": "Signed Public Act 23-53, An Act Addressing Gun Violence, which among other provisions prohibits carrying a firearm with intent to display it and adds provisions on firearms made from unfinished frames or lower receivers.",
           "sources": [
             "s8",
             "s19"
@@ -197,7 +199,8 @@
         "sources": [
           "s1",
           "s10",
-          "s11"
+          "s11",
+          "s25"
         ]
       },
       "background": [
@@ -284,12 +287,13 @@
           "kind": "vote"
         },
         {
-          "text": "Voted against the November 2025 housing growth act (HB 8002), which Gov. Lamont signed.",
+          "text": "Voted no on the final Senate passage of HB 8002, An Act Concerning Housing Growth, which passed 24-10 and which Gov. Lamont signed.",
           "sources": [
             "s12",
-            "s20"
+            "s20",
+            "s24"
           ],
-          "date": "2025-11-13",
+          "date": "2025-11-14",
           "kind": "vote"
         }
       ],
@@ -481,8 +485,32 @@
       "publisher": "Connecticut General Assembly",
       "kind": "official",
       "date": "2026-10-19"
+    },
+    {
+      "id": "s24",
+      "url": "https://www.cga.ct.gov/2025/vote/s/pdf/2025SV-00452-R00HB08002-SV.PDF",
+      "title": "Senate vote on HB 8002, Sequence Number 452",
+      "publisher": "Connecticut General Assembly",
+      "kind": "official",
+      "date": "2025-11-14"
+    },
+    {
+      "id": "s25",
+      "url": "https://www.cga.ct.gov/et/",
+      "title": "Energy and Technology Committee",
+      "publisher": "Connecticut General Assembly",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s26",
+      "url": "https://portal.ct.gov/-/media/sots/electionservices/town_ballots/2026/nov-2026/westport_sample.pdf",
+      "title": "Westport sample ballot, November 3, 2026",
+      "publisher": "Connecticut Secretary of the State",
+      "kind": "official",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Running mates (Susan Bysiewicz, Matthew Corey) are elected jointly with the governor candidate and are noted in each candidate's ballotNote rather than listed separately. The Connecticut Secretary of the State's certified list could not be loaded from this environment (cga.ct.gov and portal.ct.gov pages for it were unavailable) and Ballotpedia blocked automated access; the slate (Lamont D/Working Families, Fazio R/Independent Party, no other printed candidates) was confirmed by two independent sources, Wikipedia and Politics1. Declared write-ins (Noe, Adgers, Whitnum) are not listed as candidates. Fazio's roll-call votes were read directly from the Connecticut General Assembly's Senate vote PDFs; bill titles and signing dates from the General Assembly's bill-status pages."
+  "researchNotes": "Running mates (Susan Bysiewicz, Matthew Corey) are elected jointly with the governor candidate and are noted in each candidate's ballotNote rather than listed separately. The slate was confirmed against official Connecticut Secretary of the State sample ballot (Westport): the governor race shows only two tickets, Lamont/Bysiewicz and Fazio/Corey, each on two party lines; the party-line names (Democratic, Working Families, Republican, Independent Party) come from Wikipedia's results table because the ballot text does not extract. Declared write-ins (Noe, Adgers, Whitnum) are not listed as candidates. Fazio's roll-call votes were read directly from the Connecticut General Assembly's Senate vote PDFs; bill titles and signing dates from the General Assembly's bill-status pages."
 }

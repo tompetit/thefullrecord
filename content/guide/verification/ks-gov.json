@@ -25,5 +25,18 @@
       "Re-verified primary results, Trump endorsement, bio facts (K-State, 2010 bankruptcy, 2005 House start, University of Missouri 1992), Masterson/Holscher quotes and platform items against HPPR, Kansas Reflector/KSAL, campaign sites.",
       "Slate remains news/reference-based: KS SOS candidate list page is WAF-blocked (HTTP 202) and no county sample ballot found; Politics1 (Oct 2) and Wikipedia agree on two tickets plus write-in Sharilyn Ray."
     ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 42,
+    "corrected": 2,
+    "removed": 2,
+    "notes": [
+      "Removed Masterson healthcare_public ('opposes') and abortion ('opposes') positions: they rested only on Kansas Reflector's characterization, not his own statement.",
+      "Masterson school_choice position narrowed to his own recorded vote on the SB 361 veto override; dropped the reporter's 'endorsed diverting state tax dollars' wording.",
+      "Slate: added The Green Papers (fetched; lists Holscher/Ohaebosim, Masterson/Klemp, write-in Sharilyn Ray) as a cited source; KS SOS upcoming-candidates page returns an empty HTTP 202 so slate stays news/reference-based. Context wording changed from 'No Libertarian found' to what the two lists show.",
+      "Re-fetched all four official Senate roll calls (SB 361 29-10, HB 2437 28-11, SCR 1616 30-10, SB 76 26-14): directions and dates match.",
+      "Re-checked primary results, bios, districts, quotes and platform items against HPPR, Kansas Reflector, campaign sites and Wikipedia; no other discrepancies."
+    ]
   }
 }

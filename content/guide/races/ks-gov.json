@@ -27,11 +27,12 @@
       ]
     },
     {
-      "text": "Candidates run as tickets; each nominee's running mate is a sitting legislator. Two tickets are on the ballot; Politics1 (updated October 2) and The Green Papers list only the Democratic and Republican tickets plus one independent write-in candidate for governor, Sharilyn Ray. No Libertarian candidate for governor was found.",
+      "text": "Candidates run as tickets; each nominee's running mate is a sitting legislator. Two tickets are on the ballot; Politics1 (updated October 2) and The Green Papers list only the Democratic and Republican tickets plus one independent write-in candidate for governor, Sharilyn Ray. Neither lists a Libertarian candidate for governor.",
       "sources": [
         "s1",
         "s3",
-        "s12"
+        "s12",
+        "s13"
       ]
     }
   ],
@@ -209,9 +210,8 @@
         {
           "issue": "school_choice",
           "stance": "supports",
-          "summary": "Endorsed diverting state tax dollars to private education and voted to override the governor's veto of the bill electing into the federal scholarship tax credit.",
+          "summary": "Voted to override the governor's veto of SB 361, the bill electing into the federal tax credit for contributions to scholarship-granting organizations (April 9, 2026).",
           "sources": [
-            "s10",
             "s6"
           ]
         },
@@ -219,22 +219,6 @@
           "issue": "transgender_sports",
           "stance": "supports",
           "summary": "Said in his campaign announcement that he advanced bills blocking transgender individuals from sports teams designated for girls or women.",
-          "sources": [
-            "s10"
-          ]
-        },
-        {
-          "issue": "healthcare_public",
-          "stance": "opposes",
-          "summary": "Has opposed broadening access to Medicaid health services for lower-income Kansans, according to Kansas Reflector reporting.",
-          "sources": [
-            "s10"
-          ]
-        },
-        {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Has sought to expand state regulation of abortion as Senate president, according to Kansas Reflector reporting.",
           "sources": [
             "s10"
           ]
@@ -369,8 +353,15 @@
       "publisher": "Politics1",
       "kind": "reference",
       "date": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.thegreenpapers.com/G26/KS.phtml",
+      "title": "Kansas 2026 General Election",
+      "publisher": "The Green Papers",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Ballotpedia was blocked in this environment, so the slate comes from news coverage (Kansas Reflector, Kansas News Service) and Wikipedia; the Kansas Secretary of State's certified list could not be loaded (kssos.org candidate-list page blocked), so the slate was checked against Politics1 (Oct 2) and The Green Papers, which show only the two major-party tickets plus independent write-in Sharilyn Ray, and no Libertarian for governor. Running mates are noted in ballotNote, as Kansas tickets run jointly. Legislative votes come from the repo's official Kansas Senate roll-call snapshot (2025 and 2026 sessions only); the April 2026 votes are veto overrides, and the roll-call pages link to the Legislature's records. Masterson's pronoun/name vote (SB 76) and SCR 1616 votes are listed for both candidates for symmetry. Holscher's abortion position was not documented in a loaded source and is omitted."
+  "researchNotes": "Ballotpedia was blocked in this environment, so the slate comes from news coverage (Kansas Reflector, Kansas News Service) and Wikipedia; the Kansas Secretary of State's certified list could not be loaded (the Secretary of State's upcoming-candidates page returned an empty challenge response), so the slate was checked against Politics1 (Oct 2) and The Green Papers, which show only the two major-party tickets plus independent write-in Sharilyn Ray, and no Libertarian for governor. Running mates are noted in ballotNote, as Kansas tickets run jointly. Legislative votes come from the repo's official Kansas Senate roll-call snapshot (2025 and 2026 sessions only); the April 2026 votes are veto overrides, and the roll-call pages link to the Legislature's records. Masterson's pronoun/name vote (SB 76) and SCR 1616 votes are listed for both candidates for symmetry. Holscher's abortion position was not documented in a loaded source and is omitted. Pass 3: Masterson's Medicaid and abortion positions were removed because they rested only on a reporter's characterization, not his own statement; The Green Papers (checked October 19) was added as a source for the slate."
 }
