@@ -236,11 +236,44 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Housing and healthcare as human rights.",
+          "quote": "Housing is a human right.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Term limits for Congress.",
+          "quote": "Term limits",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Deprivatization of prisons.",
+          "quote": "Deprivatization of prisons",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No public biography or stated positions found."
+      "researchNotes": "Found a campaign page on FixVermont.com (marked under development) with a short priorities list; only one statement touches a guide issue (health care) without specifying a policy.",
+      "website": "https://fixvermont.com/?page_id=16",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Healthcare is a human right.",
+          "context": "On the candidate's campaign website",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     },
     {
       "id": "adam-ortiz",
@@ -290,11 +323,52 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Oversight: eliminating fraud, waste and abuse in federal spending and maintaining Social Security.",
+          "quote": "I will take a stand against fraud and abuse of federal tax dollars to minimize the federal tax burden on working Vermonters and maintain social security for retirees now and in the future.",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Accountability: reducing the influence of large donors in elections.",
+          "quote": "We need to get the Big $$ out of elections so every true candidate can be heard",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Federal investment in jobs and infrastructure for Vermont.",
+          "quote": "Vermonters need good jobs, and affordable costs.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No public biography or stated positions found."
+      "researchDepth": "basic",
+      "researchNotes": "Sources: her campaign site's issues page and her written answers to a Vermont Bellwether questionnaire (an independent Substack publication; the answers are printed in her own words). Her answers do not state a position on most guide issues.",
+      "website": "https://ruokvt.com/",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Yes I do but I think we need to be as creative as possible about it. Instead of just building and building, Vermont could convert old barns, churches, and other existing structures into apartments instead of clearing more land for new development.",
+          "context": "Answering whether she supports reforming Act 250 to speed up housing development, Vermont Bellwether questionnaire (Oct. 14, 2026)",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "I believe the entire health-care system needs restructuring; it's more of a disease-care system, and we need to replace it with a preventative wellness model.",
+          "context": "Answering a question on the ACA marketplace, Vermont Bellwether questionnaire (Oct. 14, 2026)",
+          "sources": [
+            "s15"
+          ]
+        }
+      ]
     },
     {
       "id": "ryan-walton",
@@ -310,11 +384,27 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Representing Vermont as an independent, owing no party the state's congressional vote.",
+          "quote": "Owe No Party",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Working with Democrats or Republicans when it benefits Vermont.",
+          "quote": "Work With Anyone",
+          "sources": [
+            "s16"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No public biography or stated positions found."
+      "researchNotes": "Campaign website describes his background (real estate, construction, software) and independence argument; it lists no policy positions or statements on the guide's issues. His news page had no posts as of Oct. 19, 2026.",
+      "website": "https://www.waltonforvermont.com/"
     }
   ],
   "sources": [
@@ -403,6 +493,34 @@
       "publisher": "Gerald Malloy for Congress",
       "kind": "candidate",
       "id": "s12"
+    },
+    {
+      "id": "s13",
+      "url": "https://fixvermont.com/?page_id=16",
+      "title": "The \"Altair'native; Phoenix Altair For U.S Congress",
+      "publisher": "FixVermont.com (Phoenix Altair campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://ruokvt.com/issues/",
+      "title": "Where Suz Stands",
+      "publisher": "Suzanne Seymour for US Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
+      "url": "https://vermontbellwether.substack.com/p/what-the-record-shows",
+      "title": "What the Record Shows: Suzanne \"Suz\" Seymour",
+      "publisher": "Vermont Bellwether (candidate questionnaire answers, Oct. 14, 2026)",
+      "kind": "news"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.waltonforvermont.com/",
+      "title": "Walton for Vermont",
+      "publisher": "Walton for Vermont campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
