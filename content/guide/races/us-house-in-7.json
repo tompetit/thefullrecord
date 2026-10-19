@@ -139,16 +139,58 @@
       "incumbent": false,
       "ballotNote": "Won the May 5, 2026 Republican primary with 84.4% of the vote.",
       "summary": {
-        "text": "Patrick McAuley is the Republican nominee for Indiana's 7th Congressional District. As of this research, he had not completed Ballotpedia's Candidate Connection survey and no biography or detailed public statements of his positions were found.",
+        "text": "Patrick McAuley is the Republican nominee for Indiana's 7th Congressional District. As of this research, he had not completed Ballotpedia's Candidate Connection survey and no biography was found.",
         "sources": [
           "s4"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says his campaign is focused on homelessness, housing, public safety and jobs.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "We've been focused strictly on local issues: homelessness, housing, public safety, and jobs"
+        },
+        {
+          "text": "Says he would start with helping people build credit.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "what we are looking at doing right away is helping people build credit."
+        },
+        {
+          "text": "Says he would prioritize trades, apprenticeships and skilled-job opportunities.",
+          "sources": [
+            "s9"
+          ],
+          "quote": "Patrick will prioritize expanded trades, apprenticeships, and skilled-job opportunities so Indianapolis residents can build careers, raise families, and stay in the communities they call home."
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Patrick will fight to expand housing supply, convert vacant properties into productive use, and support practical pathways off the street through partnerships and federal resources.",
+          "context": "On his campaign site, written in the third person",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We do have to have a standard for letting people into this country, but we have to do it in a way that stands with the values that this country was built off of",
+          "context": "In a WFYI interview, asked about how ICE has been used",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "website": "https://mcauleyforthe7th.com/",
+      "researchNotes": "Statements are from his campaign issues page and a WFYI interview. He has not completed Ballotpedia's Candidate Connection survey. He said Indiana needs voter IDs; that is not the same as the guide's documentary-proof-of-citizenship issue, so it is not recorded. His site lists public safety goals without addressing police funding, so none is recorded."
     },
     {
       "id": "james-sceniak",
@@ -186,11 +228,37 @@
           "sources": [
             "s6"
           ]
+        },
+        {
+          "text": "Says his priorities include constitutional security with privacy and lower taxes.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "we want more constitutional security with privacy. We want lower taxes"
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "the tactics we're using with ICE, absolutely unconstitutional. We have to look at, we do have to have borders. We do have to have security, but we have to look at the enforcement.",
+          "context": "In a WFYI interview",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "I don't think big corporations should get tax cuts. I think you know the data centers should be paying their fair share.",
+          "context": "In a WFYI interview, on data center development",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Statements are from a WFYI interview (July 29, 2026) and the prior campaign site text quoted on Ballotpedia. He has not completed Ballotpedia's 2026 Candidate Connection survey. His answer on removing U.S. troops from Iran is not recorded under War Powers because it did not address congressional approval."
     }
   ],
   "sources": [
@@ -242,8 +310,22 @@
       "title": "Health Care",
       "publisher": "Rep. André Carson (official site)",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.wfyi.org/statewide/2026-09-23/2026-voter-guide-indianas-7th-congressional-district",
+      "title": "2026 Voter Guide: Indiana's 7th Congressional District (candidate interviews)",
+      "publisher": "WFYI",
+      "kind": "news"
+    },
+    {
+      "id": "s9",
+      "url": "https://mcauleyforthe7th.com/issues/",
+      "title": "Issues",
+      "publisher": "Patrick McAuley for Congress campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website, biography, or public statements were found for Patrick McAuley beyond his primary result; he has not completed Ballotpedia's Candidate Connection survey. James Sceniak's cited priorities come from a campaign website republished by Ballotpedia from a prior (Senate) run, not a 2026-specific statement; treat as background rather than a current position. Carson's federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Patrick McAuley has not completed Ballotpedia's Candidate Connection survey; no biography was found, and his statements are from his campaign issues page and a WFYI interview. James Sceniak's cited priorities come from a campaign website republished by Ballotpedia from a prior (Senate) run, not a 2026-specific statement; treat as background rather than a current position. Carson's federal key votes and FEC totals are added separately by script."
 }

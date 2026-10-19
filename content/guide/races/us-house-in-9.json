@@ -227,7 +227,7 @@
       "incumbent": false,
       "ballotNote": "Advanced from the Libertarian Party's March 22, 2026 convention.",
       "summary": {
-        "text": "Tonya Hudson is the Libertarian nominee for Indiana's 9th Congressional District, a real estate broker from Indianapolis who has run in prior elections on reducing taxes and government regulation.",
+        "text": "Tonya Hudson is the Libertarian nominee for Indiana's 9th Congressional District, a real estate broker born in Indianapolis who has run in prior elections on reducing taxes and government regulation.",
         "sources": [
           "s5"
         ]
@@ -253,21 +253,62 @@
           "sources": [
             "s6"
           ]
+        },
+        {
+          "text": "Lists voting against unconstitutional wars among her top priorities.",
+          "sources": [
+            "s12"
+          ],
+          "quote": "vote against unconstitutional wars."
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "The unauthorized war in Iran by DJT has been a disaster.",
+          "context": "On her campaign site, on the wars in the Middle East",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "The good citizens of this land have the right to keep and bear Arms. Period.",
+          "context": "On her campaign site",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "If elected, as a member of Congress, I will endorse pro-climate bills to influence positive change around our planet without increasing taxes on the American People.",
+          "context": "On her campaign site",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We need to add more entry-check points to reduce the bottle neck of traffic while at the same time update/streamline the processing system to make it easier for migrant workers to come into the U.S. legally.",
+          "context": "On her campaign site, under \"Secure Borders and Immigration\"",
+          "sources": [
+            "s13"
+          ]
+        },
         {
           "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supports reducing taxes broadly and abolishing the IRS rather than raising taxes.",
           "quote": "We, as a People, need to reduce the tax burden and give the people their money back. Abolish the IRS.",
+          "context": "In her Ballotpedia Candidate Connection survey",
           "sources": [
             "s6"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "basic"
+      "website": "https://tonyaforcongress.com/",
+      "researchNotes": "Positions and statements are from her campaign site, her Ballotpedia Candidate Connection survey and the Louisville Public Media/WFYI candidate survey. She says on her site that military assistance to allies should be authorized by Congress only as an exception; that sentence is unclear on the guide issue and is not recorded."
     },
     {
       "id": "floyd-taylor",
@@ -278,16 +319,58 @@
       "incumbent": false,
       "ballotNote": "Declared write-in candidate for the general election.",
       "summary": {
-        "text": "Floyd Taylor is an independent write-in candidate for Indiana's 9th Congressional District. No biography, campaign website content, or public statements of his positions were found as of this research.",
+        "text": "Floyd Taylor is an independent write-in candidate for Indiana's 9th Congressional District, a local business owner and cancer survivor, according to his Ballotpedia Candidate Connection survey.",
         "sources": [
-          "s7"
+          "s15"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says his votes would be bound to what verified district constituents say through the Congress App.",
+          "sources": [
+            "s15"
+          ],
+          "quote": "My vote is bound to what the district says — not what a party whip demands."
+        },
+        {
+          "text": "Says rural infrastructure and health care access are policy priorities.",
+          "sources": [
+            "s15"
+          ],
+          "quote": "Southern Indiana doesn't need more speeches. It needs broadband that reaches the last mile, healthcare that reaches rural counties, dementia care for the veterans who earned it, property tax relief for seniors being taxed out of their homes"
+        },
+        {
+          "text": "Says his campaign takes no PAC, party or dark money.",
+          "sources": [
+            "s15"
+          ],
+          "quote": "My campaign takes no PAC money, no party money, no dark money."
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Commonsense regs + clean-energy jobs.",
+          "context": "On his campaign site, under \"Environmental Stewardship & Economic Growth\"",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Protect our borders; favor dialogue over war.",
+          "context": "On his campaign site, under \"National Security & Smart Diplomacy\"",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "website": "https://floyd2026.com/",
+      "researchNotes": "His campaign site says he has no personal platform and that his votes would follow constituent input collected through his Congress App, so no stances on specific guide issues are recorded. He is a write-in candidate. Statements are from his campaign site; priorities are from his Ballotpedia Candidate Connection survey."
     }
   ],
   "sources": [
@@ -334,13 +417,6 @@
       "kind": "candidate"
     },
     {
-      "id": "s7",
-      "url": "https://ballotpedia.org/Floyd_Taylor",
-      "title": "Floyd Taylor",
-      "publisher": "Ballotpedia",
-      "kind": "reference"
-    },
-    {
       "id": "s8",
       "url": "https://www.erinhouchin.com/issues",
       "title": "Erin Houchin on the Issues",
@@ -375,8 +451,29 @@
       "title": "2026 Voter Guide: Indiana's 9th Congressional District",
       "publisher": "WFYI / Louisville Public Media candidate survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://tonyaforcongress.com/issues-2/",
+      "title": "Positions",
+      "publisher": "Tonya Hudson for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://floyd2026.com/beliefs.php",
+      "title": "Core Beliefs",
+      "publisher": "Floyd Taylor for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
+      "url": "https://ballotpedia.org/Floyd_Taylor",
+      "title": "Floyd Taylor",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Erin Houchin has not completed a 2026 Candidate Connection survey, and her official houchin.house.gov site has no substantive Issues content beyond topic categories. Positions and priorities are drawn from her campaign website, erinhouchin.com/issues. No public statements were found for Floyd Taylor, a declared write-in independent. Houchin's federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Erin Houchin has not completed a 2026 Candidate Connection survey, and her official houchin.house.gov site has no substantive Issues content beyond topic categories. Positions and priorities are drawn from her campaign website, erinhouchin.com/issues. Floyd Taylor is a declared write-in independent; his statements are from his campaign site and Ballotpedia survey. Houchin's federal key votes and FEC totals are added separately by script."
 }
