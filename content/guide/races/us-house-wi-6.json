@@ -176,11 +176,75 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
-      "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No Ballotpedia biography, campaign website, or public statements on issues were found as of the research date."
+      "priorities": [
+        {
+          "text": "Names breaking up concentrated economic power (monopolies, Wall Street, private equity) as a central message.",
+          "quote": "Break the grip of concentrated economic power.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Lists his \"red lines\" on his campaign site, including breaking up monopolies and Medicare for All.",
+          "quote": "Break up Monopolies",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Lists ending forever wars and stopping data centers among his positions.",
+          "quote": "Stop Forever Wars",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign site lists Medicare for All among his positions.",
+          "quote": "Get us Medicare for All.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign site says he supports a tax on large banks' profits to help pay down the national debt.",
+          "quote": "That is why I support a Wall Street mega-bank tax",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
+      "record": [
+        {
+          "text": "Charged with misdemeanor disorderly conduct in connection with an Oct. 8, 2026 road rage incident in Mequon, Wisconsin. The other driver told investigators Arndt tailgated him; Arndt told WISN the other driver followed him into a gas station and harassed him, and denied the driver's account of his driving. A charge is not a finding of guilt; he is scheduled to appear in court on Nov. 3, 2026.",
+          "date": "2026-10-13",
+          "kind": "legal",
+          "sources": [
+            "s13",
+            "s14"
+          ]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Positions and priorities come from his campaign site (endthecartel.com) and his 2026 Ballotpedia survey. His site's text on Israel concerns foreign aid and ties generally and was not recorded as a position on military aid.",
+      "website": "https://endthecartel.com/",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "That means reducing the risk of unnecessary wars and nuclear escalation, protecting Social Security and Medicare, confronting climate change, and taking seriously the economic and social consequences of rapidly expanding artificial intelligence and data centers.",
+          "context": "In his Ballotpedia Candidate Connection survey (2026)",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     },
     {
       "id": "elizabeth-fitzgibbon",
@@ -220,7 +284,18 @@
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No campaign website statements were found beyond her Ballotpedia Candidate Connection survey."
+      "researchNotes": "Statements come from her Ballotpedia survey and campaign website. Her site's 12-priority 'Solutions' page is video-based; its text covers monetary policy and constitutional review, not the guide's issues.",
+      "website": "https://www.fitzgibbonforcongress.com",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Make housing more attainable by supporting practical solutions that expand supply, strengthen communities, and help working families stay rooted where they live.",
+          "context": "On her campaign issues page",
+          "sources": [
+            "s12"
+          ]
+        }
+      ]
     },
     {
       "id": "mike-thurow",
@@ -276,7 +351,18 @@
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No campaign website statements were found beyond his Ballotpedia Candidate Connection survey."
+      "researchNotes": "Statements come from his Ballotpedia survey and campaign platform page. His platform's first-responder funding, drug-pricing and defense-spending sections were not recorded as positions on the guide's issue statements.",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "We can lower taxes for regular Americans without raising the deficit by closing corporate tax loopholes, targeting wasteful government spending, and cracking down on fraud.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "website": "https://www.thurowforcongress.com"
     }
   ],
   "sources": [
@@ -329,6 +415,57 @@
       "title": "Brad Smith for Congress",
       "publisher": "Citizens for Brad Smith",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://endthecartel.com/where-i-stand/",
+      "title": "Where I Stand",
+      "publisher": "Matthew Arndt for Congress (End the Cartel)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://endthecartel.com/",
+      "title": "Home - End the Cartel",
+      "publisher": "Matthew Arndt for Congress (End the Cartel)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Matthew_Arndt",
+      "title": "Matthew Arndt",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.thurowforcongress.com/platform",
+      "title": "Platform",
+      "publisher": "Mike Thurow for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.fitzgibbonforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Elizabeth Fitzgibbon for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.wisn.com/article/matthew-arndt-disorderly-conduct-charge-road-rage/74113532",
+      "title": "Green Party congressional candidate charged after road rage incident",
+      "publisher": "WISN 12",
+      "kind": "news",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "s14",
+      "url": "https://wtmj.com/news/2026/10/13/wisconsin-congressional-candidate-charged-following-alleged-road-rage-incident-in-mequon/",
+      "title": "Wisconsin congressional candidate charged following alleged road rage incident in Mequon",
+      "publisher": "WTMJ",
+      "kind": "news",
+      "date": "2026-10-13"
     }
   ],
   "researchedAt": "2026-09-25"

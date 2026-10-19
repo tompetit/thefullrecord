@@ -194,7 +194,41 @@
       "positions": [],
       "record": [],
       "website": "https://www.melineforcongress.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "Public safety starts with supporting well-trained and properly funded law enforcement.",
+          "context": "On his campaign website (July 16, 2026), as quoted by Ballotpedia",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We need a secure border so we can stop trafficking and cartel activity and enforce immigration law consistently.",
+          "context": "On his campaign website (July 16, 2026), as quoted by Ballotpedia",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Encourage housing construction by reducing unnecessary regulatory barriers and using federal infrastructure and housing programs in ways that increase supply while respecting state and local authority over land use.",
+          "context": "On his campaign website's priorities page",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "America should pursue abundant, reliable energy, including hydropower, nuclear power, renewables, natural gas, and domestic oil production, to strengthen energy security and keep utility and transportation costs manageable.",
+          "context": "On his campaign website's priorities page",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -267,8 +301,15 @@
       "title": "Public Safety",
       "publisher": "Dr. Kim Schrier for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.melineforcongress.com/priorities",
+      "title": "Vision & Priorities",
+      "publisher": "Meline for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Schrier's healthcare and gun-safety statements are drawn from active issue pages on her campaign website; other issue subpages (economy/trade) returned no fetchable content. Meline completed Ballotpedia's 2026 Candidate Connection survey; his fuller responses were not exhaustively transcribed given the basic research tier. Schrier's federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Schrier's healthcare and gun-safety statements are drawn from active issue pages on her campaign website; other issue subpages (economy/trade) returned no fetchable content. Meline completed Ballotpedia's 2026 Candidate Connection survey; his fuller responses were not exhaustively transcribed given the basic research tier. Schrier's federal key votes and FEC totals are added separately by script. Meline's issue statements are drawn from his campaign priorities page and the website text Ballotpedia quotes in his Candidate Connection entry; he takes no stance on the guide's issue statements in a form that could be recorded as a position."
 }
