@@ -133,26 +133,44 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "His campaign issues page calls for guaranteeing affordable health care for every American.",
-          "quote": "Guarantee affordable health care for every American and ensure that no family is forced into bankruptcy because they got sick.",
-          "sources": [
-            "s8"
-          ]
-        },
-        {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "His campaign issues page proposes restoring the corporate tax rate to 26%, raising the Social Security payroll tax cap to $250,000, and taxing large executive stock awards when received.",
-          "quote": "Reagan Redux restores the corporate tax rate to that level, generating hundreds of billions in revenue that can be invested in Social Security, education, health care, veterans services, and programs that strengthen working families.",
+          "quote": "During President Reagan's second term, the corporate tax rate stood at 26%. Reagan Redux restores the corporate tax rate to that level, generating hundreds of billions in revenue that can be invested in Social Security, education, health care, veterans services, and programs that strengthen working families.",
           "sources": [
             "s8"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "universal_childcare",
+          "quote": "Expand affordable child care through a sliding-scale subsidy that helps working families manage one of their largest monthly expenses.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "creating incentives for builders to construct affordable housing for first-time buyers and middle-class families.",
+          "context": "On his campaign issues page, describing the H.E.A.R.T. Act proposal",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Guarantee affordable health care for every American and ensure that no family is forced into bankruptcy because they got sick.",
+          "context": "On his campaign issues page, under Health Care",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements are from his campaign issues page and 2025 Ballotpedia Candidate Connection survey. Neither addresses abortion, guns, immigration, climate or other tracked issues; no debate or forum coverage was found."
     },
     {
       "id": "mike-klein",
@@ -208,9 +226,47 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In his Ballotpedia survey he says the Social Security contribution cap should be raised so the wealthy pay their fair share.",
+          "quote": "We must also raise the cap on Social Security contributions so the wealthy pay their fair share.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Redirect resources to professional law enforcement. Every person on American soil is entitled to due process under the law.",
+          "context": "On his campaign site, under the heading \"ICE Out — Respect Due Process\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "War is a last resort — not a tool of political convenience or executive ego.",
+          "context": "On his campaign site's 5 Pillars page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Every American deserves access to affordable healthcare — not rationed by wealth or corporate pricing power.",
+          "context": "On his campaign site's 5 Pillars page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements are from his 2026 Ballotpedia survey and campaign 5 Pillars page. The site is general on most tracked issues; no abortion, guns, climate or tariff statements found."
     }
   ],
   "sources": [
@@ -277,6 +333,14 @@
       "publisher": "Seth Harp for Congress",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://mikeklein4congress.com/5-pillars/",
+      "title": "5 Pillars - Mike Klein",
+      "publisher": "Mike Klein for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
