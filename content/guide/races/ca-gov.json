@@ -65,7 +65,8 @@
         {
           "text": "Declare a state of emergency to freeze insurance and utility rates and to fund 40,000 units of already-approved affordable housing.",
           "sources": [
-            "s3"
+            "s3",
+            "s11"
           ]
         },
         {
@@ -78,7 +79,8 @@
         {
           "text": "Expand state health coverage and lower costs, including by cutting insurers' administrative spending.",
           "sources": [
-            "s3"
+            "s3",
+            "s12"
           ]
         }
       ],
@@ -86,42 +88,29 @@
         {
           "issue": "housing_supply",
           "stance": "supports",
-          "summary": "Would push cities to zone more residential land for apartments, duplexes and condos and crack down on cities that make it harder to build housing.",
+          "summary": "Says that where zoning locks out affordable housing from entire communities he would open it up, and that his administration would pursue zoning reform and enforce the law on cities that shirk their housing obligations.",
           "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "opposes",
-          "summary": "Supports California's sanctuary law, which he defended in court as attorney general.",
-          "sources": [
-            "s3"
-          ]
+            "s11"
+          ],
+          "quote": "Where zoning still locks out affordable housing from entire communities, we will open it up."
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Was a longtime supporter of single-payer health care and now supports expanding state coverage to as many residents as possible.",
+          "summary": "Says California must protect coverage for every Californian and build toward universal access to health coverage.",
           "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "mixed",
-          "summary": "Supports a progressive income tax and extending a higher tax rate on high earners to pay for schools, but opposes Proposition 40, the billionaire wealth-tax measure.",
-          "sources": [
-            "s3"
-          ]
+            "s12"
+          ],
+          "quote": "We need to protect coverage for every Californian today while building toward a system where universal access is not a promise deferred but a guarantee delivered."
         },
         {
           "issue": "climate",
-          "stance": "mixed",
-          "summary": "Supports the state's clean-energy transition goals but is open to revising them, including the 2035 gas-car sales ban, if they make gas and energy unaffordable.",
+          "stance": "supports",
+          "summary": "Calls the clean-energy transition necessary and urgent while saying climate action must be affordable, reliable and fair.",
           "sources": [
-            "s3"
-          ]
+            "s13"
+          ],
+          "quote": "California’s clean-energy transition is necessary and urgent—but too many families are paying the price through rising utility bills, unreliable service, and confusing rate structures."
         }
       ],
       "record": [
@@ -177,14 +166,16 @@
       ],
       "priorities": [
         {
-          "text": "Eliminate state income tax on the first $150,000 of earnings and halve the gas tax.",
+          "text": "Eliminate state income tax on the first $150,000 of earnings and lower gas prices, including by removing the state's 60-cent-per-gallon gasoline excise tax and reducing fuel regulations (his '$3 gas' plan).",
           "sources": [
-            "s3"
+            "s3",
+            "s16"
           ]
         },
         {
-          "text": "Lower gas prices by suspending environmental regulations and reduce regulation on housing construction.",
+          "text": "Repeal wind and solar mandates and subsidies to cut electricity bills, and reduce regulation on housing construction.",
           "sources": [
+            "s15",
             "s3"
           ]
         },
@@ -197,52 +188,22 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Wants to overturn California's sanctuary law limiting police cooperation with Immigration and Customs Enforcement.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Wants to roll back California's climate rules mandating a clean-energy transition and allow more natural gas production.",
+          "summary": "Says he would repeal California's wind and solar mandates and subsidies and let natural gas, nuclear and rooftop solar compete on a level playing field.",
           "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Opposes Proposition 40, the one-time tax on billionaires' assets.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Supports using public funds to let parents in underperforming districts send their children to private schools or other districts.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "transgender_sports",
-          "stance": "supports",
-          "summary": "Opposes the state law allowing transgender youth to compete on the school sports teams they choose.",
-          "sources": [
-            "s3"
-          ]
+            "s15"
+          ],
+          "quote": "Steve Hilton will repeal California's costly wind and solar mandates and subsidies"
         },
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Supports reducing restrictions on owning and using firearms.",
+          "summary": "Says California Democrats have passed some of the most restrictive gun laws in the country; proposes an executive order directing state agencies to review their firearm policies for conflicts with the Second Amendment and recent Supreme Court rulings.",
           "sources": [
-            "s3"
-          ]
+            "s14"
+          ],
+          "quote": "But after 16 years of one party rule, California Democrats have passed some of the most restrictive gun laws in the country."
         }
       ],
       "record": [],
@@ -322,6 +283,54 @@
       "publisher": "California Secretary of State",
       "kind": "official",
       "date": "2026-08-27"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.xavierbecerra2026.com/priorities/housing/",
+      "title": "Housing — Becerra for Governor",
+      "publisher": "Becerra campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.xavierbecerra2026.com/priorities/health-care/",
+      "title": "Health Care — Becerra for Governor",
+      "publisher": "Becerra campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.xavierbecerra2026.com/priorities/energy-utilities/",
+      "title": "Energy and Utilities — Becerra for Governor",
+      "publisher": "Becerra campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s14",
+      "url": "https://stevehiltonforgovernor.com/policies/restoring-second-amendment-rights-in-california",
+      "title": "Restoring Second Amendment Rights in California",
+      "publisher": "Hilton campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s15",
+      "url": "https://stevehiltonforgovernor.com/policies/cut-californias-electricity-bills",
+      "title": "Cut California's Electricity Bills by Ending Wind and Solar Farm Mandates and Subsidies",
+      "publisher": "Hilton campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s16",
+      "url": "https://stevehiltonforgovernor.com/policies/3-dollar-gas",
+      "title": "$3 Gas with Steve Hilton",
+      "publisher": "Hilton campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-10-19",
