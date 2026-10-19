@@ -11,7 +11,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { getRace } from "../guide/load";
 import type { GuideRace } from "../guide/types";
-import { getCongressRoster } from "./rosters";
+import { getCongressRoster, getStateLegislatureRoster } from "./rosters";
 import type { ElectionCandidate, SeatElection, SeatNotOnBallot } from "../types";
 
 interface CandidatesFile {
@@ -19,6 +19,7 @@ interface CandidatesFile {
   election: { name: string; date: string; dateLabel: string };
   seats: Array<{
     districtKey: string;
+    seats?: number;
     candidates: ElectionCandidate[];
     primaryNotNominated?: ElectionCandidate[];
     sourceUrl: string;
@@ -53,6 +54,7 @@ function getElections(): Map<string, SeatElection> {
           electionDate: parsed.election.date,
           dateLabel: parsed.election.dateLabel,
           candidates: seat.candidates,
+          seats: seat.seats,
           primaryNotNominated: seat.primaryNotNominated,
           sourceUrl: seat.sourceUrl,
           sourceLabel: seat.sourceLabel,
@@ -69,7 +71,7 @@ function getElections(): Map<string, SeatElection> {
 /** NYC Council seats are not on the 2026 ballot (next regular election: 2029). */
 const NYC_COUNCIL_NEXT = "2029";
 
-const lastName = (name: string) =>
+export const lastName = (name: string) =>
   name.toLowerCase().replace(/\b(jr|sr|ii|iii|iv)\.?$/i, "").trim().split(/\s+/).pop() ?? "";
 
 /** An incumbent candidate in a race is the given member: bioguide id when the guide has one, else surname. */
@@ -125,9 +127,31 @@ async function senateElection(
   return { districtKey, nextElectionLabel: String(year) };
 }
 
+/** Every state-legislative slate for a state (NY and DC are not in the Ballotpedia file). */
+export function stateSlates(st: string): SeatElection[] {
+  const prefix = new RegExp(`^${st.toLowerCase()}-(upper|lower|legislature)-`);
+  return [...getElections().values()].filter((e) => prefix.test(e.districtKey));
+}
+
+/** "tx-lower-12" -> { chamber: "lower", label: "12" } */
+export function parseSlateKey(districtKey: string) {
+  const m = districtKey.match(/^[a-z]{2}-(upper|lower|legislature)-(.+)$/);
+  return m ? { chamber: m[1] as "upper" | "lower" | "legislature", label: m[2] } : null;
+}
+
 export async function electionForSeat(
   districtKey: string
 ): Promise<SeatElection | SeatNotOnBallot | null> {
+  // Sitting state legislators: join to the slate by Open States district label.
+  const member = districtKey.match(
+    /^([a-z]{2})-(upper|lower|legislature)-([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$/
+  );
+  if (member) {
+    const [, st, chamber, id] = member;
+    const m = (await getStateLegislatureRoster(st)).find((x) => x.id === id && x.chamber === chamber);
+    // No slate = not on the 2026 ballot as far as our data goes; make no claim.
+    return (m && getElections().get(`${st}-${chamber}-${m.districtLabel}`)) || null;
+  }
   const sen = districtKey.match(/^us-sen-([a-z]{2})-([12])$/);
   if (sen) return senateElection(districtKey, sen[1], Number(sen[2]) - 1);
 

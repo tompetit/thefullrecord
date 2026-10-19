@@ -184,6 +184,8 @@ export interface SeatElection {
   electionDate: string;
   dateLabel: string;
   candidates: ElectionCandidate[];
+  /** Multi-member districts: how many seats this contest fills */
+  seats?: number;
   /** Ran in the primary for this seat and was not nominated */
   primaryNotNominated?: ElectionCandidate[];
   sourceUrl: string;
