@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
       "./src/server/vote-summaries.json",
       "./src/server/vote-meanings.json",
       "./src/server/vote-topics.json",
+      "./src/server/people.json",
     ],
   },
 };
