@@ -11,7 +11,9 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const DIR = join(ROOT, "content/bios");
 const slugs = new Set(JSON.parse(readFileSync(join(ROOT, "src/server/people.json"), "utf8")).map((p) => p.slug));
 const KINDS = new Set(["official", "candidate", "news", "reference"]);
-const BANNED = /\b(extreme|radical|common[- ]sense|controversial|far-left|far-right|disgraced|hypocrit\w*|flip-flop\w*|beloved|tireless|champion of|staunch)\b/i;
+// "Common Sense" capitalized is allowed: it appears in organization names (e.g. Common Sense Media)
+const LOWER_CS = /\bcommon[- ]sense\b/;
+const BANNED = /\b(extreme|radical|controversial|far-left|far-right|disgraced|hypocrit\w*|flip-flop\w*|beloved|tireless|champion of|staunch)\b/i;
 const BAD_HOST = /wikipedia\.org|ballotbrief|isidewith/i;
 
 const files = process.argv.slice(2).length ? process.argv.slice(2) : readdirSync(DIR).filter((f) => f.endsWith(".json")).map((f) => join(DIR, f));
@@ -34,7 +36,7 @@ for (const file of files) {
   const used = new Set();
   for (const [i, c] of (b.bio ?? []).entries()) {
     if (!c.text || c.text.length > 400) errs.push(`bio[${i}] text required, ≤400 chars`);
-    if (BANNED.test(c.text ?? "")) errs.push(`bio[${i}] loaded language`);
+    if (BANNED.test(c.text ?? "") || LOWER_CS.test(c.text ?? "")) errs.push(`bio[${i}] loaded language`);
     if (!c.sources?.length) errs.push(`bio[${i}] needs sources`);
     for (const id of c.sources ?? []) { if (!ids.has(id)) errs.push(`bio[${i}] cites unknown ${id}`); used.add(id); }
   }
