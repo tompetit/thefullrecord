@@ -6,13 +6,14 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Wordmark } from "./Wordmark";
 import { useAddress } from "./useAddress";
 
-type Section = "reps" | "votes" | "guide" | "data";
+type Section = "reps" | "votes" | "people" | "guide" | "data";
 
 /** Which primary section a path belongs to (null: home, 404…). */
 export function sectionFor(pathname: string): Section | null {
   const top = pathname.split("/")[1] ?? "";
   if (top === "representatives" || top === "official") return "reps";
   if (top === "votes" || top === "vote") return "votes";
+  if (top === "people") return "people";
   if (top === "guide") return "guide";
   if (top === "coverage") return "data";
   return null;
@@ -45,6 +46,7 @@ export function SiteHeader() {
   const items: Array<[Section, string, string]> = [
     ["reps", repsHref, "My representatives"],
     ["votes", "/votes", "Contested votes"],
+    ["people", "/people", "People"],
     ["guide", "/guide", "Voter guide"],
     ["data", "/coverage", "Our data"],
   ];

@@ -4,6 +4,7 @@ import "./globals.css";
 import { SiteAnalytics } from "@/components/SiteAnalytics";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
+import { SITE_URL } from "@/lib/people";
 
 const sourceSerif = Source_Serif_4({
   variable: "--font-source-serif",
@@ -24,6 +25,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   referrer: "no-referrer",
   title: "The Full Record",
   description:
