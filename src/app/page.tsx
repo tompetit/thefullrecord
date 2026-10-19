@@ -5,7 +5,7 @@ import { daysAgo, topContested } from "@/server/issues";
 
 export const metadata = {
   description:
-    "The roll calls where legislators split, ranked by how close the vote was and how far apart the parties voted. Look up any U.S. address to see your representatives’ recorded votes, with links to the official record.",
+    "Look up any U.S. address to explore your representatives’ recorded votes by issue, with links to the official record.",
 };
 
 // The 90-day window is computed when the page is built; rebuild daily.
@@ -38,12 +38,13 @@ export default function Home() {
             Before you vote,<br />see how they did.
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-60 md:text-lg">
-            Most votes are unanimous and tell you little. The roll calls where legislators divided are the ones that set them apart. See the contested votes, check your own representatives, and follow the evidence.
+            Campaigns tell you what people promise. The record shows what they did.
+            Explore the issues you care about, see the votes, and follow the evidence.
           </p>
           <AddressLookupForm />
           <div className="mt-2 flex flex-wrap gap-x-6">
             <Link href="/representatives?sample=1" className="inline-flex min-h-11 items-center text-sm font-semibold text-accent underline underline-offset-4">See an example →</Link>
-            <Link href="/votes" className="inline-flex min-h-11 items-center text-sm font-semibold text-accent underline underline-offset-4">See the most contested votes →</Link>
+            <Link href="/votes" className="inline-flex min-h-11 items-center text-sm font-semibold text-accent underline underline-offset-4">Explore the votes by issue →</Link>
           </div>
           <p className="mt-5 text-xs text-ink-60">Nonpartisan. Source-linked. Yours to judge.</p>
         </div>
@@ -68,7 +69,7 @@ export default function Home() {
       </section>}
 
       <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 py-14 lg:px-10">
-        <div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">Start with what matters</p><h2 className="mt-2 font-serif text-3xl font-semibold text-ink sm:text-4xl">An issue. An action. A record.</h2></div><Link href="/votes" className="text-sm font-semibold text-accent hover:underline">Browse all votes →</Link></div>
+        <div className="flex flex-wrap items-end justify-between gap-4"><div><p className="text-[11px] font-bold uppercase tracking-[0.12em] text-accent">Start with what matters</p><h2 className="mt-2 font-serif text-3xl font-semibold text-ink sm:text-4xl">An issue. An action. A record.</h2></div><Link href="/votes" className="text-sm font-semibold text-accent hover:underline">Browse all issues →</Link></div>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-60">Pick a topic to explore relevant recorded votes. Add your address to see how the representatives we can identify voted.</p>
         <div className="mt-7 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {ISSUE_TOPICS.map(({ id, label, description }) => <Link key={id} href={`/votes?topic=${id}`} className="group flex min-h-28 items-center justify-between border border-card bg-paper-raised p-5 transition-colors hover:border-accent hover:bg-accent-tint"><div><h3 className="font-serif text-xl font-semibold text-ink">{label}</h3><p className="mt-1 text-xs text-ink-60">{description}</p></div><span aria-hidden className="ml-3 text-accent transition-transform group-hover:translate-x-1">↗</span></Link>)}

@@ -65,6 +65,13 @@
       "title": "Economy | Congressman Andy Harris",
       "publisher": "Office of Rep. Andy Harris",
       "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.schwartzforcongress.com/policies",
+      "title": "Dan Schwartz for Congress: Policies",
+      "publisher": "Dan Schwartz for Congress",
+      "kind": "candidate"
     }
   ],
   "candidates": [
@@ -212,10 +219,86 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign policies page lists codifying Roe v. Wade in federal law.",
+          "quote": "Codify Roe vs. Wade in Federal law so women across the country can access the care available in Maryland.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign policies page lists gun safety measures including universal background checks and closing the \"boyfriend loophole.\"",
+          "quote": "Implement common-sense gun safety measures including universal background checks.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign policies page lists raising the federal minimum wage.",
+          "quote": "Raise the federal minimum wage so that Maryland taxpayers are no longer subsidizing out-of-state businesses who refuse to pay their employees living wages.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign policies page lists allowing public option plans in the ACA marketplace.",
+          "quote": "Allow public option plans in the ACA marketplace to drive competition.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Focus immigration enforcement on those who have committed crimes.",
+          "context": "On his campaign policies page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Close tax code loopholes for mega-corporations and billionaires, and End Citizens United so we can get billionaire money out of politics.",
+          "context": "On his campaign policies page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Strengthen universal pre-K and invest in childcare for working and middle class families.",
+          "context": "On his campaign policies page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Work to lower energy costs by supporting local and regional projects including US Wind's Project off Ocean City.",
+          "context": "On his campaign policies page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "website": "https://www.schwartzforcongress.com",
+      "researchNotes": "Campaign policies page read in full, plus the 2025 Ballotpedia Candidate Connection survey. Positions come from the \"key examples\" and \"more priorities\" lists on the policies page."
     }
   ],
   "researchedAt": "2026-09-25"

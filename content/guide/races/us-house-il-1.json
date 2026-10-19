@@ -129,7 +129,7 @@
       "summary": {
         "text": "Maxwell describes herself as a mother and entrepreneur running as a conservative candidate focused on public safety, parental rights, and fiscal responsibility.",
         "sources": [
-          "s1"
+          "s7"
         ]
       },
       "background": [
@@ -144,25 +144,79 @@
         {
           "text": "Says she will \"fight to restore law and order, protect our communities, and hold leaders accountable.\"",
           "sources": [
-            "s1"
+            "s7"
           ]
         },
         {
           "text": "Advocates for parental rights in children's education, saying families should be \"in control,\" not the government.",
           "sources": [
-            "s1"
+            "s7"
           ]
         },
         {
           "text": "Says she will push for fiscal responsibility, lower taxes, and smarter budgeting.",
           "sources": [
-            "s1"
+            "s7"
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Her campaign website says she will support federal public-safety grants that strengthen policing.",
+          "quote": "I will support federal public-safety grants that strengthen policing, technology, victim protection, witness support, and community safety",
+          "sources": [
+            "s12x"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "Empowering parents with school choice and closing achievement gaps without undermining public schools.",
+          "context": "On her campaign website, as quoted by Ballotpedia (Feb. 26, 2025)",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I will support legislation and oversight that strengthens immigration enforcement, improves benefit verification, protects public resources, and ensures federal agencies follow the law.",
+          "context": "On her campaign website's Issues page (Oct. 2026)",
+          "sources": [
+            "s12x"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "I will oppose federal gun-control measures that target law-abiding citizens and support enforcement-focused policies aimed at criminals, traffickers, and repeat violent offenders.",
+          "context": "On her campaign website's Issues page (Oct. 2026)",
+          "sources": [
+            "s12x"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Dignity for mothers and families through maternal care, childcare support, and affordable healthcare access.",
+          "context": "On her campaign website, as quoted by Ballotpedia (Feb. 26, 2025)",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "New Affordable Healthcare Access Grants for clinics in underserved areas.",
+          "context": "On her campaign website, as quoted by Ballotpedia (Feb. 26, 2025)",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "website": "https://christianmaxwellforcongress.com"
     }
   ],
   "sources": [
@@ -213,8 +267,24 @@
       "publisher": "Office of Rep. Jonathan Jackson",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Christian_Maxwell",
+      "title": "Christian Maxwell (campaign website text, Feb. 26, 2025, and Candidate Connection survey)",
+      "publisher": "Ballotpedia",
+      "kind": "candidate",
+      "date": "2025-02-26"
+    },
+    {
+      "id": "s12x",
+      "url": "https://christianmaxwellforcongress.com/Issues",
+      "title": "The Issues: Policy Stances & Legislative Approach",
+      "publisher": "Maxwell for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Maxwell's positions are drawn from her Ballotpedia Candidate Connection survey submission; no independent campaign website was verified in the BASIC research budget."
+  "researchNotes": "Maxwell's positions are drawn from her Ballotpedia Candidate Connection survey submission; her campaign website (christianmaxwellforcongress.com/Issues, loaded 2026-10-19) was used for the police-funding position and the immigration and gun statements; the childcare, healthcare and school-choice statements come from the Feb. 26, 2025 website text as quoted on Ballotpedia and are dated. No interviews or forum coverage found."
 }

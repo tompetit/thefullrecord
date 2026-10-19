@@ -240,11 +240,88 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Adopt approval voting in New Hampshire elections.",
+          "sources": [
+            "s16"
+          ],
+          "quote": "I'll push to adopt approval voting in our elections."
+        },
+        {
+          "text": "Legalize cannabis for adults.",
+          "sources": [
+            "s16"
+          ],
+          "quote": "I want cannabis to be fully legal for adults."
+        },
+        {
+          "text": "Pass Defend the Guard legislation.",
+          "sources": [
+            "s16"
+          ],
+          "quote": "I'll work to pass Defend the Guard legislation"
+        },
+        {
+          "text": "Legalize medical use of psilocybin for PTSD, substance use disorder and treatment-resistant depression.",
+          "sources": [
+            "s16"
+          ],
+          "quote": "I want to legalize medical use of psilocybin for the treatment of post-traumatic stress disorder, substance use disorder, and clinical depression that has resisted other treatment."
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Lists repeal of constitutional carry, meaning a return to concealed-carry licensing, among bills he would veto.",
+          "quote": "Any return to the licensing requirement for carrying a concealed pistol or revolver. That is, any repeal of constitutional carry.",
+          "sources": [
+            "s17"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "Lists abortion bans without exceptions for rape (at least in the first trimester) or to protect the life of the mother among bills he would veto.",
+          "quote": "Any abortion ban that doesn't include an exception for rape at least in the first trimester, or at any time to protect the life of the mother.",
+          "sources": [
+            "s17"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Wikipedia, The Green Papers and the New Hampshire Bulletin voter guide list him as the Libertarian candidate; Citizens Count labels him 'Independent/Other' and says he qualified by collecting signatures (the nomination-paper route for candidates outside the two major parties). The NH Secretary of State site blocked automated access, so the printed ballot label could not be checked. No campaign site or coverage found."
+      "researchDepth": "basic",
+      "researchNotes": "Wikipedia, The Green Papers and the New Hampshire Bulletin voter guide list him as the Libertarian candidate; Citizens Count labels him 'Independent/Other' and says he qualified by collecting signatures (the nomination-paper route for candidates outside the two major parties). The NH Secretary of State site blocked automated access, so the printed ballot label could not be checked. No news coverage found. Positions and priorities come from the Veto List, Grandfathering and home pages of his campaign site (villee4nh.com). He states a longer-term goal on his site of winding down welfare programs and negotiating secession; only the items above are mapped to the guide's issues. No stance found on the other listed issues.",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "I'll work to pass Defend the Guard legislation, which would require that Congress officially declare war before the New Hampshire national guard could be activated.",
+          "context": "On his campaign website, listing one of four legislative priorities",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "They'd be required to sign a waiver acknowledging that the government won't provide them with food, housing, health care, or education for their children.",
+          "context": "On his campaign website, describing what a bill to begin winding down welfare programs might specify for people who move to New Hampshire after a set date",
+          "sources": [
+            "s18"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Any sales tax or state income tax, or any other new tax, or any tax increase.",
+          "context": "On the Veto List page of his campaign website, listing bills he would veto",
+          "sources": [
+            "s17"
+          ]
+        }
+      ],
+      "website": "https://villee4nh.com/"
     }
   ],
   "sources": [
@@ -367,6 +444,30 @@
       "publisher": "City of Dover, NH",
       "kind": "official",
       "date": "2026-10-19"
+    },
+    {
+      "url": "https://villee4nh.com/",
+      "title": "Stephen Villee for Governor (home page)",
+      "publisher": "Stephen Villee for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19",
+      "id": "s16"
+    },
+    {
+      "url": "https://villee4nh.com/veto-list.html",
+      "title": "Veto List",
+      "publisher": "Stephen Villee for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19",
+      "id": "s17"
+    },
+    {
+      "url": "https://villee4nh.com/grandfathering.html",
+      "title": "Grandfathering",
+      "publisher": "Stephen Villee for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19",
+      "id": "s18"
     }
   ],
   "researchedAt": "2026-10-19",

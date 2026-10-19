@@ -65,7 +65,41 @@
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Preserve and protect our constitutional rights to free speech, freedom of worship, and the right to bear arms.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Fix the problems created by Obamacare — lower premiums, expand choices, and put patients back in charge of their own care.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "President Trump is securing the border. Congress needs to back him up.",
+          "context": "In his Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "We have to cut federal spending, slash taxes, unleash American energy, and end burdensome regulations.",
+          "context": "In his Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     },
     {
       "id": "chris-harden",
@@ -223,15 +257,62 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says healthcare reform and patient advocacy are her driving priorities, and that Medicare and Medicaid should be protected from cuts.",
-          "quote": "I now intimately understand the need for healthcare reform in the United States.",
+          "summary": "Proposes a single-payer national health insurance program that expands Medicare to cover every U.S. resident.",
+          "quote": "This is our collective American proposal for our single-payer national health insurance program that would expand and retool traditional Medicare to cover every U.S. resident automatically from cradle to grave.",
           "sources": [
-            "s5"
-          ]
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says Congress should consider wealth taxes, taxes on unrealized gains and closing loopholes to reduce the national debt.",
+          "quote": "We are wise to integrate solutions that include wealth taxes (levy on all assets)",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says raising the minimum wage would be a first step.",
+          "quote": "raising the minimum wage will be the first step",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "This cannot happen very easily with our government starting global conflicts and Congress remaining inactive in their Constitutional check of those powers.",
+          "context": "On her campaign issues page",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Together, we will work to heal our community’s shortage of affordable housing and encourage economic growth that benefits us all.",
+          "context": "On her campaign issues page",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Immigration reform to boost a Constitutionally secure labor supply and entrepreneurship is crucial.",
+          "context": "On her campaign issues page",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     },
     {
       "id": "amanda-james",
@@ -288,11 +369,22 @@
           "summary": "Says she would introduce legislation to expand healthcare marketplace tax credits and increase competition to lower prescription drug and insurance costs.",
           "sources": [
             "s6"
-          ]
+          ],
+          "quote": "I aim to rectify these issues by introducing legislation to expand healthcare marketplace tax credits, increase out of state competition, and initiate policies to diminish the collusion by the pharmaceutical companies and the government."
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Population within our communities has increased, exponentially, which impacts the housing shortage; thereby increasing the rental and mortgage rates.",
+          "context": "In her Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -356,6 +448,20 @@
       "publisher": "Chris Harden for Congress",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/John_Cowan",
+      "title": "Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.richozforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Richoz for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

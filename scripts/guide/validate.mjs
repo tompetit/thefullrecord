@@ -17,9 +17,12 @@ const ISSUES = new Set([
   "voter_citizenship_proof", "war_powers", "transgender_sports",
 ]);
 const OFFICE_TYPES = new Set(["us-senate", "us-house", "governor", "attorney-general",
-  "comptroller", "state-senate", "state-assembly", "ballot-measure", "other"]);
+  "comptroller", "secretary-of-state", "state-senate", "state-assembly", "ballot-measure", "other"]);
 const KINDS = new Set(["official", "candidate", "news", "reference"]);
 const REC_KINDS = new Set(["vote", "bill", "action", "finance", "legal"]);
+// bioguide -> name for current members, to catch a candidate tagged with another member's ID
+const MEMBERS = new Map(JSON.parse(readFileSync(join(ROOT, "src/server/people.json"), "utf8")).filter((p) => p.key.startsWith("bio:")).map((p) => [p.key.slice(4), p.name]));
+const lastWord = (n) => n.toLowerCase().replace(/,?\s+(jr|sr|ii|iii|iv)\.?$/i, "").replace(/[^a-z\s-]/g, "").trim().split(/\s+/).pop();
 const BANNED = /\b(extreme|radical|common[- ]sense|controversial|far-left|far-right|disgraced|hypocrit\w*|flip-flop\w*)\b/i;
 
 const files = process.argv.slice(2).length
@@ -66,6 +69,8 @@ for (const file of files) {
   (r.context ?? []).forEach((c, i) => cites(c, `context[${i}]`));
   const cids = new Set();
   for (const c of r.candidates ?? []) {
+    if (c.bioguideId && MEMBERS.has(c.bioguideId) && lastWord(MEMBERS.get(c.bioguideId)) !== lastWord(c.name) && !c.name.toLowerCase().includes(lastWord(MEMBERS.get(c.bioguideId))))
+      errs.push(`${c.id}: bioguideId ${c.bioguideId} belongs to ${MEMBERS.get(c.bioguideId)}`);
     const w = `candidate ${c.id}`;
     need(c, ["id", "name", "parties", "summary", "researchDepth"], w);
     if (cids.has(c.id)) errs.push(`${w}: duplicate id`);
@@ -77,6 +82,11 @@ for (const file of files) {
       if (!Array.isArray(c[k])) errs.push(`${w}: ${k} must be an array`);
     (c.background ?? []).forEach((x, i) => cites(x, `${w}.background[${i}]`));
     (c.priorities ?? []).forEach((x, i) => cites(x, `${w}.priorities[${i}]`));
+    (c.statements ?? []).forEach((s, i) => {
+      if (!ISSUES.has(s.issue)) errs.push(`${w}.statements[${i}]: bad issue ${s.issue}`);
+      if (!s.quote || typeof s.quote !== "string") errs.push(`${w}.statements[${i}]: quote required`);
+      cites({ text: s.quote, sources: s.sources }, `${w}.statements[${i}]`);
+    });
     (c.positions ?? []).forEach((p, i) => {
       if (!ISSUES.has(p.issue)) errs.push(`${w}.positions[${i}]: bad issue ${p.issue}`);
       if (!["supports", "opposes", "mixed"].includes(p.stance)) errs.push(`${w}.positions[${i}]: bad stance`);
@@ -105,6 +115,9 @@ for (const file of files) {
     need(m, ["yesMeans", "noMeans"], "measure");
     (m.argumentsFor ?? []).forEach((x, i) => cites(x, `measure.argumentsFor[${i}]`));
     (m.argumentsAgainst ?? []).forEach((x, i) => cites(x, `measure.argumentsAgainst[${i}]`));
+    for (const k of ["currentLaw", "fiscalImpact", "campaignFinance"]) if (m[k]) cites(m[k], `measure.${k}`);
+    for (const k of ["supporters", "opponents"]) (m[k] ?? []).forEach((x, i) => cites(x, `measure.${k}[${i}]`));
+    if (m.fullTextUrl && !/^https:\/\//.test(m.fullTextUrl)) errs.push("measure.fullTextUrl must be https");
   }
   for (const id of ids) if (!used.has(id)) warn.push(`source ${id} is never cited`);
   if (errs.length) {

@@ -217,7 +217,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey, which did not directly address any of the 15 tracked issue statements; no separate campaign website was found."
+      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey, which did not directly address any of the guide's tracked issue statements; no separate campaign website was found."
     },
     {
       "id": "shimon-blau",
@@ -274,18 +274,29 @@
       ],
       "positions": [
         {
-          "issue": "abortion",
-          "stance": "supports",
-          "summary": "Says he supports a woman's right to make her own healthcare decisions and does not believe government should interfere in women's healthcare.",
-          "quote": "I support a woman's right to make her own healthcare decisions, and I support the freedom of consenting adults to marry the person they love. These are deeply personal decisions, and I do not believe government should interfere in women's healthcare or in the private lives of consenting adults.",
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "In a Colorado Politics voter guide he says criminal aliens who threaten public safety should be deported, and also calls for fast-tracking legal status for long-term residents and for training and accountability for immigration agents.",
+          "quote": "Criminal aliens who threaten public safety should be deported, and our streets must be safer. At the same time, we should fast-track legal status for long-term, contributing members of our communities who have built their lives here.",
+          "basis": "statements",
           "sources": [
-            "s6"
+            "s8"
           ]
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No Ballotpedia Candidate Connection survey response found; background and positions are drawn from his campaign website (blauforcongress.com), which does not have a dedicated issues page but discusses his priorities on the home page."
+      "researchNotes": "No Ballotpedia Candidate Connection survey response found; background and positions are drawn from his campaign website (blauforcongress.com), which does not have a dedicated issues page but discusses his priorities on the home page.",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I support a woman's right to make her own healthcare decisions",
+          "context": "On his campaign website; the page does not use the word abortion",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "critter-milton",
@@ -295,7 +306,7 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Critter Milton is the Unity Party candidate for Colorado's 1st Congressional District, a perennial candidate and former financial advisor who lives in Alma, Colorado.",
+        "text": "Critter Milton is the Unity Party candidate for Colorado's 1st Congressional District, a former financial advisor who lives in Alma, Colorado.",
         "sources": [
           "s7"
         ]
@@ -392,6 +403,13 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "title": "Congressional District 1: Kiros faces Peterson, Blau",
+      "publisher": "Colorado Politics",
+      "url": "https://www.coloradopolitics.com/2026/10/02/kiros-blau-peterson-congressional-district-1/",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

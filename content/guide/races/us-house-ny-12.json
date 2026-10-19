@@ -289,7 +289,33 @@
       ],
       "record": [],
       "website": "https://carolinefornewyork.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "Empower parents with school choice and greater curriculum transparency",
+          "context": "On her campaign priorities page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Lower the cost of living through increasing energy production and promoting an all-energy-options-on-the-table approach",
+          "context": "On her campaign priorities page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Reintroduce competition into the healthcare marketplace and enhance price transparency to ensure the system works for patients and providers, not just the insurance companies",
+          "context": "On her campaign priorities page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     },
     {
       "id": "wilneida-negron",
@@ -352,25 +378,77 @@
       ],
       "positions": [
         {
-          "issue": "housing_supply",
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Platform calls for expanding federal support for affordable-housing preservation to address rising rents.",
+          "summary": "Platform calls for ending carried-interest tax treatment and tightening S-corporation rules.",
+          "quote": "End carried interest treatment, tighten S-corp loopholes, and require sunset reviews of major business tax breaks so corporate welfare earns its keep or expires",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Platform calls for building toward universal coverage through a public baseline plan with automatic enrollment.",
+          "quote": "Build toward universal coverage through automatic enrollment in a public baseline plan, with the ability to keep employer coverage",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Platform's foreign policy plan says tariffs should target specific violations rather than broadly.",
+          "quote": "Target the specific violation, not American households.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Platform says military force should require Congressional authorization.",
+          "quote": "No use of force without Article I authorization stating an end state, a cost estimate, and a trigger for admitting failure.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Platform calls for narrowing ICE enforcement to serious-threat cases and reducing mass detention.",
+          "quote": "Narrow ICE to genuine serious-threat cases; move routine civil cases to supervised legal processing instead of mass detention",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        }
+      ],
+      "record": [],
+      "website": "https://www.wilneidany12.com/",
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Expand federal support for affordable housing preservation",
+          "context": "In her Household Security Plan on her campaign site",
           "sources": [
             "s6"
           ]
         },
         {
           "issue": "universal_childcare",
-          "stance": "supports",
-          "summary": "Platform calls for lowering child-care and elder-care costs as part of a household-affordability agenda.",
+          "quote": "Establish a Family Care Credit that offsets the cost of licensed child care or in-home elder care for working families",
+          "context": "In her Household Security Plan on her campaign site",
           "sources": [
             "s6"
           ]
         }
-      ],
-      "record": [],
-      "website": "https://www.wilneidany12.com/",
-      "researchDepth": "basic"
+      ]
     },
     {
       "id": "karen-ortiz",
@@ -513,5 +591,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Karen Ortiz has no independent biographical information available beyond her campaign platform (no Ballotpedia biography, LinkedIn, or news profile found); her entry reflects only her stated positions. Robb Huhn and Lucian Wintrich, who appear in the pre-primary candidate snapshot, are listed by Ballotpedia as withdrawn/disqualified from the general-election ballot and are not included."
+  "researchNotes": "Karen Ortiz has no independent biographical information available beyond her campaign platform (no Ballotpedia biography, LinkedIn, or news profile found); her entry reflects only her stated positions. Robb Huhn and Lucian Wintrich, who appear in the pre-primary candidate snapshot, are listed by Ballotpedia as withdrawn/disqualified from the general-election ballot and are not included. Caroline Shinkle: campaign priorities page re-read; added school choice, energy and health care statements. Her page does not state positions on abortion, guns, immigration enforcement or taxes on high earners. Wilneida Negron: re-read the full campaign site plans; replaced two earlier housing and child-care 'positions' (which did not take a side on the guide's statements) with statements, and added tax, health coverage, tariffs, war powers and immigration-enforcement positions with verbatim quotes. The site does not address abortion, guns, rent regulation or the minimum wage as a specific figure."
 }

@@ -185,20 +185,61 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "website": "https://micahqjones.com",
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Authorize the strengthening of border enforcement with better staffing, technology, and faster adjudication",
+          "context": "On his campaign site's security plan, under \"Our Solution\" for immigration",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "Reinforce Congressional oversight and restore constitutional balance in national security decisions.",
+          "context": "On his campaign site's security plan",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Support training, recruitment, and retention for law enforcement agencies.",
+          "context": "On his campaign site's security plan",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "Support open, competitive trade where it reduces costs and expands opportunity",
+          "context": "On his campaign site's opportunity plan",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Expand childcare-related tax relief so working families keep more of what they earn.",
+          "context": "On his campaign site's opportunity plan",
+          "sources": [
+            "s5"
+          ]
+        },
         {
           "issue": "climate",
-          "stance": "mixed",
-          "summary": "Says he supports expanding renewable energy and next-generation nuclear while also advocating for expanded liquefied natural gas infrastructure to supply New England.",
           "quote": "Expand renewable energy without pushing costs onto households.",
+          "context": "In his Ballotpedia Candidate Connection survey; the same passage also advocates expanding liquefied natural gas infrastructure for New England and modernizing nuclear permitting",
           "sources": [
             "s4"
           ]
         }
       ],
-      "record": [],
-      "website": "https://micahqjones.com",
-      "researchDepth": "basic"
+      "researchNotes": "Campaign site issue plans (Accountability, Opportunity, Security) read in full; statements are taken from those plans. No debate or questionnaire answers on the listed issues beyond the Ballotpedia survey were reviewed. His energy answer is recorded as a statement, not a climate stance, because it does not address the pace of a transition away from fossil fuels."
     }
   ],
   "sources": [
@@ -228,6 +269,20 @@
       "url": "https://ballotpedia.org/Micah_Jones",
       "title": "Micah Jones - Ballotpedia Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://micahqjones.com/opportunity-plan/",
+      "title": "Micah Jones: Opportunity plan",
+      "publisher": "Micah Q. Jones for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://micahqjones.com/security-plan/",
+      "title": "Micah Jones: Security plan",
+      "publisher": "Micah Q. Jones for Congress",
       "kind": "candidate"
     }
   ],

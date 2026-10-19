@@ -356,11 +356,19 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "text": "Equal opportunity based on individual merit; fair and transparent elections; a responsible environmental plan to protect air and water; and reforms in education, homelessness and the prison system.",
+          "sources": [
+            "s30"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://risalombardo.com/",
+      "researchNotes": "Her campaign site (risalombardo.com) has a short About page and an Issues page that reproduces the Green Party of the United States' four pillars and ten key values; that text is national party-platform wording rather than her own, so it is not quoted. No questionnaire answers with text were found (an AZPM survey lists a Yes on a data-center moratorium without explanation). No site text of her own on abortion, guns, immigration, taxes, housing, schools or the other listed issues. The Arizona Green Party has disavowed her candidacy (see background)."
     },
     {
       "id": "teri-hourihan",
@@ -390,11 +398,93 @@
           "sources": [
             "s2"
           ]
+        },
+        {
+          "text": "Affordability and cost of living, including attainable housing and no tax increases.",
+          "sources": [
+            "s24"
+          ],
+          "quote": "keeping my commitment to no tax increases"
+        },
+        {
+          "text": "Water security: conservation, recycling and reuse, new water sources and rural groundwater protections.",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Agency reform: audits of state agencies for fraud, waste, abuse and duplication, with more transparency and accountability.",
+          "sources": [
+            "s24"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says she supports protecting school choice, including the Empowerment Scholarship Account (ESA) program, while auditing public, charter, private and ESA-funded programs.",
+          "quote": "As a candidate for Governor of Arizona, I support protecting school choice while also addressing the broader challenges facing our education system.",
+          "sources": [
+            "s25"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I respect the will of the voters and will not seek to overturn the abortion laws that Arizonans have approved at the ballot box.",
+          "context": "On her campaign site; she adds that she may support changes to current policy through the democratic process",
+          "sources": [
+            "s26"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We need effective law enforcement at both the state and federal levels, and our country must have a lawful, functional system for managing immigration.",
+          "context": "On her campaign site, in a post saying she does not support abolishing ICE and that officers who commit crimes should be held accountable",
+          "sources": [
+            "s27"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "I would increase housing supply by reducing unnecessary permitting delays and regulatory barriers, supporting infrastructure for new housing, and expanding attainable starter homes, rentals, and workforce housing.",
+          "context": "In her AZPM candidate survey response",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "I support expanding access through a long-term plan that combines existing state and federal resources, employer incentives, public-private partnerships, and support for childcare providers.",
+          "context": "In her AZPM candidate survey response; she adds that this should happen without “simply creating another expensive government program or raising taxes”",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Arizona should consider using state funding to prevent dangerous gaps in care—but it should not simply replace every lost federal dollar.",
+          "context": "In her AZPM candidate survey response on offsetting federal Medicaid cuts; she says she would first audit AHCCCS spending",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "When the sport is not a co-ed sport, the sport will be only for at birth sexual orientation.",
+          "context": "On the Equality for All page of her campaign site (wording as published)",
+          "sources": [
+            "s28"
+          ]
+        }
+      ],
+      "website": "https://teriann4azgov.org/",
+      "researchNotes": "Campaign site (teriann4azgov.org) has issue pages on education, abortion, immigration, taxes, healthcare and others, mixing her own statements with news-linked posts; some pages repeat draft-style text, and only sentences in her first-person voice were quoted. Her AZPM survey responses supplied the housing, childcare and Medicaid statements. No site or survey text found on guns, minimum wage, climate, tariffs or the other listed issues."
     }
   ],
   "sources": [
@@ -570,6 +660,48 @@
       "title": "Sample Ballot, November 3, 2026 General Election (Maricopa County)",
       "publisher": "City of Scottsdale / Maricopa County Elections",
       "kind": "official"
+    },
+    {
+      "id": "s24",
+      "url": "https://news.azpm.org/governor/",
+      "title": "Arizona Governor Election Guide: candidate survey responses",
+      "publisher": "Arizona Public Media (AZPM)",
+      "kind": "news"
+    },
+    {
+      "id": "s25",
+      "url": "https://teriann4azgov.org/education-schools",
+      "title": "Education & Schools",
+      "publisher": "Teri Ann Hourihan for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s26",
+      "url": "https://teriann4azgov.org/abortion-law-1",
+      "title": "Abortion policy",
+      "publisher": "Teri Ann Hourihan for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s27",
+      "url": "https://teriann4azgov.org/first-responders-mili",
+      "title": "Military & First Responders",
+      "publisher": "Teri Ann Hourihan for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s28",
+      "url": "https://teriann4azgov.org/equality-for-all-1",
+      "title": "Equality for All",
+      "publisher": "Teri Ann Hourihan for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s30",
+      "url": "https://risalombardo.com/about/",
+      "title": "About",
+      "publisher": "Risa Lombardo for Arizona campaign",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-10-19",

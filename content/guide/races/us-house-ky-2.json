@@ -194,16 +194,52 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Thomas Loecken is an independent candidate for Kentucky's 2nd Congressional District. No campaign website, public statements, or biographical profile were found for this candidate.",
+        "text": "Thomas Loecken is an independent candidate for Kentucky's 2nd Congressional District. No 2026 campaign website or statements were found; the only issue material found is a 2018 newspaper questionnaire from a candidate of the same name who ran as an independent for this seat.",
         "sources": [
-          "s3"
+          "s3",
+          "s11"
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "In a 2018 Advocate-Messenger questionnaire: \"I will work to roll back changes that have been made to our clean air, water and land acts.\"",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "In a 2018 Advocate-Messenger questionnaire: \"I believe the role of a representative is to see that the needs of their constituents are met, whether it’s healthcare, tax reform, jobs, infrastructure\"",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "In a 2018 newspaper questionnaire, named raising the minimum wage as his example of an unmet need in the district.",
+          "quote": "to pick one, lets go with raising the minimum wage.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Global Warming. It’s here and it’s man-made. If you value the world you will leave to your children then this needs to be addressed.",
+          "context": "In a 2018 Advocate-Messenger candidate questionnaire (his 2018 campaign for this seat)",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "All issue material is from the Nov. 2, 2018 Advocate-Messenger questionnaire (2018 run for this seat) and is labeled as 2018; the match to the 2026 candidate rests on the same name, party and district. No 2026 website, survey or coverage was found."
     }
   ],
   "sources": [
@@ -278,8 +314,16 @@
       "publisher": "Office of Rep. Brett Guthrie",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.amnews.com/?p=41775",
+      "title": "Candidate comparison: Guthrie faces two challengers for Kentucky’s 2nd District",
+      "publisher": "The Advocate-Messenger (candidate questionnaire, Nov. 2, 2018)",
+      "kind": "news",
+      "date": "2018-11-02"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Guthrie's federal key floor votes and FEC finance totals are added separately by script. No detailed issue-by-issue positions with direct quotes were found for Wingfield beyond her campaign site's general framing. No public information beyond his name on the ballot was found for independent candidate Thomas Loecken."
+  "researchNotes": "Guthrie's federal key floor votes and FEC finance totals are added separately by script. No detailed issue-by-issue positions with direct quotes were found for Wingfield beyond her campaign site's general framing. No public information beyond his name on the ballot was found for independent candidate Thomas Loecken. Update for Loecken: no 2026 campaign website, questionnaire or news coverage was found; the statements shown are from his 2018 run for this seat (Advocate-Messenger questionnaire, Nov. 2, 2018) and are dated as such."
 }

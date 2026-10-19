@@ -199,16 +199,74 @@
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Says California Democrats have passed some of the most restrictive gun laws in the country; proposes an executive order directing state agencies to review their firearm policies for conflicts with the Second Amendment and recent Supreme Court rulings.",
+          "summary": "His policy page says California has some of the most restrictive gun laws in the country and proposes an executive order directing state agencies to review their firearm policies for conflicts with the Second Amendment and recent Supreme Court rulings, plus a review of state firearm laws to identify restrictions he considers unconstitutional.",
           "sources": [
             "s14"
           ],
-          "quote": "But after 16 years of one party rule, California Democrats have passed some of the most restrictive gun laws in the country."
+          "quote": "Instead of focusing on criminals who misuse firearms, Democrats in state government have targeted law abiding citizens with layer after layer of regulation."
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "His education plan says he would expand school choice through education savings accounts, starting with low-income and special-needs students, and bring back and expand the parent trigger law.",
+          "quote": "Hilton will expand choice through ESAs, starting with low-income and special needs students.",
+          "sources": [
+            "s19"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "His plan would raise the California Highway Patrol's annual budget to $4 billion and build it toward 10,000 sworn officers, paid for by cutting executive-branch headcount.",
+          "quote": "Steve will increase CHP’s annual budget to $4 billion and build the force toward 10,000 sworn officers.",
+          "sources": [
+            "s20"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "At a March 2026 town hall he said “sanctuary policies will end” and that his administration would partner with the federal government on enforcement (per The Santa Barbara Independent); in a September 30, 2026 Deadline interview he described working within the sanctuary state law and focusing removals on people who have committed crimes.",
+          "quote": "work together within the sanctuary state law to focus on removing the people who most Californians would agree shouldn’t be here",
+          "sources": [
+            "s21",
+            "s22"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://www.stevehiltonforgovernor.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "move us toward life in ways that are achievable and realistic",
+          "context": "At a March 2026 Santa Barbara town hall, per The Santa Barbara Independent, which also reports he would oppose public funds for out-of-state abortion travel",
+          "sources": [
+            "s21"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Steve Hilton will cap the combined cost of fees, permits and government mandates at $50,000 per new home, cut the rules and delays that make building so expensive, and open up more places for starter homes.",
+          "context": "On his campaign policy page on new-home fees",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "But more spending is not success if families still cannot afford care, and an insurance card is not much use if nobody will take it.",
+          "context": "On his Working Class Healthcare Guarantee policy page, which proposes price transparency, more providers and changes to Medi-Cal",
+          "sources": [
+            "s23"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from campaign policy pages (rendered in headless Chromium and matched verbatim), a March 2026 Santa Barbara Independent report of a town hall, and a September 30, 2026 Deadline interview. His immigration position is shown as mixed because his March and September remarks differ in emphasis. A Fox News video headline quoting him on transgender athletes was not used because the page text did not include his words in context. No statement found on rent regulation, minimum wage, tariffs, taxes on high earners or war powers."
     }
   ],
   "sources": [
@@ -347,6 +405,50 @@
       "publisher": "Hilton campaign",
       "kind": "candidate",
       "date": "2026-10-19"
+    },
+    {
+      "id": "s19",
+      "url": "https://stevehiltonforgovernor.com/policies/making-californias-schools-work-again",
+      "title": "Making California's Schools Work Again: Fix Public Education by 3rd Grade",
+      "publisher": "Steve Hilton for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s20",
+      "url": "https://stevehiltonforgovernor.com/policies/build-a-real-california-state-police-force",
+      "title": "Build a Real California State Police Force",
+      "publisher": "Steve Hilton for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s21",
+      "url": "https://www.independent.com/2026/03/04/republican-steve-hilton-campaigns-for-governor-in-santa-barbara-promotes-califordable-agenda/",
+      "title": "Republican Steve Hilton Campaigns for Governor in Santa Barbara, Promotes 'Califordable' Agenda",
+      "publisher": "The Santa Barbara Independent",
+      "kind": "news",
+      "date": "2026-03-04"
+    },
+    {
+      "id": "s22",
+      "url": "https://deadline.com/2026/09/steve-hilton-interview-govenors-debate-1237116464/",
+      "title": "Steve Hilton On Governor Debate, ParaBros, Trump, Tax Credits, AI - Q&A",
+      "publisher": "Deadline",
+      "kind": "news",
+      "date": "2026-09-30"
+    },
+    {
+      "id": "s23",
+      "url": "https://stevehiltonforgovernor.com/policies/working-class-healthcare-guarantee",
+      "title": "The Working Class Healthcare Guarantee",
+      "publisher": "Steve Hilton for Governor campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s24",
+      "url": "https://stevehiltonforgovernor.com/policies/stop-the-hidden-tax-on-new-homes",
+      "title": "Stop the Hidden Tax on New Homes: Cap Government Fees and Regulatory Costs at $50,000",
+      "publisher": "Steve Hilton for Governor campaign",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-10-19",

@@ -132,7 +132,7 @@
       "incumbent": false,
       "ballotNote": "Advanced from a canceled Democratic primary, unopposed.",
       "summary": {
-        "text": "Phil Ehr is the Democratic nominee for Florida's 28th Congressional District. He is a retired U.S. Navy officer who has run for Congress in South Florida in prior cycles.",
+        "text": "Phil Ehr is the Democratic nominee for Florida's 28th Congressional District. He is a retired U.S. Navy officer who has run for Congress in prior cycles.",
         "sources": [
           "s1",
           "s3"
@@ -181,20 +181,22 @@
           "sources": [
             "s4"
           ]
-        },
-        {
-          "issue": "climate",
-          "stance": "supports",
-          "summary": "His 2024 campaign website (quoted on Ballotpedia) lists protecting Florida's environment by building clean energy and water infrastructure among his priorities.",
-          "sources": [
-            "s4"
-          ]
         }
       ],
       "record": [],
       "website": "https://www.ehrforce.com/",
       "researchDepth": "basic",
-      "researchNotes": "Ehr has not completed a 2026 Ballotpedia Candidate Connection survey. His current 2026 campaign website's issues page could not be loaded (server error), so his priorities and positions are drawn from a campaign-website quote from his 2024 run for this same seat, the most recent statement of his positions found on Ballotpedia."
+      "researchNotes": "Ehr has not completed a 2026 Ballotpedia Candidate Connection survey. His current 2026 campaign website's issues page could not be loaded (server error), so his priorities and positions are drawn from a campaign-website quote from his 2024 run for this same seat, the most recent statement of his positions found on Ballotpedia.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Secure our borders & reform legal immigration",
+          "context": "Priorities list on his 2024 campaign website, as quoted by Ballotpedia",
+          "sources": [
+            "s4"
+          ]
+        }
+      ]
     },
     {
       "id": "eddy-rojas",
@@ -211,11 +213,53 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Cut regulations, lower taxes on small businesses and bring jobs to Miami.",
+          "quote": "I'll fight to cut burdensome regulations, lower taxes on small businesses, and bring good-paying jobs back to Miami.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Education: school choice, vocational training and affordable higher education.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Safe communities: supporting law enforcement, securing borders and funding crime-prevention programs.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says he will fight for school choice.",
+          "quote": "I will fight for school choice, vocational training, and affordable higher education",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No Ballotpedia Candidate Connection survey, readable campaign website content, or other public statements could be located for Rojas."
+      "researchDepth": "basic",
+      "researchNotes": "Statements come from his campaign website priorities page; no Ballotpedia survey completed, and the site gives no further detail on policy.",
+      "website": "https://www.eddyrojas.com/",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "I will support our law enforcement, secure our borders, and invest in community programs that prevent crime",
+          "context": "On his campaign website's priorities page",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -290,6 +334,14 @@
       "publisher": "Office of Rep. Carlos Gimenez",
       "kind": "official",
       "date": "2024-11-26"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.eddyrojas.com/events-1",
+      "title": "Priorities",
+      "publisher": "Eddy Rojas for Congress campaign site",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

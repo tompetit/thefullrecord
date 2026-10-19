@@ -224,7 +224,25 @@
       ],
       "record": [],
       "website": "https://www.sabioforcongress.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Secure the border while restoring lawful and orderly immigration processes.",
+          "context": "On his campaign website, Safe Communities & Secure America Act page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Ensure law enforcement officers have the training, resources, and support necessary to protect our communities.",
+          "context": "On his campaign website, Safe Communities & Secure America Act page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ]
     },
     {
       "id": "shelly-arnoldi",
@@ -240,10 +258,44 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Defending parental rights and putting parents at the center of education decisions.",
+          "quote": "put parents back at the center of education and defend parental rights",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Cutting waste, taxes and red tape for families and small businesses.",
+          "quote": "cut waste, taxes, and red tape so families and small businesses can breathe",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Term limits and transparent budgets; she says she has signed the U.S. Term Limits pledge.",
+          "quote": "push term limits and transparent budgets (I've already signed the U.S. Term Limits pledge and I'll keep it)",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://shellyarnoldi4va.org/",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "enforce immigration laws and stop taxpayer-funded benefits for illegal immigrants",
+          "context": "In her answer on day-one priorities, Patch candidate questionnaire (Sept. 2026)",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "researchNotes": "Found her campaign website (priorities page) and a Patch candidate questionnaire; her statements are general and only one touches a guide issue (immigration enforcement), without a stated position on the guide's statement. No statements found on abortion, guns, health care, taxes on high earners or other guide issues."
     },
     {
       "id": "tim-sharman",
@@ -259,10 +311,82 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Affordability: housing, childcare, healthcare, education, groceries and transportation.",
+          "quote": "I will focus on the things people worry about when they wake up in the morning: whether they can afford a home, childcare, healthcare, education, groceries and transportation",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Introducing an \"American Opportunity Fund Act\" on day one.",
+          "quote": "On Day 1, I will introduce it.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Never voting to shut down the federal government and supporting reforms to end shutdowns.",
+          "quote": "I will never vote to shut down the federal government.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Health care reform, including a proposed \"United States Healthcare Service.\"",
+          "quote": "Two proposals on healthcare reform",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "Says women should have the right to choose, with legal limits: supports state-set gestational limits of about 16 weeks, with exceptions for serious medical circumstances.",
+          "quote": "I believe women should have the right to choose whether to terminate a pregnancy, but that right should have reasonable limits. I support allowing states to establish gestational restrictions, with approximately 16 weeks being a reasonable limit",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "Supports universal health coverage and proposes a public U.S. Health Service and automatic enrollment to be explored, while saying it should be pursued without new taxes.",
+          "quote": "I also believe we should try to achieve universal healthcare without imposing new taxes.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says his proposed opportunity fund would be voluntary and that wealth creation should not be met with added taxes.",
+          "quote": "Financial success and wealth creation should be celebrated, not punished with added taxes.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "website": "https://timsharmanforcongress.com/",
+      "statements": [
+        {
+          "issue": "israel_aid",
+          "quote": "Restricting the supply of offensive weapons, particularly large ordnance, is one option. However, I would advocate a more fundamental approach: embedding U.S. military personnel within IDF operational command structures, with authority to veto proposed military operations in Gaza.",
+          "context": "On his campaign website, \"The Toughest Issues of Our Time\"",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from his campaign website (issue sections and 'The Toughest Issues of Our Time') and a Patch candidate questionnaire. No statements found on guns, immigration, climate, rent regulation or school choice."
     }
   ],
   "sources": [
@@ -315,6 +439,34 @@
       "publisher": "Sabio for Congress",
       "kind": "candidate",
       "id": "s7"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.sabioforcongress.com/safe-and-secured-america-1",
+      "title": "The Safe Communities & Secure America Act",
+      "publisher": "Sabio for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://patch.com/virginia/oldtownalexandria/candidate-profile-shelly-arnoldi-va-8th-congressional-district",
+      "title": "Candidate Profile: Shelly Arnoldi For VA 8th Congressional District",
+      "publisher": "Patch (Old Town Alexandria), candidate questionnaire",
+      "kind": "news"
+    },
+    {
+      "id": "s11",
+      "url": "https://timsharmanforcongress.com/",
+      "title": "Tim Sharman for Congress",
+      "publisher": "Tim Sharman for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://patch.com/virginia/oldtownalexandria/candidate-profile-tim-sharman-va-8th-congressional-district",
+      "title": "Candidate Profile: Tim Sharman For VA 8th Congressional District",
+      "publisher": "Patch (Old Town Alexandria), candidate questionnaire",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

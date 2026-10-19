@@ -109,12 +109,106 @@
           "sources": [
             "s1"
           ]
+        },
+        {
+          "text": "Medicare for All: universal coverage for every American.",
+          "quote": "I support Medicare for All: universal coverage for every American regardless of age, income, or employment status.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Protect and expand Social Security and Medicare.",
+          "quote": "I oppose any cuts to Social Security or Medicare.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports universal government-guaranteed health coverage (Medicare for All).",
+          "quote": "I support Medicare for All: universal coverage for every American regardless of age, income, or employment status.",
+          "sources": [
+            "s4",
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Says rent control should apply to all rental dwellings.",
+          "quote": "We also need rent control for all rental dwellings.",
+          "sources": [
+            "s5",
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says tariffs can be useful if targeted, but that the current sweeping tariffs should be reined in.",
+          "quote": "We must reign in the current sweeping tariffs before the working class is further harmed financially.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Opposes mass deportation operations; supports pathways to citizenship.",
+          "quote": "I oppose mass deportation operations that tear apart families and terrorize communities.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports funding an expansion of Social Security by requiring billionaires and large corporations to pay more.",
+          "quote": "I support expanding benefits, funded by requiring billionaires and large corporations to finally pay their fair share.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Pearce's Ballotpedia survey focuses on campaign-finance and term-limits reform rather than the guide's fixed issue list; no direct statements on the ISSUES keys were found."
+      "researchNotes": "Positions come from Pearce's campaign site policy pages, his Vote411 answers and a February 2026 Community Impact primary Q&A (the rent control quote appears in both Vote411 and the Q&A as a plan item). Opponent Pat Fallon had not answered Vote411 at the time of review. No abortion, guns, school choice or climate position found beyond the statements shown.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Climate issues are a neutral belief that ensures the future of humanity, and it is important to work together with other countries to set pollution standards.",
+          "context": "In his Vote411 candidate answers",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "The transgender athletes they talk about? There are less than 10 in the entire US.",
+          "context": "In his Vote411 answer on transgender and other LGBTQ people",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "quote": "I support a living wage — because no one working full time should go home hungry.",
+          "context": "On the Labor & Wages page of his campaign site",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "website": "https://www.pearcefortexas.com/"
     }
   ],
   "sources": [
@@ -141,6 +235,30 @@
       "publisher": "Office of Congressman Pat Fallon",
       "kind": "official",
       "date": "2025-02-27"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.pearcefortexas.com/",
+      "title": "Jason Pearce for Texas: policy priorities",
+      "publisher": "Jason Pearce for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s5",
+      "url": "https://onyourballot.vote411.org/race-detail.do?id=50429894",
+      "title": "Texas US House District 4: candidate answers",
+      "publisher": "League of Women Voters / Vote411",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
+      "url": "https://communityimpact.com/prosper-celina/election/qa-meet-the-democratic-primary-candidates-for-us-house-district-4/",
+      "title": "Q&A: Meet the Democratic primary candidates for US House District 4",
+      "publisher": "Community Impact",
+      "kind": "news",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25"

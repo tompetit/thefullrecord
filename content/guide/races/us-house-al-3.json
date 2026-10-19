@@ -171,11 +171,33 @@
           "summary": "Says tariffs are causing rising prices and job losses and hurting farmers in his district.",
           "sources": [
             "s3"
-          ]
+          ],
+          "quote": "Already tariffs are causing rising prices and job loses."
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "At a November 2025 town hall, described current immigration enforcement as illegal, unconstitutional and inhumane, per The Auburn Plainsman.",
+          "quote": "illegal, unconstitutional and inhumane",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "We talk about how everybody in this district should have an equal shot at having a healthy life, and that includes healthcare, that includes clean water, that includes universal lunches for school children",
+          "context": "In an Alabama Reflector interview, October 2026",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "researchNotes": "No campaign website was found. Added statements and positions come from Alabama Reflector (Oct. 2026) and The Auburn Plainsman (Nov. 2025 town hall). The Plainsman reports he pledged red flag laws and an assault-weapons ban but quotes nothing from him, so no gun position is recorded. His living-wage remarks do not mention the minimum wage."
     }
   ],
   "sources": [
@@ -221,6 +243,22 @@
       "publisher": "Congress.gov",
       "kind": "official",
       "id": "s6"
+    },
+    {
+      "id": "s7",
+      "url": "https://alabamareflector.com/2026/10/19/in-alabamas-3rd-congressional-district-a-longtime-gop-incumbent-faces-a-new-comer/",
+      "title": "In Alabama's 3rd Congressional District, a longtime GOP incumbent faces a newcomer",
+      "publisher": "Alabama Reflector",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.theplainsman.com/article/2025/11/us-congressional-candidate-lee-mcinnis-holds-open-town-hall",
+      "title": "U.S. congressional candidate Lee McInnis holds open town hall",
+      "publisher": "The Auburn Plainsman",
+      "kind": "news",
+      "date": "2025-11-20"
     }
   ],
   "researchedAt": "2026-09-25"

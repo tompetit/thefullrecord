@@ -192,7 +192,9 @@
           "summary": "Says he wants to protect human life from conception until natural death and end abortion used for birth control, with states regulating the procedure.",
           "sources": [
             "s3"
-          ]
+          ],
+          "quote": "Protect Innocent Human Life, from Conception until Natural Death. End Abortion for birth control purposes, and regulate it to spare as many lives as possible",
+          "basis": "statements"
         }
       ],
       "record": [],
@@ -244,7 +246,33 @@
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Positions are drawn from Laszacs' 2026 Ballotpedia Candidate Connection survey; no campaign website content beyond the survey was reviewed within the research budget."
+      "researchNotes": "Priorities come from his 2026 Ballotpedia Candidate Connection survey. The school choice, housing and health care statements come from matt4nc.us, which Ballotpedia lists as his campaign website; those pages show a North Carolina House District 41 campaign header (the education page is dated April 2022) and address state policy, so they are shown as statements rather than positions. Nothing was found on abortion, guns, immigration, or other federal issues.",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "Expand and fully fund the North Carolina Opportunity Scholarship program, allowing greater access for all families, including those who lack the financial means to enroll their students in a private school.",
+          "context": "On matt4nc.us, a page dated April 2022 from his earlier campaign for North Carolina House District 41; it addresses a state program",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Strengthen the ability of property owners to meet the growing needs of our expanding and changing population through unique residential configurations that allow for small dwellings and affordable housing.",
+          "context": "On matt4nc.us, a page from his earlier campaign for North Carolina House District 41; it addresses state policy",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Transition the current Medicaid direct payment model to a state-funded health savings account, giving people more flexibility in defining the healthcare options that best serve their individual circumstances.",
+          "context": "On matt4nc.us, a page from his earlier campaign for North Carolina House District 41; it addresses state policy",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -327,6 +355,27 @@
       "publisher": "Office of Rep. Deborah Ross",
       "kind": "official",
       "date": "2025-12-12"
+    },
+    {
+      "id": "s11",
+      "url": "https://matt4nc.us/priorities/education/",
+      "title": "Education | Matt Laszacs",
+      "publisher": "Matt Laszacs campaign website (matt4nc.us)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://matt4nc.us/priorities/economy/",
+      "title": "Economy | Matt Laszacs",
+      "publisher": "Matt Laszacs campaign website (matt4nc.us)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://matt4nc.us/priorities/healthcare/",
+      "title": "Healthcare | Matt Laszacs",
+      "publisher": "Matt Laszacs campaign website (matt4nc.us)",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

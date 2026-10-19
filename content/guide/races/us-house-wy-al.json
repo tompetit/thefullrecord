@@ -278,12 +278,50 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "text": "\"I'm for states’ rights, 10th Amendment, big time. I think federal government's got too big, and I think that they need to give the states back the power that they're supposed to have.\"",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "\"We need to build another oil refinery.\"",
+          "sources": [
+            "s11"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Has not completed Ballotpedia's Candidate Connection survey; no clear stance found on the guide's fixed issue list."
+      "researchDepth": "basic",
+      "researchNotes": "Statements are from an Oct. 6, 2026 Wyoming Public Radio / KHOL interview transcript and the Oct. 15 Riverton debate as reported by WyoFile. No Ballotpedia Candidate Connection survey found; his campaign site (haggitforhouse.com) was not reviewed. His interview did not state a position on the guide's other listed issues; his remarks on Israel concerned military alliances rather than aid and are not included.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "a lot of the stuff that they run into problems with is because the local sanctuary outfits don’t do it, so they got to come in with force. Immigration is broken and needs reformed.",
+          "context": "Rapid-fire answer on ICE and immigration at the Oct. 15, 2026 Riverton debate, per WyoFile",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I’d hate to see coal go away because it's provided a lot of good jobs, so I’d like to see that continue.",
+          "context": "In an Oct. 6, 2026 interview with Wyoming Public Radio / KHOL",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Healthcare is getting to be expensive for a lot of people. There's Medicare if you're old enough.",
+          "context": "In an Oct. 6, 2026 interview with Wyoming Public Radio / KHOL",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     },
     {
       "id": "shawn-johnson",
@@ -336,12 +374,45 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "text": "\"I think that's one of the major priorities that I would have, is to end the war so we can start to recover economically.\"",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "\"I wanna make sure if I'm elected that our rural hospitals are properly funded\"",
+          "sources": [
+            "s13"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "At the Oct. 15, 2026 Riverton debate he said ICE is overfunded and used improperly while also saying borders should be secured.",
+          "quote": "I think ICE is overly overfunded. I think they’re being used improperly. We do need to ensure that our borders are secure, because I believe that borders define a nation.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey but responses do not clearly state positions on the guide's fixed issue list."
+      "researchNotes": "Ballotpedia Candidate Connection responses did not clearly state positions on the guide's issue list; the position and statement here come from his Oct. 6, 2026 Wyoming Public Radio / KHOL interview and the Oct. 15 Riverton debate as reported by WyoFile. His interview did not state a position on the guide's other listed issues.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "I wanna make sure if I'm elected that our rural hospitals are properly funded, and then we need to come up with something to replace the Affordable Care Act and to bring insurance costs down",
+          "context": "In an Oct. 6, 2026 interview with Wyoming Public Radio / KHOL",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -418,6 +489,29 @@
       "kind": "candidate",
       "date": "2026-09-17",
       "id": "s10"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.wyomingpublicmedia.org/2026-10-06/interview-with-jeffrey-haggit-constitution-party-candidate-for-u-s-house",
+      "title": "Interview with Jeffrey Haggit, Constitution Party, candidate for U.S. House",
+      "publisher": "Wyoming Public Media / KHOL",
+      "kind": "news",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "url": "https://wyofile.com/who-showed-up-for-wyomings-us-house-debate-and-key-takeaways/",
+      "title": "Who showed up for Wyoming's US House debate and key takeaways",
+      "publisher": "WyoFile",
+      "kind": "news"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.wyomingpublicmedia.org/2026-10-06/interview-with-shawn-johnson-libertarian-party-candidate-for-u-s-house",
+      "title": "Interview with Shawn Johnson, Libertarian Party candidate for U.S. House",
+      "publisher": "Wyoming Public Media / KHOL",
+      "kind": "news",
+      "date": "2026-10-06"
     }
   ],
   "researchedAt": "2026-09-25",

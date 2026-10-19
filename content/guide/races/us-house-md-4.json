@@ -56,7 +56,28 @@
       "id": "s6",
       "url": "https://ballotpedia.org/George_McDermott",
       "title": "George McDermott - Baltimore Sun interview (Mar. 12, 2024), as reproduced by Ballotpedia",
-      "publisher": "Ballotpedia",
+      "publisher": "The Baltimore Sun interview (Mar. 12, 2024), as reproduced by Ballotpedia",
+      "kind": "news"
+    },
+    {
+      "id": "s7",
+      "url": "https://samhusseini.com/issues",
+      "title": "Sam Husseini for Congress: Issues",
+      "publisher": "Sam Husseini for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://georgemcdermott.com/",
+      "title": "George McDermott: Mission",
+      "publisher": "George McDermott campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://georgemcdermott.com/campaign/",
+      "title": "George McDermott: Campaign Q&A",
+      "publisher": "George McDermott campaign website",
       "kind": "candidate"
     }
   ],
@@ -183,20 +204,35 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Holding the executive, legislative and judicial branches accountable to the Constitution, per his Mission statement.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Judicial accountability: his campaign Q&A page, which includes a 2018 Red Maryland survey, gives as top priority legislation requiring leaders to inform the public about secret matters and holding the judiciary to its canons of conduct.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "In a March 2024 Baltimore Sun interview, says Congress should protect the right to choose after Dobbs.",
-          "quote": "Yes, this candidate believes that Congress should protect the legal and civil rights of all citizens in human beings in this nation the right to choice",
+          "quote": "As a candidate victim’s rights advocate, father, and believer in a woman’s right to choose.",
           "sources": [
             "s6"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://georgemcdermott.com/",
+      "researchNotes": "Campaign website read. Answers on guns, taxes and welfare there do not address the guide statements directly; the Q&A page and survey are undated or from 2018. The Baltimore Sun 2024 interview (via Ballotpedia) is the source of the abortion position; his Gaza answer is too garbled in that transcription to quote. No 2026 questionnaire found."
     },
     {
       "id": "sam-husseini",
@@ -212,12 +248,84 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Peace and a foreign policy based on law: ends U.S. funding of Israel and reduces military spending.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Medicare for All.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Stopping data centers.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls for ending all U.S. funding to Israel.",
+          "quote": "Stop genocide of Palestinians in Gaza, all funding to apartheid Israel",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign issues page lists Medicare for All.",
+          "quote": "Enhanced Medicare for All",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for raising taxes on the rich and closing loopholes, including on corporate taxes.",
+          "quote": "Dramatically increase it on the rich, closing manipulative loopholes -- including with corporate taxes and financial transaction tax.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls for abolishing ICE.",
+          "quote": "Ensure civil liberties. Stop and abolish ICE",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "unconstitutionally attacking Yemen, Iran and Venezuela",
+          "context": "In his answer to a League of Women Voters question on the U.S. role in the world, posted on his campaign site",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "website": "https://samhusseini.com",
+      "researchNotes": "Independent candidate. Campaign issues page read, including his posted answers to League of Women Voters and Baltimore Banner questions; the page text available did not include the end of the Maryland Stance on Science answers."
     }
   ],
-  "researchNotes": "No campaign website, issue statements or Candidate Connection survey responses were found for George McDermott or Sam Husseini beyond what Ballotpedia lists.",
+  "researchNotes": "George McDermott's campaign site and Q&A page were read; no 2026 questionnaire answers were found for him. Sam Husseini's campaign issues page was read; neither completed a Ballotpedia Candidate Connection survey for 2026.",
   "researchedAt": "2026-09-25"
 }

@@ -200,21 +200,21 @@
           ]
         }
       ],
-      "positions": [
+      "record": [],
+      "website": "https://tp313.org/",
+      "researchDepth": "basic",
+      "researchNotes": "Nykoriak has not completed Ballotpedia's Candidate Connection survey; positions above are drawn from his own campaign website. None of his stated priorities map cleanly onto this guide's fixed issue list, so no `positions` entries were added.",
+      "statements": [
         {
           "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Campaign site says he will fight to protect Medicare and Medicaid for lawful beneficiaries while working to eliminate fraud, waste and abuse.",
           "quote": "TP Nykoriak will fight to protect Medicare and Medicaid for those who lawfully depend upon these programs while working to eliminate fraud, waste, and abuse that threaten their long-term stability.",
+          "context": "On his campaign website",
           "sources": [
             "s3c"
           ]
         }
       ],
-      "record": [],
-      "website": "https://tp313.org/",
-      "researchDepth": "basic",
-      "researchNotes": "Nykoriak has not completed Ballotpedia's Candidate Connection survey; positions above are drawn from his own campaign website. None of his stated priorities map cleanly onto this guide's fixed issue list, so no `positions` entries were added."
+      "positions": []
     },
     {
       "id": "raelyn-light",
@@ -250,11 +250,33 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "A single-rate federal tax system (stated on his 2024 campaign website).",
+          "quote": "Single-Rate tax system.",
+          "sources": [
+            "s4d"
+          ]
+        },
+        {
+          "text": "Streamlining the committee and subcommittee structure in Congress (stated on his 2024 campaign website).",
+          "quote": "Stream-line the Committee/Sub-Committee structure in Congress.",
+          "sources": [
+            "s4d"
+          ]
+        },
+        {
+          "text": "Consolidating and downsizing federal departments (stated on his 2024 campaign website).",
+          "quote": "Department Consolidation and down-sizing until the government becomes relatively \"efficient.\"",
+          "sources": [
+            "s4d"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "Has not completed Ballotpedia's 2026 survey and no 2026 campaign website found. Priorities come from his 2024 Ballotpedia survey and 2024 campaign website excerpt for this same district; none of the stated priorities map onto the guide's fixed issue list, so no positions or statements were added."
     },
     {
       "id": "simone-coleman",
@@ -346,6 +368,14 @@
       "publisher": "TP Nykoriak for Congress",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s4d",
+      "url": "https://ballotpedia.org/Christopher_Dardzinski",
+      "title": "Christopher Dardzinski (2024 Candidate Connection survey and campaign website excerpt)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2024-11-05"
     }
   ],
   "researchedAt": "2026-09-25"

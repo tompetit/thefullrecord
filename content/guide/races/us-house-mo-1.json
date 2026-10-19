@@ -170,7 +170,25 @@
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No 2026 Ballotpedia Candidate Connection survey completed; positions drawn from his campaign website's stated 2024/2026 agenda page. He has not previously held elected office."
+      "researchNotes": "Berry has not completed Ballotpedia's 2024 or 2026 Candidate Connection survey. His current campaign site (momadmaga.com) is focused on opposing socialism and the St. Louis city government and has no issues page; the two statements here come from his 2024 campaign website as quoted by Ballotpedia, in third-person campaign copy rather than first-person quotes. No other stated positions on guide issues were found.",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "Championing the sanctity of life, Paul advocates for policies that protect and value every unborn child.",
+          "context": "From his 2024 campaign website, as reproduced on Ballotpedia; his current site (momadmaga.com) has no issues page",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "Empowering choice in education. Paul champions diverse school options for all.",
+          "context": "From his 2024 campaign website, as reproduced on Ballotpedia; his current site (momadmaga.com) has no issues page",
+          "sources": [
+            "s3"
+          ]
+        }
+      ]
     },
     {
       "id": "tom-schmitz",
@@ -187,11 +205,91 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Separate healthcare from government in favor of a free-market healthcare system.",
+          "quote": "We need separation of healthcare and state",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Change to a foreign policy of non-interventionism and end foreign aid.",
+          "quote": "We need decisive change to a foreign policy of peace and non-interventionism.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "End the war on drugs and legalize currently controlled substances.",
+          "quote": "Currently controlled substances should be legalized and treated the same under the law as alcohol.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Advocates separating healthcare from government and a free-market system in place of government-run coverage.",
+          "quote": "We need separation of healthcare and state, a liberated healthcare system free from government coercion and control, a free-market system which will drive down prices, inspire innovation, and increase quality through competition.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Says funding a child's education is solely the parents' responsibility and calls for removing government from education.",
+          "quote": "The management and funding of a child's education is the responsibility of the parents of that child and no one else.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says gun-rights protections should be vigilantly defended and that the expansion of red flag laws should be resisted.",
+          "quote": "We must resist the expansion of \"red flag\" laws, which are a dangerous slippery slope toward government obtaining the power to disarm American Citizens at will and without any semblance of due process.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or other public statements of positions found."
+      "researchDepth": "basic",
+      "researchNotes": "Positions, statements and priorities come from the issues page of his campaign website (tomschmitzforliberty.com). He has not completed Ballotpedia's 2026 Candidate Connection survey. No stated position found on rent, minimum wage, tariffs or police funding beyond what is listed.",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I believe that innovations in medical technology unleashed by the free market can make abortion obsolete in our society.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "In addition, this government has failed to effectively fight global climate change by severely blunting the development of nuclear power.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "The ideal in a free society without compulsory taxation or government welfare programs is that immigrants would be able to move across borders as freely as possible.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "website": "https://www.tomschmitzforliberty.com"
     }
   ],
   "sources": [
@@ -250,6 +348,14 @@
       "publisher": "Office of Rep. Wesley Bell",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.tomschmitzforliberty.com/issues",
+      "title": "Issues",
+      "publisher": "TomSchmitzForLiberty.com",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

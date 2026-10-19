@@ -1,0 +1,149 @@
+{
+  "id": "nc-prop-voter-id",
+  "state": "NC",
+  "officeType": "ballot-measure",
+  "office": "Constitutional Amendment",
+  "title": "Constitutional Amendment to Require All Voters to Present Photo Identification Before Voting",
+  "area": "Statewide — all of North Carolina",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Referred to the ballot by the General Assembly as Senate Bill 921 (Session Law 2024-58), ratified December 13, 2024, in the lame-duck session after the November 2024 election; the session law set the vote for the November 3, 2026 general election. The third-reading roll calls were 30-19 in the Senate and 73-45 in the House. Voters approved a separate 2018 amendment requiring photo ID to vote in person.",
+      "sources": [
+        "s1",
+        "s5",
+        "s6",
+        "s3"
+      ]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "[ ] FOR [ ] AGAINST Constitutional amendment to require all voters, not just those presenting to vote in person, to present photo identification before voting.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "summary": {
+      "text": "The amendment would change Article VI, Sections 2(4) and 3 of the North Carolina Constitution from requiring voters \"offering to vote in person\" to present photographic identification to requiring all voters to do so, with the General Assembly to set the ID requirements by general law, which may include exceptions. It would take effect upon certification of the vote. The Charlotte Post notes that North Carolina already requires absentee-by-mail voters to include a copy of a photo ID or complete an exception form; WUNC notes the state already has a voter ID requirement and that the amendment would establish it in the Constitution. The session law contains no fiscal estimate.",
+      "sources": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    },
+    "yesMeans": "Extends the constitutional photo identification requirement from in-person voters to all voters, including those voting by mail, with ID rules and exceptions set by the General Assembly.",
+    "noMeans": "Leaves the Constitution's photo ID requirement limited to in-person voting; existing statutes on absentee ID would remain ordinary law.",
+    "argumentsFor": [
+      {
+        "text": "Rep. Mike Schietzelt (R-Wake) said, as reported by WUNC, that the amendment increases security as mail-in voting has grown after the pandemic: \"I think ... all of your election law policy is trying to strike a balance between ensuring that every person who is eligible to vote has an opportunity to vote while also limiting opportunities for other people to interfere in the election... You're trying to balance security with access.\"",
+        "sources": [
+          "s3"
+        ]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "Rep. Pricey Harrison (D-Guilford) told WUNC: \"I just think it adds a hurdle that's unnecessary and (is) meant to address what is perceived to be voter security issues when there really is no problem with folks not having that (security) for absentee ballots... it's difficult to undo it once it's in the constitution.\"",
+        "sources": [
+          "s3"
+        ]
+      }
+    ],
+    "fullTextUrl": "https://www.ncleg.gov/Sessions/2023/Bills/Senate/PDF/S921v3.pdf",
+    "currentLaw": {
+      "text": "Article VI, Sections 2(4) and 3 of the North Carolina Constitution currently require voters \"offering to vote in person\" to present photographic identification before voting. NC Newsline reported in December 2024 that current state law requires ID for all forms of voting, and that the amendment would enshrine that in the constitution.",
+      "sources": [
+        "s1",
+        "e5"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Rep. Mike Schietzelt (R-Wake) said the amendment increases security as mail-in voting has grown.",
+        "sources": [
+          "s3"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Rep. Pricey Harrison (D-Guilford) said the amendment adds an unnecessary hurdle.",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "NC By the People, a ballot referendum committee of 20 organizations, is campaigning against all three amendments, including this one.",
+        "sources": [
+          "e3"
+        ]
+      },
+      {
+        "text": "Democracy North Carolina executive director Adrienne Kelly, a coalition member, said the amendment could create additional barriers for voters, particularly around absentee voting for overseas and military voters.",
+        "sources": [
+          "e3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.ncleg.gov/Sessions/2023/Bills/Senate/PDF/S921v3.pdf",
+      "title": "Session Law 2024-58 (Senate Bill 921), ratified December 13, 2024",
+      "publisher": "North Carolina General Assembly",
+      "kind": "official",
+      "date": "2024-12-13"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.wunc.org/politics/2026-09-22/explainer-nc-constitutional-amendments-2026-ballot-property-tax-voter-id",
+      "title": "Explainer: The constitutional amendments on the 2026 ballot",
+      "publisher": "WUNC",
+      "kind": "news",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.thecharlottepost.com/news/2026/10/14/opinion/we-urge-nc-voters-to-reject-constitutional-amendments/",
+      "title": "We urge NC voters to reject constitutional amendments",
+      "publisher": "The Charlotte Post (editorial)",
+      "kind": "news",
+      "date": "2026-10-14"
+    },
+    {
+      "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2023/S/677",
+      "title": "Senate roll call #677, SB 921 third reading",
+      "publisher": "North Carolina General Assembly",
+      "kind": "official",
+      "id": "s5"
+    },
+    {
+      "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2023/H/810",
+      "title": "House roll call #810, SB 921 third reading",
+      "publisher": "North Carolina General Assembly",
+      "kind": "official",
+      "id": "s6"
+    },
+    {
+      "id": "e5",
+      "url": "https://ncnewsline.com/2024/12/11/proposed-constitutional-amendment-to-require-photo-id-for-mail-voting-passes-legislature/",
+      "title": "Proposed constitutional amendment to require photo ID for mail voting passes legislature",
+      "publisher": "NC Newsline",
+      "kind": "news",
+      "date": "2024-12-11"
+    },
+    {
+      "id": "e3",
+      "url": "https://democracync.org/news/nc-by-the-people-launches-statewide-campaign-focused-against-constitutional-amendments/",
+      "title": "NC By the People launches statewide campaign focused against constitutional amendments",
+      "publisher": "Democracy North Carolina",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Ballot question text is taken verbatim from the question set out in the ratified session law, which is the text the State Board of Elections is directed to use on ballots. The North Carolina State Board of Elections' certified list could not be loaded (its pages list no ballot-question text); the three statewide amendments rest on the session laws and WUNC's September 22, 2026 explainer, which says voters will decide three proposed amendments, and the question wording is taken from the session laws. North Carolina has no citizen initiative and publishes no voter-pamphlet arguments; arguments are attributed quotes from news reports. A simple majority of votes cast on the question approves each amendment. A quote from Sen. Warren Daniel that Ballotpedia relayed could not be traced to its original release and is omitted. The Charlotte Post's opposing editorial is used only for the factual description of current absentee ID rules, not as an argument, because it is an opinion piece; one quoted legislator is listed for each side. Supporters and opponents are limited to those whose stance a fetched page shows. No campaign-finance totals for the ballot-measure committees were found, so campaignFinance is omitted. No fiscal estimate was found for this amendment. No verbatim, attributed pro argument beyond Rep. Schietzelt's was found, so the argument sides were left as they were."
+}

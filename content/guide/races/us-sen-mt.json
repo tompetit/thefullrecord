@@ -63,13 +63,37 @@
           "sources": [
             "s1"
           ]
+        },
+        {
+          "text": "Says he has a record of cutting taxes, balancing the state budget and prosecuting violent crime.",
+          "quote": "I’m the only candidate up here with a proven record of cutting taxes, balancing our state budget, and locking up violent criminals,",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Says he would work for affordability, safer communities and the Montana way of life.",
+          "quote": "make our lives more affordable, make our communities safer, and protect our Montana way of life.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Basic-tier research from Ballotpedia. His campaign website (almeforsenate.com) was reviewed in October 2026; its priorities page had no issue statements yet.",
-      "website": "https://almeforsenate.com/"
+      "researchNotes": "Priorities page on almeforsenate.com contains placeholder text. Quotes are from the Oct. 11, 2026 debate as reported by the Daily Montanan; the Daily Montanan reports he has declined other debate invitations. No quotes found on abortion, guns, immigration or tariffs.",
+      "website": "https://almeforsenate.com/",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "We need to hold them accountable, and we need to make healthcare more affordable by making it more transparent, more competitive, and by putting patients first,",
+          "context": "In the Oct. 11, 2026 Bozeman debate, per the Daily Montanan, after saying the Affordable Care Act subsidized drug and insurance companies",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     },
     {
       "id": "alani-bankhead",
@@ -201,12 +225,122 @@
           "sources": [
             "s1"
           ]
+        },
+        {
+          "text": "Ending the war in Iran, citing Congress's authority over war.",
+          "quote": "END THE COSTLY AND UNAUTHORIZED WAR IN IRAN",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Lowering health care premiums and drug costs.",
+          "quote": "LOWER HEALTH CARE PREMIUMS AND DRUG COSTS",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Making it more affordable to buy a home.",
+          "quote": "MAKE IT MORE AFFORDABLE TO BUY A HOME",
+          "sources": [
+            "s8"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Campaign site lists reasserting Congress's authority to declare war before troops are committed to combat.",
+          "quote": "Reasserting Congress's constitutional authority to declare war before American troops are committed to combat.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "mixed",
+          "summary": "Campaign site supports targeted tariffs as leverage and opposes blanket tariffs on allies such as Canada.",
+          "quote": "Support targeted, strategic tariffs used as leverage against countries actually cheating on trade, not blanket tariffs on allies like Canada.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign site lists defending Medicaid expansion and an affordable coverage option for every American.",
+          "quote": "Defending Medicaid expansion, which has helped keep every rural hospital in Montana open.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign site says he opposes a federal assault weapons ban, a new universal background check mandate and a federal red-flag law.",
+          "quote": "Seth opposes a federal assault weapons ban, a new universal background check mandate, and a federal red-flag law.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign site lists codifying Roe v. Wade into federal law.",
+          "quote": "Codifying Roe v. Wade into federal law.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign site says he opposes school vouchers.",
+          "quote": "Seth will oppose school vouchers that siphon public tax dollars to private schools.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Campaign site lists zoning and code reform that expands housing supply.",
+          "quote": "Cutting the red tape slowing new housing construction and support zoning and code reform that expands supply.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Basic-tier research from Ballotpedia; no personal campaign website or additional issue statements located in the time available."
+      "researchNotes": "From the issues page of his campaign site (sethformontana.com/issues; each topic expands to a list of what he supports). Page is undated; it refers to the Iran war and 2026 events. He did not take a position on the wording of the guide's immigration-enforcement or tax statements, so those appear as statements only.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Enforcing the immigration laws already on the books.",
+          "context": "On his campaign site, under 'Secure our border and enforce immigration laws'",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Strengthening long-term solvency through fairer contributions from the highest earners.",
+          "context": "On his campaign site, under 'Protect Social Security and Medicare'",
+          "sources": [
+            "s8"
+          ]
+        }
+      ]
     },
     {
       "id": "kyle-austin",
@@ -242,11 +376,54 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Agriculture, drawing on his family farm.",
+          "quote": "Austin understands the stress, the challenges, and the problems our American farmers and ranchers face.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Second Amendment rights.",
+          "quote": "Austin is a gun owner, and a hunter understands the importance of gun rights in America.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "A healthcare plan he calls Healthcare 2.0, drawing on his work as a pharmacist.",
+          "quote": "Austin, as a pharmacist and pharmacy owner, understands the healthcare issues and corruption related to the healthcare industry.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign site says he believes everyone should have unrestricted access to bear arms.",
+          "quote": "Austin believes everyone American should un-restricted access to bear arms.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Little public campaign material found beyond Ballotpedia's biography; no stated 2026 priorities or issue positions located in the time available."
+      "researchDepth": "basic",
+      "researchNotes": "From his campaign homepage (third-person text, quote as published) and the Oct. 11, 2026 debate coverage. His platform page did not load. No quotes found on other guide issues.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "to create one set of rules, to get the payers to clean up their mess and actually pay our providers what they’re worth.",
+          "context": "In the Oct. 11, 2026 Bozeman debate, describing his 'Healthcare 2.0' plan, per the Daily Montanan",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -291,6 +468,27 @@
       "title": "Alani Bankhead, Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.sethformontana.com/issues",
+      "title": "Seth on the Issues",
+      "publisher": "Seth for Montana campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.kyleaustinmt.com/",
+      "title": "Kyle Austin for U.S. Senate",
+      "publisher": "Austin for Senate campaign site",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://dailymontanan.com/?p=39449",
+      "title": "Montana US Senate candidates share debate stage (Oct. 12, 2026)",
+      "publisher": "Daily Montanan",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

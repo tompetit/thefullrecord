@@ -11,92 +11,135 @@
   "context": [
     {
       "text": "This is an open seat: incumbent Rep. Ryan Zinke (R) did not run for re-election. The Democratic Congressional Campaign Committee named Sam Forstag to its \"Red to Blue\" program and the National Republican Congressional Committee named Aaron Flint to its \"MAGA Majority\" program, reflecting the district's ticket-splitting history: in 2024 Donald Trump carried the district 54%-43% while Zinke won it by a smaller 52%-45% margin and Democratic Sen. Jon Tester won it 50%-49%. As of July 21, 2026, Cook Political Report, DDHQ/The Hill, Inside Elections and Sabato's Crystal Ball rated the general election Likely Republican.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "aaron-flint",
       "name": "Aaron Flint",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the Republican primary on June 2, 2026.",
       "summary": {
         "text": "Aaron Flint is the Republican nominee for Montana's open 1st Congressional District seat. He is a radio talk show host who previously served as state director for Rep. Ryan Zinke and communications director for Gov. Greg Gianforte's 2016 campaign, and served in the U.S. Army National Guard and Reserves from 2002 to 2024.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Worked as a radio talk show host.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served as state director for then-Rep. Ryan Zinke and as communications director for Gov. Greg Gianforte's 2016 gubernatorial campaign.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served in the U.S. Army National Guard and Reserves from 2002 to 2024.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"I have heard firsthand their frustrations with government and what they believe needs to change. That has given me a different perspective than most candidates. I am not guessing what people want; I have been listening to them for nearly two decades.\"",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "housing_supply",
+          "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Says Montana needs to make it easier to build homes and businesses and to reduce regulations, in the context of housing demand and prices.",
-          "quote": "We also need to make it easier to build homes and businesses in our state.",
-          "sources": ["s6"]
-        },
-        {
-          "issue": "war_powers",
-          "stance": "opposes",
-          "summary": "In a March 2026 questionnaire, said he would not support measures that tie the military's hands or keep the President from acting quickly when American lives are at risk, in answer to a question on enforcing the War Powers Resolution.",
-          "quote": "I would not support anything that ties the hands of our military or prevents the President from acting quickly when American lives are at risk.",
-          "sources": ["s4"]
+          "summary": "In an October 2026 Montana Free Press questionnaire, says Border Patrol and ICE should have the personnel and equipment to deport illegal immigrants from Montana, starting with those convicted of violent crimes and drug trafficking.",
+          "quote": "That means giving Border Patrol and ICE the personnel and equipment to secure our borders, including our northern border, and deport illegal immigrants from Montana, starting with those convicted of violent crimes and drug trafficking.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Basic-tier research from Ballotpedia; campaign website Candidate Connection survey not separately reviewed in the time available. Positions added October 2026 from the Montana Free Press March 2026 questionnaire and the candidate's campaign site."
+      "researchNotes": "Basic-tier research from Ballotpedia, the Montana Free Press March 2026 questionnaire and October 2026 immigration feature, and his campaign website issues page. No statements found on abortion, guns, taxes on high earners, or minimum wage.",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "We also need to make it easier to build homes and businesses in our state.",
+          "context": "On his campaign website",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "I would not support anything that ties the hands of our military or prevents the President from acting quickly when American lives are at risk.",
+          "context": "In a March 2026 Montana Free Press questionnaire, in answer to whether the War Powers Resolution should be enforced",
+          "sources": [
+            "s4"
+          ]
+        }
+      ]
     },
     {
       "id": "sam-forstag",
       "name": "Sam Forstag",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the Democratic primary on June 2, 2026 over Ryan Busse, Russell Cleveland and Matt Rains; named to the DCCC's \"Red to Blue\" program.",
       "summary": {
         "text": "Sam Forstag is the Democratic nominee for Montana's open 1st Congressional District seat. He is a wildland-firefighting smokejumper, former lobbyist and legislative strategist, and former vice president of National Federation of Federal Employees Local 60, running as a \"working Montanan.\"",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Worked as a smokejumper, a wildland firefighter who parachutes into remote areas to fight fires.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Worked as a lobbyist and legislative strategist.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Served as vice president of the National Federation of Federal Employees (NFFE) Local 60.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Describes himself as \"a smokejumper, union leader, and working Montanan running for Congress in MT-01.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "In his Candidate Connection survey, says he knows what it is like to worry about a parent working too much, to rely on food stamps, and to work multiple jobs while attending school and still fall short on rent.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
@@ -105,49 +148,64 @@
           "stance": "supports",
           "summary": "Calls for letting everyone buy into Medicare and for restoring and expanding enhanced ACA subsidies.",
           "quote": "Restore and expand the enhanced ACA subsidies to ensure access to free health coverage for anyone making $70,000 or less and affordable healthcare for everyone.",
-          "sources": ["s7", "s5"]
+          "sources": [
+            "s7",
+            "s5"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "Calls for raising the corporate income tax rate to 35%, a 30% minimum tax rate on income over $1 million, and a 5% tax on fortunes over $1 billion.",
           "quote": "Make corporations carry their own weight by raising the corporate income tax rate to 35%.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says he would protect access to abortion by codifying Roe v. Wade.",
           "quote": "Protect access to abortion and reproductive health by codifying Roe v. Wade",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Calls for raising the federal minimum wage to at least $15 per hour and indexing it to inflation.",
           "quote": "Raise the federal minimum wage to at least $15 per hour and fix it permanently by tying it to the rate of inflation.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "Calls for federal incentives for zoning and regulatory reform where restrictions block housing, alongside affordable-housing investment.",
           "quote": "Incentivize zoning and regulatory reform in places where onerous and outdated zoning restrictions are standing in the way of building housing where working people need it most.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "war_powers",
           "stance": "supports",
           "summary": "In a March 2026 questionnaire, said Congress should act under the War Powers Resolution and Article I and vote to end the war with Iran.",
           "quote": "Congress should do their job as outlined in the War Powers Resolution and Article I of the U.S. Constitution",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Says tariffs can be a responsible tool in targeted uses, but calls recent tariff policy reckless and destructive and says tariffs should not be used to punish allies.",
           "quote": "what we’ve seen over the past couple years has been a reckless, destructive tariff policy that’s hurt Montana farmers and ranchers",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [],
@@ -157,19 +215,66 @@
     {
       "id": "nick-sheedy",
       "name": "Nick Sheedy",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced unopposed after the Libertarian primary was canceled.",
       "summary": {
         "text": "Nick Sheedy is the Libertarian Party nominee for Montana's open 1st Congressional District seat.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says the best thing federal officeholders can do on home ownership and cost of living is monetary reform, including ending the Federal Reserve.",
+          "quote": "We should end the Federal Reserve and the federal banking cartel that has destroyed the value of the US Dollar with continual inflationary policies, money-supply controls and interest rate manipulation.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Wants federal legislation limiting campaign contributions to people eligible to vote, nullifying the Citizens United decision.",
+          "quote": "I would also like to see federal legislation pass that nullifies the Supreme Court's 2010 decision in Citizens United v. Federal Election Commission by limiting all financial contributions to political campaigns and committees to persons who are eligible to vote in the United States.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Wants to lower the regulatory burden he says restricts the supply of healthcare providers.",
+          "quote": "I believe that the best way for Congress to improve access to healthcare generally would be to lower the regulatory burden, which artificially restricts the supply of healthcare providers.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In a March 2026 Montana Free Press questionnaire, says the War Powers Resolution should be strengthened so a president cannot engage in war without a congressional declaration.",
+          "quote": "The War Powers Resolution of 1973 should be strengthened so that the President cannot engage in war without Congress declaring war, as prescribed by the US Constitution.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Candidate Connection survey response, or other public statements found for Nick Sheedy in the time available."
+      "researchDepth": "basic",
+      "researchNotes": "Basic-tier research from his March 2026 Montana Free Press written questionnaire (four answers). No campaign website or Ballotpedia Candidate Connection survey found; he did not respond to MTFP's October immigration, healthcare or affordability questions.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "While federal laws and policies should not hinder healthcare services to rural areas, I am not sure the federal government has or should have a significant role to play when it comes to local hospitals and clinics",
+          "context": "In a March 2026 Montana Free Press questionnaire",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -224,6 +329,22 @@
       "title": "Policies — Sam Forstag for Montana",
       "publisher": "Sam for Montana",
       "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://montanafreepress.org/2026/10/14/montana-candidates-immigration-2026/",
+      "title": "Montana candidates on the issues: immigration",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "s9",
+      "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/nick-sheedy/",
+      "title": "Nick Sheedy: On the issues (2026 Montana Election Guide)",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-03-01"
     }
   ],
   "researchedAt": "2026-09-25",

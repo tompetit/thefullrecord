@@ -157,10 +157,51 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Free and open elections, which he calls his number one issue.",
+          "quote": "My number one issue is free and open elections.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Universal health care in Wyoming.",
+          "quote": "You put universal healthcare into Wyoming, and true Wyoming universal healthcare",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Restructuring Wyoming's tax system.",
+          "quote": "Number one is you need to restructure your taxes",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Growing small business.",
+          "quote": "the one industry I would like to see grow is our small business.",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a Wyoming Public Media interview, said universal health care would have a large effect in Wyoming.",
+          "quote": "Health, universal healthcare. You put universal healthcare into Wyoming, and true Wyoming universal healthcare, you're gonna see a shock that is unreal.",
+          "sources": [
+            "s15"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "No campaign website found (he posts on Facebook). He did not answer WyoFile's questionnaire; the positions and priorities here come from his Oct. 9, 2026 Wyoming Public Media interview. Not found: statements on abortion, guns, immigration, climate or other guide issues."
     },
     {
       "id": "rebecca-bextel",
@@ -207,10 +248,32 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Campaign site says she will oppose gun-control mandates, firearm registries and red-flag laws.",
+          "quote": "She will oppose unconstitutional gun-control mandates, firearm registries, red-flag laws that deny due process, and federal efforts to restrict the rights of responsible citizens.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "website": "https://rebeccaforwyoming.com",
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "I would find the 13M dollars to move families off the 3 year wait list for the medicaid waiver program.",
+          "context": "In the WyoFile 2026 candidate questionnaire",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from her campaign issues page and her WyoFile questionnaire answers. Her site's immigration language (driver's licenses, refugee resettlement) and the questionnaire line 'I will enforce the laws of the land' do not squarely address deportations, so they are not shown as a position; 'protecting innocent life' on the site does not name abortion."
     }
   ],
   "sources": [
@@ -317,6 +380,14 @@
       "publisher": "Wyoming Secretary of State",
       "kind": "official",
       "date": "2026-09-09"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.wyomingpublicmedia.org/2026-10-09/interview-with-ken-casner-democratic-party-candidate-for-governor",
+      "title": "Interview with Ken Casner, Democratic Party candidate for governor",
+      "publisher": "Wyoming Public Media",
+      "kind": "news",
+      "date": "2026-10-09"
     }
   ],
   "researchedAt": "2026-10-19",

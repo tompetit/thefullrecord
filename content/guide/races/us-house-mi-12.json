@@ -185,10 +185,40 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "States he is pro-life from conception to natural death (campaign website issues page dated July 2022).",
+          "quote": "I am Pro-Life from conception to natural death.",
+          "sources": [
+            "s3c"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "website": "https://jameshooperforcongress.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "I am a strong proponent of the Un-infringeable nature of the Second Amendment.",
+          "context": "On his campaign website issues page (page dated July 2022)",
+          "sources": [
+            "s3c"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "A nation that does not have control of its borders has abrogated its sovereignty.",
+          "context": "On his campaign website issues page (page dated July 2022)",
+          "sources": [
+            "s3c"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign website issues page found (dated 2022); no 2026 debate or questionnaire coverage found."
     },
     {
       "id": "brenda-sanders",
@@ -208,7 +238,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "No campaign website, platform or questionnaire found for 2026; BallotReady lists no issue stances."
     },
     {
       "id": "marc-joseph-sosnowski",
@@ -228,7 +258,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "No campaign website, platform or questionnaire found for 2026; BallotReady lists no issue stances."
     },
     {
       "id": "gary-walkowicz",
@@ -248,7 +278,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or Ballotpedia Candidate Connection survey response found describing his 2026 platform in detail."
+      "researchNotes": "No campaign website, platform or questionnaire found for 2026; BallotReady lists no issue stances."
     }
   ],
   "sources": [
@@ -323,6 +353,14 @@
       "publisher": "Rashida Tlaib for Congress",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s3c",
+      "url": "https://jameshooperforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "James Hooper for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25"

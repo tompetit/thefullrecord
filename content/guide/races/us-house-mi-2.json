@@ -131,7 +131,29 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lowering the cost of essentials by holding large corporations accountable for price gouging.",
+          "quote": "Bringing down the cost of essentials like groceries and gas by holding big corporations accountable for unfair price gouging",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Increasing federal funding for public schools and making college more affordable.",
+          "quote": "Increase federal funding for public schools and reduce class sizes",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Medicare for All.",
+          "quote": "Champion Medicare for All to guarantee quality healthcare for every American",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "healthcare_public",
@@ -154,7 +176,8 @@
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No campaign website located; background limited to what Ballotpedia's biography section documents."
+      "researchNotes": "Campaign website (ambrose4congress.com) priorities page read in full. Healthcare and climate positions already cited. No campaign statements found taking a side on other guide issues (abortion: the site says only 'Ensure women have access to reproductive healthcare', not recorded as an abortion stance).",
+      "website": "https://www.ambrose4congress.com/"
     },
     {
       "id": "charlotte-magoon",
@@ -170,11 +193,59 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Not depending on corporate or PAC money.",
+          "quote": "The Green Party does not depend on corporations or Supper PACs and I will never accept donations intended to pressure me to vote against my conscience.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Wages and taxes on the wealthy.",
+          "quote": "We must hold corporations accountable to pay a living wage. We must demand that the rich pay their fair share in taxes",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Fairer media coverage of minor parties and independent candidates.",
+          "quote": "Americans have the right to know and hear from all candidates, not just the 2 that have the most money to spend on their campaigns.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchDepth": "basic",
+      "researchNotes": "Based on her 2026 Ballotpedia Candidate Connection survey. No campaign website found. Statements are shown without a stance because none names a specific policy (e.g. 'universal healthcare' does not say whether it is public).",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "it is my goal to fight for a universal healthcare, so no one has to choose between their family's health and bankruptcy",
+          "context": "In her 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "quote": "the national minimum wage remains at $7.25 / hr . The richest nation on earth tells us that they can't afford to guarantee more than poverty wages",
+          "context": "In her 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "We must demand that the rich pay their fair share in taxes",
+          "context": "In her 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     },
     {
       "id": "richard-sills",
@@ -194,7 +265,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey or public statements found."
     }
   ],
   "sources": [
@@ -248,6 +319,22 @@
       "publisher": "Office of Rep. John Moolenaar",
       "kind": "official",
       "date": "2026-01-08"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.ambrose4congress.com/priorities",
+      "title": "Priorities",
+      "publisher": "Ambrose for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Charlotte_Magoon",
+      "title": "Charlotte Magoon (2026 Candidate Connection survey)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

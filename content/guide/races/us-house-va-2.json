@@ -206,10 +206,85 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he is running as an independent who takes no PAC money and answers to the people he represents rather than a party.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "This campaign takes no PAC money — not corporate, not party, not billionaire super PACs."
+        },
+        {
+          "text": "Says his priorities in Washington are real oversight of defense spending, utility rate reform on data centers, and federal cost-sharing on flood infrastructure.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "real oversight of defense spending, utility rate reform on data centers, and federal cost-sharing on flood infrastructure this region has funded alone."
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says abortion decisions belong to the woman and her physician rather than to Washington or state legislatures, and that he would not support a federal ban.",
+          "quote": "This decision belongs to the woman, in consultation with her physician and her faith — not to Washington, and not to fifty statehouses deciding which medications she can buy or which state lines she can cross for care.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "mixed",
+          "summary": "Opposes tariffs imposed by presidential decree, while saying he is not against narrow tariffs that Congress legislates.",
+          "quote": "I'm not against narrow tariffs Congress actually legislates. I'm against a President taxing every family by decree, changing the rate more than fifty times, and calling it a strategy.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Says he would support Congress reasserting its role with votes on the use of force.",
+          "quote": "I'd support reasserting Congress's role: real votes on the use of force, not after-the-fact briefings;",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Supports federal incentives for localities that cut permitting timelines and update zoning, but not federal zoning mandates.",
+          "quote": "I'd push for federal incentives that reward localities for cutting permitting timelines and updating outdated zoning that blocks starter homes and multifamily construction — incentives, not federal zoning mandates from Washington.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Climate Change is Real. Norfolk has the highest rate of sea-level rise on the East Coast. Hampton Roads floods on sunny days.",
+          "context": "On his campaign website",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "I'd fix that math, push more of that fund straight to keeping doors open and staff paid, and fight further Medicaid cuts rural and coastal facilities can't absorb.",
+          "context": "In the VPM/WHRO questionnaire, on hospitals at risk from Medicaid changes",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from the VPM/WHRO candidate questionnaire (updated Sept. 30, 2026) and Baker's campaign website. No Ballotpedia Candidate Connection survey was found. No direct statements were found on immigration, rent regulation, minimum wage or voter citizenship proof."
     },
     {
       "id": "bishop-staten",
@@ -253,9 +328,51 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he will allow women to make decisions about their bodies.",
+          "quote": "I will allow women to make the decisions when it comes to their bodies. Women's rights are important to me.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Answered a question about hospital and health care funding with a call for Medicare for All.",
+          "quote": "Free Medicare for All.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Answered a question about housing with a call for a national rent freeze and an eviction moratorium.",
+          "quote": "National rent freeze and moratorium on evictions.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tariffs",
+          "quote": "Restore Congress's authority over broad tariffs.",
+          "context": "In the VPM/WHRO questionnaire, on trade policy",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Positions come from the VPM/WHRO candidate questionnaire (Sept. 24, 2026); his answers are brief. He has no campaign website that could be loaded. No stance was found on guns, immigration, taxes or school choice."
     }
   ],
   "sources": [
@@ -313,6 +430,21 @@
       "publisher": "VPM News / Virginia public media candidate questionnaire",
       "kind": "candidate",
       "date": "2026-09-24"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.vpm.org/elections/2026-09-24/va02-baker-kiggans-luria-staten-candidate-survey/",
+      "title": "2nd District Q&A: Matt Baker, Jen Kiggans, Elaine Luria, Geral \"Bishop\" Staten",
+      "publisher": "VPM News / WHRO candidate questionnaire",
+      "kind": "news",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.mattbakerindependent.com/",
+      "title": "Matt Baker for Congress",
+      "publisher": "Matt Baker for Congress campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

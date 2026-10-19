@@ -214,7 +214,8 @@
       "positions": [],
       "record": [],
       "website": "https://ballotpedia.org/Kelley_Dennison",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey (priorities cited). Her survey answers cover affordability, environmental stewardship, parental rights, veterans and seniors, and education; none takes a side on the guide's listed issues, so no positions or statements were added. No campaign website found beyond her Ballotpedia profile."
     },
     {
       "id": "gaylon-kent",
@@ -230,11 +231,95 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he is \"the peace candidate\" and opposes all wars not declared by Congress.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Names low taxes and free markets as policy areas he cares about.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Names abolishing the death penalty as a policy area he cares about, citing executions of innocent people.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In his 2026 Ballotpedia survey, says he opposes all wars that Congress has not declared.",
+          "quote": "I oppose all wars that have not been declared by Congress.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In his 2026 Ballotpedia survey, describes tariffs as a tax.",
+          "quote": "Tariffs are nothing more than a tax on us",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "opposes",
+          "summary": "On his 2024 campaign website (as reproduced by Ballotpedia), says the government should not mandate wages.",
+          "quote": "The government must not mandate wages.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+      "researchDepth": "basic",
+      "researchNotes": "Libertarian nominee. Completed Ballotpedia's 2026 Candidate Connection survey; positions and statements come from it and from his 2024 campaign website text reproduced on Ballotpedia (dated in each entry). No current campaign website was fetched. The 2026 survey does not address most listed issues.",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "The government must butt out of the abortion debate.",
+          "context": "On his 2024 campaign website, as reproduced by Ballotpedia",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We're entitled to secure borders and those here illegally are not entitled to citizenship. But they're entitled to be more than criminals, so let's legalize them and let them do the work they came here to do.",
+          "context": "On his 2024 campaign website, as reproduced by Ballotpedia",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Doctors and health insurers must be returned to the free market.",
+          "context": "On his 2024 campaign website, as reproduced by Ballotpedia",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "We deserve an economy anchored in low taxes and free markets.",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s12"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -318,6 +403,13 @@
       "title": "H.R. 12 - Women's Health Protection Act of 2025 (119th Congress)",
       "publisher": "Congress.gov",
       "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://ballotpedia.org/Gaylon_Kent",
+      "title": "Gaylon Kent — Ballotpedia Candidate Connection survey (2026) and 2024 campaign website text",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

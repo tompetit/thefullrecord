@@ -214,18 +214,19 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
         {
           "issue": "universal_childcare",
-          "stance": "supports",
-          "summary": "Supports expanding access to universal pre-K for all 3- and 4-year-olds.",
+          "quote": "Expand access to universal pre-K for all 3- and 4-year-olds, funded by smarter budgeting of existing federal expenditures.",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
           "sources": [
             "s4"
           ]
         }
-      ],
-      "record": [],
-      "researchDepth": "basic"
+      ]
     },
     {
       "id": "gordon-heslop",
@@ -241,7 +242,29 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says the prosperity of the middle class is essential to the economy.",
+          "quote": "I view the prosperity of the middle class as essential to a strong American economy and will constantly push for measures to address their problems and enhance their well-being.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Says he will support the rural economy and opposes rural hospital closures.",
+          "quote": "I will be a strong supporter of the rural economy.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Lists the everyday level of prices, affordable housing, medical services, education, the rural economy and foreign policy as the areas of public policy he is passionate about.",
+          "quote": "The everyday level of prices, affordable housing, medical services, education, the rural economy, and foreign policy.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "tariffs",
@@ -263,7 +286,9 @@
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [],
+      "researchNotes": "Ballotpedia Candidate Connection survey (2026) reviewed; no campaign website found."
     },
     {
       "id": "mike-nichols",
@@ -282,7 +307,8 @@
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Campaign site mikenicholsforcongress.com has a slogan and two PDF flyers that are image-only (no extractable text), so nothing could be quoted. No survey response or other public statements found."
     }
   ],
   "sources": [
@@ -343,14 +369,6 @@
       "date": "2026-09-25"
     },
     {
-      "id": "s8",
-      "url": "https://mikejohnson.house.gov/news/documentsingle.aspx?DocumentID=2830",
-      "title": "Speaker Johnson: Support For American Families Doesn't End at Birth",
-      "publisher": "Office of Speaker Mike Johnson, U.S. House",
-      "kind": "candidate",
-      "date": "2026-01-23"
-    },
-    {
       "id": "s9",
       "url": "https://mikejohnson.house.gov/news/documentsingle.aspx?DocumentID=2843",
       "title": "Speaker Johnson on Fox Business: Democrats Do Not Have a Single Coherent Objection to the SAVE America Act",
@@ -368,5 +386,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Checked Speaker Johnson's official issues pages (Individual Freedom, Limited Government, Rule of Law, Peace through Strength, Fiscal Responsibility, Free Markets, Human Dignity) and several press releases; most describe general conservative principles rather than statements matching specific ISSUES substance, so positions are limited to the two where his site directly addressed the issue (immigration enforcement, abortion). No statements found addressing gun laws, tariffs, climate transition pace, or Israel aid specifically enough to meet the research standard. No campaign website or public statements were found for Gordon Heslop or Mike Nichols."
+  "researchNotes": "Checked Speaker Johnson's official issues pages (Individual Freedom, Limited Government, Rule of Law, Peace through Strength, Fiscal Responsibility, Free Markets, Human Dignity) and several press releases; most describe general conservative principles rather than statements matching specific ISSUES substance, so positions are limited to the two where his site directly addressed the issue (immigration enforcement, abortion). No statements found addressing gun laws, tariffs, climate transition pace, or Israel aid specifically enough to meet the research standard. Gordon Heslop's items come from his Louisiana-race Ballotpedia Candidate Connection survey (he also ran in Texas and Missouri primaries; responses to those races are not used). No campaign website or public statements were found for Mike Nichols."
 }

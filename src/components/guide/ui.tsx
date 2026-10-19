@@ -213,6 +213,7 @@ export const OFFICE_LABEL: Record<string, string> = {
   governor: "Governor",
   "attorney-general": "Attorney General",
   comptroller: "Comptroller",
+  "secretary-of-state": "Secretary of State",
   "state-senate": "State Senate",
   "state-assembly": "State Assembly",
   "ballot-measure": "Ballot measure",

@@ -58,12 +58,57 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Lower housing and utility costs, protect Social Security and Medicare, fully fund public schools and create union jobs.",
+          "quote": "My priorities are lowering housing and utility costs, protecting Social Security and Medicare, fully funding public schools, creating good-paying union jobs, and guaranteeing healthcare to every American.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Describes current tariffs as raising prices.",
+          "quote": "reckless tariffs and endless wars that raise prices",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "website": "https://www.leticiaforcongress.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I will defend reproductive freedom",
+          "context": "In a Community Impact candidate Q&A (Sept. 18, 2026)",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "guaranteeing healthcare to every American",
+          "context": "Listing her priorities in a Community Impact candidate Q&A (Sept. 18, 2026)",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "militarized ICE operations that endanger our neighborhoods",
+          "context": "Describing challenges facing the district in a Community Impact candidate Q&A (Sept. 18, 2026)",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign site (priorities, about) and a Community Impact candidate Q&A (Sept. 18, 2026) reviewed. The site itself does not list positions on the guide's issues; the Q&A is the source for the statements shown. No Ballotpedia Candidate Connection survey found for the general election."
     },
     {
       "id": "alex-mealer",
@@ -121,12 +166,40 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Says she will fight to protect girls' sports and keep biological men out of women's locker rooms.",
+          "quote": "In Congress, I will fight to protect girls’ sports and keep biological men out of women’s locker rooms.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://alexandramealer.com/",
       "researchDepth": "basic",
-      "researchNotes": "Removed an earlier immigration_enforcement entry because the site's border language (restore law and order, enforce immigration laws) does not state a position on expanding deportations or enforcement; the police_funding summary was reworded to match the site's current text. Positions on guns, abortion, health care and tax policy were not found."
+      "researchNotes": "Campaign site (alexandramealer.com) reviewed Oct. 19, 2026; she did not answer the Community Impact candidate questionnaire (Sept. 18, 2026). Her site statement on enforcing immigration laws is shown as a statement because it does not squarely take a side on the guide's wording. Positions on guns, abortion, health care and tax policy were not found.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "In Congress, I will fight to restore law and order at the border, enforce our immigration laws, and ensure law enforcement have the federal resources they need to protect Texas families.",
+          "context": "On her campaign site",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I will fight to expand domestic energy production to drive down gas and electricity prices and make our country energy secure and dominant.",
+          "context": "On her campaign site",
+          "sources": [
+            "s4"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -161,6 +234,14 @@
       "publisher": "Alex Mealer campaign website",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://communityimpact.com/pearland-friendswood-manvel/election/q-a-meet-the-candidates-for-us-house-district-9/",
+      "title": "Meet the candidates for Texas House District 9",
+      "publisher": "Community Impact",
+      "kind": "news",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

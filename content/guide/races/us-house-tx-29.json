@@ -108,10 +108,52 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Her campaign website lists making healthcare more affordable, expanding educational freedom, making Houston affordable by cutting federal spending, and securing the borders.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "Expand educational freedom and strengthen family values. Empower parents with school choice, defend parental rights, and protect the values that make Texas strong.",
+          "context": "On her campaign website, under \"Investing in Education\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Protect Texas energy independence — keep energy decisions in Texas, support oil and natural gas, and strengthen grid reliability to lower bills.",
+          "context": "On her campaign website, under \"Championing Local Jobs\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "By raising competition, expanding access, and protecting patient choice — not imposing government mandates — we can ensure families and seniors get the care they need at prices they can afford.",
+          "context": "On her campaign website, under \"Protecting Healthcare Access\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Public Safety, Secure Our Borders! Support Border Patrol and stop policies that encourage illegal crossings and human trafficking.",
+          "context": "On her campaign website, under \"Defending Our Rights\"",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "researchNotes": "Read her campaign website homepage (fierrofortexas.com); the site has no separate issues page. She has not completed a Candidate Connection survey."
     }
   ],
   "sources": [
@@ -149,6 +191,14 @@
       "title": "Gun Violence Prevention",
       "publisher": "Office of Rep. Sylvia Garcia",
       "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.fierrofortexas.com",
+      "title": "Martha Fierro for Congress 29",
+      "publisher": "Candidate campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

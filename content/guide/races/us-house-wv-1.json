@@ -142,10 +142,39 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "His campaign site says immigration enforcement is important and also that ICE is violating people's rights and he will fight due-process violations.",
+          "quote": "Immigration enforcement is important. But ICE is violating people’s rights, engaging in federal overreach, and encroaching on West Virginia’s local communities.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "universal_childcare",
+          "quote": "I’ll fight to make childcare more affordable and strengthen rural public transit systems.",
+          "context": "On his campaign site",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I also believe in a free market that allows renewable energy to expand in West Virginia if that’s what businesses want to do.",
+          "context": "On his campaign site",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "researchNotes": "Positions from his Ballotpedia Candidate Connection survey and his campaign Platform page; his page does not address abortion, guns, taxes or tariffs."
     },
     {
       "id": "belinda-fox-spencer",
@@ -171,8 +200,8 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Has not completed Ballotpedia's 2026 Candidate Connection survey; no 2026 campaign statements found."
+      "researchDepth": "basic",
+      "researchNotes": "Statements are her own written answers to the 2026 iVoterGuide questionnaire (iVoterGuide is run by AFA Action, a partisan organization; only her verbatim wording is used, not the agree/disagree ratings). No campaign website, Ballotpedia survey or news interview was found, so no positions are recorded. Her answers on the iVoterGuide questionnaire are not used: iVoterGuide is run by AFA Action, a partisan organization, which the guide's sourcing rules exclude."
     }
   ],
   "sources": [
@@ -211,6 +240,13 @@
       "kind": "official",
       "date": "2025-02-04",
       "id": "s5"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.vincegeorgeforcongress.com/issues",
+      "title": "Platform | Vince George for Congress",
+      "publisher": "Vince George for Congress (campaign site)",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

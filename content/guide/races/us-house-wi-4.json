@@ -117,20 +117,56 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lists universal school choice as an issue, saying school choice and voucher programs let students reach their full potential.",
+          "quote": "I support School Choice and School Voucher programs.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says one of his first priorities is a clean water emergency declaration for areas with crumbling infrastructure.",
+          "quote": "One of my first priorities is to declare a clean water emergency for the areas of our country that need it the most.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Lists lowering taxes and reducing government spending.",
+          "quote": "I, Tim Rogers, want to let taxpayers keep more of their money.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "school_choice",
           "stance": "supports",
-          "summary": "A 2024 WPR profile reported he supports the school choice program.",
+          "summary": "Campaign issues page says he supports school choice and school voucher programs.",
+          "quote": "I support School Choice and School Voucher programs.",
           "sources": [
+            "s9",
             "s8"
-          ]
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Rogers has not completed Ballotpedia's 2026 Candidate Connection survey and no current campaign website statements on issues were found as of the research date."
+      "researchDepth": "basic",
+      "researchNotes": "Rogers has not completed Ballotpedia's 2026 Candidate Connection survey. Statements come from the issues page of his campaign website; the page is not dated and matches the text Ballotpedia quoted from his 2022 and 2024 sites.",
+      "website": "https://www.rogersforwisconsin.com",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "If elected, I will work to destroy the progressive tax system.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     },
     {
       "id": "arthur-burks",
@@ -146,11 +182,37 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Platform lists livable wages, local business investment and vocational training.",
+          "quote": "We advocate for livable wages, local business investment, and vocational training that prepares our youth for the high-demand jobs of tomorrow.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Platform lists protecting voting rights and prioritizing grassroots representation over party politics.",
+          "quote": "Arthur is committed to protecting voting rights and ending the gridlock in Washington by prioritizing grassroots representation over party machine politics.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No Ballotpedia biography, campaign website, or public statements on issues were found as of the research date."
+      "researchDepth": "basic",
+      "researchNotes": "Has not completed Ballotpedia's 2026 survey. Statements come from his campaign platform page, which is written in the third person.",
+      "website": "https://www.burks4congress.com",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Burks supports comprehensive gun safety legislation and funding for violence interruption programs that address crime at its roots.",
+          "context": "On his campaign platform page (written in the third person)",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -210,6 +272,20 @@
       "title": "Race for 4th Congressional District features rematch between Moore, Rogers (2024)",
       "publisher": "Wisconsin Public Radio",
       "kind": "news"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.rogersforwisconsin.com/general-5",
+      "title": "ISSUES | Tim Rogers",
+      "publisher": "Tim Rogers for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.burks4congress.com/platform",
+      "title": "Vision & Platform",
+      "publisher": "Burks for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25"

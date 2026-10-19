@@ -125,7 +125,7 @@
       ],
       "website": "https://schmidt.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "S001229"
+      "bioguideId": "S001228"
     },
     {
       "id": "don-coover",
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "text": "Says he wants people who do hard physical work to be represented in Washington and favors spending within the government's means.",
+          "text": "Says he wants people who know what it's like to put in a hard day's work making decisions in Washington, and who know how to spend within their means.",
           "sources": [
             "s3"
           ]
@@ -180,16 +180,27 @@
         {
           "issue": "tariffs",
           "stance": "opposes",
-          "summary": "Told the Topeka Capital-Journal that part of the damage to agriculture and rural health care comes from tariffs, which he said are being applied chaotically.",
-          "quote": "Part of it is because of tariffs.",
+          "summary": "Says in his Ballotpedia Candidate Connection survey that tariffs should be stopped, citing costs to Kansas families and harm to farmers.",
+          "quote": "Stop the harmful tariffs that are costing Kansas families thousands of dollars and devastating our farmers.",
           "sources": [
-            "s9"
-          ]
+            "s1"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Coover has not completed Ballotpedia's Candidate Connection survey; priorities are drawn from his campaign website's 'Why I'm Running' statement, which does not detail specific issue positions."
+      "researchNotes": "Positions and statements are from his Ballotpedia Candidate Connection survey (as shown on the district election page), a Topeka Capital-Journal interview (Sept. 2025) and a KCUR interview (July 2026); his campaign website's 'Why I'm Running' text does not detail issue positions.",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "We have shifted the tax burden ... not on those people that have the most ability to pay",
+          "context": "Interview with KCUR, July 2026",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     },
     {
       "id": "john-hauer",
@@ -233,20 +244,20 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "israel_aid",
-          "stance": "opposes",
-          "summary": "Opposes continued U.S. military aid abroad, including to Israel, saying it funds war.",
-          "quote": "Stop funding genocide!",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "Based only on his Ballotpedia Candidate Connection survey response; no independent campaign website found."
+      "researchNotes": "Based on his Ballotpedia Candidate Connection survey response and his one-page campaign website (hauerforcongress.com), which lists general policies but no issue pages.",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "Eliminate federal income tax and drastically cut spending.",
+          "context": "On his campaign website",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -315,18 +326,19 @@
       "date": "2025-12-18"
     },
     {
-      "id": "s9",
-      "url": "https://www.yahoo.com/news/articles/don-coover-run-kansass-2nd-090422332.html",
-      "title": "Don Coover to run for Kansas's 2nd District as Democrat but not 'wild-eyed liberal'",
-      "publisher": "Topeka Capital-Journal (via Yahoo News)",
-      "kind": "news"
-    },
-    {
       "id": "s10",
       "url": "https://www.kcur.org/politics-elections-and-government/2026-07-17/kansas-2nd-district-congress-primary-election-2026",
       "title": "Kansas 2nd District election: A guide to the candidates",
       "publisher": "KCUR",
       "kind": "news"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.hauerforcongress.com",
+      "title": "John Hauer for Congress",
+      "publisher": "John Hauer for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

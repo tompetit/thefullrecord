@@ -11,6 +11,7 @@ import { SITE_URL, ballotLabel, partyChipProps, partyOrgName } from "@/lib/peopl
 import { getDataSource } from "@/server/datasource";
 import { getCandidate, getRace } from "@/server/guide/load";
 import { electionForSeat } from "@/server/live/elections";
+import { getBio } from "@/server/bios";
 import { getPerson, peopleInRace, peopleInSeat, type Candidacy, type Person } from "@/server/people";
 
 type Params = Promise<{ slug: string }>;
@@ -50,6 +51,7 @@ export default async function PersonPage({ params, searchParams }: { params: Par
   const office = person.offices?.[0];
   const official = office ? await getDataSource().getOfficial(office.officialId) : null;
   const candidacies = person.candidacies ?? [];
+  const bio = getBio(person.slug);
   const partyCode = official ? person.party : undefined;
   const ballotParties = candidacies[0]?.parties ?? [];
   const jsonLdParty = partyCode ?? ballotParties[0];
@@ -92,6 +94,27 @@ export default async function PersonPage({ params, searchParams }: { params: Par
       </header>
 
       <div className="px-4 sm:px-6 lg:px-10 [&>*]:max-w-4xl">
+        {bio && (
+          <Section title="Background">
+            <p className="font-sans text-[13.5px] leading-normal text-ink-80">
+              {bio.bio.map((c, i) => (
+                <span key={i}>
+                  {c.text}
+                  {c.sources.map((id) => {
+                    const n = bio.sources.findIndex((s) => s.id === id);
+                    return n < 0 ? null : <sup key={id} className="ml-0.5"><a href={`#bio-src-${id}`} className="text-accent">[{n + 1}]</a></sup>;
+                  })}{" "}
+                </span>
+              ))}
+            </p>
+            <ol className="mt-2 flex flex-col gap-0.5 font-sans text-[12px] text-ink-60">
+              {bio.sources.map((s, n) => (
+                <li key={s.id} id={`bio-src-${s.id}`}>[{n + 1}] <SourceLink href={s.url}>{s.title}</SourceLink> — {s.publisher}</li>
+              ))}
+            </ol>
+            <p className="mt-1 font-sans text-[11.5px] text-ink-45">Researched from the cited sources on {bio.researchedAt}.</p>
+          </Section>
+        )}
         {candidacies.map((c) => {
           const found = c.raceId && c.candidateId ? getCandidate(c.raceId, c.candidateId) : null;
           if (found) {

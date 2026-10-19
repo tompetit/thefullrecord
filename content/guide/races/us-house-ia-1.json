@@ -299,11 +299,56 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says he would focus on popular, nonpartisan issues such as legislation on term limits and a ban on congressional stock trading.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Names affordability, agriculture and health care as top priorities, and says he would push for price transparency and pharmacy benefit manager reform.",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Campaign website lists priorities including term limits, a congressional stock trading ban and campaign finance reform; fixing Social Security; and healthcare price transparency and revitalization of rural clinics.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Bridgford has not completed Ballotpedia's Candidate Connection survey. His campaign website (bridgfordforiowa.com) has an Issues page and a Why I'm Running page, but both returned only navigation scaffolding with no policy text when fetched, so no priorities or issue positions could be sourced."
+      "researchNotes": "Bridgford has not completed Ballotpedia's Candidate Connection survey. His campaign website (bridgfordforiowa.com/issues) shows one-line headings with no body text, so only the headings are cited as priorities. Statements come from Iowa Public Radio (Apr. 16, 2026), Independent Voter News (Aug. 12, 2026) and Iowa Capital Dispatch (Aug. 15, 2026). Nothing found on abortion, guns, tariffs or other listed issues.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "I just don't see any plausibility to those being put in place in the next two years.",
+          "context": "Interview with Independent Voter News (Aug. 12, 2026), asked about Medicare for All, a public option and enhanced ACA subsidies; he said he would pursue price transparency instead",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "we have community members that have been here a long time, contributing, being rounded up. The answer is in the middle.",
+          "context": "Interview with Iowa Public Radio, April 16, 2026",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "I do think we are at a point that if we are going to escalate, that's where Congress needs to be involved",
+          "context": "Interview with Iowa Public Radio, April 16, 2026, on the Iran conflict",
+          "sources": [
+            "s15"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -400,6 +445,38 @@
       "title": "Miller-Meeks Urges Leader Thune to Advance the SAVE Act",
       "publisher": "Rep. Miller-Meeks official website",
       "kind": "official"
+    },
+    {
+      "id": "s14",
+      "url": "https://bridgfordforiowa.com/issues",
+      "title": "Issues | Bridgford for Iowa",
+      "publisher": "Bridgford for Iowa",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.iowapublicradio.org/political-news/2026-04-16/independent-candidate-michael-bridgford-1st-congressional-district",
+      "title": "Independent candidate enters 'toss up' race for 1st Congressional District",
+      "publisher": "Iowa Public Radio",
+      "kind": "news",
+      "date": "2026-04-16"
+    },
+    {
+      "id": "s16",
+      "url": "https://ivn.us/ia-1-is-the-tightest-district-in-america-independent-michael-bridgford-sees-that-as-an-opening/",
+      "title": "IA-1 Is the Tightest District in America. Independent Michael Bridgford Sees That as an Opening.",
+      "publisher": "Independent Voter News",
+      "kind": "news",
+      "date": "2026-08-12"
+    },
+    {
+      "id": "s17",
+      "url": "https://iowacapitaldispatch.com/2026/08/15/michael-bridgford-independents-in-congress-would-help-get-things-done/",
+      "title": "Michael Bridgford: Independents in Congress would help get things done",
+      "publisher": "Iowa Capital Dispatch",
+      "kind": "news",
+      "date": "2026-08-15"
     }
   ],
   "researchedAt": "2026-09-25",

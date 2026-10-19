@@ -203,25 +203,97 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says on her campaign site that healthcare is a human right and calls universal healthcare a practical idea, and criticizes Medicaid cuts and rural hospital closures in Indiana.",
-          "quote": "We've watched the Trump administration cut Medicaid by a trillion dollars while rural hospitals close their maternity wards and emergency rooms. In Indiana, five rural hospitals are at risk of closing entirely.",
+          "summary": "Says on her campaign site that healthcare is a human right and that universal healthcare lowers costs, and lists protecting and expanding Medicaid and Medicare among her healthcare priorities.",
+          "quote": "Protecting and expanding Medicaid and Medicare.",
           "sources": [
+            "s9",
             "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Lists ensuring the ultra-wealthy and corporations pay their fair share in taxes among her tax priorities.",
+          "quote": "Ensuring the ultra-wealthy and corporations pay their fair share in taxes.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Lists ending military support to Israel among her foreign policy priorities.",
+          "quote": "Ending military support to Israel to align foreign aid with human rights and international law.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
+      "record": [],
+      "website": "https://www.maryallenforcongress.com",
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "Supporting the War Powers Resolution to end the unpopular, illegal war in Iran.",
+          "context": "On her campaign site, under \"Foreign Policy\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Lower energy costs, diversify our energy supply, and create thousands of local, clean-energy jobs by investing in wind, solar, and modern grid infrastructure.",
+          "context": "On her campaign site, under \"Environment and Energy\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Ensuring no family pays more than 7% of their income for childcare.",
+          "context": "On her campaign site, under \"Childcare & Working Families\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "quote": "Ensuring your paycheck covers your basic needs through a national minimum wage tied to inflation.",
+          "context": "On her campaign site, under \"Good Jobs\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "Making your groceries more affordable by removing tariffs on food and other essentials and stopping corporate price hikes.",
+          "context": "On her campaign site, under \"Affordability\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Making homeownership more affordable through investments that build homes for working families, not luxury condos.",
+          "context": "On her campaign site, under \"Affordability\"",
+          "sources": [
+            "s9"
           ]
         },
         {
           "issue": "immigration_enforcement",
-          "stance": "opposes",
-          "summary": "Says on her campaign site that families should not be treated as criminals or rounded up without due process, and criticizes congressional spending on detention centers; also says she believes in strong borders.",
           "quote": "We cannot continue to treat hardworking families as criminals, rounding people up and denying them due process.",
+          "context": "On her Ballotpedia Candidate Connection survey, quoting her campaign website; she also says \"I believe in strong borders.\"",
           "sources": [
             "s6"
           ]
         }
       ],
-      "record": [],
-      "website": "https://www.maryallenforcongress.com",
-      "researchDepth": "basic"
+      "researchNotes": "Positions and statements are from her campaign priorities page and Ballotpedia Candidate Connection survey. Her rent comment (\"expanding affordable housing programs\") is not recorded as a rent regulation position. No statements found on guns, abortion, police funding or school choice."
     },
     {
       "id": "james-burke",
@@ -346,6 +418,13 @@
       "url": "https://ballotpedia.org/James_Burke_(Indiana)",
       "title": "James Burke - Ballotpedia Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.maryallenforcongress.com/priorities",
+      "title": "Priorities",
+      "publisher": "Mary Allen for Congress campaign website",
       "kind": "candidate"
     }
   ],

@@ -213,12 +213,132 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "\"My first economic priority is affordability. We should eliminate broad tariffs that raise the price of food, equipment, vehicles, building materials, and household goods\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "\"My goal is straightforward: cover everyone, which requires cutting the total cost of healthcare roughly in half over time.\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "\"Protect democracy. Defend personal liberty. Create broad-based prosperity.\"",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign issues page says he opposes broad tariffs and favors eliminating them.",
+          "quote": "I oppose broad tariffs that raise the cost of equipment, fertilizer, fuel, and household goods while inviting retaliation against Arkansas rice, soybeans, poultry, cotton, and other exports.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "His campaign issues page says he supports gradual and predictable minimum-wage increases.",
+          "quote": "I support lower taxes on labor, gradual and predictable minimum-wage increases, stronger pathways into skilled careers",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "His campaign issues page says he would restore Congress's constitutional war powers and opposes military action Congress has not authorized.",
+          "quote": "I oppose wars of aggression and open-ended military action that Congress has not authorized.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "mixed",
+          "summary": "His campaign issues page says he supports secure storage around children and rejects bans and feature-based classifications of firearms.",
+          "quote": "But I reject vague bans, arbitrary feature-based classifications, and laws that burden ordinary citizens while criminals ignore them.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "His campaign issues page supports prompt removal of people who pose security risks or commit serious crimes, and says enforcement should respect due process and treat families humanely.",
+          "quote": "People who pose security risks or commit serious crimes should be removed promptly.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "website": "https://www.jeffwadlin.com",
-      "researchDepth": "minimal",
-      "researchNotes": "No detailed biography, stated policy positions, or Ballotpedia Candidate Connection survey responses were found for Wadlin beyond his convention nomination and FEC filing."
+      "researchDepth": "basic",
+      "researchNotes": "Positions and statements come from the Issues page of his campaign site; no Ballotpedia Candidate Connection survey responses were found. His page does not mention Israel, police funding, school choice, rent regulation, child care or transgender sports.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "My goal is straightforward: cover everyone, which requires cutting the total cost of healthcare roughly in half over time.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "I support a progressive tax system in which those with greater wealth contribute more, while working families are not disproportionately burdened by regressive taxes on wages and basic necessities.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "quote": "Any new citizenship-documentation requirement must be implemented carefully, with adequate time, funding, and practical assistance for local election officials and individual voters.",
+          "context": "On his campaign issues page, in a passage about the SAVE Act",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "quote": "After the Supreme Court’s Dobbs decision, abortion policy is governed primarily by the states, and I do not intend to make it the centerpiece of my campaign for federal office.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Federal policy should reduce financing and infrastructure barriers while leaving zoning primarily to state and local governments, encouraging more housing construction.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Climate change is real, human activity contributes to it, and it’s affecting all of us, especially farmers.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -281,6 +401,13 @@
       "publisher": "Office of Senator Tom Cotton",
       "kind": "official",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.jeffwadlin.com/issues",
+      "title": "Issues | Join the Movement for Change",
+      "publisher": "Jeff Wadlin campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

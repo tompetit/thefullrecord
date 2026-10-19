@@ -220,7 +220,41 @@
       ],
       "record": [],
       "website": "https://www.dougforvirginia.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I support strong enforcement of our immigration laws to stop unlawful entry and deter those who exploit our system.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "Protecting fairness in competition and ensuring privacy and safety in these spaces isn’t about division—it’s about making sure our daughters have the same opportunities and protections generations of women before them fought to secure.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Nuclear provides safe, carbon-free power around the clock, while natural gas has already lowered bills and cut emissions—proving innovation works better than Washington mandates.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "I stand with law enforcement and believe they deserve the resources, training, and respect they need to do their jobs effectively.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s4"
+          ]
+        }
+      ]
     },
     {
       "id": "taner-demirci-lopez",
@@ -249,11 +283,35 @@
           "sources": [
             "s1"
           ]
+        },
+        {
+          "text": "Proposes five discussion-draft bills: the Veterans 28 Act, an immigration and workforce act, the Data Center Community Consent Act, the American Working Farms Act, and the Human Existential Protection Act (artificial intelligence).",
+          "quote": "They are discussion drafts offered for public review and have not yet been introduced, approved, or enacted by Congress.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Describes a \"Re-Independence\" project of limited government, individual liberty, national sovereignty, and accountable government.",
+          "quote": "limited government, individual liberty, national sovereignty, and government accountable to the people it serves",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "The American Controlled Immigration, Workforce and Security Act would restore control at the border while creating a lawful, vetted, accountable process for undocumented immigrants already here to come out of the shadows, work legally, pay taxes, and comply with our laws.",
+          "context": "On his campaign website, describing a draft bill he proposes",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "alaha-ahrar",
@@ -269,7 +327,29 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Campaign theme of a good job, a business of one's own, and an affordable home.",
+          "quote": "A GOOD JOB. A BUSINESS OF YOUR OWN. A HOME YOU CAN AFFORD.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Proposes an economic agenda linking digital-skills training, small-business support and homeownership.",
+          "quote": "training should lead to work; work should lead to ownership; and ownership should create stability for the next generation.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Proposes support for veterans and military families through startup mentoring and remote-work opportunities.",
+          "quote": "Startup mentoring and shared-workspace models designed around veteran needs.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal"
@@ -307,8 +387,34 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Urges a no vote on Virginia's Amendment 1 (campaign ad listing: \"Vote no amendment one\").",
+          "quote": "Vote no amendment one",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Opposes late-term abortion in Virginia.",
+          "quote": "Say No to late term abortion in Virginia!",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His campaign website says that to end abortion, the victims must be shown.",
+          "quote": "To end abortion, we too must show the victims.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "minimal"
     }
@@ -342,8 +448,40 @@
       "publisher": "Doug Ollivant for Virginia",
       "kind": "candidate",
       "id": "s4"
+    },
+    {
+      "id": "s5",
+      "url": "https://terry.vote/",
+      "title": "Randall Terry for Congress",
+      "publisher": "Randall Terry for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
+      "url": "https://lopezforva.com/",
+      "title": "Lopez for Virginia",
+      "publisher": "Taner Lopez for Virginia",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
+      "url": "https://lopezforva.com/my-legislative-proposals",
+      "title": "My Legislative Proposals",
+      "publisher": "Taner Lopez for Virginia",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.alahaahrarforcongress.com/",
+      "title": "Alaha Ahrar for Congress - Virginia's 7th District",
+      "publisher": "Alaha Ahrar for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Ollivant's own campaign website was not independently fetched; his priorities and quotes are drawn from Ballotpedia's staff-curated candidate profile, which cites and quotes his campaign website. Ahrar, Ertle and Terry have no public campaign materials found beyond their ballot listing and minimal FEC filings."
+  "researchNotes": "Ollivant's own campaign website was not independently fetched; his priorities and quotes are drawn from Ballotpedia's staff-curated candidate profile, which cites and quotes his campaign website. Ahrar, Ertle and Terry have no public campaign materials found beyond their ballot listing and minimal FEC filings. Update: Ollivant's issues page (dougforvirginia.com/issues) was fetched directly and is the source of his added statements. Terry's site is a single abortion-focused page; Ahrar's and Lopez's sites list economic and policy priorities without positions on most guide issues. Ertle: no campaign site or statements found."
 }

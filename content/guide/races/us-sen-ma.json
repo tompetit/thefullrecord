@@ -265,51 +265,58 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
-      "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website statements or Ballotpedia Candidate Connection survey found for this candidate in the sources checked; only ballot listing confirmed."
-    },
-    {
-      "id": "philip-devincentis",
-      "name": "Philip Devincentis",
-      "parties": [
-        "American Independent Party"
+      "priorities": [
+        {
+          "text": "Lists protecting medical freedom and ending censorship as the first item of his platform.",
+          "quote": "Truth, Freedom, Health® for All – End censorship, protect medical freedom, and return science to the people so you can make real health decisions and extend your life.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lists ending lobbyist and billionaire influence in government as a platform item.",
+          "quote": "End the Swarm of Corruption – Rip lobbyists and billionaires out of government so resources go to working people's health and vitality, not to corporate cronies.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lists secure elections as a platform item.",
+          "quote": "Secure Elections Now – Paper ballots, hand-counting, same-day voting, Voter ID.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lists ending foreign wars and bringing troops home as a platform item.",
+          "quote": "Peace, Not Endless Wars – No more trillion-dollar wars abroad. Bring troops home and reinvest in communities' health infrastructure.",
+          "sources": [
+            "s11"
+          ]
+        }
       ],
-      "incumbent": false,
-      "summary": {
-        "text": "Devincentis is the American Independent Party candidate on the general-election ballot. No campaign website, statements, or Ballotpedia survey responses were found.",
-        "sources": [
-          "s1"
-        ]
-      },
-      "background": [],
-      "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No public statements or campaign materials found; only ballot listing confirmed via Ballotpedia."
-    },
-    {
-      "id": "morgan-dawicki",
-      "name": "Morgan Dawicki",
-      "parties": [
-        "IND"
-      ],
-      "incumbent": false,
-      "summary": {
-        "text": "Dawicki is an independent candidate on the general-election ballot. No campaign website, statements, or Ballotpedia survey responses were found.",
-        "sources": [
-          "s1"
-        ]
-      },
-      "background": [],
-      "priorities": [],
-      "positions": [],
-      "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No public statements or campaign materials found; only ballot listing confirmed via Ballotpedia."
+      "researchDepth": "basic",
+      "researchNotes": "Positions and statements drawn from the platform page of his 2026 campaign website (shiva4senate.com). No Ballotpedia Candidate Connection survey found. The site's separate older 'Issues' page refers to the 2018/2020 Warren race and was not used. His statements are listed without stances because none squarely answers the guide's issue statements.",
+      "statements": [
+        {
+          "issue": "israel_aid",
+          "quote": "End foreign lobbies owning Congress. Stop taxpayer subsidies to Israel and others.",
+          "context": "On the platform page of his 2026 campaign website (item 9)",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Cut taxes for families and small business so you can afford clean food, safe housing, and healthcare that actually extends your lifespan.",
+          "context": "On the platform page of his 2026 campaign website (item 4)",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -389,8 +396,15 @@
       "publisher": "Office of Sen. Edward J. Markey",
       "kind": "official",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://shiva4senate.com/platform/",
+      "title": "Platform",
+      "publisher": "Dr.SHIVA For U.S. Senate in Massachusetts 2026 (campaign website)",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Key floor votes and FEC finance totals for Sen. Markey are added separately by script. Ayyadurai, Devincentis, and Dawicki have minimal public campaign footprints in the sources checked."
+  "researchNotes": "Key floor votes and FEC finance totals for Sen. Markey are added separately by script. Ayyadurai has a minimal public campaign footprint in the sources checked. Ballotpedia's 'Withdrawn or disqualified candidates' list for this race names Philip Devincentis (American Independent Party) and Morgan Dawicki (Unenrolled); they are not on the November 3 ballot and have been removed (https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026). The Massachusetts Secretary of the Commonwealth's candidate list could not be loaded to confirm."
 }

@@ -272,11 +272,55 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists restoring checks and balances and the separation of powers as the first of three key campaign messages.",
+          "sources": [
+            "s9"
+          ],
+          "quote": "Restore checks and balances in government, separation of powers."
+        },
+        {
+          "text": "Lists health care reform as a key campaign message, proposing national coverage with an opt-out.",
+          "sources": [
+            "s9"
+          ],
+          "quote": "I propose national health coverage, with the ability to opt-out."
+        },
+        {
+          "text": "Lists the safety of Jews in the United States as a key campaign message.",
+          "sources": [
+            "s9"
+          ],
+          "quote": "Guarantee the safety of Jews in the United States."
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Proposes national health coverage with the ability to opt out.",
+          "quote": "I propose national health coverage, with the ability to opt-out.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports lawful removal of people who entered illegally and a path to citizenship for immigrants who follow the rules; opposes what he calls the spectacle of activists confronting ICE.",
+          "quote": "I support the lawful removal of people who enter the United States illegally, but not the spectacle created by activists confronting ICE.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Gillespie did not complete Ballotpedia's Candidate Connection survey and no campaign website content or public statements on issues could be located; he has not previously held elected office."
+      "researchDepth": "basic",
+      "researchNotes": "Source: his 2026 Ballotpedia Candidate Connection survey (also reproduced on his campaign blog). Scribd press release could not be read. No stance found on other guide issues.",
+      "website": "https://neilgillespie4senate.blogspot.com/"
     }
   ],
   "sources": [
@@ -343,6 +387,14 @@
       "publisher": "Office of Senator Ashley Moody",
       "kind": "official",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Neil_Gillespie",
+      "title": "Ballotpedia Candidate Connection survey response, Neil Gillespie (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

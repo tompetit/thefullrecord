@@ -256,10 +256,57 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says her biggest priority is ending U.S. wars abroad.",
+          "sources": [
+            "s13"
+          ],
+          "quote": "My biggest priority is to end our forever wars which rob our country of money for our people and cause destruction and death in other countries."
+        },
+        {
+          "text": "Gave her top campaign priority as peace and a good life for all children.",
+          "sources": [
+            "s14"
+          ],
+          "quote": "Peace and a good life for ALL children."
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Says she would eliminate funding for ICE and significantly decrease the CBP budget.",
+          "quote": "I'd like to eliminate funding for ICE (which didn't exist before 2003) and decrease significantly the CBP budget as we should honor the Declaration of Human Rights - specifically Article 14.",
+          "sources": [
+            "s13"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says the country needs a national health care program.",
+          "quote": "We badly need a national health care program.",
+          "sources": [
+            "s13"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says the minimum wage must be raised so no full-time worker needs federal assistance.",
+          "quote": "No full-time worker should need federal assistance so the minimum wage must be raised.",
+          "sources": [
+            "s13"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "researchNotes": "Positions come from her League of Women Voters / Vote411 answers and the WAMU/VPM candidate questionnaire (Oct. 7, 2026). Her campaign website (dianneforcongress.org) lists only a Green Party affiliation statement. No stance was found on abortion, guns, tariffs or school choice."
     }
   ],
   "sources": [
@@ -348,6 +395,21 @@
       "publisher": "Purves for Congress",
       "kind": "candidate",
       "id": "s12"
+    },
+    {
+      "id": "s13",
+      "url": "https://onyourballot.vote411.org/candidate-detail.do?id=73041231",
+      "title": "United States House of Representative, District 11 - candidate answers (Dianne L. Blais)",
+      "publisher": "League of Women Voters / Vote411",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.vpm.org/elections/2026-10-07/va11-blais-purves-walkinshaw-candidate-survey/",
+      "title": "11th District Q&A: Dianne Blais, Arthur Purves, James Walkinshaw",
+      "publisher": "VPM News / WAMU candidate questionnaire",
+      "kind": "news",
+      "date": "2026-10-07"
     }
   ],
   "researchedAt": "2026-09-25",

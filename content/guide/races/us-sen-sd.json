@@ -158,16 +158,48 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Lists establishing affordable and accessible healthcare among his priorities, alongside safeguarding Social Security and Medicare.",
+          "summary": "States that the ultra-rich should pay their fair share again, as in the 1960s.",
+          "quote": "It’s long past time for the ultra-rich to pay their fair share once again, like they had to in the 1960s.",
           "sources": [
-            "s3"
-          ]
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "Says he respects a woman's right to choose and supports abortion restrictions after viability with exceptions for the life or health of the mother.",
+          "quote": "I respect a woman’s right to choose and support abortion restrictions after the point of “viability” with exceptions for the life or health of a mother.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "As a gun owner, I favor reasonable gun safety measures and support your right to bear arms because self-defense isn’t up for debate.",
+          "context": "On his campaign website's policy positions page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "effects-based reform must include a strong border security component and increased legal immigration.",
+          "context": "On his campaign website's policy positions page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "website": "https://bengsforsouthdakota.com",
+      "researchNotes": "Added from his campaign website's policy positions page. No stated positions found on climate, minimum wage, police funding, school choice, transgender athletes or tariffs."
     }
   ],
   "sources": [
@@ -226,6 +258,13 @@
       "publisher": "GovTrack.us (Congressional bill data)",
       "kind": "reference",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://bengsforsouthdakota.com/policy-positions/",
+      "title": "Policy Positions",
+      "publisher": "Brian Bengs for U.S. Senate",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25"

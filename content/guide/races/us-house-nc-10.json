@@ -258,10 +258,86 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists fiscal responsibility among the public policy areas he is passionate about.",
+          "quote": "Fiscal responsibility. We shouldn’t leave our children a country deeply in debt.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lists peace among the public policy areas he is passionate about.",
+          "quote": "Peace. War is immoral, counterproductive, & costly.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lists individual liberty among the public policy areas he is passionate about.",
+          "quote": "Individual liberty. Let people do what they want but not hurt others.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "Says he agrees with part of both the pro-choice and pro-life positions, and lists making abortion illegal after a certain period of gestation, keeping government out of funding abortions, and letting states adopt different rules.",
+          "quote": "Making abortion illegal after a certain period of gestation, with proper consideration for the health of the mother",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "The government should NOT take guns away from law-abiding citizens.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Some people advocate Medicare for all. This is a great idea, as long as it’s paid for. Let’s allow people who want Medicare to pay the premium and use Medicare.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We have seen, though, that a policy based solely on blocking people at the border is, like our failed drug war, costly and ineffective.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "We can expect the power of the market to continue to drive new responses. Government should encourage, but not attempt to direct, these responses.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "The question of who gets to participate in which sports is not going to bankrupt our country or cause the collapse of our nation.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from Feldman's campaign website (My Positions page) and his 2026 Ballotpedia Candidate Connection survey. His abortion answer is recorded as mixed because he says he agrees with elements of both sides. Nothing was found on rent regulation, minimum wage, tariffs, school choice, police funding, or war powers."
     }
   ],
   "sources": [
@@ -327,6 +403,20 @@
       "title": "Congressman Pat Harrigan Votes NO on War Powers Resolution to Undercut Lawful National Security Action (March 5, 2026)",
       "publisher": "Rep. Pat Harrigan, official website",
       "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.stevefeldmanforcongress.com/my-positions",
+      "title": "My Positions | Steve Feldman for Congress",
+      "publisher": "Steve Feldman for Congress (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/Steven_Feldman_(North_Carolina)",
+      "title": "Steven Feldman 2026 Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

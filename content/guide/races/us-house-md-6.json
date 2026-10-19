@@ -88,6 +88,14 @@
       "publisher": "Office of Rep. April McClain Delaney",
       "kind": "official",
       "date": "2026-02-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.MosheLandman.us/the-issues",
+      "title": "The Issues",
+      "publisher": "Moshe Landman campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "candidates": [
@@ -328,10 +336,51 @@
           "sources": [
             "s7"
           ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign website calls for safe storage laws, more local authority to regulate firearms and microstamping requirements.",
+          "quote": "We should enact safe storage laws, increase local authority to regulate firearms, and create microstamping requirements.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign website says corporations and the very wealthy should pay more in taxes so most people can pay less.",
+          "quote": "We can afford to cut taxes for most people if we make corporations and the super-rich pay their fair share.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Campaign website calls for a federally funded childcare program for pre-school and young school children.",
+          "quote": "A universal, federally funded childcare program for pre-school and young school children should be developed.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Immigration raids are terrorizing the immigrant community. Families are being broken up.",
+          "context": "On his campaign website Issues page, which states the campaign follows the Green Party platform (page undated; accessed Oct. 19, 2026)",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Climate and health-care positions come from his 2025 Ballotpedia Candidate Connection survey; additional positions and statements come from the Issues page of his campaign website, which presents Green Party platform language."
     }
   ],
   "researchedAt": "2026-09-25"

@@ -231,11 +231,35 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "WFAE reports his campaign website lists digital privacy and civil liberties (including the right to use digital assets) as priorities.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "WFAE reports his campaign website lists government accountability (including opposition to a government-controlled digital currency) as a priority.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "In a 2024 campaign website statement (North Carolina governor race), proposed no restrictions on abortion through week 16, later limits that vary by circumstance, and prohibition of third-trimester abortions with listed exceptions.",
+          "quote": "Women have full rights to terminate a pregnancy up until the 16th week without restrictions.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website content, Candidate Connection survey, or public policy statements were located within the research budget; the entry is limited to biographical facts from Ballotpedia."
+      "researchNotes": "Bray's campaign site (shannonbray.us) is behind a bot check and could not be loaded. The abortion position is from his 2024 North Carolina governor campaign site as quoted by Ballotpedia and may not reflect his 2026 Senate platform. He has not completed the 2026 Ballotpedia Candidate Connection survey. Priorities are WFAE's description of his website, not verbatim quotes. No other 2026 statements on the guide's issues were found."
     },
     {
       "id": "michael-dublin",
@@ -367,6 +391,22 @@
       "title": "Issues",
       "publisher": "Whatley for NC",
       "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Shannon_Bray",
+      "title": "Shannon Bray's 2024 campaign website (governor/lieutenant governor), quoted verbatim",
+      "publisher": "Shannon Bray 2024 campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2024"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.wfae.org/politics/2026-10-13/u-s-senate-north-carolina",
+      "title": "U.S. Senate: North Carolina (2026 voter guide)",
+      "publisher": "WFAE",
+      "kind": "news",
+      "date": "2026-10-13"
     }
   ],
   "researchedAt": "2026-09-25",

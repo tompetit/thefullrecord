@@ -11,34 +11,47 @@
   "context": [
     {
       "text": "Incumbent Jason Smith won the August 4, 2026 Republican primary over Gordon Heslop. Christopher Reichard won the Democratic primary over Frank Barnitz. Rebecca Sharpe Lombard advanced unopposed in the Libertarian primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jason-smith",
       "name": "Jason Smith",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2013); Chairman, House Committee on Ways and Means",
       "summary": {
         "text": "Jason Smith is the incumbent Republican U.S. Representative for Missouri's 8th District and Chairman of the House Committee on Ways and Means. A former state legislator, attorney and real estate agent, he has represented the district since a 2013 special election.",
-        "sources": ["s1", "s2"]
+        "sources": [
+          "s1",
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in St. Louis in 1980 and raised in Salem, Missouri; earned a bachelor's degree from the University of Missouri-Columbia and a J.D. from Oklahoma City University (2004).",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an attorney, real estate agent and small-business owner, and served in the Missouri House of Representatives (District 120) from 2005 to 2013, before winning a June 2013 special election to Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Official House issues page organizes his stated priorities around veterans (\"American Heroes\"), healthcare freedom, agriculture (\"Focused on Farms\"), deregulation (\"Keeping Washington Out of Missouri\"), and lower taxes (\"Your Money Belongs in Your Pocket\").",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -46,12 +59,16 @@
         {
           "text": "Chairs the House Committee on Ways and Means and the Joint Committee on Taxation in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served in the Missouri House of Representatives representing District 120 from 2005 to 2013.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://jasonsmith.house.gov",
@@ -62,65 +79,129 @@
     {
       "id": "christopher-reichard",
       "name": "Christopher Reichard",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 4, 2026 Democratic primary",
       "summary": {
         "text": "Christopher (Chris) Reichard is the Democratic nominee for Missouri's 8th District. An Army veteran of three tours in Iraq who became a union electrician with IBEW Local 1, he is campaigning on strengthening organized labor and restoring cut federal programs.",
-        "sources": ["s1", "s4"]
+        "sources": [
+          "s1",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born in Tennessee and raised in the greater St. Louis region; joined the workforce at 16 and enlisted in the Army at 18, serving three tours in Iraq over more than eight years.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "After the Army, worked in non-union telecommunications construction in Houston, Texas, before returning home and joining IBEW Local 1 as a union electrician.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Labor: says his primary goal is strengthening the working class by removing restrictions on unions that he says have held them back since 1947 (a reference to the Taft-Hartley Act).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says he wants to restore federal departments and programs he says were cut, including re-establishing what he calls healthy trade policies.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says he aims to protect and defend the Constitution and reinforce checks and balances among the branches of government.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "The Daily Journal reports that he has called for defunding and abolishing U.S. Immigration and Customs Enforcement.",
-          "sources": ["s5"]
+          "summary": "His campaign website lists pushing to de-fund and abolish ICE among his goals.",
+          "quote": "Push to de-fund and abolish ICE",
+          "sources": [
+            "rr1",
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign website lists Medicare-For-All among the bills he says would address healthcare funding problems.",
+          "quote": "Medicare-For-All and several stepping stone bills to get us there without shocking the system.",
+          "sources": [
+            "rr1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "His campaign website lists ending private education voucher systems among his education goals.",
+          "quote": "Ending private education vouchers systems that have been taking resources away from public education.",
+          "sources": [
+            "rr1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His campaign website text as reproduced by Ballotpedia (July 22, 2026) states support for access to abortion care; that text was not found on his current issues page.",
+          "quote": "This includes access to safe abortion care.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No prior elected office; positions drawn from his 2026 Ballotpedia Candidate Connection survey. A stated position on the minimum wage was removed because his survey response addresses union strength generally, not minimum-wage policy specifically. October 2026: ICE position is from newspaper coverage (a reporter's paraphrase); no direct quote was found."
+      "researchNotes": "Positions come from his campaign issues page and his 2026 Ballotpedia Candidate Connection survey (which reproduces a July 22, 2026 version of the site). No elected office. Not found: stated positions on guns, taxes, housing, climate or other listed issues. A minimum-wage position was removed earlier because his survey answer addresses union strength generally.",
+      "statements": [
+        {
+          "issue": "tariffs",
+          "quote": "Tariffs and soured trade deals added ~$2,400/yr to average family costs",
+          "context": "On his campaign website",
+          "sources": [
+            "rr1"
+          ]
+        }
+      ]
     },
     {
       "id": "rebecca-sharpe-lombard",
       "name": "Rebecca Sharpe Lombard",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced unopposed in the August 4, 2026 Libertarian primary",
       "summary": {
         "text": "Rebecca Sharpe Lombard is the Libertarian Party nominee for Missouri's 8th District.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or other public statements of positions found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements of positions found for Rebecca Sharpe Lombard (checked Ballotpedia, BallotReady, iVoterGuide and a web search, October 2026)."
     }
   ],
   "sources": [
@@ -162,6 +243,13 @@
       "publisher": "Daily Journal (Park Hills, Mo.)",
       "kind": "news",
       "date": "2026-07-25"
+    },
+    {
+      "id": "rr1",
+      "url": "https://www.reichardforrep.com/issues",
+      "title": "Reichard for Rep: On the Issues",
+      "publisher": "Chris Reichard for Congress campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

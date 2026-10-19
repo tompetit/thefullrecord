@@ -106,7 +106,7 @@
       ],
       "website": "https://menendez.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "M001217",
+      "bioguideId": "M001226",
       "researchNotes": "Limited additional record found beyond committee assignments; his official press-release feed was not accessible for this research."
     },
     {
@@ -127,7 +127,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Candidate Connection survey response, or other public statements were found for Craig Honts beyond his Ballotpedia listing and party affiliation."
+      "researchNotes": "Searched campaign, Ballotpedia, news and voter-guide sources in October 2026; found no campaign website, survey response or statements from Craig Honts about his 2026 House race (the GoodParty.org profile has no platform)."
     },
     {
       "id": "dashone-hughey",
@@ -143,11 +143,30 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Education: technology education in AI and robotics so students are prepared for jobs, and direct workforce-development pathways from training to employment.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Small business and economic opportunity: access to capital and technical assistance for entrepreneurs, and policies for underserved neighborhoods.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "His \"Hughey Plan\" lists five points: lower the cost of living (including building 25,000 affordable and workforce housing units), create high-paying careers, grow small businesses, modernize transportation, and restore trust in government.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No Candidate Connection survey response or detailed public statements were found for Da'Shone Hughey beyond his Ballotpedia listing."
+      "researchNotes": "Priorities come from his campaign website (home page and Hughey Plan). Neither the site nor a June 2026 press release takes a position on the guide's issue statements, so no positions or statements were added. No Candidate Connection survey found."
     },
     {
       "id": "aristotle-eliopoulos",
@@ -190,19 +209,20 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "No campaign website was located; positions drawn from his 2026 Ballotpedia Candidate Connection survey.",
+      "statements": [
         {
           "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Supports lowering prescription drug costs and expanding access to mental-health and preventive care, while also emphasizing competition among providers and insurers and reducing administrative bureaucracy.",
+          "quote": "We should lower prescription drug costs, increase price transparency, encourage competition among providers and insurers, and reduce unnecessary administrative bureaucracy.",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
           "sources": [
             "s6"
           ]
         }
-      ],
-      "record": [],
-      "researchDepth": "basic",
-      "researchNotes": "No campaign website was located; positions drawn from his 2026 Ballotpedia Candidate Connection survey."
+      ]
     }
   ],
   "sources": [
@@ -268,6 +288,20 @@
       "title": "Climate Change and Environmental Justice",
       "publisher": "Office of Rep. Rob Menendez",
       "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://votedashonehughey.com/",
+      "title": "Da'Shone Hughey for Congress (campaign website)",
+      "publisher": "Da'Shone Hughey for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://votedashonehughey.com/the-hughey-plan/",
+      "title": "The Hughey Plan for Hudson County",
+      "publisher": "Da'Shone Hughey for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

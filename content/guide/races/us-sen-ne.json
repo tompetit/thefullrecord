@@ -289,16 +289,55 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Mike Marvin won the Legal Marijuana Now Party primary and is on the Nov. 3, 2026 general-election ballot for U.S. Senate. No campaign website, candidate survey responses, or other public statements were found.",
+        "text": "Mike Marvin won the Legal Marijuana Now Party primary and is on the Nov. 3, 2026 general-election ballot for U.S. Senate. His campaign website states that, citing worsening health, he cannot put in the effort the race requires, will remain on the ballot, and urges supporters to back Dan Osborn.",
         "sources": [
-          "s1"
+          "s1",
+          "s10"
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Legalizing marijuana nationally for medical and recreational purposes.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Repealing the PATRIOT Act and ending government surveillance of citizens.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Ending the Supreme Court's Citizens United ruling and funding elections with tax dollars.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Protecting Social Security (eliminating its income cap) and expanding Medicare and Medicaid.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "On his campaign website (April 29, 2026), said Medicare and Medicaid must be expanded to eventually cover every American.",
+          "quote": "Medicare and Medicaid must be expanded, and eventually cover every single American.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://marvinforsenate.com/",
+      "researchNotes": "Positions are from the campaign website text of April 29, 2026 as quoted verbatim by Ballotpedia. His campaign site now states that, citing worsening health, he cannot put in the effort the race requires, will remain on the ballot, and urges supporters to back Dan Osborn. Has not completed the Ballotpedia Candidate Connection survey. Only one position squarely matched the guide's issues."
     },
     {
       "id": "chuck-conboy",
@@ -308,16 +347,36 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Chuck Conboy is running on the America First Party Nebraska line in the Nov. 3, 2026 general election for U.S. Senate. No campaign website, candidate survey responses, or other public statements were found.",
+        "text": "Chuck Conboy is running on the America First Party Nebraska line in the Nov. 3, 2026 general election for U.S. Senate. He works in flooring and cabinet sales.",
         "sources": [
-          "s1"
+          "s1",
+          "s11"
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Opposes U.S. involvement in the conflict in Iran, arguing the money should stay in the country, per Nebraska Public Media.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Told Nebraska Public Media he supports the America First Party position of deporting people in the country illegally.",
+          "quote": "They want to deport all illegal aliens, which, I'm for that.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "His campaign site (conboyforsenate.com) had no issue content in the text we could load. Immigration and Iran statements are from Nebraska Public Media's voter guide, which also reports his opposition to abortion without a direct quote, so no abortion stance was added. No Ballotpedia Candidate Connection survey found. The America First Party nominee was named on Sept. 1, 2026."
     },
     {
       "id": "robin-richards",
@@ -327,16 +386,31 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Robin Richards is running on the Nebraska Working People Party line in the Nov. 3, 2026 general election for U.S. Senate. No campaign website, candidate survey responses, or other public statements were found.",
+        "text": "Robin Richards is running on the Nebraska Working People Party line in the Nov. 3, 2026 general election for U.S. Senate. She chairs the party.",
         "sources": [
-          "s1"
+          "s1",
+          "s11"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Said she wants expanded and protected disability services, particularly for children and in rural areas, per Nebraska Public Media.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Said she supports ensuring Social Security is solvent and not taxed, and child tax credits, per Nebraska Public Media.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Priorities are from Nebraska Public Media's voter guide (paraphrase, no stance on the guide's issue statements). No 2026 campaign website or Ballotpedia Candidate Connection survey found; her only Ballotpedia survey (2022) was for a different office and is not used."
     }
   ],
   "sources": [
@@ -407,6 +481,21 @@
       "title": "Ensuring Energy Independence",
       "publisher": "Office of Sen. Pete Ricketts",
       "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Mike_Marvin",
+      "title": "Mike Marvin's campaign website (April 29, 2026), quoted verbatim",
+      "publisher": "Mike Marvin 2026 campaign website (via Ballotpedia)",
+      "kind": "candidate",
+      "date": "2026-04-29"
+    },
+    {
+      "id": "s11",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/us-senate-voter-guide-rollercoaster-race-features-four-candidates/",
+      "title": "U.S. Senate voter guide: Meet the candidates in the rollercoaster race",
+      "publisher": "Nebraska Public Media",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

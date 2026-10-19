@@ -137,7 +137,29 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Cutting spending, reducing regulations and lowering taxes for families.",
+          "quote": "Tom will fight to cut wasteful spending, reduce regulations, and lower taxes so families can keep more of what they earn.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Balancing the budget and cutting wasteful programs.",
+          "quote": "Tom will fight to balance the budget, cut wasteful programs, and hold government accountable.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Ensuring veterans receive care and benefits.",
+          "quote": "Tom will fight to ensure our military heroes receive the care, benefits, and respect they deserve.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "immigration_enforcement",
@@ -151,8 +173,18 @@
       ],
       "record": [],
       "website": "https://tomsmithformi.com/",
-      "researchDepth": "minimal",
-      "researchNotes": "Smith's campaign website did not load readable content, and he has not completed Ballotpedia's Candidate Connection survey, so no verifiable statements of his positions or priorities were found."
+      "researchDepth": "basic",
+      "researchNotes": "Statements and priorities come from the issues page of Smith's campaign website (loaded with a headless browser). The site gives no stance on abortion, guns, taxes on high earners, or healthcare beyond the items cited; his remark about 'green mandates' is shown as a statement without a stance. He has not completed Ballotpedia's Candidate Connection survey.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Michigan's energy sector must thrive. Tom supports American energy independence — oil, gas, and nuclear — and opposes job-killing green mandates.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "jim-casha",
@@ -172,7 +204,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "No campaign website or 2026 public statements found. 2024 news coverage (ABC12) quoted him on other topics but not on the guide's issues."
     },
     {
       "id": "c-mia-pettus",
@@ -188,11 +220,86 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lowering the cost of living, including grocery, energy, housing and healthcare costs.",
+          "quote": "Lower the Cost of Living Lower grocery prices Lower energy costs Affordable housing Affordable healthcare",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Growing Michigan jobs, including sustainable manufacturing, skilled trades and small business.",
+          "quote": "Grow Michigan Jobs Sustainable Manufacturing Skilled trades Small business Bring Overseas Jobs Back",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Government transparency, oversight and whistleblower protections.",
+          "quote": "Honest Government Government transparency Oversight End waste Whistleblower protections",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Protecting constitutional rights, including Fourth Amendment protections and ending surveillance.",
+          "quote": "Protect Constitutional Rights Constitution Fourth Amendment Due process Individual liberty End Surveillance State",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Her campaign platform lists school choice, with public, charter, private and homeschool options and funding that follows the student.",
+          "quote": "School choice • Public, charter, private & homeschool options • Funding follows the student",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchDepth": "basic",
+      "researchNotes": "Positions and statements come from the priorities page and 19-item platform on Pettus's campaign website (dated 09/28/2026), which lists topics in short phrases rather than full sentences; only the school-choice line was read as taking a side. No Ballotpedia survey or news interviews found.",
+      "website": "https://pettusforcongress.org/",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Universal access • Public financing with private/nonprofit providers",
+          "context": "In her campaign's 19-item congressional platform",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "quote": "Patient autonomy • Reproductive healthcare decisions • Medical privacy",
+          "context": "In her campaign's 19-item congressional platform",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Secure borders • Credible enforcement • Orderly legal immigration",
+          "context": "In her campaign's 19-item congressional platform",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Professional, trained & fairly compensated officers • Recruitment & retention",
+          "context": "In her campaign's 19-item congressional platform",
+          "sources": [
+            "s7"
+          ]
+        }
+      ]
     },
     {
       "id": "kathy-goodwin",
@@ -208,11 +315,57 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "In a 2022 Michigan Public interview (her prior run for this seat): wages that rise automatically when prices rise.",
+          "quote": "the minute costs are going up in society, wages have to go up.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "In a 2022 Michigan Public interview (her prior run for this seat): using a seat in Congress as a platform to address issues workers face.",
+          "quote": "I want to use Congress as a platform to address the issues that workers face as a candidate for the Working Class Party.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a 2022 Michigan Public interview (her prior run for this seat), she said abortion must be legal in all circumstances and that she opposes bans.",
+          "quote": "I believe abortion must be legal in all circumstances. I'm against bans on abortion",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "In a 2022 Michigan Public interview, she said she would like to see limits on semiautomatic weapons and magazines, and that a mobilized public would be needed to get Congress to act.",
+          "quote": "curtail those semiautomatic weapons and to have those limits on magazines. I would be happy to see those things",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchDepth": "basic",
+      "researchNotes": "No 2026 campaign website or 2026 interviews found. Positions come from an October 2022 Michigan Public interview from her prior run for this seat; she may have updated her views since.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "There are tons of resources that those who have profited from the way the system has been run all these years can be the ones that empty their wallets and their pocketbooks to help us transition to cleaner energy.",
+          "context": "In a 2022 Michigan Public interview (her prior run for this seat)",
+          "sources": [
+            "s8"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -268,6 +421,22 @@
       "title": "Issues",
       "publisher": "Tom Smith for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://pettusforcongress.org/priorities/",
+      "title": "Priorities (Congressional Platform, 19 priorities, dated 09/28/2026)",
+      "publisher": "Pettus for Congress",
+      "kind": "candidate",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.michiganpublic.org/politics-government/2022-10-11/dnp-meet-8th-district-working-class-party-candidate-kathy-goodwin",
+      "title": "Meet 8th District Working Class Party candidate Kathy Goodwin",
+      "publisher": "Michigan Public",
+      "kind": "news",
+      "date": "2022-10-11"
     }
   ],
   "researchedAt": "2026-09-25"

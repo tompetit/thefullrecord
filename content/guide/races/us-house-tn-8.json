@@ -227,7 +227,8 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": " Searched for a campaign website, questionnaire or forum coverage for Adam Austill; none found."
     },
     {
       "id": "pamela-moses",
@@ -256,11 +257,58 @@
           "sources": [
             "s8"
           ]
+        },
+        {
+          "text": "Lists criminal justice reform tied to economic opportunity for formerly incarcerated people as the first of seven policy points.",
+          "sources": [
+            "r1"
+          ],
+          "quote": "Pamela Moses will champion comprehensive criminal justice reform that integrates economic opportunities for justice-impacted individuals."
+        },
+        {
+          "text": "Lists expanding mental health resources, especially in underserved communities.",
+          "sources": [
+            "r1"
+          ],
+          "quote": "Expanding mental health resources, particularly in underserved communities, and integrating mental health services into primary care."
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her campaign policy page (undated, written in the third person) says she advocates universal health care access.",
+          "quote": "Pamela advocates for universal healthcare access, ensuring every Tennessean receives quality medical care.",
+          "sources": [
+            "r1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her campaign policy page (undated, written in the third person) lists stricter regulation of gun manufacturing and sales.",
+          "quote": "Creating stricter regulations on gun manufacturing and sales, along with programs that address the social and economic factors contributing to violence.",
+          "sources": [
+            "r1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://pamelamosesforsenate.com",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Promoting green energy solutions and investments in American-made infrastructure, including a high-speed rail line that supports sustainable development, job creation, and regional connectivity.",
+          "context": "On her campaign website's policy page (undated; written in the third person by the campaign)",
+          "sources": [
+            "r1"
+          ]
+        }
+      ],
+      "researchNotes": "Positions come from the seven-point policy page on her campaign website, which is undated and is written in the third person; it may predate the 2026 redistricting. No debate or questionnaire answers found."
     },
     {
       "id": "horace-taylor",
@@ -287,7 +335,8 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": " Searched for a campaign website, questionnaire or forum coverage for Horace Taylor; none found."
     },
     {
       "id": "wendell-blankenship",
@@ -307,7 +356,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, biography, or public statements found for Wendell Blankenship beyond his name appearing on the ballot."
+      "researchNotes": "No campaign website, biography, or public statements found for Wendell Blankenship beyond his name appearing on the ballot. Searched for a campaign website, questionnaire or forum coverage for Wendell Blankenship; none found."
     },
     {
       "id": "antonio-futch",
@@ -323,11 +372,20 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Names five focus areas: community and safety, economy, education, healthcare and civic power.",
+          "sources": [
+            "r2"
+          ],
+          "quote": "COMMUNITY & SAFETY • ECONOMY • EDUCATION • HEALTHCARE • CIVIC POWER"
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, biography, or public statements found for Antonio Futch beyond his name appearing on the ballot."
+      "researchNotes": "His campaign website lists five focus areas but states no positions on the guide's issues; no questionnaire, forum or interview statements found.",
+      "website": "https://www.misterfutch.com"
     },
     {
       "id": "henry-ward-iii",
@@ -347,7 +405,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, biography, or public statements found for Henry Ward III beyond his name appearing on the ballot."
+      "researchNotes": "No campaign website, biography, or public statements found for Henry Ward III beyond his name appearing on the ballot. Searched for a campaign website, questionnaire or forum coverage for Henry Ward III; none found."
     }
   ],
   "sources": [
@@ -404,6 +462,20 @@
       "publisher": "Kuhn for Congress",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "r1",
+      "url": "https://pamelamosesforsenate.com/moses-seven-point-plan-policies/",
+      "title": "Moses' Seven Point Plan & Policies (undated)",
+      "publisher": "Pamela Moses campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "r2",
+      "url": "https://www.misterfutch.com/roadmap/",
+      "title": "RoadMap",
+      "publisher": "Antonio Futch campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

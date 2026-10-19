@@ -215,20 +215,29 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "website": "https://nagelforcongress.com",
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "In Congress, I will fight to make sure our border is locked down so tightly that Democrats can never tear it open again.",
+          "context": "On his campaign website's immigration page",
+          "sources": [
+            "s4"
+          ]
+        },
         {
           "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Supports increased funding and support for police.",
           "quote": "our men and women in blue receive the funding and support they deserve",
+          "context": "On his campaign website",
           "sources": [
             "s4"
           ]
         }
       ],
-      "record": [],
-      "website": "https://nagelforcongress.com",
-      "researchDepth": "basic"
+      "researchNotes": "Statements come from his campaign website issues section and press page; his site lists issues in short paragraphs, with no stated position found on abortion, guns, rent, minimum wage, climate or other guide issues beyond those listed. His website says he supports legal immigration and faster processing; it does not address deportations."
     },
     {
       "id": "develle-jackson",
@@ -279,18 +288,94 @@
       ],
       "positions": [
         {
-          "issue": "housing_supply",
+          "issue": "abortion",
           "stance": "supports",
-          "summary": "Supports building more housing as part of an affordability agenda focused on expanding supply.",
+          "summary": "Supports restoring in federal law the viability framework associated with Roe v. Wade and Planned Parenthood v. Casey.",
+          "quote": "I support restoring in federal law the core viability framework associated with Roe v. Wade and reaffirmed in Planned Parenthood v. Casey.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Supports comprehensive federal gun legislation with multiple points of intervention, while stating the Second Amendment right is not unlimited.",
+          "quote": "I support comprehensive federal gun legislation that preserves the individual Second Amendment right to keep and bear arms as a constitutional safeguard of a free people, including lawful self-defense, hunting, and sporting use, while recognizing that the right is not unlimited.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports a tax on billionaires and the ultra-wealthy with a steeper top income-tax rate and action on corporate loopholes.",
+          "quote": "I support a Rich Tax on billionaires and the ultra-wealthy, with a steeper income-tax curve at the very top and stronger action against offshore tax avoidance and corporate loopholes.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports a universal healthcare guarantee centered on a national public option.",
+          "quote": "I support a universal healthcare guarantee that builds upon Medicare, Medicaid, veterans' care, employer and union plans, private insurance, and successful state programs.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Says he will defend Congress's war powers and that military action should have lawful authorization.",
+          "quote": "I will defend Congress's war powers and oppose unauthorized, open-ended, and forever conflicts.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Candidate has a campaign website with a 12-point platform (jacksonforcongress.us) in addition to his Ballotpedia survey; positions and statements come from the platform page. No stated position found on school choice, minimum wage, tariffs, child care or police funding.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Immigration enforcement does not place federal agents above the law or authorize occupation tactics in American neighborhoods.",
+          "context": "On his campaign website's platform page",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I support clean, renewable energy and strong federal action against pollution and the misuse of shared resources.",
+          "context": "On his campaign website's platform page",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "rent_regulation",
+          "quote": "Federal policy should prevent eviction, move people quickly from shelters or the street into permanent housing, and provide supportive housing for people who need continuing services.",
+          "context": "On his campaign website's platform page",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "housing_supply",
           "quote": "That means making it easier to build, produce, hire, train, and compete while ensuring working people share in the value they create.",
+          "context": "On his campaign website; Ballotpedia-quoted text",
           "sources": [
             "s5"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Jackson completed Ballotpedia's Candidate Connection survey; no campaign website, prior officeholding, or additional press coverage was found."
+      "website": "https://jacksonforcongress.us/"
     }
   ],
   "sources": [
@@ -333,6 +418,14 @@
       "publisher": "Ballotpedia (Candidate Connection survey)",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://jacksonforcongress.us/platform/",
+      "title": "12-Point Platform",
+      "publisher": "Jackson For Congress 2026",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

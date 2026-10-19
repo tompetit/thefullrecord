@@ -164,10 +164,46 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists abolishing ICE and fair treatment of undocumented community members among his priorities.",
+          "quote": "I will always fight for fair and compassionate treatment for our undocumented community members.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lists climate change and the cost of living for low-income residents as campaign issues.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "His campaign website says ICE should be abolished.",
+          "quote": "We must abolish ICE.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "It’s time to acknowledge that climate change is here, and it is a real problem impacting our lives.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "researchNotes": "Read his campaign website (marlonduran.com): about, issues and Anti-AIPAC pages. He has not completed a Candidate Connection survey. His Israel/Palestine statements were not used because they do not state a position on U.S. military aid."
     }
   ],
   "sources": [
@@ -233,6 +269,22 @@
       "title": "Congressman Cuellar Introduces American Consumer Tariff Rebate Act of 2026",
       "publisher": "Office of Rep. Henry Cuellar",
       "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://marlonduran.com/about/",
+      "title": "Marlón's Story | Marlon Duran For Congress!",
+      "publisher": "Candidate campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://marlonduran.com/on-the-issues/",
+      "title": "On The Issues | Marlon Duran For Congress!",
+      "publisher": "Candidate campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

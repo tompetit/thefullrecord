@@ -159,6 +159,13 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Says dark money should be out of politics and that she believes in free, fair, transparent elections.",
+          "quote": "We have to get dark money out of politics. Period.",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "positions": [
@@ -183,7 +190,8 @@
       ],
       "record": [],
       "website": "https://www.terrigreenforarkansas.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Campaign website (issues listed: accountable government, honest democracy, thriving communities) confirms her minimum wage and healthcare statements; no additional statements on the guide's other issues were found."
     },
     {
       "id": "steve-parsons",
@@ -196,7 +204,7 @@
       "summary": {
         "text": "Steve Parsons (Steven Gene Parsons) is the Libertarian Party nominee for Arkansas's 1st Congressional District, running on cutting inflation through deregulation and tariff elimination, immigration reform, and reducing incarceration.",
         "sources": [
-          "s4"
+          "s14"
         ]
       },
       "background": [],
@@ -204,19 +212,19 @@
         {
           "text": "Cut inflation by eliminating trade tariffs, cutting federal regulations, reducing bureaucracy in visa/green-card processing, and cutting federal spending.",
           "sources": [
-            "s4"
+            "s14"
           ]
         },
         {
           "text": "Reform immigration by cutting green-card and work-visa bureaucracy, eliminating tariffs on Latin American goods, and creating a clearer path to legal permanent residency.",
           "sources": [
-            "s4"
+            "s14"
           ]
         },
         {
-          "text": "Reduce incarceration by shifting resources from prisons to substance-abuse and mental-health treatment.",
+          "text": "Incarceration, substance abuse and mental health reform: says treatment is far more cost-effective than incarceration.",
           "sources": [
-            "s4"
+            "s14"
           ]
         }
       ],
@@ -227,13 +235,24 @@
           "summary": "Campaign website calls for eliminating trade tariffs, citing the cost of the 2018 U.S.-China trade war.",
           "quote": "Eliminate trade tariffs (the 2018 trade war with China alone costs America $50 billion a year and 166,000 jobs).",
           "sources": [
-            "s4"
+            "s14"
           ]
         }
       ],
       "record": [],
       "website": "https://www.steve-parsons.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "The U.S. should eliminate the existing 3/10 rule for existing undocumented immigrants.",
+          "context": "On his campaign website",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign website covers immigration, tariffs, regulation, prison reform and foreign policy; on immigration he calls for expanded work visas and a legal path rather than stating a position on enforcement and deportations, so it appears as a statement only."
     }
   ],
   "sources": [
@@ -258,13 +277,6 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2025-12-23"
-    },
-    {
-      "id": "s4",
-      "url": "https://ballotpedia.org/Steve_Parsons",
-      "title": "Steve Parsons",
-      "publisher": "Steven Gene Parsons campaign website (via Ballotpedia)",
-      "kind": "candidate"
     },
     {
       "id": "s5",
@@ -307,6 +319,30 @@
       "title": "Terri Yarbrough Green — Ballotpedia Candidate Connection survey (Dec. 22, 2025 submission)",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.terrigreenforarkansas.com/",
+      "title": "Dr. Terri Green for Arkansas",
+      "publisher": "Terri Green campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.steve-parsons.com/immigration",
+      "title": "Immigration Policy as a Practical Libertarian",
+      "publisher": "Steve Parsons campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.steve-parsons.com/platform",
+      "title": "Platform",
+      "publisher": "Steve Parsons campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

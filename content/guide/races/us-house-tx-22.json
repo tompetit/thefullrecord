@@ -45,7 +45,26 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lists securing the border and enforcing immigration laws first among his campaign messages.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists tackling inflation and making the district affordable for families, citing lower taxes and fewer regulations.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists energy independence and law enforcement support among his campaign issues.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "immigration_enforcement",
@@ -58,8 +77,34 @@
         }
       ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website content or Candidate Connection survey was located beyond Ballotpedia's biographical entry."
+      "researchDepth": "basic",
+      "researchNotes": "Campaign website issues page read directly; Ballotpedia shows he completed a 2026 Candidate Connection survey whose answers repeat the website's text. No debate or interview coverage was located.",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "He opposes soft-on-crime leftist policies and will fully fund and support law enforcement.",
+          "context": "On his campaign website, under \"Fund & Support Law Enforcement\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Trever supports President Trump’s agenda to unleash Texas oil, gas, and nuclear energy to restore full U.S. energy dominance.",
+          "context": "On his campaign website",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "He will vote to eliminate DEI mandates, block gender ideology in schools, protect girls’ sports, and require full curriculum transparency.",
+          "context": "On his campaign website, under \"Protect Our Children and Empower Parental Choice\"",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "marquette-greene-scott",
@@ -178,6 +223,14 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.trevernehlsforcongress.com/issues/",
+      "title": "Issues | Trever Nehls for Congress",
+      "publisher": "Candidate campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

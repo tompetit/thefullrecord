@@ -146,11 +146,58 @@
             "s6"
           ],
           "quote": "Yes, absolutely, the administration needs Congressional approval for continued military action in Iran."
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "On her campaign site, lists raising the federal minimum wage among the things she supports.",
+          "quote": "Raising the federal minimum wage for the first time in nearly 30 years.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In her 2020 Ballotpedia survey (for a state House race, not this race), listed expanding Medicaid as a key campaign message. Dated: she has not completed a 2026 survey.",
+          "quote": "Expanding Medicaid - at zero additional cost to North Carolinians, we can help 500,000 people access health care",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Hardy has not completed a 2026 Candidate Connection survey; positions are drawn from her 2020 survey, her most recent public statement of positions located within the research budget. She has not previously held elected office."
+      "researchNotes": "Positions combine her 2026 Port City Daily questionnaire, her campaign site's priorities page, and her 2020 Ballotpedia survey (state House race; no 2026 survey completed). Her answers did not address abortion, guns, immigration enforcement stance, school choice, or Israel aid directly.",
+      "website": "https://kimberlyhardyforcongress.com",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Support homegrown energy initiatives including solar, wind, and geothermal.",
+          "context": "On her campaign website, under Environment",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "Congress could have ended the tariffs, kept the administration from dragging on the release of the Epstein files, and blocked expensive, rash actions like paying billions in kill fees to clean energy projects. It just takes courage.",
+          "context": "In the Port City Daily 2026 candidate questionnaire",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We should be looking into the mistakes that led to ICE killing American citizens, to immigration agencies hiring members of MS-13.",
+          "context": "In the Port City Daily 2026 candidate questionnaire",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "maad-abu-ghazalah",
@@ -194,10 +241,22 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "On his campaign site, says the U.S. should stop arming Israel and other foreign governments and use diplomacy instead.",
+          "quote": "We need to stop arming Israel and other foreign regimes like Egypt, Jordan and the Ukraine and start using our leverage to create peace in the world through diplomacy.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Positions are drawn from Abu-Ghazalah's 2026 Ballotpedia Candidate Connection survey. He speaks generally against funding foreign wars, but since no source ties this directly to a specific issue key (e.g. Israel aid) by name, no formal Position entry was added for it; his general anti-war stance is captured only under priorities."
+      "researchNotes": "Positions drawn from his 2026 Ballotpedia survey and campaign website (getmaad.org). A Feb. 2026 press release carrying his quotes was issued by the Libertarian Party of North Carolina (not his campaign) and was not used. Other issues are not addressed in the material found.",
+      "website": "https://getmaad.org"
     }
   ],
   "sources": [
@@ -263,6 +322,22 @@
       "publisher": "Office of Rep. David Rouzer",
       "kind": "official",
       "date": "2023-06-13"
+    },
+    {
+      "id": "s9",
+      "url": "https://kimberlyhardyforcongress.com/priorities",
+      "title": "Values - Dr. Kimberly Hardy for Congress",
+      "publisher": "Kimberly Hardy for Congress",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s10",
+      "url": "https://getmaad.org",
+      "title": "Platform - Maad Abu-Ghazalah for Congress",
+      "publisher": "Maad Abu-Ghazalah campaign website",
+      "kind": "candidate",
+      "date": "2026"
     }
   ],
   "researchedAt": "2026-09-25",

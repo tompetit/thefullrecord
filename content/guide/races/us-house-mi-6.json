@@ -189,11 +189,65 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Enable and support law enforcement to effectively perform their duties, enforce equal protection, and uphold natural law",
+          "sources": [
+            "ch2"
+          ]
+        },
+        {
+          "text": "Eliminate excessive & wasteful spending, pay off the debt and balance the budget, and ensure plan transparency",
+          "sources": [
+            "ch2"
+          ]
+        },
+        {
+          "text": "Restore border security, improve immigration policies & practices, and address the issues associated with those who have entered the country illegally",
+          "sources": [
+            "ch2"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No campaign website located; background limited to what Ballotpedia's biography section documents."
+      "researchNotes": "Campaign site issues and platform pages and the Planet Detroit environmental survey (Sept. 2026) reviewed. Site gives one-line issue summaries, so most are shown as statements without a stance. Not found: own statements on tariffs, minimum wage, taxes, healthcare coverage, school choice, war powers.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Close the borders, remediate illegal entrants, address chain migration, protect existing guest-worker provisions.",
+          "context": "On her campaign website's issues page",
+          "sources": [
+            "ch1"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "Protect the right to arm & defend yourself/others, and shield manufacturers from personal responsibility.",
+          "context": "On her campaign website's issues page",
+          "sources": [
+            "ch1"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "quote": "Protect life (womb, special needs, elderly)",
+          "context": "On her campaign website's issues page, under Health",
+          "sources": [
+            "ch1"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Because wind and solar are intermittent, research indicates that traditional sources of energy such as nuclear and natural gas are still needed to meet the growing need for energy.",
+          "context": "In the Planet Detroit 2026 candidate survey, on Michigan's 100% clean energy by 2040 law",
+          "sources": [
+            "ch3"
+          ]
+        }
+      ],
+      "website": "https://smileyforcongress.com/"
     },
     {
       "id": "clyde-shabazz",
@@ -209,11 +263,28 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Campaign video centers on two ideas, \"You can never make America great again\" and protecting the environment, per The Eastern Echo.",
+          "sources": [
+            "ch4"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchNotes": "Green nominee. No campaign website fetched (an archive link was not retrieved); one campaign-video summary and quote via The Eastern Echo (Sept. 2026). No other statements on the guide's issues found.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Global warming has gone beyond human control.",
+          "context": "Quoted from a Green Party of Michigan campaign video, per The Eastern Echo (Sept. 2026)",
+          "sources": [
+            "ch4"
+          ]
+        }
+      ]
     },
     {
       "id": "tim-teagan",
@@ -233,7 +304,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchNotes": "Libertarian nominee (state party chair per The Eastern Echo). No campaign website, questionnaire or issue statements found."
     },
     {
       "id": "michael-mickevicius",
@@ -253,7 +324,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchNotes": "U.S. Taxpayers Party nominee. No campaign website, questionnaire or issue statements found."
     },
     {
       "id": "linda-rayburn",
@@ -273,7 +344,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchNotes": "Working Class Party nominee. No 2026 campaign statements found; the party's site lists only her 2020 and 2022 statements for other offices."
     }
   ],
   "sources": [
@@ -339,6 +410,36 @@
       "title": "Jobs, Manufacturing and Trade",
       "publisher": "Office of Rep. Debbie Dingell",
       "kind": "candidate"
+    },
+    {
+      "id": "ch1",
+      "url": "https://smileyforcongress.com/?page_id=269",
+      "title": "Issues",
+      "publisher": "Heather Smiley for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "ch2",
+      "url": "https://smileyforcongress.com/?page_id=29",
+      "title": "Platform",
+      "publisher": "Heather Smiley for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "ch3",
+      "url": "https://voterguide.planetdetroit.org/candidates/heather-smiley",
+      "title": "Heather Smiley, U.S. House District 6 (candidate survey)",
+      "publisher": "Planet Detroit 2026 Voter Guide",
+      "kind": "news",
+      "date": "2026-09"
+    },
+    {
+      "id": "ch4",
+      "url": "https://www.easternecho.com/article/2026/09/united-states-house-of-representatives-michigan-district-6-candidates",
+      "title": "Meet the candidates running for US House of Representatives Michigan District 6",
+      "publisher": "The Eastern Echo",
+      "kind": "news",
+      "date": "2026-09"
     }
   ],
   "researchedAt": "2026-09-25",

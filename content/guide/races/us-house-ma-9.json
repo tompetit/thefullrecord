@@ -147,9 +147,10 @@
       "incumbent": false,
       "ballotNote": "Won the September 1, 2026 Republican primary unopposed.",
       "summary": {
-        "text": "R. Tyler MacAllister is the Republican nominee for Massachusetts's 9th District. He serves on the Mattapoisett Select Board. He had not completed Ballotpedia's 2026 Candidate Connection survey and no campaign website or additional public statements were found at time of research.",
+        "text": "R. Tyler MacAllister is the Republican nominee for Massachusetts's 9th District. He serves on the Mattapoisett Select Board. He had not completed Ballotpedia's 2026 Candidate Connection survey; his campaign website has solutions and ballot-question pages.",
         "sources": [
-          "s3"
+          "s3",
+          "s10"
         ]
       },
       "background": [
@@ -160,20 +161,60 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [
+      "priorities": [
         {
-          "issue": "climate",
-          "stance": "opposes",
-          "summary": "Campaign site says no industrial wind farms in fishing grounds (opposing offshore wind development there) while backing an all-of-the-above energy approach.",
-          "quote": "No industrial wind farms in our fishing grounds, and no data centers draining our grid and our water.",
+          "text": "Cost of living: says he will take on mandates and Washington spending he says drive up costs for families.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Reliable, affordable energy, with what the site calls an all-of-the-above approach.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Sustainable fishing and the working waterfront.",
           "sources": [
             "s10"
           ]
         }
       ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "On his campaign ballot-positions page, says Massachusetts already had the strictest gun laws, objects to Chapter 135 of the Acts of 2024 (the firearms law on the Nov. 3, 2026 ballot as Question 9) and says he is voting to repeal it.",
+          "quote": "Massachusetts already had the strictest gun laws in the country. Chapter 135 rewrote the rules for lawful owners anyway, and set the precedent that Beacon Hill can redraw a constitutional right whenever it likes. I'm voting to repeal it — and on this question, repeal is a NO.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "We need starter homes badly; we get them by working with towns, not over them. Keep zoning local.",
+          "context": "On his campaign site, explaining his NO vote on statewide Question 7 (single-family homes on small lots)",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "No industrial wind farms in our fishing grounds, and no data centers draining our grid and our water.",
+          "context": "On his campaign solutions page, under \"Offshore Wind & Data Centers\"",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "website": "https://www.macallister4congress.com/",
+      "researchNotes": "Campaign site (solutions page and the ballot-question positions page) read in full. The ballot page gives his positions on nine statewide questions; only those that map to guide issues were used."
     }
   ],
   "sources": [
@@ -246,8 +287,15 @@
       "title": "Solutions | Tyler Macallister for Congress",
       "publisher": "Macallister for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.macallister4congress.com/ballot-questions/",
+      "title": "Where Tyler stands on the nine 2026 ballot questions",
+      "publisher": "Macallister for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website or public statements beyond his Ballotpedia biography were found for R. Tyler MacAllister. Federal key votes and FEC finance totals for Keating are added separately by script."
+  "researchNotes": "Campaign site (solutions page and ballot-question positions page) read in full. The ballot page gives his positions on nine statewide questions; only those that map to guide issues were used. His offshore-wind line is recorded as a statement, not a climate stance; \"back our local police\" was left out as not about police funding or staffing. Federal key votes and FEC finance totals for Keating are added separately by script."
 }

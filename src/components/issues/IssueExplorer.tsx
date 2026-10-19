@@ -51,7 +51,7 @@ export function IssueExplorer({ topics, query, chamber, kind, show, sort, state,
       {[["topic", topics.join(",")], ["q", text.trim()], ["chamber", chamber], ["state", state], ["kind", kind], ["show", show], ["sort", sort]].map(([name, value]) => value && <input key={name} type="hidden" form="issue-address-form" name={name} value={value} />)}
       <section aria-labelledby="choose-topics" className="py-8">
         <div className="flex flex-wrap items-baseline justify-between gap-3">
-          <h2 id="choose-topics" className="font-serif text-2xl font-semibold text-ink">Narrow by issue</h2>
+          <h2 id="choose-topics" className="font-serif text-2xl font-semibold text-ink">What do you want to look into?</h2>
           <span className="text-xs text-ink-60">Choose any topics · no selection shows everything</span>
         </div>
         <div className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-3">

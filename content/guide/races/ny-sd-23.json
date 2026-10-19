@@ -177,10 +177,52 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Campaign issues page says his Senate votes would support the NYPD with resources and recruitment.",
+          "quote": "Support the NYPD with resources, recruitment, and respect",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Campaign homepage lists backing school choice among his education positions.",
+          "quote": "Support parents and education policies that work by restoring parental involvement, backing school choice, and keeping politics out of the classroom.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls policies like City of Yes top-down mandates that override neighborhood input and increase density without infrastructure, and lists preserving local decision-making and protecting one- and two-family homes among his votes.",
+          "quote": "Opposing City of Yes style mandates that ignore local input",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "website": ""
+      "website": "",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "Stop tax hikes and hidden fees that drive up the cost of living",
+          "context": "On his campaign issues page, under \"How I will vote in Albany\"",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign site shamalforny.com (checked 2026-10-19) lists positions on affordability, zoning, public safety and education; no statements found on abortion, guns, immigration or other listed issues. Branch.vote profile paraphrases were not used."
     }
   ],
   "sources": [
@@ -243,6 +285,20 @@
       "publisher": "NYSenate.gov",
       "kind": "official",
       "date": "2026-06-01"
+    },
+    {
+      "id": "s9",
+      "url": "https://shamalforny.com/",
+      "title": "Ruslan Shamal for New York State Senate",
+      "publisher": "Shamal campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://shamalforny.com/issues/",
+      "title": "Issues",
+      "publisher": "Shamal campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

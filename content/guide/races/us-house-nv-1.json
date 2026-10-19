@@ -278,11 +278,41 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Healthcare, which he calls his \"highest priority\" (access to quality, affordable healthcare).",
+          "quote": "Healthcare is my highest priority",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lowering the cost of living, expanding affordable housing, and protecting Social Security and Medicare.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Supporting veterans and creating economic opportunity through workforce training and job growth.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "website": ""
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "protecting access to healthcare, supporting economic opportunity, expanding affordable housing, strengthening Social Security and Medicare",
+          "context": "In his Ballotpedia Candidate Connection survey, describing what he says every family deserves",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Statement and priorities come from his June 18, 2026 Ballotpedia Candidate Connection survey. No campaign website text was loaded and no stance on the guide's issue statements was found."
     },
     {
       "id": "bobby-khan",
@@ -298,10 +328,31 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Justice-system reform: limiting investigative spending, ending asset forfeiture without conviction, reforming bail, and restoring rights after sentences.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Veterans: no taxes for wounded or PTSD-affected veterans, free health care at any hospital, housing on federal land, and higher pay for active-duty troops.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Ending federal taxes on casino, poker and sports-betting winnings.",
+          "quote": "Gambling winnings shouldn't be taxed",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Priorities come from his Ballotpedia Candidate Connection survey (completed in 2025). The survey does not address the guide's issue statements directly, so no positions or statements were added."
     }
   ],
   "sources": [
@@ -380,8 +431,23 @@
       "title": "Creating Jobs, Boosting Wages, and Investing in Infrastructure",
       "publisher": "Office of Rep. Dina Titus",
       "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/Steven_St_John",
+      "title": "Steven St John - Ballotpedia Candidate Connection survey (June 18, 2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "s12",
+      "url": "https://ballotpedia.org/Bobby_Khan",
+      "title": "Bobby Khan - Ballotpedia Candidate Connection survey (2025)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Federal key votes and FEC finance totals for Titus and Buck are added separately by script. No campaign websites, statements, or Ballotpedia Candidate Connection survey responses were found for no-party candidates Steven St John or Bobby Khan; their entries reflect only that they qualified for the general-election ballot."
+  "researchNotes": "Federal key votes and FEC finance totals for Titus and Buck are added separately by script. Steven St John and Bobby Khan (no party) have Ballotpedia Candidate Connection survey responses (St John 2026, Khan 2025), used for their priorities; no campaign websites were found."
 }

@@ -235,11 +235,52 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says Congress should take recorded votes on expiring programs and pass its spending bills on time.",
+          "quote": "Congress passes its 12 spending bills on time, not one giant bill nobody reads.",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Says he would protect current Social Security recipients and have Congress vote publicly on options for younger workers before the 2032 deadline.",
+          "quote": "I'd protect current seniors who depend on it and make Congress vote on real options for younger workers, in public, before the deadline.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, detailed biography, or stated policy positions beyond birthplace and profession were found for Wilson."
+      "researchDepth": "basic",
+      "researchNotes": "Found Wilson's campaign website (bobbyforcongress.mydurable.com), which lists positions on spending, Social Security, immigration, housing, surveillance and health care; statements are quoted from it without a stance inferred. He completed Ballotpedia's survey in 2024 but not in 2026, so that older survey was not used. No other statements found on the guide's remaining issues.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Stop federal subsidies that pay people to come, close asylum loopholes, secure the border, deport criminals, no masked federal agents.",
+          "context": "On his campaign website",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Let people build. Cut the rules and delays that drive up the cost of a home.",
+          "context": "On his campaign website",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Lower prices by increasing supply and letting new technology compete. No Medicare for All.",
+          "context": "On his campaign website",
+          "sources": [
+            "s14"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -319,6 +360,13 @@
       "title": "H.R. 38 — Constitutional Concealed Carry Reciprocity Act of 2025",
       "publisher": "Congress.gov",
       "kind": "official"
+    },
+    {
+      "id": "s14",
+      "url": "https://bobbyforcongress.mydurable.com/",
+      "title": "Bobby Wilson for Congress",
+      "publisher": "Bobby Wilson for Congress campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

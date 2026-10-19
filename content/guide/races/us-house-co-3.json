@@ -225,7 +225,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found (Ballotpedia page checked Oct. 19, 2026; iVoterGuide profile has no platform text)."
     },
     {
       "id": "clifton-brown",
@@ -241,11 +241,40 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Pledges not to take money from any corporation or PAC and not to earn more than the government salary.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says gerrymandering should stop and calls for ending congressional districts.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Calls for a \"citizen protection act\" limiting voting, campaign contributions and real estate ownership to citizens.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or completed Ballotpedia Candidate Connection survey found."
+      "researchNotes": "Unaffiliated. Completed Ballotpedia's 2026 Candidate Connection survey (2026); his survey mentions the site ruhero.com, which was not fetched. His answers do not directly take a side on most listed issues.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "I believe that saving the planet is our biggest responsibility as Americans.",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -308,6 +337,13 @@
       "publisher": "CPR News",
       "kind": "news",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Clifton_Brown",
+      "title": "Clifton Brown — Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

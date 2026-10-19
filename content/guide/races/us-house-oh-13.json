@@ -123,10 +123,48 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Campaign site lists lowering the cost of living, including reining in federal spending and increasing energy production.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "He supports reining in out-of-control federal spending, restoring fiscal discipline, and ending wasteful programs that drive inflation."
+        },
+        {
+          "text": "Campaign site lists public safety and support for law enforcement, including stronger penalties for violent and repeat offenders.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Campaign site lists defending constitutional freedoms and limiting federal government power.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Campaign site lists job growth, workforce training and reshoring manufacturing.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Campaign site says he will advocate for increased resources for local police and federal help with recruiting, training and retaining officers.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements",
+          "quote": "He will advocate for increased resources for local police, stronger penalties for violent and repeat offenders, and federal partnerships that help local departments recruit, train, and retain quality officers."
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "From his campaign website issue pages only. He has not completed the Ballotpedia Candidate Connection survey and no debate or questionnaire coverage was found. The site's statements on border security, the Second Amendment and tariffs did not take a side on the guide's issue statements and were left out."
     },
     {
       "id": "sandeep-dixit",
@@ -184,10 +222,21 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign site lists raising the minimum wage among his key actions on good jobs.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements",
+          "quote": "Raise the minimum wage so full-time work makes living affordable."
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "From his Ballotpedia Candidate Connection survey (2026) and campaign website issue page. The environment and privacy plan (enforcement of environmental regulations) did not take a side on a guide issue statement and was left out."
     }
   ],
   "sources": [
@@ -232,6 +281,20 @@
       "publisher": "Signal Akron (candidate questionnaire responses)",
       "kind": "news",
       "id": "s6"
+    },
+    {
+      "id": "s7",
+      "url": "https://careycoleman.com/issues/",
+      "title": "Issues",
+      "publisher": "Carey Coleman for Congress (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.sandeepdixit.com/issues",
+      "title": "Issues - Where Sandeep Dixit Stands for Ohio's 13th District",
+      "publisher": "Sandeep Dixit for Congress (campaign website)",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

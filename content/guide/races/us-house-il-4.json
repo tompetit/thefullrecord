@@ -153,10 +153,51 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lists no tax on tips and overtime as a campaign priority.",
+          "quote": "I am the Only Candidate who supports NO TAX ON TIPS AND OVERTIME, in order to help working class families.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Lists directing federal funds to needy Americans rather than NGOs as a campaign priority.",
+          "quote": "I am the Only Candidate who supports government funds going directly to needy Americans instead of politically corrupt NGOs.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Lists a pay halt for members of Congress during government shutdowns as a campaign priority.",
+          "quote": "I am the Only Candidate who supports no congressional pay during government shutdowns.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "I am the Only Candidate who supports school choice for poor families.",
+          "context": "On her campaign website",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "I am the Only Candidate that will protect women's sports and girl's bathrooms.",
+          "context": "On her campaign website",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "website": "https://castillolupe.com"
     },
     {
       "id": "ed-hershey",
@@ -173,10 +214,63 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says the working class needs its own party and organization.",
+          "quote": "To say that the working class needs its own party, its own organization.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Names inflation and high prices for food, rent and utilities as the most pressing issue.",
+          "quote": "Inflation and high prices for things like food, rent and utilities.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says he opposes what he calls a push toward war and immigration enforcement by militarized police forces.",
+          "quote": "To call out the push towards war that we see in this country",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says corporations and the wealthy should bear the tax burden.",
+          "quote": "Corporations and the wealthy -- those that have money -- should bear the burden of taxes in this society.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says a public health system would be a start toward addressing rising costs.",
+          "quote": "Having a public system, rather than a system designed to shovel our money at the big insurance companies, would be a start.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Describes immigration enforcement by ICE and the Border Patrol as an invasion of streets by militarized police forces and says everyone living and working in the country should have full rights.",
+          "quote": "the invasion of our streets by militarized police forces like ICE and the Border Patrol",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic"
     },
     {
       "id": "chris-getty",
@@ -269,8 +363,15 @@
       "publisher": "Lupe Castillo for Congress campaign website",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "url": "https://news.wttw.com/node/55033",
+      "title": "Ed Hershey - 2026 General Election Voter Guide",
+      "publisher": "WTTW News",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Garcia's and Getty's material is drawn from their campaign websites as compiled by Ballotpedia. No campaign website, public statements, or Candidate Connection survey were found for Lupe Castillo or Ed Hershey within the BASIC research budget; their entries are marked minimal."
+  "researchNotes": "Garcia's and Getty's material is drawn from their campaign websites as compiled by Ballotpedia. Lupe Castillo's statements come from the values page of her campaign website; no Ballotpedia survey or debate transcript with her own quotes was found. Ed Hershey's positions and priorities come from his WTTW 2026 voter-guide Q&A; no campaign website of his own was found."
 }

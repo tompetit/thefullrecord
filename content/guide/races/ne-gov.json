@@ -166,7 +166,34 @@
       "positions": [],
       "record": [],
       "website": "https://lynnewalz.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "We need strong schools, vibrant community spaces, strong main streets, and continued investments for police officers and firefighters to keep us safe.",
+          "context": "On her campaign website",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "quote": "Nebraskans have had their voices heard on key issues, like medical marijuana, paid sick leave, minimum wage, school vouchers, and more. When the voters speak, our job as representatives is to listen.",
+          "context": "On her campaign website",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "We need to focus on building housing, creating power capacity and addressing child care costs, to name a few, that our private sector has identified barriers to growing our state.",
+          "context": "In her response to the Nebraska Examiner 2026 voter guide (Priorities question)",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from her campaign priorities page and her Nebraska Examiner voter-guide answers. She has not published a stance on abortion, guns, immigration or climate in the sources read; a 'sensitive and personal' health care remark reported by the Nebraska Examiner was not used because the article does not tie it to a named issue. Statements are shown without a stance."
     },
     {
       "id": "brett-lindstrom",
@@ -218,11 +245,38 @@
             "s6"
           ],
           "quote": "In three and a half years, this administration has spent through a historic cash reserve, raided cash funds and made billions in commitments with no sustainable way to pay for them."
+        },
+        {
+          "text": "Housing built near existing jobs, protecting public power and expanding the grid, and finishing rural broadband.",
+          "sources": [
+            "s16"
+          ],
+          "quote": "Build housing where the jobs already are. Protect public power and expand the grid before demand outruns it."
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://votelindstrom.com/",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Nebraska should support locally driven housing solutions for workers, teachers, healthcare professionals, first responders, young families, and retirees.",
+          "context": "In the Workforce Housing & Community Development plan on his campaign site",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "We don’t need to raise taxes to generate revenue; we need to grow Nebraska’s economy, population, businesses and tax base.",
+          "context": "In his response to the Nebraska Examiner 2026 voter guide (Budget question)",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from the Nebraska Doctrine (his campaign policy site), the Nebraska Examiner's Aug. 3 report on it and his Nebraska Examiner voter-guide answers. He has not stated positions on abortion, guns, immigration or the other listed issues in the sources read."
     },
     {
       "id": "rick-beard",
@@ -273,14 +327,19 @@
         {
           "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Said the state must eliminate tax breaks for corporations and Nebraska’s “ultra-rich.”",
+          "summary": "Said he would raise income taxes by one or two points on top earners and stop giving corporations tax breaks.",
           "sources": [
-            "s8"
-          ]
+            "s8",
+            "s15"
+          ],
+          "quote": "Raise income taxes by one or two points on Nebraska's top earners with incremental brackets for different levels of earning.",
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "http://rickforgov.org",
+      "researchNotes": "Positions come from a July 2026 Nebraska Examiner/WOWT interview and his answers in the Nebraska Examiner voter guide; his campaign site (rickforgov.org) lists cannabis, PAC money and data-center plans. No stated position found on the other listed issues."
     }
   ],
   "sources": [
@@ -387,6 +446,22 @@
       "publisher": "Nebraska Legislature",
       "kind": "official",
       "date": "2023-05-22"
+    },
+    {
+      "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-general-nebraska-governor/",
+      "title": "Nebraska Governor | Voter Guide: 2026 General Election",
+      "publisher": "Nebraska Examiner",
+      "kind": "news",
+      "date": "2026-10-19",
+      "id": "s15"
+    },
+    {
+      "url": "https://nebraskadoctrine.com/",
+      "title": "The Nebraska Doctrine (full text)",
+      "publisher": "Lindstrom for Nebraska",
+      "kind": "candidate",
+      "date": "2026-10-19",
+      "id": "s16"
     }
   ],
   "researchedAt": "2026-10-19",

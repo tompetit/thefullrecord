@@ -157,7 +157,36 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Make Connecticut more affordable: energy policies that lower utility bills and tax relief.",
+          "sources": [
+            "s13"
+          ],
+          "quote": "Push for energy policies that lower utility bills"
+        },
+        {
+          "text": "Secure the border and reform the immigration system.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "Strengthen border security and restore order."
+        },
+        {
+          "text": "Expand trade education and apprenticeships.",
+          "sources": [
+            "s14"
+          ],
+          "quote": "direct federal funds toward apprenticeships, job training, and technical education that connect students directly with local employers"
+        },
+        {
+          "text": "Keep Social Security and Medicare solvent.",
+          "sources": [
+            "s15"
+          ],
+          "quote": "fix the system so Social Security and Medicare stay solvent and are there for the people who earned them"
+        }
+      ],
       "positions": [
         {
           "issue": "immigration_enforcement",
@@ -171,7 +200,17 @@
       ],
       "record": [],
       "website": "https://www.votegeorgeforcongress.com",
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "And I refuse to bow to extreme green ideology that relies on shame, propaganda, and fear instead of real solutions.",
+          "context": "On his campaign website",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -261,8 +300,29 @@
       "title": "H.R. 4876 - Reproductive Freedom for Veterans Act (119th Congress)",
       "publisher": "Congress.gov",
       "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://votegeorgeforcongress.com/dollars-and-sense/",
+      "title": "Dollars and Sense",
+      "publisher": "George Austin campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://votegeorgeforcongress.com/building-opportunity/",
+      "title": "Supporting the Trades",
+      "publisher": "George Austin campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
+      "url": "https://votegeorgeforcongress.com/",
+      "title": "Why I'm running for Congress",
+      "publisher": "George Austin campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website content, Candidate Connection survey, or independent news coverage of George Austin's platform was found; his entry reflects the limited public record available. Rep. Courtney's federal key votes and FEC finance totals are added separately by script."
+  "researchNotes": "George Austin's campaign website (votegeorgeforcongress.com) was reviewed; no Candidate Connection survey or independent news coverage of his platform was found. Rep. Courtney's federal key votes and FEC finance totals are added separately by script."
 }

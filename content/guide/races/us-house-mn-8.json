@@ -205,9 +205,41 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will fight for universal health care, including Medicare for all or another single-payer system.",
+          "quote": "I will fight for universal health care, whether that's Medicare for all or another single payer system.",
+          "sources": [
+            "s10",
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Our priority should be violent criminals and those who pose a genuine risk to public safety, while respecting due process and using resources where they have the greatest impact.",
+          "context": "On her campaign website's immigration page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "do we need tariffs in certain industries? Absolutely. They're critically important for our steel industry, which is directly tied to our national security.",
+          "context": "In the Oct. 6, 2026 WDIO debate",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from her campaign website priorities page and the Oct. 6, 2026 WDIO debate transcript, in addition to her Ballotpedia survey. No stated position found on abortion, guns, rent, school choice or minimum wage in the pages reviewed.",
+      "website": "https://www.trinaforcongress.com/"
     }
   ],
   "sources": [
@@ -274,6 +306,22 @@
       "publisher": "Office of Rep. Pete Stauber",
       "kind": "candidate",
       "date": "2021-09-24"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.trinaforcongress.com/priorities",
+      "title": "Priorities & Issues",
+      "publisher": "Trina Swanson for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.wdio.com/politics/full-debate-minnesotas-8th-congressional-district/",
+      "title": "Full Debate: Minnesota's 8th Congressional District (transcript, Oct. 6, 2026)",
+      "publisher": "WDIO",
+      "kind": "news",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

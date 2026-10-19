@@ -36,7 +36,9 @@ export const surname = (name) => normName(name).split(" ").pop() ?? "";
  *     (either senator).
  *  3. Any other candidate whose state and exact normalized name equal exactly one official's
  *     (ambiguous matches stay separate) is that official, e.g. a state legislator running for governor.
- *  4. Everyone else is their own person.
+ *  4. Failing that, a short form of the first name ("Alex" for "Alexander") with the same state and
+ *     surname matches when exactly one official fits.
+ *  5. Everyone else is their own person.
  * Returns the official the candidate should merge into, or null.
  */
 export function matchOfficial(cand, idx) {
@@ -48,16 +50,28 @@ export function matchOfficial(cand, idx) {
     }
   }
   const same = idx.byName.get(`${cand.state}|${normName(cand.name)}`) ?? [];
-  return same.length === 1 ? same[0] : null;
+  if (same.length) return same.length === 1 ? same[0] : null;
+  // shortcut: prefix nicknames only ("Alex"/"Alexander"); "Bob"/"Robert" stays separate
+  // only the first name may differ; middle names/initials must match ("John E." ≠ "John")
+  const split = (n) => { const [first = "", ...rest] = normName(n).split(" "); return [first, rest.join(" ")]; };
+  const [f, rest] = split(cand.name);
+  const short = (o) => {
+    const [g, r] = split(o.name);
+    const [a, b] = g.length < f.length ? [g, f] : [f, g];
+    return r === rest && a.length >= 3 && b.startsWith(a);
+  };
+  const near = (idx.bySurname.get(`${cand.state}|${surname(cand.name)}`) ?? []).filter(short);
+  return near.length === 1 ? near[0] : null;
 }
 
 export function buildOfficialIndex(officials) {
-  const idx = { byBioguide: new Map(), bySeat: new Map(), byName: new Map() };
+  const idx = { byBioguide: new Map(), bySeat: new Map(), byName: new Map(), bySurname: new Map() };
   const push = (m, k, o) => m.set(k, [...(m.get(k) ?? []), o]);
   for (const o of officials) {
     if (o.bioguide) idx.byBioguide.set(o.bioguide, o);
     for (const s of o.seats ?? []) push(idx.bySeat, s, o);
     push(idx.byName, `${o.state}|${normName(o.name)}`, o);
+    push(idx.bySurname, `${o.state}|${surname(o.name)}`, o);
   }
   return idx;
 }

@@ -168,11 +168,30 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says Georgia's election system is susceptible to being hacked and should be replaced by paper ballots.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he is strongly against attempts at 15-minute cities and the elimination of cash.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says there are food ingredients the FDA should not have approved.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "John Salvesen completed Ballotpedia's Candidate Connection survey, but his responses did not directly address any of the issues tracked in this guide, and no campaign website was found."
+      "researchNotes": "Priorities from his Ballotpedia Candidate Connection survey. His survey answers do not directly address the tracked issues. The campaign website named in the survey (bongoforcongress.com) now serves unrelated content and was not cited."
     }
   ],
   "sources": [
@@ -195,8 +214,8 @@
       "id": "s3",
       "url": "https://ballotpedia.org/John_Salvesen",
       "title": "John Salvesen",
-      "publisher": "Ballotpedia",
-      "kind": "reference"
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     },
     {
       "id": "s4",

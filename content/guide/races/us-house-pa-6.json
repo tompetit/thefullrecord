@@ -198,20 +198,29 @@
           "sources": [
             "s3"
           ]
-        },
-        {
-          "issue": "climate",
-          "stance": "opposes",
-          "summary": "His campaign site backs an all-of-the-above energy approach centered on natural gas and nuclear alongside renewables, and opposes mandates and replacing reliable sources before alternatives are ready.",
-          "quote": "Energy policy should be guided by what works, not by mandates that ignore real-world consequences.",
-          "sources": [
-            "s10"
-          ]
         }
       ],
       "record": [],
       "website": "https://www.voteyoung.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "I believe law enforcement must be properly funded, well-trained, and equipped with the tools they need to prevent violent crime, respond quickly in emergencies, and protect the people they serve.",
+          "context": "On his campaign website",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Energy policy should be guided by what works, not by mandates that ignore real-world consequences.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -278,8 +287,15 @@
       "title": "American Energy That Lowers Costs and Strengthens the Country",
       "publisher": "Marty Young for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.voteyoung.com/law-and-order",
+      "title": "Law and Order and Public Safety",
+      "publisher": "Marty Young for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Young's positions and biography come from his 2026 Ballotpedia Candidate Connection survey; his campaign website content was not independently reviewed beyond the survey. Federal key votes and FEC totals for Houlahan are added separately by script."
+  "researchNotes": "Young's positions and biography come from his 2026 Ballotpedia Candidate Connection survey; his campaign website content was not independently reviewed beyond the survey. Federal key votes and FEC totals for Houlahan are added separately by script. Campaign website pages (affordability, healthcare, housing, energy, public safety, military) reviewed; public-safety statement added."
 }

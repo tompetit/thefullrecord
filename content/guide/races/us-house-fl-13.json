@@ -128,7 +128,7 @@
       ],
       "priorities": [
         {
-          "text": "Affordability: says she would push to lower housing-insurance and healthcare costs and provide tax relief to middle-class families and small businesses rather than \"the ultra-wealthy and big corporations.\"",
+          "text": "Affordability: says she would crack down on corporations and insurance monopolies driving up costs, expand affordable housing, make healthcare more competitive and transparent, and provide tax relief to middle-class families and small businesses rather than \"the ultra-wealthy and big corporations.\"",
           "sources": [
             "s3"
           ]
@@ -150,15 +150,54 @@
         {
           "issue": "tariffs",
           "stance": "opposes",
-          "summary": "Lists ending what she calls \"illegal tariffs\" among her priorities for reducing costs for families and small businesses.",
+          "summary": "Says on her campaign site that she is running to end the tariffs.",
+          "quote": "I am running to put an end to the tariff taxes raising the cost of groceries, building materials and everyday goods",
           "sources": [
-            "s3"
-          ]
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says she will fight for a tax code that asks the wealthiest to pay more.",
+          "quote": "I will fight for a tax code that asks the wealthiest to pay their fair share",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://www.leelagray.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "We must restore the ACA tax credits Luna allowed to expire, cap out-of-pocket costs for essential medications, protect Medicare's power to negotiate lower prices",
+          "context": "On her campaign website, Cutting Costs Agenda",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "We also must commit to making childcare affordable and homeownership attainable, ensuring the next generation has better opportunities.",
+          "context": "On her campaign website, Growing Economic Opportunities",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "We need to permanently ban offshore drilling and protect all our homes, businesses, and coastal economy.",
+          "context": "On her campaign website",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements are from the issue pages of her campaign website (leelagray.com) and her Ballotpedia Candidate Connection survey. No specific statements on abortion, guns, immigration or policing were found on the site."
     },
     {
       "id": "tony-darrigo",
@@ -174,11 +213,83 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Healthcare: calls it the most important issue facing the district and says he supports expanding coverage, protecting the ACA and de-privatizing hospitals.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Housing: proposes increasing affordable housing supply, tenant safeguards and government-backed mortgages capped at 5%.",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Campaign finance: pledges to refuse dark money and to accept only contributions that can be tracked and traced.",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says on his campaign site that he supports universal healthcare coverage, and in a Tampa Bay 28 questionnaire that he supports expanding coverage and protecting the ACA.",
+          "quote": "Healthcare isn't just a privilege—it's a fundamental right.",
+          "sources": [
+            "s13",
+            "s15"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Lists zoning reforms among his housing proposals.",
+          "quote": "Champion fast-track incentives, zoning reforms, and public-private partnerships to build more affordable homes and apartments",
+          "sources": [
+            "s14"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Lists tenant safeguards against evictions and rent increases among his housing proposals.",
+          "quote": "Advocate for tenant safeguards to prevent unjust evictions and excessive rent hikes, without overburdening responsible landlords.",
+          "sources": [
+            "s14"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Proposes redirecting oil and gas subsidies to renewable energy.",
+          "quote": "Reallocate oil and gas industry subsidies to invest in renewable energy—solar, wind, hydrogen, and beyond.",
+          "sources": [
+            "s14"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No Ballotpedia biography page, campaign website, or completed Candidate Connection survey was found for D'Arrigo in the time available."
+      "researchDepth": "basic",
+      "researchNotes": "From his campaign website (home and Platform pages) and Tampa Bay 28 questionnaire. The site also contains statements about opponents and parties that are not reproduced. No statements found on abortion, policing or school choice.",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "I will fight for a practical, effective resolution to gun violence",
+          "context": "On his campaign website, Platform page",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "website": "https://tonydarrigo.com/"
     }
   ],
   "sources": [
@@ -244,6 +355,48 @@
       "title": "H.R. 7296 - SAVE America Act (119th Congress)",
       "publisher": "Congress.gov",
       "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.leelagray.com/issues/cutting-costs-agenda",
+      "title": "Cutting Costs Agenda",
+      "publisher": "Leela Gray for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.leelagray.com/issues/protecting-our-beaches-land-and-coastal-economy",
+      "title": "Protecting our Beaches, Land, and Coastal Economy",
+      "publisher": "Leela Gray for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.leelagray.com/issues/issue-2",
+      "title": "Growing Economic Opportunities",
+      "publisher": "Leela Gray for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://tonydarrigo.com/",
+      "title": "Tony D'Arrigo for U.S. Congress",
+      "publisher": "Tony D'Arrigo campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://tonydarrigo.com/letsgettowork/",
+      "title": "Tony D'Arrigo's Platform",
+      "publisher": "Tony D'Arrigo campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-us-district-13",
+      "title": "Meet the candidates: Questionnaire for US District 13",
+      "publisher": "Tampa Bay 28 (WFTS)",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

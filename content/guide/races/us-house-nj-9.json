@@ -219,11 +219,30 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Campaign website says she is running to show \"the victims of abortion\" to the American people, as part of what she calls a progressive pro-life movement.",
+          "quote": "I'm running for the U.S. House of Representatives in New Jersey's 9 Congressional District because showing the victims of abortion to the American people is an essential step to building a better and more progressive tomorrow.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Her campaign website says she is running to end abortion.",
+          "quote": "Resist fascism. End abortion.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No detailed campaign website content, Candidate Connection survey response, or public statements specific to this race were found for Terrisa Bukovinac beyond her Ballotpedia listing and ballot line."
+      "researchNotes": "Abortion stance and priority come from her campaign website, which has a single page and no issue pages. No stated position found on the other guide issues; no Candidate Connection survey found."
     }
   ],
   "sources": [
@@ -291,6 +310,13 @@
       "url": "https://rosiepinofornj.com/issues",
       "title": "Issues",
       "publisher": "Pino for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://terrisa2026.com/",
+      "title": "Terrisa for Congress (campaign website)",
+      "publisher": "Terrisa for Congress",
       "kind": "candidate"
     }
   ],

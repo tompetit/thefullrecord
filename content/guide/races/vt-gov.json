@@ -189,21 +189,47 @@
           "stance": "supports",
           "summary": "Proposes a 2% surcharge on personal income over $250,000 and an 8% surcharge over $500,000, a higher tax rate on certain housing she calls extractive (including luxury second homes, commercial vacation rentals and vacant investment properties), and a tax on large tech companies' digital advertising revenue.",
           "sources": [
-            "s12"
-          ]
+            "s12",
+            "s17"
+          ],
+          "quote": "This plan will be funded through our Fair Share Tax Proposal, which asks the wealthiest Vermonters to contribute the equivalent cuts from the Big Beautiful Bill.",
+          "basis": "statements"
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Would use surcharge revenue to fund free primary and preventive care for all Vermonters.",
           "sources": [
-            "s12"
-          ]
+            "s12",
+            "s17",
+            "s18"
+          ],
+          "quote": "Guarantee free primary and preventive healthcare for every Vermonter by eliminating copays, deductibles, and insurance barriers, making primary care the front door to a future universal healthcare system.",
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Her campaign website could not be located; she has held no public office, so no record."
+      "researchNotes": "Positions and statements come from her campaign platform page (janooforvt.com/platform-page) and VTDigger coverage. Her platform lists 'reproductive freedom' only within a list of rights, so no abortion statement is shown. Not found in her own words: rent regulation (news outlets report she would let towns adopt rent control, but no first-person quote was located), guns, minimum wage, immigration enforcement.",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Support locally driven housing solutions by simplifying permitting for permanently affordable housing, adaptive reuse projects, accessory dwelling units, and small-scale infill while preserving strong environmental protections and giving towns greater flexibility to meet local housing needs.",
+          "context": "On her campaign website platform page",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Create childcare and early-learning hubs in underused school space by helping schools partner with local childcare providers.",
+          "context": "On her campaign website platform page, community schools section",
+          "sources": [
+            "s17"
+          ]
+        }
+      ],
+      "website": "https://www.janooforvt.com"
     },
     {
       "id": "june-goodband",
@@ -246,12 +272,32 @@
           "sources": [
             "s16"
           ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign site lists universal health care among her priorities and calls for implementing Vermont's law.",
+          "quote": "Universal Health Care Implement Vermont's law to reduce costs, increase access. and improve outcomes.",
+          "sources": [
+            "s16"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Positions come from her campaign website only; no news interviews were found.",
-      "website": "https://june4govvt.org"
+      "researchNotes": "Positions and statements come from her campaign website only (june4govvt.org); no news interviews were found. Her 'living wage' line is not shown as a minimum-wage statement. Not found: abortion, guns, immigration, school choice.",
+      "website": "https://june4govvt.org",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Make it easier to build modest housing and more difficult to build luxury housing.",
+          "context": "On her campaign website",
+          "sources": [
+            "s16"
+          ]
+        }
+      ]
     },
     {
       "id": "brian-judd",
@@ -267,11 +313,19 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says his first executive order would seek the \"complete and total repeal\" of Act 181, Vermont's 2024 land-use and housing law, per a Vermont Daily Chronicle report on his campaign statement.",
+          "quote": "complete and total repeal",
+          "sources": [
+            "s21"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or public statements were found."
+      "researchNotes": "No campaign website found. The only account of his platform is a Vermont Daily Chronicle report (Aug. 24, 2026) summarizing a campaign statement; it contains one short direct quote and no stated position on the guide's issues, so no positions or statements were added. The report's paraphrased list of other priorities (taxes, psychiatric hospitals, audits) is omitted because no quote from him accompanies it."
     },
     {
       "id": "dean-roy",
@@ -288,12 +342,110 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "No new restrictions on personal freedom: Roy promises no new restrictions on any freedoms.",
+          "quote": "Roy promises no new restrictions on any freedoms.",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Public option for health coverage, with an eventual move to universal healthcare.",
+          "quote": "Dean supports an eventual move to universal healthcare.",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Affordable housing: build homes for under $150,000.",
+          "quote": "Roy is committed to building affordable units, with the aim being to build houses for under 150k",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Statewide ban on Flock cameras and protecting the privacy of Vermonters.",
+          "quote": "Dean supports a statewide ban on Flock cameras, and will make protecting privacy of all Vermonters a very high priority.",
+          "sources": [
+            "s19"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign platform page says the right to abortion will be protected.",
+          "quote": "Digital freedoms, firearm rights, LGBT+ rights, the rights of minorities, the right to abortion, and the right to rural traditions will all be protected under Roy's administration.",
+          "sources": [
+            "s19"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign platform page says he supports a public option and an eventual move to universal health care.",
+          "quote": "Roy supports a public option for those earning less than 100k per year, which could be funded by increased taxes on Vermonts wealthiest residents. Dean supports an eventual move to universal healthcare.",
+          "sources": [
+            "s19"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign platform page says he supports a wealth tax and a cap on net worth, and proposes a 2% increase on large corporations.",
+          "quote": "Dean supports a wealth tax and capping networth to 1 billion dollars in Vermont to make sure that the income gap can be significantly reduced",
+          "sources": [
+            "s19"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Campaign platform page says he supports repealing Act 250, which he describes as restricting housing permitting.",
+          "quote": "Roy supports scraping act 250, the act from the 70s which restricts housing permitting.",
+          "sources": [
+            "s19"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign home page says he supports a gradually increased minimum wage.",
+          "quote": "Dean supports a public option, and later universal healthcare, along with worker rights and gradually increased minimum wage.",
+          "sources": [
+            "s20"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "The Secretary of State's list shows a campaign website (deanroyforgovernor.my.canva.site), but it displayed no readable policy text when checked; basic facts come from the Secretary of State's candidate list and AP coverage.",
-      "website": "https://deanroyforgovernor.my.canva.site"
+      "researchDepth": "basic",
+      "researchNotes": "Positions, statements and priorities come from his campaign website (home and platform pages, which were readable when checked in October 2026). Not found: climate, school choice, police funding, tariffs. Guns and immigration-enforcement text is shown as statements because it does not squarely address stricter gun laws or deportations.",
+      "website": "https://deanroyforgovernor.my.canva.site",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Roy promises no new restrictions on any freedoms. Digital freedoms, firearm rights, LGBT+ rights, the rights of minorities, the right to abortion, and the right to rural traditions will all be protected under Roy's administration.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Dean also promises protection from the increasing authoritarian federal government, and from the now highly active Immigration and Customs Enforcement.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s19"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -400,6 +552,46 @@
       "publisher": "Goodband campaign",
       "kind": "candidate",
       "date": "2026-10-19"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.janooforvt.com/platform-page/",
+      "title": "Platform",
+      "publisher": "Amanda Janoo for Governor campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s18",
+      "url": "https://vtdigger.org/2026/10/08/universal-primary-care-is-at-the-center-of-the-race-for-governor-how-would-it-work/",
+      "title": "Universal primary care is at the center of the race for governor. How would it work?",
+      "publisher": "VTDigger",
+      "kind": "news",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "s19",
+      "url": "https://deanroyforgovernor.my.canva.site/page-2",
+      "title": "The Platform",
+      "publisher": "Dean Roy for Governor campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s20",
+      "url": "https://deanroyforgovernor.my.canva.site",
+      "title": "Dean Roy for Governor",
+      "publisher": "Dean Roy for Governor campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s21",
+      "url": "https://vermontdailychronicle.com/barre-independent-running-for-governor/",
+      "title": "Barre independent running for governor",
+      "publisher": "Vermont Daily Chronicle",
+      "kind": "news",
+      "date": "2026-08-24"
     }
   ],
   "researchNotes": "Slate matches the Vermont Secretary of State's 2026 general-election qualified-candidate list (Scott R; Janoo DEM/PROG; Goodband Peace and Justice; Roy Freedom and Unity; Judd Independent). Write-ins are noted but not profiled. Running mates do not apply (Vermont elects the governor separately). Ballotpedia was blocked here, so minor-candidate summaries rely on Politics1 and AP coverage."

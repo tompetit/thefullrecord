@@ -45,7 +45,7 @@ export function SiteHeader() {
   const repsHref = address ? `/representatives?address=${encodeURIComponent(address)}` : "/representatives";
   const items: Array<[Section, string, string]> = [
     ["reps", repsHref, "My representatives"],
-    ["votes", "/votes", "Contested votes"],
+    ["votes", "/votes", "Explore the votes"],
     ["people", "/people", "People"],
     ["guide", "/guide", "Voter guide"],
     ["data", "/coverage", "Our data"],

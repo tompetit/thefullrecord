@@ -237,17 +237,55 @@
       ],
       "positions": [
         {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says he supports the Second Amendment.",
-          "quote": "I believe in the “Right to Life”, and support the second amendment.",
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Lists requiring congressional approval before war as a platform item.",
+          "quote": "No wars without congress giving approval",
           "sources": [
-            "s4"
-          ]
+            "k1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists universal health care as a platform item.",
+          "quote": "The richest, most blessed country in history can afford to supply the people with health care.",
+          "sources": [
+            "k1"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "We must absolutely fund Social Security and those that have received all of the breaks must help paying for it.",
+          "context": "On his campaign website, on funding Social Security",
+          "sources": [
+            "k1"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "I support the second amendment.",
+          "context": "On his campaign website's platform list",
+          "sources": [
+            "k1"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "quote": "I believe in the “Right to Life”",
+          "context": "On his campaign website's platform list",
+          "sources": [
+            "k1"
+          ]
+        }
+      ],
+      "website": "https://www.rodneykingforcongress.com/"
     },
     {
       "id": "donnie-ownby",
@@ -391,8 +429,16 @@
       "title": "Health Care",
       "publisher": "Office of Rep. Chuck Fleischmann",
       "kind": "official"
+    },
+    {
+      "id": "k1",
+      "url": "https://www.rodneykingforcongress.com/",
+      "title": "Rodney Joe King for Congress",
+      "publisher": "Rodney Joe King campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Chuck Fleischmann did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. Dean Arnold, Jean Howard-Hill, and Edward Roland are independent candidates with no discoverable campaign platform for 2026 beyond appearing on the ballot list."
+  "researchNotes": "Chuck Fleischmann did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. Dean Arnold, Jean Howard-Hill, and Edward Roland are independent candidates with no discoverable campaign platform for 2026 beyond appearing on the ballot list. Rodney King was researched from his campaign website (his earlier 'opposes' gun-law entry was replaced with a statement, since support for the Second Amendment does not establish a stance on stricter gun laws). No campaign pages, questionnaires or coverage were found for Donnie Ownby, Dean Arnold, Jean Howard-Hill or Edward Roland beyond ballot listings; Jean Howard-Hill's campaign domain did not resolve."
 }

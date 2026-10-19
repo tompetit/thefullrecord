@@ -97,7 +97,26 @@
       ],
       "record": [],
       "website": "https://vivekforohio.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "Phase out the state income tax—starting with eliminating capital gains taxes—so every Ohioan keeps more of what they earn.",
+          "context": "On his campaign \"Plan\" page",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Expand natural gas and deploy innovative energy technologies to strengthen Ohio’s energy supply and reduce electric bills for every family.",
+          "context": "On his campaign \"Plan\" page",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
+      "researchNotes": "Plan page read 2026-10-19. No usable first-person statements found on abortion or guns (only secondary summaries). His plan-page line on 'backing the blue' by empowering police to make arrests is not about police funding or staffing, so it was not recorded."
     },
     {
       "id": "amy-acton",
@@ -153,17 +172,50 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
+          "issue": "abortion",
           "stance": "supports",
-          "summary": "Her affordability plan would cut red tape to help Ohioans enroll in and stay on Medicaid, and would direct Ohio to join cities that have relieved residents' medical debt.",
+          "summary": "Campaign issue page says she would protect access to abortion care as governor.",
+          "quote": "I will protect reproductive freedom so that every woman can access safe, legal abortion care, contraception, fertility treatments, and miscarriage care.",
           "sources": [
-            "s5"
-          ]
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign issue page calls for reforming the state voucher system and says public money should go to public schools.",
+          "quote": "Public money should be for public schools.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Campaign issue page says she would fully fund local law enforcement.",
+          "quote": "fully fund our local law enforcement",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://actonforgovernor.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "I'll lower energy bills for Ohioans by enhancing production and incorporating the lowest-cost and cleanest sources of energy.",
+          "context": "On her campaign issue page \"Lowering Energy Costs\"",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign issue pages read 2026-10-19. No statements found on guns, immigration or minimum wage. A health-coverage position that rested only on a news report's paraphrase of her affordability plan (Medicaid enrollment, medical debt) was removed."
     },
     {
       "id": "don-kissick",
@@ -185,7 +237,8 @@
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Searched 2026-10-19; news coverage of his platform (e.g. certificate-of-need repeal, data-center moratorium) could not be loaded, and no campaign site was found, so nothing was added."
     }
   ],
   "sources": [
@@ -248,6 +301,41 @@
       "publisher": "Hamilton County Board of Elections",
       "kind": "official",
       "date": "2026-09-08"
+    },
+    {
+      "id": "s9",
+      "url": "https://actonforgovernor.com/issue/ensuring-reproductive-freedom/",
+      "title": "Ensuring Reproductive Freedom",
+      "publisher": "Acton for Governor campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://actonforgovernor.com/issue/education/",
+      "title": "Improving Ohio’s Education",
+      "publisher": "Acton for Governor campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://actonforgovernor.com/issue/building-safer-communities/",
+      "title": "Building Safer Communities",
+      "publisher": "Acton for Governor campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://actonforgovernor.com/issue/lowering-energy-costs/",
+      "title": "Lowering Energy Costs",
+      "publisher": "Acton for Governor campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://vivekforohio.com/the-plan/",
+      "title": "The Plan",
+      "publisher": "Vivek for Ohio campaign website",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-10-19",

@@ -309,11 +309,51 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "No more wars and a policy of non-intervention.",
+          "quote": "No more wars. Unless the United States is attacked, we have no business using our military in foreign countries.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Ending the Federal Reserve.",
+          "quote": "End the fed. Dismantle the central banks.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Deregulation.",
+          "quote": "Deregulate. Deregulate. Deregulate.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or other detailed public statements were found within the research budget for this race."
+      "researchDepth": "basic",
+      "researchNotes": "From her campaign website (undated; may predate 2026). Her 2024 Ballotpedia survey was read but not cited; she has not completed the 2026 survey. No stance recorded on other guide issues.",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "They send out sons and daughters to fight and die in foreign countries without declaring war so the military industrial complex can turn a profit.",
+          "context": "On her campaign website (undated; the page cites a $34 trillion national debt, so it may date from her 2024 campaign)",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "The VA system is a failed system. Privatize the VA, allow the free market to give veterans the best access to care when they need it and when they need it quickly.",
+          "context": "On her campaign website (undated)",
+          "sources": [
+            "s7"
+          ]
+        }
+      ]
     },
     {
       "id": "marisa-simonetti",
@@ -356,19 +396,10 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "housing_supply",
-          "stance": "supports",
-          "summary": "Says she is committed to tackling Minnesota's housing affordability crisis, drawing on a background in real estate.",
-          "sources": [
-            "s5"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "Based only on her Ballotpedia Candidate Connection survey responses; no independent campaign website was found."
+      "researchNotes": "Based only on her Ballotpedia Candidate Connection survey (2025). Removed a housing_supply position: her survey speaks of 'housing affordability' and does not address zoning. Her campaign site (marisasimonetti.com) failed to load (SSL error). No statements found that squarely address a guide issue."
     }
   ],
   "sources": [
@@ -419,6 +450,13 @@
       "publisher": "Wikipedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://whiting4senate.us/",
+      "title": "Rebecca Whiting for U.S. Senate",
+      "publisher": "Whiting for Senate campaign site",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",

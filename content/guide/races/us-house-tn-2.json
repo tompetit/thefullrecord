@@ -223,7 +223,34 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "the few people who have the vast majority of the money and wealth in our country have been given one of the biggest cut in taxes ever",
+          "context": "On his campaign website",
+          "sources": [
+            "f1"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "every citizen deserves to have the best possible healthcare",
+          "context": "On his campaign website",
+          "sources": [
+            "f1"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Protecting Tennessee's natural beauty while supporting an all-of-the-above energy strategy that keeps costs low.",
+          "context": "On his campaign website's platform section",
+          "sources": [
+            "f1"
+          ]
+        }
+      ],
+      "website": "https://fineforcongresstn.com/"
     },
     {
       "id": "adam-heimerman",
@@ -254,9 +281,39 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Lists raising the federal minimum wage as a commitment on his campaign website.",
+          "quote": "Raise the federal minimum wage to a true living wage",
+          "sources": [
+            "h1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Sovereign nations must have a secure and established border.",
+          "context": "On his campaign website",
+          "sources": [
+            "h1"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Close tax loopholes exploited by billionaires and multinationals",
+          "context": "Listed among his commitments on his campaign website",
+          "sources": [
+            "h1"
+          ]
+        }
+      ],
+      "website": "https://www.vote4heimerman.com/"
     }
   ],
   "sources": [
@@ -324,8 +381,24 @@
       "title": "Border Security",
       "publisher": "Office of Rep. Tim Burchett",
       "kind": "official"
+    },
+    {
+      "id": "f1",
+      "url": "https://fineforcongresstn.com/",
+      "title": "Bruce Fine for Congress",
+      "publisher": "Bruce Fine campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "h1",
+      "url": "https://www.vote4heimerman.com/platform",
+      "title": "Adam's Platform",
+      "publisher": "Heimerman for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Tim Burchett did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Tim Burchett did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. Bruce Fine and Adam Heimerman were researched from their own campaign websites (Ballotpedia returned a bot challenge); Fine's site states no direct positions on the guide's issues, so his entries are statements only. No questionnaire or debate coverage was found for either."
 }

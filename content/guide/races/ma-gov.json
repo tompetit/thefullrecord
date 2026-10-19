@@ -268,10 +268,90 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Housing for All, universal health care and universal child care.",
+          "sources": [
+            "s17"
+          ],
+          "quote": "Housing for All"
+        },
+        {
+          "text": "Equitable funding for education.",
+          "sources": [
+            "s17"
+          ],
+          "quote": "Equitable Funding for Education"
+        },
+        {
+          "text": "Ending state cooperation with ICE and protecting immigrant families.",
+          "sources": [
+            "s17"
+          ],
+          "quote": "End State Cooperation with ICE & Protect Immigrant Families"
+        }
+      ],
+      "positions": [
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Her platform lists affordable housing and rent stabilization under what Massachusetts can afford.",
+          "quote": "Affordable Housing & Rent Stabilization",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her platform lists Medicare for All in Massachusetts.",
+          "quote": "Medicare for All in Massachusetts",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Her platform lists universal child care.",
+          "quote": "Universal Childcare",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her platform calls for ending state cooperation with ICE and protecting immigrant families.",
+          "quote": "End State Cooperation with ICE & Protect Immigrant Families",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her platform lists a rapid transition to 100% clean energy.",
+          "quote": "Rapid, Just Transition to 100% Clean Energy",
+          "sources": [
+            "s16"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "minimum_wage",
+          "quote": "$25 Living Wage",
+          "context": "Listed on her platform page under 'Massachusetts Can Afford'",
+          "sources": [
+            "s16"
+          ]
+        }
+      ],
+      "website": "https://www.ajforma.com/",
+      "researchNotes": "Positions and priorities come from her campaign website's platform and home pages (list-style headings, not full policy papers). The platform lists a '$25 Living Wage' without saying whether that is a minimum wage, so it is shown as a statement. No statements on abortion, guns or taxes were found."
     }
   ],
   "sources": [
@@ -391,8 +471,24 @@
       "publisher": "Boston.com",
       "kind": "news",
       "date": "2026-10-18"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.ajforma.com/platform",
+      "title": "Andrea James for Governor - platform",
+      "publisher": "Andrea James for Governor (campaign website)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.ajforma.com/",
+      "title": "Andrea James for Massachusetts Governor",
+      "publisher": "Andrea James for Governor (campaign website)",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Running mates are noted in each candidate's ballotNote rather than as separate entries. Ballotpedia was not reachable (it blocks automated requests), so the slate was confirmed from Wikipedia and a WHDH report of October 18 (the Secretary of the Commonwealth's candidate list, the WhereDoIVoteMA ballot pages and the elections-division pages return an Incapsula block from this machine, and the ElectionStats site only has results through the primary), The Green Papers (all three tickets, no others) that names the three tickets on the printed ballot (Healey/Driscoll, Minogue/Oliver, James/Kittredge). Gubernatorial candidates with no public footprint or who did not qualify are not included. Healey's record lists three signed bills; the Chapter 135 and 150 pages are the official session laws, and the gun-law description comes from AP coverage. No record items are listed for Minogue, described by the Boston.com primary report as a political newcomer. Andrea James is a minimal entry; no campaign-site text was fetched directly. Oliver's arrest and charges come from The New Bedford Light and Boston.com, both fetched directly."
+  "researchNotes": "Running mates are noted in each candidate's ballotNote rather than as separate entries. Ballotpedia was not reachable (it blocks automated requests), so the slate was confirmed from Wikipedia and a WHDH report of October 18 (the Secretary of the Commonwealth's candidate list, the WhereDoIVoteMA ballot pages and the elections-division pages return an Incapsula block from this machine, and the ElectionStats site only has results through the primary), The Green Papers (all three tickets, no others) that names the three tickets on the printed ballot (Healey/Driscoll, Minogue/Oliver, James/Kittredge). Gubernatorial candidates with no public footprint or who did not qualify are not included. Healey's record lists three signed bills; the Chapter 135 and 150 pages are the official session laws, and the gun-law description comes from AP coverage. No record items are listed for Minogue, described by the Boston.com primary report as a political newcomer. Andrea James's positions and priorities come from her campaign website's home and platform pages, which list headings rather than full policy papers. Oliver's arrest and charges come from The New Bedford Light and Boston.com, both fetched directly."
 }

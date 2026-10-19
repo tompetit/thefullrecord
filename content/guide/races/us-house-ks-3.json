@@ -161,7 +161,7 @@
       ],
       "website": "https://davids.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "D000628"
+      "bioguideId": "D000629"
     },
     {
       "id": "eric-jenkins",
@@ -220,13 +220,33 @@
           "summary": "Campaign website lists opposition to the Green New Deal and to energy policies that raise household costs, while supporting an energy mix of oil, gas, nuclear, and renewables.",
           "quote": "Oppose the Green New Deal and energy policies that raise household costs",
           "sources": [
-            "s8"
+            "s11"
           ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign website lists a platform plank to withhold federal funds from cities that obstruct federal immigration enforcement.",
+          "quote": "Defund cities that obstruct federal immigration enforcement",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Jenkins has not completed Ballotpedia's Candidate Connection survey; positions drawn from a Johnson County Post news report citing his campaign announcement and website."
+      "researchNotes": "Positions and statements drawn from his campaign website (ericjenkinsforkansas.com) and a Johnson County Post report; Jenkins has not completed Ballotpedia's Candidate Connection survey.",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Defend Second Amendment rights against any unconstitutional restrictions",
+          "context": "On his campaign website",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     },
     {
       "id": "steve-hohe",
@@ -256,11 +276,45 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists as his platform the national debt, reckless spending, and what he calls the federal government's 'Iron Triangle' of bureaucrats, politicians and lobbyists.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Wants to replace the federal income tax with a flat percentage not to exceed 10% on the employed and a percentage of corporate profits.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Campaign site proposes education accounts controlled by parents that follow the child.",
+          "quote": "The Educational Account should follow the Child with the Parent",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website or public statements on policy issues found; background is limited to Ballotpedia's biographical summary. He has not completed the Candidate Connection survey."
+      "researchDepth": "basic",
+      "researchNotes": "Positions drawn from his campaign website (stevehoheforkansas.wordpress.com); the stevehoheforkansas.com domain only frames that page, and KCUR reported in October 2026 that his site was down and that he declined to be interviewed. He has not completed the Candidate Connection survey.",
+      "statements": [
+        {
+          "issue": "tariffs",
+          "quote": "Abolishing the present Income Tax System replacing it with a Flat Tax and creating a Staged Tariff System on Imports",
+          "context": "On his campaign website",
+          "sources": [
+            "s12"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -321,13 +375,6 @@
       "date": "2026-09-25"
     },
     {
-      "id": "s8",
-      "url": "https://ballotpedia.org/Eric_Jenkins",
-      "title": "Eric Jenkins (campaign website text, July 29, 2026)",
-      "publisher": "Ballotpedia (quoting campaign website)",
-      "kind": "candidate"
-    },
-    {
       "id": "s9",
       "url": "https://davids.house.gov/issues/jobs-economy-small-businesses",
       "title": "Jobs, Economy & Small Businesses",
@@ -340,6 +387,22 @@
       "title": "Who's running for Kansas' 3rd Congressional District? Meet the candidates",
       "publisher": "Johnson County Post",
       "kind": "news"
+    },
+    {
+      "id": "s11",
+      "url": "https://ericjenkinsforkansas.com/",
+      "title": "Eric Jenkins for Congress",
+      "publisher": "Eric Jenkins for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://stevehoheforkansas.wordpress.com",
+      "title": "Steve Hohe for Kansas",
+      "publisher": "Steve Hohe for Kansas",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",
