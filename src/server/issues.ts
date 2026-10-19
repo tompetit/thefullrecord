@@ -1,6 +1,7 @@
 import { brokeWithParty, contention } from "@/lib/divisive";
 import type { IssueRecord } from "@/lib/issues";
 import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, rollCallTopics } from "./live/snapshot";
+import { rollCallHref } from "./rollcall";
 import type { Official } from "./types";
 
 let allRecords: IssueRecord[] | null = null;
@@ -13,6 +14,7 @@ function baseRecords(): IssueRecord[] {
     const { D, R } = split.byParty;
     return {
       id: `${snapshot.chamber}:${roll.id}`,
+      href: rollCallHref(snapshot.file!, roll.id),
       bill: roll.bill,
       title: roll.title,
       summary: roll.summary,

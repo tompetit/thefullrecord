@@ -35,6 +35,8 @@ export function classifyIssues(title: string, summary = "", question = ""): stri
 
 export interface IssueRecord {
   id: string;
+  /** Permalink page for this roll call */
+  href: string;
   bill: string;
   title: string;
   summary?: string;
