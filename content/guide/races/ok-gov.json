@@ -287,10 +287,87 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Let the People Decide; Let the People See; Ask the People Before Major Decisions; Protect the Constitutional Rights of Every Oklahoman (his four campaign promises).",
+          "sources": [
+            "s26"
+          ]
+        },
+        {
+          "text": "Affordable healthcare options, including a public option open to every Oklahoman.",
+          "sources": [
+            "s21"
+          ]
+        },
+        {
+          "text": "A tax reform plan with a goal of eliminating personal income tax on household income up to three times the state median.",
+          "sources": [
+            "s24"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Proposes letting every Oklahoma resident buy into a SoonerCare-style public plan, with income-based premiums.",
+          "quote": "every Oklahoma resident would have the opportunity to purchase a SoonerCare-style health plan.",
+          "sources": [
+            "s21"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Says education funding should follow the student, with accountability for public funds.",
+          "quote": "Education funding should follow the student while maintaining transparency and accountability for taxpayer dollars.",
+          "sources": [
+            "s22"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Supports border security and consistent enforcement, with a voluntary registration process and enforcement focused first on public-safety risks.",
+          "quote": "A nation has both the right and the responsibility to secure its borders, enforce its laws fairly, and treat every person with dignity.",
+          "sources": [
+            "s23"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "Higher-income taxpayers would have opportunities to reduce remaining Oklahoma income-tax liability through qualifying Oklahoma spending and investment.",
+          "context": "In his 'People's Tax Reform Plan'",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Our answer is an Oklahoma all-of-the-above energy strategy.",
+          "context": "In his 'People's Oklahoma Energy Partnership' plan",
+          "sources": [
+            "s25"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "families could qualify for performance-based childcare assistance or educational stipends.",
+          "context": "In his education plan",
+          "sources": [
+            "s22"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from the plan pages of his campaign site (votewethepeople.com), which has plans on healthcare, immigration, education, taxes and energy. No abortion, gun-law or minimum-wage position found."
     },
     {
       "id": "orlando-lynn-bush",
@@ -311,7 +388,8 @@
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website, questionnaire answers or public statements on issues were found for Bush; he remains a minimal entry."
     },
     {
       "id": "jerry-griffin",
@@ -332,7 +410,8 @@
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "His campaign website (governorgriffin2027.com) could not be loaded (TLS error), and no issue statements by Griffin for the governor's race were found in news coverage; 2025 statements about his state superintendent run do not address the guide's issues. He remains a minimal entry."
     }
   ],
   "sources": [
@@ -447,8 +526,56 @@
       "publisher": "Oklahoma State Election Board",
       "kind": "official",
       "date": "2026-04-10"
+    },
+    {
+      "id": "s21",
+      "url": "https://votewethepeople.com/the-farmer-servant-healthcare-plan/",
+      "title": "The Farmer Servant Healthcare Plan",
+      "publisher": "Robert Brooks for Governor (Vote We the People)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s22",
+      "url": "https://votewethepeople.com/the-farmer-servant-education-plan/",
+      "title": "The Farmer Servant Education Plan",
+      "publisher": "Robert Brooks for Governor (Vote We the People)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s23",
+      "url": "https://votewethepeople.com/the-farmer-servant-immigration-plan/",
+      "title": "The Farmer Servant Immigration Plan",
+      "publisher": "Robert Brooks for Governor (Vote We the People)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s24",
+      "url": "https://votewethepeople.com/the-peoples-tax-reform-plan/",
+      "title": "The People's Tax Reform Plan",
+      "publisher": "Robert Brooks for Governor (Vote We the People)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s25",
+      "url": "https://votewethepeople.com/the-peoples-oklahoma-energy-partnership/",
+      "title": "The People's Oklahoma Energy Partnership",
+      "publisher": "Robert Brooks for Governor (Vote We the People)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s26",
+      "url": "https://votewethepeople.com/about-robert-brooks/",
+      "title": "Meet Robert Brooks",
+      "publisher": "Robert Brooks for Governor (Vote We the People)",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "The slate was checked against the Oklahoma State Election Board's 2026 Candidate List Book (candidate filing, official): governor filers were nine Republicans, three Democrats (Munson, Arya, Connie Johnson) and three independents (Griffin, Brooks, Bush). Primary and runoff results come from Wikipedia's tabulation of the Election Board's results; News 9 (October 6) lists the general-election field as Mazzei (R), Munson (D) and the three independents. Oklahoma elects the lieutenant governor separately, so there are no running mates. Ballotpedia blocked automated access. Mazzei's campaign website could not be loaded; his priorities and abortion position come from News 9's candidate guide, and the bill records from the Oklahoma Legislature's bill pages (2006 session). Munson's record is House third-reading roll calls checked against the official oklegislature.gov vote pages; her 2025 votes are not in the snapshot. The three independents have minimal public footprint; their occupations (farmer, former Tulsa school board member) come from Wikipedia. Munson's tax position is marked mixed because she opposes broad income tax cuts but proposes no tax increases."
+  "researchNotes": "The slate was checked against the Oklahoma State Election Board's 2026 Candidate List Book (candidate filing, official): governor filers were nine Republicans, three Democrats (Munson, Arya, Connie Johnson) and three independents (Griffin, Brooks, Bush). Primary and runoff results come from Wikipedia's tabulation of the Election Board's results; News 9 (October 6) lists the general-election field as Mazzei (R), Munson (D) and the three independents. Oklahoma elects the lieutenant governor separately, so there are no running mates. Ballotpedia blocked automated access. Mazzei's campaign website could not be loaded; his priorities and abortion position come from News 9's candidate guide, and the bill records from the Oklahoma Legislature's bill pages (2006 session). Munson's record is House third-reading roll calls checked against the official oklegislature.gov vote pages; her 2025 votes are not in the snapshot. The three independents have minimal public footprint; their occupations (farmer, former Tulsa school board member) come from Wikipedia. Munson's tax position is marked mixed because she opposes broad income tax cuts but proposes no tax increases. Update: Brooks's positions come from the plan pages of his campaign site (votewethepeople.com); his entry is now 'basic'. Bush and Griffin have no public issue statements found."
 }

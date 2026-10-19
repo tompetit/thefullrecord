@@ -294,11 +294,53 @@
           "sources": [
             "s17"
           ]
+        },
+        {
+          "text": "Corruption, which he calls the single most important issue facing the state.",
+          "sources": [
+            "s30"
+          ]
+        },
+        {
+          "text": "Affordability, including a surcharge on large employers paying below a living wage and a universal public health option.",
+          "sources": [
+            "s30"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Proposes opening the Oregon Health Plan to all Oregon residents regardless of income.",
+          "quote": "Expand eligibility for the Oregon Health Plan to all Oregon residents, regardless of income, employment status, or preexisting conditions.",
+          "sources": [
+            "s30"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "minimum_wage",
+          "quote": "A single adult working full time in Oregon needs $26.46 an hour to cover basic needs without public assistance, and Oregon's minimum wage falls short of that figure by as much as $12 an hour in nonurban counties.",
+          "context": "On his campaign website, introducing a proposed surcharge on employers with 50 or more employees",
+          "sources": [
+            "s30"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "It's a war. It's unconstitutional. It hasn't been sanctioned by Congress.",
+          "context": "In a 'Meet the Candidate' interview with KEPW 97.3, Aug. 2026, about the current U.S. war",
+          "sources": [
+            "s31"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from his campaign website (brett-smith.us) and a KEPW 97.3 'Meet the Candidate' interview. No abortion, gun, immigration or other positions found; in the interview he calls these 'real issues' without stating positions."
     }
   ],
   "sources": [
@@ -418,6 +460,22 @@
       "publisher": "OPB",
       "kind": "news",
       "date": "2026-07-23"
+    },
+    {
+      "id": "s30",
+      "url": "https://brett-smith.us/",
+      "title": "Brett For Oregon (the Oregon Plan)",
+      "publisher": "Brett Smith for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s31",
+      "url": "https://kepw-wholecommunity.news/2026/08/07/meet-the-candidate-brett-smith-for-oregon-governor/",
+      "title": "Meet the candidate: Brett Smith for Oregon governor",
+      "publisher": "KEPW 97.3 Whole Community News",
+      "kind": "news",
+      "date": "2026-08-07"
     }
   ],
   "researchedAt": "2026-10-19",

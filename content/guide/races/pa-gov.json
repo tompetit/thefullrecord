@@ -251,10 +251,76 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Veto all tax increases and phase out the personal income tax, per his 12-step platform.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "End the state monopoly on education and abolish property taxes.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Eliminate parole for violent criminals and pardon all non-violent drug offenders.",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Proposes giving every student a state-funded education savings account usable at any school.",
+          "quote": "Use current state funding to provide every student with an $11,500 Education Savings Account and let parents choose any school for their child.",
+          "sources": [
+            "s16"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says passing more gun control laws would not help.",
+          "quote": "Passing more gun control laws would not help.",
+          "sources": [
+            "s17"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "Defuse the abortion issue by allowing for Pre-Natal Adoption.",
+          "context": "On his campaign website",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "The fracking boom is good for Pennsylvania, but the property rights of the surrounding communities must be protected.",
+          "context": "On his campaign website",
+          "sources": [
+            "s21"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "I promise to veto every single tax increase.",
+          "context": "On his campaign website, taxes page (a general pledge, not specific to high earners or corporations)",
+          "sources": [
+            "s18"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -369,8 +435,56 @@
       "publisher": "Adams County Board of Elections",
       "kind": "official",
       "date": "2026-10-05"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.kenk4pa.com/issues/",
+      "title": "On The Issues: Gubernatorial 12-Step Program to Reform Pennsylvania",
+      "publisher": "Ken Krawchuk for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.kenk4pa.com/issues/education/",
+      "title": "Education",
+      "publisher": "Ken Krawchuk for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.kenk4pa.com/issues/gun-control/",
+      "title": "Gun Control",
+      "publisher": "Ken Krawchuk for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s18",
+      "url": "https://www.kenk4pa.com/issues/taxes/",
+      "title": "Taxes",
+      "publisher": "Ken Krawchuk for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s19",
+      "url": "https://www.kenk4pa.com/issues/abortion/",
+      "title": "Abortion",
+      "publisher": "Ken Krawchuk for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s21",
+      "url": "https://www.kenk4pa.com/issues/environment/",
+      "title": "Environment",
+      "publisher": "Ken Krawchuk for Governor",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Ballotpedia blocked automated access during research. The Pennsylvania Department of State's certified candidate list could not be retrieved (Incapsula block, not bypassed). The slate is confirmed by the official general-election ballot published by Adams County's Board of Elections (Shapiro/Davis, Garrity/Richey, Krawchuk/Thomas; no Green ticket) and by independent reporting: Spotlight PA (Shapiro, Garrity and Krawchuk are the candidates on the ballot; Krawchuk is the only third-party candidate), LNP (Commonwealth Court removal of the Green ticket) and the Green Papers, with Wikipedia for primary results. Running mates Austin Davis (D), Jason Richey (R) and John Thomas (L) are elected jointly and are listed in ballotNote, not as separate entries. Only Shapiro and Garrity are 'basic'; Krawchuk is minimal. Shapiro's pa.gov bill-signing releases for individual bills were not used. Garrity's Treasury figures are Treasury's own reports for calendar 2025 and carry no specific date."
+  "researchNotes": "Ballotpedia blocked automated access during research. The Pennsylvania Department of State's certified candidate list could not be retrieved (Incapsula block, not bypassed). The slate is confirmed by the official general-election ballot published by Adams County's Board of Elections (Shapiro/Davis, Garrity/Richey, Krawchuk/Thomas; no Green ticket) and by independent reporting: Spotlight PA (Shapiro, Garrity and Krawchuk are the candidates on the ballot; Krawchuk is the only third-party candidate), LNP (Commonwealth Court removal of the Green ticket) and the Green Papers, with Wikipedia for primary results. Running mates Austin Davis (D), Jason Richey (R) and John Thomas (L) are elected jointly and are listed in ballotNote, not as separate entries. Shapiro, Garrity and Krawchuk are 'basic'. Shapiro's pa.gov bill-signing releases for individual bills were not used. Garrity's Treasury figures are Treasury's own reports for calendar 2025 and carry no specific date. Krawchuk is now 'basic': positions and statements come from the issue pages of his campaign website (kenk4pa.com); no minimum-wage, immigration or other positions were found there."
 }
