@@ -82,6 +82,89 @@
           "s5"
         ]
       }
+    ],
+    "fullTextUrl": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sjr10/05_EN/pdf/",
+    "currentLaw": {
+      "text": "Ohio already requires a photo ID to vote in person (in effect since 2023): an unexpired Ohio driver license or state ID, U.S. passport or passport card, or a military, Ohio National Guard or Department of Veterans Affairs ID. Voters casting mail ballots are exempt from the photo ID requirement and may instead provide an alternative such as the last four digits of their Social Security number. Issue 3 would put the in-person requirement in the constitution, so changing it would require another statewide vote.",
+      "sources": [
+        "s4",
+        "s6",
+        "s8",
+        "s11"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Ohio Republican Party; party chairman Alex Triantafilou spoke at a pro-Issue 3 event with gubernatorial nominee Vivek Ramaswamy and U.S. Sen. Jon Husted.",
+        "sources": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Sens. Jane Timken and Theresa Gavarone (R), the resolution’s sponsors; Gavarone said the amendment would set “a floor” so “future general assemblies won’t be able to go backwards.”",
+        "sources": [
+          "s1",
+          "s8"
+        ]
+      },
+      {
+        "text": "Ohio House Republicans, including Speaker Matt Huffman, who passed the resolution.",
+        "sources": [
+          "s10"
+        ]
+      },
+      {
+        "text": "Vivek Ramaswamy (R), nominee for governor.",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Amy Acton (D), nominee for governor, who said she will support it.",
+        "sources": [
+          "s4"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Democratic state legislators: Sen. Bill DeMora said “every Democrat voted against this, in the House and the Senate”; DeMora and Rep. Terrence Upchurch said they oppose the amendment and would campaign against it. DeMora, Upchurch and Rep. Desiree Tims wrote the official arguments against.",
+        "sources": [
+          "s8",
+          "s6",
+          "s11"
+        ]
+      },
+      {
+        "text": "ACLU of Ohio, which opposed SJR 10 in testimony.",
+        "sources": [
+          "s5"
+        ]
+      },
+      {
+        "text": "Ohio Legislative Black Caucus Foundation, which announced its opposition.",
+        "sources": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Ohio Citizen Action, which announced its opposition.",
+        "sources": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Allison Russo (D) and Tom Pruss (Libertarian), candidates for Secretary of State.",
+        "sources": [
+          "s11"
+        ]
+      },
+      {
+        "text": "Libertarian gubernatorial ticket of Don Kissick and James Mills.",
+        "sources": [
+          "s4"
+        ]
+      }
     ]
   },
   "sources": [
@@ -160,8 +243,15 @@
       "publisher": "Ohio House of Representatives",
       "kind": "official",
       "date": "2026-06-10"
+    },
+    {
+      "id": "s11",
+      "url": "https://signalohio.org/what-is-ohio-issue-3-voter-id-amendment-november-election-2026/",
+      "title": "What is Issue 3? Ohio’s voter ID amendment, explained",
+      "publisher": "Signal Ohio",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "The Ohio Secretary of State's official Issue 3 report (with the official pro/con arguments written by legislators) returns HTTP 403 to automated requests and was not bypassed. The ballot question matches the 'official ballot title' reproduced verbatim by Ballotpedia and by the Ohio Capital Journal's voter guide; no official-site or county sample-ballot copy could be loaded. Arguments are therefore from news, House press materials and testimony rather than the official arguments. Ballotpedia's measure page lists the House vote as 62-30; the Ohio Capital Journal and Ballotpedia News report 61-27, which is used (the House journal could not be loaded). Ohio Ballot Board action was Monday, August 3, 2026 (4-1). The enrolled SJR 10 text (s2) was machine-read and matches the amendment as described. No fiscal estimate was found (the Legislative Service Commission analysis could not be loaded). The Ohio House Republican caucus release gives no tally."
+  "researchNotes": "The Ohio Secretary of State's official Issue 3 report (with the official pro/con arguments written by legislators) returns HTTP 403 to automated requests and was not bypassed. The ballot question matches the 'official ballot title' reproduced verbatim by Ballotpedia and by the Ohio Capital Journal's voter guide; no official-site or county sample-ballot copy could be loaded. Arguments are therefore from news, House press materials and testimony rather than the official arguments. Ballotpedia's measure page lists the House vote as 62-30; the Ohio Capital Journal and Ballotpedia News report 61-27, which is used (the House journal could not be loaded). Ohio Ballot Board action was Monday, August 3, 2026 (4-1). The enrolled SJR 10 text (s2) was machine-read and matches the amendment as described. No fiscal estimate was found (the Legislative Service Commission analysis could not be loaded). The Ohio House Republican caucus release gives no tally. Added (Oct. 19): the official Secretary of State Issue 3 report PDF (ohiosos.gov) also returned HTTP 403 and was not bypassed, so the official full text link is the enrolled SJR 10. Supporter and opponent lists are from news reports of stated positions (Signal Ohio, Ohio Capital Journal, Statehouse News Bureau). Signal Ohio reported that no group or coalition was yet leading the official opposition when it published; no committee-level campaign-finance totals or Legislative Service Commission fiscal analysis were found, so campaignFinance and fiscalImpact are omitted."
 }
