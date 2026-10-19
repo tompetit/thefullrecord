@@ -63,21 +63,21 @@
       ],
       "priorities": [
         {
-          "text": "Declare a state of emergency to freeze insurance and utility rates and to fund 40,000 units of already-approved affordable housing.",
+          "text": "Declare a state of emergency to freeze insurance and utility rates, and declare the housing shortage a state of emergency to fund the nearly 40,000 affordable housing units in approved projects that await a final tranche of funding.",
           "sources": [
             "s3",
             "s11"
           ]
         },
         {
-          "text": "Continue resisting Trump administration policies on issues such as immigration and the environment.",
+          "text": "Continue challenging Trump administration policies, as he did when he sued the administration more than 120 times as attorney general.",
           "sources": [
-            "s3",
-            "s8"
+            "s8",
+            "s2"
           ]
         },
         {
-          "text": "Expand state health coverage and lower costs, including by cutting insurers' administrative spending.",
+          "text": "Expand state health coverage toward universal access and lower costs, including by eliminating duplicative healthcare oversight requirements.",
           "sources": [
             "s3",
             "s12"
@@ -166,9 +166,9 @@
       ],
       "priorities": [
         {
-          "text": "Eliminate state income tax on the first $150,000 of earnings and lower gas prices, including by removing the state's 60-cent-per-gallon gasoline excise tax and reducing fuel regulations (his '$3 gas' plan).",
+          "text": "Eliminate state income tax on the first $150,000 of earnings (income above that taxed at 8%) and lower gas prices, including by removing the state's 60-cent-per-gallon gasoline excise tax and reducing fuel regulations (his '$3 gas' plan).",
           "sources": [
-            "s3",
+            "s17",
             "s16"
           ]
         },
@@ -180,9 +180,9 @@
           ]
         },
         {
-          "text": "Bring back the 'starter home' by cutting fees and building rules on smaller single-family homes and creating a state loan program for first-time buyers.",
+          "text": "Bring back the 'starter home' by reducing or deferring fees on entry-level homes, fast-tracking approvals and creating a state-backed starter home loan program for first-time buyers.",
           "sources": [
-            "s3"
+            "s18"
           ]
         }
       ],
@@ -331,8 +331,24 @@
       "publisher": "Hilton campaign",
       "kind": "candidate",
       "date": "2026-10-19"
+    },
+    {
+      "id": "s17",
+      "url": "https://stevehiltonforgovernor.com/policies/no-state-income-tax-on-your-first-150000",
+      "title": "No State Income Tax on Your First $150,000",
+      "publisher": "Hilton campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s18",
+      "url": "https://stevehiltonforgovernor.com/policies/bring-back-the-starter-home-in-california",
+      "title": "Bring Back the Starter Home in California",
+      "publisher": "Hilton campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "The California Secretary of State's Official Certified List of Candidates for the November 3, 2026 general election (dated August 27, 2026) lists exactly two governor candidates, Xavier Becerra (Democratic) and Steve Hilton (Republican); this matches the guide. Ballotpedia was unreachable (bot challenge). Issue positions come from the CalMatters voter guide; neither campaign site published issue pages that could be retrieved, so no verbatim candidate quotes are included. A record item citing an HHS statement was removed because its archived page no longer loads and the official HHS page could not be retrieved. Becerra's House voting record and Hilton's campaign website content were not reviewed in depth. Running mates: California elects the lieutenant governor separately."
+  "researchNotes": "The California Secretary of State's Official Certified List of Candidates for the November 3, 2026 general election (dated August 27, 2026) lists exactly two governor candidates, Xavier Becerra (Democratic) and Steve Hilton (Republican); this matches the guide. Ballotpedia was unreachable (bot challenge). Issue positions and candidate quotes come from the campaign issue pages, which were rendered in headless Chromium and matched verbatim against page text. A record item citing an HHS statement was removed because its archived page no longer loads and the official HHS page could not be retrieved. Becerra's House voting record and Hilton's campaign website content were not reviewed in depth. Running mates: California elects the lieutenant governor separately."
 }
