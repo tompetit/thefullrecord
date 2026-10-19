@@ -110,6 +110,9 @@ for (const file of files) {
     need(m, ["yesMeans", "noMeans"], "measure");
     (m.argumentsFor ?? []).forEach((x, i) => cites(x, `measure.argumentsFor[${i}]`));
     (m.argumentsAgainst ?? []).forEach((x, i) => cites(x, `measure.argumentsAgainst[${i}]`));
+    for (const k of ["currentLaw", "fiscalImpact", "campaignFinance"]) if (m[k]) cites(m[k], `measure.${k}`);
+    for (const k of ["supporters", "opponents"]) (m[k] ?? []).forEach((x, i) => cites(x, `measure.${k}[${i}]`));
+    if (m.fullTextUrl && !/^https:\/\//.test(m.fullTextUrl)) errs.push("measure.fullTextUrl must be https");
   }
   for (const id of ids) if (!used.has(id)) warn.push(`source ${id} is never cited`);
   if (errs.length) {

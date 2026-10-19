@@ -1,3 +1,4 @@
+import { SourceLink } from "@/components/SourceLink";
 import Link from "@/components/Link";
 import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
@@ -202,6 +203,27 @@ function MeasureView({ race }: { race: GuideRace }) {
           <p className="mt-1.5 font-sans text-[13.5px] leading-[1.55] text-ink-80">{m.noMeans}</p>
         </div>
       </div>
+      {(m.currentLaw || m.fiscalImpact || m.fullTextUrl) && (
+        <div className="grid gap-4 md:grid-cols-2">
+          {m.currentLaw && (
+            <div>
+              <SectionLabel>The law today</SectionLabel>
+              <p className="mt-2 font-sans text-[13.5px] leading-[1.55] text-ink-80"><CitedText c={m.currentLaw} race={race} /></p>
+            </div>
+          )}
+          {m.fiscalImpact && (
+            <div>
+              <SectionLabel>Official fiscal estimate</SectionLabel>
+              <p className="mt-2 font-sans text-[13.5px] leading-[1.55] text-ink-80"><CitedText c={m.fiscalImpact} race={race} /></p>
+            </div>
+          )}
+          {m.fullTextUrl && (
+            <p className="font-sans text-[13px] md:col-span-2">
+              <SourceLink href={m.fullTextUrl}>Read the full text of the measure</SourceLink>
+            </p>
+          )}
+        </div>
+      )}
       <div className="grid gap-4 md:grid-cols-2">
         {([["Arguments made for", m.argumentsFor], ["Arguments made against", m.argumentsAgainst]] as const).map(
           ([label, list]) => (
@@ -219,6 +241,27 @@ function MeasureView({ race }: { race: GuideRace }) {
           )
         )}
       </div>
+      {((m.supporters?.length ?? 0) > 0 || (m.opponents?.length ?? 0) > 0) && (
+        <div className="grid gap-4 md:grid-cols-2">
+          {([["On record in support", m.supporters ?? []], ["On record in opposition", m.opponents ?? []]] as const).map(([label, list]) => (
+            <div key={label}>
+              <SectionLabel>{label}</SectionLabel>
+              <ul className="mt-2 flex flex-col gap-1.5">
+                {list.map((a, i) => (
+                  <li key={i} className="font-sans text-[13.5px] leading-[1.5] text-ink-80"><CitedText c={a} race={race} /></li>
+                ))}
+                {!list.length && <li className="font-sans text-[13px] text-ink-45">None found in public sources.</li>}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+      {m.campaignFinance && (
+        <div>
+          <SectionLabel>Campaign money</SectionLabel>
+          <p className="mt-2 font-sans text-[13.5px] leading-[1.55] text-ink-80"><CitedText c={m.campaignFinance} race={race} /></p>
+        </div>
+      )}
     </section>
   );
 }

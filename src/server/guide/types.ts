@@ -170,6 +170,17 @@ export interface BallotMeasure {
   noMeans: string;
   argumentsFor: Cited[];
   argumentsAgainst: Cited[];
+  /** What the law is today, from the official analysis */
+  currentLaw?: Cited;
+  /** Official fiscal estimate (legislative analyst, fiscal note) */
+  fiscalImpact?: Cited;
+  /** Organizations and officials publicly on record, attributed */
+  supporters?: Cited[];
+  opponents?: Cited[];
+  /** Money raised by registered committees on each side, from official filings, dated */
+  campaignFinance?: Cited;
+  /** Official full text of the measure */
+  fullTextUrl?: string;
 }
 
 export type OfficeType =
