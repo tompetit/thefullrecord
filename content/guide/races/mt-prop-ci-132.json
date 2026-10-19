@@ -1,0 +1,100 @@
+{
+  "id": "mt-prop-ci-132",
+  "state": "MT",
+  "officeType": "ballot-measure",
+  "office": "Constitutional Amendment (Citizen Initiative)",
+  "title": "Constitutional Initiative 132: Nonpartisan Judicial Elections",
+  "area": "Statewide — all of Montana",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Citizen-initiated constitutional amendment sponsored by Montanans for Nonpartisan Courts, certified for the November ballot on Aug. 17, 2026. Montana Free Press reported the group said it gathered more than 102,000 signatures from 57 House districts; 60,241 valid signatures from at least 40 House districts were required.",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "CONSTITUTIONAL INITIATIVE NO. 132. A CONSTITUTIONAL AMENDMENT PROPOSED BY INITIATIVE PETITION. CI-132 amends the Montana Constitution to require that judicial elections remain nonpartisan. [ ] YES on Constitutional Amendment CI-132 [ ] NO on Constitutional Amendment CI-132",
+      "sources": [
+        "s1"
+      ]
+    },
+    "summary": {
+      "text": "The measure adds a new Section 12 to Article VII of the Montana Constitution reading: “Judicial elections shall remain nonpartisan.” Montana has used nonpartisan judicial elections since 1936. It was filed after bills in the 2025 Legislature to make judicial races partisan failed.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    "yesMeans": "Adds to the Montana Constitution a requirement that judicial elections remain nonpartisan.",
+    "noMeans": "Makes no change to the Constitution; judicial elections stay nonpartisan under current state law, which the Legislature could change.",
+    "argumentsFor": [
+      {
+        "text": "Retired Supreme Court Justice Mike McGrath, who endorsed the initiative, said: “It's simple - judges should be elected based on their record and qualifications alone. Montana citizens deserve to have their cases decided by independent judges, based on the law and facts of each case, without regard to party affiliation.”",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Caitie Butler of Montanans for Nonpartisan Courts said: “Montanans have been voting in nonpartisan judicial elections for over 90 years. We think this is a really fundamental right that Montanans believe in and want to be able to continue to do so by enshrining it in the Constitution.”",
+        "sources": [
+          "s4"
+        ]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "The Montana Republican Party's statement opposing the initiative: “The MTGOP believes Montana should retain judicial elections, but reform them to be free, fair, and honest by allowing candidates to run with a political designation if they so choose, in keeping with their basic First Amendment rights, as well as giving voters the knowledge they need to make an informed decision.”",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "KULR-8 reports that opponents of CI-132 say judicial elections are already partisan, with liberal and conservative groups already backing specific candidates.",
+        "sources": [
+          "s4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/CI-132(3a70e31b2fe58baa619ffb1d9b23c8ff).pdf",
+      "title": "Ballot Language for Constitutional Initiative No. 132 (CI-132)",
+      "publisher": "Montana Secretary of State",
+      "kind": "official"
+    },
+    {
+      "id": "s2",
+      "url": "https://news.ballotpedia.org/2026/08/19/montana-secretary-of-state-certifies-three-ballot-initiatives-for-november-addressing-judicial-elections-the-initiative-power-and-corporate-contributions-to-campaigns/",
+      "title": "Montana Secretary of State certifies three ballot initiatives for November",
+      "publisher": "Ballotpedia News",
+      "kind": "reference",
+      "date": "2026-08-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://montanafreepress.org/2026/06/23/the-ballot-questions-likely-to-come-before-voters-in-november/",
+      "title": "The ballot questions likely to come before voters in November",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-06-23"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.kulr8.com/helena/montanas-2026-statewide-ballot-initiatives-explained/article_3ee0e91f-a1ef-5ece-9c88-ad517f217356.html",
+      "title": "Montana's 2026 statewide ballot initiatives explained",
+      "publisher": "KULR-8 (NonStop Local)",
+      "kind": "news"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "The Montana Secretary of State's ballot-issues web pages returned HTTP 403 to automated requests and were not bypassed; the official ballot language was read from the SOS-hosted PDF, and certification status from Ballotpedia News' report of the Aug. 17, 2026 certification. A fiscal note and official 'a vote FOR/AGAINST means' statements were not retrieved (the ballot-language PDF contains none), so yesMeans/noMeans are derived strictly from the official ballot language and no fiscal impact is stated. A 2026 Voter Information Pamphlet with official arguments is listed on sosmt.gov but could not be read (the site returned HTTP 403 and was not bypassed); arguments are the campaigns' or opponents' own statements as reported by news. "
+}
