@@ -99,11 +99,48 @@
           "sources": [
             "s11"
           ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "His campaign platform says he will back more investment in law enforcement pay and training.",
+          "quote": "We must invest in better pay and training for our law enforcement officers, as well as programs that help tackle the root causes of crime.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://agerforcongress.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "We need more housing for owners and renters.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "I’ll push to expand grants and the child tax credit for young families.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I support reforms that treat people with dignity and give businesses the workforce they need to grow, all while keeping every community safe.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Additional positions and statements added from his campaign platform page. He has not completed a Ballotpedia Candidate Connection survey. His platform page does not address abortion, guns, climate, tariffs, or Israel."
     },
     {
       "id": "jennifer-balkcom",
@@ -242,19 +279,28 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "If Americans want immigrants to enter through legal channels, we need to make those channels fair, reasonable, and accessible.",
+          "context": "In answers to a WLOS (News 13) candidate questionnaire, Oct. 15, 2026",
+          "sources": [
+            "s13"
+          ]
+        },
         {
           "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supports eliminating the federal income tax entirely rather than raising taxes on any income group.",
           "quote": "Get rid of the income tax.",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey, on the federal income tax",
           "sources": [
             "s8"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "minimal"
+      "researchNotes": "Positions come from his 2026 Ballotpedia Candidate Connection survey and WLOS candidate questionnaire. No campaign website was found (Ballotpedia lists only social media accounts)."
     }
   ],
   "sources": [
@@ -343,6 +389,13 @@
       "url": "https://www.carolinajournal.com/ncga-overrides-new-record-six-cooper-vetoes-in-one-day/",
       "title": "NCGA overrides new record six Cooper vetoes in one day",
       "publisher": "Carolina Journal",
+      "kind": "news"
+    },
+    {
+      "id": "s13",
+      "url": "https://wlos.com/news/election/north-carolina-11th-district-travis-groo-libertarian-2026-candidate-questions",
+      "title": "Know your candidate: Travis Groo for North Carolina's 11th Congressional District",
+      "publisher": "WLOS (News 13)",
       "kind": "news"
     }
   ],
