@@ -10,7 +10,7 @@
   "researchedAt": "2026-10-19",
   "context": [
     {
-      "text": "Incumbent Republican Greg Abbott is seeking a fourth term; Texas has no gubernatorial term limit. He won the March 3, 2026 Republican primary with about 82% of the vote against ten challengers.",
+      "text": "Incumbent Republican Greg Abbott is seeking a fourth term. He won the March 3, 2026 Republican primary with about 82% of the vote against ten challengers.",
       "sources": [
         "s1",
         "s2"
@@ -27,7 +27,8 @@
       "text": "Libertarian Pat Dixon is also on the ballot. Several write-in candidates (including independent Jenn Mack Raphoon) have declared; they are not listed below.",
       "sources": [
         "s1",
-        "s4"
+        "s4",
+        "s25"
       ]
     }
   ],
@@ -46,7 +47,7 @@
         "sources": [
           "s5",
           "s6",
-          "s7",
+          "s26",
           "s8"
         ]
       },
@@ -107,9 +108,10 @@
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Signed HB 1927 on June 16, 2021, allowing people 21 and older to carry handguns without a license.",
+          "summary": "Signed HB 1927 on June 16, 2021, removing the license requirement for carrying a handgun for people 21 and older who are not otherwise prohibited from possessing a firearm.",
           "sources": [
-            "s7"
+            "s7",
+            "s26"
           ]
         },
         {
@@ -148,7 +150,7 @@
           ]
         },
         {
-          "text": "Signed HB 9 on June 12, 2025, an exemption from property taxation of a portion of the value of business tangible personal property; it takes effect only if voters approve the companion constitutional amendment (HJR 1).",
+          "text": "Signed HB 9 on June 12, 2025, an exemption from property taxation of a portion of the appraised value of tangible personal property held or used for the production of income; it takes effect only if voters approve the companion constitutional amendment (HJR 1).",
           "date": "2025-06-12",
           "kind": "bill",
           "sources": [
@@ -160,7 +162,8 @@
           "date": "2021-06-16",
           "kind": "bill",
           "sources": [
-            "s7"
+            "s7",
+            "s26"
           ]
         },
         {
@@ -273,7 +276,7 @@
           ]
         },
         {
-          "text": "Voted no on SB 8, designating restrooms and other facilities by sex (House third-reading passage vote 86–45, August 28, 2025).",
+          "text": "Voted no on SB 8, relating to the designation and use of certain spaces and facilities according to sex (House third-reading passage vote 86–45, August 28, 2025).",
           "date": "2025-08-28",
           "kind": "vote",
           "sources": [
@@ -311,7 +314,7 @@
       ],
       "priorities": [
         {
-          "text": "Less regulation and lower taxes; says state property-tax cuts would mostly cut local government funding because Texas has no state property tax; wants a more competitive landscape for teachers and higher teacher pay.",
+          "text": "Says Texas companies come for its resources and people if they are not overly regulated or overly taxed; says state property-tax cuts would mostly cut local government funding because Texas has no state property tax; wants a more competitive landscape for teachers and higher teacher pay.",
           "quote": "There is no state property tax, so what are you going to cut?",
           "sources": [
             "s4"
@@ -492,7 +495,23 @@
       "publisher": "Texas House of Representatives",
       "kind": "official",
       "date": "2025-08-28"
+    },
+    {
+      "id": "s25",
+      "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+      "title": "Ballot Certification Report, 2026 November General Election (Governor: Abbott REP, Hinojosa DEM, Dixon LIB)",
+      "publisher": "Texas Secretary of State",
+      "kind": "official",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "s26",
+      "url": "https://news-journal.com/2021/06/16/abbott-signs-bill-allowing-permitless-carry/",
+      "title": "Abbott signs bill allowing permitless carry",
+      "publisher": "Longview News-Journal",
+      "kind": "news",
+      "date": "2021-06-16"
     }
   ],
-  "researchNotes": "Slate matches the Texas Secretary of State's certified general-election ballot (Abbott R, Hinojosa D, Dixon LIB). Running mates do not apply (Texas elects the governor and lieutenant governor separately). Wikipedia is used only for basic biographical and ballot-status facts. Write-in candidates are not profiled. Hinojosa's floor votes are the House third-reading (final House passage) votes recorded in the House Journal; each bill also had earlier second-reading, amendment and procedural votes."
+  "researchNotes": "Slate matches the Texas Secretary of State's Ballot Certification Report for the Nov. 3, 2026 general election dated Aug. 28, 2026 (Governor: Abbott REP, Hinojosa DEM, Dixon LIB). Running mates do not apply (Texas elects the governor and lieutenant governor separately). Wikipedia is used only for basic biographical and ballot-status facts. Write-in candidates are not profiled. Hinojosa's floor votes are the House third-reading (final House passage) votes recorded in the House Journal; each bill also had earlier second-reading, amendment and procedural votes."
 }
