@@ -210,10 +210,88 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Raising the minimum wage and workers' rights.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Universal healthcare and universal childcare.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Abolishing ICE and overhauling the immigration system.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Ending wars and combating human trafficking and exploitation.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "On his campaign site, lists a $25 minimum wage among his workers' rights priorities.",
+          "quote": "$25 minimum wage",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "On his campaign site, says universal healthcare must be implemented as soon as possible.",
+          "quote": "Universal healthcare, universal childcare, and a complete overhaul of our mental health system must be implemented as soon as possible.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "On his campaign site, says universal childcare must be implemented as soon as possible.",
+          "quote": "Universal healthcare, universal childcare, and a complete overhaul of our mental health system must be implemented as soon as possible.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "On his campaign site, calls for ending ICE and overhauling the immigration system.",
+          "quote": "End ICE and completely rehaul our immigration system.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "website": "https://whiteheadforcongressnc.carrd.co/",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "We must expand wind and solar power to update our power grid, and work towards developing a proper infostructure for electric vehicles.",
+          "context": "On his campaign website",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "researchNotes": "Positions drawn from his campaign website; he has not completed a 2026 Ballotpedia survey. No news questionnaires or debate coverage found."
     }
   ],
   "sources": [
@@ -266,6 +344,14 @@
       "publisher": "WSOC-TV (candidate questionnaire)",
       "kind": "candidate",
       "date": "2026-02-12"
+    },
+    {
+      "id": "s9",
+      "url": "https://whiteheadforcongressnc.carrd.co/",
+      "title": "Bo Whitehead for Congress",
+      "publisher": "Bo Whitehead campaign website",
+      "kind": "candidate",
+      "date": "2026"
     }
   ],
   "researchedAt": "2026-09-25",

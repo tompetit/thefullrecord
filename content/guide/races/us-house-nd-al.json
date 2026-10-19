@@ -210,11 +210,92 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Age and term limits for members of Congress (reporter's paraphrase of her Oct. 8, 2026 debate remarks, per Valley News Live / North Dakota Monitor).",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Raising and indexing the minimum wage, listed under 'Economic Dignity & Living Wage' on her platform.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Healthcare: affordable access and prevention, protecting pre-existing conditions, mental health parity, lower drug costs.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "On her campaign site's platform, lists raising and indexing the minimum wage.",
+          "quote": "Raise & index the minimum wage",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Candidate Connection survey response, or other public statements found for Helene Neville in the time available."
+      "researchDepth": "basic",
+      "researchNotes": "Statements drawn from her campaign website issue pages; the Oct. 8, 2026 Prairie Public debate (via Valley News Live) is cited for her top priority. Her pages do not state a stance on guns, school choice, tariffs, or Israel aid.",
+      "website": "https://www.heleneforcongress.com/",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I advocate for protecting reproductive freedom and ensuring people have the right to make choices about their own bodies and healthcare.",
+          "context": "On her campaign website",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I support comprehensive immigration reform that strengthens a fair and efficient legal system.",
+          "context": "On her campaign website",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "We need policies that support working families while strengthening the early childhood workforce. That includes expanding access to affordable childcare, supporting providers, and investing in early childhood education that gives children a strong start.",
+          "context": "On her campaign website",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Healthcare should not be a privilege for the fortunate. It should be accessible, affordable, and reliable for every family in America.",
+          "context": "On her campaign website",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "We must increase housing supply, support responsible, affordable development, and ensure that housing programs improve stability for the people they are meant to serve.",
+          "context": "On her campaign website",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Energy independence, environmental stewardship, and economic growth can go hand in hand.",
+          "context": "On her campaign website",
+          "sources": [
+            "s18"
+          ]
+        }
+      ]
     },
     {
       "id": "charles-tuttle",
@@ -230,11 +311,24 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Making the Department of Government Efficiency cuts permanent (reporter's paraphrase of his Oct. 8, 2026 debate remarks, per Valley News Live / North Dakota Monitor).",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Moving President Trump's policies through Congress and into federal law (reporter's paraphrase of the same debate remarks).",
+          "sources": [
+            "s19"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Candidate Connection survey response, or other public statements found for Charles Tuttle in the time available."
+      "researchNotes": "No campaign website, Candidate Connection survey, or questionnaire answers found; his GoodParty.org profile page was loaded but offers no cited position text. Priorities come from news coverage of the Oct. 8, 2026 Prairie Public debate, which he attended; no direct position on a guide issue was quoted."
     }
   ],
   "sources": [
@@ -314,6 +408,70 @@
       "title": "Trygve Hammer - Ballotpedia Candidate Connection survey (2026)",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.heleneforcongress.com/issues",
+      "title": "Issues - Helene for Congress",
+      "publisher": "Helene Neville campaign website",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.heleneforcongress.com/issues/Reproductive-Freedom",
+      "title": "Reproductive Freedom - Helene for Congress",
+      "publisher": "Helene Neville campaign website",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.heleneforcongress.com/issues/Immigration-and-Responsible-Reform",
+      "title": "Immigration and Responsible Reform - Helene for Congress",
+      "publisher": "Helene Neville campaign website",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.heleneforcongress.com/issues/Childcare-and-Working-Families",
+      "title": "Childcare and Working Families - Helene for Congress",
+      "publisher": "Helene Neville campaign website",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.heleneforcongress.com/issues/Healthcare-and-Access",
+      "title": "Healthcare and Access - Helene for Congress",
+      "publisher": "Helene Neville campaign website",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.heleneforcongress.com/issues/Housing-and-Cost-of-Living",
+      "title": "Housing and Cost of Living - Helene for Congress",
+      "publisher": "Helene Neville campaign website",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s18",
+      "url": "https://www.heleneforcongress.com/issues/Climate-Energy-and-Natural-Resources",
+      "title": "Climate, Energy, and Natural Resources - Helene for Congress",
+      "publisher": "Helene Neville campaign website",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s19",
+      "url": "https://www.valleynewslive.com/2026/10/09/north-dakota-us-house-challengers-advocate-change/",
+      "title": "North Dakota US House challengers advocate for change",
+      "publisher": "Valley News Live (North Dakota Monitor)",
+      "kind": "news",
+      "date": "2026-10-09"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -137,10 +137,32 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In the Albuquerque Journal candidate Q&A, says she supports requiring ID and proof of citizenship to register and vote.",
+          "quote": "I support ID and proof of citizenship to register and vote.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "mixed",
+          "summary": "In the Albuquerque Journal candidate Q&A, says she supports tariffs as a negotiating tactic and economic tool on the condition that they lower costs for American families.",
+          "quote": "I support tariffs as a negotiating tactic and economic tool so long as they guarantee lower costs for American families. If tariffs do not do that, they should not be used.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "website": "https://www.didiforcongress.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Positions on tariffs and proof of citizenship come from her Oct. 2, 2026 Albuquerque Journal candidate Q&A. Her campaign website lists priorities but no issue positions. No stated position found on the other guide issues."
     }
   ],
   "sources": [
@@ -172,6 +194,14 @@
       "publisher": "Office of Rep. Melanie Stansbury",
       "kind": "official",
       "date": "2025-04-02"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.abqjournal.com/election/1st-congressional-district-ndidiamaka-didi-okpareke-r/3129001",
+      "title": "1st Congressional District: Ndidiamaka \"Didi\" Okpareke (R) - Candidate Q&A",
+      "publisher": "Albuquerque Journal",
+      "kind": "news",
+      "date": "2026-10-02"
     }
   ],
   "researchedAt": "2026-09-25",
