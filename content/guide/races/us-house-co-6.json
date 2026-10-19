@@ -193,7 +193,27 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Affordability: says addressing rising costs of rent, education and healthcare is his top priority.",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Jobs across Colorado, including support for entrepreneurs, small business and developers.",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Reducing crime.",
+          "sources": [
+            "s16",
+            "s17"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "tariffs",
@@ -206,7 +226,9 @@
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "statements": [],
+      "researchNotes": "Campaign website and Ballotpedia 2026 survey list affordability, jobs and crime as priorities, with few specifics; the survey names limited government as a passion area. His tariffs position comes from CPR News. His Ballotpedia profile also lists a 2025 survey as a candidate for Colorado governor; it was not used."
     },
     {
       "id": "patty-mcmahon",
@@ -222,10 +244,40 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Defending constitutional limits on government power and the separation of powers.",
+          "sources": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Protecting civil liberties and due process.",
+          "sources": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Opposing unnecessary war and military intervention.",
+          "sources": [
+            "s18"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Libertarian. Completed Ballotpedia's 2026 Candidate Connection survey; it centers on separation of powers, civil liberties, war authorization and congressional oversight of federal spending (including a proposed TRUST Act). Few answers touch the guide's other listed issues, so depth stays minimal.",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "I oppose unnecessary military intervention because I believe war should always be a last resort, clearly justified, and constitutionally authorized.",
+          "context": "In her 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s18"
+          ]
+        }
+      ]
     },
     {
       "id": "samir-witta",
@@ -241,10 +293,42 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Healthcare reform: cap out-of-pocket deductibles and align drug prices with prices paid elsewhere.",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Housing affordability: cap rent and HOA increases and rein in management companies.",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Limiting the influence of mega-donors and corporations in Congress.",
+          "sources": [
+            "s19"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "In his 2026 Ballotpedia survey, lists capping rent and HOA increases as a campaign message.",
+          "quote": "Cap rent and HOA increases",
+          "sources": [
+            "s19"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "statements": [],
+      "researchNotes": "Independent. Completed Ballotpedia's 2026 Candidate Connection survey; no campaign website was checked beyond that. His answers do not directly take a side on most other listed issues."
     },
     {
       "id": "meredith-ryan",
@@ -260,10 +344,40 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says the U.S. must adhere to international law and end complicity in what she describes as genocide in Gaza and the West Bank.",
+          "sources": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Calls for ending Citizens United.",
+          "sources": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Calls for a Green New Deal.",
+          "sources": [
+            "s20"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "The USA needs to offer a Green New Deal allowing for advancements in technologies without them being at the expense of working people and their work/career options.",
+          "context": "In her 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s20"
+          ]
+        }
+      ],
+      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey; no campaign website checked. Her answers do not state a position on military aid itself, so none was inferred."
     }
   ],
   "sources": [
@@ -375,6 +489,41 @@
       "publisher": "CPR News",
       "kind": "news",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.jasonclarkuscongress.com",
+      "title": "Jason Clark for US Congress Colorado District 6",
+      "publisher": "Jason Clark for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s17",
+      "url": "https://ballotpedia.org/Jason_Ray_Clark_(Colorado)",
+      "title": "Jason Ray Clark — Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s18",
+      "url": "https://ballotpedia.org/Patty_McMahon",
+      "title": "Patty McMahon — Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s19",
+      "url": "https://ballotpedia.org/Samir_Witta",
+      "title": "Samir Witta — Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s20",
+      "url": "https://ballotpedia.org/Meredith_Ryan",
+      "title": "Meredith Ryan — Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
