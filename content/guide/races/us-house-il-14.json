@@ -201,7 +201,26 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Says he will \"reduce the size and scope of the federal government\" and end government waste, fraud and abuse.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Says he will \"restore liberty and protect your rights.\"",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Says he will \"secure the border, support law enforcement and protect American jobs.\"",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "healthcare_public",
@@ -211,10 +230,39 @@
           "sources": [
             "s8"
           ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Campaign site says he is pro-life and that Planned Parenthood should not be funded.",
+          "quote": "I am pro-life. We should not be funding Planned Parenthood and we should protect innocent children in the womb.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "I firmly support your Second Amendment rights",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We need to enforce existing law, secure the border and end harmful practices putting us at risk.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "website": "https://marter4congress.us"
     }
   ],
   "sources": [
@@ -278,5 +326,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "James Marter has not completed the 2026 Ballotpedia Candidate Connection survey and no campaign-website issue positions were located for him within the research budget for this race, so his priorities and positions are not documented here. Underwood's official house.gov priorities pages returned a 403 error when fetched; her campaign website was used instead."
+  "researchNotes": "James Marter has not completed the 2026 Ballotpedia Candidate Connection survey but his campaign issues page is used for the entries below. Underwood's official house.gov priorities pages returned a 403 error when fetched; her campaign website was used instead. Added a position and statements from the campaign issues page (loaded 2026-10-19); no debate or questionnaire coverage found."
 }

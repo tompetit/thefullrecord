@@ -152,10 +152,50 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lists as campaign promises: \"Take the profit motive out of your healthcare\" and \"Invest in energy that works, not energy that polls well.\"",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Lists as campaign promises: \"Secure the border and focus ICE on violent criminals\" and \"Fight to lower your property taxes and reverse the gas tax hike.\"",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Mike doesn't want government-run healthcare — he wants to take the greed out of the equation by converting health insurance companies to nonprofit organizations.",
+          "context": "On his campaign website, in third-person text",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Refocus ICE enforcement on violent criminals who pose actual dangers to your community",
+          "context": "On his campaign website",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Invest in hydroelectric power — proven, reliable, and genuinely renewable energy that works 24/7",
+          "context": "On his campaign website",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "website": "https://noack4congress.com"
     },
     {
       "id": "ashley-banks",
@@ -189,25 +229,49 @@
         {
           "text": "Says her experience living and working in the district gives her real experience representing it, summed up in her campaign's own phrase: \"Real Experience. Real Representation.\"",
           "sources": [
-            "s1"
+            "s5"
           ]
         },
         {
           "text": "Campaign focuses on \"restoring respect, value, and transparency between the people and those elected to serve them.\"",
           "sources": [
-            "s1"
+            "s5"
           ]
         },
         {
           "text": "Says she stands for \"efficiency, timely action, and clear plans that keep District 2 moving forward.\"",
           "sources": [
-            "s1"
+            "s5"
+          ]
+        },
+        {
+          "text": "Names healthcare as a policy area she is passionate about, including mental health care and reducing the patient-to-nurse ratio.",
+          "sources": [
+            "s5"
           ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "rent_regulation",
+          "quote": "Residents have expressed concerns about the rising cost of housing and the need for rent regulation, especially as wages remain too low to keep up with living expenses.",
+          "context": "In her 2025 Ballotpedia Candidate Connection survey, describing what she hears from residents",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Access to care should never depend on income or zip code.",
+          "context": "In her 2025 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s5"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -228,14 +292,21 @@
       "date": "2026-10-03"
     },
     {
-      "id": "s3",
-      "url": "https://noack4congress.com/",
-      "title": "Mike Noack for Congress — home page",
-      "publisher": "Noack for Congress campaign website",
+      "id": "s4",
+      "url": "https://noack4congress.com/issues/",
+      "title": "Issues - Mike Noack for Congress (IL-2)",
+      "publisher": "Noack for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Ashley_Banks",
+      "title": "Ashley Banks - Candidate Connection survey responses",
+      "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
-      "date": "2026-10-03"
+      "date": "2025-11-07"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website, public statements, or Candidate Connection survey were found for Mike Noack beyond his name appearing on the primary and general-election ballot; his entry is marked minimal. Miller's and Banks's material comes from Ballotpedia's compiled candidate profiles (Miller's campaign website and LinkedIn; Banks's Candidate Connection survey). Later pass (Oct 2026): added issue positions from Miller's campaign priorities page and Noack's campaign site."
+  "researchNotes": "No campaign website, public statements, or Candidate Connection survey were found for Mike Noack beyond his name appearing on the primary and general-election ballot; his entry is marked minimal. Miller's and Banks's material comes from Ballotpedia's compiled candidate profiles (Miller's campaign website and LinkedIn; Banks's Candidate Connection survey). Later pass (Oct 2026): added issue positions from Miller's campaign priorities page. Noack's issue statements added from his campaign website (noack4congress.com/issues, loaded 2026-10-19); no independent questionnaire or debate coverage found. No statement clearly takes a side on the listed issue statements, so none are recorded as positions. Added healthcare and housing statements from her 2025 Ballotpedia Candidate Connection survey; no campaign website found."
 }

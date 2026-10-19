@@ -135,20 +135,77 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lists \"Save Social Security, Medicare & Medicaid\" as a campaign priority.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Lists \"End Corruption & Pay-to-Play Politics\" as a priority, including banning members of Congress and their families from trading stocks.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Lists \"Strengthen Unions & Workers' Rights\" and \"Revive Manufacturing & Blue-Collar Careers\" as priorities.",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Supports a national health insurance program, a Medicare buy-in for people 50 and older, and restoring cuts to Medicaid and the Affordable Care Act.",
-          "quote": "The next step is to allow people who are 50 and above to buy into Medicare to make sure that people at the kind of last stage of their career, when they have more health concerns, are able to buy into that",
+          "summary": "Campaign site says Medicare should be expanded to cover all medically necessary care for every American; at a forum he also said people 50 and older should be able to buy into Medicare.",
+          "quote": "we need to expand Medicare to cover all medically necessary care and make it available to every American, regardless of age, with no premiums, copays, or deductibles",
           "sources": [
+            "s13",
             "s11"
           ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an October 2026 WTVP/League of Women Voters forum, as reported by NPR Illinois, said he supports tariffs aimed at specific industries and criticized the current broad tariffs.",
+          "quote": "We need to be using those precise tariffs like that to protect our critical industries, our industrial base, not this chaotic ChatGPT-produced tariff regime that is driving up prices by thousands of dollars.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "If we didn't have these renewable energy sources right now, our energy costs would be even higher than they already are",
+          "context": "In an October 2026 WTVP/League of Women Voters forum, per NPR Illinois",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We have seen, of course, our citizens be shot in the street by a masked federal force. This should raise alarm bells for everyone across the political spectrum",
+          "context": "In an October 2026 WTVP/League of Women Voters forum, per NPR Illinois",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "passing Paid Family Leave legislation, expanding access to high-quality, affordable childcare, and increasing the Child Tax Credit",
+          "context": "On his campaign website",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
+      "website": "https://www.nolleyforcongress.com"
     }
   ],
   "sources": [
@@ -230,8 +287,23 @@
       "publisher": "WGLT",
       "kind": "news",
       "date": "2026-10-01"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.nprillinois.org/illinois/2026-10-08/at-peoria-debate-challenger-paul-nolley-on-the-attack-while-longtime-incumbent-darin-lahood-touts-record",
+      "title": "At Peoria debate, challenger Paul Nolley on the attack while longtime incumbent Darin LaHood touts record",
+      "publisher": "NPR Illinois",
+      "kind": "news",
+      "date": "2026-10-08"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.nolleyforcongress.com/issues",
+      "title": "Paul's Plan to Strengthen Working Families",
+      "publisher": "Nolley for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "LaHood's positions and priorities are drawn from his official House issues pages. No campaign website or citable public statements were found for Paul Nolley beyond basic biographical facts."
+  "researchNotes": "LaHood's positions and priorities are drawn from his official House issues pages. Added a tariff position, statements and priorities from his campaign issues page and NPR Illinois's report of the Oct. 2026 WTVP/League of Women Voters of Greater Peoria forum."
 }

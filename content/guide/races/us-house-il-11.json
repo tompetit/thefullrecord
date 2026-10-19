@@ -214,10 +214,41 @@
           "sources": [
             "s12"
           ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Campaign site says he supports fully funding law enforcement.",
+          "quote": "Jeff supports fully funding law enforcement, ending soft-on-crime policies, and making sure criminals are held accountable.",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Campaign site says he supports expanding school choice, including public, private, charter and vocational options.",
+          "quote": "expanding school choice so families have access to the best educational setting for their children, whether that’s public, private, charter, or vocational pathways",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Jeff will work with President Trump to continue to secure the border, finish the wall, and stop the flow of fentanyl and other drugs into America.",
+          "context": "On his campaign website's Positions page, in third-person text",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "website": "https://www.jeffwalterforcongress.com"
     }
   ],
   "sources": [
@@ -319,5 +350,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Foster's federal key floor votes and FEC finance totals are added separately by script."
+  "researchNotes": "Foster's federal key floor votes and FEC finance totals are added separately by script. Added police-funding and school-choice positions and one statement from the campaign Positions page (loaded 2026-10-19)."
 }
