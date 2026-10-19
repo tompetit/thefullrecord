@@ -51,6 +51,13 @@
       "title": "Bernard Flowers Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://flowersformaryland.com/",
+      "title": "Flowers for Maryland",
+      "publisher": "Flowers for Maryland",
+      "kind": "candidate"
     }
   ],
   "candidates": [
@@ -227,9 +234,56 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In his 2022 Ballotpedia survey (for the Maryland 2nd District race, in an answer about whom he looks up to), says war should be declared by Congress.",
+          "quote": "War should be used only to defend our country and our allies. It should be declared by Congress.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Berney supports strong immigration enforcement and policies that prioritize national safety.",
+          "context": "On his campaign website, in the third person",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "Berney stands firmly with law-abiding gun owners and opposes any effort to erode this fundamental freedom.",
+          "context": "On his campaign website, in the third person",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Our police officers are heroes. Berney will ensure they have the resources and respect they need to keep our communities safe.",
+          "context": "On his campaign website, in the third person",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Berney supports unleashing domestic energy production to fuel our economy and secure our future.",
+          "context": "On his campaign website, in the third person",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "website": "https://flowersformaryland.com/",
+      "researchNotes": "Campaign website and Ballotpedia surveys (2022 and 2026) read. The war-powers answer is from the 2022 survey; the website statements are written in the third person. No debate or newsroom questionnaire found."
     }
   ],
   "researchedAt": "2026-09-25"

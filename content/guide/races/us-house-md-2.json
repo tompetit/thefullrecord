@@ -75,6 +75,13 @@
       "title": "Johnny's Priorities | Johnny O for Congress",
       "publisher": "Johnny O for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://davewallace.us/",
+      "title": "Dave Wallace for US Congress",
+      "publisher": "Wallace for America",
+      "kind": "candidate"
     }
   ],
   "candidates": [
@@ -249,27 +256,48 @@
       ],
       "priorities": [
         {
-          "text": "Protecting medical freedom, including the right to choose whether to wear a mask or take COVID vaccines.",
+          "text": "Protecting medical freedom: his campaign site lists it as an issue, and his 2024 campaign site described it as the right to choose whether to wear a mask or take COVID vaccines.",
           "sources": [
-            "s4"
+            "s4",
+            "s9"
           ]
         },
         {
           "text": "Fighting government corruption, including support for term limits and a presidential one-line budget veto.",
           "sources": [
-            "s4"
+            "s9"
           ]
         },
         {
           "text": "Protecting police and other first responders with resources and equipment.",
           "sources": [
-            "s4"
+            "s9"
           ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "Dave Wallace will protect the police and other first responders. He will vote to give them the resources and equipment they need to protect us from criminals both foreign and domestic.",
+          "context": "On his campaign website",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "He will vote for the use of energy sources wherever they happen to be, including natural gas in Maryland.",
+          "context": "On his campaign website",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "website": "https://davewallace.us/",
+      "researchNotes": "Campaign website read in full (it carries the same issue text Ballotpedia quoted from 2024). No Ballotpedia survey, questionnaire or debate answers found; no stance on the other guide issues was found."
     }
   ],
   "researchedAt": "2026-09-25"
