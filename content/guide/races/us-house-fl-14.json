@@ -292,11 +292,78 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Veterans: says he would protect earned benefits, cut VA bureaucracy, expand community care and strengthen mental health support.",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Fiscal responsibility: says he would pass a balanced budget, confront the national debt and audit federal agencies.",
+          "sources": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Second Amendment: says he supports constitutional carry nationwide and national reciprocity.",
+          "sources": [
+            "s16"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he supports nationwide constitutional carry for law-abiding adults and opposes gun and magazine bans.",
+          "quote": "I oppose unconstitutional gun bans, magazine bans, and regulations that punish responsible citizens while doing little to stop violent criminals.",
+          "sources": [
+            "s16"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Says Congress should authorize military action.",
+          "quote": "I believe Congress should fulfill its constitutional responsibility when authorizing military action.",
+          "sources": [
+            "s17"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Ballotpedia's coverage confirms Lambert completed a Candidate Connection survey, but his individual Ballotpedia page could not be located under the expected URL in the time available, so his specific survey answers are not included here."
+      "researchDepth": "basic",
+      "researchNotes": "Positions and statements are from the issue pages of his campaign website. His Ballotpedia page could not be located; no statements on abortion, rent, taxes on high earners or tariffs were found on the site.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I support securing all of America's borders and ports of entry through effective enforcement, modern technology, properly staffed personnel, and physical barriers where they are practical and effective.",
+          "context": "On his campaign website",
+          "sources": [
+            "s18"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "Every family should have the freedom to choose the educational path that best fits their child's unique needs and goals.",
+          "context": "On his campaign website",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I support an all-of-the-above energy strategy that allows American producers to compete and innovate in a free market.",
+          "context": "On his campaign website",
+          "sources": [
+            "s21"
+          ]
+        }
+      ],
+      "website": "https://www.brianlambertforcongress.com/"
     },
     {
       "id": "keith-varian",
@@ -328,9 +395,15 @@
           ]
         },
         {
-          "text": "Controlling federal spending, saying runaway spending and inflation from tariffs are eroding household finances.",
+          "text": "Inflation and the cost of living, saying inflation from tariffs and rising unemployment threaten households (\"inflation from tariffs will drown us in a sea of debt\").",
           "sources": [
             "s4"
+          ]
+        },
+        {
+          "text": "Social Security: says he would repeal the Windfall Elimination Provision and Government Pension Offset and lift the payroll-tax cap on earnings over $400,000.",
+          "sources": [
+            "s26"
           ]
         }
       ],
@@ -342,11 +415,24 @@
           "quote": "unemployment is on the rise, inflation from tariffs will drown us in a sea of debt.",
           "sources": [
             "s4"
-          ]
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says he supports lifting the Social Security payroll-tax cap on earnings over $400,000, so that the wealthiest Americans contribute to the fund's solvency.",
+          "quote": "I support lifting the cap on earnings over $400,000. This preserves the \"donut hole\" to protect middle-class earners while ensuring the wealthiest Americans contribute to the solvency of the fund for the next 75 years.",
+          "sources": [
+            "s26"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "website": "https://votevarian2026.com/",
+      "researchNotes": "From his campaign website, his Tampa Bay 28 questionnaire answers and his Ballotpedia Candidate Connection survey. Some pages on his site refer to Florida's 16th District; no stated positions on abortion, immigration, guns or policing were found."
     },
     {
       "id": "salomon-hernandez",
@@ -363,11 +449,40 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Health care: says he is pushing for the city of Tampa to provide universal healthcare to residents.",
+          "sources": [
+            "s25"
+          ]
+        },
+        {
+          "text": "Small business: says he would prioritize small businesses over large corporations.",
+          "sources": [
+            "s25"
+          ]
+        },
+        {
+          "text": "Monopolies: calls addressing monopolies taking over the nation \"existential.\"",
+          "sources": [
+            "s25"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No Candidate Connection survey, campaign website, or other sourced statement of Hernandez's priorities or positions was found in the time available."
+      "researchNotes": "Only a Tampa Bay 28 questionnaire answer was found; no campaign website or Candidate Connection survey. One statement and three priorities; he does not directly address most guide issues.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "pushing for the city Tampa to provide universal healthcare to residents as well as temporary healthcare to tourists",
+          "context": "In his Tampa Bay 28 candidate questionnaire",
+          "sources": [
+            "s25"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -470,6 +585,69 @@
       "url": "https://beltranforcongress.com/platform",
       "title": "Platform - Mike Beltran for Congress",
       "publisher": "Mike Beltran for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.brianlambertforcongress.com/issues/second-amendment",
+      "title": "Second Amendment",
+      "publisher": "Brian Lambert for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.brianlambertforcongress.com/issues/national-defense",
+      "title": "National Defense",
+      "publisher": "Brian Lambert for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s18",
+      "url": "https://www.brianlambertforcongress.com/issues/border-security",
+      "title": "Border Security & Immigration",
+      "publisher": "Brian Lambert for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s19",
+      "url": "https://www.brianlambertforcongress.com/issues/education",
+      "title": "Education",
+      "publisher": "Brian Lambert for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s21",
+      "url": "https://www.brianlambertforcongress.com/issues/energy",
+      "title": "Energy & American Independence",
+      "publisher": "Brian Lambert for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s23",
+      "url": "https://www.brianlambertforcongress.com/issues/fiscal-responsibility",
+      "title": "Fiscal Responsibility",
+      "publisher": "Brian Lambert for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s24",
+      "url": "https://www.brianlambertforcongress.com/issues/veterans",
+      "title": "Veterans",
+      "publisher": "Brian Lambert for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s25",
+      "url": "https://www.tampabay28.com/news/election-2026/meet-the-candidates-questionnaire-for-us-district-14",
+      "title": "Meet the candidates: Questionnaire for US District 14",
+      "publisher": "Tampa Bay 28 (WFTS)",
+      "kind": "news"
+    },
+    {
+      "id": "s26",
+      "url": "https://votevarian2026.com/blueprint.html",
+      "title": "Social Security: The Varian Plan",
+      "publisher": "Keith Varian campaign website",
       "kind": "candidate"
     }
   ],

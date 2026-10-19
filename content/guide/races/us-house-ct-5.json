@@ -170,13 +170,35 @@
       "incumbent": false,
       "ballotNote": "Defeated Jonathan De Barros in the August 11, 2026 Republican primary",
       "summary": {
-        "text": "Chris Shea is the Republican nominee for Connecticut's 5th Congressional District, having won a contested primary. Ballotpedia's profile of Shea contains no biographical details, and he has not completed Ballotpedia's Candidate Connection survey.",
+        "text": "Chris Shea is the Republican nominee for Connecticut's 5th Congressional District, having won a contested primary. Ballotpedia lists him as a former U.S. Navy member whose career includes work as a firefighter and paramedic.",
         "sources": [
           "s3"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lowering the cost of living, including energy costs and the tax burden.",
+          "quote": "He will fight for policies that lower energy costs, reduce the tax burden, and promote practical housing solutions",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Stopping illegal immigration and securing the border.",
+          "quote": "Chris will always fight to secure the border, enforce our immigration laws, and stop the flow of fentanyl and other deadly drugs into our neighborhoods.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Supporting veterans, including access to VA care.",
+          "quote": "Chris will fight to improve access to the VA, cut through bureaucratic delays, and make it easier for veterans to get quality healthcare, job opportunities, and the benefits they have earned through their service.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "transgender_sports",
@@ -190,7 +212,18 @@
       ],
       "record": [],
       "website": "https://www.chrissheaforcongress.com",
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Chris will always fight to secure the border, enforce our immigration laws, and stop the flow of fentanyl and other deadly drugs into our neighborhoods.",
+          "context": "On his campaign website",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from the issues page of his campaign website (third-person text) and his 2026 Ballotpedia Candidate Connection survey. No debate or interview coverage was reviewed."
     }
   ],
   "sources": [
@@ -212,8 +245,8 @@
       "id": "s3",
       "url": "https://ballotpedia.org/Chris_Shea",
       "title": "Chris Shea",
-      "publisher": "Ballotpedia",
-      "kind": "reference"
+      "publisher": "Ballotpedia (profile and Candidate Connection survey)",
+      "kind": "candidate"
     },
     {
       "id": "s4",
@@ -266,8 +299,15 @@
       "title": "H.R. 2743 - Raise the Wage Act of 2025 (119th Congress)",
       "publisher": "Congress.gov",
       "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.chrissheaforcongress.com/issues/",
+      "title": "Issues",
+      "publisher": "Chris Shea for Congress (campaign site)",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No campaign website content, Candidate Connection survey, or independent news coverage of Chris Shea's platform was found; his entry reflects the limited public record available despite his having won a contested primary. Rep. Hayes's federal key votes and FEC finance totals are added separately by script."
+  "researchNotes": "Chris Shea's entry draws on his campaign website and 2026 Ballotpedia Candidate Connection survey; no independent news coverage of his platform was found. Rep. Hayes's federal key votes and FEC finance totals are added separately by script."
 }
