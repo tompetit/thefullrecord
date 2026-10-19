@@ -279,7 +279,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "No campaign website or public statements found; BallotReady lists only a Facebook page and military and digital-creator background."
     },
     {
       "id": "kevin-vayko",
@@ -299,7 +299,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "No campaign website found; Ballotpedia shows no completed Candidate Connection survey and BallotReady lists only a LinkedIn page."
     },
     {
       "id": "john-vlahos",
@@ -319,7 +319,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "No campaign website, FEC activity, biography or public statements found."
     },
     {
       "id": "jim-walkowicz",
@@ -335,11 +335,65 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "In a 2022 Michigan Public interview (his prior run for this seat): the economy, good jobs and a healthy environment.",
+          "quote": "the economy and good jobs and healthy lifestyle. A healthy environment.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "In a 2022 Michigan Public interview: affordable housing, good schools, safe environments and a working public health system.",
+          "quote": "Affordable housing, good schools, safe environments. You know, a public health system that actually works.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a 2022 Michigan Public interview, he said Congress should pass laws guaranteeing a right to control one's own body without government interference.",
+          "quote": "I think Congress needs to pass laws that guarantee a right for a woman to control her own body without government interference.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "mixed",
+          "summary": "In a 2022 Michigan Public interview, he said he is against assault weapons but that banning them is not a simple answer without addressing underlying causes.",
+          "quote": "I'm absolutely against assault weapons. That's just crazy. But I think it's not as simple as saying ban them, because I think you have to look at the bigger issue.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchDepth": "basic",
+      "researchNotes": "No 2026 campaign website or 2026 interviews found. Statements come from an October 2022 Michigan Public interview from his prior run for this seat; he may have updated his views since.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "I think we have to look at a cleaner, greener economy.",
+          "context": "In a 2022 Michigan Public interview (his prior run for this seat)",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "a public health system that actually works",
+          "context": "In a 2022 Michigan Public interview (his prior run for this seat)",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -420,6 +474,14 @@
       "title": "McClain's Statement on the U.S. House Passing the Protection of Women and Girls in Sports Act",
       "publisher": "Office of Rep. Lisa McClain",
       "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.michiganpublic.org/politics-government/2022-10-12/meet-9th-district-working-class-party-candidate-jim-walkowicz",
+      "title": "Meet 9th District Working Class Party candidate Jim Walkowicz",
+      "publisher": "Michigan Public",
+      "kind": "news",
+      "date": "2022-10-12"
     }
   ],
   "researchedAt": "2026-09-25"
