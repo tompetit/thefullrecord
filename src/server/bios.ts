@@ -12,6 +12,8 @@ export interface Bio {
   bio: Cited[];
   sources: GuideSource[];
   researchedAt: string;
+  /** false = written from the cited sources but not yet given the independent second check */
+  factChecked?: false;
 }
 
 const cache = new Map<string, Bio | null>();
