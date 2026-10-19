@@ -60,7 +60,7 @@ export default async function VotePage({ params }: { params: Params }) {
   const rows = (["D", "R", "other"] as const).filter((p) => tally[p]);
 
   return <main className="mx-auto w-full max-w-4xl flex-1 px-4 pb-12 sm:px-6">
-    <nav aria-label="Breadcrumb" className="pt-5 text-[12.5px] text-ink-60"><Link href="/votes" className="inline-flex min-h-11 items-center hover:text-ink">‹ Contested votes</Link></nav>
+    <nav aria-label="Breadcrumb" className="pt-5 text-[12.5px] text-ink-60"><Link href="/votes" className="inline-flex min-h-11 items-center hover:text-ink">‹ Explore the votes</Link></nav>
     <header className="border-b border-card pb-6">
       <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[11px] font-semibold tracking-wide text-ink-60"><span>{chamber}</span><span aria-hidden="true">/</span><span>{roll.bill || "Vote"}</span><time className="sm:ml-auto" dateTime={roll.date}>{roll.dateLabel}</time></div>
       <h1 className="mt-3 font-serif text-3xl font-semibold leading-tight tracking-tight text-ink sm:text-4xl">{roll.title}</h1>

@@ -9,9 +9,9 @@ import { getDataSource } from "@/server/datasource";
 import { getIssueRecords } from "@/server/issues";
 
 export const metadata: Metadata = {
-  title: "The votes that divided them — The Full Record",
+  title: "Explore the votes by issue — The Full Record",
   referrer: "no-referrer",
-  description: "Roll calls where legislators split, ranked by how close the vote was and how far apart the parties voted. Filter by state, chamber or issue, with links to official records.",
+  description: "Start with housing, health, education or another issue. Explore recorded legislative votes and see how your representatives voted, with links to official records.",
 };
 
 const ERRORS = {
@@ -62,7 +62,7 @@ export default async function IssuesPage({ searchParams }: { searchParams: Promi
 
   return <main className="mx-auto w-full max-w-7xl flex-1 px-4 pb-12 sm:px-6 lg:px-10">
     <section className="grid gap-8 border-b border-card py-9 sm:py-12 lg:grid-cols-[1.3fr_1fr] lg:gap-14">
-      <div><p className="text-[11px] font-bold tracking-[0.16em] text-accent-deep">CONTESTED VOTES</p><h1 className="mt-4 max-w-xl font-serif text-4xl font-semibold leading-[1.1] tracking-tight text-ink sm:text-5xl">The votes that<br className="hidden sm:block" /> divided them.</h1><p className="mt-5 max-w-lg text-base leading-relaxed text-ink-60">Unanimous votes don’t tell you much. These are the roll calls where legislators split — ranked by how close the vote was and how far apart the parties voted. <Link href="/coverage#party-splits" className="inline-flex min-h-11 items-center font-semibold text-accent-deep underline">How we rank</Link></p></div>
+      <div><p className="text-[11px] font-bold tracking-[0.16em] text-accent-deep">THE RECORD, BY ISSUE</p><h1 className="mt-4 max-w-xl font-serif text-4xl font-semibold leading-[1.1] tracking-tight text-ink sm:text-5xl">Start with what<br className="hidden sm:block" /> matters to you.</h1><p className="mt-5 max-w-lg text-base leading-relaxed text-ink-60">Housing. Health care. Your daily commute. Find the votes behind the issues, then read what your representatives actually did. Most contested votes first. <Link href="/coverage#party-splits" className="inline-flex min-h-11 items-center font-semibold text-accent-deep underline">How we rank</Link></p></div>
       <div className="self-start rounded-xl border border-card-strong bg-paper-raised p-5 sm:p-6"><p className="text-[11px] font-bold tracking-widest text-accent-deep">MAKE IT LOCAL</p><h2 className="mt-2 font-serif text-2xl font-semibold text-ink">How did your representatives vote?</h2><p className="mt-3 text-sm leading-relaxed text-ink-60">{LOOKUP_SCOPE}</p><IssueAddressForm key={address} initialAddress={address} /><p className="mt-3 text-[11px] leading-relaxed text-ink-60">No sign-up. Address lookup uses public geocoding services. The address appears in this page’s URL; remove it before sharing.</p></div>
     </section>
     {invalidAddress && <div role="alert" className="mt-6 rounded-lg border border-umber-tint-border bg-umber-tint p-4 text-sm leading-relaxed text-umber-deep">Please enter an address of 300 characters or fewer. Showing all tracked records until a valid address is submitted.</div>}
