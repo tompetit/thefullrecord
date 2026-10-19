@@ -11,6 +11,9 @@
  * whose parsed yes/no counts differ from the printed tally is dropped. Not voting / excused / absent are stored as
  * "absent". Maryland prints no per-vote summary, so none is stored.
  *
+
+ * The House prints the member in the chair as "Speaker" (not by name); resolved per sheet by elimination (see below). Senate
+ * "Mr. President" = Bill Ferguson. Dropped: sheets without a bill, consent calendars, and tally mismatches.
  * Needs pypdf (PYTHONPATH to a pip --target dir), text extracted by pdf-batch.py.
  * Cache: --work (default ~/.cache/md-leg); about 2.6 requests/second.
  * Run: node scripts/ingest/md-leg.mjs [--work dir] [--download-only]
@@ -71,32 +74,39 @@ function csv(src) {
   return body.filter((r) => r.length === head.length).map((r) => Object.fromEntries(head.map((h, i) => [h, r[i]])));
 }
 const people = csv(await (await politeGet("https://data.openstates.org/people/current/md.csv")).text());
+const NICK = { bob: "r", bill: "w" }; // sheets print the formal initial (Long, R. = Bob Long)
 const cands = [];
-for (const p of people) cands.push({ id: p.id, given: norm(p.given_name), names: new Set([norm(p.family_name), norm(p.family_name.split(" ").at(-1))]), chamber: p.current_chamber });
+for (const p of people) cands.push({ id: p.id, given: norm(p.given_name), names: new Set([norm(p.family_name), ...p.family_name.split(" ").map(norm)]), nick: NICK[norm(p.given_name)], chamber: p.current_chamber });
 try {
   const listing = await (await politeGet("https://api.github.com/repos/openstates/people/contents/data/md/retired", { headers: { Accept: "application/vnd.github+json" } })).json();
   for (const { name } of listing) {
     const m = /^(.+)-([0-9a-f]{8}-[0-9a-f-]{27})\.yml$/.exec(name);
     if (!m) continue;
     const [given, ...rest] = m[1].split("-").filter((t) => t.length > 1);
-    cands.push({ id: `ocd-person/${m[2]}`, given: norm(given), names: new Set([norm(rest.join("")), norm(rest.at(-1) ?? "")]), chamber: null });
+    cands.push({ id: `ocd-person/${m[2]}`, given: norm(given), nick: NICK[norm(given)], names: new Set([norm(rest.join("")), ...rest.map(norm)]), chamber: null });
   }
 } catch (e) { console.warn(`retired-member list unavailable (${e.message}); departed members stay unmatched`); }
 const unmatched = new Map(), ambiguous = new Map();
 const bump = (m, k) => m.set(k, (m.get(k) ?? 0) + 1);
 /** Open States id for a sheet name ("Surname" or "Surname, X."); null (and counted) when unknown or ambiguous. */
 function person(chamber, name) {
-  const [surname, initials] = name.split(/\s*,\s*/);
+  const [surname, initials] = name.replace(/\*$/, "").split(/\s*,\s*/);
   const k = norm(surname), i = norm(initials ?? "")[0];
-  const bySurname = cands.filter((c) => c.names.has(k));
+  let bySurname = cands.filter((c) => c.names.has(k));
+  if (!bySurname.length) { const last = norm(surname.split(" ").at(-1)); bySurname = cands.filter((c) => c.names.has(last)); } // "Lewis Young" -> Young
   for (const stage of [bySurname.filter((c) => c.chamber === chamber), bySurname.filter((c) => !c.chamber), bySurname.filter((c) => c.chamber && c.chamber !== chamber)]) {
     let ids = [...new Set(stage.map((c) => c.id))];
-    if (ids.length > 1 && i) ids = [...new Set(stage.filter((c) => c.given[0] === i).map((c) => c.id))];
+    if (i) ids = [...new Set(stage.filter((c) => c.given[0] === i || c.nick === i).map((c) => c.id))];
     if (ids.length === 1) return ids[0];
     if (ids.length > 1) { bump(ambiguous, `${chamber}:${name}`); return null; }
   }
   return null;
 }
+
+// A bare "Jackson" is printed while only one Jackson sits in the chamber: Carl Jackson was a Delegate until Feb 4 2025 and
+// then a Senator (printed "Jackson, C."); Michael Jackson was the only Senate Jackson before that and left before 2026.
+const MICHAEL = "ocd-person/66fe4760-a59b-4503-98d4-875408b7352f", CARL = "ocd-person/4eb57c5a-70c0-4b16-a247-53cf291bc38a";
+const jackson = (chamber, date) => (chamber === "upper" && date < "2025-02-05" ? MICHAEL : CARL);
 
 // --- Parse.
 const SECTION = /^\s*(Voting Yea|Voting Nay|Not Voting|Excused from Voting|Excused \(Absent\))\s*-\s*(\d+)\s*$/;
@@ -112,7 +122,7 @@ function parse(t) {
   for (const line of lines.slice(ti + 1)) {
     const s = SECTION.exec(line);
     if (s) { section = s[1]; counts[section] = +s[2]; continue; }
-    if (!section || /^\s*(\* Indicates|- COPY -)/.test(line)) continue;
+    if (!section || /Indicates Vote Change|COPY/.test(line)) continue;
     for (const name of line.trim().split(/\s{2,}/)) if (name) votes.push({ pos: POS[section], name, change: name.startsWith("*") });
   }
   for (const v of votes) v.name = v.name.replace(/^\*\s*/, "");
@@ -122,6 +132,7 @@ function parse(t) {
   return { yes: +tally[1], no: +tally[2], counts, votes, head, date: `${d[3]}-${String(MONTHS.indexOf(d[1]) + 1).padStart(2, "0")}-${d[2].padStart(2, "0")}`, presiding: /Presiding:\s*(.*?)\s{2,}/.exec(t)?.[1] };
 }
 
+// Date is the "Calendar Date" timestamp of the vote; "Legislative Date" is the journal day and can lag it by days.
 const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const dropped = {}, droppedIds = {};
@@ -139,16 +150,21 @@ for (const f of files) {
   if (bi < 0) { drop("no-bill (citation or other)", id); continue; }
   const m = /^((?:HB|SB|HJ|SJ)\s*\d+)\s*(.*)$/.exec(r.head[bi]);
   const bill = m[1].replace(/\s+/, " ");
-  const stage = m[2].trim();
+  const special = m[2].startsWith("-"), stage = special ? "Veto override" : m[2].trim(); // Special Order sheets: "HB 1258 - Delegate Embry"
   // Next line is the sponsor / committee ("Delegate X et al   (W&M)"), then the short title, then the question lines.
-  const tail = r.head.slice(bi + 2);
+  const tail = r.head.slice(bi + (special ? 1 : 2));
   const qi = tail.findIndex((l) => /^(On |Bill is |Favorable|Unfavorable|FLA |Motion|Amendment|Concur|Reconsider|\((Amend|Const|[A-Z&]{2,5})\)|Shall )/i.test(l));
   const title = tail.slice(0, qi < 0 ? tail.length : qi).join(" ").replace(/\s+/g, " ").trim();
   const question = [stage, ...(qi < 0 ? [] : tail.slice(qi))].map((s) => s.replace(/\s+\(\w+\)\s*$/, "").trim()).filter(Boolean).join(" · ").replace(/\s+/g, " ");
   if (!title) { drop("no-title", id); continue; }
   const votes = {};
+  // The House prints whoever holds the chair as "Speaker" and omits that member's own name: Jones, A. (Jan-Apr 2025),
+  // Stein (Feb 24-Mar 6 2025 while Jones was excused), Pena-Melnyk (2026), Clippinger (presiding in 2026). Resolve by elimination.
+  const named = new Set(r.votes.map((v) => norm(v.name.replace(/\*$/, ""))));
+  const speakers = chamber === "lower" && r.votes.some((v) => v.name === "Speaker") ? ["Jones, A.", "Pena-Melnyk", "Stein", "Clippinger"].filter((n) => !named.has(norm(n))) : [];
+  if (chamber === "lower" && r.votes.some((v) => v.name === "Speaker") && speakers.length !== 1) { drop("speaker-unresolved", id); continue; }
   for (const { pos, name } of r.votes) {
-    const pid = name === "Mr. President" ? person("upper", "Ferguson, W") : person(chamber, name);
+    const pid = name === "Mr. President" ? person("upper", "Ferguson, W") : name === "Jackson" ? jackson(chamber, r.date) : person(chamber, name === "Speaker" ? speakers[0] : name);
     if (!pid) { bump(unmatched, `${chamber}:${name}`); continue; }
     votes[pid] = pos;
   }
@@ -158,12 +174,14 @@ for (const f of files) {
   rolls[chamber].push({
     id, bill, title, question: question || undefined,
     kind: classify({ motion_text: question, motion_classification: /Third Reading|Final|Special Order|Concur|Enact/i.test(question) ? ["passage"] : [] }),
-    outcome: `${r.yes > r.no ? "Passed" : "Failed"} ${r.yes}–${r.no}`, // majority vote; supermajority/veto questions are not distinguished
+    outcome: `${(/notwithstanding the objections/i.test(question) ? r.yes * 5 >= (r.yes + r.no) * 3 : r.yes > r.no) ? "Passed" : "Failed"} ${r.yes}–${r.no}`, // veto override needs 3/5; other supermajority questions are not distinguished
     date: r.date, dateLabel: `${MONTHS[Number(r.date.slice(5, 7)) - 1]} ${Number(r.date.slice(8, 10))}, ${r.date.slice(0, 4)}`,
     sourceUrl: `${SITE}/${f.ses}/votes/${f.ch}/${f.nnnn}.pdf`, votes,
   });
 }
 
+console.log("dropped:", dropped);
+console.log("unmatched:", JSON.stringify(Object.fromEntries(unmatched)).slice(0,1500), "ambig:", JSON.stringify(Object.fromEntries(ambiguous)));
 for (const chamber of ["lower", "upper"]) {
   const list = rolls[chamber];
   list.sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id, "en", { numeric: true }));
@@ -178,7 +196,6 @@ for (const chamber of ["lower", "upper"]) {
   }, { compact: true });
   console.log(`${chamber}: ${list.length} roll calls, ${list.at(-1)?.date} to ${list[0]?.date}`);
 }
-console.log("dropped:", dropped);
 console.log("ambiguous (votes dropped):", Object.fromEntries(ambiguous));
 console.log("unmatched members (votes dropped):", Object.fromEntries(unmatched));
 console.log("dropped ids:", JSON.stringify(Object.fromEntries(Object.entries(droppedIds).map(([k, v]) => [k, v.slice(0, 40)]))));
