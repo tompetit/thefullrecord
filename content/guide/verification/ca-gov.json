@@ -11,5 +11,16 @@
     "Removed 'has not previously held elected office' for Hilton (no cited source states it).",
     "Replaced unsupported '12-term member of Congress' with 'member of Congress (1993-2017)'.",
     "Verified Becerra AG coalition petition (20 states and D.C., Jan 3 2020, Fifth Circuit decision in Texas v. U.S.) on the official California AG press release; CalMatters positions all matched."
-  ]
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 45,
+    "corrected": 4,
+    "removed": 6,
+    "notes": [
+      "Positions had been drawn only from CalMatters reporter summaries. Removed Becerra immigration and tax_wealthy positions and Hilton immigration, tax_wealthy, school_choice and transgender_sports positions (no own statement found).",
+      "Re-based Becerra housing_supply, healthcare_public and climate positions on his campaign issue pages with verbatim quotes (new sources s11-s13); re-based Hilton climate and guns positions on his campaign policy pages (s14-s15, fetched via WebFetch); Becerra climate changed from mixed to supports.",
+      "Hilton gas-tax priority reworded: his $3 gas page proposes removing the 60-cent excise tax, not halving it (s16). Slate re-confirmed on the SOS certified list."
+    ]
+  }
 }

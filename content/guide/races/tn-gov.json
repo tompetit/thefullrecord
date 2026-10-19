@@ -27,9 +27,10 @@
       ]
     },
     {
-      "text": "Thirteen independents qualified for the November ballot by petition, making 15 governor candidates in total. They are listed by WSMV, and the Tennessee Firefly reports the same count from the Secretary of State's qualifier list.",
+      "text": "Thirteen independents qualified for the November ballot by petition, making 15 governor candidates in total. They are listed by WSMV and the Nashville Banner voter guide, and the Tennessee Firefly reports the same count from the Secretary of State's qualifier list.",
       "sources": [
         "s2",
+        "s32",
         "s3"
       ]
     }
@@ -112,19 +113,11 @@
         {
           "issue": "abortion",
           "stance": "opposes",
-          "summary": "Her campaign says she is 'one hundred percent pro-life' and has supported legislation to end federal funding of abortion.",
+          "summary": "Her campaign says she is 100 percent pro-life and has supported legislation to help end federal funding of abortion.",
           "sources": [
             "s5"
           ],
           "quote": "Marsha is 100 percent pro-life."
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says the Second Amendment is one of the most important freedoms and that she will pursue policies to prevent gun violence while protecting it, with a focus on mental health reform.",
-          "sources": [
-            "s6"
-          ]
         },
         {
           "issue": "immigration_enforcement",
@@ -135,14 +128,6 @@
             "s4"
           ],
           "quote": "Marsha backs President Trump's immigration policy 100 percent"
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Describes herself as committed to low-tax, pro-growth policies and led the campaign against a state income tax.",
-          "sources": [
-            "s8"
-          ]
         },
         {
           "issue": "school_choice",
@@ -341,11 +326,11 @@
       "incumbent": false,
       "ballotNote": "Independent; qualified by petition.",
       "summary": {
-        "text": "David Hatley is an independent candidate for governor and a businessman from Gray in Washington County. He says he has built nine companies and a hot tub manufacturing plant in East Tennessee. A September 2026 poll listed on Wikipedia showed him at 10%.",
+        "text": "David Hatley is an independent candidate for governor and a businessman from Gray in Washington County. He says he has built nine companies and a hot tub manufacturing plant in East Tennessee. A mid-September TargetSmart poll of 600 likely voters, reported by the Nashville Banner, showed him at 10%; the poll was paid for by a PAC that has funded Democratic nominee Jerri Green's campaign.",
         "sources": [
           "s18",
           "s30",
-          "s1"
+          "s31"
         ]
       },
       "background": [
@@ -399,12 +384,21 @@
       "incumbent": false,
       "ballotNote": "Independent; qualified by petition.",
       "summary": {
-        "text": "Misam Abidi of Nolensville is an independent candidate for governor who qualified by petition. His campaign materials describe a background as a personal banker and focus on financial education and emerging technology.",
+        "text": "Misam Abidi of Nolensville is an independent candidate for governor who qualified by petition. His campaign site describes past work as a personal banker, and his platform pillars include crypto innovation, a proposed Tennessee Dividend Fund and a Tennessee Skills Guarantee.",
         "sources": [
           "s20"
         ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Allegation, not a conviction: on June 12, 2026 the U.S. Attorney's Office for the Western District of Tennessee announced an 11-count federal indictment of Misam M. Abidi (three counts of wire fraud, two of operating an unlicensed money transmitting business, three of aiding in the preparation of false tax returns and three of money laundering) over his cryptocurrency investment firm Star Credit Holdings, alleging he diverted over $1.9 million of investor funds. WREG and WSMV report that he is the independent candidate for governor. Charges are allegations; the guide found no report of a verdict.",
+          "sources": [
+            "s35",
+            "s33",
+            "s34"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
@@ -650,13 +644,6 @@
       "kind": "candidate"
     },
     {
-      "id": "s6",
-      "url": "https://marshablackburn.com/issue/safeguarding-our-second-amendment-rights/",
-      "title": "Safeguarding our Second Amendment rights",
-      "publisher": "Marsha Blackburn for Governor",
-      "kind": "candidate"
-    },
-    {
       "id": "s7",
       "url": "https://marshablackburn.com/issue/stopping-the-scourge-of-illegal-immigration/",
       "title": "Stopping the scourge of Illegal Immigration",
@@ -827,8 +814,47 @@
       "title": "David Hatley for Governor",
       "publisher": "Hatley for Governor",
       "kind": "candidate"
+    },
+    {
+      "id": "s31",
+      "url": "https://nashvillebanner.com/2026/09/18/jerri-green-marsha-blackburn-tennessee-poll/",
+      "title": "New poll says Jerri has closed on Marsha Blackburn",
+      "publisher": "Nashville Banner",
+      "kind": "news",
+      "date": "2026-09-18"
+    },
+    {
+      "id": "s32",
+      "url": "https://nashvillebanner.com/2026-voters-guide/",
+      "title": "2026 Voter's Guide",
+      "publisher": "Nashville Banner",
+      "kind": "news"
+    },
+    {
+      "id": "s33",
+      "url": "https://wreg.com/news/mid-south/tn-man-accused-of-cryptocurrency-ponzi-scheme-indicted/amp/",
+      "title": "Man indicted in alleged cryptocurrency Ponzi scheme",
+      "publisher": "WREG Memphis",
+      "kind": "news",
+      "date": "2026-06-12"
+    },
+    {
+      "id": "s34",
+      "url": "https://www.wsmv.com/2026/09/28/election-2026-heres-everything-you-need-know-about-tns-candidates-governor-congress/",
+      "title": "Election 2026: Here's everything you need to know about TN's candidates for governor and Congress",
+      "publisher": "WSMV",
+      "kind": "news",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "s35",
+      "url": "https://www.irs.gov/compliance/criminal-investigation/middle-tennessee-man-indicted-for-crypto-ponzi-scheme",
+      "title": "Middle Tennessee man indicted for crypto Ponzi scheme",
+      "publisher": "IRS Criminal Investigation",
+      "kind": "official",
+      "date": "2026-06-12"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Ballotpedia was blocked, so the 15-candidate slate comes from a WSMV election guide (Oct. 14, 2026) and The Tennessee Firefly's candidate pages (which cite the Secretary of State's certified list), cross-checked with Wikipedia; the Secretary of State list itself could not be loaded. Blackburn's positions are from her campaign issue pages and Green's from her campaign platform; only positions with direct sources are listed. Federal key votes for Blackburn are expected to be added by script. Hatley is listed at the basic tier because a September 2026 poll cited on Wikipedia showed him at 10%; the underlying poll was not loaded. Minimal-tier summaries for independents rely on The Tennessee Firefly (which draws on Politics1, campaign sites and Ballotpedia) because Ballotpedia could not be read; occupation descriptions that the Firefly could not corroborate are stated as 'listed as'. A June 2026 federal indictment of a man named Misam M. Abidi of Nolensville was published by a federal agency; the Firefly reports he is the candidate, but the identification could not be independently confirmed here, so the indictment is not included in his entry."
+  "researchNotes": "Ballotpedia and the Tennessee Secretary of State candidate-list PDF were blocked, so the 15-candidate slate was checked against three independent news lists that agree exactly (WSMV Oct. 14, Nashville Banner voter guide, WSMV Sept. 28 candidate guide) and The Tennessee Firefly's candidate pages (which cite the Secretary of State's certified list). Blackburn's positions are from her campaign issue pages and Green's from her campaign platform; only positions with direct sources are listed. Federal key votes for Blackburn are expected to be added by script. Hatley is listed at the basic tier because a September 2026 TargetSmart poll reported by the Nashville Banner showed him at 10%. Minimal-tier summaries for independents rely on The Tennessee Firefly (which draws on Politics1, campaign sites and Ballotpedia) because Ballotpedia could not be read; occupation descriptions that the Firefly could not corroborate are stated as 'listed as'. Primary-result percentages come from Wikipedia's results tables."
 }
