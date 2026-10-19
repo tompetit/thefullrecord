@@ -108,6 +108,23 @@ export interface StandoutInput {
   meta: Omit<StandoutVote, "vote" | "partySide" | "breakdown">;
 }
 
+/** A member's vote on one of the most contested roll calls of their chamber. */
+export interface ContestedVote {
+  id: string;
+  href: string;
+  title: string;
+  date: string;
+  dateLabel: string;
+  sourceUrl: string;
+  outcome: string;
+  vote: "yes" | "no";
+  /** Side most of the member's party took; absent when the party had no clear side */
+  partySide?: "yes" | "no";
+  /** e.g. "Democrats 210–2, Republicans 3–215" (yes–no) */
+  breakdown: string;
+  tally: [number, number];
+}
+
 export const MIN_DIVIDED = 5;
 const NAMES: Record<string, string> = { D: "Democrats", R: "Republicans" };
 

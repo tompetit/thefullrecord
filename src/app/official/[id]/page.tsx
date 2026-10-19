@@ -6,7 +6,8 @@ import { ProfileTabs } from "@/components/ProfileTabs";
 import { SourceLink } from "@/components/SourceLink";
 import { StandoutSection } from "@/components/StandoutSection";
 import { getDataSource } from "@/server/datasource";
-import { standoutForDistrict } from "@/server/standout";
+import { ContestedVotesSection } from "@/components/ContestedVotesSection";
+import { contestedForDistrict, standoutForDistrict } from "@/server/standout";
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const official = await getDataSource().getOfficial((await params).id);
@@ -42,6 +43,7 @@ export default async function OfficialPage({
     ]);
 
   const standout = standoutForDistrict(official.districtKey);
+  const contested = contestedForDistrict(official.districtKey);
 
   const roleLine = official.locality
     ? `${official.role} · ${official.locality}`
@@ -172,6 +174,7 @@ export default async function OfficialPage({
         {/* Feed */}
         <div className="mt-6 flex flex-col gap-4 lg:mt-0">
           {standout && <StandoutSection standout={standout} />}
+          <ContestedVotesSection votes={contested} allHref={`/votes${address ? `?address=${encodeURIComponent(address)}&show=reps-split` : ""}`} />
           <ProfileTabs
             official={official}
             initialVotes={votes}
