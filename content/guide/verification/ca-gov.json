@@ -22,5 +22,18 @@
       "Re-based Becerra housing_supply, healthcare_public and climate positions on his campaign issue pages with verbatim quotes (new sources s11-s13); re-based Hilton climate and guns positions on his campaign policy pages (s14-s15, fetched via WebFetch); Becerra climate changed from mixed to supports.",
       "Hilton gas-tax priority reworded: his $3 gas page proposes removing the 60-cent excise tax, not halving it (s16). Slate re-confirmed on the SOS certified list."
     ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 52,
+    "corrected": 5,
+    "removed": 0,
+    "notes": [
+      "Re-rendered all five Hilton/Becerra campaign pages in headless Chromium and matched every quote (Hilton climate and guns; Becerra housing, health care, energy) verbatim against page innerText; no quote changes needed.",
+      "Hilton income-tax priority said $150,000 but was cited only to CalMatters and the $3-gas page, neither of which states it; now cited to Hilton's own tax page (s17, first $150,000 untaxed, 8% above) and the starter-home priority to his starter-home page (s18: fee reductions, fast-track approvals, state-backed starter home loan program).",
+      "Becerra priority claimed cutting 'insurers' administrative spending'; his health page speaks of eliminating duplicative oversight requirements, so the text was reworded to match. Housing emergency now says 'nearly 40,000' units per his page; insurance/utility-rate freeze is CalMatters' account of his emergency declaration.",
+      "Becerra 'immigration and environment' resistance claim was not in the cited sources; reworded to the sourced fact that he sued the Trump administration more than 120 times as AG (s8, AP s2).",
+      "Confirmed: SOS certified list (8/27/2026) shows only Becerra (D) and Hilton (R); Ballotpedia News 28%/25%; AP: Steyer spent $215 million and urged support for Becerra; AG press release (20 states and D.C., Jan 3 2020); Wikipedia bio dates."
+    ]
   }
 }
