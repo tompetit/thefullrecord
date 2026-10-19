@@ -169,11 +169,52 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Campaign website lists ten issue areas: schools, jobs and the trades, the federal budget, housing, wages, prescription drug costs, community hospitals, crime and policing, the Second Amendment, and defense.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Keep federal law focused on people who have actually done something, no national gun registry, and apply the Constitution consistently across every right it protects.",
+          "context": "Summary of 'The Second Amendment' on his campaign website's home page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Fund law enforcement properly, fix the federal side of the pretrial release problem, and appoint judges who read the law as written rather than legislate from the bench.",
+          "context": "Summary of 'Crime and Policing' on his campaign website's home page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "quote": "A full-time wage should clear the cost of living and keep pace with inflation, without compressing the ladder that makes taking on more responsibility worth it.",
+          "context": "Summary of 'Wages and Working Families' on his campaign website's home page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Open unused federal land for people to build on, give mortgage terms a real hearing, and keep lending standards honest so we do not repeat the 2000s.",
+          "context": "Summary of 'Housing' on his campaign website's home page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign website (kevinmartinforcongress.org) home page summarizes ten issue areas in one or two sentences each; the linked individual issue pages returned 404 when fetched, so only those summaries are quoted. Nothing found on abortion, immigration, taxes on high earners, tariffs, or other listed issues."
     }
   ],
   "sources": [
@@ -230,6 +271,14 @@
       "publisher": "Office of Rep. Lucy McBath",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://kevinmartinforcongress.org/",
+      "title": "Kevin Martin for Congress | Georgia's 6th District, 2026",
+      "publisher": "Kevin Martin for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25"
