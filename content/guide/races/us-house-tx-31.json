@@ -109,6 +109,13 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "text": "In a Community Impact candidate Q&A, lists lowering costs for working families, responsible AI and data protection, and strengthening democracy as his top priorities.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "Lowering costs for working families, responsible AI and data protection, and strengthening democracy."
         }
       ],
       "positions": [
@@ -117,21 +124,43 @@
           "stance": "supports",
           "summary": "Says he would work to shift the tax burden off working families, saying people should not pay a higher share than the wealthiest.",
           "sources": [
-            "s4"
-          ]
+            "s4",
+            "s7"
+          ],
+          "quote": "Lower taxes for everyday Americans—if you work hard, you shouldn't pay more than billionaires. Let's shift the tax burden off working families and onto those who can afford it."
         },
         {
           "issue": "school_choice",
           "stance": "opposes",
-          "summary": "Lists keeping public dollars in public schools among his goals in his Ballotpedia Candidate Connection survey answers.",
-          "quote": "keeping public dollars in public schools",
+          "summary": "Says he will resist a national school voucher scheme and keep public dollars in public schools.",
+          "quote": "Resist any attempts to impose a national school voucher scheme. Public dollars belong in public schools, not diverted to unaccountable private or religious institutions.",
           "sources": [
-            "s6"
-          ]
+            "s6",
+            "s7"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Overturn Trump-era policies that weaponized immigration enforcement against communities of color. I will ensure that immigration enforcement focuses on real threats, not sowing fear in immigrant neighborhoods.",
+          "context": "On the immigration section of his campaign issues page",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Support America's first responders—police, fire, and EMS—so they can do their jobs effectively. First responders put their lives on the line for us. I'll make sure they have the resources and support they need to stay safe and save lives.",
+          "context": "On the security section of his campaign issues page",
+          "sources": [
+            "s7"
+          ]
+        }
+      ]
     },
     {
       "id": "greg-stoker",
@@ -148,7 +177,21 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "In his January 2026 campaign launch video, said his new type of politics starts with affordability and accountability for officials.",
+          "sources": [
+            "s9"
+          ],
+          "quote": "It starts with affordability for us, and accountability for officials who sell out Texas to corporations and foreign interests"
+        },
+        {
+          "text": "Said he will not accept money from political action committees or corporate donors, per Middle East Eye.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal"
@@ -196,8 +239,31 @@
       "title": "Justin Early — Candidate Connection survey",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.votejustinearly.com/issues",
+      "title": "Issues - Justin Early for Congress",
+      "publisher": "Justin Early for Congress (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://communityimpact.com/austin/georgetown/election/2026/01/28/qa-hear-from-the-democratic-candidates-running-for-us-house-district-31/",
+      "title": "Election Q&A: Hear from the Democratic candidates running for US House District 31",
+      "publisher": "Community Impact",
+      "kind": "news",
+      "date": "2026-01-28"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.middleeasteye.net/news/former-us-soldiers-turned-palestine-advocates-are-now-running-congress",
+      "title": "Former US soldiers turned Palestine advocates make a run for Congress",
+      "publisher": "Middle East Eye",
+      "kind": "news",
+      "date": "2026-01-27"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Carter's positions are limited to official committee assignments; no 2026 Candidate Connection survey was found for him. No biography, campaign website, or Candidate Connection survey was found for Greg Stoker on Ballotpedia; his entry is minimal. Federal key votes and FEC totals for the incumbent are added separately by script."
+  "researchNotes": "Carter's positions are limited to official committee assignments; no 2026 Candidate Connection survey was found for him. Justin Early's positions and statements come from his campaign issues page (read in a headless browser) and a Community Impact Q&A; no statements on abortion, guns, the minimum wage or other guide issues were found on his site. No biography, campaign website, or Candidate Connection survey was found for Greg Stoker on Ballotpedia; his campaign site (stokerfortexas.com) is behind a bot-verification page and was not read. His entry draws only on press coverage of his January 2026 announcement and is minimal. Federal key votes and FEC totals for the incumbent are added separately by script."
 }
