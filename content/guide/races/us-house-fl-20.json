@@ -214,10 +214,32 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Said in an Aug. 2026 interview that he is firmly pro-life.",
+          "quote": "Soy firmemente provida.",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "website": "https://ballotpedia.org/Brent_Andersen",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Sí, apoyo la Segunda Enmienda. No se puede cambiar la Constitución sin una enmienda constitucional. Ahora bien, si hubiera restricciones razonables para que la gente mala no tenga armas, sí, por supuesto.",
+          "context": "Spanish-language interview with Diario las Américas, Aug. 2, 2026",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Ballotpedia survey and an Aug. 2, 2026 Spanish-language Diario las Américas interview reviewed (quotes appear in Spanish as published). No campaign website found."
     },
     {
       "id": "kedner-maxime",
@@ -228,16 +250,66 @@
       "incumbent": false,
       "ballotNote": "Advanced as the Independent Party of Florida nominee after that primary was canceled",
       "summary": {
-        "text": "Kedner Maxime is the Independent Party of Florida nominee in the general election for Florida's 20th District. No campaign website or detailed public statements were found.",
+        "text": "Kedner Maxime is the Independent Party of Florida nominee in the general election for Florida's 20th District. His campaign website lists issue pages on costs, immigration, healthcare and education.",
         "sources": [
           "s1"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Lower costs: housing, groceries and healthcare.",
+          "quote": "Support responsible federal spending and fair competition that brings inflation down and stops price gouging.",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Healthcare: lower prescription drug costs and protect coverage for people with pre-existing conditions.",
+          "quote": "Protect coverage for people with pre-existing conditions",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Education: raise public-school funding and teacher salaries.",
+          "quote": "Raise public-school funding so classrooms have the resources, materials, and support they need.",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "website": "https://www.maximeforcongress.com",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Deportation of those who commit crimes.",
+          "context": "One of six items on his campaign immigration page, which also lists secure borders and a pathway to citizenship for those who contribute",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Expand access to affordable care for working families, the self-employed, and small-business owners.",
+          "context": "On his campaign healthcare page",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Expand affordable housing so working families, seniors, and young people can find a home they can actually afford.",
+          "context": "On his campaign lower-costs page",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign website issue pages (costs, immigration, healthcare, education) reviewed. The site states no position on abortion, guns or other tracked issues."
     }
   ],
   "sources": [
@@ -310,6 +382,41 @@
       "publisher": "Rep. Debbie Wasserman Schultz",
       "title": "Economy and Jobs - Rep. Debbie Wasserman Schultz",
       "url": "https://wassermanschultz.house.gov/Issues/Issue/?IssueID=15063"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.diariolasamericas.com/florida/precandidato-al-congreso-federal-hay-que-frenar-el-despilfarro-el-fraude-y-el-abuso-n5399803",
+      "title": "Precandidato al Congreso federal: \"Hay que frenar el despilfarro, el fraude y el abuso\" (Spanish-language interview)",
+      "publisher": "Diario las Américas",
+      "kind": "news"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.maximeforcongress.com/immigration",
+      "title": "Immigration: Secure Borders, Humane Path",
+      "publisher": "Kedner Maxime for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.maximeforcongress.com/healthcare",
+      "title": "Healthcare Is a Right",
+      "publisher": "Kedner Maxime for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.maximeforcongress.com/lower-costs",
+      "title": "Lower Costs & Affordability",
+      "publisher": "Kedner Maxime for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.maximeforcongress.com/education",
+      "title": "World-Class Education in Every Zip Code",
+      "publisher": "Kedner Maxime for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
