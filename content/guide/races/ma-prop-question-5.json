@@ -1,0 +1,75 @@
+{
+  "state": "MA",
+  "officeType": "ballot-measure",
+  "office": "Initiated Law (Initiative Petition)",
+  "title": "Question 5: State Revenue Limit & Rebate",
+  "area": "Statewide — all of Massachusetts",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "researchedAt": "2026-10-19",
+  "context": [
+    {
+      "text": "Placed on the ballot by initiative petition: the Information for Voters labels it a law proposed by initiative petition on which no vote was taken by the Senate or the House of Representatives before May 6, 2026. The Legislature's Special Joint Committee on Initiative Petitions issued the legislative reports reproduced in the same booklet.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Not on this ballot: on June 18, 2026 the Supreme Judicial Court ruled that the Attorney General's summary of a separate proposal to lower the state income tax from 5% to 4% was misleading and blocked it from the November ballot.",
+      "sources": [
+        "s2"
+      ]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "Do you approve of a law summarized below, on which no vote was taken by the Senate or the House of Representatives before May 6, 2026? State Revenue Limit & Rebate: This proposed law would change the limit on how much revenue the state can collect in a given year. The proposal would limit state revenue in a given year to the net amount of state revenue from the year before, increased by a rate equal to the average growth of wages and salaries in Massachusetts over the most recent three years. If revenue collected by the state in a given year exceeds the limit, the excess amount would be refunded to taxpayers the following year. The proposed law would include all revenue from the surtax on incomes over $1 million when calculating the revenue limit and when determining whether state revenue exceeds the limit. The provisions of the proposed law would all be effective as of July 1, 2027. The proposed law states that, if any of its parts were declared invalid, the other parts would stay in effect.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "summary": {
+      "text": "The measure would limit state revenue in a given year to the prior year's net revenue increased by the average growth of Massachusetts wages and salaries over the most recent three years, refund any excess to taxpayers the following year, and count all revenue from the surtax on incomes over $1 million in that calculation. It would take effect July 1, 2027. Statement of fiscal consequences (Executive Office for Administration and Finance): The proposed law would put stricter limits on allowable annual revenue growth available for budgeting. As a result, the proposal would reduce the amount of money available to support the state budget, which includes local aid for schools and municipal budgets. The proposal would also reduce the amounts available to build the state’s Stabilization, or “rainy day,” Fund – a reserve of money set aside to help Massachusetts manage economic downturns or emergencies without raising taxes or making major spending cuts. Depending on future conditions, the proposal could change the frequency of statutorily-required refunds to taxpayers.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "yesMeans": "A YES VOTE would change the limit on state revenue collection, tying it to prior year collections plus average wage and salary growth, and provide for a rebate of revenue exceeding that limit.",
+    "noMeans": "A NO VOTE would make no change in the law relative to state revenue collection.",
+    "argumentsFor": [
+      {
+        "text": "In the 150-word argument in favor signed by Taxpayers for an Affordable Massachusetts, as printed in the Information for Voters: \"This proposal modernizes the state’s existing laws to create stronger fiscal guardrails, promote accountability, guard against future tax increases, and ensure government growth reflects what taxpayers can afford. It will not cut state spending for important services like education, transportation, or healthcare.\"",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "In the 150-word argument against signed by Colette Berard, history teacher, of Protect Massachusetts’ Future, as printed in the Information for Voters: \"Question 5 would reduce the state’s ‘Rainy Day’ fund, forcing massive budget cuts to schools, healthcare, affordable housing, and public safety during recessions, when spending to create jobs and support residents is needed most.\"",
+        "sources": [
+          "s1"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.sec.state.ma.us/divisions/elections/download/information-for-voters/archive/IFV_2026%20English.pdf",
+      "title": "2026 Massachusetts Information for Voters (State Election, November 3, 2026)",
+      "publisher": "Secretary of the Commonwealth of Massachusetts",
+      "kind": "official"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.wbur.org/news/2026/06/18/massachusetts-sjc-state-income-tax-ballot-petititon-struck",
+      "title": "Mass. high court blocks state income tax question from November ballot",
+      "publisher": "WBUR",
+      "kind": "news"
+    }
+  ],
+  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions.",
+  "id": "ma-prop-question-5"
+}
