@@ -1,0 +1,39 @@
+{
+  "raceId": "ca-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 48,
+  "corrected": 4,
+  "removed": 1,
+  "unverifiable": 0,
+  "notes": [
+    "Slate confirmed against the California Secretary of State Official Certified List of Candidates (dated 2026-08-27): exactly two governor candidates, Xavier Becerra (Democratic) and Steve Hilton (Republican). Added the official PDF as source s10.",
+    "Removed the Becerra record item about an HHS statement on the Supreme Court ACA decision: the cited hiv.gov page is an archived 'Not Found' page and the official HHS page could not be loaded; source s7 removed.",
+    "Removed 'has not previously held elected office' for Hilton (no cited source states it).",
+    "Replaced unsupported '12-term member of Congress' with 'member of Congress (1993-2017)'.",
+    "Verified Becerra AG coalition petition (20 states and D.C., Jan 3 2020, Fifth Circuit decision in Texas v. U.S.) on the official California AG press release; CalMatters positions all matched."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 45,
+    "corrected": 4,
+    "removed": 6,
+    "notes": [
+      "Positions had been drawn only from CalMatters reporter summaries. Removed Becerra immigration and tax_wealthy positions and Hilton immigration, tax_wealthy, school_choice and transgender_sports positions (no own statement found).",
+      "Re-based Becerra housing_supply, healthcare_public and climate positions on his campaign issue pages with verbatim quotes (new sources s11-s13); re-based Hilton climate and guns positions on his campaign policy pages (s14-s15, fetched via WebFetch); Becerra climate changed from mixed to supports.",
+      "Hilton gas-tax priority reworded: his $3 gas page proposes removing the 60-cent excise tax, not halving it (s16). Slate re-confirmed on the SOS certified list."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 52,
+    "corrected": 5,
+    "removed": 0,
+    "notes": [
+      "Re-rendered all five Hilton/Becerra campaign pages in headless Chromium and matched every quote (Hilton climate and guns; Becerra housing, health care, energy) verbatim against page innerText; no quote changes needed.",
+      "Hilton income-tax priority said $150,000 but was cited only to CalMatters and the $3-gas page, neither of which states it; now cited to Hilton's own tax page (s17, first $150,000 untaxed, 8% above) and the starter-home priority to his starter-home page (s18: fee reductions, fast-track approvals, state-backed starter home loan program).",
+      "Becerra priority claimed cutting 'insurers' administrative spending'; his health page speaks of eliminating duplicative oversight requirements, so the text was reworded to match. Housing emergency now says 'nearly 40,000' units per his page; insurance/utility-rate freeze is CalMatters' account of his emergency declaration.",
+      "Becerra 'immigration and environment' resistance claim was not in the cited sources; reworded to the sourced fact that he sued the Trump administration more than 120 times as AG (s8, AP s2).",
+      "Confirmed: SOS certified list (8/27/2026) shows only Becerra (D) and Hilton (R); Ballotpedia News 28%/25%; AP: Steyer spent $215 million and urged support for Becerra; AG press release (20 states and D.C., Jan 3 2020); Wikipedia bio dates."
+    ]
+  }
+}

@@ -1,0 +1,447 @@
+{
+  "id": "wi-gov",
+  "state": "WI",
+  "officeType": "governor",
+  "office": "Governor",
+  "title": "Governor of Wisconsin",
+  "area": "Statewide — all of Wisconsin",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Open seat: incumbent Democratic Gov. Tony Evers announced on July 24, 2025 that he would not run for a third term.",
+      "sources": [
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "text": "Democratic primary (Aug. 11): Milwaukee County Executive David Crowley won with about 39.8% of the vote, about 3,700 votes ahead of state Rep. Francesca Hong (about 39.4%). Crowley had suspended his campaign on July 8 and re-entered on July 18 after Lt. Gov. Sara Rodriguez withdrew; Evers endorsed him.",
+      "sources": [
+        "s3",
+        "s1"
+      ]
+    },
+    {
+      "text": "Republican primary (Aug. 11): U.S. Rep. Tom Tiffany won with about 95% of the vote over Andy Manske; President Trump had endorsed Tiffany in January 2026.",
+      "sources": [
+        "s1",
+        "s7"
+      ]
+    },
+    {
+      "text": "Wisconsin elects governor and lieutenant governor on a joint ticket. The Wisconsin Elections Commission's June 2026 ballot-access report recommended denying every independent or minor-party filer for governor, including David D. King (1,731 valid signatures; 2,000 required); The Green Papers lists King as an independent write-in candidate for governor. A printed municipal ballot for November 3 (City of Glendale) lists only the Tiffany/Varnam and Crowley/Godlewski tickets.",
+      "sources": [
+        "s14",
+        "s2",
+        "s19"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "david-crowley",
+      "name": "David Crowley",
+      "parties": [
+        "D"
+      ],
+      "incumbent": false,
+      "ballotNote": "Running with Sarah Godlewski, Wisconsin Secretary of State. Won the Aug. 11 Democratic primary.",
+      "currentRole": "Milwaukee County Executive (since 2020)",
+      "summary": {
+        "text": "David Crowley is the Milwaukee County Executive, a position he has held since May 2020, and the Democratic nominee for governor with running mate Secretary of State Sarah Godlewski. He previously served in the Wisconsin Assembly from 2017 to 2020.",
+        "sources": [
+          "s3",
+          "s2"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in Milwaukee in 1986 and a graduate of Bay View High School; earned a bachelor's degree in community engagement and education from the University of Wisconsin–Milwaukee in December 2024.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Worked as a campaign organizer for Russ Feingold's 2010 re-election campaign, then as a legislative aide to Milwaukee County Supervisor Nikiya Harris Dodd and, after she was elected to the state Senate in 2012, as her policy director.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Elected to the Wisconsin Assembly (17th District) in 2016 and re-elected in 2018; resigned in June 2020 to serve as county executive, as state law bars holding both offices.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Elected Milwaukee County Executive in April 2020 and re-elected in 2024.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Housing: build and preserve affordable housing and reduce barriers that slow new construction.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Child care and early education: a cap on out-of-pocket child care costs, paid family leave and universal early childhood education.",
+          "sources": [
+            "s4"
+          ],
+          "quote": "7% cap on out of pocket child care costs for all families"
+        },
+        {
+          "text": "Energy: invest in solar power, energy retrofits and clean infrastructure.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Property taxes and local services: give local governments more revenue tools, lower property taxes and fund well-trained police and fire departments.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "His plan proposes universal early childhood education, a 7% cap on out-of-pocket child care costs and direct support for providers.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His plan proposes investing in solar power, energy retrofits and clean infrastructure; as county executive he signed Milwaukee County's Climate Action 2050 plan targeting net-zero emissions from county operations by 2050.",
+          "sources": [
+            "s4",
+            "s15"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "As Milwaukee County Executive, signed Right to Counsel Milwaukee, creating a pilot program of no-cost legal representation for residents facing eviction or foreclosure.",
+          "kind": "action",
+          "sources": [
+            "s5",
+            "s18"
+          ],
+          "date": "2021-07-19"
+        },
+        {
+          "text": "Signed the 0.4% Milwaukee County sales tax increase into law on Aug. 3, 2023, after the County Board approved it 15–3 on July 27; the county authority came from 2023 Wisconsin Act 12.",
+          "kind": "action",
+          "sources": [
+            "s17",
+            "s3"
+          ],
+          "date": "2023-08-03"
+        },
+        {
+          "text": "Signed legislation distributing more than $11 million in opioid-settlement funds among 15 projects.",
+          "kind": "action",
+          "sources": [
+            "s16"
+          ],
+          "date": "2023-03-13"
+        },
+        {
+          "text": "Signed Milwaukee County's Climate Action 2050 plan, which calls for net-zero carbon emissions from county operations by 2050.",
+          "kind": "action",
+          "sources": [
+            "s15"
+          ],
+          "date": "2025-04-30"
+        }
+      ],
+      "researchDepth": "basic",
+      "website": "https://crowleyforwi.com"
+    },
+    {
+      "id": "tom-tiffany",
+      "name": "Tom Tiffany",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "ballotNote": "Running with David Varnam, former mayor of Lancaster. Won the Aug. 11 Republican primary with about 95% of the vote.",
+      "currentRole": "U.S. Representative, Wisconsin's 7th District (since 2020)",
+      "summary": {
+        "text": "Tom Tiffany is the U.S. Representative for Wisconsin's 7th District and the Republican nominee for governor with running mate David Varnam, a former mayor of Lancaster. He previously served in the Wisconsin Assembly and Senate.",
+        "sources": [
+          "s7",
+          "s2"
+        ]
+      },
+      "background": [
+        {
+          "text": "Grew up on a dairy farm near Elmwood, Wisconsin; earned a B.S. in agricultural economics from the University of Wisconsin–River Falls in 1980.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Worked in petroleum distribution and ran an excursion boat business in the Minocqua and Rhinelander area; served as a town supervisor in Little Rice from 2009 to 2013.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Served in the Wisconsin Assembly (elected 2010) and the Wisconsin Senate (elected 2012), where he sat on the Joint Finance Committee and chaired the Committee on Sporting Heritage, Mining and Forestry.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Won a May 2020 special election to the U.S. House; in the current Congress he serves on the Judiciary and Natural Resources committees and is a member of the Freedom Caucus.",
+          "sources": [
+            "s7",
+            "s20"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lower costs: a property tax freeze for families and seniors, a 10% income tax cut for working families earning under $150,000, ending state income tax on tips and overtime, and returning the state surplus to taxpayers.",
+          "sources": [
+            "s8",
+            "s9"
+          ],
+          "quote": "As governor, I will return the entire surplus to taxpayers."
+        },
+        {
+          "text": "Restore order and create opportunity: banning sanctuary policies statewide and holding prosecutors accountable.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "I will ban sanctuary policies statewide"
+        },
+        {
+          "text": "Prepare kids for success: higher academic standards and honest school report cards, parental consent for school name or pronoun changes, and a freeze on University of Wisconsin tuition.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Housing and energy: target regulations that raise construction costs, and keep reliable baseload power while embracing next-generation nuclear.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Would ban sanctuary policies statewide and require local law enforcement to cooperate with federal immigration authorities; as a House member voted yes on the Laken Riley Act.",
+          "sources": [
+            "s8",
+            "s11"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "mixed",
+          "summary": "Says he would stop shutting down reliable baseload power, embrace next-generation nuclear, and restore local control over large-scale wind and solar siting.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted yes on the Laken Riley Act (S. 5), which passed the House 263–156.",
+          "kind": "vote",
+          "sources": [
+            "s11"
+          ],
+          "date": "2025-01-22"
+        },
+        {
+          "text": "Voted yes on the SAVE Act (H.R. 22), which passed the House 220–208.",
+          "kind": "vote",
+          "sources": [
+            "s10"
+          ],
+          "date": "2025-04-10"
+        },
+        {
+          "text": "Voted yes on H.R. 1 (One Big Beautiful Bill Act) when the House voted to concur in the Senate amendment, 218–214.",
+          "kind": "vote",
+          "sources": [
+            "s12"
+          ],
+          "date": "2025-07-03"
+        },
+        {
+          "text": "Voted no on the Inflation Reduction Act (H.R. 5376), which passed the House 220–207.",
+          "kind": "vote",
+          "sources": [
+            "s13"
+          ],
+          "date": "2022-08-12"
+        }
+      ],
+      "researchDepth": "basic",
+      "website": "https://tomtiffany.com",
+      "bioguideId": "T000165"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/2026_Wisconsin_gubernatorial_election",
+      "title": "2026 Wisconsin gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.thegreenpapers.com/G26/WI",
+      "title": "The Green Papers: Wisconsin 2026 General Election",
+      "publisher": "The Green Papers",
+      "kind": "reference"
+    },
+    {
+      "id": "s3",
+      "url": "https://en.wikipedia.org/wiki/David_Crowley_(Wisconsin_politician)",
+      "title": "David Crowley (Wisconsin politician)",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://crowleyforwi.com/plan",
+      "title": "The Plan",
+      "publisher": "Crowley for Wisconsin",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://county.milwaukee.gov/EN/County-Executive/News/Press-Releases/County-Executive-David-Crowley-Signs-Right-to-Counsel-into-Law",
+      "title": "County Executive David Crowley Signs Right to Counsel into Law",
+      "publisher": "Milwaukee County Executive's Office",
+      "kind": "official",
+      "date": "2021-07-19"
+    },
+    {
+      "id": "s7",
+      "url": "https://en.wikipedia.org/wiki/Tom_Tiffany",
+      "title": "Tom Tiffany",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://tomtiffany.com/solutions/",
+      "title": "Solutions",
+      "publisher": "Tom Tiffany for Governor",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://tomtiffany.com/",
+      "title": "Tom Tiffany for Governor",
+      "publisher": "Tom Tiffany for Governor",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://clerk.house.gov/Votes/2025102",
+      "title": "Roll Call 102, H.R. 22 (SAVE Act), April 10, 2025",
+      "publisher": "Office of the Clerk, U.S. House",
+      "kind": "official",
+      "date": "2025-04-10"
+    },
+    {
+      "id": "s11",
+      "url": "https://clerk.house.gov/Votes/202523",
+      "title": "Roll Call 23, S. 5 (Laken Riley Act), January 22, 2025",
+      "publisher": "Office of the Clerk, U.S. House",
+      "kind": "official",
+      "date": "2025-01-22"
+    },
+    {
+      "id": "s12",
+      "url": "https://clerk.house.gov/Votes/2025190",
+      "title": "Roll Call 190, H.R. 1 (One Big Beautiful Bill Act), July 3, 2025",
+      "publisher": "Office of the Clerk, U.S. House",
+      "kind": "official",
+      "date": "2025-07-03"
+    },
+    {
+      "id": "s13",
+      "url": "https://clerk.house.gov/Votes/2022420",
+      "title": "Roll Call 420, H.R. 5376 (Inflation Reduction Act), August 12, 2022",
+      "publisher": "Office of the Clerk, U.S. House",
+      "kind": "official",
+      "date": "2022-08-12"
+    },
+    {
+      "id": "s14",
+      "url": "https://elections.wi.gov/sites/default/files/documents/D.%20Ballot%20Access%20Report%206.9.2026.pdf",
+      "title": "Ballot Access Report (June 9, 2026), Candidate Tracking by Office",
+      "publisher": "Wisconsin Elections Commission",
+      "kind": "official",
+      "date": "2026-06-09"
+    },
+    {
+      "id": "s15",
+      "url": "https://county.milwaukee.gov/EN/County-Executive/News/Press-Releases/During-Earth-Month-County-Executive-David-Crowley-Signs-Legislation-Approving-Climate-Action-2050-Plan",
+      "title": "During Earth Month, County Executive David Crowley Signs Legislation Approving Climate Action 2050 Plan",
+      "publisher": "Milwaukee County",
+      "kind": "official",
+      "date": "2025-04-30"
+    },
+    {
+      "id": "s16",
+      "url": "https://www.wpr.org/health/milwaukee-county-vending-machines-free-narcan-fentanyl-test-strips-opioid-overdose",
+      "title": "Milwaukee County will place vending machines filled with free Narcan, fentanyl test strips throughout community",
+      "publisher": "Wisconsin Public Radio",
+      "kind": "news",
+      "date": "2023-03-13"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.fox6now.com/news/milwaukee-county-sales-tax-increase-signing",
+      "title": "Milwaukee County sales tax increase, Crowley signs into law",
+      "publisher": "FOX6 Milwaukee",
+      "kind": "news",
+      "date": "2023-08-03"
+    },
+    {
+      "id": "s18",
+      "url": "https://urbanmilwaukee.com/pressrelease/county-executive-david-crowley-signs-right-to-counsel-into-law/",
+      "title": "County Executive David Crowley Signs \"Right to Counsel\" into Law",
+      "publisher": "Urban Milwaukee (county press release)",
+      "kind": "news",
+      "date": "2021-07-19"
+    },
+    {
+      "id": "s19",
+      "url": "https://glendalewi.gov/DocumentCenter/View/6224/Sample-Ballot---Wards-4-and-10",
+      "title": "Official Ballot, Partisan Office and Referendum, November 3, 2026 (City of Glendale, Wards 4 and 10)",
+      "publisher": "City of Glendale Clerk",
+      "kind": "official",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "s20",
+      "url": "https://clerk.house.gov/members/T000165",
+      "title": "Representative Thomas P. Tiffany",
+      "publisher": "Clerk of the U.S. House of Representatives",
+      "kind": "official"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Running mates are listed in each candidate's ballotNote rather than as separate entries. Ballotpedia and the Wisconsin Elections Commission's live candidate pages were blocked; the slate was checked against a printed official November 3 ballot (City of Glendale clerk), which lists only the Tiffany/Varnam and Crowley/Godlewski tickets for governor, and against the Commission's June 9, 2026 Ballot Access Report (Candidate Tracking by Office), which approved only major-party candidates for governor and recommended denying all independent filers (Ballotpedia lists six independents, none of whom the report approved), plus WUWM (Oct. 13) and BallotReady, which list only Crowley and Tiffany. Tiffany's campaign pages and the Milwaukee County Right to Counsel press release are behind bot checks and were read from Internet Archive copies of the same pages. Federal key votes for Tiffany and campaign-finance totals are expected to be added by script. Primary-result percentages come from Wikipedia's results tables (citing state returns)."
+}

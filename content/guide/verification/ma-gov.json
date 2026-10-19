@@ -1,0 +1,44 @@
+{
+  "raceId": "ma-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 50,
+  "corrected": 3,
+  "removed": 1,
+  "unverifiable": 0,
+  "notes": [
+    "Slate: official Secretary of the Commonwealth list could not be loaded; Healey/Driscoll, Minogue/Oliver, James/Kittredge confirmed by WHDH (Oct 18) and Wikipedia.",
+    "Oliver sentence: WHDH supports arrest, suspension and name-stays-on-ballot but not 'October 17' or 'next day'; reworded to 'after a suspected drunken-driving crash on the night of October 17' and 'suspended his campaign on October 18' and added Wikipedia as co-source (Wikipedia gives the 11:40 p.m. Oct 17 crash and Oct 18 suspension; no charges stated in our text).",
+    "Removed Minogue tax_wealthy 'opposes' position: sources show general tax cuts only, not a stance on raising taxes on high earners or corporations.",
+    "Healey housing_supply summary: added the Chapter 150 as-of-right provision for state surplus land to support the stance.",
+    "James summary: attributed platform wording to her website statement as reported by WBUR instead of asserting what the site 'calls for'.",
+    "Merged duplicate sources s12 and s15 into s4 and s3."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 52,
+    "corrected": 6,
+    "removed": 0,
+    "notes": [
+      "Oliver paragraph: now sourced to The New Bedford Light and Boston.com (fetched directly; Wikipedia no longer a source) with exact charges (OUI, negligent operation, speeding, marked lanes) stated as charges, Oct 17 crash / Oct 18 suspension dates, his statement quote and Minogue's request that he suspend.",
+      "Minogue summary: 75.6% figure was not in the cited news pieces; added Wikipedia (s1) and the GBH piece (s14, which carries the MBTA Communities Act item).",
+      "Minogue housing_supply: added Boston.com (s4) for the 'unfunded mandates' wording.",
+      "Healey: '100,000 homes in the pipeline' reworded to 'coming online' to match the debate quote (two places).",
+      "Slate remains news-only (WHDH Oct 18, Green Papers, Wikipedia): Secretary of the Commonwealth pages are blocked by Incapsula from this machine and ElectionStats has no general-election candidate list yet.",
+      "Verified: Healey bio, Chapter 135 (signed July 25, 2024) and 150 (Aug 6, 2024), H.5595 House 119-33 on 7/22/2026 (engrossment) and Senate 15-4 on 7/31, Minogue blueprint wording and quote, James WBUR facts."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 55,
+    "corrected": 4,
+    "removed": 1,
+    "notes": [
+      "Removed 'Massachusetts has no gubernatorial term limit': not stated in the cited Wikipedia page.",
+      "Healey priority about costs/Trump was cited to the WBUR Andrea James article (wrong page); rewritten to match and re-cited to the WBUR debate report (s8).",
+      "H.5595 votes corrected: the 119-33 House vote on 7/22 was passage to be engrossed, the House enacted it 121-35 on 7/31, and the Senate's 15-4 standing vote on 7/31 was passage to be engrossed; added Chapter 188 (official bill history).",
+      "James ballotNote: WBUR says she 'initially filed to run as a Democrat' with exploratory papers in March and switched to unenrolled in November; reworded to that.",
+      "Secretary of the Commonwealth candidate list retried (sec.state.ma.us pages and ElectionStats): still Incapsula-blocked / no general-election list, no bypass attempted; slate remains news-only (WHDH Oct 18 plus Wikipedia/Green Papers).",
+      "Re-fetched all sources; Minogue blueprint quote and policy items, Oliver charges/dates/quote, Chapters 135/150, ghost-gun law summary, primary percentages all match."
+    ]
+  }
+}

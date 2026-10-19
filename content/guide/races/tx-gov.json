@@ -1,0 +1,517 @@
+{
+  "id": "tx-gov",
+  "state": "TX",
+  "officeType": "governor",
+  "office": "Governor",
+  "title": "Governor of Texas",
+  "area": "Statewide — all of Texas",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "researchedAt": "2026-10-19",
+  "context": [
+    {
+      "text": "Incumbent Republican Greg Abbott is seeking a fourth term. He won the March 3, 2026 Republican primary with about 82% of the vote against ten challengers.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "State Rep. Gina Hinojosa won the March 3, 2026 Democratic primary outright with about 59% of the vote in a field that included former U.S. Rep. Chris Bell.",
+      "sources": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "text": "Libertarian Pat Dixon is also on the ballot. Several write-in candidates (including independent Jenn Mack Raphoon) have declared; they are not listed below.",
+      "sources": [
+        "s1",
+        "s4",
+        "s25"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "greg-abbott",
+      "name": "Greg Abbott",
+      "parties": [
+        "R"
+      ],
+      "incumbent": true,
+      "ballotNote": "Seeking a fourth term; won the March 2026 Republican primary.",
+      "currentRole": "Governor of Texas (since January 2015)",
+      "summary": {
+        "text": "Greg Abbott is the Republican Governor of Texas, first elected in 2014 and re-elected in 2018 and 2022. He previously served as Texas Attorney General (2002–2015) and as a justice of the Texas Supreme Court (1996–2001). As governor he signed the state's education savings account (school choice) law, permitless handgun carry, and a 2025 law restricting abortion-inducing drugs.",
+        "sources": [
+          "s5",
+          "s6",
+          "s26",
+          "s8"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in Wichita Falls, Texas; holds a business degree from the University of Texas at Austin and a law degree from Vanderbilt University.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Appointed to the Texas Supreme Court in 1996 and served until 2001; elected Attorney General in 2002 and served until 2015.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Chaired the Republican Governors Association from November 2019 to December 2020.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Public safety: tougher bail and support for law enforcement.",
+          "quote": "We made bail tougher, backed law enforcement, and targeted violent repeat offenders",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Affordability, one of the issue areas featured on his campaign website.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Signed SB 2 on May 3, 2025, creating an education savings account program.",
+          "quote": "When I ran for re-election in 2022, I promised Texans that we will bring education freedom to every Texas family.",
+          "sources": [
+            "s6",
+            "s11"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Signed HB 7 on September 17, 2025, prohibiting the manufacture and provision of abortion-inducing drugs and authorizing qui tam actions.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Signed HB 1927 on June 16, 2021, removing the license requirement for carrying a handgun for people 21 and older who are not otherwise prohibited from possessing a firearm.",
+          "sources": [
+            "s7",
+            "s26"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Signed SB 4 (88th Legislature, fourth called session) on December 18, 2023, creating state crimes for illegal entry into Texas and state removal authority.",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Signed HB 25 on October 25, 2021, requiring public school students to compete in interscholastic athletics based on biological sex.",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Signed SB 2 (education savings accounts) on May 3, 2025.",
+          "date": "2025-05-03",
+          "kind": "bill",
+          "sources": [
+            "s6",
+            "s11"
+          ]
+        },
+        {
+          "text": "Signed HB 7 (abortion-inducing drugs) on September 17, 2025.",
+          "date": "2025-09-17",
+          "kind": "bill",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Signed HB 9 on June 12, 2025, an exemption from property taxation of a portion of the appraised value of tangible personal property held or used for the production of income; it takes effect only if voters approve the companion constitutional amendment (HJR 1).",
+          "date": "2025-06-12",
+          "kind": "bill",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Signed HB 1927 (handgun carry without a license) on June 16, 2021.",
+          "date": "2021-06-16",
+          "kind": "bill",
+          "sources": [
+            "s7",
+            "s26"
+          ]
+        },
+        {
+          "text": "Signed SB 4 (state illegal-entry offenses) on December 18, 2023.",
+          "date": "2023-12-18",
+          "kind": "bill",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "website": "https://www.gregabbott.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "gina-hinojosa",
+      "name": "Gina Hinojosa",
+      "parties": [
+        "D"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the March 2026 Democratic primary outright.",
+      "currentRole": "Texas State Representative, District 49 (since January 2017)",
+      "summary": {
+        "text": "Gina Hinojosa is a Democratic member of the Texas House of Representatives from Austin (District 49) and an attorney who previously served on the Austin school board. She is running on public school funding, opposition to school vouchers, and affordability.",
+        "sources": [
+          "s17",
+          "s18",
+          "s19"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in McAllen and raised in Brownsville; B.A. from the University of Texas at Austin (1996) and J.D. from George Washington University (1999).",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Began her career as a civil rights lawyer representing union members; served on the Austin Independent School District board 2012–2016.",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Elected to the Texas House in 2016 and sworn in January 10, 2017; announced her run for governor on October 15, 2025.",
+          "sources": [
+            "s17",
+            "s20"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Government that works for ordinary Texans rather than wealthy donors.",
+          "quote": "Right now we need a governor who works for the people of Texas and not for the billionaire class",
+          "sources": [
+            "s20"
+          ]
+        },
+        {
+          "text": "Public school funding and neighborhood schools.",
+          "sources": [
+            "s20",
+            "s21"
+          ]
+        },
+        {
+          "text": "Lowering health care costs by taking on insurers and drug companies, and property tax relief.",
+          "quote": "make health care more affordable by taking on corporate insurance and Big Pharma",
+          "sources": [
+            "s19"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Opposes school vouchers, arguing they shift money from public to private schools.",
+          "quote": "another example of corruption driving policy",
+          "sources": [
+            "s21"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Authored HB 1307 (2019), creating a disaster case management system at the Texas Division of Emergency Management; the governor signed it June 14, 2019.",
+          "date": "2019-06-14",
+          "kind": "bill",
+          "sources": [
+            "s22"
+          ]
+        },
+        {
+          "text": "Voted no on HB 4, the 2025 congressional redistricting bill (House third-reading passage vote 88–52, August 20, 2025).",
+          "date": "2025-08-20",
+          "kind": "vote",
+          "sources": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Voted no on HB 7, prohibiting the manufacture and provision of abortion-inducing drugs (House third-reading passage vote of 82–48, August 28, 2025).",
+          "date": "2025-08-28",
+          "kind": "vote",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Voted no on SB 8, relating to the designation and use of certain spaces and facilities according to sex (House third-reading passage vote 86–45, August 28, 2025).",
+          "date": "2025-08-28",
+          "kind": "vote",
+          "sources": [
+            "s24"
+          ]
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "Her campaign website could not be loaded, so priorities come from news coverage; no direct source was found for her positions on abortion, guns or immigration beyond the recorded votes above."
+    },
+    {
+      "id": "pat-dixon",
+      "name": "Pat Dixon",
+      "parties": [
+        "LIB"
+      ],
+      "incumbent": false,
+      "ballotNote": "Libertarian Party nominee.",
+      "summary": {
+        "text": "Pat Dixon is an engineer, a former Lago Vista city council member and former chair of the Libertarian Party of Texas. He ran for the Texas Senate in 2022 (District 14) and 2024 (District 20).",
+        "sources": [
+          "s4",
+          "s18",
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Moved to Texas in 1997 and served on the Lago Vista City Council; described as a former chair of the Libertarian Party of Texas.",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says Texas companies come for its resources and people if they are not overly regulated or overly taxed; says state property-tax cuts would mostly cut local government funding because Texas has no state property tax; wants a more competitive landscape for teachers and higher teacher pay.",
+          "quote": "There is no state property tax, so what are you going to cut?",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "No campaign website was found. Policy statements come from one August 2026 news profile."
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/2026_Texas_gubernatorial_election",
+      "title": "2026 Texas gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.kbtx.com/2026/03/04/texas-2026-midterm-primaries-abbott-patrick-cruise-wins-attorney-general-comptroller-races-head-runoffs",
+      "title": "Texas 2026 Midterm Primaries: Abbott, Patrick cruise to wins",
+      "publisher": "KBTX",
+      "kind": "news",
+      "date": "2026-03-04"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.tpr.org/government-politics/2026-03-04/texas-rep-gina-hinojosa-wins-democratic-nomination-will-face-gov-greg-abbott-in-november",
+      "title": "Texas Rep. Gina Hinojosa wins Democratic nomination, will face Gov. Greg Abbott in November",
+      "publisher": "Texas Public Radio",
+      "kind": "news",
+      "date": "2026-03-04"
+    },
+    {
+      "id": "s4",
+      "url": "https://herald-zeitung.com/news/libertarian-pat-dixon-on-the-ballot-for-texas-governor-in-midterm-election/article_42da3e8d-fd9b-4fda-a488-d060a89c8730.html",
+      "title": "Libertarian Pat Dixon on the ballot for Texas Governor in midterm election",
+      "publisher": "New Braunfels Herald-Zeitung",
+      "kind": "news",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "s5",
+      "url": "https://en.wikipedia.org/wiki/Greg_Abbott",
+      "title": "Greg Abbott",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
+      "url": "https://gov.texas.gov/news/post/governor-abbott-signs-landmark-school-choice-legislation-into-law",
+      "title": "Governor Abbott Signs Landmark School Choice Legislation Into Law",
+      "publisher": "Office of the Texas Governor",
+      "kind": "official",
+      "date": "2025-05-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=87R&Bill=HB1927",
+      "title": "HB 1927, 87th Legislature",
+      "publisher": "Texas Legislature Online",
+      "kind": "official",
+      "date": "2021-06-16"
+    },
+    {
+      "id": "s8",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB7",
+      "title": "HB 7, 89th Legislature, 2nd Called Session",
+      "publisher": "Texas Legislature Online",
+      "kind": "official",
+      "date": "2025-09-17"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.gregabbott.com/",
+      "title": "Greg Abbott for Governor",
+      "publisher": "Abbott campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2",
+      "title": "SB 2, 89th Legislature",
+      "publisher": "Texas Legislature Online",
+      "kind": "official",
+      "date": "2025-05-03"
+    },
+    {
+      "id": "s14",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=884&Bill=SB4",
+      "title": "SB 4, 88th Legislature, 4th Called Session",
+      "publisher": "Texas Legislature Online",
+      "kind": "official",
+      "date": "2023-12-18"
+    },
+    {
+      "id": "s15",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=873&Bill=HB25",
+      "title": "HB 25, 87th Legislature, 3rd Called Session",
+      "publisher": "Texas Legislature Online",
+      "kind": "official",
+      "date": "2021-10-25"
+    },
+    {
+      "id": "s16",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB9",
+      "title": "HB 9, 89th Legislature",
+      "publisher": "Texas Legislature Online",
+      "kind": "official",
+      "date": "2025-06-12"
+    },
+    {
+      "id": "s17",
+      "url": "https://en.wikipedia.org/wiki/Gina_Hinojosa",
+      "title": "Gina Hinojosa",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s18",
+      "url": "https://sanantonioreport.org/2026-candidates-for-texas-governor/",
+      "title": "Meet the candidates for Texas governor on the Nov. 3 ballot",
+      "publisher": "San Antonio Report",
+      "kind": "news",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "s19",
+      "url": "https://www.yahoo.com/news/articles/read-gina-hinojosas-democratic-platforms-210716547.html",
+      "title": "Read about Gina Hinojosa's Democratic platforms for Texas Governor",
+      "publisher": "Lubbock Avalanche-Journal (via Yahoo News)",
+      "kind": "news",
+      "date": "2026-02-15"
+    },
+    {
+      "id": "s20",
+      "url": "https://fox7austin.com/news/gina-hinojosa-texas-governor-campaign",
+      "title": "State Rep. Gina Hinojosa launches campaign for Texas governor",
+      "publisher": "FOX 7 Austin",
+      "kind": "news",
+      "date": "2025-10-15"
+    },
+    {
+      "id": "s21",
+      "url": "https://cbsaustin.com/news/local/gina-hinojosa-launches-campaign-for-texas-governor-targets-water-access-schools",
+      "title": "Gina Hinojosa campaigning for Texas governor; targets water access, schools",
+      "publisher": "KFOX14/CBS4",
+      "kind": "news",
+      "date": "2026-04-27"
+    },
+    {
+      "id": "s22",
+      "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=86R&Bill=HB1307",
+      "title": "HB 1307, 86th Legislature",
+      "publisher": "Texas Legislature Online",
+      "kind": "official",
+      "date": "2019-06-14"
+    },
+    {
+      "id": "s23",
+      "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY05FINAL.HTM",
+      "title": "House Journal, 89th Legislature, 2nd Called Session, Day 5",
+      "publisher": "Texas House of Representatives",
+      "kind": "official",
+      "date": "2025-08-20"
+    },
+    {
+      "id": "s24",
+      "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
+      "title": "House Journal, 89th Legislature, 2nd Called Session, Day 10",
+      "publisher": "Texas House of Representatives",
+      "kind": "official",
+      "date": "2025-08-28"
+    },
+    {
+      "id": "s25",
+      "url": "https://www.sos.texas.gov/elections/forms/2026-ballot-cert.pdf",
+      "title": "Ballot Certification Report, 2026 November General Election (Governor: Abbott REP, Hinojosa DEM, Dixon LIB)",
+      "publisher": "Texas Secretary of State",
+      "kind": "official",
+      "date": "2026-08-28"
+    },
+    {
+      "id": "s26",
+      "url": "https://news-journal.com/2021/06/16/abbott-signs-bill-allowing-permitless-carry/",
+      "title": "Abbott signs bill allowing permitless carry",
+      "publisher": "Longview News-Journal",
+      "kind": "news",
+      "date": "2021-06-16"
+    }
+  ],
+  "researchNotes": "Slate matches the Texas Secretary of State's Ballot Certification Report for the Nov. 3, 2026 general election dated Aug. 28, 2026 (Governor: Abbott REP, Hinojosa DEM, Dixon LIB). Running mates do not apply (Texas elects the governor and lieutenant governor separately). Wikipedia is used only for basic biographical and ballot-status facts. Write-in candidates are not profiled. Hinojosa's floor votes are the House third-reading (final House passage) votes recorded in the House Journal; each bill also had earlier second-reading, amendment and procedural votes."
+}

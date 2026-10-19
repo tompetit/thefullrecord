@@ -1,6 +1,7 @@
-import { brokeWithParty } from "@/lib/divisive";
-import type { IssueRecord } from "@/lib/issues";
+import { brokeWithParty, contention } from "@/lib/divisive";
+import { chamberState, sortIssueRecords, type IssueRecord } from "@/lib/issues";
 import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, rollCallTopics } from "./live/snapshot";
+import { rollCallHref } from "./rollcall";
 import type { Official } from "./types";
 
 let allRecords: IssueRecord[] | null = null;
@@ -13,17 +14,22 @@ function baseRecords(): IssueRecord[] {
     const { D, R } = split.byParty;
     return {
       id: `${snapshot.chamber}:${roll.id}`,
+      href: rollCallHref(snapshot.file!, roll.id),
       bill: roll.bill,
       title: roll.title,
       summary: roll.summary,
       summarySource: roll.summarySource,
+      amendment: roll.amendment,
       meaning: roll.meaning,
       chamber: snapshot.chamber,
+      state: chamberState(snapshot.chamber),
       kind: roll.kind,
       outcome: roll.outcome,
+      tally: [split.yes, split.no],
       split: split.kind !== "unanimous",
       splitKind: split.kind,
       close: split.close,
+      contention: contention(split, roll.kind),
       parties: D || R ? { D: D && [D.yes, D.no], R: R && [R.yes, R.no] } : undefined,
       question: roll.question,
       date: roll.date,
@@ -36,6 +42,25 @@ function baseRecords(): IssueRecord[] {
   })).sort((a, b) => b.date.localeCompare(a.date) || a.id.localeCompare(b.id));
   return allRecords;
 }
+
+/** Most contested substantive roll calls matching `where`; at most one per state when `perState`. */
+export function topContested(where: (record: IssueRecord) => boolean, max: number, perState = false): IssueRecord[] {
+  const picked: IssueRecord[] = [];
+  const seen = new Set<string>();
+  const hits = baseRecords().filter((r) => r.kind === "substantive" && r.contention > 0 && where(r));
+  for (const r of sortIssueRecords(hits, "contested")) {
+    // One card per bill (several readings of one bill rank alike); per state when asked.
+    const key = perState ? r.state : `${r.chamber}|${r.bill || r.title}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    picked.push(r);
+    if (picked.length === max) break;
+  }
+  return picked;
+}
+
+/** ISO date `days` ago. */
+export const daysAgo = (days: number) => new Date(Date.now() - days * 864e5).toISOString().slice(0, 10);
 
 /** All records, or with officials only those where at least one of them has a position. */
 export function getIssueRecords(officials?: Official[]) {
