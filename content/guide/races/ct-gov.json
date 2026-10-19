@@ -9,7 +9,7 @@
   "electionDate": "2026-11-03",
   "context": [
     {
-      "text": "Incumbent Democratic Gov. Ned Lamont is running for a third term. Connecticut governors have no term limit.",
+      "text": "Incumbent Democratic Gov. Ned Lamont is running for a third term.",
       "sources": [
         "s1"
       ]
@@ -23,7 +23,8 @@
     {
       "text": "State Sen. Ryan Fazio won the Republican convention endorsement on May 16 with about 92% of delegates after former New Britain Mayor Erin Stewart suspended her campaign; former New York Lt. Gov. Betsy McCaughey fell short of the 15% needed to force a primary.",
       "sources": [
-        "s1"
+        "s1",
+        "s27"
       ]
     },
     {
@@ -118,15 +119,6 @@
           ]
         },
         {
-          "issue": "housing_supply",
-          "stance": "supports",
-          "summary": "Signed the November 2025 housing growth act and lists reducing housing costs by increasing housing supply responsibly among his priorities.",
-          "sources": [
-            "s3",
-            "s9"
-          ]
-        },
-        {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "His campaign cites raising the minimum wage to $15 per hour with automatic annual increases tied to inflation.",
@@ -192,10 +184,10 @@
         "Independent Party"
       ],
       "incumbent": false,
-      "ballotNote": "Running with Lt. Gov. candidate Matthew Corey, a bar owner. Won the Republican endorsement at the May 16 convention with about 92% of delegates; no primary was held.",
+      "ballotNote": "Running with Lt. Gov. candidate Matt Corey, a bar owner. Won the Republican endorsement at the May 16 convention with about 92% of delegates; no primary was held.",
       "currentRole": "Connecticut State Senator, 36th District (since 2021)",
       "summary": {
-        "text": "Ryan Fazio is a Republican state senator from Greenwich and the Republican and Independent Party nominee for governor, with running mate Matthew Corey. First elected in a 2021 special election, he is the ranking senator on the Energy and Technology Committee. His platform centers on cutting income taxes and electricity bills, capping property taxes and a 'Grand Bargain' on housing that protects local zoning control.",
+        "text": "Ryan Fazio is a Republican state senator from Greenwich and the Republican and Independent Party nominee for governor, with running mate Matt Corey. First elected in a 2021 special election, he is the ranking senator on the Energy and Technology Committee. His platform centers on cutting income taxes and electricity bills, capping property taxes and a 'Grand Bargain' on housing that protects local zoning control.",
         "sources": [
           "s1",
           "s10",
@@ -239,15 +231,6 @@
         }
       ],
       "positions": [
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Proposes reducing state income-tax rates for every Connecticut family and capping property taxes.",
-          "quote": "Ryan's plan would lower income taxes for every Connecticut family by $1,500 and implement property tax caps.",
-          "sources": [
-            "s10"
-          ]
-        },
         {
           "issue": "housing_supply",
           "stance": "mixed",
@@ -509,8 +492,16 @@
       "publisher": "Connecticut Secretary of the State",
       "kind": "official",
       "date": "2026-10-19"
+    },
+    {
+      "id": "s27",
+      "url": "https://greenwichfreepress.com/news/government/connecticuts-november-races-come-into-focus-as-fazio-nominated-by-gop-to-challenge-lamont-248065/",
+      "title": "Connecticut's November Races Come Into Focus as Fazio Nominated by GOP to Challenge Lamont",
+      "publisher": "Greenwich Free Press",
+      "kind": "news",
+      "date": "2026-05-16"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Running mates (Susan Bysiewicz, Matthew Corey) are elected jointly with the governor candidate and are noted in each candidate's ballotNote rather than listed separately. The slate was confirmed against official Connecticut Secretary of the State sample ballot (Westport): the governor race shows only two tickets, Lamont/Bysiewicz and Fazio/Corey, each on two party lines; the party-line names (Democratic, Working Families, Republican, Independent Party) come from Wikipedia's results table because the ballot text does not extract. Declared write-ins (Noe, Adgers, Whitnum) are not listed as candidates. Fazio's roll-call votes were read directly from the Connecticut General Assembly's Senate vote PDFs; bill titles and signing dates from the General Assembly's bill-status pages."
+  "researchNotes": "Running mates (Susan Bysiewicz, Matt Corey) are elected jointly with the governor candidate and are noted in each candidate's ballotNote rather than listed separately. The slate was confirmed against official Connecticut Secretary of the State sample ballot (Westport): the governor race shows only two tickets, Lamont/Bysiewicz and Fazio/Corey, each on two party lines; the party-line names (Democratic, Working Families, Republican, Independent Party) come from Wikipedia's results table because the ballot text does not extract. Declared write-ins (Noe, Adgers, Whitnum) are not listed as candidates. Fazio's roll-call votes were read directly from the Connecticut General Assembly's Senate vote PDFs; bill titles and signing dates from the General Assembly's bill-status pages."
 }
