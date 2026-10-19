@@ -70,7 +70,61 @@
           "s1"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://www.elections.alaska.gov/election/2026/General/OEPbooks/2026%20Alaska%20General%20VP_Region%202_ENG_web.pdf",
+    "currentLaw": {
+      "text": "Under current law, a nonpartisan primary lists all candidates on one ballot, and general elections use ranked-choice voting. The official Legislative Affairs Agency summary refers to \"the top four open primary\", and the Alaska Beacon describes the current primary as one in which voters of any party affiliation can vote for any candidate. The 2020 ballot measure that created this system also added campaign-finance disclosure rules (including 'true source' disclosure for contributions over $2,000), which this measure would repeal in part.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    "fiscalImpact": {
+      "text": "The official statement of costs totals $2,630,958: $2,608,983 for the Division of Elections (including $2,500,000 for a public education campaign), $15,000 for the Office of the Lieutenant Governor and $6,975 for the Alaska Public Offices Commission.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Repeal Now, the campaign supporting the measure, as named by the Alaska Beacon (treasurer Bethany Marcum).",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Bernadette Wilson, Judy Eledge and Ken McCarty, named by the Alaska Beacon as the measure's primary sponsors.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Former Lt. Governors Mead Treadwell, Craig Campbell and Loren Leman, who signed the statement in support in the official pamphlet.",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Protect Alaska's Elections, the registered No on 2 campaign (represented at the Division of Elections hearing by Scott Kendall).",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Nicole Borromeo (ANCSA Regional Association), Sen. Cathy Giessel and Joelle Hall (Alaska AFL-CIO), who signed the statement in opposition in the official pamphlet.",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "As of the Alaska Beacon's July 29, 2026 report, citing Alaska Public Offices Commission and FEC filings: the Repeal Now campaign (supporting) had raised $1.1 million, of which $846,000 came from the Aurora Action Network super PAC; the No on 2 campaign (opposing) had raised $5.75 million, including $4 million from Unite America PAC and $1.5 million from Voters from the American Center. Totals are not updated after that date here.",
+      "sources": [
+        "s2"
+      ]
+    }
   },
   "sources": [
     {
@@ -79,8 +133,16 @@
       "title": "2026 General Election Official Election Pamphlet, Region II (Ballot Measures 2 and 3)",
       "publisher": "Alaska Division of Elections",
       "kind": "official"
+    },
+    {
+      "id": "s2",
+      "url": "https://alaskabeacon.com/2026/07/29/alaskans-to-vote-on-ballot-measure-that-would-overhaul-state-election-system/",
+      "title": "Alaskans to vote on ballot measure that would overhaul state election system",
+      "publisher": "Alaska Beacon",
+      "kind": "news",
+      "date": "2026-07-29"
     }
   ],
   "researchedAt": "2026-10-19",
-  "researchNotes": "Read from the Division of Elections' Official Election Pamphlet (Region II booklet; the statewide measure pages are the same in every region). The Division's web server omits its intermediate TLS certificate; the PDF was re-downloaded with full certificate verification (intermediate added from the issuer's published certificate), and every quote and figure was re-checked against it. The Region I, III and IV booklets carry the same statewide measure text and figures. Alaska's pamphlet contains no 'a yes vote means' statements, so yesMeans/noMeans are derived from the ballot language and Legislative Affairs Agency summary. Judicial retention questions also appear on the ballot but are not ballot measures. An earlier 2026 statewide measure appeared on the Aug. 18 primary ballot and is not on Nov. 3. The two sides disagree about whether primaries would be 'open' under the measure: the official summary says each party chooses who may vote in its primary, while the supporters' statement says they would return to the pre-2020 open system."
+  "researchNotes": "Read from the Division of Elections' Official Election Pamphlet (Region II booklet; the statewide measure pages are the same in every region). The Division's web server omits its intermediate TLS certificate; the PDF was re-downloaded with full certificate verification (intermediate added from the issuer's published certificate), and every quote and figure was re-checked against it. The Region I, III and IV booklets carry the same statewide measure text and figures. Alaska's pamphlet contains no 'a yes vote means' statements, so yesMeans/noMeans are derived from the ballot language and Legislative Affairs Agency summary. Judicial retention questions also appear on the ballot but are not ballot measures. An earlier 2026 statewide measure appeared on the Aug. 18 primary ballot and is not on Nov. 3. The two sides disagree about whether primaries would be 'open' under the measure: the official summary says each party chooses who may vote in its primary, while the supporters' statement says they would return to the pre-2020 open system. Campaign-finance totals are as reported by the Alaska Beacon on July 29, 2026 citing APOC/FEC filings; APOC's live database was not queried, so later totals are higher or unknown."
 }
