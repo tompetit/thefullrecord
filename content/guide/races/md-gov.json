@@ -276,13 +276,48 @@
           "sources": [
             "s14"
           ]
+        },
+        {
+          "text": "Pay reparations and invest in community-led repair and reinvestment.",
+          "sources": [
+            "s14"
+          ],
+          "quote": "Pay reparations and invest in community-led repair and reinvestment."
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His economy plan says he would sponsor legislation in 2027 to tax the wealth of the wealthy and end corporate tax breaks.",
+          "quote": "Tax the wealth of the wealthy, close the corporate tax loopholes, and end corporate tax breaks.",
+          "sources": [
+            "s18"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.gogreen2026.com/",
-      "researchDepth": "minimal",
-      "researchNotes": "Only high-level priorities were read; no direct statements on the guide's fixed issue statements were found."
+      "researchDepth": "basic",
+      "researchNotes": "Read his campaign priorities, platform, economy, education, reparations and Israel plan pages (the education page does not state his own position on vouchers or charters). He has not held office, so there is no record. No direct statements found on abortion, guns, immigration, rent regulation, minimum wage or police funding. His site says his policy pages are works in progress.",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Declare climate, environment, energy, food, and water emergencies to ensure state and local government act with urgency.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "quote": "make Maryland the first state in the nation to comprehensively end its institutional, economic, and political complicity with Israeli genocide and apartheid",
+          "context": "On his campaign's plan page on Maryland and Israel; the page concerns state-level policy, not U.S. aid",
+          "sources": [
+            "s19"
+          ]
+        }
+      ]
     },
     {
       "id": "cathy-white",
@@ -306,12 +341,37 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Building a working-class political organization separate from the two major parties.",
+          "sources": [
+            "s15"
+          ],
+          "quote": "the working class needs its own political organization"
+        },
+        {
+          "text": "Addressing jobs, low wages, inflation and war.",
+          "sources": [
+            "s15"
+          ],
+          "quote": "jobs or rather the lack of jobs, low-wages, inflation, war"
+        }
+      ],
       "positions": [],
       "record": [],
       "website": "https://sites.google.com/view/wcp-md",
-      "researchDepth": "minimal",
-      "researchNotes": "Statement posted by the party; no direct statements on the guide's fixed issue statements were found."
+      "researchDepth": "basic",
+      "researchNotes": "Source is the convention statement posted on the party's site. Her Aug. 17 MPT interview was not transcribed, so it was not used. The statement does not take a side on the guide's issue statements.",
+      "statements": [
+        {
+          "issue": "universal_childcare",
+          "quote": "Childcare and eldercare are more than what most of us can afford.",
+          "context": "In her statement to the Working Class Party state convention, April 2026, posted on the party's site",
+          "sources": [
+            "s15"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -448,6 +508,22 @@
       "url": "https://www.gogreen2026.com/meet-andy",
       "title": "Meet Andy Ellis",
       "publisher": "Andy Ellis campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s18",
+      "url": "https://www.gogreen2026.com/economy",
+      "title": "Economy - Andy Ellis for Governor",
+      "publisher": "Andy Ellis for Governor (campaign website)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s19",
+      "url": "https://www.gogreen2026.com/israel",
+      "title": "Our Plan to End Maryland's Complicity with Genocide",
+      "publisher": "Andy Ellis for Governor (campaign website)",
       "kind": "candidate",
       "date": "2026-10-19"
     }

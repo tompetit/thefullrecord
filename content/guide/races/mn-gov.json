@@ -261,10 +261,54 @@
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Banning hyperscale data centers.",
+          "sources": [
+            "s21"
+          ],
+          "quote": "Ban Hyperscale Data Centers"
+        },
+        {
+          "text": "Green jobs.",
+          "sources": [
+            "s22"
+          ],
+          "quote": "Green jobs. Save the environment, juice the economy"
+        },
+        {
+          "text": "Unified defense against federal overreach.",
+          "sources": [
+            "s22"
+          ],
+          "quote": "Unified defense against federal over reach. Neighborhood-based, state-backed defense to ensure that our neighbors aren't kidnapped."
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "His campaign site lists abolishing ICE and making Minnesota a sanctuary state among his key issues.",
+          "quote": "I know that the governor can't technically abolish ICE, but I can make their lives miserable while they're in our state.",
+          "sources": [
+            "s21"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "We have a world to save! We cannot afford to put off the many climate change mitigation and preparation that we need to do.",
+          "context": "On his campaign website, under Green Jobs",
+          "sources": [
+            "s21"
+          ]
+        }
+      ],
+      "website": "https://steveformngov.info/",
+      "researchNotes": "Sources are his campaign website and the KAXE candidate questionnaire. Other sources (a conservative news site and a candidate-survey site) report positions on single-payer health care and guns, but they were not used as a basis. No direct statement found on abortion, taxes or school choice."
     }
   ],
   "sources": [
@@ -408,6 +452,22 @@
       "title": "2026 General Election Sample Ballots",
       "publisher": "Freeborn County, Minnesota",
       "kind": "official"
+    },
+    {
+      "id": "s21",
+      "url": "https://steveformngov.info/",
+      "title": "Vote For Steven Young",
+      "publisher": "Steven Young for Governor (campaign website)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s22",
+      "url": "https://www.kaxe.org/2026-09-28/governor-demuth-klobuchar-young-mn-2026-election-guide",
+      "title": "Governor 2026 Election Guide",
+      "publisher": "KAXE Northern Community Radio",
+      "kind": "news",
+      "date": "2026-09-28"
     }
   ],
   "researchedAt": "2026-10-19",
