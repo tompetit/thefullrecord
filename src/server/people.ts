@@ -86,3 +86,64 @@ export function personHrefForOfficial(officialId: string): string {
   const p = personForOfficial(officialId);
   return p ? `/people/${p.slug}` : `/official/${officialId}`;
 }
+
+export const PEOPLE_PAGE_SIZE = 60;
+export const PEOPLE_LEVELS = [
+  ["congress", "Congress"],
+  ["governor", "Governor"],
+  ["legislature", "State legislature"],
+  ["council", "NYC Council"],
+] as const;
+export type PeopleLevel = (typeof PEOPLE_LEVELS)[number][0];
+export interface PeopleFilters {
+  q?: string;
+  state?: string;
+  kind?: "office" | "ballot" | "both";
+  level?: PeopleLevel;
+  page?: number;
+}
+
+interface Row {
+  p: Person;
+  hay: string;
+  office: boolean;
+  ballot: boolean;
+  levels: Set<PeopleLevel>;
+}
+
+const fold = (s: string) => s.normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
+let rows: Row[] | null = null;
+
+function searchRows(): Row[] {
+  if (rows) return rows;
+  return (rows = [...getPeople()]
+    .sort((a, b) => a.name.localeCompare(b.name) || a.slug.localeCompare(b.slug))
+    .map((p) => {
+      const levels = new Set<PeopleLevel>();
+      for (const o of p.offices ?? []) levels.add(/^us-/.test(o.officialId) ? "congress" : /^nyc-council-/.test(o.officialId) ? "council" : "legislature");
+      for (const c of p.candidacies ?? []) {
+        if (/^U\.S\./.test(c.office)) levels.add("congress");
+        else if (c.office === "Governor") levels.add("governor");
+        else if (c.seatKey || /^State /.test(c.office)) levels.add("legislature");
+      }
+      return { p, hay: fold(p.name), office: !!p.offices?.length, ballot: !!p.candidacies?.length, levels };
+    }));
+}
+
+/** Postal codes present in the index, sorted. */
+export const peopleStates = () => [...new Set(getPeople().map((p) => p.state))].sort();
+
+/** Filtered, alphabetical, paginated. Name terms must all appear in the name (accent- and case-insensitive). */
+export function searchPeople(f: PeopleFilters) {
+  const terms = fold(f.q ?? "").split(/[^a-z0-9]+/).filter(Boolean);
+  const hits = searchRows().filter(
+    (r) =>
+      (!f.state || r.p.state === f.state) &&
+      (!f.level || r.levels.has(f.level)) &&
+      (!f.kind || (f.kind === "office" ? r.office : f.kind === "ballot" ? r.ballot : r.office && r.ballot)) &&
+      terms.every((t) => r.hay.includes(t))
+  );
+  const pages = Math.max(1, Math.ceil(hits.length / PEOPLE_PAGE_SIZE));
+  const page = Math.min(Math.max(1, f.page ?? 1), pages);
+  return { items: hits.slice((page - 1) * PEOPLE_PAGE_SIZE, page * PEOPLE_PAGE_SIZE).map((r) => r.p), total: hits.length, page, pages };
+}

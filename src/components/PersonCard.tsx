@@ -13,7 +13,7 @@ export function PersonCard({ person }: { person: Person }) {
   return (
     <Link
       href={`/people/${person.slug}`}
-      className="flex min-h-11 items-start gap-3 rounded-[10px] border border-card bg-paper-raised p-3.5 shadow-card transition-shadow hover:shadow-card-raised"
+      className="flex h-full min-h-11 items-start gap-3 rounded-[10px] border border-card bg-paper-raised p-3.5 shadow-card transition-shadow hover:shadow-card-raised"
     >
       <PersonPhoto name={person.name} url={person.photo?.url} size={48} />
       <span className="flex min-w-0 flex-1 flex-col gap-1">
