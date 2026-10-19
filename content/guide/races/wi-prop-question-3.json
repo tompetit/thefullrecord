@@ -1,0 +1,95 @@
+{
+  "id": "wi-prop-question-3",
+  "state": "WI",
+  "officeType": "ballot-measure",
+  "office": "Constitutional Amendment",
+  "title": "Question 3: Governmental Entity Discrimination and Preferential Treatment Prohibited",
+  "area": "Statewide — all of Wisconsin",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Placed on the ballot by the legislature as Assembly Joint Resolution 102 (second consideration; it first passed in the 2023-24 session). The 2026 votes were Assembly 54-45 on January 13, 2026 and Senate 18-15 on January 21, 2026. The governor has no veto over constitutional amendments.",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "Question 3: “Governmental entity discrimination prohibited. Shall section 27 of article I of the constitution be created to prohibit governmental entities in the state from discriminating against, or granting preferential treatment to, any individual or group on the basis of race, sex, color, ethnicity, or national origin in public employment, public education, public contracting, or public administration?”",
+      "sources": [
+        "s6",
+        "s7"
+      ]
+    },
+    "summary": {
+      "text": "The amendment would create Article I, Section 27, defining “governmental entity” broadly (state, municipalities, the UW System, technical colleges, public school districts, and other state and local bodies) and providing that such an entity “may not discriminate against, or grant preferential treatment to, any individual or group on the basis of race, sex, color, ethnicity, or national origin in public employment, public education, public contracting, or public administration.” Per Ballotpedia's reproduction of the text, it exempts action required to keep eligibility for federal programs and bona fide sex-based qualifications reasonably necessary to normal operations, and includes a severability clause. No fiscal estimate was found.",
+      "sources": [
+        "s6"
+      ]
+    },
+    "yesMeans": "Creates Section 27 of Article I prohibiting governmental entities in Wisconsin from discriminating against, or granting preferential treatment to, any individual or group on the basis of race, sex, color, ethnicity, or national origin in public employment, public education, public contracting, or public administration.",
+    "noMeans": "Does not add Section 27 to the constitution; existing federal and state anti-discrimination laws and programs are unchanged.",
+    "argumentsFor": [
+      {
+        "text": "State Sen. Steve Nass (R-Whitewater): \"Preferential treatment to any individual or group is wrong, no matter who it targets or what the reason. Past discrimination, however wrong, cannot be corrected with more discrimination. Old wounds cannot be healed by inflicting new ones.\"",
+        "sources": [
+          "s3"
+        ]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "State Sen. Dora Drake (D-Milwaukee): \"It limits our own ability to help you — the public — and will make things worse.\" State Sen. Chris Larson (D-Milwaukee) said the amendment \"will make addressing disparities significantly harder to achieve.\"",
+        "sources": [
+          "s3",
+          "s4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s2",
+      "url": "https://docs.legis.wisconsin.gov/2025/proposals/ajr102",
+      "title": "2025 Assembly Joint Resolution 102",
+      "publisher": "Wisconsin Legislature",
+      "kind": "official"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.superiortelegram.com/news/wisconsin/dei-public-health-order-amendments-to-go-on-november-ballots",
+      "title": "DEI, public health order amendments to go on November ballots",
+      "publisher": "Wisconsin Public Radio (via Superior Telegram)",
+      "kind": "news",
+      "date": "2026-01-22"
+    },
+    {
+      "id": "s4",
+      "url": "https://urbanmilwaukee.com/pressrelease/republican-backed-constitutional-amendments-take-us-backwards-deny-hard-truths/",
+      "title": "Republican-Backed Constitutional Amendments Take US Backwards, Deny Hard Truths",
+      "publisher": "State Sen. Chris Larson (press release via Urban Milwaukee)",
+      "kind": "candidate",
+      "date": "2026-01-21"
+    },
+    {
+      "id": "s6",
+      "url": "https://docs.legis.wisconsin.gov/2025/related/enrolled/ajr102",
+      "title": "AJR102 enrolled joint resolution (second consideration)",
+      "publisher": "Wisconsin Legislature",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.wpr.org/news/what-to-know-wisconsin-november-2026-referendums",
+      "title": "What to know about Wisconsin's November 2026 referendums",
+      "publisher": "Wisconsin Public Radio",
+      "kind": "news"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Wisconsin publishes no state voter pamphlet with pro/con arguments, and the Wisconsin Elections Commission pages returned HTTP 403 to automated requests and were not bypassed, so the question text is taken from the enrolled joint resolution on docs.legis.wisconsin.gov, which states the ballot question verbatim (machine-checked; each enrolled resolution labels its question 'Question 1' because each was enacted separately). Official vote tallies are from the Legislature's bill history page. Arguments are floor remarks and a legislator's press release. The Wisconsin Institute for Law & Liberty's supporting statement (WILL page returned 403) and the opposing coalition letters were not fetched, so the pro side has one argument and the con side one (two attributed speakers). The amendment's subsections (federal-program exemption, bona fide sex-based qualifications, severability) are from the enrolled resolution. WPR's voter guide confirms there are exactly three statewide questions on the Nov. 3, 2026 ballot and their numbering."
+}

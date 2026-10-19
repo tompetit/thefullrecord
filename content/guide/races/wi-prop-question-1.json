@@ -1,0 +1,102 @@
+{
+  "id": "wi-prop-question-1",
+  "state": "WI",
+  "officeType": "ballot-measure",
+  "office": "Constitutional Amendment",
+  "title": "Question 1: Partial Veto — Prohibit Creating or Increasing Any Tax or Fee",
+  "area": "Statewide — all of Wisconsin",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Placed on the ballot by the legislature as Senate Joint Resolution 116, which Wisconsin requires to pass two consecutive legislatures; it passed the prior session and again this session (Senate 18-15 on January 21, 2026; Assembly 54-41 on February 19, 2026 as amended; Senate concurrence 18-15 on March 17, 2026). The governor has no veto over constitutional amendments.",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "Question 1: “Partial veto. Shall section 10 (1) (c) of article V of the constitution be amended to prohibit the governor, in exercising his or her partial veto authority, from creating or increasing or authorizing the creation or increase of any tax or fee?”",
+      "sources": [
+        "s6",
+        "s7"
+      ]
+    },
+    "summary": {
+      "text": "The amendment would add to Article V, Section 10(1)(c) of the Wisconsin Constitution, which already bars the governor from creating a new word by rejecting individual letters or a new sentence by combining parts of sentences in an appropriation bill, a bar on creating, increasing or authorizing the creation or increase of any tax or fee through a partial veto. Wisconsin Public Radio reports it follows Gov. Evers' partial veto that turned a two-year increase in school revenue limits into a 400-year increase, which the Wisconsin Supreme Court upheld. No fiscal estimate was found.",
+      "sources": [
+        "s6",
+        "s3"
+      ]
+    },
+    "yesMeans": "Amends the Wisconsin Constitution so the governor, when partially vetoing an appropriation bill, may not create or increase, or authorize the creation or increase of, any tax or fee.",
+    "noMeans": "Leaves Article V, Section 10(1)(c) unchanged; the governor's partial veto remains subject only to the existing limits on creating new words or sentences.",
+    "argumentsFor": [
+      {
+        "text": "Jerry Ponio, Legislative Director of Americans for Prosperity–Wisconsin: \"SJR 116 restores accountability after Governor Evers abused the partial veto to create an unpopular 400-year property tax increase during an affordability crisis. We thank the Wisconsin Senate and Assembly for passing this amendment, giving voters the chance to ensure this kind of executive overreach never happens again.\"",
+        "sources": [
+          "s5"
+        ]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "State Sen. Chris Larson (D-Milwaukee): \"So what would this amendment actually do? It would make it harder for any future governor to right the wrongs of any legislature that fails to provide sufficient revenues to meet our shared priorities – education-related or otherwise.\"",
+        "sources": [
+          "s4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s2",
+      "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/sen/joint_resolution/sjr116",
+      "title": "2025 Senate Joint Resolution 116",
+      "publisher": "Wisconsin Legislature",
+      "kind": "official"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.superiortelegram.com/news/wisconsin/dei-public-health-order-amendments-to-go-on-november-ballots",
+      "title": "DEI, public health order amendments to go on November ballots",
+      "publisher": "Wisconsin Public Radio (via Superior Telegram)",
+      "kind": "news",
+      "date": "2026-01-22"
+    },
+    {
+      "id": "s4",
+      "url": "https://urbanmilwaukee.com/pressrelease/republican-backed-constitutional-amendments-take-us-backwards-deny-hard-truths/",
+      "title": "Republican-Backed Constitutional Amendments Take US Backwards, Deny Hard Truths",
+      "publisher": "State Sen. Chris Larson (press release via Urban Milwaukee)",
+      "kind": "candidate",
+      "date": "2026-01-21"
+    },
+    {
+      "id": "s5",
+      "url": "https://wi.americansforprosperity.org/newsroom/afp-wi-urges-voters-to-support-amendment-limiting-governors-partial-veto-power/",
+      "title": "AFP-WI urges voters to support amendment limiting governor's partial veto power",
+      "publisher": "Americans for Prosperity–Wisconsin",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://docs.legis.wisconsin.gov/2025/related/enrolled/sjr116",
+      "title": "SJR116 enrolled joint resolution (second consideration)",
+      "publisher": "Wisconsin Legislature",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.wpr.org/news/what-to-know-wisconsin-november-2026-referendums",
+      "title": "What to know about Wisconsin's November 2026 referendums",
+      "publisher": "Wisconsin Public Radio",
+      "kind": "news"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Wisconsin publishes no state voter pamphlet with pro/con arguments, and the Wisconsin Elections Commission pages returned HTTP 403 to automated requests and were not bypassed, so the question text is taken from the enrolled joint resolution on docs.legis.wisconsin.gov, which states the ballot question verbatim (machine-checked; each enrolled resolution labels its question 'Question 1' because each was enacted separately). Official vote tallies are from the Legislature's bill history page. Arguments are an advocacy group's statement and a legislator's press release (the cited Larson release also discusses the other amendments; only the Question 1 passage is used). Sen. Chris Kapenga's quoted rationale reported by Ballotpedia comes from a hearing document that could not be machine-read and is not used. WPR's voter guide confirms there are exactly three statewide questions on the Nov. 3, 2026 ballot and their numbering."
+}

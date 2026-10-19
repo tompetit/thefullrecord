@@ -1,0 +1,102 @@
+{
+  "id": "wi-prop-question-2",
+  "state": "WI",
+  "officeType": "ballot-measure",
+  "office": "Constitutional Amendment",
+  "title": "Question 2: Freedom to Gather in Places of Worship During an Emergency",
+  "area": "Statewide — all of Wisconsin",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Placed on the ballot by the legislature as Assembly Joint Resolution 10, passed by two consecutive legislatures (Assembly 56-43 on January 13, 2026; Senate 18-15 on January 21, 2026). The governor has no veto over constitutional amendments.",
+      "sources": [
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "candidates": [],
+  "measure": {
+    "question": {
+      "text": "Question 2: “Freedom to gather in places of worship during an emergency. Shall section 18 of article I of the constitution, which deals with religious liberty, be amended to prohibit the state or a political subdivision of the state from ordering the closure of, or forbidding gatherings in, places of worship in response to a state of emergency, including a public health emergency?”",
+      "sources": [
+        "s6",
+        "s7"
+      ]
+    },
+    "summary": {
+      "text": "The amendment would add to Article I, Section 18 (freedom of worship) the clause that the state or a political subdivision “may not order the closure of or forbid gatherings in places of worship in response to a state of emergency at the national, state, or local level, including an emergency related to public health.” Wisconsin Public Radio reports it responds to public health orders during the COVID-19 pandemic that limited large gatherings including at places of worship. No fiscal estimate was found.",
+      "sources": [
+        "s3",
+        "s6"
+      ]
+    },
+    "yesMeans": "Amends Article I, Section 18 so the state or a local government could not order the closure of, or forbid gatherings in, places of worship in response to any state of emergency, including a public health emergency.",
+    "noMeans": "Leaves Section 18 unchanged; state and local governments keep whatever authority existing law gives them to limit gatherings in an emergency.",
+    "argumentsFor": [
+      {
+        "text": "Daniel Degner, President of Wisconsin Family Action: \"Sadly, in 2020, we saw the government use emergency powers to abridge the people’s right to assemble in places of worship.\"",
+        "sources": [
+          "s5"
+        ]
+      }
+    ],
+    "argumentsAgainst": [
+      {
+        "text": "State Sen. Chris Larson (D-Milwaukee): \"None of us want to be in a position to prevent large, meaningful gatherings of our neighbors from taking place, and thanks to virtual meeting technology, we don’t have to. We do have a responsibility as government officials to preserve the lives of our constituents to the degree that we can. AJR 10 prevents public health officers from doing their jobs, endangering countless lives in any future pandemic.\"",
+        "sources": [
+          "s4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s2",
+      "url": "https://docs.legis.wisconsin.gov/2025/proposals/ajr10",
+      "title": "2025 Assembly Joint Resolution 10",
+      "publisher": "Wisconsin Legislature",
+      "kind": "official"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.superiortelegram.com/news/wisconsin/dei-public-health-order-amendments-to-go-on-november-ballots",
+      "title": "DEI, public health order amendments to go on November ballots",
+      "publisher": "Wisconsin Public Radio (via Superior Telegram)",
+      "kind": "news",
+      "date": "2026-01-22"
+    },
+    {
+      "id": "s4",
+      "url": "https://urbanmilwaukee.com/pressrelease/republican-backed-constitutional-amendments-take-us-backwards-deny-hard-truths/",
+      "title": "Republican-Backed Constitutional Amendments Take US Backwards, Deny Hard Truths",
+      "publisher": "State Sen. Chris Larson (press release via Urban Milwaukee)",
+      "kind": "candidate",
+      "date": "2026-01-21"
+    },
+    {
+      "id": "s5",
+      "url": "https://wifamilyaction.org/religious-freedom-constitutional-amendment-on-the-ballot/",
+      "title": "Religious Freedom Constitutional Amendment on the Ballot",
+      "publisher": "Wisconsin Family Action",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://docs.legis.wisconsin.gov/2025/related/enrolled/ajr10",
+      "title": "AJR10 enrolled joint resolution (second consideration)",
+      "publisher": "Wisconsin Legislature",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.wpr.org/news/what-to-know-wisconsin-november-2026-referendums",
+      "title": "What to know about Wisconsin's November 2026 referendums",
+      "publisher": "Wisconsin Public Radio",
+      "kind": "news"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Wisconsin publishes no state voter pamphlet with pro/con arguments, and the Wisconsin Elections Commission pages returned HTTP 403 to automated requests and were not bypassed, so the question text is taken from the enrolled joint resolution on docs.legis.wisconsin.gov, which states the ballot question verbatim (machine-checked; each enrolled resolution labels its question 'Question 1' because each was enacted separately). Official vote tallies are from the Legislature's bill history page. One argument per side was verified from primary statements (Wisconsin Family Action; Sen. Larson's press release). Other opposition (e.g., the League of Women Voters of Wisconsin and the Wisconsin Council of Churches, per Larson's release) was not independently fetched. WPR's voter guide confirms there are exactly three statewide questions on the Nov. 3, 2026 ballot and their numbering."
+}
