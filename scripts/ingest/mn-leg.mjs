@@ -117,6 +117,8 @@ async function getText(url, file, init) {
 }
 
 const rolls = { lower: [], upper: [] };
+// Appeals of rulings, tabling, suspending the rules, previous question etc. are procedural even when they sit on a bill.
+const PROC = /appeal|decision of (the )?(President|Speaker|Chair)|judgment of the (Senate|House)|germane|ruling|\btable\b|suspen(d|sion)|previous question|call of the (Senate|House)|reconsider|re-?referred|point of order|recall and place/i;
 const dropped = {}; const drop = (chamber, why) => { const k = `${chamber}:${why}`; dropped[k] = (dropped[k] ?? 0) + 1; };
 
 // --- House ---------------------------------------------------------------------------------------------------
@@ -163,7 +165,7 @@ for (const [sessionKey, sessionLabel] of [[302, "2025-2026 Regular"], [304, "202
         bill,
         title: ShortDescription || bill,
         question: question || undefined,
-        kind: classify({ motion_text: `${motion} ${amendment}`, motion_classification: /passage|concur|conference/i.test(motion) && !amendment ? ["passage"] : [] }),
+        kind: PROC.test(`${motion} ${amendment}`) ? "procedural" : classify({ motion_text: `${motion} ${amendment}`, motion_classification: /passage|concur|conference/i.test(motion) && !amendment ? ["passage"] : [] }),
         outcome: `${yea > nay ? "Passed" : "Failed"} ${yea}–${nay}`,
         date, dateLabel: label(date), sourceUrl, votes,
       });
@@ -252,24 +254,31 @@ for (const file of journals) {
       if (process.env.MN_DEBUG) console.error("MISMATCH", file, yea, nay, "parsed", yes.size, no.size, "at:", L[j], "|", L[j + 1]);
       drop("upper", "tally-mismatch"); prevEnd = i; continue;
     }
-    // Context before the roll call (bounded by the previous roll call) and the result after it.
-    const before = L.slice(Math.max(prevEnd, i - 60), i).join(" ");
     prevEnd = j;
     const after = L.slice(j, j + 12).join(" ");
-    const BILL = /\b([SH])F (\d+)/g;
-    let billRefs = [...before.matchAll(BILL)];
-    // Amendment texts can run for hundreds of lines: look further back, but never past a resolution, a confirmation
-    // or a section heading that cannot hold a bill.
-    for (let k = i - 61; !billRefs.length && k >= Math.max(0, i - 1500); k--) {
-      if (/foregoing resolution|Senate Resolution No|confirm|^MOTIONS AND RESOLUTIONS|^REPORTS OF COMMITTEES|^INTRODUCTION AND FIRST READING|^MESSAGES FROM THE HOUSE/i.test(L[k])) break;
-      billRefs = [...L[k].matchAll(BILL)];
+    // Attribute the vote to the motion that was put: walk back to the nearest line that *states* a motion on a bill or a
+    // resolution ("moved to amend S.F. No. 1740", "S.F. No. 12 was read the third time", "Conference Committee Report on
+    // H.F. No. 9"). A bare bill number somewhere earlier (the old behaviour) mislabelled resolutions and motions.
+    const norm = (k) => L.slice(k, k + 3).join(" ").replace(/\b([SH])\.\s?F\.\s?Nos?\.\s?(\d+)/g, "$1F $2");
+    let anchor = -1, bill = null, why = "no-anchor";
+    for (let k = i - 1; k >= Math.max(0, i - 1500); k--) {
+      if (/^MOTIONS AND RESOLUTIONS|^REPORTS OF COMMITTEES|^INTRODUCTION AND FIRST READING|^MESSAGES FROM THE HOUSE|^CALENDAR$/.test(L[k])) break;
+      const T = norm(k);
+      const res = /moved (to amend )?(the adoption of )?(the )?(foregoing )?(Senate )?[Rr]esolution|moved the adoption of the foregoing resolution|Senate Resolution No/.exec(T);
+      const conf = /moved[^.]*\b(confirm|appointment)/i.exec(T);
+      const bm = /moved(?:[^.]|\.\d)*?\b([SH]F \d+)|\b([SH]F \d+)[^.]*?was read the third time|Conference Committee [Rr]eport\s+on ([SH]F \d+)/.exec(T);
+      const hit = [res, conf, bm].filter((x) => x && x.index < L[k].length).sort((x, y) => x.index - y.index)[0];
+      if (!hit) continue;
+      anchor = k;
+      if (hit === res) why = "resolution";
+      else if (hit === conf) why = "appointment";
+      else bill = hit[1] ?? hit[2] ?? hit[3]; // the bill the motion names first ("identical to SF n" asides come later)
+      break;
     }
-    const q = [...before.matchAll(/The question was taken on ([^.]*?)\./g)].at(-1)?.[1];
-    const moved = [...before.matchAll(/(?:Senator|Senators) [A-Z][^.]*? moved ([^.]*?)\./g)].at(-1)?.[1];
-    if (!billRefs.length && process.env.MN_DEBUG) console.error("NOBILL", file, before.slice(-260));
-    if (!billRefs.length || /confirm|appointment/i.test(q ?? "")) { drop("upper", billRefs.length ? "appointment" : "no-bill"); continue; }
-    const ref = billRefs.at(-1);
-    const bill = `${ref[1]}F ${Number(ref[2])}`;
+    if (!bill) { drop("upper", why); continue; }
+    const seg = L.slice(anchor, i).join(" ").replace(/\b([SH])\.\s?F\.\s?Nos?\.\s?(\d+)/g, "$1F $2");
+    const q = [...seg.matchAll(/The question (?:was taken|recurred) on (.*?)(?:\.|\?")(?=\s|$)/g)].at(-1)?.[1];
+    const moved = /moved ([^.]*?)\./.exec(seg)?.[1];
     const passed = /did not prevail|was not passed|not adopted|not repassed|not concurred|failed|lost/i.test(after) ? false
       : /prevailed|passed|adopted|repassed|concurred|agreed/i.test(after) ? true : yea > nay;
     const votes = {}; let bad = false;
@@ -284,7 +293,7 @@ for (const file of journals) {
     senateRolls.push({
       id: `mn-s-${date.replaceAll("-", "")}-${n}`,
       bill, question,
-      kind: /suspend|\bRule \d|decision of the President|germane|call of the Senate|reconsider/i.test(`${q} ${moved}`) ? "procedural" : classify({ motion_text: q ?? moved ?? "", motion_classification: /passage of the bill|adoption of (the )?(report|conference)|concur/i.test(`${q ?? ""} ${moved ?? ""}`) ? ["passage"] : [] }),
+      kind: PROC.test(/motion/i.test(q ?? "") || !q ? `${q} ${moved}` : q) ? "procedural" : classify({ motion_text: q ?? moved ?? "", motion_classification: /passage of the bill|adoption of (the )?(report|conference)|concur/i.test(`${q ?? ""} ${moved ?? ""}`) ? ["passage"] : [] }),
       outcome: `${passed ? "Passed" : "Failed"} ${yea}–${nay}`,
       date, dateLabel: label(date),
       sourceUrl: `${SENATE}/journals//2025-2026/${file}#page=${pg[i] + 1}`,
