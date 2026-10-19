@@ -193,16 +193,71 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "David J. Else won the Legal Marijuana Now Party primary and is on the Nov. 3, 2026 general-election ballot for Nebraska's 3rd District. No campaign website or other public statements were found.",
+        "text": "David J. Else won the Legal Marijuana Now Party primary and is on the Nov. 3, 2026 general-election ballot for Nebraska's 3rd District.",
         "sources": [
           "s1"
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Protecting Affordable Care Act health insurance.",
+          "quote": "The reason I ran for Congress in 2022 is because I wanted to protect ACA [Affordable Care Act] health insurance.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Adding dental insurance to the Affordable Care Act.",
+          "quote": "I also would like to add dental insurance to ACA.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In the Nebraska Examiner's 2026 voter guide, said he ran for Congress in 2022 to protect ACA health insurance, promised to fight for health care insurance for all, and wants to add dental insurance to the ACA.",
+          "quote": "promised her I would fight for health care insurance for all until the day I die",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In the Nebraska Examiner's 2026 voter guide, said President Trump's trade wars have raised inflation and lowered grain prices for farmers.",
+          "quote": "Like this war and his trade wars that cause inflation to skyrocket up and grain prices for us farmers that have tanked because of Trump.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "I think Congress needs to grow a spine and tell Trump “no” on a lot of things.",
+          "context": "In the Nebraska Examiner's 2026 voter guide",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "On immigration, I would like to make it easier for immigrants to get a work visa, then a pathway to U.S. citizenship if they are not criminals and are hardworking people.",
+          "context": "In the Nebraska Examiner's 2026 voter guide",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Answers come from his responses in the Nebraska Examiner's 2026 primary voter guide (priorities, immigration, role of Congress). His campaign site (dave-else-for-congress.square.site) did not load readable text, and he has no Ballotpedia profile or Candidate Connection survey."
     },
     {
       "id": "macey-budke",
@@ -212,16 +267,51 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Macey Budke is running on the Nebraska Working People Party line in the Nov. 3, 2026 general election for Nebraska's 3rd District. No campaign website or other public statements were found.",
+        "text": "Macey Budke is running on the Nebraska Working People Party line in the Nov. 3, 2026 general election for Nebraska's 3rd District.",
         "sources": [
           "s1"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Keeping rural clinics open and lowering healthcare costs.",
+          "quote": "I will fight for policies that keep local clinics open, expand access, and lower costs for Nebraska families.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Supporting public education, farmers and ranchers.",
+          "quote": "I will support public education, stand up for Nebraska farmers and ranchers, and defend the freedoms that make rural life possible.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Rural communities deserve affordable, accessible healthcare close to home.",
+          "context": "In her 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "A producer can do everything right and still get caught between tariff retaliation, shifting foreign demand, input cost pressure, and federal decisions made far away from the operation carrying the risk.",
+          "context": "On her campaign website's agriculture plan",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "website": "https://budkeforcongress.com/",
+      "researchNotes": "Her campaign site and Ballotpedia Candidate Connection survey focus on rural healthcare, education, agriculture and accountability; they do not take a side on most listed issues (abortion, guns, immigration, etc.). Ballotpedia's survey lists her as an Independent, while the ballot line is the Nebraska Working People Party."
     },
     {
       "id": "mark-cohen",
@@ -231,16 +321,61 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Mark Cohen is running on the Nonpartisan ballot line in the Nov. 3, 2026 general election for Nebraska's 3rd District. No campaign website or other public statements were found.",
+        "text": "Mark Cohen is running on the Nonpartisan ballot line in the Nov. 3, 2026 general election for Nebraska's 3rd District.",
         "sources": [
           "s1"
         ]
       },
       "background": [],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Requiring paper ballots in every election.",
+          "quote": "require paper ballots in every election",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Funding and strengthening rural healthcare.",
+          "quote": "Nebraska deserves a representative who will work to fund and strengthen rural healthcare rather than cut taxes for billionaires",
+          "sources": [
+            "ch2"
+          ]
+        },
+        {
+          "text": "Making billionaires pay their fair share to balance the budget.",
+          "quote": "a representative who will fight for policies that make the billionaires pay their fair share so we can balance our budget once and for all",
+          "sources": [
+            "ch2"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "On his campaign website's issues page, calls the administration's tariffs ill-conceived and says they are hurting farmers, ranchers, and related industries.",
+          "quote": "This administration’s ill-conceived tariffs are hurting farmers, ranchers, and related industries.",
+          "sources": [
+            "ch1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "I won't sit quietly while those who should represent us destroy agriculture and cut rural healthcare to give tax cuts to billionaires.",
+          "context": "In a November 2025 campaign statement, per Nebraska Examiner",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign website (markfornebraska.org) reviewed; positions and priorities now cite it directly rather than a news report of it.",
+      "website": "https://www.markfornebraska.org/"
     }
   ],
   "sources": [
@@ -298,8 +433,50 @@
       "title": "3rd Congressional District voter guide: Meet the Nebraskans running",
       "publisher": "Nebraska Public Media",
       "kind": "news"
+    },
+    {
+      "id": "s8",
+      "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-primary-u-s-house-district-3/",
+      "title": "2026 primary voter guide: U.S. House, District 3",
+      "publisher": "Nebraska Examiner",
+      "kind": "news"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Macey_Budke",
+      "title": "Macey Budke, Ballotpedia Candidate Connection survey (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://budkeforcongress.com/plans/",
+      "title": "Plans",
+      "publisher": "Budke for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://nebraskaexaminer.com/2025/11/25/mark-cohen-runs-nonpartisan-bid-for-u-s-house-in-nebraskas-3rd-district/",
+      "title": "Mark Cohen runs nonpartisan bid for U.S. House in Nebraska's 3rd District",
+      "publisher": "Nebraska Examiner",
+      "kind": "news"
+    },
+    {
+      "id": "ch1",
+      "url": "https://www.markfornebraska.org/issues",
+      "title": "Issues - Mark for Nebraska",
+      "publisher": "Mark for Nebraska",
+      "kind": "candidate"
+    },
+    {
+      "id": "ch2",
+      "url": "https://www.markfornebraska.org/",
+      "title": "Mark Cohen, Independent Candidate for Congress in NE-03",
+      "publisher": "Mark for Nebraska",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No Ballotpedia profile page exists for David J. Else, and no campaign websites or Candidate Connection survey responses were found for Else, Budke, or Cohen. Stille's Ballotpedia profile has no separate biography section beyond her campaign-website statements."
+  "researchNotes": "No Ballotpedia profile page exists for David J. Else and no campaign website or Candidate Connection survey was found for him. Budke's site and survey, and Cohen's campaign website, were reviewed. Stille's Ballotpedia profile has no separate biography section beyond her campaign-website statements."
 }

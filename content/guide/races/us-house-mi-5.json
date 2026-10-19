@@ -185,21 +185,84 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Restore economic prosperity and opportunity to working families.",
+          "sources": [
+            "ch1"
+          ]
+        },
+        {
+          "text": "Protect affordable healthcare.",
+          "sources": [
+            "ch1"
+          ]
+        },
+        {
+          "text": "Build a strong educational system that values skill-based training.",
+          "sources": [
+            "ch1"
+          ]
+        },
+        {
+          "text": "Create an environment that supports affordable housing.",
+          "sources": [
+            "ch1"
+          ]
+        }
+      ],
       "positions": [
         {
-          "issue": "climate",
+          "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says he supports investments in the electrical grid, renewable energy and storage technology.",
-          "quote": "Supporting smart investments in our electrical grid, renewable energy, and storage technology to create good jobs.",
+          "summary": "Says healthcare is a human right and that he supports Medicare for all.",
+          "quote": "Healthcare is a human right. Medicare for all.",
           "sources": [
-            "s3"
-          ]
+            "ch3"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Lists ending tariffs he calls illegal among his five economic priorities.",
+          "quote": "End illegal tariffs and endless war.",
+          "sources": [
+            "ch3"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No campaign website located; background limited to what Ballotpedia's biography section documents."
+      "researchNotes": "Campaign website (christian4michigan.com) and its July 2026 side-by-side handout reviewed; also an Oct. 5 press release on tariffs. Position on climate is from Ballotpedia. Not found: own statements on abortion, guns, minimum wage, taxes, war powers, or voter citizenship proof. Planet Detroit survey (environment) not used.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Support secure border management paired with qualified & efficient legal processing according to the rule of law.",
+          "context": "In his campaign's side-by-side comparison handout, July 2026",
+          "sources": [
+            "ch3"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Expand childcare tax credits, fully fund public schools, protect Head Start and special education, and make community colleges, public universities, trade schools, and vocational programs more affordable.",
+          "context": "On his campaign website's values page",
+          "sources": [
+            "ch2"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Supporting smart investments in our electrical grid, renewable energy, and storage technology to create good jobs.",
+          "context": "In his Ballotpedia Candidate Connection survey",
+          "sources": [
+            "ch4"
+          ]
+        }
+      ],
+      "website": "https://christian4michigan.com/"
     },
     {
       "id": "james-bronke",
@@ -219,7 +282,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchNotes": "Green Party nominee. No campaign website fetched (gp.org page blocked automated access); BallotReady lists a Facebook page. A 2024 WNDU profile discussed only a health-research proposal. No statements on the guide's issues found."
     },
     {
       "id": "ronald-muszynski",
@@ -239,7 +302,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchNotes": "Libertarian nominee. No campaign website, questionnaire or news coverage of his positions found; BallotReady and Planet Detroit profiles list none."
     },
     {
       "id": "sharon-renier",
@@ -259,7 +322,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or detailed public record found within the time available."
+      "researchNotes": "U.S. Taxpayers Party nominee. No campaign website, questionnaire or news coverage of her positions found; BallotReady and Planet Detroit profiles list none."
     }
   ],
   "sources": [
@@ -338,6 +401,35 @@
       "url": "https://walberg.house.gov/issues/energy-gas-prices",
       "title": "Energy & Gas Prices",
       "publisher": "Office of Rep. Tim Walberg",
+      "kind": "candidate"
+    },
+    {
+      "id": "ch1",
+      "url": "https://christian4michigan.com/about",
+      "title": "Meet Christian Vukasovich",
+      "publisher": "Christian Vukasovich for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "ch2",
+      "url": "https://christian4michigan.com/priorities",
+      "title": "Christian's Values",
+      "publisher": "Christian Vukasovich for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "ch3",
+      "url": "https://cms.christian4michigan.com/assets/cv-vs-tw-draft4.qxp_layout-1-(1).pdf",
+      "title": "Side-By-Side Candidate Comparison (campaign handout)",
+      "publisher": "Christian Vukasovich for Congress",
+      "kind": "candidate",
+      "date": "2026-07-01"
+    },
+    {
+      "id": "ch4",
+      "url": "https://ballotpedia.org/Christian_Vukasovich",
+      "title": "Christian Vukasovich, Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
     }
   ],
