@@ -18,11 +18,23 @@ const roster = {
   ]),
   house: new Map([["tx-37", m("Lloyd Doggett", "D000399", "2027-01-03")], ["tx-10", m("Michael McCaul", "M001157", "2027-01-03")]]),
 };
-const { electionForSeat } = loadTs("../src/server/live/elections.ts", {
-  "node:fs": { readFileSync: () => "", readdirSync: () => [] },
+const slatesJson = JSON.stringify({
+  election: { name: "2026 general election", date: "2026-11-03", dateLabel: "Nov 3, 2026" },
+  seats: [
+    { districtKey: "tx-lower-1", candidates: [cand("A")], sourceUrl: "u", sourceLabel: "Ballotpedia" },
+    { districtKey: "nh-lower-Hillsborough 7", seats: 3, candidates: [cand("B")], sourceUrl: "u", sourceLabel: "Ballotpedia" },
+  ],
+});
+const U1 = "11111111-1111-1111-1111-111111111111";
+const stateRoster = {
+  tx: [{ id: U1, chamber: "lower", districtLabel: "1" }, { id: "22222222-2222-2222-2222-222222222222", chamber: "upper", districtLabel: "1" }],
+  nh: [{ id: U1, chamber: "lower", districtLabel: "Hillsborough 7" }],
+};
+const { electionForSeat, stateSlates, parseSlateKey } = loadTs("../src/server/live/elections.ts", {
+  "node:fs": { readFileSync: () => slatesJson, readdirSync: () => ["candidates-x.json"] },
   "node:path": { join: (...p) => p.join("/") },
   "../guide/load": { getRace: (id) => races[id] ?? null },
-  "./rosters": { getCongressRoster: async () => roster },
+  "./rosters": { getCongressRoster: async () => roster, getStateLegislatureRoster: async (st) => stateRoster[st] ?? [] },
 }, { process: { cwd: () => "/" } });
 
 test("a senator on the 2026 ballot is matched by incumbent surname or bioguide id", async () => {
@@ -44,4 +56,16 @@ test("a House race with a different incumbent is not presented as this seat's ra
 });
 test("NYC Council seats keep their 2029 note", async () => {
   assert.equal((await electionForSeat("nyc-council-4")).nextElectionLabel, "2029");
+});
+
+test("a state legislator joins to the slate by chamber and district label", async () => {
+  assert.equal((await electionForSeat(`tx-lower-${U1}`)).candidates[0].name, "A");
+  assert.equal((await electionForSeat(`nh-lower-${U1}`)).seats, 3);
+  // Same district label, but no senate slate in the file: no claim
+  assert.equal(await electionForSeat("tx-upper-22222222-2222-2222-2222-222222222222"), null);
+  assert.equal(await electionForSeat(`la-lower-${U1}`), null);
+});
+test("stateSlates lists a state's seats; parseSlateKey splits chamber and label", () => {
+  assert.equal(stateSlates("TX").length, 1);
+  assert.equal(parseSlateKey("nh-lower-Hillsborough 7").label, "Hillsborough 7");
 });
