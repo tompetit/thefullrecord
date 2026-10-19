@@ -37,9 +37,76 @@
         "sources": [
           "s1"
         ]
+      },
+      {
+        "text": "In the minority report of the Legislature's Special Joint Committee on Initiative Petitions, signed by Sen. Ryan C. Fattman, as printed in the Information for Voters: \"The Legislature has a fundamental responsibility to operate with openness and integrity, and adopting this initiative is a critical step toward fulfilling that obligation.\"",
+        "sources": [
+          "s1"
+        ]
       }
     ],
-    "argumentsAgainst": []
+    "argumentsAgainst": [
+      {
+        "text": "In the majority report of the Legislature's Special Joint Committee on Initiative Petitions (signed by Sens. Cindy F. Friedman, Brendan P. Crighton, Paul R. Feeney and Reps. Alice Hanlon Peisch, Kate Hogan, Frank A. Moran, Michael S. Day, David T. Vieira), as printed in the Information for Voters: \"Based on testimony by the experts and from the opponents, the Committee believes that this Petition violates the separation of powers mandated by the Massachusetts Constitution.\"",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    "fullTextUrl": "https://www.sec.state.ma.us/divisions/elections/download/information-for-voters/archive/IFV_2026%20English.pdf",
+    "fiscalImpact": {
+      "text": "Executive Office for Administration and Finance: \"The proposed law has no discernible material fiscal consequences for state and municipal government finances.\"",
+      "sources": [
+        "s1"
+      ]
+    },
+    "currentLaw": {
+      "text": "According to the Legislature's committee reports, executive branch agencies and departments and municipal entities are required to comply with the public records law (M.G.L. chapters 4 and 66); the petition would subject the Governor's office and the Legislature to that law. A No vote makes no change to the Public Records Law (official \"what your vote will do\" statement).",
+      "sources": [
+        "s1"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Committee for Transparency and Democracy (Diana DiZoglio), signer of the pro argument; registered with OCPF as supporting",
+        "sources": [
+          "s1",
+          "s90"
+        ]
+      },
+      {
+        "text": "Coalition for Healthy Democracy 2026, registered with OCPF as a committee supporting this question (also registered on Question 3)",
+        "sources": [
+          "s90"
+        ]
+      },
+      {
+        "text": "Sen. Ryan C. Fattman, minority report of the Special Joint Committee on Initiative Petitions recommending the General Court adopt the petition",
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "text": "Democratic Socialists For a Fair Massachusetts (registered with OCPF as a committee supporting this question)",
+        "sources": [
+          "s90"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "A majority of the Legislature's Special Joint Committee on Initiative Petitions voted May 4, 2026 to recommend that the General Court take no action on the petition (majority report). The Information for Voters states there was no organized group urging a No vote when it was printed",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Receipts reported to the Massachusetts Office of Campaign and Political Finance (OCPF) by committees registered for this question, calendar years 2025 and 2026 combined, as published in OCPF's ballot question reports and retrieved Oct 19, 2026 (through each committee's most recent filing). Supporting ($7,249,562 total): Committee for Transparency and Democracy $331,690; Coalition for Healthy Democracy 2026 $6,917,822; Democratic Socialists For a Fair Massachusetts $50 | Opposing: no committees registered with OCPF. Committees registered on more than one question report one total for all of them, so these figures overlap across questions.",
+      "sources": [
+        "s90"
+      ]
+    }
   },
   "sources": [
     {
@@ -48,8 +115,16 @@
       "title": "2026 Massachusetts Information for Voters (State Election, November 3, 2026)",
       "publisher": "Secretary of the Commonwealth of Massachusetts",
       "kind": "official"
+    },
+    {
+      "id": "s90",
+      "url": "https://api.ocpf.us/reports/ballotQuestions/byQuestion/2026",
+      "title": "OCPF ballot question committee reports, 2026 (committees and year-to-date receipts)",
+      "publisher": "Massachusetts Office of Campaign and Political Finance",
+      "kind": "official",
+      "date": "2026-10-19"
     }
   ],
-  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. No signed argument against appears: the booklet states there was no organized group urging a No vote and prints text compiled by the Secretary's office, which is not quoted here. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions.",
+  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. No signed argument against appears: the booklet states there was no organized group urging a No vote and prints text compiled by the Secretary's office, which is not quoted here. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions. Added Oct 19, 2026: supporters/opponents are the signers of the Information for Voters arguments, committees registered with OCPF for each question (OCPF lists each committee as supporting or opposing), and the Legislature's committee reports printed in the booklet; no endorsement lists from other organizations were verified. Campaign-finance figures are from the OCPF reports API, which publishes year-to-date totals by committee and does not state a single as-of date.",
   "id": "ma-prop-question-1"
 }

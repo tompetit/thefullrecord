@@ -46,7 +46,50 @@
           "s1"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://www.sec.state.ma.us/divisions/elections/download/information-for-voters/archive/IFV_2026%20English.pdf",
+    "fiscalImpact": {
+      "text": "Executive Office for Administration and Finance: \"The proposed law has no discernible material fiscal consequences for state and municipal government finances.\"",
+      "sources": [
+        "s1"
+      ]
+    },
+    "currentLaw": {
+      "text": "According to the Legislature's committee majority report, a partisan primary election administered by the Commonwealth was implemented in 1911; the Democratic and Republican parties currently use conventions to endorse candidates for statewide office, and a party's endorsement does not appear as a notation on the ballot in a partisan primary. A No vote makes no change to the laws governing primary elections.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Coalition for Healthy Democracy (Danielle Allen), signer of the pro argument; registered with OCPF as Coalition for Healthy Democracy 2026",
+        "sources": [
+          "s1",
+          "s90"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Voter Rights MA (Vanessa A. Snow), signer of the con argument; registered with OCPF as opposing",
+        "sources": [
+          "s1",
+          "s90"
+        ]
+      },
+      {
+        "text": "Democratic Socialists Against Reactionary Rollbacks, registered with OCPF as a committee opposing this question",
+        "sources": [
+          "s90"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Receipts reported to the Massachusetts Office of Campaign and Political Finance (OCPF) by committees registered for this question, calendar years 2025 and 2026 combined, as published in OCPF's ballot question reports and retrieved Oct 19, 2026 (through each committee's most recent filing). Supporting ($6,917,822 total): Coalition for Healthy Democracy 2026 $6,917,822 | Opposing ($166,160 total): Voter Rights MA $166,110; Democratic Socialists Against Reactionary Rollbacks $50. Committees registered on more than one question report one total for all of them, so these figures overlap across questions.",
+      "sources": [
+        "s90"
+      ]
+    }
   },
   "sources": [
     {
@@ -55,8 +98,16 @@
       "title": "2026 Massachusetts Information for Voters (State Election, November 3, 2026)",
       "publisher": "Secretary of the Commonwealth of Massachusetts",
       "kind": "official"
+    },
+    {
+      "id": "s90",
+      "url": "https://api.ocpf.us/reports/ballotQuestions/byQuestion/2026",
+      "title": "OCPF ballot question committee reports, 2026 (committees and year-to-date receipts)",
+      "publisher": "Massachusetts Office of Campaign and Political Finance",
+      "kind": "official",
+      "date": "2026-10-19"
     }
   ],
-  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions.",
+  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions. Added Oct 19, 2026: supporters/opponents are the signers of the Information for Voters arguments, committees registered with OCPF for each question (OCPF lists each committee as supporting or opposing), and the Legislature's committee reports printed in the booklet; no endorsement lists from other organizations were verified. Campaign-finance figures are from the OCPF reports API, which publishes year-to-date totals by committee and does not state a single as-of date.",
   "id": "ma-prop-question-3"
 }

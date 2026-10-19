@@ -52,7 +52,68 @@
           "s1"
         ]
       }
-    ]
+    ],
+    "fullTextUrl": "https://www.sec.state.ma.us/divisions/elections/download/information-for-voters/archive/IFV_2026%20English.pdf",
+    "fiscalImpact": {
+      "text": "Executive Office for Administration and Finance: the proposed law \"would put stricter limits on allowable annual revenue growth available for budgeting,\" would reduce the amount available to support the state budget (including local aid for schools and municipal budgets) and the amounts available to build the Stabilization (rainy day) Fund, and \"could change the frequency of statutorily-required refunds to taxpayers.\" No dollar estimate is given.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "currentLaw": {
+      "text": "Per the Legislature's committee majority report on the related petitions: \"The law requires the Department of Revenue to issue a credit to taxpayers if total tax revenues in a given fiscal year exceed an annual cap tied to wage and salary growth in the Commonwealth.\" The report states the existing chapter 62F revenue limit has been triggered twice since enacted in 1986 (in 1987 and 2022) and that the petition would change the calculation to include Fair Share surtax revenue and to base the limit on the prior year's actual revenue collected rather than the prior year's limit.",
+      "sources": [
+        "s1"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Taxpayers for an Affordable Massachusetts, signer of the pro argument; registered with OCPF as supporting",
+        "sources": [
+          "s1",
+          "s90"
+        ]
+      },
+      {
+        "text": "Sen. Ryan C. Fattman, minority report of the Special Joint Committee on Initiative Petitions recommending the General Court adopt the petition",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Protect Massachusetts' Future (Colette Berard), signer of the con argument; registered with OCPF as Protect Massachusetts Future",
+        "sources": [
+          "s1",
+          "s90"
+        ]
+      },
+      {
+        "text": "Raise Up Massachusetts 2026, registered with OCPF as opposing",
+        "sources": [
+          "s90"
+        ]
+      },
+      {
+        "text": "Democratic Socialists Against Austerity, registered with OCPF as opposing",
+        "sources": [
+          "s90"
+        ]
+      },
+      {
+        "text": "A majority of the Legislature's Special Joint Committee on Initiative Petitions voted May 4, 2026 to recommend that the General Court take no action on the petition (majority report; the same report and vote also covered a separate income-tax petition that is not on this ballot)",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    "campaignFinance": {
+      "text": "Receipts reported to the Massachusetts Office of Campaign and Political Finance (OCPF) by committees registered for this question, calendar years 2025 and 2026 combined, as published in OCPF's ballot question reports and retrieved Oct 19, 2026 (through each committee's most recent filing). Supporting ($566,658 total): Taxpayers for an Affordable Massachusetts $566,658 | Opposing ($715,822 total): Protect Massachusetts Future $669,000; Raise Up Massachusetts 2026 $45,892; Democratic Socialists Against Austerity $880; Democratic Socialists Against Reactionary Rollbacks $50. Committees registered on more than one question report one total for all of them, so these figures overlap across questions.",
+      "sources": [
+        "s90"
+      ]
+    }
   },
   "sources": [
     {
@@ -68,8 +129,16 @@
       "title": "Mass. high court blocks state income tax question from November ballot",
       "publisher": "WBUR",
       "kind": "news"
+    },
+    {
+      "id": "s90",
+      "url": "https://api.ocpf.us/reports/ballotQuestions/byQuestion/2026",
+      "title": "OCPF ballot question committee reports, 2026 (committees and year-to-date receipts)",
+      "publisher": "Massachusetts Office of Campaign and Political Finance",
+      "kind": "official",
+      "date": "2026-10-19"
     }
   ],
-  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions.",
+  "researchNotes": "Ballot text, official yes/no statements and fiscal statements are taken from the Secretary of the Commonwealth's 2026 Information for Voters booklet (PDF text extracted and checked by script). Arguments are quoted from the signed 150-word pro/con statements, which the Commonwealth states reflect the authors' opinions and are not certified as accurate. Both a signed pro and a signed con argument are printed. The booklet's own summary is the Attorney General's; the Secretary's page and Ballotpedia could not be fetched (bot protection), so the ballot list was confirmed from the booklet itself, which covers nine questions. Added Oct 19, 2026: supporters/opponents are the signers of the Information for Voters arguments, committees registered with OCPF for each question (OCPF lists each committee as supporting or opposing), and the Legislature's committee reports printed in the booklet; no endorsement lists from other organizations were verified. Campaign-finance figures are from the OCPF reports API, which publishes year-to-date totals by committee and does not state a single as-of date.",
   "id": "ma-prop-question-5"
 }
