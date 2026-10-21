@@ -81,3 +81,7 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - belinda-fox-spencer: s3 "Ballot Access News" title is a placeholder; ballot-access.org refused the fetch.
 - fred-clark: Assembly service given as 2009–2015; old Wisconsin Examiner bio said 2009–2014.
 - thomas-p-dinapoli: restored the 2026 campaign sentence (fund growth; contract-review threshold) citing s1/s2 — confirm which source carries it.
+- james-uthmeier: summary claimed suits against Meta and Pfizer with no supporting source; trimmed to the cited Discord suit. Add sources if the Meta/Pfizer suits should be mentioned.
+- james-sanders-jr: City Council start — nysenate.gov says elected 2001, old Ballotpedia text said "since 2002".
+- kathy-jennings, marie-gluesenkamp-perez, john-duresky, jean-anglade: two source entries share one URL (one probably mislabeled).
+- luis-r-sepulveda: Wikipedia (born in Brooklyn) and El Diario (grew up in Los Sures) both kept.
