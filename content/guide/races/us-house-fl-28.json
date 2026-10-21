@@ -11,47 +11,104 @@
   "context": [
     {
       "text": "Both major-party primaries were canceled: incumbent Carlos Gimenez advanced unopposed as the Republican nominee, and Phil Ehr advanced unopposed as the Democratic nominee. Eddy Rojas is running with No Party Affiliation.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "carlos-gimenez",
       "name": "Carlos Gimenez",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced from a canceled Republican primary, unopposed.",
       "currentRole": "U.S. Representative, Florida's 28th District (since 2023); in Congress since 2021",
       "summary": {
-        "text": "Carlos Gimenez is the Republican incumbent seeking re-election in Florida's 28th District. He previously served as Mayor of Miami-Dade County (2011-2020), city manager of Miami, and a Miami firefighter, and has represented South Florida in Congress since 2021.",
-        "sources": ["s1", "s2"]
+        "text": "Carlos Gimenez is the Republican incumbent in Florida's 28th District, first elected to the U.S. House in 2020. He spent 25 years in the City of Miami Fire Department, serving as its chief for the last nine, then served as Miami city manager, Miami-Dade County commissioner and Mayor of Miami-Dade County (2011-2020). His House committee work includes Armed Services and Homeland Security.",
+        "sources": [
+          "s9",
+          "s2"
+        ]
       },
       "background": [
         {
-          "text": "Born in Cuba; graduated from Christopher Columbus High School and earned a bachelor's degree in public administration from Barry University (1999).",
-          "sources": ["s2"]
+          "text": "Born in 1954 in Cuba; according to his official House biography, he arrived in the United States shortly after the Communist takeover of Cuba and settled in Miami's Little Havana neighborhood.",
+          "sources": [
+            "s9"
+          ]
         },
         {
-          "text": "Worked as a firefighter with the City of Miami Fire Department and later served as Miami's city manager.",
-          "sources": ["s2"]
+          "text": "Graduated from Christopher Columbus High School in Westchester, Florida, and earned a bachelor's degree in public administration from Barry University (1999, per Ballotpedia); he also completed the Program for Senior Executives in State and Local Government at Harvard's John F. Kennedy School of Government.",
+          "sources": [
+            "s9",
+            "s2"
+          ]
         },
         {
-          "text": "Served as Mayor of Miami-Dade County from 2011 to 2020.",
-          "sources": ["s2"]
+          "text": "Joined the City of Miami Fire Department in 1975 and spent 25 years as a firefighter, the last nine as the department's chief; his House biography describes him as the first Cuban American to serve as Miami's fire chief.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Appointed Manager of the City of Miami in 2000, overseeing a budget of about $500 million and nearly 4,000 employees.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Elected Miami-Dade County Commissioner for District 7 in 2004 and served until 2011.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Elected Mayor of Miami-Dade County in 2011, re-elected in 2012 and 2016, and served until 2020.",
+          "sources": [
+            "s9",
+            "s2"
+          ]
+        },
+        {
+          "text": "First elected to the U.S. House in 2020. His official biography describes him as the first career firefighter-paramedic to serve in Congress.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Serves on the House Armed Services Committee and the Homeland Security Committee, where he chairs the Subcommittee on Transportation and Maritime Security; also a member of the House Select Committee on Strategic Competition between the United States and the Chinese Communist Party and the Smithsonian Board of Regents, and Vice Chairman of the Republican Governance Group.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "According to his House biography, he is married to Lourdes and they have three adult children and six grandchildren.",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Economy and Taxes: says lowering taxes, reforming the legal system to reduce undue liability for businesses, cutting regulations, and fostering a strong business climate are needed to sustain small-business growth.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Energy: supports an \"all-of-the-above\" approach to domestic energy production, opposes offshore drilling off Florida's coast, and supports deployment of clean-energy technology.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Immigration: prioritizes border-security resources alongside a path to legal status for undocumented immigrants already in the country, and continuation of DACA and Deferred Enforced Departure for Venezuelans.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
@@ -59,28 +116,36 @@
           "issue": "immigration_enforcement",
           "stance": "mixed",
           "summary": "On his official issues page, supports devoting more resources to border security and opposes sanctuary cities that limit local cooperation with federal immigration enforcement, but also supports a path to legal status (rather than deportation) for undocumented immigrants already in the country, continuation of DACA, and Deferred Enforced Departure for Venezuelans.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Opposes raising the corporate tax rate above 21% or creating a new annual wealth tax, and opposes raising tax rates on corporations and small businesses to pay for new spending.",
           "quote": "I also oppose increasing tax rates on corporations and small businesses as a means of paying for new spending and oppose the implementation of an annual wealth tax.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "climate",
           "stance": "mixed",
           "summary": "Says he supports an \"all-of-the-above\" approach to domestic energy that includes deployment of clean-energy technology, while also emphasizing continued U.S. oil and gas production and energy independence rather than moving away from fossil fuels.",
           "quote": "I support an all-of-the-above approach to domestic energy production with a focus on research, and deployment of new, clean energy technologies that ensures all Americans have access to affordable and reliable energy sources.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, the Committee on Homeland Security (chairing the Subcommittee on Transportation and Maritime Security), and the House Armed Services Committee in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.carlosgimenezforcongress.com/",
@@ -90,35 +155,84 @@
     {
       "id": "phil-ehr",
       "name": "Phil Ehr",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from a canceled Democratic primary, unopposed.",
       "summary": {
-        "text": "Phil Ehr is the Democratic nominee for Florida's 28th Congressional District. He is a retired U.S. Navy officer who has run for Congress in South Florida in prior cycles.",
-        "sources": ["s1", "s3"]
+        "text": "Phil Ehr is the Democratic nominee in Florida's 28th District. A retired U.S. Navy commander, he served 26 years before retiring in 2008, and has run for Congress in Florida's 1st District (2018, 2020) and in the 28th District (2024). According to his past campaign website, his priorities include the cost of living, border security and immigration reform, gun laws, public education, reproductive rights and clean energy.",
+        "sources": [
+          "s10",
+          "s3",
+          "s4"
+        ]
       },
       "background": [
         {
-          "text": "Earned an undergraduate degree from the University of the State of New York and a master's degree in international relations from Troy State University.",
-          "sources": ["s3"]
+          "text": "Born in Colorado and lived for many years in Pensacola before moving to West Kendall in Miami-Dade County, according to the Florida Keys Citizen.",
+          "sources": [
+            "s10"
+          ]
         },
         {
-          "text": "Served in the United States Navy from 1982 to 2008.",
-          "sources": ["s3"]
+          "text": "Attended King's College London, earned a bachelor's degree in political science from the University of the State of New York and a master's degree in international relations from Troy State University.",
+          "sources": [
+            "s10",
+            "s3"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Navy from 1982 to 2008 and retired as a commander; the Florida Keys Citizen reports his early assignments included the Mariel boatlift and work at Naval Air Station Key West with the Joint Interagency Task Force South.",
+          "sources": [
+            "s10",
+            "s3"
+          ]
+        },
+        {
+          "text": "Ran for Florida's 1st Congressional District in 2018 as a Democrat and lost the August primary to Jennifer Zimmerman, 60.5% to 39.5%.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Won the Democratic nomination in Florida's 1st District in 2020 after the primary was canceled, and lost the general election to Rep. Matt Gaetz, 64.6% to 34.0%.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Entered the 2024 U.S. Senate Democratic primary in Florida in July 2023, then withdrew in October 2023 to challenge Rep. Carlos Gimenez in the 28th District.",
+          "sources": [
+            "s11",
+            "s10"
+          ]
+        },
+        {
+          "text": "Lost the 2024 general election to Gimenez, 64.6% to 35.4%, and is again the Democratic nominee in 2026 after the August 18 primary was canceled.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Reducing Florida's cost of living and strengthening Medicare and Social Security.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Securing the border and reforming legal immigration.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Supporting public education and labor unions in Florida, and protecting the environment through clean energy and water infrastructure.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -126,26 +240,34 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Lists strengthening Medicare and Social Security among his campaign priorities.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "Says he would work to enact stronger gun laws to address gun violence.",
           "quote": "Stop the mass murder epidemic by enacting responsible gun laws.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says he would work to restore abortion rights by removing government restrictions on reproductive decisions.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Lists protecting Florida's environment by building clean energy and water infrastructure among his priorities.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -156,13 +278,37 @@
     {
       "id": "eddy-rojas",
       "name": "Eddy Rojas",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Eddy Rojas is a No Party Affiliation candidate on the general-election ballot for Florida's 28th District.",
-        "sources": ["s1", "s5"]
+        "text": "Eddy Rojas is a No Party Affiliation candidate for Florida's 28th District. According to his campaign website, he came to Miami from Cuba and spent about 20 years building a service company. He ran for Mayor of Miami-Dade County in 2024.",
+        "sources": [
+          "s12",
+          "s5"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "According to his campaign website, he came to Miami from Cuba and over the past 20 years built a service company from the ground up, starting by parking cars.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Ran in the nonpartisan August 20, 2024 primary for Mayor of Miami-Dade County, receiving 1.3% (3,609 votes); Daniella Levine Cava won the primary with 57.9%.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Describes his campaign values as family, faith and hard work.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
@@ -171,15 +317,103 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_28th_Congressional_District_election,_2026", "title": "Florida's 28th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Carlos_Gimenez", "title": "Carlos Gimenez", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Phil_Ehr", "title": "Phil Ehr", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://ballotpedia.org/Phil_Ehr", "title": "Phil Ehr - campaign website (quoted via Ballotpedia)", "publisher": "Phil Ehr for Congress", "kind": "candidate", "date": "2024" },
-    { "id": "s5", "url": "https://ballotpedia.org/Eddy_Rojas", "title": "Eddy Rojas", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s6", "url": "https://gimenez.house.gov/immigration", "title": "Immigration", "publisher": "Office of Rep. Carlos Gimenez", "kind": "official", "date": "2026-09-25" },
-    { "id": "s7", "url": "https://gimenez.house.gov/economy-and-taxes", "title": "Economy and Taxes", "publisher": "Office of Rep. Carlos Gimenez", "kind": "official", "date": "2026-09-25" },
-    { "id": "s8", "url": "https://gimenez.house.gov/energy", "title": "Energy", "publisher": "Office of Rep. Carlos Gimenez", "kind": "official", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Florida%27s_28th_Congressional_District_election,_2026",
+      "title": "Florida's 28th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Carlos_Gimenez",
+      "title": "Carlos Gimenez",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Phil_Ehr",
+      "title": "Phil Ehr",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Phil_Ehr",
+      "title": "Phil Ehr - campaign website (quoted via Ballotpedia)",
+      "publisher": "Phil Ehr for Congress",
+      "kind": "candidate",
+      "date": "2024"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Eddy_Rojas",
+      "title": "Eddy Rojas",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://gimenez.house.gov/immigration",
+      "title": "Immigration",
+      "publisher": "Office of Rep. Carlos Gimenez",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://gimenez.house.gov/economy-and-taxes",
+      "title": "Economy and Taxes",
+      "publisher": "Office of Rep. Carlos Gimenez",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
+      "url": "https://gimenez.house.gov/energy",
+      "title": "Energy",
+      "publisher": "Office of Rep. Carlos Gimenez",
+      "kind": "official",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "kind": "official",
+      "url": "https://gimenez.house.gov/about",
+      "title": "About | Congressman Carlos Gimenez",
+      "publisher": "Office of Congressman Carlos Gimenez",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s10",
+      "kind": "news",
+      "url": "https://www.keysnews.com/news/local/dem-phil-ehr-running-for-congress-in-28th-district/article_0914d6a3-3611-4a92-90eb-c7de2fc001ab.html",
+      "title": "Dem Phil Ehr running for Congress in 28th District (Florida Keys Citizen, Feb. 26, 2026)",
+      "publisher": "Florida Keys Citizen",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "s11",
+      "kind": "news",
+      "url": "https://www.wlrn.org/government-politics/2023-10-18/democrat-phil-ehr-exits-us-senate-race-will-challenge-gop-rep-gimenez-for-congress",
+      "title": "Democrat Phil Ehr exits US Senate race, will challenge GOP Rep. Gimenez for Congress (WLRN, Oct. 18, 2023)",
+      "publisher": "WLRN",
+      "date": "2023-10-18"
+    },
+    {
+      "id": "s12",
+      "kind": "candidate",
+      "url": "https://www.eddyrojas.com/about",
+      "title": "About | Rojas for Congress",
+      "publisher": "Rojas for Congress",
+      "date": "2026-10-21"
+    }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Gimenez's federal key votes and FEC finance totals are added separately by script."
+  "researchNotes": "Gimenez's federal key votes and FEC finance totals are added separately by script. Biography gaps: Rojas's campaign site gives no birth year, education or company name, and he has not completed Ballotpedia's Candidate Connection survey; Ehr's campaign site (ehrforce.com) was a sign-up page with no biography, so his bio relies on Ballotpedia and news."
 }
