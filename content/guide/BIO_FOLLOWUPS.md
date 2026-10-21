@@ -90,3 +90,6 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - Mislabeled source kinds (news marked "candidate"): Georgia Recorder, The Current, tim-fleming s2; nate-willems s4 title doesn't match its page.
 - steve-hilton: Hungarian-immigrant parents and Stanford teaching rest on his campaign site, which returned nothing when re-fetched.
 - don-wagner: Ballotpedia splits Assembly service as AD-70 (2010–12) and AD-68 (2012–16).
+- sarah-huckabee-sanders: birthplace left out — old bio said Hope, AR; Wikipedia says Little Rock ("better source needed").
+- treg-taylor: "six children" not found on campaign home page; kept on prior citation.
+- tommy-tuberville: "40-year coaching career" from old senate.gov bio, which no longer renders.
