@@ -11,51 +11,102 @@
   "context": [
     {
       "text": "Former Rep. Marjorie Taylor Greene (R) withdrew from the Republican primary for this seat and left Congress in early 2026; a special election was held to fill the vacancy. Clayton Fuller (R) won the special general runoff election on April 7, 2026 and took office on April 14, 2026. He then won the May 19, 2026 regular Republican primary and is the incumbent on the November ballot.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     },
     {
       "text": "Cook Political Report rates the November general election Solid Republican; Decision Desk, Inside Elections, and Sabato's Crystal Ball also rate it Safe/Solid Republican.",
-      "sources": ["s3"]
+      "sources": [
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "clayton-fuller",
       "name": "Clayton Fuller",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the special general runoff election on April 7, 2026, then won the May 19, 2026 regular Republican primary",
       "currentRole": "U.S. Representative (since April 2026)",
       "summary": {
-        "text": "Clayton Fuller is a U.S. Air Force veteran, former prosecutor, and former White House Fellow who won the special election to succeed Marjorie Taylor Greene in April 2026. He holds degrees from Emory University, Cornell University, and Southern Methodist University's law school.",
-        "sources": ["s2"]
+        "text": "Clayton (Clay) Fuller is the Republican incumbent in Georgia's 14th District, which he has represented since April 2026. A former district attorney and Air Force judge advocate, he served as a White House Fellow in 2018-2019 and continues to serve in the Air National Guard. He won the April 7, 2026 special election runoff to succeed Marjorie Taylor Greene and the May 19 Republican primary.",
+        "sources": [
+          "s2",
+          "s6"
+        ]
       },
       "background": [
         {
+          "text": "Raised in the North Georgia mountains; according to his campaign survey, he is an eighth-generation North Georgian who lives in Dade County. He was captain of the basketball team at Emory University.",
+          "sources": [
+            "s6",
+            "s2"
+          ]
+        },
+        {
           "text": "Earned a bachelor's degree in English from Emory University (2004), a Master of Public Administration from Cornell University (2006), and a J.D. from Southern Methodist University's Dedman School of Law (2009); later earned a master's degree in military arts and sciences from the Air Command and Staff College (2020).",
-          "sources": ["s2"]
+          "sources": [
+            "s2",
+            "s6"
+          ]
         },
         {
-          "text": "Has served in the U.S. Air Force since 2009; career experience includes serving as a staff judge advocate and as a district attorney with the Lookout Mountain Judicial Circuit in Georgia.",
-          "sources": ["s2"]
+          "text": "Has served in the U.S. Air Force since 2009 and is a Lt. Col. and Deputy Staff Judge Advocate in the Air National Guard, according to his House biography. He was deployed from May to November 2024 as legal advisor to the Combined Air Operations Center at Shaw Air Force Base and Al Udeid Air Base, Qatar.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
         },
         {
-          "text": "Served as a White House Fellow, working in counter-terrorism between the White House and the Pentagon.",
-          "sources": ["s2"]
+          "text": "Served as District Attorney for the Lookout Mountain Judicial Circuit, a four-county circuit in northwest Georgia.",
+          "sources": [
+            "s6",
+            "s2"
+          ]
         },
         {
-          "text": "Won the special general election runoff for Georgia's 14th District on April 7, 2026, defeating Shawn Harris, and took office on April 14, 2026.",
-          "sources": ["s2"]
+          "text": "Served as a White House Fellow from 2018 to 2019, working in the Office of the Vice President and the Department of Defense, including on counter-terrorism matters.",
+          "sources": [
+            "s6",
+            "s2"
+          ]
+        },
+        {
+          "text": "According to his 2020 Ballotpedia survey, founded a company focused on bringing investment to small towns in north Georgia. Ran for this seat in 2020 and lost in the Republican primary.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the special general runoff election for Georgia's 14th District on April 7, 2026, defeating Shawn Harris, and took office April 14, 2026, succeeding Marjorie Taylor Greene.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the May 19, 2026 regular Republican primary for the seat.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "In a 2020 Ballotpedia Candidate Connection survey response, described himself as a \"Christian Conservative who will defend the unborn, support the 2nd Amendment, and fight illegal immigration.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Said he is \"passionate about bringing prosperity and growth to small towns in North Georgia\" and about reducing the national debt.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -63,19 +114,25 @@
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Describes himself as a Christian conservative who will \"defend the unborn.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Says he will \"support the 2nd Amendment.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Says he will \"fight illegal immigration.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [
@@ -83,7 +140,9 @@
           "text": "Won the special general election runoff for Georgia's 14th Congressional District, 55.9% to 44.1%, on April 7, 2026, and took the oath of office on April 14, 2026.",
           "date": "2026-04-07",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -91,29 +150,70 @@
     {
       "id": "shawn-harris",
       "name": "Shawn Harris",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19 Democratic primary; also the Democratic nominee in the March–April 2026 special election for this seat",
       "summary": {
-        "text": "Shawn Harris is a U.S. Marine Corps and Army veteran and Democratic nominee who ran against Marjorie Taylor Greene in 2024 and against Clayton Fuller in both the 2026 special election and the regular general election.",
-        "sources": ["s4"]
+        "text": "Shawn Harris is the Democratic nominee in Georgia's 14th District. A Georgia native and retired Army brigadier general who began his service in the Marine Corps, he now runs a cattle farm in Polk County. He was the 2024 Democratic nominee against Marjorie Taylor Greene and lost the April 2026 special election runoff to Clayton Fuller.",
+        "sources": [
+          "s7",
+          "s4",
+          "s2"
+        ]
       },
       "background": [
         {
-          "text": "Born in Blakely, Georgia; served in the U.S. Marine Corps and the U.S. Army.",
-          "sources": ["s4"]
+          "text": "Born in Blakely, Georgia; according to his campaign website, he grew up on his family's farm.",
+          "sources": [
+            "s4",
+            "s7"
+          ]
         },
         {
-          "text": "Earned a bachelor's degree from Tuskegee University and a graduate degree from the Army War College.",
-          "sources": ["s4"]
+          "text": "Earned a bachelor's degree in agribusiness from Tuskegee University and a graduate degree in strategic studies from the Army War College.",
+          "sources": [
+            "s7",
+            "s4"
+          ]
+        },
+        {
+          "text": "Enlisted in the U.S. Marine Corps after high school and rose to sergeant, then served in the U.S. Army and retired as a brigadier general after 40 years of military service, according to his campaign website.",
+          "sources": [
+            "s7",
+            "s4"
+          ]
+        },
+        {
+          "text": "Describes deploying as an infantry commander in Afghanistan after 9/11 and leading a team into Liberia during the 2014 Ebola outbreak.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "After retiring, returned to Georgia to run a first-generation grass-fed cattle farm in Rockmart, in Polk County, according to his campaign website.",
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Was the Democratic nominee against incumbent Marjorie Taylor Greene in the 2024 general election, losing 64.4% to 35.6%.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
-          "text": "Ran in the 2026 special election for the vacant seat, finishing first in the March 10 special general election and losing the April 7 runoff to Clayton Fuller, 55.9% to 44.1%.",
-          "sources": ["s2"]
+          "text": "Finished first in the March 10, 2026 special general election and lost the April 7 runoff to Clayton Fuller, 55.9% to 44.1%; won the May 19, 2026 Democratic primary for the regular election.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "According to his campaign website, he and his wife, a family physician, have five sons and four grandchildren.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "priorities": [],
@@ -124,30 +224,63 @@
     {
       "id": "andrew-underwood",
       "name": "Andrew Underwood",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Andrew Underwood is a Libertarian Party candidate from Chickamauga, Georgia, whose campaign focuses on inflation, tariffs, and requiring members of Congress to read legislation before voting on it.",
-        "sources": ["s5"]
+        "text": "Andrew Underwood is a Libertarian Party candidate from Chickamauga, Georgia, who ran in the March 2026 special election for this seat. His work experience has been in manufacturing and quality control, and his campaign focuses on inflation, tariffs, and requiring members of Congress to read legislation before voting on it. Ballotpedia lists him as disqualified from the November 3, 2026 general election ballot.",
+        "sources": [
+          "s5",
+          "s8"
+        ]
       },
       "background": [
         {
-          "text": "Majored in physics in college; work experience has mainly been in manufacturing and quality control.",
-          "sources": ["s5"]
+          "text": "Earned a high school diploma from Southview High School; majored in physics in college, according to his Ballotpedia survey.",
+          "sources": [
+            "s8",
+            "s5"
+          ]
+        },
+        {
+          "text": "Has worked as a quality engineer; says most of his work experience is in manufacturing and quality control.",
+          "sources": [
+            "s8",
+            "s5"
+          ]
+        },
+        {
+          "text": "Says he lives in Chickamauga, Georgia, with his wife and children and moved to the district 12 years ago.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Ran as a Libertarian in the March 10, 2026 special election for this seat and was also a Libertarian candidate for the Georgia House in 2022, from which he withdrew.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says affordability has become a major issue due to inflation, tariffs, and excessive regulation, and pledges to \"work to remove these problems.\"",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Says no legislator should vote for a bill without reading it in full, and that he would vote no on anything he could not read in time.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Says the national debt, which he notes has exceeded $38.6 trillion, is \"out of control\" and calls for balancing the federal budget.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -155,7 +288,9 @@
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Says \"unnecessary and inconsistent tariffs\" are hurting businesses and preventing them from planning for future expenses.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -164,26 +299,62 @@
     {
       "id": "rob-ruszkowski",
       "name": "Rob Ruszkowski",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Rob Ruszkowski is an independent candidate for Georgia's 14th Congressional District, a small-business owner who also ran in the 2026 special election for this seat.",
-        "sources": ["s2"]
+        "text": "Rob Ruszkowski, who also goes by Rob Rush, is an independent write-in candidate in Georgia's 14th District and ran in the March 2026 special election. A New York native with a finance degree, he describes founding a paging business in the Atlanta area in 1991. He says he is running on a human-rights bill, anti-corruption measures, and a wage and healthcare agenda.",
+        "sources": [
+          "s9",
+          "s2"
+        ]
       },
       "background": [
         {
-          "text": "Earned a finance degree from Hofstra University; founded Hi-Tech Paging Inc. in Atlanta in 1991 and grew it to five locations in Gwinnett County, Georgia.",
-          "sources": ["s5"]
+          "text": "Born in Plainview, New York; graduated from Plainview Old Bethpage High School.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in finance from Hofstra University in 1988.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Has worked as an entrepreneur and an outreach coordinator. In his Ballotpedia survey, says he founded Hi-Tech Paging Inc. in Atlanta in 1991 and grew it to five locations in Gwinnett County.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says he cared for his parents during their final years (2005 to 2018) and describes himself as a member of the Gaia Knights Movement.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Ran in the March 10, 2026 special election for this seat as an independent and is a write-in candidate in the November 3, 2026 general election, according to Ballotpedia.",
+          "sources": [
+            "s9",
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he is running to establish a \"Human Rights Bill\" guaranteeing clean air and water, a living wage, fair healthcare, equal justice, and the right to build a secure future.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Says he would fight to \"end dark-money influence, protect voting rights, and rebuild a government that works for everyday Americans.\"",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [],
@@ -226,8 +397,36 @@
       "title": "Georgia's 14th Congressional District election, 2026 (Candidate Connection survey responses)",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://fuller.house.gov/about",
+      "title": "About | Congressman Clay Fuller",
+      "publisher": "Office of Rep. Clay Fuller",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.shawnharrisforcongress.com/meet-shawn/",
+      "title": "Meet Shawn",
+      "publisher": "Shawn Harris for Georgia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Andrew_Underwood",
+      "title": "Andrew Underwood",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Rob_Ruszkowski",
+      "title": "Rob Ruszkowski",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Basic-tier research from Ballotpedia. No additional public statements from Shawn Harris's 2026 campaign were located beyond his biographical page."
+  "researchNotes": "Basic-tier research from Ballotpedia, expanded with Rep. Fuller's House biography and Shawn Harris's campaign website. Ballotpedia lists Libertarian Andrew Underwood as disqualified from the November 3 general election and Rob Ruszkowski as a write-in candidate; their ballot status should be confirmed with the Georgia Secretary of State. Little public biography exists beyond Ballotpedia survey answers for Underwood and Ruszkowski."
 }
