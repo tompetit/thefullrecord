@@ -11,55 +11,130 @@
   "context": [
     {
       "text": "Tennessee redrew its congressional district boundaries in May 2026 (mid-decade redistricting). Incumbent Rep. Steve Cohen (D), who has held this seat since 2007, withdrew from the Democratic primary and is not on the November 3 ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "State Rep. Justin Pearson won the Democratic primary with 65.8% of the vote, defeating state Sen. London Lamar and two others. State Sen. Brent Taylor won the Republican primary with 46.0% of the vote in a four-candidate field.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Tennessee state Sen. Brent Taylor announced his campaign for the seat in May 2026, before Rep. Cohen withdrew from the race.",
-      "sources": ["s3"]
+      "sources": [
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "justin-pearson",
       "name": "Justin Pearson",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 6 Democratic primary with 65.8% of the vote",
       "currentRole": "Tennessee House of Representatives, District 86 (since 2023)",
       "summary": {
-        "text": "Justin Pearson is a Memphis state representative first elected in a January 2023 special election, who gained national attention after being expelled from and then reinstated to the Tennessee House following gun-control protests on the House floor. He is a community organizer and nonprofit founder running as the Democratic nominee for the 9th District.",
-        "sources": ["s4"]
+        "text": "Justin Pearson is a Memphis state representative first elected in a 2023 special election, and a community organizer who co-founded an environmental advocacy group. He gained national attention in April 2023 when the Tennessee House voted to expel him following a gun-control protest on the House floor; the Shelby County Commission reinstated him days later, and he won the August 2023 special election and was re-elected in 2024. He won the August 6, 2026 Democratic primary for the 9th District and says he is running on affordability, Medicare for All, and holding data-center operators accountable.",
+        "sources": [
+          "s4",
+          "s6",
+          "s7",
+          "s8"
+        ]
       },
       "background": [
         {
-          "text": "Graduated from Mitchell High School in Memphis.",
-          "sources": ["s4"]
+          "text": "Born January 7, 1995, in Memphis, according to the Tennessee General Assembly and Wikipedia; his campaign says he is the fourth of five boys born to teenage parents in Memphis.",
+          "sources": [
+            "s6",
+            "s8",
+            "s7"
+          ]
         },
         {
-          "text": "Career experience as a community organizer; founded a nonprofit organization.",
-          "sources": ["s4"]
+          "text": "Graduated from Mitchell High School in Memphis and from Bowdoin College (2017, per Wikipedia), where Wikipedia reports he majored in Government & Legal Studies.",
+          "sources": [
+            "s4",
+            "s6",
+            "s8"
+          ]
         },
         {
-          "text": "Appointed by the Shelby County Commission as acting state representative for District 86 on January 24, 2023, then won the March 14, 2023 special election to formally take the seat; re-elected in 2024.",
-          "sources": ["s4"]
+          "text": "His campaign website says that at age 15 he petitioned the school board to provide textbooks to his classmates.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Career experience as a community organizer; founded a nonprofit organization. In 2020 he co-founded Memphis Community Against Pollution, one of the local groups involved in the effort that ended plans for the Byhalia Pipeline, according to Wikipedia.",
+          "sources": [
+            "s4",
+            "s8",
+            "s6"
+          ]
+        },
+        {
+          "text": "Appointed by the Shelby County Commission as acting state representative for District 86 on January 24, 2023, then won the March 14, 2023 special election to formally take the seat.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "On April 6, 2023, the Tennessee House voted 69–26 to expel Pearson after he participated in a gun-control protest on the House floor; the Shelby County Commission voted to reinstate him on April 12, 2023.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Won the August 3, 2023 special election with 94.0% of the vote and was re-elected in 2024.",
+          "sources": [
+            "s4",
+            "s7"
+          ]
+        },
+        {
+          "text": "Honors listed by the legislature include the 2024 Truman Center Award for Exceptional Moral Courage in Public Service and the 2023 National Urban League Freedom Fighters Award.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Announced his congressional campaign on October 8, 2025 and won the August 6, 2026 Democratic primary for the 9th District with 65.8% of the vote against three opponents.",
+          "sources": [
+            "s7",
+            "s1"
+          ]
+        },
+        {
+          "text": "Lives in Memphis with his wife, Oceana R. Gilliam-Pearson, according to his campaign website.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign platform calls for a federal jobs guarantee, a true living minimum wage, and passage of the PRO Act to protect workers' right to organize.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Says he supports passing Medicare for All and investing in rural hospitals and the VA healthcare system.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Campaign platform calls for gun-safety measures including permits to carry, a ban on assault rifles, and background checks with cooling-off periods.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -67,31 +142,41 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Campaign platform calls for passing Medicare for All and investing in rural hospitals and VA healthcare.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "Campaign platform calls for permits to carry, a ban on assault rifles, and background checks with cooling-off periods for firearm purchases.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Campaign platform calls for ensuring the minimum wage is a true living wage.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "Campaign platform calls for making billionaires and big corporations pay their fair share.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "school_choice",
           "stance": "opposes",
           "summary": "Campaign platform calls for fully funding public education and reining in what he calls school voucher \"scams.\"",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
@@ -99,7 +184,9 @@
           "text": "As a Tennessee state representative, was expelled from the Tennessee House on April 6, 2023 by a 69-26 vote on House Resolution 63, after participating in a March 30, 2023 protest at the State Capitol in support of gun-control laws; was reinstated in an acting capacity by the Shelby County Commission on April 12, 2023, and won a special election on August 3, 2023 to formally return to the seat.",
           "date": "2023-04-06",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://www.votejustinj.com",
@@ -108,38 +195,99 @@
     {
       "id": "brent-taylor",
       "name": "Brent Taylor",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 6 Republican primary with 46.0% of the vote in a four-candidate field",
-      "currentRole": "Tennessee State Senate, District 31 (since 2022)",
+      "currentRole": "Tennessee State Senate, District 31 (since 2023)",
       "summary": {
-        "text": "Brent Taylor is a Tennessee state senator and funeral director who previously served on the Memphis City Council. He is the Republican nominee for the 9th District, running on public safety and support for President Trump's agenda.",
-        "sources": ["s3"]
+        "text": "Brent Taylor is a Tennessee state senator and former funeral-home owner who previously served on the Memphis City Council and chaired the Shelby County Election Commission. He was first elected to the Senate in 2022 and won the August 6, 2026 Republican primary for the redrawn 9th District. His campaign website says he is running to support President Trump's agenda, with an emphasis on public safety and lowering costs.",
+        "sources": [
+          "s9",
+          "s10",
+          "s1",
+          "s13"
+        ]
       },
       "background": [
         {
-          "text": "Earned a degree in mortuary science from Northwest Mississippi Community College; worked as a funeral director.",
-          "sources": ["s3"]
+          "text": "Born August 9, 1968, in Batesville, Mississippi, according to Wikipedia; the Tennessee General Assembly lists his birthdate. Earned a degree in mortuary science from Northwest Mississippi Community College.",
+          "sources": [
+            "s9",
+            "s11",
+            "s13"
+          ]
         },
         {
-          "text": "Served on the Memphis City Council from 1995 to 2007 and on the Shelby County Election Commission.",
-          "sources": ["s3"]
+          "text": "Elected to the Memphis City Council in 1995 at age 27, which his campaign website describes as making him the youngest person ever elected to the council; served until 2007, according to Wikipedia.",
+          "sources": [
+            "s10",
+            "s11"
+          ]
         },
         {
-          "text": "Elected to the Tennessee State Senate, District 31, in 2022.",
-          "sources": ["s3"]
+          "text": "Lost the 2002 Republican primary for Tennessee's 7th Congressional District to then-state Sen. Marsha Blackburn, according to Wikipedia.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "With his wife, Kimberly, bought a first funeral home in 2004 and built what his campaign calls the largest family-owned funeral operation in the Mid-South; the legislature's biography lists him as former president and CEO of Brentwood Funeral Services.",
+          "sources": [
+            "s10",
+            "s9"
+          ]
+        },
+        {
+          "text": "Served on the Shelby County Election Commission, including as chairman, until resigning to run for the State Senate; his campaign website says he also filled a County Commission vacancy on an interim basis.",
+          "sources": [
+            "s10",
+            "s9"
+          ]
+        },
+        {
+          "text": "Elected to the Tennessee State Senate, District 31, in 2022, defeating Democrat Ruby Powell-Dennis 66.3% to 33.7%, succeeding Brian Kelsey.",
+          "sources": [
+            "s13",
+            "s11"
+          ]
+        },
+        {
+          "text": "In the Senate, serves as vice chair of the Commerce and Labor Committee, second vice chair of the Transportation and Safety Committee, and a member of the Judiciary Committee.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Announced his candidacy for the redrawn 9th District with endorsements from U.S. Sens. Marsha Blackburn and Bill Hagerty, and won the August 6, 2026 Republican primary with 46.0% of the vote in a four-candidate field.",
+          "sources": [
+            "s12",
+            "s1"
+          ]
+        },
+        {
+          "text": "Married to Kimberly with two adult children; the family lives in the Eads community, according to his campaign website.",
+          "sources": [
+            "s10",
+            "s9"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaign centers on public safety, saying Memphis has been \"terrorized by criminals\" under what he calls a \"soft-on-crime\" district attorney.",
           "quote": "For far too long, Memphians have been forced to watch as a soft-on-crime Soros-backed District Attorney allowed our community to be terrorized by criminals. ... As your Congressman, I will continue to fight every single day to ensure the liberals' harmful, negligent policies never take root in Tennessee.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says he will support President Trump's agenda in Washington, including cutting federal spending and regulations.",
           "quote": "In Washington, Brent will support President Trump's agenda: cutting reckless federal spending, slashing burdensome regulations, and delivering real economic relief to the hardworking people of our district.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -148,32 +296,43 @@
           "stance": "supports",
           "summary": "Campaign website says he would fight to finish the border wall, deport people in the country illegally who have committed crimes, and end sanctuary policies.",
           "quote": "finish the border wall, restore strong enforcement, deport criminal illegal immigrants, end sanctuary policies, and strengthen cooperation among federal, state, and local law enforcement so Tennessee families are protected.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Campaign centers on increased support for local law enforcement to address crime in Memphis.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "Elected to the Tennessee State Senate, District 31, in 2022; previously served on the Memphis City Council from 1995 to 2007.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.brenttaylortn.com/"
     },
     {
       "id": "dennis-jeffrey-clark",
       "name": "Dennis Jeffrey Clark",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Dennis Jeffrey Clark is an independent candidate on the November 3 general-election ballot for Tennessee's 9th District. Ballotpedia lists no biography or Candidate Connection survey response for him.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -185,11 +344,15 @@
     {
       "id": "michelle-head",
       "name": "Michelle Head",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Michelle Head is an independent candidate on the November 3 general-election ballot for Tennessee's 9th District. Ballotpedia lists no biography or Candidate Connection survey response for her.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -230,8 +393,64 @@
       "title": "Issues",
       "publisher": "Justin J. Pearson for U.S. Congress campaign website",
       "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.capitol.tn.gov/house/members/h86.html",
+      "title": "Representative Justin J. Pearson",
+      "publisher": "Tennessee General Assembly",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.votejustinj.com/get-to-know-jjp",
+      "title": "Get to Know Justin J. Pearson",
+      "publisher": "Justin J. Pearson for U.S. Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://en.wikipedia.org/wiki/Justin_J._Pearson",
+      "title": "Justin J. Pearson",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.capitol.tn.gov/senate/members/s31.html",
+      "title": "Senator Brent Taylor",
+      "publisher": "Tennessee General Assembly",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.brenttaylortn.com/about",
+      "title": "About",
+      "publisher": "Brent Taylor for Tennessee",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://en.wikipedia.org/wiki/Brent_Taylor_(Tennessee_politician)",
+      "title": "Brent Taylor (Tennessee politician)",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.newschannel5.com/news/brent-taylor-launches-bid-for-tennessees-redrawn-9th-district",
+      "title": "Brent Taylor launches bid for Tennessee's redrawn 9th District",
+      "publisher": "NewsChannel 5",
+      "kind": "news"
+    },
+    {
+      "id": "s13",
+      "url": "https://ballotpedia.org/Brent_Taylor_(Tennessee)",
+      "title": "Brent Taylor (Tennessee)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Brent Taylor's own campaign website could not be confirmed to load; his positions and priorities are drawn from Ballotpedia's summary of his campaign materials, quoting his site directly. No public records were found for independent candidates Dennis Jeffrey Clark or Michelle Head."
+  "researchNotes": "Brent Taylor's campaign website (brenttaylortn.com) was loaded for his biography; his positions and priorities were drawn from Ballotpedia's summary of his campaign materials, quoting his site directly. No public records were found for independent candidates Dennis Jeffrey Clark or Michelle Head beyond their names on the ballot."
 }
