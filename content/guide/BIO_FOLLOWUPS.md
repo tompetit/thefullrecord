@@ -85,3 +85,8 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - james-sanders-jr: City Council start — nysenate.gov says elected 2001, old Ballotpedia text said "since 2002".
 - kathy-jennings, marie-gluesenkamp-perez, john-duresky, jean-anglade: two source entries share one URL (one probably mislabeled).
 - luis-r-sepulveda: Wikipedia (born in Brooklyn) and El Diario (grew up in Los Sures) both kept.
+- wes-moore: summary trimmed to the signings the cited pages cover (housing; 287(g) ban); "abortion rights and public safety" had no source.
+- brenna-bird: dropped "joined multistate settlements" (not in cited sources). rob-sand: dropped "re-elected by 2,893 votes" (not in cited sources).
+- Mislabeled source kinds (news marked "candidate"): Georgia Recorder, The Current, tim-fleming s2; nate-willems s4 title doesn't match its page.
+- steve-hilton: Hungarian-immigrant parents and Stanford teaching rest on his campaign site, which returned nothing when re-fetched.
+- don-wagner: Ballotpedia splits Assembly service as AD-70 (2010–12) and AD-68 (2012–16).
