@@ -11,29 +11,117 @@
   "context": [
     {
       "text": "Texas redrew its congressional map for the 2026 election cycle. Rep. Greg Casar, previously the incumbent for a differently drawn 35th District, is the incumbent for the redrawn 37th District under the new map. Rep. Lloyd Doggett, who had represented a 37th District, did not make the general-election ballot. Lauren Peña won the Republican primary runoff.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "greg-casar",
       "name": "Greg Casar",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023); Chair, Congressional Progressive Caucus",
       "summary": {
-        "text": "Greg Casar is the incumbent U.S. Representative for the Austin-based 37th District. A former Austin City Council member, he chairs the Congressional Progressive Caucus and serves on the House Committee on Oversight and Government Reform.",
-        "sources": ["s2"]
+        "text": "Greg Casar is the incumbent U.S. Representative for the Austin-based 37th District. A former labor-organization policy director and seven-year Austin City Council member, he was first elected to Congress in 2022, chairs the Congressional Progressive Caucus, and serves on the Oversight and Education and Workforce committees. His official biography says he is working to raise wages, expand immigrant rights, protect abortion and voting rights, and address climate change.",
+        "sources": [
+          "s2",
+          "s5",
+          "s6",
+          "s7"
+        ]
       },
       "background": [
-        { "text": "Born in Houston, Texas, in 1989; earned a bachelor's degree in political science from the University of Virginia.", "sources": ["s2"] },
-        { "text": "Worked as policy director of the Workers Defense Project before his 2014 election to the Austin City Council.", "sources": ["s2"] },
-        { "text": "Served on the Austin City Council, chairing its Planning and Neighborhoods Committee and serving as vice chair of the Public Safety Committee, before his 2022 election to Congress.", "sources": ["s2"] }
+        {
+          "text": "Born in Houston, Texas, in 1989; Wikipedia reports he grew up in Bellaire, the child of Mexican immigrants, and attended Strake Jesuit College Preparatory. His official biography describes him as the son of Mexican immigrants.",
+          "sources": [
+            "s2",
+            "s5",
+            "s7"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in political science from the University of Virginia (2011, per Wikipedia), where he organized with a student-worker living-wage campaign.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Worked as a labor organizer and as policy director of the Workers Defense Project, an Austin worker-advocacy group, where he led a 2011 campaign for rest and water breaks for construction workers.",
+          "sources": [
+            "s2",
+            "s5",
+            "s7"
+          ]
+        },
+        {
+          "text": "Elected to the Austin City Council from District 4 in 2014 and re-elected in 2016 and 2020, serving from January 2015 until early 2022; he chaired the Planning and Neighborhoods Committee and was vice chair of the Public Safety Committee.",
+          "sources": [
+            "s2",
+            "s5",
+            "s7"
+          ]
+        },
+        {
+          "text": "On the council he championed renter protections, affordable-housing programs, and a paid sick leave ordinance, which his official biography says was followed by similar ordinances in Dallas and San Antonio. He also served as board chair of Local Progress, a national network of progressive local officials, per Wikipedia.",
+          "sources": [
+            "s5",
+            "s7"
+          ]
+        },
+        {
+          "text": "Elected to the U.S. House in 2022 and sworn in January 2023, representing a district running along I-35 from East Austin toward San Antonio under the previous map; the seat is now numbered the 37th District.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
+        },
+        {
+          "text": "Chair of the Congressional Progressive Caucus (since January 2025, per Wikipedia). He sits on the Committee on Oversight and Government Reform (subcommittees on Military and Foreign Affairs and on Delivering on Government Efficiency) and the Committee on Education and Workforce (subcommittees on Health, Employment, Labor, and Pensions and on Workforce Protections).",
+          "sources": [
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "His official biography says he pushed for the introduction of the first federal heat-protection rule for workers and authored legislation to connect the Texas grid to neighboring grids. He is also a member of the Congressional Hispanic Caucus and the Congressional Labor Caucus.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Won the March 3, 2026 Democratic primary for the 37th District.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Chairs the Congressional Progressive Caucus after previously serving as its whip.", "sources": ["s3"] },
-        { "text": "Supports universal, affordable child care.", "quote": "It’s time for Congress to provide solutions for families and win truly universal and affordable child care for everyone.", "sources": ["s3"] },
-        { "text": "Is a co-sponsor of the Green New Deal and similar clean-energy legislation.", "quote": "I’m a proud co-sponsor of the Green New Deal and similar legislation to create good union jobs in clean energy and protect communities harmed by pollution and natural disasters.", "sources": ["s3"] }
+        {
+          "text": "Chairs the Congressional Progressive Caucus after previously serving as its whip.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Supports universal, affordable child care.",
+          "quote": "It’s time for Congress to provide solutions for families and win truly universal and affordable child care for everyone.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Is a co-sponsor of the Green New Deal and similar clean-energy legislation.",
+          "quote": "I’m a proud co-sponsor of the Green New Deal and similar legislation to create good union jobs in clean energy and protect communities harmed by pollution and natural disasters.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "positions": [
         {
@@ -41,48 +129,116 @@
           "stance": "supports",
           "summary": "Supports achieving universal, affordable child care.",
           "quote": "win truly universal and affordable child care for everyone",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Co-sponsors the Green New Deal and related legislation to expand clean energy and address pollution.",
           "quote": "I’m a proud co-sponsor of the Green New Deal and similar legislation to create good union jobs in clean energy and protect communities harmed by pollution and natural disasters.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "Says Congress must ensure wealthy individuals pay a larger share in taxes to fund schools, roads, and community services.",
           "quote": "Congress must ensure that the ultra rich pay their fair share in taxes and contribute to the schools, roads, and community services that we all use.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
-        { "text": "Serves on the House Committee on Oversight and Government Reform and the House Committee on Education and the Workforce in the 2025-2026 (119th) Congress.", "kind": "action", "sources": ["s2"] },
-        { "text": "Chairs the Congressional Progressive Caucus, after serving a term as its whip.", "kind": "action", "sources": ["s3"] }
+        {
+          "text": "Serves on the House Committee on Oversight and Government Reform and the House Committee on Education and the Workforce in the 2025-2026 (119th) Congress.",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Chairs the Congressional Progressive Caucus, after serving a term as its whip.",
+          "kind": "action",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "researchDepth": "basic"
     },
     {
       "id": "lauren-pena",
       "name": "Lauren Peña",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the Republican primary runoff against Ge'Nell Gary",
       "currentRole": "Legal advocate; founder, Peña Legal Advocacy",
       "summary": {
-        "text": "Lauren Peña is an Austin-based legal advocate, founder of Peña Legal Advocacy, and self-described survivor of human trafficking who has testified before the Texas Legislature on welfare and housing policy.",
-        "sources": ["s4"]
+        "text": "Lauren Peña is an Austin-based legal advocate and first-time candidate for public office who won the Republican nomination in a May 26, 2026 primary runoff. She is the founder and executive director of Peña Legal Advocacy and describes herself as a mother of four and a survivor of human trafficking who has testified before the Texas Legislature on welfare and housing policy. She says she is running on border security, welfare reform, community policing, and accountability for federal spending.",
+        "sources": [
+          "s4",
+          "s8"
+        ]
       },
       "background": [
-        { "text": "Earned a bachelor's degree from Southern New Hampshire University in 2024, after attending the University of Texas and Austin Community College.", "sources": ["s4"] },
-        { "text": "Founded and directs Peña Legal Advocacy, providing no-cost legal support across Texas.", "sources": ["s4"] },
-        { "text": "Has been affiliated with the Austin Public Safety Commission, the Austin Community Police Review Commission, and the Travis County Republican Party.", "sources": ["s4"] }
+        {
+          "text": "Born in Harrisonburg, Virginia; she says she was raised across multiple U.S. cities and towns. She graduated from Northwest High School.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree from Southern New Hampshire University in 2024, after attending the University of Texas and Austin Community College in 2023.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "In her Ballotpedia survey, she describes surviving a decade of human trafficking in Texas and says she has spent the past five years testifying before the Texas Legislature and advocating for welfare and housing reforms.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Founded and directs Peña Legal Advocacy, which she describes as providing no-cost legal support; her listed career experience includes work as a policy advisor, legal advocate, and community leader.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Has been affiliated with the Austin Public Safety Commission, the Austin Community Police Review Commission, and the Travis County Republican Party. She also describes herself as a homeschool educator.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "This is her first run for office. She advanced from the March 3, 2026 Republican primary to a runoff against Ge'Nell Gary, which she won with about 58% of the vote according to KUT.",
+          "sources": [
+            "s4",
+            "s8"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says welfare reform is her top priority, arguing the current system traps families in generational poverty.", "quote": "Welfare reform—long ignored by Republicans—is Lauren’s priority. The Democrat-run system traps families in generational poverty at taxpayers’ expense.", "sources": ["s4"] },
-        { "text": "Says she supports law enforcement and favors building community trust through education and engagement rather than reduced police funding.", "sources": ["s4"] }
+        {
+          "text": "Says welfare reform is her top priority, arguing the current system traps families in generational poverty.",
+          "quote": "Welfare reform—long ignored by Republicans—is Lauren’s priority. The Democrat-run system traps families in generational poverty at taxpayers’ expense.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says she supports law enforcement and favors building community trust through education and engagement rather than reduced police funding.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "positions": [
         {
@@ -90,7 +246,9 @@
           "stance": "supports",
           "summary": "Opposes reducing police funding and says she supports law enforcement while working to build community trust.",
           "quote": "Public Safety: Democrats defunded the police instead of educating the community.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -126,8 +284,37 @@
       "title": "Lauren Peña",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://casar.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Greg Casar",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://casar.house.gov/about/committees-caucuses",
+      "title": "Committees & Caucuses",
+      "publisher": "Office of Rep. Greg Casar",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://en.wikipedia.org/wiki/Greg_Casar",
+      "title": "Greg Casar",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.kut.org/politics/2026-05-26/austin-tx-election-results-primary-runoff-travis-williamson-hays-county",
+      "title": "Austin, Texas election results: 2026 primary runoff",
+      "publisher": "KUT",
+      "kind": "news",
+      "date": "2026-05-26"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Peña's Ballotpedia Candidate Connection survey (completed in 2025) still refers to the seat by its former '35th Congressional District' number in places; that appears to reflect a pre-redistricting survey answer and was cross-checked against the current district-37 race listing on the Texas 2026 House elections overview."
+  "researchNotes": "Peña's Ballotpedia Candidate Connection survey (completed in 2025) still refers to the seat by its former '35th Congressional District' number in places; that appears to reflect a pre-redistricting survey answer and was cross-checked against the current district-37 race listing on the Texas 2026 House elections overview. Peña's biography rests mainly on her own Ballotpedia survey; no campaign website or independent news profile was loaded, so her trafficking-survivor and testimony claims are her own statements. Casar's official house.gov biography still refers to the district as the 35th."
 }
