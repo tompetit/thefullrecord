@@ -13,7 +13,7 @@ touch any other file, and do not run git.
 ## What to change (and what not to)
 - **Only** `summary`, `background`, and the file's `sources` array (append new
   sources with new ids, e.g. continue from the highest existing `sN`). You may
-  also append one sentence to `researchNotes` about biography gaps, and you may rewrite an existing `researchNotes` sentence that your research shows is now wrong (e.g. "no campaign site found" when you found one).
+  also append one sentence to `researchNotes` about biography gaps, and you may rewrite an existing `researchNotes` sentence that your research shows is now wrong (e.g. "no campaign site found" when you found one). If the candidate's `currentRole` is factually wrong (e.g. wrong start year) per an official source you loaded, correct it and mention it in your reply.
 - Do NOT touch positions, priorities, record, keyVotes, stateVotes, finance, or
   any other field. Do not delete existing sources (other fields cite them).
 - Keep every existing background item that is correct; you may reword or merge an
