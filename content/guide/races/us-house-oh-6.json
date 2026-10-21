@@ -11,29 +11,81 @@
   "context": [
     {
       "text": "The Cook Political Report rates the 6th District R+17, a safely Republican-leaning seat.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "michael-rulli",
       "name": "Michael Rulli",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Incumbent; defeated Jullie Kelley in the May 5, 2026 Republican primary",
       "currentRole": "U.S. Representative (since 2024)",
       "summary": {
-        "text": "Rulli is the incumbent U.S. Representative for Ohio's 6th District, elected in a 2024 special election. He previously served in the Ohio State Senate and as a Leetonia, Ohio school board member.",
-        "sources": ["s2"]
+        "text": "Rulli is the incumbent U.S. Representative for Ohio's 6th District, first elected in a June 2024 special election. Before Congress he worked in his family's Rulli Bros. Markets business, served on the Leetonia school board, and served in the Ohio State Senate from 2019 to 2024. He is seeking re-election in 2026.",
+        "sources": [
+          "s2",
+          "s4"
+        ]
       },
       "background": [
         {
-          "text": "Born in Mahoning County, Ohio; graduated from Poland Seminary High School and earned a degree from Emerson College.",
-          "sources": ["s2"]
+          "text": "Born in Mahoning County, Ohio, on March 11, 1969; graduated from Poland Seminary High School.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
         },
         {
-          "text": "Worked as director of operations with Rulli Bros. Markets; served as a Leetonia, Ohio school board member and in the Ohio State Senate before being elected to Congress.",
-          "sources": ["s2"]
+          "text": "Earned bachelor's degrees in communications and speech from Emerson College in 1991.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Joined the family business, Rulli Bros. Markets, where Ballotpedia lists his role as director of operations.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Served on the school board of the Leetonia Exempted Village School District in Columbiana County, Ohio, his only elected office before the state Senate.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Elected to the Ohio State Senate (District 33) in 2018, defeating John Boccieri, and re-elected in 2022; served from 2019 until resigning in June 2024 to join Congress.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Won the Republican nomination on March 19, 2024, and the June 11, 2024 special general election over Democrat Michael Kripchak for the seat vacated by Bill Johnson; sworn in June 25, 2024, and won a full term in November 2024 with about 66% of the vote.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "In the 119th Congress (2025-2026), serves on the Committee on Energy and Commerce (Health; Oversight and Investigations; Energy subcommittees) and the Committee on Education and Workforce.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Serves as co-chair of the bicameral, bipartisan Italian American Congressional Delegation.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -42,7 +94,9 @@
         {
           "text": "Serves on the House Committee on Energy and Commerce (Health; Oversight and Investigations; Energy subcommittees) in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -51,28 +105,52 @@
     {
       "id": "elizabeth-kirtley",
       "name": "Elizabeth Kirtley",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 5, 2026 Democratic primary in a six-candidate field",
       "summary": {
-        "text": "Kirtley is the Democratic nominee, running on a platform centered on due process, abolishing ICE, codifying Roe v. Wade, and protecting constitutional rights.",
-        "sources": ["s3"]
+        "text": "Kirtley, of New Philadelphia, is the Democratic nominee for Ohio's 6th District after winning a six-candidate primary on May 5, 2026. Her campaign website calls for abolishing ICE, codifying Roe v. Wade and protecting due process; in a local TV interview she also discussed prescription drug prices, regulating data centers and reinvesting in local farmers and small businesses.",
+        "sources": [
+          "s3",
+          "s5"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Lives in New Philadelphia, Ohio, according to WFMJ's report on the primary results.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Won the May 5, 2026 Democratic primary with about 31% of the vote in a field of six candidates, ahead of Adrian Vitus, Sean Connolly, Brent Hanni, Malcolm Ritchie and Charles DiPalma.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "priorities": [
         {
           "text": "Campaign website calls to 'Abolish Ice,' saying due process 'is a right; not a privilege' and that constitutional freedoms of speech, assembly, and religion should not be prohibited.",
           "quote": "Due Process is a right; not a privilege.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign website calls for codifying Roe v. Wade, saying abortion access is a matter between a woman, her doctor, and her God.",
           "quote": "Life, Liberty, and the Pursuit of Happiness includes a Woman's Right to Choose.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Campaign website calls for fair and safe voting in which every American has one equal vote, and for accountability from national news organizations.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -81,14 +159,18 @@
           "stance": "supports",
           "summary": "Campaign website calls for codifying Roe v. Wade to protect abortion access.",
           "quote": "Life, Liberty, and the Pursuit of Happiness includes a Woman's Right to Choose.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Campaign website calls to abolish ICE and emphasizes due-process rights.",
           "quote": "Due Process is a right; not a privilege.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -119,8 +201,24 @@
       "publisher": "Ballotpedia (candidate campaign website, as quoted)",
       "kind": "candidate",
       "date": "2026-05-01"
+    },
+    {
+      "id": "s4",
+      "url": "https://en.wikipedia.org/wiki/Michael_Rulli",
+      "title": "Michael Rulli",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.wfmj.com/news/political/democrat-kirtley-to-face-rulli-in-race-for-6th-district-congressional-seat/article_381927c8-e370-4367-b74e-5fe2c6678469.html",
+      "title": "Democrat Kirtley to face Rulli in race for 6th District Congressional seat",
+      "publisher": "WFMJ",
+      "kind": "news",
+      "date": "2026-05-06"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Federal key votes and FEC totals for Rulli are added separately by script. No independent biography was available for Kirtley beyond her campaign website's issue statements quoted by Ballotpedia."
+  "researchNotes": "Federal key votes and FEC totals for Rulli are added separately by script. Kirtley has not completed Ballotpedia's Candidate Connection survey, and no education, employment or prior-office history for her was found in the sources reviewed, so her biography is limited to residence and primary result."
 }
