@@ -71,3 +71,9 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - Nickie Kane: Ballotpedia's NY-10 page lists her among withdrawn/disqualified candidates — confirm she is on the Nov 3 ballot (rule 8).
 - Don Leonard (OH-3): NBC4 reports a March 2026 arrest at a protest on a noise violation — not in bio; rule-9 decision.
 - NY-21: Ballotpedia lists Robert Smullen's Conservative line and Gendebien's 'Lower Costs Now' line as withdrawn; Smullen claim removed from context — confirm Gendebien's ballot lines.
+- tom-perriello: s4 (clerk roll call 2009046) is cited on the ACA-vote sentence; the ACA roll call is 2010165 — check.
+- suhas-subramanyam: official House bio gives House of Delegates 2019–2023; Wikipedia gives 2020–2024 and Senate Jan 2024–Jan 2025. Bio uses Wikipedia; confirm against Virginia legislature records.
+- kent-udell: Ballotpedia says University of Utah bachelor's, KSL says Utah State — both attributed in text.
+- taylor-wright: Ballotpedia (elementary PE teacher) vs Salt Lake Tribune ("high school teacher").
+- gerald-malloy, tony-sabio: conflicting residences (Weathersfield/Perkinsville; Vienna/Lorton), both attributed.
+- edwin-rivera: Ballotpedia source labelled kind "candidate"; bishop-staten survey source date 2025-01-01 looks like a placeholder.
