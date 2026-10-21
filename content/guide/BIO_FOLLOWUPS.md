@@ -102,3 +102,4 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - victor-marx: Colorado Sun sentence ("extraordinary, albeit mostly unprovable") kept on the existing citation; page was rate-limited on re-check.
 - sean-vadney: lost the June 30 Libertarian primary to Alex Astley but was selected to replace him (Ballotpedia; SOS list) — confirm.
 - samantha-kattan: Queens Ledger s4 retitled to the live headline.
+- raul-torrez: summary's multistate fuel-economy-rule suit — cited nmdoj pages didn't load on re-check; Wikipedia doesn't mention it. Verify.
