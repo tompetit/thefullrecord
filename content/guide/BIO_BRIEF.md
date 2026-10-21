@@ -69,6 +69,7 @@ Targets:
 - If two sources disagree (e.g. on a year), use the official one or omit the detail.
 - Self-described claims from a candidate's own materials are attributed:
   "According to his campaign website, ..." / "Describes herself as ...".
+- Keep proper names exactly (e.g. "Common Sense Media", "Extreme Heat Caucus") even if the validator warns about loaded language; a warning on a proper name is acceptable.
 - Neutral language: no "extreme", "radical", "controversial", "common-sense",
   praise, or editorializing. Same treatment for every candidate in a race.
 - Allegations, charges, and ethics findings follow rule 9 of the README (only from
