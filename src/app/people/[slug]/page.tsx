@@ -37,9 +37,9 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 }
 
 const Section = ({ title, children }: { title: string; children: React.ReactNode }) => (
-  <section className="mt-6">
-    <h2 className="font-sans text-[11px] font-bold tracking-[0.07em] text-ink-45 uppercase">{title}</h2>
-    <div className="mt-2">{children}</div>
+  <section className="mt-8">
+    <h2 className="font-sans text-[22px] font-bold leading-tight tracking-[-0.01em] text-ink">{title}</h2>
+    <div className="mt-3">{children}</div>
   </section>
 );
 
@@ -69,34 +69,38 @@ export default async function PersonPage({ params, searchParams }: { params: Par
   return (
     <main className="mx-auto w-full max-w-7xl flex-1 pb-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
-      <header className="flex items-start gap-4 px-4 pt-5 sm:px-6 lg:px-10">
-        <div className="flex flex-col items-center gap-1">
-          <PersonPhoto name={person.name} url={person.photo?.url} size={88} />
-          {person.photo && <span className="max-w-[110px] break-words text-center font-sans text-[10.5px] text-ink-45">Photo: {person.photo.source}</span>}
-        </div>
-        <div className="flex min-w-0 flex-col gap-1.5">
-          <h1 className="font-serif text-[28px] font-bold leading-[1.1] tracking-[-0.01em] text-ink">{person.name}</h1>
-          <p className="flex flex-wrap items-center gap-1.5 font-sans text-[13px] text-ink-80">
-            {partyCode && <PartyChip {...partyChipProps(partyCode)} />}
-            {!partyCode && ballotParties.length > 0 && <PartyChips parties={ballotParties} />}
-            {office ? <span>{office.role}</span> : <span className="text-ink-60">Candidate</span>}
-          </p>
-          {candidacies.map((c) => {
-            const href = c.raceId ? `/guide/race/${c.raceId}` : person.state !== "NY" && c.seatKey ? `/guide/state/${person.state.toLowerCase()}` : null;
-            return (
-              <p key={c.raceId ?? c.seatKey} className="font-sans text-[13px] text-ink-80">
-                On the ballot Nov 3, 2026:{" "}
-                {href ? <Link href={href} className="font-semibold underline decoration-chip-border underline-offset-4 hover:decoration-ink">{raceLabel(c, person)}</Link> : <span className="font-semibold">{raceLabel(c, person)}</span>}
-              </p>
-            );
-          })}
+      <header className="bg-band text-band-ink">
+        <div className="flex items-start gap-4 px-4 pb-6 pt-6 sm:px-6 lg:px-10">
+          <div className="flex flex-col items-center gap-1">
+            <PersonPhoto name={person.name} url={person.photo?.url} size={88} />
+            {person.photo && <span className="max-w-[110px] break-words text-center font-sans text-[10.5px] text-band-muted">Photo: {person.photo.source}</span>}
+          </div>
+          <div className="flex min-w-0 flex-col gap-1.5">
+            <p className="font-mono text-[12px] tracking-[0.02em] text-band-muted">{person.state} · {office ? "Officeholder" : "Candidate"}</p>
+            <h1 className="text-balance font-sans text-[30px] font-extrabold leading-none tracking-[-0.025em] sm:text-[40px]">{person.name}</h1>
+            <p className="flex flex-wrap items-center gap-1.5 font-serif text-[16px] text-band-muted [&_span[title]]:border-band-muted [&_span[title]]:text-band-ink">
+              {partyCode && <PartyChip {...partyChipProps(partyCode)} />}
+              {!partyCode && ballotParties.length > 0 && <PartyChips parties={ballotParties} />}
+              {office ? <b className="font-medium text-band-ink">{office.role}</b> : <span>Candidate</span>}
+            </p>
+            {candidacies.map((c) => {
+              const href = c.raceId ? `/guide/race/${c.raceId}` : person.state !== "NY" && c.seatKey ? `/guide/state/${person.state.toLowerCase()}` : null;
+              return (
+                <p key={c.raceId ?? c.seatKey} className="font-sans text-[13px] text-band-muted">
+                  On the ballot Nov 3, 2026:{" "}
+                  {href ? <Link href={href} className="font-semibold text-band-ink underline decoration-band-muted underline-offset-4 hover:decoration-band-ink">{raceLabel(c, person)}</Link> : <span className="font-semibold text-band-ink">{raceLabel(c, person)}</span>}
+                </p>
+              );
+            })}
+          </div>
         </div>
       </header>
 
       <div className="px-4 sm:px-6 lg:px-10 [&>*]:max-w-4xl">
         {bio && (
           <Section title="Biography">
-            <p className="font-serif text-[16px] leading-[1.55] text-ink-80">
+            <div className="border border-card bg-paper-raised px-5 py-4">
+            <p className="font-serif text-[17.5px] leading-[1.55] text-ink">
               {bio.summary.map((c, i) => (
                 <span key={i}>
                   <CitedText c={c} race={bio} />{" "}
@@ -104,7 +108,7 @@ export default async function PersonPage({ params, searchParams }: { params: Par
               ))}
             </p>
             {bio.paragraphs.map((para, i) => (
-              <p key={i} className="mt-2.5 font-sans text-[13.5px] leading-[1.6] text-ink-80">
+              <p key={i} className="mt-3 font-sans text-[14px] leading-[1.6] text-ink-80">
                 {para.map((c, j) => (
                   <span key={j}>
                     <CitedText c={c} race={bio} />{" "}
@@ -116,6 +120,7 @@ export default async function PersonPage({ params, searchParams }: { params: Par
               <SourceList race={bio} />
             </div>
             <p className="mt-1 font-sans text-[11.5px] text-ink-45">Researched from the cited sources on {bio.researchedAt}.{bio.factChecked === false && " Not yet independently fact-checked."}</p>
+            </div>
           </Section>
         )}
         {candidacies.map((c) => {

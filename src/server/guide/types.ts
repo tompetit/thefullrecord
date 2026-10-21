@@ -103,9 +103,17 @@ export interface RecordItem {
   sources: string[];
 }
 
+/** How each party's members voted on one roll call (yes / no / did not vote). */
+export type PartyTally = Partial<Record<"D" | "R", { yes: number; no: number; nv: number }>>;
+
+/** Whether a vote matched the majority of the member's own party (independents: their caucus). */
+export type PartyLine = "with" | "against";
+
 export interface KeyVote {
   voteId: string;
   vote: "yes" | "no" | "present" | "not voting";
+  /** Set by the loader from generated/party-line.json */
+  partyLine?: PartyLine;
 }
 
 export interface StateVote {
@@ -117,6 +125,9 @@ export interface StateVote {
   date: string;
   vote: "yes" | "no" | "absent";
   sourceUrl: string;
+  /** Set by the loader for current-term NY votes (party by district) */
+  partyLine?: PartyLine;
+  partyTally?: PartyTally;
 }
 
 export interface Finance {
@@ -127,6 +138,11 @@ export interface Finance {
   asOf: string;
   sourceUrl: string;
   source: string;
+  /** From FEC bulk files (generated/donors.json), when matched */
+  bySource?: { individuals: number; committees: number; party: number; candidate: number; candidateLoans: number };
+  /** Largest direct contributions from committees this cycle */
+  topCommittees?: { name: string; org?: string; kind: string; amount: number; url: string }[];
+  receiptsUrl?: string;
 }
 
 export interface GuideCandidate {

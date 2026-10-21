@@ -17,6 +17,8 @@ import type {
   KeyVote,
   OfficeType,
   Position,
+  PartyLine,
+  PartyTally,
   Stance,
   StateVote,
 } from "./types";
@@ -44,8 +46,16 @@ export interface KeyVoteDef {
   summarySourceUrl?: string;
 }
 
+interface PartyLineData {
+  federal: Record<string, { tally: PartyTally; majority: Record<string, string | null> }>;
+  state: Record<string, { tally: PartyTally; majority: Record<string, string | null> }>;
+  candidates: Record<string, Record<string, PartyLine>>;
+}
+
 interface Enrichment {
   finance: Record<string, Finance>;
+  donors: Record<string, Pick<Finance, "bySource" | "topCommittees" | "receiptsUrl">>;
+  partyLine: PartyLineData;
   members: Record<string, { bioguideId: string; fecId?: string; keyVotes: KeyVote[] }>;
   landmark: Record<string, Array<StateVote & { id: string }>>;
   senateLandmark: Record<string, Array<StateVote & { id: string }>>;
@@ -77,6 +87,19 @@ function readJson<T>(path: string, fallback: T): T {
     return fallback;
   }
 }
+
+let partyLine: PartyLineData | null = null;
+function getPartyLine(): PartyLineData {
+  if (!partyLine) partyLine = readJson<PartyLineData>(join(GEN_DIR, "party-line.json"), { federal: {}, state: {}, candidates: {} });
+  return partyLine;
+}
+
+/** How each party voted on a congressional key vote. */
+export function getPartyTally(voteId: string): PartyTally | undefined {
+  return getPartyLine().federal[voteId]?.tally;
+}
+
+const stateVoteKey = (v: StateVote) => `${v.chamber.toLowerCase()}|${v.bill}|${v.date}`;
 
 export function getKeyVoteDefs(): KeyVoteDef[] {
   if (!keyVoteDefs)
@@ -352,6 +375,8 @@ function load(): Map<string, GuideRace> {
   if (races) return races;
   const enrich: Enrichment = {
     finance: readJson(join(GEN_DIR, "finance.json"), {}),
+    donors: readJson(join(GEN_DIR, "donors.json"), {}),
+    partyLine: getPartyLine(),
     members: readJson(join(GEN_DIR, "members.json"), {}),
     cosponsors: readJson<CosponsorData>(join(GEN_DIR, "cosponsors.json"), { generatedAt: "", bills: [], candidates: {} }),
     stateVotes: readJson(join(GEN_DIR, "state-votes.json"), {}),
@@ -382,14 +407,19 @@ function load(): Map<string, GuideRace> {
       const sv = enrich.stateVotes[key];
       const lmList = [...(enrich.landmark[key] ?? []), ...(enrich.senateLandmark[key] ?? [])];
       const lm = lmList.length ? lmList : undefined;
-      if (sv || lm) c.stateVotes = [...(lm ?? []), ...(sv ?? [])];
+      const pl = enrich.partyLine.candidates[key] ?? {};
+      if (sv || lm)
+        c.stateVotes = [...(lm ?? []), ...(sv ?? [])].map((v) => {
+          const k = stateVoteKey(v);
+          return pl[k] ? { ...v, partyLine: pl[k], partyTally: enrich.partyLine.state[k]?.tally } : v;
+        });
       if (lm) addStateVotePositions(race, c, lm);
       const fin = enrich.finance[key];
-      if (fin) c.finance = fin;
+      if (fin) c.finance = { ...fin, ...enrich.donors[key] };
       const mem = enrich.members[key];
       if (mem) {
         c.bioguideId = mem.bioguideId;
-        c.keyVotes = mem.keyVotes;
+        c.keyVotes = mem.keyVotes.map((kv) => (pl[kv.voteId] ? { ...kv, partyLine: pl[kv.voteId] } : kv));
         if (mem.fecId) c.fecId = mem.fecId;
         addVotePositions(race, c);
       }

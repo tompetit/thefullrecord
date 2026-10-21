@@ -20,6 +20,8 @@
     "guide:check-links": "node scripts/guide/check-links.mjs",
     "data:validate": "node scripts/ingest/validate.mjs",
     "guide:cosponsors": "node scripts/guide/cosponsors.mjs",
+    "guide:party-line": "node scripts/guide/party-line.mjs",
+    "guide:donors": "node scripts/guide/donors.mjs",
     "people:index": "node --experimental-strip-types scripts/people/build-index.mjs"
   },
   "dependencies": {

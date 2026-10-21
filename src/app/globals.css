@@ -1,61 +1,72 @@
 @import "tailwindcss";
 
 /*
- * The Full Record — "The Ledger" design tokens.
- * Warm paper + ink + muted verified-green accent. No partisan-coded color:
+ * The Full Record — "Ledger" design tokens.
+ * Cool graphite on grey-white, teal Yes / amber No, olive cash. No partisan-coded color:
  * red/blue must never appear as interface color.
  */
 @theme {
-  /* Surfaces */
-  --color-paper: #faf8f3;
-  --color-paper-raised: #fffdf9;
-  --color-canvas: #f2efe8;
+  /* Surfaces — cool grey-white paper, white cards */
+  --color-paper: #f3f4f1;
+  --color-paper-raised: #ffffff;
+  --color-canvas: #e8ebe7;
 
-  /* Ink ramp */
-  --color-ink: #211e19;
-  --color-ink-80: #43403a;
-  --color-ink-60: #6d6656;
-  --color-ink-45: #716a5d;
-  --color-ink-35: #756d5e;
+  /* Ink ramp — graphite */
+  --color-ink: #15191a;
+  --color-ink-80: #374043;
+  --color-ink-60: #586265;
+  --color-ink-45: #5d676a;
+  --color-ink-35: #616b6e;
 
   /* Rules & borders */
-  --color-hairline: #e8e2d5;
-  --color-hairline-soft: #eee8db;
-  --color-card: #e2dbca;
-  --color-card-strong: #c9bfa8;
-  --color-chip-border: #d8d1c1;
+  --color-hairline: #e3e7e3;
+  --color-hairline-soft: #eceeea;
+  --color-card: #d5dad6;
+  --color-card-strong: #b4bdb8;
+  --color-chip-border: #ccd2ce;
 
-  /* Verified green (sources, Yes) */
-  --color-accent: #2e6a4e;
-  --color-accent-deep: #22503b;
-  --color-accent-soft: #4a725d;
-  --color-accent-tint: #eef4ef;
-  --color-accent-tint-border: #bcd3c4;
+  /* Teal (sources, Yes, with party) */
+  --color-accent: #0d6857;
+  --color-accent-deep: #0a5045;
+  --color-accent-soft: #2f7a6b;
+  --color-accent-tint: #def0ea;
+  --color-accent-tint-border: #a6d2c4;
 
-  /* Warm umber (No — never red) */
-  --color-umber: #8a5a2b;
-  --color-umber-deep: #6d4620;
-  --color-umber-soft: #7b5d3d;
-  --color-umber-tint: #f5efe6;
-  --color-umber-tint-border: #ddc9a8;
+  /* Amber (No, against party — never red) */
+  --color-umber: #94560f;
+  --color-umber-deep: #73420a;
+  --color-umber-soft: #8a5f2c;
+  --color-umber-tint: #f5e9d8;
+  --color-umber-tint-border: #e0c59d;
+
+  /* Money: olive cash, ochre spent */
+  --color-cash: #5a6b22;
+  --color-spent: #a8741a;
+
+  /* Graphite header band */
+  --color-band: #1c2326;
+  --color-band-ink: #eef2ef;
+  --color-band-muted: #a9b5b3;
+  --color-band-rule: #3a4448;
 
   /* Neutrals */
-  --color-sand: #c9a06a;
-  --color-neutral-chip: #f2ede1;
-  --color-neutral-chip-border: #ddd6c6;
+  --color-sand: #a8741a;
+  --color-neutral-chip: #eef0ec;
+  --color-neutral-chip-border: #d5dad6;
   /* named to avoid colliding with the `border-dashed` style utility */
-  --color-dash-border: #c9c0ac;
-  --color-hatch-dark: #e4dccb;
-  --color-hatch-label: #9a917e;
+  --color-dash-border: #b4bdb8;
+  --color-hatch-dark: #dde2de;
+  --color-hatch-label: #8a9396;
+  --color-not-voting: #8a9396;
 
   /* Type */
-  --font-serif: var(--font-source-serif), Georgia, serif;
-  --font-sans: var(--font-public-sans), system-ui, sans-serif;
+  --font-serif: var(--font-newsreader), Georgia, serif;
+  --font-sans: var(--font-libre-franklin), "Helvetica Neue", Arial, sans-serif;
   --font-mono: var(--font-plex-mono), ui-monospace, monospace;
 
-  /* Shadows — print archive, not floating-card UI */
-  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.06);
-  --shadow-card-raised: 0 1px 4px rgba(60, 50, 30, 0.06);
+  /* Shadows — flat ledger, hairline-first */
+  --shadow-card: 0 1px 2px rgba(20, 30, 30, 0.05);
+  --shadow-card-raised: 0 1px 3px rgba(20, 30, 30, 0.07);
 }
 
 html {
