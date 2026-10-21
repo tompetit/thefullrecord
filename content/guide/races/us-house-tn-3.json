@@ -11,29 +11,81 @@
   "context": [
     {
       "text": "Incumbent Charles J. \"Chuck\" Fleischmann (R) advanced unopposed from the August 6, 2026 Republican primary. Anna Golladay won the Democratic primary. The district's 2026 Cook Partisan Voter Index is R+18, and forecasters rate the general election Safe/Solid Republican.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "chuck-fleischmann",
       "name": "Charles J. \"Chuck\" Fleischmann",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced unopposed from the August 6, 2026 Republican primary",
       "currentRole": "U.S. Representative (since 2011)",
       "summary": {
-        "text": "Chuck Fleischmann is the incumbent U.S. Representative for Tennessee's 3rd District, an attorney from Chattanooga who chairs an Appropriations subcommittee.",
-        "sources": ["s2"]
+        "text": "Chuck Fleischmann is the Republican incumbent U.S. Representative for Tennessee's 3rd District, an attorney from Chattanooga who ran a law practice with his wife before winning the seat in 2010. He serves on the House Appropriations and Science, Space, and Technology committees, chairs the Appropriations Subcommittee on Energy and Water Development, and is seeking re-election in November 2026.",
+        "sources": [
+          "s2",
+          "s6",
+          "s7"
+        ]
       },
       "background": [
         {
-          "text": "Born in New York, New York in 1962; earned a bachelor's degree in political science from the University of Illinois (1983) and a J.D. from the University of Tennessee-Knoxville (1986).",
-          "sources": ["s2"]
+          "text": "Born in New York, New York, in 1962.",
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "Ran a law firm with his wife in Chattanooga after law school and served as president of the Chattanooga Bar Association in 1996.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree in political science from the University of Illinois (1983), with Phi Beta Kappa and magna cum laude honors according to his official biography, and a J.D. from the University of Tennessee-Knoxville (1986).",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "After law school, he and his wife, Brenda, ran a law firm in Chattanooga; his official biography says they ran a small business together for 24 years.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "Served as president of the Chattanooga Bar Association in 1996 and as chairman of the Chattanooga Lawyers Pro Bono Committee, and has served on the boards of the National Craniofacial Association and the Cherokee Area Council of Boy Scouts of America.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "Won election to the U.S. House on November 2, 2010, defeating John Wolfe (D) and Savas T. Kyriakidis (I), and took office in January 2011.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the 2014 Republican primary over Weston Wamp, the son of former Rep. Zach Wamp, by fewer than 1,500 votes.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Serves on the House Appropriations Committee (Subcommittees on Energy and Water Development, Labor-HHS-Education, and Defense) and the Science, Space, and Technology Committee (Energy Subcommittee); in the 119th Congress he chairs the Energy and Water Development Subcommittee.",
+          "sources": [
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "According to his official biography, he and Brenda live in Ooltewah, Tennessee, and have three children.",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "priorities": [],
@@ -42,12 +94,16 @@
         {
           "text": "Serves on the House Committee on Appropriations (2025-2026), chairing the Subcommittee on Energy and Water Development and Related Agencies, and also sits on the Labor, Health and Human Services, Education Subcommittee and the Defense Subcommittee.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the House Committee on Science, Space, and Technology (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -56,31 +112,50 @@
     {
       "id": "anna-golladay",
       "name": "Anna Golladay",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 6, 2026 Democratic primary",
       "summary": {
-        "text": "Anna Golladay is the Democratic nominee for Tennessee's 3rd District, a small-business owner and faith leader from Chattanooga running on healthcare access, economic fairness, and environmental protection.",
-        "sources": ["s3"]
+        "text": "Anna Golladay is the Democratic nominee for Tennessee's 3rd District, a progressive faith leader and small-business owner from Hamilton County who has not held elected office. She describes herself as a community builder and is running on cost of living, healthcare access including Medicaid expansion, and environmental cleanup.",
+        "sources": [
+          "s3",
+          "s8"
+        ]
       },
       "background": [
         {
-          "text": "Describes herself as a community builder, progressive faith leader, and small-business owner in Hamilton County who has served as vice president of her neighborhood association.",
-          "sources": ["s3"]
+          "text": "Describes herself as a community builder, progressive faith leader, and small-business owner in Hamilton County, the largest county in the district.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Says she worked for several years as a protest chaplain in Chattanooga.",
-          "sources": ["s3"]
+          "text": "Says she served as a protest chaplain in Chattanooga for many years.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Is vice president of her neighborhood association, according to her Candidate Connection survey, and describes herself as not a career politician.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says rising costs for groceries, housing, childcare, healthcare, and utilities are 'squeezing everyone who isn't a billionaire or a massive corporation.'",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Cites Tennessee's decision not to expand Medicaid as a driver of the state's rural healthcare crisis.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -89,14 +164,18 @@
           "stance": "supports",
           "summary": "Cites Tennessee wage data and says she will fight to raise the federal minimum wage.",
           "quote": "I will fight to raise the federal minimum wage, strengthen workers' right to organize, and close loopholes that allow corporations to suppress wages in rural communities with limited competition.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says Tennessee's refusal to expand Medicaid has left over 300,000 residents without insurance and calls healthcare a human right.",
           "quote": "I believe healthcare is a human right — not a privilege reserved for those who can afford it.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -105,22 +184,36 @@
     {
       "id": "rodney-king",
       "name": "Rodney King",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Rodney King is an independent candidate and retired U.S. Navy submarine officer from rural Tennessee running on support for Social Security, healthcare, gun rights, and lower taxes on working Americans.",
-        "sources": ["s4"]
+        "text": "Rodney King is an independent candidate who says he is a retired U.S. Navy submarine and nuclear weapons officer who now lives on a farm in Tennessee. He is running on protecting Social Security, healthcare, gun rights, lower taxes on working Americans, and requiring congressional approval for wars.",
+        "sources": [
+          "s4"
+        ]
       },
       "background": [
         {
-          "text": "Says he is retired from the U.S. Navy, where he served as a submarine and nuclear weapons officer from 1983 to 1988, and now farms in Tennessee.",
-          "sources": ["s4"]
+          "text": "Says he served in the U.S. Navy as a qualified submarine officer and nuclear weapons officer aboard the USS Nathan Hale (SSBN 623) from 1983 to 1986, then on the Joint Strategic Target Planning Staff from 1986 to 1988, and finished his service as a reservist.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says he and his wife live on a farm in Tennessee where they raised children and goats.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists saving Social Security, fixing healthcare, lowering taxes on working Americans, and requiring congressional approval before military action as priorities.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -129,7 +222,9 @@
           "stance": "opposes",
           "summary": "Says he supports the Second Amendment.",
           "quote": "I believe in the “Right to Life”, and support the second amendment.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -138,22 +233,49 @@
     {
       "id": "donnie-ownby",
       "name": "Donnie Ownby",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Donnie Ownby is an independent candidate who describes himself as a Christian conservative and supports congressional term limits.",
-        "sources": ["s5"]
+        "text": "Donnie Ownby is an independent candidate who describes himself as a 69-year-old, semi-retired Christian conservative and Army veteran. He is running on congressional term limits, manufacturing and the working class, and education.",
+        "sources": [
+          "s5",
+          "s9"
+        ]
       },
       "background": [
         {
-          "text": "Says he is 69, semi-retired, and has worked in military service, power line construction, transportation, medical imaging, and running his own small trucking company.",
-          "sources": ["s5"]
+          "text": "Served in the U.S. Army from 1974 to 1977, according to Ballotpedia.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Earned a high school diploma from Clinton High School and an associate degree from Roane State Community College, according to Ballotpedia.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says his varied work experience includes military service, power line construction, transportation, X-ray and ultrasound technology, and running his own small trucking company.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Says he is 69, semi-retired, lives off the grid, and is married with a daughter, two living sons, and grandchildren; says he has followed politics since middle school but had not sought office until now.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Supports term limits of three terms for the House and two for the Senate.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [],
@@ -163,11 +285,15 @@
     {
       "id": "dean-arnold",
       "name": "Dean Arnold",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Dean Arnold is an independent candidate on the November 3, 2026 general-election ballot for Tennessee's 3rd District. No campaign website or public policy statements were found.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -178,11 +304,15 @@
     {
       "id": "jean-howard-hill",
       "name": "Jean Howard-Hill",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Jean Howard-Hill is an independent candidate on the November 3, 2026 general-election ballot for Tennessee's 3rd District. No campaign website or public policy statements were found.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -193,11 +323,15 @@
     {
       "id": "edward-roland",
       "name": "Edward Roland",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Edward Roland is an independent candidate on the November 3, 2026 general-election ballot for Tennessee's 3rd District. No campaign website or public policy statements were found.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -243,8 +377,40 @@
       "title": "Donnie Ownby's Ballotpedia Candidate Connection survey responses",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://fleischmann.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Chuck Fleischmann",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s7",
+      "url": "https://fleischmann.house.gov/about/committees-and-caucuses",
+      "title": "Committees and Caucuses",
+      "publisher": "Office of Rep. Chuck Fleischmann",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Anna_Golladay",
+      "title": "Anna Golladay",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Donnie_Ownby",
+      "title": "Donnie Ownby",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Chuck Fleischmann did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. Dean Arnold, Jean Howard-Hill, and Edward Roland are independent candidates with no discoverable campaign platform for 2026 beyond appearing on the ballot list."
+  "researchNotes": "Chuck Fleischmann did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. Dean Arnold, Jean Howard-Hill, and Edward Roland are independent candidates with no discoverable campaign platform for 2026 beyond appearing on the ballot list. No biographical information beyond ballot appearance was found for Dean Arnold, Jean Howard-Hill, or Edward Roland."
 }

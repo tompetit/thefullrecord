@@ -11,29 +11,89 @@
   "context": [
     {
       "text": "Incumbent Tim Burchett (R) advanced unopposed from the August 6, 2026 Republican primary. Michaela Barnett won the Democratic primary unopposed. The district's 2026 Cook Partisan Voter Index is R+17, and forecasters rate the general election Safe/Solid Republican.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "tim-burchett",
       "name": "Tim Burchett",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced unopposed from the August 6, 2026 Republican primary",
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
-        "text": "Tim Burchett is the incumbent U.S. Representative for Tennessee's 2nd District. He previously served in the Tennessee House of Representatives, the Tennessee Senate, and as Knox County mayor.",
-        "sources": ["s2"]
+        "text": "Tim Burchett is the Republican incumbent U.S. Representative for Tennessee's 2nd District, a Knoxville native and former small-business owner who served in the Tennessee House and Senate and as Knox County mayor before winning the seat in 2018. He serves on the Oversight and Government Reform, Foreign Affairs, and Transportation and Infrastructure committees and is seeking re-election in November 2026.",
+        "sources": [
+          "s2",
+          "s6",
+          "s7"
+        ]
       },
       "background": [
         {
-          "text": "Born in Knoxville, Tennessee, in 1964; earned a bachelor's degree in education from Tennessee University in 1988.",
-          "sources": ["s2"]
+          "text": "Born in Knoxville, Tennessee, in 1964, and grew up there; attended Bearden High School, graduating in 1982.",
+          "sources": [
+            "s2",
+            "s6",
+            "s8"
+          ]
         },
         {
-          "text": "Served in the Tennessee House of Representatives (1994-1998), the Tennessee Senate (1998-2010), and as Knox County mayor (2010-2018) before being elected to Congress.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree in education from the University of Tennessee, Knoxville, in 1988.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Worked as a businessman and, according to his official biography, started a small business before entering the state legislature.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "Served in the Tennessee House of Representatives from 1994 to 1998 and the Tennessee Senate from 1998 to 2010.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "Served as Knox County mayor from 2010 to 2018; his official biography says his administration built new schools, launched infrastructure projects, and paid down debt without raising taxes.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "Won the November 2018 general election for the 2nd District seat and took office in January 2019.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "In the 119th Congress he serves on the Oversight and Government Reform Committee, where he chairs the Subcommittee on Delivering on Government Efficiency, as well as the Foreign Affairs and Transportation and Infrastructure committees.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "His official biography says that, of the bills he sponsored or cosponsored, three in the 117th Congress (including the PAWS for Veterans Therapy Act) and six in the 118th Congress were signed into law.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "His official biography says he lives in the Gibbs community of Knox County with his wife, Kelly, and their daughter, Isabel.",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "priorities": [],
@@ -42,12 +102,16 @@
         {
           "text": "Serves on the House Committee on Oversight and Government Reform (2025-2026), including its Delivering on Government Efficiency and Government Operations subcommittees.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the House Committee on Transportation and Infrastructure and the House Committee on Foreign Affairs (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -56,27 +120,56 @@
     {
       "id": "michaela-barnett",
       "name": "Michaela Barnett",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 6, 2026 Democratic primary unopposed",
       "summary": {
-        "text": "Michaela Barnett is the Democratic nominee for Tennessee's 2nd District, a small-business owner and engineer running on affordability, healthcare, and infrastructure investment.",
-        "sources": ["s3"]
+        "text": "Michaela Barnett is the Democratic nominee for Tennessee's 2nd District, an engineer and small-business owner who says she spent the past year working in Congress. She won the August 6, 2026 Democratic primary unopposed and describes her campaign as focused on cost of living, healthcare, and jobs in East Tennessee.",
+        "sources": [
+          "s3",
+          "s9"
+        ]
       },
       "background": [
         {
-          "text": "Describes herself as a local small-business owner and engineer who grew up doing farm chores before and after school.",
-          "sources": ["s3"]
+          "text": "Describes herself as a local small-business owner and an engineer who learned the value of hard work doing barn chores before and after school.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Her career experience includes working as a small business owner, according to Ballotpedia.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says she spent last year working in Congress, where she concluded that 'our government is not working for us.'",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Won the August 6, 2026 Democratic primary unopposed.",
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says East Tennesseans should have access to 'abundant, good jobs' and that the cost of living has outpaced wages.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Wants federal investment in the district's infrastructure, citing what she describes as billions of dollars in unmet road, school, and water-system repair needs.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -85,7 +178,9 @@
           "stance": "supports",
           "summary": "Says healthcare should be affordable and accessible for everyone and criticizes insurers and pharmaceutical companies for prioritizing profit; cites Tennessee's low life-expectancy and maternal-mortality rankings.",
           "quote": "A healthcare system's success should be measured by how many patients it heals, not how much profit it generates for its shareholders.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -94,22 +189,44 @@
     {
       "id": "bruce-fine",
       "name": "Bruce Fine",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Bruce Fine is an independent candidate and self-described former Republican who says he left the party because it 'abandoned everyday people.' He is running on cost of living, healthcare access, and fiscal responsibility.",
-        "sources": ["s4"]
+        "text": "Bruce Fine is an independent candidate and self-described former Republican who says he has worked as a farmer, marine mechanic, and journalist. He says he left the GOP because both parties 'abandoned everyday people' and is running on cost of living, local healthcare clinics and hospitals, education, and the national debt.",
+        "sources": [
+          "s4",
+          "s10"
+        ]
       },
       "background": [
         {
-          "text": "Describes himself as a lifelong Tennessean who has worked as a farmer, marine mechanic, and journalist, with a B.S. from the University of Florida.",
-          "sources": ["s4"]
+          "text": "Ballotpedia lists a high school diploma from North Miami Beach Senior High School and a bachelor's degree from the University of Florida in 1997; his survey describes a B.S. from the University of Florida.",
+          "sources": [
+            "s4",
+            "s10"
+          ]
+        },
+        {
+          "text": "Describes himself as a farmer, marine mechanic, and journalist who has worked across trades and industries, from farming and fishing to mechanics and journalism, and says he is not a politician.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says he left the Republican Party because both parties have abandoned everyday people, and is running as an independent.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he will fight to lower the cost of living, protect local healthcare clinics and hospitals, and demand fiscal responsibility on federal debt.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -119,22 +236,46 @@
     {
       "id": "adam-heimerman",
       "name": "Adam Heimerman",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Adam Heimerman is an independent candidate from Loudon County who says the Constitution is the foundation of American democracy and calls for redirecting corporate subsidies toward public education and health programs.",
-        "sources": ["s5"]
+        "text": "Adam Heimerman is a non-affiliated candidate from Loudon County who says he worked in the outdoor and camera industries before returning to East Tennessee. He says the Constitution is the foundation of democracy and calls for redirecting corporate subsidies to public education and health programs. In July 2026 he was charged with four counts of felony vandalism in Blount County; the charges are allegations and he has not been reported convicted.",
+        "sources": [
+          "s5",
+          "s11",
+          "s12"
+        ]
       },
       "background": [
         {
-          "text": "Born in 1988 and raised in Loudon County, Tennessee; worked in the outdoor and camera industries around the country before returning to East Tennessee.",
-          "sources": ["s5"]
+          "text": "Born in 1988 and, according to his Candidate Connection survey, a seventh-generation Tennessean raised in Loudon County; graduated from Lenoir City High School in 2007.",
+          "sources": [
+            "s5",
+            "s11"
+          ]
+        },
+        {
+          "text": "Says he attended a photography institute in 2008 and then spent most of his adult life working around the country in the outdoor and camera industries; Ballotpedia lists his career experience as small business owner.",
+          "sources": [
+            "s5",
+            "s11"
+          ]
+        },
+        {
+          "text": "WSMV reported on July 31, 2026 that Blount County authorities arrested Heimerman, 37, of Lenoir City, and charged him with four counts of felony vandalism over damage to four automated license plate reader systems. Police said he admitted to investigators that he used a gun to shoot the systems between July 14 and July 22.",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Wants to redirect government subsidies from large corporations to public education and health programs, and calls for regular public accountability from elected officials, including biweekly video updates.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [],
@@ -179,8 +320,64 @@
       "title": "Adam Heimerman's Ballotpedia Candidate Connection survey responses",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://burchett.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Tim Burchett",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s7",
+      "url": "https://burchett.house.gov/about/committees-and-caucuses",
+      "title": "Committees and Caucuses",
+      "publisher": "Office of Rep. Tim Burchett",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s8",
+      "url": "https://en.wikipedia.org/wiki/Tim_Burchett",
+      "title": "Tim Burchett",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Michaela_Barnett",
+      "title": "Michaela Barnett",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Bruce_Fine",
+      "title": "Bruce Fine",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/Adam_Heimerman",
+      "title": "Adam Heimerman",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.wsmv.com/2026/07/31/east-tennessee-man-candidate-us-house-shoots-several-license-plate-reading-cameras-police-say/",
+      "title": "East Tennessee man, candidate for U.S. House shoots several license plate reading cameras, police say",
+      "publisher": "WSMV",
+      "kind": "news",
+      "date": "2026-07-31"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Tim Burchett did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Tim Burchett did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. No campaign website or independent news profile was available for Michaela Barnett, Bruce Fine, or Adam Heimerman beyond their Candidate Connection surveys, so their biographies rest largely on self-reported material."
 }
