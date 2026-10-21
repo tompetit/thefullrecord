@@ -11,37 +11,92 @@
   "context": [
     {
       "text": "Incumbent Becca Balint (D) advanced from the Democratic primary on August 11, 2026 with 98.3% of the vote. Gerald Malloy defeated Mark Coester in the Republican primary with 76.6% of the vote.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "becca-balint",
       "name": "Becca Balint",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the August 11 Democratic primary with 98.3% of the vote",
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
-        "text": "Becca Balint is the incumbent U.S. Representative for Vermont's at-large district, seeking re-election in 2026. She previously served in the Vermont State Senate, including as President Pro Tempore.",
-        "sources": ["s2"]
+        "text": "Becca Balint is the Democratic incumbent U.S. Representative for Vermont's at-large district, seeking a third term. A former middle school teacher, she served in the Vermont Senate from 2015 to 2023, including as majority leader and president pro tempore, before winning the House seat in 2022. She serves on the House Judiciary and Budget committees.",
+        "sources": [
+          "s2",
+          "s8",
+          "s9",
+          "s10"
+        ]
       },
       "background": [
         {
-          "text": "Born at a U.S. Army hospital in Heidelberg, Germany; lives in Brattleboro, Vermont.",
-          "sources": ["s2"]
+          "text": "Born May 4, 1968, at a U.S. Army hospital in Heidelberg, West Germany, and raised in Peekskill, New York; her official biography describes her as the daughter of a working-class mother and an immigrant father.",
+          "sources": [
+            "s2",
+            "s8",
+            "s9"
+          ]
         },
         {
-          "text": "Earned a bachelor's degree from Smith College, a master's degree in education from Harvard University (1995), and a master's degree in history from the University of Massachusetts at Amherst (2001).",
-          "sources": ["s2"]
+          "text": "Earned a B.A. from Smith College (magna cum laude, Phi Beta Kappa), a master's degree in education from Harvard University (1995), and a master's degree in history from the University of Massachusetts Amherst (2001).",
+          "sources": [
+            "s2",
+            "s8"
+          ]
         },
         {
-          "text": "Worked as a teacher in public and private schools before entering politics.",
-          "sources": ["s2"]
+          "text": "Moved to Vermont in 1994 and worked as a teacher, including fourteen years teaching middle school in Windham County, in public and private schools.",
+          "sources": [
+            "s2",
+            "s8",
+            "s9"
+          ]
         },
         {
-          "text": "Served in the Vermont State Senate, including as Senate President Pro Tempore, before her election to Congress in 2022.",
-          "sources": ["s2"]
+          "text": "Elected to the Vermont Senate from Windham County in 2014 and served from 2015 to 2023; she was majority leader from 2017 to 2021 and president pro tempore from 2021 to 2023.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "According to her official biography, as Senate majority leader she led passage of the state's first gun safety laws and of a major housing investment.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Won the 2022 election for Vermont's at-large House seat, succeeding Rep. Peter Welch, and took office in 2023; she is the first woman and first openly LGBTQ person to represent Vermont in Congress.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "text": "In the House, serves on the Judiciary Committee (including its Constitution and Limited Government and Administrative State, Regulatory Reform, and Antitrust subcommittees) and the Budget Committee; her official biography lists her as Vice Ranking Member of Judiciary.",
+          "sources": [
+            "s8",
+            "s10"
+          ]
+        },
+        {
+          "text": "Is a member of the Congressional Progressive Caucus (Vice Chair for New Members), co-chair of the Congressional Equality Caucus, and vice chair of the Equal Rights Amendment Caucus.",
+          "sources": [
+            "s8",
+            "s10"
+          ]
+        },
+        {
+          "text": "According to her official biography, she is married to Elizabeth Wohl, an attorney and opera singer, has two children, and lives in Brattleboro, Vermont.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "priorities": [],
@@ -50,7 +105,9 @@
         {
           "text": "Assigned to the House Committee on the Judiciary (Subcommittee on the Administrative State, Regulatory Reform, and Antitrust; Subcommittee on the Constitution and Limited Government) and the House Committee on the Budget for the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://beccabalint.com",
@@ -60,43 +117,88 @@
     {
       "id": "gerald-malloy",
       "name": "Gerald Malloy",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 11 Republican primary with 76.6% of the vote",
       "summary": {
-        "text": "Gerald Malloy is a retired U.S. Army officer and business executive running as the Republican nominee for Vermont's at-large House seat.",
-        "sources": ["s3"]
+        "text": "Gerald Malloy is a retired U.S. Army officer and business executive running as the Republican nominee for Vermont's at-large House seat. A West Point graduate who served in the Army from 1980 to 2006, he later worked in government and private-sector roles, and was the Republican nominee for U.S. Senate in 2022 and 2024. According to news coverage of his primary win, he is focusing on affordability and working with Gov. Phil Scott.",
+        "sources": [
+          "s3",
+          "s11"
+        ]
       },
       "background": [
         {
-          "text": "Born in Boston, Massachusetts; lives in Perkinsville, Vermont.",
-          "sources": ["s3"]
+          "text": "Born in Boston, Massachusetts; graduated from Westwood High School and lives in Perkinsville, Vermont.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Served in the U.S. Army from 1980 to 2006, entering West Point at age 18.",
-          "sources": ["s3"]
+          "text": "Entered the U.S. Military Academy at West Point at age 18 and earned a bachelor's degree there in 1984.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Earned a bachelor's degree from the U.S. Military Academy at West Point (1984), a graduate degree from Temple University (1996), and a graduate certificate from Georgetown University (2021).",
-          "sources": ["s3"]
+          "text": "Served in the U.S. Army from 1980 to 2006; in his Ballotpedia survey response he says he served 22 years on active duty and completed the Army Command and General Staff College.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Career experience includes working as a business executive after his military service.",
-          "sources": ["s3"]
+          "text": "Earned a graduate degree from Temple University in 1996 (described in his survey response as an MBA) and a graduate certificate from Georgetown University in 2021.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "According to his survey response, after leaving the military he held government roles working with the military and then worked in the private sector, helping grow technology and service businesses; Vermont Public describes him as an Army veteran and defense contractor.",
+          "sources": [
+            "s3",
+            "s11"
+          ]
+        },
+        {
+          "text": "Was the Republican nominee for U.S. Senate in 2022 (28.0% against Sen. Peter Welch) and 2024 (32.1% against Sen. Bernie Sanders).",
+          "sources": [
+            "s3",
+            "s11"
+          ]
+        },
+        {
+          "text": "Won the August 11, 2026 Republican primary for the U.S. House seat over Mark Coester, leading 77% to 22% in early returns; Vermont Public described it as his third attempt at federal office.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "According to his survey response, he is married with four children; Ballotpedia lists his affiliations as including the VFW and American Legion.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"I will: bring high-paying jobs back to Vermont, Cut unnecessary federal regulations that hold back small businesses, Support local industries—dairy, agriculture, and manufacturing... Push for fiscal discipline in Washington to reduce inflation.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"Washington's overspending is driving inflation and making life more expensive. I will: Oppose tax increases on Vermont families, Work toward balanced budgets, Protect and strengthen Social Security and Medicare—without cutting benefits.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "\"I will always stand for the Constitution and the rights of every Vermonter... Uphold the 10th Amendment and states' rights... Oppose federal overreach on issues better decided locally.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -105,35 +207,45 @@
           "stance": "opposes",
           "summary": "Describes himself as pro-life and says decisions on abortion should be left to the states rather than the Supreme Court.",
           "quote": "Pro life. Per the 10th Amendment I support taking this decision out of the Supreme Court and giving it to States and People.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Says he supports the Second Amendment and is a gun owner.",
           "quote": "Fully support all Amendments, including 2d Amendment Right to Bear Arms. I am a gun owner, my wife is an NRA member.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Says he will enforce and change immigration laws and secure the southern border.",
           "quote": "I will seek to enforce immigration laws, and change immigration laws as necessary. I will secure our southern border to address the crime, Opioid/Fentanyl, and illegal immigration crisis.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
           "summary": "Criticizes state climate legislation such as Vermont's Global Warming Solutions Act and says he wants to restore U.S. oil and gas independence.",
           "quote": "I am passionate about restoring US oil and gas independence.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "school_choice",
           "stance": "supports",
           "summary": "Says he supports school choice.",
           "quote": "I support School Choice.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -143,11 +255,15 @@
     {
       "id": "phoenix-altair",
       "name": "Phoenix Altair",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Phoenix Altair is running as an independent candidate for Vermont's at-large U.S. House seat. No biography, campaign website statements, or Candidate Connection survey responses were found on Ballotpedia.",
-        "sources": ["s4"]
+        "sources": [
+          "s4"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -159,22 +275,42 @@
     {
       "id": "adam-ortiz",
       "name": "Adam Ortiz",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Adam Ortiz is running as an independent candidate for Vermont's at-large U.S. House seat. He is a U.S. Army National Guard veteran (2006-2012) and completed Ballotpedia's 2026 Candidate Connection survey, in which he described environmental protection and infrastructure investment as priorities.",
-        "sources": ["s5"]
+        "text": "Adam Ortiz is running as an independent candidate for Vermont's at-large U.S. House seat. He is a U.S. Army National Guard veteran (2006-2012) and was also an independent U.S. House candidate in 2022 and 2024. In his Ballotpedia 2026 Candidate Connection survey, he described environmental protection and infrastructure investment as priorities.",
+        "sources": [
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Born in Philadelphia, Pennsylvania; served in the U.S. Army National Guard from 2006 to 2012.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "In a 2024 Seven Days interview quoted on Ballotpedia, he said he had deployed to Baghdad, Iraq, and then Kabul, Afghanistan.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Was an independent candidate for Vermont's at-large U.S. House seat in 2022 and 2024, losing both general elections, and is running again in 2026.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"All issues are environmental issues... The Vermont brand is everyone's responsibility to protect.\"",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [],
@@ -185,11 +321,15 @@
     {
       "id": "suzanne-seymour",
       "name": "Suzanne Seymour",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Suzanne Seymour is running as an independent candidate for Vermont's at-large U.S. House seat. No biography, campaign website statements, or Candidate Connection survey responses were found on Ballotpedia.",
-        "sources": ["s6"]
+        "sources": [
+          "s6"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -201,11 +341,15 @@
     {
       "id": "ryan-walton",
       "name": "Ryan Walton",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Ryan Walton is running as an independent candidate for Vermont's at-large U.S. House seat. No biography, campaign website statements, or Candidate Connection survey responses were found on Ballotpedia.",
-        "sources": ["s7"]
+        "sources": [
+          "s7"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -264,8 +408,40 @@
       "title": "Ryan Walton",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "title": "Biography",
+      "publisher": "Office of Rep. Becca Balint",
+      "url": "https://balint.house.gov/about",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s9",
+      "title": "Becca Balint",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Becca_Balint",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s10",
+      "title": "Committees and Caucuses",
+      "publisher": "Office of Rep. Becca Balint",
+      "url": "https://balint.house.gov/about/committees-and-caucuses.htm",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s11",
+      "title": "Gerald Malloy wins GOP U.S. House primary, will face Becca Balint in the fall",
+      "publisher": "Vermont Public",
+      "url": "https://www.vermontpublic.org/local-news/2026-08-11/gerald-malloy-wins-gop-u-s-house-primary-will-face-becca-balint-in-the-fall",
+      "kind": "news",
+      "date": "2026-10-21"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Write-in candidates Andrew Giusto (Unity Party) and Cris Ericson (Independent) are not printed on the general-election ballot and were excluded. Federal key votes and FEC finance totals for Rep. Balint are added separately by script."
+  "researchNotes": "Write-in candidates Andrew Giusto (Unity Party) and Cris Ericson (Independent) are not printed on the general-election ballot and were excluded. Federal key votes and FEC finance totals for Rep. Balint are added separately by script. No biographical information beyond ballot listings was found for Phoenix Altair, Suzanne Seymour or Ryan Walton, and Malloy's campaign website could not be loaded, so his biography relies on his Ballotpedia survey and news coverage."
 }
