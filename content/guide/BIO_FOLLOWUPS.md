@@ -169,3 +169,16 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - fowler, manning (OH House): current members; people.json currentRole null.
 - courtney-neron (OR Senate): current appointed senator; people.json currentRole null.
 - jake-young (PA HD14): Ballotpedia bio text says 'Bradley Young' — verify name.
+
+## New state-legislative bios (PR #33) — items for review
+
+- robert-garza (TX): Ballotpedia page lists a 2012 Democratic HD-74 primary run alongside later Republican runs — verify same person.
+- dennis-geesaman (TX): survey key message 'Stop the Islamification of Texas' omitted as loaded wording — editor decision whether to quote candidate's own words.
+- kumulia-long (VA?): appointed incumbent Apr 2026; people.json currentRole null.
+- lance-ryan (VT): lost Aug 11 Republican primary per Ballotpedia but still on candidate list — check race data.
+- valorie-taylor (VT Rutland-11): appointed incumbent Jan 2026; people.json currentRole null.
+- jack-brigham, michael-morgan (VT): incumbents; people.json currentRole null.
+- gregory-rainville (VT Senate): Ballotpedia page describes a sitting Franklin County Superior Court judge — identity unconfirmed, summary-only.
+- john-benson, john-morley-iii, michael-hoyt (VT): appointed incumbents; people.json currentRole null.
+- paul-weber (WI AD-95): 2020 Democratic SD-32 primary run on same Ballotpedia page — identity unconfirmed.
+- zachary-abbott (WV): disqualified from general election per Ballotpedia — check race data.
