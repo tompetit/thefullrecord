@@ -1,0 +1,66 @@
+# Biography pass — open follow-ups
+
+Items found by the 2026-10 biography agents that need an editorial decision or a source the agents couldn't load. Items marked HIGH are omitted records a voter would expect to see.
+
+- us-sen-ga: Chris Capparell listed by Ballotpedia as withdrawn/disqualified (README rule 8 → remove?); write-in Cassandra Easton missing.
+- us-sen-fl-special: Angie Nixon 2026 House reprimand/arrest omitted (needs a fetched news source per rule 9).
+- us-sen-ks: Roger Marshall Sept 2026 NYT medical-debt story omitted (only seen via Wikipedia).
+- us-sen-sc: Ballotpedia lists Ellison, Glaser, Sedletsky, Strunge, Wright-McDonald as withdrawn/disqualified — still in file.
+- us-sen-tx: Libertarian Ted Brown on ballot per Ballotpedia, no entry.
+- us-sen-or: Dye self-reported expunged conviction and Brock Smith Jan 6 material omitted.
+- us-sen-ma: Devincentis and Dawicki withdrawn/disqualified per Ballotpedia — still in file.
+- us-sen-ak: Dan Sullivan (teacher) tagged R in parties/context; Ballotpedia says no party affiliation on ballot (he says he joined GOP).
+- Omitted pending a fetched news source (rule 9): Dave Min 2023 DUI arrest (CA-47); Young Kim 2018 item (CA-40); Jim Costa 1986 arrest (CA-21); Letlow stock disclosures (LA Sen); Brock Smith Jan 6 (OR Sen).
+- CT: Ballotpedia lists Kyle Gauck (write-in, CT-2), Thomas Egan (Independent Party, CT-3), Andrew Rice (write-in, CT-3) — no entries.
+- CO-5: Ballotpedia lists unaffiliated Roy Matthewson and Matt Cavanaugh — no entries.
+- CT-4: Damon Cerreta listed withdrawn/disqualified; Benjamin Wesley (Independent Party) on ballot, no entry.
+- DE-AL: write-ins Earl Cooper and Scott Walker listed, no entries.
+- FL-6: Gist listed by Ballotpedia as withdrew (still on ballot). FL-5: Upham was a GOP-primary write-in per Jax Today; file lists IND — check general-ballot status.
+- GA-5: Nikema Williams 2018 Capitol arrest (dropped misdemeanor) omitted.
+- Not on ballot per Ballotpedia but still listed: Roman Coley Davis (GA-8), Dylan Castillo (GA-1), Brandon Daley (GA-2).
+- GA-10: write-in Tabitha Johnson-Green on ballot, no entry.
+- GA-13: Wikipedia says incumbent David Scott died 2026-04-22 (unverified; removed from notes). Write-in Antoine Kelley Jr. missing.
+- GA-14: Andrew Underwood listed disqualified; write-in Jonathan McHugh missing. GA-12: Ceretta Smith possibly former (not current) Grovetown councilmember — check currentRole.
+- HI-2: Ballotpedia says no candidate advanced from the nonpartisan primary; Edward Codelia likely not on Nov ballot; race context says he 'won'.
+- IL-9: Biss announced resignation as Evanston mayor effective Oct 18, 2026 — confirm it took effect and update currentRole.
+- IL-8: write-in Christopher Krumpack; IL-10: Green write-in Alexandria Keating-Sofiakis — no entries.
+- IN-2: Eric Beebe listed withdrawn/disqualified, still in file.
+- IN-8: James Burke listed withdrawn/disqualified, still in file.
+- LA-1: Jewett priorities/positions cite 2023 BESE survey; 2026 Ballotpedia survey exists (refresh).
+- MD-1: Edward Shlikas on ballot per Ballotpedia, no entry. MA-9: MacAllister Select Board status inconsistent.
+- LA-2: Renada Collins tagged D but Ballotpedia lists her Unaffiliated; Peter Williams ran LA-6 in 2024 as D, now listed LA-2 R — verify.
+- MI-12: Brenda Sanders' Michigan Supreme Court removal from the bench (official ruling) omitted — could add with court/news source.
+- MT-2: Troy Downing committee list conflicts (house.gov Natural Resources vs Ballotpedia Small Business).
+- NC-2: Independent Brian McGinnis on ballot per Ballotpedia, no entry.
+- NC-13: Anthony Aguilar listed withdrawn, still in file.
+- NJ-2: Zack Mullock currentRole says still on Cape May council; NJ Globe suggests mayor only since 2021.
+- NJ-6: Pallone summary 'chaired Energy and Commerce 2019–2023' — official bio only supports 2021–22; verify.
+- NE-3: Macey Budke ballot designation differs (Working People Party vs nonpartisan write-in; FEC 'Withdrew').
+- NJ-12: Winston Jordan listed 'No Party Affiliation'; Ballotpedia shows 'Get Money Out Party' line.
+- NV-1: Bobby Khan conviction sourced to Casino.org only (DOJ release found via search but page didn't render); consider replacing with DOJ/court source.
+- NY-13: Candace Niles (Voice Party) still on Ballotpedia general list though context says withdrew; context primary % may be transposed.
+- NY-25: Morelle 1991 disorderly-conduct conviction (Wikipedia only) omitted.
+- NY-14: note says no FEC filings for Hysenaj; may be stale (check FEC).
+- HIGH: OH-3 Cleophus Dulaney — Feb 2024 Jan. 6 charges (Dispatch/WSYX fetched by agent); disposition (likely Jan 20, 2025 clemency) unsourced → omitted. Add with outcome source?
+- HIGH: OH-7 Max Miller — July–Aug 2026 abuse allegations by ex-wife (Wikipedia/Ballotpedia only) → omitted; add with fetched news + his response?
+- OR-2: Bentz record item says state senator 2019-2020 and lists a 118th subcommittee name; official bio says appointed to Senate 2018 — verify record.
+- OH-15: Samuel Ronan's 2026 primary was disqualified per agent; Josephson also listed — check who is on Nov ballot.
+- Many minor candidates have 2026 surveys now but no positions/priorities (e.g. OH-12 Christian, OH-13 Dixit, OH-14 Jukic) — possible follow-up positions pass.
+- SC-5: Wikipedia says Wes Climer resigned from state Senate effective Nov 3, 2026 (unverified).
+- RI-2: Victor Mellor's dropped domestic-violence charges (Ocean State Media/ProJo) omitted; his website DNS fails (removed).
+- TN-4: DesJarlais 2013 Tennessee Board of Medical Examiners reprimand (official finding; only seen via Wikipedia) omitted — could add with board/news source. Ralph Bristol (write-in) missing.
+- HIGH: TX-14 Thurman Bill Bartie — 2002 Texas Supreme Court suspension as JP (txcourts.gov Misc. Docket 02-9138) and 2004 Judicial Conduct Commission opinion; final disposition not loaded → omitted. Official record, should be added.
+- UT-3: Ayden Scott on general ballot per Ballotpedia, no entry.
+- HIGH: WI-6 Matthew Arndt — arrested Oct 8, 2026, charged Oct 13 with misdemeanor disorderly conduct (hate-crime enhancer) per WTMJ/WISN/JS via Ballotpedia; omitted pending fetched news source.
+- WI-3: Rebecca Cooke currentRole 'Small business owner' — her store closed 2022 per Wikipedia; consider rewording.
+- NY SD-28 Alina Bonsell: website field removed (was a Ballotpedia URL); Ballotpedia lists a campaign site but the URL wasn't found.
+- NY SD-27 Jason Murillo: Ballotpedia lists a campaign website not yet checked/added.
+- NY Governor: Ballotpedia lists Hochul's Working Families line with a different LG running mate (Joshua Goldfein) and Blakeman on R/Conservative/Vote Affordable lines; check the ballot lines and running mates in ny-gov.json.
+- NY AD-42 Herman Hall: biography items rest on Ballotpedia linking hermanghall.com (a Grenada-born journalist/publisher of EVERYBODY'S magazine); the site never mentions the Assembly race. Confirm identity or remove s13 items.
+- NY AD-43 Anna Shpilkovskaya: Ballotpedia tags her "Disqualified, 2026" while page text says she's on the November ballot — check ballot status.
+- NY AD-55 Walker record: "Sponsored New York's 2019 bail reform law" — confirm sponsorship wording against the bill record.
+- NY AD-52 Brett Wynkoop: an education/employer item cites a Branch candidate profile (aggregator, pre-existing s14); find a firmer source or remove.
+- NY AD-71 Al Taylor: website https://www.altaylor.org/ does not load (connection fails); confirm or remove.
+- NY AD-65 Illapa Sairitupac: bio uses "he" (Ballotpedia, City & State 2026); a 2022 profile described Sairitupac as non-binary — confirm pronouns with the campaign.
+- NY AD-79 Emmanuel Findlay Jr.: 2025 City Council run (Ballotpedia) conflicts with an aggregator calling this his first run; recheck against NYC BOE.
+- NY AD-86 Republican primary: context says Diaz 57.5%-35.8% (Ballotpedia); Wikipedia reportedly has 59.2%-36.9% — re-check against NYC BOE. Olivo's campaign site carries injected spam gambling text.

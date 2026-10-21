@@ -11,50 +11,100 @@
   "context": [
     {
       "text": "This is an open seat: incumbent Stefani Zinerman did not win renomination. In the June 23, 2026 Democratic primary, Eon Tyrell Huntley defeated Zinerman and Michael Bailey with 58.3% of the vote. The Republican primary was canceled with no candidate advancing, and Huntley also advanced from the Working Families Party primary without appearing on the ballot, leaving him unopposed in the November 3 general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "eon-tyrell-huntley",
       "name": "Eon Tyrell Huntley",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 23, 2026 Democratic primary, defeating incumbent Stefani Zinerman",
       "summary": {
-        "text": "Eon Tyrell Huntley is a retail worker, former PTA president, and democratic socialist running for the open Assembly District 56 seat. He defeated incumbent Stefani Zinerman in the June 2026 Democratic primary and is unopposed in the November general election.",
-        "sources": ["s1", "s2"]
+        "text": "Eon Tyrell Huntley describes himself as a father, retail worker, lifelong Brooklynite, democratic socialist and three-term PTA president. He ran unsuccessfully in the 2024 Democratic primary for Assembly District 56, then defeated incumbent Stefani Zinerman in the June 23, 2026 Democratic primary and is unopposed in the November general election. His campaign website lists universal childcare, a rent freeze and expanded rent controls among his priorities.",
+        "sources": [
+          "s2",
+          "s4"
+        ]
       },
       "background": [
         {
-          "text": "Huntley grew up in East New York and in NYCHA's Pink Houses; his father immigrated from Guyana and his mother is a second-generation Brooklynite.",
-          "sources": ["s2"]
+          "text": "According to his Ballotpedia Candidate Connection survey and campaign website, Huntley grew up in East New York and in NYCHA's Pink Houses; his father immigrated from Guyana and his mother is a second-generation Brooklynite.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
         },
         {
-          "text": "He attended New York City public schools and the Parsons School of Design before working as a fashion designer and, currently, a retail clothing salesman.",
-          "sources": ["s2"]
+          "text": "Ballotpedia lists a high school diploma from the High School of Art and Design and a bachelor's degree from the Parsons School of Design in 2006. He also says he attended New York City public schools.",
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "As a member of the bargaining committee for Workers United Local 340, he fought for and won healthcare coverage for fellow workers.",
-          "sources": ["s2"]
+          "text": "He describes working as a fashion designer and, currently, a retail clothing salesman; Ballotpedia lists his profession as retail.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
         },
         {
-          "text": "He served three terms as PTA president at his daughters' school and co-founded a mobile food pantry that fed hundreds of Brooklyn residents during the COVID-19 pandemic. He has lived in Bedford-Stuyvesant for 19 years with his wife Rebecca, a public school teacher.",
-          "sources": ["s2"]
+          "text": "He says that as a member of the bargaining committee for Workers United Local 340, he fought for and won healthcare coverage for fellow workers.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "He says he served three terms as PTA president at his daughters' school and co-founded a mobile food pantry that fed hundreds of Brooklyn residents each month during the COVID-19 pandemic.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Huntley ran in the June 25, 2024 Democratic primary for Assembly District 56 and lost to incumbent Stefani Zinerman, 46.9% to 52.8%.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "On June 23, 2026 he defeated Zinerman and a third candidate, Michael Bailey, in the Democratic primary with 58.3% of the vote, and he also advanced on the Working Families Party line after that party's primary was canceled.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "In his survey he says he has lived in Bedford-Stuyvesant for 19 years with his wife Rebecca, a public school teacher.",
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"We must pass the Universal Child Care Act to guarantee the best possible start for every child. This act will invest in building out our state's childcare infrastructure and put us on the path toward a truly universal system, where every family in our state has quality care, nobody gets priced or means-tested out, and childcare workers are treated with dignity and compensated generously.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "\"Housing is a human right... Eon supports Mayor Mamdani's rent freeze and wants to expand tenant protections and freeze rents across New York State. He believes in decommodifying housing, standing up to bad landlords, and dramatically increasing funding for NYCHA,\" including support for Assemblymember Gallagher's plan to create a Social Housing Development Authority.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "\"Eon believes an injury to one is an injury to all... he has always advocated for severing all ties between New York State and ICE, including a moratorium on immigrant detention facilities in our state.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -63,42 +113,54 @@
           "stance": "supports",
           "summary": "Backs passing the Universal Child Care Act to build out state childcare infrastructure so care is not priced- or means-tested and childcare workers are paid fairly.",
           "quote": "We must pass the Universal Child Care Act to guarantee the best possible start for every child.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Supports Mayor Mamdani's rent freeze, wants to expand tenant protections and freeze rents statewide, and opposes housing being treated as a commodity.",
           "quote": "Eon supports Mayor Mamdani's rent freeze and wants to expand tenant protections and freeze rents across New York State.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Advocates severing all ties between New York State and ICE, including a moratorium on immigrant detention facilities in the state.",
           "quote": "he has always advocated for severing all ties between New York State and ICE, including a moratorium on immigrant detention facilities in our state",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "His campaign platform calls for guaranteeing free health care for all New Yorkers.",
           "quote": "Guarantee free healthcare & reproductive rights for all New Yorkers.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "His campaign platform calls for a Green New Deal for New York and opposition to new fossil-fuel infrastructure.",
           "quote": "Fight for a Green New Deal for New York, oppose new fossil-fuel infrastructure, and fund climate resilience.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "His campaign platform calls for a $30 per hour state minimum wage.",
           "quote": "Stand with workers, protect union rights, and fight for a $30/hr state minimum wage.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -130,8 +192,15 @@
       "publisher": "Eon Huntley for Assembly campaign website",
       "kind": "candidate",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "kind": "candidate",
+      "title": "Eon Huntley for Assembly — campaign website",
+      "url": "https://eonforassembly.com/",
+      "publisher": "Eon Huntley for Assembly"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Huntley is unopposed on the Nov 3, 2026 general-election ballot. He has not held elected office, so there is no official voting or bill-sponsorship record. Priorities and positions are drawn from his Ballotpedia Candidate Connection survey response (submitted September 5, 2026), which is his own account of his platform; a separate campaign website (eonforassembly.com) largely repeats the same language."
+  "researchNotes": "Huntley is unopposed on the Nov 3, 2026 general-election ballot. He has not held elected office, so there is no official voting or bill-sponsorship record. Priorities and positions are drawn from his Ballotpedia Candidate Connection survey response (submitted September 5, 2026), which is his own account of his platform; a separate campaign website (eonforassembly.com) largely repeats the same language. Huntley's biography is drawn from his own Candidate Connection survey and campaign website (self-described); no independent news profile was used."
 }
