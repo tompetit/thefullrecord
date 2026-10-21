@@ -98,3 +98,7 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - beau-bayh: "infantry officer" cited to Ballotpedia but not found on the fetched pages — verify.
 - Source titles written by agents (not page titles): Nevada Legislature/gov.nv.gov/Nevada Independent sources in batch 104 bios, thomas-sullivan campaign site.
 - paul-nichols: "worked for several Southeast Queens elected officials" not found on re-read of the Queens Chronicle article — verify.
+- norman-ramsay: bio includes his own statement (Canarsie Courier) about a turning point while incarcerated — self-disclosed, review wording.
+- victor-marx: Colorado Sun sentence ("extraordinary, albeit mostly unprovable") kept on the existing citation; page was rate-limited on re-check.
+- sean-vadney: lost the June 30 Libertarian primary to Alex Astley but was selected to replace him (Ballotpedia; SOS list) — confirm.
+- samantha-kattan: Queens Ledger s4 retitled to the live headline.
