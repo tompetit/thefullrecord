@@ -11,54 +11,111 @@
   "context": [
     {
       "text": "Uncontested race. Incumbent George Alvarez advanced from the Democratic and Working Families Party primaries unopposed; no Republican candidate qualified for the general-election ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "george-alvarez",
       "name": "George Alvarez",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": true,
       "currentRole": "NY State Assembly Member, District 78 (since 2023)",
       "summary": {
-        "text": "George Alvarez is the unopposed Democratic and Working Families Party incumbent seeking re-election to a third term. Born in the Dominican Republic and a Bronx resident, he sits on the Cities, Codes, Consumer Affairs and Protection, Labor, Real Property Taxation and Transportation committees, and campaigns on affordable housing, public safety, racial justice and economic growth for the Bronx.",
-        "sources": ["s1", "s2"]
+        "text": "George Alvarez is the unopposed Democratic and Working Families Party incumbent for Assembly District 78 in the Bronx, seeking a third term. Born in the Dominican Republic, he was educated there and in Madrid, Spain, and describes himself as a local entrepreneur and job creator. He first won the seat in 2022, defeating the incumbent in the Democratic primary, and his campaign website cites affordable housing, public safety, racial justice and economic growth.",
+        "sources": [
+          "s2",
+          "s4",
+          "s7"
+        ]
       },
       "background": [
         {
-          "text": "Born in the Dominican Republic; describes himself as growing up in a single-parent, modest-income household.",
-          "sources": ["s2"]
+          "text": "Born in the Dominican Republic; his official biography describes a modest upbringing in a single-parent home.",
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "Earned a bachelor's degree in computer science in the Dominican Republic and a master's degree in logistics in Madrid, Spain, plus a Harvard certification in cybersecurity.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree in computer science at a university in the Dominican Republic and a master's degree in logistics in Madrid, Spain, plus a Harvard certification in cybersecurity, according to his official biography.",
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "Worked as a Bronx community activist on jobs, housing and social justice issues before serving as a member of Bronx Community Board 1.",
-          "sources": ["s2"]
+          "text": "Describes himself as a successful local entrepreneur and job creator and as a longtime Bronx resident who worked as an activist on jobs, housing and social justice.",
+          "sources": [
+            "s2",
+            "s3",
+            "s8"
+          ]
         },
         {
-          "text": "A local entrepreneur and job creator prior to his 2022 election to the Assembly.",
-          "sources": ["s2", "s3"]
+          "text": "Served as a member of Bronx Community Board 1, according to his official Assembly biography.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Ran for the Assembly District 79 seat in the June 2020 Democratic primary, finishing third with 21.6% of the vote; Chantel Jackson won that primary.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Won the June 28, 2022 Democratic primary for Assembly District 78, defeating incumbent Jose Rivera and Emmanuel Martinez (47.1% to 28.1% and 24.2%), then won the November 2022 general election with 80.8% over Republican Michael Dister.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Re-elected on November 5, 2024 with 73.3% of the vote (17,254 votes) over Republican and Conservative Party candidate John Santiago.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Committee assignments: Cities, Codes, Consumer Affairs and Protection, Labor, Real Property Taxation and Transportation; also a member of the Black, Puerto Rican, Hispanic & Asian Legislative Caucus and the Task Forces on Food, Farm & Nutrition Policy and on New Americans, and the Puerto Rican/Hispanic Task Force.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "According to his campaign website, in office he has secured $3 million for housing upgrades at Keith Plaza and $50,000 for the Kelly Towers Senior Center, and worked with Governor Hochul on a $140 million investment in St. Barnabas Hospital.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Quality, affordable housing: says he works to increase accessibility to public housing while decreasing its cost.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Lowering costs and increasing employment for working families struggling with rent, healthcare and food costs.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Public safety: says he is introducing legislation so New Yorkers can live, work and travel with greater peace of mind.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Education and accessible healthcare.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -67,25 +124,33 @@
           "stance": "supports",
           "summary": "Says housing is a human right and that he works to increase accessibility to public housing while decreasing its cost.",
           "quote": "Housing is a human right. That's why I am on a mission to increase accessibility to public housing while actively decreasing it's cost.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "Assembly committee assignments for 2025-2026: Cities, Codes, Consumer Affairs and Protection, Labor, Real Property Taxation, and Transportation.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Announced $3 million in capital funding for Keith Plaza and $50,000 for Kelly Tower's senior center in his district.",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Introduced the \"Bodega Act,\" legislation intended to boost safety in New York City corner stores, according to his campaign's own account of Bronx Times coverage.",
           "date": "2025-05-20",
           "kind": "bill",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "website": "https://www.georgealvarez.org/",
@@ -129,8 +194,30 @@
       "publisher": "George Alvarez for NY",
       "kind": "candidate",
       "date": "2025-05-20"
+    },
+    {
+      "id": "s6",
+      "url": "https://nyassembly.gov/mem/George-Alvarez/comm/",
+      "title": "Assemblymember George Alvarez — Committee Membership",
+      "publisher": "New York State Assembly",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/George_Alvarez",
+      "title": "George Alvarez",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.georgealvarez.org/about",
+      "title": "About — George Alvarez",
+      "publisher": "George Alvarez for NY",
+      "kind": "candidate",
+      "date": "2026"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No opposing candidate qualified for the November 3, 2026 general-election ballot in this district. Alvarez has not completed Ballotpedia's Candidate Connection survey; positions and the Bodega Act item rely on his own campaign site rather than an independent news article or bill-text link, since the underlying news article URL and exact bill number could not be independently located."
+  "researchNotes": "No opposing candidate qualified for the November 3, 2026 general-election ballot in this district. Alvarez has not completed Ballotpedia's Candidate Connection survey; positions and the Bodega Act item rely on his own campaign site rather than an independent news article or bill-text link, since the underlying news article URL and exact bill number could not be independently located. Biography details come from his official Assembly page, campaign site and Ballotpedia; no independent news profile was loaded."
 }
