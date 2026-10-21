@@ -65,6 +65,7 @@ Targets:
 - Every background item and the summary cite ≥1 source id that you (or a prior
   agent) actually loaded and that contains the fact. Never cite a homepage for a
   fact that lives on a subpage. Never invent a URL, date, degree, or employer.
+- `researchNotes` is shown to readers: never put unverified claims there ("Wikipedia reports X, not confirmed"). Put such leads in your final reply instead.
 - If two sources disagree (e.g. on a year), use the official one or omit the detail.
 - Self-described claims from a candidate's own materials are attributed:
   "According to his campaign website, ..." / "Describes herself as ...".
