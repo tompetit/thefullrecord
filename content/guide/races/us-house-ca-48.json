@@ -11,47 +11,105 @@
   "context": [
     {
       "text": "This is an open seat: incumbent Darrell Issa (R) is not seeking re-election. Democrat Marni von Wilpert and Republican Jim Desmond advanced from the June 2, 2026 top-two primary. Desmond and fellow Republican Kevin O'Neil combined for 48% of the primary vote, while nine Democratic candidates combined for 51%. Times of San Diego reporter Andrew Keatts described the race as among the most-watched in the nation, saying it could help determine partisan control of the House.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "marni-von-wilpert",
       "name": "Marni von Wilpert",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the June 2, 2026 top-two primary, one of nine Democratic candidates who together took 51% of the primary vote.",
       "currentRole": "San Diego City Council member, District 5 (since 2020)",
       "summary": {
-        "text": "Marni von Wilpert is the Democratic candidate for the open 48th District seat. She is a member of the San Diego City Council representing District 5 and previously worked as a labor attorney in the Obama administration and as a San Diego deputy city attorney.",
-        "sources": ["s1"]
+        "text": "Marni von Wilpert is the Democratic candidate for the open 48th District seat. She is a member of the San Diego City Council representing District 5 and previously worked as a labor attorney, a House committee counsel and a San Diego deputy city attorney. Her campaign website emphasizes costs, housing, health care and opposition to the Trump administration's immigration enforcement.",
+        "sources": [
+          "s1",
+          "s2",
+          "s5",
+          "s6"
+        ]
       },
       "background": [
         {
-          "text": "Has served on the San Diego City Council representing District 5 since December 2020.",
-          "sources": ["s1"]
+          "text": "According to her campaign website, she grew up in North San Diego County in a military family; her father immigrated to the United States and served in the Army.",
+          "sources": [
+            "s5"
+          ]
         },
         {
-          "text": "Worked as a deputy city attorney for San Diego, where her campaign says she took on the opioid industry over harm caused to communities.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree in peace and conflict studies from UC Berkeley and a J.D. from Fordham University School of Law.",
+          "sources": [
+            "s6"
+          ]
         },
         {
-          "text": "Worked as a labor attorney in the Obama administration, according to her campaign; her father is an immigrant who served in the U.S. Army.",
-          "sources": ["s2"]
+          "text": "Served as a Peace Corps volunteer in Botswana and, after law school, founded a legal clinic in the Deep South associated with the Mississippi Center for Justice.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Worked as an attorney for the National Labor Relations Board and as counsel on the House Education and Labor Committee, where, according to her campaign, she helped write the PRO Act; she later joined the Economic Policy Institute as associate labor counsel.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Served as a San Diego deputy city attorney from 2018 to 2020; her campaign says she took on the opioid industry, price gougers and polluters in that role.",
+          "sources": [
+            "s2",
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Elected to the San Diego City Council in 2020, defeating Joe Leventhal, and took office in December 2020; she was re-elected without opposition in March 2024.",
+          "sources": [
+            "s1",
+            "s6"
+          ]
+        },
+        {
+          "text": "On the City Council she chairs the Public Safety Committee, according to her campaign, and was appointed to the San Diego County Regional Airport Authority board; she co-sponsored the ordinance making San Diego the first city to require stores to honor digital-only coupons in-store.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Filed to run for the California State Senate in 2026, then instead ran for the 48th Congressional District and advanced from the June 2 primary.",
+          "sources": [
+            "s1",
+            "s6"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Opposing ICE enforcement tactics she describes as overreach, while supporting border security and legal pathways to citizenship.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Protecting the Affordable Care Act and Social Security, and expanding Medicare's power to negotiate drug prices.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Banning members of Congress from stock trading and opposing the influence of corporate donors in politics.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -59,19 +117,25 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says she will fight to protect and expand the Affordable Care Act, restore ACA tax credits, and add a public option, while expanding Medicare's power to negotiate prescription drug prices.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "mixed",
           "summary": "Says she opposes ICE tactics she calls unconstitutional overreach while supporting measures that keep borders secure and provide legal pathways to citizenship for long-term residents and Dreamers.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Says she will fight against what she calls Donald Trump's tariff war, which she says has made essential goods more expensive.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],
@@ -81,32 +145,88 @@
     {
       "id": "jim-desmond",
       "name": "Jim Desmond",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the June 2, 2026 top-two primary as the leading Republican candidate.",
       "currentRole": "San Diego County Supervisor, District 5",
       "summary": {
-        "text": "Jim Desmond is the Republican candidate for the open 48th District seat. He is a San Diego County supervisor and U.S. Navy veteran.",
-        "sources": ["s3"]
+        "text": "Jim Desmond is the Republican candidate for the open 48th District seat. He is a San Diego County supervisor, a former mayor of San Marcos, a U.S. Navy veteran and a retired Delta Air Lines pilot. He initially launched a campaign in the 49th District before running in the 48th after Rep. Darrell Issa announced he would not seek re-election, and says he is running on affordability, homelessness treatment and border security.",
+        "sources": [
+          "s1",
+          "s3",
+          "s4",
+          "s7"
+        ]
       },
       "background": [
         {
-          "text": "Born in Illinois; served in the U.S. Navy and earned a bachelor's degree from San Diego State University.",
-          "sources": ["s3"]
+          "text": "Born in Illinois.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Serves as a San Diego County supervisor.",
-          "sources": ["s1"]
+          "text": "Served in the U.S. Navy as an aircraft electrician from 1974 to 1979, then earned a pilot's license.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
+        },
+        {
+          "text": "Graduated from San Diego State University with a bachelor's degree in electrical engineering in 1985, and founded a technical writing company, Technical Standards, Inc.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
+        },
+        {
+          "text": "Worked as a pilot for Delta Air Lines from 1986 to 2020, flying Boeing 757 and 767 aircraft, and retired early in 2020; he describes himself as a retired Delta pilot.",
+          "sources": [
+            "s4",
+            "s7"
+          ]
+        },
+        {
+          "text": "Served on the San Marcos City Council from 2004 to 2006 and was elected mayor of San Marcos in 2006, winning re-election unopposed in 2010 and 2014.",
+          "sources": [
+            "s1",
+            "s7"
+          ]
+        },
+        {
+          "text": "Won the District 5 seat on the San Diego County Board of Supervisors in 2018 and took office in January 2019; he was re-elected in 2022 with 60.1% of the vote.",
+          "sources": [
+            "s1",
+            "s7"
+          ]
+        },
+        {
+          "text": "Launched a 2025 campaign against Rep. Mike Levin in the 49th District, then in 2026 announced a run for the 48th District after redistricting under Proposition 50; Rep. Darrell Issa, who is not seeking re-election, endorsed him.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "According to Wikipedia, he is married with two children and lived in Oceanside as of 2022.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lowering the cost of living in California by cutting taxes, reducing regulation and easing insurance and energy costs.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Addressing homelessness through treatment-first programs for addiction and mental illness rather than temporary shelters alone.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [],
@@ -143,8 +263,29 @@
       "title": "Jim Desmond campaign website, quoted on Ballotpedia",
       "publisher": "Jim Desmond for Congress (via Ballotpedia)",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.marnivonwilpert.com/about",
+      "title": "About",
+      "publisher": "Marni von Wilpert for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://en.wikipedia.org/wiki/Marni_von_Wilpert",
+      "title": "Marni von Wilpert",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s7",
+      "url": "https://en.wikipedia.org/wiki/Jim_Desmond",
+      "title": "Jim Desmond",
+      "publisher": "Wikipedia",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Basic-tier research from Ballotpedia and campaign-site material. Both candidates are non-incumbents for this open seat, so no key-votes/FEC augmentation applies to prior House service; Jim Desmond's current-office details beyond county supervisor were not further verified."
+  "researchNotes": "Basic-tier research from Ballotpedia and campaign-site material. Both candidates are non-incumbents for this open seat, so no key-votes/FEC augmentation applies to prior House service; Jim Desmond's current-office details beyond county supervisor were not further verified. Biographies expanded 2026-10-21; neither candidate's official legislative or council bio page could be loaded, so Wikipedia and campaign pages supply some details; Desmond's mayoral end date is omitted because sources conflict."
 }
