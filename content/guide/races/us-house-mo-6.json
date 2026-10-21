@@ -30,8 +30,8 @@
         "sources": [
           "s1",
           "s2",
-          "s4",
-          "s6"
+          "s8",
+          "s10"
         ]
       },
       "background": [
@@ -39,56 +39,56 @@
           "text": "Born January 5, 1977, in Richmond, Missouri (Ray County); according to his campaign website, his family later moved to Clay County, where he attended North Kansas City schools and graduated from Oak Park High School.",
           "sources": [
             "s2",
-            "s4",
-            "s9"
+            "s8",
+            "s13"
           ]
         },
         {
           "text": "Earned a degree in broadcasting from Northwest Missouri State University, where he covered news for KXCV/KRNW, according to his campaign website.",
           "sources": [
             "s2",
-            "s4"
+            "s8"
           ]
         },
         {
           "text": "Began in conservative talk radio in the early 2000s, then briefly served as a field representative and deputy communications director in Rep. Sam Graves's office before returning to radio on KCMO in Kansas City in 2006.",
           "sources": [
             "s2",
-            "s4"
+            "s8"
           ]
         },
         {
           "text": "According to Wikipedia, hosted the morning show on WPHT in Philadelphia from 2011 to 2019 and launched a nationally syndicated morning show on the Salem Radio Network in January 2025; his career as a radio host has centered on conservative politics.",
           "sources": [
-            "s6",
-            "s9"
+            "s10",
+            "s13"
           ]
         },
         {
           "text": "According to his campaign website, he has received the Phyllis Schlafly Truth in Journalism Award and the Clay County Republican Central Committee's Man of the Year award, and served as a board member of Liberty USO.",
           "sources": [
-            "s4"
+            "s8"
           ]
         },
         {
           "text": "Entered the 2026 race for the open 6th District seat after Rep. Sam Graves, who has held it since 2001, announced he would not seek reelection; Graves endorsed him, and he won the August 4, 2026 Republican primary over Kansas City Council member Nathan Willett.",
           "sources": [
-            "s5",
-            "s6",
-            "s9"
+            "s9",
+            "s10",
+            "s13"
           ]
         },
         {
           "text": "KCUR reports he has not held elected office and has said he would not hold the seat as long as Graves did; President Trump has called him a \"great friend\" but, as of KCUR's guide, had not made an official endorsement.",
           "sources": [
-            "s5",
-            "s6"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "According to his campaign website, he and his wife Christine, who have three children, live in Holt, Missouri, attend Kearney First Baptist Church, and support school choice through the Herzog Foundation.",
           "sources": [
-            "s4"
+            "s8"
           ]
         }
       ],
@@ -106,23 +106,7 @@
           "stance": "opposes",
           "summary": "Says the Second Amendment \"is not negotiable\" and he will oppose efforts to restrict gun rights through federal overreach.",
           "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Says he is \"proudly pro-life\" and will oppose taxpayer funding for abortion while supporting efforts to protect \"innocent life,\" though he notes abortion policy is increasingly decided at the state level.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supports making President Trump's tax cuts permanent and opposes raising taxes on families, farmers and small businesses.",
-          "sources": [
-            "s2"
+            "s6"
           ]
         },
         {
@@ -130,15 +114,17 @@
           "stance": "supports",
           "summary": "Supports securing the border, finishing the border wall, ending catch-and-release policies, deporting people with criminal records who are in the country illegally, and the SAVE Act's citizenship voting requirement.",
           "sources": [
-            "s2"
+            "s6"
           ]
         },
         {
-          "issue": "tariffs",
-          "stance": "mixed",
-          "summary": "Supports President Trump's efforts to expand market access and strengthen domestic food production for farmers, without a direct statement on general tariff policy.",
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Supports the SAVE Act, which requires proof of U.S. citizenship to register for federal elections.",
+          "quote": "I also support the SAVE Act to ensure only American citizens can vote in federal elections.",
           "sources": [
-            "s2"
+            "s6",
+            "s7"
           ]
         }
       ],
@@ -159,7 +145,7 @@
         "sources": [
           "s1",
           "s3",
-          "s6"
+          "s10"
         ]
       },
       "background": [
@@ -184,15 +170,15 @@
         {
           "text": "Won the Democratic primary for the 6th District on August 4, 2026; KCUR reports he has not previously held office.",
           "sources": [
-            "s5",
-            "s6"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "Told St. Louis Public Radio that he decided to run in large part to help Democrats take back the U.S. House; KCUR notes the last time a Democrat held the seat was in 2001, under a different district configuration.",
           "sources": [
-            "s5",
-            "s6"
+            "s9",
+            "s10"
           ]
         }
       ],
@@ -216,7 +202,70 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Platform calls to eliminate ICE and to develop a humane legal immigration enforcement system separate from the Department of Homeland Security.",
+          "quote": "Eliminate ICE and any use of the military to illegally arrest, detain and/or deport",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Platform calls to stop the sweeping tariffs imposed by the administration.",
+          "quote": "Stop the sweeping, erratic tariffs that raise the cost of imported goods and services",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Platform calls for reversing the Republican tax cuts for the wealthy.",
+          "quote": "Reverse the Republicans' huge tax cuts to the wealthy",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Platform backs keeping and enforcing background checks, documenting gun sales and registration requirements for 3D-printed guns, alongside funding gun-violence research.",
+          "quote": "Keep and enforce background checks",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Platform calls to stop Missouri's Amendment 3 on the November ballot, which it says will prevent reproductive freedom.",
+          "quote": "Stop Amendment 3 in November as it will prevent reproductive freedom",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Platform supports moving to a universal healthcare system and retaining Medicaid, Medicare and SNAP.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Told St. Louis Public Radio he would have voted to curtail the President's ability to use military force in Iran; his platform calls to stop the Iran war.",
+          "sources": [
+            "s5",
+            "s4"
+          ]
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
       "researchNotes": "No prior elected office; positions drawn from his 2025 Ballotpedia Candidate Connection survey."
@@ -233,51 +282,91 @@
         "text": "Andy Maidment is the Libertarian Party nominee for the open Missouri 6th District seat. A military veteran and information technology professional, he describes himself as not a politician and is campaigning on limiting the federal government.",
         "sources": [
           "s1",
-          "s6",
-          "s7"
+          "s10",
+          "s11"
         ]
       },
       "background": [
         {
           "text": "Born in West Columbia, South Carolina; according to his campaign website, he has lived in Missouri since age twelve, and Ballotpedia lists Park Hill High School as his high school.",
           "sources": [
-            "s7",
-            "s8"
+            "s11",
+            "s12"
           ]
         },
         {
           "text": "Earned a bachelor's degree in history, with a minor in economics according to his campaign website, from Missouri State University in 2007.",
           "sources": [
-            "s7",
-            "s8"
+            "s11",
+            "s12"
           ]
         },
         {
           "text": "Served in the U.S. Army from 2000 to 2004 and the U.S. Army National Guard from 2004 to 2021, according to Ballotpedia; his campaign website cites 21 years of service in the Army and Missouri National Guard.",
           "sources": [
-            "s7",
-            "s8"
+            "s11",
+            "s12"
           ]
         },
         {
           "text": "Works as an information technology and cybersecurity professional, and describes himself as a father.",
           "sources": [
-            "s7",
-            "s8"
+            "s11",
+            "s12"
           ]
         },
         {
           "text": "Ran as the Libertarian candidate for the 6th District in 2022 and 2024, losing to Rep. Sam Graves both times.",
           "sources": [
-            "s8"
+            "s12"
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Limited government: says he would eliminate federal departments he says have no constitutional basis, starting with Education, Commerce and Homeland Security.",
+          "quote": "Eliminate Federal departments which have no Constitutional basis to exist starting with Education, Commerce, and Homeland Security.",
+          "sources": [
+            "ma1"
+          ]
+        },
+        {
+          "text": "Reducing the role of the IRS: says he wants to make the IRS headquarters \"unimportant\".",
+          "quote": "Let us make this building, IRS headquarters, unimportant.",
+          "sources": [
+            "ma1"
+          ]
+        },
+        {
+          "text": "Peace and prosperity: calls for bringing U.S. troops home.",
+          "quote": "Bring our troops home so we can have peaceful and productive relationships.",
+          "sources": [
+            "ma1"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or other public statements of positions found."
+      "researchDepth": "basic",
+      "researchNotes": "Positions come from the Issues page of his campaign website. Stances on abortion, immigration, health care and other listed issues were not found.",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Extend our right to keep and bear arms so we can protect ourselves and our other rights.",
+          "context": "On his campaign website",
+          "sources": [
+            "ma1"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "taxation is theft.",
+          "context": "On his campaign website",
+          "sources": [
+            "ma1"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -307,6 +396,45 @@
     },
     {
       "id": "s4",
+      "url": "https://votesmead.com/the-plan/",
+      "title": "The Plan",
+      "publisher": "Josh Smead for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.stlpr.org/podcast/politically-speaking/2026-09-02/democrat-josh-smead-believes-missouris-6th-district-is-undergoing-political-shift",
+      "title": "Democrat Josh Smead believes Missouri's 6th District is undergoing political shift",
+      "publisher": "St. Louis Public Radio",
+      "kind": "news",
+      "date": "2026-09-02"
+    },
+    {
+      "id": "s6",
+      "url": "https://stigallforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Chris Stigall for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://theharrumphsociety.substack.com/p/save-the-country-pass-the-save-act",
+      "title": "Save the Country. Pass the SAVE Act.",
+      "publisher": "The Harrumph Society (Chris Stigall)",
+      "kind": "candidate",
+      "date": "2026-01-21"
+    },
+    {
+      "id": "ma1",
+      "url": "https://maidmentformissouri.com/issues",
+      "title": "Andy Maidment for Missouri's Sixth Congressional District: Issues",
+      "publisher": "Andy Maidment for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
       "url": "https://stigallforcongress.com/",
       "title": "Meet Chris Stigall",
       "publisher": "Chris Stigall for Congress",
@@ -314,7 +442,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s5",
+      "id": "s9",
       "url": "https://www.stlpr.org/government-politics-issues/2026-08-04/republican-chris-stigall-will-face-democrat-josh-smead-in-the-race-for-missouris-6th-district",
       "title": "Republican Chris Stigall will face Democrat Josh Smead in the race for Missouri's 6th District",
       "publisher": "St. Louis Public Radio",
@@ -322,7 +450,7 @@
       "date": "2026-08-04"
     },
     {
-      "id": "s6",
+      "id": "s10",
       "url": "https://www.kcur.org/politics-elections-and-government/2026-10-06/missouri-6th-congressional-district-candidates-voter-guide-stigall-smead-maidment",
       "title": "Missouri 6th Congressional District voter guide: Stigall, Smead, Maidment",
       "publisher": "KCUR 89.3",
@@ -330,7 +458,7 @@
       "date": "2026-10-06"
     },
     {
-      "id": "s7",
+      "id": "s11",
       "url": "https://maidmentformissouri.com/about",
       "title": "About",
       "publisher": "Andy Maidment for Missouri's Sixth Congressional District",
@@ -338,7 +466,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s8",
+      "id": "s12",
       "url": "https://ballotpedia.org/Andy_Maidment",
       "title": "Andy Maidment",
       "publisher": "Ballotpedia",
@@ -346,7 +474,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s9",
+      "id": "s13",
       "url": "https://en.wikipedia.org/wiki/Chris_Stigall",
       "title": "Chris Stigall",
       "publisher": "Wikipedia",

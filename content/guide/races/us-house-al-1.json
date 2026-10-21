@@ -31,8 +31,8 @@
         "sources": [
           "s2",
           "s3",
-          "s8",
-          "s9"
+          "s9",
+          "s10"
         ]
       },
       "background": [
@@ -40,33 +40,33 @@
           "text": "Born in Mobile, Alabama (June 17, 1958); graduated from Sylacauga High School in 1977 and attended Lake City Community College (now Florida Gateway College) before returning to Mobile, according to Wikipedia.",
           "sources": [
             "s2",
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Worked for Alabama Power and as a salesman for several Mobile companies, and in 1989 established Stat Medical, a healthcare equipment business, according to Wikipedia.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "According to his campaign website, started his first company at age 25 and has started more than ten companies, ranging from real estate to healthcare, timber and church-furniture manufacturing. Wikipedia lists Carl and Associates (a management group, 2003) and Cricket and Butterfly, LLC (lumber and timber).",
           "sources": [
             "s2",
-            "s8",
-            "s9"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "Elected to the Mobile County Commission in 2012 after defeating incumbent Mike Dean in the Republican primary; re-elected in 2016 and chosen commission president in 2019, serving until 2020.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Won the 2020 Republican nomination for Alabama's 1st District, vacated by Bradley Byrne, in a runoff against former state senator Bill Hightower, then won the general election with 64.4% against Democrat James Averhart. Re-elected in 2022.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
@@ -78,7 +78,7 @@
         {
           "text": "After the Allen v. Milligan redistricting put him and Rep. Barry Moore in the same district, lost the March 5, 2024 Republican primary to Moore by 3.4 points, according to Wikipedia.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
@@ -90,7 +90,7 @@
         {
           "text": "According to his campaign website, he and his wife, Tina, have been married 44 years and have three children and several grandchildren, and he describes himself as an avid hunter.",
           "sources": [
-            "s9"
+            "s10"
           ]
         }
       ],
@@ -119,15 +119,7 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Campaign website says he worked in Congress to pass border security legislation, including wall funding and more Border Patrol agents, and will continue to prioritize border enforcement.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Describes himself as a lifelong Second Amendment supporter with a 100% rating from Gun Owners of America and a past NRA-Political Victory Fund endorsement.",
+          "summary": "Campaign website, under the heading \"Kick Out Illegals & Build the Wall,\" says he worked in Congress to pass a border security bill including border wall funding and more Border Patrol agents.",
           "sources": [
             "s3"
           ]
@@ -141,19 +133,11 @@
           ]
         },
         {
-          "issue": "police_funding",
+          "issue": "transgender_sports",
           "stance": "supports",
-          "summary": "Says he opposes defunding the police and has been a strong supporter of law enforcement in Congress.",
+          "summary": "As a member of the 118th Congress, cosponsored H.R. 734, the Protection of Women and Girls in Sports Act of 2023, which would recognize sex in school athletics under Title IX based solely on reproductive biology and genetics at birth.",
           "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "israel_aid",
-          "stance": "supports",
-          "summary": "Says he stands with Israel and introduced legislation intended to prevent Iran from developing nuclear weapons.",
-          "sources": [
-            "s3"
+            "s8"
           ]
         }
       ],
@@ -277,7 +261,7 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports expanding Medicaid in Alabama and extending ACA Enhanced Premium Tax Credits, and backs a federal proposal to create a direct federal Medicare-style coverage program for residents of states, including Alabama, that continue to refuse Medicaid expansion.",
-          "quote": "I believe in the expansion of Medicaid, and ACA Enhanced Premium Tax Credits to ease the burden of health care on every day Americans.",
+          "quote": "I believe in the expansion of Medicaid , and ACA Enhanced Premium Tax Credits to ease the burden of health care on every day Americans",
           "sources": [
             "s7"
           ]
@@ -285,7 +269,7 @@
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Supports a path to documentation for undocumented immigrants and says immigration enforcement should not separate families or rely on arrest quotas, while saying secure borders are still important.",
+          "summary": "Supports a path to documentation for undocumented immigrants and says lives and families should not be put on the line to hit arrest quotas, while saying secure borders are important.",
           "quote": "I will fight for real immigration reform — a clear, straightforward path for undocumented people to get documented — because the people doing the work that holds our communities together deserve better than to live in fear. Secure borders are important, but lives and families shouldn't be put on the line to hit arrest quotas.",
           "sources": [
             "s7"
@@ -295,7 +279,25 @@
       "record": [],
       "website": "https://clydeforcongress.com",
       "researchDepth": "basic",
-      "researchNotes": "Ballotpedia's basic biography was supplemented with Clyde Jones's 2026 Candidate Connection survey (completed, contrary to an earlier note that he had not) and his campaign website's Issues page, which supply his background, priorities, and two documented positions here."
+      "researchNotes": "Ballotpedia's basic biography was supplemented with Clyde Jones's 2026 Candidate Connection survey and his campaign website's Issues page. His site discusses a federal minimum wage figure and child care funding but does not state a position on raising the minimum wage or on universal child care, so those appear as statements only.",
+      "statements": [
+        {
+          "issue": "minimum_wage",
+          "quote": "In Baldwin County alone, a single person has to make at least $22 an hour to live here. If that person has a child and needs childcare, the minimum is $27. The federal minimum wage is still $7.25.",
+          "context": "On his campaign website",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Child care is the backbone of our economy, our communities, and our children's future.",
+          "context": "On his campaign website",
+          "sources": [
+            "s7"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -351,7 +353,14 @@
       "kind": "candidate"
     },
     {
-      "id": "s8",
+      "url": "https://www.congress.gov/bill/118th-congress/house-bill/734",
+      "title": "H.R. 734 (118th Congress), Protection of Women and Girls in Sports Act of 2023 (cosponsors)",
+      "publisher": "Congress.gov",
+      "kind": "official",
+      "id": "s8"
+    },
+    {
+      "id": "s9",
       "kind": "reference",
       "url": "https://en.wikipedia.org/wiki/Jerry_Carl",
       "title": "Jerry Carl",
@@ -359,7 +368,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s9",
+      "id": "s10",
       "kind": "candidate",
       "url": "https://jerrycarlforcongress.com/about",
       "title": "About - Jerry Carl for Congress",

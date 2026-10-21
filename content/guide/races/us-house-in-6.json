@@ -30,37 +30,37 @@
         "sources": [
           "s1",
           "s2",
-          "s7",
-          "s9"
+          "s8",
+          "s10"
         ]
       },
       "background": [
         {
           "text": "Born in Indianapolis on September 24, 1965, and raised in the city's University Heights neighborhood.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Earned a bachelor's degree in political science from Indiana University (1989), a master's degree in international studies from the University of London (1998), and an MBA in agribusiness from Purdue University (2003).",
           "sources": [
             "s2",
-            "s7",
-            "s8"
+            "s8",
+            "s9"
           ]
         },
         {
           "text": "According to his House biography, founded the real estate company Storage Express, which grew across about half a dozen states over three decades before he merged it into a New York Stock Exchange-listed national firm; he later served on the board of Extra Space Storage. He also co-owned a software business, e-Tracker, and invested in Illinois basin oil and gas wells and in farm and ranch land.",
           "sources": [
             "s3",
-            "s7"
+            "s8"
           ]
         },
         {
           "text": "Served on the Indianapolis City-County Council from 2013 to 2016 and again from 2018 to 2019; he was appointed to the seat both times and did not seek re-election.",
           "sources": [
             "s2",
-            "s8"
+            "s9"
           ]
         },
         {
@@ -73,28 +73,28 @@
           "text": "Lost the Republican primary for Indiana State Senate District 36 to Jack Sandlin, and was the Republican nominee for Mayor of Indianapolis in 2023, losing the November general election to incumbent Democrat Joe Hogsett.",
           "sources": [
             "s2",
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Won the 2024 Republican primary for the open 6th District seat vacated by Rep. Greg Pence and the November 2024 general election, taking office in January 2025.",
           "sources": [
             "s2",
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Was named to the House Appropriations Committee by the House Steering Committee in 2026; his office describes him as the first Indiana Republican on the committee in thirty years. Ballotpedia lists earlier House assignments to the Transportation and Infrastructure Committee (Aviation; Highways and Transit; Railroads, Pipelines and Hazardous Materials subcommittees) and the Foreign Affairs Committee.",
           "sources": [
             "s2",
-            "s7",
-            "s9"
+            "s8",
+            "s10"
           ]
         },
         {
           "text": "Has served as national chairman of the Indiana University Alumni Association and on the executive committee of the Indiana Chamber of Commerce board and of a regional hospital system board, according to his House biography. He and his wife, Mary, live on Indianapolis's Southside.",
           "sources": [
-            "s7"
+            "s8"
           ]
         }
       ],
@@ -122,26 +122,8 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Supports completing the border wall, ending catch-and-release, and stricter immigration enforcement.",
+          "summary": "Campaign website calls for completing the border wall and ending catch-and-release policies.",
           "quote": "We must complete the border wall, reform our immigration system, end catch-and-release policies, and put an end to the fentanyl trafficking that's flowing over our southern border.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Describes himself as pro-life and says he will work to protect the unborn.",
-          "quote": "I'm a pro-life Catholic. I believe we must do all we can to protect human life. I will work to protect the unborn and the health of expectant mothers.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Supports the Second Amendment and opposes stricter gun-control measures, favoring gun-owner responsibility programs instead.",
-          "quote": "The right to bear arms is enshrined in our U.S. Constitution. I will support the 2nd Amendment in Congress and advocate for policies that promote responsible gun ownership.",
           "sources": [
             "s3"
           ]
@@ -280,15 +262,6 @@
           ]
         },
         {
-          "issue": "rent_regulation",
-          "stance": "supports",
-          "summary": "Opposes investors buying up residences and raising rents, and supports incentives for affordable housing.",
-          "quote": "Right now in Indiana, private investors are buying up residences and jacking up rates beyond what most folks can afford. This is exploitative and needs to stop.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Supports federal investment to create universal, educational childcare programs.",
@@ -296,10 +269,28 @@
           "sources": [
             "s6"
           ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Calls for abolishing ICE and for due process for everyone.",
+          "quote": "calling for the abolishment of ICE",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says tariffs raise prices paid by consumers and should be rolled back.",
+          "quote": "making sure that this tariff madness ends",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [],
-      "website": "https://www.cindeforcongress.com",
+      "website": "https://wirth4congress.com",
       "researchDepth": "basic"
     }
   ],
@@ -348,20 +339,28 @@
     },
     {
       "id": "s7",
+      "url": "https://www.wfyi.org/statewide/2026-09-23/2026-voter-guide-indianas-6th-congressional-district",
+      "title": "2026 Voter Guide: Indiana's 6th Congressional District (candidate interview)",
+      "publisher": "WFYI",
+      "kind": "candidate",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "s8",
       "url": "https://shreve.house.gov/about",
       "title": "Biography",
       "publisher": "Office of Rep. Jefferson Shreve",
       "kind": "official"
     },
     {
-      "id": "s8",
+      "id": "s9",
       "url": "https://en.wikipedia.org/wiki/Jefferson_Shreve",
       "title": "Jefferson Shreve",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s9",
+      "id": "s10",
       "url": "https://shreve.house.gov/media/press-releases/congressman-shreve-selected-serve-house-committee-appropriations",
       "title": "Congressman Shreve Selected to Serve on the House Committee on Appropriations",
       "publisher": "Office of Rep. Jefferson Shreve",

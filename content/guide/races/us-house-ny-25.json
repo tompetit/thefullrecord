@@ -33,7 +33,7 @@
           "s2",
           "s5",
           "s6",
-          "s8"
+          "s12"
         ]
       },
       "background": [
@@ -80,7 +80,7 @@
         {
           "text": "Won the 2018 special election for New York's 25th District after the death of Rep. Louise Slaughter and has represented the district since.",
           "sources": [
-            "s8",
+            "s12",
             "s2"
           ]
         },
@@ -99,7 +99,43 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "His official site says he supports measures to ban assault weapons, enact universal background checks and ban high-capacity magazines.",
+          "quote": "I’m proud to support numerous pieces of legislation to keep families safe from gun violence, including measures to ban assault weapons, enact universal background checks, ban the sale of high-capacity magazines, reduce gun theft and trafficking, and more.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His official site says he is fighting to enshrine the right to reproductive care in federal law.",
+          "quote": "That’s why I’m fighting to enshrine the right to reproductive care into federal law and continue to passionately advocate for women’s health freedom, pay equity, maternal care, and more.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a May 2025 press release, he says he co-sponsored legislation to protect Medicaid from budget cuts and describes proposed Republican cuts as a threat to coverage.",
+          "quote": "This would have devastating consequences on seniors, children, and families who rely on these programs to receive basic healthcare and put food on the table. We must fight back against the Trump Administration’s repeated efforts to undermine the health and well-being of our community, which is why I’m proud to co-sponsor legislation to protect Medicaid and SNAP.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In a March 2026 statement as the top Democrat on the Committee on House Administration, he criticizes a Republican plan to advance the SAVE America Act through reconciliation as an attempt to make it harder for eligible Americans to vote.",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves as ranking member of the House Committee on House Administration (Modernization and Innovation Subcommittee) and the Joint Committee on the Library, and sits on the House Committee on Appropriations (Defense; Commerce, Justice, Science and Related Agencies subcommittees) in the 119th Congress.",
@@ -126,8 +162,8 @@
         "text": "Virginia McIntyre is a Monroe County Legislator from Gates who is the Republican and Conservative nominee. Her Ballotpedia survey describes a background as an educator, entrepreneur, international language professor and interpreter before she joined the county legislature in 2024. She says her campaign is built on fiscal accountability, public safety and government transparency.",
         "sources": [
           "s3",
-          "s9",
-          "s10"
+          "s13",
+          "s14"
         ]
       },
       "background": [
@@ -147,27 +183,27 @@
           "text": "Has represented District 4 of the Monroe County Legislature, covering parts of Gates and Greece, since 2024.",
           "sources": [
             "s3",
-            "s8",
-            "s10"
+            "s12",
+            "s14"
           ]
         },
         {
           "text": "Received the Monroe County Republican Committee's designation for the NY-25 race at its convention in February 2026 and launched her campaign at the Susan B. Anthony House in Rochester.",
           "sources": [
-            "s9",
-            "s10"
+            "s13",
+            "s14"
           ]
         },
         {
           "text": "Ran unopposed for the Republican nomination, according to WHEC.",
           "sources": [
-            "s8"
+            "s12"
           ]
         },
         {
           "text": "Is a Gates resident, according to WXXI.",
           "sources": [
-            "s9"
+            "s13"
           ]
         }
       ],
@@ -193,14 +229,6 @@
         }
       ],
       "positions": [
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supports fiscal accountability, tax relief and responsible government spending rather than higher taxes.",
-          "sources": [
-            "s3"
-          ]
-        },
         {
           "issue": "climate",
           "stance": "opposes",
@@ -281,6 +309,38 @@
     },
     {
       "id": "s8",
+      "url": "https://morelle.house.gov/issues/enacting-common-sense-gun-reform",
+      "title": "Enacting Common Sense Gun Reform — Rep. Joe Morelle",
+      "publisher": "Office of Rep. Joe Morelle (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://morelle.house.gov/issues/protecting-womens-rights",
+      "title": "Protecting Women's Rights — Rep. Joe Morelle",
+      "publisher": "Office of Rep. Joe Morelle (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://morelle.house.gov/media/press-releases/congressman-joe-morelle-stands-medicaid-food-assistance-programs",
+      "title": "Congressman Joe Morelle Stands Up for Medicaid, Food Assistance Programs",
+      "publisher": "Office of Rep. Joe Morelle (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://democrats-cha.house.gov/media/press-releases/morelle-statement-republican-attempt-jam-through-trumps-election-takeover",
+      "title": "Morelle Statement on Republican Attempt to Jam Through Trump’s Election Takeover",
+      "publisher": "Committee on House Administration Democrats (official site)",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s12",
       "url": "https://www.whec.com/?p=1104126",
       "title": "25th District: Rep. Morelle secures Democratic nomination, will face Virginia McIntyre",
       "publisher": "WHEC News10NBC",
@@ -288,7 +348,7 @@
       "date": "2026-06-24"
     },
     {
-      "id": "s9",
+      "id": "s13",
       "url": "https://www.wxxinews.org/local-news/2026-02-12/republicans-back-county-legislator-from-gates-for-congressional-seat",
       "title": "Republicans back county legislator from Gates for congressional seat",
       "publisher": "WXXI News",
@@ -296,7 +356,7 @@
       "date": "2026-02-12"
     },
     {
-      "id": "s10",
+      "id": "s14",
       "url": "https://www.whec.com/top-news/monroe-county-legislator-virginia-mcintyre-enters-race-against-rep-joe-morelle/",
       "title": "Monroe County Legislator Virginia McIntyre enters race against Rep. Joe Morelle",
       "publisher": "WHEC News10NBC",

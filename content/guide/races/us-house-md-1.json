@@ -61,13 +61,27 @@
     },
     {
       "id": "s7",
+      "url": "https://harris.house.gov/issues/economy",
+      "title": "Economy | Congressman Andy Harris",
+      "publisher": "Office of Rep. Andy Harris",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.schwartzforcongress.com/policies",
+      "title": "Dan Schwartz for Congress: Policies",
+      "publisher": "Dan Schwartz for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
       "url": "https://en.wikipedia.org/wiki/Andy_Harris_(politician)",
       "title": "Andy Harris (politician)",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s8",
+      "id": "s10",
       "url": "https://www.thebanner.com/politics-power/state-government/andy-harris-dan-schwartz-maryland-1st-district-6ORPAJOLYJC3NKDWA4VAEYZH2I/",
       "title": "Democrat Dan Schwartz to face GOP's Andy Harris in Maryland's 1st District race",
       "publisher": "The Baltimore Banner",
@@ -75,7 +89,7 @@
       "date": "2026-06-26"
     },
     {
-      "id": "s9",
+      "id": "s11",
       "url": "https://www.somdnews.com/apgstate/schwartz-harris-to-face-off-for-marylands-1st-district-seat-in-congress/article_8d2b6051-6db0-5b8d-a091-4775216a94c4.html",
       "title": "Schwartz, Harris to face off for Maryland's 1st District seat in Congress",
       "publisher": "APG State News (somdnews.com)",
@@ -83,7 +97,7 @@
       "date": "2026-06-26"
     },
     {
-      "id": "s10",
+      "id": "s12",
       "url": "https://www.delmarvapublicmedia.org/local-news/2026-07-29/the-challenge-of-dan-schwartz-in-quest-to-unseat-eastern-shore-incumbent",
       "title": "The Challenge of Dan Schwartz in Quest to Unseat Eastern Shore Incumbent",
       "publisher": "Delmarva Public Media",
@@ -105,7 +119,7 @@
         "sources": [
           "s2",
           "s6",
-          "s7"
+          "s9"
         ]
       },
       "background": [
@@ -120,14 +134,14 @@
           "text": "Earned a B.S. (1977) and M.D. (1980) from Johns Hopkins University and an M.H.S. from Johns Hopkins in 1995.",
           "sources": [
             "s2",
-            "s7"
+            "s9"
           ]
         },
         {
           "text": "Worked as a physician at the Johns Hopkins Hospital for nearly three decades, specializing as an anesthesiologist in obstetric anesthesiology.",
           "sources": [
             "s6",
-            "s7"
+            "s9"
           ]
         },
         {
@@ -140,7 +154,7 @@
           "text": "Elected to the Maryland State Senate in 1998 and served 12 years; Wikipedia lists him as minority whip from 2003 to 2006.",
           "sources": [
             "s6",
-            "s7"
+            "s9"
           ]
         },
         {
@@ -191,19 +205,12 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says illegal immigration undermines the American workforce and creates national security risks, and supports enforcement against undocumented immigrants and visa overstays.",
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Says lowering the corporate tax rate would keep large businesses from sending jobs overseas.",
+          "quote": "Lowering the corporate tax rate will keep large businesses from sending jobs overseas, and a simpler tax code would allow small businesses to save money and grow.",
           "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Says local governments, not federal micromanagement, should determine curricula, and that parents should be able to choose between public, private or home education.",
-          "sources": [
-            "s3"
+            "s7"
           ]
         }
       ],
@@ -223,7 +230,7 @@
           ]
         }
       ],
-      "website": "https://www.andyharris.org/",
+      "website": "https://andyharris.com",
       "researchDepth": "basic"
     },
     {
@@ -239,8 +246,8 @@
         "sources": [
           "s4",
           "s5",
-          "s9",
-          "s10"
+          "s11",
+          "s12"
         ]
       },
       "background": [
@@ -261,15 +268,15 @@
           "sources": [
             "s4",
             "s5",
-            "s8",
-            "s9"
+            "s10",
+            "s11"
           ]
         },
         {
           "text": "A resident of Talbot County and described as a political newcomer, he won the June 23, 2026 Democratic primary with 46.3% of the vote over Randi White and others, and was endorsed by Gov. Wes Moore and Sen. Chris Van Hollen among others.",
           "sources": [
-            "s8",
-            "s9",
+            "s10",
+            "s11",
             "s1"
           ]
         }
@@ -305,16 +312,84 @@
           ]
         },
         {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign policies page lists codifying Roe v. Wade in federal law.",
+          "quote": "Codify Roe vs. Wade in Federal law so women across the country can access the care available in Maryland.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign policies page lists gun safety measures including universal background checks and closing the \"boyfriend loophole.\"",
+          "quote": "Implement common-sense gun safety measures including universal background checks.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign policies page lists raising the federal minimum wage.",
+          "quote": "Raise the federal minimum wage so that Maryland taxpayers are no longer subsidizing out-of-state businesses who refuse to pay their employees living wages.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says he will improve and protect access to affordable health care and support public health research funding.",
+          "summary": "Campaign policies page lists allowing public option plans in the ACA marketplace.",
+          "quote": "Allow public option plans in the ACA marketplace to drive competition.",
           "sources": [
-            "s5"
-          ]
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Focus immigration enforcement on those who have committed crimes.",
+          "context": "On his campaign policies page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Close tax code loopholes for mega-corporations and billionaires, and End Citizens United so we can get billionaire money out of politics.",
+          "context": "On his campaign policies page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Strengthen universal pre-K and invest in childcare for working and middle class families.",
+          "context": "On his campaign policies page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Work to lower energy costs by supporting local and regional projects including US Wind's Project off Ocean City.",
+          "context": "On his campaign policies page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "website": "https://www.schwartzforcongress.com",
+      "researchNotes": "Campaign policies page read in full, plus the 2025 Ballotpedia Candidate Connection survey. Positions come from the \"key examples\" and \"more priorities\" lists on the policies page."
     }
   ],
   "researchedAt": "2026-09-25",

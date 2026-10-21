@@ -36,7 +36,7 @@
         "text": "Brad Sherman is the Democratic incumbent for California's 32nd Congressional District and has served in the U.S. House since 1997. A tax lawyer and certified public accountant, he chaired the California State Board of Equalization before entering Congress. He serves on the Financial Services, Foreign Affairs, and Science, Space, and Technology committees.",
         "sources": [
           "s2",
-          "s9"
+          "s15"
         ]
       },
       "background": [
@@ -50,44 +50,44 @@
           "text": "Earned a B.A. from UCLA in 1974 (summa cum laude) and a J.D. from Harvard Law School in 1979 (magna cum laude), according to his official resume.",
           "sources": [
             "s2",
-            "s9"
+            "s15"
           ]
         },
         {
           "text": "Licensed as an attorney in California and certified by the State Bar as a Tax Law Specialist; also a California certified public accountant (inactive).",
           "sources": [
-            "s9"
+            "s15"
           ]
         },
         {
           "text": "Worked in the private sector from 1975 to 1990, including as an instructor in the Harvard Law School International Tax Program and as a staff member of a major CPA firm on audits of large businesses and government entities. His resume says he also helped represent the Government of the Philippines in an effort to seize assets of former President Ferdinand Marcos.",
           "sources": [
-            "s9"
+            "s15"
           ]
         },
         {
           "text": "Served on the board of California Common Cause from 1985 to 1989.",
           "sources": [
-            "s9"
+            "s15"
           ]
         },
         {
           "text": "Served as a member and chairman of the California State Board of Equalization, the state's elected tax commission, from 1991 to 1995, according to his official resume.",
           "sources": [
-            "s9"
+            "s15"
           ]
         },
         {
           "text": "First took office in the U.S. House in 1997, representing California's 24th District until 2003 and the 27th and then 32nd Districts thereafter, per Ballotpedia, which lists his current tenure from 2003.",
           "sources": [
             "s2",
-            "s9"
+            "s15"
           ]
         },
         {
           "text": "Serves on the Financial Services Committee and the Foreign Affairs Committee (both since 1997), and on the Science, Space, and Technology Committee (1998-1999, 2003-2007, and 2019 to present). He chaired the Foreign Affairs Subcommittee on Asia, the Pacific, Central Asia, and Nonproliferation during the 116th Congress and co-chairs the CPA and Accountants Caucus.",
           "sources": [
-            "s9"
+            "s15"
           ]
         }
       ],
@@ -126,6 +126,39 @@
           "quote": "Sherman has supported the Green New Deal since it was first introduced in the House of Representatives and will continue to do so going forward.",
           "sources": [
             "s8"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 3069, the Medicare for All Act (119th Congress).",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress).",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 7346, the Drain ICE Act of 2026, which would remove funding for U.S. Immigration and Customs Enforcement from the 2025 reconciliation law (119th Congress).",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Sponsored H.R. 8803, the Iran War Oil Crisis Windfall Profits Tax Act, and cosponsored H.R. 7960, the Big Oil Windfall Profits Tax Act, each imposing an excise tax on crude oil extracted or imported by taxpayers handling more than 300,000 barrels per day and rebating the proceeds to individual taxpayers (119th Congress).",
+          "sources": [
+            "s12",
+            "s13"
           ]
         }
       ],
@@ -214,9 +247,61 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Campaign website says to deport those who are in the country illegally and to govern by existing immigration laws.",
+          "quote": "Deport those who are here illegally, and govern by the existing, long-standing immigration laws of our land.",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I also do not believe in a federal law banning a woman's right to choose.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "I will not disarm law-abiding citizens who have every right and increasing need to defend themselves.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Lower them all, and eliminate some.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "We need to support our men and women in blue and prosecute criminals according to the letter and spirit of the law.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I am for allowing all alternate forms of energy and American oil to compete in a free market.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s14"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -271,6 +356,48 @@
     },
     {
       "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3069",
+      "title": "H.R. 3069, Medicare for All Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743, Raise the Wage Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7346",
+      "title": "H.R. 7346, Drain ICE Act of 2026",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8803",
+      "title": "H.R. 8803, Iran War Oil Crisis Windfall Profits Tax Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7960",
+      "title": "H.R. 7960, Big Oil Windfall Profits Tax Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s14",
+      "url": "https://www.larrythompsonforcongress.com/issues",
+      "title": "On the Issues",
+      "publisher": "Larry Thompson for U.S. Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
       "url": "https://sherman.house.gov/about/resume",
       "title": "Resume",
       "publisher": "Office of Rep. Brad Sherman",
@@ -278,5 +405,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Brad Sherman has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities here are drawn from his official House issues pages on abortion, guns, and climate. No clear statement mapping to tariffs, tax_wealthy, or israel_aid (beyond general support for the U.S.-Israel alliance without a specific aid statement) was found, so those were omitted. His federal floor votes and FEC totals are added separately by script. Larry Thompson completed the 2025 Candidate Connection survey, which is the basis for his priorities here; his responses did not map cleanly to any single fixed issue-key statement with a clear stance, so no positions entries were added for him. Biography notes: Sherman's Board of Equalization service is given as 1991-1995 per his official resume (Ballotpedia says 1990-1995); his 1996 election date is not stated in a loaded source, so the summary now says he has served since 1997. Thompson's biography relies on his own Candidate Connection survey; no independent profile was found."
+  "researchNotes": "Brad Sherman has not completed Ballotpedia's 2026 Candidate Connection survey; positions and priorities here are drawn from his official House issues pages on abortion, guns, and climate. No clear statement mapping to tariffs, tax_wealthy, or israel_aid (beyond general support for the U.S.-Israel alliance without a specific aid statement) was found, so those were omitted. His federal floor votes and FEC totals are added separately by script. Larry Thompson completed the 2025 Candidate Connection survey, which is the basis for his priorities here; his responses did not map cleanly to any single fixed issue-key statement with a clear stance, so no positions entries were added for him. Larry Thompson: campaign website issues page statements added; none squarely takes a side on a fixed issue statement. Biography notes: Sherman's Board of Equalization service is given as 1991-1995 per his official resume (Ballotpedia says 1990-1995); his 1996 election date is not stated in a loaded source, so the summary now says he has served since 1997. Thompson's biography relies on his own Candidate Connection survey; no independent profile was found."
 }

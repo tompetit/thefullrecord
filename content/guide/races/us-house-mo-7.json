@@ -225,15 +225,17 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Calls for caps on healthcare services, prescriptions and premiums, saying the current system is broken.",
+          "summary": "Her campaign website (July 2026), as quoted on Ballotpedia, lists \"Medicare for all who want it\" and Medicare drug price negotiation under healthcare.",
+          "quote": "Medicare for all who want it.",
           "sources": [
             "s3"
           ]
         },
         {
-          "issue": "climate",
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Says protecting water, air and soil is essential to the region's ecotourism and farming industries.",
+          "summary": "Her campaign website (July 2026) lists closing tax loopholes to end \"billionaire welfare\" as an affordability priority.",
+          "quote": "Close Tax Loopholes to End Billionaire Welfare.",
           "sources": [
             "s3"
           ]
@@ -241,7 +243,7 @@
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No prior federal or state-level elected office; positions drawn from her 2025 Ballotpedia Candidate Connection survey. Her survey response included an unverified allegation about the incumbent's vote on a discharge petition, which is omitted here because it was not independently confirmed via a reputable news source."
+      "researchNotes": "No prior federal or state-level elected office; positions drawn from her 2025 Ballotpedia Candidate Connection survey. Her survey response included an unverified allegation about the incumbent's vote on a discharge petition, which is omitted here because it was not independently confirmed via a reputable news source. October 2026: the earlier climate entry (protecting water, air and soil) was removed because it did not address the pace of the transition from fossil fuels; the healthcare entry was updated from her campaign website text quoted on Ballotpedia."
     },
     {
       "id": "kevin-craig",
@@ -278,11 +280,45 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Argues the Declaration signers would abolish the U.S. government in 2026 as they abolished British rule.",
+          "quote": "Can anyone doubt that they would abolish the U.S. government in 2026 just as surely as they abolished the British government in 1776?",
+          "sources": [
+            "kc1"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Ballotpedia notes Craig completed a Candidate Connection survey, but it was not reachable in this research pass; no other public statements of positions were confirmed."
+      "researchDepth": "basic",
+      "researchNotes": "Statements come from kevincraig.us. The issue pages cited are older pages (headed 2010 and 2012) still hosted on his 2026 site, so they are shown as dated statements, not current stances. Ballotpedia's Candidate Connection survey was not reachable.",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "he opposes all gun control laws.",
+          "context": "On a page of his campaign website headed \"Congressional Issues 2012\" (older page, still hosted on his 2026 site)",
+          "sources": [
+            "kc2"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "quote": "Abolish minimum wage laws",
+          "context": "On a page of his campaign website headed \"Congressional Issues 2010\" (older page, still hosted on his 2026 site)",
+          "sources": [
+            "kc3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Repeal \"Obamacare\" entirely",
+          "context": "On a page of his campaign website headed \"Congressional Issues 2012\"",
+          "sources": [
+            "kc4"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -325,6 +361,34 @@
       "publisher": "Office of Congressman Eric Burlison",
       "kind": "official",
       "date": "2026-09-14"
+    },
+    {
+      "id": "kc1",
+      "url": "https://kevincraig.us/",
+      "title": "Kevin Craig for Congress",
+      "publisher": "Kevin Craig for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "kc2",
+      "url": "https://kevincraig.us/guns.htm",
+      "title": "Gun Control",
+      "publisher": "Kevin Craig for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "kc3",
+      "url": "https://kevincraig.us/minimum_wage.htm",
+      "title": "The Minimum Wage",
+      "publisher": "Kevin Craig for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "kc4",
+      "url": "https://kevincraig.us/healthcare.htm",
+      "title": "Health Care",
+      "publisher": "Kevin Craig for Congress campaign website",
+      "kind": "candidate"
     },
     {
       "id": "s6",

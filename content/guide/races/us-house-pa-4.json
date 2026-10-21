@@ -88,7 +88,44 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official site says reproductive healthcare is a fundamental right and that she cosponsored the Women’s Health Protection Act of 2021.",
+          "quote": "Rep. Dean unequivocally supports women and their right to make intimate medical decisions in consultation with their doctors.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official site describes her as supporting universal, affordable healthcare, defending the ACA and Medicaid expansion, and making the enhanced ACA premium subsidies permanent.",
+          "quote": "Rep. Dean supports universal, affordable high-quality healthcare.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her official site describes her work for universal background checks (H.R. 8), the Bipartisan Safer Communities Act and limits on undetectable firearms.",
+          "quote": "Rep. Dean also championed the first meaningful gun violence prevention legislation in nearly 30 years",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her official site says she supports legislation to boost investment in renewable energy and cosponsored the Climate Action Now Act and a carbon-fee bill aiming for net zero emissions by 2050.",
+          "quote": "Rep. Dean supports legislation to boost America’s investments in renewable energy, fund green infrastructure, and reengage in global agreements to combat climate change.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Reintroduced legislation to protect children from gun violence and introduced the Gun Violence Prevention Through Financial Intelligence Act with colleagues.",
@@ -202,7 +239,41 @@
       "positions": [],
       "record": [],
       "website": "https://aurora4pa.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "israel_aid",
+          "quote": "I do not condone much of what has happened in Gaza, and I believe the United States must carefully evaluate how its financial assistance, weapons transfers, and diplomatic support are being used.",
+          "context": "On her campaign website",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "Any proposed deployment should have a clear mission, a lawful basis, appropriate congressional authorization, defined limits, and a credible plan to transfer responsibilities or bring our personnel home.",
+          "context": "On her campaign website, on an open-ended ground combat mission abroad",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "They should have access to every reasonable protection, resource, and tool necessary to keep themselves and our communities safe.",
+          "context": "On her campaign website",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Enforce immigration law, stop trafficking, and put Pennsylvania's security first.",
+          "context": "On her campaign website home page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -279,8 +350,23 @@
       "publisher": "Office of the Clerk, U.S. House of Representatives",
       "kind": "official",
       "date": "2022-07-28"
+    },
+    {
+      "id": "s11",
+      "url": "https://aurora4pa.com/peace-through-strength-accountability-and-responsible-alliances/",
+      "title": "America First: Peace Through Strength, Accountability, and Responsible Alliances",
+      "publisher": "Aurora Stuski for Congress",
+      "kind": "candidate",
+      "date": "2026-10"
+    },
+    {
+      "id": "s12",
+      "url": "https://aurora4pa.com/supporting-those-who-serve-why-i-stand-with-law-enforcement/",
+      "title": "Supporting Those Who Serve: Why I Stand With Law Enforcement",
+      "publisher": "Aurora Stuski for Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Stuski's campaign site discusses several issue areas (food safety, a Pennsylvania regulation, education) in blog posts, but does not state clear stances on any of the guide's fixed issue keys, so no positions are documented for her. Federal key votes and FEC totals for Dean are added separately by script. Dean's official biography says she was raised in Glenside, while Ballotpedia lists Philadelphia as her birthplace; the biography above states only the raised-in detail. Stuski's biography is drawn from her own campaign website; no independent news profile was reviewed."
+  "researchNotes": "Stuski's campaign site discusses several issue areas (food safety, a Pennsylvania regulation, education) in blog posts, but does not state clear stances on any of the guide's fixed issue keys, so no positions are documented for her. Federal key votes and FEC totals for Dean are added separately by script. Issue pages on foreign policy, law enforcement and a platform outline added as statements; no clear stance on the guide's issues beyond these. Dean's official biography says she was raised in Glenside, while Ballotpedia lists Philadelphia as her birthplace; the biography above states only the raised-in detail. Stuski's biography is drawn from her own campaign website; no independent news profile was reviewed."
 }

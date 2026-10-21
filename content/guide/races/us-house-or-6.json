@@ -31,7 +31,7 @@
         "sources": [
           "s2",
           "s3",
-          "s5"
+          "s10"
         ]
       },
       "background": [
@@ -68,7 +68,7 @@
           "sources": [
             "s2",
             "s3",
-            "s6"
+            "s11"
           ]
         },
         {
@@ -81,13 +81,13 @@
           "text": "Won the newly created, open 6th District in November 2022 over Republican Mike Erickson and was re-elected in 2024, again defeating Erickson.",
           "sources": [
             "s2",
-            "s6"
+            "s11"
           ]
         },
         {
           "text": "Serves on the House Committee on Agriculture (ranking member of the Subcommittee on Forestry and Horticulture) and the House Committee on Science, Space, and Technology; co-chairs the Mental Health Caucus and is Vice Chair of Member Engagement of the Congressional Hispanic Caucus.",
           "sources": [
-            "s5"
+            "s10"
           ]
         },
         {
@@ -105,7 +105,44 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official issues page says Medicare and Medicaid should be protected rather than undermined or defunded, and that she supports expanding Medicare to cover dental, hearing, vision and mental health care.",
+          "quote": "Millions of Americans depend on Medicare and Medicaid (in Oregon, we know this as the Oregon Health Plan) for care, and we need to protect – not undermine or defund – these programs.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official issues page says she supports legislation establishing a federal statutory right to reproductive health care, including abortion care.",
+          "quote": "I am proud to support legislation that would establish a federal statutory right to reproductive health care, including abortion care.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her official issues page says she supports reinstating a ban on assault weapons and legislation to create a national Office of Gun Violence Prevention.",
+          "quote": "I support reinstating a ban on assault weapons, which we have seen used in mass shootings time and time again.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Co-led a February 2026 letter opposing any plans to open or expand ICE detention facilities in Oregon, and said Oregonians never wanted one.",
+          "quote": "Oregonians never wanted an ICE detention facility in our state, especially as ICE and DHS have repeatedly abused their power and terrorized our communities",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Committee on Agriculture (Subcommittee on Nutrition and Foreign Agriculture) and the Committee on Science, Space, and Technology (Subcommittees on Energy; Space and Aeronautics); co-chairs the bipartisan Mental Health Caucus.",
@@ -123,7 +160,7 @@
           ]
         }
       ],
-      "website": "https://andreasalinasforcongress.com/",
+      "website": "https://www.andreasalinasfororegon.com",
       "researchDepth": "basic"
     },
     {
@@ -138,9 +175,9 @@
         "text": "David Russ is the Republican nominee for Oregon's 6th Congressional District. A former mayor of Dundee, he has a background in accounting, real estate and business consulting. He sought the Republican nomination for this seat in 2022 and 2024 before winning it in 2026, and his campaign describes its focus as constitutional government, accountable leadership and citizens' rights.",
         "sources": [
           "s4",
-          "s7",
-          "s9",
-          "s10"
+          "s12",
+          "s14",
+          "s15"
         ]
       },
       "background": [
@@ -154,29 +191,29 @@
           "text": "Career experience includes working as an accountant, consultant and real estate broker, as well as in manufacturing and technology administration. In a KATU questionnaire he said he started his first business at age 17 and has served on corporate boards for over 25 years.",
           "sources": [
             "s4",
-            "s8"
+            "s13"
           ]
         },
         {
           "text": "Served as mayor of Dundee, Oregon; he said in a candidate questionnaire that he had been elected mayor five times, and in a KATU questionnaire that he had led the city for over 9 years. His campaign site refers to him as a \"former Mayor of Dundee\" and the city's website lists David Ford as mayor.",
           "sources": [
             "s4",
-            "s8",
-            "s9",
-            "s7"
+            "s13",
+            "s14",
+            "s12"
           ]
         },
         {
           "text": "Ran in the Republican primary for the 6th District in 2022 and 2024, losing the 2024 primary to Mike Erickson, and won the Republican nomination in the May 19, 2026 primary.",
           "sources": [
             "s4",
-            "s10"
+            "s15"
           ]
         },
         {
           "text": "According to his campaign site, he is a husband, father and grandfather who describes himself as a \"patriot servant leader.\"",
           "sources": [
-            "s9"
+            "s14"
           ]
         }
       ],
@@ -188,11 +225,22 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In a March 2024 post on his campaign website, called for securing the border and removing people who entered without authorization.",
+          "quote": "It is imperative that we immediately secure our borders and remove the invaders.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "website": "https://www.russisforus.com/",
       "researchDepth": "basic",
-      "researchNotes": "Russ's Ballotpedia Candidate Connection survey on file is dated 2023, predating this campaign; his priorities are drawn from that survey since no separate 2026-specific statement was found."
+      "researchNotes": "Russ's Ballotpedia Candidate Connection survey on file is dated 2023, predating this campaign; his priorities are drawn from that survey since no separate 2026-specific statement was found. His campaign website (russisforus.com) was also reviewed; the immigration position comes from a March 2024 post. His other site pages (10th Amendment, economy) do not map to the guide issues."
     }
   ],
   "sources": [
@@ -226,41 +274,77 @@
     },
     {
       "id": "s5",
+      "url": "https://salinas.house.gov/issues/health-care",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Andrea Salinas",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://salinas.house.gov/issues/reproductive-freedom",
+      "title": "Reproductive Freedom",
+      "publisher": "Office of Rep. Andrea Salinas",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://salinas.house.gov/issues/public-safety",
+      "title": "Public Safety",
+      "publisher": "Office of Rep. Andrea Salinas",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://hoyle.house.gov/media/press-releases/salinas-merkley-hoyle-led-letter-forces-ice-to-confirm-no-plans-to-expand-or-build-ice-detention-facilities-in-oregon",
+      "title": "Salinas, Merkley, Hoyle-Led Letter Forces ICE to Confirm: No Plans to Expand or Build ICE Detention Facilities in Oregon",
+      "publisher": "Office of Rep. Val Hoyle",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://russisforus.com/immigration/",
+      "title": "Immigration",
+      "publisher": "David Russ for Congress",
+      "kind": "candidate",
+      "date": "2024-03-16"
+    },
+    {
+      "id": "s10",
       "url": "https://salinas.house.gov/about/committees-and-caucuses",
       "title": "Committees and Caucuses",
       "publisher": "Office of Rep. Andrea Salinas",
       "kind": "official"
     },
     {
-      "id": "s6",
+      "id": "s11",
       "url": "https://en.wikipedia.org/wiki/Andrea_Salinas",
       "title": "Andrea Salinas",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s7",
+      "id": "s12",
       "url": "https://www.dundeecity.org/council",
       "title": "City Council",
       "publisher": "City of Dundee, Oregon",
       "kind": "official"
     },
     {
-      "id": "s8",
+      "id": "s13",
       "url": "https://katu.com/news/know-your-candidates/david-russ-r-congress-district-6",
       "title": "Know Your Candidates: David Russ (R), Congress, District 6",
       "publisher": "KATU",
       "kind": "news"
     },
     {
-      "id": "s9",
+      "id": "s14",
       "url": "https://russisforus.com/about-me/",
       "title": "About",
       "publisher": "David Russ Is For US (campaign)",
       "kind": "candidate"
     },
     {
-      "id": "s10",
+      "id": "s15",
       "url": "https://www.opb.org/article/2024/05/07/mike-erickson-david-russ-oregon-6th-congress",
       "title": "Oregon 6th Congressional District GOP candidates Mike Erickson and David Russ debate the issues",
       "publisher": "OPB",

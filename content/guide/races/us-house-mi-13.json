@@ -117,7 +117,7 @@
           "summary": "Supports raising taxes on billionaires and corporations.",
           "quote": "Raising taxes on billionaires and corporations could fund crucial investments our community needs for housing, education, clean air & water, fair paying jobs and healthcare.",
           "sources": [
-            "s2b"
+            "s2c"
           ]
         },
         {
@@ -126,7 +126,7 @@
           "summary": "Supports a Green New Deal-style transition to 100% clean and renewable energy.",
           "quote": "A Green New Deal transitioning to 100% clean and renewable energy, would protect our planet's future and create millions of good-paying green union jobs in Michigan.",
           "sources": [
-            "s2b"
+            "s2c"
           ]
         },
         {
@@ -135,16 +135,34 @@
           "summary": "Supports Medicare for All.",
           "quote": "I know our families cannot afford anything less than Medicare for All, which would ensure everyone in this country has healthcare.",
           "sources": [
-            "s2b"
+            "s2c"
           ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Supports Medicare for All including coverage for abortion care.",
-          "quote": "Medicare for All would include coverage for dental, vision, mental health, reproductive health and abortion care.",
+          "summary": "Campaign site says Congress must codify abortion rights at the federal level and protect nationwide access to medication abortion.",
+          "quote": "We must codify abortion rights at the federal level and particularly protect access to medication abortion nationwide",
           "sources": [
-            "s2b"
+            "s2c"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign site opposes mass deportations and calls for shutting down for-profit immigration detention centers.",
+          "quote": "opposes this agenda of mass deportations, internment camps, and the criminalization of immigrant communities",
+          "sources": [
+            "s2c"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Campaign site calls for ending U.S. military aid and arms transfers to Israel.",
+          "quote": "We need to end the military aid and arms that America gives to Israel",
+          "sources": [
+            "s2c"
           ]
         }
       ],
@@ -237,10 +255,20 @@
           ]
         }
       ],
-      "positions": [],
       "record": [],
       "website": "https://tp313.org/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "TP Nykoriak will fight to protect Medicare and Medicaid for those who lawfully depend upon these programs while working to eliminate fraud, waste, and abuse that threaten their long-term stability.",
+          "context": "On his campaign website",
+          "sources": [
+            "s3c"
+          ]
+        }
+      ],
+      "positions": []
     },
     {
       "id": "raelyn-light",
@@ -280,7 +308,7 @@
       "summary": {
         "text": "Christopher Dardzinski is the U.S. Taxpayers Party candidate for Michigan's 13th District and has appeared on the general-election ballot for this seat before. Ballotpedia lists his career as including business, publishing, writing, economic analysis, political consulting and journalism.",
         "sources": [
-          "s6",
+          "s4d",
           "s1"
         ]
       },
@@ -288,33 +316,55 @@
         {
           "text": "Born in Wyandotte, Michigan, in 1967 and raised there, according to his Ballotpedia Candidate Connection survey.",
           "sources": [
-            "s6"
+            "s4d"
           ]
         },
         {
           "text": "Earned an associate degree from Henry Ford Community College in 1988.",
           "sources": [
-            "s6"
+            "s4d"
           ]
         },
         {
           "text": "Ballotpedia lists his career experience as working in business and as a publisher, author, economic analyst, political consultant, and journalist; in a 2024 survey he described himself as a former city council member and retired international trade analyst.",
           "sources": [
-            "s6"
+            "s4d"
           ]
         },
         {
           "text": "Appeared on the general-election ballot for Michigan's 13th District as the U.S. Taxpayers Party candidate in 2022 and 2024, and advanced from the party's July 18, 2026 convention.",
           "sources": [
-            "s6"
+            "s4d"
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "A single-rate federal tax system (stated on his 2024 campaign website).",
+          "quote": "Single-Rate tax system.",
+          "sources": [
+            "s4d"
+          ]
+        },
+        {
+          "text": "Streamlining the committee and subcommittee structure in Congress (stated on his 2024 campaign website).",
+          "quote": "Stream-line the Committee/Sub-Committee structure in Congress.",
+          "sources": [
+            "s4d"
+          ]
+        },
+        {
+          "text": "Consolidating and downsizing federal departments (stated on his 2024 campaign website).",
+          "quote": "Department Consolidation and down-sizing until the government becomes relatively \"efficient.\"",
+          "sources": [
+            "s4d"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "Has not completed Ballotpedia's 2026 survey and no 2026 campaign website found. Priorities come from his 2024 Ballotpedia survey and 2024 campaign website excerpt for this same district; none of the stated priorities map onto the guide's fixed issue list, so no positions or statements were added."
     },
     {
       "id": "simone-coleman",
@@ -414,17 +464,33 @@
       "date": "2026-09-25"
     },
     {
+      "id": "s2c",
+      "url": "https://www.donavanforcongress.com/priorities",
+      "title": "Priorities",
+      "publisher": "Donavan McKinney for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s3c",
+      "url": "https://tp313.org/",
+      "title": "TP Nykoriak for Congress: Mission & Agenda",
+      "publisher": "TP Nykoriak for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s4d",
+      "url": "https://ballotpedia.org/Christopher_Dardzinski",
+      "title": "Christopher Dardzinski (2024 Candidate Connection survey and campaign website excerpt)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2024-11-05"
+    },
+    {
       "id": "s5",
       "url": "https://ballotpedia.org/Taras_Nykoriak",
       "title": "Taras Nykoriak",
-      "publisher": "Ballotpedia",
-      "kind": "reference",
-      "date": "2026-10-21"
-    },
-    {
-      "id": "s6",
-      "url": "https://ballotpedia.org/Christopher_Dardzinski",
-      "title": "Christopher Dardzinski",
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-10-21"

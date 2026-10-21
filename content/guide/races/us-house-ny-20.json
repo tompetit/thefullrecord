@@ -30,8 +30,8 @@
         "text": "Paul Tonko is the incumbent U.S. Representative for New York's 20th Congressional District, first elected in 2008 and now in his ninth term. An engineer by training, he served on a county board and in the New York State Assembly for 25 years, and led the state energy research authority, before entering Congress. He is the Ranking Member of the Energy and Commerce Subcommittee on Environment and sits on the House Budget Committee.",
         "sources": [
           "s2",
-          "s6",
-          "s7"
+          "s12",
+          "s13"
         ]
       },
       "background": [
@@ -45,7 +45,7 @@
           "text": "Worked as a public works engineer and state transportation agency employee, according to Ballotpedia; his official speaking biography describes him as a former engineer for the New York State Public Service Commission.",
           "sources": [
             "s2",
-            "s7"
+            "s13"
           ]
         },
         {
@@ -58,45 +58,73 @@
           "text": "Served in the New York State Assembly from 1983 to 2007; his official biography says he spent 15 of those 25 years as Chairman of the Committee on Energy.",
           "sources": [
             "s2",
-            "s7"
+            "s13"
           ]
         },
         {
           "text": "Served as president and CEO of the New York State Energy Research and Development Authority (NYSERDA) from 2007 to 2008.",
           "sources": [
             "s2",
-            "s7"
+            "s13"
           ]
         },
         {
           "text": "Stepped down from NYSERDA in April 2008 after Rep. Michael McNulty announced his retirement, won the September 2008 Democratic primary for the 21st District over four other candidates, and won the November 2008 general election against Republican James Buhrmaster. He was sworn in on January 3, 2009.",
           "sources": [
-            "s8",
-            "s6"
+            "s14",
+            "s12"
           ]
         },
         {
           "text": "Represents all of Albany and Schenectady Counties and parts of Rensselaer, Saratoga and Montgomery Counties, including Albany, Amsterdam, Schenectady, Troy and Saratoga Springs.",
           "sources": [
-            "s6"
+            "s12"
           ]
         },
         {
           "text": "Serves on the House Energy and Commerce Committee, as Ranking Member of its Subcommittee on Environment and a member of its Energy and Oversight & Investigations subcommittees; was selected for the House Budget Committee in the 119th Congress. Previously served on the Natural Resources, Education and Labor, and Science, Space, and Technology committees.",
           "sources": [
-            "s6",
+            "s12",
             "s2"
           ]
         },
         {
           "text": "Serves as Democratic Deputy Whip for Policy and co-chairs the Sustainable Energy and Environment Coalition and the Addiction, Treatment, and Recovery Caucus.",
           "sources": [
-            "s6"
+            "s12"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Official issues page says he will continue to support policies that strengthen the Affordable Care Act.",
+          "quote": "In Congress, I will continue to support policies that strengthen the ACA and improve health care for every American.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Official issues page says Congress must act on gun reform and lists proposals including an assault weapons ban and a three-day waiting period for handgun purchases.",
+          "quote": "we cannot leave it to them alone to fight for commonsense gun reform.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His 2019 climate framework, still posted on his official site, calls for science-based targets for greenhouse gas neutrality by mid-century and accelerating the clean energy transition.",
+          "quote": "Adopt Science-Based Targets for Greenhouse Gas Neutrality by Mid-Century",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Energy and Commerce Committee (Oversight and Investigations; Energy; Environment subcommittees) and the House Budget Committee in the 119th Congress (2025-2026).",
@@ -167,9 +195,47 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "In a 2026 Protect the Adirondacks questionnaire, he opposed the Polluters Pay Climate Fund Act, said restrictions on fossil fuels and nuclear while subsidizing other energy sources have raised energy costs, and said fracking bans harm New York.",
+          "quote": "Restrictions on fossil fuel and nuclear while subsidizing non-scalable and inefficient energy sources has driven up energy costs and stifled economic prosperity.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In a Feb. 4, 2026 campaign press release, said local law enforcement should coordinate with federal authorities to deport people in the country illegally who have committed crimes, and said abolishing ICE would make communities less safe.",
+          "quote": "If Albany Democrats were serious about protecting public safety, they would let local law enforcement coordinate with federal authorities to deport criminal illegal aliens.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "America’s healthcare crisis is not the result of free-market failure; it is the direct consequence of federal distortions that have systematically destroyed price transparency and consumer choice.",
+          "context": "In his campaign healthcare policy brief",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "quote": "Paul Tonko’s vote against Israeli aid is more than just a policy disagreement; it is a failure of moral clarity",
+          "context": "In a July 16, 2026 campaign press release criticizing Rep. Tonko's vote against the Israel Security Supplemental Appropriations Act",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -213,20 +279,67 @@
     },
     {
       "id": "s6",
+      "url": "https://tonko.house.gov/Issues/Issue/?IssueID=74",
+      "title": "Healthcare",
+      "publisher": "Office of Rep. Paul Tonko, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://tonko.house.gov/Issues/Issue/?IssueID=15249",
+      "title": "Gun Violence",
+      "publisher": "Office of Rep. Paul Tonko, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://tonko.house.gov/Issues/Issue/?IssueID=15252",
+      "title": "Climate Change",
+      "publisher": "Office of Rep. Paul Tonko, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.protectadks.org/federal-and-state-candidates-answer-questions-on-environmental-matters-in-adirondack-park/",
+      "title": "Federal and State Candidates Answer Questions on Environmental Matters in Adirondack Park",
+      "publisher": "Protect the Adirondacks! (candidate questionnaire, 2026)",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://ambrosioforcongress.com/press_room",
+      "title": "Press Room",
+      "publisher": "Ralph Ambrosio for Congress",
+      "kind": "candidate",
+      "date": "2026-08-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://ambrosioforcongress.com/healthcare-plan-ambrosio",
+      "title": "Healthcare Plan",
+      "publisher": "Ralph Ambrosio for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
       "url": "https://tonko.house.gov/biography",
       "title": "Biography",
       "publisher": "Office of Rep. Paul Tonko",
       "kind": "official"
     },
     {
-      "id": "s7",
+      "id": "s13",
       "url": "https://tonko.house.gov/biography/speaking-event-biography.htm",
       "title": "Speaking Event Biography",
       "publisher": "Office of Rep. Paul Tonko",
       "kind": "official"
     },
     {
-      "id": "s8",
+      "id": "s14",
       "url": "https://en.wikipedia.org/wiki/Paul_Tonko",
       "title": "Paul Tonko",
       "publisher": "Wikipedia",
@@ -234,5 +347,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Ambrosio's campaign website (ambrosioforcongress.com) was reachable on this pass and supplied biography and priorities above; he still has not completed a Ballotpedia Candidate Connection survey and his Ballotpedia page has no independent biography section. A fact-check removed a `guns` position drawn from a generic \"defending the right to self-defense\" line in his public-safety priorities list, since his issues page never mentions guns, firearms, or the Second Amendment and does not squarely address gun-law policy, so no positions are recorded for him. Tonko has not stated specific 2026 campaign priorities on his Ballotpedia page; his entry here relies on biography and committee assignments."
+  "researchNotes": "Ambrosio's campaign website (ambrosioforcongress.com) was reachable on this pass and supplied biography and priorities above; he still has not completed a Ballotpedia Candidate Connection survey and his Ballotpedia page has no independent biography section. A fact-check removed a `guns` position drawn from a generic \"defending the right to self-defense\" line in his public-safety priorities list, since his issues page never mentions guns, firearms, or the Second Amendment and does not squarely address gun-law policy, so no gun position is recorded. Pass 2 (Oct. 2026): his campaign press room supplied immigration-enforcement and Israel-aid positions and a healthcare statement. Tonko has not stated specific 2026 campaign priorities on his Ballotpedia page; his entry here relies on biography and committee assignments. Ambrosio's Israel-aid remarks criticize his opponent's vote and do not themselves state support for continuing aid, so they are recorded as a statement."
 }

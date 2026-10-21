@@ -126,7 +126,7 @@
           "issue": "climate",
           "stance": "supports",
           "summary": "Supports shifting to renewable energy and cites her vote for the Inflation Reduction Act's climate investments, which she says puts the U.S. on a path to cut greenhouse gas emissions.",
-          "quote": "I believe we should create a world and an economy our grandchildren can thrive in.",
+          "quote": "I also supported the largest ever one-time federal investment in climate action through the Inflation Reduction Act.",
           "sources": [
             "s6"
           ]
@@ -153,9 +153,27 @@
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says she secured federal funding for local police units, including a new Mobile Command Unit for the Olathe Police Department.",
-          "quote": "I secured federal funding for local police units, including helping purchase a new Mobile Command Unit at the Olathe Police Department.",
+          "quote": "I secured federal funding for local police units, including helping purchase a new Mobile Command Unit at the Olathe Police Department",
           "sources": [
             "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her official site says she visited small businesses to discuss the economic challenges of what it calls reckless tariffs and highlighted her efforts in Congress to secure tariff refunds for small businesses.",
+          "quote": "visited local small businesses in Prairie Village to discuss the economic challenges of reckless tariffs",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Johnson County Post reports she has pushed back on the Trump administration's expanded immigration enforcement and called for ICE reforms, while pairing border security with legal pathways and stopping short of calls to abolish ICE.",
+          "quote": "She has pushed back on the Trump administration’s expanded immigration enforcement",
+          "sources": [
+            "s10"
           ]
         }
       ],
@@ -170,7 +188,7 @@
       ],
       "website": "https://davids.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "D000628"
+      "bioguideId": "D000629"
     },
     {
       "id": "eric-jenkins",
@@ -237,17 +255,38 @@
       ],
       "positions": [
         {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Campaign website lists opposition to the Green New Deal and to energy policies that raise household costs, while supporting an energy mix of oil, gas, nuclear, and renewables.",
+          "quote": "Oppose the Green New Deal and energy policies that raise household costs",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Campaigns on strong border security and supports the Trump administration's border enforcement efforts.",
+          "summary": "Campaign website lists a platform plank to withhold federal funds from cities that obstruct federal immigration enforcement.",
+          "quote": "Defund cities that obstruct federal immigration enforcement",
           "sources": [
-            "s4"
-          ]
+            "s11"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Jenkins has not completed Ballotpedia's Candidate Connection survey; positions drawn from a Johnson County Post news report citing his campaign announcement and website."
+      "researchNotes": "Positions and statements drawn from his campaign website (ericjenkinsforkansas.com) and a Johnson County Post report; Jenkins has not completed Ballotpedia's Candidate Connection survey.",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Defend Second Amendment rights against any unconstitutional restrictions",
+          "context": "On his campaign website",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     },
     {
       "id": "steve-hohe",
@@ -261,7 +300,7 @@
         "text": "Steve Hohe is a retired U.S. Air Force veteran and former businessman running as the Libertarian Party candidate. He has previously run as a Libertarian for the U.S. House in 2020 and 2022 and for the Kansas House in 2024.",
         "sources": [
           "s3",
-          "s9"
+          "s3"
         ]
       },
       "background": [
@@ -269,7 +308,7 @@
           "text": "Lived in Kansas City, Missouri before joining the U.S. Air Force, where he served from 1980 to 1991, mainly in the Strategic Air Command and during Operations Desert Shield and Desert Storm, according to his Ballotpedia survey response.",
           "sources": [
             "s3",
-            "s9"
+            "s3"
           ]
         },
         {
@@ -281,7 +320,7 @@
         {
           "text": "Moved to Kansas after leaving the Air Force and, in his own words, lived in Shawnee for over 25 years; describes himself as a former owner of two businesses, married with two children.",
           "sources": [
-            "s9"
+            "s3"
           ]
         },
         {
@@ -291,11 +330,45 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists as his platform the national debt, reckless spending, and what he calls the federal government's 'Iron Triangle' of bureaucrats, politicians and lobbyists.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Wants to replace the federal income tax with a flat percentage not to exceed 10% on the employed and a percentage of corporate profits.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Campaign site proposes education accounts controlled by parents that follow the child.",
+          "quote": "The Educational Account should follow the Child with the Parent",
+          "sources": [
+            "s12"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website or public statements on policy issues found; background is limited to Ballotpedia's biographical summary. He has not completed the Candidate Connection survey."
+      "researchDepth": "basic",
+      "researchNotes": "Positions drawn from his campaign website (stevehoheforkansas.wordpress.com); the stevehoheforkansas.com domain only frames that page, and KCUR reported in October 2026 that his site was down and that he declined to be interviewed. He has not completed the Candidate Connection survey.",
+      "statements": [
+        {
+          "issue": "tariffs",
+          "quote": "Abolishing the present Income Tax System replacing it with a Flat Tax and creating a Staged Tariff System on Imports",
+          "context": "On his campaign website",
+          "sources": [
+            "s12"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -356,19 +429,41 @@
       "date": "2026-09-25"
     },
     {
+      "id": "s9",
+      "url": "https://davids.house.gov/issues/jobs-economy-small-businesses",
+      "title": "Jobs, Economy & Small Businesses",
+      "publisher": "Rep. Sharice Davids (official site)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://johnsoncountypost.com/2026/07/14/whos-running-for-kansas-3rd-congressional-district-meet-the-candidates-291129/",
+      "title": "Who's running for Kansas' 3rd Congressional District? Meet the candidates",
+      "publisher": "Johnson County Post",
+      "kind": "news"
+    },
+    {
+      "id": "s11",
+      "url": "https://ericjenkinsforkansas.com/",
+      "title": "Eric Jenkins for Congress",
+      "publisher": "Eric Jenkins for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://stevehoheforkansas.wordpress.com",
+      "title": "Steve Hohe for Kansas",
+      "publisher": "Steve Hohe for Kansas",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
       "id": "s8",
       "url": "https://davids.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Sharice Davids",
       "kind": "official",
-      "date": "2026-10-21"
-    },
-    {
-      "id": "s9",
-      "url": "https://ballotpedia.org/Steve_Hohe",
-      "title": "Steve Hohe: Candidate Connection survey (2022)",
-      "publisher": "Ballotpedia Candidate Connection survey",
-      "kind": "candidate",
       "date": "2026-10-21"
     }
   ],

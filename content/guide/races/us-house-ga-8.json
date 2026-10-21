@@ -14,6 +14,12 @@
       "sources": [
         "s1"
       ]
+    },
+    {
+      "text": "Roman Coley Davis (Independent), whom Ballotpedia lists as withdrawn or disqualified, does not appear on the printed U.S. House District 8 contest on the Houston County Nov. 3, 2026 sample ballot, which lists Austin Scott and Kelly Esti with a write-in line.",
+      "sources": [
+        "s13"
+      ]
     }
   ],
   "candidates": [
@@ -30,7 +36,7 @@
         "text": "Austin Scott has represented Georgia's 8th Congressional District since 2011 and is now in his eighth term. He previously served in the Georgia House of Representatives and owned an insurance brokerage firm for nearly 20 years before being elected to Congress. He is Vice Chairman of the House Agriculture Committee.",
         "sources": [
           "s2",
-          "s11"
+          "s14"
         ]
       },
       "background": [
@@ -44,14 +50,14 @@
           "text": "Earned a B.B.A. in risk management and insurance from the University of Georgia (1993, according to Ballotpedia).",
           "sources": [
             "s2",
-            "s11"
+            "s14"
           ]
         },
         {
           "text": "Owned and operated an insurance brokerage firm for nearly 20 years before running for Congress.",
           "sources": [
             "s2",
-            "s11"
+            "s14"
           ]
         },
         {
@@ -70,20 +76,20 @@
           "text": "In the 119th Congress (2025-2026), serves as Vice Chairman of the House Committee on Agriculture and Chair of its General Farm Commodities, Risk Management, and Credit Subcommittee; also sits on the Rules Committee, the Permanent Select Committee on Intelligence, and the Armed Services Committee.",
           "sources": [
             "s2",
-            "s11"
+            "s14"
           ]
         },
         {
           "text": "Co-chairs the Congressional Crop Insurance Caucus and, according to his official biography, serves on the Board of Visitors for the Western Hemisphere Institute for Security Cooperation.",
           "sources": [
-            "s11"
+            "s14"
           ]
         },
         {
           "text": "Ballotpedia lists memberships in the American Red Cross Coastal Plains Chapter Board, the National Association of Insurance Financial Advisers, First Baptist Church of Tifton, and the American Legislative Exchange Council. His official biography says he and his wife Vivien live in Tifton and have three children.",
           "sources": [
             "s2",
-            "s11"
+            "s14"
           ]
         }
       ],
@@ -238,75 +244,58 @@
         {
           "text": "Says he will commit to regular town halls and to making his congressional office \"a place where citizens can come learn and be empowered through knowledge.\"",
           "sources": [
-            "s3"
+            "s12"
           ]
         },
         {
           "text": "Wants to ensure wealthy individuals and large multinational corporations \"pay their fair share of taxes\" to fund infrastructure, rural broadband, education, and lower healthcare costs.",
           "sources": [
-            "s3"
+            "s12"
           ]
         },
         {
           "text": "Proposes a Georgia intercity rail system (\"the Georgia Intrastate Transit\") connecting the state's large cities to reduce road wear, congestion, and pollution.",
           "sources": [
-            "s3"
-          ]
-        }
-      ],
-      "positions": [
-        {
-          "issue": "tax_wealthy",
-          "stance": "supports",
-          "summary": "Wants wealthy individuals and large multinational corporations to pay more in taxes to fund infrastructure, education, and healthcare investments.",
-          "sources": [
-            "s3"
+            "s12"
           ]
         },
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Lists reducing healthcare costs for families and young adults as a priority.",
+          "text": "Campaign website lists policy priorities in military and veterans services, education, utilities and renewable energy, healthcare, infrastructure (roads, broadband, transit), worker rights and civil rights.",
           "sources": [
-            "s3"
-          ]
-        }
-      ],
-      "record": [],
-      "researchDepth": "basic"
-    },
-    {
-      "id": "roman-coley-davis",
-      "name": "Roman Coley Davis",
-      "parties": [
-        "IND"
-      ],
-      "incumbent": false,
-      "summary": {
-        "text": "Roman Coley Davis is an independent who ran for Georgia's 8th Congressional District, with a campaign centered on veterans' advocacy and protecting children. Ballotpedia states that he will not appear on the November 3, 2026 general election ballot.",
-        "sources": [
-          "s13"
-        ]
-      },
-      "background": [
-        {
-          "text": "Ballotpedia lists him as an independent candidate for Georgia's 8th District who completed its 2025 Candidate Connection survey, naming veterans' advocacy, protecting children, and ousting corruption as key messages and national security, immigration, veterans affairs, and intelligence as areas of interest; it states he will not appear on the November 3, 2026 ballot.",
-          "sources": [
-            "s13"
-          ]
-        }
-      ],
-      "priorities": [
-        {
-          "text": "Lists veterans advocacy, protecting children, and \"ousting corruption\" as key campaign messages.",
-          "sources": [
-            "s3"
+            "s11"
           ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "As your congressman, my role is to strengthen federal health programs, support funding for rural clinics and hospitals, and work with agencies to improve access to essential services throughout the district.",
+          "context": "On his campaign website's Healthcare page",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "As renewable energy, like solar and wind, becomes more affordable nationwide, communities should have the option to explore these alternatives if they believe they will reduce long-term costs.",
+          "context": "On his campaign website's Utilities & Renewable Energy page",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "ensuring wealthy individuals and large multinational corporations pay their fair share of taxes to fund investments in infrastructure, digital expansion like fiber internet into rural areas, education",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign website (kellyesti4congress.com) has issue pages written in general terms; no explicit stance on abortion, guns, immigration, or tariffs was found."
     }
   ],
   "sources": [
@@ -323,13 +312,6 @@
       "title": "Austin Scott",
       "publisher": "Ballotpedia",
       "kind": "reference"
-    },
-    {
-      "id": "s3",
-      "url": "https://ballotpedia.org/Georgia%27s_8th_Congressional_District_election,_2026",
-      "title": "Georgia's 8th Congressional District election, 2026 (Candidate Connection survey responses)",
-      "publisher": "Ballotpedia Candidate Connection survey",
-      "kind": "candidate"
     },
     {
       "id": "s4",
@@ -389,26 +371,43 @@
     },
     {
       "id": "s11",
-      "url": "https://austinscott.house.gov/meet-austin",
-      "title": "Biography",
-      "publisher": "Office of Rep. Austin Scott",
-      "kind": "official"
+      "url": "https://www.kellyesti4congress.com/",
+      "title": "Home | Kellyesti4congress (Policy Priorities)",
+      "publisher": "Dr. Kelly Esti for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
     },
     {
       "id": "s12",
       "url": "https://ballotpedia.org/Kelly_Esti",
       "title": "Kelly Esti",
       "publisher": "Ballotpedia Candidate Connection survey",
-      "kind": "candidate"
+      "kind": "candidate",
+      "date": "2026-10-19"
     },
     {
       "id": "s13",
-      "url": "https://ballotpedia.org/Roman_Coley_Davis",
-      "title": "Roman Coley Davis",
+      "url": "https://www.houstoncountyga.gov/skins/userfiles/files/November%202026%20Sample%20Ballot.pdf",
+      "title": "Houston County Sample Ballot, November 3, 2026 General Election",
+      "publisher": "Houston County Board of Elections",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s14",
+      "url": "https://austinscott.house.gov/meet-austin",
+      "title": "Biography",
+      "publisher": "Office of Rep. Austin Scott",
+      "kind": "official"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Georgia%27s_8th_Congressional_District_election,_2026",
+      "title": "Georgia's 8th Congressional District election, 2026 (Candidate Connection survey responses)",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Basic-tier research from Ballotpedia. Roman Coley Davis has little public footprint beyond his Ballotpedia Candidate Connection survey answers; no campaign website was located. Biography update: Ballotpedia states Roman Coley Davis will not appear on the November 3, 2026 general election ballot and lists him as withdrawn or disqualified; his entry may need to be removed, and no biographical details beyond his survey answers were found."
+  "researchNotes": "Basic-tier research from Ballotpedia. Roman Coley Davis has little public footprint beyond his Ballotpedia Candidate Connection survey answers; no campaign website was located. Roman Coley Davis (Independent), listed by Ballotpedia as withdrawn or disqualified, does not appear on the printed U.S. House District 8 contest of the Houston County Nov. 3, 2026 sample ballot (only Austin Scott and Kelly Esti plus write-in line), so he has no entry here. Biography update: Ballotpedia states Roman Coley Davis will not appear on the November 3, 2026 general election ballot and lists him as withdrawn or disqualified; his entry may need to be removed, and no biographical details beyond his survey answers were found."
 }

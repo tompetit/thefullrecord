@@ -30,7 +30,7 @@
         "text": "Kat Cammack is the Republican incumbent in Florida's 3rd District, first elected in 2020. She grew up in Colorado, worked on Rep. Ted Yoho's 2012 campaign and then served nearly a decade on his staff, and later owned a marketing firm. Her congressional office says she serves on the Agriculture and Energy and Commerce committees.",
         "sources": [
           "s2",
-          "s8"
+          "s10"
         ]
       },
       "background": [
@@ -38,14 +38,14 @@
           "text": "Born in Denver, Colorado; according to her congressional office, she grew up on a cattle ranch outside Denver and took part in 4-H and local rodeo.",
           "sources": [
             "s2",
-            "s8"
+            "s10"
           ]
         },
         {
           "text": "Earned a bachelor's degree in international relations from Metropolitan State University of Denver (2015) and a master's degree in national defense and strategic studies from the U.S. Naval War College (2018).",
           "sources": [
             "s2",
-            "s8"
+            "s10"
           ]
         },
         {
@@ -58,7 +58,7 @@
           "text": "Served for nearly a decade as deputy chief of staff to Rep. Ted Yoho, according to her congressional office.",
           "sources": [
             "s2",
-            "s8"
+            "s10"
           ]
         },
         {
@@ -83,13 +83,13 @@
           "text": "In the 2025-2026 term, assigned to the Committee on Energy and Commerce (Commerce, Manufacturing, and Trade; Communications and Technology; and Health subcommittees) and the Committee on Agriculture. Her office says she chairs the Emerging Tech Task Force and co-founded the Republican Women's Caucus in 2025.",
           "sources": [
             "s2",
-            "s8"
+            "s10"
           ]
         },
         {
           "text": "According to her congressional office, she is married to Matt, a Gainesville Fire Rescue firefighter/paramedic, and they have a daughter.",
           "sources": [
-            "s8"
+            "s10"
           ]
         }
       ],
@@ -111,7 +111,7 @@
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Praised the Trump administration's February 2026 revocation of the EPA's 'Endangerment Finding,' the legal basis for federal vehicle-emissions standards, framing the rollback of the underlying climate regulation as a win for lower prices and energy production.",
+          "summary": "In a February 2026 statement on the Trump administration's revocation of the \"Endangerment Finding\" and Obama-era emissions rules, she called it the 'Green New Scam' going up in smoke and said it brings cheaper cars and more energy.",
           "quote": "'GREEN NEW SCAM' up in smoke. The climate crowd said killing Obama-era emissions rules would wreck America. Instead? Cheaper cars. More energy. Less bureaucratic chokehold. America builds again.",
           "sources": [
             "s7"
@@ -191,16 +191,44 @@
       ],
       "positions": [
         {
-          "issue": "universal_childcare",
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Proposes a 'Child Unity Break Stipend' to provide families relief on childcare costs, which he frames as a better use of resources than direct cash payments for having children.",
+          "summary": "His campaign issues page proposes restoring the corporate tax rate to 26%, raising the Social Security payroll tax cap to $250,000, and taxing large executive stock awards when received.",
+          "quote": "During President Reagan's second term, the corporate tax rate stood at 26%. Reagan Redux restores the corporate tax rate to that level, generating hundreds of billions in revenue that can be invested in Social Security, education, health care, veterans services, and programs that strengthen working families.",
           "sources": [
-            "s3"
+            "s8"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "universal_childcare",
+          "quote": "Expand affordable child care through a sliding-scale subsidy that helps working families manage one of their largest monthly expenses.",
+          "context": "On his campaign issues page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "creating incentives for builders to construct affordable housing for first-time buyers and middle-class families.",
+          "context": "On his campaign issues page, describing the H.E.A.R.T. Act proposal",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Guarantee affordable health care for every American and ensure that no family is forced into bankruptcy because they got sick.",
+          "context": "On his campaign issues page, under Health Care",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements are from his campaign issues page and 2025 Ballotpedia Candidate Connection survey. Neither addresses abortion, guns, immigration, climate or other tracked issues; no debate or forum coverage was found."
     },
     {
       "id": "mike-klein",
@@ -274,9 +302,47 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "In his Ballotpedia survey he says the Social Security contribution cap should be raised so the wealthy pay their fair share.",
+          "quote": "We must also raise the cap on Social Security contributions so the wealthy pay their fair share.",
+          "sources": [
+            "s4"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Redirect resources to professional law enforcement. Every person on American soil is entitled to due process under the law.",
+          "context": "On his campaign site, under the heading \"ICE Out — Respect Due Process\"",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "War is a last resort — not a tool of political convenience or executive ego.",
+          "context": "On his campaign site's 5 Pillars page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Every American deserves access to affordable healthcare — not rationed by wealth or corporate pricing power.",
+          "context": "On his campaign site's 5 Pillars page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements are from his 2026 Ballotpedia survey and campaign 5 Pillars page. The site is general on most tracked issues; no abortion, guns, climate or tariff statements found."
     }
   ],
   "sources": [
@@ -338,6 +404,22 @@
     },
     {
       "id": "s8",
+      "url": "https://www.sethharpforcongress.com/issues",
+      "title": "Issues | Seth Harp for Congress",
+      "publisher": "Seth Harp for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://mikeklein4congress.com/5-pillars/",
+      "title": "5 Pillars - Mike Klein",
+      "publisher": "Mike Klein for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
       "url": "https://cammack.house.gov/about",
       "title": "About Kat",
       "publisher": "Office of Rep. Kat Cammack",

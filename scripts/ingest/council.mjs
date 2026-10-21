@@ -14,7 +14,7 @@
  * Usage: node scripts/ingest/council.mjs
  */
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { writeSnapshot } from "./shared.mjs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -70,7 +70,7 @@ async function fetchPage(url) {
   if (wait > 0) await sleep(wait);
   lastFetchAt = Date.now();
   process.stderr.write(`  fetch ${abs}\n`);
-  const res = await fetch(abs, { headers: { "User-Agent": USER_AGENT } });
+  const res = await fetch(abs, { headers: { "User-Agent": USER_AGENT }, signal: AbortSignal.timeout(30_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${abs}`);
   const html = await res.text();
   pageCache.set(abs, html);
@@ -414,8 +414,7 @@ async function main() {
     rollCalls,
   };
 
-  await mkdir(dirname(OUT_PATH), { recursive: true });
-  await writeFile(OUT_PATH, JSON.stringify(snapshot, null, 2) + "\n");
+  await writeSnapshot(OUT_PATH, snapshot);
 
   // ---- summary ------------------------------------------------------------
   console.log(`\nWrote ${OUT_PATH}`);

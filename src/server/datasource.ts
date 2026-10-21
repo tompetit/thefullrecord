@@ -3,29 +3,31 @@
  *
  * The UI (server components and API routes) talks only to the DataSource
  * interface. The current implementation is a hybrid:
- *  - address lookup is LIVE (Census geocoder + NYC ArcGIS + public rosters),
- *    so any New York address resolves to real, current officeholders
+ *  - address lookup is LIVE (Census geocoder + TIGERweb + NYC ArcGIS +
+ *    public rosters), so any U.S. address resolves to real, current
+ *    officeholders: Congress and state legislators everywhere, NYC Council
+ *    in NYC, and the D.C. Council in D.C.
  *  - vote records merge the hand-verified snapshot in data.ts with the
- *    chamber-wide roll calls ingested by scripts/ingest/ (src/server/snapshot/)
+ *    chamber-wide roll calls ingested by scripts/ingest/ (src/server/snapshot/):
+ *    every member of Congress, New York's Albany and NYC bodies, and other
+ *    states' legislatures only where an Open States snapshot exists
  *  - said-vs-did pairs come from the editorial pipeline (content/said-vs-did)
  */
 
 import * as data from "./data";
 import { lookupOfficials, resolveOfficialByDistrictKey } from "./live/lookup";
-import { getSnapshots, snapshotAttendance, snapshotVotes } from "./live/snapshot";
+import { snapshotAttendance, snapshotVotes } from "./live/snapshot";
+import { standoutForDistrict } from "./standout";
+import { standoutSentence } from "../lib/divisive";
 import type {
   AttendanceEntry,
-  Bill,
-  Digest,
-  DigestItem,
-  IssueReport,
+  LookupContext,
   Official,
   OfficialGroup,
   Paginated,
   SaidDidPair,
   SeatElection,
   SeatNotOnBallot,
-  SiteStats,
   Sponsorship,
   VoteKind,
   VoteRecord,
@@ -33,13 +35,15 @@ import type {
 
 export interface VotesQuery {
   filter?: "all" | VoteKind;
+  /** Leave out roll calls every member voted the same way on */
+  hideUnanimous?: boolean;
   page?: number;
   pageSize?: number;
 }
 
 export type OfficialsLookup =
-  | { ok: true; matchedAddress: string; groups: OfficialGroup[] }
-  | { ok: false; reason: "no-match" | "outside-ny" | "lookup-failed" };
+  | { ok: true; matchedAddress: string; groups: OfficialGroup[]; context?: LookupContext }
+  | { ok: false; reason: "no-match" | "lookup-failed" };
 
 export interface DataSource {
   /** Resolve an address to the officials who represent it, grouped by level. */
@@ -49,15 +53,11 @@ export interface DataSource {
   getVotes(officialId: string, query?: VotesQuery): Promise<Paginated<VoteRecord>>;
   getSponsorships(officialId: string): Promise<Paginated<Sponsorship>>;
   getAttendance(officialId: string): Promise<Paginated<AttendanceEntry>>;
-  getBill(id: string): Promise<Bill | null>;
   getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>>;
-  getDigest(address: string): Promise<Digest>;
   /** 2026 slate for a seat, or when it's next on the ballot. */
   getSeatElection(
     districtKey: string
   ): Promise<SeatElection | SeatNotOnBallot | null>;
-  getSiteStats(): Promise<SiteStats>;
-  submitIssueReport(report: IssueReport): Promise<{ ok: true }>;
 }
 
 const GROUP_ORDER: Array<{ level: OfficialGroup["level"]; label: string }> = [
@@ -66,19 +66,32 @@ const GROUP_ORDER: Array<{ level: OfficialGroup["level"]; label: string }> = [
   { level: "federal", label: "FEDERAL — U.S. CONGRESS" },
 ];
 
-/**
- * Merge curated + ingested votes, newest first. A curated record wins over
- * its ingested twin (same bill, date, and kind — kind matters: a passage
- * vote and a same-day procedural motion on the same bill are distinct).
- */
+/** Prefer sourced snapshots; retain separate motions on the same bill and day. */
 async function mergedVotes(official: Official): Promise<VoteRecord[]> {
-  const curated = data.votes.filter((v) => v.officialId === official.id);
-  const key = (v: VoteRecord) => `${v.billNumber}|${v.date}|${v.kind}`;
-  const seen = new Set(curated.map(key));
-  const ingested = snapshotVotes(official.id, official.districtKey).filter(
-    (v) => !seen.has(key(v))
-  );
-  return [...curated, ...ingested].sort((a, b) => b.date.localeCompare(a.date));
+  const ingested = snapshotVotes(official.id, official.districtKey);
+  const key = (v: VoteRecord) => {
+    // Congressional source URLs identify the actual roll call, unlike bill pages.
+    if (/clerk\.house\.gov\/Votes\/|senate\.gov\/legislative\/LIS\/roll_call_votes\//.test(v.sourceUrl)) {
+      return v.sourceUrl.replace(/\/$/, "");
+    }
+    return `${v.billNumber}|${v.date}|${v.kind}`;
+  };
+  const seen = new Set(ingested.map(key));
+  const curated = data.votes.filter((v) => v.officialId === official.id && !seen.has(key(v)));
+  return [...ingested, ...curated].sort((a, b) => b.date.localeCompare(a.date));
+}
+
+/** Refresh activity text without pretending partial counts are session totals. */
+function withRecordedActivity(official: Official): Official {
+  const latest = snapshotVotes(official.id, official.districtKey)[0];
+  if (!latest) return official;
+  const action = latest.vote === "absent" ? "not voting on" : latest.vote === "present" ? "recorded present on" : `voted ${latest.vote} on`;
+  const so = standoutForDistrict(official.districtKey);
+  if (so) return { ...official, teaser: { text: standoutSentence(so, true).replace(/\.$/, ""), vote: latest.vote } };
+  return {
+    ...official,
+    teaser: { text: `Latest on file: ${action} ${latest.billNumber} · ${latest.dateLabel}`, vote: latest.vote },
+  };
 }
 
 class HybridDataSource implements DataSource {
@@ -91,16 +104,17 @@ class HybridDataSource implements DataSource {
         groups: GROUP_ORDER.map(({ level, label }) => ({
           level,
           label,
-          officials: data.officials.filter((o) => o.level === level),
+          officials: data.officials.filter((o) => o.level === level).map(withRecordedActivity),
         })),
       };
     }
-    return lookupOfficials(address);
+    const result = await lookupOfficials(address);
+    return result.ok ? { ...result, groups: result.groups.map(group => ({ ...group, officials: group.officials.map(withRecordedActivity) })) } : result;
   }
 
   async getOfficial(id: string): Promise<Official | null> {
     const curated = data.officials.find((o) => o.id === id);
-    if (curated) return curated;
+    if (curated) return withRecordedActivity(curated);
     // Stub ids are districtKeys (e.g. "nyc-council-35") — resolve via rosters.
     return resolveOfficialByDistrictKey(id);
   }
@@ -109,11 +123,11 @@ class HybridDataSource implements DataSource {
     officialId: string,
     query: VotesQuery = {}
   ): Promise<Paginated<VoteRecord>> {
-    const { filter = "all", page = 1, pageSize = 10 } = query;
+    const { filter = "all", hideUnanimous = false, page = 1, pageSize = 10 } = query;
     const official = await this.getOfficial(officialId);
     if (!official) return { items: [], total: 0, page, pageSize };
     const all = (await mergedVotes(official)).filter(
-      (v) => filter === "all" || v.kind === filter
+      (v) => (filter === "all" || v.kind === filter) && !(hideUnanimous && v.unanimous)
     );
     const start = (page - 1) * pageSize;
     return {
@@ -137,91 +151,15 @@ class HybridDataSource implements DataSource {
     return { items, total: items.length, page: 1, pageSize: items.length };
   }
 
-  async getBill(id: string): Promise<Bill | null> {
-    return data.bills.find((b) => b.id === id) ?? null;
-  }
-
   async getSaidDidPairs(officialId: string): Promise<Paginated<SaidDidPair>> {
     const { reviewedPairsFor } = await import("./editorial");
     const items = await reviewedPairsFor(officialId);
     return { items, total: items.length, page: 1, pageSize: items.length };
   }
 
-  async getDigest(address: string): Promise<Digest> {
-    const lookup = await this.getOfficialsByAddress(address);
-    if (!lookup.ok) return data.digest;
-    const officials = lookup.groups.flatMap((g) => g.officials);
-
-    // The digest window is the 7 days ending today.
-    const end = new Date();
-    const start = new Date(end.getTime() - 7 * 24 * 60 * 60 * 1000);
-    const iso = (d: Date) => d.toISOString().slice(0, 10);
-    const label = (d: Date) =>
-      d.toLocaleString("en-US", { month: "short", day: "numeric" });
-
-    const items: DigestItem[] = [];
-    const quiet: string[] = [];
-    for (const official of officials) {
-      const recent = (await mergedVotes(official)).filter(
-        (v) => v.date >= iso(start) && v.date <= iso(end)
-      );
-      if (!recent.length) {
-        quiet.push(official.name);
-        continue;
-      }
-      for (const v of recent.slice(0, 2)) {
-        items.push({
-          officialId: official.id,
-          officialName: official.name,
-          chamber: v.chamber,
-          billNumber: v.billNumber,
-          vote: v.vote,
-          summary: v.aiSummary ?? v.title,
-          outcome: v.outcome,
-          dateLabel: v.dateLabel,
-          sourceUrl: v.sourceUrl,
-        });
-      }
-    }
-    return {
-      dateRangeLabel: `${label(start)} – ${label(end)}, ${end.getFullYear()}`,
-      items,
-      quietLine: quiet.length
-        ? `No recorded floor votes are on file this week for your other ${quiet.length} representative${quiet.length === 1 ? "" : "s"}.`
-        : "",
-    };
-  }
-
   async getSeatElection(districtKey: string) {
     const { electionForSeat } = await import("./live/elections");
     return electionForSeat(districtKey);
-  }
-
-  async getSiteStats(): Promise<SiteStats> {
-    // Completeness is visible: the trust line states what we actually track,
-    // computed from the ingested snapshots rather than hardcoded.
-    const snapshots = getSnapshots();
-    if (!snapshots.length) return data.siteStats;
-    let officials = 0;
-    let rollCalls = 0;
-    for (const s of snapshots) {
-      // Count seats, not member records — mid-session replacements can leave
-      // two records for one district.
-      officials += s.members
-        ? new Set(s.members.map((m) => m.district ?? m.key)).size
-        : Object.keys(s.memberKeys ?? {}).length;
-      rollCalls += s.rollCalls.length;
-    }
-    return {
-      trustLine: `Tracking ${officials} officials and ${rollCalls} recent recorded roll calls across city, state and federal government`,
-      provenanceLine: data.siteStats.provenanceLine,
-    };
-  }
-
-  async submitIssueReport(report: IssueReport): Promise<{ ok: true }> {
-    // Snapshot mode: log only. A real implementation persists the report.
-    console.log("[report-an-issue]", JSON.stringify(report));
-    return { ok: true };
   }
 }
 

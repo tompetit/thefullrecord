@@ -54,20 +54,26 @@
       "date": "2026-01-08"
     },
     {
-      "id": "s6",
-      "url": "https://olszewski.house.gov/media/press-releases/olszewski-led-bill-lower-housing-costs-passes-congress-blocked-trump",
-      "title": "Olszewski-Led Bill to Lower Housing Costs Passes Congress, Blocked by Trump",
-      "publisher": "Office of Rep. Johnny Olszewski",
-      "kind": "official",
-      "date": "2026-06-24"
-    },
-    {
       "id": "s7",
       "url": "https://olszewski.house.gov/media/press-releases/olszewski-vote-again-against-ice-funding-without-safeguards",
       "title": "Statement on vote against DHS/ICE funding extension without accountability measures",
       "publisher": "Office of Rep. Johnny Olszewski",
       "kind": "official",
       "date": "2026-02-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://gojohnnyo.com/priorities/",
+      "title": "Johnny's Priorities | Johnny O for Congress",
+      "publisher": "Johnny O for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://davewallace.us/",
+      "title": "Dave Wallace for US Congress",
+      "publisher": "Wallace for America",
+      "kind": "candidate"
     }
   ],
   "candidates": [
@@ -170,21 +176,39 @@
           ]
         },
         {
-          "issue": "housing_supply",
-          "stance": "supports",
-          "summary": "Co-led the RESIDE Act, included in the bipartisan 21st Century ROAD to Housing Act, to create a HUD pilot program converting vacant and blighted properties into housing and increase the supply of affordable housing.",
-          "quote": "The cost-of-living crisis begins and ends with housing — because if you don't have a safe roof over your head, little else matters.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Voted against funding for ICE operations without new accountability measures, citing wrongful arrests and deportations of U.S. citizens, and called for reforms such as banning the detention of U.S. citizens and requiring body-worn cameras before he would support DHS/ICE funding.",
           "quote": "As Americans, it is time that we say ‘enough’ to ICE – which is why I will again vote no on legislation that funds its operations without any new accountability measures.",
           "sources": [
             "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Campaign priorities page says he insists on immediate, bold action on climate change and backs large-scale investment in renewable energy to cut carbon emissions.",
+          "quote": "Johnny O backs strategic, large-scale investments in renewable energy: deploying solar, wind and other clean-energy technologies not only to dramatically cut carbon emissions",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign priorities page says he is pushing to end the Trump-era tariffs, citing higher prices.",
+          "quote": "He’s pushing to extend critical health-insurance tax credits, end the reckless Trump-era tariffs that are driving up prices",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign priorities page criticizes Trump Administration policies that divert taxpayer dollars to private schools and says he is pushing back.",
+          "quote": "The Trump Administration is pushing policies that ban books, enable discrimination against LGBTQ+ students, and divert taxpayer dollars to private schools.",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -286,36 +310,48 @@
       ],
       "priorities": [
         {
-          "text": "Protecting medical freedom, including the right to choose whether to wear a mask or take COVID vaccines.",
+          "text": "Protecting medical freedom: his campaign site lists it as an issue, and his 2024 campaign site described it as the right to choose whether to wear a mask or take COVID vaccines.",
           "sources": [
-            "s4"
+            "s4",
+            "s9"
           ]
         },
         {
           "text": "Fighting government corruption, including support for term limits and a presidential one-line budget veto.",
           "sources": [
-            "s4"
+            "s9"
           ]
         },
         {
           "text": "Protecting police and other first responders with resources and equipment.",
           "sources": [
-            "s4"
+            "s9"
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
         {
           "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Says he will vote to give police and other first responders the resources and equipment they need.",
+          "quote": "Dave Wallace will protect the police and other first responders. He will vote to give them the resources and equipment they need to protect us from criminals both foreign and domestic.",
+          "context": "On his campaign website",
           "sources": [
-            "s4"
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "He will vote for the use of energy sources wherever they happen to be, including natural gas in Maryland.",
+          "context": "On his campaign website",
+          "sources": [
+            "s9"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "basic"
+      "website": "https://davewallace.us/",
+      "researchNotes": "Campaign website read in full (it carries the same issue text Ballotpedia quoted from 2024). No Ballotpedia survey, questionnaire or debate answers found; no stance on the other guide issues was found."
     }
   ],
   "researchedAt": "2026-09-25",

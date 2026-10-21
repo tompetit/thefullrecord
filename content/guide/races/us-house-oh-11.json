@@ -30,7 +30,7 @@
         "sources": [
           "s1",
           "s3",
-          "s4"
+          "s7"
         ]
       },
       "background": [
@@ -39,7 +39,7 @@
           "sources": [
             "s1",
             "s3",
-            "s4"
+            "s7"
           ]
         },
         {
@@ -52,14 +52,14 @@
           "text": "Owned Diversified Digital Solutions and worked as director of sales for Hotcards.com, a senior account manager with Radio One, and a marketing support representative with Telco Communications Group before her political career.",
           "sources": [
             "s1",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Entered public service in 2012 as a Warrensville Heights city council member, according to her official biography. In 2014 she was elected to the Cuyahoga County Council to represent the 9th district, and she served on it until 2021.",
           "sources": [
             "s1",
-            "s4"
+            "s7"
           ]
         },
         {
@@ -73,19 +73,19 @@
           "sources": [
             "s1",
             "s3",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "In the 119th Congress serves on the House Agriculture Committee as vice ranking member, on the Oversight Committee (ranking member of its Cybersecurity, Information Technology, and Government Innovation Subcommittee) and on the Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party, according to her official biography.",
           "sources": [
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Is a member of the Congressional Black Caucus, the New Democrat Coalition and the Congressional Progressive Caucus, among other caucuses; her official biography says she has authored bills on the racial health gap and anti-discrimination law.",
           "sources": [
-            "s4"
+            "s7"
           ]
         }
       ],
@@ -97,6 +97,24 @@
           "summary": "Supported Ohio Issue 1 (2023), the ballot measure establishing a state constitutional right to make reproductive decisions including abortion.",
           "sources": [
             "s1"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a July 2026 press release she called on Republicans in Congress to work with Democrats to restore the Affordable Care Act after Ohioans lost marketplace coverage.",
+          "quote": "It is time for Republicans in Congress to work with us to restore the Affordable Care Act – the stakes are too high",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an October 2025 op-ed for Fox News she wrote that President Trump's tariff war is crushing American farmers and called for ending it.",
+          "quote": "President Donald Trump’s reckless tariff war is crushing America’s farmers",
+          "sources": [
+            "s5"
           ]
         }
       ],
@@ -137,33 +155,42 @@
         "text": "Mike Kirchner is the Republican nominee for Ohio's 11th Congressional District. According to his campaign website, he is a retired consultant with about 30 years of experience evaluating mostly pension plans, and he lives in Highland Heights.",
         "sources": [
           "s2",
-          "s5"
+          "s8"
         ]
       },
       "background": [
         {
           "text": "According to his campaign website, he is from Tiffin, Ohio, and graduated from Akron University with a degree in applied mathematics.",
           "sources": [
-            "s5"
+            "s8"
           ]
         },
         {
           "text": "Joined the Wyatt Company, known as Towers Watson when he retired, and worked about 30 years as a consultant evaluating mostly pension plans, per his campaign website.",
           "sources": [
-            "s5"
+            "s8"
           ]
         },
         {
           "text": "His campaign website says he lives in Highland Heights with Audrey and has two sons who live in Pittsburgh and Cincinnati.",
           "sources": [
-            "s5"
+            "s8"
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Proposes stopping Social Security (Old Age and Survivor) benefit accruals in 2027 and redirecting the 5.3% employee payroll tax into a deferred tax program account.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "Stop the benefit accruals in 2027 and stop the 5.3% Employee FICA Tax (OAS portion) from being deposited into the OAS trust."
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "His campaign website (mikekirchner.com) has a biography and a self-published paper on Social Security (OAS) benefits and payroll tax; it has no issue pages. He has not completed the Ballotpedia Candidate Connection survey. No statements found on the guide's issue topics."
     }
   ],
   "sources": [
@@ -190,13 +217,37 @@
     },
     {
       "id": "s4",
+      "url": "https://shontelbrown.house.gov/media/press-releases/brown-blasts-catastrophic-loss-health-care-coverage-ohio",
+      "title": "Brown Blasts Catastrophic Loss of Health Care Coverage in Ohio",
+      "publisher": "Office of Rep. Shontel Brown",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.foxnews.com/opinion/farmageddon-trumps-trade-war-shutdown-crushing-heartland",
+      "title": "Farmageddon: Trump’s trade war and shutdown are crushing the heartland",
+      "publisher": "Fox News (op-ed by Rep. Shontel Brown)",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://mikekirchner.com/wp-content/uploads/2026/09/Preparing-for-the-OAS-Catastrophe-A31.pdf",
+      "title": "Preparing for the OAS Catastrophe",
+      "publisher": "Mike Kirchner (campaign website)",
+      "kind": "candidate",
+      "date": "2026-09-01"
+    },
+    {
+      "id": "s7",
       "url": "https://shontelbrown.house.gov/about/biography",
       "title": "Biography",
       "publisher": "Office of Rep. Shontel Brown, U.S. House",
       "kind": "official"
     },
     {
-      "id": "s5",
+      "id": "s8",
       "url": "https://mikekirchner.com/about/",
       "title": "About",
       "publisher": "Mike Kirchner campaign",

@@ -30,8 +30,8 @@
         "text": "Pat Ryan is the incumbent Democratic U.S. Representative for New York's 18th Congressional District. A West Point graduate and Army intelligence officer who served two combat tours in Iraq, he worked in the technology sector and was Ulster County Executive from 2019 to 2022. He won a 2022 special election in the old NY-19 and was elected to the redrawn NY-18 that November; he sits on the Armed Services and Transportation and Infrastructure committees.",
         "sources": [
           "s2",
-          "s5",
-          "s6"
+          "s10",
+          "s11"
         ]
       },
       "background": [
@@ -39,66 +39,85 @@
           "text": "Born and raised in Kingston, New York, and graduated from Kingston High School in 2000; his official biography calls him a fifth-generation Hudson Valley native.",
           "sources": [
             "s2",
-            "s5",
-            "s6"
+            "s10",
+            "s11"
           ]
         },
         {
           "text": "Earned a bachelor's degree in international politics from the U.S. Military Academy at West Point in 2004 and a master's degree in security studies from Georgetown University (2013, per Ballotpedia).",
           "sources": [
             "s2",
-            "s6"
+            "s11"
           ]
         },
         {
           "text": "Served in the U.S. Army from 2004 to 2009 as a military intelligence officer; his official biography says he served two combat tours in Iraq and earned two Bronze Stars.",
           "sources": [
             "s2",
-            "s5",
-            "s6"
+            "s10",
+            "s11"
           ]
         },
         {
           "text": "After the Army, worked as deputy director of Berico Technologies, co-founded the software company Praescient Analytics in 2011, and was a senior vice president at Dataminr from 2015 to 2017, according to Wikipedia.",
           "sources": [
-            "s6"
+            "s11"
           ]
         },
         {
           "text": "Ran in the 2018 Democratic primary in NY-19, receiving 18% to Antonio Delgado's 22%.",
           "sources": [
-            "s6"
+            "s11"
           ]
         },
         {
           "text": "Won an April 2019 special election for Ulster County Executive, took office June 7, 2019, and won a full term in November 2019; he resigned on September 9, 2022. His official biography says he led the county through the COVID-19 pandemic and the redevelopment of the former IBM site, now iPark 87.",
           "sources": [
-            "s5",
-            "s6"
+            "s10",
+            "s11"
           ]
         },
         {
           "text": "Won the August 23, 2022 special election in NY-19 over Dutchess County Executive Marc Molinaro, 51.1%-48.8%, and was sworn in September 13, 2022; in November 2022 he won the redrawn NY-18, defeating Republican Colin Schmitt.",
           "sources": [
-            "s6"
+            "s11"
           ]
         },
         {
           "text": "In the House he serves on the Armed Services Committee and the Transportation and Infrastructure Committee, and his official biography describes him as the first West Point graduate to represent the Academy in the U.S. House.",
           "sources": [
-            "s5",
+            "s10",
             "s2"
           ]
         },
         {
           "text": "Lives in Gardiner with his wife, Rebecca, and their two sons, according to his official biography.",
           "sources": [
-            "s5"
+            "s10"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Official issues page describes him as a member of the Congressional Pro Choice Caucus who backs legislation to codify a right to abortion care and access to mifepristone.",
+          "quote": "As a proud member of the Congressional Pro Choice Caucus, I champion legislation like the EACH Act to ensure affordable access to abortion care, Abortion is Health Care Everywhere Act, and the Women’s Health Protection Act, that codifies a woman’s right to make her own reproductive healthcare choices and the ability of healthcare providers to offer them.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Official issues page says he backs an assault weapons ban, safe-storage law, enhanced background checks and a federal red-flag law.",
+          "quote": "I will keep pushing for common sense gun reform like the Enhanced Background Checks Act, the Federal Extreme Risk Protection Order Act, and the Stopping the Fraudulent Sales of Firearms Act to keep illicit guns out of the hands of criminals who shouldn’t have them.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Transportation and Infrastructure Committee (Highways and Transit; Railroads, Pipelines, and Hazardous Materials; Water Resources and Environment subcommittees) and the House Armed Services Committee (Cyber, Information Technologies, and Innovation; Intelligence and Special Operations subcommittees) in the 119th Congress (2025-2026).",
@@ -115,7 +134,7 @@
           ]
         }
       ],
-      "website": "https://patryan.house.gov/",
+      "website": "https://patryan.house.gov",
       "researchDepth": "basic"
     },
     {
@@ -190,7 +209,33 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I fully support ICE doing its job and removing criminal, illegal immigrants who threaten our communities.",
+          "context": "In a July 9, 2026 campaign statement on a proposed ICE facility in Newburgh",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "We should be empowering parents and students with more options, not fewer.",
+          "context": "In a May 11, 2026 campaign press release praising New York's participation in the federal Education Freedom Tax Credit",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I will support a rational, all-of-the-above energy policy that includes natural gas, nuclear power, hydropower and renewables — prioritizing reliability and affordability instead of costly political mandates.",
+          "context": "In a statement to the Daily Freeman candidate form, Oct. 3, 2026",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -226,13 +271,53 @@
     },
     {
       "id": "s5",
+      "url": "https://patryan.house.gov/issues/freedom-all",
+      "title": "Freedom for All",
+      "publisher": "Office of Rep. Pat Ryan, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://patryan.house.gov/issues/ensuring-safety-all",
+      "title": "Ensuring Safety for All",
+      "publisher": "Office of Rep. Pat Ryan, U.S. House of Representatives",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://winwithjackie.com/press/auringer-statement-newburgh-ice-facility",
+      "title": "Statement from Jackie Auringer on Possible Newburgh ICE Facility",
+      "publisher": "Jackie Auringer for Congress",
+      "kind": "candidate",
+      "date": "2026-07-09"
+    },
+    {
+      "id": "s8",
+      "url": "https://winwithjackie.com/press/auringer-praises-educational-choice-may-2026",
+      "title": "Auringer Praises State Decision to Expand Educational Choice",
+      "publisher": "Jackie Auringer for Congress",
+      "kind": "candidate",
+      "date": "2026-05-11"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.dailyfreeman.com/2026/10/03/election-2026-ryan-auringer-square-off-in-18th-congressional-district/",
+      "title": "Election 2026: Ryan, Auringer square off in 18th Congressional District",
+      "publisher": "Daily Freeman",
+      "kind": "news",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
       "url": "https://patryan.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Pat Ryan, U.S. House",
       "kind": "official"
     },
     {
-      "id": "s6",
+      "id": "s11",
       "url": "https://en.wikipedia.org/wiki/Pat_Ryan_(politician)",
       "title": "Pat Ryan (politician)",
       "publisher": "Wikipedia",
@@ -240,5 +325,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Auringer's campaign website (winwithjackie.com) was reachable on this pass and supplied biography and priorities above; she still has not completed a Ballotpedia Candidate Connection survey and her Ballotpedia page has no independent biography section. No statement found that directly addresses any of the 15 issue statements, so no positions are listed. Ryan has not stated detailed 2026 policy priorities on his Ballotpedia page or a reachable campaign/official site as of research date; his entry relies on biography, committee assignments, and election history. Auringer's campaign website gives no birth year, graduation year or employer name, so her biography is limited to what it states."
+  "researchNotes": "Auringer's campaign website (winwithjackie.com) was reachable on this pass and supplied biography and priorities above; she still has not completed a Ballotpedia Candidate Connection survey and her Ballotpedia page has no independent biography section. Pass 2 (Oct. 2026): her campaign press releases and Daily Freeman coverage supplied three issue statements (immigration enforcement, school choice, energy); none squarely takes a side on the guide's statements, so no stances are listed. No statements found on abortion, guns, rent, taxes on high earners, tariffs or the other issues. Ryan has not stated detailed 2026 policy priorities on his Ballotpedia page or a reachable campaign/official site as of research date; his entry relies on biography, committee assignments, and election history. Auringer's campaign website gives no birth year, graduation year or employer name, so her biography is limited to what it states."
 }

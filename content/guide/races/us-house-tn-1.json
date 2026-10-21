@@ -99,7 +99,8 @@
         }
       ],
       "researchDepth": "basic",
-      "bioguideId": "H001086"
+      "bioguideId": "H001086",
+      "researchNotes": "Her official issues pages (border security, health care, defending life, Second Amendment) were reviewed; they mostly describe general principles or cosponsored bills, which are added separately from congress.gov, so no further position was recorded from her own statements."
     },
     {
       "id": "kristi-burke",
@@ -155,15 +156,53 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Campaign message emphasizes that healthcare should not depend on wealth and says no one in the district should be 'one medical emergency away from ruin.'",
-          "quote": "I believe that essential needs like healthcare, housing, and a clean environment, should never be gatekept by wealth.",
+          "summary": "Her campaign site says she supports a universal, single-payer system and Medicare for All.",
+          "quote": "I support a universal, single-payer system.",
           "sources": [
-            "s3"
+            "r1"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her campaign site calls for no mass deportations, no family separation and no inhumane treatment in immigration policy.",
+          "quote": "No mass deportations, no family separation, and no inhumane treatment.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign site says access to abortion, birth control and reproductive healthcare must be protected.",
+          "quote": "Access to abortion, birth control, and reproductive healthcare must be protected.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign site says the tax burden should shift off working people and onto corporations and the ultra-wealthy.",
+          "quote": "The tax burden must shift off working people and onto corporations and the ultra-wealthy.",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Her campaign site says public dollars must go to public schools and criticizes Tennessee's private school voucher programs for diverting taxpayer dollars from them.",
+          "quote": "Public dollars must go to public schools, and education must be accessible from early childhood through higher education.",
+          "sources": [
+            "r1"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://votekristiburke.com",
+      "researchNotes": "Positions come from her campaign site (votekristiburke.com) Non-Negotiables page. Her Ballotpedia survey also mentions \"Reclaiming War Powers\" as a policy area without stating a position, so no war_powers entry was made."
     },
     {
       "id": "joshua-ray-ashburn",
@@ -176,7 +215,7 @@
         "text": "Joshua Ray Ashburn is an independent candidate who says he is not a career politician and is running because he is tired of career politicians being re-elected. He says he supports term limits, stronger border security, small businesses and farmers, and less U.S. involvement in foreign conflicts.",
         "sources": [
           "s4",
-          "s10"
+          "a1"
         ]
       },
       "background": [
@@ -190,7 +229,7 @@
           "text": "Describes himself as not a career politician; his Ballotpedia profile lists no prior elected office or career details, and he reports no endorsements.",
           "sources": [
             "s4",
-            "s10"
+            "a1"
           ]
         }
       ],
@@ -200,11 +239,30 @@
           "sources": [
             "s4"
           ]
+        },
+        {
+          "text": "Says border security should remain a top priority, citing illegal drugs entering communities.",
+          "sources": [
+            "a1"
+          ]
+        },
+        {
+          "text": "Says America should pursue peace whenever possible and avoid unnecessary wars.",
+          "sources": [
+            "a1"
+          ]
+        },
+        {
+          "text": "Says he would support small businesses and farmers by reducing their tax burden and cutting red tape.",
+          "sources": [
+            "a1"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Based on his 2026 Ballotpedia Candidate Connection survey; no campaign website found. His answers on border security, peace and small business do not take a side on a listed guide issue. His housing remark (\"Housing is to high\") is too general to record."
     },
     {
       "id": "chris-campbell",
@@ -217,7 +275,7 @@
         "text": "Chris Campbell is an independent candidate who says he has spent his career supporting manufacturers. He is running on restoring domestic manufacturing, patient-directed healthcare, opposition to tariffs, and term and age limits for federal officeholders.",
         "sources": [
           "s5",
-          "s9"
+          "c1"
         ]
       },
       "background": [
@@ -230,7 +288,7 @@
         {
           "text": "Earned a bachelor's degree from the University of Tennessee, Knoxville.",
           "sources": [
-            "s9"
+            "c1"
           ]
         },
         {
@@ -246,6 +304,24 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "text": "Lists funding Social Security among his areas of policy interest.",
+          "sources": [
+            "c1"
+          ]
+        },
+        {
+          "text": "Lists term and age limits for federally elected politicians and Supreme Court justices among his areas of policy interest.",
+          "sources": [
+            "c1"
+          ]
+        },
+        {
+          "text": "Lists restoring research funding among his areas of policy interest.",
+          "sources": [
+            "c1"
+          ]
         }
       ],
       "positions": [
@@ -260,7 +336,8 @@
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Based on his 2026 Ballotpedia Candidate Connection survey; no campaign website found. His healthcare answer (patients' and providers' treatment decisions, lower premiums) does not take a side on public coverage and is not recorded as a position. Not upgraded to basic: only one position and no statements."
     },
     {
       "id": "richard-baker",
@@ -279,7 +356,8 @@
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Ballotpedia shows no 2026 Candidate Connection survey; no campaign website, questionnaire answers or news coverage with his statements found (also searched BallotReady and Tennessee Lookout listings, which have no issue content)."
     },
     {
       "id": "billy-cody",
@@ -298,7 +376,8 @@
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Ballotpedia shows no 2026 Candidate Connection survey; no campaign website, questionnaire answers or news coverage with his statements found (BallotReady and Tennessee Lookout listings have no issue content). He is listed as an independent candidate in the Nov. 3 general election (Ballotpedia; Tennessee Lookout 2026 general election voter guide)."
     },
     {
       "id": "tyler-mcclain",
@@ -317,7 +396,8 @@
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Ballotpedia shows no 2026 Candidate Connection survey; no campaign website, questionnaire answers or news coverage with his statements found (BallotReady and Tennessee Lookout listings have no issue content)."
     }
   ],
   "sources": [
@@ -359,6 +439,29 @@
       "kind": "candidate"
     },
     {
+      "id": "r1",
+      "url": "https://votekristiburke.com/non-negotiables",
+      "title": "Non-Negotiables",
+      "publisher": "Kristi for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "a1",
+      "url": "https://ballotpedia.org/Joshua_Ray_Ashburn",
+      "title": "Joshua Ray Ashburn",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "c1",
+      "url": "https://ballotpedia.org/Chris_Campbell_(Tennessee)",
+      "title": "Chris Campbell (Tennessee)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
       "id": "s6",
       "url": "https://harshbarger.house.gov/about",
       "title": "About",
@@ -378,22 +481,6 @@
       "id": "s8",
       "url": "https://ballotpedia.org/Kristi_Burke",
       "title": "Kristi Burke",
-      "publisher": "Ballotpedia",
-      "kind": "reference",
-      "date": "2026-10-21"
-    },
-    {
-      "id": "s9",
-      "url": "https://ballotpedia.org/Chris_Campbell_(Tennessee)",
-      "title": "Chris Campbell",
-      "publisher": "Ballotpedia",
-      "kind": "reference",
-      "date": "2026-10-21"
-    },
-    {
-      "id": "s10",
-      "url": "https://ballotpedia.org/Joshua_Ray_Ashburn",
-      "title": "Joshua Ray Ashburn",
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-10-21"

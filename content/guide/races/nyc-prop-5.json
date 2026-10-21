@@ -10,35 +10,123 @@
   "context": [
     {
       "text": "This is one of five charter amendment questions placed on the November 2026 ballot by the Commission on Government Efficiency (COGE), the 2026 New York City Charter Revision Commission created by Mayor Zohran Mamdani in May 2026 and chaired by Patrick Gaspard.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [],
   "measure": {
     "question": {
       "text": "Proposed Charter Amendment: Set Contribution Targets for Rainy Day Fund to Promote Sufficient Budgetary Reserves. Set target amount of money to hold in reserve funds, including rainy day fund, to address unexpected financial hardships in future years, and require development of methodology to calculate contributions. \"Yes\" requires Mayor to develop methodology for calculating deposits to rainy day fund, with deposits subject to approval in the City budget. \"No\" leaves laws unchanged, with no reserves target.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     "summary": {
       "text": "The amendment would set a target for the City to hold in reserve funds -- including the rainy day fund -- equal to 12% of the City's total tax revenues, intended to help the City weather unexpected financial downturns. It would require the Mayor's Office of Management and Budget, in consultation with the Comptroller, to develop a methodology for calculating the City's deposits toward that target; deposits would still be subject to approval in the annual City budget. New York City currently has no charter-mandated reserve target.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     },
     "yesMeans": "Amends the City Charter to set a 12%-of-tax-revenue target for the City's reserve funds and require the Mayor's budget office, with the Comptroller, to develop a methodology for calculating contributions toward that target, with deposits still subject to budget approval.",
     "noMeans": "Leaves the Charter unchanged: the City has no mandated reserve-fund target and no required methodology for rainy day fund contributions.",
     "argumentsFor": [
       {
         "text": "The fifth ballot proposal \"establishes reserves target of 12%, aimed at ensuring long-term fiscal stability,\" and would require the Mayor's Office of Management and Budget, in consultation with the Comptroller, \"to establish a deposit formula that would govern mandatory contributions to the rainy day fund,\" according to the Commission on Government Efficiency's release announcing the proposals.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       },
       {
         "text": "\"Cutting nonprofit and small business procurement time by more than half, adding a formal rainy-day fund ... are exactly the kinds of reforms our industry has been calling for,\" said Carlo A. Scissura, President & CEO of the New York Building Congress, addressing the ballot package including this proposal.",
-        "sources": ["s2"]
+        "sources": [
+          "s2"
+        ]
       }
     ],
     "argumentsAgainst": [
       {
         "text": "\"As written, city policy could allow withdrawals for practically any reason and avoid deposits even when revenues are strong,\" said Andrew Rein, president of the Citizens Budget Commission, who called the proposal \"deeply disappointing\" because the commission did not go beyond the rainy day fund to also address preventing cuts to city services and public-sector layoffs.",
-        "sources": ["s3"]
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Reinvent Albany, in a statement to the NYC Campaign Finance Board, as quoted in the Board's summary: \"Sadly, this is not the rainy day fund New York City so badly needs to prevent catastrophic budget cuts and layoffs if revenues plunge.\"",
+        "sources": [
+          "s12"
+        ]
+      },
+      {
+        "text": "Reinvent Albany, same statement, on withdrawals: the proposal would \"allow the Mayor to define 'compelling fiscal need' which is like allowing them to write their own permission slip to raid the piggy bank.\"",
+        "sources": [
+          "s12"
+        ]
+      }
+    ],
+    "fullTextUrl": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/appendix_c_proposed_charter_amendments_20260723.pdf",
+    "currentLaw": {
+      "text": "Voters approved a Charter amendment in 2019 allowing the City to create a Rainy Day Fund, and the State Legislature made corresponding changes in 2020. These provisions do not require the City to deposit or maintain any particular amount; whether to deposit is left to the Mayor and City Council in the annual budget negotiation. State law prohibits withdrawing more than 50 percent of the fund unless the Mayor certifies a compelling fiscal need.",
+      "sources": [
+        "s10",
+        "s12"
+      ]
+    },
+    "fiscalImpact": {
+      "text": "No official fiscal impact statement was published for this charter amendment. The Commission's final report puts the fund's current balance at $1.969 billion; the amendment sets a target of 12 percent of the prior year's City tax revenue across the fund and other reserves but gives no dollar figure, and deposits would still be subject to appropriation in the annual budget with Mayoral and Council approval, so the amendment itself does not appropriate money.",
+      "sources": [
+        "s10",
+        "s11"
+      ]
+    },
+    "supporters": [
+      {
+        "text": "Commission on Government Efficiency (COGE), the Charter Revision Commission convened by Mayor Zohran Mamdani (sponsor of the proposal)",
+        "sources": [
+          "s2",
+          "s11"
+        ]
+      },
+      {
+        "text": "Citizens Union (recommends a Yes vote on all five proposals, noting it is not perfect)",
+        "sources": [
+          "s14"
+        ]
+      },
+      {
+        "text": "Common Cause New York (recommends a Yes vote)",
+        "sources": [
+          "s15"
+        ]
+      },
+      {
+        "text": "Hotel and Gaming Trades Council (submitted a statement in support)",
+        "sources": [
+          "s12"
+        ]
+      },
+      {
+        "text": "D9 Harlem Votes (submitted a statement in support)",
+        "sources": [
+          "s12"
+        ]
+      },
+      {
+        "text": "DRUM Beats (submitted a statement in support)",
+        "sources": [
+          "s12"
+        ]
+      }
+    ],
+    "opponents": [
+      {
+        "text": "Reinvent Albany (submitted a statement opposed)",
+        "sources": [
+          "s12"
+        ]
       }
     ]
   },
@@ -66,8 +154,46 @@
       "publisher": "The City Reporter",
       "kind": "news",
       "date": "2026-07-23"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/appendix_b_proposed_abstracts_20260723.pdf",
+      "title": "Appendix B: Abstracts of the proposed ballot questions",
+      "publisher": "NYC Commission on Government Efficiency (Charter Revision Commission)",
+      "kind": "official",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.nyc.gov/assets/charter/downloads/pdf/2026/proposed_final_report_20260723.pdf",
+      "title": "Commission on Government Efficiency Proposed Final Report",
+      "publisher": "NYC Commission on Government Efficiency (Charter Revision Commission)",
+      "kind": "official",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.nycvotes.org/whats-on-the-ballot/2026-general-election-voter-guide/ballot-proposals-2026/ballot-proposal-5/",
+      "title": "Ballot Proposal 5: statement summaries (2026 General Election Voter Guide)",
+      "publisher": "NYC Campaign Finance Board (NYC Votes)",
+      "kind": "official"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.commoncause.org/new-york/2026-nyc-ballot-proposals/",
+      "title": "2026 NYC Ballot Proposals: What New Yorkers Should Know",
+      "publisher": "Common Cause New York",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://citizensunion.org/document/2026-10-01/citizens-union-recommends-a-yes-vote-on-all-five-2026-charter-proposals/",
+      "title": "Citizens Union Recommends a Yes Vote on All Five 2026 Charter Proposals",
+      "publisher": "Citizens Union",
+      "kind": "candidate",
+      "date": "2026-10-01"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Official ballot question text and yes/no framing are taken verbatim from the Charter Revision Commission's Appendix A filing."
+  "researchNotes": "Official ballot question text and yes/no framing are taken verbatim from the Charter Revision Commission's Appendix A filing. Supporter and opponent lists for this proposal come from the NYC Campaign Finance Board's published summaries of statements it received (organizations that submitted a statement) and from groups' own published positions. No registered ballot-proposal campaign committees or finance filings were found, so no campaign finance is shown."
 }

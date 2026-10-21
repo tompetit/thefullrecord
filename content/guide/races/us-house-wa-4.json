@@ -29,7 +29,7 @@
       "summary": {
         "text": "Amanda McKinney is a Republican and a member of the Yakima County Board of Commissioners, first elected in 2020, who is running for the open 4th District seat after Rep. Dan Newhouse announced he would not seek reelection. She describes herself as an America First Republican whose priorities include defending faith, family, agriculture, and rural Washington. She led the August 4 top-two primary with 34.9%.",
         "sources": [
-          "s4",
+          "s6",
           "s1"
         ]
       },
@@ -37,39 +37,58 @@
         {
           "text": "Was first elected to the Yakima County Board of Commissioners in 2020 and currently serves on it.",
           "sources": [
-            "s4",
+            "s6",
             "s1"
           ]
         },
         {
           "text": "As commissioner, has focused on water and agriculture, including support for the Yakima Basin Integrated Plan, a county water bank built through senior water rights acquisition, and floodplain restoration projects; the Yakima Herald also reports she opposed prolonged COVID-19 shutdowns and vaccine mandates and has supported law enforcement, emergency communications, and efforts to address fentanyl and violent crime.",
           "sources": [
-            "s4"
+            "s6"
           ]
         },
         {
           "text": "In 2024 she appeared in a television ad supporting Rep. Dan Newhouse's reelection against Jerrod Sessler, a Trump-endorsed Republican challenger.",
           "sources": [
-            "s7"
+            "s9"
           ]
         },
         {
           "text": "Announced her congressional campaign days after Newhouse said he would not seek reelection; the seat is open for the first time in about a decade. Her seat on the county commission (Position 1) drew other candidates' filings for 2026.",
           "sources": [
-            "s4",
-            "s9"
+            "s6",
+            "s11"
           ]
         },
         {
           "text": "Describes herself as an America First Republican aligned with President Trump on border security, the Second Amendment, and eliminating DEI programs. Trump endorsed her campaign on January 6, 2026, as did House Speaker Mike Johnson.",
           "sources": [
-            "s4",
-            "s7"
+            "s6",
+            "s9"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says she will oppose gun control in Congress and has testified against gun restrictions as a county commissioner.",
+          "quote": "In Congress, Amanda will oppose unconstitutional gun control and stand firm in defense of the right of Americans to protect themselves, their families, and their communities.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "According to her campaign website, she supports protecting Title IX and limiting girls' and women's sports to female athletes, excluding transgender girls and women.",
+          "quote": "She supports protecting Title IX and ensuring that women’s sports remain for biological females.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves as a Yakima County Commissioner.",
@@ -79,7 +98,8 @@
           ]
         }
       ],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://www.mckinneyforwashington.com"
     },
     {
       "id": "john-duresky",
@@ -92,9 +112,9 @@
       "summary": {
         "text": "John Duresky is a Democrat from West Richland and a retired Air Force Major who spent 37 years in government service, including civil service as a project control officer at the Hanford Site. He left federal employment under an early-retirement offer in 2025 and is running for office for the first time in decades, campaigning on affordability, rural health care, and government accountability.",
         "sources": [
-          "s5",
-          "s6",
-          "s8"
+          "s7",
+          "s8",
+          "s10"
         ]
       },
       "background": [
@@ -108,33 +128,33 @@
           "text": "Retired Air Force Major. His campaign website says he served three combat deployments, and describes 37 years of service overall.",
           "sources": [
             "s3",
-            "s8"
+            "s10"
           ]
         },
         {
           "text": "Worked in civil service for several years as a project control officer at the Hanford nuclear cleanup site.",
           "sources": [
-            "s5",
-            "s6"
+            "s7",
+            "s8"
           ]
         },
         {
           "text": "Took the Department of Government Efficiency's early-resignation offer in 2025, ending 37 years of government service; he first passed on the offer and later chose early retirement.",
           "sources": [
-            "s5",
-            "s6"
+            "s7",
+            "s8"
           ]
         },
         {
           "text": "Lives in West Richland and had attended Benton County Democratic Party meetings before running. This is his first campaign for office in decades, according to the Yakima Herald.",
           "sources": [
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Signed the Take BAC Congress pledge (term limits, a lobbying moratorium, a ban on congressional stock trading, overturning Citizens United, and Supreme Court ethics rules). Endorsed by the Yakima County Democrats.",
           "sources": [
-            "s5"
+            "s7"
           ]
         }
       ],
@@ -166,17 +186,9 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Supports restoring ACA subsidies, protecting Medicare and Medicaid, and says the country should move toward universal healthcare over time.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
           "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Calls for closing the stepped-up basis and carried-interest tax loopholes, which he says the wealthiest Americans use against everyone else.",
+          "summary": "Calls for closing the stepped-up basis and carried-interest tax loopholes, describing the tax code as favoring the wealthiest 1%.",
           "sources": [
             "s2"
           ]
@@ -184,30 +196,34 @@
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Campaign website says he will fight to raise the federal minimum wage.",
+          "summary": "Campaign issues page says he will fight to raise the federal minimum wage.",
+          "quote": "Raise the federal minimum wage so work actually pays",
           "sources": [
-            "s3"
+            "s5"
           ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Says he will fight to remove tariffs that he says hurt farmers and raise consumer prices.",
+          "quote": "Remove harmful tariffs that hurt our farmers and raise prices for consumers",
           "sources": [
-            "s3"
+            "s5"
           ]
         },
         {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Supports secure borders alongside a pathway to legal status and citizenship, and says ICE needs major structural reform.",
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports restoring and expanding ACA subsidies, protecting Medicare and Medicaid from cuts, and moving toward universal healthcare access.",
+          "quote": "Restore and expand ACA subsidies to make insurance affordable",
           "sources": [
-            "s2"
+            "s5"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.johnduresky4congress.com"
     }
   ],
   "sources": [
@@ -234,41 +250,55 @@
     },
     {
       "id": "s4",
+      "url": "https://www.mckinneyforwashington.com/",
+      "title": "McKinney for Washington",
+      "publisher": "McKinney for Washington",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.johnduresky4congress.com/issues",
+      "title": "Issues",
+      "publisher": "John Duresky for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
       "url": "https://www.yakimaherald.com/news/local/government/yakima-county-commissioner-amanda-mckinney-announces-campaign-for-congress/article_9c2a90d4-c6f6-4c5e-b4f2-57896e969ff6.html",
       "title": "Yakima County Commissioner Amanda McKinney announces campaign for Congress",
       "publisher": "Yakima Herald-Republic",
       "kind": "news"
     },
     {
-      "id": "s5",
+      "id": "s7",
       "url": "https://www.yakimaherald.com/news/local/government/elections/democrat-john-duresky-stresses-affordability-and-accountability-in-campaign-for-congress/article_9877b63c-762e-43f2-81a5-3b961af0e73b.html",
       "title": "Democrat John Duresky stresses affordability and accountability in campaign for Congress",
       "publisher": "Yakima Herald-Republic",
       "kind": "news"
     },
     {
-      "id": "s6",
+      "id": "s8",
       "url": "https://www.columbiagorgenews.com/news/john-duresky-hosts-town-halls-in-klickitat-co/article_76cb66ca-60dd-4aaf-9f38-197c7e6d5c7f.html",
       "title": "After a career in the military and civil service, he's one of five, and the only Democrat vying for Rep Newhouse's seat",
       "publisher": "Columbia Gorge News",
       "kind": "news"
     },
     {
-      "id": "s7",
+      "id": "s9",
       "url": "https://www.tricitiesbusinessnews.com/articles/central-wa-congressional-race-heats-up",
       "title": "As barbs fly and Trump wades in, a central WA congressional race heats up",
       "publisher": "Tri-City Business News (Washington State Standard)",
       "kind": "news"
     },
     {
-      "id": "s8",
+      "id": "s10",
       "url": "https://johnduresky.com/",
       "title": "John Duresky for Congress",
       "publisher": "John Duresky for Congress (campaign website)",
       "kind": "candidate"
     },
     {
-      "id": "s9",
+      "id": "s11",
       "url": "https://www.yakimaherald.com/news/local/government/elections/11-now-running-for-newhouses-seat-with-new-candidates-for-yakima-county-offices/article_9d4a2d9a-986b-430c-ab4a-4b672a453258.html",
       "title": "11 now running for Newhouse's seat, with new candidates for Yakima County offices",
       "publisher": "Yakima Herald-Republic",

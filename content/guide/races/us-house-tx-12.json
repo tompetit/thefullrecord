@@ -32,7 +32,7 @@
         "sources": [
           "s3",
           "s4",
-          "s6"
+          "s8"
         ]
       },
       "background": [
@@ -40,34 +40,34 @@
           "text": "Born in Texas and lives in Fort Worth. His official biography describes him as a fifth-generation Texan and fourth-generation Fort Worth native.",
           "sources": [
             "s3",
-            "s6"
+            "s8"
           ]
         },
         {
           "text": "Earned a B.A. from the University of Texas at Austin.",
           "sources": [
             "s3",
-            "s6"
+            "s8"
           ]
         },
         {
           "text": "Spent nearly a decade working alongside his father at the family-run gourmet food and wine store in Fort Worth, according to his official biography; Ballotpedia also lists work on political campaigns and partnerships in several real estate investment companies.",
           "sources": [
             "s3",
-            "s6"
+            "s8"
           ]
         },
         {
           "text": "Won election to the Texas House of Representatives, District 97, in 2012 and served from 2013 to 2025, representing part of Tarrant County.",
           "sources": [
             "s3",
-            "s6"
+            "s8"
           ]
         },
         {
           "text": "In the Texas House, held leadership positions including chairman of the House Committee on Energy Resources and chairman of the House Republican Caucus, according to his official biography.",
           "sources": [
-            "s6"
+            "s8"
           ]
         },
         {
@@ -80,7 +80,7 @@
           "text": "Took office in January 2025 and serves on the House Energy and Commerce Committee. His district includes parts of Tarrant and Parker Counties.",
           "sources": [
             "s3",
-            "s6"
+            "s8"
           ]
         },
         {
@@ -93,11 +93,30 @@
       "priorities": [],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Introduced the Better Care, Better Cost Act, which he says would use market-based incentives to strengthen Medicaid.",
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His official issues page, describing the One Big Beautiful Bill Act he says he is proud to deliver on, lists nearly $150 billion for border security and deportations plus hiring bonuses for ICE and Border Patrol agents.",
+          "quote": "Allocates nearly $150 billion to secure our border and facilitate deportations",
           "sources": [
-            "s4"
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "His official issues page presents the bill's cuts to clean-energy funding and rescission of electric-vehicle mandates as accomplishments.",
+          "quote": "Cuts billions in handouts for Green New Energy initiatives and groups",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "His official issues page lists the bill's support for school choice through educational savings accounts among its accomplishments.",
+          "quote": "Supports school choice through educational savings accounts",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -154,8 +173,8 @@
         "text": "Angela 'Heli' Rodriguez Prilliman is the Democratic nominee challenging incumbent Craig Goldman in Texas's 12th District. A Fort Worth entrepreneur, she describes a career in the technology startup world and as the founder of a nail salon and online beauty-education company. She has not held elected office and is campaigning on universal health care, universal child care, voting rights and fully funding public schools.",
         "sources": [
           "s5",
-          "s7",
-          "s8"
+          "s9",
+          "s10"
         ]
       },
       "background": [
@@ -163,40 +182,40 @@
           "text": "Raised in Stephenville, Texas; graduated from Stephenville High School in 2005 and earned a bachelor's degree from Texas A&M University in 2009.",
           "sources": [
             "s5",
-            "s7",
-            "s8"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "According to her campaign website, she is the founder of Lacquerbar and Lacquerbar U, a nail salon and online education startup that she says was venture-backed and was one of the first 24 startups chosen for the inaugural Backstage Capital Accelerator.",
           "sources": [
-            "s7"
+            "s9"
           ]
         },
         {
           "text": "Says she was part of the founding team at Fivestars, a software company serving small businesses that, per her website, was acquired by SumUp in late 2021.",
           "sources": [
-            "s7"
+            "s9"
           ]
         },
         {
           "text": "Her campaign website says she is an Entrepreneur-in-Residence at the accelerator FourthWave, a founder mentor for the Black Ambition Futurists Program, and co-creator of the podcast The C Curve for nail technicians.",
           "sources": [
-            "s7"
+            "s9"
           ]
         },
         {
           "text": "Ballotpedia lists her profession as small business owner; she has not previously held elected office and won the Democratic nomination in the March 3, 2026 primary.",
           "sources": [
-            "s8"
+            "s10"
           ]
         },
         {
           "text": "Describes herself as a Fort Worth mom and cites her grandmother, Fort Worth civil rights activist Pauline Gasca Valenciano, as an influence.",
           "sources": [
             "s5",
-            "s7",
-            "s8"
+            "s9",
+            "s10"
           ]
         }
       ],
@@ -235,6 +254,15 @@
           "summary": "Lists universal child care among her core campaign issues.",
           "sources": [
             "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign Issues page says universal health care and child care would be paid for by taxing billionaires.",
+          "quote": "I'm advocating for a universal healthcare system and a universal child care system, all paid for by taxing the small group of billionaires who have taken advantage of American workers.",
+          "sources": [
+            "s6"
           ]
         }
       ],
@@ -286,6 +314,22 @@
     },
     {
       "id": "s6",
+      "url": "https://www.helifortexas.com/issues",
+      "title": "The Issues & FAQ",
+      "publisher": "Heli for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://craiggoldman.house.gov/issues/onebigbeautifulbill",
+      "title": "Working Families Tax Cut (One Big Beautiful Bill) issues page",
+      "publisher": "Office of Rep. Craig Goldman",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
       "kind": "official",
       "url": "https://craiggoldman.house.gov/about",
       "title": "About",
@@ -293,7 +337,7 @@
       "publisher": "Office of Rep. Craig Goldman"
     },
     {
-      "id": "s7",
+      "id": "s9",
       "kind": "candidate",
       "url": "https://www.helifortexas.com/bio",
       "title": "Heli's Bio - Heli for Congress TX-12",
@@ -301,7 +345,7 @@
       "publisher": "Heli Rodriguez Prilliman campaign website"
     },
     {
-      "id": "s8",
+      "id": "s10",
       "kind": "reference",
       "url": "https://ballotpedia.org/Heli_Rodriguez_Prilliman",
       "title": "Heli Rodriguez Prilliman",

@@ -30,8 +30,8 @@
       "summary": {
         "text": "Randy Weber is the Republican incumbent seeking re-election in Texas's 14th District. He founded and ran an air-conditioning company for decades, served on the Pearland City Council and in the Texas House, and was first elected to Congress in 2012. He serves on the Energy and Commerce and Science, Space, and Technology committees, where he chairs the Science Committee's Energy Subcommittee.",
         "sources": [
-          "s5",
-          "s6",
+          "s7",
+          "s8",
           "s3"
         ]
       },
@@ -40,24 +40,24 @@
           "text": "Weber was born in Pearland, Texas, in 1953, and according to his House biography has lived within a 20-mile radius of the Gulf Coast area all his life.",
           "sources": [
             "s3",
-            "s7",
-            "s5"
+            "s9",
+            "s7"
           ]
         },
         {
           "text": "He attended Alvin Community College and earned a bachelor's degree from the University of Houston-Clear Lake, a Bachelor of Science in public affairs in 1977.",
           "sources": [
             "s3",
-            "s5",
-            "s7"
+            "s7",
+            "s9"
           ]
         },
         {
           "text": "He founded Weber's Air & Heat, an air-conditioning company, in 1981 and owned it until 2016.",
           "sources": [
-            "s5",
+            "s7",
             "s3",
-            "s7"
+            "s9"
           ]
         },
         {
@@ -69,40 +69,50 @@
         {
           "text": "Weber lost a January 2007 special-election runoff for a Texas House seat, then won the seat in 2008 and served in the Texas House until 2012. According to his House biography, he served on the Environmental Regulation and Public Education committees and as vice chair of Border and Intergovernmental Affairs.",
           "sources": [
-            "s7",
+            "s9",
             "s3",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "According to his House biography, he authored legislation in the Texas House to combat human trafficking.",
           "sources": [
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "In 2012 he won an open-seat race for the 14th District after Ron Paul retired, winning the Republican runoff against Felicia Harris and then defeating Democrat Nick Lampson in the general election; he took office in January 2013.",
           "sources": [
-            "s7",
+            "s9",
             "s3"
           ]
         },
         {
           "text": "In Congress he serves on the Energy and Commerce Committee (Energy, Environment, and Oversight and Investigations subcommittees) and on the Science, Space, and Technology Committee, where he chairs the Energy Subcommittee; he previously served on the Foreign Affairs and Transportation and Infrastructure committees.",
           "sources": [
-            "s6",
-            "s5"
+            "s8",
+            "s7"
           ]
         },
         {
           "text": "According to his House biography, he is married to Brenda Weber, a retired schoolteacher, and they have three children and eight grandchildren; he is an active member of his church and community.",
           "sources": [
-            "s5"
+            "s7"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In a 2026 constituent newsletter he said he voted for the Secure America Act, which he described as a $70 billion investment in border security that ensures ICE and CBP agents have the resources they need.",
+          "quote": "ensures our Immigration and Customs Enforcement (ICE) agents and Customs and Border Protection (CBP) officers have the resources they need",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the Committee on Energy and Commerce as Vice Chair of its Subcommittee on Energy, and on its Subcommittees on Oversight and Investigations and Environment, for the 119th Congress (2025-2026).",
@@ -121,7 +131,8 @@
       ],
       "website": "https://weber.house.gov",
       "researchDepth": "basic",
-      "bioguideId": "W000814"
+      "bioguideId": "W000814",
+      "researchNotes": "Position drawn from a newsletter on his official site; his issues pages list only older press releases. Sponsored bills and roll-call votes are left to separate scripts."
     },
     {
       "id": "thurman-bill-bartie",
@@ -135,7 +146,7 @@
         "text": "Thurman Bill Bartie is the Democratic nominee challenging incumbent Randy Weber in Texas's 14th District. A lifelong Port Arthur resident, he has worked as a funeral director, teacher and pastor, was elected Justice of the Peace for Precinct 8 in Jefferson County in 1994, and served two terms as Mayor of Port Arthur. His campaign website lists economic opportunity, education, infrastructure and healthcare among his priorities.",
         "sources": [
           "s4",
-          "s9"
+          "s11"
         ]
       },
       "background": [
@@ -167,21 +178,21 @@
           "text": "His career experience includes working as a funeral director and embalmer at Hannah Funeral Home, as a teacher at Memorial High School, and as a pastor.",
           "sources": [
             "s4",
-            "s8"
+            "s10"
           ]
         },
         {
           "text": "In 1994 he was elected the first African American Justice of the Peace for Precinct 8 in Jefferson County.",
           "sources": [
             "s4",
-            "s9"
+            "s11"
           ]
         },
         {
           "text": "In 2019 he was elected Mayor of Port Arthur, defeating incumbent Derrick Freeman in a runoff, and served two terms.",
           "sources": [
             "s4",
-            "s8"
+            "s10"
           ]
         },
         {
@@ -213,17 +224,45 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Says he supports healthcare access for every American through complete funding of the Affordable Care Act.",
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign site says policy is needed to roll back tariffs, which he says have raised prices.",
+          "quote": "we need policy that will roll back tariffs which have raised prices",
           "sources": [
-            "s4"
+            "s6"
           ]
         }
       ],
       "record": [],
       "website": "https://VoteBartie.org",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "The homeland security budget for ICE is $70 Billion dealing with mass deportation. It has resulted in major uproars in our cities and has led to loss of human life.",
+          "context": "On his campaign website",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "clearing barriers to build more affordable housing",
+          "context": "On his campaign website, in a sentence about affordability",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "I support strengthening and restoring the Affordable Care Act so people can manage health concerns and still maintain a good quality of life.",
+          "context": "On his campaign website",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "researchNotes": "Drawn from his campaign website 'Where I Stand' page. No stance found on abortion, guns or taxes."
     }
   ],
   "sources": [
@@ -261,6 +300,22 @@
     },
     {
       "id": "s5",
+      "url": "https://weber.house.gov/news/email/show.aspx?ID=NHTYEZWXSFU2WFXCID6RDKCKKQ",
+      "title": "The Secure America Act (newsletter)",
+      "publisher": "Office of Rep. Randy Weber",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://votebartie.org/where",
+      "title": "Where I Stand",
+      "publisher": "Thurman Bill Bartie campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
       "url": "https://weber.house.gov/biography/about-randy.htm",
       "title": "About Randy",
       "publisher": "Office of Rep. Randy Weber",
@@ -268,7 +323,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s6",
+      "id": "s8",
       "url": "https://weber.house.gov/biography/committees.htm",
       "title": "Committees and Caucuses",
       "publisher": "Office of Rep. Randy Weber",
@@ -276,7 +331,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s7",
+      "id": "s9",
       "url": "https://en.wikipedia.org/wiki/Randy_Weber",
       "title": "Randy Weber",
       "publisher": "Wikipedia",
@@ -284,7 +339,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s8",
+      "id": "s10",
       "url": "https://panews.com/?p=70514",
       "title": "Thurman Bill Bartie topples Freeman in Saturday runoff for Port Arthur mayor",
       "publisher": "Port Arthur News",
@@ -292,7 +347,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s9",
+      "id": "s11",
       "url": "https://votebartie.org",
       "title": "Thurman \"Bill\" Bartie, People Over Politics",
       "publisher": "Bartie campaign website",

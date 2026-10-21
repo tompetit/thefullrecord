@@ -31,64 +31,64 @@
         "sources": [
           "s1",
           "s2",
-          "s5",
-          "s6"
+          "s8",
+          "s9"
         ]
       },
       "background": [
         {
           "text": "According to her campaign website, she grew up in North San Diego County in a military family; her father immigrated to the United States and served in the Army.",
           "sources": [
-            "s5"
+            "s8"
           ]
         },
         {
           "text": "Earned a bachelor's degree in peace and conflict studies from UC Berkeley and a J.D. from Fordham University School of Law.",
           "sources": [
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "Served as a Peace Corps volunteer in Botswana and, after law school, founded a legal clinic in the Deep South associated with the Mississippi Center for Justice.",
           "sources": [
-            "s5",
-            "s6"
+            "s8",
+            "s9"
           ]
         },
         {
           "text": "Worked as an attorney for the National Labor Relations Board and as counsel on the House Education and Labor Committee, where, according to her campaign, she helped write the PRO Act; she later joined the Economic Policy Institute as associate labor counsel.",
           "sources": [
-            "s5",
-            "s6"
+            "s8",
+            "s9"
           ]
         },
         {
           "text": "Served as a San Diego deputy city attorney from 2018 to 2020; her campaign says she took on the opioid industry, price gougers and polluters in that role.",
           "sources": [
             "s2",
-            "s5",
-            "s6"
+            "s8",
+            "s9"
           ]
         },
         {
           "text": "Elected to the San Diego City Council in 2020, defeating Joe Leventhal, and took office in December 2020; she was re-elected without opposition in March 2024.",
           "sources": [
             "s1",
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "On the City Council she chairs the Public Safety Committee, according to her campaign, and was appointed to the San Diego County Regional Airport Authority board; she co-sponsored the ordinance making San Diego the first city to require stores to honor digital-only coupons in-store.",
           "sources": [
-            "s5",
-            "s6"
+            "s8",
+            "s9"
           ]
         },
         {
           "text": "Filed to run for the California State Senate in 2026, then instead ran for the 48th Congressional District and advanced from the June 2 primary.",
           "sources": [
             "s1",
-            "s6"
+            "s9"
           ]
         }
       ],
@@ -122,19 +122,29 @@
           ]
         },
         {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Says she opposes ICE tactics she calls unconstitutional overreach while supporting measures that keep borders secure and provide legal pathways to citizenship for long-term residents and Dreamers.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Says she will fight against what she calls Donald Trump's tariff war, which she says has made essential goods more expensive.",
           "sources": [
             "s2"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says she will work to codify Roe v. Wade into federal law and reverse cuts to Planned Parenthood.",
+          "quote": "Marni will lead the charge to reverse Trump’s cuts to Planned Parenthood and be a deciding vote to codify Roe v. Wade into law",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Says she will pursue gun violence prevention laws including banning assault weapons and high-capacity magazines, universal background checks and stronger red flag laws.",
+          "quote": "banning assault weapons and high-capacity magazines, requiring universal background checks, closing loopholes that allow dangerous individuals to access firearms, cracking down on illegal gun trafficking, strengthening red flag laws",
+          "sources": [
+            "s5"
           ]
         }
       ],
@@ -157,7 +167,7 @@
           "s1",
           "s3",
           "s4",
-          "s7"
+          "s10"
         ]
       },
       "background": [
@@ -171,47 +181,47 @@
           "text": "Served in the U.S. Navy as an aircraft electrician from 1974 to 1979, then earned a pilot's license.",
           "sources": [
             "s3",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Graduated from San Diego State University with a bachelor's degree in electrical engineering in 1985, and founded a technical writing company, Technical Standards, Inc.",
           "sources": [
             "s3",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Worked as a pilot for Delta Air Lines from 1986 to 2020, flying Boeing 757 and 767 aircraft, and retired early in 2020; he describes himself as a retired Delta pilot.",
           "sources": [
             "s4",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Served on the San Marcos City Council from 2004 to 2006 and was elected mayor of San Marcos in 2006, winning re-election unopposed in 2010 and 2014.",
           "sources": [
             "s1",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Won the District 5 seat on the San Diego County Board of Supervisors in 2018 and took office in January 2019; he was re-elected in 2022 with 60.1% of the vote.",
           "sources": [
             "s1",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Launched a 2025 campaign against Rep. Mike Levin in the 49th District, then in 2026 announced a run for the 48th District after redistricting under Proposition 50; Rep. Darrell Issa, who is not seeking re-election, endorsed him.",
           "sources": [
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "According to Wikipedia, he is married with two children and lived in Oceanside as of 2022.",
           "sources": [
-            "s7"
+            "s10"
           ]
         }
       ],
@@ -229,10 +239,31 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Says he opposes mandates on costly energy alternatives and electric vehicles, and calls for using fossil fuels responsibly alongside incentives and clean-energy innovation such as carbon capture, hydrogen and nuclear power.",
+          "quote": "Oppose proposals that charge people more for electricity based on income or mandate costly energy alternatives that drive up household costs",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://desmondforcongress.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Enforce existing immigration laws to stop illegal crossings and overstays.",
+          "context": "On his campaign website's Secure Border page",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "researchNotes": "Drawn from his campaign website priority pages and plan posts."
     }
   ],
   "sources": [
@@ -266,20 +297,41 @@
     },
     {
       "id": "s5",
+      "url": "https://www.marnivonwilpert.com/issues",
+      "title": "Issues",
+      "publisher": "Marni von Wilpert for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://desmondforcongress.com/energy",
+      "title": "Energy",
+      "publisher": "Jim Desmond for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://desmondforcongress.com/secure-border",
+      "title": "Secure Border",
+      "publisher": "Desmond for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
       "url": "https://www.marnivonwilpert.com/about",
       "title": "About",
       "publisher": "Marni von Wilpert for Congress",
       "kind": "candidate"
     },
     {
-      "id": "s6",
+      "id": "s9",
       "url": "https://en.wikipedia.org/wiki/Marni_von_Wilpert",
       "title": "Marni von Wilpert",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s7",
+      "id": "s10",
       "url": "https://en.wikipedia.org/wiki/Jim_Desmond",
       "title": "Jim Desmond",
       "publisher": "Wikipedia",

@@ -29,58 +29,58 @@
       "summary": {
         "text": "Andrew Clyde is the Republican incumbent in Georgia's 9th Congressional District, which he has represented since January 2021. A Navy veteran of 28 years, he founded the firearms retailer Clyde Armory in Athens before entering politics. He serves on the House Appropriations and Budget Committees and is seeking another term.",
         "sources": [
-          "s9",
+          "s12",
           "s2",
-          "s10"
+          "s13"
         ]
       },
       "background": [
         {
           "text": "Born November 22, 1963, according to Wikipedia, which lists his birthplace as Walkerton, Ontario, Canada and says he grew up in Indiana and New York.",
           "sources": [
-            "s10"
+            "s13"
           ]
         },
         {
           "text": "Earned his commission from the University of Notre Dame and served as a U.S. Navy officer for 28 years, including three combat deployments to Kuwait and Iraq, according to his official House biography.",
           "sources": [
-            "s9",
+            "s12",
             "s2"
           ]
         },
         {
           "text": "After his discharge, settled in Athens, Georgia, and earned a master's degree in corporate finance and entrepreneurship from the University of Georgia.",
           "sources": [
-            "s9",
+            "s12",
             "s2"
           ]
         },
         {
           "text": "Established Clyde Armory in 1991 and, according to his official biography, grew it into a nationwide firearms business that now operates two retail locations in Georgia.",
           "sources": [
-            "s9",
+            "s12",
             "s2"
           ]
         },
         {
           "text": "Ran in 2020 for the open 9th District seat after Doug Collins did not seek re-election; he won the August 11 Republican primary runoff over state Rep. Matt Gurtler and defeated Democrat Devin Pandy in the November general election.",
           "sources": [
-            "s10",
+            "s13",
             "s2"
           ]
         },
         {
           "text": "First elected in November 2020 and took office January 3, 2021. In the 119th Congress (2025-2026) he sits on the House Appropriations Committee (Subcommittees on Commerce-Justice-Science and on Labor-HHS-Education) and the House Budget Committee.",
           "sources": [
-            "s9",
+            "s12",
             "s2",
-            "s10"
+            "s13"
           ]
         },
         {
           "text": "According to his official biography, he and his wife, Jennifer, live in Jackson County, Georgia.",
           "sources": [
-            "s9"
+            "s12"
           ]
         }
       ],
@@ -134,7 +134,7 @@
         }
       ],
       "researchDepth": "basic",
-      "bioguideId": "C001125"
+      "bioguideId": "C001116"
     },
     {
       "id": "caitlyn-gegen",
@@ -148,7 +148,7 @@
         "text": "Caitlyn Gegen is the Democratic nominee in Georgia's 9th Congressional District. She describes herself as a community organizer with experience in local government, raised by public-school-teacher parents, and a University of Georgia graduate who also studied at the London School of Economics. She won the May 19, 2026 Democratic primary and says she is running on protecting human rights, affordable living, and universal healthcare.",
         "sources": [
           "s3",
-          "s11"
+          "s14"
         ]
       },
       "background": [
@@ -168,14 +168,14 @@
           "text": "Describes herself as a \"proud Double Dawg\" and recipient of Georgia's HOPE Scholarship; Ballotpedia lists a bachelor's degree and a graduate degree from the University of Georgia.",
           "sources": [
             "s3",
-            "s11"
+            "s14"
           ]
         },
         {
           "text": "Studied at the London School of Economics and lived in London, which she says gave her experience of a different form of government and social safety net.",
           "sources": [
             "s3",
-            "s11"
+            "s14"
           ]
         },
         {
@@ -187,7 +187,7 @@
         {
           "text": "Won the May 19, 2026 Democratic primary for the seat, defeating Nick Alex, 60.0% to 40.0%.",
           "sources": [
-            "s11"
+            "s14"
           ]
         }
       ],
@@ -215,34 +215,57 @@
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Wants to overturn the Dobbs decision and opposes Georgia's six-week abortion ban.",
+          "summary": "Says she will fight to overturn the Dobbs decision and describes Georgia's six-week abortion ban as hurting women.",
           "sources": [
-            "s3"
+            "s10"
           ]
         },
         {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Says she will fight for \"safer gun legislation.\"",
+          "summary": "Says she will fight for \"safer gun legislation\" and told Now Georgia people should be trained to own a firearm.",
           "sources": [
-            "s3"
+            "s10",
+            "s9"
+          ],
+          "quote": "I am going to fight for safer gun legislation"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Told Now Georgia she supports abolishing U.S. Immigration and Customs Enforcement, arguing its responsibilities could be handled by other federal agencies.",
+          "quote": "I don't believe ICE serves a unique purpose",
+          "sources": [
+            "s9"
           ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Advocates for \"free universal healthcare,\" saying government-provided healthcare is cheaper and produces better outcomes.",
+          "summary": "Told Now Georgia she wants to restore Affordable Care Act subsidies and move toward Medicare for All; her candidate questionnaire says she will provide Medicare for all.",
+          "quote": "provide Medicare for all",
           "sources": [
-            "s3"
+            "s9",
+            "s10"
           ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Campaign says she will work to \"expand access to affordable living by increasing the minimum wage.\"",
+          "summary": "Her candidate questionnaire says she will fight to increase the minimum wage.",
+          "quote": "I will fight to increase the minimum wage",
           "sources": [
-            "s3"
+            "s10"
           ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Coverage of her campaign launch says she promised to fight for taxing billionaires.",
+          "sources": [
+            "s11"
+          ],
+          "quote": "taxing billionaires"
         }
       ],
       "record": [],
@@ -313,20 +336,44 @@
     },
     {
       "id": "s9",
+      "url": "https://nowgeorgia.com/gegen-pitches-progressive-platform-systemic-change-in-9th-district-race/",
+      "title": "Gegen pitches progressive platform, systemic change in 9th District race",
+      "publisher": "Now Georgia (Apr. 22, 2026)",
+      "kind": "news",
+      "date": "2026-04-22"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.mainstreetnews.com/braselton/news/candidate-questionnaire-caitlyn-gegen-ninth-congressional-district-candidate-democratic-primary/article_b3e5b3d6-5edb-4b1a-b4af-edf6ba749f51.html",
+      "title": "Candidate Questionnaire: Caitlyn Gegen, Ninth Congressional District candidate, Democratic primary",
+      "publisher": "Main Street News (May 12, 2026)",
+      "kind": "news",
+      "date": "2026-05-12"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.redandblack.com/uganews/uga-alumna-caitlyn-gegen-enters-georgia-s-9th-congressional-district-race/article_ecb604a5-c42a-45cd-b03c-d6601220657d.html",
+      "title": "UGA alumna Caitlyn Gegen enters Georgia's 9th Congressional District race",
+      "publisher": "The Red & Black (Feb. 24, 2026)",
+      "kind": "news",
+      "date": "2026-02-24"
+    },
+    {
+      "id": "s12",
       "url": "https://clyde.house.gov/about",
       "title": "Biography",
       "publisher": "Office of Rep. Andrew Clyde",
       "kind": "official"
     },
     {
-      "id": "s10",
+      "id": "s13",
       "url": "https://en.wikipedia.org/wiki/Andrew_Clyde",
       "title": "Andrew Clyde",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s11",
+      "id": "s14",
       "url": "https://ballotpedia.org/Caitlyn_Gegen",
       "title": "Caitlyn Gegen",
       "publisher": "Ballotpedia",

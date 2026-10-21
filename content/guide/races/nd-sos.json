@@ -1,0 +1,182 @@
+{
+  "id": "nd-sos",
+  "state": "ND",
+  "officeType": "secretary-of-state",
+  "office": "Secretary of State",
+  "title": "Secretary of State of North Dakota",
+  "area": "Statewide — all of North Dakota",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both candidates were unopposed in their June 9, 2026 primaries (Howe 99.6%, Braunberger 99.8%, write-ins excepted).",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Republicans hold a supermajority in the Legislature and all statewide elected offices, per the North Dakota Monitor.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "text": "The North Dakota Secretary of State's certified 2026 General Election candidate list shows two candidates for Secretary of State: Michael Howe and Ryan Braunberger.",
+      "sources": [
+        "s5"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "michael-howe",
+      "name": "Michael Howe",
+      "parties": [
+        "R"
+      ],
+      "incumbent": true,
+      "ballotNote": "Advanced from the June 9, 2026 Republican primary with no declared opponent.",
+      "currentRole": "North Dakota Secretary of State",
+      "summary": {
+        "text": "Michael Howe is the Republican incumbent Secretary of State, a former state legislator first elected in 2022. In a July 2026 interview he said North Dakota's elections are secure, pointing to proof-of-citizenship checks at ID issuance, paper ballots and encrypted result reporting.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      },
+      "background": [
+        {
+          "text": "Former state lawmaker; elected Secretary of State in 2022.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Maintaining secure, auditable paper-ballot elections; says the voter file is updated daily with deaths and has not been shared with the Department of Homeland Security.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [],
+      "statements": [
+        {
+          "issue": "voter_citizenship_proof",
+          "quote": "We’ve got proof of citizenship",
+          "context": "Told the North Dakota Monitor that new North Dakota ID applicants must prove citizenship and that a North Dakota ID is needed to vote",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "ryan-braunberger",
+      "name": "Ryan Braunberger",
+      "parties": [
+        "D"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the Democratic-NPL nomination; endorsed at the March 7 state convention.",
+      "currentRole": "North Dakota state senator, District 10 (Fargo)",
+      "summary": {
+        "text": "Ryan Braunberger is the Democratic-NPL nominee for Secretary of State and a Fargo state senator. He says he is running to boost public trust in elections; in July 2026 he agreed with Howe that North Dakota's voter data and results are secure.",
+        "sources": [
+          "s2",
+          "s4",
+          "s3"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in Fargo; earned a bachelor's degree in social work from Minnesota State University Moorhead in 2022 and an associate degree in business administration in 2007.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Fargo state senator (District 10), first elected in 2022.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Boost public trust in elections and civic engagement; continue to protect North Dakotans' voter data privacy.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "More educational outreach on the 2025 law requiring mail ballots to be in election officials' hands by the time polls close.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [],
+      "statements": [
+        {
+          "issue": "voter_citizenship_proof",
+          "quote": "Obviously, we ask at the polling stations, ‘Are you 18? Are you a North Dakota resident? And, are you a U.S. citizen?’",
+          "context": "North Dakota Monitor interview, describing polling-place eligibility checks",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/North_Dakota_Secretary_of_State_election,_2026",
+      "title": "North Dakota Secretary of State election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://northdakotamonitor.com/?p=17643",
+      "title": "North Dakota Democrats endorse several statewide candidates",
+      "publisher": "North Dakota Monitor",
+      "kind": "news",
+      "date": "2026-03-07"
+    },
+    {
+      "id": "s3",
+      "url": "https://kfgo.com/2026/07/22/secretary-of-state-candidates-say-north-dakota-elections-are-secure-fair-and-free/",
+      "title": "Secretary of state candidates say North Dakota elections are secure, fair and free",
+      "publisher": "KFGO / North Dakota Monitor",
+      "kind": "news",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Ryan_Braunberger",
+      "title": "Ryan Braunberger",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s5",
+      "url": "https://vip.sos.nd.gov/candidatelist.aspx?eid=348",
+      "title": "2026 General Election Contest/Candidate List",
+      "publisher": "North Dakota Secretary of State",
+      "kind": "official",
+      "date": "2026-10-19"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Slate: confirmed against the North Dakota Secretary of State's certified 2026 General Election candidate list. Neither candidate has a campaign website or questionnaire that could be fetched, so no issue stances are recorded; their July 2026 interview remarks are shown as statements. No official record items for Howe were verified from primary sources."
+}

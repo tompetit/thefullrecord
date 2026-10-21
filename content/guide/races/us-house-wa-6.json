@@ -29,8 +29,8 @@
         "text": "Emily Randall is the Democratic incumbent for Washington's 6th District, first elected in 2024 to succeed Derek Kilmer. A Port Orchard native and Wellesley College graduate, she worked for nonprofit and health-care organizations before serving in the Washington State Senate from 2019 to 2024, where she was Deputy Majority Leader. Her campaign lists climate change, costs, democracy, health care, education, and abortion access among her core issues.",
         "sources": [
           "s2",
-          "s6",
-          "s7",
+          "s11",
+          "s12",
           "s3"
         ]
       },
@@ -39,22 +39,22 @@
           "text": "Born in Port Orchard, Washington, to a union household; according to her official biography, her father worked at Puget Sound Naval Shipyard and her mother was an educator at South Kitsap High School. She was the first in her family to graduate college.",
           "sources": [
             "s2",
-            "s6",
-            "s7"
+            "s11",
+            "s12"
           ]
         },
         {
           "text": "Earned bachelor's degrees in Spanish and women's studies from Wellesley College in 2008; her campaign says she paid for school by working in retail and waiting tables.",
           "sources": [
             "s2",
-            "s7"
+            "s12"
           ]
         },
         {
           "text": "Worked as a development professional with Wellesley College, the San Francisco AIDS Foundation, Planned Parenthood Federation of America (beginning in 2016, per her campaign), and Legal Voice.",
           "sources": [
             "s2",
-            "s7"
+            "s12"
           ]
         },
         {
@@ -66,7 +66,7 @@
         {
           "text": "In the state senate she served as Deputy Majority Leader and on the Higher Education and Workforce Development, Health and Long-Term Care, and Ways and Means committees, according to her campaign website. Her campaign cites legislation on post-partum Medicaid coverage, pay transparency, subminimum wage for people with disabilities, and abortion providers.",
           "sources": [
-            "s7"
+            "s12"
           ]
         },
         {
@@ -90,7 +90,44 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Calls for a just and fair transition away from fossil fuels with investment in clean energy jobs and infrastructure.",
+          "quote": "We must make a just and fair transition away from fossil fuels and invest in clean energy jobs and infrastructure.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she will work to protect and strengthen the ACA and increase Medicaid flexibility so states like Washington can continue expanding coverage.",
+          "quote": "As a member of Congress, I will work hard to protect and strengthen the ACA, increase the flexibility of Medicaid dollars so that states like Washington can continue expanding coverage",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Describes herself as an abortion rights advocate in the Washington Legislature, citing her sponsored bills expanding access and a 100% lifetime pro-choice voting record, and says she will fight for abortion rights in Congress.",
+          "quote": "In Washington state, I have been one of the top abortion rights and reproductive rights advocates.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says she believes in a tax structure that requires big business to pay its fair share.",
+          "quote": "a tax structure that requires big business to pay its fair share",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://electemilyrandall.com",
       "researchDepth": "basic",
@@ -107,7 +144,7 @@
         "text": "Teresa Fox is the Republican challenger in Washington's 6th District, who lives in Bremerton and has worked as an emergency manager, safety professional, and fire inspector. She advanced from the August 4 primary with about 25% of the vote and describes her platform as lower taxes, less regulation, and government accountability.",
         "sources": [
           "s4",
-          "s8",
+          "s13",
           "s5"
         ]
       },
@@ -121,7 +158,7 @@
         {
           "text": "Is listed as a Republican from Bremerton; she advanced from the August 4, 2026 primary with 25.05% of the vote (32,006 votes) in the count reported August 6.",
           "sources": [
-            "s8"
+            "s13"
           ]
         }
       ],
@@ -150,19 +187,10 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Opposes what she describes as government growth funded by higher taxes, campaigning on lowering taxes generally.",
-          "quote": "Lower Taxes: Keep money in family pockets, not bureaucrat budgets.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
           "issue": "police_funding",
           "stance": "supports",
-          "summary": "Supports increasing police staffing, citing Washington's ranking as last in the nation for police staffing levels.",
-          "quote": "It's unacceptable that Washington ranks last in police staffing.",
+          "summary": "Supports a federal \"Public Safety Floor\" of incentives for local agencies to hire and retain officers, citing Washington's last-place ranking in police staffing.",
+          "quote": "I'm advocating for a 'Federal Public Safety Floor'—direct federal incentives for local agencies to hire and retain officers.",
           "sources": [
             "s5"
           ]
@@ -170,10 +198,19 @@
         {
           "issue": "climate",
           "stance": "opposes",
-          "summary": "Opposes federal mandates prioritizing unproven \"green\" maritime technology over maintenance of the existing Navy fleet, citing job stability and national security.",
-          "quote": "We need ships that can fight today, not social experiments that might float tomorrow.",
+          "summary": "Opposes federal mandates for rapid electrification of Navy support vessels and \"green\" maritime technology, citing job stability and readiness.",
+          "quote": "Rapid electrification of support vessels threatens job stability.",
           "sources": [
             "s5"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Campaign website backs sex-based eligibility for women's and girls' sports, citing Title IX.",
+          "quote": "Title IX was created to ensure biological women had a fair playing field.",
+          "sources": [
+            "s10"
           ]
         }
       ],
@@ -220,20 +257,55 @@
     },
     {
       "id": "s6",
+      "url": "https://electemilyrandall.com/issues/fighting-climate-change/",
+      "title": "Fighting Climate Change",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://electemilyrandall.com/issues/enhancing-healthcare/",
+      "title": "Enhancing Healthcare",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://electemilyrandall.com/issues/abortion/",
+      "title": "Safeguarding Access to Abortion",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://electemilyrandall.com/issues/lowering-costs-for-families/",
+      "title": "Lowering Costs for Families",
+      "publisher": "Emily Randall for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://foxforwa.com/mission",
+      "title": "Mission & Priorities",
+      "publisher": "Teresa Fox for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
       "url": "https://randall.house.gov/about",
       "title": "About - Emily Randall",
       "publisher": "Office of Rep. Emily Randall (house.gov)",
       "kind": "official"
     },
     {
-      "id": "s7",
+      "id": "s12",
       "url": "https://electemilyrandall.com/about",
       "title": "About Emily",
       "publisher": "Emily Randall for Congress (campaign website)",
       "kind": "candidate"
     },
     {
-      "id": "s8",
+      "id": "s13",
       "url": "https://www.peninsuladailynews.com/2026/08/06/randall-fox-in-contest-for-congressional-seat/",
       "title": "Randall, Fox in contest for Congressional seat",
       "publisher": "Peninsula Daily News",

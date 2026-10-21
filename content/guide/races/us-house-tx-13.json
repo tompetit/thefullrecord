@@ -31,14 +31,14 @@
         "text": "Ronny Jackson is the Republican incumbent seeking re-election in Texas's 13th District. A physician raised in Levelland, he served as a Navy medical officer and worked in the White House Medical Unit, serving as physician to the president under Barack Obama and Donald Trump before being elected to Congress in 2020. He serves on the House Intelligence, Armed Services, Agriculture and Foreign Affairs committees.",
         "sources": [
           "s3",
-          "s5"
+          "s6"
         ]
       },
       "background": [
         {
           "text": "According to his House biography, Jackson was raised in Levelland, Texas, and worked as a roustabout in the West Texas oilfields while paying his way through undergraduate school.",
           "sources": [
-            "s5",
+            "s6",
             "s3"
           ]
         },
@@ -46,53 +46,53 @@
           "text": "He earned a bachelor's degree in marine biology from Texas A&M University in 1991 and a medical degree from the University of Texas Medical Branch in 1995.",
           "sources": [
             "s3",
-            "s5"
+            "s6"
           ]
         },
         {
           "text": "After medical school he began active-duty service in the U.S. Navy, trained in undersea medicine, and served at postings from Panama City, Florida, to Sigonella, Italy; he later completed an emergency medicine residency and deployed to Iraq to lead resuscitative medicine for a Combat Surgical Shock Trauma Platoon. Ballotpedia lists his service as the U.S. Navy Reserve and the U.S. Marine Corps.",
           "sources": [
-            "s5",
+            "s6",
             "s3"
           ]
         },
         {
           "text": "He served in the White House Medical Unit during George W. Bush's administration, later became its director, and served as Physician to the President under Barack Obama (concluding his duties as director in December 2014) and Donald Trump.",
           "sources": [
-            "s5",
+            "s6",
             "s3"
           ]
         },
         {
           "text": "In January 2019 President Trump appointed him Chief Medical Advisor and Assistant to the President. His House biography says he retired from the Navy as a Rear Admiral in December 2019 after 25 years of service.",
           "sources": [
-            "s5"
+            "s6"
           ]
         },
         {
           "text": "The Denton Record-Chronicle reported that Jackson was reportedly demoted from Navy rear admiral to captain in 2022 after allegations of inappropriate behavior during his time as a White House physician, and that his rank was restored in 2025; the article does not include a response from Jackson.",
           "sources": [
-            "s6"
+            "s7"
           ]
         },
         {
           "text": "He was elected to represent Texas's 13th District in November 2020, succeeding Mac Thornberry, and took office in 2021. His committee assignments are Intelligence (Permanent Select), Agriculture, Armed Services and Foreign Affairs.",
           "sources": [
-            "s5",
+            "s6",
             "s3",
-            "s6"
+            "s7"
           ]
         },
         {
           "text": "In the March 3, 2026 Republican primary, Jackson defeated Chasity Wedgeworth with about 89% of the vote.",
           "sources": [
-            "s6"
+            "s7"
           ]
         },
         {
           "text": "According to his House biography, he has been married to his wife Jane for over 30 years and they have three children.",
           "sources": [
-            "s5"
+            "s6"
           ]
         }
       ],
@@ -137,7 +137,7 @@
         "text": "Mark Nair is the Democratic nominee challenging incumbent Ronny Jackson in Texas's 13th District. Describing himself as a former Amarillo city councilman, inventor, entrepreneur and educator, he worked for 23 years in entertainment distribution and later taught economics and software development at Amarillo College. His campaign focuses on healthcare, government accountability, and education.",
         "sources": [
           "s4",
-          "s6"
+          "s7"
         ]
       },
       "background": [
@@ -169,7 +169,7 @@
           "text": "Nair is a former member of the Amarillo City Council.",
           "sources": [
             "s4",
-            "s6"
+            "s7"
           ]
         },
         {
@@ -182,7 +182,7 @@
           "text": "Nair ran unopposed in the March 3, 2026 Democratic primary and received 28,198 votes.",
           "sources": [
             "s4",
-            "s6"
+            "s7"
           ]
         }
       ],
@@ -210,24 +210,35 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says he will work on a national health care plan to separate health coverage from employment.",
-          "quote": "I will work on a national health care plan to fix these problems. Separating health care from jobs will create boundless opportunities for people.",
+          "summary": "His platform says he will work toward Medicare for All.",
+          "quote": "He'll work toward Medicare for All, making healthcare costs fair, reasonable, and affordable for every American.",
           "sources": [
-            "s4"
+            "s5"
           ]
         },
         {
-          "issue": "tax_wealthy",
-          "stance": "supports",
-          "summary": "Says he will work to remove the effects of corporate and dark money from elections and politics.",
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His platform says tariffs belong with Congress rather than the president and describes current tariffs as having raised farmers' costs and cost them export markets.",
+          "quote": "Tariffs belong in Congress's hands, not the president's.",
           "sources": [
-            "s4"
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "His platform criticizes federal spending on detention, calls for an end to for-profit detention, and calls for a path to citizenship for law-abiding families.",
+          "quote": "While our roads crumble, our water systems age, and our rural hospitals close, our government is pouring billions into detention camps. That is a choice. And it is the wrong one.",
+          "sources": [
+            "s5"
           ]
         }
       ],
       "record": [],
-      "website": "https://www.marknair.com/meet-mark",
-      "researchDepth": "basic"
+      "website": "https://www.marknair.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Corrected the website field (the earlier /meet-mark page returns not-found). Removed an earlier tax_wealthy entry, which concerned money in politics rather than taxes on high earners or corporations. The existing healthcare_public entry comes from his Ballotpedia profile; his platform page separately says he will work toward Medicare for All."
     }
   ],
   "sources": [
@@ -265,6 +276,14 @@
     },
     {
       "id": "s5",
+      "url": "https://www.marknair.com/platform",
+      "title": "The People First Platform",
+      "publisher": "Mark Nair for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
       "url": "https://jackson.house.gov/about",
       "title": "Biography | Congressman Ronny Jackson",
       "publisher": "Office of Rep. Ronny Jackson",
@@ -272,7 +291,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s6",
+      "id": "s7",
       "url": "https://dentonrc.com/news/politics/ronny-jackson-mark-nair-to-face-off-in-congressional-district-13-race/article_2e882e83-b604-4ede-a9d1-c05ba1ce6a69.html",
       "title": "Ronny Jackson, Mark Nair to face off in Congressional District 13 race",
       "publisher": "Denton Record-Chronicle",

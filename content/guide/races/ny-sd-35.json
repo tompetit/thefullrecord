@@ -114,19 +114,12 @@
       ],
       "positions": [
         {
-          "issue": "climate",
-          "stance": "supports",
-          "summary": "Voted yes on the GREAT Act (S9500-A), which passed the Senate 39–21 and establishes a virtual power plant program and incentives for distributed energy resources to reduce energy costs and grid strain.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Voted yes on S8455-B, which passed the Senate 35–25 and creates new criminal offenses restricting the sale of flare guns.",
+          "summary": "In a 2024 statement, welcomed Governor Hochul's signing of a package of gun-violence reduction laws, including measures on pistol converters and court-ordered firearm removal (ERPO) procedures.",
+          "quote": "As Majority Leader, I am proud of the bold, sensible steps New York continues to take to reduce gun violence and save lives. The signing of this critical package of gun violence reduction legislation, demonstrates New York's continued commitment to public safety.",
           "sources": [
-            "s7"
+            "s15"
           ]
         }
       ],
@@ -186,7 +179,7 @@
         "sources": [
           "s10",
           "s11",
-          "s14"
+          "s16"
         ]
       },
       "background": [
@@ -211,7 +204,7 @@
         {
           "text": "Announced in January 2023 that he would run for mayor of Yonkers, described by News 12 as the first Republican to enter that year's race.",
           "sources": [
-            "s14"
+            "s16"
           ]
         },
         {
@@ -243,27 +236,29 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
+          "issue": "housing_supply",
           "stance": "opposes",
-          "summary": "Campaign focuses on reducing New York's overall tax burden, saying high taxes are driving residents and businesses out of the state; does not call for raising taxes on high earners.",
+          "summary": "Campaign site opposes state action to override local zoning to build housing projects.",
+          "quote": "Albany wants to override local zoning and build massive housing projects that would overcrowd and destroy neighborhoods. We must stop this Albany power grab.",
           "sources": [
-            "s11",
-            "s13"
-          ]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Criticizes state spending on housing and services for migrants, citing \"$4.3 billion of your tax dollars to house illegal migrants\" as a priority to redirect.",
-          "quote": "$4.3 billion of your tax dollars to house illegal migrants",
-          "sources": [
-            "s11"
+            "s14"
           ]
         }
       ],
       "record": [],
       "website": "https://meranteforsenate.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "New York is forcing people out. We have some of the highest taxes in the nation.",
+          "context": "On his campaign website, under \"High Taxes\"",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign homepage re-read 2026-10-19; added a statement on taxes. His homepage line on the cost of housing migrants is about spending, not immigration enforcement, so it was not recorded. No stated positions found on abortion, guns, or other listed issues."
     }
   ],
   "sources": [
@@ -297,22 +292,6 @@
       "publisher": "New York State Senate",
       "kind": "official",
       "date": "2026-06-26"
-    },
-    {
-      "id": "s6",
-      "url": "https://www.nysenate.gov/legislation/bills/2025/S9500/amendment/A",
-      "title": "S9500-A: GREAT Act — roll call, passed Senate 39–21",
-      "publisher": "New York State Senate",
-      "kind": "official",
-      "date": "2026-06-01"
-    },
-    {
-      "id": "s7",
-      "url": "https://www.nysenate.gov/legislation/bills/2025/S8455/amendment/B",
-      "title": "S8455-B: restrictions on sale of flare guns — roll call, passed Senate 35–25",
-      "publisher": "New York State Senate",
-      "kind": "official",
-      "date": "2026-06-01"
     },
     {
       "id": "s8",
@@ -361,6 +340,21 @@
     },
     {
       "id": "s14",
+      "url": "https://meranteforsenate.com/",
+      "title": "Anthony Merante for New York State Senate - District 35",
+      "publisher": "Merante for NY Senate",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.nysenate.gov/newsroom/press-releases/2024/andrea-stewart-cousins/majority-leader-stewart-cousins-hails-new-gun",
+      "title": "Majority Leader Stewart-Cousins Hails New Gun Safety Laws Signed by Gov. Hochul",
+      "publisher": "New York State Senate",
+      "kind": "official",
+      "date": "2024"
+    },
+    {
+      "id": "s16",
       "kind": "news",
       "url": "https://hudsonvalley.news12.com/republican-anthony-merante-announces-bid-for-mayor-of-yonkers",
       "title": "Republican Anthony Merante announces bid for mayor of Yonkers (News 12, Jan. 29, 2023)",

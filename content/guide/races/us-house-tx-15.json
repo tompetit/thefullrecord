@@ -32,7 +32,7 @@
         "sources": [
           "s2",
           "s3",
-          "s6"
+          "s8"
         ]
       },
       "background": [
@@ -40,7 +40,7 @@
           "text": "De La Cruz was born in Brownsville, Texas, in 1974, and graduated from James Pace Early College High School there.",
           "sources": [
             "s3",
-            "s7"
+            "s9"
           ]
         },
         {
@@ -77,13 +77,13 @@
         {
           "text": "In March 2024 she delivered the Republican response to President Biden's State of the Union address in Spanish.",
           "sources": [
-            "s7"
+            "s9"
           ]
         },
         {
           "text": "Her House website describes her as the first Republican Latina to represent Texas in Congress and says she has passed three major pieces of legislation into law and resolved nearly 1,500 constituent cases; her campaign website, as quoted by Ballotpedia, cites five pieces of legislation, including the first bill in nearly 20 years from her community to be signed into law, targeting fentanyl trafficking.",
           "sources": [
-            "s6",
+            "s8",
             "s2"
           ]
         },
@@ -108,7 +108,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "In a July 2024 press release she said requiring documentary proof of citizenship to register to vote allows for fair and just elections.",
+          "quote": "requiring documentary proof of citizenship to register allows for fair and just elections, protecting one of the most fundamental rights of our country.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the Committee on Agriculture as Vice Chair of its Subcommittee on Nutrition and Foreign Agriculture, and on its Subcommittee on General Farm Commodities, Risk Management, and Credit, for the 119th Congress (2025-2026).",
@@ -148,60 +158,60 @@
         "text": "Bobby Pulido is the Democratic nominee challenging incumbent Monica De La Cruz in Texas's 15th District. An Edinburg native, he has been a Tejano recording artist for about three decades and describes himself as a small-business owner and father of four. He is running on affordability, water infrastructure, public education and comprehensive immigration reform, and won the March 3, 2026 Democratic primary over Ada Cuellar.",
         "sources": [
           "s4",
-          "s10",
-          "s8"
+          "s11",
+          "s7"
         ]
       },
       "background": [
         {
           "text": "Pulido was born in Edinburg, Texas, in 1973, the oldest child of Tejano singer Roberto Pulido, and graduated from Edinburg High School.",
           "sources": [
-            "s9",
-            "s8"
+            "s10",
+            "s7"
           ]
         },
         {
           "text": "He was accepted at St. Mary's University, where he studied political science, before leaving college to pursue a singing career.",
           "sources": [
-            "s9",
+            "s10",
             "s4"
           ]
         },
         {
           "text": "He debuted with his own band in 1995 and signed with EMI Latin; his debut album Desvelado was certified platinum by the RIAA.",
           "sources": [
-            "s9"
+            "s10"
           ]
         },
         {
           "text": "The Texas Tribune describes him as known for 1990s hits including \"Desvelado\" and \"Se Murió de Amor\", a five-time Latin Grammy nominee and 22-time Tejano Music Award nominee who won eight times early in his career.",
           "sources": [
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "He has also acted, including a lead role in the 2003 television film La Decada Furiosa.",
           "sources": [
-            "s9"
+            "s10"
           ]
         },
         {
           "text": "According to his campaign website, he has run businesses and created jobs in South Texas; Ballotpedia lists his career as musician and small business owner.",
           "sources": [
             "s4",
-            "s8"
+            "s7"
           ]
         },
         {
           "text": "He announced a run for Congress in September 2025, after forming an exploratory committee that July, to challenge De La Cruz.",
           "sources": [
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "Pulido won the March 3, 2026 Democratic primary, defeating Ada Cuellar with 67.5% of the vote.",
           "sources": [
-            "s8"
+            "s7"
           ]
         },
         {
@@ -239,6 +249,24 @@
           "summary": "Says he opposes voucher programs that he says drain money from public classrooms and send it to private schools.",
           "sources": [
             "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "His campaign website says tariffs and trade wars are driving up costs and closing off opportunities for families, and calls for fair and open trade.",
+          "quote": "Tariffs and trade wars are driving up costs and closing off opportunities, leaving too many of our families struggling to keep up.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign website says Medicare is a promise to keep and make stronger, and criticizes the incumbent for voting for a bill he says put Medicaid and seniors at risk.",
+          "quote": "like Social Security, Medicare is a promise and a critical safety net that we have to keep and make stronger.",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -290,6 +318,22 @@
     },
     {
       "id": "s6",
+      "url": "https://delacruz.house.gov/news/documentsingle.aspx?DocumentID=1928",
+      "title": "De La Cruz statement on the Safeguard American Voter Eligibility Act (July 11, 2024)",
+      "publisher": "Office of Rep. Monica De La Cruz",
+      "kind": "official",
+      "date": "2024-07-11"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Bobby_Pulido",
+      "title": "Bobby Pulido - campaign website as quoted on Ballotpedia (February 2026)",
+      "publisher": "Ballotpedia (quoting Bobby Pulido's campaign website)",
+      "kind": "candidate",
+      "date": "2026-02-11"
+    },
+    {
+      "id": "s8",
       "url": "https://delacruz.house.gov/about",
       "title": "Biography",
       "publisher": "Office of Rep. Monica De La Cruz",
@@ -297,7 +341,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s7",
+      "id": "s9",
       "url": "https://en.wikipedia.org/wiki/Monica_De_La_Cruz",
       "title": "Monica De La Cruz",
       "publisher": "Wikipedia",
@@ -305,15 +349,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s8",
-      "url": "https://ballotpedia.org/Bobby_Pulido",
-      "title": "Bobby Pulido",
-      "publisher": "Ballotpedia",
-      "kind": "reference",
-      "date": "2026-10-21"
-    },
-    {
-      "id": "s9",
+      "id": "s10",
       "url": "https://en.wikipedia.org/wiki/Bobby_Pulido",
       "title": "Bobby Pulido",
       "publisher": "Wikipedia",
@@ -321,7 +357,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s10",
+      "id": "s11",
       "url": "https://www.texastribune.org/2025/09/17/bobby-pulido-launches-texas-congress-campaign/",
       "title": "Tejano star Bobby Pulido launches South Texas congressional run",
       "publisher": "The Texas Tribune",

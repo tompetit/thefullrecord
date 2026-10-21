@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type {
   AttendanceEntry,
   Official,
@@ -19,13 +19,6 @@ import { AiMarker } from "./AiMarker";
 type Tab = "votes" | "sponsorships" | "attendance" | "said-vs-did";
 type VoteFilter = "all" | VoteKind;
 
-const TABS: Array<{ id: Tab; label: string }> = [
-  { id: "votes", label: "Votes" },
-  { id: "sponsorships", label: "Sponsorships" },
-  { id: "attendance", label: "Attendance" },
-  { id: "said-vs-did", label: "Said vs. did" },
-];
-
 /**
  * Official-profile tab bar + feed. Tabs switch the feed in place;
  * the Votes tab filters via chips and refetches from the API.
@@ -43,32 +36,52 @@ export function ProfileTabs({
   attendance: Paginated<AttendanceEntry>;
   saidDidPairs: Paginated<SaidDidPair>;
 }) {
+  // A tab with nothing behind it is not offered.
+  const TABS: Array<{ id: Tab; label: string }> = [
+    { id: "votes", label: "Votes" },
+    ...(sponsorships.items.length ? [{ id: "sponsorships" as const, label: "Sponsorships" }] : []),
+    ...(attendance.items.length ? [{ id: "attendance" as const, label: "Participation" }] : []),
+    ...(saidDidPairs.items.length ? [{ id: "said-vs-did" as const, label: "Said vs. did" }] : []),
+  ];
   const [tab, setTab] = useState<Tab>("votes");
   const [voteFilter, setVoteFilter] = useState<VoteFilter>("all");
   const [votes, setVotes] = useState(initialVotes);
+  const [showUnanimous, setShowUnanimous] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  async function changeFilter(filter: VoteFilter) {
-    setVoteFilter(filter);
+  const [error, setError] = useState("");
+  const request = useRef(0);
+
+  async function loadVotes(filter: VoteFilter, append = false, unanimous = showUnanimous) {
+    const requestId = ++request.current;
     setLoading(true);
+    setError("");
     try {
-      const res = await fetch(
-        `/api/officials/${official.id}/votes?filter=${filter}`
-      );
-      setVotes(await res.json());
+      const page = append ? votes.page + 1 : 1;
+      const res = await fetch(`/api/officials/${encodeURIComponent(official.id)}/votes?filter=${filter}&page=${page}${unanimous ? "&unanimous=1" : ""}`);
+      if (!res.ok) throw new Error("Request failed");
+      const next = await res.json() as Paginated<VoteRecord>;
+      if (!Array.isArray(next.items)) throw new Error("Invalid response");
+      if (requestId !== request.current) return;
+      setVoteFilter(filter);
+      setShowUnanimous(unanimous);
+      setVotes(previous => append ? { ...next, items: [...previous.items, ...next.items] } : next);
+    } catch {
+      if (requestId === request.current) setError("We couldn’t load those votes. Your current results are still shown. Try again.");
     } finally {
-      setLoading(false);
+      if (requestId === request.current) setLoading(false);
     }
   }
 
   return (
     <div className="flex flex-col gap-4">
-      <nav className="flex flex-wrap items-end gap-x-[18px] border-b border-hairline font-sans text-[13px]">
+      {TABS.length > 1 && <nav aria-label="Record sections" className="flex flex-wrap items-end gap-x-[18px] border-b border-hairline font-sans text-[13px]">
         {TABS.map((t) => (
           <button
             key={t.id}
             type="button"
             onClick={() => setTab(t.id)}
+            aria-pressed={tab === t.id}
             className={`min-h-11 cursor-pointer pb-[9px] ${
               tab === t.id
                 ? "-mb-px border-b-2 border-ink font-bold text-ink"
@@ -78,24 +91,33 @@ export function ProfileTabs({
             {t.label}
           </button>
         ))}
-      </nav>
+      </nav>}
 
       {tab === "votes" && (
         <div className="flex flex-col gap-3">
           <FilterChips
             value={voteFilter}
-            onChange={changeFilter}
+            onChange={(filter) => loadVotes(filter)}
             options={[
               { value: "all", label: "All" },
               { value: "substantive", label: "Substantive" },
               { value: "procedural", label: "Procedural" },
             ]}
           />
+          <label className="flex min-h-11 items-center gap-2 font-sans text-[13px] text-ink-80">
+            <input type="checkbox" checked={showUnanimous} disabled={loading} onChange={(e) => loadVotes(voteFilter, false, e.target.checked)} className="size-4" />
+            Include unanimous votes
+          </label>
+          <p className="font-sans text-xs leading-relaxed text-ink-60">
+            Substantive votes concern legislation or nominations; procedural votes concern how the chamber considers them. A Yes vote applies to the motion shown, which may not be final passage.
+          </p>
+          <p role="status" aria-live="polite" className="font-sans text-xs text-ink-60">{loading ? "Loading votes…" : error}</p>
           {votes.items.length === 0 ? (
             <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
-              No recorded votes are on file for this official yet — vote
-              ingestion for this chamber is pending. Their full record is
-              available at the official chamber site linked above.
+              {voteFilter === "all"
+                ? "No vote records are available here for this representative yet. This is a coverage gap, not evidence that they did not vote."
+                : `No ${voteFilter} votes are available in this collection. Try All to see other records.`}
+              {" "}<SourceLink href={official.contactUrl}>Official website</SourceLink>
             </p>
           ) : (
             <>
@@ -107,22 +129,19 @@ export function ProfileTabs({
                 ))}
               </div>
               <p className="font-sans text-xs text-ink-60">
-                Showing {votes.items.length} of {votes.total} votes on file —
-                each links to the full official record.
+                Showing {votes.items.length} of {votes.total} {voteFilter === "all" ? "" : voteFilter + " "}votes in this collection. Coverage may be incomplete; each entry links to the official record.
               </p>
+              {votes.items.length < votes.total && (
+                <button type="button" disabled={loading} onClick={() => loadVotes(voteFilter, true)} className="min-h-11 rounded-lg border border-chip-border px-4 py-3 font-sans text-sm font-semibold disabled:opacity-50">
+                  {loading ? "Loading…" : "Load more votes"}
+                </button>
+              )}
             </>
           )}
         </div>
       )}
 
-      {tab === "sponsorships" &&
-        (sponsorships.items.length === 0 ? (
-          <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
-            No sponsored bills are on file for this official yet. Their full
-            sponsorship record is available from the official chamber records
-            linked on each vote.
-          </p>
-        ) : (
+      {tab === "sponsorships" && (
         <div className="flex flex-col gap-3">
           {sponsorships.items.map((s) => (
             <article
@@ -149,8 +168,6 @@ export function ProfileTabs({
                   </p>
                   <AiMarker
                     billTextUrl={s.sourceUrl}
-                    subjectType="bill"
-                    subjectId={s.id}
                   />
                 </>
               )}
@@ -169,17 +186,11 @@ export function ProfileTabs({
             sponsored bills on file.
           </p>
         </div>
-        ))}
+      )}
 
-      {tab === "attendance" &&
-        (attendance.items.length === 0 ? (
-          <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
-            Attendance records for this official are not yet available here.
-            Roll-call attendance is published by the chamber; each vote in the
-            Votes tab links to its official roll call.
-          </p>
-        ) : (
+      {tab === "attendance" && (
           <div className="flex flex-col gap-3">
+            <p className="font-sans text-xs leading-relaxed text-ink-60">Participation reflects recorded votes in our collection, not physical attendance. A recorded non-vote does not tell us why the member did not vote. Coverage may be incomplete.</p>
             <section className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">
               <ul className="flex flex-col divide-y divide-hairline-soft">
                 {attendance.items.map((a) => (
@@ -190,10 +201,10 @@ export function ProfileTabs({
                     <span>{a.period}</span>
                     <span className="flex items-center gap-3">
                       <span className="font-semibold text-ink">
-                        {a.attended} of {a.total} roll calls
+                        {a.attended} of {a.total} recorded votes
                       </span>
                       <SourceLink href={a.sourceUrl} className="text-xs">
-                        Attendance record
+                        Source roll calls
                       </SourceLink>
                     </span>
                   </li>
@@ -202,12 +213,11 @@ export function ProfileTabs({
             </section>
             {official.stats.rollCallsAttendedPct !== null && (
               <p className="font-sans text-xs text-ink-60">
-                {official.stats.rollCallsAttendedPct}% of roll calls attended
-                this session, from official chamber records.
+                Recorded participation in {official.stats.rollCallsAttendedPct}% of the roll calls in this collection. This is not a measure of physical attendance or the official’s complete activity.
               </p>
             )}
           </div>
-        ))}
+      )}
 
       {tab === "said-vs-did" && (
         <SaidVsDid pairs={saidDidPairs.items} total={saidDidPairs.total} />

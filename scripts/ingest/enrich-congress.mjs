@@ -6,10 +6,14 @@
  * Summaries added here are OFFICIAL (CRS) text, marked
  * summarySource: "official" so the UI labels them correctly.
  *
+ * Roll calls that already have a summary (official or ai) are left untouched,
+ * so only newly ingested bills cost API calls. Files may use the compact vote
+ * form; only title/summary fields are modified.
+ *
  * Run: node scripts/ingest/enrich-congress.mjs
  */
 
-import { readFileSync } from "node:fs";
+import { readFileSync, existsSync } from "node:fs";
 import { readFile, writeFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -22,7 +26,7 @@ const FILES = ["house.json", "ussenate.json"].map((f) =>
 
 const KEY =
   process.env.CONGRESS_GOV_API_KEY ??
-  readFileSync(join(ROOT, ".env.local"), "utf8").match(/CONGRESS_GOV_API_KEY=(\S+)/)?.[1];
+  (existsSync(join(ROOT, ".env.local")) ? readFileSync(join(ROOT, ".env.local"), "utf8").match(/CONGRESS_GOV_API_KEY=(\S+)/)?.[1] : undefined);
 if (!KEY) throw new Error("CONGRESS_GOV_API_KEY not set (env or .env.local)");
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -114,23 +118,23 @@ async function main() {
     const snapshot = JSON.parse(await readFile(file, "utf8"));
     let enriched = 0;
     for (const rc of snapshot.rollCalls) {
+      if (rc.summary) continue; // never overwrite existing summaries or their provenance
       const ref = parseBillRef(rc.bill);
       if (!ref) {
-        console.log(`  skip (unparsed): ${rc.bill}`);
         continue;
       }
       const info = await enrichRef(ref);
       if (!info) {
-        console.log(`  not found on congress.gov: ${rc.bill}`);
         continue;
       }
-      if (info.title) rc.title = info.title;
+      // Preserve the actual roll-call description, especially amendment text.
+      if (info.title && !rc.title) rc.title = info.title;
       if (info.summary) {
         rc.summary = info.summary;
         rc.summarySource = "official";
       }
       enriched++;
-      console.log(`  ${rc.bill}: title${info.summary ? " + summary" : " only"}`);
+      if (info.summary) console.log(`  ${rc.bill}: summary`);
     }
     await writeFile(file, JSON.stringify(snapshot, null, 2));
     console.log(`${file.split("/").pop()}: enriched ${enriched}/${snapshot.rollCalls.length}\n`);

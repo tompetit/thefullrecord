@@ -31,14 +31,14 @@
         "sources": [
           "s1",
           "s3",
-          "s8"
+          "s9"
         ]
       },
       "background": [
         {
           "text": "Born in Brooklyn in 1964 and grew up in Great Kills, Staten Island; graduated from Monsignor Farrell High School in 1982.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
@@ -52,21 +52,21 @@
           "text": "Worked as a senior auditor at KPMG Peat Marwick, then as an Assistant District Attorney in the Manhattan office of Robert Morgenthau.",
           "sources": [
             "s3",
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Later served as general counsel partner of Mercury Securities LLC, a Wall Street software and trading firm, and describes his background as including accountant and business owner.",
           "sources": [
             "s3",
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "First elected to the New York City Council (51st District) as a Republican in 2001 and re-elected in 2003 and 2005; his Senate biography cites zoning laws he enacted on the Council to limit overdevelopment.",
           "sources": [
             "s3",
-            "s8"
+            "s9"
           ]
         },
         {
@@ -74,7 +74,7 @@
           "sources": [
             "s1",
             "s3",
-            "s8"
+            "s9"
           ]
         },
         {
@@ -123,10 +123,18 @@
         {
           "issue": "congestion_pricing",
           "stance": "opposes",
-          "summary": "Called Manhattan's congestion pricing program \"this scheme\" and said he hoped the incoming EPA administrator, whom he described as an opponent of the program, would help revisit it.",
+          "summary": "Called Manhattan's congestion pricing program \"this scheme\" and described Lee Zeldin, then the incoming EPA administrator, as an opponent of it.",
           "quote": "We're going to have a new EPA in Lee Zeldin, a good friend and opponent of this scheme.",
           "sources": [
             "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Sponsors S2538, which would require police, courts and correctional facilities to notify ICE about arrested or convicted people who are not U.S. citizens and would repeal parts of the Protect Our Courts Act; the bill was defeated in the Senate Codes Committee in May 2026.",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -176,27 +184,27 @@
         "text": "Alexis Rodriguez is the Democratic nominee challenging incumbent Andrew Lanza in NY State Senate District 24. According to BallotReady and Branch, she is originally from Staten Island, worked at Standard & Poor's, and has been a New York City public elementary school educator since 2013; this is her first run for public office.",
         "sources": [
           "s2",
-          "s9",
-          "s10"
+          "s10",
+          "s11"
         ]
       },
       "background": [
         {
           "text": "According to Branch, originally from Staten Island; this is her first run for public office.",
           "sources": [
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "According to BallotReady, graduated from St. John Villa Academy (2006), earned a bachelor's degree in economics from St. John's University (2009) and a master's degree in childhood education (mathematics) from Brooklyn College (2015).",
           "sources": [
-            "s9"
+            "s10"
           ]
         },
         {
           "text": "According to BallotReady, worked at Standard & Poor's from 2007 to 2012 and has been an elementary school educator with the New York City Department of Education since 2013.",
           "sources": [
-            "s9"
+            "s10"
           ]
         },
         {
@@ -211,7 +219,7 @@
       "record": [],
       "researchDepth": "minimal",
       "website": "https://www.alexisfornewyork.com/",
-      "researchNotes": "Rodriguez has not completed a Ballotpedia Candidate Connection survey, and no news coverage of her platform could be located as of September 25, 2026. Her campaign website (alexisfornewyork.com) is linked from Ballotpedia but returns a bot-detection challenge page to automated fetches, so no verbatim quotes could be confirmed from it; her Instagram (@alexisfornewyork) and LinkedIn pages were likewise inaccessible to automated tools."
+      "researchNotes": "Rodriguez has not completed a Ballotpedia Candidate Connection survey, and no news coverage of her platform could be located as of September 25, 2026. Her campaign website (alexisfornewyork.com) is linked from Ballotpedia but returns a bot-detection challenge page to automated fetches, so no verbatim quotes could be confirmed from it; her Instagram (@alexisfornewyork) and LinkedIn pages were likewise inaccessible to automated tools. Re-checked 2026-10-19: campaign site still unreachable by automated tools; Branch.vote summary is a paraphrase and was not used."
     }
   ],
   "sources": [
@@ -269,20 +277,27 @@
     },
     {
       "id": "s8",
+      "url": "https://www.nysenate.gov/legislation/bills/2025/S2538",
+      "title": "S2538 (2025-2026): Requires law enforcement and courts to notify ICE when an arrested person is not a U.S. citizen",
+      "publisher": "NYSenate.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
       "url": "https://en.wikipedia.org/wiki/Andrew_Lanza",
       "title": "Andrew Lanza",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s9",
+      "id": "s10",
       "url": "https://www.ballotready.org/people/alexis-rodriguez",
       "title": "Alexis Rodriguez, Candidate Profile",
       "publisher": "BallotReady",
       "kind": "reference"
     },
     {
-      "id": "s10",
+      "id": "s11",
       "url": "https://branch.vote/races/2026-new-york-general-election-ny-state-state-senator-ny-state-senate-24/candidates/alexis-rodriguez",
       "title": "Alexis Rodriguez platform & website",
       "publisher": "Branch",

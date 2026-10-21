@@ -30,8 +30,8 @@
         "sources": [
           "s1",
           "s2",
-          "s13",
-          "s15"
+          "s15",
+          "s17"
         ]
       },
       "background": [
@@ -74,8 +74,8 @@
         {
           "text": "Won the 1st District seat in 2022 after Rep. G. K. Butterfield's retirement and was re-elected in 2024 by a 5,826-vote margin over Laurie Buckhout, who is his opponent again in 2026.",
           "sources": [
-            "s13",
-            "s15"
+            "s15",
+            "s17"
           ]
         },
         {
@@ -160,9 +160,9 @@
         "text": "Laurie Buckhout is the Republican nominee challenging incumbent Donald Davis in North Carolina's redrawn 1st Congressional District, a rematch of the 2024 general election, which Davis won. She is a retired U.S. Army colonel who founded and later sold a cyber and electronic warfare consulting business and served in the Pentagon's cyber policy office. Her campaign describes her as a \"constitutional conservative\" running on lowering costs, securing the border and strengthening national defense.",
         "sources": [
           "s4",
-          "s11",
           "s13",
-          "s14"
+          "s15",
+          "s16"
         ]
       },
       "background": [
@@ -170,51 +170,51 @@
           "text": "Born in Virginia and lives in Edenton, North Carolina, with her husband Paul, a retired Army officer; they have two sons, according to her campaign website.",
           "sources": [
             "s4",
-            "s11"
+            "s13"
           ]
         },
         {
           "text": "Earned a bachelor's degree from James Madison University, a master's of military arts and science in national military strategy, and a master's of science in information management from Webster University.",
           "sources": [
             "s4",
-            "s12"
+            "s14"
           ]
         },
         {
           "text": "Was commissioned a second lieutenant in the Army Signal Corps in 1984 and served 26 years, retiring as a colonel in 2010; according to a candidate-supplied biography, she commanded a task force in the initial attack into Iraq in 2003.",
           "sources": [
             "s4",
-            "s12",
-            "s14"
+            "s14",
+            "s16"
           ]
         },
         {
           "text": "After retiring from the Army, founded Corvus Consulting, which specialized in electronic warfare and cyberspace operations; it was sold to Castellum Inc. in 2019, according to SIGNAL Media.",
           "sources": [
             "s4",
-            "s12",
-            "s14"
+            "s14",
+            "s16"
           ]
         },
         {
           "text": "Served as Deputy Assistant Secretary of Defense for Cyber Policy and was later named acting Assistant Secretary of War for cyber policy by President Trump.",
           "sources": [
-            "s11",
             "s13",
-            "s14"
+            "s15",
+            "s16"
           ]
         },
         {
           "text": "Was the Republican nominee in 2024 and lost the general election to Davis.",
           "sources": [
-            "s13",
-            "s14"
+            "s15",
+            "s16"
           ]
         },
         {
           "text": "Won the March 3, 2026 Republican primary over Carteret County Sheriff Asa Buck, 23,531 votes to 20,974.",
           "sources": [
-            "s13"
+            "s15"
           ]
         }
       ],
@@ -222,19 +222,19 @@
         {
           "text": "Lowering costs and cutting taxes for families in Eastern North Carolina.",
           "sources": [
-            "s5"
+            "s11"
           ]
         },
         {
           "text": "Border security, including resourcing border patrol agents.",
           "sources": [
-            "s5"
+            "s11"
           ]
         },
         {
           "text": "Cutting regulations affecting farmers and fishermen, and supporting the military and veterans.",
           "sources": [
-            "s5"
+            "s11"
           ]
         }
       ],
@@ -242,24 +242,38 @@
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "Says she will stand strong against additional restrictions on law-abiding gun owners, citing her background as a combat veteran defending the right to keep and bear arms.",
+          "summary": "Says she will stand strong against what she describes as additional red tape on law-abiding gun owners, citing her background as a combat veteran.",
           "sources": [
-            "s5"
-          ]
+            "s11"
+          ],
+          "quote": "She will stand strong against the extremists who mock our hunting heritage and would punish law-abiding gun owners with additional red tape.",
+          "basis": "statements"
         },
         {
-          "issue": "immigration_enforcement",
+          "issue": "tariffs",
           "stance": "supports",
-          "summary": "Says she will focus on ensuring border patrol agents have the resources they need to keep drugs out of the country.",
+          "summary": "Asked about the Supreme Court ruling against the administration's tariffs, said President Trump should have the authority and that the tariffs put the U.S. on an equal footing on trade.",
+          "quote": "We've been taken advantage of for decades with unfair trade practices, and this is putting America back on an equal footing.",
           "sources": [
-            "s5"
-          ]
+            "s12"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://www.lauriebuckhout.com/",
       "researchDepth": "basic",
-      "researchNotes": "Buckhout has not held elected office, so there is no voting or bill-sponsorship record; positions are drawn from her campaign website as summarized by Ballotpedia."
+      "researchNotes": "Buckhout has not held elected office, so there is no voting or bill-sponsorship record. Positions are from her campaign website issues page and a February 2026 interview reported by The Assembly. No statements found on rent regulation, school choice, minimum wage, or voter citizenship proof.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Border security is national security. Laurie will focus on ensuring our border patrol agents have the resources they need to keep dangerous drugs out of our country.",
+          "context": "On her campaign website",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     },
     {
       "id": "tom-bailey",
@@ -324,7 +338,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Positions are drawn from Bailey's 2026 Ballotpedia Candidate Connection survey; no campaign website was located."
+      "researchNotes": "Positions are drawn from Bailey's 2026 Ballotpedia Candidate Connection survey. No campaign website was located and the survey lists no stance on the guide's listed issues; no news coverage quoting him on them was found."
     }
   ],
   "sources": [
@@ -358,14 +372,6 @@
       "title": "Laurie Buckhout",
       "publisher": "Ballotpedia",
       "kind": "reference",
-      "date": "2026-09-25"
-    },
-    {
-      "id": "s5",
-      "url": "https://www.lauriebuckhout.com/",
-      "title": "Campaign website",
-      "publisher": "Laurie Buckhout for Congress",
-      "kind": "candidate",
       "date": "2026-09-25"
     },
     {
@@ -408,13 +414,29 @@
     },
     {
       "id": "s11",
+      "url": "https://www.lauriebuckhout.com/issues",
+      "title": "Issues",
+      "publisher": "Laurie Buckhout for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.theassemblync.com/news/politics/elections/nc-1st-district-buckhout-buck-hanig/",
+      "title": "NC 1st District Republican primary: Buckhout, Buck, Hanig",
+      "publisher": "The Assembly",
+      "kind": "news",
+      "date": "2026-02-27"
+    },
+    {
+      "id": "s13",
       "url": "https://www.lauriebuckhout.com/about",
       "title": "About Laurie",
       "publisher": "Laurie Buckhout for Congress",
       "kind": "candidate"
     },
     {
-      "id": "s12",
+      "id": "s14",
       "url": "https://www.wavy.com/news/politics/candidates/candidate-profile-laurie-buckhout-u-s-house-of-representatives-nc-district-1/amp/",
       "title": "Candidate profile: Laurie Buckhout, U.S. House of Representatives NC District 1 (candidate-supplied biography)",
       "publisher": "WAVY-TV",
@@ -422,7 +444,7 @@
       "date": "2024"
     },
     {
-      "id": "s13",
+      "id": "s15",
       "url": "https://www.witn.com/2026/03/04/buckhout-wins-primary-setting-up-fall-face-off-with-congressman-don-davis/",
       "title": "Buckhout wins primary, setting up fall face-off with Congressman Don Davis",
       "publisher": "WITN",
@@ -430,14 +452,14 @@
       "date": "2026-03-03"
     },
     {
-      "id": "s14",
+      "id": "s16",
       "url": "https://www.afcea.org/signal-media/cyber-edge/dod-appoints-army-col-laurie-buckhout-ret-cyber-defense-policy-position",
       "title": "DoD appoints Army Col. Laurie Buckhout (Ret.) to cyber defense policy position",
       "publisher": "SIGNAL Media (AFCEA International)",
       "kind": "news"
     },
     {
-      "id": "s15",
+      "id": "s17",
       "url": "https://en.wikipedia.org/wiki/Don_Davis_(North_Carolina_politician)",
       "title": "Don Davis (North Carolina politician)",
       "publisher": "Wikipedia",

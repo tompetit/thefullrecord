@@ -42,7 +42,7 @@
         "text": "James Gallagher is an attorney and farmer from Sutter County who served on the Sutter County Board of Supervisors and then in the California State Assembly from 2014 to 2026, including as Assembly Minority Leader from 2022 to 2025. He won the June 2, 2026 special election outright to fill the House seat left vacant by the death of Rep. Doug LaMalfa and is also running for a full term. His stated campaign messages are lower taxes, lower fees and fewer regulations, tougher laws against crime, and protecting farms and businesses from regulation.",
         "sources": [
           "s2",
-          "s4"
+          "s11"
         ]
       },
       "background": [
@@ -56,48 +56,48 @@
           "text": "Earned a high school diploma from East Nicolaus High School, a B.A. from UC Berkeley, and a law degree (J.D.) from UC Davis; he also completed an Assembly Fellowship in Sacramento.",
           "sources": [
             "s2",
-            "s4"
+            "s11"
           ]
         },
         {
           "text": "Worked as an attorney in a practice centered on business and agriculture and is a partner in his family's rice farm.",
           "sources": [
             "s2",
-            "s4"
+            "s11"
           ]
         },
         {
           "text": "Served on the Sutter County Board of Supervisors for six years before joining the Assembly.",
           "sources": [
             "s2",
-            "s4"
+            "s11"
           ]
         },
         {
           "text": "Represented California's Third Assembly District from 2014 to 2026; Roll Call describes the district as an inland district centered on Chico. His Assembly committee service included the Judiciary Committee, on which he was Vice Chair.",
           "sources": [
             "s2",
-            "s4"
+            "s11"
           ]
         },
         {
           "text": "Was Assembly Minority Leader from 2022 to 2025, leading Republican legislators in opposing the 2025 redistricting effort; Roll Call reports he stepped down as caucus leader in September 2025.",
           "sources": [
             "s2",
-            "s4"
+            "s11"
           ]
         },
         {
           "text": "Roll Call reports that the Public Policy Institute of California credited him with paying particular attention to small businesses and farms and with dozens of enacted bills, including a measure to facilitate housing relief for victims of the 2018 Camp Fire.",
           "sources": [
-            "s4"
+            "s11"
           ]
         },
         {
           "text": "Won the June 2, 2026 special primary for California's 1st District with more than 60 percent of the vote, avoiding an August runoff, and was sworn in on June 10, 2026 to complete the term of the late Rep. Doug LaMalfa; he also advanced from the regular June 2 primary for the full term.",
           "sources": [
             "s2",
-            "s4"
+            "s11"
           ]
         },
         {
@@ -161,7 +161,7 @@
         "text": "Mike McGuire is a Democratic California State Senator who first won public office at age 19 on the Healdsburg School Board, later serving on the Healdsburg City Council and Sonoma County Board of Supervisors before his 2014 election to the State Senate. He served as Senate Majority Leader and then as President pro Tempore from 2024 to 2025. He announced his run for Congress in November 2025 and advanced from the June 2, 2026 primary.",
         "sources": [
           "s3",
-          "s5"
+          "s12"
         ]
       },
       "background": [
@@ -199,7 +199,7 @@
           "text": "Elected to the California State Senate in 2014, defeating Republican Lawrence R. Wiesner 70%-30%, and re-elected in 2018 and 2022 with more than 66% of the vote each time; he represents District 2, which covers Marin, Sonoma, Lake, Mendocino, Humboldt, Trinity and Del Norte counties.",
           "sources": [
             "s3",
-            "s5"
+            "s12"
           ]
         },
         {
@@ -212,12 +212,85 @@
           "text": "Agreed in June 2025 to step down as Senate leader so S. Monique Limon could succeed him, and left the position on November 17, 2025; he announced his congressional campaign the same month. The Associated Press, as quoted by Ballotpedia, reported he authored legislation on marine life, cannabis farmers, cellphone service during power outages, and wildfire impacts.",
           "sources": [
             "s3",
-            "s5"
+            "s12"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he will fight in Congress to pass Medicare for All.",
+          "quote": "In Congress, I'll fight to pass Medicare for All, guaranteeing healthcare to every American — full stop.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says he will defend abortion rights and fight to make reproductive freedom federal law.",
+          "quote": "I’ll always defend abortion rights, contraception, IVF, and the broader right to bodily autonomy.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Says he will repeal the 2025 tax cuts for the very wealthy and make billionaires and large corporations pay more.",
+          "quote": "repealing Donald Trump’s $2.2 trillion in tax cuts for the ultra-wealthy and making billionaires and big corporations finally pay their fair share",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says he will push for aggressive climate action and investment in clean energy to lower emissions.",
+          "quote": "I’ll fight for aggressive climate action, investments in clean energy, forest health, fire prevention, and disaster recovery that actually meet the scale of the crisis.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Says Congress must authorize war and that he will work to reassert congressional authority over the war in Iran.",
+          "quote": "Congress cannot sit on the sidelines while a president takes this country into war without congressional authorization or public debate.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Calls for repealing the President's tariffs.",
+          "quote": "Increase the minimum wage, build new housing, and repeal Donald Trump's disastrous tariffs.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Calls for increasing the minimum wage.",
+          "quote": "Increase the minimum wage, build new housing, and repeal Donald Trump's disastrous tariffs.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Proposes federal limits on ICE: body-worn cameras, court liability for agents, a use-of-force policy and judicial warrants for searches of homes and businesses.",
+          "quote": "I’ll fight to enact laws that mandate the use of body-worn cameras for federal agents, ensure ICE agents are liable in court for violating the constitutional rights of residents, enact a use-of-force policy with teeth throughout the federal law enforcement branches, and ensure judicial warrants are used when conducting search and seizure of homes and businesses.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves as Chair of the Senate Rules Committee and Chair of the Fisheries and Aquaculture Committee in the 2025-2026 session.",
@@ -264,6 +337,62 @@
     },
     {
       "id": "s4",
+      "url": "https://www.votemikemcguire.com/issues/healthcare",
+      "title": "Protecting Our Healthcare",
+      "publisher": "Mike McGuire for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.votemikemcguire.com/issues/holdingiceaccountable",
+      "title": "Holding ICE Accountable",
+      "publisher": "Mike McGuire for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.votemikemcguire.com/issues/protecting-reproductive-freedom",
+      "title": "Protecting Reproductive Freedom",
+      "publisher": "Mike McGuire for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.votemikemcguire.com/issues/fixingoureconomy",
+      "title": "Making Billionaires Pay Their Fair Share",
+      "publisher": "Mike McGuire for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.votemikemcguire.com/issues/fighting-for-climate-action-and-wildfire-safety",
+      "title": "Fighting for Climate Action",
+      "publisher": "Mike McGuire for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.votemikemcguire.com/issues/power-abroad",
+      "title": "An End to Illegal Wars",
+      "publisher": "Mike McGuire for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.votemikemcguire.com/issues/lowering-costs-for-working-families",
+      "title": "Lowering Costs for Working Families",
+      "publisher": "Mike McGuire for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
       "url": "https://rollcall.com/2026/06/10/james-gallagher-sworn-in-to-finish-lamalfas-term-in-the-house/",
       "title": "James Gallagher sworn in to finish LaMalfa's term in the House",
       "publisher": "Roll Call",
@@ -271,7 +400,7 @@
       "date": "2026-06-10"
     },
     {
-      "id": "s5",
+      "id": "s12",
       "url": "https://localnewsmatters.org/2025/11/17/state-senate-leader-mcguire-launches-bid-for-congress-challenging-lamalfa/",
       "title": "State Senate leader McGuire launches bid for Congress, challenging LaMalfa",
       "publisher": "Local News Matters",

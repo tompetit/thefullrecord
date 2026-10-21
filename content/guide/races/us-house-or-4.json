@@ -31,7 +31,7 @@
         "sources": [
           "s2",
           "s3",
-          "s6"
+          "s12"
         ]
       },
       "background": [
@@ -87,7 +87,7 @@
         {
           "text": "Serves on the House Committee on Transportation and Infrastructure and the House Committee on Natural Resources, and belongs to caucuses including the Congressional Progressive Caucus, New Democrat Coalition and Labor Caucus.",
           "sources": [
-            "s6"
+            "s12"
           ]
         },
         {
@@ -98,7 +98,35 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In a March 2026 statement on ICE detention plans in Oregon, said she opposes spending more money on a larger ICE presence in the state.",
+          "quote": "We don’t need more money wasted on having a larger ICE presence here to harass, intimidate and detain hardworking Oregonians based on the color of their skin.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official issues page says she is a member of the House Pro-Choice Caucus and that the government should not get in the middle of personal health care decisions.",
+          "quote": "I understand how critical it is for all people to have access to safe and effective reproductive care.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official issues page says she is fighting to protect and improve Medicare and Medicaid.",
+          "quote": "Every day I am fighting to protect and improve our most vital programs, including Medicare and Medicaid.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the House Committee on Natural Resources (Subcommittees on Indian and Insular Affairs; Water, Wildlife and Fisheries) and the Committee on Transportation and Infrastructure (Subcommittees on Highways and Transit; Water Resources and Environment).",
@@ -108,7 +136,7 @@
           ]
         }
       ],
-      "website": "https://valhoyleforcongress.com/",
+      "website": "https://www.valhoyle.com",
       "researchDepth": "basic"
     },
     {
@@ -160,7 +188,7 @@
           "text": "Was the Republican nominee for the 4th District in 2024, losing the general election to Val Hoyle, 43.9% to 51.7%.",
           "sources": [
             "s4",
-            "s7"
+            "s10"
           ]
         },
         {
@@ -199,26 +227,66 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
+          "issue": "abortion",
           "stance": "supports",
-          "summary": "Says she will ensure the nation's borders remain secure and supports continued vigilance against human trafficking and drug trafficking across them.",
-          "quote": "I will ensure our nation's borders remain secure. I support constant vigilance to stop the flow of human trafficking, fentanyl, and other deadly drugs into our nation.",
+          "summary": "Says she will oppose any effort in Congress to limit or restrict abortion access for Oregonians.",
+          "quote": "I will oppose any effort in Congress to limit or restrict abortion access for Oregonians.",
           "sources": [
-            "s4"
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says noncitizens who commit serious violent crimes or trafficking should be removed, and that she supports border barriers and a staffed Border Patrol; says mass deportation is not a realistic solution and supports a one-time path to lawful status for long-settled, non-criminal residents.",
+          "quote": "Indiscriminate mass deportation is neither a realistic nor constructive solution.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Says she supports ending permitting costs, building regulations and land-use restrictions that limit new construction.",
+          "quote": "I support ending prohibitive and inflationary policies that stifle new construction with excessive permitting costs, building regulations, city and county codes, bureaucratic red tape, and outdated land-use restrictions imposed by the government itself.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
+      "record": [],
+      "website": "https://www.moniqueforcongress.com",
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "I will support a Parents’ Bill of Rights to ensure real transparency and accountability: full access to curricula, clear reporting on school performance, and genuine school choice.",
+          "context": "On her campaign website, Education page",
+          "sources": [
+            "s9"
           ]
         },
         {
           "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Supports collaboration between law enforcement at all levels to reduce crime and keep communities safe.",
+          "quote": "It is my goal to ensure they have the necessary authority and resources to do their job effectively, from Customs and Border Patrol to our local sheriffs, police, and district attorneys.",
+          "context": "On her campaign website, Public Safety and Crime page",
           "sources": [
-            "s4"
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Consumers and businesses—not distant bureaucrats—should decide when and how to adopt alternative energy options, free from prohibitive costs or forced transitions.",
+          "context": "On her campaign website, Energy page",
+          "sources": [
+            "s9"
           ]
         }
       ],
-      "record": [],
-      "website": "https://www.moniquedespain.com/",
-      "researchDepth": "basic"
+      "researchNotes": "Positions and statements are from the Priorities page of her campaign website. She did not state a position on several guide issues (rent, taxes, tariffs, minimum wage); her Israel and election-integrity pages do not map to the guide statements on military aid or proof of citizenship."
     },
     {
       "id": "justin-filip",
@@ -232,9 +300,9 @@
         "text": "Justin Filip is the Pacific Green Party and Progressive Party nominee for Oregon's 4th Congressional District. A University of Oregon graduate who worked as a program coordinator at the university, he has held party leadership roles in the Pacific Green Party since 2021. This is his second run for the seat; according to his campaign, his priorities include reducing military spending, addressing homelessness and protecting federal lands.",
         "sources": [
           "s5",
-          "s7",
-          "s8",
-          "s9"
+          "s10",
+          "s13",
+          "s11"
         ]
       },
       "background": [
@@ -247,24 +315,24 @@
         {
           "text": "Described himself in 2024 as a Program Coordinator at the University of Oregon, and in April 2024 co-founded the UO Faculty and Staff for Justice in Palestine, according to his campaign site.",
           "sources": [
-            "s7",
-            "s8"
+            "s10",
+            "s13"
           ]
         },
         {
           "text": "Served on the Pacific Green Party's State Coordinating Committee from 2021 to 2024 and is the party's secretary and co-chair of its Eugene chapter.",
           "sources": [
             "s5",
-            "s7",
-            "s8"
+            "s10",
+            "s13"
           ]
         },
         {
           "text": "First ran for office in 2024 as the Pacific Green candidate in the 4th District, receiving 10,315 votes (2.7%) against Val Hoyle's 195,862.",
           "sources": [
             "s5",
-            "s7",
-            "s9"
+            "s10",
+            "s11"
           ]
         },
         {
@@ -280,12 +348,57 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "text": "In July 2026 Eugene Weekly reported his priorities as ending U.S. imperialism, addressing homelessness, improving health care and protecting the environment.",
+          "sources": [
+            "s11"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In OPB's October 2024 candidate questionnaire (from his 2024 run), said he would support codifying reproductive rights in law.",
+          "quote": "No. I believe in women’s reproductive rights and I would support codifying it in law.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "In OPB's October 2024 candidate questionnaire (from his 2024 run), called for an arms embargo on Israel until the occupation of Gaza and the West Bank ends.",
+          "quote": "We must put an arms embargo in place until Israel ends the occupation of Gaza and the West Bank.",
+          "sources": [
+            "s10"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "Filip has not completed Ballotpedia's 2026 Candidate Connection survey; priorities are drawn from his 2024 campaign website as archived by Ballotpedia, and no updated 2026 statements were found."
+      "researchDepth": "basic",
+      "researchNotes": "Statements are from OPB's 2024 candidate questionnaire (verbatim answers), since no 2026 campaign site or questionnaire was found; his positions may have changed. Eugene Weekly (July 2026) paraphrases his priorities. Positions and statements come from OPB's October 2024 candidate questionnaire and have not been confirmed for 2026.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I support the right to seek asylum and a path to citizenship for our immigrant neighbors. I would not support any bill that would infringe on that.",
+          "context": "In OPB's October 2024 candidate questionnaire (from his 2024 run)",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "We need to listen to the experts who have studied the science and take strong action to protect our environment.",
+          "context": "In OPB's October 2024 candidate questionnaire (from his 2024 run)",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -326,31 +439,61 @@
     },
     {
       "id": "s6",
+      "url": "https://hoyle.house.gov/media/press-releases/salinas-merkley-hoyle-led-letter-forces-ice-to-confirm-no-plans-to-expand-or-build-ice-detention-facilities-in-oregon",
+      "title": "Salinas, Merkley, Hoyle-Led Letter Forces ICE to Confirm: No Plans to Expand or Build ICE Detention Facilities in Oregon",
+      "publisher": "Office of Rep. Val Hoyle",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://hoyle.house.gov/issues/reproductive-rights",
+      "title": "Reproductive Rights",
+      "publisher": "Office of Rep. Val Hoyle",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://hoyle.house.gov/issue/health",
+      "title": "Health",
+      "publisher": "Office of Rep. Val Hoyle",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.moniqueforcongress.com/issues/",
+      "title": "Monique's Priorities",
+      "publisher": "Monique DeSpain for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://opb.org/article/2024/10/17/justin-filip-oregon-4th-congressional-district-politics-election-congress",
+      "title": "Justin Filip, candidate for Oregon's 4th Congressional District, on Israel, abortion and peace",
+      "publisher": "OPB",
+      "kind": "news",
+      "date": "2024-10-17"
+    },
+    {
+      "id": "s11",
+      "url": "https://eugeneweekly.com/2026/07/23/revolution-from-the-inside/",
+      "title": "Revolution from the inside",
+      "publisher": "Eugene Weekly",
+      "kind": "news",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s12",
       "url": "https://hoyle.house.gov/about/committees-and-caucuses",
       "title": "Committees and Caucuses",
       "publisher": "Office of Rep. Val Hoyle",
       "kind": "official"
     },
     {
-      "id": "s7",
-      "url": "https://opb.org/article/2024/10/17/justin-filip-oregon-4th-congressional-district-politics-election-congress",
-      "title": "Justin Filip, candidate for Oregon's 4th Congressional District, on Israel, abortion and peace",
-      "publisher": "OPB",
-      "kind": "news"
-    },
-    {
-      "id": "s8",
+      "id": "s13",
       "url": "https://justin4congress.com/meet-justin",
       "title": "Meet Justin",
       "publisher": "Justin Filip for Congress",
       "kind": "candidate"
-    },
-    {
-      "id": "s9",
-      "url": "https://eugeneweekly.com/2026/07/23/revolution-from-the-inside/",
-      "title": "Revolution from the Inside",
-      "publisher": "Eugene Weekly",
-      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/Link";
 import { getRace } from "@/server/guide/load";
 import type { SeatElection, SeatNotOnBallot } from "@/server/types";
 import { SourceLink } from "./SourceLink";
@@ -34,6 +34,7 @@ export function ElectionCard({
     <section className="mt-4 rounded-[10px] border border-card bg-paper-raised p-4">
       <h2 className="font-sans text-[11px] font-bold tracking-[0.06em] text-ink-45">
         ON THE BALLOT · {election.dateLabel.toUpperCase()}
+        {election.seats && election.seats > 1 ? ` · ${election.seats} SEATS` : ""}
       </h2>
 
       {election.candidates.length === 0 ? (

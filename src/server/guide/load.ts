@@ -10,6 +10,7 @@ import type {
   Finance,
   GuideCandidate,
   GuideRace,
+  RecordedVote,
   IssueKey,
   KeyVote,
   OfficeType,
@@ -47,6 +48,20 @@ interface Enrichment {
   landmark: Record<string, Array<StateVote & { id: string }>>;
   senateLandmark: Record<string, Array<StateVote & { id: string }>>;
   stateVotes: Record<string, StateVote[]>;
+  cosponsors: CosponsorData;
+}
+
+interface LinkHealth {
+  checkedAt?: string;
+  results: Record<string, { status: string; archivedUrl?: string }>;
+}
+
+let linkHealth: LinkHealth["results"] | null = null;
+
+/** Static, build-time results of `npm run guide:check-links`. */
+function getLinkHealth(): LinkHealth["results"] {
+  if (!linkHealth) linkHealth = readJson<LinkHealth>(join(ROOT, "link-health.json"), { results: {} }).results;
+  return linkHealth;
 }
 
 let races: Map<string, GuideRace> | null = null;
@@ -68,10 +83,17 @@ export function getKeyVoteDefs(): KeyVoteDef[] {
 }
 
 /**
- * Key votes that speak directly to an issue statement. A yes vote maps to
- * `yes`; a no vote to the opposite stance. Only unambiguous pairings.
+ * Editorial topic associations for browsing exact votes. They do not establish
+ * a broad policy stance, including when a vote concerns an omnibus bill.
  */
-type VoteIssue = { issue: IssueKey; yes: Stance; why?: string };
+/**
+ * `yes`: which way a Yes vote points relative to the ISSUES statement. Set only
+ * when the bill's central effect squarely matches the statement (and `why` names
+ * the provision when the bill is broad). Used to compare single votes with a
+ * voter's answer — never to infer a candidate's overall stance.
+ * Directions reviewed 2026-10-03 by Claude (AI editor — review delegated by site owner).
+ */
+type VoteIssue = { issue: IssueKey; why?: string; yes?: "supports" | "opposes" };
 
 const OBBBA: VoteIssue[] = [
   { issue: "healthcare_public", yes: "opposes", why: "which reduced federal Medicaid spending and added Medicaid work requirements" },
@@ -84,10 +106,10 @@ const OBBBA: VoteIssue[] = [
 const VOTE_ISSUES: Record<string, VoteIssue[]> = {
   "h-2025-23": [{ issue: "immigration_enforcement", yes: "supports" }],
   "s-2025-7": [{ issue: "immigration_enforcement", yes: "supports" }],
-  "h-2026-11": [{ issue: "healthcare_public", yes: "supports" }],
-  "h-2026-65": [{ issue: "tariffs", yes: "opposes" }],
-  "s-2025-225": [{ issue: "tariffs", yes: "opposes" }],
-  "s-2025-600": [{ issue: "tariffs", yes: "opposes" }],
+  "h-2026-11": [{ issue: "healthcare_public", yes: "supports", why: "which extended enhanced ACA premium subsidies" }],
+  "h-2026-65": [{ issue: "tariffs", yes: "opposes", why: "which disapproved the tariffs on Canadian imports" }],
+  "s-2025-225": [{ issue: "tariffs", yes: "opposes", why: "which would have ended the emergency used to impose global tariffs" }],
+  "s-2025-600": [{ issue: "tariffs", yes: "opposes", why: "which would end the emergency used to impose global tariffs" }],
   // Landmark votes from earlier Congresses (current and former members)
   "h-2010-165": [{ issue: "healthcare_public", yes: "supports" }],
   "h-2017-256": [{ issue: "healthcare_public", yes: "opposes", why: "which would have capped federal Medicaid funding and ended enhanced funding for the Medicaid expansion" }],
@@ -100,17 +122,23 @@ const VOTE_ISSUES: Record<string, VoteIssue[]> = {
     { issue: "climate", yes: "supports", why: "which enacted clean-energy and climate tax credits" },
     { issue: "tax_wealthy", yes: "supports", why: "which added a 15% minimum tax on large corporations and a stock-buyback excise tax" },
   ],
-  "h-2019-99": [{ issue: "guns", yes: "supports" }],
-  "h-2022-410": [{ issue: "guns", yes: "supports" }],
-  "h-2022-299": [{ issue: "guns", yes: "supports" }],
-  "h-2017-663": [{ issue: "guns", yes: "opposes" }],
+  "h-2019-99": [{ issue: "guns", yes: "supports", why: "which would have required background checks on most private gun sales" }],
+  "h-2022-410": [{ issue: "guns", yes: "supports", why: "which would have banned the sale of many semiautomatic assault weapons" }],
+  "h-2022-299": [{ issue: "guns", yes: "supports", why: "which expanded background checks for buyers under 21 and funded state red-flag programs" }],
+  "h-2017-663": [{ issue: "guns", yes: "opposes", why: "which would have required states to honor other states' concealed-carry permits" }],
   "h-2019-496": [{ issue: "minimum_wage", yes: "supports" }],
   "h-2021-295": [{ issue: "abortion", yes: "supports" }],
   "h-2022-360": [{ issue: "abortion", yes: "supports" }],
-  "h-2017-549": [{ issue: "abortion", yes: "opposes" }],
+  "h-2017-549": [{ issue: "abortion", yes: "opposes", why: "which would have banned most abortions after 20 weeks" }],
   "h-2023-209": [{ issue: "immigration_enforcement", yes: "supports" }],
-  "h-2019-240": [{ issue: "immigration_enforcement", yes: "opposes" }],
-  "h-2021-91": [{ issue: "immigration_enforcement", yes: "opposes" }],
+  "h-2019-240": [{ issue: "immigration_enforcement" }],
+  "h-2021-91": [{ issue: "immigration_enforcement" }],
+  // New statements (October 2026)
+  "h-2025-102": [{ issue: "voter_citizenship_proof", yes: "supports" }],
+  "h-2025-346": [{ issue: "war_powers", yes: "supports", why: "which would have directed the removal of U.S. forces from hostilities against Venezuela absent congressional authorization" }],
+  "h-2026-199": [{ issue: "war_powers", yes: "supports", why: "which directed the removal of U.S. forces from hostilities against Iran absent congressional authorization" }],
+  "s-2025-328": [{ issue: "war_powers", yes: "supports", why: "a motion to bring a war powers resolution on Iran to a vote" }],
+  "s-2025-608": [{ issue: "war_powers", yes: "supports", why: "a motion to bring a war powers resolution on Venezuela to a vote" }],
   "h-2025-145": OBBBA,
   "h-2025-190": OBBBA,
   "s-2025-372": OBBBA,
@@ -125,19 +153,17 @@ const BILL_SOURCES: Record<string, { id: string; url: string; title: string }> =
 };
 
 /**
- * Recorded floor votes outrank campaign statements: where key votes bear on an
- * issue, the vote-derived stance becomes the position, and any stated position
- * on the same issue is kept alongside it as `stated`.
+ * Put exact recorded votes beside stated positions without inferring an overall
+ * stance from a vote or treating a no vote as support for the opposite policy.
  */
 function addVotePositions(race: GuideRace, c: GuideCandidate) {
   const defs = new Map(getKeyVoteDefs().map((d) => [d.id, d]));
-  const byIssue = new Map<IssueKey, Array<{ stance: Stance; def: KeyVoteDef; vote: string; why?: string }>>();
+  const byIssue = new Map<IssueKey, Array<{ def: KeyVoteDef; vote: "yes" | "no"; why?: string; yesMeans?: "supports" | "opposes" }>>();
   for (const kv of c.keyVotes ?? []) {
     const def = defs.get(kv.voteId);
     if (!def || (kv.vote !== "yes" && kv.vote !== "no")) continue;
     for (const map of VOTE_ISSUES[kv.voteId] ?? []) {
-      const stance: Stance = kv.vote === "yes" ? map.yes : map.yes === "supports" ? "opposes" : "supports";
-      byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { stance, def, vote: kv.vote, why: map.why }]);
+      byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { def, vote: kv.vote, why: map.why, yesMeans: map.yes }]);
     }
   }
   const addSource = (src: GuideRace["sources"][number]) => {
@@ -157,29 +183,33 @@ function addVotePositions(race: GuideRace, c: GuideCandidate) {
           date: def.date,
         }),
       );
-      const bill = BILL_SOURCES[def.bill];
+      // Bill numbers repeat each Congress; H.R. 1 from 2017 is not H.R. 1 from 2025.
+      const bill = def.year === 2025 || def.year === 2026 ? BILL_SOURCES[def.bill] : undefined;
       if (bill && votes.some((v) => v.why)) sourceIds.add(addSource({ ...bill, publisher: "Congress.gov", kind: "official" }));
     }
-    const stances = new Set(votes.map((v) => v.stance));
     // One sentence per bill (House and Senate passage of the same bill read as one line).
     const seen = new Set<string>();
     const lines: string[] = [];
-    for (const { def, vote, why } of votes) {
+    const recorded: RecordedVote[] = [];
+    for (const { def, vote, why, yesMeans } of votes) {
       const k = `${def.bill}|${vote}`;
       if (seen.has(k)) continue;
       seen.add(k);
-      const dates = votes.filter((v) => v.def.bill === def.bill && v.vote === vote).map((v) => v.def.date);
-      lines.push(`Voted ${vote} on ${def.shortTitle.replace(/ — .*$/, "")} (${def.bill}, ${dates.join("; ")})${why ? `, ${why}` : ""}.`);
+      const same = votes.filter((v) => v.def.bill === def.bill && v.vote === vote);
+      const line = `Voted ${vote} on ${def.shortTitle.replace(/ — .*$/, "")} (${def.bill}, ${same.map((v) => v.def.date).join("; ")})${why ? `, ${why}` : ""}.`;
+      lines.push(line);
+      recorded.push({ text: line, vote, yesMeans, sources: same.map((v) => `kv-${v.def.id}`) });
     }
     const existing = c.positions.findIndex((p) => p.issue === issue);
     const prior = existing >= 0 ? c.positions[existing] : undefined;
     const pos: Position = {
       issue,
-      stance: stances.size === 1 ? votes[0].stance : "mixed",
+      stance: "not_inferred",
       summary: lines.join(" "),
       sources: [...sourceIds],
       basis: "votes",
-      ...(prior ? { stated: { stance: prior.stance, summary: prior.summary, quote: prior.quote, sources: prior.sources } } : {}),
+      votes: recorded,
+      ...(prior && prior.basis !== "votes" ? { stated: { stance: prior.stance, summary: prior.summary, quote: prior.quote, sources: prior.sources } } : {}),
     };
     if (existing >= 0) c.positions[existing] = pos;
     else c.positions.push(pos);
@@ -214,15 +244,14 @@ const NY_LANDMARK_SUMMARY: Record<string, string> = {
   S2509: "Raised personal income tax rates on incomes above $1 million and raised the corporate franchise tax rate on large businesses, among other revenue measures.",
 };
 
-/** Same precedence as congressional votes: recorded Albany votes outrank statements. */
+/** Albany topic evidence also preserves exact votes without stance inference. */
 function addStateVotePositions(race: GuideRace, c: GuideCandidate, votes: Array<StateVote & { id: string }>) {
-  const byIssue = new Map<IssueKey, Array<{ stance: Stance; v: StateVote & { id: string } }>>();
+  const byIssue = new Map<IssueKey, Array<{ v: StateVote & { id: string } }>>();
   for (const v of votes) {
     v.summary ??= NY_LANDMARK_SUMMARY[v.bill.replace(/-[A-Z]$/, "")];
     const map = NY_VOTE_ISSUES[v.id];
     if (!map || (v.vote !== "yes" && v.vote !== "no")) continue;
-    const stance: Stance = v.vote === "yes" ? map.yes : map.yes === "supports" ? "opposes" : "supports";
-    byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { stance, v }]);
+    byIssue.set(map.issue, [...(byIssue.get(map.issue) ?? []), { v }]);
   }
   for (const [issue, list] of byIssue) {
     const sources = list.map(({ v }) => {
@@ -231,20 +260,63 @@ function addStateVotePositions(race: GuideRace, c: GuideCandidate, votes: Array<
         race.sources.push({ id, url: v.sourceUrl, title: `${v.chamber === "senate" ? "Senate" : "Assembly"} floor vote: ${v.bill} — ${v.title}`, publisher: v.chamber === "senate" ? "New York State Senate" : "New York State Assembly", kind: "official", date: v.date });
       return id;
     });
-    const stances = new Set(list.map((x) => x.stance));
     const existing = c.positions.findIndex((p) => p.issue === issue);
     const prior = existing >= 0 ? c.positions[existing] : undefined;
     if (prior?.basis === "votes") continue;
+    const recorded: RecordedVote[] = list.map(({ v }, i) => ({
+      text: `Voted ${v.vote} on ${v.bill} (${v.title}, ${v.date})${v.summary ? `: ${v.summary}` : "."}`,
+      vote: v.vote as "yes" | "no",
+      yesMeans: NY_VOTE_ISSUES[v.id]?.yes,
+      sources: [sources[i]],
+    }));
     const pos: Position = {
       issue,
-      stance: stances.size === 1 ? list[0].stance : "mixed",
-      summary: list.map(({ v }) => `Voted ${v.vote} on ${v.bill} (${v.title}, ${v.date})${v.summary ? `: ${v.summary}` : "."}`).join(" "),
+      stance: "not_inferred",
+      summary: recorded.map((r) => r.text).join(" "),
       sources,
       basis: "votes",
+      votes: recorded,
       ...(prior ? { stated: { stance: prior.stance, summary: prior.summary, quote: prior.quote, sources: prior.sources } } : {}),
     };
     if (existing >= 0) c.positions[existing] = pos;
     else c.positions.push(pos);
+  }
+}
+
+interface CosponsorData {
+  generatedAt: string;
+  bills: Array<{ key: string; label: string; issue: IssueKey; supports: boolean; why: string; url: string; title: string; members: Record<string, "sponsor" | "cosponsor"> }>;
+  candidates: Record<string, string>;
+}
+
+/**
+ * Sponsoring or cosponsoring a bill whose purpose squarely matches a statement is a
+ * documented position (README rule 4). Membership comes from official congress.gov
+ * lists (scripts/guide/cosponsors.mjs); the bill list and directions are editorial
+ * (content/guide/cosponsor-bills.json). A candidate's own statement on the issue
+ * always takes precedence, so this only fills topics they haven't addressed.
+ */
+function addBillPositions(race: GuideRace, c: GuideCandidate, data: CosponsorData) {
+  const bioguide = data.candidates[`${race.id}/${c.id}`];
+  if (!bioguide) return;
+  const byIssue = new Map<IssueKey, CosponsorData["bills"]>();
+  for (const b of data.bills) if (b.members[bioguide]) byIssue.set(b.issue, [...(byIssue.get(b.issue) ?? []), b]);
+  for (const [issue, bills] of byIssue) {
+    if (c.positions.some((p) => p.issue === issue && p.basis !== "votes")) continue;
+    const sources = bills.map((b) => {
+      const id = `bill-${b.key}`;
+      if (!race.sources.some((src) => src.id === id))
+        race.sources.push({ id, url: b.url, title: `${b.label} (${b.title}) — sponsors and cosponsors`, publisher: "Congress.gov", kind: "official" });
+      return id;
+    });
+    const directions = new Set(bills.map((b) => b.supports));
+    c.positions.push({
+      issue,
+      stance: directions.size > 1 ? "mixed" : bills[0].supports ? "supports" : "opposes",
+      summary: bills.map((b) => `${b.members[bioguide] === "sponsor" ? "Sponsored" : "Cosponsored"} ${b.label} (119th Congress), ${b.why}.`).join(" "),
+      sources,
+      basis: "statements",
+    });
   }
 }
 
@@ -253,6 +325,7 @@ function load(): Map<string, GuideRace> {
   const enrich: Enrichment = {
     finance: readJson(join(GEN_DIR, "finance.json"), {}),
     members: readJson(join(GEN_DIR, "members.json"), {}),
+    cosponsors: readJson<CosponsorData>(join(GEN_DIR, "cosponsors.json"), { generatedAt: "", bills: [], candidates: {} }),
     stateVotes: readJson(join(GEN_DIR, "state-votes.json"), {}),
     landmark: {
       ...readJson(join(GEN_DIR, "ny-landmark-votes.json"), {}),
@@ -270,7 +343,13 @@ function load(): Map<string, GuideRace> {
     const race = readJson<GuideRace | null>(join(RACES_DIR, file), null);
     if (!race?.id) continue;
     for (const c of race.candidates) {
+      // Authored vote-based entries follow the same no-inference rule.
+      for (const position of c.positions) {
+        if (position.basis === "votes") position.stance = "not_inferred";
+      }
       const key = `${race.id}/${c.id}`;
+      // Before vote positions, so a bill-based stance becomes the "stated" side next to votes.
+      addBillPositions(race, c, enrich.cosponsors);
       const sv = enrich.stateVotes[key];
       const lmList = [...(enrich.landmark[key] ?? []), ...(enrich.senateLandmark[key] ?? [])];
       const lm = lmList.length ? lmList : undefined;
@@ -285,6 +364,11 @@ function load(): Map<string, GuideRace> {
         if (mem.fecId) c.fecId = mem.fecId;
         addVotePositions(race, c);
       }
+    }
+    const health = getLinkHealth();
+    for (const s of race.sources) {
+      const h = health[s.url];
+      if (h?.status === "dead") s.deadLink = h.archivedUrl ? { archivedUrl: h.archivedUrl } : {};
     }
     map.set(race.id, race);
   }
@@ -355,6 +439,7 @@ export function racesForDistricts(d: {
       case "governor":
       case "attorney-general":
       case "comptroller":
+      case "secretary-of-state":
         return true;
       case "us-house":
         return cd != null && r.id === `us-house-${st}-${cd}`;

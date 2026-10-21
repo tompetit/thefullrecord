@@ -15,6 +15,7 @@ import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { expandSnapshot } from "../ingest/shared.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const GUIDE = join(ROOT, "content/guide");
@@ -80,6 +81,26 @@ function matchLegislator(candidateName, state, pool = legislators) {
       .filter(Boolean)
       .map(norm);
     return firsts.some((f) => f && (f === c.first || f === alt || (c.first.length > 1 && f.startsWith(c.first)) || c.first.startsWith(f)));
+  });
+  return hits.length === 1 ? hits[0] : null;
+}
+
+/**
+ * Fallback for sitting members whose listed name differs from the roster's
+ * ("Lou Correa" vs "J. Luis Correa", "Nicholas J. LaLota" vs "Nick LaLota"):
+ * an incumbent in a House race is the member who holds that district now, and
+ * an incumbent senator is one of the state's two senators — confirmed by last name.
+ */
+function matchIncumbentBySeat(candidate, race) {
+  if (!candidate.incumbent) return null;
+  const last = nameParts(candidate.name).last;
+  const district = race.district === "AL" || !race.district ? 0 : Number(race.district);
+  const hits = legislators.filter((l) => {
+    const t = l.terms[l.terms.length - 1];
+    if (t.state !== race.state) return false;
+    if (race.officeType === "us-house" && (t.type !== "rep" || (t.district ?? 0) !== district)) return false;
+    if (race.officeType === "us-senate" && t.type !== "sen") return false;
+    return norm(l.name.last).split(" ").includes(last);
   });
   return hits.length === 1 ? hits[0] : null;
 }
@@ -166,7 +187,9 @@ for (const race of races) {
   for (const c of race.candidates) {
     const key = `${race.id}/${c.id}`;
     const federalOrStatewide = ["us-house", "us-senate", "governor", "attorney-general", "comptroller"].includes(race.officeType);
-    const current = federalOrStatewide ? matchLegislator(c.name, race.state) : null;
+    const current = federalOrStatewide
+      ? matchLegislator(c.name, race.state) ?? (["us-house", "us-senate"].includes(race.officeType) ? matchIncumbentBySeat(c, race) : null)
+      : null;
     const leg = current ?? (federalOrStatewide ? matchLegislator(c.name, race.state, historical) : null);
     if (leg) {
       const kvs = [];
@@ -200,7 +223,7 @@ for (const race of races) {
 const stateVotes = {};
 let nState = 0;
 for (const file of ["assembly-ny.json", "senate-ny.json"]) {
-  const snap = JSON.parse(readFileSync(join(ROOT, "src/server/snapshot", file), "utf8"));
+  const snap = expandSnapshot(JSON.parse(readFileSync(join(ROOT, "src/server/snapshot", file), "utf8")));
   const contested = snap.rollCalls.filter((rc) => {
     const v = Object.values(rc.votes);
     const yes = v.filter((x) => x === "yes").length;
@@ -236,6 +259,9 @@ for (const file of ["assembly-ny.json", "senate-ny.json"]) {
     }
   }
 }
+// Keep the profile list readable (and the file small): the most recent contested votes.
+const RECENT_STATE_VOTES = 25;
+for (const key of Object.keys(stateVotes)) stateVotes[key] = stateVotes[key].sort((a, b) => b.date.localeCompare(a.date)).slice(0, RECENT_STATE_VOTES);
 writeFileSync(join(GEN, "state-votes.json"), JSON.stringify(stateVotes, null, 1));
 console.log(`attached NY legislature floor votes to ${nState} candidates`);
 

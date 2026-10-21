@@ -1,0 +1,412 @@
+{
+  "id": "nv-gov",
+  "state": "NV",
+  "officeType": "governor",
+  "office": "Governor",
+  "title": "Governor of Nevada",
+  "area": "Statewide — all of Nevada",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Republican Gov. Joe Lombardo is seeking a second term; Nevada limits governors to two terms. He won the June 9 Republican primary with 91.0%.",
+      "sources": [
+        "s1",
+        "s2",
+        "s11"
+      ]
+    },
+    {
+      "text": "Attorney General Aaron Ford won the June 9 Democratic primary with 63.8% over Washoe County Commission Chair Alexis Hill.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Only three candidates appear on the November ballot for governor: Lombardo (Republican), Aaron Ford (Democratic) and Danielle Ford, who has no party and qualified by petition. 'None of These Candidates' also appears as a ballot choice in Nevada statewide races.",
+      "sources": [
+        "s1",
+        "s10",
+        "s11",
+        "s12"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "joe-lombardo",
+      "name": "Joe Lombardo",
+      "parties": [
+        "Republican"
+      ],
+      "incumbent": true,
+      "ballotNote": "Won the June 9 Republican primary with 91.0% of the vote.",
+      "currentRole": "Governor of Nevada (since January 2023)",
+      "summary": {
+        "text": "Joe Lombardo is the incumbent Republican Governor of Nevada, seeking a second term. A former Clark County sheriff, he was elected in 2022. His campaign highlights his record on education, health care, public safety and the economy; he has pledged no new taxes, vetoed a record number of bills from the Democratic-controlled Legislature, and backed a 2024 ballot question requiring voter ID.",
+        "sources": [
+          "s2",
+          "s3",
+          "s5"
+        ]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Army, Army Reserve and Nevada National Guard from 1980 to 1986, then joined the Las Vegas Metropolitan Police Department in 1988 and rose through the ranks.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Served as Clark County sheriff from 2014 to 2022 before being elected governor.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Education: expanding school choice and accountability, and restoring retention of third graders who are not reading at grade level.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "No new taxes, a pledge he has repeated since his first campaign for governor.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Public safety, including a proposal to lower Nevada's felony theft threshold from $1,200 to $750.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Has pushed to expand the state's Opportunity Scholarship program for private-school scholarships, so far blocked by Democrats, and has advanced charter school growth.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "mixed",
+          "summary": "His campaign did not say whether the right to an abortion through 24 weeks should be added to the state constitution; he has said he would personally support a 15-week cutoff, but that abortion rights are codified in state law and should be left to voters.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Reported that he received 605 bills after the 2025 legislative session, signing 518 into law and vetoing 87.",
+          "sources": [
+            "s5"
+          ],
+          "date": "2025-06-13",
+          "kind": "bill"
+        },
+        {
+          "text": "Reinstated Nevada's third-grade reading retention policy as part of his 2023 education omnibus bill, AB400.",
+          "sources": [
+            "s3"
+          ],
+          "kind": "bill"
+        },
+        {
+          "text": "Vetoed a 2023 bill to cap corporate ownership of single-family homes, and later reportedly blocked a 2025 effort with stricter limits.",
+          "sources": [
+            "s3"
+          ],
+          "kind": "bill"
+        },
+        {
+          "text": "Publicly and financially supported the 2024 ballot question to require voter ID, which passed and needs approval again in 2026.",
+          "sources": [
+            "s3"
+          ],
+          "date": "2024-11-05",
+          "kind": "action"
+        }
+      ],
+      "researchDepth": "basic",
+      "website": "https://gov.nv.gov/"
+    },
+    {
+      "id": "aaron-ford",
+      "name": "Aaron Ford",
+      "parties": [
+        "Democratic"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the June 9 Democratic primary with 63.8% over Washoe County Commission Chair Alexis Hill.",
+      "currentRole": "Nevada Attorney General (since January 2019)",
+      "summary": {
+        "text": "Aaron Ford is Nevada's Attorney General and the Democratic nominee for governor. A former public school math teacher, he was elected to the state Senate in 2012, finishing as majority leader, before becoming the state's first Black attorney general in 2019. His campaign centers on housing costs, health care, energy and education, and he supports repealing the state's right-to-work law.",
+        "sources": [
+          "s2",
+          "s6",
+          "s7"
+        ]
+      },
+      "background": [
+        {
+          "text": "Raised in a working-class family; earned five degrees including a Ph.D. in education and a law degree, and worked as a public school math teacher.",
+          "sources": [
+            "s7",
+            "s6"
+          ]
+        },
+        {
+          "text": "Elected to the Nevada Senate in 2012 and served as Senate Majority Leader.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Has served as attorney general since 2019, becoming the first Black attorney general in Nevada history.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Housing affordability: easing permitting, using vacant land, and limiting corporate investors buying single-family homes.",
+          "sources": [
+            "s6",
+            "s3"
+          ]
+        },
+        {
+          "text": "Making data centers pay for their own power and infrastructure and ending tax breaks until they meet commitments.",
+          "sources": [
+            "s6",
+            "s3"
+          ]
+        },
+        {
+          "text": "Raising K-12 funding toward the national average without new taxes, and repealing Nevada's right-to-work law.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Says that as governor he will keep Nevada a firewall on abortion access, IVF and private medical decisions; The Nevada Independent lists him as answering yes on enshrining the right to an abortion through 24 weeks in the state constitution.",
+          "quote": "ensure that Nevada itself remains a firewall, not just in name, but in practice … that means protecting abortion access, safeguarding IVF, keeping politicians out of private medical decisions.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "As attorney general, defended Nevada's 2021 ghost-gun ban in court and sued over machine-gun conversion devices.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Applauded a unanimous Nevada Supreme Court decision upholding the state's ban on 'ghost guns' (Assembly Bill 286 of 2021) against a vagueness challenge.",
+          "sources": [
+            "s8"
+          ],
+          "date": "2024-04-18",
+          "kind": "legal"
+        },
+        {
+          "text": "Announced that, following his lawsuit alongside a coalition of 16 attorneys general, the Trump administration committed to carving Nevada out of its plan to distribute machine-gun conversion devices, and the ATF told the court it would not return forced reset triggers into the plaintiff states.",
+          "sources": [
+            "s9"
+          ],
+          "date": "2025-07-11",
+          "kind": "legal"
+        },
+        {
+          "text": "As attorney general, testified in support of 2019 criminal-justice reform bill AB236, which raised the felony theft threshold from $650 to $1,200.",
+          "sources": [
+            "s3"
+          ],
+          "kind": "action"
+        }
+      ],
+      "researchDepth": "basic",
+      "website": "https://www.fordfornevada.com/"
+    },
+    {
+      "id": "danielle-ford",
+      "name": "Danielle Ford",
+      "parties": [
+        "No Political Party"
+      ],
+      "incumbent": false,
+      "ballotNote": "Nonpartisan candidate who qualified for the ballot by gathering 250 valid signatures.",
+      "currentRole": "Member, Nevada State Board of Education",
+      "summary": {
+        "text": "Danielle Ford is a first-term member of Nevada's State Board of Education and a former Clark County School District trustee, running for governor as a nonpartisan. She says she wants to be 'the education governor' and decided to run as an independent because she does not think the two-party system in Nevada is successful at the moment.",
+        "sources": [
+          "s2",
+          "s10"
+        ]
+      },
+      "background": [
+        {
+          "text": "Former Clark County School District trustee and current member of the Nevada State Board of Education.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Reform education spending, including state procurement of outside education contracts.",
+          "quote": "strengthen our procurement laws around spending, but specifically education spending",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Says she wants to be \"the education governor,\" and would replace standardized tests with teacher updates to parents.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Says Las Vegas does not need more data centers at this point, and that the state should set a plan for artificial intelligence first.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal",
+      "researchNotes": "Her campaign site (daniellefornevada.com) blocked automated access, so it was not read; statements come from a KTNV interview. BallotReady lists issue headings for her but its text is not in her own words, so it was not used. No stance found on the other listed issues.",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "So we need to make attainable housing with what we have",
+          "context": "In a KTNV interview, on housing",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "website": "https://daniellefornevada.com/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/2026_Nevada_gubernatorial_election",
+      "title": "2026 Nevada gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://thenevadaindependent.com/elections/2026/general",
+      "title": "2026 Nevada Voter Guide",
+      "publisher": "The Nevada Independent",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://thenevadaindependent.com/article/from-abortion-to-taxes-where-nevadas-2026-governor-candidates-stand-on-the-issues/",
+      "title": "From abortion to taxes: Where Nevada's 2026 governor candidates stand on the issues",
+      "publisher": "The Nevada Independent",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s4",
+      "url": "https://thenevadaindependent.com/article/joe-lombardo-is-running-as-an-education-governor-heres-how-to-grade-his-record",
+      "title": "Joe Lombardo is running as an education governor. Here's how to grade his record",
+      "publisher": "The Nevada Independent",
+      "kind": "news",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.gov.nv.gov/press-releases/statement-from-governor-lombardo-following-completion-of-bill-signings/",
+      "title": "Statement from Governor Lombardo Following Completion of Bill Signings",
+      "publisher": "Office of Gov. Joe Lombardo",
+      "kind": "official",
+      "date": "2025-06-13"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.fordfornevada.com/issues",
+      "title": "Issues",
+      "publisher": "Aaron Ford for Nevada Governor campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.fordfornevada.com/about",
+      "title": "About Aaron",
+      "publisher": "Aaron Ford for Nevada Governor campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s8",
+      "url": "https://ag.nv.gov/News/PR/2024/Attorney_General_Ford_Applauds_Nevada_Supreme_Court_Decision_that_Bans_on_%E2%80%98Ghost_Guns%E2%80%99_are_Constitutional/",
+      "title": "Attorney General Ford Applauds Nevada Supreme Court Decision that Bans on 'Ghost Guns' are Constitutional",
+      "publisher": "Nevada Office of the Attorney General",
+      "kind": "official",
+      "date": "2024-04-18"
+    },
+    {
+      "id": "s9",
+      "url": "https://ag.nv.gov/News/PR/2025/Attorney_General_Ford_Blocks_Returns_and_Sales_of_Machine_Gun_Conversion_Devices_in_Nevada/",
+      "title": "Attorney General Ford Blocks Returns and Sales of Machine Gun Conversion Devices in Nevada",
+      "publisher": "Nevada Office of the Attorney General",
+      "kind": "official",
+      "date": "2025-07-11"
+    },
+    {
+      "id": "s10",
+      "url": "https://ktnv.com/news/danielle-ford-wants-to-be-the-education-governor",
+      "title": "Danielle Ford wants to be 'the education governor'",
+      "publisher": "KTNV",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "https://voteclock.org/nevada-candidates-on-the-ballot-2026",
+      "title": "Nevada Candidates 2026: Who Is on the Ballot",
+      "publisher": "Vote Clock (reproduces the Nevada Secretary of State's certified candidate list dated Aug. 25, 2026)",
+      "kind": "reference",
+      "date": "2026-10-06"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn:aaid:aem:dde8b423-5fd3-4635-a9e5-653e57b5491d/original/as/Notice-Gen-Election-26G.pdf",
+      "title": "Notice of General Election, November 3, 2026 (candidate list)",
+      "publisher": "Clark County Election Department",
+      "kind": "official",
+      "date": "2026-10-19"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Nevada elects its lieutenant governor separately, so no running mates are noted. The Nevada Secretary of State's own candidate list is behind a bot-protection wall (not bypassed). The slate was confirmed against Clark County's official Notice of General Election for Nov. 3, 2026, which lists Aaron D. Ford (DEM), Danielle Ford (NPP, no political party), Joseph Lombardo (REP) and 'None of these candidates' for governor; it also matches Vote Clock's reproduction of the Secretary of State's certified list (dated Aug. 25, 2026), Wikipedia and The Nevada Independent's voter guide, which list only Lombardo (R), Aaron Ford (D) and Danielle Ford (no party) for governor. BallotReady's listing also shows the same three; no Libertarian or Independent American candidate is listed for governor. Lombardo's veto and bill-signing figures are from his office's June 2025 statement."
+}

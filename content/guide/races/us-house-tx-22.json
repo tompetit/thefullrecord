@@ -29,8 +29,8 @@
         "text": "Trever Nehls is the Republican nominee for this open southwest-Houston-area seat, previously held by his twin brother Troy Nehls. He served two terms as a Fort Bend County constable, is a colonel in the U.S. Army Reserve according to a 2020 news report, and lost races for county sheriff (2020) and county judge (2022). He is running on border enforcement, lower costs, support for law enforcement and infrastructure, according to his campaign website as quoted by Ballotpedia.",
         "sources": [
           "s2",
-          "s4",
-          "s5"
+          "s7",
+          "s8"
         ]
       },
       "background": [
@@ -49,7 +49,7 @@
         {
           "text": "Was a colonel in the U.S. Army Reserve and was deployed to the Middle East in March 2020, according to ABC13; his campaign website describes him as a former constable and police officer.",
           "sources": [
-            "s5",
+            "s8",
             "s2"
           ]
         },
@@ -62,14 +62,14 @@
         {
           "text": "Served two terms as Fort Bend County Precinct 4 constable, from 2013 to 2020.",
           "sources": [
-            "s4",
+            "s7",
             "s2"
           ]
         },
         {
           "text": "Won the 2020 Republican primary for Fort Bend County Sheriff with 82 percent of the vote, according to ABC13, and lost the general election to Democrat Eric Fagan, 52.6% to 47.4%.",
           "sources": [
-            "s5",
+            "s8",
             "s2"
           ]
         },
@@ -77,22 +77,77 @@
           "text": "Was the Republican nominee for Fort Bend County Judge in 2022 and lost to incumbent KP George, 51.6% to 48.4%.",
           "sources": [
             "s2",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Announced his candidacy for Texas's 22nd District after his brother decided not to seek re-election, and won the March 3, 2026 Republican primary with 75.7% of the vote over Rebecca Clark.",
           "sources": [
-            "s4",
+            "s7",
             "s2"
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Lists securing the border and enforcing immigration laws first among his campaign messages.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists tackling inflation and making the district affordable for families, citing lower taxes and fewer regulations.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists energy independence and law enforcement support among his campaign issues.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His campaign website calls for ending catch-and-release permanently, finishing the border wall and deporting \"illegal aliens who violate our laws\".",
+          "quote": "Congress must help President Trump fully secure the southern border, finish the wall, end catch-and-release permanently, and deport illegal aliens who violate our laws.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website content or Candidate Connection survey was located beyond Ballotpedia's biographical entry."
+      "researchDepth": "basic",
+      "researchNotes": "Campaign website issues page read directly; Ballotpedia shows he completed a 2026 Candidate Connection survey whose answers repeat the website's text. No debate or interview coverage was located.",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "He opposes soft-on-crime leftist policies and will fully fund and support law enforcement.",
+          "context": "On his campaign website, under \"Fund & Support Law Enforcement\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Trever supports President Trump’s agenda to unleash Texas oil, gas, and nuclear energy to restore full U.S. energy dominance.",
+          "context": "On his campaign website",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "quote": "He will vote to eliminate DEI mandates, block gender ideology in schools, protect girls’ sports, and require full curriculum transparency.",
+          "context": "On his campaign website, under \"Protect Our Children and Empower Parental Choice\"",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "marquette-greene-scott",
@@ -159,7 +214,35 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In her 2026 Candidate Connection survey she calls healthcare a human right and supports universal healthcare.",
+          "quote": "Universal healthcare ensures that every person can get the care they need to live a healthy life.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "In her 2026 Candidate Connection survey she says Congress must raise the minimum wage, indexing it to inflation as a first step.",
+          "quote": "Congress must raise minimum wage, indexing it to inflation as a first step.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In her 2024 Candidate Connection survey she said her top priority is reinstating reproductive rights, including access to safe abortions.",
+          "quote": "We must ensure access to reproductive healthcare services which include contraception, prenatal care, and safe abortions.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves as mayor pro tem and Position 3 city council member for the City of Iowa Colony, Texas.",
@@ -200,13 +283,37 @@
     },
     {
       "id": "s4",
+      "url": "https://ballotpedia.org/Trever_Nehls",
+      "title": "Trever Nehls - campaign website as quoted on Ballotpedia (January 2026)",
+      "publisher": "Ballotpedia (quoting Trever Nehls' campaign website)",
+      "kind": "candidate",
+      "date": "2026-01-16"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Marquette_Greene-Scott",
+      "title": "Marquette Greene-Scott - Ballotpedia Candidate Connection survey (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.trevernehlsforcongress.com/issues/",
+      "title": "Issues | Trever Nehls for Congress",
+      "publisher": "Candidate campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
       "url": "https://coveringkaty.com/news/fort-bend/former-fort-bend-county-constable-trever-nehls-announces-bid/",
       "title": "Former Fort Bend County Constable Trever Nehls announces bid for Congress in Texas' 22nd District",
       "publisher": "Covering Katy News",
       "kind": "news"
     },
     {
-      "id": "s5",
+      "id": "s8",
       "url": "https://abc13.com/post/twin-of-fort-bend-county-sheriff-troy-nehls-wins-gop-primary/5984682/",
       "title": "Twin of Fort Bend County sheriff Troy Nehls wins GOP primary while deployed overseas",
       "publisher": "ABC13 Houston",

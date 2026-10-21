@@ -61,7 +61,7 @@
           "text": "He began his career with Amalgamated Transit Union Local 1056, then joined the staff of Congressman Gregory Meeks, working up to Deputy Chief of Staff, according to his campaign website. The Queens Chronicle reported in early 2026 that he had previously served as Meeks’ project manager and community liaison.",
           "sources": [
             "s3",
-            "s5"
+            "s7"
           ]
         },
         {
@@ -73,8 +73,8 @@
         {
           "text": "He declared his candidacy for Assembly District 32 after Assemblymember Vivian Cook announced she would not seek re-election after 35 years in office. The Queens County Democratic Party backed him, and Meeks supported his candidacy.",
           "sources": [
-            "s5",
-            "s6"
+            "s7",
+            "s8"
           ]
         },
         {
@@ -115,25 +115,45 @@
       ],
       "positions": [
         {
-          "issue": "housing_supply",
-          "stance": "supports",
-          "summary": "Campaigns on expanding paths to homeownership and homeownership assistance for district residents.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
           "issue": "rent_regulation",
           "stance": "supports",
-          "summary": "Lists protecting Mitchell-Lama affordable-housing communities as a campaign priority.",
+          "summary": "Says he will support policies that let tenants organize and seek repairs without retaliation, and will increase penalties for repeated housing code violations.",
           "sources": [
-            "s2"
-          ]
+            "s5"
+          ],
+          "quote": "Support policies that empower tenants to organize and advocate for repairs without fear of retaliation."
         }
       ],
       "record": [],
       "website": "https://www.nathanielfornewyork.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "Giving parents options on where to send their children for school – whether it is a traditional public school or a public charter school – because they know best the type of environment their children thrive in.",
+          "context": "On his campaign website's Issues page, under \"Building a Cradle-to-Career Pipeline\"",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Expanding 3-K for all students statewide and expanding 2-K for all pilot so that more youth start a formal education earlier.",
+          "context": "On his campaign website's Issues page",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Fight for an increase in state Medicaid funding to fill in the gap from federal cuts.",
+          "context": "On his campaign website's Issues page, under \"Protecting Our Social Safety Net\"",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from the issues page of his campaign website; no interviews, debates or questionnaires were found."
     },
     {
       "id": "paul-nichols",
@@ -149,10 +169,42 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Housing affordability: says the standards that determine what qualifies as affordable should change, and that the area median income calculation should be reevaluated.",
+          "quote": "we need to remove some of the standards that determine what qualify for affordability",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Resources for the district, including hospital services at Jamaica Hospital Medical Center and school resources.",
+          "quote": "Services at the hospital should be top notch.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Unity among federal, state and city elected officials and among communities in the district.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "So if it's increasing charter schools to create competition ... that's one thing.",
+          "context": "Interview with the Queens Chronicle, on getting more resources to schools (ellipsis in the original article)",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "researchNotes": "Statements come from one Queens Chronicle candidate profile; he is quoted on housing, hospital services and schools, with one remark touching charter schools. No campaign website was found, and Ballotpedia lists no Candidate Connection survey for him."
     }
   ],
   "sources": [
@@ -188,13 +240,28 @@
     },
     {
       "id": "s5",
+      "url": "https://www.nathanielfornewyork.com/issues",
+      "title": "Issues",
+      "publisher": "Nathaniel Hezekiah III campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.qchron.com/editions/eastern/a-look-at-ad-32-s-2026-candidates/article_e8338bfd-543d-58bc-bbcb-c7e1e1550be2.html",
+      "title": "A look at AD 32's 2026 candidates",
+      "publisher": "Queens Chronicle",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
       "url": "https://www.qchron.com/editions/eastern/s-jamaica-political-staffers-vie-for-d-32/article_5c207c33-3e80-5d03-8a75-1e9dd34bbc97.html",
       "title": "Nathaniel Hezekiah III and Latoya LeGrand seek to succeed AM Cook",
       "publisher": "Queens Chronicle",
       "kind": "news"
     },
     {
-      "id": "s6",
+      "id": "s8",
       "url": "https://www.cityandstateny.com/politics/2026/02/vivian-cook-wont-seek-reelection-assembly/411129/",
       "title": "Vivian Cook won’t seek reelection to the Assembly",
       "publisher": "City & State New York",

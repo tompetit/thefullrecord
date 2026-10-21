@@ -134,7 +134,7 @@
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Supports investing in clean, renewable energy as part of a shift away from fossil fuels.",
+          "summary": "Says he and congressional Democrats are committed to investing in renewable energy and clean-technology research to create jobs and reduce pollution and dependence on foreign oil.",
           "quote": "To create the next generation of clean energy jobs, make our nation more secure and reduce the pollution that causes global warming, Congressman Thompson and Congressional Democrats are committed to investing in our nation's clean energy future.",
           "sources": [
             "s9"
@@ -239,9 +239,49 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Under a \"Right to Life\" heading his campaign website says Mississippi's law allowing abortion only to save the mother's life is his preferred approach, and that abortion providers should not receive government funds.",
+          "quote": "I believe that the Mississippi Law that was upheld by the US Supreme Court, that abortion is to be done only to save the life of the mother, is a commonsense approach to abortion.",
+          "sources": [
+            "el1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "His campaign website says the U.S. should not cut its use of fossil fuels and should use all forms of energy.",
+          "quote": "We can not and should not cut our use of fossil fuels.",
+          "sources": [
+            "el1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Concealed carry licenses should be valid across all jurisdictions like an individual’s driver’s license.",
+          "context": "On his campaign website",
+          "sources": [
+            "el1"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Any state, and/or local government that declares itself a sanctuary should be ineligible to receive any federal funding and aid.",
+          "context": "On his campaign website",
+          "sources": [
+            "el1"
+          ]
+        }
+      ],
+      "researchNotes": "Positions come from his campaign issues page (also reproduced in his 2026 Ballotpedia survey). The page also covers voter ID and border security; those statements were not mapped to the proof-of-citizenship or deportation issues because they do not address those statements directly."
     },
     {
       "id": "bennie-foster",
@@ -311,9 +351,41 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "His campaign website says education tax money should follow the student and that parents should have alternatives to the traditional path.",
+          "quote": "tax money paid by parents towards their child’s education should be well accounted for and follow the student.",
+          "sources": [
+            "fo1"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His campaign website says he does not support elective abortion, with exceptions to save the mother's life and for miscarriage.",
+          "quote": "While Foster does not support elective abortion, he does believe exceptions should be allowed in the case of saving the life of the mother, and miscarriage.",
+          "sources": [
+            "fo1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Foster also believes we must have accountability for our immigration enforcement officers, and supports requiring body cams, increased training, and better vetting of new ICE agents to ensure no rights are being violated.",
+          "context": "On his campaign website (written in the third person)",
+          "sources": [
+            "fo1"
+          ]
+        }
+      ],
+      "researchNotes": "Positions come from his campaign Policies page (written in the third person) and his Ballotpedia survey. The site also lists Vote411 and Mississippi Free Press questionnaires, which were not retrieved. Foreign-aid language was not mapped to the Israel-aid issue because it does not name Israel."
     }
   ],
   "sources": [
@@ -379,6 +451,20 @@
       "title": "Energy and Environment",
       "publisher": "Office of Congressman Bennie Thompson",
       "kind": "official"
+    },
+    {
+      "id": "el1",
+      "url": "https://www.voteroneller.com/issues",
+      "title": "Ron Eller for Congress: Issues",
+      "publisher": "Ron Eller for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "fo1",
+      "url": "https://reimaginems.info/policies",
+      "title": "ReIMAGINE Mississippi: Policies",
+      "publisher": "Bennie Foster for Congress campaign website",
+      "kind": "candidate"
     },
     {
       "id": "s10",

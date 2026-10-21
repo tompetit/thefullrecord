@@ -34,7 +34,7 @@
         "sources": [
           "s4",
           "s5",
-          "s9"
+          "s11"
         ]
       },
       "background": [
@@ -130,9 +130,10 @@
           ]
         },
         {
-          "issue": "rent_regulation",
+          "issue": "tax_wealthy",
           "stance": "supports",
-          "summary": "Says she will fight to curb corporate control of the real-estate market to make housing more affordable for Arizona families.",
+          "summary": "Says she would fight for a tax structure in which the ultra-wealthy and large corporations pay more.",
+          "quote": "I would fight for a tax structure that asks the ultra-wealthy and powerful corporations to pay their fair share",
           "sources": [
             "s5"
           ]
@@ -156,7 +157,7 @@
           "s2",
           "s3",
           "s7",
-          "s9"
+          "s11"
         ]
       },
       "background": [
@@ -214,7 +215,7 @@
           "text": "In May and June 2026, news reports said multiple women alleged that Lamb sent them sexually charged messages. On June 22, 2026, Pinal County Attorney Brad Miller's preliminary review found no evidence that Lamb acted in a criminal manner, and the matter was closed; Lamb's campaign has denied the allegations.",
           "sources": [
             "s7",
-            "s9"
+            "s11"
           ]
         }
       ],
@@ -226,7 +227,25 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Opposes abolishing ICE, saying it would weaken immigration enforcement, and says he would support strong federal law enforcement and cooperation with state and local agencies.",
+          "quote": "I believe eliminating the agency would weaken our ability to enforce immigration law and confront the criminal networks that exploit our country.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Opposed a possible Arizona ballot measure ensuring abortion rights, according to a caption on The Arizona Republic's coverage of the June 26, 2024 U.S. Senate Republican primary debate.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Multiple women alleged, in an Arizona Republic investigation independently verified by KTAR News, that Lamb sent them explicit photos and sexually charged messages from his personal phone and campaign accounts while serving as sheriff; one woman said he threatened her with felony revenge-porn charges. Lamb largely declined to comment on the allegations; his wife called the reports a 'massive smear campaign' in a Facebook post. In June 2026, Pinal County Attorney Brad Miller concluded a review of the matter, finding 'no evidence that Lamb acted in a criminal manner.'",
@@ -311,6 +330,22 @@
     },
     {
       "id": "s9",
+      "url": "https://marklamb.us/post/you-cannot-secure-a-country-you-refuse-to-police",
+      "title": "You Cannot Secure a Country You Refuse to Police",
+      "publisher": "Mark Lamb for Congress",
+      "kind": "candidate",
+      "date": "2026-09-09"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.yahoo.com/news/arizona-us-senate-republican-candidate-194514823.html",
+      "title": "Arizona US Senate Republican candidate Mark Lamb discusses abortion rights at debate",
+      "publisher": "The Arizona Republic via Yahoo News",
+      "kind": "news",
+      "date": "2024-06-27"
+    },
+    {
+      "id": "s11",
       "title": "Mark Lamb wins Republican primary, Elizabeth Lee wins Democratic primary in Arizona CD5",
       "url": "https://www.kjzz.org/elections/2026-07-21/mark-lamb-wins-republican-primary-elizabeth-lee-wins-democratic-primary-in-arizona-cd5",
       "publisher": "KJZZ",

@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { GuideFooter, GuideNav, SectionLabel } from "@/components/guide/ui";
+import { SectionLabel } from "@/components/guide/ui";
 import { getAllRaces, getKeyVoteDefs } from "@/server/guide/load";
 
 export const metadata = {
@@ -32,8 +31,7 @@ export default function KeyVotesPage() {
 
   return (
     <main className="flex-1">
-      <GuideNav active="votes" />
-      <div className="mx-auto w-full max-w-5xl px-[20px] pt-8 lg:px-10">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-8 lg:px-10">
         <h1 className="font-serif text-[30px] font-semibold tracking-[-0.015em] text-ink lg:text-[42px]">
           Key votes in Congress, 2025–26
         </h1>
@@ -83,22 +81,15 @@ export default function KeyVotesPage() {
                           <div className="mt-2 grid gap-3 sm:grid-cols-2">
                             {VOTE_GROUPS.filter(([k]) => groups.get(k)?.length).map(([k, label]) => (
                               <div key={k}>
-                                <h3 className="font-sans text-[11px] font-bold tracking-[0.05em] text-ink-45 uppercase">
-                                  {label} · {groups.get(k)!.length}
-                                </h3>
+                                <p className="font-sans text-[11px] font-bold tracking-[0.05em] text-ink-45 uppercase">
+                                  {`${label} · ${groups.get(k)!.length}`}
+                                </p>
                                 <p className="mt-1 font-sans text-[12.5px] leading-[1.7] text-ink-80">
                                   {groups
                                     .get(k)!
                                     .sort((a, b) => a.name.localeCompare(b.name))
-                                    .map((m, i) => (
-                                      <span key={m.raceId + m.cid}>
-                                        {i > 0 && ", "}
-                                        <Link href={`/guide/race/${m.raceId}/${m.cid}`} className="hover:underline">
-                                          {m.name}
-                                        </Link>{" "}
-                                        <span className="text-ink-45">({m.label})</span>
-                                      </span>
-                                    ))}
+                                    .map((m) => `${m.name} (${m.label})`)
+                                    .join(", ")}
                                 </p>
                               </div>
                             ))}
@@ -112,7 +103,6 @@ export default function KeyVotesPage() {
           </section>
         ))}
       </div>
-      <GuideFooter />
     </main>
   );
 }

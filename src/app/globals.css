@@ -15,8 +15,8 @@
   --color-ink: #211e19;
   --color-ink-80: #43403a;
   --color-ink-60: #6d6656;
-  --color-ink-45: #8a8272;
-  --color-ink-35: #a49b87;
+  --color-ink-45: #716a5d;
+  --color-ink-35: #756d5e;
 
   /* Rules & borders */
   --color-hairline: #e8e2d5;
@@ -35,7 +35,7 @@
   /* Warm umber (No — never red) */
   --color-umber: #8a5a2b;
   --color-umber-deep: #6d4620;
-  --color-umber-soft: #8a6a45;
+  --color-umber-soft: #7b5d3d;
   --color-umber-tint: #f5efe6;
   --color-umber-tint-border: #ddc9a8;
 
@@ -58,6 +58,10 @@
   --shadow-card-raised: 0 1px 4px rgba(60, 50, 30, 0.06);
 }
 
+html {
+  color-scheme: light;
+}
+
 body {
   background: var(--color-paper);
   color: var(--color-ink-80);
@@ -73,4 +77,19 @@ body {
     var(--color-hatch-dark) 4px,
     var(--color-hatch-dark) 8px
   );
+}
+
+/* Keep keyboard navigation visible throughout record and research flows. */
+:where(a, button, input, select, textarea, summary):focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+/* The address combobox draws its focus ring on its bordered field box
+   (AddressInput's focus-within), so the bare input doesn't get a second one. */
+input[role="combobox"]:focus-visible { outline: none; }
+/* The skip-link target is focused programmatically; no ring around the page. */
+#main-content:focus { outline: none; }
+::selection { background: #dcebdd; color: #211e19; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }

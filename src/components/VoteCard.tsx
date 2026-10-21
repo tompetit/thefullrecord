@@ -1,9 +1,9 @@
-import Link from "next/link";
 import type { VoteRecord } from "@/server/types";
 import { AiMarker } from "./AiMarker";
 import { SourceLink } from "./SourceLink";
 import { VoteBadge } from "./VoteBadge";
 
+const sameText = (a: string, b: string) => a.trim().replace(/\s+/g, " ").toLowerCase() === b.trim().replace(/\s+/g, " ").toLowerCase();
 const Dot = () => <span className="text-[#c9c0ac]">·</span>;
 
 /**
@@ -18,14 +18,6 @@ export function VoteCard({
   vote: VoteRecord;
   desktop?: boolean;
 }) {
-  const title = vote.billId ? (
-    <Link href={`/bill/${vote.billId}`} className="hover:underline">
-      {vote.title}
-    </Link>
-  ) : (
-    vote.title
-  );
-
   return (
     <article className="flex flex-col rounded-lg border border-card bg-paper-raised px-4 pt-4 shadow-card transition-shadow hover:shadow-card-raised">
       <div className="flex items-start justify-between gap-3">
@@ -38,22 +30,27 @@ export function VoteCard({
               desktop ? "text-lg" : "text-[16.5px]"
             }`}
           >
-            {title}
+            {vote.title}
           </h3>
         </div>
         <VoteBadge vote={vote.vote} />
       </div>
 
-      {vote.aiSummary && (
+      {vote.question && <p className="mt-3 font-sans text-xs leading-relaxed text-ink-60"><span className="font-semibold">Motion:</span> {vote.question}</p>}
+
+      {vote.meaning && <p className="mt-1 font-sans text-xs leading-relaxed text-ink-60">{vote.meaning} (AI-written)</p>}
+
+      {vote.amendment?.purpose && <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty"><span className="font-semibold">Amendment purpose (official):</span> {vote.amendment.purpose}</p>}
+
+      {vote.aiSummary && !sameText(vote.aiSummary, vote.title) && (
         <>
           <p className="mt-2.5 font-sans text-[13.5px] leading-[1.55] text-ink-80 text-pretty">
-            {vote.aiSummary}
+            {vote.amendment && <span className="font-semibold">Bill summary: </span>}{vote.aiSummary}
           </p>
           <AiMarker
-            billTextUrl={vote.billId ? `/bill/${vote.billId}` : vote.sourceUrl}
-            subjectType="vote"
-            subjectId={vote.id}
+            billTextUrl={vote.sourceUrl}
             source={vote.summarySource ?? "ai"}
+            amended={/concur|amendment/i.test(vote.question ?? "")}
           />
         </>
       )}
@@ -64,7 +61,7 @@ export function VoteCard({
         <span>{vote.kind === "substantive" ? "Substantive" : "Procedural"}</span>
         <Dot />
         <span>{vote.dateLabel}</span>
-        <span className="ml-auto">
+        <span className="ml-auto -my-3 inline-flex min-h-11 items-center">
           <SourceLink href={vote.sourceUrl}>
             {desktop ? vote.sourceLabel : "Roll call"}
           </SourceLink>

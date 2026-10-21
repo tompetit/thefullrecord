@@ -29,53 +29,53 @@
         "text": "Bruce Westerman is the Republican nominee and incumbent U.S. Representative for Arkansas's 4th District, seeking re-election. An engineer and forester from Hot Springs, he served on a school board and in the Arkansas House of Representatives, including as House Majority Leader, before being elected to Congress in 2014. He chairs the House Natural Resources Committee and also serves on Transportation and Infrastructure.",
         "sources": [
           "s2",
-          "s8"
+          "s12"
         ]
       },
       "background": [
         {
           "text": "According to his official House biography, he is a Hot Springs native who graduated from Fountain Lake High School in Garland County and is a husband and father of four.",
           "sources": [
-            "s8"
+            "s12"
           ]
         },
         {
           "text": "Attended the University of Arkansas, where he played on the Razorback football team, and earned a bachelor's degree in biological and agricultural engineering in 1990; he earned a Master of Forestry from Yale University in 2001.",
           "sources": [
             "s2",
-            "s8"
+            "s12"
           ]
         },
         {
           "text": "Worked as a plant engineer for Riceland Foods and as an engineer and forester for Mid-South Engineering Company; his House biography says he spent 22 years at Mid-South Engineering in Hot Springs.",
           "sources": [
             "s2",
-            "s8"
+            "s12"
           ]
         },
         {
           "text": "Served on the Fountain Lake School Board from 2006 to 2010, including as president in 2009-2010.",
           "sources": [
-            "s8"
+            "s12"
           ]
         },
         {
           "text": "Served in the Arkansas House of Representatives from 2011 to 2014, as House Minority Leader (2012-2013) and then House Majority Leader (2013-2014); his House biography says he was the state's first Republican House Majority Leader since Reconstruction.",
           "sources": [
-            "s8"
+            "s12"
           ]
         },
         {
           "text": "Won election to the U.S. House in 2014, succeeding Tom Cotton, and has served since January 2015.",
           "sources": [
             "s2",
-            "s8"
+            "s12"
           ]
         },
         {
           "text": "Serves on the Committee on Transportation and Infrastructure and is Chairman of the Committee on Natural Resources.",
           "sources": [
-            "s8"
+            "s12"
           ]
         }
       ],
@@ -95,21 +95,36 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Cosponsored legislation to permanently repeal the federal estate tax on inherited farms and businesses, and backed the One Big Beautiful Bill Act making the 2017 tax cuts permanent.",
-          "quote": "I'm proud to cosponsor the Death Tax Repeal Act, with overwhelming support from my colleagues on both sides of the aisle, to fully repeal the death tax.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Backed the One Big Beautiful Bill Act's border security funding, including wall completion and additional Border Patrol agents.",
+          "summary": "Press release applauding passage of the One Big Beautiful Bill Act lists completing the southern border wall and funding additional Border Patrol agents among its provisions.",
           "quote": "Secures the border: Expands border security through completion of the primary wall across the southern border and river barriers.",
           "sources": [
             "s6"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 22, the SAVE Act, which requires documentary proof of U.S. citizenship to register to vote in federal elections.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 38, the Constitutional Concealed Carry Reciprocity Act, which would allow a person eligible to carry a concealed firearm in one state to carry in other states that allow concealed carry.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 722, the Life at Conception Act, which declares that the constitutional right to life is vested in each human being at all stages of life, including the moment of fertilization.",
+          "sources": [
+            "s10"
           ]
         }
       ],
@@ -130,7 +145,7 @@
           ]
         }
       ],
-      "website": "https://westermanforcongress.com/",
+      "website": "https://www.brucewesterman.com/",
       "researchDepth": "full"
     },
     {
@@ -209,15 +224,6 @@
       ],
       "positions": [
         {
-          "issue": "housing_supply",
-          "stance": "mixed",
-          "summary": "Campaign platform calls for restricting large corporate purchases of homes and helping renters qualify for mortgages, rather than broad deregulation of zoning.",
-          "quote": "We need to stop big companies from buying up homes and raising rent too high. We should also count rent payments when people apply for a mortgage, so more folks can buy a home.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
           "issue": "tax_wealthy",
           "stance": "supports",
           "summary": "Campaign platform proposes a small tax on the wealthiest 0.1% to help fund efforts to end homelessness.",
@@ -229,10 +235,28 @@
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Campaign platform calls for investing in a clean-energy future using multiple sources and protecting natural resources from industrial pollution.",
+          "summary": "Campaign website says to invest in a clean energy future that uses multiple sources and to protect natural resources from toxic industrial runoff and harmful chemical use.",
           "quote": "We need to invest in a clean energy future that uses multiple sources to stay safe and strong.",
           "sources": [
             "s4"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign website says he supports expanding Medicare and moving toward health care for everyone.",
+          "quote": "We can fix this by expanding Medicare and moving toward healthcare for everyone.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "His campaign website says the minimum wage has not kept pace with the cost of living and calls for laws that raise wages.",
+          "quote": "We need fair laws that raise wages, make sure everyone gets equal pay for equal work, and treat all workers fairly.",
+          "sources": [
+            "s11"
           ]
         }
       ],
@@ -295,6 +319,34 @@
     },
     {
       "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/22",
+      "title": "H.R. 22 — SAVE Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/38",
+      "title": "H.R. 38 — Constitutional Concealed Carry Reciprocity Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/722",
+      "title": "H.R. 722 — Life at Conception Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/James_Russell_(Arkansas)",
+      "title": "James Russell campaign website (via Ballotpedia, Jan. 16, 2026)",
+      "publisher": "Ballotpedia",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
       "kind": "official",
       "url": "https://westerman.house.gov/about",
       "title": "About | Congressman Bruce Westerman",

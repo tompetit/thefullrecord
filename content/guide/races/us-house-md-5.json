@@ -79,20 +79,28 @@
     },
     {
       "id": "s9",
+      "url": "https://www.chaffeeamericafirst.com/",
+      "title": "Chris Chaffee for U.S. Congress, Maryland 5th District",
+      "publisher": "Chris Chaffee campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
       "title": "Del. Adrian A. Boafo",
       "url": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/boafo01",
       "kind": "official",
       "publisher": "Maryland General Assembly"
     },
     {
-      "id": "s10",
+      "id": "s11",
       "title": "Adrian Boafo",
       "url": "https://en.wikipedia.org/wiki/Adrian_Boafo",
       "kind": "reference",
       "publisher": "Wikipedia"
     },
     {
-      "id": "s11",
+      "id": "s12",
       "title": "Adrian Boafo Announces Run For Maryland's 5th With Hoyer Endorsement",
       "url": "https://hoodline.com/2026/03/hoyer-anoints-bowie-upstart-in-brawl-for-maryland-s-5th/",
       "kind": "news",
@@ -113,64 +121,64 @@
         "text": "Adrian Boafo is the Democratic nominee for the open Maryland 5th Congressional District seat, which Rep. Steny Hoyer is leaving. A former Bowie city councilmember and mayor pro tem, he has served in the Maryland House of Delegates since 2023 and worked for Hoyer's campaigns and for Oracle Corporation in government affairs. He won the June 23, 2026 Democratic primary with 32.7% of the vote in a field of more than 20 candidates.",
         "sources": [
           "s2",
-          "s9",
-          "s11"
+          "s10",
+          "s12"
         ]
       },
       "background": [
         {
           "text": "Born in Arlington, Virginia, on May 10, 1994; graduated from DeMatha Catholic High School in 2012.",
           "sources": [
-            "s9"
+            "s10"
           ]
         },
         {
           "text": "Earned a B.A. in government and public policy from the University of Baltimore in 2016 and an M.B.A. from American University's Kogod School of Business in 2019.",
           "sources": [
-            "s9",
+            "s10",
             "s2"
           ]
         },
         {
           "text": "Early in his career he was a national press assistant for U.S. Rep. Ruben Kihuen (2017-2018), then field director (2018-2019) and campaign manager (2019-2021) for Steny Hoyer's congressional campaign.",
           "sources": [
-            "s9",
+            "s10",
             "s2"
           ]
         },
         {
           "text": "Elected to the Bowie City Council (District 3) in 2019 and served as the city's mayor pro tem; he held both roles from 2019 to 2022, according to his legislative profile.",
           "sources": [
-            "s9",
-            "s10"
+            "s10",
+            "s11"
           ]
         },
         {
           "text": "Has worked for Oracle Corporation since 2021, listed in his legislative profile as senior director of government affairs.",
           "sources": [
-            "s9",
+            "s10",
             "s2"
           ]
         },
         {
           "text": "Won election to the Maryland House of Delegates from District 23 in 2022 and took office on January 11, 2023. He serves on the Economic Matters Committee, including its Workers' Compensation, Land Use and Zoning, and Business Regulation subcommittees.",
           "sources": [
-            "s9",
+            "s10",
             "s2",
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "Was a delegate to the 2024 Democratic National Convention, pledged to Kamala Harris, according to Wikipedia.",
           "sources": [
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "Announced his run for Congress on January 12, 2026; Hoyer endorsed him on January 23, 2026. He is not seeking re-election to the House of Delegates in 2026.",
           "sources": [
-            "s10",
             "s11",
+            "s12",
             "s2"
           ]
         }
@@ -251,6 +259,60 @@
               "s3"
             ]
           }
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign website says he will pass Medicare for All with a public option and protect and fully restore Medicaid expansion.",
+          "quote": "Pass Medicare for All with a public option, so that if you like your private health insurance you can keep it.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign website lists defending a woman's right to choose and reproductive freedom in his healthcare agenda.",
+          "quote": "Protect a woman's right to choose and defend reproductive freedom.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Campaign website calls for expanding solar, offshore wind and clean energy manufacturing and sponsoring a Climate Superfund requiring major fossil fuel polluters to pay into a fund for climate damage and resilience costs.",
+          "quote": "Expand solar, offshore wind, and clean energy manufacturing to create good-paying union jobs here in Maryland.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Campaign website says he would enforce the War Powers Resolution so no president can take the U.S. into prolonged conflict without congressional approval.",
+          "quote": "Restore Congress’s constitutional war powers by enforcing the War Powers Resolution so no president can take the United States into prolonged conflict without congressional approval.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign website calls to abolish ICE and pass comprehensive immigration reform, and to focus enforcement on violent offenders, traffickers and cartel networks rather than law-abiding families.",
+          "quote": "Abolish ICE and pass comprehensive immigration reform to create a fair, transparent, and accountable immigration system that protects civil rights and rebuilds trust in our communities.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "Campaign website says he would strengthen the U.S.-Israel alliance and ensure Israel has the security assistance it needs to defend itself, while also increasing humanitarian aid for Palestinian civilians.",
+          "quote": "Strengthen the U.S.–Israel alliance and ensure Israel has the security assistance it needs to defend itself against Hamas and other terrorist threats.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
@@ -349,12 +411,34 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Policies to make Maryland safer and more affordable and support economic growth.",
+          "quote": "I will fight for policies that make Maryland safer and more affordable, to support economic growth.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Lowering fuel, food and housing prices.",
+          "quote": "We need to bring down the fuel, food and housing prices.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Term limits, including limiting himself to three terms.",
+          "quote": "Push for Term Limits.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "opposes",
-          "summary": "Said Congress should not act to protect abortion rights following the Supreme Court's 2022 Dobbs decision.",
+          "summary": "In a March 2024 Baltimore Sun questionnaire (while running for U.S. Senate), answered no when asked if Congress should act to protect abortion rights following the Supreme Court's 2022 Dobbs decision.",
           "quote": "No",
           "sources": [
             "s5"
@@ -362,7 +446,18 @@
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "We need to minimize the permit process for both residential and commercial construction.",
+          "context": "On his campaign website (page undated; accessed Oct. 19, 2026)",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "researchNotes": "Abortion position is from a March 2024 Baltimore Sun questionnaire (Senate run). His 2026 campaign website lists priorities and a few policy statements; no further issue-by-issue stances on the guide's topics were found. He has not completed Ballotpedia's 2026 Candidate Connection survey."
     }
   ],
   "researchedAt": "2026-09-25",

@@ -30,8 +30,8 @@
         "sources": [
           "s3",
           "s2",
-          "s11",
-          "s12"
+          "s14",
+          "s15"
         ]
       },
       "background": [
@@ -62,7 +62,7 @@
         {
           "text": "Ran for the District 42 Assembly seat in 2014, defeating three candidates in the Democratic primary; she assumed office on January 1, 2015, succeeding Rhoda Jacobs.",
           "sources": [
-            "s11"
+            "s14"
           ]
         },
         {
@@ -87,8 +87,8 @@
         {
           "text": "Was nominated chair of the Kings County Democratic County Committee in January 2020, according to Ballotpedia. In October 2026, City & State reported that a state Supreme Court justice ruled her term as chair of the Brooklyn Democratic Party's executive committee ended after a September 23 organizational meeting.",
           "sources": [
-            "s11",
-            "s12"
+            "s14",
+            "s15"
           ]
         },
         {
@@ -120,6 +120,32 @@
           "sources": [
             "s4",
             "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Cosponsored A1466, the New York Health Act (2025–26 session), which would create a universal single-payer health plan (New York Health) for state residents.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a January 2019 press release on the Reproductive Health Act, said she voted for the bill, which removes abortion from the state criminal code, because it moves toward women deciding for themselves.",
+          "quote": "I voted for this bill because I think it is yet another achievement that rightfully swings pendulum back to women deciding for themselves.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "In a January 2019 press release on the Legislature's gun-reform package (including court orders barring gun possession by people found to be at risk, a bump-stock ban and a longer waiting period), said she voted in support, adding that the bills do not restrict the Second Amendment.",
+          "quote": "I vote today in support of the safety and well-being of the people of New York State",
+          "sources": [
+            "s13"
           ]
         }
       ],
@@ -175,7 +201,7 @@
         "sources": [
           "s1",
           "s10",
-          "s13"
+          "s16"
         ]
       },
       "background": [
@@ -188,14 +214,14 @@
         {
           "text": "Hall's personal website, which Ballotpedia links from his candidate page, says Herman G. Hall was born April 26, 1945 in Grenada and is an award-winning journalist, author and publisher of EVERYBODY'S, the Caribbean-American Magazine, who covered the Caribbean and its diaspora for more than 50 years. The site does not mention his Assembly candidacy.",
           "sources": [
-            "s13",
+            "s16",
             "s10"
           ]
         },
         {
           "text": "According to that website, he received a National Association of Black Journalists award in 1981 for coverage of the funerals of Prime Minister Eric Williams and Bob Marley, is a former commentator for WLIB and WBLS radio in New York City, and has written books including From Founding Father Alexander Hamilton to Vice President Kamala Harris, Julien Fedon, and Belvedere Estate.",
           "sources": [
-            "s13"
+            "s16"
           ]
         }
       ],
@@ -269,6 +295,30 @@
     },
     {
       "id": "s11",
+      "url": "https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A01466&term=2025&Summary=Y&Actions=Y&Votes=Y",
+      "title": "A01466 (New York Health Act) - Summary",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.assembly.ny.gov/mem/Rodneyse-Bichotte-Hermelyn/story/85554",
+      "title": "Assemblymember Rodneyse Bichotte Votes for the Reproductive Health Act in the Spirit of Roe v. Wade",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.assembly.ny.gov/mem/Rodneyse-Bichotte-Hermelyn/story/85552",
+      "title": "Assemblymember Rodneyse Bichotte Along with NYS Legislature Votes and Passes Gun Reform",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s14",
       "url": "https://ballotpedia.org/Rodneyse_Bichotte_Hermelyn",
       "title": "Rodneyse Bichotte Hermelyn",
       "publisher": "Ballotpedia",
@@ -276,7 +326,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s12",
+      "id": "s15",
       "url": "https://www.cityandstateny.com/politics/2026/10/velazquez-not-bichotte-hermelyn-leads-bk-dems-judge-rules/416403/",
       "title": "Velazquez, not Bichotte Hermelyn, leads BK Dems, judge rules",
       "publisher": "City & State New York",
@@ -284,7 +334,7 @@
       "date": "2026-10-02"
     },
     {
-      "id": "s13",
+      "id": "s16",
       "url": "https://www.hermanghall.com/",
       "title": "Herman G Hall",
       "publisher": "hermanghall.com",

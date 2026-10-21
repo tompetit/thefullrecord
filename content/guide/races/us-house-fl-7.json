@@ -30,8 +30,8 @@
         "sources": [
           "s1",
           "s2",
-          "s5",
-          "s6"
+          "s7",
+          "s8"
         ]
       },
       "background": [
@@ -45,14 +45,14 @@
           "text": "Worked as a television news anchor; his most recent position was at FOX 35 Orlando, which he left in April 2026 to run for Congress.",
           "sources": [
             "s2",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "According to his candidate survey, he served as a public figure in the community for 14 years, and he and his wife raised their sons in the district.",
           "sources": [
             "s2",
-            "s5"
+            "s7"
           ]
         },
         {
@@ -64,8 +64,8 @@
         {
           "text": "Announced his candidacy on April 28, 2026 and won the August 18, 2026 Republican primary, defeating incumbent Rep. Cory Mills.",
           "sources": [
-            "s5",
-            "s6"
+            "s7",
+            "s8"
           ]
         },
         {
@@ -97,24 +97,68 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says he is a fiscal conservative who will fight to keep taxes low and reduce federal spending and debt.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says he will push for federal funding for law-enforcement training, technology and personnel, and support tougher penalties for assaulting or shooting officers.",
           "sources": [
             "s2"
+          ],
+          "quote": "Federal funding for training, new technology and personnel are critical for the safety of our community."
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "His campaign issues page says he strongly supports the Save America Act, which he describes as ensuring only American citizens can vote.",
+          "quote": "He strongly supports the Save America Act, which ensures only American citizens can vote in our elections — because citizenship must matter.",
+          "sources": [
+            "s5"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "Ryan is pro-life and believes every life is a sacred gift from God.",
+          "context": "On his campaign website",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "He is a staunch supporter of the Second Amendment and has earned an “A” rating with the NRA.",
+          "context": "On his campaign website",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We must continue to secure our borders and oppose any measures that weaken enforcement or prioritize non-citizens over American safety.",
+          "context": "On his campaign website",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "That’s why he champions parental rights and school choice, empowering families to make the best decisions for their kids and have transparency on curriculum.",
+          "context": "On his campaign website",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "He also believes healthcare costs can be reduced by providing individuals with tax benefits, such as expanded Health Savings Accounts.",
+          "context": "On his campaign website",
+          "sources": [
+            "s5"
+          ]
+        }
+      ]
     },
     {
       "id": "bale-dalton",
@@ -199,17 +243,37 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says Congress made health care worse by cutting Medicaid and Medicare and raising premiums, and calls for restoring that funding, negotiating drug prices, and building on the Affordable Care Act.",
+          "summary": "His campaign priorities page calls for restoring Medicaid funding, reversing health care premium increases, and building on the Affordable Care Act.",
+          "quote": "We need to elect members of Congress who will restore funding to Medicaid, reverse premium cuts, and protect Social Security and Medicare for generations to come.",
           "sources": [
-            "s3"
+            "s6"
           ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
-          "summary": "Calls for reversing what he describes as the tariffs predecessor Cory Mills voted for, saying they squeeze small businesses and raise supply-chain costs.",
+          "summary": "His campaign priorities page calls for reversing tariffs that he says raise costs for families and small businesses.",
+          "quote": "We need to stop the bleeding, by reversing health care premium hikes and illegal, unpredictable tariffs.",
           "sources": [
-            "s3"
+            "s6"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "His campaign priorities page says he supports codifying Roe into federal law.",
+          "quote": "That’s why I support codifying Roe into federal law, to put these decisions back where they belong – with patients.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "His campaign priorities page says he supports raising the federal minimum wage.",
+          "quote": "With prices rising, wages also need to keep up – which is why I support raising the federal minimum wage and passing the PRO Act, so labor unions can advocate for workers in a changing economy.",
+          "sources": [
+            "s6"
           ]
         }
       ],
@@ -279,6 +343,22 @@
     },
     {
       "id": "s5",
+      "url": "https://elijahforcongress.com/issues",
+      "title": "Key Objectives - Ryan Elijah for Congress",
+      "publisher": "Ryan Elijah for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://baledalton.com/priorities",
+      "title": "Priorities - Bale Dalton",
+      "publisher": "Bale Dalton for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
       "url": "https://www.fox35orlando.com/news/rep-cory-mills-faces-new-republican-challenger-floridas-7th-district",
       "title": "Rep. Cory Mills faces new Republican challenger for Florida's 7th District",
       "publisher": "FOX 35 Orlando",
@@ -286,7 +366,7 @@
       "date": "2026-04-28"
     },
     {
-      "id": "s6",
+      "id": "s8",
       "url": "https://www.clickorlando.com/news/local/2026/08/19/ryan-elijah-wins-republican-primary-over-corey-mills-for-us-house-district-7/",
       "title": "Ryan Elijah wins Republican primary over Cory Mills for U.S. House District 7",
       "publisher": "WKMG ClickOrlando",
@@ -295,5 +375,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Open seat after incumbent Cory Mills lost his primary; Dalton's survey references an ongoing House Ethics Committee investigation into Mills, which is not independently verified here since Mills is not on the November ballot. Biography gaps: no campaign website, news coverage or candidate survey found for Christopher Dennison; Elijah's birthplace and employer history beyond FOX 35 Orlando are not covered in the sources loaded."
+  "researchNotes": "Open seat after incumbent Cory Mills lost his primary; Dalton's survey references an ongoing House Ethics Committee investigation into Mills, which is not independently verified here since Mills is not on the November ballot. No campaign website, questionnaire or public statements by Christopher Dennison were found, so no positions are listed for him. Ryan Elijah's statements are from his campaign issues page. Biography gaps: no campaign website, news coverage or candidate survey found for Christopher Dennison; Elijah's birthplace and employer history beyond FOX 35 Orlando are not covered in the sources loaded."
 }

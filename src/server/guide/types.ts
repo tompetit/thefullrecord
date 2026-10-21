@@ -22,6 +22,8 @@ export interface GuideSource {
   kind: SourceKind;
   /** ISO publication date when known */
   date?: string;
+  /** Set by the loader from content/guide/link-health.json, only for dead links. */
+  deadLink?: { archivedUrl?: string };
 }
 
 export interface Cited {
@@ -45,14 +47,26 @@ export const ISSUES = {
   israel_aid: "Continue U.S. military aid to Israel",
   tariffs: "Broad tariffs on imported goods",
   universal_childcare: "Universal, publicly funded child care",
+  voter_citizenship_proof: "Require documentary proof of citizenship to register to vote",
+  war_powers: "Require Congress to approve U.S. military action abroad",
+  transgender_sports: "Bar transgender women and girls from women's and girls' school sports",
 } as const;
 
 export type IssueKey = keyof typeof ISSUES;
-export type Stance = "supports" | "opposes" | "mixed";
+export type Stance = "supports" | "opposes" | "mixed" | "not_inferred";
+
+export interface RecordedVote {
+  /** e.g. "Voted yes on the Laken Riley Act (S. 5, 2025-01-22)" */
+  text: string;
+  vote: "yes" | "no";
+  /** A Yes vote supports / opposes the ISSUES statement; absent = no direction recorded. */
+  yesMeans?: "supports" | "opposes";
+  sources: string[];
+}
 
 export interface Position {
   issue: IssueKey;
-  /** Relative to the ISSUES statement */
+  /** Relative to the ISSUES statement; recorded votes alone use not_inferred. */
   stance: Stance;
   /** One neutral sentence describing the documented position */
   summary: string;
@@ -63,6 +77,22 @@ export interface Position {
   basis?: "votes" | "statements";
   /** When votes set the position, what the candidate has said on the same issue */
   stated?: { stance: Stance; summary: string; quote?: string; sources: string[] };
+  /**
+   * Set by the loader on vote-based positions: each recorded vote and, when the
+   * editors recorded one, which way a Yes vote points relative to the statement.
+   * Votes are compared one at a time; no overall stance is inferred from them.
+   */
+  votes?: RecordedVote[];
+}
+
+/** A candidate's own words on an issue, shown without a stance (none is inferred). */
+export interface IssueStatement {
+  issue: IssueKey;
+  /** Verbatim from the cited source */
+  quote: string;
+  /** Optional neutral context, e.g. "On her campaign site" */
+  context?: string;
+  sources: string[];
 }
 
 export interface RecordItem {
@@ -115,6 +145,8 @@ export interface GuideCandidate {
   /** What the candidate says are their priorities (from their own materials) */
   priorities: Cited[];
   positions: Position[];
+  /** Verbatim statements on an issue where no stance is documented (or in addition to one) */
+  statements?: IssueStatement[];
   /** Official actions: votes, sponsored bills, executive acts, court records */
   record: RecordItem[];
   website?: string;
@@ -138,6 +170,17 @@ export interface BallotMeasure {
   noMeans: string;
   argumentsFor: Cited[];
   argumentsAgainst: Cited[];
+  /** What the law is today, from the official analysis */
+  currentLaw?: Cited;
+  /** Official fiscal estimate (legislative analyst, fiscal note) */
+  fiscalImpact?: Cited;
+  /** Organizations and officials publicly on record, attributed */
+  supporters?: Cited[];
+  opponents?: Cited[];
+  /** Money raised by registered committees on each side, from official filings, dated */
+  campaignFinance?: Cited;
+  /** Official full text of the measure */
+  fullTextUrl?: string;
 }
 
 export type OfficeType =
@@ -146,6 +189,7 @@ export type OfficeType =
   | "governor"
   | "attorney-general"
   | "comptroller"
+  | "secretary-of-state"
   | "state-senate"
   | "state-assembly"
   | "ballot-measure"

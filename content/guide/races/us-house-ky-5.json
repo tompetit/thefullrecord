@@ -4,7 +4,7 @@
   "officeType": "us-house",
   "office": "U.S. House",
   "district": "5",
-  "title": "U.S. House \u00b7 Kentucky's 5th District",
+  "title": "U.S. House · Kentucky's 5th District",
   "area": "Eastern Kentucky and Appalachia, including London, Hazard and Middlesboro.",
   "inNYC": false,
   "electionDate": "2026-11-03",
@@ -30,7 +30,7 @@
         "text": "Hal Rogers is the Republican incumbent for Kentucky's 5th Congressional District, which he has represented since 1981. An attorney from Pulaski County who was born in rural Kentucky, he became Dean of the U.S. House in 2022 and chaired the House Appropriations Committee from 2011 to 2016. He currently chairs the Appropriations Subcommittee on Commerce, Justice, Science and Related Agencies.",
         "sources": [
           "s1",
-          "s8"
+          "s14"
         ]
       },
       "background": [
@@ -61,13 +61,13 @@
         {
           "text": "Has represented Kentucky's 5th District since 1981. On September 2, 2021, he became the longest-serving member of Congress from Kentucky, and on March 18, 2022, he became Dean of the U.S. House as its longest-serving member.",
           "sources": [
-            "s8"
+            "s14"
           ]
         },
         {
           "text": "Chaired the House Appropriations Committee from 2011 through 2016. According to his official biography, he was chosen in 2003 to lead the first Homeland Security Subcommittee and has chaired or been ranking member of six Appropriations subcommittees.",
           "sources": [
-            "s8"
+            "s14"
           ]
         },
         {
@@ -79,7 +79,7 @@
         {
           "text": "His official biography credits him with helping found regional economic development and anti-drug organizations including Operation UNITE, Southeast Kentucky Economic Development (SKED), the Center for Rural Development, Eastern Kentucky PRIDE and Shaping Our Appalachian Region (SOAR).",
           "sources": [
-            "s8"
+            "s14"
           ]
         }
       ],
@@ -99,12 +99,21 @@
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Supports the 2017 Tax Cuts and Jobs Act, describing it on his issues page as having reduced tax rates for both individuals and businesses, and calls for a simpler, flatter tax code.",
-          "quote": "The Tax Cuts and Jobs Act, signed into law in December 2017, marked the first tax code overhaul in more than 30 years. It reduced tax rates for individuals and businesses alike, allowing the average American to keep more of their hard-earned money and companies to hire more workers.",
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Voted for the Secure America Act, which provides funding for ICE and Border Patrol through September 2029, including $38 billion for ICE personnel and removal operations.",
+          "quote": "Congressman Rogers voted for the reconciliation package to provide long-term funding for ICE and Border Patrol through September 2029.",
           "sources": [
-            "s6"
+            "s8"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Voted for the SAVE America Act, which his office describes as requiring proof of American citizenship for federal voter registration.",
+          "quote": "The bill requires proof of American citizenship for federal voter registration to restore election integrity and prevent foreign interference.",
+          "sources": [
+            "s9"
           ]
         }
       ],
@@ -147,14 +156,14 @@
         "text": "Ned Pillersdorf is the Democratic nominee for Kentucky's 5th Congressional District, a Prestonsburg attorney who has practiced law in Floyd County for more than 40 years. He says he has run a \"poverty volume\" law practice and been involved with several nonprofits. He is running against incumbent Hal Rogers, citing opposition to cuts to Medicaid, Medicare and food stamps and Rogers's vote for the 2025 reconciliation tax law.",
         "sources": [
           "s2",
-          "s9"
+          "s15"
         ]
       },
       "background": [
         {
           "text": "Is a Prestonsburg attorney who, according to WYMT, has worked in his law office and in several nonprofits in the Floyd County area for more than 40 years.",
           "sources": [
-            "s9"
+            "s15"
           ]
         },
         {
@@ -167,7 +176,7 @@
           "text": "Announced his candidacy for Congress on July 4, 2025, after saying he would run against Rogers over the 2025 reconciliation bill.",
           "sources": [
             "s2",
-            "s9"
+            "s15"
           ]
         },
         {
@@ -179,26 +188,40 @@
       ],
       "priorities": [
         {
-          "text": "\"If you support the ongoing proposed slashing of: Medicaid, Medicare, food stamps, funds to help low income folks pay their utilities, and the defunding of public television, public radio, job corp, cancer research, etc \u2013 all so the billionaire class can get a deficit busting tax break \u2013 I don't expect to persuade you to support my candidacy.\"",
+          "text": "\"If you support the ongoing proposed slashing of: Medicaid, Medicare, food stamps, funds to help low income folks pay their utilities, and the defunding of public television, public radio, job corp, cancer research, etc – all so the billionaire class can get a deficit busting tax break – I don't expect to persuade you to support my candidacy.\"",
           "sources": [
             "s2"
           ]
-        }
-      ],
-      "positions": [
+        },
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Opposes cuts to Medicaid and Medicare, criticizing incumbent Hal Rogers's support for reductions to those programs.",
-          "quote": "I truly fear for our vulnerable neighbors here in Appalachia.",
+          "text": "\"I intend to campaign on rural issues that include the expansion of healthcare access, the expansion of better internet access, expansion of educational opportunities, and to finally do something about the lack of cleaning drinking water in many of our communities.\"",
           "sources": [
-            "s2"
+            "s10"
           ]
         }
       ],
+      "positions": [],
       "record": [],
       "website": "https://nedforcongress.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "I won’t stop fighting until every resident of the 5th District gets the coverage and care they deserve.",
+          "context": "Press release on the 60th anniversary of Medicare and Medicaid, July 30, 2025",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Instead they insist that giving another round of massive tax breaks to the billionaire class will solve all of our problems.",
+          "context": "Press release on filing his candidacy, Nov. 13, 2025",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     },
     {
       "id": "gerardo-serrano",
@@ -241,25 +264,50 @@
       ],
       "priorities": [
         {
-          "text": "\"I am independent\u2014not controlled by either political party, political insiders, or special interests. I will answer to the people of Kentucky's 5th District, demand transparency, oppose wasteful omnibus bills, and insist that Congress vote on major issues openly and individually.\"",
+          "text": "\"I am independent—not controlled by either political party, political insiders, or special interests. I will answer to the people of Kentucky's 5th District, demand transparency, oppose wasteful omnibus bills, and insist that Congress vote on major issues openly and individually.\"",
           "sources": [
             "s4"
+          ]
+        },
+        {
+          "text": "\"Our children should not have to leave Eastern Kentucky to build a future. I want to attract businesses, create good jobs, strengthen infrastructure, and make this district a place where families can prosper.\"",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "\"In Congress, I will fight civil asset forfeiture so the government cannot take your property without first proving you committed a crime.\"",
+          "sources": [
+            "s12"
           ]
         }
       ],
       "positions": [
         {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Says he will defend the Second Amendment as part of a broader commitment to constitutional rights and due process.",
-          "quote": "I will defend due process, privacy, the Second Amendment, and Congress's constitutional responsibility to decide when America goes to war.",
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Campaign website says Congress, not one president, must decide whether America goes to war; his survey lists requiring Congress to vote before sending Americans into war.",
+          "quote": "Congress—not a militia and not one president—must decide whether America goes to war.",
           "sources": [
+            "s12",
             "s4"
-          ]
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://serranoforamerica.com",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I will support stronger border enforcement, faster lawful immigration, and firm action against cartels and traffickers—while protecting due process and America’s constitutional principles.",
+          "context": "On his campaign website (\"Border Security Is National Security\")",
+          "sources": [
+            "s12"
+          ]
+        }
+      ]
     },
     {
       "id": "mikel-wein",
@@ -343,16 +391,32 @@
       "incumbent": false,
       "ballotNote": "Independent write-in candidate.",
       "summary": {
-        "text": "Billy Ray Wilson is an independent write-in candidate for Kentucky's 5th Congressional District. No detailed public statements or biographical profile beyond his name on the ballot were found for this candidate.",
+        "text": "Billy Ray Wilson is an independent write-in candidate for Kentucky's 5th Congressional District. His campaign website says he would propose constitutional amendments if elected; no other issue statements or biographical profile were found.",
         "sources": [
-          "s1"
+          "s1",
+          "s13"
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "\"I will submit Constitutional Amendments to bring the US Constitution up to date for the future.\"",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "\"Other amendments will address immigration, socialism, religious abuse, and foreign policy.\"",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://billyraywilson.com",
+      "statements": []
     }
   ],
   "sources": [
@@ -389,14 +453,6 @@
       "date": "2026-09-25"
     },
     {
-      "id": "s6",
-      "url": "https://halrogers.house.gov/taxes",
-      "title": "Taxes",
-      "publisher": "Office of Rep. Hal Rogers",
-      "kind": "candidate",
-      "date": "2026-09-25"
-    },
-    {
       "id": "s7",
       "url": "https://halrogers.house.gov/illegal-drugs",
       "title": "Illegal Drugs",
@@ -414,6 +470,46 @@
     },
     {
       "id": "s8",
+      "url": "https://halrogers.house.gov/2026/6/congressman-rogers-votes-for-secure-america-act",
+      "title": "Congressman Rogers Helped Send Secure America Act to President Trump's Desk",
+      "publisher": "Office of Rep. Hal Rogers",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://halrogers.house.gov/press-releases?ContentRecord_id=279849DF-4A7D-4A2F-BA26-1F865CBC61CA",
+      "title": "Congressman Rogers Voted for the SAVE America Act to Protect Elections",
+      "publisher": "Office of Rep. Hal Rogers",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://nedforcongress.com/press-releases/",
+      "title": "Press releases",
+      "publisher": "Ned Pillersdorf campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
+      "url": "https://serranoforamerica.com/stories",
+      "title": "Stories",
+      "publisher": "Gerardo Serrano campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s13",
+      "url": "https://billyraywilson.com/from-38-years-of-public-service-to-the-u-s-house-why-im-running-to-restore-our-constitutional-republic/",
+      "title": "From 38 Years of Public Service to the U.S. House: Why I’m Running to Restore Our Constitutional Republic",
+      "publisher": "Billy Ray Wilson campaign website (blog post)",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s14",
       "url": "https://halrogers.house.gov/biography",
       "title": "Biography",
       "publisher": "Office of Rep. Hal Rogers",
@@ -421,7 +517,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s9",
+      "id": "s15",
       "url": "https://www.wymt.com/2025/07/02/floyd-co-attorney-challenge-rep-hal-rogers-amidst-war-less-fortunate/",
       "title": "Floyd Co. attorney to challenge Rep. Hal Rogers amidst 'war on the less fortunate'",
       "publisher": "WYMT",
@@ -430,5 +526,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Rogers's federal key floor votes and FEC finance totals are added separately by script; his vote on the 2025 reconciliation bill is included here only as characterized by his opponent's campaign, since the official roll call was not independently checked. Checked Rogers's official issues pages (appropriations, economic development, education, energy, environment, homeland security, health care, illegal drugs, taxes, tourism, transportation, veterans) and immigration services page; no statements found there addressing abortion, guns, immigration enforcement specifically, rent regulation, housing supply, climate transition pace, police funding, school choice, congestion pricing, minimum wage, Israel aid, or tariffs. No public information beyond his name on the ballot was found for write-in candidate Billy Ray Wilson. Biographies for Pillersdorf, Serrano and Wein rely on their own statements and a local news report; no further independent biographical coverage was found, and none was found for write-in candidate Billy Ray Wilson."
+  "researchNotes": "Rogers's federal key floor votes and FEC finance totals are added separately by script; his vote on the 2025 reconciliation bill is included here only as characterized by his opponent's campaign, since the official roll call was not independently checked. Checked Rogers's official issues pages (appropriations, economic development, education, energy, environment, homeland security, health care, illegal drugs, taxes, tourism, transportation, veterans) and immigration services page; no statements found there addressing abortion, guns, immigration enforcement specifically, rent regulation, housing supply, climate transition pace, police funding, school choice, congestion pricing, minimum wage, Israel aid, or tariffs. No public information beyond his name on the ballot was found for write-in candidate Billy Ray Wilson. Update: Pillersdorf's positions come from his campaign press releases (no Ballotpedia survey; no abortion, guns, climate or minimum-wage statements found). Serrano's earlier guns entry was moved to a statement because \"defend the Second Amendment\" does not address stricter gun laws. Wilson (write-in) has a personal campaign blog with one statement on presidential war powers; his other posts are on religion and history and were not used. Biographies for Pillersdorf, Serrano and Wein rely on their own statements and a local news report; no further independent biographical coverage was found, and none was found for write-in candidate Billy Ray Wilson."
 }

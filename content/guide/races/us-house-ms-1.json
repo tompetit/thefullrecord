@@ -118,9 +118,9 @@
         {
           "issue": "guns",
           "stance": "opposes",
-          "summary": "States on his issues page that the Second Amendment 'is not up for debate' and opposes restricting the rights of legal gun owners.",
+          "summary": "States on his issues page that the Second Amendment is \"not up for debate\" and that he will not support legislation that infringes on the rights of legal gun owners.",
           "sources": [
-            "s3"
+            "s_kelly2a"
           ]
         }
       ],
@@ -226,26 +226,28 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
         {
           "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Candidate Connection survey says he is passionate about health-care policy, citing unaffordable insurance and Mississippians losing Medicaid and ACA coverage.",
+          "quote": "Insurance is unaffordable for too many, and tens of thousands of Mississippians who have insurance through Medicaid and the Affordable Care Act are about to lose coverage.",
+          "context": "In his Ballotpedia Candidate Connection survey (2025)",
           "sources": [
             "s5"
           ]
         },
         {
           "issue": "tax_wealthy",
-          "stance": "supports",
-          "summary": "Criticizes the Trump administration and its supporters for focusing on tax cuts for 'the super-rich' while wages remain flat.",
+          "quote": "the Trump Administration and politicians who support it are focused on giving tax cuts to the super-rich and making sure corporations continue to enjoy record profits.",
+          "context": "In his Ballotpedia Candidate Connection survey (2025)",
           "sources": [
             "s5"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "basic"
+      "researchNotes": "Positions beyond his survey and campaign website (cliffjohnsonforcongress.com, which has no issue pages) were not found; a search summary mentioning a $15 minimum wage could not be confirmed from a page and is not included."
     },
     {
       "id": "johnny-baucom",
@@ -288,10 +290,54 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Says he will not approve spending increases without offsetting restrictions elsewhere or raises for Congress.",
+          "quote": "I will not approve anything that comes at the expense of the taxpayer. No expansion of budgets without restrictions made elsewhere, no raises for congress",
+          "sources": [
+            "bc1"
+          ]
+        },
+        {
+          "text": "Says his first legislative target is ending the EU Deforestation Regulation as part of a deregulation push.",
+          "quote": "While in office I will be working heavily with other members of congress in deregulation.",
+          "sources": [
+            "bc1"
+          ]
+        },
+        {
+          "text": "Lists firearm deregulation, taxation and full federal legalization of marijuana among his policy interests.",
+          "quote": "Firearm deregulation, Taxation, full federal legalization of marijuana.",
+          "sources": [
+            "bc1"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "In his Ballotpedia survey he lists firearm deregulation among his policy interests and calls firearm ownership a right.",
+          "quote": "Defending your life and property with a firearm of your choice is an inherently American right, unbarred.",
+          "sources": [
+            "bc1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "Income, and property taxes are unconstitutional, and reprehensible. The full abolition of the IRS is the only proper step forward in American liberation.",
+          "context": "In his Ballotpedia Candidate Connection survey (2026)",
+          "sources": [
+            "bc1"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and priorities come from his 2026 Ballotpedia Candidate Connection survey. No campaign website found. His survey also says he opposes government aid to foreign entities, which was not mapped to the Israel-aid issue because it does not name Israel."
     }
   ],
   "sources": [
@@ -336,6 +382,20 @@
       "title": "Johnny Baucom (Mississippi)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s_kelly2a",
+      "url": "https://trentkelly.house.gov/issues/issue/?IssueID=14937",
+      "title": "Second Amendment",
+      "publisher": "Office of Rep. Trent Kelly",
+      "kind": "candidate"
+    },
+    {
+      "id": "bc1",
+      "url": "https://ballotpedia.org/Johnny_Baucom_(Mississippi)",
+      "title": "Johnny Baucom - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     },
     {
       "id": "s7",

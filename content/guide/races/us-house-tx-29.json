@@ -35,7 +35,7 @@
         "text": "Sylvia Garcia is the incumbent Democratic U.S. Representative for Texas's 29th District, in office since 2019. A social worker and lawyer by training, she was presiding judge of the Houston municipal court system, Houston city controller, a Harris County commissioner, and a Texas state senator before Congress. She is Vice Ranking Member of the House Financial Services Committee.",
         "sources": [
           "s2",
-          "s4"
+          "s7"
         ]
       },
       "background": [
@@ -43,59 +43,87 @@
           "text": "Born in San Diego, Texas, in 1950; according to her congressional biography, she grew up in the farming community of Palito Blanco as the eighth of ten children.",
           "sources": [
             "s2",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Earned a bachelor's degree in social work and political science from Texas Woman's University in 1972 and a J.D. from Thurgood Marshall School of Law at Texas Southern University in 1978.",
           "sources": [
             "s2",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Worked early in her career as a social worker and a legal aid lawyer.",
           "sources": [
             "s2",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Served as director and presiding judge of the Houston Municipal System for five terms under two mayors, according to her congressional biography.",
           "sources": [
             "s2",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Elected Houston city controller in 1998 and served two terms, then was elected to the Harris County Commissioners Court, where her biography says she was the first Hispanic and first woman elected in her own right.",
           "sources": [
             "s2",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Sworn into the Texas Senate on March 11, 2013, representing District 6, after winning a special runoff election for the seat of the late Sen. Mario Gallegos; she served until 2018.",
           "sources": [
             "s2",
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Elected to the U.S. House in November 2018 and sworn in January 3, 2019, becoming the first Latina to represent the 29th District.",
           "sources": [
-            "s4"
+            "s7"
           ]
         },
         {
           "text": "Serves as Vice Ranking Member of the House Financial Services Committee; in January 2020 she was one of seven House managers in the Senate impeachment trial of President Trump.",
           "sources": [
-            "s4"
+            "s7"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign issues page says she is fighting to pass the Women's Health Protection Act to safeguard access to safe, legal abortion.",
+          "sources": [
+            "s4"
+          ],
+          "quote": "she is fighting to pass the Women’s Health Protection Act to safeguard access to safe, legal healthcare, abortion, and IVF"
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Official site says she supports gun safety legislation and is a member of the Gun Violence Prevention Task Force.",
+          "sources": [
+            "s5"
+          ],
+          "quote": "Congresswoman Garcia supports gun safety legislation"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign issues page says she is pushing back against cuts to Medicaid and Medicare.",
+          "sources": [
+            "s4"
+          ],
+          "quote": "She is pushing back against Trump and his billionaire allies who put corporate profits ahead of people, slashing Medicaid, Medicare, and programs that help families make ends meet."
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Financial Services and the House Committee on Ethics in the 119th Congress.",
@@ -154,10 +182,52 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Her campaign website lists making healthcare more affordable, expanding educational freedom, making Houston affordable by cutting federal spending, and securing the borders.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "school_choice",
+          "quote": "Expand educational freedom and strengthen family values. Empower parents with school choice, defend parental rights, and protect the values that make Texas strong.",
+          "context": "On her campaign website, under \"Investing in Education\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Protect Texas energy independence — keep energy decisions in Texas, support oil and natural gas, and strengthen grid reliability to lower bills.",
+          "context": "On her campaign website, under \"Championing Local Jobs\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "By raising competition, expanding access, and protecting patient choice — not imposing government mandates — we can ensure families and seniors get the care they need at prices they can afford.",
+          "context": "On her campaign website, under \"Protecting Healthcare Access\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Public Safety, Secure Our Borders! Support Border Patrol and stop policies that encourage illegal crossings and human trafficking.",
+          "context": "On her campaign website, under \"Defending Our Rights\"",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "researchNotes": "Read her campaign website homepage (fierrofortexas.com); the site has no separate issues page. She has not completed a Candidate Connection survey."
     }
   ],
   "sources": [
@@ -184,6 +254,28 @@
     },
     {
       "id": "s4",
+      "url": "https://sylviaforcongress.com/issues",
+      "title": "Issues",
+      "publisher": "Sylvia Garcia for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://sylviagarcia.house.gov/issues/gun-violence-prevention",
+      "title": "Gun Violence Prevention",
+      "publisher": "Office of Rep. Sylvia Garcia",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.fierrofortexas.com",
+      "title": "Martha Fierro for Congress 29",
+      "publisher": "Candidate campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
       "url": "https://sylviagarcia.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Sylvia Garcia",

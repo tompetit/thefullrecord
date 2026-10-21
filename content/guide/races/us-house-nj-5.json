@@ -36,7 +36,7 @@
         "sources": [
           "s1",
           "s3",
-          "s10"
+          "s11"
         ]
       },
       "background": [
@@ -44,27 +44,27 @@
           "text": "Born in Livingston, in Essex County, New Jersey, in 1975, and graduated from West Essex Senior High School.",
           "sources": [
             "s1",
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "Earned a bachelor's degree from the University of Pennsylvania in 1997 and a law degree from Harvard Law School in 2004; between them he studied at Pembroke College, Oxford, on a Thouron Award.",
           "sources": [
             "s1",
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "Worked as a speechwriter for President Bill Clinton from 1998 to 2001, including on two State of the Union addresses, and later worked on the presidential campaigns of Wesley Clark and John Kerry in 2004.",
           "sources": [
             "s1",
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "Worked in corporate communications at Ford Motor Company and at the public relations firm Burson-Marsteller before joining the Federal Communications Commission in 2010.",
           "sources": [
-            "s10"
+            "s11"
           ]
         },
         {
@@ -76,7 +76,7 @@
         {
           "text": "Won the 5th District seat in November 2016, defeating seven-term Republican incumbent Scott Garrett, 51.1% to 46.7%; he was re-elected in 2018, 2020, 2022, and 2024.",
           "sources": [
-            "s10"
+            "s11"
           ]
         },
         {
@@ -94,7 +94,7 @@
         {
           "text": "Announced a run for governor of New Jersey in November 2024 and placed fourth in the June 10, 2025 Democratic primary with 11.8% of the vote.",
           "sources": [
-            "s10"
+            "s11"
           ]
         }
       ],
@@ -112,7 +112,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In an October 2025 release, called for extending the Affordable Care Act premium tax credits set to expire at the end of that year.",
+          "quote": "I’m hopeful that Republicans will come to the table, work with us to reopen the government, and extend these critical ACA premium tax credits.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Permanent Select Committee on Intelligence, where he is Ranking Member of the Subcommittee on National Security Agency and Cyber and a member of the Subcommittee on Defense Intelligence and Overhead Architecture, and on the House Financial Services Committee, including its Subcommittee on National Security, Illicit Finance, and International Financial Institutions and Subcommittee on Digital Assets, Financial Technology, and Artificial Intelligence.",
@@ -171,7 +181,7 @@
         "sources": [
           "s1",
           "s8",
-          "s11"
+          "s12"
         ]
       },
       "background": [
@@ -202,13 +212,13 @@
         {
           "text": "The New Jersey Globe described him in September 2025 as a corporate consultant, artificial intelligence entrepreneur, and father of two from River Vale who had never run for office.",
           "sources": [
-            "s11"
+            "s12"
           ]
         },
         {
           "text": "Announced his candidacy for the Republican nomination in September 2025, saying he would focus on affordable housing legislation and a universal health care system driven by the free market.",
           "sources": [
-            "s11"
+            "s12"
           ]
         }
       ],
@@ -239,19 +249,21 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "website": "https://kirraneforcongress.com",
+      "researchDepth": "basic",
+      "statements": [
         {
           "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Says he would pursue a healthcare proposal guaranteeing affordable baseline coverage while preserving free-market choice, rather than expanding public coverage directly.",
+          "quote": "The American Citizens’ Health Insurance Act brings fiscal discipline to universal coverage.",
+          "context": "In his Ballotpedia Candidate Connection survey",
           "sources": [
             "s8"
           ]
         }
       ],
-      "record": [],
-      "website": "https://kirraneforcongress.com",
-      "researchDepth": "basic"
+      "researchNotes": "Statements and priorities are from his Ballotpedia Candidate Connection survey. His campaign website (kirraneforcongress.com) returned a Cloudflare bot check and could not be read. No statements found on abortion, guns, immigration enforcement or the other listed issues."
     },
     {
       "id": "adam-rueda",
@@ -319,7 +331,8 @@
           "summary": "Supports stricter gun-storage requirements and additional screening, including mental-health evaluations, before firearm purchases, and wants to limit access to assault weapons.",
           "sources": [
             "s9"
-          ]
+          ],
+          "quote": "Our party is passionate about thinking creatively about gun control, which could include reform to gun storage req., increasing hoops to get a gun, including mental health evaluations, as well as limiting access to assault weapons."
         },
         {
           "issue": "climate",
@@ -327,12 +340,23 @@
           "summary": "Says the U.S. should divest from fossil fuels and move swiftly on green-energy solutions to address ecosystem degradation and intensifying storms.",
           "sources": [
             "s9"
-          ]
+          ],
+          "quote": "This can be addressed by divesting from fossil fuels and exploring science, research and acting swiftly to implement green solutions."
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No official campaign website located; positions drawn from his Ballotpedia Candidate Connection survey responses."
+      "researchNotes": "No official campaign website located; positions drawn from his Ballotpedia Candidate Connection survey responses.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "making healthcare much more accessible",
+          "context": "In his Ballotpedia Candidate Connection survey, listing policy areas he is passionate about",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -405,13 +429,20 @@
     },
     {
       "id": "s10",
+      "url": "https://gottheimer.house.gov/posts/release-gottheimer-calls-for-bipartisan-action-to-reopen-government-extend-aca-tax-credits-to-make-health-care-affordable",
+      "title": "Gottheimer Calls for Bipartisan Action to Reopen Government, Extend ACA Tax Credits to Make Health Care Affordable",
+      "publisher": "Office of Rep. Josh Gottheimer",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
       "url": "https://en.wikipedia.org/wiki/Josh_Gottheimer",
       "title": "Josh Gottheimer",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s11",
+      "id": "s12",
       "url": "https://newjerseyglobe.com/congress/socially-moderate-republican-will-challenge-josh-gottheimer-in-nj-5/",
       "title": "'Socially moderate' Republican will challenge Josh Gottheimer in NJ-5",
       "publisher": "New Jersey Globe",

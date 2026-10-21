@@ -1,0 +1,198 @@
+{
+  "id": "nm-ag",
+  "state": "NM",
+  "officeType": "attorney-general",
+  "office": "Attorney General",
+  "title": "Attorney General of New Mexico",
+  "area": "Statewide — all of New Mexico",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Both nominees were unopposed in the June 2, 2026 primaries: incumbent Democrat Raúl Torrez received 187,832 votes and Republican Samuel Kane 95,611.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "The New Mexico Secretary of State's 2026 General Election candidate list shows two candidates for Attorney General: Raul Torrez and Samuel Isaiah Kane, Sr.",
+      "sources": [
+        "s7"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "raul-torrez",
+      "name": "Raúl Torrez",
+      "parties": [
+        "D"
+      ],
+      "incumbent": true,
+      "ballotNote": "Advanced unopposed from the June 2, 2026 Democratic primary.",
+      "currentRole": "Attorney General of New Mexico",
+      "summary": {
+        "text": "Raúl Torrez is the Democratic incumbent Attorney General of New Mexico, a former federal prosecutor and Albuquerque-area district attorney. His office has prioritized child protection, including suing Meta and Snap, and joined a multistate lawsuit challenging a federal fuel-economy rule.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      },
+      "background": [
+        {
+          "text": "Former federal prosecutor and senior adviser in the U.S. Department of Justice; elected district attorney for the Albuquerque metro area before becoming Attorney General.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Graduate of Harvard University, the London School of Economics and Stanford Law School.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Protecting children, including lawsuits against Meta and Snap, investigations of failures in the child welfare system and undercover operations to arrest online predators (office biography).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Adapting consumer protection laws to the online marketplace, improving oversight of higher education and safeguarding natural resources (office biography).",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [
+        {
+          "text": "Announced that the First Judicial District Court entered final judgment against Meta Platforms ordering it to pay $567 million and adopt court-supervised reforms for five years; with a $375 million jury penalty, total exposure is $942 million.",
+          "date": "2026-08-07",
+          "kind": "legal",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Joined California Attorney General Rob Bonta in announcing a lawsuit against the National Highway Traffic Safety Administration over its final rule weakening fuel economy standards.",
+          "date": "2026-10-02",
+          "kind": "legal",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "samuel-kane",
+      "name": "Samuel Kane",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "ballotNote": "Advanced unopposed from the June 2, 2026 Republican primary.",
+      "currentRole": "Attorney",
+      "summary": {
+        "text": "Samuel Kane is the Republican nominee for Attorney General. His campaign site describes him as an attorney with decades of experience, and lists priorities including limits on license-plate-reader surveillance, combating methamphetamine and fentanyl crime, opposing unchecked data-center development and investigating utility rate hikes.",
+        "sources": [
+          "s5",
+          "s6"
+        ]
+      },
+      "background": [
+        {
+          "text": "Describes himself on his campaign site as an attorney with decades of experience \"fighting for the rights of New Mexicans\"; not born in New Mexico.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Protecting privacy: rein in mass surveillance tools such as Flock license-plate readers.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Addressing crime driven by methamphetamine and fentanyl, supporting and equipping officers, and funding programs for at-risk youth.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Enforcing environmental laws fairly, opposing unchecked data-center development, and investigating utility rate-hike practices.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://samfornewmexico.org/",
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_Mexico_Attorney_General_election,_2026",
+      "title": "New Mexico Attorney General election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://nmdoj.gov/about/meet-the-attorney-general/",
+      "title": "Meet the Attorney General",
+      "publisher": "New Mexico Department of Justice",
+      "kind": "official"
+    },
+    {
+      "id": "s3",
+      "url": "https://nmdoj.gov/press-release/court-orders-meta-to-pay-942-million-and-overhaul-protections-for-children-on-facebook-and-instagram-in-landmark-new-mexico-ruling/",
+      "title": "Court Orders Meta to Pay $942 Million and Overhaul Protections for Children on Facebook and Instagram in Landmark New Mexico Ruling",
+      "publisher": "New Mexico Department of Justice",
+      "kind": "official",
+      "date": "2026-08-07"
+    },
+    {
+      "id": "s4",
+      "url": "https://nmdoj.gov/press-release/attorney-general-raul-torrez-ag-bonta-and-coalition-challenge-trump-administrations-rollback-of-fuel-economy-standards/",
+      "title": "Attorney General Raúl Torrez, AG Bonta and Coalition Challenge Trump Administration’s Rollback of Fuel Economy Standards",
+      "publisher": "New Mexico Department of Justice",
+      "kind": "official",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "s5",
+      "url": "https://samfornewmexico.org/",
+      "title": "Sam Kane for Attorney General",
+      "publisher": "Sam Kane for NM campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Samuel_Kane",
+      "title": "Samuel Kane",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
+      "url": "https://candidateportal.servis.sos.state.nm.us/CandidateList.aspx?eid=2917&cty=99",
+      "title": "2026 General Election Contest/Candidate List",
+      "publisher": "New Mexico Secretary of State",
+      "kind": "official",
+      "date": "2026-10-19"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Slate: confirmed against the New Mexico Secretary of State's 2026 General Election candidate list (candidate portal). Neither candidate has a published issue-by-issue questionnaire, so no issue stances are recorded. Samuel Kane's campaign site gives only a short biography; his background and any public record before this race were not found. Torrez's record items are from his office's own press releases."
+}

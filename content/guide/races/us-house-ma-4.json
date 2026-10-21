@@ -30,7 +30,7 @@
         "sources": [
           "s2",
           "s3",
-          "s10"
+          "s13"
         ]
       },
       "background": [
@@ -38,41 +38,41 @@
           "text": "Born in 1988, according to Ballotpedia, and raised in Newton, Massachusetts, the son of a surgeon and a scientist, according to his official biography.",
           "sources": [
             "s2",
-            "s10"
+            "s13"
           ]
         },
         {
           "text": "Earned a bachelor's degree in government and economics from Harvard College (2010) and an M.B.A. from MIT (2016); his official biography cites degrees in economics and finance from Harvard and MIT Sloan.",
           "sources": [
             "s2",
-            "s10"
+            "s13"
           ]
         },
         {
           "text": "Served in the U.S. Marine Corps from 2010 to 2015, reaching the rank of captain; his official biography says he commanded infantry in Afghanistan and special operations in Panama.",
           "sources": [
             "s2",
-            "s10"
+            "s13"
           ]
         },
         {
           "text": "Worked in business while serving on the city council, including as a product manager at a cybersecurity startup and in new-products management at Liberty Mutual Insurance's Solaria Labs.",
           "sources": [
             "s2",
-            "s10"
+            "s13"
           ]
         },
         {
           "text": "Served on the Newton, Massachusetts City Council from 2016 to 2020 before his election to Congress.",
           "sources": [
             "s2",
-            "s10"
+            "s13"
           ]
         },
         {
           "text": "Took office in January 2021 and is serving his third term; he sits on the House Energy and Commerce Committee.",
           "sources": [
-            "s10",
+            "s13",
             "s3"
           ]
         },
@@ -85,7 +85,7 @@
         {
           "text": "According to his official biography, he lives in Newton with his wife, Michelle, and their three children.",
           "sources": [
-            "s10"
+            "s13"
           ]
         }
       ],
@@ -130,6 +130,24 @@
           "sources": [
             "s7"
           ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Said President Trump should have asked Congress for authorization before striking Iran.",
+          "quote": "it says Congress has to vote on these issues.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "supports",
+          "summary": "In an official statement, said he strongly supports Israel and is firmly opposed to conditioning security aid to Israel.",
+          "quote": "I am firmly opposed to conditioning security aid to Israel",
+          "sources": [
+            "s11"
+          ]
         }
       ],
       "record": [
@@ -172,7 +190,7 @@
         "text": "Stalcup is a Ph.D. physicist, entrepreneur, and self-described former Bernie Sanders supporter running as the Republican nominee. He founded an environmental-monitoring company and campaigns on a \"Science Over Politics\" platform.",
         "sources": [
           "s5",
-          "s11"
+          "s14"
         ]
       },
       "background": [
@@ -186,7 +204,7 @@
           "text": "Founded an environmental-monitoring company whose systems, he says, have been deployed from the Arctic to Antarctica; BallotReady lists him as president of Upward Innovations, Inc. since 2004.",
           "sources": [
             "s5",
-            "s11"
+            "s14"
           ]
         },
         {
@@ -229,16 +247,16 @@
           "summary": "Says he would vote to raise the federal minimum wage to about $15 per hour and index it to inflation.",
           "quote": "I would vote to raise the federal minimum wage quickly to approximately $15 per hour and then index it to inflation so workers do not lose purchasing power.",
           "sources": [
-            "s5"
+            "s12"
           ]
         },
         {
           "issue": "healthcare_public",
-          "stance": "mixed",
+          "stance": "supports",
           "summary": "Proposes a hybrid system guaranteeing Medicare coverage for every American while keeping private insurers competing across state lines.",
           "quote": "I would pursue a hybrid healthcare system that guarantees Medicare coverage for every American while allowing private insurers to compete across state lines under strong consumer protections.",
           "sources": [
-            "s5"
+            "s12"
           ]
         },
         {
@@ -246,7 +264,16 @@
           "stance": "mixed",
           "summary": "Would require body cameras and standardized training for ICE operations and protect long-settled undocumented workers from deportation, while creating a time-limited departure process for recent arrivals without viable asylum claims.",
           "sources": [
-            "s5"
+            "s12"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In his Candidate Connection survey, says he would use War Powers resolutions and Congress's control of funding to end unauthorized wars and prevent presidents from bypassing Congress.",
+          "quote": "I would use War Powers resolutions and Congress’s control of funding to end unauthorized wars and prevent future presidents from bypassing Congress.",
+          "sources": [
+            "s12"
           ]
         }
       ],
@@ -329,6 +356,28 @@
     },
     {
       "id": "s10",
+      "url": "https://auchincloss.house.gov/media/in-the-news/auchincloss-president-trump-should-have-asked-congress-for-authorization-to-strike-iran",
+      "title": "Auchincloss: President Trump should have asked Congress for authorization to strike Iran",
+      "publisher": "Office of Rep. Jake Auchincloss (news coverage reposted)",
+      "kind": "news",
+      "date": "2025-06-22"
+    },
+    {
+      "id": "s11",
+      "url": "https://auchincloss.house.gov/media/press-releases/statement-auchincloss-i-am-voting-no-on-the-israel-supplemental-stunt",
+      "title": "STATEMENT: Auchincloss: “I Am Voting No On The Israel Supplemental Stunt”",
+      "publisher": "Office of Rep. Jake Auchincloss",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://ballotpedia.org/Thomas_Stalcup",
+      "title": "Thomas Stalcup — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
       "url": "https://auchincloss.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Jake Auchincloss",
@@ -336,7 +385,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s11",
+      "id": "s14",
       "url": "https://www.ballotready.org/people/thomas-stalcup",
       "title": "Thomas Stalcup",
       "publisher": "BallotReady",

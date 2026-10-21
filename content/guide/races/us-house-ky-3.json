@@ -117,6 +117,33 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Opposed additional ICE funding in a House floor speech and voted no on the bill adding $70 billion for ICE and CBP, saying he would not give ICE “another dollar.”",
+          "quote": "We shouldn’t give them another dollar.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a House floor speech opposing additional ICE funding, said the money could instead bring back the health care tax credits that expired.",
+          "quote": "We could bring back the healthcare tax credits that Republicans killed because “too expensive” for three more years.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Said the decision to go to war rests with Congress and voted for a war powers resolution on Iran, stating Congress never authorized the war.",
+          "quote": "The grave responsibility of putting our servicemembers in harm’s way, plus spending the billions of taxpayer dollars this war will cost, rests squarely with Congress and the people who send them there.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [
@@ -148,10 +175,9 @@
       "incumbent": false,
       "ballotNote": "Won the May 19, 2026 Republican primary with 48.2% of the vote, defeating David Nichter, Daniel Cobble and Donald Pay.",
       "summary": {
-        "text": "Maria Teresa Rodriguez is the Republican nominee for Kentucky's 3rd Congressional District. Her campaign says she lived through political persecution before coming to the United States and is running on safe communities, lower taxes, free enterprise, legal immigration and opposition to abortion.",
+        "text": "Maria Teresa Rodriguez is the Republican nominee for Kentucky's 3rd Congressional District. Her campaign describes her as having lived through political persecution before coming to the United States, and its site lists safe streets, a strong economy, lower taxes, legal immigration, protecting the unborn and protecting women's sports as priorities.",
         "sources": [
-          "s2",
-          "s6"
+          "s2"
         ]
       },
       "background": [
@@ -164,7 +190,7 @@
         {
           "text": "Won the May 19, 2026 Republican primary for Kentucky's 3rd District, defeating David Nichter, Daniel Cobble and Donald Pay.",
           "sources": [
-            "s6"
+            "s8"
           ]
         }
       ],
@@ -176,35 +202,11 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Campaigns under the platform heading \"Protecting The Unborn,\" indicating opposition to abortion.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Campaigns on \"Legal Immigration\" as a priority, contrasted with illegal immigration, as part of a platform of safe communities and border enforcement.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Campaigns on lowering taxes as a platform priority.",
-          "sources": [
-            "s2"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [],
       "website": "https://mariaforuscongress.com",
-      "researchDepth": "basic"
+      "researchDepth": "minimal",
+      "statements": []
     }
   ],
   "sources": [
@@ -250,6 +252,22 @@
     },
     {
       "id": "s6",
+      "url": "https://mcgarvey.house.gov/media/press-releases/congressman-morgan-mcgarvey-attempts-to-divert-70-billion-ice-budget-bill-to-homeless-veterans",
+      "title": "Congressman Morgan McGarvey Attempts to Divert $70 Billion ICE Budget Bill to Homeless Veterans",
+      "publisher": "Office of Rep. Morgan McGarvey",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://mcgarvey.house.gov/media/press-releases/congressman-morgan-mcgarvey-on-war-powers-resolution-vote",
+      "title": "Congressman Morgan McGarvey on War Powers Resolution Vote",
+      "publisher": "Office of Rep. Morgan McGarvey",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
       "url": "https://ballotpedia.org/Maria_Teresa_Rodriguez",
       "title": "Maria Teresa Rodriguez",
       "publisher": "Ballotpedia",
@@ -258,5 +276,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "McGarvey's federal key floor votes and FEC finance totals are added separately by script. Checked his official issues pages (economy, education, energy, health, gun violence prevention, congress, veterans) and about page; no statements found addressing tariffs, Israel aid, minimum wage, congestion pricing, school choice, rent regulation, housing supply, or the pace of the clean-energy transition specifically. Rodriguez's positions are drawn from platform headings on her campaign site (\"Protecting The Unborn,\" \"Legal Immigration,\" \"Lower Taxes\") rather than lengthy statements; her campaign website does not list her birthplace, education or career, and no news profile with those details could be loaded."
+  "researchNotes": "McGarvey's federal key floor votes and FEC finance totals are added separately by script. Checked his official issues pages (economy, education, energy, health, gun violence prevention, congress, veterans) and about page; no statements found addressing tariffs, Israel aid, minimum wage, congestion pricing, school choice, rent regulation, housing supply, or the pace of the clean-energy transition specifically. Rodriguez's positions are drawn from platform headings on her campaign site (\"Protecting The Unborn,\" \"Legal Immigration,\" \"Lower Taxes\") rather than lengthy statements; no detailed background or education information was found for her in the time available. Update: Rodriguez's campaign site lists topic headings only (e.g. \"Protecting The Unborn\", \"Protecting Women's Sports\", \"Lower Taxes\", \"Legal Immigration\") with no issue pages or full statements; a campaign rack-card PDF on the site is image-only and could not be read. No questionnaire or news interview was found. Headings are not treated as stances. Rodriguez's positions are drawn from platform headings on her campaign site (\"Protecting The Unborn,\" \"Legal Immigration,\" \"Lower Taxes\") rather than lengthy statements; her campaign website does not list her birthplace, education or career, and no news profile with those details could be loaded."
 }

@@ -32,56 +32,56 @@
           "s1",
           "s2",
           "s3",
-          "s7",
-          "s8"
+          "s8",
+          "s9"
         ]
       },
       "background": [
         {
           "text": "Born June 30, 1979, in Westchester County, New York; attended Phillips Exeter Academy in New Hampshire.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Earned a bachelor's degree and a law degree (J.D.) from Yale University and a master's degree from Balliol College, Oxford, which he attended as a Rhodes Scholar.",
           "sources": [
-            "s8",
-            "s7"
+            "s9",
+            "s8"
           ]
         },
         {
           "text": "Served as an intelligence officer in the U.S. Navy Reserve and deployed to Afghanistan from September 2010 to April 2011 as part of the military's anti-corruption task force, leaving active service as a lieutenant.",
           "sources": [
-            "s8",
-            "s7"
+            "s9",
+            "s8"
           ]
         },
         {
           "text": "After law school, worked at The Hartford insurance company, first as associate counsel and then as chief of staff to the president of its Property and Casualty Division.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Served in President Barack Obama's first-term Treasury Department, first as senior advisor to Deputy Secretary Neal Wolin and then as Deputy Assistant Secretary for Terrorist Financing and Financial Crimes; his campaign website says he was part of the team that created the Consumer Financial Protection Bureau.",
           "sources": [
-            "s8",
-            "s7"
+            "s9",
+            "s8"
           ]
         },
         {
           "text": "Became general counsel to Gov. Dannel Malloy in January 2013; in December 2014 the law firm Hinckley Allen announced he would join as a partner.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Elected Mayor of Hartford in 2015 after defeating incumbent Pedro Segarra in the Democratic primary, was re-elected in 2019, and served from 2016 to 2024; he did not run for re-election in 2023. His campaign website says he led the effort to stabilize the city's finances and created the Hartford Youth Service Corps.",
           "sources": [
             "s2",
-            "s8",
-            "s7"
+            "s9",
+            "s8"
           ]
         },
         {
@@ -93,7 +93,7 @@
         {
           "text": "Announced his run for Congress on July 30, 2025, won the Democratic Party's endorsement convention on May 11, 2026, and defeated incumbent Rep. John Larson, Jillian Gilchrest, and Ruth Fortune in the August 11, 2026 Democratic primary with 53.5% of the vote.",
           "sources": [
-            "s8",
+            "s9",
             "s1",
             "s2"
           ]
@@ -278,27 +278,28 @@
       ],
       "positions": [
         {
-          "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Says the Affordable Care Act drove up costs and blames for-profit ownership of medical practices by investors; proposes capping the profits investor-owners can extract rather than expanding public coverage directly.",
-          "quote": "With passage of the ACA, the costs of healthcare skyrocketed and doctors worked harder and faster to crank people through the office like sausage in a grinder... With caps on profits for VCs that own healthcare conglomerates, we can immediately put the next 2.6 trillion back in your pocket.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
           "issue": "tax_wealthy",
-          "stance": "mixed",
-          "summary": "Wants to eliminate the self-employment tax and shift taxation toward the financial industry, while also opposing what she calls unfair regulation of small businesses relative to larger companies.",
-          "quote": "I would eliminate the self-employment tax. I would shift taxation towards the financial industry and away from earned income.",
+          "stance": "supports",
+          "summary": "Says she would shift taxation toward the financial industry and away from earned income, and would eliminate the self-employment tax.",
+          "quote": "I would shift taxation towards the financial industry and away from earned income.",
           "sources": [
             "s5"
           ]
         }
       ],
       "record": [],
-      "website": "https://www.amychaiforcongress.com",
-      "researchDepth": "basic"
+      "website": "https://chaiforcongress.com",
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I believe in secure borders.",
+          "context": "On her campaign website",
+          "sources": [
+            "s7"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -347,13 +348,20 @@
     },
     {
       "id": "s7",
+      "url": "https://www.chaiforcongress.com/issues",
+      "title": "The Issues We Face in America",
+      "publisher": "Amy Chai campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
       "url": "https://www.broninforcongress.com/about",
       "title": "Meet Luke Bronin",
       "publisher": "Luke Bronin for Congress",
       "kind": "candidate"
     },
     {
-      "id": "s8",
+      "id": "s9",
       "url": "https://en.wikipedia.org/wiki/Luke_Bronin",
       "title": "Luke Bronin",
       "publisher": "Wikipedia",
@@ -361,5 +369,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate had FEC campaign-finance totals in the sources reviewed; those figures are added separately by script. Amy Chai's positions are drawn from her 2025 Ballotpedia Candidate Connection survey, which does not directly address guns, abortion, or immigration. Bronin's family details were omitted because his campaign pages and Wikipedia differ on them; Chai's biography relies largely on her own Ballotpedia Candidate Connection responses, and no independent news profile was found."
+  "researchNotes": "Neither candidate had FEC campaign-finance totals in the sources reviewed; those figures are added separately by script. Amy Chai's positions are drawn from her 2025 Ballotpedia Candidate Connection survey and her campaign website issues page (chaiforcongress.com/issues); neither directly addresses guns or abortion. Bronin's family details were omitted because his campaign pages and Wikipedia differ on them; Chai's biography relies largely on her own Ballotpedia Candidate Connection responses, and no independent news profile was found."
 }

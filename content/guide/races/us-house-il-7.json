@@ -30,14 +30,14 @@
         "sources": [
           "s2",
           "s3",
-          "s7"
+          "s21"
         ]
       },
       "background": [
         {
           "text": "According to his state legislative website, he is a lifelong Chicago resident who was raised by a single mother.",
           "sources": [
-            "s7"
+            "s21"
           ]
         },
         {
@@ -56,7 +56,7 @@
           "text": "Was elected to the Illinois House of Representatives for the 8th District in 2007 and has been re-elected since; he is not seeking re-election to that seat in 2026.",
           "sources": [
             "s3",
-            "s7"
+            "s21"
           ]
         },
         {
@@ -68,7 +68,7 @@
         {
           "text": "Established the Council on Responsible Fatherhood, according to his state legislative website.",
           "sources": [
-            "s7"
+            "s21"
           ]
         },
         {
@@ -140,7 +140,7 @@
           ]
         }
       ],
-      "website": "https://www.lashawnfordforcongress.com",
+      "website": "https://fordforcongress.com",
       "researchDepth": "basic"
     },
     {
@@ -227,7 +227,8 @@
         {
           "issue": "abortion",
           "stance": "opposes",
-          "summary": "Says he would vote in Congress for protection of human life in the womb, opposing abortion.",
+          "summary": "His campaign website, in a passage criticizing abortion, says that if elected he would vote for protection for all human life.",
+          "quote": "If I am elected to Congress I shall vote for protection for all human life and leave none out.",
           "sources": [
             "s5"
           ]
@@ -265,7 +266,7 @@
       "summary": {
         "text": "Choi is an independent write-in candidate in Illinois' 7th District. According to Ballotpedia, Choi holds a bachelor's degree from the Illinois Institute of Technology and has worked in construction and as a director at a homeless shelter. In a Ballotpedia survey, Choi calls themself progressive and lists campaign finance reform as the main campaign message.",
         "sources": [
-          "s8",
+          "s7",
           "s6"
         ]
       },
@@ -273,32 +274,32 @@
         {
           "text": "Earned a bachelor's degree from the Illinois Institute of Technology in 2012.",
           "sources": [
-            "s8"
+            "s7"
           ]
         },
         {
           "text": "Career experience includes working in construction and as a director at Hope House Homeless Shelter and Transitional Housing, according to Ballotpedia.",
           "sources": [
-            "s8"
+            "s7"
           ]
         },
         {
           "text": "In a 2026 Ballotpedia survey, describes themself as independent, progressive, egalitarian, a \"compassionate secular humanist,\" disabled and poor, and says they have experienced homelessness.",
           "sources": [
-            "s8"
+            "s7"
           ]
         },
         {
           "text": "Wrote in the survey: \"I have seen both sides of how life should be and the struggle that can devastate lives.\"",
           "quote": "I am one who needs the help that every American deserves and I desperately want a country that every American deserves.",
           "sources": [
-            "s8"
+            "s7"
           ]
         },
         {
           "text": "Was also a write-in candidate for this seat in the 2024 general election.",
           "sources": [
-            "s8"
+            "s7"
           ]
         }
       ],
@@ -327,7 +328,27 @@
         }
       ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Chicago has the potential to become a true sanctuary city, embracing not only migrants but also marginalized groups that are discriminated upon, neglected, exploited and abused.",
+          "context": "On his campaign website's plan page (loaded Oct. 2026); the same text appears in Ballotpedia's quote of his 2024 website",
+          "sources": [
+            "s20",
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Global Climate change starts with Environmental and Climate Justice.",
+          "context": "On his campaign website's plan page (loaded Oct. 2026); the same text appears in Ballotpedia's quote of his 2024 website",
+          "sources": [
+            "s20",
+            "s7"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -373,7 +394,7 @@
     },
     {
       "id": "s6",
-      "url": "https://ballotpedia.org/Illinois%27_7th_Congressional_District_election,_2026",
+      "url": "https://ballotpedia.org/Lien_Choi",
       "title": "Lien Choi Candidate Connection survey response",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
@@ -381,18 +402,25 @@
     },
     {
       "id": "s7",
+      "url": "https://ballotpedia.org/Lien_Choi",
+      "title": "Lien Choi's 2024 campaign website (quoted verbatim on Ballotpedia)",
+      "publisher": "Lien Choi campaign website (via Ballotpedia)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s20",
+      "url": "https://lienchoi.com/plan",
+      "title": "Plan",
+      "publisher": "Lien Choi campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s21",
       "url": "https://www.lashawnford.com",
       "title": "Home - Rep. La Shawn K. Ford",
       "publisher": "Office of State Rep. La Shawn K. Ford",
       "kind": "official",
-      "date": "2026-10-21"
-    },
-    {
-      "id": "s8",
-      "url": "https://ballotpedia.org/Lien_Choi",
-      "title": "Lien Choi",
-      "publisher": "Ballotpedia",
-      "kind": "reference",
       "date": "2026-10-21"
     },
     {
@@ -421,5 +449,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Koppie has not completed Ballotpedia's 2026 Candidate Connection survey; his positions are drawn from his campaign website as quoted on Ballotpedia. Lien Choi completed a 2026 Candidate Connection survey; no campaign website was found, and the survey and Ballotpedia profile do not state pronouns or birthplace. Koppie won the 2026 Republican primary over Patricia Easley (65% to 35%); he was not unopposed."
+  "researchNotes": "Chad Koppie's positions are drawn from his campaign website as quoted on Ballotpedia. Lien Choi's 2026 material is the Ballotpedia Candidate Connection survey response; two statements are from his campaign website (lienchoi.com/plan), which was loaded 2026-10-19 and repeats the text Ballotpedia quoted from his 2024 site, so its date is uncertain. Lien Choi completed a 2026 Candidate Connection survey; no campaign website was found, and the survey and Ballotpedia profile do not state pronouns or birthplace. Koppie won the 2026 Republican primary over Patricia Easley (65% to 35%); he was not unopposed."
 }

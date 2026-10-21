@@ -28,9 +28,9 @@
       "summary": {
         "text": "Marilyn Strickland is the Democratic incumbent for Washington's 10th Congressional District. Born in Seoul and raised in Tacoma, she served as mayor of Tacoma and as president and CEO of the Seattle Metropolitan Chamber of Commerce before her 2020 election to Congress. She serves on the House Armed Services and Transportation and Infrastructure committees and is running for re-election.",
         "sources": [
-          "s6",
-          "s7",
-          "s8",
+          "s9",
+          "s10",
+          "s11",
           "s5"
         ]
       },
@@ -38,42 +38,42 @@
         {
           "text": "Born September 25, 1962, in Seoul, South Korea; her family moved to Tacoma in 1967 after her father, a U.S. serviceman, was stationed at Fort Lewis, and she was raised in Tacoma and attended Mount Tahoma High School. Her campaign website describes her as an \"Army brat\" and a graduate of Tacoma Public Schools.",
           "sources": [
-            "s7",
-            "s6"
+            "s10",
+            "s9"
           ]
         },
         {
           "text": "Earned a bachelor's degree from the University of Washington and a master's degree in business administration from Clark Atlanta University.",
           "sources": [
-            "s6",
+            "s9",
             "s2"
           ]
         },
         {
           "text": "Worked in the private sector, including at Northern Life Insurance, before entering local government; was later a member of the Tacoma City Council.",
           "sources": [
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Served as mayor of Tacoma from 2010 to 2018 (two terms, according to her campaign website); Wikipedia describes her as the city's first Asian-born elected mayor and first African-American woman in the office.",
           "sources": [
-            "s7",
-            "s6"
+            "s10",
+            "s9"
           ]
         },
         {
           "text": "After her mayoralty, served as president and CEO of the Seattle Metropolitan Chamber of Commerce.",
           "sources": [
-            "s6",
-            "s7"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "Elected to Congress in November 2020 and sworn in January 3, 2021. According to her campaign website she is the first African-American and Korean-American woman elected to Congress; her House website says she is the first African American to represent Washington state in federal office.",
           "sources": [
-            "s6",
-            "s8"
+            "s9",
+            "s11"
           ]
         },
         {
@@ -85,7 +85,7 @@
         {
           "text": "Her House website lists her as Whip of the New Democrat Coalition, Secretary of the Congressional Black Caucus, and chair of the New Democrat Coalition National Security Taskforce.",
           "sources": [
-            "s8",
+            "s11",
             "s5"
           ]
         },
@@ -98,7 +98,7 @@
         {
           "text": "Lives in the district with her husband, according to her House website.",
           "sources": [
-            "s8"
+            "s11"
           ]
         }
       ],
@@ -134,6 +134,24 @@
           "quote": "We need to do more to protect our planet for our kids and future generations. In Congress, I'm working to boost renewable energy.",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In a June 2024 statement she said reproductive freedom must continue to be protected and that she looks forward to codifying a woman’s right to make private medical decisions.",
+          "quote": "We must continue to protect reproductive freedom, and I look forward to codifying a woman’s right to make private medical decisions.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "opposes",
+          "summary": "In an April 2025 statement she criticized the SAVE Act, which would require proof of citizenship to register, as voter suppression.",
+          "quote": "These extreme voter registration requirements and restrictions on absentee and mail-in voting are nothing more than voter suppression.",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -190,10 +208,26 @@
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Easing financial burdens on families and improving access to education and healthcare.",
+          "quote": "My focus is simple: to help ease the burdens families are facing, to improve access to education and healthcare",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Ensuring veterans and those who have served are treated with respect and dignity.",
+          "quote": "to ensure that those who have served this community and country are treated with respect and dignity",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Only his candidate statement in the official 2026 voters' pamphlet was found; it names cost of living, housing, healthcare and education as concerns but takes no position on guide issues. No campaign website or questionnaire answers found."
     }
   ],
   "sources": [
@@ -234,20 +268,41 @@
     },
     {
       "id": "s6",
+      "url": "https://strickland.house.gov/2024/06/13/strickland-statement-on-supreme-court-abortion-pill-decision/",
+      "title": "Strickland Statement on Supreme Court Abortion Pill Decision",
+      "publisher": "Rep. Marilyn Strickland (official site)",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://strickland.house.gov/2025/04/10/new-dem-whip-marilyn-strickland-on-save-act-disenfranchising-tens-of-millions-of-american-citizens/",
+      "title": "New Dem Whip Marilyn Strickland on SAVE Act",
+      "publisher": "Rep. Marilyn Strickland (official site)",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.sos.wa.gov/sites/default/files/2026-10/Voters%20Pamphlet%202026%20-%20Edition%2009%20-%20Pierce.pdf",
+      "title": "2026 General Election Voters' Pamphlet, Pierce County edition (candidate statement, p. 30)",
+      "publisher": "Washington Secretary of State",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
       "url": "https://stricklandforwashington.com/about",
       "title": "Meet Marilyn",
       "publisher": "Strickland for Washington",
       "kind": "candidate"
     },
     {
-      "id": "s7",
+      "id": "s10",
       "url": "https://en.wikipedia.org/wiki/Marilyn_Strickland",
       "title": "Marilyn Strickland",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s8",
+      "id": "s11",
       "url": "https://strickland.house.gov/about",
       "title": "About - Marilyn Strickland",
       "publisher": "Office of Rep. Marilyn Strickland",

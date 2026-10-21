@@ -31,7 +31,7 @@
         "sources": [
           "s1",
           "s2",
-          "s5"
+          "s9"
         ]
       },
       "background": [
@@ -39,15 +39,15 @@
           "text": "Born in Philadelphia, Pennsylvania, in 1958; his family moved to Salem, Virginia, when he was an infant, and he graduated from Salem's Andrew Lewis High School.",
           "sources": [
             "s2",
-            "s3",
-            "s4"
+            "s7",
+            "s8"
           ]
         },
         {
           "text": "Earned a bachelor's degree in history from Emory & Henry College in 1980, graduating with honors, and a J.D. from the Washington and Lee University School of Law in 1983.",
           "sources": [
             "s2",
-            "s3"
+            "s7"
           ]
         },
         {
@@ -66,7 +66,7 @@
           "text": "Won the 9th District seat in November 2010, defeating Democratic Rep. Rick Boucher, who had held it for 28 years.",
           "sources": [
             "s2",
-            "s5"
+            "s9"
           ]
         },
         {
@@ -84,7 +84,7 @@
         {
           "text": "Told Cardinal News that the work he is most proud of in Congress is fighting the fentanyl epidemic, including passage of the bipartisan Drug Quality and Security Act on compounding pharmacies, and that a current priority is the Rural Obstetrics Readiness Act on maternal health.",
           "sources": [
-            "s5"
+            "s9"
           ]
         },
         {
@@ -95,7 +95,26 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "His official energy page, which cites 2023 legislation, says he supports increasing coal production, easing coal regulations and an all-of-the-above energy approach, and notes he cosponsored 2023 bills barring EPA from banning internal-combustion engines.",
+          "quote": "We need to increase current coal production and eliminate overly burdensome regulations that hurt industry with little to no environmental gains.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "In a July 2022 statement he called the assault weapons ban an unconstitutional infringement on law-abiding gun owners.",
+          "quote": "The assault weapons ban is an unconstitutional infringement on the rights of law-abiding gun owners.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Energy and Commerce Committee, chairing its Subcommittee on Health in the 119th Congress; also a senior member of its Environment and Communications & Technology subcommittees.",
@@ -142,37 +161,37 @@
         "text": "Joy Powers is the Democratic nominee challenging incumbent Morgan Griffith. A fourth-generation cattle farmer and small business owner from Bedford County, she ran unsuccessfully for the Virginia House of Delegates in 2025. She describes herself as a Southwest Virginia native running on a \"HOME Plan\" covering health care, economic opportunity, markets and education for the region.",
         "sources": [
           "s1",
-          "s5",
+          "s9",
           "s6",
-          "s7"
+          "s10"
         ]
       },
       "background": [
         {
           "text": "Describes herself as raised in 4-H and FFA, and as living and working on her family's 350-acre cattle farm in Bedford, Virginia; Cardinal News calls her a fourth-generation cattle farmer.",
           "sources": [
-            "s5",
-            "s7"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "Describes herself as a small business owner and a mother to a son she adopted through foster care.",
           "sources": [
             "s6",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "According to her campaign website, she has served as superintendent of the Bedford County Fair, as a member of the Bedford County Agricultural Economic Development Advisory Board, and as founder of Restore the Harvest, an agricultural education organization.",
           "sources": [
             "s6",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Her campaign website lists involvement with Virginia FFA, Virginia 4-H, Chamblissburg Ruritans, the Virginia Simmental Association and the Virginia Farm Bureau, and says she has been a foster care parent and advocate.",
           "sources": [
-            "s7"
+            "s10"
           ]
         },
         {
@@ -217,13 +236,42 @@
           "summary": "Says healthcare is a human right and supports universal healthcare, paired with investment in rural health infrastructure.",
           "quote": "I believe healthcare is a human right, and I support universal healthcare.",
           "sources": [
-            "s1"
+            "s6"
           ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her campaign issues page says tariffs and trade fights have raised costs for families and farmers and cost producers export markets.",
+          "quote": "Trade fights and tariffs have raised the cost of fuel, fertilizer, and a lot of what farmers buy and what families pay at checkout.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Says she would end U.S. weapons and taxpayer dollar transfers to Israel's government as currently structured, saying they come with almost no conditions.",
+          "quote": "We send Israel's government billions in weapons and taxpayer dollars every year with almost no conditions and no accountability, and I would end that.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "website": "https://www.joyforva.com/"
+      "website": "https://www.joyforva.com",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "I will work on keeping communities safe in ways that respect law-abiding gun owners, because around here that is most people.",
+          "context": "On her campaign website, The Issues page",
+          "sources": [
+            "s5"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -243,21 +291,51 @@
       "kind": "official"
     },
     {
-      "id": "s3",
+      "url": "https://morgangriffith.house.gov/Issues/Issue/?IssueID=44643",
+      "title": "Energy and Environment",
+      "publisher": "Office of Rep. Morgan Griffith",
+      "kind": "official",
+      "id": "s3"
+    },
+    {
+      "url": "https://morgangriffith.house.gov/news/documentsingle.aspx?DocumentID=402708",
+      "title": "Griffith Opposes Assault Weapons Ban",
+      "publisher": "Office of Rep. Morgan Griffith",
+      "kind": "official",
+      "date": "2022-07-29",
+      "id": "s4"
+    },
+    {
+      "url": "https://www.joyforva.com/copy-of-priorities",
+      "title": "The Issues",
+      "publisher": "Joy Powers for Virginia",
+      "kind": "candidate",
+      "id": "s5"
+    },
+    {
+      "url": "https://ballotpedia.org/Joy_Powers",
+      "title": "Joy Powers",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026",
+      "id": "s6"
+    },
+    {
+      "id": "s7",
       "url": "https://ballotpedia.org/Morgan_Griffith",
       "title": "Morgan Griffith",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s4",
+      "id": "s8",
       "url": "https://en.wikipedia.org/wiki/Morgan_Griffith",
       "title": "Morgan Griffith",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s5",
+      "id": "s9",
       "url": "https://cardinalnews.org/2026/09/29/griffith-seeks-a-ninth-term-in-the-9th-district-this-time-he-faces-a-cattle-farmer-from-bedford-county/",
       "title": "Griffith seeks a ninth term in the 9th District. This time, he faces a cattle farmer from Bedford County.",
       "publisher": "Cardinal News",
@@ -265,14 +343,7 @@
       "date": "2026-09-29"
     },
     {
-      "id": "s6",
-      "url": "https://ballotpedia.org/Joy_Powers",
-      "title": "Joy Powers",
-      "publisher": "Ballotpedia",
-      "kind": "reference"
-    },
-    {
-      "id": "s7",
+      "id": "s10",
       "url": "https://www.joyforva.com/meet-joy",
       "title": "Who is Joy",
       "publisher": "Joy Powers for Congress",

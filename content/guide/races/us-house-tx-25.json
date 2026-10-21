@@ -35,7 +35,7 @@
         "text": "Roger Williams is the incumbent Republican U.S. Representative for Texas's 25th District. A former baseball player, small-business owner and Texas Secretary of State (2005–2007), he was first elected to Congress in 2012 and chairs the House Committee on Small Business. He is also a member of the Financial Services Committee.",
         "sources": [
           "s2",
-          "s4"
+          "s5"
         ]
       },
       "background": [
@@ -43,14 +43,14 @@
           "text": "Born in Evanston, Illinois, in 1949, and raised in Fort Worth, Texas, according to Ballotpedia and his official biography.",
           "sources": [
             "s2",
-            "s4"
+            "s5"
           ]
         },
         {
           "text": "Earned a bachelor's degree in education from Texas Christian University in 1972. His official biography says he was an All-Southwest Conference baseball player at TCU.",
           "sources": [
             "s2",
-            "s4"
+            "s5"
           ]
         },
         {
@@ -62,7 +62,7 @@
         {
           "text": "Began his political involvement in 1994 as a fundraiser for then-Governor George W. Bush and was North Texas Finance Chairman for the 2000 Bush/Cheney presidential campaign, according to his official biography. His 2020 campaign website also said President Bush appointed him in 2001 as chairman of the Republican National Finance Committee's Eagles Program.",
           "sources": [
-            "s4",
+            "s5",
             "s2"
           ]
         },
@@ -70,39 +70,49 @@
           "text": "Served as Texas Secretary of State from 2005 to 2007; his official biography says he also served as the state's chief liaison for the Texas border and Mexican affairs.",
           "sources": [
             "s2",
-            "s4"
+            "s5"
           ]
         },
         {
           "text": "First elected to the U.S. House in 2012 and represents a district stretching from Tarrant County in the east to Callahan County in the west.",
           "sources": [
-            "s4"
+            "s5"
           ]
         },
         {
           "text": "Currently chairs the House Committee on Small Business and serves on the House Financial Services Committee.",
           "sources": [
             "s2",
-            "s4",
-            "s5"
+            "s5",
+            "s6"
           ]
         },
         {
           "text": "His official biography lists bills he worked on that passed the House, including the Assisting Small Businesses Not Fraudsters Act, the Main Street Parity Act and the Strengthening Oversight of Iran's Access to Finance Act.",
           "sources": [
-            "s4"
+            "s5"
           ]
         },
         {
           "text": "Serves on the TCU Board of Trustees; his 2020 campaign website also listed service on the board of the Bush School of Government and Public Service at Texas A&M University. His official biography says he lives in Weatherford, Texas, and has two daughters and grandchildren.",
           "sources": [
-            "s4",
+            "s5",
             "s2"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Official site issues page says he opposes universal background checks, buy-backs, assault weapons bans and red flag laws.",
+          "sources": [
+            "s4"
+          ],
+          "quote": "oppose universal background checks, buy-backs, assault weapons bans, and red flag laws"
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Financial Services and chairs the House Committee on Small Business in the 119th Congress.",
@@ -191,22 +201,42 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says she is passionate about expanding access to affordable healthcare.",
+          "summary": "Her campaign website, as quoted by Ballotpedia, says she would strengthen the ACA and expand Medicaid.",
+          "sources": [
+            "s3"
+          ],
+          "quote": "strengthening the ACA, expanding Medicaid, and protecting coverage for preexisting conditions"
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I will oppose policies that cut benefits or raise costs, and I will protect reproductive care.",
+          "context": "On her campaign website, as quoted by Ballotpedia (2026)",
           "sources": [
             "s3"
           ]
         },
         {
           "issue": "minimum_wage",
-          "stance": "supports",
-          "summary": "Says she would fight for living wages for working people.",
+          "quote": "affordability begins with a living wage. I will fight to raise pay, protect the right to organize, and crack down on wage theft",
+          "context": "On her campaign website, as quoted by Ballotpedia (2026)",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "My immigration policy is rooted in dignity, due process, and keeping families together. I support a roadmap to citizenship for long-time immigrants, including Dreamers and Temporary Protected Status (TPS) holders, along with safe, orderly border management.",
+          "context": "On her campaign website, as quoted by Ballotpedia (2026)",
           "sources": [
             "s3"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "basic"
+      "researchNotes": "Statements come from her campaign website text as reproduced on Ballotpedia; her own site (dionesimsforcongress.com) loads its issue text with JavaScript and was not read directly."
     }
   ],
   "sources": [
@@ -233,13 +263,20 @@
     },
     {
       "id": "s4",
+      "url": "https://williams.house.gov/issues",
+      "title": "Issues",
+      "publisher": "Office of Rep. Roger Williams",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
       "url": "https://williams.house.gov/about/full-biography",
       "title": "Meet Roger Williams (full biography)",
       "publisher": "Office of Rep. Roger Williams",
       "kind": "official"
     },
     {
-      "id": "s5",
+      "id": "s6",
       "url": "https://williams.house.gov/",
       "title": "Congressman Roger Williams (home page, news)",
       "publisher": "Office of Rep. Roger Williams",

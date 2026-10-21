@@ -1,0 +1,326 @@
+{
+  "id": "nv-sos",
+  "state": "NV",
+  "officeType": "secretary-of-state",
+  "office": "Secretary of State",
+  "title": "Secretary of State of Nevada",
+  "area": "Statewide — all of Nevada",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The race is a rematch: in 2022 Aguilar defeated Marchant 48.9% to 46.7%. Aguilar was unopposed in the Democratic primary; Marchant won a four-way Republican primary on June 9 with 32.6%, ahead of Shirley Folkins-Roberts (30.6%), Sharron Angle (26.2%) and Socorro Keenan (3.4%).",
+      "sources": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "text": "Voters will also decide Question 7, a constitutional amendment requiring voter ID that voters first approved in 2024 with about 73%.",
+      "sources": [
+        "s5",
+        "s2"
+      ]
+    },
+    {
+      "text": "Clark County's official Nov. 3, 2026 contest and candidate list (Aug. 24, 2026) shows four candidates for Secretary of State: Francisco \"Cisco\" Aguilar (Democratic), Brad Lee Barnhill (Independent American), John T. Kennedy (Libertarian) and Jim Marchant (Republican).",
+      "sources": [
+        "s9"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cisco-aguilar",
+      "name": "Cisco Aguilar",
+      "parties": [
+        "D"
+      ],
+      "incumbent": true,
+      "ballotNote": "Unopposed in the June 9, 2026 Democratic primary (canceled).",
+      "currentRole": "Nevada Secretary of State (since January 2023)",
+      "summary": {
+        "text": "Cisco Aguilar is the incumbent Democratic Secretary of State, an attorney and founder of a sports technology company elected in 2022. His campaign highlights business-licensing modernization, election cybersecurity and protections for election workers.",
+        "sources": [
+          "s3",
+          "s6"
+        ]
+      },
+      "background": [
+        {
+          "text": "Earned a B.S. in finance and accounting, an M.B.A. and a J.D., all from the University of Arizona.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Worked as special counsel to the chancellor of the Nevada System of Higher Education and as general counsel for the Andre Agassi Foundation for Education; appointed to the Nevada Athletic Commission by Govs. Gibbons and Sandoval.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Modernizing business licensing and making Nevada more competitive for businesses.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Strengthening election integrity by prioritizing cybersecurity and advocating for election workers.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Promoting civic engagement, including recruiting poll workers with Vet the Vote and boosting turnout among Native American communities and young voters.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [
+        {
+          "text": "According to his campaign site, he championed a bipartisan bill making it a felony to harass or dox election officials, which passed the Nevada Legislature unanimously.",
+          "kind": "bill",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "His campaign site, as quoted by Ballotpedia, says the statewide voter registration system was implemented in record time and the business filing system is easier to use.",
+          "kind": "action",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "website": "https://cisconv.co/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "jim-marchant",
+      "name": "Jim Marchant",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the June 9, 2026 Republican primary.",
+      "currentRole": "Businessman; former Nevada Assembly member",
+      "summary": {
+        "text": "Jim Marchant is the Republican nominee for Secretary of State and the 2022 nominee for the same office. A former state Assemblyman, he campaigns on voter ID and proof of citizenship, hand-counted paper ballots, ending universal mail-in voting and repealing the Commerce Tax.",
+        "sources": [
+          "s4",
+          "s8"
+        ]
+      },
+      "background": [
+        {
+          "text": "Founded two early internet and telephone companies; moved to Nevada in 2005.",
+          "sources": [
+            "s8",
+            "s2"
+          ]
+        },
+        {
+          "text": "Elected to the Nevada Assembly (District 37) in 2016 and served one term; ran unsuccessfully for U.S. House in 2020, Secretary of State in 2022 and U.S. Senate in 2024.",
+          "sources": [
+            "s8",
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Election integrity plan: voter ID, paper ballots counted by hand at the precinct level, ending universal mail-in voting, requiring all voters to re-register, and leaving the Electronic Registration Information Center.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Business reform: repeal the Commerce Tax, lower registration costs and streamline filings.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Told News 4 \"We don't have a fair and transparent election yet\" and that Nevada should get rid of voting machines; when asked whether his 2016 general election and 2022 primary victories were fraudulent, he said he does not believe the results, and claimed without evidence that 20,000 votes were manufactured for Aguilar in 2022, per News 4.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "His election integrity plan calls for proof of United States citizenship to register and vote.",
+          "quote": "Proof of United States citizenship to register and vote",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His campaign site supports finishing the border wall, adding Border Patrol agents and launching mass deportations.",
+          "quote": "launching mass deportations of those who broke our laws to get here",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "record": [],
+      "website": "https://jimmarchant.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "brad-barnhill",
+      "name": "Brad Barnhill",
+      "parties": [
+        "Independent American Party"
+      ],
+      "incumbent": false,
+      "currentRole": "Paralegal; former Clark County IAP chairman",
+      "summary": {
+        "text": "Brad Barnhill is the Independent American Party candidate for Secretary of State. A Navy veteran and paralegal, he campaigns as \"your independent voice\" on voter ID rollout, voter-roll maintenance and repealing the Commerce Tax.",
+        "sources": [
+          "s5",
+          "s7"
+        ]
+      },
+      "background": [
+        {
+          "text": "Served in the U.S. Navy; earned a bachelor's degree from the University of Virginia in 1981; has worked as a paralegal.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Has chaired the Clark County Central Committee of the Independent American Party and served as vice chairman of the state party.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Implement voter ID, if Nevada voters confirm Question 7, with a bipartisan rollout including free or low-cost ID assistance.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Clean up Nevada's voter rolls; his site says he sued in federal court after the office closed his complaint about 12,465 apparent duplicate Clark County registrations.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Repeal the Commerce Tax and modernize state IT systems.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://electbarnhill.net",
+      "researchDepth": "minimal"
+    },
+    {
+      "id": "john-t-kennedy",
+      "name": "John T. Kennedy",
+      "parties": [
+        "L"
+      ],
+      "incumbent": false,
+      "summary": {
+        "text": "John T. Kennedy is the Libertarian Party candidate for Secretary of State, per Ballotpedia. No biography, website or coverage of his campaign was found.",
+        "sources": [
+          "s1"
+        ]
+      },
+      "background": [],
+      "priorities": [],
+      "positions": [],
+      "record": [],
+      "researchDepth": "minimal"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Nevada_Secretary_of_State_election,_2026",
+      "title": "Nevada Secretary of State election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://news3lv.com/news/local/nevada-secretary-of-state-gop-primary-4-running-to-face-incumbent-democrat-cisco-aguilar",
+      "title": "Nevada Secretary of State GOP primary: 4 running to face incumbent Democrat Cisco Aguilar",
+      "publisher": "News 4 & Fox 11",
+      "kind": "news",
+      "date": "2026-05-15"
+    },
+    {
+      "id": "s3",
+      "url": "https://cisconv.co/record-and-plan/",
+      "title": "Record and Plan — Cisco Aguilar for Secretary of State",
+      "publisher": "Cisco Aguilar campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://jimmarchant.com/whyiamrunning/",
+      "title": "Why I am Running — Jim Marchant for Secretary of State",
+      "publisher": "Jim Marchant campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://electbarnhill.net",
+      "title": "Elect Your Independent Voice for Nevada Secretary of State",
+      "publisher": "Brad Barnhill campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Cisco_Aguilar",
+      "title": "Cisco Aguilar",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Brad_Barnhill",
+      "title": "Brad Barnhill",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Jim_Marchant",
+      "title": "Jim Marchant",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.clarkcountynv.gov/adobe/assets/urn%3Aaaid%3Aaem%3A1db09a57-4c1b-47e1-94d9-e7782c442571/original/as/officesup-26g.pdf",
+      "title": "All Contests and Candidates in the November 3, 2026 General Election in Clark County, Nevada",
+      "publisher": "Clark County Elections Department",
+      "kind": "official",
+      "date": "2026-10-19"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Slate: confirmed against Clark County's official general-election contest list (the Secretary of State's site blocks automated access), including John T. Kennedy (Libertarian), for whom no Ballotpedia page, website or coverage was found. Aguilar's record rests on his campaign site's description of his office's work, because the Secretary of State's website blocked automated access; Marchant's position on proof of citizenship is from his campaign site. A News 4 report says Marchant was involved in the 2020 'fake elector' plan; KTNV and the Nevada Current report that he attended the December 2020 signing but was not one of the six electors, and that the six electors are the ones charged. No charge against Marchant was found, so none is stated here."
+}

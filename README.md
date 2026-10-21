@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Full Record
 
-## Getting Started
+**What your representatives said, and how they actually voted — every claim linked to the primary source.**
 
-First, run the development server:
+[thefullrecord.org](https://www.thefullrecord.org) is a non-partisan civic-transparency site. Enter any U.S. address to get your U.S. Representative, both U.S. Senators and your state legislators (plus the NYC Council in New York City and the D.C. Council in Washington), then see their recorded votes where we have them. Recorded votes cover every member of Congress and New York officials; other states' legislators appear with rosters (from Open States) and, where the optional Open States ingest has been run, selected floor votes. See `/coverage` for the by-place breakdown. It also includes a voter guide for the November 3, 2026 general election. The guide includes researched NYC races and federal races nationwide; research depth, freshness, and completeness vary.
+
+No endorsements, scores, or grades. The site describes what someone did or said and links to the record.
+
+Start at **`/votes`** to filter actual roll calls by topic, text, chamber, or vote type. Add an address to see the on-file positions of its representatives. **`/guide/match`** compares unranked candidate evidence by topic; it does not ask for political beliefs or calculate agreement. **`/coverage`** shows the dates, counts, and limitations of every snapshot.
+
+## Principles
+
+- **Official records first.** Roll calls, bill pages, and legislature and Congress data outrank campaign material, which outranks news. A claim with no source is left out.
+- **Never fabricate.** Quotes are verbatim from the cited page. Missing information is stated as missing, never inferred from party.
+- **Provenance stays visible.** Each AI-written bill summary carries an "AI summary" marker (official text is marked "Official summary").
+- **Neutral by design.** The interface avoids red/blue party coloring. A vote is always shown as glyph + word + border, never by color alone. Counts are shown whenever a list is truncated.
+- **Editorial review gate.** "Said vs. did" pairs, which place a public statement next to a recorded vote, are published only after review ([`content/said-vs-did/README.md`](content/said-vs-did/README.md)).
+
+## How it works
+
+| Layer | What it does | Where |
+|---|---|---|
+| Address lookup | Census Geocoder (congressional, state senate, and assembly districts) + NYC Planning ArcGIS (council district). Keyless. | `src/server/live/geocode.ts` |
+| Rosters | Public rosters: congress-legislators, nysenate.gov, nyassembly.gov, NYC Open Data | `src/server/live/rosters.ts` |
+| Votes | Chamber-wide roll-call snapshots, mapped to each member at request time | `scripts/ingest/` → `src/server/snapshot/*.json` |
+| Voter guide | One cited JSON file per race, validated against a schema | `content/guide/races/`, `src/server/guide/` |
+| Said vs. did | Reviewed statement–vote pairs | `content/said-vs-did/` |
+| App | Next.js App Router + Tailwind v4 | `src/app/`, `src/components/` |
+
+### Vote sources
+
+| Chamber | Source | Script |
+|---|---|---|
+| U.S. House (all members) | Clerk roll-call XML | `ingest:house` |
+| U.S. Senate (all members) | senate.gov roll-call XML | `ingest:ussenate` |
+| Other states + D.C. | Open States API v3 (free key; not in `ingest`) | `ingest:openstates` |
+| NYC Council | Legistar InSite | `ingest:council` |
+| NY Senate | NY OpenLegislation API (key) | `ingest:nysenate` |
+| NY Assembly | LRS floor-vote pages | `ingest:assembly` |
+| Bill titles/summaries | congress.gov API (key) | `ingest:enrich` |
+
+## Running locally
+
+Requires Node 22.6+ (Node 24 recommended; the test suite uses native TypeScript stripping).
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000. The site runs entirely from committed snapshots and content, so **no API keys are needed to run it**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Refreshing vote data
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+cp .env.example .env.local   # add free keys: NY OpenLegislation, congress.gov
+npm run ingest               # all chambers + enrichment
+```
 
-## Learn More
+Individual chambers: `npm run ingest:house`, `ingest:ussenate`, `ingest:openstates` (needs `OPENSTATES_API_KEY`), `ingest:council`, `ingest:nysenate`, `ingest:assembly`, `ingest:enrich`. Restart the dev server after an ingest, because snapshots are cached per process. See [`scripts/ingest/README.md`](scripts/ingest/README.md) for selection limits, source details, and safe refresh behavior.
 
-To learn more about Next.js, take a look at the following resources:
+### Voter-guide research
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Race files follow the standard in [`content/guide/README.md`](content/guide/README.md). Validate before committing:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+node scripts/guide/validate.mjs content/guide/races/<raceId>.json
+npm run guide:check-links   # writes content/guide/link-health.json
+```
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Corrections are the most valuable contribution, and GitHub issues are the way to report them. If something on the site is wrong, missing a source, or worded unevenly, [open an issue](https://github.com/tompetit/thefullrecord/issues) with a link to the primary source. Pull requests adding or fixing guide content must follow the research standard: every claim cited, verbatim quotes only, and the same treatment for every candidate in a race.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Before opening a PR:
+
+```bash
+npm test
+npm run data:validate
+npm run lint
+npm run build
+```
+
+## Deployment
+
+Deployed on [Vercel](https://vercel.com) from `main`. No environment variables are required at runtime. The API keys in `.env.example` are used only by the ingest scripts.
+
+## License
+
+Code: [MIT](LICENSE). Research content in `content/`: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please credit "The Full Record (thefullrecord.org)".

@@ -10,6 +10,8 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { getRace } from "../guide/load";
+import type { GuideRace } from "../guide/types";
+import { getCongressRoster, getStateLegislatureRoster } from "./rosters";
 import type { ElectionCandidate, SeatElection, SeatNotOnBallot } from "../types";
 
 interface CandidatesFile {
@@ -17,6 +19,7 @@ interface CandidatesFile {
   election: { name: string; date: string; dateLabel: string };
   seats: Array<{
     districtKey: string;
+    seats?: number;
     candidates: ElectionCandidate[];
     primaryNotNominated?: ElectionCandidate[];
     sourceUrl: string;
@@ -51,6 +54,7 @@ function getElections(): Map<string, SeatElection> {
           electionDate: parsed.election.date,
           dateLabel: parsed.election.dateLabel,
           candidates: seat.candidates,
+          seats: seat.seats,
           primaryNotNominated: seat.primaryNotNominated,
           sourceUrl: seat.sourceUrl,
           sourceLabel: seat.sourceLabel,
@@ -64,39 +68,122 @@ function getElections(): Map<string, SeatElection> {
   return map;
 }
 
-/** Term facts for seats without a 2026 race. */
-const NEXT_ON_BALLOT: Array<{ pattern: RegExp; label: string }> = [
-  { pattern: /^nyc-council-\d+$/, label: "2029" },
-  { pattern: /^us-sen-ny-1$/, label: "2028" }, // Schumer's seat (Class 3)
-  { pattern: /^us-sen-ny-2$/, label: "2030" }, // Gillibrand's seat (Class 1)
-];
+/** NYC Council seats are not on the 2026 ballot (next regular election: 2029). */
+const NYC_COUNCIL_NEXT = "2029";
 
-export function electionForSeat(
+export const lastName = (name: string) =>
+  name.toLowerCase().replace(/\b(jr|sr|ii|iii|iv)\.?$/i, "").trim().split(/\s+/).pop() ?? "";
+
+/** An incumbent candidate in a race is the given member: bioguide id when the guide has one, else surname. */
+function isIncumbentMember(
+  race: GuideRace,
+  member: { bioguide: string; name: string }
+): boolean {
+  return race.candidates.some(
+    (c) =>
+      c.bioguideId === member.bioguide ||
+      (c.incumbent && !c.bioguideId && lastName(c.name) === lastName(member.name))
+  );
+}
+
+function raceElection(districtKey: string, race: GuideRace): SeatElection {
+  const slate = race.sources.find((s) => /ballotpedia/i.test(s.publisher)) ?? race.sources[0];
+  return {
+    districtKey,
+    electionName: "2026 general election",
+    electionDate: race.electionDate,
+    dateLabel: "Nov 3, 2026",
+    candidates: race.candidates.map((c) => ({
+      name: c.name,
+      parties: c.parties,
+      incumbent: c.incumbent,
+      note: c.ballotNote,
+    })),
+    sourceUrl: slate?.url ?? `/guide/race/${race.id}`,
+    sourceLabel: slate?.publisher ?? "The Full Record voter guide",
+  };
+}
+
+/**
+ * Senate seats: find the race whose incumbent is this senator (regular or
+ * special); otherwise use the term end to say when the seat is next up. A
+ * term ending Jan 3 of year Y was won in the November of Y-1.
+ */
+async function senateElection(
+  districtKey: string,
+  st: string,
+  index: number
+): Promise<SeatElection | SeatNotOnBallot | null> {
+  const senator = (await getCongressRoster()).senators.get(st)?.[index];
+  if (!senator) return null;
+  for (const id of [`us-sen-${st}`, `us-sen-${st}-special`]) {
+    const race = getRace(id);
+    if (race?.candidates.length && isIncumbentMember(race, senator))
+      return raceElection(districtKey, race);
+  }
+  const year = Number(senator.termEnd.slice(0, 4)) - 1;
+  // A seat up in 2026 with no matching incumbent may be open or unresearched; make no claim.
+  if (!Number.isFinite(year) || year <= 2026) return null;
+  return { districtKey, nextElectionLabel: String(year) };
+}
+
+/** Every state-legislative slate for a state (NY and DC are not in the Ballotpedia file). */
+export function stateSlates(st: string): SeatElection[] {
+  const prefix = new RegExp(`^${st.toLowerCase()}-(upper|lower|legislature)-`);
+  return [...getElections().values()].filter((e) => prefix.test(e.districtKey));
+}
+
+/** Seat counts by chamber for the state-legislative slates, plus the file's generation date. */
+export function stateSlateStats(st?: string) {
+  const rows = st ? stateSlates(st) : [...getElections().values()].filter((e) => parseSlateKey(e.districtKey));
+  const seats = (chamber: string) =>
+    rows.filter((e) => parseSlateKey(e.districtKey)!.chamber === chamber).reduce((n, e) => n + (e.seats ?? 1), 0);
+  let generatedAt = "";
+  try {
+    generatedAt = (JSON.parse(readFileSync(join(SNAPSHOT_DIR, "candidates-state-legislatures.json"), "utf8")) as CandidatesFile).generatedAt;
+  } catch {
+    // file missing: callers show an unknown date
+  }
+  return { generatedAt, contests: rows.length, upper: seats("upper"), lower: seats("lower"), legislature: seats("legislature"), states: new Set(rows.map((e) => e.districtKey.slice(0, 2))).size };
+}
+
+/** "tx-lower-12" -> { chamber: "lower", label: "12" } */
+export function parseSlateKey(districtKey: string) {
+  const m = districtKey.match(/^[a-z]{2}-(upper|lower|legislature)-(.+)$/);
+  return m ? { chamber: m[1] as "upper" | "lower" | "legislature", label: m[2] } : null;
+}
+
+export async function electionForSeat(
   districtKey: string
-): SeatElection | SeatNotOnBallot | null {
+): Promise<SeatElection | SeatNotOnBallot | null> {
+  // Sitting state legislators: join to the slate by Open States district label.
+  const member = districtKey.match(
+    /^([a-z]{2})-(upper|lower|legislature)-([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})$/
+  );
+  if (member) {
+    const [, st, chamber, id] = member;
+    const m = (await getStateLegislatureRoster(st)).find((x) => x.id === id && x.chamber === chamber);
+    // No slate = not on the 2026 ballot as far as our data goes; make no claim.
+    return (m && getElections().get(`${st}-${chamber}-${m.districtLabel}`)) || null;
+  }
+  const sen = districtKey.match(/^us-sen-([a-z]{2})-([12])$/);
+  if (sen) return senateElection(districtKey, sen[1], Number(sen[2]) - 1);
+
   // Prefer the voter guide's researched slate (newer, re-verified) when present
   const race = getRace(districtKey);
   if (race && race.candidates.length) {
-    const slate = race.sources.find((s) => /ballotpedia/i.test(s.publisher)) ?? race.sources[0];
-    return {
-      districtKey,
-      electionName: "2026 general election",
-      electionDate: race.electionDate,
-      dateLabel: "Nov 3, 2026",
-      candidates: race.candidates.map((c) => ({
-        name: c.name,
-        parties: c.parties,
-        incumbent: c.incumbent,
-        note: c.ballotNote,
-      })),
-      sourceUrl: slate?.url ?? `/guide/race/${race.id}`,
-      sourceLabel: slate?.publisher ?? "The Full Record voter guide",
-    } satisfies SeatElection;
+    const house = districtKey.match(/^us-house-([a-z]{2})-(\d+|al)$/);
+    if (house && house[1] !== "ny") {
+      // The 2026 map can differ from the one today's member was elected under,
+      // so the same-numbered race is only this seat's when its incumbent is this member.
+      const member = (await getCongressRoster()).house.get(`${house[1]}-${house[2]}`);
+      if (!member || !isIncumbentMember(race, member)) return null;
+    }
+    return raceElection(districtKey, race);
   }
   const election = getElections().get(districtKey);
   if (election) return election;
-  const next = NEXT_ON_BALLOT.find((n) => n.pattern.test(districtKey));
-  if (next)
-    return { districtKey, nextElectionLabel: next.label } satisfies SeatNotOnBallot;
+  if (/^nyc-council-\d+$/.test(districtKey))
+    return { districtKey, nextElectionLabel: NYC_COUNCIL_NEXT } satisfies SeatNotOnBallot;
   return null;
 }

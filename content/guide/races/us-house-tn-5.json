@@ -132,24 +132,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Campaign platform calls for lowering healthcare costs and supporting rural hospitals to keep them open, and for expanding health insurance coverage.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "minimum_wage",
-          "stance": "supports",
-          "summary": "Campaign platform calls for policies that empower workers and strengthen labor protections, including the right to organize.",
-          "sources": [
-            "s5"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [
         {
           "text": "As mayor of Columbia, passed eight consecutive balanced budgets without a property tax increase.",
@@ -160,7 +143,8 @@
         }
       ],
       "website": "https://www.chazmolder.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "The minimum_wage entry was removed: his site only says he will stand up for the right to organize and strengthen labor protections, without mentioning wages."
     },
     {
       "id": "charlie-hatcher",
@@ -244,7 +228,17 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "His campaign platform says he would oppose efforts by Washington to create unnecessary restrictions on responsible gun ownership.",
+          "quote": "oppose efforts by Washington to create unnecessary restrictions on responsible gun ownership",
+          "sources": [
+            "r1"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Served as Tennessee Commissioner of Agriculture from 2019 to 2025, appointed by Gov. Bill Lee.",
@@ -254,8 +248,9 @@
           ]
         }
       ],
-      "website": "https://www.charliehatcher.com",
-      "researchDepth": "basic"
+      "website": "https://charliehatcher.com",
+      "researchDepth": "basic",
+      "researchNotes": "His platform page mentions border security, an all-of-the-above energy strategy and \"the sanctity of human life\" in general terms; only the Second Amendment statement qualified as a position."
     },
     {
       "id": "james-johnson",
@@ -335,6 +330,13 @@
       "url": "https://www.chazmolder.com/issues",
       "title": "Issues",
       "publisher": "Chaz Molder for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "r1",
+      "url": "https://charliehatcher.com/platform/",
+      "title": "Charlie Hatcher's Platform",
+      "publisher": "Charlie Hatcher for Congress campaign website",
       "kind": "candidate"
     },
     {

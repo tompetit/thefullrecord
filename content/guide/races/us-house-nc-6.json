@@ -30,7 +30,7 @@
         "sources": [
           "s2",
           "s4",
-          "s6"
+          "s7"
         ]
       },
       "background": [
@@ -51,14 +51,14 @@
         {
           "text": "In 2016, while he was in college, his younger brother Luke died after taking a pill laced with fentanyl; McDowell has said that loss motivated him to seek office.",
           "sources": [
-            "s6"
+            "s7"
           ]
         },
         {
           "text": "Worked on staff for Reps. Richard Hudson and Ted Budd (now a U.S. Senator), helping constituents, according to his House biography.",
           "sources": [
             "s4",
-            "s6"
+            "s7"
           ]
         },
         {
@@ -70,7 +70,7 @@
         {
           "text": "Won a crowded 2024 Republican primary for the open seat after endorsement by Donald Trump, then won the November 2024 general election; it was his first elected position. He succeeded Democrat Kathy Manning, who did not seek re-election after the district was redrawn.",
           "sources": [
-            "s6"
+            "s7"
           ]
         },
         {
@@ -116,7 +116,7 @@
           ]
         }
       ],
-      "website": "https://www.addisonmcdowell.com/",
+      "website": "https://www.mcdowellfornc.com",
       "researchDepth": "basic",
       "researchNotes": "Federal key votes and FEC totals for this sitting member of Congress are added separately. His current house.gov issues pages (economy, energy, health, education, congress, veterans) were checked but contain no text. Positions are drawn from his official House 'About' biography and his 2024 campaign website platform as quoted by Ballotpedia (his most recent statement on file; he has not updated a Ballotpedia Candidate Connection survey for 2026)."
     },
@@ -133,7 +133,7 @@
         "text": "Cyril Jefferson is the Democratic nominee challenging incumbent Addison McDowell in North Carolina's 6th Congressional District. He is the mayor of High Point, first elected to the city council in 2019 and as mayor in 2023, and the founder of a social-innovation consulting firm.",
         "sources": [
           "s3",
-          "s7"
+          "s8"
         ]
       },
       "background": [
@@ -171,13 +171,13 @@
           "text": "Elected Mayor of High Point in the 2023 city elections; his campaign biography says he is the youngest person elected to that office. Has received a National Distinguished Service Award and a Hunt State Policy Fellowship, according to his campaign biography.",
           "sources": [
             "s3",
-            "s7"
+            "s8"
           ]
         },
         {
           "text": "Launched his campaign for Congress in August 2025 and won the March 3, 2026 Democratic primary over Alysa Kassay, Keith Davenport and others.",
           "sources": [
-            "s7",
+            "s8",
             "s3"
           ]
         },
@@ -196,7 +196,35 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a WSOC-TV candidate questionnaire, said he would protect Medicaid and Medicare and lower prescription drug costs.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "It also means protecting healthcare programs like Medicaid and Medicare, lowering prescription drug costs, treating mental health like physical health, and addressing hunger as a health issue."
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Says he does not support fear-based approaches to immigration but supports adding border agents, judges and E-Verify.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "I do not support approaches to immigration that rely on fear, chaos, or the dehumanization of people."
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "mixed",
+          "summary": "In a WSOC-TV candidate questionnaire, said U.S. policy should ensure Israel's security while conditioning security assistance on adherence to humanitarian standards.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "Security assistance should be conditioned on adherence to humanitarian standards, ensuring U.S. support does not contribute to disproportionate harm and that humanitarian access remains non-negotiable."
+        }
+      ],
       "record": [
         {
           "text": "Serves as Mayor of High Point, North Carolina, since being elected in 2023.",
@@ -207,7 +235,7 @@
           ]
         }
       ],
-      "website": "https://cyriljefferson.com/",
+      "website": "https://www.cyrilforcongress.com",
       "researchDepth": "basic",
       "researchNotes": "Jefferson's 2025 Ballotpedia Candidate Connection survey emphasizes his biography and leadership philosophy over specific policy stances; no detailed issue-by-issue positions were found within the research budget."
     }
@@ -255,6 +283,13 @@
     },
     {
       "id": "s6",
+      "url": "https://www.wsoctv.com/news/local/political-beat-candidate-guide-house-representatives-district-6/WEWHKVS75RC37ELWIFPUKYJQEY/",
+      "title": "The Political Beat Candidate Guide: House of Representatives District 6",
+      "publisher": "WSOC-TV (candidate questionnaire)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
       "url": "https://spectrumlocalnews.com/nc/charlotte/news/2025/01/09/addison-mcdowell-congress-trump-carolina",
       "title": "The personal story this lawmaker says brought him to Congress",
       "publisher": "Spectrum News",
@@ -262,7 +297,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s7",
+      "id": "s8",
       "url": "https://www.wunc.org/2025-08-06/high-point-mayor-cyril-jefferson-announces-bid-for-congress",
       "title": "High Point Mayor Cyril Jefferson announces bid for Congress",
       "publisher": "WUNC",

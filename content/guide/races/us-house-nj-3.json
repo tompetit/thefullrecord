@@ -37,14 +37,14 @@
         "sources": [
           "s3",
           "s4",
-          "s8"
+          "s9"
         ]
       },
       "background": [
         {
           "text": "According to his House biography, he is a lifelong Burlington County resident and the son of a teacher and a nurse. He graduated from Bordentown Regional High School in 1981.",
           "sources": [
-            "s8",
+            "s9",
             "s3"
           ]
         },
@@ -52,20 +52,20 @@
           "text": "Earned a B.A. in politics from Princeton University in 1985, an M.D. from Jefferson Medical College in 1989, and a J.D. from Rutgers Law School, Camden, in 1996.",
           "sources": [
             "s3",
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Served in the U.S. Air Force from 1992 to 1996, reaching the rank of Captain in the Medical Corps at McGuire Air Force Base, where his House biography says he worked as a general medical officer and rose to assistant director of the primary care clinic.",
           "sources": [
-            "s8",
+            "s9",
             "s3"
           ]
         },
         {
           "text": "After an internal medicine residency, practiced in primary care settings and became a clinical professor at an inner-city community hospital, according to his House biography; Ballotpedia lists his professional experience as a private practicing physician and work at Cooper University Hospital.",
           "sources": [
-            "s8",
+            "s9",
             "s3"
           ]
         },
@@ -73,14 +73,14 @@
           "text": "Served in the New Jersey General Assembly representing District 7 from 1998 until his election to Congress in 2024, chairing the Health Committee and serving on the Budget, Appropriations, and Military and Veterans' Affairs committees.",
           "sources": [
             "s4",
-            "s8",
+            "s9",
             "s3"
           ]
         },
         {
           "text": "His House biography credits him with sponsoring New Jersey's school funding formula and with legislation on public school nutrition, environmental protection, property tax relief, veterans' services, and public safety.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
@@ -126,27 +126,20 @@
           ]
         },
         {
-          "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "As Assembly Health Committee chair, worked to cap co-pays on insulin and other life-saving drugs and increase pharmaceutical pricing transparency; supports taking similar drug-cost caps to the national level.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "mixed",
-          "summary": "Advocates expanding the Child Tax Credit and the SALT deduction to help middle-class families, rather than framing his platform around taxing wealthy individuals specifically.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
           "issue": "climate",
           "stance": "supports",
-          "summary": "In the Assembly, introduced legislation establishing a New Jersey Invasive Species Task Force and a bill providing income tax credits for zero-emission lawn equipment; supports expanding electric-vehicle charging infrastructure nationally.",
+          "summary": "Introduced a New Jersey Assembly bill providing income tax credits for zero-emission lawn equipment and supports expanding electric-vehicle charging infrastructure.",
           "sources": [
             "s4"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Said the Iran war was one the American people and Congress did not approve of; WHYY reports he supported a resolution to remove troops from the region.",
+          "quote": "It is a war that we are not prepared for, and the American people nor Congress approved of,",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -189,7 +182,8 @@
       ],
       "website": "https://www.herbforcongress.com",
       "researchDepth": "full",
-      "bioguideId": "C001133"
+      "bioguideId": "C001136",
+      "researchNotes": ""
     },
     {
       "id": "michael-mcguire",
@@ -203,8 +197,8 @@
         "text": "Michael McGuire is a family law attorney, U.S. Marine Corps veteran, member of the U.S. Navy Reserve, and former New York City police officer who won the Republican nomination for NJ-3 in the June 2, 2026 primary. He has not previously held elected office. He says he is running on affordability, veterans' issues, and term limits for members of Congress.",
         "sources": [
           "s5",
-          "s9",
-          "s10"
+          "s10",
+          "s11"
         ]
       },
       "background": [
@@ -212,35 +206,35 @@
           "text": "Served in the U.S. Marine Corps from 1997 to 2001 and subsequently in the U.S. Navy Reserve, where he remains a member.",
           "sources": [
             "s5",
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "Describes his background as including service as a law enforcement officer; news reports describe him as a former New York City police officer.",
           "sources": [
             "s5",
-            "s9",
-            "s10"
+            "s10",
+            "s11"
           ]
         },
         {
           "text": "Works as an attorney; the New Jersey Globe describes his practice as family law and divorce. He lives in Freehold Township, according to the same report.",
           "sources": [
             "s5",
-            "s10"
+            "s11"
           ]
         },
         {
           "text": "Told the New Jersey Globe that he had run for school board in the past; the paper reported that his decision to run for Congress followed the fall 2025 federal government shutdown, during which he and fellow Navy reservists missed paychecks.",
           "sources": [
-            "s10",
-            "s9"
+            "s11",
+            "s10"
           ]
         },
         {
           "text": "Launched his congressional campaign in January 2026 and defeated Jason Cullen and Justin Barbera in the June 2, 2026 Republican primary, receiving 57.9% of the vote.",
           "sources": [
-            "s9",
+            "s10",
             "s3"
           ]
         },
@@ -274,32 +268,36 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
+          "issue": "israel_aid",
           "stance": "supports",
-          "summary": "Supports strengthening border security through enforcement of existing immigration laws.",
+          "summary": "Said the U.S. must maintain security cooperation with Israel, including weapons systems support such as the Iron Dome.",
+          "quote": "The United States must maintain steady security cooperation, ironclad intelligence sharing, and weapons systems support like the Iron Dome",
           "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Prioritizes lowering taxes and reducing regulation to make New Jersey more affordable, rather than raising taxes on high earners or corporations.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "healthcare_public",
-          "stance": "opposes",
-          "summary": "Frames his healthcare priority as lowering costs so families keep more of their own earnings, rather than expanding public coverage.",
-          "sources": [
-            "s5"
+            "s8"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "full"
+      "researchDepth": "full",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "strengthening border security through enforcement of existing laws",
+          "context": "In his Ballotpedia Candidate Connection survey, listing areas of public policy he cares about",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "quote": "vital national security interests at stake, clearly defined and attainable objectives, robust congressional oversight, and a focus on keeping our service members out of unnecessary harm.",
+          "context": "As quoted in WHYY's 2026 NJ-3 voter guide",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": " No campaign website text could be fetched; added immigration and war-powers statements from his Ballotpedia survey and WHYY's voter guide."
     },
     {
       "id": "ryan-kelly",
@@ -345,16 +343,29 @@
       ],
       "positions": [
         {
-          "issue": "housing_supply",
+          "issue": "war_powers",
           "stance": "supports",
-          "summary": "Says he wants to expand access to affordable housing as part of lowering the cost of living for working families.",
+          "summary": "Opposes open-ended war without congressional authorization and wants Congress to reclaim its war-powers role (per WHYY).",
+          "quote": "But that is different from allowing a president to conduct an open-ended war without meaningful congressional authorization and oversight.",
           "sources": [
-            "s6"
-          ]
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "israel_aid",
+          "quote": "The United States should not provide a blank check for military actions that violate international or humanitarian law",
+          "context": "As quoted in WHYY's 2026 NJ-3 voter guide",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": " Added war-powers and Israel statements from WHYY's voter guide (quotes of Kelly). No campaign website text was fetched."
     },
     {
       "id": "steven-welzer",
@@ -462,7 +473,8 @@
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": ""
     }
   ],
   "sources": [
@@ -523,13 +535,20 @@
     },
     {
       "id": "s8",
+      "url": "https://whyy.org/articles/election-2026-new-jersey-3rd-congressional-district-voter-guide/",
+      "title": "NJ election 2026: 3rd Congressional District voter guide",
+      "publisher": "WHYY",
+      "kind": "news"
+    },
+    {
+      "id": "s9",
       "url": "https://conaway.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Herb Conaway",
       "kind": "official"
     },
     {
-      "id": "s9",
+      "id": "s10",
       "url": "https://whyy.org/articles/new-jersey-election-2026-primary-3rd-congressional-district-winner/",
       "title": "Michael McGuire wins Republican primary for New Jersey's 3rd Congressional District",
       "publisher": "WHYY",
@@ -537,7 +556,7 @@
       "date": "2026-06-02"
     },
     {
-      "id": "s10",
+      "id": "s11",
       "url": "https://newjerseyglobe.com/congress/attorney-marine-corps-veteran-joining-gop-primary-for-nj-3/",
       "title": "Attorney, Marine Corps veteran joining GOP primary for NJ-3",
       "publisher": "New Jersey Globe",

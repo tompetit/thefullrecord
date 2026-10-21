@@ -10,104 +10,154 @@
   "context": [
     {
       "text": "Incumbent Edward J. Markey defeated Rep. Seth Moulton in the September 1, 2026 Democratic primary, 65.6% to 34.4%. No candidates appeared on the Republican primary ballot other than John Deaton, who ran unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "edward-markey",
       "name": "Edward J. Markey",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Senator (since 2013)",
       "summary": {
         "text": "Ed Markey is the incumbent Democratic U.S. Senator from Massachusetts, elected in a June 2013 special election after 36 years in the U.S. House. He began his career as a lawyer and state legislator and has served on the Senate Commerce, Environment and Public Works, HELP and Small Business committees. He is seeking a third full term after defeating Rep. Seth Moulton in the September 1, 2026 Democratic primary.",
-        "sources": ["s7", "s8", "s1", "s4"]
+        "sources": [
+          "s12",
+          "s13",
+          "s1",
+          "s4"
+        ]
       },
       "background": [
         {
           "text": "Born July 11, 1946, in Malden, Massachusetts, the son of a milkman; educated at Malden Catholic High School.",
-          "sources": ["s7", "s8"]
+          "sources": [
+            "s12",
+            "s13"
+          ]
         },
         {
           "text": "Earned a B.A. from Boston College in 1968 and a J.D. from Boston College Law School in 1972.",
-          "sources": ["s7", "s8"]
+          "sources": [
+            "s12",
+            "s13"
+          ]
         },
         {
           "text": "Served in the U.S. Army Reserve from 1968 to 1973.",
-          "sources": ["s7", "s9"]
+          "sources": [
+            "s12",
+            "s14"
+          ]
         },
         {
           "text": "Worked as a lawyer and was elected to the Massachusetts House of Representatives, serving two terms (1973 to 1976) representing Malden and Melrose.",
-          "sources": ["s7", "s9", "s8"]
+          "sources": [
+            "s12",
+            "s14",
+            "s13"
+          ]
         },
         {
           "text": "Won a 1976 special election to the U.S. House (then the 7th District, later the 5th) and served 37 years until 2013, serving as chairman of the Select Committee on Energy Independence and Global Warming (2007 to 2010) and, for 20 years, chair or ranking member of the Subcommittee on Telecommunications and the Internet.",
-          "sources": ["s7", "s8"]
+          "sources": [
+            "s12",
+            "s13"
+          ]
         },
         {
           "text": "According to his Senate biography, he was the House author of the 1992 Cable Act and the Children's Online Privacy Protection Act and a co-author of the 2009 Waxman-Markey climate bill, which passed the House.",
-          "sources": ["s7"]
+          "sources": [
+            "s12"
+          ]
         },
         {
           "text": "Won the April 30, 2013 Democratic primary over Rep. Stephen Lynch and the June 25, 2013 special election over Republican Gabriel Gomez to fill John Kerry's seat; elected to a full term in 2014 and re-elected in 2020 after defeating Rep. Joe Kennedy III in the Democratic primary with 55.6%.",
-          "sources": ["s8"]
+          "sources": [
+            "s13"
+          ]
         },
         {
           "text": "Current committees: Commerce, Science, and Transportation; Environment and Public Works; Health, Education, Labor, and Pensions (ranking member of the Primary Health and Retirement Security subcommittee); and Small Business and Entrepreneurship (ranking member).",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "According to his Senate biography, he is married to Dr. Susan Blumenthal.",
-          "sources": ["s7"]
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"Ed knows that our climate crisis is the national security, economic, health, and moral challenge of our time, and has been a passionate advocate for clean energy and bold climate solutions.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "In February 2019, introduced the Green New Deal resolution with Rep. Alexandria Ocasio-Cortez, setting out a 10-year mobilization toward a \"green economy.\"",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "\"[Ed is] working to expand civil rights, defend LGBTQ+ Americans, protect immigrant families with fair and humane policies, and ensure everyone can live with dignity, safety and equal treatment under the law.\"",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Co-authored the Green New Deal resolution and describes himself as a longtime advocate for clean energy.",
-          "quote": "Ed knows that our climate crisis is the national security, economic, health, and moral challenge of our time, and has been a passionate advocate for clean energy and bold climate solutions.",
-          "sources": ["s2"]
+          "summary": "Markey's Senate website says he introduced the Green New Deal resolution with Rep. Ocasio-Cortez in 2019 and authored the renewable electricity standard in the 2009 Waxman-Markey climate bill.",
+          "quote": "Senator Markey partnered with Representative Alexandria Ocasio-Cortez to introduce the Green New Deal",
+          "sources": [
+            "s10"
+          ]
         },
         {
-          "issue": "immigration_enforcement",
-          "stance": "opposes",
-          "summary": "Campaign material says he is working to \"protect immigrant families with fair and humane policies\" rather than expand enforcement.",
-          "quote": "protect immigrant families with fair and humane policies",
-          "sources": ["s3"]
-        },
-        {
-          "issue": "abortion",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Campaign describes fighting to \"expand civil rights\" and protect access, part of a broader platform of protecting reproductive rights.",
-          "sources": ["s3"]
+          "summary": "Markey's Senate website says he supports gun control reforms including universal background checks, reinstating the assault weapons ban, and a prohibition on high-capacity magazines.",
+          "quote": "supports common-sense gun control reforms, including universal background checks for all firearms sales, reinstituting the ban on assault weapons",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Markey's Senate website says he believes health care is a right and has fought to protect Medicaid from budget cuts.",
+          "quote": "believes health care is a right, not a privilege",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves as Ranking Member of the Senate Committee on Small Business and Entrepreneurship.",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Serves on the Senate Committee on Commerce, Science, and Transportation; the Committee on Environment and Public Works; and the Committee on Health, Education, Labor, and Pensions (Ranking Member, Subcommittee on Primary Health & Retirement Security).",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://www.markey.senate.gov",
@@ -117,73 +167,122 @@
     {
       "id": "john-deaton",
       "name": "John Deaton",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
         "text": "John Deaton is a Marine Corps veteran and Rhode Island trial attorney who was the Republican nominee for U.S. Senate in Massachusetts in 2024, losing to Elizabeth Warren, and won the 2026 Republican nomination unopposed. He describes his campaign as centered on congressional term limits, reducing federal spending and lowering the cost of living.",
-        "sources": ["s10", "s11", "s5"]
+        "sources": [
+          "s15",
+          "s16",
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Born in Highland Park, Michigan, and raised with five siblings by a single mother; he has described a childhood marked by poverty and was the first in his family to graduate from high school (Wikipedia).",
-          "sources": ["s11"]
+          "sources": [
+            "s16"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from Eastern Michigan University (1989 per Wikipedia) and a J.D. from New England Law in Boston in 1995.",
-          "sources": ["s10", "s11"]
+          "sources": [
+            "s15",
+            "s16"
+          ]
         },
         {
           "text": "Served in the U.S. Marine Corps from 1995 to 2002, as a prosecutor and defense counsel in the Judge Advocate Division, including as Marine Senior Defense Counsel and Chief Prosecutor at Marine Corps Air Station; he was medically retired in 2002 (Wikipedia).",
-          "sources": ["s10", "s11"]
+          "sources": [
+            "s15",
+            "s16"
+          ]
         },
         {
           "text": "Worked as a Special Assistant U.S. Attorney for the District of Arizona and then at a plaintiffs' firm handling mesothelioma cases before founding the Deaton Law Firm in East Providence, Rhode Island, in 2006.",
-          "sources": ["s10", "s11"]
+          "sources": [
+            "s15",
+            "s16"
+          ]
         },
         {
           "text": "Served as pro bono amicus counsel for XRP holders in the SEC's case against Ripple Labs; Rhode Island Lawyers Weekly named him a 2023 Lawyer of the Year (Wikipedia). Ballotpedia describes him as a bestselling author.",
-          "sources": ["s11", "s10"]
+          "sources": [
+            "s16",
+            "s15"
+          ]
         },
         {
           "text": "Won the 2024 Republican primary for U.S. Senate in Massachusetts with 64.8% and lost the general election to Elizabeth Warren, 59.8% to 40.0%.",
-          "sources": ["s10", "s11"]
+          "sources": [
+            "s15",
+            "s16"
+          ]
         },
         {
           "text": "Moved from Barrington, Rhode Island, to Massachusetts in January 2024 (Wikipedia). Won the September 1, 2026 Republican primary unopposed, with 99.3%.",
-          "sources": ["s11", "s10"]
+          "sources": [
+            "s16",
+            "s15"
+          ]
         },
         {
           "text": "Describes himself as a \"U.S. Marine veteran, cancer survivor, father to three daughters, trial attorney, author.\"",
-          "sources": ["s10", "s5"]
+          "sources": [
+            "s15",
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"If elected, I will sponsor legislation to limit the terms of all federal lawmakers... I have pledged to serve just two six-year terms in the Senate.\" His proposed \"My Clean Hands Act\" would ban stock, crypto, and commodities trading for members of Congress and impose a lifetime lobbying ban.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "\"My approach starts with supporting responsible federal spending and cutting regulations to spur economic growth and reduce inflation; I have consistently opposed the COVID-era spending.\"",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "\"I'll work to lower prescription drug costs, increase price transparency, and expand access to quality care without growing Washington's bureaucracy or raising taxes.\"",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says he would work to lower health care costs \"without growing Washington's bureaucracy or raising taxes.\"",
-          "quote": "without growing Washington's bureaucracy or raising taxes",
-          "sources": ["s5"]
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Deaton's campaign site says he has supported codifying the protections of Roe v. Wade into federal law, and that he would vote with Democrats against a federal abortion ban.",
+          "quote": "I've consistently supported codifying the protections of Roe into federal law",
+          "sources": [
+            "s9"
+          ]
         },
         {
-          "issue": "healthcare_public",
-          "stance": "opposes",
-          "summary": "Favors lowering drug costs and price transparency rather than expanding public coverage; opposes growing federal health bureaucracy.",
-          "sources": ["s5"]
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "Deaton's campaign site calls for ending catch-and-release while rejecting both blanket amnesty and mass deportation.",
+          "quote": "I reject both blanket amnesty and mass deportation.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "mixed",
+          "summary": "Deaton's campaign site opposes the Green New Deal while supporting an all-of-the-above energy transition that includes solar, wind, geothermal, hydro and nuclear power.",
+          "quote": "That means an all-of-the-above energy transition, not a mandate that picks winners and losers by government fiat.",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [],
@@ -192,38 +291,57 @@
     {
       "id": "joseph-tache",
       "name": "Joseph Tache",
-      "parties": ["Party for Socialism and Liberation"],
+      "parties": [
+        "Party for Socialism and Liberation"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Joe Tache is the Party for Socialism and Liberation candidate for U.S. Senate. He is a Boston youth worker and community organizer who describes his campaign as a socialist alternative to both major parties. His campaign calls for redistributing wealth, a 90% cut to the military budget and public funding of housing, healthcare and education.",
-        "sources": ["s13", "s14", "s6"]
+        "sources": [
+          "s18",
+          "s19",
+          "s6"
+        ]
       },
       "background": [
         {
           "text": "A Philadelphia native, according to a BINJ profile; he attended Northeastern University as a business major.",
-          "sources": ["s13"]
+          "sources": [
+            "s18"
+          ]
         },
         {
           "text": "While at Northeastern he became involved in marches and protests on police brutality, housing justice and campus labor, which he says led him to identify with socialism (BINJ interview).",
-          "sources": ["s13"]
+          "sources": [
+            "s18"
+          ]
         },
         {
           "text": "Works as a youth worker and community organizer based in Boston; WAMC describes him as a 31-year-old community organizer and activist from Boston.",
-          "sources": ["s13", "s14"]
+          "sources": [
+            "s18",
+            "s19"
+          ]
         },
         {
           "text": "Running for the U.S. Senate seat held by Ed Markey since 2013; Ballotpedia lists him on the November 3, 2026 general-election ballot.",
-          "sources": ["s12"]
+          "sources": [
+            "s17"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "\"As a socialist, I will propose legislation to redistribute that wealth and reorganize the economy to meet our needs: funding quality housing, healthcare, and education.\"",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "\"I will propose legislation to cut that bloated [military] budget by 90% and usher in a new era of foreign policy based on solidarity and diplomacy, not domination.\"",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
@@ -232,19 +350,25 @@
           "stance": "supports",
           "summary": "Calls for redistributing wealth from billionaires to fund housing, healthcare, and education.",
           "quote": "As a socialist, I will propose legislation to redistribute that wealth and reorganize the economy to meet our needs",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Says he would prioritize decommissioning fossil fuel infrastructure and building a renewable energy grid.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Calls for public funding of quality housing, healthcare, and education as part of restructuring the economy.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -253,81 +377,103 @@
     {
       "id": "shiva-ayyadurai",
       "name": "Shiva Ayyadurai",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Shiva Ayyadurai is an unenrolled candidate for U.S. Senate in Massachusetts. A Massachusetts Institute of Technology-trained scientist and entrepreneur, he has run for office several times, including the 2018 U.S. Senate election as an independent. In his 2020 Ballotpedia survey he described himself as the inventor of email and listed digital rights, citizen science and health rights as his priorities; he has not completed a 2026 survey.",
-        "sources": ["s15", "s16"]
+        "sources": [
+          "s20",
+          "s21"
+        ]
       },
       "background": [
         {
           "text": "Born in Bombay (now Mumbai), India, in 1963; he says his family came to the United States in 1970 and settled in New Jersey.",
-          "sources": ["s15", "s16"]
+          "sources": [
+            "s20",
+            "s21"
+          ]
         },
         {
           "text": "Earned bachelor's, master's and Ph.D. degrees from MIT in 1986, 1990 and 2007; Wikipedia describes the doctorate as being in biological engineering (systems biology) and notes a 2007 Fulbright grant.",
-          "sources": ["s15", "s16"]
+          "sources": [
+            "s20",
+            "s21"
+          ]
         },
         {
           "text": "According to his 2020 Ballotpedia survey, he has started seven technology companies including EchoMail, CytoSolve and Systems Health; Ballotpedia lists his work as scientist, inventor, entrepreneur, author and MIT lecturer.",
-          "sources": ["s15"]
+          "sources": [
+            "s20"
+          ]
         },
         {
           "text": "Ran for U.S. Senate in 2018 as an independent, receiving 3.4% in the general election won by Elizabeth Warren; in 2020 he received 0.6% as a Republican write-in in the Senate race won by Ed Markey.",
-          "sources": ["s15"]
+          "sources": [
+            "s20"
+          ]
         },
         {
           "text": "Ran for President in 2024 as an independent and appeared on the Massachusetts ballot, receiving 0.5% there; Ballotpedia lists him as also declared for the 2028 presidential election.",
-          "sources": ["s15"]
+          "sources": [
+            "s20"
+          ]
         }
       ],
-      "priorities": [],
-      "positions": [],
-      "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website statements or Ballotpedia Candidate Connection survey found for this candidate in the sources checked; only ballot listing confirmed."
-    },
-    {
-      "id": "philip-devincentis",
-      "name": "Philip Devincentis",
-      "parties": ["American Independent Party"],
-      "incumbent": false,
-      "summary": {
-        "text": "Philip Devincentis ran for U.S. Senate in Massachusetts as the American Independent Party candidate. Ballotpedia lists him among withdrawn or disqualified candidates and states he will not appear on the November 3, 2026 general-election ballot. No campaign website, statements or Ballotpedia survey responses were found.",
-        "sources": ["s17"]
-      },
-      "background": [
+      "priorities": [
         {
-          "text": "Ballotpedia's profile has no biographical details; it lists him as an American Independent Party candidate for the 2026 Massachusetts U.S. Senate race who did not complete its Candidate Connection survey.",
-          "sources": ["s17"]
-        }
-      ],
-      "priorities": [],
-      "positions": [],
-      "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No public statements or campaign materials found; only ballot listing confirmed via Ballotpedia."
-    },
-    {
-      "id": "morgan-dawicki",
-      "name": "Morgan Dawicki",
-      "parties": ["IND"],
-      "incumbent": false,
-      "summary": {
-        "text": "Morgan Dawicki ran for U.S. Senate in Massachusetts as an unenrolled candidate. Ballotpedia lists him as withdrawn and states he will not appear on the November 3, 2026 general-election ballot. No campaign website, statements or Ballotpedia survey responses were found.",
-        "sources": ["s18"]
-      },
-      "background": [
+          "text": "Lists protecting medical freedom and ending censorship as the first item of his platform.",
+          "quote": "Truth, Freedom, Health® for All – End censorship, protect medical freedom, and return science to the people so you can make real health decisions and extend your life.",
+          "sources": [
+            "s11"
+          ]
+        },
         {
-          "text": "Ballotpedia's profile has no biographical details; it lists him as an unenrolled 2026 candidate who withdrew and did not complete its Candidate Connection survey, with $16,498 in contributions reported through OpenSecrets and FEC data.",
-          "sources": ["s18"]
+          "text": "Lists ending lobbyist and billionaire influence in government as a platform item.",
+          "quote": "End the Swarm of Corruption – Rip lobbyists and billionaires out of government so resources go to working people's health and vitality, not to corporate cronies.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lists secure elections as a platform item.",
+          "quote": "Secure Elections Now – Paper ballots, hand-counting, same-day voting, Voter ID.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Lists ending foreign wars and bringing troops home as a platform item.",
+          "quote": "Peace, Not Endless Wars – No more trillion-dollar wars abroad. Bring troops home and reinvest in communities' health infrastructure.",
+          "sources": [
+            "s11"
+          ]
         }
       ],
-      "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No public statements or campaign materials found; only ballot listing confirmed via Ballotpedia."
+      "researchDepth": "basic",
+      "researchNotes": "Positions and statements drawn from the platform page of his 2026 campaign website (shiva4senate.com). No Ballotpedia Candidate Connection survey found. The site's separate older 'Issues' page refers to the 2018/2020 Warren race and was not used. His statements are listed without stances because none squarely answers the guide's issue statements.",
+      "statements": [
+        {
+          "issue": "israel_aid",
+          "quote": "End foreign lobbies owning Congress. Stop taxpayer subsidies to Israel and others.",
+          "context": "On the platform page of his 2026 campaign website (item 9)",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Cut taxes for families and small business so you can afford clean food, safe housing, and healthcare that actually extends your lifespan.",
+          "context": "On the platform page of his 2026 campaign website (item 4)",
+          "sources": [
+            "s11"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -381,48 +527,84 @@
     },
     {
       "id": "s7",
+      "url": "https://www.markey.senate.gov/priorities/gun-violence",
+      "title": "Gun Violence — Sen. Edward Markey",
+      "publisher": "Office of Sen. Edward Markey",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.markey.senate.gov/priorities/health-medical-research-and-disabilities",
+      "title": "Health, Medical Research & Disabilities — Sen. Edward Markey",
+      "publisher": "Office of Sen. Edward Markey",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.johndeatonforsenate.com/issues",
+      "title": "Issues — John Deaton for U.S. Senate",
+      "publisher": "John Deaton for U.S. Senate (campaign)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.markey.senate.gov/priorities/energy-climate-change-and-environment",
+      "title": "Sen. Markey, Energy, Climate Change and Environment",
+      "publisher": "Office of Sen. Edward J. Markey",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://shiva4senate.com/platform/",
+      "title": "Platform",
+      "publisher": "Dr.SHIVA For U.S. Senate in Massachusetts 2026 (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
       "url": "https://www.markey.senate.gov/about",
       "title": "About Ed",
       "publisher": "Office of Sen. Edward J. Markey",
       "kind": "official"
     },
     {
-      "id": "s8",
+      "id": "s13",
       "url": "https://en.wikipedia.org/wiki/Ed_Markey",
       "title": "Ed Markey",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s9",
+      "id": "s14",
       "url": "https://ballotpedia.org/Ed_Markey",
       "title": "Ed Markey",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s10",
+      "id": "s15",
       "url": "https://ballotpedia.org/John_Deaton_(Massachusetts)",
       "title": "John Deaton (Massachusetts)",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s11",
+      "id": "s16",
       "url": "https://en.wikipedia.org/wiki/John_Deaton",
       "title": "John Deaton",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s12",
+      "id": "s17",
       "url": "https://ballotpedia.org/Joseph_Tache",
       "title": "Joseph Tache",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s13",
+      "id": "s18",
       "url": "https://binj.news/2026/01/30/candidate-interview-socialist-joe-tache-on-his-effort-to-unseat-sen-ed-markey/",
       "title": "Interview: Socialist Joe Tache On His Effort To Unseat Sen. Ed Markey",
       "publisher": "Boston Institute for Nonprofit Journalism",
@@ -430,7 +612,7 @@
       "date": "2026-01-30"
     },
     {
-      "id": "s14",
+      "id": "s19",
       "url": "https://www.wamc.org/news/2026-09-03/socialist-ma-u-s-senate-candidate-says-hes-running-to-confront-crisis-of-capitalism",
       "title": "Socialist MA U.S. Senate candidate says he's running to confront crisis of capitalism",
       "publisher": "WAMC Northeast Public Radio",
@@ -438,34 +620,20 @@
       "date": "2026-09-03"
     },
     {
-      "id": "s15",
+      "id": "s20",
       "url": "https://ballotpedia.org/Shiva_Ayyadurai",
       "title": "Shiva Ayyadurai",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s16",
+      "id": "s21",
       "url": "https://en.wikipedia.org/wiki/Shiva_Ayyadurai",
       "title": "Shiva Ayyadurai",
       "publisher": "Wikipedia",
       "kind": "reference"
-    },
-    {
-      "id": "s17",
-      "url": "https://ballotpedia.org/Philip_Devincentis",
-      "title": "Philip Devincentis",
-      "publisher": "Ballotpedia",
-      "kind": "reference"
-    },
-    {
-      "id": "s18",
-      "url": "https://ballotpedia.org/Morgan_Dawicki",
-      "title": "Morgan Dawicki",
-      "publisher": "Ballotpedia",
-      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Key floor votes and FEC finance totals for Sen. Markey are added separately by script. Ayyadurai, Devincentis, and Dawicki have minimal public campaign footprints in the sources checked. Biography gaps: Ballotpedia lists Philip Devincentis and Morgan Dawicki as withdrawn or disqualified and not on the general-election ballot; their entries were not removed here. Little biographical detail is public for Tache beyond news interviews, and Ayyadurai's self-description is attributed to his 2020 survey."
+  "researchNotes": "Key floor votes and FEC finance totals for Sen. Markey are added separately by script. Ayyadurai has a minimal public campaign footprint in the sources checked. Ballotpedia's 'Withdrawn or disqualified candidates' list for this race names Philip Devincentis (American Independent Party) and Morgan Dawicki (Unenrolled); they are not on the November 3 ballot and have been removed (https://ballotpedia.org/United_States_Senate_election_in_Massachusetts,_2026). The Massachusetts Secretary of the Commonwealth's candidate list could not be loaded to confirm. Biography gaps: Ballotpedia lists Philip Devincentis and Morgan Dawicki as withdrawn or disqualified and not on the general-election ballot; their entries were not removed here. Little biographical detail is public for Tache beyond news interviews, and Ayyadurai's self-description is attributed to his 2020 survey."
 }

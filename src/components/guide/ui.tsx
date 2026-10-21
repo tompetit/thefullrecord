@@ -1,4 +1,3 @@
-import Link from "next/link";
 import type {
   Cited,
   GuideRace,
@@ -6,7 +5,6 @@ import type {
   SourceKind,
   Stance,
 } from "@/server/guide/types";
-import { Wordmark } from "../Wordmark";
 
 export const KIND_LABEL: Record<SourceKind, string> = {
   official: "Official record",
@@ -15,36 +13,16 @@ export const KIND_LABEL: Record<SourceKind, string> = {
   reference: "Reference",
 };
 
-/** Guide-wide top bar. */
-export function GuideNav({ active }: { active?: "guide" | "ballot" | "match" | "votes" | "method" }) {
-  const links: Array<[typeof active, string, string]> = [
-    ["guide", "/guide", "All races"],
-    ["ballot", "/guide/ballot", "My ballot"],
-    ["match", "/guide/match", "What matters to me"],
-    ["votes", "/guide/key-votes", "Key votes"],
-    ["method", "/guide/methodology", "How we research"],
-  ];
-  return (
-    <header className="border-b border-hairline">
-      <div className="mx-auto flex w-full max-w-6xl flex-wrap items-center justify-between gap-x-6 gap-y-1 px-[20px] pt-3 pb-2 lg:px-10">
-        <Wordmark />
-        <nav className="-mx-1 flex max-w-full gap-1 overflow-x-auto pb-1 font-sans text-[13px] text-ink-60">
-          {links.map(([key, href, label]) => (
-            <Link
-              key={href}
-              href={href}
-              className={`whitespace-nowrap rounded-full px-3 py-1.5 hover:text-ink ${
-                active === key ? "bg-ink text-paper hover:text-paper" : ""
-              }`}
-            >
-              {label}
-            </Link>
-          ))}
-        </nav>
-      </div>
-    </header>
-  );
-}
+const PARTY_NAMES: Record<string, string> = {
+  D: "Democratic",
+  R: "Republican",
+  C: "Conservative",
+  WFP: "Working Families",
+  LIB: "Libertarian",
+  IND: "Independent",
+  G: "Green",
+};
+export const partyName = (p: string) => PARTY_NAMES[p] ?? p;
 
 export function PartyChips({ parties, size = "sm" }: { parties: string[]; size?: "sm" | "md" }) {
   return (
@@ -52,11 +30,13 @@ export function PartyChips({ parties, size = "sm" }: { parties: string[]; size?:
       {parties.map((p) => (
         <span
           key={p}
+          title={partyName(p)}
+          aria-label={partyName(p)}
           className={`rounded-[3px] border border-chip-border font-sans font-semibold leading-normal text-ink-80 ${
             size === "md" ? "px-1.5 text-[11.5px]" : "px-1 text-[10.5px]"
           }`}
         >
-          {p}
+          {size === "md" ? partyName(p) : p}
         </span>
       ))}
     </>
@@ -92,6 +72,7 @@ export function Monogram({ name, size = 44 }: { name: string; size?: number }) {
 }
 
 const STANCE: Record<Stance, { word: string; cls: string; mark: string }> = {
+  not_inferred: { word: "Recorded votes", cls: "bg-neutral-chip border-neutral-chip-border text-ink-80", mark: "○" },
   supports: { word: "Supports", cls: "bg-accent-tint border-accent text-accent-deep", mark: "✓" },
   opposes: { word: "Opposes", cls: "bg-umber-tint border-umber text-umber-deep", mark: "✕" },
   mixed: { word: "Mixed", cls: "bg-neutral-chip border-neutral-chip-border text-ink-80", mark: "~" },
@@ -133,7 +114,7 @@ export function Cites({
           target="_blank"
           rel="noopener noreferrer"
           title={`${KIND_LABEL[s.kind]} · ${s.publisher}: ${s.title}`}
-          className={`ml-0.5 align-super font-sans text-[9.5px] font-bold no-underline hover:underline ${
+          className={`relative ml-0.5 align-super font-sans text-[9.5px] font-bold no-underline before:absolute before:-inset-2 before:content-[""] hover:underline ${
             s.kind === "official" ? "text-accent" : "text-ink-45"
           }`}
         >
@@ -177,6 +158,22 @@ export function SourceList({ race, ids }: { race: GuideRace; ids?: Set<string> }
               {s.date ? ` · ${s.date}` : ""}
             </span>{" "}
             <KindBadge kind={s.kind} />
+            {s.deadLink &&
+              (s.deadLink.archivedUrl ? (
+                <>
+                  {" "}
+                  <a
+                    href={s.deadLink.archivedUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="whitespace-nowrap text-[11px] text-ink-60 underline decoration-hairline underline-offset-2 hover:decoration-ink"
+                  >
+                    archived copy
+                  </a>
+                </>
+              ) : (
+                <span className="whitespace-nowrap text-[11px] italic text-ink-45"> · link may be broken</span>
+              ))}
           </span>
         </li>
       ))}
@@ -216,26 +213,9 @@ export const OFFICE_LABEL: Record<string, string> = {
   governor: "Governor",
   "attorney-general": "Attorney General",
   comptroller: "Comptroller",
+  "secretary-of-state": "Secretary of State",
   "state-senate": "State Senate",
   "state-assembly": "State Assembly",
   "ballot-measure": "Ballot measure",
   other: "Other",
 };
-
-export function GuideFooter() {
-  return (
-    <footer className="mt-16 border-t border-hairline">
-      <div className="mx-auto max-w-6xl px-[20px] py-6 font-sans text-xs leading-[1.6] text-ink-45 lg:px-10">
-        The Full Record is non-partisan: no endorsements, no scores, no grades.
-        Every claim links to its source — official records first.{" "}
-        <Link href="/guide/methodology" className="underline hover:text-ink">
-          How we research
-        </Link>{" "}
-        ·{" "}
-        <Link href="/" className="underline hover:text-ink">
-          Your current representatives
-        </Link>
-      </div>
-    </footer>
-  );
-}

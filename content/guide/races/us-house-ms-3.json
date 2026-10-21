@@ -106,26 +106,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "abortion",
-          "stance": "opposes",
-          "summary": "Describes himself as supporting the right to life of the unborn and has been recognized by Susan B. Anthony Pro-Life America and the Family Research Council for his pro-life record.",
-          "quote": "the right to life of the unborn",
-          "sources": [
-            "s7"
-          ]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Describes himself as supporting Second Amendment gun rights and has been recognized by the National Rifle Association for his defense of gun rights.",
-          "quote": "our Second Amendment gun rights",
-          "sources": [
-            "s7"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [
         {
           "text": "Chairs the House Committee on Ethics in the 119th Congress (2025-2026).",
@@ -234,14 +215,46 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Lists healthcare access and affordability among his passionate policy areas, drawing on his background working with Medicaid/ACA-related government contracting.",
+          "summary": "Says he would introduce legislation expanding premium assistance and Medicaid eligibility, and supports eliminating out-of-pocket prescription drug costs for seniors on Medicare.",
+          "quote": "I would introduce legislation expanding premium assistance, reducing high deductibles through mandatory cost sharing, expanding Medicaid eligibility, and eliminating or nearly eliminating coinsurance liability.",
           "sources": [
-            "s4"
-          ]
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "On his campaign website, says tariffs raise costs and reduce incentives to trade.",
+          "quote": "When barriers like tariffs are imposed, they disrupt this natural process by raising costs and reducing incentives to trade.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "America needs a balanced tax plan that combines moderate ordinary income taxes with a corporate tax system that limits loopholes and remains competitive with other nations.",
+          "context": "On his campaign website",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Limited legal immigration can fuel business development, consumer spending, and innovation. But these benefits require a strong domestic foundation, which includes robust border security to protect our communities.",
+          "context": "On his campaign website",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Basic-tier research. Positions and statements are from his campaign website issues page and a September 10, 2026 healthcare statement, plus his Ballotpedia Candidate Connection survey. No statements found on abortion, guns, rent regulation, climate, or minimum wage.",
+      "website": "https://michaelachiaradio.com"
     },
     {
       "id": "erik-kiehle",
@@ -296,13 +309,15 @@
           "text": "Wants to end U.S. spending related to the wars in Ukraine and Iran and end all U.S. aid to Israel.",
           "sources": [
             "s6"
-          ]
+          ],
+          "quote": "End the foreign wars by ending all spending for the Ukraine and Iran wars."
         },
         {
-          "text": "Supports mass deportations and a ban on immigration from Muslim-majority countries.",
+          "text": "Lists mass deportations and a ban on all Muslim immigrants among his key campaign messages.",
           "sources": [
             "s6"
-          ]
+          ],
+          "quote": "Mass Deportations and ban all Muslim immigrants."
         }
       ],
       "positions": [
@@ -313,19 +328,23 @@
           "quote": "End all aid to Israel.",
           "sources": [
             "s6"
-          ]
+          ],
+          "basis": "statements"
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Survey lists mass deportations as a top priority.",
+          "summary": "Candidate Connection survey lists mass deportations among his key messages.",
           "sources": [
             "s6"
-          ]
+          ],
+          "quote": "Mass Deportations and ban all Muslim immigrants.",
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "Basic-tier research from his Ballotpedia Candidate Connection survey (2026). His campaign website (kiehle4congress.us) has general values statements only. No statements found on abortion, guns, taxes, healthcare, or other listed issues."
     }
   ],
   "sources": [
@@ -377,6 +396,21 @@
       "title": "About",
       "publisher": "Office of Congressman Michael Guest",
       "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://michaelachiaradio.com/issues/",
+      "title": "Issues",
+      "publisher": "Michael A. Chiaradio for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://michaelachiaradio.com/wp-content/uploads/2026/09/Statement-from-Democratic-Nominee-for-Congress-Michael-A.-Chiaradio-on-American-Healthcare.pdf",
+      "title": "Statement on a Comprehensive Framework for American Healthcare",
+      "publisher": "Michael A. Chiaradio for Congress",
+      "kind": "candidate",
+      "date": "2026-09-10"
     }
   ],
   "researchedAt": "2026-09-25",

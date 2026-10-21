@@ -32,7 +32,7 @@
         "sources": [
           "s1",
           "s3",
-          "s7"
+          "s8"
         ]
       },
       "background": [
@@ -40,14 +40,14 @@
           "text": "Born August 15, 1972, in Miami Gardens, Florida. Received a B.A. in Criminal Justice from Florida A&M University and a J.D. from the University of Miami School of Law, having first enrolled at St. Thomas University School of Law, according to the county's official biography.",
           "sources": [
             "s3",
-            "s7"
+            "s8"
           ]
         },
         {
           "text": "Began in politics in 2000 as a legislative aide to then-state Rep. Dorothy Bendross-Mindingall, then worked as a prosecutor and in private practice. He is licensed to practice law in Florida and has served as an adjunct professor at Miami Dade College, according to the county's biography.",
           "sources": [
             "s3",
-            "s7"
+            "s8"
           ]
         },
         {
@@ -59,7 +59,7 @@
         {
           "text": "As mayor he served as president of the African American Mayors Association and held roles with the Florida League of Mayors, the National League of Cities and the U.S. Conference of Mayors Advisory Board, according to the county's biography.",
           "sources": [
-            "s7"
+            "s8"
           ]
         },
         {
@@ -72,7 +72,7 @@
         {
           "text": "Was voted chairman of the county commission on December 6, 2022, and chairs the International Trade Consortium and the Transportation Committee, per the county's biography.",
           "sources": [
-            "s7"
+            "s8"
           ]
         },
         {
@@ -85,12 +85,39 @@
         {
           "text": "Is a member of Omega Psi Phi Fraternity and Leadership Florida, according to the county's biography.",
           "sources": [
-            "s7"
+            "s8"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he will fight for a pathway to make healthcare a right for every American.",
+          "quote": "In Congress, Oliver will fight for a pathway to ensure that healthcare is a right for every American.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Calls for ending federal funding for current deportation policies and ICE raids and redirecting it to communities.",
+          "quote": "It’s time to end funding for these shameful deportation policies and redirect that investment where it belongs: into our communities.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "His campaign issues page lists \"Universal Childcare & Pre-K\" as a priority and says he will redirect spending toward children and families.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Currently serves as Miami-Dade County Commissioner for District 1, a role he has held since November 2020; he did not seek re-election to that seat in 2026 in order to run for Congress.",
@@ -100,7 +127,7 @@
           ]
         }
       ],
-      "website": "https://www.olivergilbertforcongress.com/",
+      "website": "https://olivergilbert.vote",
       "researchDepth": "basic",
       "researchNotes": "Gilbert has not completed Ballotpedia's 2026 Candidate Connection survey and his campaign website is a JavaScript-rendered single-page site that returned no readable policy text when fetched; no stated legislative priorities or issue positions could be sourced as of this research. His public record here reflects only his current county-commission role, since Congressional votes/bills will not exist until he takes office."
     },
@@ -117,7 +144,7 @@
         "sources": [
           "s1",
           "s4",
-          "s8"
+          "s9"
         ]
       },
       "background": [
@@ -130,13 +157,13 @@
         {
           "text": "Her campaign website gives her name as Te Mayonna Brown and describes her as a businesswoman, educator and real estate developer who says she has worked on affordable housing and economic investment in neighborhoods.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Describes herself as a former teacher who supports school choice.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
@@ -149,7 +176,7 @@
           "text": "Says she is not a career politician; won the Republican nomination for the November 3, 2026 general election.",
           "sources": [
             "s1",
-            "s8"
+            "s9"
           ]
         }
       ],
@@ -182,20 +209,30 @@
           "sources": [
             "s5"
           ]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Supports securing the border, enforcing immigration law, and prioritizing removal of people who pose a public-safety threat, while also supporting an earned path to citizenship for longtime Haitian TPS holders in South Florida.",
-          "sources": [
-            "s5"
-          ]
         }
       ],
       "record": [],
       "website": "https://www.tebrownforflorida.com/",
       "researchDepth": "basic",
-      "researchNotes": "Te Brown has not completed Ballotpedia's 2026 Candidate Connection survey; positions are drawn from her campaign website's issues page. She has not previously held elected office, so has no official voting or bill-sponsorship record."
+      "researchNotes": "Te Brown has not completed Ballotpedia's 2026 Candidate Connection survey; positions are drawn from her campaign website's issues page. She has not previously held elected office, so has no official voting or bill-sponsorship record.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I support securing our southern border, enforcing our immigration laws, and prioritizing the removal of criminals and those who pose a threat to public safety.",
+          "context": "On her campaign website's issues page",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "Religious liberty, parental rights, the Second Amendment, and the Constitution itself are under attack — and they’re worth fighting for.",
+          "context": "On her campaign website's issues page",
+          "sources": [
+            "s5"
+          ]
+        }
+      ]
     },
     {
       "id": "patricia-gonzalez",
@@ -346,13 +383,20 @@
     },
     {
       "id": "s7",
+      "kind": "candidate",
+      "publisher": "Oliver Gilbert for Congress",
+      "title": "On the Issues - Oliver Gilbert for Congress",
+      "url": "https://olivergilbert.vote/issues/"
+    },
+    {
+      "id": "s8",
       "kind": "official",
       "publisher": "Miami-Dade County",
       "url": "https://www.miamidade.gov/global/government/commission/district01/about-commissioner-gilbert.page",
       "title": "About Chairman Oliver G. Gilbert, III"
     },
     {
-      "id": "s8",
+      "id": "s9",
       "kind": "candidate",
       "publisher": "Te Brown for Congress",
       "url": "https://tebrownforflorida.com/meet-te-brown/",

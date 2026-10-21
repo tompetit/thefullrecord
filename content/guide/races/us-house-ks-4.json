@@ -30,7 +30,7 @@
         "text": "Ron Estes is the Republican incumbent representing Kansas's 4th District since 2017, elected in a special election to succeed Mike Pompeo. A civil engineer by training who worked in consulting and management, he previously served as Sedgwick County Treasurer and Kansas State Treasurer. He chairs the Social Security subcommittee of the House Ways and Means Committee.",
         "sources": [
           "s2",
-          "s4"
+          "s6"
         ]
       },
       "background": [
@@ -38,7 +38,7 @@
           "text": "Born in Topeka, Kansas, in 1956; according to his official biography he is a fifth-generation Kansan who grew up on his family farm.",
           "sources": [
             "s2",
-            "s4"
+            "s6"
           ]
         },
         {
@@ -51,7 +51,7 @@
           "text": "Began his career in consulting and management roles in aerospace, energy and manufacturing industries, according to his official biography; also worked as a businessman and farmer.",
           "sources": [
             "s2",
-            "s4"
+            "s6"
           ]
         },
         {
@@ -75,7 +75,7 @@
         {
           "text": "According to his official biography, he has worked on tax reform, the farm bill, Wichita's aviation industry and Title X family planning guidelines, and supports military families and veterans.",
           "sources": [
-            "s4"
+            "s6"
           ]
         }
       ],
@@ -114,15 +114,6 @@
           "stance": "opposes",
           "summary": "Says he will fight efforts in Washington to restrict Second Amendment rights and continue supporting the rights of gun owners.",
           "quote": "The 2nd Amendment is a cornerstone of our Bill of Rights. I firmly believe that every law-abiding citizen has a right to defend themselves, their family and their property. I will fight against efforts in Washington to take away these rights. I am a proud NRA member, and as your Congressman, I will continue supporting the rights of gun owners, sportsmen and hunters.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says Republicans in Congress have secured the border, reduced illegal crossings, and worked to deport \"the worst of the worst.\"",
-          "quote": "Republicans in Congress have stepped up to secure the border, reduce illegal crossings, and deport the worst of the worst.",
           "sources": [
             "s3"
           ]
@@ -208,7 +199,17 @@
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Positions and background drawn from Tyndell's Ballotpedia Candidate Connection survey response; no separate campaign website was fetched."
+      "researchNotes": "Positions and background drawn from Tyndell's Ballotpedia Candidate Connection survey response and her campaign issues page (katyforkansas.com/issues).",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Katy will work to ensure access to quality, affordable healthcare for all.",
+          "context": "On her campaign website's issues page",
+          "sources": [
+            "s4"
+          ]
+        }
+      ]
     },
     {
       "id": "drew-cranmer",
@@ -258,10 +259,31 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says he would oppose federal legislation restoring Roe by statute.",
+          "quote": "I would oppose any federal legislation that attempts to reimpose a national abortion regime — including any effort to restore Roe by statute.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Says the power to take the nation to war belongs to Congress and opposes undeclared wars.",
+          "quote": "No more undeclared wars.",
+          "sources": [
+            "s5"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Based only on his Ballotpedia Candidate Connection survey response; he did not state a direct position on any fixed issue key. No independent campaign website was fetched."
+      "researchNotes": "Based on his Ballotpedia Candidate Connection survey response and his campaign website issues section (drew4kansas.com)."
     }
   ],
   "sources": [
@@ -291,6 +313,22 @@
     },
     {
       "id": "s4",
+      "url": "https://katyforkansas.com/issues/",
+      "title": "Issues - Katy Tyndell for Congress",
+      "publisher": "Katy Tyndell for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s5",
+      "url": "https://drew4kansas.com",
+      "title": "Drew Cranmer for Congress — Issues",
+      "publisher": "Drew Cranmer for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
       "url": "https://estes.house.gov/biography",
       "title": "Biography",
       "publisher": "Office of Rep. Ron Estes",

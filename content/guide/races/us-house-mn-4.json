@@ -29,7 +29,7 @@
         "text": "Betty McCollum is the Democratic incumbent in Minnesota's 4th Congressional District, covering Saint Paul, Ramsey County and most of Washington County, which she has represented since 2001. A former teacher and city council member, she served in the Minnesota House before her election to Congress in 2000. She is the top Democrat on the House Appropriations Defense Subcommittee and the dean of Minnesota's congressional delegation.",
         "sources": [
           "s2",
-          "s9"
+          "s12"
         ]
       },
       "background": [
@@ -37,45 +37,45 @@
           "text": "Born in 1954 in Minneapolis, Minnesota; grew up in South St. Paul, graduated from South St. Paul High School, and earned a B.A. from the College of St. Catherine in St. Paul.",
           "sources": [
             "s2",
-            "s9"
+            "s12"
           ]
         },
         {
           "text": "Taught high school social science and worked 25 years in retail sales and management before and alongside elected service, according to her House website.",
           "sources": [
-            "s9"
+            "s12"
           ]
         },
         {
           "text": "Served on the North St. Paul City Council from 1987 to 1992.",
           "sources": [
-            "s9"
+            "s12"
           ]
         },
         {
           "text": "Served in the Minnesota House of Representatives from 1993 to 2000 and was elected Assistant Leader three times by her Democratic-Farmer-Labor Party colleagues.",
           "sources": [
-            "s9"
+            "s12"
           ]
         },
         {
           "text": "Elected to the U.S. House on November 7, 2000, defeating Linda Runbeck (R), Tom Foley (I) and Nicholas Skrivanek (C); her House website says she was the second Minnesota woman elected to Congress. She has been re-elected since.",
           "sources": [
             "s2",
-            "s9"
+            "s12"
           ]
         },
         {
           "text": "Serves on the House Appropriations Committee; she chaired its Defense Subcommittee in the 117th Congress and is its top Democrat in the 119th Congress, and also serves on the Interior and Environment Subcommittee.",
           "sources": [
             "s2",
-            "s9"
+            "s12"
           ]
         },
         {
           "text": "Dean of the Minnesota congressional delegation. She is the mother of two adult children and lives in Saint Paul, according to her House website.",
           "sources": [
-            "s9"
+            "s12"
           ]
         }
       ],
@@ -242,21 +242,48 @@
           "sources": [
             "s3"
           ]
+        },
+        {
+          "text": "Stopping fraud in government spending, including mandatory audits of major federal spending.",
+          "quote": "Mandatory audits for all major federal spending.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Tax cuts, including no tax on tips or overtime, an expanded child tax credit and ending the estate tax.",
+          "quote": "eliminate tax on tips, no tax on overtime, expand child tax credits and eliminate the death tax to protect farms and small businesses.",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "positions": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says his priority is making sure working Americans keep more of their paychecks, framing his campaign around reducing the tax and regulatory burden on workers and local industry.",
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Pledges to protect and expand federal COPS and Byrne JAG policing grants.",
+          "quote": "Protecting and expanding COPS and Byrne JAG grants to put more officers on St. Paul foot patrols and response teams.",
           "sources": [
-            "s3"
-          ]
+            "s10"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Wikstrom's Ballotpedia Candidate Connection survey response was brief and covered mainly biography; no separate campaign website with a detailed issues page was found within the research budget for this race."
+      "researchNotes": "Positions and priorities come from his campaign website and campaign press releases (Aug.-Oct. 2026), in addition to his brief Ballotpedia survey. Most of his published material addresses fraud, public safety and affordability; no stated position found on abortion, guns, immigration enforcement, climate or most other guide issues.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Lowering health care spending requires market-driven reforms: expanding Health Savings Accounts (HSAs), enabling cross-state coverage options, incentivizing price transparency, and cutting bureaucratic red tape",
+          "context": "In an Aug. 27, 2026 campaign press release",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "website": "https://www.wikstromforcongress.com"
     }
   ],
   "sources": [
@@ -326,6 +353,30 @@
     },
     {
       "id": "s9",
+      "url": "https://www.wikstromforcongress.com",
+      "title": "Vote Wikstrom for Congress (priorities)",
+      "publisher": "Wikstrom for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.wikstromforcongress.com/_files/ugd/3891d2_0be15462bb444e32b20150bd9e67b096.pdf",
+      "title": "Wikstrom Backs Demuth-Wilson Public Safety Plan (press release, Oct. 2, 2026)",
+      "publisher": "Wikstrom for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.wikstromforcongress.com/_files/ugd/3891d2_38e22e37a2514e94847edd4b8d7899a4.pdf",
+      "title": "Press release on health care (Aug. 27, 2026)",
+      "publisher": "Wikstrom for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s12",
       "title": "About | Congresswoman Betty McCollum",
       "url": "https://mccollum.house.gov/about",
       "kind": "official",

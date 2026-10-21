@@ -11,57 +11,104 @@
   "context": [
     {
       "text": "Incumbent Lance Gooden (R) ran unopposed in the March 3, 2026 Republican primary. Chelsey Hockett won a Democratic primary runoff against Ruth Torres on May 26, 2026.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "lance-gooden",
       "name": "Lance Gooden",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative, Texas's 5th District (since 2019)",
       "summary": {
         "text": "Lance Gooden is the Republican incumbent U.S. Representative for Texas's 5th Congressional District. A Terrell resident who worked in the insurance industry, he served three terms in the Texas House before his 2018 election to Congress, where he sits on the Judiciary and Armed Services committees.",
-        "sources": ["s2", "s3"]
+        "sources": [
+          "s2",
+          "s7"
+        ]
       },
       "background": [
         {
           "text": "Born in Nashville, Tennessee, in 1982; according to Wikipedia he was raised in Terrell, Texas, in Kaufman County.",
-          "sources": ["s2", "s6"]
+          "sources": [
+            "s2",
+            "s9"
+          ]
         },
         {
           "text": "Earned a bachelor's degree in finance and government from the University of Texas in 2004.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an insurance broker and risk-management consultant; his official biography says he spent 10 years in the insurance industry.",
-          "sources": ["s2", "s3"]
+          "sources": [
+            "s2",
+            "s7"
+          ]
         },
         {
           "text": "Served in the Texas House of Representatives (District 4, covering parts of Henderson and Kaufman counties) from 2011 to 2015 and from 2017 to 2019, three terms in all; Wikipedia reports he lost the 2014 Republican primary before returning to the seat in 2016.",
-          "sources": ["s2", "s3", "s6"]
+          "sources": [
+            "s2",
+            "s7",
+            "s9"
+          ]
         },
         {
           "text": "First elected to Congress in 2018 and took office January 3, 2019, succeeding Jeb Hensarling. His district stretches from Dallas County to Henderson, Kaufman, Van Zandt, Wood and Upshur counties.",
-          "sources": ["s2", "s3"]
+          "sources": [
+            "s2",
+            "s7"
+          ]
         },
         {
           "text": "In the 119th Congress he serves on the House Judiciary Committee and the House Armed Services Committee.",
-          "sources": ["s3"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "According to his official biography, he lives in Terrell with his wife, Alexa, and their two children.",
-          "sources": ["s3"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Official issues page says the federal government should not strip law-abiding gun owners of their right to bear arms.",
+          "quote": "the federal government should not strip law-abiding gun owners of our right to bear arms because of a few unstable lunatics.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "opposes",
+          "summary": "Official issues page criticizes proposals to socialize medicine as raising costs and favors free-market approaches.",
+          "quote": "radical proposals like these will make only healthcare more expensive and pass those costs along to the taxpayers at a time when they simply can’t afford it.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on the Judiciary (including the Courts, Intellectual Property, Artificial Intelligence, and the Internet Subcommittee) and the House Committee on Armed Services in the 2025–2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -70,67 +117,168 @@
     {
       "id": "chelsey-hockett",
       "name": "Chelsey Hockett",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 26, 2026 Democratic primary runoff against Ruth Torres",
       "summary": {
         "text": "Chelsey Hockett is the Democratic nominee for Texas's 5th Congressional District and describes herself as a mother of two and community organizer, not a career politician. She has worked in restaurants and for airlines and has been involved with the Kaufman County Democratic Party. Her campaign emphasizes health care, public schools, labor and reproductive rights.",
-        "sources": ["s1", "s4", "s5"]
+        "sources": [
+          "s1",
+          "s8",
+          "s6"
+        ]
       },
       "background": [
         {
           "text": "Born in Frederick, Maryland, where she says she lived as a child; attended Marcus High School.",
-          "sources": ["s4"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from Texas Woman's University in 2015.",
-          "sources": ["s4"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "Her career experience includes working in restaurants, for airlines, and as a stay-at-home parent. In her Ballotpedia survey she says her first job, at age 15, was as a rescue technician at a veterinary clinic.",
-          "sources": ["s4"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "text": "According to her campaign website, she lives in Terrell, Texas, is a mother of two, and comes from a union family.",
-          "sources": ["s5"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Has been affiliated with the Kaufman County Democratic Party. Her campaign website describes her organizing with friends, working with local Democrats, speaking at meetings and protesting.",
-          "sources": ["s4", "s5"]
+          "sources": [
+            "s8",
+            "s6"
+          ]
         },
         {
           "text": "Advanced to a Democratic primary runoff after the March 3, 2026 primary and won the May 26, 2026 runoff over Ruth Torres. She describes herself as not a career politician.",
-          "sources": ["s4", "s5"]
+          "sources": [
+            "s8",
+            "s6"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she will fight for fair wages, affordable healthcare, and cost-of-living relief for working families.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Says she supports well-funded public schools, safe communities, and what she describes as a \"humane border system.\"",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Says she believes in reproductive freedom.",
-          "quote": "I believe in reproductive freedom, immigrant rights, strong unions, fully funded public schools, and a government that actually works for the people who live here.",
-          "sources": ["s1"]
+          "summary": "Campaign issues page calls for codifying Roe v. Wade and leaving women’s health decisions to each woman and her doctor.",
+          "quote": "Codify Roe V. Wade and return control of women's health decisions to each woman, her doctor, and her conscience.",
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says healthcare is a human right and supports expanding healthcare access.",
-          "quote": "I believe healthcare is a human right.",
-          "sources": ["s1"]
+          "summary": "Campaign issues page calls for enacting Medicare for All, a universal healthcare system.",
+          "quote": "Enact Medicare for All.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls for ending the current tariffs, citing their effect on prices.",
+          "quote": "End Trump's Tariffs.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for a $25 minimum wage tied to the cost of living.",
+          "quote": "Tie the Minimum to Wage Cost of Living , starting with a $25 Minimum Wage .",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for enacting universal childcare.",
+          "quote": "Enact Universal Childcare so parents can afford to raise their kids and participate in the workforce.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for making corporations and billionaires pay more through closing loopholes, a progressive income tax and a wealth tax.",
+          "quote": "Make corporations and billionaires pay their fair share by closing tax loopholes and instituting a progressive income tax and a wealth tax.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls for abolishing ICE and replacing it with other immigration services.",
+          "quote": "Abolish and Prosecute ICE and replace it with humane, accountable immigration services.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Campaign issues page calls for a Green New Deal to expand renewable energy.",
+          "quote": "Enact a Green New Deal to expand renewable energy initiatives and bring in more jobs.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign About page says she would work to stop school voucher programs.",
+          "quote": "I will fight to protect public schools, stop voucher schemes that drain classrooms of resources",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Campaign issues page calls for legislation ending all U.S. funding to Israel, including the Block the Bombs Act.",
+          "quote": "legislation that will terminate all US funding for the apartheid state of Israel",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://chelseyhockettforcongress.com"
     }
   ],
   "sources": [
@@ -152,6 +300,38 @@
     },
     {
       "id": "s3",
+      "url": "https://gooden.house.gov/our-constitution",
+      "title": "Our Constitution",
+      "publisher": "Office of Congressman Lance Gooden",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s4",
+      "url": "https://gooden.house.gov/healthcare",
+      "title": "Healthcare",
+      "publisher": "Office of Congressman Lance Gooden",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s5",
+      "url": "https://chelseyhockettforcongress.com/issues.html",
+      "title": "Issues",
+      "publisher": "Chelsey Hockett for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://chelseyhockettforcongress.com/about.html",
+      "title": "About",
+      "publisher": "Chelsey Hockett for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
       "url": "https://gooden.house.gov/about",
       "title": "About Lance",
       "publisher": "Congressman Lance Gooden (official House website)",
@@ -159,7 +339,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s4",
+      "id": "s8",
       "url": "https://ballotpedia.org/Chelsey_Hockett",
       "title": "Chelsey Hockett",
       "publisher": "Ballotpedia",
@@ -167,15 +347,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s5",
-      "url": "https://chelseyhockettforcongress.com/about.html",
-      "title": "About",
-      "publisher": "Chelsey Hockett for Congress",
-      "kind": "candidate",
-      "date": "2026-10-21"
-    },
-    {
-      "id": "s6",
+      "id": "s9",
       "url": "https://en.wikipedia.org/wiki/Lance_Gooden",
       "title": "Lance Gooden",
       "publisher": "Wikipedia",

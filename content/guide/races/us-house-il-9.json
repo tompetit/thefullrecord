@@ -30,35 +30,35 @@
         "sources": [
           "s1",
           "s3",
-          "s5"
+          "s10"
         ]
       },
       "background": [
         {
           "text": "Born August 27, 1977, in Akron, Ohio, to a family of professional musicians, and attended Bloomington North High School in Bloomington, Indiana.",
           "sources": [
-            "s5"
+            "s10"
           ]
         },
         {
           "text": "Earned a bachelor's degree in mathematics from Harvard University in 1998 and a Ph.D. in mathematics from the Massachusetts Institute of Technology in 2002.",
           "sources": [
             "s3",
-            "s5"
+            "s10"
           ]
         },
         {
           "text": "Was an assistant professor of mathematics at the University of Chicago from 2002 to 2008, and a Clay Research Fellow from 2002 to 2007.",
           "sources": [
             "s3",
-            "s5"
+            "s10"
           ]
         },
         {
           "text": "Lost a 2008 bid for the Illinois House 17th District, then worked as a policy adviser to Gov. Pat Quinn beginning in 2009.",
           "sources": [
             "s3",
-            "s5"
+            "s10"
           ]
         },
         {
@@ -66,7 +66,7 @@
           "sources": [
             "s2",
             "s3",
-            "s5"
+            "s10"
           ]
         },
         {
@@ -79,27 +79,27 @@
           "text": "Ended a 2015 campaign for state comptroller and endorsed Susana Mendoza. In 2018 he ran for governor and finished second in the Democratic primary with 26.7% to JB Pritzker's 45.1%.",
           "sources": [
             "s3",
-            "s5"
+            "s10"
           ]
         },
         {
           "text": "After leaving the Senate, became executive director of the nonprofit Rust Belt Rising, which aims to train and support Democratic candidates in Great Lakes states, and worked as a clean energy consultant.",
           "sources": [
-            "s5"
+            "s10"
           ]
         },
         {
           "text": "Took office as mayor of Evanston on May 10, 2021, and was re-elected April 1, 2025, with 62.7% of the vote. In June 2026 he announced he would resign on October 18 to trigger a spring special election; this guide did not find confirmation that the resignation has taken effect.",
           "sources": [
-            "s5",
-            "s8"
+            "s10",
+            "s13"
           ]
         },
         {
           "text": "Announced his congressional candidacy in May 2025 for the seat of retiring Rep. Jan Schakowsky, who endorsed him in January 2026, and won the March 17, 2026 Democratic primary with 29.4% of the vote.",
           "sources": [
             "s3",
-            "s5"
+            "s10"
           ]
         }
       ],
@@ -129,19 +129,48 @@
           ]
         },
         {
-          "issue": "immigration_enforcement",
-          "stance": "opposes",
-          "summary": "Says he would stand up to the Trump administration on immigration.",
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Campaign site calls for universal background checks, a federal assault weapons ban, red flag laws and safe storage requirements.",
+          "quote": "Universal Background Checks: No loopholes, no exceptions.",
           "sources": [
-            "s2"
+            "s6"
           ]
         },
         {
-          "issue": "climate",
+          "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Cites having passed stricter carbon-efficiency standards for buildings as a state legislator.",
+          "summary": "Campaign site supports Medicare for All and reversing Medicaid and ACA premium support cuts.",
+          "quote": "We need to pass Medicare for All and deliver the affordable health care people enjoy in nearly every other advanced democracy.",
           "sources": [
-            "s2"
+            "s7"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign site calls for a wealth tax on billionaires, rolling back Trump tax cuts for top earners, and raising the corporate tax rate.",
+          "quote": "We should implement a modest wealth tax on the assets of billionaires and ultra-millionaires to fund the priorities we all care about.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign site calls for ending the Trump tariffs, describing them as a tax on working people.",
+          "quote": "we should get rid of Trump’s ridiculous tariffs, which are simply a tax on working people",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Campaign site says he would work to sunset existing military authorizations and require congressional approval for future military actions.",
+          "quote": "require congressional approval for future military actions",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -169,34 +198,34 @@
         "sources": [
           "s1",
           "s4",
-          "s6"
+          "s11"
         ]
       },
       "background": [
         {
           "text": "Born in Monmouth, Illinois, and graduated from Christian Life College. BallotReady lists a bachelor's degree in theology from the college in 1985.",
           "sources": [
-            "s6",
-            "s7"
+            "s11",
+            "s12"
           ]
         },
         {
           "text": "Works as a pastor; BallotReady lists him as pastor of Lakewood Chapel since 1985 and also lists experience as a donut shop owner and baker. His Ballotpedia profile and 2018 survey list no prior elected office.",
           "sources": [
-            "s6",
-            "s7"
+            "s11",
+            "s12"
           ]
         },
         {
           "text": "Ran as the Republican nominee for the 9th District in 2018 and lost to Jan Schakowsky, 73.5% to 26.5%.",
           "sources": [
-            "s6"
+            "s11"
           ]
         },
         {
           "text": "Won the March 17, 2026 Republican primary with 48.9% of the vote, ahead of Paul Friedman (33.6%), Rocio Cleveland and Mark Su.",
           "sources": [
-            "s6"
+            "s11"
           ]
         },
         {
@@ -234,19 +263,39 @@
           "summary": "Says he supports resourcing and training law enforcement, focused on de-escalation and community trust.",
           "sources": [
             "s4"
+          ],
+          "quote": "supporting law enforcement with resources and training rooted in de-escalation and community trust"
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We need bi-partisan legislation where some are going to get amnesty and some will have to go back to their home country.",
+          "context": "In his WTTW 2026 voter guide answers",
+          "sources": [
+            "s9"
           ]
         },
         {
           "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Says he supports community-first healthcare policies and expanding local clinics without federal overreach.",
+          "quote": "We need bi-partisan legislation that helps the middle class afford health insurance. The poor need it, the elderly need it, the disabled need it.",
+          "context": "In his WTTW 2026 voter guide answers",
           "sources": [
-            "s4"
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Everyone should contribute something, but the higher earners need to pay their fair share.",
+          "context": "In his WTTW 2026 voter guide answers",
+          "sources": [
+            "s9"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "basic"
+      "website": "https://johnelleson.com"
     }
   ],
   "sources": [
@@ -284,6 +333,45 @@
     },
     {
       "id": "s5",
+      "url": "https://danielbiss.com/issues/combating-income-inequality-by-taking-on-wealth-hoarding",
+      "title": "Combating Income Inequality By Taking on Wealth Hoarding",
+      "publisher": "Daniel Biss for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://danielbiss.com/issues/ending-gun-violence-with-common-sense-reform",
+      "title": "Ending Gun Violence with Common Sense Reform",
+      "publisher": "Daniel Biss for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "url": "https://danielbiss.com/issues/lowering-the-cost-of-essentials-putting-working-families-first",
+      "title": "Lowering the Cost of Essentials",
+      "publisher": "Daniel Biss for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://danielbiss.com/issues/a-foreign-policy-rooted-in-peace-democracy-and-global-justice",
+      "title": "A Foreign Policy Rooted in Peace, Democracy, and Global Justice",
+      "publisher": "Daniel Biss for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://news.wttw.com/node/55056",
+      "title": "John Elleson - 2026 General Election Voter Guide",
+      "publisher": "WTTW News",
+      "kind": "news"
+    },
+    {
+      "id": "s10",
       "url": "https://en.wikipedia.org/wiki/Daniel_Biss",
       "title": "Daniel Biss",
       "publisher": "Wikipedia",
@@ -291,7 +379,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s6",
+      "id": "s11",
       "url": "https://ballotpedia.org/John_Elleson",
       "title": "John Elleson",
       "publisher": "Ballotpedia",
@@ -299,7 +387,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s7",
+      "id": "s12",
       "url": "https://www.ballotready.org/people/john-d-elleson",
       "title": "John D. Elleson",
       "publisher": "BallotReady",
@@ -307,7 +395,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s8",
+      "id": "s13",
       "url": "https://dailynorthwestern.com/?p=323571",
       "title": "Biss announces October resignation in State of City address",
       "publisher": "The Daily Northwestern",
@@ -316,5 +404,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Biss has not completed Ballotpedia's 2026 Candidate Connection survey; his key messages are drawn from a campaign advertisement and campaign website as summarized by Ballotpedia staff. Biography gaps: Elleson's pastorate and degree year come from BallotReady, and no campaign site or news profile of his 2026 run was found; Biss's mayoral resignation (announced for Oct. 18, 2026) was reported by local media but not confirmed as completed."
+  "researchNotes": "Biss has not completed Ballotpedia's 2026 Candidate Connection survey; his key messages are drawn from a campaign advertisement and campaign website as summarized by Ballotpedia staff. John Elleson's statements come from his Ballotpedia Candidate Connection survey and WTTW 2026 voter-guide answers; his answers do not directly take a side on most guide issues. Biography gaps: Elleson's pastorate and degree year come from BallotReady, and no campaign site or news profile of his 2026 run was found; Biss's mayoral resignation (announced for Oct. 18, 2026) was reported by local media but not confirmed as completed."
 }

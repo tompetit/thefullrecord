@@ -40,3 +40,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 /.cache
+!.env.example
+scripts/test/.cache/

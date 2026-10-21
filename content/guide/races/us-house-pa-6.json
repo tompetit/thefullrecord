@@ -28,7 +28,7 @@
       "summary": {
         "text": "Chrissy Houlahan is the Democratic incumbent, an Air Force veteran, engineer and business executive who has represented the 6th District since 2019. Her official biography describes her as the first woman to represent the district. She serves on the House Intelligence and Armed Services committees.",
         "sources": [
-          "s4",
+          "s12",
           "s2"
         ]
       },
@@ -37,13 +37,13 @@
           "text": "Born at Naval Air Station Patuxent River, Maryland, in 1967; her official biography says she grew up in a military family.",
           "sources": [
             "s2",
-            "s4"
+            "s12"
           ]
         },
         {
           "text": "Earned an engineering degree from Stanford University (1989) on an ROTC scholarship, and later a master's in technology and policy from MIT.",
           "sources": [
-            "s4",
+            "s12",
             "s2"
           ]
         },
@@ -51,26 +51,26 @@
           "text": "Served in the U.S. Air Force and Air Force Reserves.",
           "sources": [
             "s2",
-            "s4"
+            "s12"
           ]
         },
         {
           "text": "Helped lead AND1, a basketball apparel company based in Paoli, as chief operating officer, and served as chief operating officer of B Lab, the organization that launched the B Corporation movement.",
           "sources": [
-            "s4",
+            "s12",
             "s2"
           ]
         },
         {
           "text": "Taught chemistry at Simon Gratz High School in North Philadelphia through Teach for America, then led a nonprofit that helps underserved students build literacy skills.",
           "sources": [
-            "s4"
+            "s12"
           ]
         },
         {
           "text": "Elected to the U.S. House in 2018; during her first terms served on the Foreign Affairs Committee, where she led bipartisan global malnutrition legislation signed into law in October 2022, according to her official biography.",
           "sources": [
-            "s4",
+            "s12",
             "s2"
           ]
         },
@@ -83,12 +83,67 @@
         {
           "text": "Her official biography lists the Abraham Lincoln Leadership for America Award from the U.S. Chamber of Commerce and three Congressional Management Foundation Democracy Awards.",
           "sources": [
-            "s4"
+            "s12"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her official site calls for background checks on every gun purchase, restoring the assault weapons ban, raising the minimum purchase age to 21 and requiring safe storage.",
+          "quote": "Require a background check for every gun purchase in America, no matter if the gun was sold in a store, at a gun show, or online.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her official site calls for restoring clean-energy tax credits and faster permitting for wind, solar and transmission projects.",
+          "quote": "Restore energy tax credits for things such as electric vehicles and rooftop solar, that help lower monthly energy bills and support U.S. clean energy production.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Her official site calls for repealing the President’s sweeping tariffs and returning to narrow, targeted tariffs on critical industries.",
+          "quote": "Repeal Trump’s sweeping tariffs that make no distinction between America’s allies and adversaries around the globe and have made it harder for businesses to invest in the United States.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her official site calls for strengthening the ACA, Medicare and Medicaid, protecting ACA tax credits and creating a public option.",
+          "quote": "Give people more choice by providing a “public option,” a government run health insurance program",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her official health care page lists protecting women’s reproductive health and reinstating Roe v. Wade among her priorities.",
+          "quote": "Ensure women can choose what’s best for their own bodies – not politicians.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Her official housing page proposes withholding federal funds from states that do not reform restrictive permitting and zoning laws to allow more high-density housing near transit and schools.",
+          "quote": "Increase availability of high-density residential buildings near public transit and schools by withholding federal funds to states which don’t reform restrictive permitting and zoning laws",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Was ranking member of the Intelligence Committee's Defense Intelligence and Overhead Architecture Subcommittee in the 118th Congress (2023-2024).",
@@ -207,7 +262,25 @@
       ],
       "record": [],
       "website": "https://www.voteyoung.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "I believe law enforcement must be properly funded, well-trained, and equipped with the tools they need to prevent violent crime, respond quickly in emergencies, and protect the people they serve.",
+          "context": "On his campaign website",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Energy policy should be guided by what works, not by mandates that ignore real-world consequences.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -235,6 +308,55 @@
     },
     {
       "id": "s4",
+      "url": "https://houlahan.house.gov/Issues/Issue/?IssueID=15138",
+      "title": "Gun Violence",
+      "publisher": "Office of Rep. Chrissy Houlahan",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://houlahan.house.gov/Issues/Issue/?IssueID=14814",
+      "title": "Energy & Environment",
+      "publisher": "Office of Rep. Chrissy Houlahan",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://houlahan.house.gov/Issues/Issue/?IssueID=14891",
+      "title": "Tariffs, Trade and Taxes",
+      "publisher": "Office of Rep. Chrissy Houlahan",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://houlahan.house.gov/Issues/Issue/?IssueID=14896",
+      "title": "Health Care",
+      "publisher": "Office of Rep. Chrissy Houlahan",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://houlahan.house.gov/Issues/Issue/?IssueID=15136",
+      "title": "Housing",
+      "publisher": "Office of Rep. Chrissy Houlahan",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.voteyoung.com/energy",
+      "title": "American Energy That Lowers Costs and Strengthens the Country",
+      "publisher": "Marty Young for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.voteyoung.com/law-and-order",
+      "title": "Law and Order and Public Safety",
+      "publisher": "Marty Young for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
       "url": "https://houlahan.house.gov/about",
       "title": "Biography | U.S. Representative Chrissy Houlahan",
       "publisher": "Office of Rep. Chrissy Houlahan",
@@ -242,5 +364,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Young's positions and biography come from his 2026 Ballotpedia Candidate Connection survey; his campaign website content was not independently reviewed beyond the survey. Federal key votes and FEC totals for Houlahan are added separately by script. Young's biography rests on his Ballotpedia Candidate Connection survey; no independent news profile was reviewed."
+  "researchNotes": "Young's positions and biography come from his 2026 Ballotpedia Candidate Connection survey; his campaign website content was not independently reviewed beyond the survey. Federal key votes and FEC totals for Houlahan are added separately by script. Campaign website pages (affordability, healthcare, housing, energy, public safety, military) reviewed; public-safety statement added. Young's biography rests on his Ballotpedia Candidate Connection survey; no independent news profile was reviewed."
 }

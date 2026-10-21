@@ -35,7 +35,7 @@
         "text": "Brandon Gill is the incumbent Republican U.S. Representative for Texas's 26th District. A Dartmouth graduate who worked in investment banking and as a hedge fund analyst, he founded the DC Enquirer news outlet before winning the 2024 Republican primary and general election. He serves on the Judiciary, Budget and Oversight committees and is seeking a second term.",
         "sources": [
           "s2",
-          "s6"
+          "s8"
         ]
       },
       "background": [
@@ -43,27 +43,27 @@
           "text": "Born in Clovis, New Mexico, in 1994. According to his official biography he was born on a military air force base and raised on a cattle ranch in West Texas; Ballotpedia says he grew up outside Abilene.",
           "sources": [
             "s2",
-            "s6"
+            "s8"
           ]
         },
         {
           "text": "Graduated cum laude from Dartmouth College in 2016 with degrees in economics and history. His official biography says he was president of The Dartmouth Review, the student newspaper, and led the Christian Union campus ministry.",
           "sources": [
             "s2",
-            "s6"
+            "s8"
           ]
         },
         {
           "text": "Began his career in finance as an investment banker and later as an analyst at a hedge fund, according to his official biography.",
           "sources": [
             "s2",
-            "s6"
+            "s8"
           ]
         },
         {
           "text": "Left finance to start the DC Enquirer, which his official biography describes as an America First news outlet; Ballotpedia also lists film producer among his career experience.",
           "sources": [
-            "s6",
+            "s8",
             "s2"
           ]
         },
@@ -77,7 +77,7 @@
           "text": "Took office January 3, 2025. Ballotpedia lists his 2025–2026 committee assignments as Oversight and Government Reform, Judiciary and Budget; his official biography says he serves on Judiciary, Budget and Oversight, including the DOGE Subcommittee.",
           "sources": [
             "s2",
-            "s6"
+            "s8"
           ]
         },
         {
@@ -89,12 +89,40 @@
         {
           "text": "According to his official biography, he is married to Danielle D'Souza Gill, an author, and they live in Flower Mound, Texas, with their two children.",
           "sources": [
-            "s6"
+            "s8"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "His 2024 campaign website, as quoted by Ballotpedia, says he will not give an inch on gun control.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "I will not give an inch on gun control."
+        },
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "His 2024 campaign website, as quoted by Ballotpedia, calls abortion something that needs to be abolished.",
+          "sources": [
+            "s7"
+          ],
+          "quote": "Abortion is an abomination that needs to be abolished."
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His 2024 campaign website, as quoted by Ballotpedia, calls for reinstating \"Remain in Mexico\" and ending \"Catch and Release\".",
+          "sources": [
+            "s7"
+          ],
+          "quote": "Reinstate \"Remain in Mexico\" and end “Catch and Release”."
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform, the House Committee on the Judiciary, and the House Committee on the Budget in the 119th Congress.",
@@ -167,18 +195,29 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says every American deserves affordable, reliable healthcare and that rural hospitals must be kept open.",
+          "summary": "Campaign policy page calls for a step-by-step transition to universal healthcare.",
           "sources": [
-            "s3"
-          ]
+            "s6"
+          ],
+          "quote": "Implement planned step-by step transition to universal healthcare."
         },
         {
-          "issue": "police_funding",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Says he would strengthen public safety through community policing and support local law enforcement.",
+          "summary": "Campaign policy page says he would close loopholes that allow gun sales without background checks and support red-flag laws.",
           "sources": [
-            "s3"
-          ]
+            "s6"
+          ],
+          "quote": "Close loopholes that allow guns to be sold without background checks."
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Campaign policy page says he opposes efforts to direct school funds to voucher programs.",
+          "sources": [
+            "s6"
+          ],
+          "quote": "oppose efforts to drain funds into unaccountable voucher programs"
         }
       ],
       "record": [],
@@ -231,11 +270,36 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "text": "His campaign website (2024 version, as quoted by Ballotpedia) also lists decriminalizing drug use, reducing the cost of healthcare through price transparency, and returning most federal lands to the states.",
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "I do not believe that it is the government’s place to decide this most painful of decisions. That decision is best left to the mother, and her doctor.",
+          "context": "On his campaign website, as quoted by Ballotpedia (2024 version)",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "For the undocumented, let them come out of the shadows, live and work freely. In exchange let them voluntary pay 10% of their earnings to our national debt fund.",
+          "context": "On his campaign website, as quoted by Ballotpedia (2024 version)",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign site text is taken from Ballotpedia's quotation of his 2024 website; his own sites (philgray.org, philgrayforcongress.org) did not load. 2026 wording was not verified. He has not completed a Candidate Connection survey."
     }
   ],
   "sources": [
@@ -276,6 +340,20 @@
     },
     {
       "id": "s6",
+      "url": "https://shookforcongress2026.com/",
+      "title": "Policies & Issues",
+      "publisher": "Steven Shook for Congress 2026",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Brandon_Gill",
+      "title": "Brandon Gill (campaign website text, 2024, quoted by Ballotpedia)",
+      "publisher": "Ballotpedia, quoting the candidate's 2024 campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
       "url": "https://gill.house.gov/about",
       "title": "About Representative Brandon Gill",
       "publisher": "Office of Rep. Brandon Gill",

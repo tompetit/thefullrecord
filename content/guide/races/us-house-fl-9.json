@@ -29,27 +29,27 @@
         "text": "Darren Soto is the Democratic incumbent seeking re-election to Florida's 9th Congressional District. An attorney from Kissimmee, he served in the Florida House and Senate before his election to Congress in 2016, and now serves on the House Energy and Commerce Committee.",
         "sources": [
           "s2",
-          "s7"
+          "s14"
         ]
       },
       "background": [
         {
           "text": "Born in Ringwood, New Jersey, to a Puerto Rican father and an Italian-American mother; attended Lakeland Regional High School.",
           "sources": [
-            "s7"
+            "s14"
           ]
         },
         {
           "text": "Graduated from Rutgers College in 2000 with a B.A. in economics and earned a law degree from George Washington University in 2004.",
           "sources": [
             "s2",
-            "s7"
+            "s14"
           ]
         },
         {
           "text": "Moved to Florida in 2002 while in law school and was admitted to the Florida Bar in 2005; practiced commercial, real estate, family and civil rights law.",
           "sources": [
-            "s7"
+            "s14"
           ]
         },
         {
@@ -62,13 +62,13 @@
           "text": "Served in the Florida House of Representatives (2007-2012), first elected in a 2007 special election, and in the Florida Senate (2012-2016).",
           "sources": [
             "s2",
-            "s7"
+            "s14"
           ]
         },
         {
           "text": "Elected to the U.S. House in 2016; his office describes him as the first congressman of Puerto Rican descent elected to represent Florida.",
           "sources": [
-            "s7"
+            "s14"
           ]
         },
         {
@@ -80,7 +80,7 @@
         {
           "text": "According to his official bio, his H.R. 4528 closing a loophole in the Billfish Conservation Act was signed into law on August 2, 2018, and his H.R. 4042 renaming a Kissimmee post office for the Borinqueneers was signed into law on March 23, 2018.",
           "sources": [
-            "s7"
+            "s14"
           ]
         }
       ],
@@ -112,6 +112,56 @@
           "quote": "In the current Congress, he serves on the Energy & Commerce Committee’s Subcommittee on Environment, where he advocates for renewable energy and electric-vehicle, hybrid, solar, and wind tax credits, among other priorities. He also serves on the Natural Resources Committee, where he works to protect clean energy, advance clean water projects, enhance conservation efforts, and more.",
           "sources": [
             "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His official issues page says he is committed to protecting healthcare and fighting cuts to the Affordable Care Act, Medicare, and Medicaid.",
+          "quote": "Congressman Soto is committed to protecting healthcare and fighting cuts to the Affordable Care Act (ACA), Medicare, and Medicaid.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 12, the Women's Health Protection Act of 2025 (119th Congress), which would protect access to abortion services.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 18, the Bipartisan Background Checks Act of 2025 (119th Congress), which would expand background checks on firearm transfers.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025 (119th Congress), which would raise the federal minimum wage.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 7392 (119th Congress), a bill to impose a hiring freeze on U.S. Immigration and Customs Enforcement.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an October 2026 Central Florida Public Media interview he named tariffs among the main drivers of rising costs.",
+          "quote": "The main drivers of costs right now [are] the tariffs, the war in Iran, and the mass deportations.",
+          "sources": [
+            "s12"
           ]
         }
       ],
@@ -224,7 +274,17 @@
       "positions": [],
       "record": [],
       "website": "https://dangreenfl.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "While we welcome freedom-loving Americans to our great state, overdevelopment has started to push native Floridians out of their communities.",
+          "context": "On his campaign website",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -272,6 +332,55 @@
     },
     {
       "id": "s7",
+      "url": "https://soto.house.gov/issues",
+      "title": "Issues | Congressman Darren Soto",
+      "publisher": "Office of Rep. Darren Soto",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/12",
+      "title": "H.R. 12 - Women's Health Protection Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18 - Bipartisan Background Checks Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2743",
+      "title": "H.R. 2743 - Raise the Wage Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7392",
+      "title": "H.R. 7392 - To impose a hiring freeze on United States Immigration and Customs Enforcement (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.cfpublic.org/politics/2026-10-02/florida-redistricting-darren-soto-against-odds",
+      "title": "In Florida's Ninth, Rep. Darren Soto makes his case against stacked odds",
+      "publisher": "Central Florida Public Media",
+      "kind": "news"
+    },
+    {
+      "id": "s13",
+      "url": "https://dangreenfl.com/",
+      "title": "On the Issues",
+      "publisher": "Dan Green for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
       "url": "https://soto.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Darren Soto",
@@ -279,5 +388,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Soto has not completed Ballotpedia's Candidate Connection survey, so his current stated priorities and issue positions are not documented here. Biography gaps: Green's birth year and civilian employers after the Defense Department were not found in loaded sources."
+  "researchNotes": "Soto has not completed Ballotpedia's Candidate Connection survey, so his current stated priorities and issue positions are not documented here. Dan Green's campaign site lists issue headings with short descriptions; most do not take a side on the guide's issue statements. Biography gaps: Green's birth year and civilian employers after the Defense Department were not found in loaded sources."
 }

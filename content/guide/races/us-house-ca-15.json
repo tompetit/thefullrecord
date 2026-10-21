@@ -31,8 +31,8 @@
         "text": "Kevin Mullin is the Democratic incumbent for California's 15th Congressional District on the San Francisco Peninsula. A San Mateo County native, he ran a small communications business, served on the South San Francisco City Council and as mayor, and spent a decade in the California State Assembly, where he was Speaker pro Tem. He was first elected to Congress in 2022 and serves on the Energy and Commerce Committee.",
         "sources": [
           "s2",
-          "s9",
-          "s10"
+          "s10",
+          "s11"
         ]
       },
       "background": [
@@ -40,40 +40,40 @@
           "text": "Born in San Mateo County, California; his official biography calls him a fourth-generation Californian and San Mateo County native, and says he is the son of a high school government teacher.",
           "sources": [
             "s2",
-            "s9"
+            "s10"
           ]
         },
         {
           "text": "Graduated from Junipero Serra High School in San Mateo. Earned a bachelor's degree in communications from the University of San Francisco and a master's degree in public administration from San Francisco State University; his official biography also says he studied leadership at Harvard's Kennedy School of Government.",
           "sources": [
             "s2",
-            "s9"
+            "s10"
           ]
         },
         {
           "text": "Worked as an aide to Jackie Speier when she was a state legislator, and was a local small communications business owner (founder of KM2 Communications) and television host and commentator, according to his official biography.",
           "sources": [
             "s2",
-            "s9"
+            "s10"
           ]
         },
         {
           "text": "Served on the South San Francisco City Council from 2007 to 2012, including a term as mayor in 2011.",
           "sources": [
-            "s9"
+            "s10"
           ]
         },
         {
           "text": "Represented San Mateo County in the California State Assembly from 2012 to 2022 and was Speaker pro Tem from 2014 until he left, which his office describes as the longest tenure in that role in the modern era.",
           "sources": [
-            "s9",
+            "s10",
             "s2"
           ]
         },
         {
           "text": "According to his official biography, had more than 60 bills signed into law as an assemblymember, including the DISCLOSE Act and Social Media DISCLOSE Act on political advertising disclosure, and helped create a $3.7 billion climate resilience package.",
           "sources": [
-            "s9"
+            "s10"
           ]
         },
         {
@@ -91,14 +91,14 @@
         {
           "text": "In the 119th Congress, serves on the House Committee on Energy and Commerce, including its Commerce, Manufacturing, and Trade; Energy; and Oversight and Investigations subcommittees. In the 118th Congress he served on the Natural Resources and Science, Space, and Technology committees.",
           "sources": [
-            "s10",
+            "s11",
             "s2"
           ]
         },
         {
           "text": "His official biography says he is hard of hearing and wears hearing aids and has advocated for the deaf and hard-of-hearing community; he lives in the Bay Area with his wife Jessica and their twin sons.",
           "sources": [
-            "s9"
+            "s10"
           ]
         }
       ],
@@ -267,11 +267,47 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "In his Ballotpedia Candidate Connection survey, one of his three key campaign messages is the quoted line, which this guide reads as support for barring transgender girls and women from women's and girls' school sports.",
+          "quote": "Working on keeping men out of women sports",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.hoelterforuscongress.com",
       "researchDepth": "basic",
-      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey, endorsed by the San Mateo County Republican Party. His survey answers and campaign-site issue pages do not directly address any of the 15 tracked issue statements, so no positions are listed."
+      "researchNotes": "Completed Ballotpedia's 2026 Candidate Connection survey, endorsed by the San Mateo County Republican Party. Campaign-site 'Our Plan for Change' text (third-person) gives general statements on border security, law enforcement and the right to bear arms; his dedicated issue pages contain no detail, so no stances beyond transgender sports are recorded.",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Charles believes immigration should be legal, fair, and controlled. A secure border is a national security issue and must be treated as one",
+          "context": "On his campaign website (written in the third person)",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Charles supports law enforcement and believes in policies that protect communities and hold criminals accountable.",
+          "context": "On his campaign website (written in the third person)",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "Charles will always defend the Constitution, including freedom of speech, religious liberty, and the right to bear arms.",
+          "context": "On his campaign website (written in the third person)",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -335,13 +371,21 @@
     },
     {
       "id": "s9",
+      "url": "https://www.hoelterforuscongress.com/campaignss/secure-borders-and-fair-immigration-policies/",
+      "title": "Our Plan for Change",
+      "publisher": "Charles Hoelter for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
       "url": "https://kevinmullin.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Kevin Mullin",
       "kind": "official"
     },
     {
-      "id": "s10",
+      "id": "s11",
       "url": "https://kevinmullin.house.gov/about/committees-and-caucuses",
       "title": "Committees and Caucuses",
       "publisher": "Office of Rep. Kevin Mullin",

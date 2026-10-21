@@ -10,92 +10,160 @@
   "context": [
     {
       "text": "Graham Platner won the June 9, 2026 Democratic ranked-choice primary (72.1% in round 1) but withdrew from the race. A Democratic convention was held July 25, 2026 to fill the vacancy; Troy Dale Jackson won that convention and appears on the general-election ballot as the Democratic nominee.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Susan Collins won the Republican primary unopposed after other candidates withdrew.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Several other candidates are certified write-in candidates for the general election: Sigrid Ann Olson (D), Ashley Webb (D), Joseph Steinberger (Faith in Humanity Party), Brent Andrews (Unaffiliated), Michael Turcotte (Unenrolled), and Gina Oswald (Independent). None of these appear pre-printed on the ballot; voters must write in their names.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "susan-collins",
       "name": "Susan Collins",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Senator (since 1997)",
       "summary": {
         "text": "Susan Collins is the Republican U.S. Senator from Maine, first elected in 1996 and now in her fifth term. A native of Caribou, she worked for Sen. William Cohen, held Maine and federal appointive posts and ran unsuccessfully for governor in 1994 before entering the Senate. She chairs the Senate Appropriations Committee and is seeking a sixth term.",
-        "sources": ["s5", "s6", "s1"]
+        "sources": [
+          "s13",
+          "s14",
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born December 7, 1952, in Caribou, Maine, one of six children; her family runs a lumber business founded in 1844, and both parents served as mayor of Caribou. She graduated from Caribou High School in 1971.",
-          "sources": ["s5"]
+          "sources": [
+            "s13"
+          ]
         },
         {
           "text": "Graduated Phi Beta Kappa from St. Lawrence University in 1975.",
-          "sources": ["s5"]
+          "sources": [
+            "s13"
+          ]
         },
         {
           "text": "Began working for Maine Rep. William Cohen in 1975 and stayed on his staff when he was elected to the Senate, becoming staff director of the Oversight of Government Management Subcommittee of the Committee on Governmental Affairs.",
-          "sources": ["s5"]
+          "sources": [
+            "s13"
+          ]
         },
         {
           "text": "Appointed Commissioner of the Maine Department of Professional and Financial Regulation by Gov. John McKernan in 1987, and director of the Small Business Administration's New England regional office by President George H.W. Bush in 1992.",
-          "sources": ["s5", "s6"]
+          "sources": [
+            "s13",
+            "s14"
+          ]
         },
         {
           "text": "Served as a deputy state treasurer of Massachusetts in 1993 (Wikipedia). She was the Republican nominee for governor of Maine in 1994, the first woman nominated by a major party for the post, finishing third with 23% of the vote.",
-          "sources": ["s6"]
+          "sources": [
+            "s14"
+          ]
         },
         {
           "text": "Became founding executive director of the Center for Family Business at Husson College (now Husson University) in 1994.",
-          "sources": ["s5"]
+          "sources": [
+            "s13"
+          ]
         },
         {
           "text": "Elected to the U.S. Senate in 1996, succeeding Cohen, and re-elected in 2002, 2008, 2014 and 2020; her Senate biography says she was the first Republican woman to win a fifth term.",
-          "sources": ["s5"]
+          "sources": [
+            "s13"
+          ]
         },
         {
           "text": "Chairs the Senate Appropriations Committee (since January 2025) and also serves on the Health, Education, Labor, and Pensions and Intelligence committees. Her Senate biography says she has cast more than 10,000 consecutive votes.",
-          "sources": ["s5", "s6"]
+          "sources": [
+            "s13",
+            "s14"
+          ]
         },
         {
           "text": "According to her Senate biography, she is married to Thomas A. Daffron and lives in Bangor, Maine.",
-          "sources": ["s5"]
+          "sources": [
+            "s13"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaigned on her experience and seniority in the Senate, citing her role as Chairman of the Senate Appropriations Committee.",
           "quote": "As Chairman of the Senate Appropriations Committee, Susan has secured millions of dollars in federal investments for workforce development and training programs.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
-          "stance": "mixed",
-          "summary": "Her campaign cites legislation to make certain Medicare telehealth flexibilities permanent as an effort to expand access to care, short of a broader public coverage expansion.",
-          "quote": "She has led efforts to expand access to care including legislation to make key telehealth flexibilities permanent through Medicare so patients can connect with providers from home, reducing barriers for patients and providers.",
-          "sources": ["s1"]
+          "stance": "supports",
+          "summary": "In December 2025 Collins joined Sen. Moreno in introducing the CARE Act, which extends the enhanced ACA premium tax credits for two years while adding an income cap and a $25 minimum monthly premium.",
+          "quote": "extending the Affordable Care Act enhanced premium tax credits for two years and putting a reasonable income cap on these subsidies",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "In 2022 Collins and Sen. Murkowski introduced the Reproductive Choice Act to codify the abortion rights established by Roe v. Wade and Planned Parenthood v. Casey; Collins said she supports those rights.",
+          "quote": "I support the abortion rights established by Roe v. Wade and affirmed by Planned Parenthood v. Casey.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Collins cosponsored the Trade Review Act of 2025, which would end new tariffs after 60 days unless Congress approves them, and said tariffs on Canada often harm Maine's economy and consumers.",
+          "quote": "these tariffs often harm Maine's economy and consumers",
+          "sources": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "In an April 2026 statement on her vote for a resolution directing removal of U.S. forces from hostilities against Iran, Collins said the Constitution gives Congress an essential role in decisions of war and peace.",
+          "quote": "The Constitution gives Congress an essential role in decisions of war and peace",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [
         {
           "text": "Author of the Social Security Fairness Act, which was signed into law in 2025.",
           "kind": "bill",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Serves as Chairman of the Senate Appropriations Committee.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "website": "https://www.collins.senate.gov",
@@ -105,95 +173,163 @@
     {
       "id": "troy-dale-jackson",
       "name": "Troy Dale Jackson",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "currentRole": "Former Maine State Senator (2016-2024)",
       "ballotNote": "Won the July 25, 2026 Democratic convention held to fill the nomination after Graham Platner's withdrawal.",
       "summary": {
         "text": "Troy Jackson is the Democratic nominee for U.S. Senate in Maine, chosen at a July 25, 2026 party convention after Graham Platner withdrew. A fifth-generation logger from Allagash, he served in the Maine House (2002 to 2008) and Maine Senate (2008 to 2014 and 2016 to 2024), including as Senate majority leader and Senate president. He finished third in the 2026 Democratic primary for governor.",
-        "sources": ["s7", "s8", "s1"]
+        "sources": [
+          "s15",
+          "s16",
+          "s1"
+        ]
       },
       "background": [
         {
           "text": "Born June 26, 1968, in Fort Kent, Maine, and raised in Allagash; his father was a logger and his mother a teacher.",
-          "sources": ["s8"]
+          "sources": [
+            "s16"
+          ]
         },
         {
           "text": "Earned an associate degree from the University of Maine at Fort Kent in 2000.",
-          "sources": ["s7", "s8"]
+          "sources": [
+            "s15",
+            "s16"
+          ]
         },
         {
           "text": "Began logging at 19, the fifth generation of his family in the industry; in 1998 he helped lead a one-week blockade of the Maine-Canada border by loggers protesting the hiring of temporary Canadian workers.",
-          "sources": ["s8"]
+          "sources": [
+            "s16"
+          ]
         },
         {
           "text": "Lost a 2000 Maine House race as a Republican, then won District 151 in 2002 as an independent and switched to the Democratic Party in 2004. He served in the Maine House from 2002 to 2008, chairing the Fisheries and Wildlife Committee.",
-          "sources": ["s7", "s8"]
+          "sources": [
+            "s15",
+            "s16"
+          ]
         },
         {
           "text": "Elected to the Maine Senate in 2008 and served until 2014, becoming majority leader in 2013. He lost the 2014 Democratic primary for Maine's 2nd Congressional District to Emily Cain, 79% to 21%.",
-          "sources": ["s7", "s8"]
+          "sources": [
+            "s15",
+            "s16"
+          ]
         },
         {
           "text": "Returned to the Maine Senate in 2016, serving as minority leader and then Senate president from 2018; he left in 2024 due to term limits. As president he sponsored measures on prescription drug costs, universal free school meals and child care.",
-          "sources": ["s7", "s8"]
+          "sources": [
+            "s15",
+            "s16"
+          ]
         },
         {
           "text": "Elected to the Democratic National Committee in 2015. In the 2026 Democratic primary for governor he finished third in the first round and was eliminated; Hannah Pingree won.",
-          "sources": ["s8", "s7"]
+          "sources": [
+            "s16",
+            "s15"
+          ]
         },
         {
           "text": "Won the July 25, 2026 Democratic convention to replace Graham Platner, who withdrew on July 10, 2026.",
-          "sources": ["s7"]
+          "sources": [
+            "s15"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaigns on an economic-populist message centered on his working-class background.",
           "quote": "I've spent my life fighting that same rigged system—from the logging woods to the Maine Senate. I'm running to carry forward Maine's working-class movement, defeat Susan Collins and give people a senator who will fight like hell for them—not the wealthy and well-connected.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Supports Medicare for All and says it would let the government negotiate lower drug prices and end insurers' power to deny care.",
-          "quote": "I will vote for Medicare for All so every American can receive the care they need without premiums, deductibles, medical debt or fear of bankruptcy.",
-          "sources": ["s1"]
+          "summary": "Jackson's campaign priorities page lists passing Medicare for all.",
+          "quote": "Pass Medicare for all.",
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
-          "summary": "Supports abolishing ICE and replacing it with a civilian immigration agency, opposing current enforcement practices.",
-          "quote": "Immigration services should be handled by a humane, civilian agency that respects due process and keeps families together; serious cross-border crime can be investigated by accountable federal law enforcement. We need comprehensive immigration reform—not masked raids, detention quotas and fear.",
-          "sources": ["s1"]
+          "summary": "Jackson's campaign priorities page lists dismantling and abolishing ICE.",
+          "quote": "Dismantle and abolish ICE.",
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "As Maine Senate President, voted yes on final enactment of LD 2224, which expanded background-check requirements for private gun sales and revised the state's \"yellow flag\" law after the October 2023 Lewiston mass shooting; the Senate passed it 18-15 on April 17, 2024.",
           "basis": "votes",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Jackson's campaign priorities page lists taxing billionaires and making corporations pay their fair share.",
+          "quote": "Tax the billionaires",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Jackson's campaign priorities page lists passing a federal right to abortion.",
+          "quote": "Pass a federal right to abortion.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Jackson's campaign priorities page says no U.S. tax dollars should go to Israel's military.",
+          "quote": "No U.S. tax dollars to Israel's military.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "record": [
         {
           "text": "Served as Democratic leader and Senate President during his tenure in the Maine Senate (2008-2014, 2016-2024).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Voted yes on LD 2224 (expanding background-check requirements for private gun sales and revising the state's \"yellow flag\" law), which passed the Senate 18-15 on April 17, 2024.",
           "date": "2024-04-17",
           "kind": "vote",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Voted yes on LD 1964 (establishing a state paid family and medical leave program funded by a payroll tax), which the Senate advanced 22-12 on June 21, 2023.",
           "date": "2023-06-21",
           "kind": "vote",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -201,152 +337,224 @@
     {
       "id": "ashley-webb",
       "name": "Ashley Webb",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Certified write-in candidate; not pre-printed on the general-election ballot.",
       "summary": {
         "text": "Ashley Webb is an independent artist, published author and patient advocate from Farmington, Maine, running as a certified write-in Democratic candidate for U.S. Senate. She sought the Democratic nomination after Graham Platner withdrew and took part in a televised debate before the party chose Troy Jackson.",
-        "sources": ["s2", "s10", "s9"]
+        "sources": [
+          "s2",
+          "s18",
+          "s17"
+        ]
       },
       "background": [
         {
           "text": "Describes herself as an independent artist, published author and patient advocate from Farmington, Maine.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Sought the Democratic nomination to replace Graham Platner and took part in one televised debate for it; Ballotpedia says she lost at the July 25, 2026 convention, which Troy Jackson won.",
-          "sources": ["s10", "s9"]
+          "sources": [
+            "s18",
+            "s17"
+          ]
         },
         {
           "text": "Filed as a declared write-in candidate for the November 2026 general election; the race uses ranked-choice voting.",
-          "sources": ["s10"]
+          "sources": [
+            "s18"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Prioritizes healthcare reform focused on patients, drawing on her experience as a patient advocate.",
           "quote": "I've spent years navigating a healthcare system that too often protects itself before it protects the people it serves, and I'll bring that firsthand knowledge to fighting for reimbursement and staffing models that give clinicians real time with patients.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Proposes a new highway corridor connecting Farmington and Skowhegan to the interstate system to address rural infrastructure gaps in Franklin and Somerset counties.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign website describes a proposed Women's Health Earned Income Credit funded by closing tax loopholes for high-net-worth individuals and raising billionaire tax rates.",
+          "quote": "funded entirely by closing high-net-worth tax loopholes and spiking billionaire tax rates",
+          "sources": [
+            "s11"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "Write-in candidate; positions drawn from her Ballotpedia Candidate Connection survey."
+      "researchNotes": "Write-in candidate; positions drawn from her Ballotpedia Candidate Connection survey and the Mission Statement page of her campaign website (truthpointusa.com). Her survey and 'My Platform' page cover healthcare accountability, rural infrastructure and foreign policy in terms that do not squarely answer the guide's other issue statements, so no other stances or statements were added."
     },
     {
       "id": "sigrid-ann-olson",
       "name": "Sigrid Ann Olson",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Certified write-in candidate; not pre-printed on the general-election ballot.",
       "summary": {
         "text": "Sigrid Ann Olson is a certified write-in Democratic candidate for U.S. Senate in Maine, listed by Spectrum News as living in Cape Elizabeth. No campaign website, statements or Ballotpedia survey were found.",
-        "sources": ["s10", "s11"]
+        "sources": [
+          "s18",
+          "s19"
+        ]
       },
       "background": [
         {
           "text": "Listed as a Democrat from Cape Elizabeth on the list of declared write-in candidates reported by Spectrum News; Ballotpedia has no biographical information.",
-          "sources": ["s10", "s11"]
+          "sources": [
+            "s18",
+            "s19"
+          ]
         }
       ],
       "priorities": [],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements found; checked Ballotpedia and Maine news coverage of the six write-in filings (Maine Morning Star, Maine Wire, Bangor Daily News)."
     },
     {
       "id": "joseph-steinberger",
       "name": "Joseph Steinberger",
-      "parties": ["Faith in Humanity Party"],
+      "parties": [
+        "Faith in Humanity Party"
+      ],
       "incumbent": false,
       "ballotNote": "Certified write-in candidate; not pre-printed on the general-election ballot.",
       "summary": {
         "text": "Joseph Steinberger is a certified write-in candidate for U.S. Senate in Maine on the Faith in Humanity Party line, listed by Spectrum News as living in Rockland. No campaign website, statements or Ballotpedia survey were found.",
-        "sources": ["s10", "s12"]
+        "sources": [
+          "s18",
+          "s20"
+        ]
       },
       "background": [
         {
           "text": "Listed as a Faith in Humanity candidate from Rockland on the list of declared write-in candidates reported by Spectrum News; Ballotpedia has no biographical information.",
-          "sources": ["s10", "s12"]
+          "sources": [
+            "s18",
+            "s20"
+          ]
         }
       ],
       "priorities": [],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements found; checked Ballotpedia and Maine news coverage of the six write-in filings (Maine Morning Star, Maine Wire, Bangor Daily News)."
     },
     {
       "id": "brent-andrews",
       "name": "Brent Andrews",
-      "parties": ["Unaffiliated"],
+      "parties": [
+        "Unaffiliated"
+      ],
       "incumbent": false,
       "ballotNote": "Certified write-in candidate; not pre-printed on the general-election ballot.",
       "summary": {
         "text": "Brent Andrews is a certified write-in unaffiliated candidate for U.S. Senate in Maine, listed by Spectrum News as living in York. No campaign website, statements or Ballotpedia profile were found.",
-        "sources": ["s10"]
+        "sources": [
+          "s18"
+        ]
       },
       "background": [
         {
           "text": "Listed as an unaffiliated candidate from York on the list of declared write-in candidates reported by Spectrum News; no further biographical information was found.",
-          "sources": ["s10"]
+          "sources": [
+            "s18"
+          ]
         }
       ],
       "priorities": [],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements found; checked Ballotpedia and Maine news coverage of the six write-in filings (Maine Morning Star, Maine Wire, Bangor Daily News)."
     },
     {
       "id": "michael-turcotte",
       "name": "Michael Turcotte",
-      "parties": ["Unenrolled"],
+      "parties": [
+        "Unenrolled"
+      ],
       "incumbent": false,
       "ballotNote": "Certified write-in candidate; not pre-printed on the general-election ballot.",
       "summary": {
         "text": "Michael Turcotte is a certified write-in unenrolled candidate for U.S. Senate in Maine, listed by Spectrum News as living in Burnham. No campaign website or Ballotpedia profile were found.",
-        "sources": ["s10"]
+        "sources": [
+          "s18"
+        ]
       },
       "background": [
         {
           "text": "Listed as an unenrolled candidate from Burnham on the list of declared write-in candidates reported by Spectrum News; no further biographical information was found.",
-          "sources": ["s10"]
+          "sources": [
+            "s18"
+          ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "In announcing his campaign, cited healthcare costs, housing, food prices, Social Security, immigration and economic security as concerns.",
+          "quote": "Washington produces conflict and instability while families are dealing with healthcare costs, housing, food prices, Social Security, immigration, and basic economic security",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website or issue statements found; only a campaign-announcement statement quoted by The Maine Wire. It names issue areas but takes no side on the guide's issue statements."
     },
     {
       "id": "gina-oswald",
       "name": "Gina Oswald",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Certified write-in candidate; not pre-printed on the general-election ballot.",
       "summary": {
         "text": "Gina Oswald is a certified write-in independent candidate for U.S. Senate in Maine, listed by Spectrum News as living in Strong. No campaign website, statements or Ballotpedia survey were found.",
-        "sources": ["s10", "s13"]
+        "sources": [
+          "s18",
+          "s21"
+        ]
       },
       "background": [
         {
           "text": "Listed as an independent candidate from Strong on the list of declared write-in candidates reported by Spectrum News; Ballotpedia has no biographical information.",
-          "sources": ["s10", "s13"]
+          "sources": [
+            "s18",
+            "s21"
+          ]
         }
       ],
       "priorities": [],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, survey responses, or public statements found."
+      "researchNotes": "No campaign website, Ballotpedia Candidate Connection survey, or public statements found; checked Ballotpedia and Maine news coverage of the six write-in filings (Maine Morning Star, Maine Wire, Bangor Daily News)."
     }
   ],
   "sources": [
@@ -383,41 +591,98 @@
     },
     {
       "id": "s5",
+      "url": "https://www.collins.senate.gov/newsroom/senators-collins-moreno-unveil-legislation-to-extend-and-reform-enhanced-aca-premium-tax-credits",
+      "title": "Senators Collins, Moreno Unveil Legislation to Extend and Reform Enhanced ACA Premium Tax Credits",
+      "publisher": "Office of Sen. Susan Collins",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.collins.senate.gov/newsroom/senators-collins-and-murkowski-introduce-bill-to-codify-supreme-court-decisions-on-reproductive-rights_roe-v-wade-and-planned-parenthood-v-casey",
+      "title": "Senators Collins and Murkowski Introduce Bill to Codify Supreme Court Decisions on Reproductive Rights",
+      "publisher": "Office of Sen. Susan Collins",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.collins.senate.gov/newsroom/senator-collins-joins-bipartisan-group-in-introducing-bill-to-reassert-congressional-authority-over-tariffs",
+      "title": "Senator Collins Joins Bipartisan Group in Introducing Bill to Reassert Congressional Authority Over Tariffs",
+      "publisher": "Office of Sen. Susan Collins",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.collins.senate.gov/newsroom/senator-collins-statement-on-scotus-striking-down-emergency-tariffs",
+      "title": "Senator Collins' Statement on SCOTUS Striking Down Emergency Tariffs",
+      "publisher": "Office of Sen. Susan Collins",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.collins.senate.gov/newsroom/senator-collins-statement-on-her-vote-to-end-hostilities-in-iran-ahead-of-60-day-deadline",
+      "title": "Senator Collins' Statement on Her Vote to End Hostilities in Iran Ahead of 60-Day Deadline",
+      "publisher": "Office of Sen. Susan Collins",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.jacksonformaine.com/priorities",
+      "title": "Troy's priorities in the Senate — Troy Jackson for Maine",
+      "publisher": "Troy Jackson for Maine (campaign)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.truthpointusa.com/mission-statement",
+      "title": "\"The Power of the 99%\" (Mission Statement)",
+      "publisher": "Ashley J. Webb for U.S. Senate (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.themainewire.com/2026/08/six-write-in-candidates-complicate-maines-u-s-senate-race-trigger-ranked-choice-voting/",
+      "title": "Six Write-In Candidates Complicate Maine's U.S. Senate Race, Trigger Ranked-Choice Voting",
+      "publisher": "The Maine Wire",
+      "kind": "news",
+      "date": "2026-08"
+    },
+    {
+      "id": "s13",
       "url": "https://www.collins.senate.gov/about",
       "title": "About Susan",
       "publisher": "Office of Sen. Susan Collins",
       "kind": "official"
     },
     {
-      "id": "s6",
+      "id": "s14",
       "url": "https://en.wikipedia.org/wiki/Susan_Collins",
       "title": "Susan Collins",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s7",
+      "id": "s15",
       "url": "https://ballotpedia.org/Troy_Jackson",
       "title": "Troy Dale Jackson",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s8",
+      "id": "s16",
       "url": "https://en.wikipedia.org/wiki/Troy_Jackson",
       "title": "Troy Jackson",
       "publisher": "Wikipedia",
       "kind": "reference"
     },
     {
-      "id": "s9",
+      "id": "s17",
       "url": "https://ballotpedia.org/Ashley_Webb",
       "title": "Ashley Webb",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s10",
+      "id": "s18",
       "url": "https://spectrumnewsnecn.com/necn/maine/politics/2026/08/26/maine-s-u-s--senate-race-to-include-6-write-in-candidates--triggering-ranked-choice-voting",
       "title": "Maine's U.S. Senate race to include 6 write-in candidates, triggering ranked-choice voting",
       "publisher": "Spectrum News",
@@ -425,21 +690,21 @@
       "date": "2026-08-26"
     },
     {
-      "id": "s11",
+      "id": "s19",
       "url": "https://ballotpedia.org/Sigrid_Ann_Olson",
       "title": "Sigrid Ann Olson",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s12",
+      "id": "s20",
       "url": "https://ballotpedia.org/Joseph_Steinberger",
       "title": "Joseph Steinberger",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
-      "id": "s13",
+      "id": "s21",
       "url": "https://ballotpedia.org/Gina_Oswald",
       "title": "Gina Oswald",
       "publisher": "Ballotpedia",

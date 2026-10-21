@@ -30,9 +30,9 @@
         "sources": [
           "s1",
           "s2",
-          "s5",
+          "s11",
           "s6",
-          "s7"
+          "s12"
         ]
       },
       "background": [
@@ -51,15 +51,15 @@
         {
           "text": "Worked for years in government offices: in the district for former Assemblymember Phil Goldfeder, for former Comptroller Scott Stringer, and for the past several years as lead senior liaison in the City Council Speaker's Office, according to the Queens Chronicle. The Queens Daily Eagle describes him as a longtime political staffer who worked in the City Council and the comptroller's office.",
           "sources": [
-            "s5",
-            "s7"
+            "s11",
+            "s12"
           ]
         },
         {
           "text": "Was appointed by the Adams administration to the city Commission on Racial Equity, on which he serves according to the Queens Chronicle; the Chronicle reports he has focused on civil rights issues and combating hate crimes.",
           "sources": [
-            "s5",
-            "s7"
+            "s11",
+            "s12"
           ]
         },
         {
@@ -73,7 +73,7 @@
           "text": "Launched his Assembly campaign in January 2026 with the endorsement of outgoing Assemblymember Stacey Pheffer Amato, who has said she will not seek re-election. He won the June 23, 2026 Democratic primary over attorney Mike Scala, 60.6% to 38.9%, according to Ballotpedia.",
           "sources": [
             "s2",
-            "s5"
+            "s11"
           ]
         },
         {
@@ -81,7 +81,7 @@
           "sources": [
             "s2",
             "s3",
-            "s7"
+            "s12"
           ]
         }
       ],
@@ -108,26 +108,53 @@
       ],
       "positions": [
         {
-          "issue": "housing_supply",
-          "stance": "opposes",
-          "summary": "Says residents deserve a real say in what gets built in their neighborhood and that he will oppose overdevelopment, focusing instead on property-tax relief and homeowner protections.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "police_funding",
           "stance": "supports",
-          "summary": "Says public safety starts with holding repeat offenders accountable and that he will push to give law enforcement the tools they need to keep neighborhoods safe.",
-          "quote": "Public safety matters. Pesach supports law enforcement, believes repeat offenders should be held accountable, and will push for real mental health solutions that make communities safer for everyone.",
+          "summary": "His campaign site says he will advocate for full funding and proper staffing levels for the NYPD.",
+          "quote": "Advocate for full funding and proper staffing levels for the NYPD",
           "sources": [
-            "s2"
+            "s5"
           ]
         }
       ],
       "record": [],
       "website": "https://www.pesachosina.com/",
-      "researchDepth": "full"
+      "researchDepth": "full",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "Oppose one-size-fits-all policies that override community input",
+          "context": "On his campaign site, under 'Protecting Community Input' (\"Pesach will:\")",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Expand childcare tax credits so middle-class families actually qualify",
+          "context": "On his campaign site, under 'Making Childcare More Affordable' (\"Pesach will:\")",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Oppose new taxes that make it harder to live and work in New York",
+          "context": "On his campaign site, under 'Expanding Middle-Class Tax Relief' (\"Pesach will:\")",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "Push to lower out-of-pocket costs, including premiums and co-pays",
+          "context": "On his campaign site, under 'Lowering Healthcare & Prescription Costs' (\"Pesach will:\")",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from the issue pages of his campaign site (affordability, public safety, housing, seniors, transportation). He does not state a position on the other listed issues there."
     },
     {
       "id": "thomas-sullivan",
@@ -220,25 +247,37 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
+          "issue": "police_funding",
           "stance": "supports",
-          "summary": "Lists securing the border and enforcing immigration laws among the issues he will use his background to address, and names illegal immigration among the state's greatest challenges over the next decade.",
+          "summary": "His campaign site says he will fight to ensure local police have the resources they need and will work to secure funding for first responders.",
+          "quote": "Tom will fight to ensure our local police have the resources they need, invest in modern technology and equipment for law enforcement, and push to rebuild and modernize aging police precincts so our officers have safe, professional facilities to serve from.",
           "sources": [
-            "s4"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says high taxes and burdensome regulations harm small-business owners and lists lowering taxes among his top campaign priorities.",
-          "sources": [
-            "s4"
+            "s7"
           ]
         }
       ],
       "record": [],
       "researchDepth": "full",
-      "researchNotes": "Sullivan's positions and background are drawn from his 2024 Ballotpedia Candidate Connection survey (his most recent), completed when he ran for this same seat; no updated 2026 survey or campaign website content could be located, and no prior officeholding record exists since he has not previously held elected office."
+      "researchNotes": "Positions and statements come from the Issues page of his campaign site (sullivanforstateassembly.com), plus his 2024 Ballotpedia Candidate Connection survey (priorities). The campaign site is written in the third person. No prior officeholding record exists since he has not previously held elected office. No stance found on the other listed issues.",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "He will also work to make healthcare more affordable by supporting greater transparency, accountability, and policies that help lower costs for families.",
+          "context": "On his campaign site, under Healthcare",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "has signed the Taxpayer Protection Pledge, promising to oppose and vote against tax increases",
+          "context": "On his campaign site (third-person text), in a passage on taxes",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "website": "https://www.sullivanforstateassembly.com/"
     }
   ],
   "sources": [
@@ -274,7 +313,45 @@
       "date": "2024"
     },
     {
-      "id": "s5",
+      "url": "https://www.pesachosina.com/issues/publicsafety",
+      "title": "Public Safety",
+      "publisher": "Osina for NY (campaign site)",
+      "kind": "candidate",
+      "id": "s5"
+    },
+    {
+      "url": "https://www.sullivanforstateassembly.com/detailed-issues",
+      "title": "Issues",
+      "publisher": "Sullivan for State Assembly (campaign site)",
+      "kind": "candidate",
+      "id": "s7"
+    },
+    {
+      "url": "https://www.pesachosina.com/issues/affordability",
+      "title": "Lowering Costs",
+      "publisher": "Osina for NY (campaign site)",
+      "kind": "candidate",
+      "date": "2026-10-19",
+      "id": "s8"
+    },
+    {
+      "url": "https://www.pesachosina.com/issues/housing",
+      "title": "Responsible Housing",
+      "publisher": "Osina for NY (campaign site)",
+      "kind": "candidate",
+      "date": "2026-10-19",
+      "id": "s9"
+    },
+    {
+      "url": "https://www.pesachosina.com/issues/seniors",
+      "title": "Protecting Seniors & Retirees",
+      "publisher": "Osina for NY (campaign site)",
+      "kind": "candidate",
+      "date": "2026-10-19",
+      "id": "s10"
+    },
+    {
+      "id": "s11",
       "kind": "news",
       "url": "https://queenseagle.com/all/2026/1/14/osina-launches-campaign-with-pheffer-amatos-backing",
       "title": "Osina launches campaign with Pheffer Amato’s backing",
@@ -290,7 +367,7 @@
       "date": "2026-06-17"
     },
     {
-      "id": "s7",
+      "id": "s12",
       "kind": "news",
       "url": "https://www.qchron.com/editions/south/osina-is-focused-on-unity-affordability/article_b70e68f1-e6e0-593e-a556-74fdd918a04c.html",
       "title": "Osina is focused on unity, affordability",

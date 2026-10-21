@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { getKeyVoteDefs } from "@/server/guide/load";
 import { ISSUES, type GuideCandidate, type GuideRace } from "@/server/guide/types";
 import {
@@ -20,9 +19,9 @@ const DEPTH_NOTE: Record<GuideCandidate["researchDepth"], string | null> = {
 function Block({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="mt-5">
-      <h4 className="font-sans text-[11px] font-bold tracking-[0.07em] text-ink-45 uppercase">
+      <h2 className="font-sans text-[11px] font-bold tracking-[0.07em] text-ink-45 uppercase">
         {title}
-      </h4>
+      </h2>
       <div className="mt-2">{children}</div>
     </section>
   );
@@ -128,18 +127,15 @@ export function FinanceLine({ candidate }: { candidate: GuideCandidate }) {
 }
 
 /** The full sourced profile of one candidate. */
-const STANCE_WORD = { supports: "supports", opposes: "opposes", mixed: "mixed" } as const;
 
 export function CandidateProfile({
   race,
   candidate: c,
   headingLevel = "h3",
-  showProfileLink = false,
 }: {
   race: GuideRace;
   candidate: GuideCandidate;
   headingLevel?: "h1" | "h3";
-  showProfileLink?: boolean;
 }) {
   const H = headingLevel;
   const depthNote = DEPTH_NOTE[c.researchDepth];
@@ -175,6 +171,10 @@ export function CandidateProfile({
         <p className="mt-2 font-sans text-[11.5px] italic text-ink-45">{depthNote}</p>
       )}
 
+      {!c.incumbent && !c.keyVotes?.length && !c.stateVotes?.length && !c.record.length && (
+        <p className="mt-4 font-sans text-[12.5px] text-ink-45">No recorded votes — not a current officeholder.</p>
+      )}
+
       {(c.keyVotes?.length ?? 0) > 0 && (
         <Block title="Key votes in Congress">
           <KeyVoteList candidate={c} />
@@ -185,9 +185,9 @@ export function CandidateProfile({
         <Block title="Floor votes in Albany">
           <StateVoteList candidate={c} />
           <p className="mt-1.5 font-sans text-[11.5px] text-ink-45">
-            Votes on landmark laws since 2019, plus 2026 roll calls where at least five
-            members voted on the losing side — read from the legislature&rsquo;s official
-            records.
+            Votes on landmark laws since 2019, plus the 25 most recent 2025&ndash;26 roll calls
+            where at least five members voted on the losing side — read from the
+            legislature&rsquo;s official records.
           </p>
         </Block>
       )}
@@ -210,19 +210,33 @@ export function CandidateProfile({
         </Block>
       )}
 
+      {(c.statements?.length ?? 0) > 0 && (
+        <Block title="In their own words">
+          <ul className="flex flex-col gap-3">
+            {c.statements!.map((st, i) => (
+              <li key={`${st.issue}-${i}`} className="font-sans text-[13px] leading-[1.5] text-ink-80">
+                <span className="font-semibold text-ink">{ISSUES[st.issue]}</span>
+                <blockquote className="mt-1 font-serif text-[14px] italic leading-[1.5] text-ink-60">
+                  “{st.quote}”
+                  <Cites ids={st.sources} race={race} />
+                </blockquote>
+                {st.context && <p className="mt-0.5 text-[12px] text-ink-45">{st.context}</p>}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-2 font-sans text-[12px] text-ink-45">Quoted without inferring a stance on the issue statement.</p>
+        </Block>
+      )}
+
       {c.positions.length > 0 && (
-        <Block title="Positions on the issues">
+        <Block title="Issue evidence and documented positions">
           <ul className="flex flex-col gap-3">
             {c.positions.map((p) => (
               <li key={p.issue} className="font-sans text-[13px] leading-[1.5] text-ink-80">
                 <div className="flex flex-wrap items-center gap-2">
-                  <StanceChip stance={p.stance} />
+                  <StanceChip stance={p.basis === "votes" ? "not_inferred" : p.stance} />
                   <span className="font-semibold text-ink">{ISSUES[p.issue]}</span>
-                  {p.basis === "votes" && (
-                    <span className="rounded-sm border border-card-strong px-1.5 py-px font-mono text-[10px] uppercase tracking-[0.08em] text-ink-60">
-                      From recorded votes
-                    </span>
-                  )}
+
                 </div>
                 <p className="mt-1">
                   {p.summary}
@@ -237,11 +251,6 @@ export function CandidateProfile({
                   <div className="mt-2 border-l-2 border-card-strong pl-3">
                     <p className="text-[12.5px] text-ink-60">
                       <span className="font-semibold text-ink-80">What they say: </span>
-                      {p.stated.stance !== p.stance && (
-                        <span className="font-semibold text-ink">
-                          (their stated position — {STANCE_WORD[p.stated.stance]} — differs from their votes) {" "}
-                        </span>
-                      )}
                       {p.stated.summary}
                       <Cites ids={p.stated.sources} race={race} />
                     </p>
@@ -293,11 +302,6 @@ export function CandidateProfile({
           <a href={c.website} target="_blank" rel="noopener noreferrer" className="font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
             Campaign website ↗
           </a>
-        )}
-        {showProfileLink && (
-          <Link href={`/guide/race/${race.id}/${c.id}`} className="font-semibold text-ink-80 underline decoration-hairline hover:decoration-ink">
-            Shareable profile page
-          </Link>
         )}
       </div>
     </article>

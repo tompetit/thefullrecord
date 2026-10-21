@@ -17,10 +17,11 @@
       ]
     },
     {
-      "text": "Mejia is now running for a full two-year term. She defeated three challengers in the June 2, 2026 Democratic primary; Joe Hathaway again advanced unopposed as the Republican nominee. Alan Bond (Hope for Tomorrow Party) and write-in candidate Vincent Matrisciano (Common Sense Independent Party) are also on the November 3 general-election ballot.",
+      "text": "Mejia is now running for a full two-year term. She defeated three challengers in the June 2, 2026 Democratic primary; Joe Hathaway again advanced unopposed as the Republican nominee. Alan Bond (Hope for Tomorrow Party) is also on the November 3 general-election ballot.",
       "sources": [
         "s1",
-        "s3"
+        "s3",
+        "ch9"
       ]
     }
   ],
@@ -298,50 +299,53 @@
       ],
       "positions": [
         {
-          "issue": "climate",
-          "stance": "opposes",
-          "summary": "Opposes offshore wind development off the New Jersey coast and supports continued production of natural gas and other fossil fuels alongside nuclear and land-based renewables.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Supports increased funding for Border Patrol technology and presence and stronger enforcement against fentanyl trafficking.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Supports securing federal funding for local police training, equipment, and technology.",
           "sources": [
             "s5"
-          ]
-        },
+          ],
+          "quote": "That includes securing critical funding for police training, equipment, and technology."
+        }
+      ],
+      "record": [],
+      "website": "https://www.joehathawayforcongress.com",
+      "researchDepth": "full",
+      "statements": [
         {
-          "issue": "israel_aid",
-          "stance": "supports",
-          "summary": "Says he will stand firmly with Israel as it \"combats terrorism\" and with Ukraine against Russia's invasion.",
-          "quote": "I will stand firmly with our allies, including Israel as it combats terrorism, and Ukraine as it defends itself against Russia’s illegal invasion.",
+          "issue": "tariffs",
+          "quote": "I support targeted trade policies that defend American workers and supply chains without triggering trade wars that drive up prices for families and small businesses.",
+          "context": "On his campaign platform page",
           "sources": [
             "s5"
           ]
         },
         {
           "issue": "healthcare_public",
-          "stance": "opposes",
-          "summary": "Focuses on preserving Social Security and Medicare for current retirees through spending oversight rather than expanding public coverage; does not call for expanded public health coverage.",
+          "quote": "And we don’t need government-run healthcare to do it.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "I will fight to introduce and expand a dedicated childcare tax credit that helps families afford safe, reliable, high-quality care without forcing parents to choose between their careers to keep food on the table or their children.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I support a balanced, all-of-the-above energy policy that includes nuclear, natural gas, solar, and land-based wind.",
+          "context": "On his campaign platform page",
           "sources": [
             "s5"
           ]
         }
       ],
-      "record": [],
-      "website": "https://www.joehathawayforcongress.com",
-      "researchDepth": "full"
+      "researchNotes": "Added statements from his campaign platform page. His platform did not squarely take a side on immigration enforcement, abortion, guns, or other listed issues."
     },
     {
       "id": "alan-bond",
@@ -433,33 +437,6 @@
       ],
       "website": "https://hopefortomorrownj.org",
       "researchDepth": "basic"
-    },
-    {
-      "id": "vincent-matrisciano",
-      "name": "Vincent Matrisciano",
-      "parties": [
-        "Common Sense Independent Party"
-      ],
-      "incumbent": false,
-      "ballotNote": "Certified write-in candidate",
-      "summary": {
-        "text": "Vincent Matrisciano is a write-in candidate on the Common Sense Independent Party line for New Jersey's 11th Congressional District. He has worked in public service; no detailed biography, platform, or campaign statements were available.",
-        "sources": [
-          "s7"
-        ]
-      },
-      "background": [
-        {
-          "text": "Career experience includes working in public service.",
-          "sources": [
-            "s7"
-          ]
-        }
-      ],
-      "priorities": [],
-      "positions": [],
-      "record": [],
-      "researchDepth": "minimal"
     }
   ],
   "sources": [
@@ -508,11 +485,12 @@
       "kind": "reference"
     },
     {
-      "id": "s7",
-      "url": "https://ballotpedia.org/Vincent_Matrisciano",
-      "title": "Vincent Matrisciano",
-      "publisher": "Ballotpedia",
-      "kind": "reference"
+      "id": "ch9",
+      "url": "https://www.nj.gov/state/elections/assets/pdf/election-results/2026/2026-official-general-candidates-us-house-0904.pdf",
+      "title": "Official List, Candidates for House of Representatives (General Election 11/03/2026), Sept. 4, 2026",
+      "publisher": "New Jersey Division of Elections",
+      "kind": "official",
+      "date": "2026-09-04"
     },
     {
       "id": "s8",
@@ -546,5 +524,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Analilia Mejia has not yet completed Ballotpedia's 2026 Candidate Connection survey, so her positions above are drawn from her campaign website's issues page rather than a direct Q&A; her committee assignments in the 119th Congress could not be confirmed because congress.gov and govtrack.us were unreachable in this environment (added separately if available). Joe Hathaway's positions are likewise drawn from his campaign platform page rather than a completed survey. Alan Bond's platform page had limited detail beyond broad issue headings. Vincent Matrisciano, a certified write-in candidate, has essentially no public campaign footprint beyond a one-line Ballotpedia biography; researched at minimal depth as instructed for candidates with little footprint. Alan Bond's earlier biography text, which described a pension-fund career and a federal conviction, was removed because the cited Ballotpedia page does not state it and it could not be tied to this candidate; his biography now includes only what Ballotpedia and his own published statement support. Matrisciano's biography could not be expanded beyond Ballotpedia's one-line entry."
+  "researchNotes": "Analilia Mejia has not yet completed Ballotpedia's 2026 Candidate Connection survey, so her positions above are drawn from her campaign website's issues page rather than a direct Q&A; her committee assignments in the 119th Congress could not be confirmed because congress.gov and govtrack.us were unreachable in this environment (added separately if available). Joe Hathaway's positions are likewise drawn from his campaign platform page rather than a completed survey. Alan Bond's platform page had limited detail beyond broad issue headings. Vincent Matrisciano is not listed for NJ-11 on the Division of Elections' Sept. 4, 2026 official general-election candidate list; the Secretary of State removed him from the ballot on June 11, 2026 (New Jersey Globe, June 12), and he describes himself as an independent write-in candidate (TAPinto, Oct. 3), so he is not shown. Alan Bond's earlier biography text, which described a pension-fund career and a federal conviction, was removed because the cited Ballotpedia page does not state it and it could not be tied to this candidate; his biography now includes only what Ballotpedia and his own published statement support. Matrisciano's biography could not be expanded beyond Ballotpedia's one-line entry."
 }

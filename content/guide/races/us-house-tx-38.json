@@ -106,19 +106,47 @@
       "positions": [
         {
           "issue": "climate",
-          "stance": "supports",
-          "summary": "Supports strengthening the EPA and enforcing existing federal environmental laws including the Clean Air and Clean Water Acts.",
-          "quote": "We must reinstate and strengthen agencies including the EPA, NOAA, USDA, GSA, the Department of the Interior, the Department of Education, and Health and Human Services, while fully enforcing the Clean Air and Clean Water Acts.",
+          "stance": "mixed",
+          "summary": "On her campaign platform page (footer dated 2024), says Texas should embrace renewable energy innovation while the petroleum industry remains an integral part of its economy.",
+          "quote": "The petroleum industry will always be an integral part of the Texas economy, but we will be left behind if we do not keep up with advances in energy.",
           "sources": [
-            "s2"
+            "s5"
           ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says her advocacy has focused on affordable health care.",
+          "summary": "On her campaign platform page (footer dated 2024), says Texas should expand Medicaid.",
+          "quote": "We should expand Medicaid and make Texas a state where getting sick won’t ruin your life.",
           "sources": [
-            "s2"
+            "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "On her campaign platform page (footer dated 2024), lists stronger background checks and safe firearm storage among ways to reduce gun violence while respecting the Second Amendment.",
+          "quote": "By promoting responsible gun ownership, safe firearm storage, stronger background checks, and improved access to mental health care, we can help reduce gun violence while protecting the constitutional rights of law-abiding Texans.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "On her campaign platform page (footer dated 2024), criticizes Texas's abortion ban and says women deserve the right to bodily autonomy in their health care decisions.",
+          "quote": "Women deserve the right to bodily autonomy, and their healthcare decisions should be made privately with a physician.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "On her campaign platform page (footer dated 2024), criticizes the Trump administration's trade war with China as costing Americans $80 billion in new taxes.",
+          "quote": "Donald Trump’s trade war with China cost Americans $80 billion in new taxes",
+          "sources": [
+            "s5"
           ]
         }
       ],
@@ -197,35 +225,31 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Campaign platform calls for finishing a border wall and ending illegal border crossings.",
-          "quote": "Finish the wall. End the invasion. Put Texas first.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
           "issue": "abortion",
           "stance": "opposes",
-          "summary": "Opposes abortion access, stating that life begins at conception.",
+          "summary": "Campaign platform states that life begins at conception, with no compromise.",
           "quote": "Life begins at conception. No compromise.",
           "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "guns",
-          "stance": "opposes",
-          "summary": "Campaign platform calls for protecting the Second Amendment.",
-          "quote": "Protect the Second Amendment God-given rights don’t need D.C.’s permission.",
-          "sources": [
-            "s3"
-          ]
+            "s3",
+            "s6"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "God-given rights don’t need D.C.’s permission.",
+          "context": "Under the heading 'Protect the Second Amendment' on his campaign site",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign site (jonbonck.com) has a one-line summary per issue and no issue pages; a Community Impact candidate Q&A repeats the same priorities. Only the abortion position and one Second Amendment statement map to the guide's issues. Positions on health care, taxes, housing, tariffs and other issues were not found.",
+      "website": "https://www.jonbonck.com/"
     },
     {
       "id": "alex-mcmenemy",
@@ -349,6 +373,21 @@
       "title": "Alex McMenemy",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://melissaforcongress.com/platform/",
+      "title": "Platform — Melissa for Congress (page footer 2024)",
+      "publisher": "Melissa for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.jonbonck.com/",
+      "title": "Jon Bonck for Congress (home)",
+      "publisher": "Jon Bonck for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

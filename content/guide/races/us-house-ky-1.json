@@ -23,7 +23,7 @@
         "text": "James Comer is the Republican incumbent for Kentucky's 1st Congressional District, first elected in 2016 and in office since November 2016. A Monroe County farmer and agribusiness owner, he served in the Kentucky House of Representatives and as Kentucky Commissioner of Agriculture before Congress. He chairs the House Committee on Oversight and Government Reform and is also on the Education and Workforce Committee.",
         "sources": [
           "s1",
-          "s6"
+          "s11"
         ]
       },
       "background": [
@@ -31,14 +31,14 @@
           "text": "Born in Carthage, Tennessee, in 1972; according to his official biography he was raised in Monroe County, Kentucky.",
           "sources": [
             "s1",
-            "s6"
+            "s11"
           ]
         },
         {
           "text": "Earned a bachelor's degree in agriculture from Western Kentucky University in 1993.",
           "sources": [
             "s1",
-            "s6"
+            "s11"
           ]
         },
         {
@@ -63,7 +63,7 @@
           "text": "Served as Kentucky Commissioner of Agriculture from 2012 to 2016; his official biography says he championed Kentucky's industrial hemp industry in that role.",
           "sources": [
             "s1",
-            "s6"
+            "s11"
           ]
         },
         {
@@ -82,7 +82,7 @@
           "text": "Chairs the House Committee on Oversight and Government Reform and also serves on the Education and Workforce Committee.",
           "sources": [
             "s1",
-            "s6"
+            "s11"
           ]
         }
       ],
@@ -185,10 +185,56 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign tax plan proposes a 0.5% annual tax on net worth above $100 million and a graduated income tax scale rising to 35% at $1 million of income.",
+          "quote": "a modest annual wealth tax ensures extreme fortunes contribute to the society that protects and sustains them.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Campaign farm plan proposes extending Medicaid eligibility to full-time farmers and farmhands earning under $50,000 a year, with coverage phasing down between $50,000 and $75,000.",
+          "quote": "Extends Medicaid eligibility to full-time farmers and farmhands earning under $50,000 annually.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://williamsforky.com",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "minimum_wage",
+          "quote": "The goal is to create a cost-of-living based Wage System that reflects regional realities, with tiered exemptions for Microbusinesses",
+          "context": "On his campaign website, Labor Rights page ('Living Wage Standard Act')",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Create five-year federal-state availability contracts for licensed centers and home-based providers in verified child care deserts",
+          "context": "On his campaign website, Parental Care page ('Child Care Desert Operating Act')",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Offer tax credits, low-interest construction loans, and streamlined permitting to companies that build qualifying entry-level homes.",
+          "context": "On his campaign website, Housing page ('American Housing Investment Act')",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements drawn from policy pages on his campaign website (williamsforky.com) and the Ballotpedia Candidate Connection survey."
     }
   ],
   "sources": [
@@ -234,6 +280,44 @@
     },
     {
       "id": "s6",
+      "url": "https://williamsforky.com/taxpolicy",
+      "title": "Tax Policy for the Everyday American",
+      "publisher": "Williams for KY",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://williamsforky.com/farming",
+      "title": "American Farm Resilience and Renewal Plan",
+      "publisher": "Williams for KY",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://williamsforky.com/labor-rights",
+      "title": "Labor Rights - Williams for KY",
+      "publisher": "Williams for KY",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://williamsforky.com/parental-care",
+      "title": "Parental Care - Williams for KY",
+      "publisher": "Williams for KY",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
+      "url": "https://williamsforky.com/housing",
+      "title": "Housing - Williams for KY",
+      "publisher": "Williams for KY",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
       "url": "https://comer.house.gov/about",
       "title": "About James Comer",
       "publisher": "Office of Rep. James Comer",
@@ -242,5 +326,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Comer's federal key floor votes and FEC finance totals are added separately by script. His official issues pages (agriculture, education, healthcare, military, small business, transportation) largely describe general priorities rather than taking a stance on one of this guide's fixed issue statements; only his Second Amendment page directly addresses one. No specific issue positions with direct quotes were found for Williams beyond his general priorities statement (from his Ballotpedia Candidate Connection survey, reproduced on the district election page). Williams's biography rests on his own Ballotpedia Candidate Connection statement; no campaign website was found."
+  "researchNotes": "Comer's federal key floor votes and FEC finance totals are added separately by script. His official issues pages (agriculture, education, healthcare, military, small business, transportation) largely describe general priorities rather than taking a stance on one of this guide's fixed issue statements; only his Second Amendment page directly addresses one. Williams's biography rests on his own Ballotpedia Candidate Connection statement; no campaign website was found."
 }

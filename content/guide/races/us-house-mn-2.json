@@ -29,7 +29,7 @@
       "summary": {
         "text": "Matt Little is the Democratic nominee for the open 2nd District seat. A Lakeville native and attorney, he served on the Lakeville City Council, as mayor of Lakeville and in the Minnesota Senate. According to his campaign website, he is running on Medicare for All, affordable childcare, tax breaks for everyday Americans and a tax on the ultrawealthy.",
         "sources": [
-          "s7",
+          "s12",
           "s2"
         ]
       },
@@ -37,7 +37,7 @@
         {
           "text": "Born and raised in Lakeville, Minnesota; attended Parkview Elementary School and graduated from Rosemount High School, according to his campaign website. He now lives in New Market Township.",
           "sources": [
-            "s7",
+            "s12",
             "s2"
           ]
         },
@@ -45,38 +45,38 @@
           "text": "Earned a bachelor's degree from the University of Minnesota, Morris in 2007 and a law degree from the University of Minnesota in 2014.",
           "sources": [
             "s2",
-            "s7"
+            "s12"
           ]
         },
         {
           "text": "According to his campaign website, taught English abroad in Chile for a year before being elected to the Lakeville City Council in 2010.",
           "sources": [
-            "s7"
+            "s12"
           ]
         },
         {
           "text": "Elected Mayor of Lakeville in 2012, while still in law school, and was unopposed for re-election in 2014, according to his campaign website.",
           "sources": [
-            "s7"
+            "s12"
           ]
         },
         {
           "text": "Has owned a law firm since 2015 that, he says, represents seniors and people with disabilities in negligence and abuse cases against insurance companies.",
           "sources": [
-            "s7"
+            "s12"
           ]
         },
         {
           "text": "Served in the Minnesota State Senate representing District 58 (Lakeville, Farmington and southern Dakota County) from 2017 to 2021, before losing re-election in 2020 to Zach Duckworth (R).",
           "sources": [
             "s2",
-            "s7"
+            "s12"
           ]
         },
         {
           "text": "Describes himself as having authored or co-authored over 60 bipartisan bills as a state senator, including the Alec Smith Insulin Affordability Act, which passed in 2020.",
           "sources": [
-            "s7"
+            "s12"
           ]
         },
         {
@@ -110,9 +110,55 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says he is fighting for families who cannot afford health care, and opposes federal cuts to vital public services.",
+          "summary": "Says he will fight for Medicare for All.",
           "sources": [
             "s2"
+          ],
+          "quote": "And I'll fight for Medicare for All, because I watched my mom battle our insurance company for years just to get the care she needed."
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Campaign site calls for cutting ICE funding to pre-Trump levels and replacing ICE with a new federal immigration agency.",
+          "quote": "Cut ICE funding immediately to pre-Trump levels",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Campaign site says he will fight to guarantee reproductive rights in law, and supports overturning Dobbs and restoring Roe as law.",
+          "quote": "I will fight to guarantee women’s reproductive rights, both in law and in life.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Campaign site calls for raising the corporate tax rate, increasing taxes on the highest earners and eliminating loopholes such as carried interest.",
+          "quote": "By raising the corporate tax rate, increasing taxes on the highest earners, and eliminating loopholes like Carried Interest",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "israel_aid",
+          "stance": "opposes",
+          "summary": "Campaign site says the United States must end all military aid and weapons sales to Israel.",
+          "quote": "The United States must end all military aid and weapons sales to Israel",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Campaign site says he would stand up to tariff policy that he says hurts Minnesota farmers and tradespeople.",
+          "quote": "standing up to reckless tariff policy that hurts Minnesota farmers, construction workers, and tradespeople",
+          "sources": [
+            "s11"
           ]
         }
       ],
@@ -225,24 +271,7 @@
           ]
         }
       ],
-      "positions": [
-        {
-          "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says laws should be enforced fairly and consistently 'from our neighborhoods to the U.S. Border.'",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
-          "issue": "police_funding",
-          "stance": "supports",
-          "summary": "Says he supports law enforcement, first responders and policies that keep communities secure.",
-          "sources": [
-            "s4"
-          ]
-        }
-      ],
+      "positions": [],
       "record": [
         {
           "text": "Has served in the Minnesota State Senate since 2013 (District 55, 2013-2023; District 54, 2023-present); currently ranking minority member of the Senate Finance Committee and a member of the Capital Investment and Jobs and Economic Growth Finance and Policy committees.",
@@ -307,6 +336,46 @@
     },
     {
       "id": "s7",
+      "url": "https://littleforcongress.com/key-issues/fighting-to-get-ice-out-of-minnesota-now/",
+      "title": "Fighting to Get ICE OUT of Minnesota Now",
+      "publisher": "Matt Little for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://littleforcongress.com/key-issues/fighting-for-womens-reproductive-rights/",
+      "title": "Fighting for Women's Reproductive Rights",
+      "publisher": "Matt Little for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://littleforcongress.com/key-issues/fighting-for-tax-cuts/",
+      "title": "Fighting for Tax Cuts",
+      "publisher": "Matt Little for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://littleforcongress.com/key-issues/fighting-for-a-just-lasting-peace-in-israel-palestine/",
+      "title": "Fighting for a Just & Lasting Peace in Israel & Palestine",
+      "publisher": "Matt Little for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://littleforcongress.com/key-issues/fighting-for-lower-prices-an-economy-that-works-for-everyone/",
+      "title": "Fighting for Lower Prices & An Economy that Works for Everyone",
+      "publisher": "Matt Little for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s12",
       "url": "https://www.littleforcongress.com/meet-matt",
       "title": "Meet Matt",
       "publisher": "Matt Little for Congress",

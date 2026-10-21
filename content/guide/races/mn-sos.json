@@ -1,0 +1,319 @@
+{
+  "id": "mn-sos",
+  "state": "MN",
+  "officeType": "secretary-of-state",
+  "office": "Secretary of State",
+  "title": "Secretary of State of Minnesota",
+  "area": "Statewide — all of Minnesota",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Four candidates are on the ballot, according to KAXE's election guide and The Green Papers (which compiles state candidate filings): Steve Simon (DFL), Tad Jude (Republican), Seth Kuhl-Stennes (Green) and George 'Chip' Tangen (Libertarian).",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "text": "Simon was unopposed in the DFL primary; Jude won the Republican primary over Wendy Phillips, 229,804 votes (60%) to 151,599 (40%) in WDIO's results display.",
+      "sources": [
+        "s8",
+        "s7"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "steve-simon",
+      "name": "Steve Simon",
+      "parties": [
+        "DFL"
+      ],
+      "incumbent": true,
+      "ballotNote": "Unopposed in the DFL primary.",
+      "summary": {
+        "text": "Steve Simon is the incumbent DFL Secretary of State of Minnesota, seeking a fourth term. A former state representative who chaired the House elections committee, he has overseen Minnesota's elections since 2015 and has opposed a Justice Department demand for the state's voter registration data.",
+        "sources": [
+          "s1",
+          "s5"
+        ]
+      },
+      "background": [
+        {
+          "text": "Served in the Minnesota House of Representatives from 2005 to 2014, including as chair of its Elections Committee, before becoming Secretary of State in January 2015.",
+          "sources": [
+            "s1",
+            "s5"
+          ]
+        },
+        {
+          "text": "Wrote the law allowing eligible Minnesotans to vote from home, according to his questionnaire; Minnesota ranked first in MIT's Elections Performance Index for 2024, per KAXE's editor's note.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Defending the freedom to vote: pushing back on federal interference, protecting voters' private information from the Justice Department, and defending same-day registration and voting from home.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Supporting Minnesota's current requirement that people registering show who they are and where they live, using a broad list of accepted documents rather than only government-issued photo ID.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [
+        {
+          "text": "Refused the U.S. Justice Department's request for Minnesota's voter registration list (names, birthdates, addresses, partial Social Security numbers) and, after the department sued in September 2025, moved to dismiss, calling the suit a 'fishing expedition'; Attorney General Ellison's office represented him.",
+          "kind": "legal",
+          "sources": [
+            "s4",
+            "s3"
+          ],
+          "date": "2025-12-23"
+        },
+        {
+          "text": "A federal judge dismissed the Justice Department's suit on August 17, 2026, writing that the government had no special privilege to use a civil action as a 'fishing expedition.'",
+          "kind": "legal",
+          "sources": [
+            "s3"
+          ],
+          "date": "2026-08-17"
+        }
+      ],
+      "website": "https://stevesimonmn.com/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "tad-jude",
+      "name": "Tad Jude",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the Republican primary over Wendy Phillips.",
+      "summary": {
+        "text": "Tad Jude is the Republican nominee for Minnesota Secretary of State. A Maple Grove attorney and former district court judge, he served in the Minnesota House and Senate in the 1970s and 1980s and ran unsuccessfully for Congress in 2024; he is campaigning on photo ID, using the federal SAVE database for voter rolls and a vote to restore the 1983 state flag.",
+        "sources": [
+          "s1",
+          "s6"
+        ]
+      },
+      "background": [
+        {
+          "text": "District court judge in Minnesota's 10th judicial district from January 2011 to January 2022, per the Minnesota Legislative Reference Library.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Served in the Minnesota House of Representatives (1973-1982) and Senate (1983-1988, elected as a DFL member), and was an unsuccessful candidate for Minnesota's 3rd congressional district in 2024.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Self-employed attorney and small-business owner living in Maple Grove.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Securing the vote, including requiring a photo ID at the polls.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Ending what he calls 'fraud tourism' with a task force to detect fraudulent business registrations.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Seeking a vote to restore the 1983 Minnesota state flag; the questionnaire's editor's note says flag changes are made by the Legislature.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "positions": [],
+      "statements": [
+        {
+          "issue": "voter_citizenship_proof",
+          "quote": "As Secretary of State, I would use the SAVE voter database, which is more comprehensive than the one Minnesota currently uses, and work with partners at every level of government to ensure the accuracy of our voter rolls.",
+          "sources": [
+            "s1"
+          ],
+          "context": "KAXE questionnaire answer on voter-roll accuracy; separately he says he supports requiring a photo ID to vote. He did not address documentary proof of citizenship to register."
+        }
+      ],
+      "record": [],
+      "website": "https://tadjude.com/",
+      "researchDepth": "basic",
+      "researchNotes": "Judicial and legislative service dates come from the Minnesota Legislative Reference Library; his recorded votes and rulings were not reviewed."
+    },
+    {
+      "id": "seth-kuhl-stennes",
+      "name": "Seth Kuhl-Stennes",
+      "parties": [
+        "G"
+      ],
+      "incumbent": false,
+      "ballotNote": "Green Party candidate.",
+      "summary": {
+        "text": "Seth Kuhl-Stennes is the Green Party nominee for Minnesota Secretary of State. A Minneapolis operations specialist at the Land Stewardship Project and former union steward, he is campaigning for ranked-choice voting, proportional representation and state divestment from weapons and fossil fuel companies.",
+        "sources": [
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Political science degree from the College of Saint Benedict and Saint John's University; about 20 years of work in cooperatives, businesses and nonprofits and 16 years on boards.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Adopting proportional representation for the Minnesota House and ranked-choice voting for state executive offices, and allowing cities and counties to use those methods.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Divesting state investments from weapons makers and fossil fuel and other companies; the questionnaire's editor's note says the Secretary of State sits on, but does not manage, the State Board of Investment.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://www.seth4mnsos.org/",
+      "researchDepth": "minimal",
+      "researchNotes": "Also states he opposes voter ID laws; no direct statement on documentary proof of citizenship was found. No campaign materials beyond the KAXE questionnaire were loaded."
+    },
+    {
+      "id": "george-chip-tangen",
+      "name": "George \"Chip\" Tangen",
+      "parties": [
+        "LIB"
+      ],
+      "incumbent": false,
+      "ballotNote": "Libertarian Party candidate.",
+      "summary": {
+        "text": "George 'Chip' Tangen is the Libertarian nominee for Minnesota Secretary of State. A relationship manager at Enterprise Minnesota with political science and law degrees, he is a former legislative counsel to U.S. Rep. Jim Ramstad and is campaigning on easier ballot access for candidates and minor parties.",
+        "sources": [
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Degrees from Middlebury College and the University of Minnesota Law School; legislative counsel to U.S. Rep. Jim Ramstad; active in the Libertarian Party for a decade.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Creating a secure portal for collecting candidate nominating-petition signatures, and urging longer signature-collection periods and lower thresholds.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Urging passage of HF 3534, which he calls the Minor Party Ballot Access bill.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://chipforsos.com/",
+      "researchDepth": "minimal",
+      "researchNotes": "Says he would oppose an absolute requirement to show identification to vote, preferring provisional ballots for voters whose eligibility is questioned; no statement on documentary proof of citizenship was found."
+    }
+  ],
+  "measure": null,
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.kaxe.org/2026-09-28/secretary-of-state-jude-kuhlstennes-simon-tangen-mn-2026-election-guide",
+      "title": "Secretary of State 2026 Election Guide (candidate questionnaire responses, published as submitted)",
+      "publisher": "KAXE Public Radio",
+      "kind": "news",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.kaxe.org/minnesota-news/2026-08-17/federal-judge-tosses-out-doj-lawsuit-seeking-minnesota-voter-data",
+      "title": "Federal judge tosses out DOJ lawsuit seeking Minnesota voter data",
+      "publisher": "KAXE / Minnesota Reformer",
+      "kind": "news",
+      "date": "2026-08-17"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.mprnews.org/story/2025/12/23/minnesota-secretary-of-state-simon-moves-to-spike-federal-lawsuit-over-state-voter-data",
+      "title": "Minnesota Secretary of State Simon moves to spike federal lawsuit over state voter data",
+      "publisher": "MPR News",
+      "kind": "news",
+      "date": "2025-12-23"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.thegreenpapers.com/G26/MN",
+      "title": "The Green Papers: Minnesota 2026 General Election",
+      "publisher": "The Green Papers",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.lrl.mn.gov/legdb/fulldetail?id=12280",
+      "title": "Simon, Steve - Legislator Record",
+      "publisher": "Minnesota Legislative Reference Library",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.lrl.mn.gov/legdb/fulldetail?ID=10299",
+      "title": "Jude, Thaddeus \"Tad\" - Legislator Record",
+      "publisher": "Minnesota Legislative Reference Library",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.wdio.com/election-results/",
+      "title": "Election Results",
+      "publisher": "WDIO (Duluth)",
+      "kind": "news",
+      "date": "2026-10-16"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.270towin.com/2026-election-results-live/state/minnesota/primary/",
+      "title": "2026 Minnesota Primary Live Results",
+      "publisher": "270toWin",
+      "kind": "reference",
+      "date": "2026-10-19"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Slate from KAXE and The Green Papers (which links the state's candidate filings); Minnesota's official candidate filings site (candidates.sos.mn.gov) requires a form query that was not attempted, and Ballotpedia returns a WAF page. Primary results from WDIO's results display and 270toWin. Legislative service from the Minnesota Legislative Reference Library. Campaign finance and polling omitted."
+}

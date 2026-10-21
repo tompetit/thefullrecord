@@ -104,20 +104,59 @@
           "summary": "Says she will fight to expand Medicaid and lower out-of-pocket costs so healthcare is affordable and accessible for every family in the district.",
           "sources": [
             "s2"
-          ]
+          ],
+          "quote": "I will fight to expand Medicaid, strengthen veteran services, and lower out-of-pocket costs so healthcare is affordable and accessible for every family in Southeast Georgia."
         },
         {
-          "issue": "minimum_wage",
+          "issue": "guns",
           "stance": "supports",
-          "summary": "Campaigns on raising wages for working families in the district, saying the economy should center working families rather than corporations.",
+          "summary": "Her campaign site says she supports banning assault weapons and other high-caliber weapons, and Ethan's Law.",
+          "quote": "She supports common-sense gun legislation like Ethan’s Law and banning assault weapons and other high-caliber weapons.",
           "sources": [
-            "s2"
-          ]
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her affordability agenda proposes taxing oil company profits and refunding consumers.",
+          "quote": "Tax excessive oil company profits and refund consumers",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "website": "https://www.hollowellforcongress.com",
-      "researchDepth": "basic"
+      "website": "https://www.amandaforga.com",
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "Amanda will defend LGBTQ+ rights, fight for reproductive freedom, and oppose extremist attacks on personal privacy, public health, and identity.",
+          "context": "On her campaign issues page",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Amanda will champion federal investment in flood protection, resilient infrastructure, and clean energy job creation.",
+          "context": "On her campaign issues page",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Increase the supply of affordable housing",
+          "context": "In her 10-Point Affordability Agenda",
+          "sources": [
+            "s8"
+          ]
+        }
+      ]
     },
     {
       "id": "james-kingston",
@@ -130,48 +169,48 @@
       "summary": {
         "text": "James \"Jim\" Kingston is the Republican nominee for Georgia's open 1st Congressional District and a first-time candidate. He is the son of former U.S. Rep. Jack Kingston, who held the seat from 1993 to 2015, and has worked in the insurance industry since 2015. He won the May 19, 2026 Republican primary with an endorsement from President Trump and, according to his campaign website, is running on a conservative platform.",
         "sources": [
-          "s7",
-          "s8",
-          "s9"
+          "s10",
+          "s11",
+          "s12"
         ]
       },
       "background": [
         {
           "text": "According to his campaign website, he grew up in Southeast Georgia near Savannah, in a family that included his siblings and his father, who represented the district in Congress.",
           "sources": [
-            "s9"
+            "s12"
           ]
         },
         {
           "text": "The Current GA reports that he is the son of former Congressman Jack Kingston, and that he worked on his father's 2014 U.S. Senate campaign.",
           "sources": [
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "The Current GA reports that he attended the University of Georgia from 2009 to 2015 and did not earn a degree, which his campaign manager confirmed.",
           "sources": [
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Has worked in the insurance industry since 2015, according to The Current GA, first at a Partners risk firm and from 2019 at Ironwood Insurance Service; his campaign website describes his work with families, small businesses and community leaders across the state.",
           "sources": [
-            "s7",
-            "s9"
+            "s10",
+            "s12"
           ]
         },
         {
           "text": "Has not previously held elected or appointed office; this is his first campaign.",
           "sources": [
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Endorsed by President Trump (per his campaign website); won the six-candidate Republican primary on May 19, 2026, defeating five other candidates and advancing to the general election without a runoff, according to WTOC. Ballotpedia lists him as the Republican nominee.",
           "sources": [
-            "s9",
-            "s8",
+            "s12",
+            "s11",
             "s6"
           ]
         }
@@ -198,10 +237,93 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Says he is pro-life and supports banning late-term abortions and ending taxpayer funding for abortion providers.",
+          "quote": "I am proudly pro-life and I believe it is our moral responsibility to defend the sanctity of life.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Says he will oppose attempts at gun control.",
+          "quote": "As a proud gun owner, I will oppose any attempt by radical gun control advocates to trample on our most fundamental right to protect our families, our property and our freedom.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Says he supports more resources for border enforcement.",
+          "quote": "I support deploying more resources for border enforcement to crack down on cartels and traffickers",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Says he supports the Protection of Women and Girls in Sports Act.",
+          "quote": "I support the Protection of Women and Girls in Sports Act",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "James Kingston has not completed Ballotpedia's Candidate Connection survey and his Ballotpedia page has no biography section; background and priorities above are drawn from his campaign website (jimkingston.org), which was reachable. His campaign's Platform page returned a 404 at the time of research, so no issue-by-issue positions could be sourced to a specific ISSUES statement."
+      "researchNotes": "James Kingston has not completed Ballotpedia's Candidate Connection survey and his Ballotpedia page has no biography section; background and priorities above are drawn from his campaign website (jimkingston.org), which was reachable. His campaign's Platform page returned a 404 at the time of research, so no issue-by-issue positions could be sourced to a specific ISSUES statement.",
+      "statements": [
+        {
+          "issue": "police_funding",
+          "quote": "I proudly back the blue, oppose dangerous soft-on-crime policies and support giving our law enforcement agencies the resources they need to keep our communities safe.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "I will fight for trade deals that put American workers, farmers and manufacturers first.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "I will always fight to lower taxes across the board so families keep more of what they earn, and small businesses can thrive.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "I support work requirements for able-bodied adults and no Medicaid handouts to illegal aliens.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I support more domestic drilling (responsibly), streamlined permitting and an all-of-the-above strategy to keep gas and electricity affordable while cutting off our reliance on foreign adversaries.",
+          "context": "On his campaign platform page",
+          "sources": [
+            "s9"
+          ]
+        }
+      ]
     },
     {
       "id": "dylan-castillo",
@@ -251,18 +373,27 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "The Environment taking care of the natural resources and contributing to helping move forward with innovation renewable resources and recusing the carbon footprint of the United States.",
+          "context": "In his Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s4"
+          ]
+        },
         {
           "issue": "healthcare_public",
-          "stance": "supports",
-          "summary": "Says he wants to make healthcare more available and affordable so people can seek treatment without worrying about cost.",
+          "quote": "Making health care more available and cost less. People should be able to go to the Doctors office for treatments and not worry about how to pay for treatment.",
+          "context": "In his Ballotpedia Candidate Connection survey",
           "sources": [
             "s4"
           ]
         }
-      ],
-      "record": [],
-      "researchDepth": "basic"
+      ]
     }
   ],
   "sources": [
@@ -312,6 +443,27 @@
     },
     {
       "id": "s7",
+      "url": "https://www.amandaforga.com/issues",
+      "title": "Issues",
+      "publisher": "Amanda Hollowell for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.amandaforga.com/s/AH4GA-10-Point-Affordability-Agenda-2wl8.pdf",
+      "title": "10-Point Affordability Agenda",
+      "publisher": "Amanda Hollowell for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.jimkingston.org/issues",
+      "title": "Platform",
+      "publisher": "Kingston campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
       "kind": "news",
       "url": "https://thecurrentga.org/2026/05/11/kingston-campaign-gets-trump-nod-amid-questions-about-ties-to-father-district/",
       "title": "Kingston campaign gets Trump nod amid questions about ties to father, district",
@@ -319,7 +471,7 @@
       "date": "2026-05-11"
     },
     {
-      "id": "s8",
+      "id": "s11",
       "kind": "news",
       "url": "https://www.wtoc.com/2026/05/19/republican-primary-heats-up-georgias-1st-congressional-district/",
       "title": "Jim Kingston declares victory in GOP primary for Georgia's 1st Congressional District",
@@ -327,7 +479,7 @@
       "date": "2026-05-19"
     },
     {
-      "id": "s9",
+      "id": "s12",
       "kind": "candidate",
       "url": "https://www.jimkingston.org/about",
       "title": "About | Jim Kingston for Congress",
@@ -336,5 +488,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Biography gaps: Hollowell has no campaign-site biography loaded, so her bio relies on her Ballotpedia survey and profile; Kingston's campaign site does not give his birth year, and the Ballotpedia profile for him holds no biography. Ballotpedia lists Dylan Castillo as having 'did not make the ballot' for the Nov. 3 general election, so his ballot status should be verified."
+  "researchNotes": "Dylan Castillo has no campaign website found; his statements come from his Ballotpedia Candidate Connection survey. Amanda Hollowell's and Jim Kingston's are from their campaign sites. Biography gaps: Hollowell has no campaign-site biography loaded, so her bio relies on her Ballotpedia survey and profile; Kingston's campaign site does not give his birth year, and the Ballotpedia profile for him holds no biography. Ballotpedia lists Dylan Castillo as having 'did not make the ballot' for the Nov. 3 general election, so his ballot status should be verified."
 }

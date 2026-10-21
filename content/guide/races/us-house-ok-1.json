@@ -31,7 +31,7 @@
         "sources": [
           "s1",
           "s2",
-          "s4"
+          "s6"
         ]
       },
       "background": [
@@ -45,34 +45,34 @@
           "text": "Earned an MBA from the University of Tulsa (1994) and, according to his survey, a master's in Christian apologetics from Biola University (2013).",
           "sources": [
             "s2",
-            "s4"
+            "s6"
           ]
         },
         {
           "text": "Has worked in the insurance business since 1992; his survey describes him as owner and CEO of Tedford Insurance, an independent agency specializing in commercial insurance and employee benefits, and of Camden Logistics.",
           "sources": [
             "s2",
-            "s4"
+            "s6"
           ]
         },
         {
           "text": "Before and during his legislative service, held civic roles that his official biography lists, including past service on the boards of the Tulsa Economic Development Council, the Tulsa Chamber of Commerce Small Business Connect and the Jenks Chamber of Commerce, and a \"Blue Ribbon Small Business Award.\"",
           "sources": [
-            "s4"
+            "s6"
           ]
         },
         {
           "text": "Elected to Oklahoma House District 69 in 2022, succeeding Sheila Dills; the Republican primary was canceled in both 2022 and 2024, so he won without appearing on the ballot.",
           "sources": [
             "s2",
-            "s4"
+            "s6"
           ]
         },
         {
           "text": "Serves as Vice Chair of the Oklahoma House Commerce & Economic Development Oversight Committee (2025-2026); his legislative page also lists seats on the Common Education, Appropriations and Budget (Education Subcommittee) and Energy and Natural Resources Oversight committees and the Legislative Office of Fiscal Transparency.",
           "sources": [
             "s2",
-            "s4"
+            "s6"
           ]
         },
         {
@@ -84,7 +84,7 @@
         {
           "text": "Lives in Tulsa County; according to his official legislative biography, he and his wife have four children.",
           "sources": [
-            "s4"
+            "s6"
           ]
         }
       ],
@@ -114,32 +114,45 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "Says illegal immigrants should not receive taxpayer-funded benefits and supports stronger eligibility guardrails on safety-net programs.",
-          "quote": "Illegal immigrants should not receive taxpayer-funded benefits.",
+          "summary": "His campaign website lists strict enforcement of immigration laws and support for deporting people it calls criminal aliens among his issues.",
+          "quote": "Strict enforcement of immigration laws",
           "sources": [
-            "s2"
-          ]
+            "s5"
+          ],
+          "basis": "statements"
         },
         {
-          "issue": "healthcare_public",
+          "issue": "abortion",
           "stance": "opposes",
-          "summary": "Calls for stronger standards and guardrails on Medicaid, citing fraud and abuse, rather than expanding public coverage.",
+          "summary": "His campaign website lists protecting the unborn among his priorities under faith, family and freedom.",
+          "quote": "Protect the unborn",
           "sources": [
-            "s2"
-          ]
-        },
-        {
-          "issue": "tariffs",
-          "stance": "supports",
-          "summary": "Supports rebuilding domestic supply chains and reducing reliance on foreign manufacturing for pharmaceuticals, semiconductors and rare earth minerals.",
-          "sources": [
-            "s2"
-          ]
+            "s5"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No congressional record; record items limited to state legislative committee role, since a comprehensive list of Oklahoma House bills was not independently verified beyond the committee assignment. Tedford's campaign website was not located."
+      "researchNotes": "Campaign website (tedfordforcongress.com) read in full; it lists issues as short bullets without detailed policy text. No stated position found on healthcare coverage, minimum wage, tariffs, or other listed topics. Tedford's campaign website was not located.",
+      "statements": [
+        {
+          "issue": "guns",
+          "quote": "Defend the Second Amendment",
+          "context": "On his campaign website",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Unleash American energy production",
+          "context": "On his campaign website, under rebuilding the economy",
+          "sources": [
+            "s5"
+          ]
+        }
+      ]
     },
     {
       "id": "john-croisant",
@@ -232,17 +245,28 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Lists protecting funding for healthcare programs as a priority and cites rising healthcare costs as part of the affordability crisis.",
+          "summary": "His campaign site supports expanding access through Medicaid expansion, ACA subsidies or a broader universal coverage model, and says he will fight to repeal recent federal Medicaid cuts.",
+          "quote": "I support expanding access through Medicaid expansion, ACA subsidies, or a broader universal coverage model.",
           "sources": [
-            "s3"
+            "s4"
           ]
         },
         {
-          "issue": "universal_childcare",
-          "stance": "supports",
-          "summary": "Lists protecting funding for childcare programs among the essential programs he would fight for in Congress.",
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "His campaign site calls for redirecting ICE resources toward immigration courts to clear the backlog, while also supporting a secure border and accountability for people breaking the law.",
+          "quote": "We should redirect ICE resources toward immigration courts to clear the backlog and make the system more efficient.",
           "sources": [
-            "s3"
+            "s4"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "His campaign site calls for stopping the flow of public money to private schools with no strings attached.",
+          "quote": "stopping the flow of public money to private schools with no strings attached.",
+          "sources": [
+            "s4"
           ]
         }
       ],
@@ -277,7 +301,22 @@
       "date": "2025-01-01"
     },
     {
-      "id": "s4",
+      "url": "https://www.croisantforcongress.com/issues",
+      "title": "Issues | Croisant For U.S. Congress",
+      "publisher": "Croisant for Congress",
+      "kind": "candidate",
+      "id": "s4"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.tedfordforcongress.com",
+      "title": "Mark Tedford for U.S. Congress",
+      "publisher": "Tedford for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s6",
       "url": "https://okhouse.gov/representatives/mark-tedford",
       "title": "Representative Mark Tedford",
       "publisher": "Oklahoma House of Representatives",

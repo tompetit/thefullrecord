@@ -29,7 +29,7 @@
         "sources": [
           "s2",
           "s2b",
-          "s6"
+          "s11"
         ]
       },
       "background": [
@@ -55,22 +55,22 @@
         {
           "text": "According to a news report, she was an assistant prosecuting attorney in Wayne County before heading the Special Victims Unit in Washtenaw County. Ballotpedia's race summary describes her as a former prosecutor and law professor.",
           "sources": [
-            "s6",
+            "s11",
             "s2"
           ]
         },
         {
           "text": "Ran for Macomb County Prosecutor in 2024 against incumbent Peter Lucido, receiving 43% of the vote to his 57%, according to a news report.",
           "sources": [
-            "s6"
+            "s11"
           ]
         },
         {
           "text": "Announced her candidacy for Michigan's 10th District in April 2025, after incumbent John James said he would run for governor; won the Democratic primary on August 4, 2026.",
           "sources": [
-            "s6",
+            "s11",
             "s2",
-            "s7"
+            "s12"
           ]
         },
         {
@@ -109,18 +109,45 @@
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Supports increasing the federal minimum wage.",
-          "quote": "I will also work to increase the federal minimum wage and expand paid family leave.",
+          "quote": "I will also work to increase the federal minimum wage and expand paid family leave",
           "sources": [
             "s2b"
           ]
         },
         {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Says she will push back against Department of Homeland Security policies she says destabilize families, while also citing border security and the fentanyl crisis among community priorities.",
-          "quote": "I will push back against Department of Homeland Security policies that destabilize families or target communities unfairly.",
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Lists strengthening and expanding the ACA, Medicare and Medicaid among her health care proposals.",
+          "quote": "Strengthen and expand the ACA, Medicare, and Medicaid",
           "sources": [
-            "s2b"
+            "s4"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Says she supports legislation like the Inflation Reduction Act to bring clean energy manufacturing to the U.S. while reducing carbon emissions.",
+          "quote": "I will support legislation like the Inflation Reduction Act that helps bring clean energy manufacturing back to the United States while reducing carbon emissions and strengthening our domestic supply chains.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Says retaliatory tariffs without a strategy are hurting working families, while supporting the strategic use of tariffs to protect workers and critical industries.",
+          "quote": "But retaliatory tariffs waged with no real strategy or plan are hardly protecting American workers, and in fact, they are hurting working families.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Proposes eliminating the Social Security funding cap, so that people earning above the current cap, including billionaires, also pay into the program.",
+          "quote": "Eliminate the Social Security Funding Cap",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -141,7 +168,7 @@
         "sources": [
           "s3",
           "s3b",
-          "s8"
+          "s13"
         ]
       },
       "background": [
@@ -164,26 +191,26 @@
           "sources": [
             "s3",
             "s3b",
-            "s8"
+            "s13"
           ]
         },
         {
           "text": "According to his campaign website, he was chief operations officer for a 1,200-soldier infantry battalion in the Michigan Army National Guard and later a member of a joint task force in the fight against ISIS, for which he received the Bronze Star.",
           "sources": [
             "s3b",
-            "s8"
+            "s13"
           ]
         },
         {
           "text": "Says he led missions on the southern border during the first Trump administration.",
           "sources": [
-            "s8"
+            "s13"
           ]
         },
         {
           "text": "Described by Fox News as a political newcomer who has not held office before; won the Republican primary on August 4, 2026, after endorsement by President Donald Trump.",
           "sources": [
-            "s8",
+            "s13",
             "s3"
           ]
         }
@@ -237,8 +264,8 @@
       "summary": {
         "text": "Kwabena 'Cubby' Nkromo is the Green Party candidate on the November ballot for Michigan's 10th District. Ballotpedia lists him as a business consultant; in his Ballotpedia survey he describes himself as a civic leader, food-policy advocate and Green Party organizer.",
         "sources": [
-          "s9",
-          "s12",
+          "s14",
+          "s17",
           "s1"
         ]
       },
@@ -246,33 +273,62 @@
         {
           "text": "Graduated from South Boston High School and attended Tuskegee University and Clemson University.",
           "sources": [
-            "s9"
+            "s14"
           ]
         },
         {
           "text": "Career experience includes working as a business consultant.",
           "sources": [
-            "s9"
+            "s14"
           ]
         },
         {
           "text": "In his Ballotpedia Candidate Connection survey, describes himself as a grassroots civic leader, food-policy advocate and Green Party organizer with more than three decades of experience in community organizing, food systems, public policy, small business and ministry.",
           "sources": [
-            "s12"
+            "s17"
           ]
         },
         {
           "text": "Nominated at the Green Party convention on July 18, 2026.",
           "sources": [
-            "s9"
+            "s14"
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Finishing replacement of remaining water-service lines in Flint.",
+          "quote": "Advocate for special federal investment sufficient to finish replacement of remaining water-service infrastructure all the way from municipal systems into affected homes.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "A citizen-led regional economic revitalization plan.",
+          "quote": "Convene municipal governments, businesses, labor, educational institutions, civic organizations, neighborhood leadership, entrepreneurs, and ordinary citizens in an open regional economic-revitalization planning process.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Accessible, affordable, preventive healthcare.",
+          "quote": "Pursue accessible, affordable, preventive healthcare and study high-performing systems, including Massachusetts, to strengthen primary and preventive care, reduce financial burden, and improve outcomes.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Community Land Trusts and affordable housing construction and rehabilitation.",
+          "quote": "Expand genuinely affordable construction and rehabilitation while supporting Community Land Trusts and other models that preserve affordability and community control over land across generations.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "Biography draws on Ballotpedia and his self-written survey; no other profile or campaign biography page was reviewed."
+      "researchNotes": "Campaign website issue page found (six priorities, none a direct stance on the guide's issue statements). No debate or questionnaire coverage found. Biography draws on Ballotpedia and his self-written survey; no other profile or campaign biography page was reviewed."
     },
     {
       "id": "mike-saliba",
@@ -284,40 +340,79 @@
       "summary": {
         "text": "Mike Saliba is the Libertarian Party candidate for Michigan's 10th District and a repeat Libertarian candidate, having appeared on Michigan ballots in 2018, 2020, 2022 and 2024.",
         "sources": [
-          "s10"
+          "s15"
         ]
       },
       "background": [
         {
           "text": "Born in Clinton, Michigan.",
           "sources": [
-            "s10"
+            "s15"
           ]
         },
         {
           "text": "Ran for Michigan State Senate District 10 in 2018 and for U.S. House in Michigan's 9th District in 2020, losing both general elections.",
           "sources": [
-            "s10"
+            "s15"
           ]
         },
         {
           "text": "Ran for U.S. House in Michigan's 10th District in 2022 and 2024; in 2024 he received 1.3% of the vote as the Libertarian candidate.",
           "sources": [
-            "s10"
+            "s15"
           ]
         },
         {
           "text": "Nominated at the Libertarian convention on June 28, 2026.",
           "sources": [
-            "s10"
+            "s15"
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Returning U.S. soldiers from overseas and ending war threats.",
+          "quote": "We must initiate the return of our soldiers from around the world, including Korea, Japan, Europe, and the entire Middle East.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Protecting privacy and civil liberties; repealing or changing the USA Freedom Act and FISA legislation.",
+          "quote": "We must protect the privacy and civil liberties of all persons under US jurisdiction.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "No increase in the national debt.",
+          "quote": "I believe that there should be no increase in the national debt.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Auditing the Federal Reserve.",
+          "quote": "I seek a thorough investigation, evaluation and audit of the Federal Reserve System",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "Little biographical detail (education, employment) is available in sources reviewed."
+      "researchNotes": "Campaign website lists four core issues and proposed legislation; only one item (the FAIRtax) maps to a guide issue, and no stance on the issue statement is recorded. Site pages are undated and partly reference 2024 bills. Little biographical detail (education, employment) is available in sources reviewed.",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "It replaces federal income taxes including personal, estate, gift, capital gains, alternative minimum, Social Security, Medicare, self-employment, and corporate taxes.",
+          "context": "On his campaign website, describing the FAIRtax bill (H.R. 25) he pledged to support; site not dated",
+          "sources": [
+            "s10"
+          ]
+        }
+      ]
     },
     {
       "id": "andrea-kirby",
@@ -329,26 +424,26 @@
       "summary": {
         "text": "Andrea Kirby is the Working Class Party candidate for Michigan's 10th District and has appeared on general-election ballots for U.S. House in 2018, 2020, 2022 and 2024.",
         "sources": [
-          "s11"
+          "s16"
         ]
       },
       "background": [
         {
           "text": "Ran for U.S. House in Michigan's 9th District in 2018 and 2020.",
           "sources": [
-            "s11"
+            "s16"
           ]
         },
         {
           "text": "Ran in Michigan's 10th District in 2022 and 2024; in 2024 she received 2.6% of the vote as the Working Class Party candidate.",
           "sources": [
-            "s11"
+            "s16"
           ]
         },
         {
           "text": "Nominated at the Working Class Party convention on June 6, 2026.",
           "sources": [
-            "s11"
+            "s16"
           ]
         }
       ],
@@ -356,7 +451,7 @@
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No birthplace, education, employment history or campaign biography was found in sources reviewed."
+      "researchNotes": "No campaign website or platform found; BallotReady and GoodParty.org profiles list no issue stances. No birthplace, education, employment history or campaign biography was found in sources reviewed."
     }
   ],
   "sources": [
@@ -378,8 +473,8 @@
     },
     {
       "id": "s2b",
-      "url": "https://www.christinahinesforcongress.com/",
-      "title": "Hines' campaign website statement (quoted by Ballotpedia)",
+      "url": "https://ballotpedia.org/Christina_Hines",
+      "title": "Hines' campaign website statements (quoted by Ballotpedia)",
       "publisher": "Christina Hines for Congress / Ballotpedia",
       "kind": "candidate",
       "date": "2026-09-25"
@@ -401,7 +496,59 @@
       "date": "2026-06-16"
     },
     {
+      "id": "s4",
+      "url": "https://christinahinesforcongress.substack.com/p/my-plan-to-fix-healthcare-lessons",
+      "title": "My plan to fix healthcare",
+      "publisher": "Christina Hines for Congress (Substack)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://christinahinesforcongress.substack.com/p/my-plan-to-protect-michigans-water",
+      "title": "My plan to protect Michigan's water",
+      "publisher": "Christina Hines for Congress (Substack)",
+      "kind": "candidate"
+    },
+    {
       "id": "s6",
+      "url": "https://christinahinesforcongress.substack.com/p/why-your-grocery-bill-keeps-going",
+      "title": "Why your grocery bill keeps going up",
+      "publisher": "Christina Hines for Congress (Substack)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://christinahinesforcongress.substack.com/p/keeping-promises-for-generations",
+      "title": "Keeping promises for generations",
+      "publisher": "Christina Hines for Congress (Substack)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://cubby4congress.net/build-what-comes-next",
+      "title": "Build What Comes Next",
+      "publisher": "Kwabena Nkromo for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s9",
+      "url": "https://votesaliba.com/issues/",
+      "title": "Mike's Core Four Issues",
+      "publisher": "Mike Saliba for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s10",
+      "url": "https://votesaliba.com/legislation/",
+      "title": "Mike's Proposed Legislation",
+      "publisher": "Mike Saliba for Congress",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s11",
       "url": "https://www.yahoo.com/news/former-prosecutor-christina-hines-launches-145021854.html",
       "title": "Former prosecutor Christina Hines launches congressional race in MI-10",
       "publisher": "Michigan Advance (via Yahoo News)",
@@ -409,7 +556,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s7",
+      "id": "s12",
       "url": "https://www.foxnews.com/politics/dems-rally-behind-michigan-prosecutor-champion-party-crucial-house-race",
       "title": "Dems rally behind Michigan prosecutor to champion party in crucial House race",
       "publisher": "Fox News",
@@ -417,7 +564,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s8",
+      "id": "s13",
       "url": "https://www.foxnews.com/politics/trump-backed-bronze-star-veteran-secures-party-nod-must-win-district",
       "title": "Bronze Star veteran Michael Bouchard wins Michigan GOP primary race",
       "publisher": "Fox News",
@@ -425,7 +572,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s9",
+      "id": "s14",
       "url": "https://ballotpedia.org/Kwabena_Nkromo",
       "title": "Kwabena Nkromo",
       "publisher": "Ballotpedia",
@@ -433,7 +580,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s10",
+      "id": "s15",
       "url": "https://ballotpedia.org/Mike_Saliba",
       "title": "Mike Saliba",
       "publisher": "Ballotpedia",
@@ -441,7 +588,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s11",
+      "id": "s16",
       "url": "https://ballotpedia.org/Andrea_Kirby",
       "title": "Andrea Kirby",
       "publisher": "Ballotpedia",
@@ -449,7 +596,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s12",
+      "id": "s17",
       "url": "https://ballotpedia.org/Kwabena_Nkromo#Campaign_themes",
       "title": "Kwabena Nkromo: Ballotpedia Candidate Connection survey (2026)",
       "publisher": "Ballotpedia",

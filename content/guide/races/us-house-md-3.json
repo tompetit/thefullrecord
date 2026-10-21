@@ -54,6 +54,13 @@
     },
     {
       "id": "s6",
+      "url": "https://flowersformaryland.com/",
+      "title": "Flowers for Maryland",
+      "publisher": "Flowers for Maryland",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
       "url": "https://elfreth.house.gov/about",
       "title": "About Sarah Elfreth",
       "publisher": "Office of Rep. Sarah Elfreth",
@@ -73,7 +80,7 @@
         "text": "Sarah Elfreth is the Democratic incumbent in Maryland's 3rd Congressional District. She worked in university and nonprofit advocacy before serving in the Maryland Senate from 2019 to 2025 and was first elected to Congress in 2024. She is seeking a second term.",
         "sources": [
           "s2",
-          "s6"
+          "s7"
         ]
       },
       "background": [
@@ -81,7 +88,7 @@
           "text": "Born in New Jersey in 1988. According to her congressional website, she was raised by two civil servants in a union household.",
           "sources": [
             "s2",
-            "s6"
+            "s7"
           ]
         },
         {
@@ -93,21 +100,21 @@
         {
           "text": "Began her public service on the University System of Maryland Board of Regents, according to her congressional website.",
           "sources": [
-            "s6"
+            "s7"
           ]
         },
         {
           "text": "Worked as government affairs director for the National Aquarium in Baltimore, as an adjunct professor at Towson University's Honors College, and as senior director of university projects with Margrave Strategies.",
           "sources": [
             "s2",
-            "s6"
+            "s7"
           ]
         },
         {
           "text": "Elected to the Maryland Senate in 2018 and served from 2019 to 2025; her congressional website says she was the youngest woman ever elected to the chamber and that 91 bills she sponsored became law.",
           "sources": [
             "s2",
-            "s6"
+            "s7"
           ]
         },
         {
@@ -119,14 +126,14 @@
         {
           "text": "In Congress, serves on the House Armed Services Committee and the Natural Resources Committee, where she is Vice-Ranking Member, and sits on the Naval Academy Board of Visitors.",
           "sources": [
-            "s6"
+            "s7"
           ]
         },
         {
           "text": "Won the June 23, 2026 Democratic primary with 74.7% of the vote. According to her congressional website, she lives in Annapolis with her husband, Eric.",
           "sources": [
             "s2",
-            "s6"
+            "s7"
           ]
         }
       ],
@@ -154,7 +161,7 @@
         {
           "issue": "abortion",
           "stance": "supports",
-          "summary": "Says healthcare decisions belong between a patient and their doctor, voted in the Maryland Senate to expand access to reproductive health care, and co-sponsored a state constitutional amendment on reproductive freedom.",
+          "summary": "In her 2024 Ballotpedia survey, says healthcare decisions belong between a patient and their doctor, says she voted to expand access to reproductive healthcare, and says she will fight in Congress to make Roe v. Wade the law of the land again.",
           "quote": "Sarah knows healthcare decisions are between you and your doctor – not elected officials or judges.",
           "sources": [
             "s3"
@@ -163,7 +170,7 @@
         {
           "issue": "guns",
           "stance": "supports",
-          "summary": "Helped pass Maryland laws prohibiting carrying firearms in places like schools and restaurants, banning ghost guns, increasing penalties for illegal possession, and requiring safe storage; says she will push to ban assault weapons and expand background checks in Congress.",
+          "summary": "In her 2024 Ballotpedia survey, says she helped pass Maryland laws banning ghost guns and requiring safe storage, and says she will fight in Congress to ban assault weapons and expand background checks.",
           "sources": [
             "s3"
           ]
@@ -171,7 +178,16 @@
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Says she passed state laws to invest in clean energy jobs and will fight for climate justice and a faster transition to clean energy in Congress.",
+          "summary": "In her 2024 Ballotpedia survey, says she passed state laws to invest in clean energy jobs and will fight in Congress for climate justice and to speed the transition to clean energy.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Her 2024 campaign website says she will fight to protect the Affordable Care Act and expand coverage to the nearly 30 million Americans without health insurance.",
+          "quote": "On Capitol Hill, she will fight to protect the Affordable Care Act from right-wing attacks and to expand coverage to the nearly 30 million Americans without health insurance.",
           "sources": [
             "s3"
           ]
@@ -284,16 +300,54 @@
       ],
       "positions": [
         {
-          "issue": "school_choice",
+          "issue": "war_powers",
           "stance": "supports",
-          "summary": "Says he wants to depoliticize public schools and empower parents, teachers and local communities in education decisions.",
+          "summary": "In his 2022 Ballotpedia survey (for the Maryland 2nd District race, in an answer about whom he looks up to), says war should be declared by Congress.",
+          "quote": "War should be used only to defend our country and our allies. It should be declared by Congress.",
           "sources": [
             "s5"
-          ]
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Berney supports strong immigration enforcement and policies that prioritize national safety.",
+          "context": "On his campaign website, in the third person",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "Berney stands firmly with law-abiding gun owners and opposes any effort to erode this fundamental freedom.",
+          "context": "On his campaign website, in the third person",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Our police officers are heroes. Berney will ensure they have the resources and respect they need to keep our communities safe.",
+          "context": "On his campaign website, in the third person",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Berney supports unleashing domestic energy production to fuel our economy and secure our future.",
+          "context": "On his campaign website, in the third person",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "website": "https://flowersformaryland.com/",
+      "researchNotes": "Campaign website and Ballotpedia surveys (2022 and 2026) read. The war-powers answer is from the 2022 survey; the website statements are written in the third person. No debate or newsroom questionnaire found."
     }
   ],
   "researchedAt": "2026-09-25",

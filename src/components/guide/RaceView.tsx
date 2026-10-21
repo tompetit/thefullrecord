@@ -1,7 +1,9 @@
-import Link from "next/link";
+import { SourceLink } from "@/components/SourceLink";
+import Link from "@/components/Link";
+import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
-import { ISSUES, type GuideRace, type IssueKey } from "@/server/guide/types";
-import { CandidateProfile, FinanceLine } from "./CandidateProfile";
+import { ISSUES, type GuideCandidate, type GuideRace, type IssueKey } from "@/server/guide/types";
+import { RaceStand, StandLink } from "./StandClient";
 import {
   CitedText,
   Cites,
@@ -29,21 +31,74 @@ const STATE_NAMES: Record<string, string> = {
 export const stateName = (st: string) => STATE_NAMES[st.toUpperCase()] ?? st;
 export const ALL_STATES = Object.keys(STATE_NAMES);
 
+function Position({ p, race }: { p: GuideCandidate["positions"][number]; race: GuideRace }) {
+  return (
+    <div>
+      <span className="inline-flex flex-wrap items-center">
+        <StanceChip stance={p.basis === "votes" ? "not_inferred" : p.stance} />
+        <Cites ids={p.sources} race={race} />
+      </span>
+      <p className="mt-2 max-w-sm text-xs leading-relaxed text-ink-60">{p.summary}</p>
+    </div>
+  );
+}
+
+/** The candidate's own words, with no stance inferred. */
+function Statement({ s, race }: { s: NonNullable<GuideCandidate["statements"]>[number]; race: GuideRace }) {
+  return (
+    <div>
+      <span className="inline-flex flex-wrap items-center">
+        <span className="inline-flex items-center gap-1 rounded-md border-[1.5px] border-dashed border-chip-border px-1.5 py-0.5 font-sans text-[11.5px] font-bold text-ink-80">
+          <span aria-hidden>“</span>In their own words
+        </span>
+        <Cites ids={s.sources} race={race} />
+      </span>
+      <blockquote className="mt-2 max-w-sm font-serif text-[13px] italic leading-relaxed text-ink-60">“{s.quote}”</blockquote>
+      {s.context && <p className="mt-1 max-w-sm text-xs text-ink-45">{s.context}</p>}
+    </div>
+  );
+}
+
+function Cell({ c, k, race }: { c: GuideCandidate; k: IssueKey; race: GuideRace }) {
+  const p = c.positions.find((x) => x.issue === k);
+  if (p) return <Position p={p} race={race} />;
+  const s = c.statements?.find((x) => x.issue === k);
+  return s ? <Statement s={s} race={race} /> : <span className="text-ink-35">—</span>;
+}
+
 function Comparison({ race }: { race: GuideRace }) {
   const issues = (Object.keys(ISSUES) as IssueKey[]).filter((k) =>
-    race.candidates.some((c) => c.positions.some((p) => p.issue === k))
+    race.candidates.some((c) => c.positions.some((p) => p.issue === k) || c.statements?.some((s) => s.issue === k))
   );
   if (!issues.length || race.candidates.length < 1) return null;
   return (
     <section className="mt-10">
-      <SectionLabel>Where they stand — side by side</SectionLabel>
+      <SectionLabel>Issue evidence — side by side</SectionLabel>
       <p className="mt-1 font-sans text-[12.5px] text-ink-60">
-        Only positions documented in a cited source are shown. Where an
-        officeholder&rsquo;s recorded votes speak to an issue, the votes set the position
-        (marked &ldquo;votes&rdquo;). A dash means we
-        found no clear public position — not that the candidate has none.
+        Recorded votes, documented positions and candidates&rsquo; own words are shown with sources.
+        &ldquo;In their own words&rdquo; quotes a candidate on the topic without inferring a stance.
+        Votes describe specific bills or motions; they do not establish overall
+        support or opposition to a broad issue. A dash means our research has no
+        evidence on that topic, not that the candidate has no position.
       </p>
-      <div className="mt-3 overflow-x-auto rounded-lg border border-card bg-paper-raised">
+      <div className="mt-3 flex flex-col gap-3 sm:hidden">
+        {issues.map((k) => (
+          <div key={k} className="rounded-lg border border-card bg-paper-raised p-3 font-sans">
+            <h3 className="text-[13px] font-semibold text-ink-80">{ISSUES[k]}</h3>
+            <ul className="mt-2 flex flex-col divide-y divide-hairline-soft">
+              {race.candidates.map((c) => {
+                return (
+                  <li key={c.id} className="py-2 first:pt-0 last:pb-0">
+                    <span className="font-serif text-[14px] font-bold text-ink">{c.name}</span>
+                    <div className="mt-1"><Cell c={c} k={k} race={race} /></div>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        ))}
+      </div>
+      <div className="mt-3 hidden overflow-x-auto rounded-lg border border-card bg-paper-raised sm:block">
         <table className="w-full min-w-[560px] border-collapse font-sans text-[12.5px]">
           <thead>
             <tr className="border-b border-card">
@@ -52,9 +107,9 @@ function Comparison({ race }: { race: GuideRace }) {
               </th>
               {race.candidates.map((c) => (
                 <th key={c.id} className="p-2.5 text-left align-bottom">
-                  <a href={`#${c.id}`} className="font-serif text-[14px] font-bold text-ink hover:underline">
+                  <StandLink href={`/guide/race/${race.id}/${c.id}`} className="font-serif text-[14px] font-bold text-ink hover:underline">
                     {c.name}
-                  </a>
+                  </StandLink>
                   <div className="mt-0.5 flex flex-wrap gap-1">
                     <PartyChips parties={c.parties} />
                   </div>
@@ -69,22 +124,9 @@ function Comparison({ race }: { race: GuideRace }) {
                   {ISSUES[k]}
                 </th>
                 {race.candidates.map((c) => {
-                  const p = c.positions.find((x) => x.issue === k);
                   return (
-                    <td key={c.id} className="p-2.5 align-top" title={p?.summary}>
-                      {p ? (
-                        <span className="inline-flex items-center">
-                          <StanceChip stance={p.stance} />
-                          <Cites ids={p.sources} race={race} />
-                          {p.basis === "votes" && (
-                            <span className="ml-1 font-mono text-[9.5px] uppercase tracking-[0.06em] text-ink-45">
-                              votes{p.stated && p.stated.stance !== p.stance ? " · says otherwise" : ""}
-                            </span>
-                          )}
-                        </span>
-                      ) : (
-                        <span className="text-ink-35">—</span>
-                      )}
+                    <td key={c.id} className="p-2.5 align-top" title={c.positions.find((x) => x.issue === k)?.summary}>
+                      <Cell c={c} k={k} race={race} />
                     </td>
                   );
                 })}
@@ -101,7 +143,7 @@ function KeyVoteComparison({ race }: { race: GuideRace }) {
   const voters = race.candidates.filter((c) => c.keyVotes?.length);
   if (voters.length < 2) return null;
   const defs = getKeyVoteDefs().filter((d) => voters.some((c) => c.keyVotes!.some((k) => k.voteId === d.id)));
-  const word = (v?: string) => (v === "yes" ? "Yes" : v === "no" ? "No" : v === "present" ? "Present" : v ? "—" : "");
+  const word = (v?: string) => (v === "yes" ? "Yes" : v === "no" ? "No" : v === "present" ? "Present" : v ? "Not voting" : "No record");
   return (
     <section className="mt-10">
       <SectionLabel>Key votes in Congress — side by side</SectionLabel>
@@ -161,6 +203,27 @@ function MeasureView({ race }: { race: GuideRace }) {
           <p className="mt-1.5 font-sans text-[13.5px] leading-[1.55] text-ink-80">{m.noMeans}</p>
         </div>
       </div>
+      {(m.currentLaw || m.fiscalImpact || m.fullTextUrl) && (
+        <div className="grid gap-4 md:grid-cols-2">
+          {m.currentLaw && (
+            <div>
+              <SectionLabel>The law today</SectionLabel>
+              <p className="mt-2 font-sans text-[13.5px] leading-[1.55] text-ink-80"><CitedText c={m.currentLaw} race={race} /></p>
+            </div>
+          )}
+          {m.fiscalImpact && (
+            <div>
+              <SectionLabel>Official fiscal estimate</SectionLabel>
+              <p className="mt-2 font-sans text-[13.5px] leading-[1.55] text-ink-80"><CitedText c={m.fiscalImpact} race={race} /></p>
+            </div>
+          )}
+          {m.fullTextUrl && (
+            <p className="font-sans text-[13px] md:col-span-2">
+              <SourceLink href={m.fullTextUrl}>Read the full text of the measure</SourceLink>
+            </p>
+          )}
+        </div>
+      )}
       <div className="grid gap-4 md:grid-cols-2">
         {([["Arguments made for", m.argumentsFor], ["Arguments made against", m.argumentsAgainst]] as const).map(
           ([label, list]) => (
@@ -178,6 +241,27 @@ function MeasureView({ race }: { race: GuideRace }) {
           )
         )}
       </div>
+      {((m.supporters?.length ?? 0) > 0 || (m.opponents?.length ?? 0) > 0) && (
+        <div className="grid gap-4 md:grid-cols-2">
+          {([["On record in support", m.supporters ?? []], ["On record in opposition", m.opponents ?? []]] as const).map(([label, list]) => (
+            <div key={label}>
+              <SectionLabel>{label}</SectionLabel>
+              <ul className="mt-2 flex flex-col gap-1.5">
+                {list.map((a, i) => (
+                  <li key={i} className="font-sans text-[13.5px] leading-[1.5] text-ink-80"><CitedText c={a} race={race} /></li>
+                ))}
+                {!list.length && <li className="font-sans text-[13px] text-ink-45">None found in public sources.</li>}
+              </ul>
+            </div>
+          ))}
+        </div>
+      )}
+      {m.campaignFinance && (
+        <div>
+          <SectionLabel>Campaign money</SectionLabel>
+          <p className="mt-2 font-sans text-[13.5px] leading-[1.55] text-ink-80"><CitedText c={m.campaignFinance} race={race} /></p>
+        </div>
+      )}
     </section>
   );
 }
@@ -186,31 +270,20 @@ function VerificationNote({ raceId }: { raceId: string }) {
   const v = getVerification(raceId);
   if (!v) return null;
   return (
-    <details className="mt-3 max-w-3xl rounded-lg border border-accent-tint-border bg-accent-tint px-3.5 py-2 font-sans text-[12.5px] text-accent-deep">
-      <summary className="cursor-pointer font-semibold">
-        ✓ Fact-checked {v.checkedAt}: {v.claimsChecked} claims re-checked against their sources
-        {v.corrected || v.removed ? ` · ${v.corrected} corrected · ${v.removed} removed` : ""}
-      </summary>
-      <p className="mt-1.5 text-ink-60">
-        A second, independent research pass re-opened every cited source for this race and
-        corrected or removed anything the source didn&rsquo;t support.
-      </p>
-      {v.notes.length > 0 && (
-        <ul className="mt-1.5 list-disc pl-5 text-ink-60">
-          {v.notes.map((n, i) => (
-            <li key={i}>{n}</li>
-          ))}
-        </ul>
-      )}
-    </details>
+    <p className="mt-3 font-sans text-[12.5px] text-ink-60">
+      Sources re-checked{" "}
+      {new Date(`${v.checkedAt}T12:00:00Z`).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}
+      {" · "}
+      <Link href="/guide/methodology" className="underline hover:text-ink">How we research</Link>
+    </p>
   );
 }
 
 export function RaceView({ race }: { race: GuideRace }) {
   const isMeasure = race.officeType === "ballot-measure";
   return (
-    <div className="mx-auto w-full max-w-6xl px-[20px] pt-6 lg:px-10">
-      <nav className="font-sans text-[12.5px] text-ink-60">
+    <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-6 lg:px-10">
+      <nav aria-label="Breadcrumb" className="font-sans text-[12.5px] text-ink-60">
         <Link href="/guide" className="hover:text-ink">Guide</Link> ›{" "}
         <Link href={`/guide/state/${race.state.toLowerCase()}`} className="hover:text-ink">
           {stateName(race.state)}
@@ -244,9 +317,9 @@ export function RaceView({ race }: { race: GuideRace }) {
             <SectionLabel>On the ballot · {race.candidates.length} {race.candidates.length === 1 ? "candidate" : "candidates"}</SectionLabel>
             <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {race.candidates.map((c) => (
-                <a
+                <StandLink
                   key={c.id}
-                  href={`#${c.id}`}
+                  href={`/guide/race/${race.id}/${c.id}`}
                   className="flex items-start gap-3 rounded-lg border border-card bg-paper-raised p-3.5 hover:border-card-strong"
                 >
                   <Monogram name={c.name} />
@@ -259,13 +332,9 @@ export function RaceView({ race }: { race: GuideRace }) {
                     {c.currentRole && (
                       <span className="mt-1 block font-sans text-[12px] leading-snug text-ink-60">{c.currentRole}</span>
                     )}
-                    {c.finance && (
-                      <span className="mt-1 block font-sans text-[11.5px] text-ink-45">
-                        <FinanceLine candidate={c} />
-                      </span>
-                    )}
+                    <span className="mt-1.5 block font-sans text-[12.5px] font-semibold text-accent">Full profile →</span>
                   </span>
-                </a>
+                </StandLink>
               ))}
               {!race.candidates.length && (
                 <p className="font-sans text-[13px] text-ink-60">No candidates verified for this seat yet.</p>
@@ -273,17 +342,9 @@ export function RaceView({ race }: { race: GuideRace }) {
             </div>
           </section>
 
+          <RaceStand race={alignmentRace(race)} />
           <Comparison race={race} />
           <KeyVoteComparison race={race} />
-
-          <section className="mt-10">
-            <SectionLabel>The candidates, in full</SectionLabel>
-            <div className="mt-3 flex flex-col gap-5">
-              {race.candidates.map((c) => (
-                <CandidateProfile key={c.id} race={race} candidate={c} showProfileLink />
-              ))}
-            </div>
-          </section>
         </>
       )}
 

@@ -11,34 +11,101 @@
   "context": [
     {
       "text": "Incumbent Adrian Smith (R) defeated David Huebner in the Republican primary. Becky Lynn Stille was unopposed in the Democratic primary. Cook Political Report's Partisan Voter Index rated the district R+27 based on presidential voting patterns.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "adrian-smith",
       "name": "Adrian Smith",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2007)",
       "summary": {
         "text": "Adrian Smith is the Republican incumbent seeking an eleventh term representing Nebraska's 3rd District. A Gering native, he worked as an educator and real estate agent, served on the Gering City Council and in the Nebraska Legislature, and was elected to the U.S. House in 2006. He sits on the Ways and Means Committee, where he chairs the Subcommittee on Trade.",
-        "sources": ["s2", "s7", "s9"]
+        "sources": [
+          "s2",
+          "s12",
+          "s14"
+        ]
       },
       "background": [
-        { "text": "Born in Scottsbluff, Nebraska; his House website describes him as a Gering native whose family has lived in Nebraska for six generations.", "sources": ["s2", "s7"] },
-        { "text": "Attended Liberty University from 1989 to 1990 before earning a B.A. from the University of Nebraska in 1993.", "sources": ["s2"] },
-        { "text": "According to his House website, he worked as an educator and a real estate agent before his election to Congress.", "sources": ["s7"] },
-        { "text": "Served on the Gering City Council from 1994 to 1998.", "sources": ["s2"] },
-        { "text": "Served in the Nebraska State Senate from 1999 to 2007, representing District 48.", "sources": ["s2", "s7"] },
-        { "text": "Elected to the U.S. House in 2006 and has served since 2007, representing Nebraska's 3rd District.", "sources": ["s2", "s7"] },
-        { "text": "His House website says he has served on the Ways and Means Committee since 2010. In the 2025-2026 term he serves on Ways and Means (chair of the Trade Subcommittee and a member of the Health Subcommittee) and the Joint Committee on Taxation.", "sources": ["s7", "s2"] },
-        { "text": "His House website cites his work on trade agreements, including the United States-Mexico-Canada Agreement, and on the Tax Cuts and Jobs Act, and lists membership in the Agriculture Trade, Biofuels, Modern Agriculture and Rural caucuses and the House Democracy Partnership.", "sources": ["s7"] },
-        { "text": "According to his House website, he and his wife, Andrea, live in Gering with their two children.", "sources": ["s7"] }
+        {
+          "text": "Born in Scottsbluff, Nebraska; his House website describes him as a Gering native whose family has lived in Nebraska for six generations.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "Attended Liberty University from 1989 to 1990 before earning a B.A. from the University of Nebraska in 1993.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "According to his House website, he worked as an educator and a real estate agent before his election to Congress.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Served on the Gering City Council from 1994 to 1998.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Served in the Nebraska State Senate from 1999 to 2007, representing District 48.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "Elected to the U.S. House in 2006 and has served since 2007, representing Nebraska's 3rd District.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "His House website says he has served on the Ways and Means Committee since 2010. In the 2025-2026 term he serves on Ways and Means (chair of the Trade Subcommittee and a member of the Health Subcommittee) and the Joint Committee on Taxation.",
+          "sources": [
+            "s12",
+            "s2"
+          ]
+        },
+        {
+          "text": "His House website cites his work on trade agreements, including the United States-Mexico-Canada Agreement, and on the Tax Cuts and Jobs Act, and lists membership in the Agriculture Trade, Biofuels, Modern Agriculture and Rural caucuses and the House Democracy Partnership.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "According to his House website, he and his wife, Andrea, live in Gering with their two children.",
+          "sources": [
+            "s12"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Trade policy affecting agricultural exports, as chair of the House Ways and Means Subcommittee on Trade.", "sources": ["s3"] },
-        { "text": "Expanding school-choice options through a federal scholarship tax credit.", "sources": ["s4"] }
+        {
+          "text": "Trade policy affecting agricultural exports, as chair of the House Ways and Means Subcommittee on Trade.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Expanding school-choice options through a federal scholarship tax credit.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "positions": [
         {
@@ -46,24 +113,41 @@
           "stance": "supports",
           "summary": "Led introduction of legislation to expand a federal scholarship tax credit enacted as part of 2025 tax legislation.",
           "quote": "Congressman Adrian Smith (R-NE-03), a senior member of the House Ways and Means Committee, led a bicameral group of his colleagues in introducing the Educational Opportunities Expansion Package, two bills to strengthen his Federal Scholarship Tax Credit.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "mixed",
+          "summary": "In an October 2026 interview, said he is not a fan of the tariffs but that they have produced concessions from other countries, and that non-engagement would be worse for producers.",
+          "quote": "It’s no secret I’m not a fan of them",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [
         {
           "text": "Chairs the House Ways and Means Subcommittee on Trade and serves on the Joint Committee on Taxation and the Ways and Means Subcommittee on Health, in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Led introduction of the Educational Opportunities Expansion Package, two bills to expand the federal scholarship tax credit enacted in 2025.",
           "kind": "bill",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Led a letter, joined by 51 colleagues and Sen. Jerry Moran, urging the Trump administration to prioritize expanding trade market access for American cattle producers.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -72,24 +156,71 @@
     {
       "id": "becky-lynn-stille",
       "name": "Becky Lynn Stille",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Unopposed in the May 12, 2026 Democratic primary",
       "summary": {
         "text": "Becky Lynn Stille is the Democratic nominee for Nebraska's 3rd District. A South Sioux City resident, she works as a quality manager for Ag Processing Inc and is described in local news coverage as a lifelong Nebraskan, mother, and grandmother. She is running on a platform that includes labor-union support, reproductive-healthcare access, secure borders, and Second Amendment rights paired with violence prevention.",
-        "sources": ["s5", "s6", "s8", "s9"]
+        "sources": [
+          "s5",
+          "s6",
+          "s13",
+          "s14"
+        ]
       },
       "background": [
-        { "text": "A South Sioux City resident and farmer, according to a local news report; described there as a lifelong Nebraska resident, mother, and grandmother.", "sources": ["s8"] },
-        { "text": "Works as a quality manager for Ag Processing Inc (AGP), according to a local news report.", "sources": ["s8"] },
-        { "text": "Her campaign website says she went \"from being a single teenage mother to her current position where she earns a six-figure salary,\" as quoted in a local news report.", "sources": ["s8"] },
-        { "text": "Announced her candidacy by August 2025, when a local news report described her as the only Democrat running in 2026 for the seat.", "sources": ["s8"] },
-        { "text": "Was unopposed in the May 12, 2026 Democratic primary.", "sources": ["s5"] }
+        {
+          "text": "A South Sioux City resident and farmer, according to a local news report; described there as a lifelong Nebraska resident, mother, and grandmother.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Works as a quality manager for Ag Processing Inc (AGP), according to a local news report.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Her campaign website says she went \"from being a single teenage mother to her current position where she earns a six-figure salary,\" as quoted in a local news report.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Announced her candidacy by August 2025, when a local news report described her as the only Democrat running in 2026 for the seat.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Was unopposed in the May 12, 2026 Democratic primary.",
+          "sources": [
+            "s5"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Supporting labor unions and fair wages, safe working conditions and workplace representation.", "sources": ["s6"] },
-        { "text": "Improving access to health care and expanding medical services for senior citizens.", "sources": ["s6"] },
-        { "text": "Secure borders paired with fair immigration policy.", "sources": ["s6"] }
+        {
+          "text": "Supporting labor unions and fair wages, safe working conditions and workplace representation.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Improving access to health care and expanding medical services for senior citizens.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Secure borders paired with fair immigration policy.",
+          "sources": [
+            "s6"
+          ]
+        }
       ],
       "positions": [
         {
@@ -97,28 +228,27 @@
           "stance": "supports",
           "summary": "Supports a woman's right to make her own reproductive healthcare decisions with her doctor.",
           "quote": "I strongly support a woman's right to make her own healthcare decisions privately with her own doctor.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
-          "issue": "guns",
-          "stance": "mixed",
-          "summary": "Supports Second Amendment rights while also backing violence-prevention measures.",
-          "quote": "It is imperative that we recognize and respect the Second Amendment, ensuring every law-abiding citizen's right to bear arms. However, with rights come responsibilities. Our commitment to the Second Amendment should be paralleled by an equally strong commitment to prevent violence and safeguard our communities.",
-          "sources": ["s6"]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Supports secure borders as essential to national security while describing the U.S. as a nation of immigrants.",
-          "quote": "A secure border is not just a matter of national defense, it's essential for upholding the rule of law, safeguarding our economic interests, and ensuring the well-being of our citizens. Yet, while we reinforce these boundaries, we must remember that our nation has been, and always will be, a beacon of hope for all.",
-          "sources": ["s6"]
-        },
-        {
-          "issue": "police_funding",
+          "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Supports equipping law enforcement with resources and support for officers.",
-          "quote": "Acknowledging their sacrifices and equipping them with the necessary support, training, and resources is vital to keeping our communities safe.",
-          "sources": ["s6"]
+          "summary": "In an October 2026 interview, opposed the recent Medicaid cuts, said the funding should be restored, and described herself as a proponent of a universal healthcare system.",
+          "quote": "If people lose that care, they’re simply not going to be able to go to the hospital. We need that funding back.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In an October 2026 interview, said tariffs are not the way to return manufacturing and have raised prices for everyday items.",
+          "quote": "Tariffs aren’t the way to do it. All that’s done is make everyday items more expensive,",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "record": [],
@@ -127,63 +257,280 @@
     {
       "id": "david-j-else",
       "name": "David J. Else",
-      "parties": ["Legal Marijuana Now"],
+      "parties": [
+        "Legal Marijuana Now"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "David J. Else of Overton is the Legal Marijuana NOW nominee for Nebraska's 3rd District and was the Democratic nominee against Adrian Smith in 2022. BallotReady lists his occupation as farmer. No campaign biography beyond that was found.",
-        "sources": ["s1", "s9", "s13"]
+        "text": "David J. Else won the Legal Marijuana Now Party primary and is on the Nov. 3, 2026 general-election ballot for Nebraska's 3rd District.",
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Lives in Overton, Nebraska, according to the Nebraska Examiner.", "sources": ["s9"] },
-        { "text": "BallotReady lists his professional experience as farmer.", "sources": ["s13"] },
-        { "text": "Was the Democratic nominee for this seat in 2022, losing to Rep. Adrian Smith, who received 78.3% of the vote.", "sources": ["s9", "s2"] },
-        { "text": "Won the Legal Marijuana NOW Party primary in May 2026 and is that party's nominee.", "sources": ["s1", "s9"] }
+        {
+          "text": "Lives in Overton, Nebraska, according to the Nebraska Examiner.",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "text": "BallotReady lists his professional experience as farmer.",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Was the Democratic nominee for this seat in 2022, losing to Rep. Adrian Smith, who received 78.3% of the vote.",
+          "sources": [
+            "s14",
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the Legal Marijuana NOW Party primary in May 2026 and is that party's nominee.",
+          "sources": [
+            "s1",
+            "s14"
+          ]
+        }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Protecting Affordable Care Act health insurance.",
+          "quote": "The reason I ran for Congress in 2022 is because I wanted to protect ACA [Affordable Care Act] health insurance.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Adding dental insurance to the Affordable Care Act.",
+          "quote": "I also would like to add dental insurance to ACA.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In the Nebraska Examiner's 2026 voter guide, said he ran for Congress in 2022 to protect ACA health insurance, promised to fight for health care insurance for all, and wants to add dental insurance to the ACA.",
+          "quote": "promised her I would fight for health care insurance for all until the day I die",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "In the Nebraska Examiner's 2026 voter guide, said President Trump's trade wars have raised inflation and lowered grain prices for farmers.",
+          "quote": "Like this war and his trade wars that cause inflation to skyrocket up and grain prices for us farmers that have tanked because of Trump.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "I think Congress needs to grow a spine and tell Trump “no” on a lot of things.",
+          "context": "In the Nebraska Examiner's 2026 voter guide",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "On immigration, I would like to make it easier for immigrants to get a work visa, then a pathway to U.S. citizenship if they are not criminals and are hardworking people.",
+          "context": "In the Nebraska Examiner's 2026 voter guide",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Answers come from his responses in the Nebraska Examiner's 2026 primary voter guide (priorities, immigration, role of Congress). His campaign site (dave-else-for-congress.square.site) did not load readable text, and he has no Ballotpedia profile or Candidate Connection survey."
     },
     {
       "id": "macey-budke",
       "name": "Macey Budke",
-      "parties": ["Nebraska Working People Party"],
+      "parties": [
+        "Nebraska Working People Party"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Macey Budke of North Platte works in behavioral health management and describes herself as an Independent who grew up in rural Nebraska. She is running on rural healthcare, public schools, and agriculture and says she is not tied to a political party.",
-        "sources": ["s10", "s1"]
+        "text": "Macey Budke is running on the Nebraska Working People Party line in the Nov. 3, 2026 general election for Nebraska's 3rd District.",
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Describes herself as an Independent candidate from North Platte who grew up in rural Nebraska.", "sources": ["s10"] },
-        { "text": "Says she works in behavioral health management, helping rural communities access quality care.", "sources": ["s10"] },
-        { "text": "Says she holds master's degrees in psychology and healthcare administration.", "sources": ["s10"] },
-        { "text": "The Nebraska Examiner describes her as a registered nonpartisan write-in candidate; Ballotpedia lists her ballot line as the Nebraska Working People Party.", "sources": ["s9", "s1"] }
+        {
+          "text": "Describes herself as an Independent candidate from North Platte who grew up in rural Nebraska.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says she works in behavioral health management, helping rural communities access quality care.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says she holds master's degrees in psychology and healthcare administration.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "The Nebraska Examiner describes her as a registered nonpartisan write-in candidate; Ballotpedia lists her ballot line as the Nebraska Working People Party.",
+          "sources": [
+            "s14",
+            "s1"
+          ]
+        }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Keeping rural clinics open and lowering healthcare costs.",
+          "quote": "I will fight for policies that keep local clinics open, expand access, and lower costs for Nebraska families.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Supporting public education, farmers and ranchers.",
+          "quote": "I will support public education, stand up for Nebraska farmers and ranchers, and defend the freedoms that make rural life possible.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Rural communities deserve affordable, accessible healthcare close to home.",
+          "context": "In her 2026 Ballotpedia Candidate Connection survey",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "A producer can do everything right and still get caught between tariff retaliation, shifting foreign demand, input cost pressure, and federal decisions made far away from the operation carrying the risk.",
+          "context": "On her campaign website's agriculture plan",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "website": "https://budkeforcongress.com/",
+      "researchNotes": "Her campaign site and Ballotpedia Candidate Connection survey focus on rural healthcare, education, agriculture and accountability; they do not take a side on most listed issues (abortion, guns, immigration, etc.). Ballotpedia's survey lists her as an Independent, while the ballot line is the Nebraska Working People Party."
     },
     {
       "id": "mark-cohen",
       "name": "Mark Cohen",
-      "parties": ["Nonpartisan"],
+      "parties": [
+        "Nonpartisan"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Mark Cohen of Lemoyne is a registered nonpartisan and former Air Force judge advocate and special assistant U.S. attorney for Nebraska who qualified for the ballot by petition. He describes himself as a populist and says he is running to represent rural Nebraska independent of the two parties, with a focus on reducing corporate influence in politics, healthcare, and election integrity.",
-        "sources": ["s9", "s11", "s12"]
+        "text": "Mark Cohen is running on the Nonpartisan ballot line in the Nov. 3, 2026 general election for Nebraska's 3rd District.",
+        "sources": [
+          "s1"
+        ]
       },
       "background": [
-        { "text": "Lives in Lemoyne, Nebraska; describes himself as a father, veteran, agricultural lawyer, and karate instructor.", "sources": ["s9", "s11"] },
-        { "text": "A former Air Force judge advocate who first came to Nebraska more than forty years ago, according to Nebraska Rural Radio; he has served as a Special Assistant U.S. Attorney for Nebraska.", "sources": ["s12", "s9"] },
-        { "text": "Later practiced law in Omaha during the farm crisis of the late 1980s, according to Nebraska Rural Radio.", "sources": ["s12"] },
-        { "text": "Says he has been a Nebraska Admiral for 39 years.", "sources": ["s11"] },
-        { "text": "Submitted about 3,680 signatures on July 30, 2026 to qualify for the ballot as a nonpartisan candidate; state law requires at least 2,000 valid signatures.", "sources": ["s9"] }
+        {
+          "text": "Lives in Lemoyne, Nebraska; describes himself as a father, veteran, agricultural lawyer, and karate instructor.",
+          "sources": [
+            "s14",
+            "s15"
+          ]
+        },
+        {
+          "text": "A former Air Force judge advocate who first came to Nebraska more than forty years ago, according to Nebraska Rural Radio; he has served as a Special Assistant U.S. Attorney for Nebraska.",
+          "sources": [
+            "s16",
+            "s14"
+          ]
+        },
+        {
+          "text": "Later practiced law in Omaha during the farm crisis of the late 1980s, according to Nebraska Rural Radio.",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Says he has been a Nebraska Admiral for 39 years.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Submitted about 3,680 signatures on July 30, 2026 to qualify for the ballot as a nonpartisan candidate; state law requires at least 2,000 valid signatures.",
+          "sources": [
+            "s14"
+          ]
+        }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Requiring paper ballots in every election.",
+          "quote": "require paper ballots in every election",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Funding and strengthening rural healthcare.",
+          "quote": "Nebraska deserves a representative who will work to fund and strengthen rural healthcare rather than cut taxes for billionaires",
+          "sources": [
+            "ch2"
+          ]
+        },
+        {
+          "text": "Making billionaires pay their fair share to balance the budget.",
+          "quote": "a representative who will fight for policies that make the billionaires pay their fair share so we can balance our budget once and for all",
+          "sources": [
+            "ch2"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "On his campaign website's issues page, calls the administration's tariffs ill-conceived and says they are hurting farmers, ranchers, and related industries.",
+          "quote": "This administration’s ill-conceived tariffs are hurting farmers, ranchers, and related industries.",
+          "sources": [
+            "ch1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "I won't sit quietly while those who should represent us destroy agriculture and cut rural healthcare to give tax cuts to billionaires.",
+          "context": "In a November 2025 campaign statement, per Nebraska Examiner",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
+      "researchNotes": "Campaign website (markfornebraska.org) reviewed; positions and priorities now cite it directly rather than a news report of it.",
+      "website": "https://www.markfornebraska.org/"
     }
   ],
   "sources": [
@@ -237,13 +584,62 @@
     },
     {
       "id": "s7",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/3rd-congressional-district-voter-guide-meet-the-nebraskans-running/",
+      "title": "3rd Congressional District voter guide: Meet the Nebraskans running",
+      "publisher": "Nebraska Public Media",
+      "kind": "news"
+    },
+    {
+      "id": "s8",
+      "url": "https://nebraskaexaminer.com/voter-guides/contests/2026-primary-u-s-house-district-3/",
+      "title": "2026 primary voter guide: U.S. House, District 3",
+      "publisher": "Nebraska Examiner",
+      "kind": "news"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Macey_Budke",
+      "title": "Macey Budke, Ballotpedia Candidate Connection survey (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://budkeforcongress.com/plans/",
+      "title": "Plans",
+      "publisher": "Budke for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://nebraskaexaminer.com/2025/11/25/mark-cohen-runs-nonpartisan-bid-for-u-s-house-in-nebraskas-3rd-district/",
+      "title": "Mark Cohen runs nonpartisan bid for U.S. House in Nebraska's 3rd District",
+      "publisher": "Nebraska Examiner",
+      "kind": "news"
+    },
+    {
+      "id": "ch1",
+      "url": "https://www.markfornebraska.org/issues",
+      "title": "Issues - Mark for Nebraska",
+      "publisher": "Mark for Nebraska",
+      "kind": "candidate"
+    },
+    {
+      "id": "ch2",
+      "url": "https://www.markfornebraska.org/",
+      "title": "Mark Cohen, Independent Candidate for Congress in NE-03",
+      "publisher": "Mark for Nebraska",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
       "url": "https://adriansmith.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Adrian Smith",
       "kind": "official"
     },
     {
-      "id": "s8",
+      "id": "s13",
       "url": "https://klin.com/?p=514859",
       "title": "Democrat Becky Stille Running for Nebraska's 3rd Congressional Seat",
       "publisher": "KLIN",
@@ -251,7 +647,7 @@
       "date": "2025-08-01"
     },
     {
-      "id": "s9",
+      "id": "s14",
       "url": "https://www.wowt.com/2026/07/31/nonpartisan-cohen-submits-signatures-seeking-nebraskas-3rd-congressional-district-ballot/",
       "title": "Nonpartisan Cohen submits signatures seeking Nebraska's 3rd Congressional District ballot",
       "publisher": "WOWT / Nebraska Examiner",
@@ -259,29 +655,21 @@
       "date": "2026-07-31"
     },
     {
-      "id": "s10",
-      "url": "https://ballotpedia.org/Macey_Budke",
-      "title": "Macey Budke's Ballotpedia Candidate Connection survey responses",
-      "publisher": "Ballotpedia Candidate Connection survey",
-      "kind": "candidate",
-      "date": "2026-09-25"
-    },
-    {
-      "id": "s11",
+      "id": "s15",
       "url": "https://ballotpedia.org/Mark_Cohen_(Nebraska)",
       "title": "Mark Cohen's Ballotpedia Candidate Connection survey responses",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
     },
     {
-      "id": "s12",
+      "id": "s16",
       "url": "https://ruralradio.com/kmor/news/mark-cohen-submits-signatures-to-appear-on-nebraska-ballot-for-congress/",
       "title": "Mark Cohen Submits Signatures to Appear on Nebraska Ballot for Congress",
       "publisher": "Nebraska Rural Radio Association",
       "kind": "news"
     },
     {
-      "id": "s13",
+      "id": "s17",
       "url": "https://www.ballotready.org/people/david-j-else",
       "title": "David J. Else",
       "publisher": "BallotReady",
@@ -289,5 +677,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No Ballotpedia profile page exists for David J. Else, and no campaign website was found for him, Budke, or Cohen; biographies for Budke and Cohen rely on their Ballotpedia Candidate Connection surveys and news reports. Stille's Ballotpedia profile has no separate biography section; her biography relies on a local news report that quotes her campaign website. Sources differ on Macey Budke's ballot designation (nonpartisan write-in versus Nebraska Working People Party)."
+  "researchNotes": "No Ballotpedia profile page exists for David J. Else and no campaign website or Candidate Connection survey was found for him. Budke's site and survey, and Cohen's campaign website, were reviewed. Stille's Ballotpedia profile has no separate biography section beyond her campaign-website statements. Else, and no campaign website was found for him, Budke, or Cohen; biographies for Budke and Cohen rely on their Ballotpedia Candidate Connection surveys and news reports. Stille's Ballotpedia profile has no separate biography section; her biography relies on a local news report that quotes her campaign website. Sources differ on Macey Budke's ballot designation (nonpartisan write-in versus Nebraska Working People Party)."
 }

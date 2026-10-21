@@ -36,71 +36,108 @@
         "text": "Donald Norcross is the Democratic incumbent U.S. Representative for New Jersey's 1st District, in office since a November 2014 special election. An electrician by trade, he rose through the International Brotherhood of Electrical Workers and served as president of the Southern New Jersey AFL-CIO before serving in the New Jersey Assembly and State Senate. He sits on the House Education and Workforce and Armed Services Committees and ran unopposed in the 2026 Democratic primary.",
         "sources": [
           "s3",
-          "s6"
+          "s9"
         ]
       },
       "background": [
         {
           "text": "Born December 13, 1958, in Camden, New Jersey, and grew up in Pennsauken Township, according to Wikipedia; his House biography says he was born and raised in South Jersey.",
           "sources": [
-            "s6",
-            "s7"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "Attended Camden County College and Rutgers University-Camden; Wikipedia lists an associate degree in criminal justice from Camden County College.",
           "sources": [
             "s3",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Trained as an electrician through a registered apprenticeship program and, according to his House biography, rose to become a business agent for IBEW Local 351.",
           "sources": [
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "Served as president of the Southern New Jersey AFL-CIO, which his House biography says he did for nearly 20 years.",
           "sources": [
             "s3",
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "Elected to the New Jersey General Assembly in 2009; appointed to fill a vacancy in the New Jersey Senate in 2010 and served there until his election to the U.S. House in 2014.",
           "sources": [
             "s3",
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Won the Democratic primary and then both a special election to fill the remainder of Rob Andrews's term and the regular election in November 2014; he was sworn in on November 12, 2014.",
           "sources": [
-            "s7"
+            "s10"
           ]
         },
         {
           "text": "Serves on the House Committee on Education and Workforce and the House Armed Services Committee, where his House biography says he is ranking member of the Tactical Air and Land Forces Subcommittee.",
           "sources": [
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "According to his House biography, he co-founded the Labor Caucus and the bipartisan Building Trades Caucus and introduced the No Tax Breaks for Union Busting Act, the Warehouse Worker Protection Act, and the Parity Enforcement Act.",
           "sources": [
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "A lifelong Camden County resident who, according to his House biography, lives with his wife Andrea; they have three adult children and four grandchildren.",
           "sources": [
-            "s6"
+            "s9"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "WHYY reports he lists protecting access to reproductive health care as a priority and called the Supreme Court decision overturning Roe v. Wade \"disgraceful.\"",
+          "quote": "disgraceful",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Said in a statement that he opposes broad tariffs, as quoted by WHYY in 2026.",
+          "quote": "broad reckless tariffs that act as a tax on the working class and destabilize our supply chains",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "His official site lists investment in clean energy, including offshore wind and solar, as part of addressing climate change.",
+          "quote": "This responsibility also presents opportunities to create jobs and grow our economy by inventing in, manufacturing, and installing clean energy technology and other sustainable solutions here in South Jersey, including offshore wind and solar.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "His official budget page calls for boosting tax revenue by ensuring the wealthiest pay their fair share.",
+          "quote": "We need to address the national debt by cutting wasteful spending, boosting tax revenue by ensuring the wealthiest pay their fair share, and investing in programs that promote economic growth and create family-sustaining jobs.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Sits on the House Committee on Armed Services (Seapower and Projection Forces; Tactical Air and Land Forces subcommittees) and the Committee on Education and the Workforce for the 119th Congress (2025–2026).",
@@ -157,7 +194,7 @@
         {
           "text": "In 2022 the New Jersey Globe described him as a West Deptford resident and construction superintendent filing petitions for the Republican nomination; it quoted his campaign announcement describing himself as a union carpenter with no political background.",
           "sources": [
-            "s8"
+            "s11"
           ]
         },
         {
@@ -195,27 +232,23 @@
           "summary": "Says he is passionate about keeping the border secure and enforcing immigration law; his 2024 platform called for reinstating the Remain in Mexico policy and ending sanctuary policies.",
           "sources": [
             "s5"
-          ]
-        },
+          ],
+          "quote": "I will support ending DACA, DAPA, Catch-and-Release, and all other programs that facilitate illegal immigration and benefit illegal immigrants, and I will support rebuilding the wall."
+        }
+      ],
+      "record": [],
+      "researchDepth": "full",
+      "researchNotes": "A 2026 WHYY voter guide quotes him on the economy and Iran policy, but those quotes do not take a side on the listed issues; no campaign website was reachable. No further positions or statements added.",
+      "statements": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Says he will vote against legislation that increases taxes and calls for cutting wasteful federal spending to reduce inflation.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Supports parental rights in education and has called for restoring parental say over school curriculum.",
+          "issue": "climate",
+          "quote": "When I'm in Congress, I will propose and support legislation that will allow us to drill for oil, mine for coal, frack, and invest in nuclear energy research.",
+          "context": "On his 2024 campaign website, per Ballotpedia",
           "sources": [
             "s5"
           ]
         }
-      ],
-      "record": [],
-      "researchDepth": "full"
+      ]
     }
   ],
   "sources": [
@@ -260,20 +293,41 @@
     },
     {
       "id": "s6",
+      "url": "https://whyy.org/articles/election-2026-new-jersey-1st-congressional-district-voter-guide/",
+      "title": "NJ election 2026: 1st Congressional District voter guide",
+      "publisher": "WHYY",
+      "kind": "news"
+    },
+    {
+      "id": "s7",
+      "url": "https://norcross.house.gov/environment",
+      "title": "Environment",
+      "publisher": "Office of Rep. Donald Norcross",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://norcross.house.gov/budget",
+      "title": "Budget",
+      "publisher": "Office of Rep. Donald Norcross",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
       "kind": "official",
       "url": "https://norcross.house.gov/about",
       "title": "About | Representative Donald Norcross",
       "publisher": "Office of Rep. Donald Norcross"
     },
     {
-      "id": "s7",
+      "id": "s10",
       "kind": "reference",
       "url": "https://en.wikipedia.org/wiki/Donald_Norcross",
       "title": "Donald Norcross",
       "publisher": "Wikipedia"
     },
     {
-      "id": "s8",
+      "id": "s11",
       "kind": "news",
       "url": "https://newjerseyglobe.com/congress/damon-galdo-adds-name-to-1st-district-republican-primary/",
       "title": "Damon Galdo adds name to 1st district Republican primary",

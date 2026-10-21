@@ -36,7 +36,7 @@
         "text": "George Whitesides is the Democratic incumbent for California's 27th Congressional District, first elected in 2024. Before Congress he was chief of staff at NASA during the Obama administration and the first CEO of Virgin Galactic, and he co-founded a nonprofit focused on wildfires and home insurance. He serves on the House Armed Services Committee and the Science, Space, and Technology Committee.",
         "sources": [
           "s2",
-          "s8"
+          "s11"
         ]
       },
       "background": [
@@ -50,41 +50,41 @@
           "text": "Served as chief of staff at NASA during the Obama administration; his official biography says he received NASA's Distinguished Service Medal for his contributions.",
           "sources": [
             "s2",
-            "s8"
+            "s11"
           ]
         },
         {
           "text": "Became the first CEO of Virgin Galactic, which he led for about a decade. According to his official biography, the company created over 700 jobs in the Antelope Valley during that time.",
           "sources": [
             "s2",
-            "s8"
+            "s11"
           ]
         },
         {
           "text": "Co-founded Megafire Action, a nonprofit focused on wildfire response and home insurance issues.",
           "sources": [
             "s2",
-            "s8"
+            "s11"
           ]
         },
         {
           "text": "Co-chaired the Antelope Valley COVID-19 Task Force, work his official biography says earned NASA's Exceptional Public Achievement Medal, and served on the board of AV EDGE (Antelope Valley Economic Development and Growth Enterprise).",
           "sources": [
             "s2",
-            "s8"
+            "s11"
           ]
         },
         {
           "text": "Elected to the U.S. House in 2024. In the 119th Congress he serves on the House Armed Services Committee and the Science, Space, and Technology Committee, where his office describes him as Vice Ranking Member.",
           "sources": [
             "s2",
-            "s8"
+            "s11"
           ]
         },
         {
           "text": "According to his official biography, he and his wife, Loretta Hidalgo Whitesides, have been married for nearly 20 years and have two children.",
           "sources": [
-            "s8"
+            "s11"
           ]
         }
       ],
@@ -143,6 +143,23 @@
           "quote": "George has brought back millions in federal funding for local law enforcement, so they can invest in new technology and enhance public safety.",
           "sources": [
             "s7"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, and H.R. 18, the Bipartisan Background Checks Act of 2025 (119th Congress).",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "Cosponsored H.R. 407, the Prevent Tariff Abuse Act, which excludes the imposition of duties and import quotas from the President's authorities under the International Emergency Economic Powers Act (119th Congress).",
+          "sources": [
+            "s10"
           ]
         }
       ],
@@ -227,18 +244,35 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
         {
           "issue": "immigration_enforcement",
-          "stance": "supports",
-          "summary": "Says on his campaign website that he supports securing the border and cracking down on fentanyl trafficking.",
+          "quote": "Jason supports securing the border, cracking down on fentanyl trafficking, and ending policies that reward illegal entry.",
+          "context": "On his campaign website",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Jason will support law enforcement and stand up to the “soft-on-crime” policies that are letting repeat offenders walk free.",
+          "context": "On his campaign website",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Jason will fight to lower the cost of living by opposing new taxes, supporting energy affordability, and holding government accountable for wasteful spending.",
+          "context": "On his campaign website",
           "sources": [
             "s3"
           ]
         }
-      ],
-      "record": [],
-      "researchDepth": "basic"
+      ]
     }
   ],
   "sources": [
@@ -293,6 +327,27 @@
     },
     {
       "id": "s8",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115, Assault Weapons Ban of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18, Bipartisan Background Checks Act of 2025",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/407",
+      "title": "H.R. 407, Prevent Tariff Abuse Act",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
       "url": "https://whitesides.house.gov/about",
       "title": "About George Whitesides",
       "publisher": "Office of Rep. George Whitesides",
@@ -300,5 +355,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "George Whitesides has not completed Ballotpedia's 2026 Candidate Connection survey and no current issue-by-issue statements from him were found within this session's time budget beyond his committee assignments; his federal floor votes and FEC totals are added separately by script. Jason Gibbs has not completed the survey either; positions beyond immigration enforcement were not stated specifically enough on his campaign site to map to the fixed issue list without inferring from general language, so they are omitted per the research standard. Biography gaps: Gibbs's birthplace, birth year, and specific aerospace employers were not stated in the sources found; the outcome of his 2018 council run was not confirmed."
+  "researchNotes": "George Whitesides has not completed Ballotpedia's 2026 Candidate Connection survey and no current issue-by-issue statements from him were found within this session's time budget beyond his committee assignments; his federal floor votes and FEC totals are added separately by script. Jason Gibbs has not completed the survey either; positions beyond immigration enforcement were not stated specifically enough on his campaign site to map to the fixed issue list without inferring from general language, so they are omitted per the research standard. Jason Gibbs: no Ballotpedia survey; positions beyond statements were not stated specifically enough on his campaign site to map to the issue list, so only verbatim statements are shown. Jason Gibbs: no Ballotpedia survey; positions beyond statements were not stated specifically enough on his campaign site to map to the issue list, so only verbatim statements are shown. Biography gaps: Gibbs's birthplace, birth year, and specific aerospace employers were not stated in the sources found; the outcome of his 2018 council run was not confirmed."
 }

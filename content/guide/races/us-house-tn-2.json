@@ -97,7 +97,17 @@
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "His official issues page says anyone who enters the country illegally should be deported and calls for ending catch-and-release.",
+          "quote": "anyone who tries to enter this country illegally has no business being here and should be deported",
+          "sources": [
+            "r5"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the House Committee on Oversight and Government Reform (2025-2026), including its Delivering on Government Efficiency and Government Operations subcommittees.",
@@ -115,7 +125,8 @@
         }
       ],
       "researchDepth": "basic",
-      "bioguideId": "B001309"
+      "bioguideId": "B001309",
+      "researchNotes": "His official issues pages state positions on abortion (opposes taxpayer funding and says he will protect unborn lives, no legal-access policy stated) and the Second Amendment (general support); neither was recorded as a position."
     },
     {
       "id": "michaela-barnett",
@@ -176,15 +187,79 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Says healthcare should be affordable and accessible for everyone and criticizes insurers and pharmaceutical companies for prioritizing profit; cites Tennessee's low life-expectancy and maternal-mortality rankings.",
-          "quote": "A healthcare system's success should be measured by how many patients it heals, not how much profit it generates for its shareholders.",
+          "summary": "Her campaign site calls for restoring and expanding the ACA premium tax credit and a universal healthcare option alongside private coverage.",
+          "quote": "Work to restore and expand the ACA premium tax credit to make our current healthcare options affordable",
           "sources": [
-            "s3"
+            "r2"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Her campaign site says she would cosponsor and vote for a federal minimum wage increase to at least $15 an hour.",
+          "quote": "Cosponsor and vote for a federal minimum wage increase – pushing to raise the floor to at least $15/hour with phased increases",
+          "sources": [
+            "r3"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Her campaign site says she would cosponsor legislation to close billionaire tax loopholes, end carried interest deductions and set a minimum tax on the very wealthy.",
+          "quote": "Cosponsor legislation to close billionaire tax loopholes and end carried interest deductions",
+          "sources": [
+            "r3"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Her campaign site calls for federal clean energy targets and clean energy tax credits and grants, including solar, wind, battery storage and advanced nuclear.",
+          "quote": "Set federal clean energy targets to ensure that future generations can enjoy our beautiful home",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "Her campaign site calls for reducing barriers to housing construction by modernizing land use and zoning laws.",
+          "quote": "Reduce barriers to housing construction by modernizing land use and zoning laws",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Her campaign site lists restoring and protecting the right to abortion among her priorities.",
+          "quote": "Restore and protect the right to abortion",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Her campaign site calls for bipartisan legislation to enhance background checks and for gun violence prevention research, while preserving Second Amendment rights.",
+          "quote": "Support bipartisan legislation to enhance background checks, protecting our communities by making sure that dangerous individuals do not get access to firearms",
+          "sources": [
+            "r1"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Her campaign site calls for returning ICE to 2024 funding levels, requiring ICE agent identification, and creating paths to citizenship, alongside secure borders.",
+          "quote": "Return ICE to 2024 funding levels",
+          "sources": [
+            "r1"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "website": "https://www.michaelafortennessee.com"
     },
     {
       "id": "bruce-fine",
@@ -231,7 +306,34 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "the few people who have the vast majority of the money and wealth in our country have been given one of the biggest cut in taxes ever",
+          "context": "On his campaign website",
+          "sources": [
+            "f1"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "every citizen deserves to have the best possible healthcare",
+          "context": "On his campaign website",
+          "sources": [
+            "f1"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Protecting Tennessee's natural beauty while supporting an all-of-the-above energy strategy that keeps costs low.",
+          "context": "On his campaign website's platform section",
+          "sources": [
+            "f1"
+          ]
+        }
+      ],
+      "website": "https://fineforcongresstn.com/"
     },
     {
       "id": "adam-heimerman",
@@ -278,9 +380,39 @@
           ]
         }
       ],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Lists raising the federal minimum wage as a commitment on his campaign website.",
+          "quote": "Raise the federal minimum wage to a true living wage",
+          "sources": [
+            "h1"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Sovereign nations must have a secure and established border.",
+          "context": "On his campaign website",
+          "sources": [
+            "h1"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "Close tax loopholes exploited by billionaires and multinationals",
+          "context": "Listed among his commitments on his campaign website",
+          "sources": [
+            "h1"
+          ]
+        }
+      ],
+      "website": "https://www.vote4heimerman.com/"
     }
   ],
   "sources": [
@@ -320,6 +452,50 @@
       "title": "Adam Heimerman's Ballotpedia Candidate Connection survey responses",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "r1",
+      "url": "https://www.michaelafortennessee.com/issues",
+      "title": "My policy priorities",
+      "publisher": "Michaela for Tennessee campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "r2",
+      "url": "https://www.michaelafortennessee.com/healthcare-focused-on-people-not-profits",
+      "title": "Healthcare Focused on People, Not Profits",
+      "publisher": "Michaela for Tennessee campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "r3",
+      "url": "https://www.michaelafortennessee.com/an-economy-that-works-for-all",
+      "title": "An Economy that Works for All",
+      "publisher": "Michaela for Tennessee campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "r5",
+      "url": "https://burchett.house.gov/issues/border-security",
+      "title": "Border Security",
+      "publisher": "Office of Rep. Tim Burchett",
+      "kind": "official"
+    },
+    {
+      "id": "f1",
+      "url": "https://fineforcongresstn.com/",
+      "title": "Bruce Fine for Congress",
+      "publisher": "Bruce Fine campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "h1",
+      "url": "https://www.vote4heimerman.com/platform",
+      "title": "Adam's Platform",
+      "publisher": "Heimerman for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-19"
     },
     {
       "id": "s6",
@@ -379,5 +555,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Tim Burchett did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. No campaign website or independent news profile was available for Michaela Barnett, Bruce Fine, or Adam Heimerman beyond their Candidate Connection surveys, so their biographies rest largely on self-reported material."
+  "researchNotes": "Tim Burchett did not complete Ballotpedia's Candidate Connection survey for 2026; his federal key votes and FEC totals are added separately by script. Bruce Fine and Adam Heimerman were researched from their own campaign websites (Ballotpedia returned a bot challenge); Fine's site states no direct positions on the guide's issues, so his entries are statements only. No questionnaire or debate coverage was found for either. No campaign website or independent news profile was available for Michaela Barnett, Bruce Fine, or Adam Heimerman beyond their Candidate Connection surveys, so their biographies rest largely on self-reported material."
 }

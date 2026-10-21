@@ -30,40 +30,40 @@
         "text": "Rich McCormick is the incumbent U.S. Representative for Georgia's 7th Congressional District. A former Marine Corps helicopter pilot and Navy officer who became an emergency room physician, he was first elected to Congress in 2022 from the 6th District and won the redrawn 7th District in 2024.",
         "sources": [
           "s2",
-          "s8"
+          "s9"
         ]
       },
       "background": [
         {
           "text": "According to his official biography, he was raised by a single mother, worked as a paperboy in middle school, and earned a degree from Oregon State University.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Joined the U.S. Marine Corps and became a helicopter pilot; his official biography says he deployed to combat zones in Africa, the Persian Gulf, and Afghanistan during about two decades of service.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Taught at Georgia Tech and Morehouse College as the Marine Officer Instructor, and in the Navy reached the rank of Commander and served as Department Head for Emergency Medicine in Kandahar, Afghanistan.",
           "sources": [
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Earned an M.B.A. from National University and an M.D. from Morehouse School of Medicine, where he was student body president; completed an emergency medicine residency through Emory, training at Grady Hospital in Atlanta.",
           "sources": [
             "s2",
-            "s8"
+            "s9"
           ]
         },
         {
           "text": "Worked as an emergency medicine physician, including with Gwinnett Medical Center and Northside Hospital.",
           "sources": [
             "s2",
-            "s8"
+            "s9"
           ]
         },
         {
@@ -88,7 +88,7 @@
           "text": "In the 119th Congress (2025-2026), assigned to the Committee on Science, Space, and Technology (chairing its Investigations and Oversight Subcommittee), the Armed Services Committee, and the Foreign Affairs Committee; his official biography also lists the Oversight Committee. According to his official biography, he lives in Alpharetta, Georgia.",
           "sources": [
             "s2",
-            "s8"
+            "s9"
           ]
         }
       ],
@@ -125,10 +125,19 @@
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
-          "summary": "His official site says the border is too porous and must be secured, and he cosponsors bills including the Laken Riley Act and the REMAIN in Mexico Act.",
+          "summary": "His official site lists among his bills the Laken Riley Act, which allows detention of aliens arrested for theft-related offenses, and the REMAIN in Mexico Act, and says the border is too porous and must be fixed.",
           "quote": "Our border is much too porous, and we have to fix it. Without a secure border, we can't have a secure nation.",
           "sources": [
             "s5"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "His official site says he is a cosponsor of the Protection of Women and Girls in Sports Act, which would bar transgender girls and women from women's school sports under Title IX.",
+          "quote": "I am proud to be a cosponsor of the Protection of Women and Girls in Sports Act",
+          "sources": [
+            "s4"
           ]
         }
       ],
@@ -237,24 +246,61 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "opposes",
-          "summary": "Says the immigration system needs reform to restore due process and end what he calls abusive enforcement practices, citing his work representing families and a detained veteran.",
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "His campaign site says he will fight to restore and make permanent the enhanced ACA premium tax credits and pledges to protect Medicaid from cuts.",
+          "quote": "Tony will fight to restore and make permanent the premium tax credits that kept coverage affordable for millions of Americans.",
           "sources": [
-            "s3"
+            "s8"
           ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
-          "summary": "Says he will work to raise the minimum wage as part of lowering the cost of living for working families.",
+          "summary": "His campaign site says he supports raising the minimum wage and indexing it to inflation.",
+          "quote": "Tony supports raising the minimum wage and indexing it so workers do not keep losing ground every year Congress fails to act.",
           "sources": [
-            "s3"
+            "s8"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Bring Accountability to Enforcement — ICE and DHS need stronger oversight, better training, and real consequences when they make serious mistakes.",
+          "context": "On his campaign website's Immigration page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Tony will fight to make childcare affordable so that having a family doesn't mean choosing between working and going broke.",
+          "context": "On his campaign website's Childcare & Working Families page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "housing_supply",
+          "quote": "Build More Affordable Housing — Tony will fight for federal housing grants and direct investment in affordable housing construction across Georgia, with an emphasis on communities that have been priced out of their own neighborhoods.",
+          "context": "On his campaign website's Housing page",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "issue": "rent_regulation",
+          "quote": "Tony will support federal action to curb bulk buying of starter homes and protect renters from abusive corporate practices.",
+          "context": "On his campaign website's Housing page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements come from his campaign issues page (kozyckiforcongress.com/issues.html) and Ballotpedia Candidate Connection survey. Nothing found stating a position on abortion, guns, tariffs, or Israel aid."
     }
   ],
   "sources": [
@@ -314,6 +360,14 @@
     },
     {
       "id": "s8",
+      "url": "https://kozyckiforcongress.com/issues.html",
+      "title": "Issues",
+      "publisher": "Tony Kozycki for Congress",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
       "url": "https://mccormick.house.gov/about/",
       "title": "About Rich",
       "publisher": "Office of Rep. Rich McCormick",

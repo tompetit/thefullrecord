@@ -31,39 +31,39 @@
           "s1",
           "s2",
           "s3",
-          "s5"
+          "s7"
         ]
       },
       "background": [
         {
           "text": "Born Melissa Luburich on January 22, 1962, in Chicago, she grew up in a Serbian-American family in the Chicago suburbs.",
           "sources": [
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Attended Maine East High School, earned an associate degree from Oakton Community College in 1982, and earned a bachelor's degree from Roosevelt University in 2000.",
           "sources": [
             "s2",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Before elected office, was president of a home-based business, Sales Resources Inc.",
           "sources": [
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Ran for the 8th District seat in 2002, losing to Republican incumbent Phil Crane with 43 percent of the vote, and defeated Crane in a 2004 rematch with 52 percent. When she took office on January 3, 2005, she became the first Democrat to represent the district since it was formed in 1935.",
           "sources": [
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Served in the U.S. House from 2005 to 2011 as a member of the Blue Dog Coalition and the New Democrat Coalition, with seats on the Financial Services and Small Business committees. She lost her 2010 re-election bid to Republican Joe Walsh by 291 votes.",
           "sources": [
-            "s5"
+            "s7"
           ]
         },
         {
@@ -76,20 +76,20 @@
           "text": "In 2011 became president and CEO of the Executives Club of Chicago, later served as chair of Midwest operations for JPMorgan Chase, and became CEO of Mesirow Wealth Advisors, part of Mesirow Financial, in 2019. Ballotpedia also lists affiliations with One Million Degrees, Junior Achievement and World Business Chicago.",
           "sources": [
             "s2",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Announced in September 2025 that she would seek her former seat after Rep. Raja Krishnamoorthi entered the U.S. Senate race, and won the March 17, 2026 Democratic primary with 31.6% of the vote in a field of eight.",
           "sources": [
             "s1",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Wikipedia reports she lives in unincorporated Palatine Township with her husband, Alan Bean; the page notes the residence detail needs updating.",
           "sources": [
-            "s5"
+            "s7"
           ]
         }
       ],
@@ -145,14 +145,6 @@
           "sources": [
             "s3"
           ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "mixed",
-          "summary": "Campaign platform emphasizes closing wealth gaps through worker profit-sharing and pension incentives, without a direct statement on raising taxes on high earners or corporations.",
-          "sources": [
-            "s3"
-          ]
         }
       ],
       "record": [
@@ -178,7 +170,7 @@
         "sources": [
           "s1",
           "s4",
-          "s6"
+          "s8"
         ]
       },
       "background": [
@@ -239,26 +231,60 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "researchDepth": "basic",
+      "statements": [
         {
-          "issue": "tax_wealthy",
-          "stance": "opposes",
-          "summary": "Pledges to cut federal taxes on working families and ease regulations on small businesses and entrepreneurs.",
+          "issue": "immigration_enforcement",
+          "quote": "Real reform begins with securing the border — fully and effectively.",
+          "context": "In her WTTW 2026 voter guide answers",
           "sources": [
-            "s4"
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "My top priority is empowering patients and providers with choices, not more government mandates, to make quality care affordable.",
+          "context": "In her WTTW 2026 voter guide answers",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "She supports a range of educational options—public, charter, private, or home schools—so families can choose what works best for their children.",
+          "context": "On her campaign website",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "quote": "Families in Illinois deserve safe neighborhoods where law enforcement has the resources—not red tape—to do its job.",
+          "context": "On her campaign website",
+          "sources": [
+            "s5"
           ]
         },
         {
           "issue": "climate",
-          "stance": "opposes",
-          "summary": "Says she would drive energy independence by expanding U.S. oil, gas and renewable production to cut reliance on other countries.",
+          "quote": "By expanding American oil, gas, and renewable production, Jennifer will reduce reliance on adversarial nations, protect our economy, and save families hundreds at the pump.",
+          "context": "On her campaign website",
           "sources": [
-            "s4"
+            "s5"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "quote": "My approach to tax policy is simple: cut taxes across the board to unleash economic growth.",
+          "context": "In her WTTW 2026 voter guide answers",
+          "sources": [
+            "s6"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "basic"
+      "website": "https://www.votejenniferdavis.com"
     }
   ],
   "sources": [
@@ -296,6 +322,21 @@
     },
     {
       "id": "s5",
+      "url": "https://www.votejenniferdavis.com/issues",
+      "title": "Issues",
+      "publisher": "Jennifer Davis for Congress campaign website",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s6",
+      "url": "https://news.wttw.com/elections/voters-guide/2026-general/jennifer-davis",
+      "title": "Jennifer Davis - 2026 General Election Voter Guide",
+      "publisher": "WTTW News",
+      "kind": "news"
+    },
+    {
+      "id": "s7",
       "url": "https://en.wikipedia.org/wiki/Melissa_Bean",
       "title": "Melissa Bean",
       "publisher": "Wikipedia",
@@ -303,7 +344,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s6",
+      "id": "s8",
       "url": "https://ballotpedia.org/Jennifer_Davis_(Illinois)",
       "title": "Jennifer Davis (Illinois)",
       "publisher": "Ballotpedia",
@@ -312,5 +353,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "This is an open seat; Krishnamoorthi's federal record as the outgoing incumbent is covered under his U.S. Senate race file, not here. Biography gaps: no birth year, birthplace or education was found for Davis in sources reviewed, and her biography relies on her own Ballotpedia survey; Bean's residence detail comes from Wikipedia and is marked there as needing an update."
+  "researchNotes": "This is an open seat; Krishnamoorthi's federal record as the outgoing incumbent is covered under his U.S. Senate race file, not here. Jennifer Davis's statements come from her campaign website and her WTTW 2026 voter-guide answers. Biography gaps: no birth year, birthplace or education was found for Davis in sources reviewed, and her biography relies on her own Ballotpedia survey; Bean's residence detail comes from Wikipedia and is marked there as needing an update."
 }

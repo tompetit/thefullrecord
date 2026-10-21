@@ -111,24 +111,85 @@
         {
           "issue": "rent_regulation",
           "stance": "supports",
-          "summary": "Says he will fight for stronger tenant protections and housing policies that stabilize the community, citing his work protecting Mitchell-Lama affordability on Queens Community Board 2.",
-          "quote": "Rising rents are displacing long-time neighbors, and I will fight for stronger tenant protections and housing policies that stabilize our community.",
+          "summary": "Says he supports comprehensive housing reform that includes stronger tenant protections and good-cause eviction.",
+          "quote": "stronger tenant protections, good-cause eviction",
           "sources": [
-            "s4"
+            "s6"
           ]
         },
         {
           "issue": "housing_supply",
-          "stance": "mixed",
-          "summary": "Supports building more housing but says it should come through \"sensible housing policies that increase supply without sacrificing the character of our neighborhoods.\"",
-          "quote": "sensible housing policies that increase supply without sacrificing the character of our neighborhoods",
+          "stance": "supports",
+          "summary": "Says he supports upzoning near transit with affordability mandates as part of housing reform.",
+          "quote": "upzoning near transit with affordability mandates",
           "sources": [
-            "s4"
+            "s6"
           ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Answered \"Yes. I support full access to reproductive healthcare, including abortion, without restriction\" when asked on the Jim Owles Liberal Democratic Club questionnaire (March 2026) whether he supports the unrestricted right to reproductive care and abortion.",
+          "quote": "I support full access to reproductive healthcare, including abortion, without restriction.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "Says he will work to pass the New York for All Act, which would limit cooperation by local agencies with federal immigration enforcement.",
+          "quote": "In office, I will fight to pass New York For All to prevent local agencies from cooperating with ICE.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Answered yes on the Jim Owles Liberal Democratic Club questionnaire to supporting legislation that raises taxes on the richest New Yorkers and large corporations.",
+          "quote": "We must ensure the wealthiest pay their fair share to fund housing, education, healthcare, and social services.",
+          "sources": [
+            "s6"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says he would work to pass the New York Health Act.",
+          "quote": "everyone should have access to healthcare regardless of documentation status, and passing the New York Health Act will ensure just that.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "universal_childcare",
+          "stance": "supports",
+          "summary": "Lists passing Universal Childcare, alongside strengthening 3K and Pre-K, among his education priorities.",
+          "quote": "This, coupled with passing Universal Childcare and strengthening our 3K and Pre-K programs, will help not only our children, but our entire community to thrive.",
+          "sources": [
+            "s8"
+          ],
+          "basis": "statements"
         }
       ],
       "record": [],
-      "researchDepth": "full"
+      "researchDepth": "full",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "Climate Change is the single biggest long-term threat to our society and economy.",
+          "context": "On his campaign website's Priorities page",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "researchNotes": "Positions drawn from his Jim Owles Liberal Democratic Club questionnaire (March 2026) and his campaign website's Priorities page. He gave no statement on several guide issues (e.g., guns, police funding, school choice)."
     },
     {
       "id": "brandon-castro",
@@ -212,32 +273,28 @@
         {
           "issue": "police_funding",
           "stance": "supports",
-          "summary": "Says restoring safety requires \"increasing NYPD manpower, investing in better training, and ensuring officers can protect our communities effectively and responsibly.\"",
-          "quote": "increasing NYPD manpower, investing in better training, and ensuring officers can protect our communities effectively and responsibly",
+          "summary": "In his 2026 Ballotpedia Candidate Connection survey, says safety requires increasing NYPD manpower and investing in better training; Branch's summary of his platform also describes support for additional NYPD funding.",
           "sources": [
-            "s5"
-          ]
-        },
-        {
-          "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Supports keeping the SHSAT admissions test and expanding merit-based financial aid rather than broader admissions changes.",
-          "sources": [
-            "s5"
-          ]
-        },
+            "s5",
+            "s7"
+          ],
+          "quote": "That means increasing NYPD manpower, investing in better training, and ensuring officers can protect our communities effectively and responsibly.",
+          "basis": "statements"
+        }
+      ],
+      "record": [],
+      "researchDepth": "full",
+      "statements": [
         {
           "issue": "housing_supply",
-          "stance": "mixed",
-          "summary": "Supports continued housing growth but says infrastructure investment (sewer, stormwater, transit) must keep pace, warning that \"without investment in the foundation, we risk overburdening the very neighborhoods we are trying to grow.\"",
-          "quote": "Without investment in the foundation, we risk overburdening the very neighborhoods we are trying to grow.",
+          "quote": "While the state pushes new housing, too many of our communities are being left behind with crumbling infrastructure.",
+          "context": "In his 2026 Ballotpedia Candidate Connection survey",
           "sources": [
             "s5"
           ]
         }
       ],
-      "record": [],
-      "researchDepth": "full"
+      "researchNotes": "Castro has no campaign website that could be loaded; positions come from his 2026 Ballotpedia survey and a Branch summary. His 2026 answers do not address most guide issues."
     }
   ],
   "sources": [
@@ -279,6 +336,28 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://jimowles.org/news/candidate-answers-to-joldc-patrick-martinez-for-ny-assembly-district-30",
+      "title": "Candidate Answers to JOLDC: Patrick Martinez for NY Assembly District 30",
+      "publisher": "Jim Owles Liberal Democratic Club",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.branch.vote/races/2026-new-york-general-election-ny-state-state-representative-ny-state-house-30/candidates/brandon-p-castro",
+      "title": "Brandon P. Castro platform & website",
+      "publisher": "Branch",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.martinezforqueens.com/priorities",
+      "title": "Priorities - Patrick Martinez for Queens",
+      "publisher": "Martinez for Queens",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
   "researchedAt": "2026-09-25",

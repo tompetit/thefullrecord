@@ -35,7 +35,7 @@
       "summary": {
         "text": "Chris Smith is the incumbent Republican U.S. Representative for New Jersey's 4th District, first elected in 1980 after working in his family's sporting goods business and as executive director of the New Jersey Right to Life Committee. He is a senior member of the House Foreign Affairs Committee, chairs its Africa subcommittee, and, according to his House biography, has authored 68 enacted laws, including on human trafficking, autism research, and veterans.",
         "sources": [
-          "s6",
+          "s9",
           "s3"
         ]
       },
@@ -43,66 +43,86 @@
         {
           "text": "Born in Rahway, New Jersey, in 1953 and, according to his House biography, grew up in Iselin.",
           "sources": [
-            "s6",
-            "s7"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "Earned a bachelor's degree in business administration from Trenton State College (now The College of New Jersey) in 1975, and spent a semester abroad at Worcester College in England.",
           "sources": [
             "s3",
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "Worked as Director of Institutional Sales at his family-owned sporting goods company and served as Executive Director of the New Jersey Right to Life Committee; Ballotpedia also lists work on political campaigns for Democratic officials.",
           "sources": [
-            "s6",
+            "s9",
             "s3"
           ]
         },
         {
           "text": "Ran for Congress as a Republican in 1978 and lost to Rep. Frank Thompson, then defeated Thompson in 1980 to win the seat; he took office in 1981.",
           "sources": [
-            "s7",
-            "s6"
+            "s10",
+            "s9"
           ]
         },
         {
           "text": "Is serving his 23rd term; in the 119th Congress he is a senior member of the Foreign Affairs Committee and chairs its Africa subcommittee, and also sits on its Western Hemisphere subcommittee.",
           "sources": [
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "Co-chairs the Tom Lantos Human Rights Commission and the Congressional-Executive Commission on China, has served as Special Representative on Human Trafficking for the OSCE Parliamentary Assembly, and has chaired the Helsinki Commission (CSCE) five times.",
           "sources": [
-            "s6"
+            "s9"
           ]
         },
         {
           "text": "Chaired the House Veterans' Affairs Committee for two terms, beginning in January 2001, and earlier chaired Foreign Affairs subcommittees on human rights, international operations and organizations, and global health.",
           "sources": [
-            "s6",
-            "s7"
+            "s9",
+            "s10"
           ]
         },
         {
           "text": "Is the author of the Trafficking Victims Protection Act of 2000 and of several autism research laws, among the 68 laws his House biography credits to him.",
           "sources": [
-            "s6",
+            "s9",
             "s4"
           ]
         },
         {
           "text": "Chairs or co-founded several bipartisan congressional caucuses, including the Pro-life, Autism, Alzheimer's, Lyme Disease, and Human Trafficking caucuses. According to his House biography, he lives in Manchester, New Jersey, with his wife, Marie.",
           "sources": [
-            "s6"
+            "s9"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "As co-chair of the Congressional Pro-Life Caucus, joined a February 2026 amicus brief to restore the in-person dispensing requirement for mifepristone and in May 2026 urged the Supreme Court to end the mail-order policy.",
+          "quote": "At a minimum, the mail-order ‘big business’ has to end.",
+          "sources": [
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Opposes offshore wind projects off New Jersey, citing their effects on radar and aircraft and vessel safety, as quoted by WHYY.",
+          "quote": "ocean wind projects pose significant, catastrophic impacts to radar, putting military and civilian aircrafts and vessels at grave risk.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Authored the Victims of Trafficking and Violence Protection Act of 2000 (P.L. 106-386), the first comprehensive federal law against human trafficking, and its subsequent reauthorizations in 2003, 2005, and 2018 (the Frederick Douglass Trafficking Victims Prevention and Protection Reauthorization Act).",
@@ -143,7 +163,7 @@
           "text": "In the 119th Congress (2025–2026), is a senior member of the House Committee on Foreign Affairs and chairs its Subcommittee on Africa, a panel he has chaired in several earlier Congresses.",
           "kind": "action",
           "sources": [
-            "s6",
+            "s9",
             "s3"
           ]
         }
@@ -304,13 +324,34 @@
     },
     {
       "id": "s6",
+      "url": "https://chrissmith.house.gov/news/documentsingle.aspx?DocumentID=415618",
+      "title": "The abortion pill is extremely dangerous to women",
+      "publisher": "Office of Rep. Chris Smith",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://chrissmith.house.gov/news/documentsingle.aspx?DocumentID=415351",
+      "title": "Rep. Smith, Sen. Cassidy lead bicameral amicus brief in support of stopping the Biden FDA's illegal mail-order abortion scheme",
+      "publisher": "Office of Rep. Chris Smith",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://whyy.org/articles/election-2026-new-jersey-4th-congressional-district-voter-guide/",
+      "title": "NJ election 2026: 4th Congressional District voter guide",
+      "publisher": "WHYY",
+      "kind": "news"
+    },
+    {
+      "id": "s9",
       "url": "https://chrissmith.house.gov/biography/",
       "title": "Biography",
       "publisher": "Office of Rep. Chris Smith",
       "kind": "official"
     },
     {
-      "id": "s7",
+      "id": "s10",
       "url": "https://en.wikipedia.org/wiki/Chris_Smith_(New_Jersey_politician)",
       "title": "Chris Smith (New Jersey politician)",
       "publisher": "Wikipedia",

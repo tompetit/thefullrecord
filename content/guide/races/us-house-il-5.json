@@ -30,8 +30,8 @@
         "text": "Quigley has represented Illinois' 5th Congressional District since a 2009 special election. A lawyer and law professor, he served on the Cook County Board of Commissioners from 1998 to 2009 before entering Congress. He sits on the House Permanent Select Committee on Intelligence and the Appropriations Committee, and is seeking re-election in 2026.",
         "sources": [
           "s1",
-          "s8",
-          "s9"
+          "s11",
+          "s12"
         ]
       },
       "background": [
@@ -39,7 +39,7 @@
           "text": "Born in Indianapolis, Indiana, in 1958; according to his official biography, he grew up in Carol Stream, Illinois, and worked his way through college.",
           "sources": [
             "s1",
-            "s8"
+            "s11"
           ]
         },
         {
@@ -58,32 +58,32 @@
           "text": "Served on the Cook County Board of Commissioners for District 10 from 1998 to 2009, where, according to his official biography, he worked to increase transparency on the board.",
           "sources": [
             "s1",
-            "s8"
+            "s11"
           ]
         },
         {
           "text": "Was elected to Congress to represent Illinois' 5th District on April 7, 2009, succeeding Rahm Emanuel.",
           "sources": [
             "s1",
-            "s9"
+            "s12"
           ]
         },
         {
           "text": "Serves on the House Permanent Select Committee on Intelligence and on the Appropriations Subcommittee on Transportation, Housing and Urban Development; he is also co-chair of the Congressional Ukraine Caucus and Vice-Chair of the LGBT Equality Caucus, per his official biography.",
           "sources": [
-            "s8"
+            "s11"
           ]
         },
         {
           "text": "Founded the bipartisan Congressional Transparency Caucus. His Congressional Budget Justification Act was signed into law in 2021, and his ACT for ALS, introduced in 2020, was signed into law in December 2021, according to his official biography.",
           "sources": [
-            "s8"
+            "s11"
           ]
         },
         {
           "text": "Teaches a course on intelligence and national security at the University of Chicago and lives in Chicago with his wife, Barb, according to his official biography.",
           "sources": [
-            "s8"
+            "s11"
           ]
         }
       ],
@@ -121,7 +121,7 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says he will always stand up for reproductive rights and describes abortion care as health care after the overturning of Roe v. Wade.",
-          "quote": "Put simply, abortion care is health care. ... As your representative in Washington, I will always stand up for reproductive rights.",
+          "quote": "Put simply, abortion care is health care.",
           "sources": [
             "s7"
           ]
@@ -142,6 +142,15 @@
           "quote": "I serve as Co-Chair of the House Sustainable Energy and Environment Coalition (SEEC), a group of more than 87 members of the House of Representatives committed to combating climate change and ensuring a robust, resilient, low-carbon economy for generations to come.",
           "sources": [
             "s6"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "opposes",
+          "summary": "In a January 2026 press release he called for dismantling ICE in its current form and rebuilding the agency.",
+          "quote": "We must dismantle Trump’s ICE from the top down",
+          "sources": [
+            "s8"
           ]
         }
       ],
@@ -183,7 +192,7 @@
         "text": "Hanson is a Chicago-born small business owner who works in commercial real estate and has run for this seat in several earlier cycles. He won the March 2026 Republican primary. His campaign website describes him as a \"Liberal Republican – fiscally conservative/socially liberal.\"",
         "sources": [
           "s2",
-          "s10"
+          "s13"
         ]
       },
       "background": [
@@ -196,7 +205,7 @@
         {
           "text": "According to his campaign website, he began his career selling advertising for the Chicago Tribune and later U.S. News & World Report, and now works selling and leasing commercial real estate.",
           "sources": [
-            "s10"
+            "s13"
           ]
         },
         {
@@ -218,10 +227,70 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Names reducing federal spending and the deficit as an economic priority.",
+          "quote": "stop runaway federal government spending",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Names prosecuting violent criminals and supporting law enforcement as a crime priority.",
+          "quote": "I believe in prosecuting and keeping violent criminals in jail as long as legally possible so that they cannot victimize more innocent people.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Says he believes in lawful immigration and opposes illegal immigration.",
+          "quote": "I believe in robust, lawful immigration.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Describes himself as pro-life.",
+          "quote": "I am pro-life and believe that every person deserves the opportunity to pursue life, liberty and happiness.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I.C.E. will only work in the states that demand their services; This change will reduce unwanted federal services and federal expenditures, leaving it up to each state to make that decision.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "tariffs",
+          "quote": "Replace individual income taxes with corporations making up the difference for federal taxes. Plus implementing sensible tariffs and a Fair Tax, for generating revenue for our government.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "rent_regulation",
+          "quote": "Demand residential landlords maintain their rental properties and cooperate with their tenants.",
+          "context": "On his campaign website",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "website": "https://www.votetommyhanson.com"
     }
   ],
   "sources": [
@@ -278,6 +347,28 @@
     },
     {
       "id": "s8",
+      "url": "https://quigley.house.gov/media-center/press-releases/quigley-calls-dismantling-ice",
+      "title": "Quigley Calls for Dismantling of ICE",
+      "publisher": "Office of Rep. Mike Quigley",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.votetommyhanson.com/issues",
+      "title": "Issues - Vote for Tommy Hanson",
+      "publisher": "Tommy Hanson for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.votetommyhanson.com/",
+      "title": "Vote for Tommy Hanson | US Congress | 5th District in Illinois",
+      "publisher": "Tommy Hanson for Congress campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s11",
       "url": "https://quigley.house.gov/about/biography",
       "title": "Biography",
       "publisher": "Office of Rep. Mike Quigley",
@@ -285,7 +376,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s9",
+      "id": "s12",
       "url": "https://quigley.house.gov/about",
       "title": "About",
       "publisher": "Office of Rep. Mike Quigley",
@@ -293,7 +384,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s10",
+      "id": "s13",
       "url": "https://www.votetommyhanson.com",
       "title": "Vote for Tommy Hanson | US Congress | 5th District in Illinois",
       "publisher": "Tommy Hanson for Congress",
@@ -302,5 +393,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Quigley's positions and priorities are drawn from his official House issues pages. No campaign website, public statements, or Candidate Connection survey were found for Tom Hanson beyond a brief Ballotpedia biography. Hanson's biography rests on his campaign website and Ballotpedia; no education or civic-role details were found."
+  "researchNotes": "Quigley's positions and priorities are drawn from his official House issues pages. Tom Hanson's statements come from his campaign website; he has not completed Ballotpedia's 2026 Candidate Connection survey and no Q&A or debate quotes were found. Hanson's biography rests on his campaign website and Ballotpedia; no education or civic-role details were found."
 }

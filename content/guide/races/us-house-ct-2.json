@@ -29,7 +29,7 @@
         "text": "Joe Courtney is the Democratic incumbent for Connecticut's 2nd Congressional District, first elected in 2006. A lawyer and former public defender, he served in the Connecticut House of Representatives from 1987 to 1994 before entering Congress. He serves on the House Armed Services and Education and Workforce committees and is ranking member of the Armed Services Subcommittee on Seapower and Projection Forces.",
         "sources": [
           "s2",
-          "s8"
+          "s16"
         ]
       },
       "background": [
@@ -42,7 +42,7 @@
         {
           "text": "Earned a bachelor's degree from Tufts University in 1975 and a law degree from the University of Connecticut School of Law in 1978.",
           "sources": [
-            "s8",
+            "s16",
             "s2"
           ]
         },
@@ -55,39 +55,39 @@
         {
           "text": "Represented Vernon in the Connecticut House of Representatives from 1987 to 1994, serving as House chairman of both the Public Health and Human Services committees.",
           "sources": [
-            "s8",
+            "s16",
             "s2"
           ]
         },
         {
           "text": "Elected to the U.S. House in 2006 and has represented Connecticut's 2nd District since 2007, currently serving his tenth term.",
           "sources": [
-            "s8",
+            "s16",
             "s2"
           ]
         },
         {
           "text": "Serves on the House Armed Services Committee and the Education and Workforce Committee; chaired the Armed Services Subcommittee on Seapower and Projection Forces from 2018 to 2022 and is now its ranking member. His official biography says he is the first known Connecticut member to lead a House naval oversight panel since 1873.",
           "sources": [
-            "s8"
+            "s16"
           ]
         },
         {
           "text": "His official biography says he has worked for increased submarine production, which it credits with sustaining Electric Boat's workforce in southeastern Connecticut, and that he received the Navy's Distinguished Public Service Award from Navy Secretary Ray Mabus.",
           "sources": [
-            "s8"
+            "s16"
           ]
         },
         {
           "text": "Founding co-chairman of the Congressional Dairy Farmers Caucus, and his official biography says he introduced the law designating the Eightmile River as part of the National Wild and Scenic Rivers System.",
           "sources": [
-            "s8"
+            "s16"
           ]
         },
         {
           "text": "According to his official biography, lives in Vernon with his wife, Audrey, and their two children.",
           "sources": [
-            "s8"
+            "s16"
           ]
         }
       ],
@@ -109,6 +109,31 @@
           "quote": "At a time when Americans are being hit with increasing energy costs, flipping the on switch to start Revolution Wind will bring cheaper electricity to Connecticut's consumers",
           "sources": [
             "s5"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, and H.R. 18, the Bipartisan Background Checks Act of 2025 (119th Congress).",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "issue": "war_powers",
+          "stance": "supports",
+          "summary": "Cosponsored H.Con.Res. 68 (119th Congress), which directs the removal of U.S. Armed Forces from Venezuela that have not been authorized by Congress.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Cosponsored H.R. 4876, the Reproductive Freedom for Veterans Act (119th Congress), which would direct the Secretary of Veterans Affairs to provide abortion care, counseling and related services and medication to certain veterans.",
+          "sources": [
+            "s12"
           ]
         }
       ],
@@ -203,11 +228,60 @@
           ]
         }
       ],
-      "priorities": [],
-      "positions": [],
+      "priorities": [
+        {
+          "text": "Make Connecticut more affordable: energy policies that lower utility bills and tax relief.",
+          "sources": [
+            "s13"
+          ],
+          "quote": "Push for energy policies that lower utility bills"
+        },
+        {
+          "text": "Secure the border and reform the immigration system.",
+          "sources": [
+            "s8"
+          ],
+          "quote": "Strengthen border security and restore order."
+        },
+        {
+          "text": "Expand trade education and apprenticeships.",
+          "sources": [
+            "s14"
+          ],
+          "quote": "direct federal funds toward apprenticeships, job training, and technical education that connect students directly with local employers"
+        },
+        {
+          "text": "Keep Social Security and Medicare solvent.",
+          "sources": [
+            "s15"
+          ],
+          "quote": "fix the system so Social Security and Medicare stay solvent and are there for the people who earned them"
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Calls for replacing catch-and-release with consistent processing backed by sufficient detention and monitoring capacity so people who do not meet legal standards can be removed, and for improved interior enforcement.",
+          "quote": "Replace catch‑and‑release with consistent processing.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "record": [],
       "website": "https://www.votegeorgeforcongress.com",
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "climate",
+          "quote": "And I refuse to bow to extreme green ideology that relies on shame, propaganda, and fear instead of real solutions.",
+          "context": "On his campaign website",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -265,6 +339,62 @@
     },
     {
       "id": "s8",
+      "url": "https://votegeorgeforcongress.com/secure-our-borders/",
+      "title": "Securing Our Borders, Fixing a Broken System",
+      "publisher": "George Austin for Congress (campaign site)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/3115",
+      "title": "H.R. 3115 - Assault Weapons Ban of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/18",
+      "title": "H.R. 18 - Bipartisan Background Checks Act of 2025 (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/68",
+      "title": "H.Con.Res. 68 - Directing removal of U.S. Armed Forces from Venezuela not authorized by Congress (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4876",
+      "title": "H.R. 4876 - Reproductive Freedom for Veterans Act (119th Congress)",
+      "publisher": "Congress.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s13",
+      "url": "https://votegeorgeforcongress.com/dollars-and-sense/",
+      "title": "Dollars and Sense",
+      "publisher": "George Austin campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://votegeorgeforcongress.com/building-opportunity/",
+      "title": "Supporting the Trades",
+      "publisher": "George Austin campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
+      "url": "https://votegeorgeforcongress.com/",
+      "title": "Why I'm running for Congress",
+      "publisher": "George Austin campaign website",
+      "kind": "candidate"
+    },
+    {
+      "id": "s16",
       "url": "https://courtney.house.gov/biography",
       "title": "Biography",
       "publisher": "Congressman Joe Courtney",
@@ -272,5 +402,5 @@
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "George Austin's biography draws on his 2026 Ballotpedia Candidate Connection survey; no campaign website content or independent news profile of him was found. Rep. Courtney's federal key votes and FEC finance totals are added separately by script."
+  "researchNotes": "George Austin's campaign website (votegeorgeforcongress.com) was reviewed; no Candidate Connection survey or independent news coverage of his platform was found. Rep. Courtney's federal key votes and FEC finance totals are added separately by script. George Austin's biography draws on his 2026 Ballotpedia Candidate Connection survey; no campaign website content or independent news profile of him was found."
 }

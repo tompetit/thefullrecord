@@ -120,19 +120,21 @@
       ],
       "positions": [
         {
-          "issue": "immigration_enforcement",
-          "stance": "opposes",
-          "summary": "Sponsored S9491, which would let state agencies, municipalities, and public authorities extend public benefits to residents regardless of federal immigration-status restrictions.",
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "In a January 2020 Jim Owles Liberal Democratic Club questionnaire, said she supports the New York Health Act, a single-payer system.",
+          "quote": "I fully support the New York Health Act, also known as “Medicare for All”",
           "sources": [
-            "s5"
+            "s7"
           ]
         },
         {
-          "issue": "healthcare_public",
+          "issue": "abortion",
           "stance": "supports",
-          "summary": "Sponsored S9084, establishing a maternal-health remote-monitoring pilot program for Medicaid recipients managing pregnancy-related hypertension and diabetes.",
+          "summary": "In a 2018 press release, urged passage of the Reproductive Health Act, which would update New York's abortion statutes, and the Comprehensive Contraception Coverage Act.",
+          "quote": "We must do everything in our power to expand access to the full range of reproductive health services",
           "sources": [
-            "s6"
+            "s8"
           ]
         }
       ],
@@ -214,6 +216,20 @@
       "id": "s6",
       "url": "https://www.nysenate.gov/legislation/bills/2025/S9084",
       "title": "NY State Senate Bill S9084",
+      "publisher": "NYSenate.gov",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://jimowles.org/news/candidate-answers-to-joldc-roxanne-j-persaud-for-ny-senate-district-19",
+      "title": "Candidate Answers to JOLDC: Roxanne J. Persaud for NY Senate District 19",
+      "publisher": "Jim Owles Liberal Democratic Club questionnaire",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.nysenate.gov/newsroom/press-releases/2018/roxanne-j-persaud/senator-persaud-stands-womens-health-and",
+      "title": "Senator Persaud Stands Up For Women's Health And Reproductive Rights",
       "publisher": "NYSenate.gov",
       "kind": "official"
     }

@@ -36,7 +36,7 @@
         "sources": [
           "s2",
           "s8",
-          "s9"
+          "s20"
         ]
       },
       "background": [
@@ -45,7 +45,7 @@
           "sources": [
             "s2",
             "s8",
-            "s9"
+            "s20"
           ]
         },
         {
@@ -60,7 +60,7 @@
           "sources": [
             "s2",
             "s8",
-            "s9"
+            "s20"
           ]
         },
         {
@@ -75,7 +75,7 @@
           "sources": [
             "s2",
             "s8",
-            "s9"
+            "s20"
           ]
         },
         {
@@ -89,7 +89,7 @@
           "text": "Nominated by President Trump as U.S. Ambassador to Japan in March 2017, he was confirmed 86-12 on July 13, 2017. He announced in July 2019 that he would resign to run for the Senate.",
           "sources": [
             "s8",
-            "s9"
+            "s20"
           ]
         },
         {
@@ -102,19 +102,52 @@
           "text": "Serves on the Banking, Housing and Urban Affairs, Foreign Relations, Appropriations, and Rules and Administration committees. Wikipedia credits him with drafting the GENIUS Act, a stablecoin law signed July 18, 2025.",
           "sources": [
             "s8",
-            "s9"
+            "s20"
           ]
         },
         {
           "text": "Was unopposed in the August 6, 2026 Republican primary (623,538 votes). According to his official biography, he and his wife Chrissy live in Davidson County and have four children.",
           "sources": [
             "s1",
-            "s9"
+            "s20"
           ]
         }
       ],
       "priorities": [],
-      "positions": [],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Sponsored S. 1522, the District of Columbia Federal Immigration Compliance Act, a bill to bar the District of Columbia from policies that restrict sharing immigration-status information or complying with federal immigration detainer requests.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Cosponsored S. 65, the Constitutional Concealed Carry Reciprocity Act of 2025, a bill to allow reciprocity for the carrying of certain concealed firearms.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Cosponsored S. 9, the Protection of Women and Girls in Sports Act of 2025, which provides that for Title IX compliance in athletics, sex is recognized based solely on reproductive biology and genetics at birth.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "issue": "voter_citizenship_proof",
+          "stance": "supports",
+          "summary": "Cosponsored S. 128, the SAVE Act, a bill to amend the National Voter Registration Act of 1993 to require proof of U.S. citizenship to register to vote in federal elections.",
+          "sources": [
+            "s12"
+          ]
+        }
+      ],
       "record": [
         {
           "text": "Serves on the Senate Banking, Housing, and Urban Affairs Committee, chairing its Subcommittee on National Security and International Trade and Finance.",
@@ -153,8 +186,8 @@
         "text": "Marquita Bradshaw is a Memphis-born environmental-justice advocate and community organizer, and the Democratic nominee for U.S. Senate. She was the Democratic nominee for this seat in 2020, losing to Bill Hagerty, lost the 2024 Democratic Senate primary to Gloria Johnson, and won the 2026 primary. She is the founder and executive director of Sowing Justice.",
         "sources": [
           "s3",
-          "s10",
-          "s11",
+          "s21",
+          "s22",
           "s1"
         ]
       },
@@ -162,14 +195,14 @@
         {
           "text": "Born January 12, 1974 and raised in Memphis, Tennessee; her parents helped organize residents around contamination at the Memphis Defense Depot Superfund site.",
           "sources": [
-            "s11"
+            "s22"
           ]
         },
         {
           "text": "Earned a high school diploma from Central High School and a bachelor's degree from the University of Memphis (a Bachelor of Liberal Studies in journalism and communication studies, per Wikipedia).",
           "sources": [
-            "s10",
-            "s11"
+            "s21",
+            "s22"
           ]
         },
         {
@@ -181,26 +214,26 @@
         {
           "text": "Wikipedia reports she chairs the environmental justice committee of the Sierra Club's Tennessee chapter, and has worked with the Mid-South Peace and Justice Center, the AFL-CIO, the Sierra Club and Tennesseans for Fair Taxation.",
           "sources": [
-            "s11"
+            "s22"
           ]
         },
         {
           "text": "Won the 2020 Democratic Senate primary with 35.5% in a five-candidate field, becoming the first Black woman nominated for statewide office by a major party in Tennessee, per Wikipedia. She lost the general election to Bill Hagerty, about 62% to 35%.",
           "sources": [
-            "s11"
+            "s22"
           ]
         },
         {
           "text": "Founded Sowing Justice after the 2020 race, which she describes as a nonpartisan organization focused on civic engagement beyond voting; she serves as its executive director.",
           "sources": [
             "s3",
-            "s11"
+            "s22"
           ]
         },
         {
           "text": "Lost the 2024 Democratic Senate primary to Gloria Johnson, then won the August 6, 2026 Democratic primary with 54.7% of the vote over four opponents.",
           "sources": [
-            "s11",
+            "s22",
             "s1"
           ]
         }
@@ -229,7 +262,7 @@
         {
           "issue": "climate",
           "stance": "supports",
-          "summary": "Campaign platform calls for a 'just transition to a circular economy' focused on renewable energy and says the campaign will pursue 'bold environmental and climate action.'",
+          "summary": "Calls for a just transition away from dependence on fossil fuels toward a circular economy focused on clean renewable energy.",
           "quote": "Break our dependency on fossil with a just transition to a circular economy which focus on clean renewable energy, affordable housing, public transportation, expanding Medicare, and green jobs.",
           "sources": [
             "s3"
@@ -238,42 +271,35 @@
         {
           "issue": "healthcare_public",
           "stance": "supports",
-          "summary": "Supports expanding Medicare to address the health burdens of pollution and climate change, and says healthcare legislation must comprehensively cover mental, dental, vision, and reproductive care.",
+          "summary": "Supports expanding Medicare for all, according to her Ballotpedia Candidate Connection survey responses.",
           "quote": "Expanding Medicare for all to mitigate the disproportionate burdens of pollution and climate change.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "tax_wealthy",
-          "stance": "supports",
-          "summary": "Calls for restructuring what she describes as a regressive tax system to remove the tax burden from working Americans.",
-          "quote": "Restructure the regressive tax system to fairly tax all working Americans, removing the burden of income, sales & property taxes from the working population.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "minimum_wage",
-          "stance": "supports",
-          "summary": "Lists ensuring a living wage as part of her economic platform.",
-          "quote": "Ensure a living wage.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "issue": "universal_childcare",
-          "stance": "supports",
-          "summary": "Emphasizes quality childcare and wrap-around services for working families, and supports universal pre-K.",
-          "quote": "Supports universal pre-K education giving children the foundation to be lifelong learners",
           "sources": [
             "s3"
           ]
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Every Tennessean deserves access to affordable, high-quality healthcare—regardless of income, ZIP code, employment status, or preexisting conditions.",
+          "context": "On her campaign website's priorities page",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Every community deserves clean air, safe water, and protection from climate threats. Bold action means advancing clean energy, reducing pollution, creating sustainable jobs, and ensuring vulnerable communities are not left behind.",
+          "context": "On her campaign website's priorities page",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
+      "website": "https://www.marquitabradshaw.com",
+      "researchNotes": "Positions from Ballotpedia Candidate Connection survey; campaign priorities page added as statements. Issue pages on the site carry short summaries; no stance found on guns, abortion, immigration enforcement or tariffs."
     },
     {
       "id": "andrew-gerena",
@@ -286,7 +312,7 @@
         "text": "Andrew Gerena is an independent candidate for U.S. Senate who describes himself as a working-class American with experience in military service, security, commercial trucking, information technology, food service and scientific research.",
         "sources": [
           "s4",
-          "s13"
+          "s24"
         ]
       },
       "background": [
@@ -299,7 +325,7 @@
         {
           "text": "Earned an associate degree from Bryant & Stratton College in 2014; Ballotpedia lists his career experience as a technician.",
           "sources": [
-            "s13"
+            "s24"
           ]
         },
         {
@@ -311,7 +337,7 @@
       ],
       "priorities": [
         {
-          "text": "Lists a series of specific policy positions including repealing Tennessee restrictions on rent price controls, right-to-repair protections for farmers, pro-nuclear energy, repealing the Patriot Act, and ending U.S. involvement in what he calls regime-change wars.",
+          "text": "Lists a series of specific policy positions including repealing Tennessee restrictions on rent price controls, right-to-repair protections for farmers, pro-nuclear energy, repealing the Patriot Act, and no more taxpayer money for regime change wars.",
           "sources": [
             "s4"
           ]
@@ -329,7 +355,19 @@
         }
       ],
       "record": [],
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "Fix the corrupt, profit based healthcare system",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s14"
+          ]
+        }
+      ],
+      "website": "https://jeranimo4senate.org",
+      "researchNotes": "Campaign issues page lists bullet-point goals; the healthcare item was added as a statement. Positions on abortion, guns, immigration enforcement, tariffs not found."
     },
     {
       "id": "robert-jones",
@@ -376,11 +414,67 @@
           "sources": [
             "s5"
           ]
+        },
+        {
+          "text": "Passing an Accountability Act that gives public servants access to constituents' views through an app or secure website.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Not accepting campaign donations.",
+          "sources": [
+            "s15"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "abortion",
+          "quote": "having a blanket ban undermines equality and the freedom a woman has in protecting her own life, and that of her potential child.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "guns",
+          "quote": "We can also accept some controls and procedures if that means we have less needless tragedies within our country.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Anyone deemed to be breaking our laws should be dealt with accordingly. However, this must be done on the basis of proof.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "By focusing on renewable energy, conservation efforts, and responsible resource management, I aim to create a bridge between economic growth and ecological sustainability.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "quote": "we need to completely rethink our healthcare system.",
+          "context": "On his campaign website's issues page",
+          "sources": [
+            "s15"
+          ]
+        }
+      ],
+      "website": "https://www.robertfortn.com",
+      "researchNotes": "Issues page on his campaign website read in full; statements added where he addresses an issue without taking a clear side. No stance found on tariffs, minimum wage or transgender athletes."
     },
     {
       "id": "james-macon-iii",
@@ -393,21 +487,21 @@
         "text": "James Macon III is an independent candidate for U.S. Senate who describes himself as a global business strategist with more than 25 years of Fortune 500 leadership experience, a former journalist and a former pastor. He says he is running on lower costs, better jobs and stronger communities.",
         "sources": [
           "s6",
-          "s14"
+          "s25"
         ]
       },
       "background": [
         {
           "text": "Ballotpedia lists a high school diploma from East St. Louis Senior High School and graduate degrees from Northern Illinois University (2002) and the University of Tennessee (2005); he says these are an MA and an MBA, respectively.",
           "sources": [
-            "s14",
+            "s25",
             "s6"
           ]
         },
         {
           "text": "Served in the U.S. Air National Guard in 2010, according to Ballotpedia.",
           "sources": [
-            "s14"
+            "s25"
           ]
         },
         {
@@ -439,7 +533,8 @@
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "Only a Facebook page was found (no campaign website). No additional public statements found."
     },
     {
       "id": "david-sutman-jr",
@@ -452,14 +547,14 @@
         "text": "David Sutman Jr. is an independent candidate for U.S. Senate who describes himself as a working-class Tennessean and political outsider, and Ballotpedia lists his career experience as a truck driver. He says he is running to focus on cost-of-living issues and government accountability.",
         "sources": [
           "s7",
-          "s15"
+          "s26"
         ]
       },
       "background": [
         {
           "text": "Ballotpedia lists his career experience as working as a truck driver.",
           "sources": [
-            "s15"
+            "s26"
           ]
         },
         {
@@ -487,11 +582,19 @@
           "sources": [
             "s7"
           ]
+        },
+        {
+          "text": "Pushing for term limits and increased transparency in government spending.",
+          "sources": [
+            "s16"
+          ]
         }
       ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://sutmanjr4senate.com",
+      "researchNotes": "Campaign website lists general themes (cost of living, term limits, transparency, constitutional rights) but no statement on the guide's issues."
     },
     {
       "id": "tharon-chandler",
@@ -504,40 +607,41 @@
         "text": "Tharon Chandler is an independent candidate for U.S. Senate who ran as an independent in the 2024 Senate race in Tennessee. He was born in Lawrenceburg, Tennessee, and Ballotpedia lists his career experience as including work as a journalist, economist, Christian missionary and conservationist.",
         "sources": [
           "s1",
-          "s12"
+          "s23"
         ]
       },
       "background": [
         {
           "text": "Born William Tharon Chandler in Lawrenceburg, Tennessee; graduated from Lawrence County High School.",
           "sources": [
-            "s12"
+            "s23"
           ]
         },
         {
           "text": "Served in the U.S. Army in 1991 and earned a bachelor's degree from Memphis State University in 1994. He also completed graduate-level coursework and studied education at the University of Tennessee at Martin, the University of North Alabama and Middle Tennessee State University.",
           "sources": [
-            "s12"
+            "s23"
           ]
         },
         {
           "text": "Ballotpedia lists his career experience as including work as a journalist, economist, Christian missionary and conservationist, and affiliations with Gulf War Veterans Against the War, Wounded Warriors, the Fraternal Order of Police and the YMCA.",
           "sources": [
-            "s12"
+            "s23"
           ]
         },
         {
           "text": "Ran as an independent in the 2024 U.S. Senate election in Tennessee, receiving 0.9% (28,444 votes) in the general election won by Marsha Blackburn.",
           "sources": [
             "s1",
-            "s12"
+            "s23"
           ]
         }
       ],
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "researchNotes": "No current campaign website found; the only candidate-run page located is an older blog from a prior campaign that contains no statements on the guide's issues."
     },
     {
       "id": "jeremy-hearn",
@@ -553,10 +657,19 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "States his campaign priorities as: Defend our US_Constitution, Clarify our History, and Restore Equality for Humans.",
+          "sources": [
+            "s17"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "website": "https://www.jeremydeanhearnforsenate.com",
+      "researchNotes": "Campaign website found; its text does not take a discernible position on the guide's issues, so no statements were added."
     },
     {
       "id": "yoshi-matthews",
@@ -572,10 +685,41 @@
         ]
       },
       "background": [],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Reparations: a Tennessee-based proposal she describes as fair, lawful, and limited in scope.",
+          "sources": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Protecting Tennessee seniors from losing their homes to property taxes.",
+          "sources": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Universal basic income for eligible Americans.",
+          "sources": [
+            "s18"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "minimal",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Secure the border, enforce immigration laws, and support a functional legal immigration system.",
+          "context": "On her campaign website's issues page",
+          "sources": [
+            "s18"
+          ]
+        }
+      ],
+      "website": "https://yoshimatthewssenate.com",
+      "researchNotes": "One statement found on her campaign issues page; no other issue statements on the guide's topics."
     },
     {
       "id": "catherine-whitson",
@@ -588,27 +732,82 @@
         "text": "Catherine 'Barcy' Whitson is an independent candidate for U.S. Senate. According to her campaign website, she had a career in the insurance industry and has spent about 20 years as a volunteer life coach, pastor and mentor.",
         "sources": [
           "s1",
-          "s16"
+          "s19"
         ]
       },
       "background": [
         {
           "text": "According to her campaign website, she had a successful career in the insurance industry before spending the last 20 years volunteering as a life coach, pastor and mentor.",
           "sources": [
-            "s16"
+            "s19"
           ]
         },
         {
           "text": "Says she is running for the 2027-2033 term to promote 'What Tennesseans Want' and is on the ballot as an independent, and goes by Barcy.",
           "sources": [
-            "s16"
+            "s19"
           ]
         }
       ],
-      "priorities": [],
+      "priorities": [
+        {
+          "text": "Economic growth: lowering costs, creating high-paying jobs, and supporting local small businesses and entrepreneurs.",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Healthcare: reducing prescription drug costs and protecting and improving rural hospitals.",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "text": "Affordable housing and help for unhoused Tennesseans via partnerships with churches and businesses.",
+          "sources": [
+            "s19"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "Protect the migrant workers and their rights to be here without fear of deportation.",
+          "context": "On her campaign website's platform",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "issue": "universal_childcare",
+          "quote": "Promote consistent, safe affordable childcare, impaired adult care and elder care assistance so that all people have the opportunity to live their best life now and always.",
+          "context": "On her campaign website's platform",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "Promoting green energy and creativity in order to steward our world better for us and future generations.",
+          "context": "On her campaign website's platform",
+          "sources": [
+            "s19"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "quote": "Boosting funding for public schools and expanding vocational training programs as well as promoting private and home schooling initiatives.",
+          "context": "On her campaign website's platform",
+          "sources": [
+            "s19"
+          ]
+        }
+      ],
+      "website": "https://senatorbarcy.org",
+      "researchNotes": "Platform text on her campaign website; statements stated as goals without a clear side on the guide's exact policy statements. Nothing found on abortion, guns or tariffs."
     }
   ],
   "sources": [
@@ -673,59 +872,133 @@
     },
     {
       "id": "s9",
+      "url": "https://www.govtrack.us/congress/bills/119/s1522",
+      "title": "S. 1522: District of Columbia Federal Immigration Compliance Act",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.govtrack.us/congress/bills/119/s65",
+      "title": "S. 65: Constitutional Concealed Carry Reciprocity Act of 2025",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.govtrack.us/congress/bills/119/s9",
+      "title": "S. 9: Protection of Women and Girls in Sports Act of 2025",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.govtrack.us/congress/bills/119/s128",
+      "title": "S. 128: SAVE Act",
+      "publisher": "GovTrack.us (Congressional bill data)",
+      "kind": "reference",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.marquitabradshaw.com/priorities",
+      "title": "Priorities",
+      "publisher": "Marquita Bradshaw for U.S. Senate",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://jeranimo4senate.org/issues",
+      "title": "On the Issues",
+      "publisher": "Andrew Gerena for U.S. Senate",
+      "kind": "candidate"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.robertfortn.com/issues",
+      "title": "Issues",
+      "publisher": "Robert Jones for Tennessee",
+      "kind": "candidate"
+    },
+    {
+      "id": "s16",
+      "url": "https://sutmanjr4senate.com/",
+      "title": "Sutman Jr. for U.S. Senate",
+      "publisher": "David Sutman Jr. for U.S. Senate",
+      "kind": "candidate"
+    },
+    {
+      "id": "s17",
+      "url": "https://www.jeremydeanhearnforsenate.com/",
+      "title": "JDH for US Senate 2026 Campaign at Tennessee",
+      "publisher": "Jeremy Hearn for U.S. Senate",
+      "kind": "candidate"
+    },
+    {
+      "id": "s18",
+      "url": "https://yoshimatthewssenate.com/issues/",
+      "title": "Issues",
+      "publisher": "Yoshi Matthews for U.S. Senate",
+      "kind": "candidate"
+    },
+    {
+      "id": "s19",
+      "url": "https://senatorbarcy.org/",
+      "title": "Barcy Whitson - Independent for U.S. Senate, Tennessee",
+      "publisher": "Barcy Whitson for U.S. Senate",
+      "kind": "candidate"
+    },
+    {
+      "id": "s20",
       "kind": "official",
       "title": "About Senator Hagerty",
       "publisher": "Office of Sen. Bill Hagerty",
       "url": "https://www.hagerty.senate.gov/about/"
     },
     {
-      "id": "s10",
+      "id": "s21",
       "kind": "reference",
       "title": "Marquita Bradshaw",
       "publisher": "Ballotpedia",
       "url": "https://ballotpedia.org/Marquita_Bradshaw"
     },
     {
-      "id": "s11",
+      "id": "s22",
       "kind": "reference",
       "title": "Marquita Bradshaw",
       "publisher": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Marquita_Bradshaw"
     },
     {
-      "id": "s12",
+      "id": "s23",
       "kind": "reference",
       "title": "Tharon Chandler",
       "publisher": "Ballotpedia",
       "url": "https://ballotpedia.org/Tharon_Chandler"
     },
     {
-      "id": "s13",
+      "id": "s24",
       "kind": "reference",
       "title": "Andrew Gerena",
       "publisher": "Ballotpedia",
       "url": "https://ballotpedia.org/Andrew_Gerena"
     },
     {
-      "id": "s14",
+      "id": "s25",
       "kind": "reference",
       "title": "James Macon III",
       "publisher": "Ballotpedia",
       "url": "https://ballotpedia.org/James_Macon_III"
     },
     {
-      "id": "s15",
+      "id": "s26",
       "kind": "reference",
       "title": "David Sutman Jr.",
       "publisher": "Ballotpedia",
       "url": "https://ballotpedia.org/David_Sutman_Jr."
-    },
-    {
-      "id": "s16",
-      "kind": "candidate",
-      "title": "Barcy Whitson - Independent for U.S. Senate, Tennessee",
-      "publisher": "Barcy Whitson campaign",
-      "url": "https://senatorbarcy.org/"
     }
   ],
   "researchedAt": "2026-09-25",

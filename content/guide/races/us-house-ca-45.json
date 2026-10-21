@@ -30,7 +30,7 @@
         "text": "Derek Tran is the Democratic incumbent seeking re-election in California's 45th District, first elected in 2024 when he defeated Republican incumbent Michelle Steel. The son of Vietnamese refugees, he is an Army Reserve veteran, consumer-rights attorney and co-owner of an independent pharmacy. He serves on the House Armed Services and Small Business Committees.",
         "sources": [
           "s1",
-          "s5"
+          "s7"
         ]
       },
       "background": [
@@ -38,41 +38,41 @@
           "text": "Born and raised in Los Angeles County; according to his official biography, his parents came to the United States from Vietnam in early 1980 after his father fled after the fall of Saigon in 1975.",
           "sources": [
             "s1",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Enlisted in the U.S. Army Reserve at 18 and served eight years, including activation for Operation Noble Eagle / Enduring Freedom, before an honorable discharge, according to his official biography (Ballotpedia lists the branch as U.S. Army).",
           "sources": [
             "s1",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Earned a B.S. in Economics-Finance from Bentley University and a Juris Doctor from Glendale University College of Law; moved to Orange County in 2012.",
           "sources": [
             "s1",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Worked as an attorney representing consumers and workers and served on the board of the Consumer Attorneys Association of Los Angeles and California, per his official biography.",
           "sources": [
             "s2",
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Worked on public safety policy for the Mayor of Los Angeles and served as a traffic commissioner for the City of Orange, according to his official biography.",
           "sources": [
-            "s5"
+            "s7"
           ]
         },
         {
           "text": "Co-owns an independent pharmacy with his wife, Michelle; the couple have three children, according to his official biography.",
           "sources": [
             "s2",
-            "s5"
+            "s7"
           ]
         },
         {
@@ -84,7 +84,7 @@
         {
           "text": "Serves on the House Armed Services Committee and the House Small Business Committee in his first term.",
           "sources": [
-            "s5"
+            "s7"
           ]
         }
       ],
@@ -123,6 +123,24 @@
           "summary": "Says he has worked to rein in the cost of health care and prescription drugs and opposed Republican efforts to cut Medicaid, and will continue defending Medicare.",
           "sources": [
             "s2"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "supports",
+          "summary": "Says he has fought for gun safety laws including universal background checks and a ban on assault weapons.",
+          "quote": "He has taken on the NRA by fighting for common-sense gun safety laws like universal background checks and a ban on assault weapons.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Says he is fighting to make the minimum wage a living wage so families can keep up with rising costs.",
+          "quote": "Derek is fighting to make the minimum wage a living wage so families can keep up with rising costs, advocate for safer working conditions, and ensure that all workers can afford housing and look forward to a secure retirement.",
+          "sources": [
+            "s5"
           ]
         }
       ],
@@ -213,19 +231,22 @@
           "sources": [
             "s4"
           ]
-        },
-        {
-          "issue": "immigration_enforcement",
-          "stance": "mixed",
-          "summary": "Says he supports secure borders and faster, better-resourced asylum and enforcement processing, while also calling for modernizing legal immigration so families and employers can follow an orderly process.",
-          "sources": [
-            "s4"
-          ]
         }
       ],
       "record": [],
       "website": "https://vo4congress.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "immigration_enforcement",
+          "quote": "I'll support secure borders and faster asylum decisions, paired with better training and resources for agents so enforcement is effective, safe, and professional.",
+          "context": "On his campaign website",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "researchNotes": "Positions and statements drawn from his campaign website issues section."
     }
   ],
   "sources": [
@@ -259,17 +280,24 @@
     },
     {
       "id": "s5",
-      "url": "https://tran.house.gov/about",
-      "title": "About",
-      "publisher": "Office of Rep. Derek Tran, U.S. House of Representatives",
-      "kind": "official"
+      "url": "https://www.derektranforcongress.com/issues",
+      "title": "Derek on the Issues",
+      "publisher": "Derek Tran for Congress",
+      "kind": "candidate"
     },
     {
       "id": "s6",
       "url": "https://vo4congress.com/",
-      "title": "Chuong Vo for Congress - Meet Chuong",
+      "title": "Chuong Vo for Congress: Vo on the Issues",
       "publisher": "Chuong Vo for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://tran.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Derek Tran, U.S. House of Representatives",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",

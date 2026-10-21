@@ -30,8 +30,8 @@
       "summary": {
         "text": "Michael \"Misha\" Novakhov is the Republican and Conservative Party incumbent in Assembly District 45, which covers portions of Sheepshead Bay, Midwood, Manhattan Beach, Gravesend, and Brighton Beach in Brooklyn. Originally from the former USSR, he worked in radio and co-founded the Russian-language station Freedom FM before winning the seat in November 2022 by defeating Democratic incumbent Steven Cymbrowitz. His official biography says he plans to focus on crime, affordability of health care and housing, and quality of life.",
         "sources": [
-          "s14",
-          "s12",
+          "s15",
+          "s13",
           "s1"
         ]
       },
@@ -39,21 +39,21 @@
         {
           "text": "Originally from the former USSR; his official biography says he immigrated to the United States with his family. Ballotpedia lists him as born in the USSR and living in Brooklyn.",
           "sources": [
-            "s14",
-            "s12"
+            "s15",
+            "s13"
           ]
         },
         {
           "text": "Worked for 20 years in the radio business; in 2019 he co-founded Freedom FM, which his official biography describes as the most listened-to Russian-language radio station in the country.",
           "sources": [
-            "s14"
+            "s15"
           ]
         },
         {
           "text": "Won the Assembly seat on November 8, 2022, defeating Democratic incumbent Steven Cymbrowitz, 59.7% to 40.2%, and took office January 1, 2023.",
           "sources": [
-            "s12",
-            "s14",
+            "s13",
+            "s15",
             "s11"
           ]
         },
@@ -72,7 +72,7 @@
         {
           "text": "His official biography says he plans to work on rising crime, especially against Asian American Pacific Islander and Jewish communities, on making health care and housing more affordable, and on quality of life, and describes Brooklyn as his hometown.",
           "sources": [
-            "s14"
+            "s15"
           ]
         }
       ],
@@ -124,13 +124,12 @@
           ]
         },
         {
-          "issue": "israel_aid",
-          "stance": "supports",
-          "summary": "Says he will continue advocating for policies that strengthen the U.S.-Israel relationship; opposed a state bill ('Not on Our Dime') that would have restricted nonprofit dealings with Israel, and sponsored a bill (A5214) barring nonprofits from supporting groups like Hamas.",
-          "quote": "I will continue to advocate for policies that strengthen the bond between the United States and Israel, uphold our shared values, and combat anti-Semitism in all its forms.",
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "In a March 2026 press release, called for an overhaul of the state's green energy mandates under the Climate Leadership and Community Protection Act in favor of an all-of-the-above energy approach.",
+          "quote": "we need an overhaul of the green energy mandates pushed by Albany Majority lawmakers and a balanced, all-of-the-above approach to energy policy",
           "sources": [
-            "s5",
-            "s7"
+            "s12"
           ]
         }
       ],
@@ -188,7 +187,7 @@
       "summary": {
         "text": "Joey Cohen-Saban is the Democratic and Fight Anti-Semitism Party candidate in Assembly District 45. A Brooklyn native, he is a Brooklyn Democratic Party district leader and chief of staff to State Senator Sam Sutton, according to his campaign website. He lost to incumbent Michael Novakhov by 232 votes in 2024 and is running again; he has not held elected office.",
         "sources": [
-          "s13",
+          "s14",
           "s2"
         ]
       },
@@ -196,26 +195,26 @@
         {
           "text": "According to his campaign website, he was born and raised in South Brooklyn, the son of immigrants, and grew up in Midwood and Gravesend.",
           "sources": [
-            "s13"
+            "s14"
           ]
         },
         {
           "text": "Attended the Yeshivah of Flatbush and earned a degree from George Washington University, where he says he led campus campaigns on combating antisemitism, supporting survivors of sexual violence, interfaith collaboration, and the US-Israel relationship.",
           "sources": [
-            "s13"
+            "s14"
           ]
         },
         {
           "text": "Serves as a Brooklyn Democratic Party district leader and as chief of staff to State Senator Sam Sutton, per his campaign website.",
           "sources": [
-            "s13",
+            "s14",
             "s9"
           ]
         },
         {
           "text": "Describes himself as a board member of the Sephardic Community Federation.",
           "sources": [
-            "s13"
+            "s14"
           ]
         },
         {
@@ -227,7 +226,7 @@
         {
           "text": "Lives on the block where he grew up with his wife Florence and their two children, according to his campaign website.",
           "sources": [
-            "s13"
+            "s14"
           ]
         }
       ],
@@ -257,28 +256,29 @@
           ]
         }
       ],
-      "positions": [
+      "positions": [],
+      "record": [],
+      "website": "https://www.joeysaban.com/",
+      "researchDepth": "basic",
+      "statements": [
         {
-          "issue": "israel_aid",
-          "stance": "supports",
-          "summary": "Says he will be a strong, unwavering voice in Albany for the U.S.-Israel relationship and push back against efforts to undermine it.",
-          "quote": "The bond between the United States and Israel is a cornerstone of security and shared democratic values. Joey will be a strong, unwavering voice in Albany for the US-Israel relationship — pushing back against efforts to undermine this critical alliance.",
+          "issue": "police_funding",
+          "quote": "He will advocate for increased foot patrols, better community policing initiatives, and resources to address quality-of-life crimes that erode neighborhood safety.",
+          "context": "On his campaign website's issues page",
           "sources": [
             "s10"
           ]
         },
         {
           "issue": "school_choice",
-          "stance": "supports",
-          "summary": "Platform emphasizes securing state funding for yeshivas and other nonpublic schools alongside public schools.",
+          "quote": "ensure that nonpublic schools receive their fair share of state education dollars.",
+          "context": "On his campaign website's issues page",
           "sources": [
             "s10"
           ]
         }
       ],
-      "record": [],
-      "website": "https://www.joeysaban.com/",
-      "researchDepth": "basic"
+      "researchNotes": "Statements taken from his campaign issues page (joeysaban.com/issues). He does not state positions on the other listed issues there; no questionnaire or debate coverage was located."
     }
   ],
   "sources": [
@@ -364,6 +364,14 @@
     },
     {
       "id": "s12",
+      "url": "https://www.assembly.ny.gov/mem/Michael-Novakhov/story/117436",
+      "title": "Novakhov Attends Press Conference Calling out Majority’s Energy Plan",
+      "publisher": "New York State Assembly",
+      "kind": "official",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s13",
       "url": "https://ballotpedia.org/Michael_Novakhov",
       "title": "Michael Novakhov",
       "publisher": "Ballotpedia",
@@ -371,14 +379,14 @@
       "date": "2026-10-21"
     },
     {
-      "id": "s13",
+      "id": "s14",
       "url": "https://www.joeysaban.com/about",
       "title": "About Joey - Saban for Brooklyn",
       "publisher": "Joey Cohen-Saban for Assembly",
       "kind": "candidate"
     },
     {
-      "id": "s14",
+      "id": "s15",
       "url": "https://nyassembly.gov/mem/Michael-Novakhov/bio/",
       "title": "Assemblymember Michael Novakhov - Biography",
       "publisher": "New York State Assembly",
