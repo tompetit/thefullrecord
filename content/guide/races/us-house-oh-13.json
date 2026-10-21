@@ -11,28 +11,80 @@
   "context": [
     {
       "text": "Incumbent Emilia Sykes (D) advanced unopposed from the May 5, 2026 Democratic primary. Carey Coleman won a five-way Republican primary. Sandeep Dixit is running as an independent and declared his candidacy for the general election.",
-      "sources": ["s3"]
+      "sources": [
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "emilia-sykes",
       "name": "Emilia Sykes",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
-        "text": "Emilia Sykes is the Democratic incumbent seeking re-election in Ohio's 13th Congressional District, which she has represented since 2023. She previously served in the Ohio House of Representatives.",
-        "sources": ["s1"]
+        "text": "Emilia Sykes is the Democratic incumbent in Ohio's 13th Congressional District, which she has represented since January 2023. An Akron native and attorney, she served eight years in the Ohio House, including as House Minority Leader, before winning her congressional seat in 2022. She sits on the Transportation and Infrastructure and Science, Space, and Technology committees.",
+        "sources": [
+          "s1",
+          "s4",
+          "s5"
+        ]
       },
       "background": [
         {
-          "text": "Born in Akron, Ohio; earned a bachelor's degree in psychology from Kent State University, and a juris doctor and master's degree in public health from the University of Florida.",
-          "sources": ["s1"]
+          "text": "Born January 4, 1986, in Akron, Ohio, where she was raised; graduated from Firestone High School. She is the daughter of Vernon and Barbara Sykes, who held the same Ohio House seat before her.",
+          "sources": [
+            "s1",
+            "s5"
+          ]
         },
         {
-          "text": "Worked as an administrative staff advisor with the Summit County Fiscal Office and as a law clerk to the chief justice of the U.S. Bankruptcy Court for the Northern District of Georgia.",
-          "sources": ["s1"]
+          "text": "Earned a bachelor's degree in psychology from Kent State University (graduating with honors), and a Juris Doctor and a Master of Public Health from the University of Florida.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Worked as a law clerk to the chief judge of the U.S. Bankruptcy Court for the Northern District of Georgia and as an administrative advisor in the Summit County fiscal office.",
+          "sources": [
+            "s1",
+            "s5"
+          ]
+        },
+        {
+          "text": "Won the Ohio House (34th District) seat in 2014, taking office in January 2015, to succeed her father, who was term-limited, after winning the Democratic primary over Summit County councilman Frank Communale.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Served eight years in the Ohio House, including four years in Democratic leadership and three as House Minority Leader, according to her official biography.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Won the November 2022 general election for Ohio's 13th District over Republican Madison Gesiotto Gilbert, and was re-elected in 2024 over Republican Kevin Coughlin, 51.1% to 48.9%.",
+          "sources": [
+            "s1",
+            "s5"
+          ]
+        },
+        {
+          "text": "In Congress she serves on the Transportation and Infrastructure Committee, where she is Vice Ranking Member, and on the Science, Space, and Technology Committee.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Her official biography lists recognitions including the Rising Star Award from EMILY's List and the Champion for Children Award from Summit County Children's Services, and states she is married to Kevin Boyce.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -41,19 +93,25 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Supported Ohio Issue 1 (2023), the ballot measure establishing a state constitutional right to make reproductive decisions including abortion.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Transportation and Infrastructure and the House Committee on Science, Space, and Technology, including its Research and Technology Subcommittee (2023-2024).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Supported Ohio Issue 1 (2023) establishing a state constitutional right to abortion, which voters approved, and opposed the August 2023 measure that would have raised the vote threshold to approve future constitutional amendments to 60%, which voters rejected.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -62,16 +120,43 @@
     {
       "id": "carey-coleman",
       "name": "Carey Coleman",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Carey Coleman is the Republican nominee for Ohio's 13th Congressional District. He has worked as a radio host on WNIR and as a television meteorologist.",
-        "sources": ["s2"]
+        "text": "Carey Coleman is the Republican nominee in Ohio's 13th Congressional District and a Northeast Ohio broadcaster. According to his campaign website, he has been a longtime radio host on WNIR and a television meteorologist, and he is running on fiscal discipline, secure borders and support for law enforcement.",
+        "sources": [
+          "s2",
+          "s6"
+        ]
       },
       "background": [
         {
-          "text": "Worked as a radio host on WNIR and as a television meteorologist.",
-          "sources": ["s2"]
+          "text": "According to his campaign website, he is a longtime Northeast Ohio radio host and community leader, known for commentary on WNIR.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "According to his campaign website, he served for decades as a television meteorologist on national, statewide and local Northeast Ohio outlets.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "Won the May 5, 2026 Republican primary for Ohio's 13th District with 47.3% of the vote, ahead of Kevin Siembida, Margaret Briem, Neil Patel and Sanjin Drakovac.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "His campaign website says he lives in Northeast Ohio and is involved in local civic life and charitable causes; his campaign committee lists a Macedonia, Ohio, address.",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "priorities": [],
@@ -82,35 +167,76 @@
     {
       "id": "sandeep-dixit",
       "name": "Sandeep Dixit",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Sandeep Dixit is an independent candidate for Ohio's 13th Congressional District. He is a mechanical engineer and co-founder of a software firm who describes himself as not a career politician.",
-        "sources": ["s3"]
+        "text": "Sandeep Dixit is an independent candidate in Ohio's 13th Congressional District. An engineer who came to the United States at age 21, he co-founded a software firm in 1996 and has been active in Mayfield Village community groups and Indian-American organizations. He describes his campaign as built around reason, work and freedom.",
+        "sources": [
+          "s3",
+          "s7"
+        ]
       },
       "background": [
         {
-          "text": "Immigrated to the United States at age 21; earned a bachelor's degree in mechanical engineering (1989) and a master's in integrated manufacturing systems engineering from North Carolina State University (1991), and an MBA from Cleveland State University while working full time.",
-          "sources": ["s3"]
+          "text": "Immigrated to the United States at age 21, according to his survey response; he earned a bachelor's degree in mechanical engineering from Savitribai Phule Pune University in 1989.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Co-founded a software firm with his wife in 1996; is active locally as a CERT member and board member of the Mayfield Village Parks and Recreation Department, and previously served as president of a national Indian-American organization with more than 500,000 members.",
-          "sources": ["s3"]
+          "text": "Earned a master's in integrated manufacturing systems engineering from North Carolina State University (1991, per his survey response; Ballotpedia's biography lists 1992) and an MBA from Cleveland State University, completed through evening and weekend classes while working full time.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Began as a shop-floor process engineer and moved to the Cleveland region in 1994; he and his wife started a software firm in 1996.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Active locally as a member of a Community Emergency Response Team (CERT), a board member of the Mayfield Village Parks and Recreation Department, and organizer of the Mayfield Village Yoga Festival since 2018.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Previously served as president of a national Indian-American organization with more than 500,000 members across 60 communities, according to his survey response; American Bazaar also reports leadership roles in Indian-American organizations.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
+        },
+        {
+          "text": "Running without a major-party affiliation; American Bazaar reports his campaign centers on reason, work and freedom, with an emphasis on workforce development and fiscal responsibility.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Proposes $500 million per congressional district in vocational training investment.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Proposes a basic health-care guarantee for working people.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Proposes eliminating taxes on Social Security benefits.",
           "quote": "No tax on social security",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -118,7 +244,9 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Lists a 'basic healthcare guarantee for working people' as one of his three key campaign messages.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -146,8 +274,36 @@
       "title": "Sandeep Dixit",
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://sykes.house.gov/about/biography",
+      "title": "Biography",
+      "publisher": "Office of Rep. Emilia Sykes (house.gov)",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://en.wikipedia.org/wiki/Emilia_Sykes",
+      "title": "Emilia Sykes",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://careycoleman.com/about/",
+      "title": "Meet Carey",
+      "publisher": "Carey Coleman for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://americanbazaaronline.com/2026/03/02/sandeep-dixit-running-for-congress-from-ohios-13th-district-476105/",
+      "title": "Sandeep Dixit running for Congress from Ohio's 13th District",
+      "publisher": "American Bazaar",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Coleman has not completed Ballotpedia's 2026 Candidate Connection survey and no campaign-website statement of issues was available via Ballotpedia, so his priorities and positions are omitted rather than inferred. Federal key votes and FEC finance totals for Sykes are added separately."
+  "researchNotes": "Carey Coleman has not completed Ballotpedia's 2026 Candidate Connection survey; his biography here draws on his campaign website, and his birthplace, education and family are not published in the sources reviewed. Sandeep Dixit completed the survey, but his priorities and positions have not yet been added to this guide. Sources disagree on the year of Dixit's North Carolina State degree (1991 in his survey response, 1992 in Ballotpedia's biography). Federal key votes and FEC finance totals for Sykes are added separately."
 }
