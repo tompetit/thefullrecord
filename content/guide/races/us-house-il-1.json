@@ -11,49 +11,145 @@
   "context": [
     {
       "text": "Incumbent Jonathan Jackson (D) defeated Jerico Brown in the March 17, 2026 Democratic primary. Christian Maxwell defeated Marcus Lewis in the Republican primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jonathan-jackson",
       "name": "Jonathan Jackson",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the March 17, 2026 Democratic primary",
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
-        "text": "Jackson represents Illinois' 1st Congressional District. He is the son of civil rights leaders Rev. Jesse Jackson and Jacqueline Jackson and previously served as national spokesman for the Rainbow PUSH Coalition.",
-        "sources": ["s2"]
+        "text": "Jonathan Jackson is the Democratic incumbent U.S. Representative for Illinois' 1st District, serving since January 2023. A Chicago native and son of civil rights leader Rev. Jesse Jackson, he worked as a business owner, finance instructor and national spokesman for the Rainbow PUSH Coalition before winning the open seat vacated by Bobby Rush. He sits on the House Agriculture and Foreign Affairs committees.",
+        "sources": [
+          "s2",
+          "s7",
+          "s8"
+        ]
       },
       "background": [
-        { "text": "Son of Rev. Jesse Jackson and Jacqueline Jackson; describes his background as rooted in civil-rights activism.", "sources": ["s2"] },
-        { "text": "Served as national spokesman for the Rainbow PUSH Coalition, where he worked on cases involving wrongful convictions, including those of Darrell Cannon, Oscar Walden, and Johnnie Lee Savory.", "sources": ["s2"] },
-        { "text": "Took part in international human rights negotiations, including talks that helped secure the release of Navy Lt. Robert Goodman from Syria and Americans detained in Cuba.", "sources": ["s2"] }
+        {
+          "text": "Born in Chicago in 1966 to civil rights leaders Rev. Jesse Jackson and Jacqueline Jackson; his official biography says his background is rooted in civil rights activism.",
+          "sources": [
+            "s2",
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Attended Whitney M. Young Magnet High School in Chicago, earned a bachelor's degree in business from North Carolina A&T State University in 1988 and an MBA from Northwestern University in 1991.",
+          "sources": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Worked as an investment analyst and business owner; with his brother Yusef he became an owner of the Anheuser-Busch distributorship River North Sales and Service in Chicago in 1998, and later operated Cricket Wireless franchise stores.",
+          "sources": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Has taught finance and entrepreneurship, including at City Colleges of Chicago, and is a business professor at Chicago State University, according to Wikipedia.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Served as national spokesman for the Rainbow PUSH Coalition, where his official biography says he worked on wrongful-conviction cases including those of Darrell Cannon, Oscar Walden and Johnnie Lee Savory.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Took part in international human rights negotiations, including talks that helped secure the release of Navy Lt. Robert Goodman from Syria and 22 Americans detained in Cuba.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the 2022 Democratic primary for the open 1st District seat after Rep. Bobby Rush announced his retirement, and took office in January 2023.",
+          "sources": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Won renomination in the March 17, 2026 Democratic primary, defeating Jerico Brown; for the 119th Congress he serves on the House Agriculture and Foreign Affairs committees.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says he has worked to build an economy that prioritizes equitable growth, and supported measures to fight inflation, raise the minimum wage, and support small businesses.", "sources": ["s3"] },
-        { "text": "Focuses on expanding access to affordable preschool programs, equitable K-12 school funding, and preserving the legacies of Historically Black Colleges and Universities.", "sources": ["s4"] },
-        { "text": "Says healthcare should be a fundamental human right and has cosponsored Medicare for All.", "sources": ["s5"] }
+        {
+          "text": "Says he has worked to build an economy that prioritizes equitable growth, and supported measures to fight inflation, raise the minimum wage, and support small businesses.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Focuses on expanding access to affordable preschool programs, equitable K-12 school funding, and preserving the legacies of Historically Black Colleges and Universities.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says healthcare should be a fundamental human right and has cosponsored Medicare for All.",
+          "sources": [
+            "s5"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Cosponsored Medicare for All, saying healthcare should be a right accessible to all rather than a privilege.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Supported measures to raise the minimum wage.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
-        { "text": "Cosponsored a resolution stating that the United States has a moral and legal obligation to provide reparations for the enslavement of Africans and its lasting harm.", "kind": "bill", "sources": ["s2"] },
-        { "text": "Supported H.R. 40, the Commission to Study and Develop Reparation Proposals for African Americans Act.", "kind": "bill", "sources": ["s2"] },
-        { "text": "Cosponsored the Return Home to Housing Act, addressing per diem payments to entities providing transitional housing to homeless veterans.", "kind": "bill", "sources": ["s6"] }
+        {
+          "text": "Cosponsored a resolution stating that the United States has a moral and legal obligation to provide reparations for the enslavement of Africans and its lasting harm.",
+          "kind": "bill",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Supported H.R. 40, the Commission to Study and Develop Reparation Proposals for African Americans Act.",
+          "kind": "bill",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Cosponsored the Return Home to Housing Act, addressing per diem payments to entities providing transitional housing to homeless veterans.",
+          "kind": "bill",
+          "sources": [
+            "s6"
+          ]
+        }
       ],
       "website": "https://jonathanjackson.house.gov",
       "researchDepth": "basic",
@@ -62,34 +158,89 @@
     {
       "id": "christian-maxwell",
       "name": "Christian Maxwell",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Republican primary",
       "currentRole": "Entrepreneur",
       "summary": {
-        "text": "Maxwell describes herself as a mother and entrepreneur running as a conservative candidate focused on public safety, parental rights, and fiscal responsibility.",
-        "sources": ["s1"]
+        "text": "Christian Maxwell is the Republican nominee for Illinois' 1st Congressional District. Born in Belleville, Illinois, she holds a bachelor's degree from the University of Illinois Chicago and has worked as a business consultant. She describes herself as a mother and entrepreneur and defeated Marcus Lewis in the March 17, 2026 Republican primary.",
+        "sources": [
+          "s1",
+          "s9"
+        ]
       },
       "background": [
-        { "text": "Describes her career as building businesses and leading grassroots community initiatives, by her own account.", "sources": ["s1"] }
+        {
+          "text": "Born in Belleville, Illinois, and graduated from Belleville Township East High School.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree from the University of Illinois Chicago in 2012.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Her career experience includes working as a business consultant, according to Ballotpedia; she describes her career as building businesses and leading grassroots community initiatives.",
+          "sources": [
+            "s1",
+            "s9"
+          ]
+        },
+        {
+          "text": "Won the Republican nomination for U.S. House in Illinois' 1st District on March 17, 2026, defeating Marcus Lewis.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Describes herself as a mother, entrepreneur and conservative candidate grounded in faith, family and community; Ballotpedia lists her religion as nondenominational Christian.",
+          "sources": [
+            "s1",
+            "s9"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Says she will \"fight to restore law and order, protect our communities, and hold leaders accountable.\"", "sources": ["s1"] },
-        { "text": "Advocates for parental rights in children's education, saying families should be \"in control,\" not the government.", "sources": ["s1"] },
-        { "text": "Says she will push for fiscal responsibility, lower taxes, and smarter budgeting.", "sources": ["s1"] }
+        {
+          "text": "Says she will \"fight to restore law and order, protect our communities, and hold leaders accountable.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Advocates for parental rights in children's education, saying families should be \"in control,\" not the government.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she will push for fiscal responsibility, lower taxes, and smarter budgeting.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "tax_wealthy",
           "stance": "opposes",
           "summary": "Cites what she calls reckless spending and tax hikes in Illinois and says she will push for lower taxes.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "school_choice",
           "stance": "supports",
           "summary": "Advocates giving parents more control over their children's education.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "record": [],
@@ -144,8 +295,29 @@
       "publisher": "Office of Rep. Jonathan Jackson",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Jonathan_Jackson_(Illinois)",
+      "title": "Jonathan Jackson (Illinois)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://en.wikipedia.org/wiki/Jonathan_Jackson_(Illinois_politician)",
+      "title": "Jonathan Jackson (Illinois politician)",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Christian_Maxwell",
+      "title": "Christian Maxwell",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Maxwell's positions are drawn from her Ballotpedia Candidate Connection survey submission; no independent campaign website was verified in the BASIC research budget."
+  "researchNotes": "Maxwell's positions are drawn from her Ballotpedia Candidate Connection survey submission; no independent campaign website was verified in the BASIC research budget. Maxwell's campaign site (christianmaxwellforcongress.com) loaded only as a placeholder page, so her biography relies on Ballotpedia; no news profile found. Ballotpedia's 'Jonathan Jackson' page is a disambiguation; Jackson's Ballotpedia page is at Jonathan_Jackson_(Illinois)."
 }
