@@ -107,3 +107,6 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - cyndi-munson: "left the House as Minority Leader after the 2026 session" (News 9) vs Wikipedia still listing her as incumbent.
 - christine-drazan: role for Speaker Simmons — "communications director" (Wikipedia) vs "chief of staff" (Ballotpedia).
 - robert-c-vick: "longtime East Tennessee educator" unchecked. Several TN governor write-ins rest on a single Firefly summary.
+- pete-karas: summary says Green Party nominee; his own site reads as independent — confirm ballot line.
+- eric-barlow: Senate start — Ballotpedia Jan 2, 2023 vs Wikipedia Jan 10 (bio uses year only).
+- keith-faber: dropped "born in Troy, Missouri" and Jan 2007 Senate appointment (no longer on Ballotpedia).
