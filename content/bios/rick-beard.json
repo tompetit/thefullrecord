@@ -1,29 +1,43 @@
 {
   "slug": "rick-beard",
   "name": "Rick Beard",
-  "bio": [
+  "summary": [
     {
-      "text": "Rick Beard of Omaha is the Legal Marijuana NOW nominee for Nebraska governor in the November 3, 2026 general election.",
+      "text": "Rick Beard is an Omaha wine professional and private chef running as the Legal Marijuana NOW nominee. His central proposal is a state-run medical cannabis program that he says could generate revenue for property-tax relief.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "The Nebraska Examiner described him as a wine professional and private chef.",
-      "sources": [
-        "s1"
+        "s1",
+        "s2"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Wine professional and private chef; former farmer.",
+        "sources": [
+          "s2",
+          "s1"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
-      "date": "2026-07-27",
-      "url": "https://nebraskaexaminer.com/2026/07/27/beard-talks-priorities-pivot-from-nebraska-primary-election-to-nov-3-faceoff/",
+      "url": "https://www.wowt.com/2026/07/27/beard-talks-priorities-pivot-nebraska-primary-election-nov-3-faceoff/",
       "title": "Beard talks priorities, pivot from Nebraska primary election to Nov. 3 faceoff",
-      "publisher": "Nebraska Examiner",
-      "kind": "news"
+      "publisher": "WOWT / Nebraska Examiner",
+      "kind": "news",
+      "date": "2026-07-27"
+    },
+    {
+      "id": "s2",
+      "url": "https://en.wikipedia.org/wiki/2026_Nebraska_gubernatorial_election",
+      "title": "2026 Nebraska gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

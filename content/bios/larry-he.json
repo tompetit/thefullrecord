@@ -1,38 +1,101 @@
 {
- "slug": "larry-he",
- "name": "Larry He",
- "bio": [
-  {
-   "text": "According to his campaign website, Larry He is a candidate for New York State Senate District 17 and a Democrat.",
-   "sources": [
-    "s1",
-    "s2"
-   ]
-  },
-  {
-   "text": "The site describes him as a district leader and a first-generation immigrant, and says he is chief of staff to Assemblyman William Colton.",
-   "sources": [
-    "s2"
-   ]
-  }
- ],
- "sources": [
-  {
-   "id": "s1",
-   "url": "https://www.larryhe.com",
-   "title": "Dr. Larry He for State Senate",
-   "publisher": "Larry He for State Senate",
-   "kind": "candidate",
-   "date": "2026-10-19"
-  },
-  {
-   "id": "s2",
-   "url": "https://www.larryhe.com/about",
-   "title": "About Dr. Larry He",
-   "publisher": "Larry He for State Senate",
-   "kind": "candidate",
-   "date": "2026-10-19"
-  }
- ],
- "researchedAt": "2026-10-19"
+  "slug": "larry-he",
+  "name": "Larry He",
+  "summary": [
+    {
+      "text": "Larry He is the Democratic candidate for NY State Senate District 17 and a first-time candidate. He holds a Ph.D. in ecological economics, worked as a senior analyst at electric-grid operators, and is chief of staff to Assemblyman William Colton. His Ballotpedia survey lists safer and cleaner neighborhoods, affordable living and lower taxes, and faster, more accessible transit as his key messages.",
+      "sources": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Describes himself as a first-generation immigrant and a Democratic district leader.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "text": "Earned a Ph.D. in Ecological Economics from Rensselaer Polytechnic Institute, where he also served as a student senator.",
+        "sources": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "text": "Worked as a senior analyst for the New York Independent System Operator and the California Independent System Operator, which oversee those states' electric power systems and electricity markets.",
+        "sources": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "text": "First worked for Assemblyman William Colton as an intern in 2006; in January 2024 Colton appointed him co-chief of staff, and his campaign now describes him as chief of staff.",
+        "sources": [
+          "s3",
+          "s2"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "In that role, according to his campaign website, he brings food pantries, neighborhood cleanups, senior services, legal assistance, immigration support, and small-business and nonprofit aid into the district.",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "Community roles listed by Colton's office include the National Governing Board of the Asian and Pacific Islanders American Public Affairs Association, board member of United Chinese Americans, board chair and president of the Chinese Community Center of the Capital Region of New York, and executive director of the Global Asian Carp Coalition.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Endorsed by Assemblyman William Colton and New York City Councilmember Susan Zhuang; this is his first run for public office.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      }
+    ]
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Larry_He",
+      "title": "Larry He - Ballotpedia Candidate Connection survey (2026)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s2",
+      "url": "https://assembly.ny.gov/mem/William-Colton/story/118388",
+      "title": "Dr. Larry He Appointed Co-Chief-of-Staff to Assemblyman Colton",
+      "publisher": "NY State Assembly (Assemblyman William Colton)",
+      "kind": "official",
+      "date": "2024-01-02"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.larryhe.com/about",
+      "title": "About Dr. Larry He",
+      "publisher": "Dr. Larry He for State Senate campaign",
+      "kind": "candidate",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.bkreader.com/policy-government/brooklyn-activist-appointed-co-chief-of-staff-by-ny-assemblyman-8048390",
+      "title": "Brooklyn Activist Appointed Co-Chief of Staff by NY Assemblyman",
+      "publisher": "BK Reader",
+      "kind": "news",
+      "date": "2024-01-06"
+    }
+  ],
+  "researchedAt": "2026-10-21"
 }

@@ -140,8 +140,13 @@ export interface GuideCandidate {
   ballotNote?: string;
   /** e.g. "U.S. Representative (since 2013)" */
   currentRole?: string;
+  /**
+   * Filled by the loader from the person's bio (content/bios/<slug>.json), the only place
+   * biographies are stored. Source ids point into race.sources (bio sources are appended there).
+   */
   summary: Cited;
-  background: Cited[];
+  /** Longer bio, as paragraphs; filled by the loader like `summary` */
+  paragraphs: Cited[][];
   /** What the candidate says are their priorities (from their own materials) */
   priorities: Cited[];
   positions: Position[];

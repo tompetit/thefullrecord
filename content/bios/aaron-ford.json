@@ -1,35 +1,65 @@
 {
   "slug": "aaron-ford",
   "name": "Aaron Ford",
-  "bio": [
+  "summary": [
     {
-      "text": "Aaron Ford, the Democratic nominee for Nevada governor in the November 3, 2026 general election, has served as the state attorney general since 2019.",
+      "text": "Aaron Ford is Nevada's Attorney General and the Democratic nominee for governor. A former public school math teacher, he was elected to the state Senate in 2012, finishing as majority leader, before becoming the state's first Black attorney general in 2019. His campaign centers on housing costs, health care, energy and education, and he supports repealing the state's right-to-work law.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "He was elected to the Nevada state Senate in 2012 and finished his tenure there as majority leader.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "He previously worked for a personal injury law firm in Las Vegas.",
-      "sources": [
-        "s1"
+        "s1",
+        "s2",
+        "s3"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Raised in a working-class family; earned five degrees including a Ph.D. in education and a law degree, and worked as a public school math teacher.",
+        "sources": [
+          "s3",
+          "s2"
+        ]
+      },
+      {
+        "text": "Elected to the Nevada Senate in 2012 and served as Senate Majority Leader.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "text": "Has served as attorney general since 2019, becoming the first Black attorney general in Nevada history.",
+        "sources": [
+          "s3"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
       "url": "https://thenevadaindependent.com/elections/2026/general",
-      "title": "2026 Nevada Voter Guide: General Election",
+      "title": "2026 Nevada Voter Guide",
       "publisher": "The Nevada Independent",
       "kind": "news",
-      "date": "2026-10-17"
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.fordfornevada.com/issues",
+      "title": "Issues",
+      "publisher": "Aaron Ford for Nevada Governor campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.fordfornevada.com/about",
+      "title": "About Aaron",
+      "publisher": "Aaron Ford for Nevada Governor campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

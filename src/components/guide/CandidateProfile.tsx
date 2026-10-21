@@ -279,15 +279,19 @@ export function CandidateProfile({
         </Block>
       )}
 
-      {c.background.length > 0 && (
-        <Block title="Background">
-          <ul className="flex list-disc flex-col gap-1.5 pl-5 font-sans text-[13px] leading-[1.5] text-ink-80 marker:text-ink-35">
-            {c.background.map((b, i) => (
-              <li key={i}>
-                <CitedText c={b} race={race} />
-              </li>
+      {c.paragraphs.length > 0 && (
+        <Block title="Biography">
+          <div className="flex flex-col gap-2.5 font-sans text-[13.5px] leading-[1.6] text-ink-80">
+            {c.paragraphs.map((para, i) => (
+              <p key={i}>
+                {para.map((b, j) => (
+                  <span key={j}>
+                    <CitedText c={b} race={race} />{" "}
+                  </span>
+                ))}
+              </p>
             ))}
-          </ul>
+          </div>
         </Block>
       )}
 

@@ -1,13 +1,89 @@
 {
   "slug": "james-hayes",
   "name": "James Hayes",
-  "bio": [
-    { "text": "James Hayes is the Republican nominee for Pennsylvania's 12th Congressional District in the November 3, 2026 election, having advanced from the May 19, 2026 primary.", "sources": ["s1"] },
-    { "text": "According to Ballotpedia, he was born in Lancaster, Pennsylvania, earned a bachelor's degree from Georgetown University in 1983, and holds graduate degrees from Princeton University (1985) and the University of Chicago (1989).", "sources": ["s1"] },
-    { "text": "In his Ballotpedia Candidate Connection survey responses, he describes himself as a longtime Pittsburgh resident and business executive who most recently served as chief financial officer of Gulf Coast Sand and previously as chief operating officer of Marine Electric Systems.", "sources": ["s1"] }
+  "summary": [
+    {
+      "text": "James Hayes is a businessman and economist with degrees from Georgetown, Princeton, the University of Chicago and Case Western Reserve who worked for the Federal Reserve Bank of Richmond. He was the Republican nominee in 2024 and lost to incumbent Summer Lee, and is running again in 2026. He campaigns on reducing regulation, school choice, and law-enforcement support.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Born in Lancaster, Pennsylvania, and graduated from Conestoga Valley High School. PoliticsPA reports he is the son of a union steelworker and that a United Steelworkers scholarship first sent him to college.",
+        "sources": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "text": "Earned a bachelor's degree from Georgetown University in 1983, a graduate degree from Princeton University in 1985 and one from the University of Chicago in 1989. WESA's 2024 voter guide lists them as a B.S.F.S. in international economics, an M.P.A. in economics and policy, and an M.B.A., plus a D.B.A. in management from Case Western Reserve University.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "text": "Spent about 30 years in finance and industry, including six years at the Federal Reserve Bank of Richmond and, per PoliticsPA, top positions at Fortune 500 companies. WESA listed his 2024 occupation as chief financial officer.",
+        "sources": [
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Ran for the 12th District as the Republican nominee in 2024, his first campaign, and lost to Lee. WESA reported he entered the race after his son was killed in a homicide that was then unsolved. He lived in Shadyside, Pittsburgh, as of 2024.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "text": "Advanced unopposed from the May 19, 2026 Republican primary with 23,760 votes.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/James_Hayes_(Pennsylvania)", "title": "James Hayes (Pennsylvania) - Ballotpedia", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-10-19" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Summer_Lee",
+      "title": "Summer Lee",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/James_Hayes_(Pennsylvania)",
+      "title": "James Hayes (Pennsylvania) — Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2023"
+    },
+    {
+      "id": "s3",
+      "url": "https://summerlee.house.gov/about/committees-and-caucuses",
+      "title": "Committees",
+      "publisher": "Office of Rep. Summer Lee",
+      "kind": "official"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.politicspa.com/pa-12-hayes-announces-candidacy-for-congress/120401",
+      "title": "PA-12: Hayes Announces Candidacy For Congress",
+      "publisher": "PoliticsPA",
+      "kind": "news"
+    }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

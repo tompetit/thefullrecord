@@ -42,7 +42,7 @@ export default async function CandidatePage({ params }: { params: Params }) {
     ...c.record.flatMap((x) => x.sources),
     ...c.positions.flatMap((x) => [...x.sources, ...(x.stated?.sources ?? [])]),
     ...c.priorities.flatMap((x) => x.sources),
-    ...c.background.flatMap((x) => x.sources),
+    ...c.paragraphs.flat().flatMap((x) => x.sources),
   ];
   const sources = [...new Set(order)].flatMap((id) => race.sources.find((s) => s.id === id) ?? []);
   const pageRace = { ...race, sources };

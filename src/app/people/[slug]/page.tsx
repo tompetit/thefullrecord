@@ -52,8 +52,6 @@ export default async function PersonPage({ params, searchParams }: { params: Par
   const official = office ? await getDataSource().getOfficial(office.officialId) : null;
   const candidacies = person.candidacies ?? [];
   const bio = getBio(person.slug);
-  // A guide candidate's cited summary + background supersedes the standalone bio, so the page shows one biography.
-  const guide = candidacies.map((c) => (c.raceId && c.candidateId ? getCandidate(c.raceId, c.candidateId) : null)).find(Boolean) ?? null;
   const partyCode = official ? person.party : undefined;
   const ballotParties = candidacies[0]?.parties ?? [];
   const jsonLdParty = partyCode ?? ballotParties[0];
@@ -96,42 +94,27 @@ export default async function PersonPage({ params, searchParams }: { params: Par
       </header>
 
       <div className="px-4 sm:px-6 lg:px-10 [&>*]:max-w-4xl">
-        {guide ? (
-          <Section title="Background">
-            <p className="font-sans text-[13.5px] leading-normal text-ink-80">
-              <CitedText c={guide.candidate.summary} race={guide.race} />
-            </p>
-            {guide.candidate.background.length > 0 && (
-              <ul className="mt-2 flex list-disc flex-col gap-1.5 pl-5 font-sans text-[13px] leading-[1.5] text-ink-80 marker:text-ink-35">
-                {guide.candidate.background.map((b, i) => (
-                  <li key={i}>
-                    <CitedText c={b} race={guide.race} />
-                  </li>
-                ))}
-              </ul>
-            )}
-            <div className="mt-3">
-              <SourceList race={guide.race} ids={new Set([guide.candidate.summary, ...guide.candidate.background].flatMap((x) => x.sources))} />
-            </div>
-          </Section>
-        ) : bio && (
-          <Section title="Background">
-            <p className="font-sans text-[13.5px] leading-normal text-ink-80">
-              {bio.bio.map((c, i) => (
+        {bio && (
+          <Section title="Biography">
+            <p className="font-serif text-[16px] leading-[1.55] text-ink-80">
+              {bio.summary.map((c, i) => (
                 <span key={i}>
-                  {c.text}
-                  {c.sources.map((id) => {
-                    const n = bio.sources.findIndex((s) => s.id === id);
-                    return n < 0 ? null : <sup key={id} className="ml-0.5"><a href={`#bio-src-${id}`} className="text-accent">[{n + 1}]</a></sup>;
-                  })}{" "}
+                  <CitedText c={c} race={bio} />{" "}
                 </span>
               ))}
             </p>
-            <ol className="mt-2 flex flex-col gap-0.5 font-sans text-[12px] text-ink-60">
-              {bio.sources.map((s, n) => (
-                <li key={s.id} id={`bio-src-${s.id}`}>[{n + 1}] <SourceLink href={s.url}>{s.title}</SourceLink> — {s.publisher}</li>
-              ))}
-            </ol>
+            {bio.paragraphs.map((para, i) => (
+              <p key={i} className="mt-2.5 font-sans text-[13.5px] leading-[1.6] text-ink-80">
+                {para.map((c, j) => (
+                  <span key={j}>
+                    <CitedText c={c} race={bio} />{" "}
+                  </span>
+                ))}
+              </p>
+            ))}
+            <div className="mt-3">
+              <SourceList race={bio} />
+            </div>
             <p className="mt-1 font-sans text-[11.5px] text-ink-45">Researched from the cited sources on {bio.researchedAt}.{bio.factChecked === false && " Not yet independently fact-checked."}</p>
           </Section>
         )}

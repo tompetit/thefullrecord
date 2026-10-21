@@ -78,7 +78,10 @@ export function buildOfficialIndex(officials) {
 
 /** Merge a candidacy into a matching official, or add it as a new person. Returns true when merged. */
 export function addCandidate(cand, idx, people) {
-  const official = matchOfficial(cand, idx);
+  let official = matchOfficial(cand, idx);
+  // Two candidates in one race are two people, even when one shares an officeholder's name
+  // (us-sen-ak: Sen. Dan Sullivan and a retired teacher named Dan Sullivan).
+  if (official && cand.candidacy?.raceId && official.candidacies.some((c) => c.raceId === cand.candidacy.raceId)) official = null;
   const target = official ?? {
     keys: [], name: cand.name, state: cand.state, offices: [], candidacies: [], tag: cand.tag,
   };

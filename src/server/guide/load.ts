@@ -6,7 +6,9 @@
 
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import type { Bio } from "../bios";
 import type {
+  Cited,
   Finance,
   GuideCandidate,
   GuideRace,
@@ -320,6 +322,32 @@ function addBillPositions(race: GuideRace, c: GuideCandidate, data: CosponsorDat
   }
 }
 
+// Read directly (not via ../people, ../bios) so the scripts can load this file under plain Node.
+let slugByCandidate: Map<string, string> | null = null;
+function bioFor(raceId: string, candidateId: string): Bio | null {
+  slugByCandidate ??= new Map(
+    readJson<Array<{ slug: string; candidacies?: Array<{ raceId?: string; candidateId?: string }> }>>(join(process.cwd(), "src/server/people.json"), [])
+      .flatMap((p) => (p.candidacies ?? []).filter((c) => c.raceId).map((c) => [`${c.raceId}/${c.candidateId}`, p.slug] as [string, string]))
+  );
+  const slug = slugByCandidate.get(`${raceId}/${candidateId}`);
+  return slug ? readJson<Bio | null>(join(process.cwd(), "content/bios", `${slug}.json`), null) : null;
+}
+
+/** Biographies live in content/bios; copy the candidate's in, appending its sources to the race's. */
+function attachBio(race: GuideRace, c: GuideCandidate) {
+  const bio = bioFor(race.id, c.id);
+  if (!bio) {
+    c.summary = { text: "", sources: [] };
+    c.paragraphs = [];
+    return;
+  }
+  const id = (s: string) => `${c.id}~${s}`;
+  for (const s of bio.sources) race.sources.push({ ...s, id: id(s.id) });
+  const map = (x: Cited): Cited => ({ text: x.text, sources: x.sources.map(id) });
+  c.summary = { text: bio.summary.map((s) => s.text).join(" "), sources: [...new Set(bio.summary.flatMap((s) => s.sources))].map(id) };
+  c.paragraphs = bio.paragraphs.map((p) => p.map(map));
+}
+
 function load(): Map<string, GuideRace> {
   if (races) return races;
   const enrich: Enrichment = {
@@ -343,6 +371,7 @@ function load(): Map<string, GuideRace> {
     const race = readJson<GuideRace | null>(join(RACES_DIR, file), null);
     if (!race?.id) continue;
     for (const c of race.candidates) {
+      attachBio(race, c);
       // Authored vote-based entries follow the same no-inference rule.
       for (const position of c.positions) {
         if (position.basis === "votes") position.stance = "not_inferred";

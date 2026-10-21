@@ -1,49 +1,73 @@
 {
   "slug": "john-james",
   "name": "John James",
-  "bio": [
+  "summary": [
     {
-      "text": "John James, a Republican, has represented Michigan's 10th Congressional District in the U.S. House since January 3, 2023, and is a candidate for Governor of Michigan in 2026.",
+      "text": "John James is the U.S. Representative for Michigan's 10th District and the Republican nominee for governor, with running mate Jay DeBoyer. A West Point graduate and former Army Apache pilot, he led his family's logistics company before running for the U.S. Senate in 2018 and 2020 and winning his House seat in 2022. His platform calls for eliminating the state income tax, lower energy costs, school choice and a parents' bill of rights, and full funding for law enforcement.",
       "sources": [
-        "s2"
-      ]
-    },
-    {
-      "text": "Before Congress he was president of James Group International and CEO of Renaissance Global Logistics, a Detroit supply-chain company.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "He served eight years of active duty as an Army aviation officer, including combat in Operation Iraqi Freedom, and graduated from West Point.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "He later earned a master's degree from Penn State and an MBA from the University of Michigan.",
-      "sources": [
-        "s1"
+        "s1",
+        "s2",
+        "s3",
+        "s4"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Born in Southfield and raised in Detroit; graduated from West Point in 2004 and served eight years in the Army as an aviation officer, including Iraq combat tours.",
+        "sources": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "text": "Master's degree from Penn State and an MBA from the University of Michigan; became president of James Group International, a Detroit supply-chain company.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Republican nominee for U.S. Senate in 2018 and 2020 (lost to Debbie Stabenow and Gary Peters); elected to the U.S. House in 2022 and re-elected in 2024.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
-      "url": "https://james.house.gov/about",
-      "title": "About",
-      "publisher": "Office of Rep. John James",
-      "kind": "official",
+      "url": "https://en.wikipedia.org/wiki/2026_Michigan_gubernatorial_election",
+      "title": "2026 Michigan gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
       "date": "2026-10-19"
     },
     {
       "id": "s2",
-      "url": "https://ballotpedia.org/John_James_(Michigan)",
-      "title": "John James (Michigan)",
-      "publisher": "Ballotpedia",
+      "url": "https://en.wikipedia.org/wiki/John_James_(Michigan_politician)",
+      "title": "John James (Michigan politician)",
+      "publisher": "Wikipedia",
       "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://johnjamesmi.com/flight-plan/",
+      "title": "The Flight Plan",
+      "publisher": "John James for Michigan campaign",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s4",
+      "url": "https://johnjamesmi.com/meet-john/",
+      "title": "Meet John",
+      "publisher": "John James for Michigan campaign",
+      "kind": "candidate",
       "date": "2026-10-19"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

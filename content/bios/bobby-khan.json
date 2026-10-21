@@ -1,29 +1,63 @@
 {
   "slug": "bobby-khan",
   "name": "Bobby Khan",
-  "bio": [
+  "summary": [
     {
-      "text": "Bobby Khan is a candidate with no party affiliation for Nevada's 1st Congressional District in the November 3, 2026 general election; he initially ran for the seat as a Republican.",
+      "text": "Bobby Khan is a no-party candidate for Nevada's 1st Congressional District. Born in Scotland, he is a former luxury car dealer who, according to Casino.org, pleaded guilty to a federal wire fraud charge and served time in federal prison; he says he is running on justice-system reform, veterans' benefits and ending federal taxes on gambling winnings.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "He is a former car dealer who is a first-time political candidate and moved to Las Vegas in 2023.",
-      "sources": [
-        "s1"
+        "s1",
+        "s2",
+        "s3"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Born in Edinburgh, Scotland, according to Ballotpedia; Casino.org reports he was born Babar Khan in Scotland. He graduated from Absegami High School and attended Philadelphia University.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "text": "In his Ballotpedia survey he describes himself as the son of immigrants who began working in his father's restaurant at age 12, then left college for the car business, ran luxury dealerships in his 20s and started his own exotic car company.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Casino.org reports he owned Emporio Motor Group, a New Jersey luxury car dealership, was indicted on wire fraud charges in 2014, was a federal fugitive for six years, surrendered in 2020, and pleaded guilty to a charge involving $550,000 in losses, after which he served time in federal prison. According to Casino.org, he has characterized the conviction as the result of prosecutorial overreach.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
-      "url": "https://thenevadaindependent.com/elections/2026/general",
-      "title": "2026 Nevada Voter Guide: General Election",
-      "publisher": "The Nevada Independent",
-      "kind": "news",
-      "date": "2026-10-17"
+      "url": "https://ballotpedia.org/Dina_Titus",
+      "title": "Dina Titus",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Bobby_Khan",
+      "title": "Bobby Khan - Ballotpedia Candidate Connection survey (2025)",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.casino.org/news/nevada-congressional-candidate-banned-from-all-mgm-casinos/",
+      "title": "Nevada US House Candidate Banned From All MGM Casinos",
+      "publisher": "Casino.org",
+      "kind": "news"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

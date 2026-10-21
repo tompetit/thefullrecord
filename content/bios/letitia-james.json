@@ -1,35 +1,138 @@
 {
- "slug": "letitia-james",
- "name": "Letitia James",
- "bio": [
-  {
-   "text": "Letitia James is the 67th Attorney General of New York, elected in 2018 and in office since 2019.",
-   "sources": [
-    "s1"
-   ]
-  },
-  {
-   "text": "Before that she was New York City Public Advocate, elected in 2013, and spent ten years on the New York City Council representing the 35th District in Brooklyn.",
-   "sources": [
-    "s1"
-   ]
-  },
-  {
-   "text": "She earlier headed the Brooklyn Regional Office of the state Attorney General's Office, began her career as a public defender at the Legal Aid Society, and graduated from Lehman College and Howard University School of Law.",
-   "sources": [
-    "s1"
-   ]
-  }
- ],
- "sources": [
-  {
-   "id": "s1",
-   "url": "https://ag.ny.gov/about/meet-letitia-james",
-   "title": "Meet Letitia James",
-   "publisher": "New York State Office of the Attorney General",
-   "kind": "official",
-   "date": "2026-10-19"
-  }
- ],
- "researchedAt": "2026-10-19"
+  "slug": "letitia-james",
+  "name": "Letitia James",
+  "summary": [
+    {
+      "text": "Letitia James is the incumbent Democratic Attorney General of New York, seeking a third term. A Brooklyn native and former public defender, she served on the New York City Council (2004–2013) and as City Public Advocate before her election as Attorney General in 2018. Since taking office in 2019 she has pursued civil fraud litigation against Donald Trump and the Trump Organization, dozens of lawsuits against Trump administration policies on immigration, health care and federal funding, and consumer-protection settlements against corporations including Meta and Capital One. In 2025 she was federally indicted on mortgage-fraud charges brought by the Trump-era Justice Department; the case was dismissed and two subsequent grand juries declined to re-indict her.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ]
+    }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Born and raised in Brooklyn, according to her official biography; born in 1958 and raised in Park Slope, per Wikipedia.",
+        "sources": [
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "text": "Graduated from Lehman College of the City University of New York (B.A., 1981) and Howard University School of Law (J.D., 1987); she later earned a Master of Public Administration from Columbia University (2013).",
+        "sources": [
+          "s4",
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "text": "Began her career as a public defender at the Legal Aid Society, then worked on the staff of a New York State Assemblymember and in the state Attorney General's Office, where she headed the Brooklyn Regional Office before entering elected office.",
+        "sources": [
+          "s5",
+          "s6"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Served on the New York City Council representing Brooklyn's 35th District from 2004 to 2013, chairing the Economic Development and Sanitation committees; her official biography cites the Safe Housing Act, which she passed as a council member.",
+        "sources": [
+          "s4",
+          "s6",
+          "s5"
+        ]
+      },
+      {
+        "text": "Ran for the Council seat in 2001 on the Working Families Party line and lost, then won in a 2003 election; she was the first Working Families Party member to win office in New York State, per Wikipedia.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "Served as New York City Public Advocate from 2014 to 2018, the first African American woman to be elected to and hold citywide office in New York City.",
+        "sources": [
+          "s4",
+          "s6"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Elected Attorney General of New York in 2018, becoming the first woman elected to the office, and sworn in on January 1, 2019; re-elected in 2022, defeating Michael Henry 54.6% to 45.3%. She briefly ran for governor in 2021 and suspended that campaign in December 2021 to seek re-election as Attorney General.",
+        "sources": [
+          "s1",
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "text": "Her office sued Donald Trump and the Trump Organization in a civil fraud case; a trial judge ruled against them in February 2024, and an appeals court later upheld the finding of liability while voiding the penalty as excessive, with further appeals pending.",
+        "sources": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "text": "Was indicted in October 2025 in the Eastern District of Virginia on one count of bank fraud and one count of making false statements to a financial institution, alleging misstatements on a mortgage application; she pleaded not guilty and her attorney said the case was driven by President Trump's desire for revenge. A federal judge dismissed the case in November 2025 after finding the appointment of the interim U.S. attorney invalid.",
+        "sources": [
+          "s4",
+          "s6",
+          "s2"
+        ]
+      }
+    ]
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/New_York_Attorney_General_election,_2026",
+      "title": "New York Attorney General election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.npr.org/2025/12/04/nx-s1-5634017/grand-jury-rejects-new-mortgage-fraud-indictment-against-new-york-attorney-general-letitia-james",
+      "title": "Grand jury rejects new mortgage fraud indictment against New York Attorney General Letitia James",
+      "publisher": "NPR / The Associated Press",
+      "kind": "news",
+      "date": "2025-12-04"
+    },
+    {
+      "id": "s3",
+      "url": "https://en.wikipedia.org/wiki/Prosecution_of_Letitia_James",
+      "title": "Prosecution of Letitia James",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Letitia_James",
+      "title": "Letitia James",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ag.ny.gov/about/meet-letitia-james",
+      "title": "Meet Letitia James",
+      "publisher": "New York State Office of the Attorney General",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://en.wikipedia.org/wiki/Letitia_James",
+      "title": "Letitia James",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-10-21"
 }

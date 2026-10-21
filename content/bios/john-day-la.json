@@ -1,29 +1,59 @@
 {
   "slug": "john-day-la",
   "name": "John Day",
-  "bio": [
+  "summary": [
     {
-      "text": "John Day, a Democrat, is a candidate for Louisiana's 3rd Congressional District in 2026.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "According to the Louisiana Illuminator's voter guide, he is a professional writer, film producer and U.S. Navy veteran who lives in Lake Charles.",
+      "text": "John Day is a Democratic candidate on the ballot for Louisiana's 3rd Congressional District.",
       "sources": [
         "s1"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Born in Shreveport, raised in Lake Charles, and graduated from Sam Houston High School, according to his Ballotpedia survey.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Served in the U.S. Navy beginning in 1994.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Works as a professional writer and, in his words, is working toward producing film projects.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "Says he is married to Amanda Hardy Day and that they have four grown children.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
-      "url": "https://lailluminator.com/voter-guides/contests/ushouse-district-3/",
-      "title": "3rd Congressional District | Voter Guide: Election 2026",
-      "publisher": "Louisiana Illuminator",
-      "kind": "news",
-      "date": "2026-10-19"
+      "url": "https://ballotpedia.org/Louisiana%27s_3rd_Congressional_District_election,_2026",
+      "title": "Louisiana's 3rd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/John_Day_(Louisiana)",
+      "title": "John Day — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-03"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }
