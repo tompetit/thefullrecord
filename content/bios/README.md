@@ -30,8 +30,9 @@ not carry `summary` or `background`. The slug is the person's slug in `src/serve
 - Write real sentences with subjects ("She graduated from…", not "Graduated from…"). Vary the openings;
   use the name at the start of each paragraph and pronouns (from the person's own materials) after.
 - Neutral language; the research standard is `content/guide/README.md` (allegations rule 9 applies).
-- Not citable: Wikipedia, candidate-aggregator/prediction sites (Ballot Brief, iSideWith, Prediction
-  Edge, Branch). Ballotpedia is fine as `reference`.
+- Wikipedia and Ballotpedia are fine as `reference` (prefer an official or candidate page that says the
+  same thing). A Wikipedia source must carry `date`: the day it was read (YYYY-MM-DD), since articles change.
+- Not citable: candidate-aggregator/prediction sites (Ballot Brief, iSideWith, Prediction Edge, Branch).
 - `factChecked: false` marks a draft written from the cited sources but not yet independently checked.
 
 Validate: `node scripts/bios/validate.mjs content/bios/<slug>.json` (and `node scripts/guide/validate.mjs`
