@@ -11,53 +11,112 @@
   "context": [
     {
       "text": "Incumbent Jessica González-Rojas did not seek re-election to this seat; she instead ran for the New York State Senate's 13th District in 2026, leaving Assembly District 34 an open seat.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Brian Romero won the June 23, 2026 Democratic primary 66.8% to 32.4% over Rosa Sanchez, and separately won the Working Families Party primary; he is the only candidate on the November 3, 2026 general-election ballot. Sanchez had qualified for a general-election line under the \"Affordable & Safe Party\" but withdrew.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "brian-romero",
       "name": "Brian Romero",
-      "parties": ["D", "WFP"],
+      "parties": [
+        "D",
+        "WFP"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 23, 2026 Democratic primary 66.8% to 32.4%; unopposed in the general election",
       "summary": {
-        "text": "Brian Romero is running for the open Assembly District 34 seat in western Queens after winning the Democratic and Working Families Party primaries. He is unopposed in the November 3, 2026 general election.",
-        "sources": ["s1"]
+        "text": "Brian Romero is a former social worker and legislative chief of staff running for the open Assembly District 34 seat in western Queens. He worked for about four and a half years as chief of staff to Assemblymember Jessica González-Rojas, then for State Senator Kristen Gonzalez, and won the June 23, 2026 Democratic primary. He is unopposed in the November general election.",
+        "sources": [
+          "s1",
+          "s3",
+          "s4"
+        ]
       },
       "background": [
         {
-          "text": "Romero says he is the son of Colombian immigrants, was born in a basement apartment, and was raised in New York City Housing Authority (NYCHA) housing in Queens.",
-          "sources": ["s2"]
+          "text": "Romero says he is the son of Colombian immigrants, was born in a basement apartment, and was raised in NYCHA housing in Queens. He told City Limits he was born and raised in East Elmhurst, and that his family became homeless around age seven after his parents separated.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
         },
         {
-          "text": "He states he grew up experiencing housing insecurity firsthand in the district he is running to represent, which covers Astoria, Corona, East Elmhurst, Jackson Heights, and Woodside.",
-          "sources": ["s2"]
+          "text": "City Limits reports he lived in NYCHA housing for over a decade. He says his own experience with housing insecurity shapes his priorities.",
+          "sources": [
+            "s3",
+            "s2"
+          ]
+        },
+        {
+          "text": "He practiced as a social worker for several years, doing psychotherapy, before moving into politics.",
+          "sources": [
+            "s3",
+            "s5"
+          ]
+        },
+        {
+          "text": "He worked for more than four years as chief of staff to Assemblymember Jessica González-Rojas, the district's current representative, and became chief of staff to State Senator Kristen Gonzalez in May 2025.",
+          "sources": [
+            "s4",
+            "s3"
+          ]
+        },
+        {
+          "text": "He left the Senate office in March 2026, which he attributed to state ethics rules limiting legislative staff from holding full-time state employment while running for office.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "He is a member of the New York City chapter of the Democratic Socialists of America, and said he sought its endorsement in the Assembly race.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "He filed to run in October 2025 for the seat González-Rojas is leaving to challenge State Senator Jessica Ramos, and defeated Rosa Sanchez in the June 23, 2026 Democratic primary, 66.8% to 32.4%. He also appears on the Working Families Party line.",
+          "sources": [
+            "s4",
+            "s1",
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Romero's housing and quality-of-life message is that \"every family has a real chance to thrive, not just survive,\" including having a home and enough food.",
           "quote": "Every family has a real chance to thrive, not just survive. Where no child goes to school hungry or without a home.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "He emphasizes walkable neighborhoods and safe schools for the district.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "On labor, he says he wants \"workers earn a living wage, pay the rent, and still have time and dignity left at the end of the day.\"",
           "quote": "workers earn a living wage, pay the rent, and still have time and dignity left at the end of the day",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "On foreign policy, he calls to \"invest in people, not in endless war and genocide in Gaza and abroad.\"",
           "quote": "Invest in people, not in endless war and genocide in Gaza and abroad.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -66,14 +125,18 @@
           "stance": "supports",
           "summary": "Says he wants workers to \"earn a living wage, pay the rent, and still have time and dignity left at the end of the day.\"",
           "quote": "workers earn a living wage, pay the rent, and still have time and dignity left at the end of the day",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "israel_aid",
           "stance": "opposes",
           "summary": "Calls for investing in people \"not in endless war and genocide in Gaza and abroad,\" opposing continued military spending directed to the conflict.",
           "quote": "Invest in people, not in endless war and genocide in Gaza and abroad.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],
@@ -96,8 +159,32 @@
       "title": "About Brian Romero",
       "publisher": "Brian Romero campaign website",
       "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://citylimits.org/qa-brian-romero-brings-a-nycha-perspective-to-queens-assembly-seat/",
+      "title": "Q&A: Brian Romero Brings a NYCHA Perspective to Queens Assembly Seat",
+      "publisher": "City Limits",
+      "kind": "news",
+      "date": "2026-09-03"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.cityandstateny.com/politics/2025/10/brian-romero-hopes-succeed-his-former-boss-assembly/408676/",
+      "title": "Brian Romero hopes to succeed his former boss in the Assembly",
+      "publisher": "City & State New York",
+      "kind": "news",
+      "date": "2025-10"
+    },
+    {
+      "id": "s5",
+      "url": "https://politicsny.com/2026/01/16/queer-progressive-brian-romero-vies-for-queens-assembly-seat/",
+      "title": "Queer progressive Brian Romero vies for Queens Assembly seat",
+      "publisher": "PoliticsNY",
+      "kind": "news",
+      "date": "2026-01-16"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "This is an open seat: incumbent Jessica González-Rojas ran for state Senate instead of re-election to the Assembly. Romero has not held elected office, so there is no official voting or sponsorship record to cite. He is unopposed on the general-election ballot after Rosa Sanchez withdrew from the Affordable & Safe Party line following her primary loss. Note: NYC Mayor Zohran Mamdani previously represented Assembly District 36, not District 34; District 34's prior incumbent was Jessica González-Rojas."
+  "researchNotes": "This is an open seat: incumbent Jessica González-Rojas ran for state Senate instead of re-election to the Assembly. Romero has not held elected office, so there is no official voting or sponsorship record to cite. He is unopposed on the general-election ballot after Rosa Sanchez withdrew from the Affordable & Safe Party line following her primary loss. Note: NYC Mayor Zohran Mamdani previously represented Assembly District 36, not District 34; District 34's prior incumbent was Jessica González-Rojas. Romero's education was not found in public sources."
 }
