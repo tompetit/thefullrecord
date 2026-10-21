@@ -11,45 +11,107 @@
   "context": [
     {
       "text": "The district's boundaries changed as a result of California Proposition 50, a mid-decade congressional redistricting measure voters approved on November 4, 2025.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Incumbent Scott Peters and Steve Cohen advanced from the June 2, 2026 top-two primary. Peters won 48.1% of the primary vote (102,057 votes) and Cohen won 39.8% (84,340 votes); other candidates included Aishwarya Mitra, Tim Arnous, Joseph Shea and Lucinda Jahn.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "scott-peters",
       "name": "Scott Peters",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the June 2, 2026 top-two primary with 48.1% of the vote.",
       "currentRole": "U.S. Representative, CA-50 (since 2013)",
       "summary": {
-        "text": "Scott Peters is the incumbent Democratic U.S. Representative, first elected to Congress in 2012. He previously served on the San Diego City Council from 2000 to 2008, including as council president from 2006 to 2008, and worked as an economist for the Environmental Protection Agency and as an attorney.",
-        "sources": ["s2"]
+        "text": "Scott Peters is the incumbent Democratic U.S. Representative, first elected to Congress in 2012. Before Congress he was an environmental lawyer, a San Diego City Council member and council president, and chair of the San Diego Unified Port District. He serves on the House Energy and Commerce and Budget Committees.",
+        "sources": [
+          "s2",
+          "s9"
+        ]
       },
       "background": [
-        { "text": "Born in Springfield, Ohio, in 1958.", "sources": ["s2"] },
-        { "text": "Earned a bachelor's degree in political science and economics from Duke University in 1980 and a J.D. from New York University School of Law in 1984.", "sources": ["s2"] },
-        { "text": "Worked as an economist for the U.S. Environmental Protection Agency and as an attorney before entering politics.", "sources": ["s2"] },
-        { "text": "Served on the San Diego City Council from 2000 to 2008, serving as council president from 2006 to 2008.", "sources": ["s2"] }
+        {
+          "text": "Born in Springfield, Ohio, in 1958.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in political science and economics from Duke University in 1980 and a J.D. from New York University School of Law in 1984.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked as an economist for the U.S. Environmental Protection Agency before law school, according to his official biography, and then practiced as an environmental lawyer for 15 years.",
+          "sources": [
+            "s2",
+            "s9"
+          ]
+        },
+        {
+          "text": "Served on the San Diego City Council from 2000 to 2008, including as council president from 2006 to 2008; his official biography describes him as the city's first City Council President.",
+          "sources": [
+            "s2",
+            "s9"
+          ]
+        },
+        {
+          "text": "His official biography says he helped lead the redevelopment of downtown San Diego and pursued a Council/Mayor form of government with an independent budget review function, and that he later chaired the San Diego Unified Port District.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Defeated Republican incumbent Brian Bilbray in the November 2012 general election for California's 52nd District, 51.2% to 48.8%, and was re-elected in 2018 and 2020.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "In the 119th Congress he serves on the Energy and Commerce Committee and the Budget Committee; he co-chairs the Bipartisan Fiscal Forum and the House Special Operations Forces Caucus and chairs the New Democrat Coalition's Climate Change and Clean Energy Task Force.",
+          "sources": [
+            "s2",
+            "s9"
+          ]
+        },
+        {
+          "text": "According to his official biography, he and his wife live in La Jolla, where they raised a son and a daughter.",
+          "sources": [
+            "s9"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Making health care more accessible and affordable for families, including lowering out-of-pocket costs.",
           "quote": "We need to make health care more accessible and affordable for families.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Growing San Diego's economy by investing in innovation, small businesses and job creation while containing inflation.",
           "quote": "Congress must keep investing in programs that grow our economy, contain inflation, and create jobs.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Firearm safety reform, prioritized as a member of the Congressional Gun Violence Prevention Task Force.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -58,40 +120,52 @@
           "stance": "supports",
           "summary": "Says all women deserve equal access to reproductive health care without government interference and is a member of the Congressional Pro-Choice Caucus; has cosponsored the Women's Health Protection Act.",
           "quote": "Scott believes that all women deserve equal access to reproductive health care without interference from the government.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "Calls for universal background checks, banning weapons of war, and prohibiting suspected terrorists and domestic abusers from purchasing firearms; a member of the Congressional Gun Violence Prevention Task Force.",
           "quote": "Congress can prevent these tragedies if it implements universal background checks, bans weapons of war, and prohibits suspected terrorists and domestic abusers from purchasing firearms.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Says the country must rapidly reduce greenhouse gas emissions to address climate change and has introduced bills aimed at cutting emissions while building clean energy.",
           "quote": "To protect San Diegans and the nation from the worst consequences of climate change, we must rapidly reduce greenhouse gas emissions.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "Says San Diego needs to build more housing for people of all income levels and is working to incentivize more housing development.",
           "quote": "We need to build more housing for people of all income levels in a way that’s thoughtfully planned for our communities.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Energy and Commerce (Communications and Technology, Energy, and Environment subcommittees) and the House Committee on Budget for the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served on the Joint Economic Committee during the 117th Congress (2021-2022) in addition to the Committee on Energy and Commerce and Committee on Budget.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -100,14 +174,26 @@
     {
       "id": "steve-cohen",
       "name": "Steve Cohen",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the June 2, 2026 top-two primary with 39.8% of the vote.",
       "summary": {
-        "text": "Steve Cohen is the Republican candidate for CA-50 who advanced from the June 2026 primary. Ballotpedia records no completed Candidate Connection survey or staff-compiled profile for him, and FEC campaign finance data show no reported receipts or disbursements, with Ballotpedia noting the data is not available.",
-        "sources": ["s1"]
+        "text": "Steve Cohen is the Republican candidate for CA-50 who advanced from the June 2026 primary with 39.8% of the vote, behind Scott Peters (48.1%). KPBS describes him as a former news director. Ballotpedia records no completed Candidate Connection survey or biography for him.",
+        "sources": [
+          "s11",
+          "s10"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "KPBS describes him as a former news director and as the Republican challenger to Rep. Scott Peters in the 50th District.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
@@ -179,8 +265,32 @@
       "publisher": "Office of Rep. Scott Peters",
       "kind": "official",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://scottpeters.house.gov/about",
+      "title": "About | Congressman Scott Peters",
+      "publisher": "Office of Rep. Scott Peters",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50",
+      "title": "What are the important issues in District 50?",
+      "publisher": "KPBS",
+      "kind": "news",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s11",
+      "url": "https://ballotpedia.org/Steve_Cohen_%28California%29",
+      "title": "Steve Cohen (California)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress."
+  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress. Biography: no campaign website, education or career details were found for Steve Cohen beyond KPBS's one-line description; Ballotpedia has no biography for him."
 }

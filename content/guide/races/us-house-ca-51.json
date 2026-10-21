@@ -11,43 +11,106 @@
   "context": [
     {
       "text": "The district's boundaries changed as a result of California Proposition 50, a mid-decade congressional redistricting measure voters approved on November 4, 2025.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Incumbent Sara Jacobs and Ricardo Cabrera advanced from the June 2, 2026 top-two primary, defeating David Engel and Stan Caplan. Jacobs won 57.7% of the primary vote (111,765 votes) and Cabrera won 37.0% (71,692 votes).",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "sara-jacobs",
       "name": "Sara Jacobs",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the June 2, 2026 top-two primary with 57.7% of the vote.",
       "currentRole": "U.S. Representative, CA-51 (since 2023)",
       "summary": {
-        "text": "Sara Jacobs is the incumbent Democratic U.S. Representative, first elected in 2022. Before Congress she worked as a policy advisor on Hillary Clinton's 2016 presidential campaign, held policy positions at the U.S. State Department, UNICEF and the United Nations, and founded San Diego for Every Child: The Coalition to End Child Poverty.",
-        "sources": ["s2"]
+        "text": "Sara Jacobs is the incumbent Democratic U.S. Representative, first elected in 2020 and now in her third term. A third-generation San Diegan, she worked on conflict and development issues at the United Nations, UNICEF and the State Department before founding a nonprofit and a child-poverty coalition. She serves on the Foreign Affairs and Armed Services Committees.",
+        "sources": [
+          "s2",
+          "s7"
+        ]
       },
       "background": [
-        { "text": "Born in San Diego, California, in 1989.", "sources": ["s2"] },
-        { "text": "Earned a bachelor's degree in political science and a master's degree in international affairs from Columbia University in 2011 and 2012.", "sources": ["s2"] },
-        { "text": "Worked as a policy advisor on Hillary Clinton's 2016 presidential campaign and held policy positions with the U.S. State Department, UNICEF and the United Nations.", "sources": ["s2"] },
-        { "text": "Founded San Diego for Every Child: The Coalition to End Child Poverty and served as CEO of Project Connect.", "sources": ["s2"] }
+        {
+          "text": "Born in San Diego, California, in 1989; her official biography describes her as a third-generation San Diegan and a graduate of Torrey Pines High School.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in political science and a master's degree in international affairs from Columbia University, in 2011 and 2012.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Worked in the U.N. Department of Peacekeeping Operations, in the Innovation Unit at UNICEF, and in the State Department's Bureau of Conflict and Stabilization Operations.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Served as a policy advisor on Hillary Clinton's 2016 presidential campaign.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Was founding CEO of Project Connect, a nonprofit mapping schools and their internet connectivity that her official biography says became a UNICEF flagship program. She was a scholar in residence at the Kroc Institute for Peace and Justice at the University of San Diego.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Founded San Diego for Every Child, a coalition to end child poverty in San Diego County, in 2018.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Won California's 53rd District in November 2020, defeating fellow Democrat Georgette Gómez 59.5% to 40.5%; the seat is now numbered the 51st.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Serves on the House Foreign Affairs Committee, where she is ranking member of the Africa subcommittee, and on the Armed Services Committee. Her official biography also lists her as founding co-chair of the Protection of Civilians in Conflict Caucus and as parliamentarian of the House Democratic Caucus.",
+          "sources": [
+            "s7"
+          ]
+        }
       ],
       "priorities": [
         {
           "text": "Expanding access to affordable, quality child care and opposing federal rule changes she says raise costs for families.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Protecting Dreamers and DACA recipients from job loss and deportation risk amid delays in DACA renewal processing.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Helping constituents understand and access their reproductive rights following the end of the federal constitutional right to abortion.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -56,43 +119,57 @@
           "stance": "supports",
           "summary": "Says reproductive health care is personal to her and calls the Supreme Court's decision overturning Roe v. Wade deeply personal; highlights California's protections for abortion access.",
           "quote": "As a 35-year-old woman, reproductive health care is my health care. That’s why the Supreme Court’s decision to overturn Roe v. Wade and the constitutional right to abortion was deeply personal for me and millions of other people across our country.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Co-led a Congressional Review Act resolution to repeal a Trump administration rule she said would make child care more expensive and less accessible, saying every family deserves affordable child care.",
           "quote": "I’m proud to co-lead this Congressional Review Act because every family in America deserves quality, accessible, and affordable child care.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Led colleagues in demanding USCIS speed up delayed DACA renewals, saying delays put Dreamers at risk of job loss and deportation, and said she will keep pushing for Dreamers to be able to remain in the country permanently.",
           "quote": "We will keep pushing for Dreamers to be able to stay, work, and live in the only home they’ve ever known permanently.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Armed Services (Intelligence and Special Operations and Military Personnel subcommittees) and the House Committee on Foreign Affairs for the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Served as ranking member of the Foreign Affairs Subcommittee on Africa during the 118th Congress (2023-2024).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Led 54 House colleagues in a July 2026 letter to USCIS demanding faster processing of delayed DACA renewal applications.",
           "kind": "action",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Co-led a Congressional Review Act resolution with Reps. Bonamici and Scott and Sen. Murray to repeal a 2026 HHS rule that would raise child care copayment caps and change subsidy reimbursement rules.",
           "kind": "action",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -101,20 +178,56 @@
     {
       "id": "ricardo-cabrera",
       "name": "Ricardo Cabrera",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the June 2, 2026 top-two primary with 37.0% of the vote.",
       "summary": {
-        "text": "Ricardo Cabrera is a San Diego small business owner and cybersecurity professional running as the Republican candidate for CA-51. He has not previously held elected office.",
-        "sources": ["s3"]
+        "text": "Ricardo Cabrera is a San Diego small business owner and cybersecurity professional running as the Republican candidate for CA-51. He has not previously held elected office. In his Ballotpedia survey he says he is running on congressional term limits, affordability and fiscal responsibility.",
+        "sources": [
+          "s8"
+        ]
       },
       "background": [
-        { "text": "Describes himself as a San Diegan, small business owner and cybersecurity professional.", "sources": ["s3"] }
+        {
+          "text": "Describes himself as a San Diegan, small business owner and cybersecurity professional.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Ballotpedia lists a bachelor's degree from Grand Canyon University (2024) and a graduate degree from Grand Canyon University (2026), and lists chief executive officer as his career experience.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Advanced from the June 2, 2026 top-two primary with 37.0% of the vote, behind Jacobs (57.7%).",
+          "sources": [
+            "s8"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Supporting congressional term limits, saying Washington needs \"citizen legislators, not career politicians.\"", "sources": ["s3"] },
-        { "text": "Addressing affordability, saying families are being \"priced out, taxed out, and pushed out of California.\"", "sources": ["s3"] },
-        { "text": "Fiscal responsibility and public safety, describing government that \"focuses on results instead of bureaucracy.\"", "sources": ["s3"] }
+        {
+          "text": "Supporting congressional term limits, saying Washington needs \"citizen legislators, not career politicians.\"",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Addressing affordability, saying families are being \"priced out, taxed out, and pushed out of California.\"",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Fiscal responsibility and public safety, describing government that \"focuses on results instead of bureaucracy.\"",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "positions": [],
       "record": [],
@@ -170,8 +283,24 @@
       "publisher": "Office of Rep. Sara Jacobs",
       "kind": "official",
       "date": "2026-06-24"
+    },
+    {
+      "id": "s7",
+      "url": "https://sarajacobs.house.gov/about",
+      "title": "Biography | Meet Sara",
+      "publisher": "Office of Rep. Sara Jacobs",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Ricardo_Cabrera",
+      "title": "Ricardo Cabrera",
+      "publisher": "Ballotpedia (Candidate Connection survey)",
+      "kind": "candidate",
+      "date": "2026-10-21"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress."
+  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress. Biography: Fix applied to Jacobs's first-elected year (2020, not 2022). Cabrera's birthplace and employer are not published; his Ballotpedia page is the only source found."
 }
