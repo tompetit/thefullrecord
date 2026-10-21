@@ -116,3 +116,5 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - kim-ahern: Providence Eye calls her current Cannabis Control Commission chair; Rhode Island Current says she stepped down Oct 2025 (bio follows RI Current; both RI Current URLs 403 on re-check).
 - josh-shapiro: House end year — Wikipedia 2012 vs governor's page 2011 (bio says "from 2005").
 - alan-wilson: West Columbia native (FOX Carolina) vs "Lexington native" (Live 5).
+- phil-scott-vt: ordinals dropped — Wikipedia says 81st lieutenant governor; governor's page says 79th and 82nd governor.
+- thomas-p-tiffany: Natural Resources Committee membership not confirmed on the House Clerk page (Wikipedia only).
