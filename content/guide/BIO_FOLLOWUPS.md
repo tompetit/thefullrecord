@@ -95,3 +95,4 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - tommy-tuberville: "40-year coaching career" from old senate.gov bio, which no longer renders.
 - doug-lloyd: WILX says he won the GOP nomination in March 2026; Ballotpedia gives an Aug 22 convention — check which.
 - brad-little: Wikipedia intro says B.S. 1976, body and governor's site say 1977 (bio uses 1977).
+- beau-bayh: "infantry officer" cited to Ballotpedia but not found on the fetched pages — verify.
