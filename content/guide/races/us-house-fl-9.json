@@ -26,16 +26,30 @@
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2017)",
       "summary": {
-        "text": "Darren Soto is the Democratic incumbent seeking re-election to Florida's 9th Congressional District. An attorney, he previously served in the Florida House of Representatives and Florida Senate before his election to Congress in 2016.",
+        "text": "Darren Soto is the Democratic incumbent seeking re-election to Florida's 9th Congressional District. An attorney from Kissimmee, he served in the Florida House and Senate before his election to Congress in 2016, and now serves on the House Energy and Commerce Committee.",
         "sources": [
-          "s2"
+          "s2",
+          "s14"
         ]
       },
       "background": [
         {
-          "text": "Graduated from Rutgers College in 2000 and earned a law degree from George Washington University in 2004.",
+          "text": "Born in Ringwood, New Jersey, to a Puerto Rican father and an Italian-American mother; attended Lakeland Regional High School.",
           "sources": [
-            "s2"
+            "s14"
+          ]
+        },
+        {
+          "text": "Graduated from Rutgers College in 2000 with a B.A. in economics and earned a law degree from George Washington University in 2004.",
+          "sources": [
+            "s2",
+            "s14"
+          ]
+        },
+        {
+          "text": "Moved to Florida in 2002 while in law school and was admitted to the Florida Bar in 2005; practiced commercial, real estate, family and civil rights law.",
+          "sources": [
+            "s14"
           ]
         },
         {
@@ -45,9 +59,28 @@
           ]
         },
         {
-          "text": "Served in the Florida House of Representatives (2007-2012) and the Florida Senate (2012-2016) before his election to the U.S. House in 2016.",
+          "text": "Served in the Florida House of Representatives (2007-2012), first elected in a 2007 special election, and in the Florida Senate (2012-2016).",
+          "sources": [
+            "s2",
+            "s14"
+          ]
+        },
+        {
+          "text": "Elected to the U.S. House in 2016; his office describes him as the first congressman of Puerto Rican descent elected to represent Florida.",
+          "sources": [
+            "s14"
+          ]
+        },
+        {
+          "text": "Assigned to the House Energy and Commerce Committee, where his 2025-2026 subcommittee assignment is Commerce, Manufacturing, and Trade; has also served on the Natural Resources and Agriculture committees.",
           "sources": [
             "s2"
+          ]
+        },
+        {
+          "text": "According to his official bio, his H.R. 4528 closing a loophole in the Billfish Conservation Act was signed into law on August 2, 2018, and his H.R. 4042 renaming a Kissimmee post office for the Borinqueneers was signed into law on March 23, 2018.",
+          "sources": [
+            "s14"
           ]
         }
       ],
@@ -174,20 +207,38 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Dan Green is the Republican nominee for Florida's 9th Congressional District. A retired U.S. Navy Reserve officer who served multiple tours in the Middle East and Central Asia, he was appointed by President Trump in 2019 as Deputy Assistant Secretary of Defense for Strategy and Force Development.",
+        "text": "Dan Green is the Republican nominee for Florida's 9th Congressional District. A Navy Reserve officer who grew up in Indian River County, he served multiple tours in the Middle East and Central Asia and was appointed by President Trump in 2019 as a Deputy Assistant Secretary of Defense. His candidate survey lists his priorities as affordability, constitutional government and a strong military.",
         "sources": [
           "s3"
         ]
       },
       "background": [
         {
-          "text": "Earned a high school diploma from Vero Beach High School, a bachelor's degree from American University (1998), a graduate degree from Florida State University (1999), and a Ph.D. from George Washington University (2012).",
+          "text": "Says he grew up in Indian River County, the child of an Army veteran and a school teacher; graduated from Vero Beach High School.",
           "sources": [
             "s3"
           ]
         },
         {
-          "text": "Served in the U.S. Navy Reserve, completing four tours in the Middle East and Central Asia and a civilian tour to southern Afghanistan with the U.S. Department of State; holds the rank of Commander and has been selected for promotion to Captain.",
+          "text": "Earned a bachelor's degree from American University (1998), a graduate degree from Florida State University (1999) and a Ph.D. from George Washington University (2012); describes his focus as political science and international relations.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he was working in the Pentagon during the September 11, 2001 attacks.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Navy Reserve, completing four tours in the Middle East and Central Asia and a civilian tour in southern Afghanistan with the U.S. Department of State; holds the rank of Commander and has been selected for promotion to Captain.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he was attached to two SEAL Team deployments, including in Fallujah and southern Afghanistan, and served in Baghdad and Kabul.",
           "sources": [
             "s3"
           ]
@@ -223,7 +274,17 @@
       "positions": [],
       "record": [],
       "website": "https://dangreenfl.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "housing_supply",
+          "quote": "While we welcome freedom-loving Americans to our great state, overdevelopment has started to push native Floridians out of their communities.",
+          "context": "On his campaign website",
+          "sources": [
+            "s13"
+          ]
+        }
+      ]
     }
   ],
   "sources": [
@@ -310,8 +371,22 @@
       "title": "In Florida's Ninth, Rep. Darren Soto makes his case against stacked odds",
       "publisher": "Central Florida Public Media",
       "kind": "news"
+    },
+    {
+      "id": "s13",
+      "url": "https://dangreenfl.com/",
+      "title": "On the Issues",
+      "publisher": "Dan Green for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s14",
+      "url": "https://soto.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Darren Soto",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Soto has not completed Ballotpedia's Candidate Connection survey, so his current stated priorities and issue positions are not documented here."
+  "researchNotes": "Soto has not completed Ballotpedia's Candidate Connection survey, so his current stated priorities and issue positions are not documented here. Dan Green's campaign site lists issue headings with short descriptions; most do not take a side on the guide's issue statements. Biography gaps: Green's birth year and civilian employers after the Defense Department were not found in loaded sources."
 }

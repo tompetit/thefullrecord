@@ -1,0 +1,451 @@
+{
+  "id": "ar-gov",
+  "state": "AR",
+  "officeType": "governor",
+  "office": "Governor",
+  "title": "Governor of Arkansas",
+  "area": "Statewide — all of Arkansas",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Incumbent Republican Gov. Sarah Huckabee Sanders is seeking a second term; she advanced unopposed in the March 3 Republican primary.",
+      "sources": [
+        "s1",
+        "s16",
+        "s17"
+      ]
+    },
+    {
+      "text": "State Sen. Fredrick Love won the March 3 Democratic primary with 81.0% (104,725 votes) over businesswoman Supha Xayprasith-Mays (19.0%).",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "The Libertarian Party of Arkansas nominated Colt Shelby at its February 2026 convention.",
+      "sources": [
+        "s7"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "sarah-huckabee-sanders",
+      "name": "Sarah Huckabee Sanders",
+      "parties": [
+        "Republican"
+      ],
+      "incumbent": true,
+      "ballotNote": "Advanced unopposed in the March 3 Republican primary. Arkansas elects the lieutenant governor separately.",
+      "currentRole": "Governor of Arkansas (since January 2023)",
+      "summary": {
+        "text": "Sarah Huckabee Sanders is the incumbent Republican Governor of Arkansas, seeking a second term. A former White House press secretary under President Trump, she was elected in 2022 with about 63% of the vote. Her first term included the LEARNS Act, which created the state's school voucher program, and income-tax rate cuts signed in 2023 and 2026.",
+        "sources": [
+          "s2",
+          "s4",
+          "s9"
+        ]
+      },
+      "background": [
+        {
+          "text": "Served as White House press secretary in the first Trump administration; her father, Mike Huckabee, was Governor of Arkansas from 1996 to 2007.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Elected governor in 2022 with 62.96% of the vote.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Education and school choice, including the LEARNS Act and the Educational Freedom Account voucher program.",
+          "sources": [
+            "s6",
+            "s4"
+          ]
+        },
+        {
+          "text": "Cutting income-tax rates; her campaign cites cutting taxes as part of her record.",
+          "sources": [
+            "s5",
+            "s10",
+            "s11"
+          ]
+        },
+        {
+          "text": "Public safety: her campaign manager cited 'backing law enforcement' as part of her record, and the planned 3,000-bed prison in Franklin County, which is on hold, has been a priority of hers.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Signed the 2023 LEARNS Act, which created the Educational Freedom Account voucher program letting state funds go to expenses such as private school tuition; defended it in the October 2026 debate as improving outcomes for students.",
+          "sources": [
+            "s2",
+            "s6",
+            "s4"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Signed the LEARNS Act (SB294, Act 237 of 2023), her education overhaul that created the Educational Freedom Account voucher program and raised the minimum teacher salary.",
+          "sources": [
+            "s9",
+            "s15"
+          ],
+          "date": "2023-03-08",
+          "kind": "bill"
+        },
+        {
+          "text": "Signed SB549, lowering income-tax rates for individuals, trusts, estates and corporations, and HB1045, phasing out the throwback rule.",
+          "sources": [
+            "s10"
+          ],
+          "date": "2023-04-10",
+          "kind": "bill"
+        },
+        {
+          "text": "Signed HB1001 and SB1, both titled 'To Reduce the Income Tax Rates for Individuals, Trusts, Estates, and Corporations.'",
+          "sources": [
+            "s11"
+          ],
+          "date": "2026-05-06",
+          "kind": "bill"
+        }
+      ],
+      "website": "https://governor.arkansas.gov/",
+      "researchDepth": "basic"
+    },
+    {
+      "id": "fredrick-love",
+      "name": "Fredrick Love",
+      "parties": [
+        "Democratic"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the March 3 Democratic primary with 81.0% over Supha Xayprasith-Mays. Arkansas elects the lieutenant governor separately.",
+      "currentRole": "Arkansas State Senator, 15th District (since 2023)",
+      "summary": {
+        "text": "Fredrick Love, known as Fred Love, is the Arkansas state senator for the 15th District and the Democratic nominee for governor. He served in the Arkansas House from 2011 to 2023. He is term-limited and campaigns on ending the school voucher program, regional economic development hubs, and investing in public schools and Medicaid.",
+        "sources": [
+          "s1",
+          "s3",
+          "s6"
+        ]
+      },
+      "background": [
+        {
+          "text": "Earned a bachelor's degree in political science and a master's in public administration from the University of Arkansas at Little Rock; worked for the Arkansas Foodbank and Pulaski County.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Served in the Arkansas House of Representatives 2011-2023 and in the Arkansas Senate since 2023.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Ending the Educational Freedom Account voucher program by executive order and reinvesting the money in public schools.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Creating regional economic development hubs and expanding economic growth in rural and underserved areas.",
+          "sources": [
+            "s3",
+            "s6"
+          ]
+        },
+        {
+          "text": "Investing more in Medicaid and hospitals, and opposing new prison construction.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Says he would eliminate the voucher program entirely and would issue an executive order halting its administration.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports raising Arkansas's $11-per-hour minimum wage.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says the state must invest more in Medicaid and hospitals and criticizes the governor for not extending Medicaid to 12 months postpartum.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted yes on SB625, amending the Arkansas Children's Educational Freedom Account program (passed 19-9).",
+          "sources": [
+            "s12"
+          ],
+          "date": "2025-04-10",
+          "kind": "vote"
+        },
+        {
+          "text": "Voted no on SB376, amending the Freedom of Information Act and its public-meetings provisions (passed 19-10).",
+          "sources": [
+            "s13"
+          ],
+          "date": "2025-03-20",
+          "kind": "vote"
+        },
+        {
+          "text": "Voted no on HB1974, the E-Verify Requirement Act requiring state entities to use E-Verify (passed 29-6).",
+          "sources": [
+            "s14"
+          ],
+          "date": "2025-04-16",
+          "kind": "vote"
+        },
+        {
+          "text": "One of two senators to vote against the 2023 law exempting details of the governor's travel and security from the state Freedom of Information Act; says he would support repealing it.",
+          "sources": [
+            "s5"
+          ],
+          "kind": "vote"
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "colt-shelby",
+      "name": "Colt Shelby",
+      "parties": [
+        "Libertarian"
+      ],
+      "incumbent": false,
+      "ballotNote": "Nominated at the Libertarian Party of Arkansas convention in February 2026.",
+      "summary": {
+        "text": "Colt Shelby is a resident of Cecil in Franklin County and the Libertarian nominee for governor. He sued the state to move up the special election for the late Sen. Gary Stubblefield's seat, in the district where Gov. Sanders proposed a 3,000-bed prison. He calls the LEARNS Act a failure and wants to scale back the voucher program.",
+        "sources": [
+          "s1",
+          "s4",
+          "s7"
+        ]
+      },
+      "background": [
+        {
+          "text": "Resident of Cecil, Franklin County; sued the state to move up the date of the Senate District 26 special election after the death of Sen. Gary Stubblefield.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Scaling back the voucher program slowly, with an income base, and holding schools accountable.",
+          "sources": [
+            "s4",
+            "s5"
+          ],
+          "quote": "We need to scale it back, get it where we can afford it, and make the schools accountable for what's going on."
+        },
+        {
+          "text": "Opposing the planned Franklin County prison in favor of expanding existing facilities and county-jail rehabilitation programs.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Opening up the state's public records law.",
+          "sources": [
+            "s5"
+          ],
+          "quote": "I don't know why we have to hide anything."
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "His campaign platform says he opposes school voucher programs that redirect public education dollars; in a June debate he said the voucher program should be scaled back slowly rather than ended outright.",
+          "quote": "Colt opposes school voucher schemes that redirect public education dollars to private and often unaccountable alternatives.",
+          "sources": [
+            "s18",
+            "s5",
+            "s4"
+          ],
+          "basis": "statements"
+        }
+      ],
+      "record": [],
+      "researchDepth": "basic",
+      "researchNotes": "Included at the basic tier because he polled 7% in the August 2026 Talk Business & Politics-Hendrix College poll (https://talkbusiness.net/2026/08/poll-gov-sanders-holds-lead-over-two-opponents/). Ballotpedia blocked automated access. His campaign site (colt4arkansas.org) has a platform page covering transparency, fiscal responsibility, prison policy, energy and utilities, education and the farm economy, written in the third person; other statements come from Arkansas Advocate debate coverage. Wikipedia lists his occupation as farmer, but a news column describes him as an oil-well drilling manager, so no occupation is stated. No text found on abortion, guns, immigration, taxes, housing, minimum wage or the other listed issues.",
+      "website": "https://www.colt4arkansas.org/"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/2026_Arkansas_gubernatorial_election",
+      "title": "2026 Arkansas gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://en.wikipedia.org/wiki/Sarah_Huckabee_Sanders",
+      "title": "Sarah Huckabee Sanders",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://en.wikipedia.org/wiki/Fredrick_Love",
+      "title": "Fredrick Love",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s4",
+      "url": "https://arkansasadvocate.com/2026/10/13/challengers-call-arkansas-governors-policy-priorities-misplaced-in-debate/",
+      "title": "Challengers call Arkansas governor's policy priorities misplaced in debate",
+      "publisher": "Arkansas Advocate",
+      "kind": "news",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "s5",
+      "url": "https://arkansasadvocate.com/2026/06/26/love-vows-order-halting-school-vouchers-if-elected-arkansas-governor/",
+      "title": "Love vows order halting school vouchers if elected Arkansas governor",
+      "publisher": "Arkansas Advocate",
+      "kind": "news",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "s6",
+      "url": "https://arkansasadvocate.com/2026/02/16/arkansas-democrats-seeking-nomination-for-governor-focus-on-voucher-program-economic-development/",
+      "title": "Arkansas Democrats seeking nomination for governor focus on voucher program, economic development",
+      "publisher": "Arkansas Advocate",
+      "kind": "news",
+      "date": "2026-02-16"
+    },
+    {
+      "id": "s7",
+      "url": "https://arkansasadvocate.com/briefs/libertarian-party-of-arkansas-nominates-2026-general-election-candidates/",
+      "title": "Libertarian Party of Arkansas nominates 2026 general election candidates",
+      "publisher": "Arkansas Advocate",
+      "kind": "news",
+      "date": "2026-02-23"
+    },
+    {
+      "id": "s9",
+      "url": "https://arkleg.state.ar.us/Bills/Detail?ddBienniumSession=2023%2F2023R&measureno=SB294",
+      "title": "SB294 (Act 237 of 2023), the LEARNS Act",
+      "publisher": "Arkansas State Legislature",
+      "kind": "official",
+      "date": "2023-03-07"
+    },
+    {
+      "id": "s10",
+      "url": "https://governor.arkansas.gov/news_post/sanders-signs-sb549-and-hb1045/",
+      "title": "Sanders Signs SB549 and HB1045",
+      "publisher": "Office of Gov. Sarah Huckabee Sanders",
+      "kind": "official",
+      "date": "2023-04-10"
+    },
+    {
+      "id": "s11",
+      "url": "https://governor.arkansas.gov/news_post/bills-signed-hb1001-sb1/",
+      "title": "Bills Signed: HB1001, SB1",
+      "publisher": "Office of Gov. Sarah Huckabee Sanders",
+      "kind": "official",
+      "date": "2026-05-06"
+    },
+    {
+      "id": "s12",
+      "url": "https://arkleg.state.ar.us/Bills/Votes?id=SB625&rcs=1141&chamber=Senate&ddBienniumSession=2025%2F2025R",
+      "title": "Senate vote, SB625 (Educational Freedom Account program amendments), April 10, 2025",
+      "publisher": "Arkansas State Legislature",
+      "kind": "official",
+      "date": "2025-04-10"
+    },
+    {
+      "id": "s13",
+      "url": "https://arkleg.state.ar.us/Bills/Votes?id=SB376&rcs=667&chamber=Senate&ddBienniumSession=2025%2F2025R",
+      "title": "Senate vote, SB376 (Freedom of Information Act amendments), March 20, 2025",
+      "publisher": "Arkansas State Legislature",
+      "kind": "official",
+      "date": "2025-03-20"
+    },
+    {
+      "id": "s14",
+      "url": "https://arkleg.state.ar.us/Bills/Votes?id=HB1974&rcs=1336&chamber=Senate&ddBienniumSession=2025%2F2025R",
+      "title": "Senate vote, HB1974 (E-Verify Requirement Act), April 16, 2025",
+      "publisher": "Arkansas State Legislature",
+      "kind": "official",
+      "date": "2025-04-16"
+    },
+    {
+      "id": "s15",
+      "url": "https://talkbusiness.net/2023/03/governor-signs-learns-act-rulemaking-process-begins/",
+      "title": "Governor signs LEARNS Act; rulemaking process begins",
+      "publisher": "Talk Business & Politics",
+      "kind": "news",
+      "date": "2023-03-08"
+    },
+    {
+      "id": "s16",
+      "url": "https://arkansasadvocate.com/voter-guides/2026-general-election/",
+      "title": "Voter Guide: 2026 General Election",
+      "publisher": "Arkansas Advocate",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s17",
+      "url": "https://uaex.uada.edu/business-communities/ced-blog/posts/2026/august/Bismark%20Fire%20Protection%20Association%20ballot%20election%202026.pdf",
+      "title": "2026 General Election, Hot Spring County, Arkansas - November 3, 2026 (sample ballot)",
+      "publisher": "Hot Spring County, Arkansas",
+      "kind": "official",
+      "date": "2026-08-01"
+    },
+    {
+      "id": "s18",
+      "url": "https://www.colt4arkansas.org/platform",
+      "title": "Full Platform",
+      "publisher": "Colt Shelby for Governor campaign",
+      "kind": "candidate"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Arkansas elects its lieutenant governor in a separate race, so no running mates are noted. The Arkansas Secretary of State's site is behind bot protection (not bypassed), so the certified list was not loaded; the three-candidate slate (Sanders R, Love D, Shelby L) was confirmed against a Hot Spring County November 3, 2026 general-election ballot, and matches the Arkansas Advocate's voter guide and Wikipedia. Love's Senate votes were read from the Arkansas legislature's official roll-call pages (his name appears as F. Love). The LEARNS Act signing date (March 8, 2023) is from Talk Business & Politics; the legislature's page shows the bill delivered to the governor March 7, 2023."
+}

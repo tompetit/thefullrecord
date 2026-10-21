@@ -1,0 +1,39 @@
+{
+  "raceId": "me-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 45,
+  "corrected": 3,
+  "removed": 2,
+  "unverifiable": 0,
+  "notes": [
+    "Slate confirmed against the Maine SOS certified General Election Candidates List and the 10/15/26 declared write-in list: Pingree (D), Charles (R), Bennett (independent) only; write-ins John Glowa and Randy Wilcox added to context.",
+    "Removed unconfirmed 'reported to be the only independent' wording; replaced with the official list.",
+    "Bennett: removed 're-elected in 2022 and 2024' (not in source).",
+    "Pingree Kid-Safe law item reworded as her campaign's claim, with the law text as context only.",
+    "Charles first-round share changed to 'about 38%' (Wikipedia table 38.0%, text 37.7%); ICE-law wording no longer says '2026'. Bennett's five Senate roll-call votes verified against the official PDFs."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 45,
+    "corrected": 4,
+    "removed": 3,
+    "notes": [
+      "Slate: Maine SOS list/write-in PDF returned HTTP 403 on re-check; the three-candidate slate and write-ins Glowa and Wilcox corroborated by The Maine Monitor (added as source).",
+      "Removed Pingree abortion position: the cited page says only 'full range of reproductive health care', not abortion.",
+      "Removed Charles immigration_enforcement position: criticizing a no-cooperation law is not a statement on expanding enforcement or deportations.",
+      "Removed Bennett transgender_sports position: it rested only on a committee-report vote; the vote stays as a record item (all five Senate roll calls re-verified against the PDFs by column position).",
+      "Pingree housing position now cites her Housing Plan (zoning reforms) rather than only 'cut red tape'; Kid-Safe wording aligned to the campaign page; Bennett currentRole corrected (District 19 in 2020-22, District 18 since 2022)."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 48,
+    "corrected": 1,
+    "removed": 0,
+    "notes": [
+      "Slate confirmed again from the Maine SOS certified candidate xlsx (now loads): GOV = Bennett (Independent), Charles (R), Pingree (D); write-in PDF (10/15/26) lists John Glowa and Randy Wilcox.",
+      "Republican primary context: 'seven-candidate field' was wrong (State Sen. James Libby suspended but stayed on the ballot and finished last); reworded to seven rounds of tabulation and noted Libby.",
+      "All five Bennett Senate roll calls re-checked by X coordinates (Yea column) with tallies, dates and bill titles (legislature bill pages) matching; quotes and Wikipedia facts re-verified."
+    ]
+  }
+}

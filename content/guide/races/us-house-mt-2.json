@@ -11,42 +11,97 @@
   "context": [
     {
       "text": "Incumbent Rep. Troy Downing (R) did not face a primary challenger in 2026, winning renomination unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "troy-downing",
       "name": "Troy Downing",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
-        "text": "Troy Downing is the Republican incumbent seeking re-election in Montana's 2nd Congressional District. He is a former Montana state auditor and insurance commissioner who serves on the House Financial Services Committee and the Small Business Committee.",
-        "sources": ["s1"]
+        "text": "Troy Downing is the Republican incumbent seeking a second term in Montana's 2nd Congressional District. A technology and insurance entrepreneur and Air Force and Air National Guard veteran, he served as Montana State Auditor from 2021 to 2025 before his election to the U.S. House in 2024. He serves on the House Financial Services Committee.",
+        "sources": [
+          "s1",
+          "s10"
+        ]
       },
       "background": [
         {
-          "text": "Raised in Indio, California; studied computer science at New York University.",
-          "sources": ["s1"]
+          "text": "Raised in Indio, California; studied computer science at New York University, where, according to his official biography, he worked as a research scientist and teacher in the university's IT department.",
+          "sources": [
+            "s1",
+            "s10"
+          ]
         },
         {
-          "text": "Co-founded WebCal, an internet-based calendar system later incorporated into Yahoo in 1998, and was CEO of AC Self Storage Solutions; also operated a commercial real estate development firm and created a commercial insurance company.",
-          "sources": ["s1"]
+          "text": "Co-founded WebCal, an internet-based calendar system incorporated into Yahoo in 1998, and moved to Montana after its sale; his official biography says he later mentored and financed other startups as an angel investor.",
+          "sources": [
+            "s1",
+            "s10"
+          ]
         },
         {
-          "text": "Was previously a member of the Montana Land Board as a former statewide official.",
-          "sources": ["s2"]
+          "text": "Enlisted in the U.S. Air Force and Air National Guard after the September 11, 2001 attacks, serving eight years with a Combat Search and Rescue squadron (the 129th Rescue Squadron, per Ballotpedia) with two tours in Afghanistan.",
+          "sources": [
+            "s1",
+            "s10"
+          ]
+        },
+        {
+          "text": "Was CEO of AC Self Storage Solutions, operated a commercial real estate development firm, and founded a commercial insurance company.",
+          "sources": [
+            "s1",
+            "s10"
+          ]
+        },
+        {
+          "text": "Ran unsuccessfully in the 2018 Republican primary for U.S. Senate in Montana.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Won the 2020 election for Montana Commissioner of Securities and Insurance (State Auditor), after defeating two opponents in the Republican primary, and served from 2021 to 2025; in that role he also sat on the state Board of Land Commissioners.",
+          "sources": [
+            "s1",
+            "s2",
+            "s10"
+          ]
+        },
+        {
+          "text": "Won the 2nd Congressional District seat in 2024 and took office on January 3, 2025; he sits on the House Financial Services Committee.",
+          "sources": [
+            "s1",
+            "s10"
+          ]
+        },
+        {
+          "text": "Remains involved with Montana veterans' organizations; Ballotpedia lists him as a member of the Montana Veterans of Foreign Wars and a volunteer with the Warriors and Quiet Waters Foundation. His official biography says he lives in Helena with his wife, Heather, and they have four grown children.",
+          "sources": [
+            "s1",
+            "s10"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Supports making the 2017 Tax Cuts and Jobs Act permanent and has introduced legislation aimed at expanding rural small businesses' access to capital.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Supports an \"all-of-the-above\" energy approach that emphasizes coal, oil and gas production in Montana, including legislation to keep the Bull Mountains coal mine open and to support Signal Peak's mining operations.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -54,38 +109,50 @@
           "issue": "climate",
           "stance": "opposes",
           "summary": "Calls fossil fuels an abundant, cost-efficient energy source, supports coal and oil and gas development, and opposes federal rules such as the MATS rule and a fracking ban.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "war_powers",
           "stance": "mixed",
           "summary": "In a March 2026 questionnaire, said the President may act swiftly with limited engagement while Congress reviews, but that sustained combat requires formal congressional authorization.",
           "quote": "If operations extend into sustained combat, Congress must provide formal authorization or determine the appropriate course forward.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "Says he has supported policies that reduce regulatory barriers to building new housing.",
           "quote": "I've also supported policies that expand access to capital and reduce regulatory barriers that make it harder to build new housing.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [
         {
           "text": "Sits on the House Financial Services Committee and the Small Business Committee (Innovation, Entrepreneurship, and Workforce Development; and Oversight, Investigations, and Regulations subcommittees) in the 119th Congress.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Introduced the Federal Insurance Office Elimination Act to eliminate the Federal Insurance Office.",
           "kind": "bill",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Introduced the Expanding Access to Capital for Rural Job Creators Act, which would require the SEC's Office of the Advocate for Small Business Capital Formation to identify capital-access challenges facing rural small businesses.",
           "kind": "bill",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://downing.house.gov",
@@ -94,14 +161,48 @@
     {
       "id": "brian-miller",
       "name": "Brian Miller",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 2, 2026 Democratic primary with 55.5% of the vote over Sam Lux and Jonathan Windy Boy (who unofficially withdrew).",
       "summary": {
-        "text": "Brian Miller is the Democratic nominee for Montana's 2nd Congressional District.",
-        "sources": ["s3"]
+        "text": "Brian Miller is the Democratic nominee for Montana's 2nd Congressional District. A Helena attorney originally from Florida who has lived in Montana since the late 1990s, he handles civil cases for small businesses, consumers and individuals. He won the June 2 Democratic primary.",
+        "sources": [
+          "s3",
+          "s11",
+          "s12"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Is originally from Florida and has lived in Montana since the late 1990s.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Has practiced law in Helena since at least 2010 with the firm Morrison, Sherwood, Wilson and Deola, and runs a private practice handling civil cases for small businesses, consumers and other individuals against insurance companies, banks and others.",
+          "sources": [
+            "s11",
+            "s12"
+          ]
+        },
+        {
+          "text": "Has two children, whom he told the Glendive Ranger-Review are his greatest motivation for running.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Launched his campaign in late 2025 and won the June 2, 2026 Democratic primary, defeating Sam Lux and state Sen. Jonathan Windy Boy, who had suspended his campaign.",
+          "sources": [
+            "s3",
+            "s11",
+            "s12"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [
         {
@@ -109,21 +210,27 @@
           "stance": "supports",
           "summary": "In a March 2026 questionnaire, said only Congress has the power to declare war and that he would put Congress back in charge of any use of military force against a foreign nation.",
           "quote": "If I’m elected to Congress, I will make sure that we put Congress back in charge of any use of military force against any foreign nation, no matter how slight.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Names restoring Medicaid funding and the ACA subsidies among his first priorities and calls for repealing and replacing the One Big Beautiful Bill's Medicaid cuts.",
           "quote": "Restore Medicaid funding and the ACA subsidies.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "housing_supply",
           "stance": "supports",
           "summary": "Says the regulatory process for building houses is too slow and expensive and should be streamlined.",
           "quote": "We need to streamline that process if we want to get serious about this issue.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -133,35 +240,258 @@
     {
       "id": "patrick-mccracken",
       "name": "Patrick McCracken",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced unopposed after the Libertarian primary was canceled.",
       "summary": {
-        "text": "Patrick McCracken is the Libertarian Party nominee for Montana's 2nd Congressional District.",
-        "sources": ["s1"]
+        "text": "Patrick McCracken is the Libertarian Party nominee for Montana's 2nd Congressional District. A financial advisor by background, he describes himself as a fourth-generation Montanan and is running on cost of living, health insurance and food prices.",
+        "sources": [
+          "s13",
+          "s14"
+        ]
       },
-      "background": [],
-      "priorities": [],
-      "positions": [],
+      "background": [
+        {
+          "text": "Says he is 48, has lived in Montana his whole life as a fourth-generation Montanan, graduated from Billings West High School and attended school in Bozeman.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Worked as a financial advisor for about 10 years, left the state for work for a period, and says he has spent roughly 20 years or more helping people with their financial planning, now in a work-from-home job.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Became the Libertarian nominee without a primary opponent after the June 2, 2026 Libertarian primary was canceled; he is from Columbia Falls and mentions his wife and kids in a Montana Public Radio interview.",
+          "sources": [
+            "s11",
+            "s13",
+            "s14"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he would write a bill to codify the Ratepayer Protection Pledge on data centers, co-sponsor the American Beef Labeling Act and champion SAFE Banking.",
+          "quote": "I will write the bill to codify the Ratepayer Protection Pledge. I will co-sponsor the American Beef Labeling Act. I will champion SAFE Banking from the committee Downing is sitting in.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Says price transparency is the first step in healthcare reform.",
+          "quote": "Price transparency is the first step on a long journey.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Says he would require hospitals and clinics to post cash prices and let every American open a health savings account.",
+          "quote": "Require hospitals and clinics to post real cash prices.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "In an October 2026 Montana Free Press questionnaire, says he would work to pass legislation removing everyone in the country illegally under existing law.",
+          "quote": "As your Representative, I will work with any member of Congress to pass legislation removing everyone here illegally under existing law.",
+          "sources": [
+            "s7"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "In a March 2026 Montana Free Press questionnaire, says the federal side of Medicaid expansion needs protecting; in October he proposed health savings accounts and catastrophic plans open to everyone.",
+          "quote": "Medicaid expansion is the single biggest thing keeping the lights on in rural Montana healthcare.",
+          "sources": [
+            "s6",
+            "s8"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Candidate Connection survey response, or other public statements found for Patrick McCracken in the time available."
+      "researchDepth": "basic",
+      "researchNotes": "Basic-tier research from the Montana Free Press March 2026 questionnaire and October 2026 immigration and healthcare features. His campaign website has only a sign-up page. No statements found on abortion, guns, taxes, or climate.",
+      "statements": [
+        {
+          "issue": "war_powers",
+          "quote": "Congress has always had the power to declare war and the power of the purse. They don't use either.",
+          "context": "In a March 2026 Montana Free Press questionnaire",
+          "sources": [
+            "s6"
+          ]
+        }
+      ]
     },
     {
       "id": "michael-eisenhauer",
       "name": "Michael Eisenhauer",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Michael Eisenhauer is an independent candidate for Montana's 2nd Congressional District.",
-        "sources": ["s1"]
+        "text": "Michael (Mike) Eisenhauer is an independent candidate for Montana's 2nd Congressional District. A cardiologist from Great Falls who spent about 25 years in the U.S. Army as a physician and health care administrator, he says he is running to represent voters in the political middle.",
+        "sources": [
+          "s15",
+          "s16"
+        ]
       },
-      "background": [],
-      "priorities": [],
-      "positions": [],
+      "background": [
+        {
+          "text": "Is 62 and grew up in Nebraska, according to KPAX.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Spent about 25 years in the U.S. Army as a physician and health care administrator, then moved to Wyoming.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Moved to Great Falls about 10 years ago and worked as a cardiologist with Benefis Health System; describes himself as semi-retired and working as a traveling physician serving smaller facilities.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Is running as an independent, which required gathering petition signatures from registered voters to qualify for the general election ballot, and is on the November 3 ballot.",
+          "sources": [
+            "s15",
+            "s16"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Says he will fight to defend and protect rural healthcare in Montana.",
+          "quote": "I will fight hard to defend and protect rural healthcare in Montana",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Supports restoring Medicaid and SNAP cuts with a bipartisan coalition.",
+          "quote": "Work with a bipartisan coalition to restore cuts in Medicaid and SNAP assistance, without delay",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Supports defined term limits for Members of Congress and the Senate.",
+          "quote": "I support clearly defined term limits for Members of Congress and the Senate",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "On his campaign website, describes himself as pro-choice and says the federal government should address differences in abortion access between states.",
+          "quote": "I am, and will remain firmly Pro-Choice.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "guns",
+          "stance": "mixed",
+          "summary": "On his campaign website, supports a 72-hour waiting period and closing the gun-show loophole, and also supports revising the National Firearms Act to exclude suppressors and short-barreled long guns from Form 1 and Form 4 submission.",
+          "quote": "Regulating a 72-hour wait-period between purchase and taking possession of a firearm, including gun shows",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "mixed",
+          "summary": "On his campaign website, says removing illegal immigrants convicted of serious crimes is reasonable, and that he is worried ICE is being overly aggressive; opposes deporting Dreamers.",
+          "quote": "It is entirely reasonable to remove illegal immigrants who have been convicted of serious crimes or violence against others.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "housing_supply",
+          "stance": "supports",
+          "summary": "On his campaign website, lists zoning changes allowing duplexes, triplexes and multi-family housing among his housing proposals.",
+          "quote": "Zoning changes that remove barriers to the construction of duplexes, triplexes or multi-family housing in residential areas",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "On his campaign website, says he will work to protect and increase federal funding for police and emergency services.",
+          "quote": "I will work to protect and increase federal funding for these vital services; I will make sure that Montana law enforcement and first responders always have the resources they need.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "tariffs",
+          "stance": "opposes",
+          "summary": "On his campaign website, says current tariffs have been excessive and hurt the economy by raising costs for consumers and businesses.",
+          "quote": "Tariffs will not make America rich again.",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "mixed",
+          "summary": "On his campaign website, says he does not believe a single-payer system will be workable, and says he would work with a bipartisan coalition to restore Medicaid cuts.",
+          "quote": "Work with a bipartisan coalition to restore cuts in Medicaid and SNAP assistance, without delay",
+          "sources": [
+            "s9"
+          ],
+          "basis": "statements"
+        }
+      ],
       "record": [],
-      "researchDepth": "minimal",
-      "researchNotes": "No campaign website, Candidate Connection survey response, or other public statements found for Michael Eisenhauer in the time available."
+      "researchDepth": "basic",
+      "researchNotes": "Basic-tier research from his campaign website issues page and Montana Free Press October 2026 questionnaires. No statements found on rent regulation, school choice, minimum wage, or Israel aid.",
+      "statements": [
+        {
+          "issue": "tax_wealthy",
+          "quote": "It is not fair to cut or reduce taxes on multi-millionaires, billionaires and large multi-national corporations, while the middle-class and small businesses continue to shoulder our tax burden.",
+          "context": "On his campaign website",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "issue": "climate",
+          "quote": "I support an \"all of the above\" energy policy that supports a wide range of domestic energy sources",
+          "context": "On his campaign website",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "website": "https://eisenhauerforcongress.com/"
     }
   ],
   "sources": [
@@ -201,8 +531,89 @@
       "publisher": "Montana Free Press",
       "kind": "news",
       "date": "2026-03-01"
+    },
+    {
+      "id": "s6",
+      "url": "https://projects.montanafreepress.org/election-guide-2026/candidates/patrick-mccracken/",
+      "title": "Patrick McCracken: On the issues (2026 Montana Election Guide)",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-03-01"
+    },
+    {
+      "id": "s7",
+      "url": "https://montanafreepress.org/2026/10/14/montana-candidates-immigration-2026/",
+      "title": "Montana candidates on the issues: immigration",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "s8",
+      "url": "https://montanafreepress.org/2026/10/07/montana-candidates-healthcare-policy/",
+      "title": "How Montana's candidates for U.S. House and Senate plan to tackle healthcare",
+      "publisher": "Montana Free Press",
+      "kind": "news",
+      "date": "2026-10-07"
+    },
+    {
+      "id": "s9",
+      "url": "https://eisenhauerforcongress.com/issues/",
+      "title": "Core Issues: Independent Solutions for Montana",
+      "publisher": "Eisenhauer for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://downing.house.gov/about",
+      "title": "About Troy",
+      "publisher": "Office of Rep. Troy Downing",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.kpax.com/news/montana-politics/primary-2026-two-democrats-running-for-eastern-u-s-house-seat-say-either-one-is-a-good-choice",
+      "title": "Primary 2026: Two Democrats running for Eastern U.S. House seat say either one is a good choice",
+      "publisher": "KPAX (Montana Television Network)",
+      "kind": "news"
+    },
+    {
+      "id": "s12",
+      "url": "https://www.rangerreview.com/news/helena-attorney-brian-miller-launches-2026-congressional-bid/article_895fcb82-9d36-4474-8007-fb06c71defdd.html",
+      "title": "Helena attorney Brian Miller launches 2026 congressional bid",
+      "publisher": "Glendive Ranger-Review",
+      "kind": "news"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.mtpr.org/montana-news/2026-04-17/patrick-mccracken-interview",
+      "title": "Q&A: Patrick McCracken, Libertarian eastern district U.S. House candidate",
+      "publisher": "Montana Public Radio",
+      "kind": "news",
+      "date": "2026-04-17"
+    },
+    {
+      "id": "s14",
+      "url": "https://ballotpedia.org/Patrick_McCracken",
+      "title": "Patrick McCracken",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s15",
+      "url": "https://www.kpax.com/news/montana-politics/first-but-possibly-not-last-independent-candidate-enters-2026-montana-elections",
+      "title": "First, but possibly not last, independent candidate enters 2026 Montana elections",
+      "publisher": "KPAX (Montana Television Network)",
+      "kind": "news"
+    },
+    {
+      "id": "s16",
+      "url": "https://ballotpedia.org/Michael_Eisenhauer",
+      "title": "Michael Eisenhauer",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Basic-tier research. Downing's positions and record are drawn from his official House website; his FEC campaign-finance totals and key floor votes are added separately by script."
+  "researchNotes": "Basic-tier research. Downing's positions and record are drawn from his official House website; his FEC campaign-finance totals and key floor votes are added separately by script. Biographies for the Democratic, Libertarian and independent candidates rely on news interviews and profiles because no campaign biography pages were loaded; details such as education are not available for several of them."
 }

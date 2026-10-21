@@ -439,6 +439,7 @@ export function racesForDistricts(d: {
       case "governor":
       case "attorney-general":
       case "comptroller":
+      case "secretary-of-state":
         return true;
       case "us-house":
         return cd != null && r.id === `us-house-${st}-${cd}`;

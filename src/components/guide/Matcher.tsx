@@ -89,7 +89,7 @@ export function Matcher({ races, placeLabel, initialStand }: { races: GuideRace[
     syncUrl("");
   }
 
-  if (!candidateRaces.length) return <p className="mt-6 border border-card p-5 text-sm text-ink-60">We don&rsquo;t have researched candidate races for {placeLabel} yet. <Link href="/issues" className="text-accent underline">Explore our recorded votes</Link>.</p>;
+  if (!candidateRaces.length) return <p className="mt-6 border border-card p-5 text-sm text-ink-60">We don&rsquo;t have researched candidate races for {placeLabel} yet. <Link href="/votes" className="text-accent underline">Explore our recorded votes</Link>.</p>;
 
   return <div className="mt-8">
     {answered && !seen && <a href="#comparison" className="fixed inset-x-0 bottom-0 z-20 bg-ink px-4 py-3.5 text-center text-sm font-bold text-paper sm:hidden">See the comparison ↓ ({stand.length} answered)</a>}

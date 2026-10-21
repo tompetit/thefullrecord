@@ -26,20 +26,51 @@
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
-        "text": "Emily Randall is the Democratic incumbent for Washington's 6th Congressional District, a former Washington state senator and nonprofit development professional first elected to Congress in 2024.",
+        "text": "Emily Randall is the Democratic incumbent for Washington's 6th District, first elected in 2024 to succeed Derek Kilmer. A Port Orchard native and Wellesley College graduate, she worked for nonprofit and health-care organizations before serving in the Washington State Senate from 2019 to 2024, where she was Deputy Majority Leader. Her campaign lists climate change, costs, democracy, health care, education, and abortion access among her core issues.",
         "sources": [
-          "s2"
+          "s2",
+          "s11",
+          "s12",
+          "s3"
         ]
       },
       "background": [
         {
-          "text": "Born in Port Orchard, Washington; earned bachelor's degrees in Spanish and women's studies from Wellesley College in 2008.",
+          "text": "Born in Port Orchard, Washington, to a union household; according to her official biography, her father worked at Puget Sound Naval Shipyard and her mother was an educator at South Kitsap High School. She was the first in her family to graduate college.",
+          "sources": [
+            "s2",
+            "s11",
+            "s12"
+          ]
+        },
+        {
+          "text": "Earned bachelor's degrees in Spanish and women's studies from Wellesley College in 2008; her campaign says she paid for school by working in retail and waiting tables.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "Worked as a development professional with Wellesley College, the San Francisco AIDS Foundation, Planned Parenthood Federation of America (beginning in 2016, per her campaign), and Legal Voice.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "Won election to the Washington State Senate from the 26th Legislative District in 2018, defeating Marty McClendon, and was reelected in 2022 over Jesse L. Young. She served from 2019 to 2024.",
           "sources": [
             "s2"
           ]
         },
         {
-          "text": "Career experience includes working as a development professional with Wellesley College, the San Francisco AIDS Foundation, Planned Parenthood Federation of America, and Legal Voice.",
+          "text": "In the state senate she served as Deputy Majority Leader and on the Higher Education and Workforce Development, Health and Long-Term Care, and Ways and Means committees, according to her campaign website. Her campaign cites legislation on post-partum Medicaid coverage, pay transparency, subminimum wage for people with disabilities, and abortion providers.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Elected to the U.S. House in November 2024, defeating Drew MacEwen, to succeed Rep. Derek Kilmer; took office in 2025.",
           "sources": [
             "s2"
           ]
@@ -110,9 +141,11 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Teresa Fox is the Republican nominee for Washington's 6th Congressional District, an emergency manager, safety professional, and fire inspector who ran on reducing government spending and regulation.",
+        "text": "Teresa Fox is the Republican challenger in Washington's 6th District, who lives in Bremerton and has worked as an emergency manager, safety professional, and fire inspector. She advanced from the August 4 primary with about 25% of the vote and describes her platform as lower taxes, less regulation, and government accountability.",
         "sources": [
-          "s4"
+          "s4",
+          "s13",
+          "s5"
         ]
       },
       "background": [
@@ -120,6 +153,12 @@
           "text": "Professional experience includes working as an emergency manager, safety professional, and fire inspector.",
           "sources": [
             "s4"
+          ]
+        },
+        {
+          "text": "Is listed as a Republican from Bremerton; she advanced from the August 4, 2026 primary with 25.05% of the vote (32,006 votes) in the count reported August 6.",
+          "sources": [
+            "s13"
           ]
         }
       ],
@@ -250,8 +289,29 @@
       "title": "Mission & Priorities",
       "publisher": "Teresa Fox for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s11",
+      "url": "https://randall.house.gov/about",
+      "title": "About - Emily Randall",
+      "publisher": "Office of Rep. Emily Randall (house.gov)",
+      "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://electemilyrandall.com/about",
+      "title": "About Emily",
+      "publisher": "Emily Randall for Congress (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.peninsuladailynews.com/2026/08/06/randall-fox-in-contest-for-congressional-seat/",
+      "title": "Randall, Fox in contest for Congressional seat",
+      "publisher": "Peninsula Daily News",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate has completed a 2026 Ballotpedia Candidate Connection survey. Randall's campaign website lists issue titles but its position detail pages are JavaScript-rendered and could not be fetched; her positions section is left minimal rather than inferred. Fox's issue statements are drawn from her campaign website as republished by Ballotpedia. Randall's federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Neither candidate has completed a 2026 Ballotpedia Candidate Connection survey. Randall's campaign website lists issue titles but its position detail pages are JavaScript-rendered and could not be fetched; her positions section is left minimal rather than inferred. Fox's issue statements are drawn from her campaign website as republished by Ballotpedia. Randall's federal key votes and FEC totals are added separately by script. Fox's campaign website is JavaScript-rendered and could not be read directly, so her biography is limited to what Ballotpedia and local news report."
 }

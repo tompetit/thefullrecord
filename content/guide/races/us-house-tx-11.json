@@ -28,16 +28,19 @@
       "currentRole": "U.S. Representative, Texas's 11th District (since 2021)",
       "ballotNote": "Won the March 3, 2026 Republican primary unopposed",
       "summary": {
-        "text": "August Pfluger is the Republican incumbent seeking re-election in Texas's 11th District. A U.S. Air Force Academy graduate and Air Force veteran, he chairs the Homeland Security Committee's Counterterrorism and Intelligence Subcommittee and sits on the Energy and Commerce Committee.",
+        "text": "August Pfluger is the Republican incumbent seeking re-election in Texas's 11th District. A U.S. Air Force Academy graduate and former fighter pilot who retired from the Air Force as a colonel in 2026, he has represented the district since January 2021. According to his official biography, he chairs the Republican Study Committee and the Homeland Security Committee's Counterterrorism and Intelligence Subcommittee and also sits on the Energy and Commerce Committee.",
         "sources": [
-          "s3"
+          "s3",
+          "s7",
+          "s8"
         ]
       },
       "background": [
         {
-          "text": "Born in Harris County, Texas, and graduated from Central High School in San Angelo.",
+          "text": "Born in Harris County, Texas, and graduated from Central High School in San Angelo. His official biography describes him as a seventh-generation Texan who grew up in San Angelo, where he lives with his wife, Camille, and their three daughters.",
           "sources": [
-            "s3"
+            "s3",
+            "s7"
           ]
         },
         {
@@ -47,9 +50,42 @@
           ]
         },
         {
-          "text": "Served in the U.S. Air Force and Air Force Reserve and on the staff of the National Security Council before being elected to Congress in 2020.",
+          "text": "Served in the U.S. Air Force for 26 years as a fighter pilot and squadron commander, flying combat missions in the Middle East, according to his official biography; he retired as a colonel on February 1, 2026. Ballotpedia lists service in the Air Force Reserve.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
+        },
+        {
+          "text": "Served on the staff of the National Security Council before entering electoral politics.",
           "sources": [
             "s3"
+          ]
+        },
+        {
+          "text": "Was elected to Congress in 2020 to succeed Rep. Mike Conaway and took office on January 3, 2021. He is seeking re-election in 2026.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Serves on the House Energy and Commerce Committee (subcommittees on Energy, Environment, and Communications and Technology) and chairs the Homeland Security Committee's Subcommittee on Counterterrorism and Intelligence.",
+          "sources": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Chairs the Republican Study Committee, the House conservative caucus, and is founder and co-chair of the Congressional Free Enterprise Caucus.",
+          "sources": [
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Was elected in 2025 to chair the U.S. Air Force Academy Board of Visitors, having previously been appointed to it by the Speaker of the House. His office also says he received the Congressional Management Foundation's 2025 Democracy Award for constituent correspondence and outreach.",
+          "sources": [
+            "s7"
           ]
         }
       ],
@@ -116,12 +152,47 @@
       "incumbent": false,
       "ballotNote": "Won the March 3, 2026 Democratic primary",
       "summary": {
-        "text": "Claire Reynolds is the Democratic nominee challenging incumbent August Pfluger in Texas's 11th District, campaigning on affordability, healthcare, immigration reform and reproductive rights in a district she says was redrawn to entrench Republican control.",
+        "text": "Claire Reynolds is the Democratic nominee challenging incumbent August Pfluger in Texas's 11th District. A lawyer who was born in Indiana and moved to Texas in 2007, she has not held elected office. She is campaigning on affordability, health care, immigration reform and reproductive rights in a district she says was redrawn to entrench Republican control.",
         "sources": [
-          "s5"
+          "s5",
+          "s9",
+          "s10"
         ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "According to her campaign website, she was born in Indiana and grew up in central Illinois.",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "text": "Earned a journalism degree from Northwestern University's Medill School of Journalism and a law degree from the University of San Diego School of Law, and passed the California bar, according to her campaign website.",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "text": "Moved to Texas in 2007. She lives in Austin, which she says was placed in the 11th District by redistricting, and she describes raising her family in Texas.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "In a Ballotpedia survey response, she describes working in the State Bar of Texas's Office of the Chief Disciplinary Counsel and, in the year before the survey, volunteering as a pro bono attorney with Lawyers for Good Government's Fund Protection Clinic, advising organizations affected by federal grant cuts.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Has not previously held elected office; won the Democratic nomination in the March 3, 2026 primary.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "priorities": [
         {
           "text": "Affordability: says wages have not kept pace with inflation and that Texas is the 11th-poorest state in the country.",
@@ -130,7 +201,7 @@
           ]
         },
         {
-          "text": "Healthcare: supports moving toward a single-payer health insurance system, citing Medicare and the VA as existing models.",
+          "text": "Healthcare: says a single-payer health insurance system may seem out of reach, citing Medicare and the VA as existing examples, and criticizes tying health insurance to jobs.",
           "sources": [
             "s5"
           ]
@@ -149,12 +220,33 @@
           "summary": "Says abortion in Texas should be 'safe, legal, and rare' and criticizes the rollback of Roe v. Wade protections.",
           "sources": [
             "s5"
-          ]
+          ],
+          "quote": "Abortion in Texas should be safe, legal, and rare.",
+          "basis": "statements"
         }
       ],
       "record": [],
       "website": "https://www.clairereynoldsforcongress.org",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "statements": [
+        {
+          "issue": "healthcare_public",
+          "quote": "A single-payer health insurance system may seem out of reach, but Medicare and the VA do just that for millions and millions of Texans.",
+          "context": "On her campaign website",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "quote": "We can have a strong border while reforming our draconian and unwieldy immigration system.",
+          "context": "On her campaign website",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "researchNotes": "Drawn from her campaign website issues section. No stance on guns, taxes, tariffs or other listed issues found there."
     }
   ],
   "sources": [
@@ -205,8 +297,40 @@
       "publisher": "Office of Rep. August Pfluger",
       "kind": "official",
       "date": "2026-10-03"
+    },
+    {
+      "id": "s7",
+      "kind": "official",
+      "url": "https://pfluger.house.gov/about/about-august",
+      "title": "About August",
+      "date": "2026-10-21",
+      "publisher": "Office of Rep. August Pfluger"
+    },
+    {
+      "id": "s8",
+      "kind": "official",
+      "url": "https://pfluger.house.gov/about/committees-and-caucuses",
+      "title": "Committees and Caucuses",
+      "date": "2026-10-21",
+      "publisher": "Office of Rep. August Pfluger"
+    },
+    {
+      "id": "s9",
+      "kind": "candidate",
+      "url": "https://www.clairereynoldsforcongress.org/about",
+      "title": "Meet Claire - Claire Reynolds for Congress",
+      "date": "2026-10-21",
+      "publisher": "Claire Reynolds campaign website"
+    },
+    {
+      "id": "s10",
+      "kind": "reference",
+      "url": "https://ballotpedia.org/Claire_Reynolds",
+      "title": "Claire Reynolds",
+      "date": "2026-10-21",
+      "publisher": "Ballotpedia"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Pfluger's own house.gov issues pages render via JavaScript and did not return readable text; his priorities and issue positions are limited here to what could be confirmed from his official committee record and press releases. Detailed floor votes and FEC totals for Pfluger are added separately."
+  "researchNotes": "Pfluger's own house.gov issues pages render via JavaScript and did not return readable text; his priorities and issue positions are limited here to what could be confirmed from his official committee record and press releases. Detailed floor votes and FEC totals for Pfluger are added separately. Reynolds's biography draws on her campaign website and Ballotpedia profile; no independent news profile was reviewed, and the dates of her legal employment are not stated in those sources."
 }

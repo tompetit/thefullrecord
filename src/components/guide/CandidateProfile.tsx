@@ -210,6 +210,24 @@ export function CandidateProfile({
         </Block>
       )}
 
+      {(c.statements?.length ?? 0) > 0 && (
+        <Block title="In their own words">
+          <ul className="flex flex-col gap-3">
+            {c.statements!.map((st, i) => (
+              <li key={`${st.issue}-${i}`} className="font-sans text-[13px] leading-[1.5] text-ink-80">
+                <span className="font-semibold text-ink">{ISSUES[st.issue]}</span>
+                <blockquote className="mt-1 font-serif text-[14px] italic leading-[1.5] text-ink-60">
+                  “{st.quote}”
+                  <Cites ids={st.sources} race={race} />
+                </blockquote>
+                {st.context && <p className="mt-0.5 text-[12px] text-ink-45">{st.context}</p>}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-2 font-sans text-[12px] text-ink-45">Quoted without inferring a stance on the issue statement.</p>
+        </Block>
+      )}
+
       {c.positions.length > 0 && (
         <Block title="Issue evidence and documented positions">
           <ul className="flex flex-col gap-3">

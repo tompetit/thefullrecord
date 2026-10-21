@@ -171,9 +171,12 @@ function parseSenate(t) {
   const question = /Question:\s*([\s\S]*?)\n\s*\n/.exec(t)?.[1]?.replace(/\s+/g, " ").trim();
   const d = /DATE:\s*([A-Z][a-z]+)\s+(\d+),\s*(\d{4})/.exec(t); // the PDF date wins: the list page has typos (#86 reads 4-8-24)
   const mo = d && MONTHS.findIndex((x) => d[1].startsWith(x)) + 1;
-  return { yes: +n("YEA"), no: +n("NAY"), verdict, question, date: mo ? `${d[3]}-${String(mo).padStart(2, "0")}-${d[2].padStart(2, "0")}` : null, votes };
+  const bill = /STATE SENATE\s+((?:LD|SP|SC|HP)) ?(\d+)/.exec(t); // the sheet's own header: the list page mislabels some rows (typos, swapped pairs)
+  return { bill: bill && `${bill[1]} ${bill[2]}`, yes: +n("YEA"), no: +n("NAY"), verdict, question, date: mo ? `${d[3]}-${String(mo).padStart(2, "0")}-${d[2].padStart(2, "0")}` : null, votes };
 }
 
+// Titles for sheet bills that no consistent list row carries.
+const SENATE_TITLE_FIX = { 856: "EDU - nomination of Paulette Bonneau of Biddeford, for reappointment to the State Board of Education" };
 const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const dropped = {}; const drop = (why, id) => { dropped[why] = (dropped[why] ?? 0) + 1; (droppedIds[why] ??= []).push(id); };
@@ -212,10 +215,28 @@ for (const [rc, href] of housePdfs) {
   const bill = ld?.[1] ?? row?.paper ?? "House paper";
   emit("lower", `me-h${rc}`, bill, row?.title || ld?.[2] || head?.[2] || bill, r.motion, row?.motion || r.motion, date, `${SITE}${href}`, r);
 }
+// The list page's bill/title text is hand-typed and wrong on a handful of rows; the PDF header (LD + paper) agrees with the
+// PDF file name, so it wins. A row whose PDF is another row's file (#238 links #239's) has no sheet of its own and is dropped.
+const senateParsed = new Map();
 for (const [rc, s] of senateRows) {
   const t = read(`s${rc}`); const r = t && parseSenate(t);
   if (!r) { drop("senate-unparsed", rc); continue; }
-  emit("upper", `me-s${rc}`, s.bill, s.title, s.motion, [s.motion, r.question].filter(Boolean).join(" — "), r.date ?? s.date, new URL(s.href, SITE).href, r);
+  const twin = [...senateRows].find(([o, x]) => o !== rc && x.href !== s.href && read(`s${o}`) === t);
+  if (twin && r.bill !== s.bill) { drop("senate-sheet-is-another-roll-call", rc); continue; }
+  senateParsed.set(rc, r);
+}
+// bill -> title: Senate list rows whose list text agrees with their sheet, then the House table (same LD/HP wording).
+const titleOf = new Map([...houseRows.values()].map((h) => [h.paper, h.title]));
+for (const [rc, s] of senateRows) if (senateParsed.get(rc)?.bill === s.bill || !senateParsed.has(rc)) titleOf.set(s.bill, s.title);
+for (const [rc, s] of senateRows) if (senateParsed.get(rc)?.bill !== s.bill && senateParsed.has(rc) && !titleOf.has(s.bill)) titleOf.set(s.bill, s.title); // list pairs a bill with its own title even when the link is wrong
+for (const [rc, r] of senateParsed) {
+  const s = senateRows.get(rc);
+  let { bill, title } = s;
+  if (r.bill && r.bill !== bill) {
+    bill = r.bill; title = titleOf.get(bill) ?? SENATE_TITLE_FIX[rc] ?? (console.warn(`senate #${rc}: list says ${s.bill}, sheet says ${bill}; no title found`), s.title);
+    console.log(`senate #${rc}: ${s.bill} -> ${bill}`);
+  }
+  emit("upper", `me-s${rc}`, bill, title, s.motion, [s.motion, r.question].filter(Boolean).join(" — "), r.date ?? s.date, new URL(s.href, SITE).href, r);
 }
 
 for (const chamber of ["lower", "upper"]) {

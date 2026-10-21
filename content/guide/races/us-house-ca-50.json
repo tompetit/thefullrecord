@@ -33,9 +33,10 @@
       "ballotNote": "Won the June 2, 2026 top-two primary with 48.1% of the vote.",
       "currentRole": "U.S. Representative, CA-50 (since 2013)",
       "summary": {
-        "text": "Scott Peters is the incumbent Democratic U.S. Representative, first elected to Congress in 2012. He previously served on the San Diego City Council from 2000 to 2008, including as council president from 2006 to 2008, and worked as an economist for the Environmental Protection Agency and as an attorney.",
+        "text": "Scott Peters is the incumbent Democratic U.S. Representative, first elected to Congress in 2012. Before Congress he was an environmental lawyer, a San Diego City Council member and council president, and chair of the San Diego Unified Port District. He serves on the House Energy and Commerce and Budget Committees.",
         "sources": [
-          "s2"
+          "s2",
+          "s12"
         ]
       },
       "background": [
@@ -52,15 +53,42 @@
           ]
         },
         {
-          "text": "Worked as an economist for the U.S. Environmental Protection Agency and as an attorney before entering politics.",
+          "text": "Worked as an economist for the U.S. Environmental Protection Agency before law school, according to his official biography, and then practiced as an environmental lawyer for 15 years.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "Served on the San Diego City Council from 2000 to 2008, including as council president from 2006 to 2008; his official biography describes him as the city's first City Council President.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "His official biography says he helped lead the redevelopment of downtown San Diego and pursued a Council/Mayor form of government with an independent budget review function, and that he later chaired the San Diego Unified Port District.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Defeated Republican incumbent Brian Bilbray in the November 2012 general election for California's 52nd District, 51.2% to 48.8%, and was re-elected in 2018 and 2020.",
           "sources": [
             "s2"
           ]
         },
         {
-          "text": "Served on the San Diego City Council from 2000 to 2008, serving as council president from 2006 to 2008.",
+          "text": "In the 119th Congress he serves on the Energy and Commerce Committee and the Budget Committee; he co-chairs the Bipartisan Fiscal Forum and the House Special Operations Forces Caucus and chairs the New Democrat Coalition's Climate Change and Clean Energy Task Force.",
           "sources": [
-            "s2"
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "According to his official biography, he and his wife live in La Jolla, where they raised a son and a daughter.",
+          "sources": [
+            "s12"
           ]
         }
       ],
@@ -170,17 +198,33 @@
       "incumbent": false,
       "ballotNote": "Advanced from the June 2, 2026 top-two primary with 39.8% of the vote.",
       "summary": {
-        "text": "Steve Cohen is the Republican candidate for CA-50 who advanced from the June 2026 primary. Ballotpedia records no completed Candidate Connection survey or staff-compiled profile for him, and FEC campaign finance data show no reported receipts or disbursements, with Ballotpedia noting the data is not available.",
+        "text": "Steve Cohen is the Republican candidate for CA-50 who advanced from the June 2026 primary with 39.8% of the vote, behind Scott Peters (48.1%). KPBS describes him as a former news director. Ballotpedia records no completed Candidate Connection survey or biography for him.",
         "sources": [
-          "s1"
+          "s14",
+          "s13"
         ]
       },
-      "background": [],
-      "priorities": [],
+      "background": [
+        {
+          "text": "KPBS describes him as a former news director and as the Republican challenger to Rep. Scott Peters in the 50th District.",
+          "sources": [
+            "s13"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Lists protecting Social Security and senior rights, healthcare that works for patients, fiscal accountability, border security, a balanced federal budget and affordability among his priorities.",
+          "quote": "Nobody is more energetic than me about protecting social security, senior rights, healthcare that works for patients, fiscal accountability, border security, a balanced federal budget and a thriving economy that will make San Diego affordable for working families",
+          "sources": [
+            "s11"
+          ]
+        }
+      ],
       "positions": [],
       "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, news coverage, or Ballotpedia Candidate Connection survey responses could be found for Steve Cohen in this environment. FEC records show no reported receipts or disbursements, and Ballotpedia notes the data is not available."
+      "researchNotes": "No campaign website, news coverage, or Ballotpedia Candidate Connection survey responses could be found for Steve Cohen in this environment. FEC records show no reported receipts or disbursements, and Ballotpedia notes the data is not available. A May 2026 Times of San Diego profile quotes his stated priorities, but no issue-by-issue statements or campaign website were found."
     }
   ],
   "sources": [
@@ -261,8 +305,39 @@
       "title": "Rep. Peters, Hospital, Community Health Center Staff Call on Senate to Extend ACA Premium Tax Credits",
       "publisher": "Rep. Scott Peters (official site)",
       "kind": "official"
+    },
+    {
+      "id": "s11",
+      "title": "MarketInk: After 50 years of covering politicians, ex-KUSI news director Steve Cohen is running for Congress",
+      "publisher": "Times of San Diego",
+      "url": "https://timesofsandiego.com/politics/2026/05/17/marketink-after-50-years-of-covering-politicians-ex-kusi-news-director-steve-cohen-is-running-for-congress/",
+      "kind": "news"
+    },
+    {
+      "id": "s12",
+      "url": "https://scottpeters.house.gov/about",
+      "title": "About | Congressman Scott Peters",
+      "publisher": "Office of Rep. Scott Peters",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.kpbs.org/news/2026/09/03/what-are-the-important-issues-in-district-50",
+      "title": "What are the important issues in District 50?",
+      "publisher": "KPBS",
+      "kind": "news",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s14",
+      "url": "https://ballotpedia.org/Steve_Cohen_%28California%29",
+      "title": "Steve Cohen (California)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress."
+  "researchNotes": "Federal key floor votes and FEC finance totals are added separately by script for sitting members of Congress. Biography: no campaign website, education or career details were found for Steve Cohen beyond KPBS's one-line description; Ballotpedia has no biography for him."
 }

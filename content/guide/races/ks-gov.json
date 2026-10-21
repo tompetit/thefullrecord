@@ -1,0 +1,367 @@
+{
+  "id": "ks-gov",
+  "state": "KS",
+  "officeType": "governor",
+  "office": "Governor",
+  "title": "Governor of Kansas",
+  "area": "Statewide — all of Kansas",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "Open seat: Democratic Gov. Laura Kelly is term-limited and cannot seek a third consecutive term.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Republican primary (August 4): Senate President Ty Masterson won a seven-candidate field with Trump's endorsement, ahead of businessman Phil Sarnecki, Insurance Commissioner Vicki Schmidt and Secretary of State Scott Schwab in early returns. Former Gov. Jeff Colyer left the race before the primary.",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "text": "Democratic primary (August 4): state Sen. Cindy Holscher won with roughly 48% in early returns, ahead of state Sen. Ethan Corson (39%), who had Gov. Kelly's endorsement, and Overland Park Mayor Curt Skoog (13%).",
+      "sources": [
+        "s2"
+      ]
+    },
+    {
+      "text": "Candidates run as tickets; each nominee's running mate is a sitting legislator. Two tickets are on the ballot; Politics1 (updated October 2) and The Green Papers list only the Democratic and Republican tickets plus one independent write-in candidate for governor, Sharilyn Ray. Neither lists a Libertarian candidate for governor.",
+      "sources": [
+        "s1",
+        "s3",
+        "s12",
+        "s13"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "cindy-holscher",
+      "name": "Cindy Holscher",
+      "parties": [
+        "D"
+      ],
+      "incumbent": false,
+      "ballotNote": "Running with Lt. Gov. candidate KC Ohaebosim, a state representative. Won the Democratic primary over Ethan Corson and Curt Skoog.",
+      "currentRole": "Kansas State Senator, District 8 (since 2021)",
+      "website": "https://www.cindyforkansas.com",
+      "summary": {
+        "text": "Cindy Holscher is a Democratic state senator from Overland Park, first elected to the Senate in 2020 after serving in the Kansas House. Her campaign centers on school funding, health care access (she cites her votes to expand Medicaid), cutting property taxes by lowering assessment rates, a pause on new data centers, and legalizing cannabis.",
+        "sources": [
+          "s4",
+          "s3",
+          "s5"
+        ]
+      },
+      "background": [
+        {
+          "text": "Raised on a farm; first-generation college graduate with degrees in journalism and political science from the University of Missouri (1992); worked for Sprint and as a substitute teacher.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Served in the Kansas House for four years, co-founding the Women's Bipartisan Caucus, before winning election to the Kansas Senate in 2020.",
+          "sources": [
+            "s5",
+            "s3"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Fully funding public schools, including special education as specified in Kansas law.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Cutting property taxes, including a proposal to lower residential assessment rates by 2.5% through a constitutional amendment.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Healthcare and Medicaid: says she has voted repeatedly to expand Medicaid and protect rural hospitals; legalizing recreational and medicinal cannabis.",
+          "sources": [
+            "s4",
+            "s3"
+          ]
+        },
+        {
+          "text": "Stopping new data centers until guardrails are in place.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Says she has voted over and over to expand Medicaid and protect rural hospitals; her campaign lists making healthcare accessible and affordable among its top priorities.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "issue": "school_choice",
+          "stance": "opposes",
+          "summary": "Says she has 'consistently blocked extremist efforts to cut public school funding and expand private school vouchers.'",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted no on the Senate's override of the governor's veto of SB 361, which has Kansas elect to participate in the federal tax credit for contributions to scholarship-granting organizations; the override passed 29–10.",
+          "sources": [
+            "s6"
+          ],
+          "date": "2026-04-09",
+          "kind": "vote"
+        },
+        {
+          "text": "Voted no on the override of the governor's veto of HB 2437, the 'Save Kansas Act' on voter registration record verification and websites that transmit registration applications; the override passed 28–11.",
+          "sources": [
+            "s7"
+          ],
+          "date": "2026-04-09",
+          "kind": "vote"
+        },
+        {
+          "text": "Voted no on SCR 1616, a proposed constitutional amendment limiting property-tax assessed-value increases for real property in any subclass, which passed the Senate 30–10.",
+          "sources": [
+            "s8"
+          ],
+          "date": "2026-02-25",
+          "kind": "vote"
+        },
+        {
+          "text": "Voted no on SB 76, requiring school and college employees to use names and pronouns consistent with a student's biological sex and birth certificate, which passed the Senate 26–14.",
+          "sources": [
+            "s9"
+          ],
+          "date": "2025-02-19",
+          "kind": "vote"
+        }
+      ],
+      "researchDepth": "basic"
+    },
+    {
+      "id": "ty-masterson",
+      "name": "Ty Masterson",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "ballotNote": "Running with Lt. Gov. candidate Jeff Klemp, a state senator. Won the seven-candidate Republican primary with President Trump's endorsement.",
+      "currentRole": "President of the Kansas Senate (since 2021); State Senator, District 16 (since 2009)",
+      "website": "https://www.mastersonforgovernor.com",
+      "summary": {
+        "text": "Ty Masterson is president of the Kansas Senate, a Republican from Andover who has served in the Legislature since 2005, in the House until 2009 and the Senate since. In 2024 he negotiated, with House Speaker Dan Hawkins and Gov. Kelly, a plan to cut property and income taxes over five years and says his top issue is property-tax relief, including a cap on assessed-value growth that would require a constitutional amendment.",
+        "sources": [
+          "s3",
+          "s10",
+          "s11"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born and raised in Butler County; contractor and owner of a homebuilding business before entering politics; left Kansas State University without finishing, and filed for personal bankruptcy in 2010.",
+          "sources": [
+            "s3",
+            "s11"
+          ]
+        },
+        {
+          "text": "Served in the Kansas House from 2005 to 2009 and in the Kansas Senate since 2009; elected Senate president in 2021.",
+          "sources": [
+            "s3",
+            "s10"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Property-tax relief, including a cap on annual assessed-valuation growth of 3% or less and his 'Homeowners Bill of Rights.'",
+          "sources": [
+            "s3",
+            "s11"
+          ]
+        },
+        {
+          "text": "Lower taxes generally; his campaign says he led the fight for $2 billion in tax cuts.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Safe communities and 'educational freedom,' which he cited in his primary victory speech.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "positions": [
+        {
+          "issue": "school_choice",
+          "stance": "supports",
+          "summary": "Voted to override the governor's veto of SB 361, the bill electing into the federal tax credit for contributions to scholarship-granting organizations (April 9, 2026).",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "issue": "transgender_sports",
+          "stance": "supports",
+          "summary": "Said in his campaign announcement that he advanced bills blocking transgender individuals from sports teams designated for girls or women.",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted yes on the Senate's override of the governor's veto of SB 361, which has Kansas elect to participate in the federal tax credit for contributions to scholarship-granting organizations; the override passed 29–10.",
+          "sources": [
+            "s6"
+          ],
+          "date": "2026-04-09",
+          "kind": "vote"
+        },
+        {
+          "text": "Voted yes on the override of the governor's veto of HB 2437, the 'Save Kansas Act' on voter registration record verification and websites that transmit registration applications; the override passed 28–11.",
+          "sources": [
+            "s7"
+          ],
+          "date": "2026-04-09",
+          "kind": "vote"
+        },
+        {
+          "text": "Voted yes on SCR 1616, a proposed constitutional amendment limiting property-tax assessed-value increases for real property in any subclass, which passed the Senate 30–10.",
+          "sources": [
+            "s8"
+          ],
+          "date": "2026-02-25",
+          "kind": "vote"
+        },
+        {
+          "text": "Voted yes on SB 76, requiring school and college employees to use names and pronouns consistent with a student's biological sex and birth certificate, which passed the Senate 26–14.",
+          "sources": [
+            "s9"
+          ],
+          "date": "2025-02-19",
+          "kind": "vote"
+        }
+      ],
+      "researchDepth": "basic"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/2026_Kansas_gubernatorial_election",
+      "title": "2026 Kansas gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s2",
+      "url": "https://lawrencekstimes.com/2026/08/04/kr-masterson-holscher-gov/",
+      "title": "Masterson scores win in GOP primary for Kansas governor; Holscher prevails in Democratic race",
+      "publisher": "Kansas Reflector via Lawrence Times",
+      "kind": "news",
+      "date": "2026-08-04"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.hppr.org/2026-10-14/kansas-governor-race-2026-election-candidates-masterson-holscher",
+      "title": "Kansas governor election: What to know about the candidates running in November",
+      "publisher": "High Plains Public Radio / Kansas News Service",
+      "kind": "news",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.cindyforkansas.com/issues",
+      "title": "Cindy on the Issues",
+      "publisher": "Cindy Holscher for Governor",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.cindyforkansas.com/about",
+      "title": "About",
+      "publisher": "Cindy Holscher for Governor",
+      "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.kslegislature.gov/b2025_26/vote/?apn=b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_374_SB361.odt",
+      "title": "Senate roll call, SB 361 (veto override), April 9, 2026",
+      "publisher": "Kansas Legislature",
+      "kind": "official",
+      "date": "2026-04-09"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.kslegislature.gov/b2025_26/vote/?apn=b2025_26/year2/senate/legislative_days/day053_20260409/vote_records/vote_386_HB2437.odt",
+      "title": "Senate roll call, HB 2437 (veto override), April 9, 2026",
+      "publisher": "Kansas Legislature",
+      "kind": "official",
+      "date": "2026-04-09"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.kslegislature.gov/b2025_26/vote/?apn=b2025_26/year2/senate/legislative_days/day030_20260225/vote_records/vote_112_SCR1616.odt",
+      "title": "Senate roll call, SCR 1616, February 25, 2026",
+      "publisher": "Kansas Legislature",
+      "kind": "official",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.kslegislature.gov/b2025_26/vote/?apn=b2025_26/year1/senate/legislative_days/day026_20250219/vote_records/vote_102_SB76.odt",
+      "title": "Senate roll call, SB 76, February 19, 2025",
+      "publisher": "Kansas Legislature",
+      "kind": "official",
+      "date": "2025-02-19"
+    },
+    {
+      "id": "s10",
+      "url": "https://www.ksal.com/?p=140492",
+      "title": "Kansas Senate President Ty Masterson Launches Campaign for Governor",
+      "publisher": "Kansas Reflector via KSAL",
+      "kind": "news",
+      "date": "2025-07-20"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.mastersonforgovernor.com",
+      "title": "Take Back Kansas | Ty Masterson for Kansas Governor",
+      "publisher": "Ty Masterson for Governor",
+      "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://politics1.com/KS.htm",
+      "title": "Kansas Candidate & Election Guide",
+      "publisher": "Politics1",
+      "kind": "reference",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "s13",
+      "url": "https://www.thegreenpapers.com/G26/KS.phtml",
+      "title": "Kansas 2026 General Election",
+      "publisher": "The Green Papers",
+      "kind": "reference"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Ballotpedia was blocked in this environment, so the slate comes from news coverage (Kansas Reflector, Kansas News Service) and Wikipedia; the Kansas Secretary of State's certified list could not be loaded (the Secretary of State's upcoming-candidates page returned an empty challenge response), so the slate was checked against Politics1 (Oct 2) and The Green Papers, which show only the two major-party tickets plus independent write-in Sharilyn Ray, and no Libertarian for governor. Running mates are noted in ballotNote, as Kansas tickets run jointly. Legislative votes come from the repo's official Kansas Senate roll-call snapshot (2025 and 2026 sessions only); the April 2026 votes are veto overrides, and the roll-call pages link to the Legislature's records. Masterson's pronoun/name vote (SB 76) and SCR 1616 votes are listed for both candidates for symmetry. Holscher's abortion position was not documented in a loaded source and is omitted. Pass 3: Masterson's Medicaid and abortion positions were removed because they rested only on a reporter's characterization, not his own statement; The Green Papers (checked October 19) was added as a source for the slate."
+}

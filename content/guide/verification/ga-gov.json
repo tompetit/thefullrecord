@@ -1,0 +1,35 @@
+{
+  "raceId": "ga-gov",
+  "checkedAt": "2026-10-19",
+  "claimsChecked": 38,
+  "corrected": 1,
+  "removed": 0,
+  "unverifiable": 0,
+  "notes": [
+    "Rewrote Libertarian/Chase Oliver context item: WABE says Libertarians are not on the ballot (petition fell far short); WSB-TV list conflicts; SOS list not loadable, so slate is news-only. Oliver kept off slate.",
+    "Candidate bio, platform, position, and record claims checked against FOX 5 profiles and Wikipedia; no discrepancies found."
+  ],
+  "pass2": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 38,
+    "corrected": 2,
+    "removed": 0,
+    "notes": [
+      "currentRole: removed 'chairman' (FOX 5 profile does not say it); now 'Founder, Jackson Healthcare'.",
+      "Oliver context item: rewording, added LP Georgia March 2026 press release (s6) for the March filing; WSB list noted as conflicting. Official SOS/MVP/county sample ballot unreachable; Oliver stays off the slate on WABE (petition fell far short), Wikipedia (withdrawn) and The Ballot Brief (filed records list only Jackson/Bottoms).",
+      "All other FOX 5-sourced claims, primary/runoff facts (Wikipedia), $37,000 fine, 2009/2013 council, mayor 2018-22 re-verified; no discrepancies."
+    ]
+  },
+  "pass3": {
+    "checkedAt": "2026-10-19",
+    "claimsChecked": 38,
+    "corrected": 2,
+    "removed": 1,
+    "notes": [
+      "Removed The Ballot Brief (AI-assisted) from researchNotes as a basis for the slate; Oliver context now rests only on WABE, the Libertarian Party of Georgia release, WSB-TV and Wikipedia, and states the conflict plainly (WSB-TV names Oliver; WABE and Wikipedia say he is off the ballot; no official list available).",
+      "Noted the WABE (70,000+) vs party release (80,000+) signature-requirement difference; reordered sources.",
+      "Jackson priority: 'freezing home valuations' corrected to 'freezing increases in home valuations' per FOX 5.",
+      "All other bio, platform, position, primary and $37,000 ethics-fine claims re-checked against FOX 5 profiles and Wikipedia; no discrepancies."
+    ]
+  }
+}

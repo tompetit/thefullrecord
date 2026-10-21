@@ -1,0 +1,182 @@
+{
+  "id": "ma-sos",
+  "state": "MA",
+  "officeType": "secretary-of-state",
+  "office": "Secretary of State",
+  "title": "Secretary of State of Massachusetts",
+  "area": "Statewide — all of Massachusetts",
+  "inNYC": false,
+  "electionDate": "2026-11-03",
+  "context": [
+    {
+      "text": "The Green Papers lists incumbent Democrat William Galvin and Republican Anne Brensley as the two candidates in the November 3, 2026 general election for Secretary of the Commonwealth.",
+      "sources": [
+        "s1"
+      ]
+    },
+    {
+      "text": "Galvin was the only name on the September 1, 2026 Democratic primary ballot (770,996 votes). Brensley was not on the Republican primary ballot and won the nomination as a write-in candidate (21,330 write-in votes for her, to 12,051 for all other write-ins).",
+      "sources": [
+        "s5",
+        "s2"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "william-f-galvin",
+      "name": "William F. Galvin",
+      "parties": [
+        "D"
+      ],
+      "incumbent": true,
+      "ballotNote": "Advanced from the September 1, 2026 Democratic primary unopposed.",
+      "summary": {
+        "text": "William Galvin is the incumbent Democratic Secretary of the Commonwealth of Massachusetts, first elected in 1994 and seeking another term.",
+        "sources": [
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "First elected Secretary of the Commonwealth in 1994; re-elected in 1998, 2002, 2006, 2010, 2014, 2018 and 2022.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [
+        {
+          "text": "Declined a July 2025 U.S. Department of Justice request for Massachusetts voters' full names, dates of birth, addresses, driver's license numbers and partial Social Security numbers, according to the ACLU of Massachusetts.",
+          "kind": "action",
+          "sources": [
+            "s7"
+          ],
+          "date": "2025-07-01"
+        },
+        {
+          "text": "Was the named defendant in United States v. Galvin, in which the Justice Department sued for the voter data; a federal judge dismissed the suit on April 9, 2026, ruling the department had not stated the factual basis the statute requires. The ACLU's case page lists an appeal in the First Circuit.",
+          "kind": "legal",
+          "sources": [
+            "s6",
+            "s7"
+          ],
+          "date": "2026-04-09"
+        }
+      ],
+      "researchDepth": "basic",
+      "researchNotes": "No campaign website or candidate statement of priorities could be loaded; the Secretary's office site (sec.state.ma.us) is behind a bot-protection block, so no direct quotes or issue positions are included. Record items come from news and the ACLU of Massachusetts case page, not from the Secretary's own releases; the July 2025 date is the month of the DOJ request as reported. Earlier-career biography from Ballotpedia was removed (Ballotpedia returns a WAF page)."
+    },
+    {
+      "id": "anne-brensley",
+      "name": "Anne Brensley",
+      "parties": [
+        "R"
+      ],
+      "incumbent": false,
+      "ballotNote": "Won the Republican nomination as a write-in candidate on September 1, 2026.",
+      "summary": {
+        "text": "Anne Brensley is the Republican nominee for Secretary of the Commonwealth. An attorney and business executive, she is a former Wayland Select Board member and is campaigning on business growth, voter engagement and ballot integrity, including Portuguese-language ballots.",
+        "sources": [
+          "s3",
+          "s4"
+        ]
+      },
+      "background": [
+        {
+          "text": "Attorney and business executive; her campaign describes her as CEO of DevCo North America with more than 100 real estate transactions.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
+        },
+        {
+          "text": "Former member of the Wayland Select Board; adopted from Honduras as a child, and described by the Fall River Reporter as the first Latina nominated for statewide office by a major party in Massachusetts.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "priorities": [
+        {
+          "text": "Encouraging business growth, engaging directly with disenfranchised voters, and protecting the integrity of the ballot.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Making Portuguese-language ballots available where needed, beginning with cities such as Fall River, and creating a Foreign Language Commission to review the accuracy of translated election materials.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "positions": [],
+      "record": [],
+      "website": "https://www.annebrensley.com/",
+      "researchDepth": "basic",
+      "researchNotes": "No elected state record. No position on proof-of-citizenship requirements was found, so none is assigned."
+    }
+  ],
+  "measure": null,
+  "sources": [
+    {
+      "id": "s2",
+      "url": "https://electionstats.state.ma.us/elections/view/172904/",
+      "title": "2026 Secretary of the Commonwealth Republican Primary",
+      "publisher": "Massachusetts Elections Division (electionstats)",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.annebrensley.com/",
+      "title": "Anne Brensley for Secretary of State",
+      "publisher": "Anne Brensley for Secretary of State",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://fallriverreporter.com/joined-by-carlos-cesar-pastor-manny-silva-anne-brensley-announces-initiative-in-fall-river-to-introduce-portuguese-language-ballots-in-massachusetts/",
+      "title": "Joined by Carlos Cesar, Pastor Manny Silva, Anne Brensley announces initiative in Fall River to introduce Portuguese-language ballots in Massachusetts",
+      "publisher": "Fall River Reporter",
+      "kind": "news",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.wcax.com/2026/04/10/federal-judge-dismisses-another-doj-lawsuit-seeking-voter-data-this-time-massachusetts/",
+      "title": "A federal judge dismisses another DOJ lawsuit seeking voter data, this time in Massachusetts",
+      "publisher": "WCAX / Associated Press",
+      "kind": "news",
+      "date": "2026-04-10"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.aclum.org/cases/united-states-v-galvin/",
+      "title": "United States v. Galvin",
+      "publisher": "ACLU of Massachusetts",
+      "kind": "reference"
+    },
+    {
+      "id": "s1",
+      "url": "https://www.thegreenpapers.com/G26/MA",
+      "title": "The Green Papers: Massachusetts 2026 General Election",
+      "publisher": "The Green Papers",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s5",
+      "url": "https://electionstats.state.ma.us/elections/view/172903/",
+      "title": "2026 Secretary of the Commonwealth Democratic Primary",
+      "publisher": "Massachusetts Elections Division (electionstats)",
+      "kind": "official",
+      "date": "2026-10-19"
+    }
+  ],
+  "researchedAt": "2026-10-19",
+  "researchNotes": "Slate from The Green Papers and the Elections Division's official primary results page for the write-in Republican primary; the Secretary of the Commonwealth's certified general-election list and mass.gov pages were not loadable, and Ballotpedia returns a WAF page. No independent or minor-party candidate for this office was found. Campaign finance omitted per brief."
+}

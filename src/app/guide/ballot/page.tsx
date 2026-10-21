@@ -2,8 +2,11 @@ import Link from "@/components/Link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { stateName } from "@/components/guide/RaceView";
 import { IncumbentTag, Monogram, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
+import { SourceLink } from "@/components/SourceLink";
+import { VoteBadge } from "@/components/VoteBadge";
 import { LOOKUP_MESSAGES } from "@/lib/site";
-import { ballotForAddress } from "@/server/guide/ballot";
+import { personHrefForOfficial } from "@/server/people";
+import { ballotForAddress, type BallotStateSeat } from "@/server/guide/ballot";
 
 export const metadata = {
   title: "My 2026 ballot — The Full Record",
@@ -14,6 +17,9 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
   const query = await searchParams;
   const address = typeof query.address === "string" ? query.address.trim().slice(0, 250) : "";
   const result = address ? await ballotForAddress(address) : null;
+  // Order: federal and statewide races, then state-legislative slates, then ballot measures.
+  const pre = result?.ok ? result.races.filter((r) => r.officeType !== "ballot-measure") : [];
+  const post = result?.ok ? result.races.filter((r) => r.officeType === "ballot-measure") : [];
 
   return (
     <main className="flex-1">
@@ -25,7 +31,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
           <>
             <p className="mt-2 max-w-xl font-sans text-[14.5px] leading-[1.6] text-ink-60">
               Enter your address to see the races on your November 3 ballot.
-              Any U.S. address shows your House and Senate races; New York addresses also show state races and ballot proposals.
+              Any U.S. address shows your House and Senate races and, where we have the candidate list, your state legislative races. New York addresses also show researched state races and ballot proposals.
             </p>
             <BallotAddressForm />
           </>
@@ -57,59 +63,122 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                 Compare by issue →
               </Link>
             </div>
-            {result.races.length === 0 && (
+            {result.races.length + result.stateSeats.length === 0 && (
               <p className="mt-6 rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
                 We haven&rsquo;t finished researching the races for this address yet.
               </p>
             )}
             <ol className="mt-8 flex flex-col gap-4">
-              {result.races.map((r, i) => (
-                <li key={r.id} className="rounded-xl border border-card bg-paper-raised p-4 lg:p-5">
-                  <div className="flex items-baseline justify-between gap-3">
-                    <SectionLabel>
-                      {i + 1}. {OFFICE_LABEL[r.officeType]}
-                    </SectionLabel>
-                    <Link href={`/guide/race/${r.id}`} className="whitespace-nowrap font-sans text-[12.5px] font-semibold text-accent">
-                      Race details →
+              {[...pre, ...result.stateSeats, ...post].map((r, i) =>
+                "election" in r ? (
+                  <StateSeatItem key={r.election.districtKey} n={i + 1} seat={r} />
+                ) : (
+                  <li key={r.id} className="rounded-xl border border-card bg-paper-raised p-4 lg:p-5">
+                    <div className="flex items-baseline justify-between gap-3">
+                      <SectionLabel>
+                        {i + 1}. {OFFICE_LABEL[r.officeType]}
+                      </SectionLabel>
+                      <Link href={`/guide/race/${r.id}`} className="whitespace-nowrap font-sans text-[12.5px] font-semibold text-accent">
+                        Race details →
+                      </Link>
+                    </div>
+                    <Link href={`/guide/race/${r.id}`} className="mt-1 block font-serif text-[20px] font-bold text-ink hover:underline">
+                      {r.title}
                     </Link>
-                  </div>
-                  <Link href={`/guide/race/${r.id}`} className="mt-1 block font-serif text-[20px] font-bold text-ink hover:underline">
-                    {r.title}
-                  </Link>
-                  {r.officeType === "ballot-measure" && r.measure ? (
-                    <p className="mt-1 font-sans text-[13px] leading-[1.55] text-ink-60">{r.measure.summary.text}</p>
-                  ) : (
-                    <ul className="mt-3 grid gap-2 sm:grid-cols-2">
-                      {r.candidates.map((c) => (
-                        <li key={c.id}>
-                          <Link href={`/guide/race/${r.id}/${c.id}`} className="flex items-start gap-2.5 rounded-lg p-1.5 hover:bg-paper">
-                            <Monogram name={c.name} size={36} />
-                            <span className="min-w-0">
-                              <span className="block font-serif text-[15.5px] font-bold leading-tight text-ink">{c.name}</span>
-                              <span className="mt-0.5 flex flex-wrap items-center gap-1">
-                                <PartyChips parties={c.parties} />
-                                {c.incumbent && <IncumbentTag />}
+                    {r.officeType === "ballot-measure" && r.measure ? (
+                      <p className="mt-1 font-sans text-[13px] leading-[1.55] text-ink-60">{r.measure.summary.text}</p>
+                    ) : (
+                      <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+                        {r.candidates.map((c) => (
+                          <li key={c.id}>
+                            <Link href={`/guide/race/${r.id}/${c.id}`} className="flex items-start gap-2.5 rounded-lg p-1.5 hover:bg-paper">
+                              <Monogram name={c.name} size={36} />
+                              <span className="min-w-0">
+                                <span className="block font-serif text-[15.5px] font-bold leading-tight text-ink">{c.name}</span>
+                                <span className="mt-0.5 flex flex-wrap items-center gap-1">
+                                  <PartyChips parties={c.parties} />
+                                  {c.incumbent && <IncumbentTag />}
+                                </span>
+                                <span className="mt-0.5 line-clamp-2 block font-sans text-[12px] leading-snug text-ink-60">
+                                  {c.summary.text}
+                                </span>
                               </span>
-                              <span className="mt-0.5 line-clamp-2 block font-sans text-[12px] leading-snug text-ink-60">
-                                {c.summary.text}
-                              </span>
-                            </span>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </li>
-              ))}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </li>
+                )
+              )}
             </ol>
             {result.state !== "NY" && (
               <p className="mt-6 font-sans text-[12.5px] text-ink-45">
-                Outside New York, this guide covers U.S. House and Senate races. Your ballot may also include state and local contests; check your state election office.
+                Outside New York, only U.S. House and Senate and statewide races are researched in depth; state legislative races show candidate lists only. Your ballot may also include local contests; check your state election office.
               </p>
             )}
           </>
         )}
       </div>
     </main>
+  );
+}
+
+function StateSeatItem({ n, seat }: { n: number; seat: BallotStateSeat }) {
+  const { election: e } = seat;
+  return (
+    <li className="rounded-xl border border-card bg-paper-raised p-4 lg:p-5">
+      <SectionLabel>
+        {n}. {seat.office}
+      </SectionLabel>
+      <p className="mt-1 font-serif text-[20px] font-bold text-ink">{seat.title}</p>
+      {e.seats && e.seats > 1 && <p className="mt-0.5 font-sans text-[12.5px] text-ink-60">Vote for up to {e.seats}.</p>}
+      <ul className="mt-3 grid gap-2 sm:grid-cols-2">
+        {e.candidates.map((c) => (
+          <li key={c.name} className="flex items-start gap-2.5 p-1.5">
+            <Monogram name={c.name} size={36} />
+            <span className="min-w-0">
+              <span className="block font-serif text-[15.5px] font-bold leading-tight text-ink">{c.name}</span>
+              <span className="mt-0.5 flex flex-wrap items-center gap-1">
+                <PartyChips parties={c.parties} />
+                {c.incumbent && <IncumbentTag />}
+              </span>
+            </span>
+          </li>
+        ))}
+      </ul>
+      {seat.incumbents.map((inc) => (
+        <div key={inc.officialId} className="mt-3 border-t border-hairline-soft pt-3">
+          <h3 className="font-sans text-[13px] font-bold text-ink">How {inc.name} voted on the most contested votes</h3>
+          {inc.contested.length > 0 ? (
+            <ul className="mt-1 flex flex-col divide-y divide-hairline-soft">
+              {inc.contested.map((v) => (
+                <li key={v.id} className="flex items-start gap-3 py-2.5">
+                  <VoteBadge vote={v.vote} compact />
+                  <div className="min-w-0">
+                    <p className="line-clamp-2 font-serif text-[14.5px] font-bold leading-[1.3] text-ink">
+                      <Link href={v.href} className="hover:underline">{v.title}</Link>
+                    </p>
+                    <p className="mt-0.5 font-sans text-xs leading-[1.5] text-ink-60">
+                      {v.partySide ? (v.partySide === v.vote ? "With most of their party" : "Against most of their party") : "Party majority unclear"}
+                      {v.breakdown && ` · ${v.breakdown}`}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="mt-1 font-sans text-xs text-ink-60">No contested votes for this member are in our dataset yet.</p>
+          )}
+          <Link href={personHrefForOfficial(inc.officialId)} className="inline-flex min-h-11 items-center font-sans text-xs font-semibold text-accent underline">
+            Full voting record →
+          </Link>
+        </div>
+      ))}
+      <p className="mt-3 font-sans text-[11px] text-ink-45">
+        <SourceLink href={e.sourceUrl} className="text-[11px]">Candidate list · {e.sourceLabel}</SourceLink>
+        {" · "}Not researched in depth — candidate list only.
+      </p>
+    </li>
   );
 }

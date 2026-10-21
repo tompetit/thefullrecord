@@ -11,38 +11,89 @@
   "context": [
     {
       "text": "California uses a top-two nonpartisan primary. Incumbent Ted Lieu (D) and Houston Brignano (R) were the only two candidates to advance to the November general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "ted-lieu",
       "name": "Ted Lieu",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative for California's 36th District (since 2015)",
       "summary": {
-        "text": "Ted Lieu is the incumbent U.S. Representative for California's 36th District, serving on the House Committee on the Judiciary and the House Committee on Foreign Affairs.",
-        "sources": ["s2"]
+        "text": "Ted Lieu is the Democratic incumbent U.S. Representative for California's 36th District and Vice Chair of the Democratic Caucus. Born in Taiwan and raised in Ohio, he is an attorney and retired Air Force Reserve colonel who served on the Torrance City Council, in the California Assembly and in the state Senate before his 2014 election to Congress. He sits on the Judiciary and Foreign Affairs committees and describes artificial intelligence, civil liberties, cybersecurity and the environment as areas of focus.",
+        "sources": [
+          "s2",
+          "s12"
+        ]
       },
       "background": [
         {
-          "text": "Born in Taipei, Taiwan, in 1969; earned a bachelor's degree in computer and political science from Stanford University in 1991 and a J.D. from Georgetown University Law Center in 1994.",
-          "sources": ["s2"]
+          "text": "Born in Taipei, Taiwan, in 1969; according to his official biography, his family immigrated to the United States when he was three and settled in Cleveland, Ohio, where his parents ran gift stores.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
         },
         {
-          "text": "Served as a Major in the United States Air Force Reserves, including as an attorney in the Judge Advocate General Corps, and as a judicial clerk on the U.S. Court of Appeals for the Ninth Circuit.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree in computer science and political science from Stanford University in 1991 and a J.D. from Georgetown University Law Center in 1994, graduating magna cum laude after serving as editor-in-chief of the law review.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
         },
         {
-          "text": "Served on the Torrance City Council, then in the California State Assembly (2005–2010) and California State Senate (2011–2014), before his election to Congress in 2014.",
-          "sources": ["s2"]
+          "text": "Served in the U.S. Air Force Judge Advocate General's Corps, four years on active duty and then in the Air Force Reserve, retiring in 2021 with the rank of Colonel; also served as a judicial clerk on the U.S. Court of Appeals for the Ninth Circuit.",
+          "sources": [
+            "s12",
+            "s2"
+          ]
+        },
+        {
+          "text": "Began his elected service on the Torrance City Council in 2002, after serving as a Torrance Environmental Quality Commissioner.",
+          "sources": [
+            "s12"
+          ]
+        },
+        {
+          "text": "Served in the California State Assembly (2005–2010) and California State Senate (2011–2014); his official biography cites state laws on subprime mortgages, a ban on conversion therapy for minors, and a ban on tanning beds for minors, and says he co-authored the Global Warming Solutions Act.",
+          "sources": [
+            "s2",
+            "s12"
+          ]
+        },
+        {
+          "text": "Elected to Congress in 2014; chosen Freshman Class President by his colleagues in his first term, and later served as Co-Chair of the Democratic Policy and Communications Committee before becoming Vice Chair of the Democratic Caucus.",
+          "sources": [
+            "s12",
+            "s2"
+          ]
+        },
+        {
+          "text": "Serves on the House Judiciary and Foreign Affairs committees; co-chaired the bipartisan House Task Force on Artificial Intelligence in the 118th Congress and co-chairs the Democratic Commission on AI; served as an Impeachment Manager in the second Senate impeachment trial of Donald Trump.",
+          "sources": [
+            "s12",
+            "s2"
+          ]
+        },
+        {
+          "text": "According to his official biography, lives in Torrance with his wife Betty, a Torrance city councilmember, and their two sons.",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he is fully committed to ensuring and protecting the civil rights of all Americans and stands against racial, cultural, or religious intolerance.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -51,45 +102,59 @@
           "stance": "opposes",
           "summary": "Called for an immediate nationwide stand-down of ICE and CBP interior operations after an immigration-enforcement-related shooting, citing repeated shootings and assaults of civilians and a lack of accountability.",
           "quote": "I am calling for an immediate nationwide stand down of ICE and CBP interior operations. Civilians are repeatedly getting shot and assaulted in the streets, and there has been a failure to conduct thorough investigations, ensure proper accountability, or commit to policy, procedural, and training reforms.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Cosponsored H.R. 3069, the Medicare for All Act, a bill to establish an improved Medicare-for-All national health insurance program (119th Congress).",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "guns",
           "stance": "supports",
           "summary": "Cosponsored H.R. 3115, the Assault Weapons Ban of 2025, a bill to regulate assault weapons (119th Congress).",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Cosponsored H.R. 2743, the Raise the Wage Act of 2025, a bill to provide for increases in the federal minimum wage (119th Congress).",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "issue": "war_powers",
           "stance": "supports",
           "summary": "Cosponsored H.Con.Res. 68, a resolution to direct the removal of U.S. Armed Forces from hostilities within or against Venezuela that have not been authorized by Congress (119th Congress).",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "His official site describes his first bill in Congress, the Climate Solutions Act of 2015, as a plan to energize investment in green energy technology, set renewable energy standards and reduce carbon pollution.",
           "quote": "a bold, innovative plan to energize investment in green energy technology, set strong renewable energy standards and slash the carbon pollution that is damaging our planet.",
-          "sources": ["s11"]
+          "sources": [
+            "s11"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on the Judiciary (Courts, Intellectual Property, Artificial Intelligence, and the Internet Subcommittee) and the House Committee on Foreign Affairs in the 119th Congress (2025–2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -98,23 +163,45 @@
     {
       "id": "houston-brignano",
       "name": "Houston Brignano",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Houston Brignano is a Republican candidate for California's 36th Congressional District and a former U.S. Marine who served in Iraq. His campaign centers on federal spending transparency and reducing housing and healthcare costs.",
-        "sources": ["s3"]
+        "text": "Houston Brignano is the Republican nominee for California's 36th District. The Daily Bruin describes him as a technology executive, and his Ballotpedia survey says he served as a Marine in Iraq. He placed second in the June 2026 primary and is running on federal spending transparency, housing and healthcare costs, and AI-focused job training.",
+        "sources": [
+          "s3",
+          "s7"
+        ]
       },
       "background": [
         {
           "text": "Served as a U.S. Marine in Iraq, an experience he cites as shaping his focus on government accountability.",
           "quote": "As a Marine in Iraq, I learned complacency kills, and we've become complacent.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Described by the Daily Bruin as a technology executive who has advocated for an immigration system that prioritizes American-born citizens in the job market and for AI-focused job training programs.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Placed second in the June 2, 2026 nonpartisan primary with 15.3% of the vote (35,851 votes), advancing to the general election against Rep. Ted Lieu.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says his top priorities are transparency in federal spending, creating 'innovation zones' for technology, manufacturing, and energy to lower housing costs, and giving people more choice and price transparency in healthcare.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -193,8 +280,23 @@
       "title": "Energy and Environment",
       "publisher": "Office of Rep. Ted Lieu",
       "kind": "official"
+    },
+    {
+      "id": "s12",
+      "url": "https://lieu.house.gov/about/full-biography",
+      "title": "Full Biography",
+      "publisher": "Office of Rep. Ted Lieu",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://dailybruin.com/2026/06/08/ted-lieu-houston-brignano-win-36th-district-representative-primary/",
+      "title": "Ted Lieu, Houston Brignano win 36th district representative primary",
+      "publisher": "Daily Bruin",
+      "kind": "news",
+      "date": "2026-06-08"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Lieu has not completed Ballotpedia's 2026 Candidate Connection survey; his position on immigration enforcement is drawn from an official House press release, and his priorities from his official civil-rights issues page. No current statement mapping to abortion, guns, or israel_aid beyond general civil-rights and foreign-affairs committee work was found. Federal key votes and FEC finance totals for the incumbent are added separately by script."
+  "researchNotes": "Lieu has not completed Ballotpedia's 2026 Candidate Connection survey; his position on immigration enforcement is drawn from an official House press release, and his priorities from his official civil-rights issues page. No current statement mapping to abortion, guns, or israel_aid beyond general civil-rights and foreign-affairs committee work was found. Federal key votes and FEC finance totals for the incumbent are added separately by script. Houston Brignano: no campaign website found; Ballotpedia was not fetchable and the Daily Bruin primary story has no direct issue quotes; no additional statements added. Biography gaps: no campaign website or detailed personal biography (birthplace, education, employers, military dates) was found for Brignano; his bio relies on his Ballotpedia survey and a Daily Bruin profile."
 }
