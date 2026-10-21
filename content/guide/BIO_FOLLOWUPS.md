@@ -77,3 +77,7 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - taylor-wright: Ballotpedia (elementary PE teacher) vs Salt Lake Tribune ("high school teacher").
 - gerald-malloy, tony-sabio: conflicting residences (Weathersfield/Perkinsville; Vienna/Lorton), both attributed.
 - edwin-rivera: Ballotpedia source labelled kind "candidate"; bishop-staten survey source date 2025-01-01 looks like a placeholder.
+- bruce-blakeman: the transgender-athlete order sentence (struck down / reenacted / challenged) cites only Wikipedia — replace with a news source.
+- belinda-fox-spencer: s3 "Ballot Access News" title is a placeholder; ballot-access.org refused the fetch.
+- fred-clark: Assembly service given as 2009–2015; old Wisconsin Examiner bio said 2009–2014.
+- thomas-p-dinapoli: restored the 2026 campaign sentence (fund growth; contract-review threshold) citing s1/s2 — confirm which source carries it.
