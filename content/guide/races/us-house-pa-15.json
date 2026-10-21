@@ -11,33 +11,88 @@
   "context": [
     {
       "text": "Incumbent Republican Glenn Thompson and Democrat Ray Bilger each ran unopposed in their May 19, 2026 primaries.",
-      "sources": ["s1", "s3"]
+      "sources": [
+        "s1",
+        "s3"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "glenn-thompson",
       "name": "Glenn Thompson",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Ran unopposed in the May 19 Republican primary",
       "currentRole": "U.S. Representative (since 2009); Chair, House Committee on Agriculture",
       "summary": {
-        "text": "Glenn Thompson is the incumbent U.S. Representative for Pennsylvania's 15th District, serving since 2009 (representing the old 5th District from 2009–2019). He chairs the House Committee on Agriculture.",
-        "sources": ["s1"]
+        "text": "Glenn Thompson is the incumbent Republican U.S. Representative for Pennsylvania's 15th District. A Howard, Pennsylvania, native, he spent 28 years as a therapist, rehabilitation services manager and licensed nursing home administrator before his election to Congress in 2008. He has served since 2009 (the old 5th District through 2018) and chairs the House Committee on Agriculture.",
+        "sources": [
+          "s1",
+          "s8"
+        ]
       },
       "background": [
         {
-          "text": "Born in Howard, Pennsylvania, in 1959; earned a bachelor's degree in therapeutic rehabilitation from Pennsylvania State University in 1981 and an M.Ed. from Temple University in 1998.",
-          "sources": ["s1"]
+          "text": "Born in Howard, Pennsylvania, in 1959; his House website calls him a life-long resident of Howard.",
+          "sources": [
+            "s1",
+            "s8"
+          ]
         },
         {
-          "text": "Worked as a rehabilitation therapist and volunteer firefighter before elected office.",
-          "sources": ["s1"]
+          "text": "Earned a bachelor's degree in therapeutic rehabilitation from Pennsylvania State University (1981) and a Master of Education from Temple University (1998).",
+          "sources": [
+            "s1",
+            "s8"
+          ]
         },
         {
-          "text": "Served on the Bald Eagle Area School Board from 1990 to 1995 and chaired the Centre County Republican Party from 2002 to 2008.",
-          "sources": ["s1"]
+          "text": "Spent 28 years as a therapist, rehabilitation services manager and licensed nursing home administrator before his election to Congress, and has served as a volunteer firefighter for more than three decades, according to his House website.",
+          "sources": [
+            "s1",
+            "s8"
+          ]
+        },
+        {
+          "text": "Member of the Bald Eagle Area School Board (1990–1996); his House website also lists service as past vice-chair of the Private Industry Council of the Central Corridor and as a Workforce Investment Board member.",
+          "sources": [
+            "s1",
+            "s8"
+          ]
+        },
+        {
+          "text": "An Eagle Scout and 30-plus-year volunteer with the Juniata Valley Boy Scout Council (Scoutmaster, executive board member and Council President), he received the National Distinguished Eagle Scout Award in 2012.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Won the November 4, 2008 general election for Pennsylvania's 5th District, defeating Democrat Mark McCracken and Libertarian James Fryman, and took office in 2009; he has represented the 15th District since boundaries were redrawn in 2019.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Appointed to the House Committee on Education & Workforce in 2009 and now serves as a senior member; chairs the House Committee on Agriculture, per his House website.",
+          "sources": [
+            "s1",
+            "s8"
+          ]
+        },
+        {
+          "text": "Co-Chairman of the bipartisan Congressional Career and Technical Education Caucus for more than a decade; his House website says his Career and Technical Education for the 21st Century Act, introduced in the 115th Congress, passed the House and Senate unanimously and was signed into law.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "According to his House website, he and his wife, Penny Ammerman-Thompson, have three adult sons and two grandsons, and live in Howard.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "priorities": [],
@@ -46,38 +101,53 @@
           "issue": "guns",
           "stance": "opposes",
           "summary": "Voted no on the Bipartisan Background Checks Act of 2019, which would have required background checks on private firearm transfers.",
-          "sources": ["s1", "s5"]
+          "sources": [
+            "s1",
+            "s5"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Voted yes on the Pain-Capable Unborn Child Protection Act, which would restrict abortion later in pregnancy.",
-          "sources": ["s1", "s7"]
+          "sources": [
+            "s1",
+            "s7"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Voted no on the American Dream and Promise Act of 2019, which sought to protect certain immigrants from removal and provide a path to permanent residency.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [
         {
           "text": "Chairs the House Committee on Agriculture for the 2025–2026 term (previously Chairman in 2023–2024 and Ranking Member in 2021–2022); also serves on the Committee on Education and the Workforce.",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Voted no on the Bipartisan Background Checks Act of 2019 (H.R. 8), which passed the House 240–190.",
           "date": "2019-02-27",
           "kind": "vote",
-          "sources": ["s1", "s5"]
+          "sources": [
+            "s1",
+            "s5"
+          ]
         },
         {
           "text": "Voted no on the American Dream and Promise Act of 2019 (H.R. 6), which passed the House 237–187.",
           "date": "2019-06-04",
           "kind": "vote",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "website": "https://thompson.house.gov",
@@ -87,40 +157,84 @@
     {
       "id": "ray-bilger",
       "name": "Ray Bilger",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Ran unopposed in the May 19 Democratic primary",
       "summary": {
-        "text": "Ray Bilger is a Democratic candidate and former NSA Technical Director for Cyber Analysis (2015-2017) from Centre County, running to bring 'opportunity and hope back to rural PA.'",
-        "sources": ["s4"]
+        "text": "Ray Bilger is the Democratic nominee for Pennsylvania's 15th District. A Centre County native, he describes a 35-year career as a security officer and intelligence analyst for the Air Force, the National Security Agency and the State Department, including service as NSA Technical Director for Cyber Analysis from 2015 to 2017. According to his campaign website, he is running to bring \"opportunity and hope back to rural PA.\"",
+        "sources": [
+          "s3",
+          "s4"
+        ]
       },
       "background": [
         {
-          "text": "Born in Bellefonte and grew up in Pleasant Gap, Centre County, Pennsylvania; entered the Air Force in August 1986 as an Airborne Cryptologic Linguist.",
-          "sources": ["s4"]
+          "text": "Born in Bellefonte and raised in Pleasant Gap, Centre County, according to his campaign website; his father was a factory worker, machinist and veteran, and his mother raised three children. He graduated from Bellefonte Area Senior High School.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
         },
         {
-          "text": "Served in both Desert Shield and Desert Storm over a 35-year career as a security officer and intelligence analyst for the Air Force, National Security Agency, and State Department.",
-          "sources": ["s4"]
+          "text": "Earned a bachelor's degree from Pennsylvania State University in 1985 and an associate degree from the Community College of the Air Force in 1997, per Ballotpedia; in his Ballotpedia survey he describes himself as a first-generation college graduate.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Entered the Air Force in August 1986 as an Airborne Cryptologic Linguist (Ballotpedia lists his Air Force service as 1986 to 1996) and served in both Desert Shield and Desert Storm.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
+        },
+        {
+          "text": "According to his campaign website, spent a 35-year career spanning nearly as many countries as an intelligence analyst and security officer, leading teams for the Air Force, NSA and State Department; his Ballotpedia survey cites service in the Intelligence Community and State Department Foreign Service.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
         },
         {
           "text": "Served as NSA Technical Director for Cyber Analysis from 2015 to 2017.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "He and his wife live in a home on the slopes of Mount Nittany that they have occupied since his mother's death in 2020, according to his campaign website.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Was unopposed in the May 19, 2026 Democratic primary (34,963 votes).",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says the district needs better jobs, higher quality and accessible healthcare, and improved infrastructure.",
           "quote": "What motivates me as a candidate is bringing hope and opportunity back to the 15th Congressional District, and to do that, we need better jobs, higher quality, accessible healthcare and improved infrastructure.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says Congress should reclaim its constitutional authority over spending and tariffs rather than ceding it to the executive branch.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Calls for a single standard of accountability applied to ICE and CBP officers, including visible identification, adherence to use-of-force policy, and independent review of enforcement-related deaths.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -129,27 +243,35 @@
           "stance": "supports",
           "summary": "Says the right to abortion should be codified in federal law and access should be available without political interference.",
           "quote": "Every Pennsylvanian should have access to reproductive healthcare, including abortion, without political interference. Those decisions belong with a woman, her family, and her doctor—not with Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Supports protecting affordable insurance coverage, lowering prescription drug costs, and defending Medicare and Medicaid; criticizes Rep. Thompson for voting against extending enhanced ACA premium tax credits.",
           "quote": "For four years, enhanced tax credits through Pennsylvania's health insurance marketplace, Pennie, helped hundreds of thousands of Pennsylvanians afford coverage. When Congress had the opportunity to extend those credits, Glenn Thompson voted no.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "guns",
           "stance": "mixed",
           "summary": "Describes himself as a gun owner who supports the Second Amendment while also supporting background checks that keep guns away from people who pose a danger.",
           "quote": "A gun owner and veteran can believe in the Second Amendment while also believing in common-sense gun laws.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "mixed",
           "summary": "Supports securing the border and creating legal immigration pathways, while calling for stricter accountability standards on ICE and CBP enforcement.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],
@@ -209,8 +331,15 @@
       "publisher": "Office of the Clerk, U.S. House of Representatives",
       "kind": "official",
       "date": "2017-10-03"
+    },
+    {
+      "id": "s8",
+      "url": "https://thompson.house.gov/about-gt",
+      "title": "About GT",
+      "publisher": "Office of Rep. Glenn Thompson",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Thompson's federal key floor votes and FEC finance totals are added by script; only pre-2025 key votes and committee roles listed here are from Ballotpedia. The record item about Thompson's ACA premium tax credit vote is attributed to Bilger's campaign site (a candidate-kind source) because no official roll-call record for that specific vote was independently verified in this research. Corrected 2026-09-25: Thompson's H.R.6 (American Dream and Promise Act of 2019) vote was previously listed as \"yes\"; the official roll call (Roll Call 240) shows he voted No."
+  "researchNotes": "Thompson's federal key floor votes and FEC finance totals are added by script; only pre-2025 key votes and committee roles listed here are from Ballotpedia. The record item about Thompson's ACA premium tax credit vote is attributed to Bilger's campaign site (a candidate-kind source) because no official roll-call record for that specific vote was independently verified in this research. Corrected 2026-09-25: Thompson's H.R.6 (American Dream and Promise Act of 2019) vote was previously listed as \"yes\"; the official roll call (Roll Call 240) shows he voted No. Biography notes: Thompson's House website gives no year for his first campaign or party roles, and Bilger's Ballotpedia and campaign-site descriptions of his service dates differ in scope, so both are attributed."
 }
