@@ -70,3 +70,4 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - James Baird (IN-4): s3 for his 60.5% primary result points to Drew Cox's Ballotpedia page — re-cite to Baird's own page.
 - Nickie Kane: Ballotpedia's NY-10 page lists her among withdrawn/disqualified candidates — confirm she is on the Nov 3 ballot (rule 8).
 - Don Leonard (OH-3): NBC4 reports a March 2026 arrest at a protest on a noise violation — not in bio; rule-9 decision.
+- NY-21: Ballotpedia lists Robert Smullen's Conservative line and Gendebien's 'Lower Costs Now' line as withdrawn; Smullen claim removed from context — confirm Gendebien's ballot lines.
