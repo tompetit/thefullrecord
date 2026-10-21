@@ -11,107 +11,491 @@
   "context": [
     {
       "text": "Incumbent Rashida Tlaib (D) defeated Shanelle Jackson and Byron Nolen in the Democratic primary. James Hooper (R) advanced unopposed from the Republican primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "rashida-tlaib",
       "name": "Rashida Tlaib",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
-        "text": "Rashida Tlaib is the Democratic incumbent, first elected in 2018. She has campaigned on Medicare for All and a $15 minimum wage.",
-        "sources": ["s2"]
+        "text": "Rashida Tlaib is the Democratic incumbent for Michigan's 12th District. A Detroit native and attorney, she served in the Michigan House from 2009 to 2015 and has been in Congress since January 2019. She has campaigned on Medicare for All and a $15 minimum wage.",
+        "sources": [
+          "s2",
+          "s4",
+          "s5"
+        ]
       },
       "background": [
-        {"text": "Born and raised in Detroit; graduated from Southwestern High School in 1994.", "sources": ["s2"]},
-        {"text": "Earned a bachelor's degree in political science from Wayne State University (1998) and a law degree from Western Michigan University Thomas M. Cooley Law School (2004).", "sources": ["s2"]},
-        {"text": "Worked as an attorney with nonprofit legal advocacy groups and as a staffer for former state Rep. Steve Tobocman before serving in the Michigan House of Representatives.", "sources": ["s2"]}
+        {
+          "text": "Born and raised in Detroit, the oldest of 14 children of Palestinian immigrant parents, according to her House biography; graduated from Southwestern High School in 1994.",
+          "sources": [
+            "s4",
+            "s2"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in political science from Wayne State University (1998) and a law degree from Western Michigan University Thomas M. Cooley Law School (2004).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked as a staffer for former state Rep. Steve Tobocman and as an attorney with nonprofit legal advocacy groups, including the Sugar Law Center for Economic and Social Justice.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Elected to the Michigan House of Representatives in 2008 and served from 2009 to 2015; her House biography says she was the first Muslim woman to serve in the Michigan Legislature.",
+          "sources": [
+            "s4",
+            "s2"
+          ]
+        },
+        {
+          "text": "Ran for Michigan State Senate District 4 in the 2014 Democratic primary and lost to incumbent Virgil Smith, 41.9% to 49.8%.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won election to the U.S. House in 2018 from Michigan's 13th District, taking office January 3, 2019; she and Ilhan Omar were the first Muslim women to serve in Congress. She has represented the 12th District since 2023.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
+        },
+        {
+          "text": "Serves on the House Financial Services Committee (including its Oversight and Investigations and Housing and Insurance subcommittees) and the House Oversight Committee, and chairs the Congressional Mamas' Caucus and the Get the Lead Out Caucus.",
+          "sources": [
+            "s4",
+            "s2"
+          ]
+        },
+        {
+          "text": "Her House biography credits her with the 'We Have A Right To Breathe' campaign over truck traffic in Detroit neighborhoods and with testing and calling attention to petroleum coke on the Detroit riverfront.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Won the Democratic primary for the 12th District on August 4, 2026, with 69.4% of the vote.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "priorities": [
-        {"text": "Medicare for All to guarantee healthcare as a right.", "quote": "I'll fight for Medicare-for-All that guarantees health care as a right, not a privilege.", "sources": ["s2b"]},
-        {"text": "A $15 minimum wage and support for labor unions.", "quote": "I'll fight for a $15 minimum wage that gives our workers the ability to provide for their families... I'll protect our unions, the organizations that built our middle class.", "sources": ["s2b"]},
-        {"text": "Ending corporate tax breaks and overturning Citizens United.", "quote": "We must stop tax giveaways to rich corporations and developers while our schools are crumbling and people are losing their homes... we must overturn Citizens United to ensure all of our voices are heard.", "sources": ["s2b"]}
+        {
+          "text": "Medicare for All to guarantee healthcare as a right.",
+          "quote": "I'll fight for Medicare-for-All that guarantees health care as a right, not a privilege.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "text": "A $15 minimum wage and support for labor unions.",
+          "quote": "I'll fight for a $15 minimum wage that gives our workers the ability to provide for their families... I'll protect our unions, the organizations that built our middle class.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "text": "Ending corporate tax breaks and overturning Citizens United.",
+          "quote": "We must stop tax giveaways to rich corporations and developers while our schools are crumbling and people are losing their homes... we must overturn Citizens United to ensure all of our voices are heard.",
+          "sources": [
+            "s2b"
+          ]
+        }
       ],
       "positions": [
-        {"issue": "healthcare_public", "stance": "supports", "summary": "Supports Medicare for All.", "quote": "I'll fight for Medicare-for-All that guarantees health care as a right, not a privilege.", "sources": ["s2b"]},
-        {"issue": "minimum_wage", "stance": "supports", "summary": "Supports a $15 federal minimum wage.", "quote": "I'll fight for a $15 minimum wage that gives our workers the ability to provide for their families.", "sources": ["s2b"]},
-        {"issue": "tax_wealthy", "stance": "supports", "summary": "Supports ending corporate tax breaks for developers and corporations.", "quote": "We must stop tax giveaways to rich corporations and developers while our schools are crumbling and people are losing their homes.", "sources": ["s2b"]}
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports Medicare for All.",
+          "quote": "I'll fight for Medicare-for-All that guarantees health care as a right, not a privilege.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "issue": "minimum_wage",
+          "stance": "supports",
+          "summary": "Supports a $15 federal minimum wage.",
+          "quote": "I'll fight for a $15 minimum wage that gives our workers the ability to provide for their families.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports ending corporate tax breaks for developers and corporations.",
+          "quote": "We must stop tax giveaways to rich corporations and developers while our schools are crumbling and people are losing their homes.",
+          "sources": [
+            "s2b"
+          ]
+        }
       ],
       "record": [
-        {"text": "Assigned to the Committee on Oversight and Government Reform and the Committee on Financial Services for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]},
-        {"text": "Censured by the U.S. House, 234-188, on November 7, 2023, over comments regarding the Israel-Hamas war; the censure resolution said she was censured for 'promoting false narratives regarding the October 7, 2023, Hamas attack on Israel and for calling for the destruction of the state of Israel.' Tlaib responded that criticism of the Israeli government should not be equated with antisemitism.", "kind": "action", "sources": ["s2"]}
+        {
+          "text": "Assigned to the Committee on Oversight and Government Reform and the Committee on Financial Services for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Censured by the U.S. House, 234-188, on November 7, 2023, over comments regarding the Israel-Hamas war; the censure resolution said she was censured for 'promoting false narratives regarding the October 7, 2023, Hamas attack on Israel and for calling for the destruction of the state of Israel.' Tlaib responded that criticism of the Israeli government should not be equated with antisemitism.",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "website": "https://rashidaforcongress.com",
       "researchDepth": "basic",
-      "bioguideId": "T000481"
+      "bioguideId": "T000481",
+      "researchNotes": "No biography gaps beyond birth year, which Ballotpedia and her House biography do not give."
     },
     {
       "id": "james-hooper",
       "name": "James Hooper",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "James Hooper is a Republican candidate campaigning on opposition to abortion, support for gun rights, reduced federal taxation, and stronger immigration enforcement.",
-        "sources": ["s3"]
+        "text": "James Hooper is the Republican nominee for Michigan's 12th District. A Detroit native who worked in Eastern Market and the building trades, he later did overseas mission work in Liberia. His campaign website emphasizes opposition to abortion, support for gun rights, reduced federal taxation, and stronger immigration enforcement.",
+        "sources": [
+          "s3",
+          "s3b"
+        ]
       },
       "background": [
-        {"text": "Born in Detroit, Michigan.", "sources": ["s3"]}
+        {
+          "text": "Born in Detroit; his campaign website says he grew up on the city's east side.",
+          "sources": [
+            "s3",
+            "s3b"
+          ]
+        },
+        {
+          "text": "According to his campaign website, he worked for many years in Eastern Market and later in the building trades.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Says he served overseas with Samaritan's Purse in Liberia, leading teams that rebuilt the African Bible College University and managing a water, sanitation and hygiene program, and worked with the Billy Graham Evangelistic Association on a Franklin Graham Festival in Liberia.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Says he was his mother's primary and then full-time caregiver as she had Alzheimer's disease.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Ran against Tlaib in the 2024 general election, receiving 25.4% of the vote, and won the Republican nomination again on August 4, 2026.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "priorities": [
-        {"text": "Opposes abortion, describing himself as 'Pro-Life from conception to natural death.'", "quote": "I am Pro-Life from conception to natural death. I will be a strong and unwavering voice for LIFE in the U.S. House of Representatives.", "sources": ["s3b"]},
-        {"text": "Supports strong Second Amendment protections.", "quote": "I am a strong proponent of the Un-infringeable nature of the Second Amendment. It is the essential bulwark with which all our other rights are guaranteed.", "sources": ["s3b"]},
-        {"text": "Wants to reduce federal taxation and shrink federal bureaucracy.", "quote": "We need taxation policy that focuses on keeping MORE of your hard-earned dollars in your pocket and LESS going to waste in Washington D.C.", "sources": ["s3b"]}
+        {
+          "text": "Opposes abortion, describing himself as 'Pro-Life from conception to natural death.'",
+          "quote": "I am Pro-Life from conception to natural death. I will be a strong and unwavering voice for LIFE in the U.S. House of Representatives.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Supports strong Second Amendment protections.",
+          "quote": "I am a strong proponent of the Un-infringeable nature of the Second Amendment. It is the essential bulwark with which all our other rights are guaranteed.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Wants to reduce federal taxation and shrink federal bureaucracy.",
+          "quote": "We need taxation policy that focuses on keeping MORE of your hard-earned dollars in your pocket and LESS going to waste in Washington D.C.",
+          "sources": [
+            "s3b"
+          ]
+        }
       ],
       "positions": [
-        {"issue": "abortion", "stance": "opposes", "summary": "Opposes legal abortion, describing himself as pro-life 'from conception to natural death.'", "quote": "I am Pro-Life from conception to natural death.", "sources": ["s3b"]},
-        {"issue": "guns", "stance": "opposes", "summary": "Opposes stricter gun laws, calling the Second Amendment 'non-negotiable.'", "quote": "The 2nd Amendment is non-negotiable. The People are the repository of this Right.", "sources": ["s3b"]},
-        {"issue": "tax_wealthy", "stance": "opposes", "summary": "Opposes higher federal taxation generally, calling current taxes on families and businesses 'obscene.'", "quote": "Taxes on American families and businesses are obscene... We need taxation policy that focuses on keeping MORE of your hard-earned dollars in your pocket.", "sources": ["s3b"]},
-        {"issue": "immigration_enforcement", "stance": "supports", "summary": "Calls unchecked illegal immigration a national-security issue and supports strong border control.", "quote": "It is dangerously unacceptable to have unchecked illegal immigration which disguises drug trafficking, human and child trafficking, and terrorists crossing an abandoned border.", "sources": ["s3b"]}
+        {
+          "issue": "abortion",
+          "stance": "opposes",
+          "summary": "Opposes legal abortion, describing himself as pro-life 'from conception to natural death.'",
+          "quote": "I am Pro-Life from conception to natural death.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "issue": "guns",
+          "stance": "opposes",
+          "summary": "Opposes stricter gun laws, calling the Second Amendment 'non-negotiable.'",
+          "quote": "The 2nd Amendment is non-negotiable. The People are the repository of this Right.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "opposes",
+          "summary": "Opposes higher federal taxation generally, calling current taxes on families and businesses 'obscene.'",
+          "quote": "Taxes on American families and businesses are obscene... We need taxation policy that focuses on keeping MORE of your hard-earned dollars in your pocket.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Calls unchecked illegal immigration a national-security issue and supports strong border control.",
+          "quote": "It is dangerously unacceptable to have unchecked illegal immigration which disguises drug trafficking, human and child trafficking, and terrorists crossing an abandoned border.",
+          "sources": [
+            "s3b"
+          ]
+        }
       ],
       "record": [],
       "website": "https://jameshooperforcongress.com/",
-      "researchDepth": "basic"
+      "researchDepth": "basic",
+      "researchNotes": "His campaign website page carries a 2022 timestamp, so descriptions of current party roles on it were not used; education and employment dates were not found."
     },
     {
       "id": "brenda-sanders",
       "name": "Brenda Sanders",
-      "parties": ["G"],
+      "parties": [
+        "G"
+      ],
       "incumbent": false,
-      "summary": {"text": "Brenda Sanders is the Green Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
-      "background": [], "priorities": [], "positions": [], "record": [],
+      "summary": {
+        "text": "Brenda Sanders is the Green Party candidate on the November ballot for Michigan's 12th District. A Detroit attorney, she served as a judge of the 36th District Court and was the Green Party nominee in this district in 2024.",
+        "sources": [
+          "s6",
+          "s1",
+          "s8"
+        ]
+      },
+      "background": [
+        {
+          "text": "Earned an undergraduate degree from the University of Michigan in 1980 and a J.D. from the University of Detroit Mercy School of Law in 1983.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Practiced law in Detroit for 24 years, specializing in criminal, family, civil litigation and church law, and served as house counsel for the 36th District Court.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Served as a judge of the Michigan 36th District Court; she ran for re-election unopposed in 2014.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Ran as the Green Party candidate for this district in 2024, receiving 2.3% of the vote; nominated again at the Green Party convention on July 18, 2026.",
+          "sources": [
+            "s6",
+            "s8"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "Biography draws on Ballotpedia; no campaign biography page was reviewed."
     },
     {
       "id": "marc-joseph-sosnowski",
       "name": "Marc Joseph Sosnowski",
-      "parties": ["U.S. Taxpayers Party"],
+      "parties": [
+        "U.S. Taxpayers Party"
+      ],
       "incumbent": false,
-      "summary": {"text": "Marc Joseph Sosnowski is the U.S. Taxpayers Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
-      "background": [], "priorities": [], "positions": [], "record": [],
+      "summary": {
+        "text": "Marc Joseph Sosnowski is the U.S. Taxpayers Party candidate on the November ballot for Michigan's 12th District. A Detroit native with a background in property management and sales, he has run in several earlier local, university-board and congressional races.",
+        "sources": [
+          "s7",
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in Detroit; graduated from Detroit Catholic Central High School.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree from the University of Michigan-Dearborn (1978) and a graduate degree from Cornerstone University (2009).",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Career experience includes work as a business consultant and in sales, property management, insurance, environmental testing and bio-ethics; Ballotpedia lists him as affiliated with the U.S. Taxpayers Party, Right to Life, Lifespan and the Knights of Columbus.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Ran unsuccessfully for the Wayne State University Board of Governors in 2018 and 2022, for Wayne County Commission District 8 in 2020 and 2024, and for U.S. House in the 2018 special election in Michigan's 13th District.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Nominated at the U.S. Taxpayers Party convention on July 18, 2026.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
+      "researchNotes": "Biography draws on Ballotpedia; no campaign biography page was reviewed."
     },
     {
       "id": "gary-walkowicz",
       "name": "Gary Walkowicz",
-      "parties": ["Working Class Party"],
+      "parties": [
+        "Working Class Party"
+      ],
       "incumbent": false,
-      "summary": {"text": "Gary Walkowicz is the Working Class Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
-      "background": [], "priorities": [], "positions": [], "record": [],
+      "summary": {
+        "text": "Gary Walkowicz is the Working Class Party candidate on the November ballot for Michigan's 12th District. Public sources reviewed document his repeated campaigns for this seat but not his education or career.",
+        "sources": [
+          "s8",
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Has run for U.S. House in Michigan's 12th District repeatedly, including in 2014, 2016, 2018, 2022 and 2024.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "In 2024 he received 2.6% of the vote as the Working Class Party candidate; nominated again at the Working Class Party convention on June 6, 2026.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
       "researchDepth": "minimal",
-      "researchNotes": "No campaign website or Ballotpedia Candidate Connection survey response found describing his 2026 platform in detail."
+      "researchNotes": "No birthplace, education, employment history or campaign biography was found in sources reviewed; the biography is limited to his election history."
     }
   ],
   "sources": [
-    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026", "title": "United States House of Representatives elections in Michigan, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s2", "url": "https://ballotpedia.org/Rashida_Tlaib", "title": "Rashida Tlaib", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s2b", "url": "https://rashidaforcongress.com", "title": "Tlaib's 2018 campaign website statement (quoted by Ballotpedia)", "publisher": "Rashida Tlaib for Congress / Ballotpedia", "kind": "candidate", "date": "2018-01-01"},
-    {"id": "s3", "url": "https://ballotpedia.org/James_Hooper", "title": "James Hooper", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s3b", "url": "https://jameshooperforcongress.com/", "title": "Hooper's campaign website statement (quoted by Ballotpedia)", "publisher": "James Hooper for Congress / Ballotpedia", "kind": "candidate", "date": "2026-09-25"}
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026",
+      "title": "United States House of Representatives elections in Michigan, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Rashida_Tlaib",
+      "title": "Rashida Tlaib",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2b",
+      "url": "https://rashidaforcongress.com",
+      "title": "Tlaib's 2018 campaign website statement (quoted by Ballotpedia)",
+      "publisher": "Rashida Tlaib for Congress / Ballotpedia",
+      "kind": "candidate",
+      "date": "2018-01-01"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/James_Hooper",
+      "title": "James Hooper",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3b",
+      "url": "https://jameshooperforcongress.com/",
+      "title": "Hooper's campaign website statement (quoted by Ballotpedia)",
+      "publisher": "James Hooper for Congress / Ballotpedia",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://tlaib.house.gov/about",
+      "title": "About Congresswoman Rashida Tlaib",
+      "publisher": "Office of Rep. Rashida Tlaib",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s5",
+      "url": "https://en.wikipedia.org/wiki/Rashida_Tlaib",
+      "title": "Rashida Tlaib",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Brenda_Sanders",
+      "title": "Brenda Sanders",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Marc_Joseph_Sosnowski",
+      "title": "Marc Joseph Sosnowski",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Gary_Walkowicz",
+      "title": "Gary Walkowicz",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    }
   ],
   "researchedAt": "2026-09-25"
 }
