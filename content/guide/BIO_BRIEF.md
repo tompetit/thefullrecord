@@ -49,7 +49,7 @@ Targets:
   `<lastname>.senate.gov/about`, state legislature member pages, state agency bios.
 - Candidate campaign site "About"/"Meet X" pages; Ballotpedia Candidate
   Connection survey (kind `candidate`).
-- Reputable news profiles (kind `news`) — good for career details and
+- Reputable news profiles (kind `news`; never opinion columns or editorials) — good for career details and
   campaign history.
 - Ballotpedia / Wikipedia (kind `reference`) are fine for basic biographical
   facts (birth, education, offices held), but prefer an official or candidate
@@ -76,7 +76,7 @@ Targets:
   for gossip; include only what a voter would find in a standard news profile.
 - Use the pronouns the candidate's own materials use; if unknown, write around
   them (use the name or they/them).
-- Set `researchDepth` up only if the entry now genuinely meets it (don't lower it).
+- Do not change `researchDepth` (it reflects positions/record research too, not just the biography).
 
 ## Finish
 Run `node scripts/guide/validate.mjs content/guide/races/<raceId>.json` for every
