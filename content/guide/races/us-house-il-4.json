@@ -11,52 +11,117 @@
   "context": [
     {
       "text": "This is an open seat. Incumbent Jesus \"Chuy\" Garcia (D) withdrew from the Democratic primary in November 2025, after the candidate filing deadline, citing health and family reasons. Patty Garcia, who served as his district director and chief of staff, was the only other candidate who had filed and won the Democratic primary unopposed. Lupe Castillo won the Republican primary and Ed Hershey won the Working Class Party primary, both unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Chris Getty, Mayor of Lyons and Lyons Township Supervisor, is running as an independent after collecting signatures to appear on the general-election ballot.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "patty-garcia",
       "name": "Patty Garcia",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Democratic primary unopposed",
       "summary": {
-        "text": "Garcia is a former district director and chief of staff to outgoing U.S. Rep. Jesus \"Chuy\" Garcia, with a doctorate in educational policy studies.",
-        "sources": ["s1"]
+        "text": "Garcia is the Democratic nominee for the open 4th District seat. She holds a Ph.D. in educational policy studies from the University of Illinois Urbana-Champaign, worked for Latino civic organizations, and then for U.S. Rep. Jesus \"Chuy\" Garcia (no relation) from 2019 as district director and later chief of staff. According to her campaign website, she is running on lower costs and higher wages and on defending immigrant families.",
+        "sources": [
+          "s1",
+          "s2",
+          "s3",
+          "s5"
+        ]
       },
       "background": [
-        { "text": "Earned bachelor's degrees in political science and speech communication, an M.A. in educational policy studies, and a Ph.D. in educational policy studies, all from the University of Illinois Urbana-Champaign.", "sources": ["s1"] },
-        { "text": "Served as U.S. Rep. Jesus Garcia's district director and later his chief of staff.", "sources": ["s1"] }
+        {
+          "text": "Earned bachelor's degrees in political science and speech communication, an M.A. (2009) and a Ph.D. (2011) in educational policy studies, all from the University of Illinois Urbana-Champaign.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "text": "WGN reported she is 40 and that she began her campaign at a Cicero grocery store and restaurant where she worked as a high school senior.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Was deputy director for constituency services-education at the NALEO Education Fund (2014-2017) and vice president of programs and operations at the Latino Center for Leadership Development (2017-2018), according to BallotReady.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Worked in Rep. Jesus Garcia's office from 2019, first as district director and then as chief of staff (2023-2025, per BallotReady); the Sun-Times reports she resigned as chief of staff in November 2025.",
+          "sources": [
+            "s1",
+            "s3",
+            "s5"
+          ]
+        },
+        {
+          "text": "After Rep. Garcia announced in November 2025 that he would not seek re-election, she filed petitions shortly before the November 3 filing deadline; critics called the sequence a coronation, and she has said the process was open and other Democrats could have filed. She was unopposed in the March 17, 2026 Democratic primary (52,616 votes).",
+          "sources": [
+            "s2",
+            "s4",
+            "s5"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Campaign website says she has built coalitions \"standing with immigrant families facing detention and deportation, helping tenants and homeowners navigate rising costs and displacement, and working with labor and community partners.\"", "sources": ["s1"] },
-        { "text": "On affordability, says she would work on raising the federal minimum wage, passing the PRO Act, expanding the Child Tax Credit, reducing prescription drug costs, and building more affordable homes.", "sources": ["s1"] },
-        { "text": "On immigration, her campaign website says she supports a pathway to citizenship, protections for Dreamers and mixed-status families, and restructuring immigration enforcement agencies, including abolishing ICE.", "sources": ["s1"] }
+        {
+          "text": "Campaign website says she has built coalitions \"standing with immigrant families facing detention and deportation, helping tenants and homeowners navigate rising costs and displacement, and working with labor and community partners.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "On affordability, says she would work on raising the federal minimum wage, passing the PRO Act, expanding the Child Tax Credit, reducing prescription drug costs, and building more affordable homes.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "On immigration, her campaign website says she supports a pathway to citizenship, protections for Dreamers and mixed-status families, and restructuring immigration enforcement agencies, including abolishing ICE.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Says she would work to raise the federal minimum wage.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Supports a pathway to citizenship and restructuring immigration enforcement agencies, including abolishing ICE, rather than expanding enforcement.",
           "quote": "supports a pathway to citizenship, protections for Dreamers and mixed-status families, expanded legal services for immigrants, and stronger oversight and accountability for federal immigration agencies. She also supports fundamentally restructuring immigration enforcement agencies, including abolishing ICE.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Says she has worked helping tenants and homeowners navigate rising costs and displacement.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "record": [],
@@ -65,14 +130,59 @@
     {
       "id": "lupe-castillo",
       "name": "Lupe Castillo",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Republican primary unopposed",
       "summary": {
-        "text": "Castillo won the Republican primary for this open seat.",
-        "sources": ["s1"]
+        "text": "Castillo is the Republican nominee for the open 4th District seat. According to Ballotpedia, she was born in San Antonio, Texas, and has worked as a chef and in the pharmacy industry. She ran for the Illinois House in 2022 and for this congressional seat in 2024, and says she is running on \"pro-family values and policies.\"",
+        "sources": [
+          "s1",
+          "s5",
+          "s7"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Born in San Antonio, Texas; in a 2024 Ballotpedia survey she describes herself as a second-generation American whose first language was Spanish, and says she began working as a child on newspaper routes.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Attended a Catholic high school, working for four years to help pay tuition, and earned an associate degree from Washburne Community Trade School in 2000.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Career experience includes work as a chef and in food service, retail and the pharmacy industry.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Says she has been a member of the Chicago Alternative Policing Strategy (CAPS) and the 10th District Advisory Committee of the Chicago Police Department; Ballotpedia lists affiliations with Southwest Side GOP, Chicago GOP and the Little Village Community Council. The Sun-Times reports she has lived in the district for 43 years.",
+          "sources": [
+            "s5",
+            "s7"
+          ]
+        },
+        {
+          "text": "Ran as the Republican candidate for Illinois House District 23 in 2022 and lost to Edgar Gonzalez Jr., 82.0% to 18.0%; ran for Illinois' 4th Congressional District in 2024 and lost to Jesus Garcia, 27.3% to 67.5%.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Was unopposed in the March 17, 2026 Republican primary for the open seat.",
+          "sources": [
+            "s1",
+            "s7"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
@@ -81,14 +191,60 @@
     {
       "id": "ed-hershey",
       "name": "Ed Hershey",
-      "parties": ["Working Class Party"],
+      "parties": [
+        "Working Class Party"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Working Class Party primary unopposed",
       "summary": {
-        "text": "Hershey won the Working Class Party primary for this open seat.",
-        "sources": ["s1"]
+        "text": "Hershey is a Chicago teacher and the Working Class Party nominee for the open 4th District seat. He has taught at Lindblom Math and Science Academy in West Englewood, served as a union representative, and ran for 25th Ward alderman in 2015 and for this congressional seat in 2022 and 2024.",
+        "sources": [
+          "s1",
+          "s5",
+          "s8"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Born in Rochester, New York; earned a bachelor's degree from the University of Chicago in 2001.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Works as a teacher at Lindblom Math and Science Academy in West Englewood on Chicago's South Side, and has served as a union representative.",
+          "sources": [
+            "s5",
+            "s8"
+          ]
+        },
+        {
+          "text": "In his 2024 Ballotpedia survey, says he became more involved in the teachers union at his school in the run-up to the 2012 teachers' strike.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Ran for Chicago City Council in the 25th Ward in 2015, finishing fifth with 8.2% of the vote (614 votes).",
+          "sources": [
+            "s5",
+            "s8"
+          ]
+        },
+        {
+          "text": "Ran as the Working Class Party candidate for Illinois' 4th District in 2022 (3.5%) and 2024 (5.2%).",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Was unopposed in the March 17, 2026 Working Class Party primary for the open seat.",
+          "sources": [
+            "s1",
+            "s8"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
@@ -97,26 +253,88 @@
     {
       "id": "chris-getty",
       "name": "Chris Getty",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "currentRole": "Mayor of Lyons, Illinois (since 2009); Lyons Township Supervisor (since 2017)",
       "summary": {
-        "text": "Getty is the Mayor of the Village of Lyons and Lyons Township Supervisor, running his campaign on nearly two decades of local public service.",
-        "sources": ["s1"]
+        "text": "Getty is the Mayor of the Village of Lyons (since 2009) and Lyons Township Supervisor (since 2017), and is a licensed insurance producer. After the Democratic filing deadline passed, he filed as an independent for the open 4th District seat and is the only independent remaining on the ballot. His campaign website says he has devoted nearly two decades to public service and lists cost of living, immigration and public safety, and government accountability as priorities.",
+        "sources": [
+          "s1",
+          "s5",
+          "s6",
+          "s10"
+        ]
       },
       "background": [
-        { "text": "Earned a bachelor's degree in corporate communications from Eastern Illinois University.", "sources": ["s1"] },
-        { "text": "Licensed insurance producer and president of Getty Insurance Agency.", "sources": ["s1"] },
-        { "text": "Mayor of the Village of Lyons since 2009 and Lyons Township Supervisor since 2017.", "sources": ["s1"] }
+        {
+          "text": "According to his campaign website, born and raised in Lyons, Illinois; graduated from Morton West High School and Eastern Illinois University, where Ballotpedia says he earned a bachelor's degree in corporate communications.",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "text": "Licensed insurance producer and president of Getty Insurance Agency.",
+          "sources": [
+            "s1",
+            "s9"
+          ]
+        },
+        {
+          "text": "Mayor of the Village of Lyons since 2009; his campaign website says he returned home after college to build his career and focused on responsible leadership, economic development and partnerships.",
+          "sources": [
+            "s5",
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "text": "Has served in Lyons Township leadership, including on the Township Mental Health Board and as elected Township Supervisor (assumed office 2017).",
+          "sources": [
+            "s1",
+            "s10"
+          ]
+        },
+        {
+          "text": "Filed to run for Congress as an independent after the Democratic primary filing deadline; Ballotpedia describes him as a Democrat running as an independent. Two other would-be independents, Ald. Byron Sigcho-Lopez and Mayra Macias, were removed from the ballot for insufficient valid signatures, leaving Getty the lone independent.",
+          "sources": [
+            "s1",
+            "s5",
+            "s6"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Campaign focuses on cost of living, immigration and public safety, and government accountability, per his campaign website.", "sources": ["s1"] },
-        { "text": "\"I'm running as an independent because this moment demands an independent voice. I don't answer to a party, I answer to the people.\"", "sources": ["s1"] },
-        { "text": "Says his time as mayor \"focused on responsible leadership, economic development, and building partnerships that create real opportunity for residents and local businesses.\"", "sources": ["s1"] }
+        {
+          "text": "Campaign focuses on cost of living, immigration and public safety, and government accountability, per his campaign website.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "\"I'm running as an independent because this moment demands an independent voice. I don't answer to a party, I answer to the people.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says his time as mayor \"focused on responsible leadership, economic development, and building partnerships that create real opportunity for residents and local businesses.\"",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "positions": [],
       "record": [
-        { "text": "As Mayor of Lyons, oversaw local economic development initiatives, according to his campaign materials.", "kind": "action", "sources": ["s1"] }
+        {
+          "text": "As Mayor of Lyons, oversaw local economic development initiatives, according to his campaign materials.",
+          "kind": "action",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "researchDepth": "basic"
     }
@@ -129,8 +347,80 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Patty_Garcia",
+      "title": "Patty Garcia",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.ballotready.org/people/patty-garcia-403cd356-329c-4229-8bc8-6c05c2c38323",
+      "title": "Patty Garcia",
+      "publisher": "BallotReady",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s4",
+      "url": "https://digital-release.wgntv.com/news/politics/patty-garcia-handpicked-by-chuy-garcia-aims-for-4th-district-seat/amp/",
+      "title": "Patty Garcia, handpicked by Chuy Garcia, aims for 4th District seat",
+      "publisher": "WGN-TV",
+      "kind": "news",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s5",
+      "url": "https://chicago.suntimes.com/elections/2026/10/01/what-to-know-4th-congressional-district-patty-garcia-chris-getty-lupe-castillo-ed-hershey-us-rep-jesus-chuy-garcia",
+      "title": "What to know about the 4th Congressional District race to replace U.S. Rep. Jesus 'Chuy' Garcia",
+      "publisher": "Chicago Sun-Times",
+      "kind": "news",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "s6",
+      "url": "https://chicago.suntimes.com/elections/2026/10/15/democrat-patty-garcia-chris-getty-lupe-castillo-ed-hershey-congress-4th-district-chuy-garcia-seat",
+      "title": "Democrat Patty García faces Chris Getty, two other challengers in race for Rep. 'Chuy' García's seat",
+      "publisher": "Chicago Sun-Times",
+      "kind": "news",
+      "date": "2026-10-15"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Lupe_Castillo",
+      "title": "Lupe Castillo",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Ed_Hershey",
+      "title": "Ed Hershey",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Chris_Getty",
+      "title": "Chris Getty",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s10",
+      "url": "https://chrisgettyforcongress.com/about",
+      "title": "About",
+      "publisher": "Chris Getty for Congress",
+      "kind": "candidate",
+      "date": "2026-10-21"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Garcia's and Getty's material is drawn from their campaign websites as compiled by Ballotpedia. No campaign website, public statements, or Candidate Connection survey were found for Lupe Castillo or Ed Hershey within the BASIC research budget; their entries are marked minimal."
+  "researchNotes": "Garcia's and Getty's material is drawn from their campaign websites as compiled by Ballotpedia, the Sun-Times and WGN; Garcia's earlier career and degree dates come from BallotReady, and her own campaign website could not be loaded. Castillo's and Hershey's biographies come from Ballotpedia (including their 2024 Candidate Connection surveys) and the Sun-Times; no 2026 campaign website or survey was found for them, and their entries are marked minimal. Sources differ on Hershey's years at Lindblom (18 in his 2024 survey, 16 in a 2026 Sun-Times report), so the figure is omitted."
 }
