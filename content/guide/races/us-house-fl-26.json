@@ -11,44 +11,97 @@
   "context": [
     {
       "text": "Both major-party primaries were canceled: incumbent Mario Diaz-Balart advanced unopposed as the Republican nominee, and Nicole Locklin advanced unopposed as the Democratic nominee (after Yurina Gil, Dustin Lapolla and Robyn Elaine Lawrence did not make the ballot). Deborah Meidinger Hosey is running with No Party Affiliation.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "mario-diaz-balart",
       "name": "Mario Diaz-Balart",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced from a canceled Republican primary, unopposed.",
       "currentRole": "U.S. Representative, Florida's 26th District (since 2023); in Congress since 2003",
       "summary": {
-        "text": "Mario Diaz-Balart is the Republican incumbent seeking re-election in Florida's 26th District. He has served in the U.S. House continuously since 2003 (under different district numbers due to redistricting) and previously served in the Florida State Senate and Florida House.",
-        "sources": ["s1", "s2"]
+        "text": "Mario Diaz-Balart is the Republican incumbent in Florida's 26th District. A Fort Lauderdale native, he began in public service as an aide to the Miami mayor, served in the Florida House and Senate in the 1990s and early 2000s, and has been in the U.S. House since 2003. He serves on the Appropriations Committee and is the dean of Florida's congressional delegation.",
+        "sources": [
+          "s1",
+          "s2",
+          "s10"
+        ]
       },
       "background": [
         {
-          "text": "Earned a bachelor's degree from the University of South Florida.",
-          "sources": ["s2"]
+          "text": "Born in Fort Lauderdale, Florida, on September 25, 1961, to Cuban parents; his father, Rafael Díaz-Balart, was a Cuban politician, and his brother Lincoln Díaz-Balart represented a Miami-area district in Congress from 1993 to 2011.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
         },
         {
-          "text": "Served in the Florida State Senate (District 37) from 1992 to 2000, and the Florida House of Representatives (District 112) from 2000 to 2002, before being elected to the U.S. House in 2002.",
-          "sources": ["s2"]
+          "text": "Studied political science at the University of South Florida.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
+        },
+        {
+          "text": "Began his public service career in 1985 as an aide to the Mayor of Miami.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
+        },
+        {
+          "text": "Served in the Florida State Senate (District 37) from 1992 to 2000, and in the Florida House of Representatives (District 112) from 2000 to 2002; Wikipedia also says he was elected to the Florida House in 1988.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
+        },
+        {
+          "text": "Elected to the U.S. House in 2002 and has served since 2003 under successive district numbers as Florida's maps changed; has represented the 26th District since 2023.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
+        },
+        {
+          "text": "In the 2025-2026 Congress, serves on the House Appropriations Committee as Vice Chair and chairs the subcommittee on National Security, Department of State, and Related Programs.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Has been the dean of Florida's congressional delegation since April 2021, according to Wikipedia.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he is strongly committed to comprehensive immigration reform that combines stronger border security with addressing immigration issues inside U.S. borders.",
           "quote": "We need comprehensive immigration reform. We need to strengthen our border security, and we need to address the immigration issues inside our borders. One without the other will resolve nothing.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Says Congress must adhere to fiscal discipline and eliminate wasteful or duplicated federal spending, drawing on his experience on the House Budget and Appropriations Committees.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "text": "Says Americans deserve affordable health care but opposes extending COVID-era ACA subsidies without what he calls proper guardrails, citing cost and fraud concerns.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "positions": [
@@ -57,31 +110,41 @@
           "stance": "mixed",
           "summary": "An original sponsor and author of H.R. 2, the Secure the Border Act, and supports enforcing immigration law, while also supporting extending Temporary Protected Status for Haitians as humanitarian protection.",
           "quote": "I've long supported strong border security measures, including as an original sponsor and author of H.R. 2, the Secure the Border Act, the most comprehensive and conservative border security bill ever. At the same time, we must recognize that conditions in Haiti are not conducive to safely returning individuals who have been living and working legally in the United States.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "Opposes extending the COVID-era Affordable Care Act subsidy program, calling it costly and saying it would make health care coverage more expensive rather than more affordable.",
           "quote": "extending a Democrat-led three-year COVID-era Obamacare subsidy program with zero guardrails will not make healthcare more affordable; it will make it costlier.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves as Vice Chair of the House Committee on Appropriations and chairs its Subcommittee on National Security, Department of State and Related Programs, in the 119th Congress (2025-2026).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Chaired the Appropriations Subcommittee on State Department and Foreign Operations during the 118th Congress (2023-2024).",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "An original sponsor and author of H.R. 2, the Secure the Border Act.",
           "kind": "bill",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "website": "https://www.mariodiazbalart.org/",
@@ -91,35 +154,72 @@
     {
       "id": "nicole-locklin",
       "name": "Nicole Locklin",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from a canceled Democratic primary, unopposed.",
       "summary": {
-        "text": "Nicole Locklin is the Democratic nominee for Florida's 26th District. She is an attorney who has practiced in litigation, technology, healthcare, privacy and artificial intelligence law, and is running on affordability and anti-corruption themes.",
-        "sources": ["s1", "s3"]
+        "text": "Nicole Locklin is the Democratic nominee in Florida's 26th District. An attorney who grew up in a small Oklahoma town, she worked in litigation and then as in-house counsel at technology companies. Her campaign focuses on affordability and anti-corruption measures.",
+        "sources": [
+          "s1",
+          "s3",
+          "s4",
+          "s11"
+        ]
       },
       "background": [
         {
-          "text": "Graduated from Pond Creek-Hunter High School in Oklahoma, and says she was the first in her family to graduate from college; earned a bachelor's degree from the University of Oklahoma (2009) and a law degree from Santa Clara University School of Law (2015).",
-          "sources": ["s3", "s4"]
+          "text": "Grew up in a small Oklahoma town and graduated from Pond Creek-Hunter High School; says she was the first in her family to graduate from college.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree from the University of Oklahoma (2009) and a law degree from Santa Clara University School of Law (2015).",
+          "sources": [
+            "s3",
+            "s11"
+          ]
         },
         {
           "text": "Worked for more than a decade as an attorney in litigation, technology, healthcare, privacy and artificial-intelligence law.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "According to BallotReady, was a litigation associate and then senior associate at Lerch Sturmer LLP (2016-2020), commercial counsel at Nextdoor (2020-2022), and lead legal counsel at Databricks (2022-2026).",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Became the Democratic nominee after the August 18, 2026 Democratic primary for the seat was canceled.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Affordability: lowering costs for housing, insurance, groceries, childcare and healthcare, which she attributes to what she calls government corruption favoring corporations.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Government accountability: banning congressional stock trading, overturning Citizens United, exposing dark money and strengthening ethics rules; she says she does not accept corporate PAC money.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Tax fairness: closing tax loopholes and raising taxes on very high wealth and corporate profits to fund healthcare, Social Security, Medicare, childcare and education.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "positions": [
@@ -128,20 +228,26 @@
           "stance": "supports",
           "summary": "Says she will close tax loopholes, reduce or eliminate income taxes on working families, and make billionaires and profitable corporations pay a fairer share.",
           "quote": "I will close those loopholes, reduce or eliminate income taxes on working families, tax extreme wealth and income fairly, and make profitable corporations contribute to the country that made their success possible.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says she wants to use revenue from tax fairness measures to guarantee healthcare for every American and strengthen Medicare and Social Security.",
           "quote": "We should use that revenue to guarantee healthcare for every American, lower prescription costs, strengthen Medicare and Social Security, support childcare and education, and invest in America's future.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Lists investing in childcare and education among the priorities she would fund through tax-fairness measures.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [],
@@ -152,11 +258,16 @@
     {
       "id": "deborah-meidinger-hosey",
       "name": "Deborah Meidinger Hosey",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
         "text": "Deborah Meidinger Hosey is a No Party Affiliation candidate on the general-election ballot for Florida's 26th District.",
-        "sources": ["s1", "s5"]
+        "sources": [
+          "s1",
+          "s5"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -167,15 +278,86 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/Florida%27s_26th_Congressional_District_election,_2026", "title": "Florida's 26th Congressional District election, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Mario_Diaz-Balart", "title": "Mario Diaz-Balart", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Nicole_Locklin", "title": "Nicole Locklin", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://ballotpedia.org/Nicole_Locklin", "title": "Nicole Locklin - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026" },
-    { "id": "s5", "url": "https://ballotpedia.org/Deborah_Meidinger_Hosey", "title": "Deborah Meidinger Hosey", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s6", "url": "https://mariodiazbalart.house.gov/media-center/press-releases/diaz-balart-votes-extend-haiti-tps", "title": "Díaz-Balart Votes to Extend Haiti TPS", "publisher": "Office of Rep. Mario Diaz-Balart", "kind": "official", "date": "2026-04-16" },
-    { "id": "s7", "url": "https://mariodiazbalart.house.gov/issues/fiscal-responsibility", "title": "Fiscal Responsibility", "publisher": "Office of Rep. Mario Diaz-Balart", "kind": "official" },
-    { "id": "s9", "url": "https://mariodiazbalart.house.gov/media-center/press-releases/diaz-balart-raises-concerns-over-democrats-aca-subsidy-extension", "title": "Díaz-Balart Raises Concerns Over Democrats' ACA Subsidy Extension as Irresponsible", "publisher": "Office of Rep. Mario Diaz-Balart", "kind": "official", "date": "2026-01-08" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Florida%27s_26th_Congressional_District_election,_2026",
+      "title": "Florida's 26th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Mario_Diaz-Balart",
+      "title": "Mario Diaz-Balart",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Nicole_Locklin",
+      "title": "Nicole Locklin",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Nicole_Locklin",
+      "title": "Nicole Locklin - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Deborah_Meidinger_Hosey",
+      "title": "Deborah Meidinger Hosey",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://mariodiazbalart.house.gov/media-center/press-releases/diaz-balart-votes-extend-haiti-tps",
+      "title": "Díaz-Balart Votes to Extend Haiti TPS",
+      "publisher": "Office of Rep. Mario Diaz-Balart",
+      "kind": "official",
+      "date": "2026-04-16"
+    },
+    {
+      "id": "s7",
+      "url": "https://mariodiazbalart.house.gov/issues/fiscal-responsibility",
+      "title": "Fiscal Responsibility",
+      "publisher": "Office of Rep. Mario Diaz-Balart",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://mariodiazbalart.house.gov/media-center/press-releases/diaz-balart-raises-concerns-over-democrats-aca-subsidy-extension",
+      "title": "Díaz-Balart Raises Concerns Over Democrats' ACA Subsidy Extension as Irresponsible",
+      "publisher": "Office of Rep. Mario Diaz-Balart",
+      "kind": "official",
+      "date": "2026-01-08"
+    },
+    {
+      "id": "s10",
+      "url": "https://en.wikipedia.org/wiki/Mario_D%C3%ADaz-Balart",
+      "title": "Mario Díaz-Balart",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s11",
+      "url": "https://www.ballotready.org/people/nicole-locklin",
+      "title": "Nicole Locklin - Candidate Profile",
+      "publisher": "BallotReady",
+      "kind": "reference",
+      "date": "2026-10-21"
+    }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Diaz-Balart's federal key votes and FEC finance totals are added separately by script."
+  "researchNotes": "Diaz-Balart's federal key votes and FEC finance totals are added separately by script. Biography gaps: Diaz-Balart's official house.gov biography could not be loaded, so his bio relies on Ballotpedia and Wikipedia (Ballotpedia's text says he studied at USF; its infobox lists a bachelor's degree, so the degree was reworded). No biographical information was found for Deborah Meidinger Hosey, and Locklin's employment history comes from BallotReady."
 }
