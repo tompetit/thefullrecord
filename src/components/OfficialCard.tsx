@@ -8,7 +8,7 @@ export function OfficialCard({ official, address = "" }: { official: Official; a
   return (
     <Link
       href={`${personHrefForOfficial(official.id)}${address ? `?address=${encodeURIComponent(address)}` : ""}`}
-      className="flex items-start gap-3 rounded-[10px] border border-card bg-paper-raised p-4 shadow-card transition-shadow hover:shadow-card-raised"
+      className="flex items-start gap-3 border border-card bg-paper-raised p-4 transition-colors hover:border-card-strong"
     >
       <span className="flex min-w-0 flex-1 flex-col gap-1">
         <span className="font-serif text-[16.5px] font-bold text-ink">

@@ -53,14 +53,14 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
           {races.length} races researched for the November 3 general election.
         </p>
         {!races.length && (
-          <p className="mt-6 rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
+          <p className="mt-6 border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
             Research for {stateName(st)} is in progress.
           </p>
         )}
         {contested.length > 0 && <section aria-labelledby="contested-state" className="mt-8">
           <h2 id="contested-state" className="font-serif text-[22px] font-semibold text-ink">Most contested votes in the {stateName(st)} Legislature</h2>
           <p className="mt-1 font-sans text-[13px] text-ink-60">Roll calls from the last 12 months, ranked by how close the vote was and how far apart the parties voted. <Link href="/coverage#party-splits" className="underline">How we rank</Link></p>
-          <ul className="mt-3 divide-y divide-hairline-soft rounded-lg border border-card bg-paper-raised px-4">
+          <ul className="mt-3 divide-y divide-hairline-soft border border-card bg-paper-raised px-4">
             {contested.map((r) => (
               <li key={r.id} className="py-3">
                 <p className="font-serif text-[16px] font-bold leading-snug text-ink"><Link href={r.href} className="hover:underline">{r.title}</Link></p>
@@ -82,7 +82,7 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
             <SectionLabel>{label}</SectionLabel>
             <ul className="mt-3 grid gap-2.5 md:grid-cols-2">
               {list.map((r) => (
-                <li key={r.id} className="rounded-lg border border-card bg-paper-raised p-3.5 hover:border-card-strong">
+                <li key={r.id} className="border border-card bg-paper-raised p-3.5 hover:border-card-strong">
                   <Link href={`/guide/race/${r.id}`} className="font-serif text-[16px] font-bold text-ink hover:underline">
                     {r.title}
                   </Link>

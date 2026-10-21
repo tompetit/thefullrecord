@@ -11,7 +11,7 @@ const KINDS = [
   ["ballot", "On the 2026 ballot"],
   ["both", "Both"],
 ] as const;
-const field = "mt-1.5 min-h-11 w-full rounded-lg border border-chip-border bg-paper-raised px-3 text-sm text-ink outline-offset-4 focus:outline-accent";
+const field = "mt-1.5 min-h-11 w-full border border-chip-border bg-paper-raised px-3 text-sm text-ink outline-offset-4 focus:outline-accent";
 
 function parse(params: Record<string, string | string[] | undefined>) {
   const text = (k: string) => (typeof params[k] === "string" ? (params[k] as string) : "");
@@ -94,7 +94,7 @@ export default async function PeoplePage({ searchParams }: { searchParams: Searc
           </select>
         </label>
         <div className="flex items-center gap-4">
-          <button type="submit" className="min-h-11 cursor-pointer rounded-lg bg-ink px-5 font-sans text-sm font-semibold text-paper">Search</button>
+          <button type="submit" className="min-h-11 cursor-pointer bg-ink px-5 font-sans text-sm font-semibold text-paper">Search</button>
           {active && <Link href="/people" className="inline-flex min-h-11 items-center text-xs text-accent-deep underline">Reset</Link>}
         </div>
       </form>

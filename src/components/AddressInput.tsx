@@ -177,7 +177,7 @@ export function AddressInput({
       </p>
       <div
         hidden={!showList}
-        className="absolute inset-x-0 top-full z-40 mt-1.5 overflow-hidden rounded-[10px] border border-chip-border bg-paper-raised text-left shadow-[0_8px_24px_rgba(33,30,25,0.14)] lg:right-auto lg:w-[max(100%,24rem)]"
+        className="absolute inset-x-0 top-full z-40 mt-1.5 overflow-hidden border border-chip-border bg-paper-raised text-left shadow-[0_8px_24px_rgba(33,30,25,0.14)] lg:right-auto lg:w-[max(100%,24rem)]"
       >
         <ul id={listId} role="listbox" aria-label="Address suggestions">
           {suggestions.map((s, i) => {

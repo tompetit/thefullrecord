@@ -48,7 +48,7 @@ function Statement({ s, race }: { s: NonNullable<GuideCandidate["statements"]>[n
   return (
     <div>
       <span className="inline-flex flex-wrap items-center">
-        <span className="inline-flex items-center gap-1 rounded-md border-[1.5px] border-dashed border-chip-border px-1.5 py-0.5 font-sans text-[11.5px] font-bold text-ink-80">
+        <span className="inline-flex items-center gap-1 rounded-[2px] border-[1.5px] border-dashed border-chip-border px-1.5 py-0.5 font-sans text-[11.5px] font-bold text-ink-80">
           <span aria-hidden>“</span>In their own words
         </span>
         <Cites ids={s.sources} race={race} />
@@ -83,7 +83,7 @@ function Comparison({ race }: { race: GuideRace }) {
       </p>
       <div className="mt-3 flex flex-col gap-3 sm:hidden">
         {issues.map((k) => (
-          <div key={k} className="rounded-lg border border-card bg-paper-raised p-3 font-sans">
+          <div key={k} className="border border-card bg-paper-raised p-3 font-sans">
             <h3 className="text-[13px] font-semibold text-ink-80">{ISSUES[k]}</h3>
             <ul className="mt-2 flex flex-col divide-y divide-hairline-soft">
               {race.candidates.map((c) => {
@@ -98,7 +98,7 @@ function Comparison({ race }: { race: GuideRace }) {
           </div>
         ))}
       </div>
-      <div className="mt-3 hidden overflow-x-auto rounded-lg border border-card bg-paper-raised sm:block">
+      <div className="mt-3 hidden overflow-x-auto border border-card bg-paper-raised sm:block">
         <table className="w-full min-w-[560px] border-collapse font-sans text-[12.5px]">
           <thead>
             <tr className="border-b border-card">
@@ -147,7 +147,7 @@ function KeyVoteComparison({ race }: { race: GuideRace }) {
   return (
     <section className="mt-10">
       <SectionLabel>Key votes in Congress — side by side</SectionLabel>
-      <div className="mt-3 overflow-x-auto rounded-lg border border-card bg-paper-raised">
+      <div className="mt-3 overflow-x-auto border border-card bg-paper-raised">
         <table className="w-full min-w-[520px] border-collapse font-sans text-[12.5px]">
           <thead>
             <tr className="border-b border-card">
@@ -184,7 +184,7 @@ function MeasureView({ race }: { race: GuideRace }) {
   const m = race.measure!;
   return (
     <section className="mt-8 flex flex-col gap-6">
-      <div className="rounded-xl border border-card bg-paper-raised p-5">
+      <div className="border border-card bg-paper-raised p-5">
         <SectionLabel>The question on the ballot</SectionLabel>
         <p className="mt-2 font-serif text-[17px] leading-[1.55] text-ink">
           <CitedText c={m.question} race={race} />
@@ -194,11 +194,11 @@ function MeasureView({ race }: { race: GuideRace }) {
         </p>
       </div>
       <div className="grid gap-4 md:grid-cols-2">
-        <div className="rounded-xl border-[1.5px] border-accent-tint-border bg-accent-tint p-4">
+        <div className="border-[1.5px] border-accent-tint-border bg-accent-tint p-4">
           <h3 className="font-serif text-[18px] font-bold text-accent-deep">A YES vote means</h3>
           <p className="mt-1.5 font-sans text-[13.5px] leading-[1.55] text-ink-80">{m.yesMeans}</p>
         </div>
-        <div className="rounded-xl border-[1.5px] border-umber-tint-border bg-umber-tint p-4">
+        <div className="border-[1.5px] border-umber-tint-border bg-umber-tint p-4">
           <h3 className="font-serif text-[18px] font-bold text-umber-deep">A NO vote means</h3>
           <p className="mt-1.5 font-sans text-[13.5px] leading-[1.55] text-ink-80">{m.noMeans}</p>
         </div>
@@ -300,7 +300,7 @@ export function RaceView({ race }: { race: GuideRace }) {
       <VerificationNote raceId={race.id} />
 
       {race.context.length > 0 && (
-        <ul className="mt-5 flex max-w-3xl flex-col gap-1.5 rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] leading-[1.55] text-ink-80">
+        <ul className="mt-5 flex max-w-3xl flex-col gap-1.5 border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] leading-[1.55] text-ink-80">
           {race.context.map((c, i) => (
             <li key={i}>
               <CitedText c={c} race={race} />
@@ -320,7 +320,7 @@ export function RaceView({ race }: { race: GuideRace }) {
                 <StandLink
                   key={c.id}
                   href={`/guide/race/${race.id}/${c.id}`}
-                  className="flex items-start gap-3 rounded-lg border border-card bg-paper-raised p-3.5 hover:border-card-strong"
+                  className="flex items-start gap-3 border border-card bg-paper-raised p-3.5 hover:border-card-strong"
                 >
                   <Monogram name={c.name} />
                   <span className="min-w-0">

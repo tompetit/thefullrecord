@@ -62,7 +62,7 @@ export function GuideSearch({ races, initialQuery = "" }: { races: SearchRace[];
 
   return (
     <div>
-      <label className="flex items-center gap-2 rounded-[10px] border-[1.5px] border-ink bg-paper-raised px-4 py-3.5">
+      <label className="flex items-center gap-2 border-[1.5px] border-ink bg-paper-raised px-4 py-3.5">
         <svg viewBox="0 0 12 12" className="size-4 flex-none text-ink-45" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden>
           <circle cx="5" cy="5" r="3.6" />
           <path d="M7.7 7.7 L11 11" />
@@ -81,7 +81,7 @@ export function GuideSearch({ races, initialQuery = "" }: { races: SearchRace[];
           <button
             key={key}
             onClick={() => setOffice(key)}
-            className={`cursor-pointer rounded-full border px-3 py-1 ${
+            className={`cursor-pointer rounded-[2px] border px-3 py-1 ${
               office === key ? "border-ink bg-ink text-paper" : "border-chip-border text-ink-80 hover:border-card-strong"
             }`}
           >
@@ -104,7 +104,7 @@ export function GuideSearch({ races, initialQuery = "" }: { races: SearchRace[];
             ? r.c.filter((c) => tokens.some((t) => norm(c.n).includes(t)))
             : [];
           return (
-            <li key={r.id} className="rounded-lg border border-card bg-paper-raised p-3.5 hover:border-card-strong">
+            <li key={r.id} className="border border-card bg-paper-raised p-3.5 hover:border-card-strong">
               <Link href={`/guide/race/${r.id}`} className="block">
                 <span className="block font-serif text-[16px] font-bold leading-snug text-ink">{r.t}</span>
                 <span className="mt-0.5 line-clamp-1 block font-sans text-[12px] text-ink-45">{r.a}</span>
@@ -119,7 +119,7 @@ export function GuideSearch({ races, initialQuery = "" }: { races: SearchRace[];
                       {c.n}
                     </Link>
                     {c.p.map((p) => (
-                      <span key={p} className="rounded-[3px] border border-chip-border px-1 text-[10px] font-semibold">
+                      <span key={p} className="rounded-[2px] border border-chip-border px-1 text-[10px] font-semibold">
                         {p}
                       </span>
                     ))}

@@ -38,7 +38,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
         )}
         {result && !result.ok && (
           <>
-            <p className="mt-4 max-w-lg rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
+            <p className="mt-4 max-w-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
               {LOOKUP_MESSAGES[result.reason]}
             </p>
             <BallotAddressForm initialAddress={address} />
@@ -58,13 +58,13 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
             <div className="mt-4 flex flex-wrap gap-2">
               <Link
                 href={`/guide/match?address=${encodeURIComponent(address)}`}
-                className="rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[14px] font-bold text-paper hover:opacity-90"
+                className="bg-ink px-4 py-2.5 font-sans text-[14px] font-bold text-paper hover:opacity-90"
               >
                 Compare by issue →
               </Link>
             </div>
             {result.races.length + result.stateSeats.length === 0 && (
-              <p className="mt-6 rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
+              <p className="mt-6 border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] text-ink-60">
                 We haven&rsquo;t finished researching the races for this address yet.
               </p>
             )}
@@ -73,7 +73,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                 "election" in r ? (
                   <StateSeatItem key={r.election.districtKey} n={i + 1} seat={r} />
                 ) : (
-                  <li key={r.id} className="rounded-xl border border-card bg-paper-raised p-4 lg:p-5">
+                  <li key={r.id} className="border border-card bg-paper-raised p-4 lg:p-5">
                     <div className="flex items-baseline justify-between gap-3">
                       <SectionLabel>
                         {i + 1}. {OFFICE_LABEL[r.officeType]}
@@ -91,7 +91,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                       <ul className="mt-3 grid gap-2 sm:grid-cols-2">
                         {r.candidates.map((c) => (
                           <li key={c.id}>
-                            <Link href={`/guide/race/${r.id}/${c.id}`} className="flex items-start gap-2.5 rounded-lg p-1.5 hover:bg-paper">
+                            <Link href={`/guide/race/${r.id}/${c.id}`} className="flex items-start gap-2.5 p-1.5 hover:bg-paper">
                               <Monogram name={c.name} size={36} />
                               <span className="min-w-0">
                                 <span className="block font-serif text-[15.5px] font-bold leading-tight text-ink">{c.name}</span>
@@ -127,7 +127,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
 function StateSeatItem({ n, seat }: { n: number; seat: BallotStateSeat }) {
   const { election: e } = seat;
   return (
-    <li className="rounded-xl border border-card bg-paper-raised p-4 lg:p-5">
+    <li className="border border-card bg-paper-raised p-4 lg:p-5">
       <SectionLabel>
         {n}. {seat.office}
       </SectionLabel>

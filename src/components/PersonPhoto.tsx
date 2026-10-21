@@ -17,7 +17,7 @@ export function PersonPhoto({ name, url, size = 56 }: { name: string; url?: stri
       height={Math.round(size * 1.22)}
       referrerPolicy="no-referrer"
       onError={() => setFailed(true)}
-      className="flex-none rounded-md bg-neutral-chip object-cover"
+      className="flex-none rounded-[2px] bg-neutral-chip object-cover"
       style={{ width: size, height: Math.round(size * 1.22) }}
     />
   );

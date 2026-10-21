@@ -120,7 +120,7 @@ export default function GuidePage() {
             <Link
               key={st}
               href={`/guide/state/${st.toLowerCase()}`}
-              className="flex items-baseline justify-between rounded-md border border-hairline-soft bg-paper-raised px-3 py-2 font-sans text-[13px] text-ink-80 hover:border-card-strong"
+              className="flex items-baseline justify-between rounded-[2px] border border-hairline-soft bg-paper-raised px-3 py-2 font-sans text-[13px] text-ink-80 hover:border-card-strong"
             >
               <span className="font-semibold">{stateName(st)}</span>
               <span className="text-[11px] text-ink-45">{byState.get(st) ?? 0}</span>

@@ -50,13 +50,13 @@ export async function OfficialProfile({ official, address, compact = false }: { 
       </div>}
       <div className="mt-4 flex flex-wrap gap-1.5 font-sans text-[11.5px] text-ink-80">
         {official.committees.map((c) => (
-          <span key={c} className="rounded-full border border-chip-border px-2.5 py-1">
+          <span key={c} className="rounded-[2px] border border-chip-border px-2.5 py-1">
             {c}
           </span>
         ))}
         <a
           href={official.contactUrl}
-          className="inline-flex min-h-11 items-center rounded-full border border-chip-border px-2.5 hover:border-card-strong"
+          className="inline-flex min-h-11 items-center rounded-[2px] border border-chip-border px-2.5 hover:border-card-strong"
         >
           Contact ↗
         </a>
@@ -102,7 +102,7 @@ export async function OfficialProfile({ official, address, compact = false }: { 
           return (
             <>
               <div
-                className="mt-5 grid overflow-hidden rounded-[10px] border border-card bg-paper-raised lg:hidden"
+                className="mt-5 grid overflow-hidden border border-card bg-paper-raised lg:hidden"
                 style={{
                   gridTemplateColumns: `repeat(${stats.length}, 1fr)`,
                 }}
@@ -121,7 +121,7 @@ export async function OfficialProfile({ official, address, compact = false }: { 
                   </div>
                 ))}
               </div>
-              <dl className="mt-5 hidden flex-col divide-y divide-hairline-soft rounded-[10px] border border-card bg-paper-raised lg:flex">
+              <dl className="mt-5 hidden flex-col divide-y divide-hairline-soft border border-card bg-paper-raised lg:flex">
                 {stats.map(([label, , value]) => (
                   <div
                     key={label}

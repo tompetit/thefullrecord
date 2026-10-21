@@ -32,7 +32,7 @@ export function PartyChips({ parties, size = "sm" }: { parties: string[]; size?:
           key={p}
           title={partyName(p)}
           aria-label={partyName(p)}
-          className={`rounded-[3px] border border-chip-border font-sans font-semibold leading-normal text-ink-80 ${
+          className={`rounded-[2px] border border-chip-border font-sans font-semibold leading-normal text-ink-80 ${
             size === "md" ? "px-1.5 text-[11.5px]" : "px-1 text-[10.5px]"
           }`}
         >
@@ -82,7 +82,7 @@ export function StanceChip({ stance }: { stance: Stance }) {
   const s = STANCE[stance];
   return (
     <span
-      className={`inline-flex items-center gap-1 rounded-md border-[1.5px] px-1.5 py-0.5 font-sans text-[11.5px] font-bold ${s.cls}`}
+      className={`inline-flex items-center gap-1 rounded-[2px] border-[1.5px] px-1.5 py-0.5 font-sans text-[11.5px] font-bold ${s.cls}`}
     >
       <span aria-hidden>{s.mark}</span>
       {s.word}
@@ -187,7 +187,7 @@ export function KindBadge({ kind }: { kind: SourceKind }) {
       ? "border-accent-tint-border bg-accent-tint text-accent-deep"
       : "border-neutral-chip-border bg-neutral-chip text-ink-60";
   return (
-    <span className={`whitespace-nowrap rounded-[3px] border px-1 text-[10px] font-semibold ${cls}`}>
+    <span className={`whitespace-nowrap rounded-[2px] border px-1 text-[10px] font-semibold ${cls}`}>
       {KIND_LABEL[kind]}
     </span>
   );

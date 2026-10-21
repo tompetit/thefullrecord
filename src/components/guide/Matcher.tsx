@@ -114,7 +114,7 @@ export function Matcher({ races, placeLabel, initialStand }: { races: GuideRace[
             </div>
             <div className="grid grid-cols-3 gap-1.5 sm:flex">
               {/* A selected skip is the quiet default — it must not read like an answer. */}
-              {CHOICES.map((choice) => <label key={choice.value} className={`flex min-h-11 cursor-pointer items-center justify-center rounded-md border-[1.5px] border-chip-border px-2 text-center text-[13px] font-semibold leading-tight text-ink-60 hover:border-ink-45 ${choice.value === "skip" ? "has-checked:border-ink-45 has-checked:bg-canvas has-checked:text-ink-80" : "has-checked:border-ink has-checked:bg-ink has-checked:text-paper"} has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-accent sm:px-3`}>
+              {CHOICES.map((choice) => <label key={choice.value} className={`flex min-h-11 cursor-pointer items-center justify-center rounded-[2px] border-[1.5px] border-chip-border px-2 text-center text-[13px] font-semibold leading-tight text-ink-60 hover:border-ink-45 ${choice.value === "skip" ? "has-checked:border-ink-45 has-checked:bg-canvas has-checked:text-ink-80" : "has-checked:border-ink has-checked:bg-ink has-checked:text-paper"} has-focus-visible:outline-2 has-focus-visible:outline-offset-2 has-focus-visible:outline-accent sm:px-3`}>
                 <input type="radio" name={`stand-${key}`} value={choice.value} checked={current === choice.value} onChange={() => answer(key, choice.value)} className="sr-only" />
                 {choice.value === "agree" && <span aria-hidden className="mr-1">✓</span>}{choice.value === "disagree" && <span aria-hidden className="mr-1">✕</span>}{choice.label}
               </label>)}
@@ -155,7 +155,7 @@ export function Matcher({ races, placeLabel, initialStand }: { races: GuideRace[
                     return <li key={key} className="py-4 first:pt-0">
                       <h4 className="text-sm font-bold text-ink">{TOPIC_LABELS[key]}</h4>
                       {position ? <>
-                        <span className={`mt-2 inline-block rounded border px-2 py-1 text-[10px] font-bold uppercase tracking-wide ${position.basis === "votes" ? "border-accent-tint-border bg-accent-tint text-accent-deep" : "border-chip-border bg-canvas text-ink-60"}`}>{position.basis === "votes" ? "Based on recorded votes" : "Documented position"}</span>
+                        <span className={`mt-2 inline-block rounded-[2px] border px-2 py-1 text-[10px] font-bold uppercase tracking-wide ${position.basis === "votes" ? "border-accent-tint-border bg-accent-tint text-accent-deep" : "border-chip-border bg-canvas text-ink-60"}`}>{position.basis === "votes" ? "Based on recorded votes" : "Documented position"}</span>
                         <p className="mt-2 text-sm leading-relaxed text-ink-80">{position.summary} <Cites ids={position.sources} race={race} /></p>
                         {position.stated && <details className="mt-3"><summary className="cursor-pointer text-xs font-semibold text-ink-60">Also on record: the candidate&rsquo;s statements</summary><p className="mt-2 text-sm leading-relaxed text-ink-60">{position.stated.summary} <Cites ids={position.stated.sources} race={race} /></p></details>}
                       </> : <p className="mt-2 text-sm leading-relaxed text-ink-60">No evidence in our research on this topic. This does not establish the candidate&rsquo;s position.</p>}

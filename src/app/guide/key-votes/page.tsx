@@ -53,7 +53,7 @@ export default function KeyVotesPage() {
                   const groups = byVote.get(d.id);
                   const n = groups ? [...groups.values()].reduce((s, l) => s + l.length, 0) : 0;
                   return (
-                    <li key={d.id} id={d.id} className="rounded-xl border border-card bg-paper-raised p-4">
+                    <li key={d.id} id={d.id} className="border border-card bg-paper-raised p-4">
                       <div className="font-sans text-[11px] font-bold tracking-[0.06em] text-ink-45">
                         {d.bill} · {d.date} · {d.topic.toUpperCase()}
                       </div>

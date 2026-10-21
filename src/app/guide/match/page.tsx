@@ -57,20 +57,20 @@ export default async function MatchPage({ searchParams }: { searchParams: SP }) 
               scores or rankings.
             </p>
             {error && (
-              <p className="mt-4 max-w-lg rounded-lg border border-hairline-soft bg-paper-raised p-3 font-sans text-[13px] text-ink-60">{error}</p>
+              <p className="mt-4 max-w-lg border border-hairline-soft bg-paper-raised p-3 font-sans text-[13px] text-ink-60">{error}</p>
             )}
             <BallotAddressForm target="/guide/match" cta="Start" initialAddress={address} />
             <form action="/guide/match" className="mt-6 flex max-w-xl flex-wrap items-end gap-2 font-sans text-[13px] text-ink-80">
               <span className="basis-full text-[12px] text-ink-45">Or pick your state and congressional district:</span>
-              <select aria-label="State" name="state" required defaultValue="" className="rounded-md border border-chip-border bg-paper-raised px-2 py-2">
+              <select aria-label="State" name="state" required defaultValue="" className="rounded-[2px] border border-chip-border bg-paper-raised px-2 py-2">
                 <option value="" disabled>State</option>
                 {ALL_STATES.map((s) => (
                   <option key={s} value={s}>{stateName(s)}</option>
                 ))}
               </select>
-              <input aria-label="Congressional district number" name="cd" placeholder="District # (blank = at-large / Senate only)" className="w-72 rounded-md border border-chip-border bg-paper-raised px-2 py-2" />
+              <input aria-label="Congressional district number" name="cd" placeholder="District # (blank = at-large / Senate only)" className="w-72 rounded-[2px] border border-chip-border bg-paper-raised px-2 py-2" />
               {stand.length > 0 && <input type="hidden" name="stand" value={serializeStand(stand)} />}
-              <button className="cursor-pointer rounded-md bg-ink px-4 py-2 font-bold text-paper">Go</button>
+              <button className="cursor-pointer rounded-[2px] bg-ink px-4 py-2 font-bold text-paper">Go</button>
             </form>
           </>
         )}

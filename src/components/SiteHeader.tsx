@@ -89,7 +89,7 @@ export function SiteHeader() {
         {/* <768px: a disclosure menu (works without JavaScript; re-mounts
             closed after each navigation). */}
         <details key={pathname} className="group ml-auto md:hidden">
-          <summary className="flex min-h-11 cursor-pointer list-none items-center gap-2 rounded-md px-3 font-sans text-[14px] font-semibold text-ink [&::-webkit-details-marker]:hidden">
+          <summary className="flex min-h-11 cursor-pointer list-none items-center gap-2 rounded-[2px] px-3 font-sans text-[14px] font-semibold text-ink [&::-webkit-details-marker]:hidden">
             <span aria-hidden className="flex w-4 flex-col gap-[3px]">
               <span className="h-[2px] bg-current" />
               <span className="h-[2px] bg-current" />
