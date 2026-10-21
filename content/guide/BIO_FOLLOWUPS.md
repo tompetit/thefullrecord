@@ -118,3 +118,54 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - alan-wilson: West Columbia native (FOX Carolina) vs "Lexington native" (Live 5).
 - phil-scott-vt: ordinals dropped — Wikipedia says 81st lieutenant governor; governor's page says 79th and 82nd governor.
 - thomas-p-tiffany: Natural Resources Committee membership not confirmed on the House Clerk page (Wikipedia only).
+
+## New state-legislative bios (PR #32) — items for review
+
+- megan-jones (IA): Ballotpedia page data odd (tenure 2013, stray campaign-theme line); identity slightly uncertain.
+- blake-johnson-in: not written — Ballotpedia lists IN HD-100 Democratic incumbent as Robert Johnson; people.json name likely a data error (alt slate:in-lower-100/robert-johnson).
+- mark-fisher (MD): people index merged Del. Mark Fisher (27C, R) with a different Mark Fisher, the District 13 Republican nominee. Bio describes the District 13 nominee; the index needs splitting (same bug class as the us-sen-ak Dan Sullivans).
+- aaron-dana (ME): index gives him the Passamaquoddy tribal representative office; could not confirm he is the same person as the independent SD-6 candidate. Bio covers the candidacy only.
+- jeff-coleman (MO): index merged Rep. Jeff Coleman (HD-32) with a different Jeff Coleman, the Libertarian HD-101 candidate. Bio covers the candidate.
+- Index check: 13 people whose current office district differs from their 2026 candidacy district in the same chamber (some are real moves after redistricting, e.g. Romaine Quinn WI SD-25→23; others are same-name merges like jeff-coleman, mark-fisher, robert-williams): alice-wade, becky-edwards, david-walker, dayna-polehanki, jeff-coleman, john-larochelle, mark-fisher, nikki-torres, robert-williams, romaine-quinn, (sam-farrington confirmed a real move).
+- jade-sooktis (MT): Ballotpedia has a 2026 arrest/DUI-charge section that the bio does not cover; an editor should decide whether to add it from a news report (rule 9).
+- travis-corcoran (NH): Ballotpedia has a 2026 House censure section not covered in the bio — official action; an editor may add it from the House record.
+- patrick-long (NH House, Hillsborough 26; no Ballotpedia page) and pat-long (NH Senate SD-20; Ballotpedia 'Patrick Long'): check whether these are one person counted twice in the candidate data.
+- paulene-abeyta (NM HD-69): not written — Ballotpedia lists the District 69 Democratic incumbent as Michelle Abeyta; candidate data name likely wrong.
+- robert-williams (SC): confirmed merge — index combines Rep. Robert Williams (HD-62, 20-year incumbent) with a Democratic HD-42 challenger of the same name; bio describes the HD-42 candidate. Split in people.json.
+- andrew-engell (WA HD-7 Pos 1): not written; Ballotpedia incumbent is David Engell — candidate data name likely wrong.
+- nikki-torres (WA): represents SD-15 but on 2026 ballot for SD-8 — check race data.
+- clyde-shavers, mcentire (WA): agent omitted Wikipedia controversy material (Shavers résumé reporting, 2024) — editor decision under README rule 9.
+- cade-woods (AK House): Ballotpedia says lost Aug 18 primary — check whether he belongs in the general-election race data.
+- david-cook-az: 2018 DUI arrest (on Ballotpedia, widely reported) omitted — editor decision under rule 9.
+- ed-delgado (CA): Ballotpedia page mixes in a Wisconsin candidate's survey; summary-only.
+- alphonse-paolillo, jonathan-fazzino (CT): sitting House members running for Senate; people.json currentRole is null.
+- john-atkins (DE): agent omitted older controversy on Ballotpedia (2000s House episode) — editor decision under rule 9.
+- tracy-wheeler (GA SD): Ballotpedia lists a 2026 arrest/charge — omitted; editor decision under rule 9.
+- chuck-hand (GA SD-15): Ballotpedia page only covers a withdrawn GA-2 run; identity unconfirmed, summary-only from candidate list.
+- roger-smith (GA HD-9): no Ballotpedia person page; summary-only.
+- larry-johnson (GA SD-10): Ballotpedia page also lists DeKalb County Commission D3 wins — verify same person.
+- nate-boulton (IA): Ballotpedia mentions 2018 ethics complaint — omitted; editor decision (rule 9).
+- charlie-helmick (IA HD-97): Ballotpedia page merges Illinois campaigns (IL-17 2022, IL HD-72 2024) — verify same person.
+- wes-enos (IA): Ballotpedia says he lost the primary to Bousselot yet lists him as general nominee (Bousselot withdrawn) — verify.
+- jennifer-white (MA): incumbent since Jan 2023 per Ballotpedia, but people.json currentRole is null.
+- jim-crawford (MD 27A): bio mentions a 2018 HD-28 R run from the same Ballotpedia page — identity of that run unconfirmed.
+- mark-s-chang (MD): sitting delegate D-32 running for Senate; people.json currentRole null.
+- luke-jensen (ME): 2014/2018 runs from Ballotpedia profile, identity unconfirmed.
+- nancy-de-boer (MI HD-86): incumbent per Ballotpedia; people.json currentRole null.
+- david-bedey (MT HD-86): sitting member since 2019; people.json currentRole null.
+- lakeshia-alston (NC): Ballotpedia spells LaKeshia — check name.
+- thomas-cormen (NH): incumbent per Ballotpedia; people.json currentRole null.
+- dylan-germana (NH Carroll): resigned 2026-01-30; Ballotpedia footnotes an AG residency probe (news not loaded) — editor decision.
+- tammy-simmons-garthwaite (NH Carroll 8): 2018–22 Hillsborough runs on same Ballotpedia page — identity unconfirmed.
+- bill-obrien (NH Hillsborough 40): couldn't confirm whether he's the former House Speaker; summary-only.
+- andrea-reeb (NM): resigned 2026-10-15, unofficially withdrew but on ballot — check race data / currentRole.
+- lisa-curtis (NM?): Ballotpedia page carries a 2011–12 committee list under surname "Cravens" — verify identity.
+- mary-finneran, charles-potter, daniel-fusco (NY?): lost June 23 primaries; Ballotpedia lists withdrawn/disqualified — check race data.
+- john-gunther, dennis-gordon: Ballotpedia pages not confirmable; summary-only. john-lipe: Ballotpedia spells "Jon Lipe".
+- dan-livingston (NY): lost June primary, not on general ballot per Ballotpedia — remove from race data?
+- sloma-teitelbaum (disqualified), evan-menist (lost primary) — NY, not on general ballot per Ballotpedia; check race data.
+- emily-yuexin-miller (NY SD47): Conservative candidate who did not make the ballot — check race data.
+- kraus (OH): Ballotpedia "Stolen goods" noteworthy event omitted — editor decision (rule 9).
+- fowler, manning (OH House): current members; people.json currentRole null.
+- courtney-neron (OR Senate): current appointed senator; people.json currentRole null.
+- jake-young (PA HD14): Ballotpedia bio text says 'Bradley Young' — verify name.
