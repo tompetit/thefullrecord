@@ -11,40 +11,158 @@
   "context": [
     {
       "text": "Incumbent Shri Thanedar (D) is not on the November ballot: state Rep. Donavan McKinney defeated him in the August 4, 2026 Democratic primary, 51.9% to 48.1% (57,714 to 53,494 votes). Taras Nykoriak won the Republican primary unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "donavan-mckinney",
       "name": "Donavan McKinney",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Defeated incumbent Rep. Shri Thanedar in the August 4, 2026 Democratic primary, 51.9%-48.1%.",
-      "currentRole": "Michigan State Representative, District 14",
+      "currentRole": "Michigan State Representative, District 11",
       "summary": {
-        "text": "Donavan McKinney is a Michigan state representative who defeated incumbent Rep. Shri Thanedar in the Democratic primary, campaigning on unions, taxing billionaires and environmental justice in a district with high rates of asthma and pollution.",
-        "sources": ["s2"]
+        "text": "Donavan McKinney is a Michigan state representative from Detroit who won the August 4, 2026 Democratic primary over incumbent Rep. Shri Thanedar. Before the legislature he worked for a healthcare union, in the state House, and for a national climate organization. His campaign website lists priorities including union jobs, taxes on billionaires and corporations, environmental justice, Medicare for All and public education funding.",
+        "sources": [
+          "s2",
+          "s2b"
+        ]
       },
       "background": [
-        {"text": "Born in Detroit; earned a bachelor's degree in public policy from the University of Michigan in 2014.", "sources": ["s2"]},
-        {"text": "Worked as political director of SEIU Healthcare Michigan, as a legislative director in the Michigan State House, and as national political director of Climate Power.", "sources": ["s2"]},
-        {"text": "Elected to the Michigan House of Representatives, where he serves on the House Appropriations Committee (2023-2026).", "sources": ["s2"]}
+        {
+          "text": "Describes himself as a lifelong Detroiter who grew up in northeast Detroit, raised by his mother and grandmother; according to his campaign website, his family moved more than 13 times because of evictions. Ballotpedia lists his birthplace as Detroit.",
+          "sources": [
+            "s2b",
+            "s2"
+          ]
+        },
+        {
+          "text": "Attended Detroit Public Schools and earned a bachelor's degree in public policy from the University of Michigan (Gerald R. Ford School of Public Policy) in 2014; his campaign website describes him as the first in his family to graduate from college.",
+          "sources": [
+            "s2",
+            "s2b"
+          ]
+        },
+        {
+          "text": "Career before elected office included community engagement at the nonprofit Community Development Advocates of Detroit, serving as a legislative director in the Michigan House of Representatives, and serving as political director of SEIU Healthcare Michigan.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Later served as national political director of Climate Power, a national climate organization, according to Ballotpedia.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Ran unsuccessfully in the 2020 Democratic primary for Michigan House District 3, according to Ballotpedia's campaign finance and election history.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the November 2022 general election for Michigan House District 14 and took office in 2023; he won re-election in 2024 in the redrawn District 11, which covers northeast Detroit and southwest/west Warren.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
+        },
+        {
+          "text": "In the Michigan House he was assigned to the Appropriations Committee (2023-2026), according to Ballotpedia.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the August 4, 2026 Democratic primary for Michigan's 13th Congressional District, defeating incumbent Shri Thanedar.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        }
       ],
       "priorities": [
-        {"text": "Raising taxes on billionaires and corporations to fund housing, education and healthcare investments.", "quote": "That starts with making the ultra-wealthy like Elon Musk, Donald Trump, and Congressman Shri Thanedar pay their fair share... Raising taxes on billionaires and corporations could fund crucial investments our community needs for housing, education, clean air & water, fair paying jobs and healthcare.", "sources": ["s2b"]},
-        {"text": "A 'Green New Deal' transition to 100% clean energy, citing lead and air pollution in the district.", "quote": "A Green New Deal transitioning to 100% clean and renewable energy, would protect our planet's future and create millions of good-paying green union jobs in Michigan.", "sources": ["s2b"]},
-        {"text": "Medicare for All, including reproductive and abortion care coverage.", "quote": "I know our families cannot afford anything less than Medicare for All... Medicare for All would include coverage for dental, vision, mental health, reproductive health and abortion care.", "sources": ["s2b"]}
+        {
+          "text": "Raising taxes on billionaires and corporations to fund housing, education and healthcare investments.",
+          "quote": "That starts with making the ultra-wealthy like Elon Musk, Donald Trump, and Congressman Shri Thanedar pay their fair share... Raising taxes on billionaires and corporations could fund crucial investments our community needs for housing, education, clean air & water, fair paying jobs and healthcare.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "text": "A 'Green New Deal' transition to 100% clean energy, citing lead and air pollution in the district.",
+          "quote": "A Green New Deal transitioning to 100% clean and renewable energy, would protect our planet's future and create millions of good-paying green union jobs in Michigan.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "text": "Medicare for All, including reproductive and abortion care coverage.",
+          "quote": "I know our families cannot afford anything less than Medicare for All... Medicare for All would include coverage for dental, vision, mental health, reproductive health and abortion care.",
+          "sources": [
+            "s2b"
+          ]
+        }
       ],
       "positions": [
-        {"issue": "tax_wealthy", "stance": "supports", "summary": "Supports raising taxes on billionaires and corporations.", "quote": "Raising taxes on billionaires and corporations could fund crucial investments our community needs for housing, education, clean air & water, fair paying jobs and healthcare.", "sources": ["s2b"]},
-        {"issue": "climate", "stance": "supports", "summary": "Supports a Green New Deal-style transition to 100% clean and renewable energy.", "quote": "A Green New Deal transitioning to 100% clean and renewable energy, would protect our planet's future and create millions of good-paying green union jobs in Michigan.", "sources": ["s2b"]},
-        {"issue": "healthcare_public", "stance": "supports", "summary": "Supports Medicare for All.", "quote": "I know our families cannot afford anything less than Medicare for All, which would ensure everyone in this country has healthcare.", "sources": ["s2b"]},
-        {"issue": "abortion", "stance": "supports", "summary": "Supports Medicare for All including coverage for abortion care.", "quote": "Medicare for All would include coverage for dental, vision, mental health, reproductive health and abortion care.", "sources": ["s2b"]}
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports raising taxes on billionaires and corporations.",
+          "quote": "Raising taxes on billionaires and corporations could fund crucial investments our community needs for housing, education, clean air & water, fair paying jobs and healthcare.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Supports a Green New Deal-style transition to 100% clean and renewable energy.",
+          "quote": "A Green New Deal transitioning to 100% clean and renewable energy, would protect our planet's future and create millions of good-paying green union jobs in Michigan.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports Medicare for All.",
+          "quote": "I know our families cannot afford anything less than Medicare for All, which would ensure everyone in this country has healthcare.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "issue": "abortion",
+          "stance": "supports",
+          "summary": "Supports Medicare for All including coverage for abortion care.",
+          "quote": "Medicare for All would include coverage for dental, vision, mental health, reproductive health and abortion care.",
+          "sources": [
+            "s2b"
+          ]
+        }
       ],
       "record": [
-        {"text": "Serves on the Michigan House Appropriations Committee, 2023-2026 sessions.", "kind": "action", "sources": ["s2"]},
-        {"text": "Defeated incumbent U.S. Rep. Shri Thanedar in the August 4, 2026 Democratic primary, 51.9% to 48.1%.", "kind": "action", "sources": ["s1"]}
+        {
+          "text": "Serves on the Michigan House Appropriations Committee, 2023-2026 sessions.",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Defeated incumbent U.S. Rep. Shri Thanedar in the August 4, 2026 Democratic primary, 51.9% to 48.1%.",
+          "kind": "action",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "website": "https://www.donavanforcongress.com/",
       "researchDepth": "basic"
@@ -52,74 +170,298 @@
     {
       "id": "taras-nykoriak",
       "name": "Taras Nykoriak",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Taras Nykoriak, also known as 'TP,' is a Detroit-based Republican candidate who traveled to Ukraine in 2022 and 2023 and is campaigning on government accountability, marijuana decriminalization and reforming qualified immunity for federal law-enforcement officers.",
-        "sources": ["s3b"]
+        "text": "Taras \"TP\" Nykoriak is the Republican nominee in Michigan's 13th District, advancing from the August 4, 2026 Republican primary. He has run for county and city office in the Detroit area before. According to his campaign website, he is running on government accountability, federal marijuana decriminalization and qualified-immunity reform for federal law-enforcement officers.",
+        "sources": [
+          "s5",
+          "s3b"
+        ]
       },
       "background": [
-        {"text": "Describes himself as born and raised in Detroit.", "sources": ["s3b"]},
-        {"text": "Traveled to Ukraine in 2022 and 2023, which he says shaped his focus on oversight of U.S. foreign assistance.", "sources": ["s3b"]}
+        {
+          "text": "Describes himself as born and raised in Detroit.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "According to his campaign website, he traveled to Ukraine in 2022 and 2023, which he says shaped his focus on oversight of U.S. foreign assistance.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Won the August 2024 Republican primary for Wayne County Sheriff over Articia Bomer and lost the November 2024 general election to incumbent Raphael Washington (D).",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Was a candidate in the November 2025 nonpartisan election for Detroit Board of Police Commissioners District 3, which Darious Morris won.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Advanced from the August 4, 2026 Republican primary for U.S. House in Michigan's 13th District.",
+          "sources": [
+            "s5",
+            "s1"
+          ]
+        }
       ],
       "priorities": [
-        {"text": "Federal marijuana decriminalization and relief for past low-level marijuana convictions.", "quote": "TP Nykoriak believes Congress should work with the President to remove marijuana from the federal list of controlled substances where appropriate and modernize federal law.", "sources": ["s3b"]},
-        {"text": "Ending qualified immunity for federal officers, including Border Patrol and ICE agents, who knowingly violate constitutional rights.", "quote": "TP Nykoriak will introduce legislation to substantially reform qualified immunity for federal law enforcement officers, including Border Patrol agents and Immigration and Customs Enforcement (ICE) officers, when they knowingly violate clearly established constitutional rights.", "sources": ["s3b"]},
-        {"text": "Stronger congressional oversight of U.S. foreign assistance spending, including aid related to Ukraine.", "quote": "TP Nykoriak will advocate for comprehensive congressional oversight and investigations into the expenditure of U.S. funds and materials provided for foreign conflicts, including assistance related to Ukraine and other overseas operations.", "sources": ["s3b"]}
+        {
+          "text": "Federal marijuana decriminalization and relief for past low-level marijuana convictions.",
+          "quote": "TP Nykoriak believes Congress should work with the President to remove marijuana from the federal list of controlled substances where appropriate and modernize federal law.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Ending qualified immunity for federal officers, including Border Patrol and ICE agents, who knowingly violate constitutional rights.",
+          "quote": "TP Nykoriak will introduce legislation to substantially reform qualified immunity for federal law enforcement officers, including Border Patrol agents and Immigration and Customs Enforcement (ICE) officers, when they knowingly violate clearly established constitutional rights.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Stronger congressional oversight of U.S. foreign assistance spending, including aid related to Ukraine.",
+          "quote": "TP Nykoriak will advocate for comprehensive congressional oversight and investigations into the expenditure of U.S. funds and materials provided for foreign conflicts, including assistance related to Ukraine and other overseas operations.",
+          "sources": [
+            "s3b"
+          ]
+        }
       ],
       "positions": [],
       "record": [],
       "website": "https://tp313.org/",
-      "researchDepth": "basic",
-      "researchNotes": "Nykoriak has not completed Ballotpedia's Candidate Connection survey; positions above are drawn from his own campaign website. None of his stated priorities map cleanly onto this guide's fixed issue list, so no `positions` entries were added."
+      "researchDepth": "basic"
     },
     {
       "id": "raelyn-light",
       "name": "Raelyn Light",
-      "parties": ["G"],
+      "parties": [
+        "G"
+      ],
       "incumbent": false,
-      "summary": {"text": "Raelyn Light is the Green Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
-      "background": [], "priorities": [], "positions": [], "record": [],
+      "summary": {
+        "text": "Raelyn Light is the Green Party candidate for Michigan's 13th District, advancing from the party's July 18, 2026 convention. Little biographical information is available in public sources.",
+        "sources": [
+          "s9",
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Advanced from the Green Party convention on July 18, 2026 and is on the November 3, 2026 general-election ballot.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
       "researchDepth": "minimal",
       "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
     },
     {
       "id": "christopher-dardzinski",
       "name": "Christopher Dardzinski",
-      "parties": ["U.S. Taxpayers Party"],
+      "parties": [
+        "U.S. Taxpayers Party"
+      ],
       "incumbent": false,
-      "summary": {"text": "Christopher Dardzinski is the U.S. Taxpayers Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
-      "background": [], "priorities": [], "positions": [], "record": [],
+      "summary": {
+        "text": "Christopher Dardzinski is the U.S. Taxpayers Party candidate for Michigan's 13th District and has appeared on the general-election ballot for this seat before. Ballotpedia lists his career as including business, publishing, writing, economic analysis, political consulting and journalism.",
+        "sources": [
+          "s6",
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Born in Wyandotte, Michigan, in 1967 and raised there, according to his Ballotpedia Candidate Connection survey.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Earned an associate degree from Henry Ford Community College in 1988.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Ballotpedia lists his career experience as working in business and as a publisher, author, economic analyst, political consultant, and journalist; in a 2024 survey he described himself as a former city council member and retired international trade analyst.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Appeared on the general-election ballot for Michigan's 13th District as the U.S. Taxpayers Party candidate in 2022 and 2024, and advanced from the party's July 18, 2026 convention.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
       "researchDepth": "minimal",
       "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
     },
     {
       "id": "simone-coleman",
       "name": "Simone Coleman",
-      "parties": ["Working Class Party"],
+      "parties": [
+        "Working Class Party"
+      ],
       "incumbent": false,
-      "summary": {"text": "Simone Coleman is the Working Class Party candidate on the November general-election ballot for this district.", "sources": ["s1"]},
-      "background": [], "priorities": [], "positions": [], "record": [],
+      "summary": {
+        "text": "Simone Coleman is the Working Class Party candidate for Michigan's 13th District and has run for office in Detroit-area races before. Little other biographical information is available in public sources.",
+        "sources": [
+          "s7",
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Ran as the Working Class Party candidate for Michigan House District 14 in 2020.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Appeared on the general-election ballot for Michigan's 13th District in 2022 and 2024, and advanced from the Working Class Party convention for the 2026 race on June 6, 2026.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
       "researchDepth": "minimal",
       "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
     },
     {
       "id": "burgess-foster",
       "name": "Burgess Foster",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Certified write-in candidate.",
-      "summary": {"text": "Burgess Foster is a certified independent write-in candidate for this district's general election.", "sources": ["s1"]},
-      "background": [], "priorities": [], "positions": [], "record": [],
+      "summary": {
+        "text": "Burgess Foster is an independent write-in candidate for Michigan's 13th District in the November 2026 general election. Little biographical information is available in public sources.",
+        "sources": [
+          "s8",
+          "s1"
+        ]
+      },
+      "background": [
+        {
+          "text": "Ballotpedia lists him as an independent who declared a write-in candidacy for this seat; it also lists his name in connection with a 2014 election and a 2017 Michigan House District 1 special election, without further detail.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "priorities": [],
+      "positions": [],
+      "record": [],
       "researchDepth": "minimal",
       "researchNotes": "No campaign website, public statements, or Ballotpedia Candidate Connection survey response found."
     }
   ],
   "sources": [
-    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026", "title": "United States House of Representatives elections in Michigan, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s2", "url": "https://ballotpedia.org/Donavan_McKinney", "title": "Donavan McKinney", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s2b", "url": "https://www.donavanforcongress.com/", "title": "McKinney's campaign website statement (quoted by Ballotpedia)", "publisher": "Donavan McKinney for Congress / Ballotpedia", "kind": "candidate", "date": "2026-09-25"},
-    {"id": "s3b", "url": "https://tp313.org/", "title": "TP Nykoriak for Congress — Mission & Agenda", "publisher": "Taras Nykoriak for Congress", "kind": "candidate", "date": "2026-09-25"}
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026",
+      "title": "United States House of Representatives elections in Michigan, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Donavan_McKinney",
+      "title": "Donavan McKinney",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2b",
+      "url": "https://www.donavanforcongress.com/",
+      "title": "McKinney's campaign website statement (quoted by Ballotpedia)",
+      "publisher": "Donavan McKinney for Congress / Ballotpedia",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3b",
+      "url": "https://tp313.org/",
+      "title": "TP Nykoriak for Congress — Mission & Agenda",
+      "publisher": "Taras Nykoriak for Congress",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Taras_Nykoriak",
+      "title": "Taras Nykoriak",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Christopher_Dardzinski",
+      "title": "Christopher Dardzinski",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Simone_Coleman",
+      "title": "Simone Coleman",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Burgess_Foster",
+      "title": "Burgess Foster",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Raelyn_Light",
+      "title": "Raelyn Light",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s10",
+      "url": "https://housedems.com/Donavan-McKinney",
+      "title": "Donavan McKinney - State Representative",
+      "publisher": "Michigan House Democrats",
+      "kind": "official",
+      "date": "2026-10-21"
+    }
   ],
-  "researchedAt": "2026-09-25"
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Biographical information for Raelyn Light, Simone Coleman and Burgess Foster is limited to ballot listings and election history; no campaign biographies were found."
 }
