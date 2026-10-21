@@ -6,7 +6,9 @@
 
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
+import type { Bio } from "../bios";
 import type {
+  Cited,
   Finance,
   GuideCandidate,
   GuideRace,
@@ -15,6 +17,8 @@ import type {
   KeyVote,
   OfficeType,
   Position,
+  PartyLine,
+  PartyTally,
   Stance,
   StateVote,
 } from "./types";
@@ -42,8 +46,16 @@ export interface KeyVoteDef {
   summarySourceUrl?: string;
 }
 
+interface PartyLineData {
+  federal: Record<string, { tally: PartyTally; majority: Record<string, string | null> }>;
+  state: Record<string, { tally: PartyTally; majority: Record<string, string | null> }>;
+  candidates: Record<string, Record<string, PartyLine>>;
+}
+
 interface Enrichment {
   finance: Record<string, Finance>;
+  donors: Record<string, Pick<Finance, "bySource" | "topCommittees" | "receiptsUrl">>;
+  partyLine: PartyLineData;
   members: Record<string, { bioguideId: string; fecId?: string; keyVotes: KeyVote[] }>;
   landmark: Record<string, Array<StateVote & { id: string }>>;
   senateLandmark: Record<string, Array<StateVote & { id: string }>>;
@@ -75,6 +87,19 @@ function readJson<T>(path: string, fallback: T): T {
     return fallback;
   }
 }
+
+let partyLine: PartyLineData | null = null;
+function getPartyLine(): PartyLineData {
+  if (!partyLine) partyLine = readJson<PartyLineData>(join(GEN_DIR, "party-line.json"), { federal: {}, state: {}, candidates: {} });
+  return partyLine;
+}
+
+/** How each party voted on a congressional key vote. */
+export function getPartyTally(voteId: string): PartyTally | undefined {
+  return getPartyLine().federal[voteId]?.tally;
+}
+
+const stateVoteKey = (v: StateVote) => `${v.chamber.toLowerCase()}|${v.bill}|${v.date}`;
 
 export function getKeyVoteDefs(): KeyVoteDef[] {
   if (!keyVoteDefs)
@@ -320,10 +345,38 @@ function addBillPositions(race: GuideRace, c: GuideCandidate, data: CosponsorDat
   }
 }
 
+// Read directly (not via ../people, ../bios) so the scripts can load this file under plain Node.
+let slugByCandidate: Map<string, string> | null = null;
+function bioFor(raceId: string, candidateId: string): Bio | null {
+  slugByCandidate ??= new Map(
+    readJson<Array<{ slug: string; candidacies?: Array<{ raceId?: string; candidateId?: string }> }>>(join(process.cwd(), "src/server/people.json"), [])
+      .flatMap((p) => (p.candidacies ?? []).filter((c) => c.raceId).map((c) => [`${c.raceId}/${c.candidateId}`, p.slug] as [string, string]))
+  );
+  const slug = slugByCandidate.get(`${raceId}/${candidateId}`);
+  return slug ? readJson<Bio | null>(join(process.cwd(), "content/bios", `${slug}.json`), null) : null;
+}
+
+/** Biographies live in content/bios; copy the candidate's in, appending its sources to the race's. */
+function attachBio(race: GuideRace, c: GuideCandidate) {
+  const bio = bioFor(race.id, c.id);
+  if (!bio) {
+    c.summary = { text: "", sources: [] };
+    c.paragraphs = [];
+    return;
+  }
+  const id = (s: string) => `${c.id}~${s}`;
+  for (const s of bio.sources) race.sources.push({ ...s, id: id(s.id) });
+  const map = (x: Cited): Cited => ({ text: x.text, sources: x.sources.map(id) });
+  c.summary = { text: bio.summary.map((s) => s.text).join(" "), sources: [...new Set(bio.summary.flatMap((s) => s.sources))].map(id) };
+  c.paragraphs = bio.paragraphs.map((p) => p.map(map));
+}
+
 function load(): Map<string, GuideRace> {
   if (races) return races;
   const enrich: Enrichment = {
     finance: readJson(join(GEN_DIR, "finance.json"), {}),
+    donors: readJson(join(GEN_DIR, "donors.json"), {}),
+    partyLine: getPartyLine(),
     members: readJson(join(GEN_DIR, "members.json"), {}),
     cosponsors: readJson<CosponsorData>(join(GEN_DIR, "cosponsors.json"), { generatedAt: "", bills: [], candidates: {} }),
     stateVotes: readJson(join(GEN_DIR, "state-votes.json"), {}),
@@ -343,6 +396,7 @@ function load(): Map<string, GuideRace> {
     const race = readJson<GuideRace | null>(join(RACES_DIR, file), null);
     if (!race?.id) continue;
     for (const c of race.candidates) {
+      attachBio(race, c);
       // Authored vote-based entries follow the same no-inference rule.
       for (const position of c.positions) {
         if (position.basis === "votes") position.stance = "not_inferred";
@@ -353,14 +407,19 @@ function load(): Map<string, GuideRace> {
       const sv = enrich.stateVotes[key];
       const lmList = [...(enrich.landmark[key] ?? []), ...(enrich.senateLandmark[key] ?? [])];
       const lm = lmList.length ? lmList : undefined;
-      if (sv || lm) c.stateVotes = [...(lm ?? []), ...(sv ?? [])];
+      const pl = enrich.partyLine.candidates[key] ?? {};
+      if (sv || lm)
+        c.stateVotes = [...(lm ?? []), ...(sv ?? [])].map((v) => {
+          const k = stateVoteKey(v);
+          return pl[k] ? { ...v, partyLine: pl[k], partyTally: enrich.partyLine.state[k]?.tally } : v;
+        });
       if (lm) addStateVotePositions(race, c, lm);
       const fin = enrich.finance[key];
-      if (fin) c.finance = fin;
+      if (fin) c.finance = { ...fin, ...enrich.donors[key] };
       const mem = enrich.members[key];
       if (mem) {
         c.bioguideId = mem.bioguideId;
-        c.keyVotes = mem.keyVotes;
+        c.keyVotes = mem.keyVotes.map((kv) => (pl[kv.voteId] ? { ...kv, partyLine: pl[kv.voteId] } : kv));
         if (mem.fecId) c.fecId = mem.fecId;
         addVotePositions(race, c);
       }

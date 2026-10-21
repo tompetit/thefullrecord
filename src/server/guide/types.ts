@@ -103,9 +103,17 @@ export interface RecordItem {
   sources: string[];
 }
 
+/** How each party's members voted on one roll call (yes / no / did not vote). */
+export type PartyTally = Partial<Record<"D" | "R", { yes: number; no: number; nv: number }>>;
+
+/** Whether a vote matched the majority of the member's own party (independents: their caucus). */
+export type PartyLine = "with" | "against";
+
 export interface KeyVote {
   voteId: string;
   vote: "yes" | "no" | "present" | "not voting";
+  /** Set by the loader from generated/party-line.json */
+  partyLine?: PartyLine;
 }
 
 export interface StateVote {
@@ -117,6 +125,9 @@ export interface StateVote {
   date: string;
   vote: "yes" | "no" | "absent";
   sourceUrl: string;
+  /** Set by the loader for current-term NY votes (party by district) */
+  partyLine?: PartyLine;
+  partyTally?: PartyTally;
 }
 
 export interface Finance {
@@ -127,6 +138,11 @@ export interface Finance {
   asOf: string;
   sourceUrl: string;
   source: string;
+  /** From FEC bulk files (generated/donors.json), when matched */
+  bySource?: { individuals: number; committees: number; party: number; candidate: number; candidateLoans: number };
+  /** Largest direct contributions from committees this cycle */
+  topCommittees?: { name: string; org?: string; kind: string; amount: number; url: string }[];
+  receiptsUrl?: string;
 }
 
 export interface GuideCandidate {
@@ -140,8 +156,13 @@ export interface GuideCandidate {
   ballotNote?: string;
   /** e.g. "U.S. Representative (since 2013)" */
   currentRole?: string;
+  /**
+   * Filled by the loader from the person's bio (content/bios/<slug>.json), the only place
+   * biographies are stored. Source ids point into race.sources (bio sources are appended there).
+   */
   summary: Cited;
-  background: Cited[];
+  /** Longer bio, as paragraphs; filled by the loader like `summary` */
+  paragraphs: Cited[][];
   /** What the candidate says are their priorities (from their own materials) */
   priorities: Cited[];
   positions: Position[];

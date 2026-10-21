@@ -1,42 +1,89 @@
 {
   "slug": "ed-kemon",
   "name": "Ed Kemon",
-  "bio": [
+  "summary": [
     {
-      "text": "Ed Kemon of Vergennes is the Republican candidate for Vermont Attorney General in the November 3, 2026 general election.",
+      "text": "Edwin Howell \"Ed\" Kemon of Vergennes is the Republican nominee for Attorney General, facing incumbent Charity Clark.",
       "sources": [
-        "s1"
+        "s1",
+        "s3"
       ]
     },
     {
-      "text": "The Vermont Republican committee chose Kemon in August 2026 to replace H. Brooke Paige, who withdrew after being certified as the winner of the Republican primary for the office.",
+      "text": "The Vermont Republican committee chose him in August 2026 after H. Brooke Paige, who had been certified the winner of the August 11 Republican primary for the office, withdrew.",
       "sources": [
-        "s1"
+        "s2",
+        "s3"
       ]
     },
     {
-      "text": "In Vermont Public's candidate guide, where answers appear as submitted, Kemon lists an occupation of model-based systems engineer and also lists service as president of a Lions Club and as a Fairfax Co. election chief.",
+      "text": "In Vermont Public's candidate guide he calls public safety the central issue of the race.",
       "sources": [
-        "s2"
+        "s4"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Ed Kemon is 71 and lives in Vergennes.",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "In Vermont Public's candidate guide, where answers appear as submitted, he lists his occupation as a model-based systems engineer and also lists service as president of a Lions Club and as a Fairfax Co. election chief.",
+        "sources": [
+          "s4"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "In the same guide, Kemon says the law must be enforced fairly and impartially, and he names public safety as the central issue, particularly \"stopping the practice of releasing repeat offenders onto the streets without meaningful penalty.\"",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "He also says crimes against children must be a priority and that he would prioritize enforcing consumer-protection laws against frauds and scams that target older and vulnerable Vermonters.",
+        "sources": [
+          "s4"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
+      "url": "https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx",
+      "title": "2026 General Election Qualified Candidates",
+      "publisher": "Vermont Secretary of State",
+      "kind": "official"
+    },
+    {
+      "id": "s2",
       "url": "https://www.vermontpublic.org/local-news/2026-08-18/vermont-republicans-name-candidates-for-attorney-general-auditor-and-treasurer",
-      "title": "Vermont Republicans name candidates for attorney general, auditor and treasurer | Vermont Public",
+      "title": "Vermont Republicans name candidates for attorney general, auditor and treasurer",
       "publisher": "Vermont Public",
       "kind": "news",
       "date": "2026-08-18"
     },
     {
-      "id": "s2",
+      "id": "s3",
+      "url": "https://www.wcax.com/2026/08/26/vermont-gop-picks-candidates-replace-perennial-ballot-placeholder/",
+      "title": "Vermont GOP picks candidates to replace perennial ballot placeholder",
+      "publisher": "WCAX",
+      "kind": "news",
+      "date": "2026-08-26"
+    },
+    {
+      "id": "s4",
       "url": "https://app.vermontpublic.org/general-candidate-guide/accessible-general.html",
-      "title": "Vermont Candidate Guide — Full Candidate List (2026 General Election)",
+      "title": "Vermont Candidate Guide - Full Candidate List (2026 General Election)",
       "publisher": "Vermont Public",
       "kind": "news"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

@@ -21,7 +21,11 @@ const OFFICE_TYPES = new Set(["us-senate", "us-house", "governor", "attorney-gen
 const KINDS = new Set(["official", "candidate", "news", "reference"]);
 const REC_KINDS = new Set(["vote", "bill", "action", "finance", "legal"]);
 // bioguide -> name for current members, to catch a candidate tagged with another member's ID
-const MEMBERS = new Map(JSON.parse(readFileSync(join(ROOT, "src/server/people.json"), "utf8")).filter((p) => p.key.startsWith("bio:")).map((p) => [p.key.slice(4), p.name]));
+const PEOPLE = JSON.parse(readFileSync(join(ROOT, "src/server/people.json"), "utf8"));
+const MEMBERS = new Map(PEOPLE.filter((p) => p.key.startsWith("bio:")).map((p) => [p.key.slice(4), p.name]));
+// Biographies live in content/bios/<slug>.json (scripts/bios/validate.mjs); every candidate needs one.
+const SLUG_FOR = new Map(PEOPLE.flatMap((p) => (p.candidacies ?? []).filter((c) => c.raceId).map((c) => [`${c.raceId}/${c.candidateId}`, p.slug])));
+const BIOS = new Set(readdirSync(join(ROOT, "content/bios")).map((f) => f.replace(/\.json$/, "")));
 const lastWord = (n) => n.toLowerCase().replace(/,?\s+(jr|sr|ii|iii|iv)\.?$/i, "").replace(/[^a-z\s-]/g, "").trim().split(/\s+/).pop();
 const BANNED = /\b(extreme|radical|common[- ]sense|controversial|far-left|far-right|disgraced|hypocrit\w*|flip-flop\w*)\b/i;
 
@@ -72,15 +76,17 @@ for (const file of files) {
     if (c.bioguideId && MEMBERS.has(c.bioguideId) && lastWord(MEMBERS.get(c.bioguideId)) !== lastWord(c.name) && !c.name.toLowerCase().includes(lastWord(MEMBERS.get(c.bioguideId))))
       errs.push(`${c.id}: bioguideId ${c.bioguideId} belongs to ${MEMBERS.get(c.bioguideId)}`);
     const w = `candidate ${c.id}`;
-    need(c, ["id", "name", "parties", "summary", "researchDepth"], w);
+    need(c, ["id", "name", "parties", "researchDepth"], w);
+    if ("summary" in c || "background" in c) errs.push(`${w}: summary/background belong in content/bios/<slug>.json, not the race file`);
+    const slug = SLUG_FOR.get(`${r.id}/${c.id}`);
+    if (!slug) errs.push(`${w}: not in src/server/people.json (run npm run people:index)`);
+    else if (!BIOS.has(slug)) errs.push(`${w}: no bio at content/bios/${slug}.json`);
     if (cids.has(c.id)) errs.push(`${w}: duplicate id`);
     cids.add(c.id);
     if (typeof c.incumbent !== "boolean") errs.push(`${w}: incumbent must be boolean`);
     if (!["full", "basic", "minimal"].includes(c.researchDepth)) errs.push(`${w}: bad researchDepth`);
-    cites(c.summary, `${w}.summary`);
-    for (const k of ["background", "priorities", "positions", "record"])
+    for (const k of ["priorities", "positions", "record"])
       if (!Array.isArray(c[k])) errs.push(`${w}: ${k} must be an array`);
-    (c.background ?? []).forEach((x, i) => cites(x, `${w}.background[${i}]`));
     (c.priorities ?? []).forEach((x, i) => cites(x, `${w}.priorities[${i}]`));
     (c.statements ?? []).forEach((s, i) => {
       if (!ISSUES.has(s.issue)) errs.push(`${w}.statements[${i}]: bad issue ${s.issue}`);

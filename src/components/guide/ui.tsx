@@ -125,7 +125,7 @@ export function Cites({
   );
 }
 
-export function CitedText({ c, race, className = "" }: { c: Cited; race: GuideRace; className?: string }) {
+export function CitedText({ c, race, className = "" }: { c: Cited; race: Pick<GuideRace, "sources">; className?: string }) {
   return (
     <span className={className}>
       {c.text}
@@ -134,7 +134,7 @@ export function CitedText({ c, race, className = "" }: { c: Cited; race: GuideRa
   );
 }
 
-export function SourceList({ race, ids }: { race: GuideRace; ids?: Set<string> }) {
+export function SourceList({ race, ids }: { race: Pick<GuideRace, "sources">; ids?: Set<string> }) {
   const list = race.sources
     .map((s, i) => ({ s, n: i + 1 }))
     .filter(({ s }) => !ids || ids.has(s.id));

@@ -1,35 +1,78 @@
 {
   "slug": "steve-hilton",
   "name": "Steve Hilton",
-  "bio": [
+  "summary": [
     {
-      "text": "Steve Hilton is the Republican nominee for governor of California in the November 3, 2026 general election.",
+      "text": "Steve Hilton is the Republican nominee for governor, a political commentator who hosted 'The Next Revolution' on Fox News from 2017 to 2023 and earlier served as director of strategy to UK Prime Minister David Cameron. His platform centers on income- and gas-tax cuts, loosening housing and environmental rules and changing the state's sanctuary law.",
       "sources": [
-        "s2"
-      ]
-    },
-    {
-      "text": "He was a senior adviser to U.K. Prime Minister David Cameron from 2010 to 2012, then moved to California and co-founded a Silicon Valley political crowdfunding platform.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "From 2017 to 2023 he hosted a weekly show on Fox News; he has also written books on decentralizing power in institutions.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "According to his campaign website, he was born in London to Hungarian immigrants, attended Oxford, and taught at Stanford.",
-      "sources": [
-        "s3"
+        "s1",
+        "s2",
+        "s3",
+        "s4"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Hilton was born in London in 1969 to Hungarian immigrants and studied Philosophy, Politics and Economics at New College, Oxford.",
+        "sources": [
+          "s1",
+          "s5"
+        ]
+      },
+      {
+        "text": "According to his campaign website, he later taught at Stanford.",
+        "sources": [
+          "s5"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "He served as director of strategy for Prime Minister Cameron from 2010 to 2012, then moved to California in 2012; he became a U.S. citizen in 2021.",
+        "sources": [
+          "s1",
+          "s4"
+        ]
+      },
+      {
+        "text": "He co-founded the political crowdfunding platform Crowdpac, where he was CEO until 2018.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "From 2017 to 2023 he hosted a weekly Fox News show, 'The Next Revolution,' and he has written books on decentralizing power in institutions.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/Steve_Hilton",
+      "title": "Steve Hilton",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://news.ballotpedia.org/2026/06/24/xavier-becerra-d-and-steve-hilton-r-to-run-for-governor-of-california-on-nov-3/",
+      "title": "Xavier Becerra (D) and Steve Hilton (R) to run for governor of California on Nov. 3",
+      "publisher": "Ballotpedia News",
+      "kind": "reference",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
       "url": "https://calmatters.org/california-voter-guide-2026/governor/",
       "title": "California Voter Guide 2026: Governor",
       "publisher": "CalMatters",
@@ -37,21 +80,21 @@
       "date": "2026-10-19"
     },
     {
-      "id": "s2",
+      "id": "s4",
       "url": "https://wtop.com/national/2026/06/republican-steve-hilton-advances-to-general-election-in-race-for-california-governor/",
       "title": "Democrat Xavier Becerra and Republican Steve Hilton will face off in California governor's race",
-      "publisher": "Associated Press via WTOP",
+      "publisher": "Associated Press (via WTOP)",
       "kind": "news",
-      "date": "2026-10-19"
+      "date": "2026-06-09"
     },
     {
-      "id": "s3",
+      "id": "s5",
       "url": "https://www.stevehiltonforgovernor.com/meet-steve",
       "title": "Meet Steve",
       "publisher": "Steve Hilton for Governor (campaign website)",
       "kind": "candidate",
-      "date": "2026-10-19"
+      "date": "2026-10-21"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

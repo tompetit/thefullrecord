@@ -1,25 +1,69 @@
 {
   "slug": "ben-ambrose",
   "name": "Ben Ambrose",
-  "bio": [
+  "summary": [
     {
-      "text": "Ben Ambrose is the Democratic nominee for Michigan's 2nd Congressional District in 2026, after advancing from the August 4 primary.",
+      "text": "Ben Ambrose is a 20-year U.S. Marine Corps infantry veteran from Hesperia, Michigan, and the Democratic nominee for Michigan's 2nd District. After his military service he worked as a federal employee for Oregon Sen. Ron Wyden, and he describes his campaign as a return to public service.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "According to his campaign website, he was born in Muskegon, grew up on a farm in Hesperia, and served nearly 20 years in the U.S. Marine Corps as an infantryman.",
-      "sources": [
-        "s2"
-      ]
-    },
-    {
-      "text": "His campaign website says he holds a B.A. in international affairs from Georgetown University and an MBA from Johns Hopkins University.",
-      "sources": [
-        "s2"
+        "s1",
+        "s2",
+        "s3"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Ambrose was born in Muskegon and grew up on a farm in Hesperia, Michigan, according to his campaign website; WCMU also describes him as a Hesperia native.",
+        "sources": [
+          "s4",
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "text": "His campaign website says he holds a B.A. in international affairs from Georgetown University and an MBA from Johns Hopkins University.",
+        "sources": [
+          "s4"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Ambrose served in the U.S. Marine Corps for 20 years as an infantryman.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "text": "In a 9&10 News candidate questionnaire he said he enlisted six days after high school graduation and deployed to Iraq and Afghanistan, with humanitarian missions to Haiti and Marine Expeditionary Unit deployments.",
+        "sources": [
+          "s3"
+        ]
+      },
+      {
+        "text": "After his military career he worked as a federal employee for Oregon Democratic Sen. Ron Wyden, according to WCMU.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "In the same questionnaire he said he testified before the Senate Veterans' Affairs Committee about cuts by the Department of Government Efficiency, which he said led him to run.",
+        "sources": [
+          "s3"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Ambrose won the August 4, 2026 Democratic primary with 44.3% of the vote, ahead of Jamie Hill (42.3%) and Clyde Welford (13.4%).",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
@@ -31,11 +75,27 @@
     },
     {
       "id": "s2",
+      "url": "https://www.wcmu.org/local-regional-news/2026-08-05/veteran-ben-ambrose-narrowly-secures-wins-2nd-district-democratic-primary",
+      "title": "Veteran Ben Ambrose narrowly wins 2nd District Democratic primary",
+      "publisher": "WCMU Public Media",
+      "kind": "news",
+      "date": "2026-08-05"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.9and10news.com/2026/07/22/meet-the-democrats-running-in-michigans-2nd-congressional-district/",
+      "title": "Meet the Democrats running in Michigan's 2nd Congressional District",
+      "publisher": "9&10 News",
+      "kind": "news",
+      "date": "2026-07-22"
+    },
+    {
+      "id": "s4",
       "url": "https://www.ambrose4congress.com/about",
       "title": "About Ben Ambrose",
       "publisher": "Ben Ambrose for Congress",
       "kind": "candidate"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

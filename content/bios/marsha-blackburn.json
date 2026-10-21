@@ -1,29 +1,100 @@
 {
   "slug": "marsha-blackburn",
   "name": "Marsha Blackburn",
-  "bio": [
+  "summary": [
     {
-      "text": "Marsha Blackburn is a U.S. Senator from Tennessee, elected in 2018 as the first woman to represent the state in the Senate.",
+      "text": "Marsha Blackburn is a U.S. Senator from Tennessee, serving since 2019, and the Republican nominee for governor. She previously served in the Tennessee Senate and for sixteen years in the U.S. House.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "Before the Senate she represented Tennessee's 7th Congressional District in the U.S. House of Representatives and served in the Tennessee State Senate.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "She began her public service career in 1995 as executive director of the Tennessee Film, Entertainment, and Music Commission.",
-      "sources": [
-        "s1"
+        "s1",
+        "s2",
+        "s3"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Blackburn grew up in Laurel, Mississippi, and graduated from Mississippi State University in 1974 with a bachelor's degree in home economics, attending on a 4-H scholarship.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "She began her public service career in 1995 as executive director of the Tennessee Film, Entertainment, and Music Commission.",
+        "sources": [
+          "s1",
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "text": "Blackburn served in the Tennessee Senate from 1999 to 2003, where she led a statewide campaign against a proposed state income tax.",
+        "sources": [
+          "s1",
+          "s2",
+          "s4"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Blackburn represented Tennessee's 7th Congressional District in the U.S. House from 2003 to 2019.",
+        "sources": [
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "text": "On November 6, 2018, she was elected to the U.S. Senate, becoming the first woman elected to the Senate from Tennessee.",
+        "sources": [
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "text": "She won the Republican nomination for governor on August 6, 2026, the first woman to do so in Tennessee.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
+      "url": "https://marshablackburn.com/meet-marsha/",
+      "title": "Meet Marsha",
+      "publisher": "Marsha Blackburn for Governor",
+      "kind": "candidate"
+    },
+    {
+      "id": "s2",
+      "url": "https://en.wikipedia.org/wiki/Marsha_Blackburn",
+      "title": "Marsha Blackburn",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s3",
+      "url": "https://en.wikipedia.org/wiki/2026_Tennessee_gubernatorial_election",
+      "title": "2026 Tennessee gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s4",
+      "url": "https://marshablackburn.com/issue/cutting-taxes-to-bolster-our-economy/",
+      "title": "Cutting taxes to bolster our economy",
+      "publisher": "Marsha Blackburn for Governor",
+      "kind": "candidate"
+    },
+    {
+      "id": "s5",
       "url": "https://www.blackburn.senate.gov/about-marsha",
       "title": "About Marsha",
       "publisher": "Office of Sen. Marsha Blackburn",
@@ -31,5 +102,5 @@
       "date": "2026-10-19"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

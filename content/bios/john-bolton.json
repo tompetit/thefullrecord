@@ -1,31 +1,66 @@
 {
   "slug": "john-bolton",
   "name": "John Bolton",
-  "bio": [
+  "summary": [
     {
-      "text": "John Bolton is the Republican nominee for Connecticut Attorney General in 2026.",
+      "text": "John Bolton is the Republican nominee for Attorney General, a Westport lawyer with a mostly solo practice who has served on the town Planning and Zoning Commission. He ran unsuccessfully for state representative in 2024 and says the Attorney General's office has spent too much time on lawsuits against the Trump administration.",
       "sources": [
         "s1",
         "s2"
-      ]
-    },
-    {
-      "text": "He is a lawyer with a solo practice in Westport, where CT Mirror describes him as having formerly served on the Planning and Zoning Commission; the Westport Journal reported in March 2026 that he had been a member since 2021 and a full commissioner since 2023, and that he has lived in Westport since 1997.",
-      "sources": [
-        "s1",
-        "s2"
-      ]
-    },
-    {
-      "text": "A native of West Hartford, he has practiced law for 35 years, including time as in-house counsel for companies in upstate New York and Alabama, and ran unsuccessfully for state representative in Westport in 2024.",
-      "sources": [
-        "s1"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Bolton is a native of West Hartford and has lived in Westport since 1997.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "He holds a bachelor's degree from Clark University and a law degree from the University of Connecticut.",
+        "sources": [
+          "s3"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Bolton has practiced law for 35 years, mostly as an independent attorney, with stints as in-house counsel for companies in upstate New York and Alabama.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Bolton joined the Westport Planning and Zoning Commission in 2021 and became a full commissioner in 2023, according to the Westport Journal in March 2026; CT Mirror's October 19 voter guide describes him as having formerly served.",
+        "sources": [
+          "s2",
+          "s1"
+        ]
+      },
+      {
+        "text": "In 2024 he ran for state representative in Westport and was not elected.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
+      "url": "https://ctmirror.org/2026/10/19/connecticut-general-election-2026-voter-guide/",
+      "title": "Connecticut General Election 2026 Voter Guide",
+      "publisher": "CT Mirror",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
       "url": "https://westportjournal.com/politics/election-26/john-bolton-attorney-and-pz-commissioner-announces-state-ag-bid/",
       "title": "John Bolton, attorney and P&Z commissioner, announces state AG bid",
       "publisher": "Westport Journal",
@@ -33,13 +68,12 @@
       "date": "2026-03-23"
     },
     {
-      "id": "s2",
-      "url": "https://ctmirror.org/2026/10/19/connecticut-general-election-2026-voter-guide/",
-      "title": "Connecticut general election 2026 voter guide",
-      "publisher": "CT Mirror",
-      "kind": "news",
-      "date": "2026-10-19"
+      "id": "s3",
+      "url": "https://www.ballotready.org/people/john-bolton",
+      "title": "John Bolton",
+      "publisher": "BallotReady",
+      "kind": "reference"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

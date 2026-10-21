@@ -1,15 +1,150 @@
 {
   "slug": "phil-scott-vt",
   "name": "Phil Scott",
-  "bio": [
-    { "text": "Phil Scott, a Republican, has been Governor of Vermont since January 2017 and advanced from the Republican primary for Governor on August 11, 2026.", "sources": ["s1", "s2"] },
-    { "text": "He was previously Lieutenant Governor of Vermont from 2011 to 2017 and served five terms in the Vermont Senate representing Washington County.", "sources": ["s1", "s2"] },
-    { "text": "He was a co-owner of a family construction business for more than thirty years and founded the Wheels for Warmth program in 2005.", "sources": ["s1"] },
-    { "text": "He grew up in Barre, graduated from Spaulding High School and the University of Vermont, and lives in Berlin.", "sources": ["s1"] }
+  "summary": [
+    {
+      "text": "Phil Scott is the Republican Governor of Vermont, first elected in 2016 and seeking a sixth term.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "text": "A longtime construction-business co-owner and stock-car racer from Barre, he served in the state Senate (2001-2011) and as lieutenant governor (2011-2017) before becoming governor.",
+      "sources": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "text": "In June 2026 he vetoed bills on reference-based health-care pricing, energy facilities, school mental-health programs and union organizing among Department of Corrections employees, and signed H.955, on next steps in transforming Vermont's education system.",
+      "sources": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Phil Scott was born in Barre, Vermont, in 1958, and graduated from Barre's Spaulding High School in 1976 and from the University of Vermont in 1980, where he received a bachelor's degree in industrial education.",
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "text": "He began working at DuBois Construction after high school, later owned a motorcycle sales and repair shop in Morrisville and worked as a construction manager, and became a co-owner of DuBois in 1986; he sold his share after being elected governor.",
+        "sources": [
+          "s1",
+          "s7"
+        ]
+      },
+      {
+        "text": "Scott also races stock cars, and won the Thunder Road Late Model Series championship in 1996 and 1998.",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Scott was elected to the Vermont Senate in 2000 as one of three at-large senators for Washington County, and served from 2001 to 2011, chairing the Institutions Committee and serving as vice chair of the Transportation Committee.",
+        "sources": [
+          "s1",
+          "s6"
+        ]
+      },
+      {
+        "text": "In 2005 he founded Wheels for Warmth, a program in which Vermonters donate tires that are resold at affordable prices, with proceeds going to heating-fuel assistance.",
+        "sources": [
+          "s6"
+        ]
+      },
+      {
+        "text": "He was elected lieutenant governor in 2010, taking office in January 2011, and was re-elected in 2012 and 2014.",
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "text": "As lieutenant governor he launched the Everyday Jobs Initiative, in which he worked in 35 professions around the state, and after Tropical Storm Irene in 2011 organized the removal and disposal of destroyed mobile homes, which his office says was done at no cost to homeowners.",
+        "sources": [
+          "s6"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Scott took office as governor in January 2017 and has been re-elected four times, most recently in 2024.",
+        "sources": [
+          "s1",
+          "s6"
+        ]
+      },
+      {
+        "text": "He lives in Berlin, Vermont, with his wife, Diana, and has two daughters.",
+        "sources": [
+          "s7"
+        ]
+      }
+    ]
   ],
   "sources": [
-    { "id": "s1", "url": "https://governor.vermont.gov/about-us", "title": "About the Governor | Office of Governor Phil Scott", "publisher": "Office of Governor Phil Scott, State of Vermont", "kind": "official" },
-    { "id": "s2", "url": "https://ballotpedia.org/Phil_Scott_(Vermont)", "title": "Phil Scott (Vermont) - Ballotpedia", "publisher": "Ballotpedia", "kind": "reference" }
+    {
+      "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/Phil_Scott_(politician)",
+      "title": "Phil Scott (politician)",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s2",
+      "url": "https://governor.vermont.gov/press-release/action-taken-governor-phil-scott-legislation-june-16-2026",
+      "title": "Action taken by Governor Phil Scott on legislation, June 16, 2026",
+      "publisher": "Office of the Governor of Vermont",
+      "kind": "official",
+      "date": "2026-06-16"
+    },
+    {
+      "id": "s3",
+      "url": "https://governor.vermont.gov/press-release/action-taken-governor-phil-scott-legislation-june-17-2026",
+      "title": "Action taken by Governor Phil Scott on legislation, June 17, 2026",
+      "publisher": "Office of the Governor of Vermont",
+      "kind": "official",
+      "date": "2026-06-17"
+    },
+    {
+      "id": "s4",
+      "url": "https://governor.vermont.gov/press-release/action-taken-governor-phil-scott-legislation-june-18-2026",
+      "title": "Action taken by Governor Phil Scott on legislation, June 18, 2026",
+      "publisher": "Office of the Governor of Vermont",
+      "kind": "official",
+      "date": "2026-06-18"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.wcax.com/2026/09/17/campaign-countdown-candidates-vermont-governor/",
+      "title": "Campaign Countdown: Candidates for Vermont governor",
+      "publisher": "WCAX",
+      "kind": "news",
+      "date": "2026-09-17"
+    },
+    {
+      "id": "s6",
+      "url": "https://governor.vermont.gov/about-us",
+      "title": "About the Governor",
+      "publisher": "Office of Governor Phil Scott, State of Vermont",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Phil_Scott_(Vermont)",
+      "title": "Phil Scott (Vermont)",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

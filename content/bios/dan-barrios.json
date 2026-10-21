@@ -1,38 +1,144 @@
 {
   "slug": "dan-barrios",
   "name": "Dan Barrios",
-  "bio": [
+  "summary": [
     {
-      "text": "Dan Barrios is a candidate for Congress in Texas's 32nd District, according to his campaign website.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "The website says he was born and raised in Brownsville, has lived in North Texas for more than 25 years, and serves on the Richardson City Council, Place 3.",
+      "text": "Dan Barrios is the Democratic nominee for the open 32nd District seat. A former business-sales account manager and high school business teacher, he was elected to the Richardson City Council in 2023 and stepped down in September 2026 to focus on his congressional campaign. According to his Ballotpedia survey, he is running on education, affordable health care and support for small businesses.",
       "sources": [
         "s1",
-        "s2"
-      ]
-    },
-    {
-      "text": "It says he holds an MBA in Strategic Management from the University of North Texas, worked in executive sales, later taught business courses at the high school and college level, and held leadership roles with the American Red Cross.",
-      "sources": [
-        "s2"
+        "s2",
+        "s3",
+        "s4"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Barrios grew up in Brownsville, Texas, and, according to his Ballotpedia survey, has lived in North Texas for over 25 years.",
+        "sources": [
+          "s2",
+          "s8"
+        ]
+      },
+      {
+        "text": "He earned an MBA in strategic management from the University of North Texas.",
+        "sources": [
+          "s1",
+          "s8"
+        ]
+      },
+      {
+        "text": "He worked in executive sales and business development in the food and beverage industry, including as an account manager handling key accounts such as Walmart.",
+        "sources": [
+          "s1",
+          "s4",
+          "s5",
+          "s8"
+        ]
+      },
+      {
+        "text": "Barrios later taught business courses, at the high school and college level according to his campaign website, including at Lake Highlands High School in the Richardson Independent School District; a May 2024 profile said he was finishing his fourth year of teaching.",
+        "sources": [
+          "s4",
+          "s1",
+          "s8"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "He describes volunteer work with the American Red Cross, where his campaign website says he held leadership roles, as well as the Arapaho Classical Magnet PTA, the YMCA board and a church program serving people experiencing homelessness; he says he managed a shelter after the 2015 Rowlett tornado.",
+        "sources": [
+          "s5",
+          "s1",
+          "s8"
+        ]
+      },
+      {
+        "text": "Barrios sought the Richardson City Council Place 3 seat in 2019 and was elected to it in 2023, representing the city's District 3 on the west side of Richardson.",
+        "sources": [
+          "s5",
+          "s4",
+          "s3",
+          "s6"
+        ]
+      },
+      {
+        "text": "On July 13, 2026, he announced that he would resign from the council to focus on his congressional campaign; Daniel Burdette was appointed to the seat on September 28, 2026.",
+        "sources": [
+          "s6",
+          "s3"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Barrios won the March 3, 2026 Democratic primary over Anthony Bridges with 60.4% of the vote. His Ballotpedia survey lists endorsements from Rep. Julie Johnson and state Reps. Linda Garcia and Mihaela Plesa.",
+        "sources": [
+          "s7",
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
-      "url": "https://www.danbarriosforcongress.com",
-      "title": "Home | Dan Barrios for Congress",
-      "publisher": "Dan Barrios for Congress",
-      "kind": "candidate",
-      "date": "2026-10-19"
+      "url": "https://ballotpedia.org/Dan_Barrios",
+      "title": "Dan Barrios",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     },
     {
       "id": "s2",
+      "url": "https://ballotpedia.org/Dan_Barrios",
+      "title": "Dan Barrios - Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://communityimpact.com/richardson/government/daniel-burdette-sworn-in-as-new-richardson-city-council-member/",
+      "title": "Daniel Burdette sworn in as new Richardson City Council member",
+      "publisher": "Community Impact",
+      "kind": "news",
+      "date": "2026-09-29"
+    },
+    {
+      "id": "s4",
+      "url": "https://lakehighlands.advocatemag.com/2024/05/09/dan-barrios/",
+      "title": "Dan Barrios splits time as LHHS teacher, Richardson city council member",
+      "publisher": "Lake Highlands Advocate",
+      "kind": "news",
+      "date": "2024-05-09"
+    },
+    {
+      "id": "s5",
+      "url": "https://communityimpact.com/richardson/city-county/qa-dan-barrios-seeks-election-to-richardson-city-council/",
+      "title": "Q&A: Dan Barrios seeks election to Richardson City Council",
+      "publisher": "Community Impact",
+      "kind": "news",
+      "date": "2019-01-25"
+    },
+    {
+      "id": "s6",
+      "url": "https://communityimpact.com/richardson/government/richardson-opens-applications-for-vacant-city-council-seat/",
+      "title": "Richardson opens applications for vacant City Council seat",
+      "publisher": "Community Impact",
+      "kind": "news",
+      "date": "2026-07-23"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s8",
       "url": "https://www.danbarriosforcongress.com/about",
       "title": "About Dan | Dan Barrios for Congress",
       "publisher": "Dan Barrios for Congress",
@@ -40,5 +146,5 @@
       "date": "2026-10-19"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

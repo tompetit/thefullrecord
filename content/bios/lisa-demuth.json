@@ -1,14 +1,95 @@
 {
   "slug": "lisa-demuth",
   "name": "Lisa Demuth",
-  "bio": [
-    { "text": "Lisa Demuth, a Republican from Cold Spring, is a candidate for Minnesota governor in 2026 and serves as Speaker of the Minnesota House.", "sources": ["s1"] },
-    { "text": "She was first elected to the House in 2018, led the Republican minority in 2023 and 2024, and was elected speaker in 2025.", "sources": ["s2"] },
-    { "text": "In her candidate survey response to KAXE, she said she served three terms on the ROCORI school board before entering the legislature and describes herself as a business owner.", "sources": ["s1"] }
+  "summary": [
+    {
+      "text": "Lisa Demuth is Speaker of the Minnesota House of Representatives and the Republican nominee for governor with running mate Ryan Wilson, an attorney and the party's 2022 state auditor nominee. She has represented District 13A in central Minnesota since 2019.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Demuth was born in Paynesville, Minnesota, and lives in Cold Spring.",
+        "sources": [
+          "s1",
+          "s4"
+        ]
+      },
+      {
+        "text": "Before entering the Legislature she ran a small business and served 11 years on the ROCORI school board.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Demuth was first elected to the Minnesota House in 2018 and led the House Republican minority in 2023 and 2024, after being elected House Republican leader in 2022.",
+        "sources": [
+          "s1",
+          "s5"
+        ]
+      },
+      {
+        "text": "She was elected Speaker on February 6, 2025, under a power-sharing agreement that ended a DFL boycott, after the Minnesota Supreme Court ruled that her January election as Speaker lacked a quorum.",
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "text": "Her campaign says she was the first Black lawmaker to serve as Speaker.",
+        "sources": [
+          "s3"
+        ]
+      }
+    ]
   ],
   "sources": [
-    { "id": "s1", "url": "https://www.kaxe.org/2026-09-28/governor-demuth-klobuchar-young-mn-2026-election-guide", "title": "Governor 2026 Election Guide", "publisher": "KAXE", "kind": "news", "date": "2026-09-28" },
-    { "id": "s2", "url": "https://minnesotareformer.com/2025/11/02/gop-minnesota-house-speaker-lisa-demuth-launches-campaign-for-governor/", "title": "GOP Minnesota House Speaker Lisa Demuth launches campaign for governor", "publisher": "Minnesota Reformer", "kind": "news", "date": "2025-11-02" }
+    {
+      "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/Lisa_Demuth",
+      "title": "Lisa Demuth",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s2",
+      "url": "https://en.wikipedia.org/wiki/2026_Minnesota_gubernatorial_election",
+      "title": "2026 Minnesota gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s3",
+      "url": "https://lisaformn.com/about/",
+      "title": "About Lisa",
+      "publisher": "Lisa Demuth for Governor",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.kaxe.org/2026-09-28/governor-demuth-klobuchar-young-mn-2026-election-guide",
+      "title": "Governor 2026 Election Guide",
+      "publisher": "KAXE",
+      "kind": "news",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "s5",
+      "url": "https://minnesotareformer.com/2025/11/02/gop-minnesota-house-speaker-lisa-demuth-launches-campaign-for-governor/",
+      "title": "GOP Minnesota House Speaker Lisa Demuth launches campaign for governor",
+      "publisher": "Minnesota Reformer",
+      "kind": "news",
+      "date": "2025-11-02"
+    }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

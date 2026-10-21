@@ -1,47 +1,107 @@
 {
   "slug": "chuck-gray",
   "name": "Chuck Gray",
-  "bio": [
+  "summary": [
     {
-      "text": "Chuck Gray has been Wyoming Secretary of State since January 2, 2023; Ballotpedia lists Gray as the Republican candidate for Wyoming's U.S. House seat in 2026, having won the August 18 Republican primary.",
+      "text": "Chuck Gray is Wyoming's Secretary of State and a former three-term state representative, running as the Republican nominee for Wyoming's open at-large U.S. House seat. He took over his family's Casper radio business after college, served in the Wyoming House from 2017 to 2023, and was elected Secretary of State in 2022. In his announcement he said he was running to continue fighting for Wyoming's way of life and to advance President Trump's agenda.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "Gray served in the Wyoming House of Representatives, District 57, from 2017 to 2023.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "According to Ballotpedia, Gray earned bachelor's degrees from the University of Pennsylvania in 2012 and worked as a radio executive and radio show host.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "In a WyoFile election guide response, Gray describes taking over the family radio business in Casper after college.",
-      "sources": [
-        "s2"
+        "s1",
+        "s2",
+        "s3",
+        "s4"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Gray was raised outside of Los Angeles, California, and spent summers with his father in Casper, Wyoming.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "text": "According to the Secretary of State's biography, he earned a B.S. in economics from the Wharton School of the University of Pennsylvania in 2012.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "text": "He says he took over his family's radio business in Casper after graduating from college, and Ballotpedia lists his career experience as radio executive and radio show host.",
+        "sources": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Gray served three terms in the Wyoming House of Representatives, District 57 (Natrona County), from 2017 to 2023; his committees included Minerals, Business & Economic Development; Agriculture, State and Public Lands; Revenue; Judiciary; and Management Audit.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "text": "According to his official biography, he was lead sponsor of the ultrasound bill and of Wyoming's voter ID law, which was signed in 2021.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "He was elected Wyoming's 24th Secretary of State in 2022 and took office in 2023. The office oversees elections, business entity registration and securities regulation, and he sits on the State Loan and Investment Board, the Board of Land Commissioners and the State Building Commission.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Gray announced his run for the U.S. House on December 29, 2025, after Rep. Harriet Hageman announced she would run for U.S. Senate.",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "He won the August 18, 2026 Republican primary in a ten-candidate field with 24.9% of the vote.",
+        "sources": [
+          "s1"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
       "url": "https://ballotpedia.org/Chuck_Gray_(Wyoming)",
-      "title": "Chuck Gray (Wyoming) - Ballotpedia",
+      "title": "Chuck Gray (Wyoming)",
       "publisher": "Ballotpedia",
       "kind": "reference"
     },
     {
       "id": "s2",
+      "url": "https://sos.wyo.gov/AboutUs/AboutSecretary.aspx",
+      "title": "Meet the Secretary: Chuck Gray",
+      "publisher": "Wyoming Secretary of State",
+      "kind": "official"
+    },
+    {
+      "id": "s3",
       "url": "https://projects.wyofile.com/election-guide-2026/candidates/gray-chuck/",
-      "title": "Chuck Gray | U.S. House of Representatives | WyoFile 2026 Election Guide",
+      "title": "Chuck Gray, U.S. House (WyoFile 2026 Election Guide questionnaire)",
       "publisher": "WyoFile",
+      "kind": "candidate"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.newslj.com/gray-will-run-us-house",
+      "title": "Gray will run for U.S. House",
+      "publisher": "News Letter Journal (Wyoming Tribune Eagle, via Wyoming News Exchange)",
       "kind": "news"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

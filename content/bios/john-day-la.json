@@ -1,23 +1,64 @@
 {
   "slug": "john-day-la",
   "name": "John Day",
-  "bio": [
+  "summary": [
     {
-      "text": "John Day, a Democrat, is a candidate for Louisiana's 3rd Congressional District in 2026.",
+      "text": "John Day is a U.S. Navy veteran and professional writer from Lake Charles running as a Democratic candidate for Louisiana's 3rd Congressional District.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "According to the Louisiana Illuminator's voter guide, he is a professional writer, film producer and U.S. Navy veteran who lives in Lake Charles.",
-      "sources": [
-        "s1"
+        "s1",
+        "s2",
+        "s3"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "According to his Ballotpedia survey, Day was born in Shreveport, raised in Lake Charles, and graduated from Sam Houston High School.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "He served in the U.S. Navy beginning in 1994.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "He works as a professional writer and, in his words, is working toward producing film projects; the Louisiana Illuminator's voter guide describes him as a writer and film producer.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "text": "He says he is married to Amanda Hardy Day and that they have four grown children.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
+      "url": "https://ballotpedia.org/Louisiana%27s_3rd_Congressional_District_election,_2026",
+      "title": "Louisiana's 3rd Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/John_Day_(Louisiana)",
+      "title": "John Day — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-10-03"
+    },
+    {
+      "id": "s3",
       "url": "https://lailluminator.com/voter-guides/contests/ushouse-district-3/",
       "title": "3rd Congressional District | Voter Guide: Election 2026",
       "publisher": "Louisiana Illuminator",
@@ -25,5 +66,5 @@
       "date": "2026-10-19"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

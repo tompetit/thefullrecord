@@ -1,30 +1,56 @@
 {
   "slug": "mike-minogue",
   "name": "Mike Minogue",
-  "bio": [
+  "summary": [
     {
-      "text": "Mike Minogue won the Republican nomination for Governor of Massachusetts in the September 1, 2026 primary and faces Gov. Maura Healey in the November general election.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "A former biotech executive, he led the medical device company Abiomed for close to two decades.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "Minogue is a West Point graduate and Army veteran who was awarded a Bronze Star for his service in Operation Desert Storm in 1991.",
+      "text": "Mike Minogue is a former biotech executive who led the heart-pump maker Abiomed for nearly two decades and is a first-time candidate. He won the Republican nomination with 75.6% of the primary vote. His 'Blueprint for a Better Future' centers on accountability, affordability, opportunity and keeping communities safe, including audits of the Legislature and state budget, tax cuts, ending enforcement of the MBTA Communities Act and canceling the state's net-zero emissions mandate.",
       "sources": [
         "s1",
-        "s2"
+        "s2",
+        "s3",
+        "s4"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Minogue is a West Point graduate and Army veteran who was awarded a Bronze Star for his service in Operation Desert Storm in 1991.",
+        "sources": [
+          "s2",
+          "s5"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "He later led Abiomed, a heart-pump and medical-device company, for nearly two decades until Johnson & Johnson acquired it in 2022.",
+        "sources": [
+          "s2",
+          "s5"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Minogue is a first-time candidate for public office. He won about 70% of delegates at the April 2026 state Republican convention and the Republican nomination in the September 1, 2026 primary, and faces Gov. Maura Healey in the general election.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/2026_Massachusetts_gubernatorial_election",
+      "title": "2026 Massachusetts gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s2",
       "url": "https://www.boston.com/news/local-news/2026/09/01/minogue-defeats-gop-rival-shortsleeve-setting-up-clash-with-healey/",
       "title": "Minogue defeats GOP rival Shortsleeve, setting up clash with Healey",
       "publisher": "Boston.com",
@@ -32,7 +58,23 @@
       "date": "2026-09-01"
     },
     {
-      "id": "s2",
+      "id": "s3",
+      "url": "https://www.wbur.org/news/2026/09/11/mike-minogue-gop-governor-policy-blueprint",
+      "title": "Minogue's blueprint promises audits, tax cuts and a net-zero emissions repeal",
+      "publisher": "WBUR / State House News Service",
+      "kind": "news",
+      "date": "2026-09-11"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.wgbh.org/news/politics/2026-09-10/gops-minogue-rolls-out-his-pitch-for-governor-ahead-of-the-general",
+      "title": "GOP's Minogue rolls out his pitch for governor ahead of the general",
+      "publisher": "GBH News",
+      "kind": "news",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "s5",
       "url": "https://www.foxnews.com/politics/combat-veteran-turned-ceo-has-new-mission-flip-governors-office-blue-state",
       "title": "Minogue launches Republican Massachusetts governor bid",
       "publisher": "Fox News",
@@ -40,5 +82,5 @@
       "date": "2025-10-01"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

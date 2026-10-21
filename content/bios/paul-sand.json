@@ -1,29 +1,67 @@
 {
   "slug": "paul-sand",
   "name": "Paul Sand",
-  "bio": [
+  "summary": [
     {
-      "text": "Paul Sand is the Libertarian Party nominee for governor of Idaho in 2026; according to his campaign website, he won the party's primary on May 19, 2026.",
+      "text": "Paul Sand is the Libertarian Party nominee for governor of Idaho, his second run for the office after the party's 2022 nomination. He lists his occupation as software engineer, computer-business entrepreneur and home builder, and says he served 10 years on the White Bird City Council.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "According to his campaign website, he is a retired computer software engineer who lives in White Bird, Idaho, grew up in Minnesota, and moved west about 30 years ago.",
-      "sources": [
-        "s2"
-      ]
-    },
-    {
-      "text": "His website says he served ten years on the White Bird City Council and was a member of the White Bird Volunteer Fire Department.",
-      "sources": [
-        "s2"
+        "s1",
+        "s2",
+        "s3",
+        "s4"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Sand lives in White Bird, Idaho.",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "According to his campaign website, he is a retired computer software engineer who grew up in Minnesota and moved west about 30 years ago.",
+        "sources": [
+          "s4"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "He says he served ten years on the White Bird City Council and was a member of the White Bird Volunteer Fire Department.",
+        "sources": [
+          "s4"
+        ]
+      },
+      {
+        "text": "Sand was the Libertarian nominee for governor in 2022, and he says he won the party's primary for the 2026 race on May 19, 2026.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
+      "url": "https://idahocapitalsun.com/voter-guides/contests/2026-general-gubernatorial-race/",
+      "title": "Idaho governor — 2026 General Election Voter Guide",
+      "publisher": "Idaho Capital Sun",
+      "kind": "news",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s2",
+      "url": "https://en.wikipedia.org/wiki/2026_Idaho_gubernatorial_election",
+      "title": "2026 Idaho gubernatorial election",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s3",
       "url": "https://paulsand.org",
       "title": "Paul Sand",
       "publisher": "Paul Sand campaign website",
@@ -31,7 +69,7 @@
       "date": "2026-10-19"
     },
     {
-      "id": "s2",
+      "id": "s4",
       "url": "https://paulsand.org/about-me",
       "title": "About Me",
       "publisher": "Paul Sand campaign website",
@@ -39,5 +77,5 @@
       "date": "2026-10-19"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

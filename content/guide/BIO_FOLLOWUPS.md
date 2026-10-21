@@ -64,3 +64,57 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - NY AD-65 Illapa Sairitupac: bio uses "he" (Ballotpedia, City & State 2026); a 2022 profile described Sairitupac as non-binary — confirm pronouns with the campaign.
 - NY AD-79 Emmanuel Findlay Jr.: 2025 City Council run (Ballotpedia) conflicts with an aggregator calling this his first run; recheck against NYC BOE.
 - NY AD-86 Republican primary: context says Diaz 57.5%-35.8% (Ballotpedia); Wikipedia reportedly has 59.2%-36.9% — re-check against NYC BOE. Olivo's campaign site carries injected spam gambling text.
+- Gary Dye (OR Sen): his 2024 Ballotpedia survey self-discloses an expunged felony drug conviction in Saudi Arabia — rule-9 decision whether to include.
+- Angela Nixon (FL Sen): Ballotpedia reports a May 15, 2026 arrest/trespass charge after a sit-in and a May 14 House ethics reprimand — not in bio; needs a fetched news source (rule 9).
+- Marisa Simonetti (MN Sen): Ballotpedia lists a 2024 fifth-degree assault charge / misdemeanor conviction after a tenant dispute — not in bio; rule-9 decision (needs fetched news/court source).
+- James Baird (IN-4): s3 for his 60.5% primary result points to Drew Cox's Ballotpedia page — re-cite to Baird's own page.
+- Nickie Kane: Ballotpedia's NY-10 page lists her among withdrawn/disqualified candidates — confirm she is on the Nov 3 ballot (rule 8).
+- Don Leonard (OH-3): NBC4 reports a March 2026 arrest at a protest on a noise violation — not in bio; rule-9 decision.
+- NY-21: Ballotpedia lists Robert Smullen's Conservative line and Gendebien's 'Lower Costs Now' line as withdrawn; Smullen claim removed from context — confirm Gendebien's ballot lines.
+- tom-perriello: s4 (clerk roll call 2009046) is cited on the ACA-vote sentence; the ACA roll call is 2010165 — check.
+- suhas-subramanyam: official House bio gives House of Delegates 2019–2023; Wikipedia gives 2020–2024 and Senate Jan 2024–Jan 2025. Bio uses Wikipedia; confirm against Virginia legislature records.
+- kent-udell: Ballotpedia says University of Utah bachelor's, KSL says Utah State — both attributed in text.
+- taylor-wright: Ballotpedia (elementary PE teacher) vs Salt Lake Tribune ("high school teacher").
+- gerald-malloy, tony-sabio: conflicting residences (Weathersfield/Perkinsville; Vienna/Lorton), both attributed.
+- edwin-rivera: Ballotpedia source labelled kind "candidate"; bishop-staten survey source date 2025-01-01 looks like a placeholder.
+- bruce-blakeman: the transgender-athlete order sentence (struck down / reenacted / challenged) cites only Wikipedia — replace with a news source.
+- belinda-fox-spencer: s3 "Ballot Access News" title is a placeholder; ballot-access.org refused the fetch.
+- fred-clark: Assembly service given as 2009–2015; old Wisconsin Examiner bio said 2009–2014.
+- thomas-p-dinapoli: restored the 2026 campaign sentence (fund growth; contract-review threshold) citing s1/s2 — confirm which source carries it.
+- james-uthmeier: summary claimed suits against Meta and Pfizer with no supporting source; trimmed to the cited Discord suit. Add sources if the Meta/Pfizer suits should be mentioned.
+- james-sanders-jr: City Council start — nysenate.gov says elected 2001, old Ballotpedia text said "since 2002".
+- kathy-jennings, marie-gluesenkamp-perez, john-duresky, jean-anglade: two source entries share one URL (one probably mislabeled).
+- luis-r-sepulveda: Wikipedia (born in Brooklyn) and El Diario (grew up in Los Sures) both kept.
+- wes-moore: summary trimmed to the signings the cited pages cover (housing; 287(g) ban); "abortion rights and public safety" had no source.
+- brenna-bird: dropped "joined multistate settlements" (not in cited sources). rob-sand: dropped "re-elected by 2,893 votes" (not in cited sources).
+- Mislabeled source kinds (news marked "candidate"): Georgia Recorder, The Current, tim-fleming s2; nate-willems s4 title doesn't match its page.
+- steve-hilton: Hungarian-immigrant parents and Stanford teaching rest on his campaign site, which returned nothing when re-fetched.
+- don-wagner: Ballotpedia splits Assembly service as AD-70 (2010–12) and AD-68 (2012–16).
+- sarah-huckabee-sanders: birthplace left out — old bio said Hope, AR; Wikipedia says Little Rock ("better source needed").
+- treg-taylor: "six children" not found on campaign home page; kept on prior citation.
+- tommy-tuberville: "40-year coaching career" from old senate.gov bio, which no longer renders.
+- doug-lloyd: WILX says he won the GOP nomination in March 2026; Ballotpedia gives an Aug 22 convention — check which.
+- brad-little: Wikipedia intro says B.S. 1976, body and governor's site say 1977 (bio uses 1977).
+- beau-bayh: "infantry officer" cited to Ballotpedia but not found on the fetched pages — verify.
+- Source titles written by agents (not page titles): Nevada Legislature/gov.nv.gov/Nevada Independent sources in batch 104 bios, thomas-sullivan campaign site.
+- paul-nichols: "worked for several Southeast Queens elected officials" not found on re-read of the Queens Chronicle article — verify.
+- norman-ramsay: bio includes his own statement (Canarsie Courier) about a turning point while incarcerated — self-disclosed, review wording.
+- victor-marx: Colorado Sun sentence ("extraordinary, albeit mostly unprovable") kept on the existing citation; page was rate-limited on re-check.
+- sean-vadney: lost the June 30 Libertarian primary to Alex Astley but was selected to replace him (Ballotpedia; SOS list) — confirm.
+- samantha-kattan: Queens Ledger s4 retitled to the live headline.
+- raul-torrez: summary's multistate fuel-economy-rule suit — cited nmdoj pages didn't load on re-check; Wikipedia doesn't mention it. Verify.
+- nick-coffey: campaign site treats him as a current federal prosecutor; Oklahoma Voice calls him former — attributed each.
+- cyndi-munson: "left the House as Minority Leader after the 2026 session" (News 9) vs Wikipedia still listing her as incumbent.
+- christine-drazan: role for Speaker Simmons — "communications director" (Wikipedia) vs "chief of staff" (Ballotpedia).
+- robert-c-vick: "longtime East Tennessee educator" unchecked. Several TN governor write-ins rest on a single Firefly summary.
+- pete-karas: summary says Green Party nominee; his own site reads as independent — confirm ballot line.
+- eric-barlow: Senate start — Ballotpedia Jan 2, 2023 vs Wikipedia Jan 10 (bio uses year only).
+- keith-faber: dropped "born in Troy, Missouri" and Jan 2007 Senate appointment (no longer on Ballotpedia).
+- charles-van-morgan: education/birthplace facts cited to Ballotpedia were checked only via Tennessee Firefly's summary (Ballotpedia didn't load).
+- david-hatley: Elizabethton (grew up) vs Gray (petition address); patent count conflicts (7 vs 11) so none stated.
+- dan-ahlers: House years — Wikipedia lede 2006–2008 vs infobox 2007–2009 (bio uses infobox).
+- kim-ahern: Providence Eye calls her current Cannabis Control Commission chair; Rhode Island Current says she stepped down Oct 2025 (bio follows RI Current; both RI Current URLs 403 on re-check).
+- josh-shapiro: House end year — Wikipedia 2012 vs governor's page 2011 (bio says "from 2005").
+- alan-wilson: West Columbia native (FOX Carolina) vs "Lexington native" (Live 5).
+- phil-scott-vt: ordinals dropped — Wikipedia says 81st lieutenant governor; governor's page says 79th and 82nd governor.
+- thomas-p-tiffany: Natural Resources Committee membership not confirmed on the House Clerk page (Wikipedia only).

@@ -1,41 +1,90 @@
 {
   "slug": "dave-bronson",
   "name": "Dave Bronson",
-  "bio": [
+  "summary": [
     {
-      "text": "Dave Bronson is a Republican candidate for governor of Alaska in 2026.",
+      "text": "Dave Bronson is a Republican, a retired Air National Guard lieutenant colonel and commercial pilot who served as mayor of Anchorage from 2021 to 2024 and later managed Ted Stevens Anchorage International Airport.",
       "sources": [
-        "s1"
+        "s1",
+        "s2"
       ]
     },
     {
-      "text": "He was elected mayor of Anchorage in 2021, served one term, and lost re-election in 2024 to Suzanne LaFrance.",
+      "text": "He supports a constitutional amendment mandating Permanent Fund dividends by the pre-2017 formula and describes data centers as an economic opportunity.",
       "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "In January 2025 Gov. Mike Dunleavy appointed him to manage Ted Stevens Anchorage International Airport; he announced his resignation from that job in August 2025.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "The Alaska Beacon describes him as an experienced pilot.",
-      "sources": [
-        "s1"
+        "s3"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Bronson was born and raised in Superior, Wisconsin, and earned a B.S. in agricultural economics from the University of Wisconsin–Madison.",
+        "sources": [
+          "s1"
+        ]
+      },
+      {
+        "text": "He served in the U.S. Air Force from 1981 to 1990 and in the Alaska Air National Guard from 1993 to 2005, retiring as a lieutenant colonel, and has worked as a commercial pilot since 1990.",
+        "sources": [
+          "s1"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "Bronson won the Anchorage mayor's office in a May 2021 runoff and served until 2024, when he lost re-election to Suzanne LaFrance.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "text": "In January 2025, Gov. Mike Dunleavy appointed him to manage Ted Stevens Anchorage International Airport, and he announced his resignation from that job in August 2025.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "He announced his run for governor on October 2, 2025.",
+        "sources": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "text": "The Alaska Beacon describes him as an experienced pilot.",
+        "sources": [
+          "s2"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
+      "url": "https://en.wikipedia.org/wiki/Dave_Bronson",
+      "title": "Dave Bronson",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s2",
       "url": "https://alaskabeacon.com/2025/10/02/former-anchorage-mayor-dave-bronson-announces-run-for-alaska-governor/",
       "title": "Former Anchorage Mayor Dave Bronson announces run for Alaska governor",
       "publisher": "Alaska Beacon",
       "kind": "news",
       "date": "2025-10-02"
+    },
+    {
+      "id": "s3",
+      "url": "https://alaskabeacon.com/2026/09/18/where-do-alaskas-four-governor-candidates-stand-on-data-centers/",
+      "title": "Where do Alaska's four governor candidates stand on data centers?",
+      "publisher": "Alaska Beacon",
+      "kind": "news",
+      "date": "2026-09-18"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }

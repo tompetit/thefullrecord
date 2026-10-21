@@ -1,49 +1,130 @@
 {
- "slug": "michael-decillis",
- "name": "Michael DeCillis",
- "bio": [
-  {
-   "text": "Mike DeCillis is the Democratic nominee for New York's 11th Congressional District, challenging Republican Rep. Nicole Malliotakis, according to NY1 in September 2026.",
-   "sources": [
-    "s1"
-   ]
-  },
-  {
-   "text": "BK Reader reported in May 2026 that he is a Staten Island native who has lived in Bay Ridge for 14 years, and that he began as an EMS paramedic and 9/11 first responder.",
-   "sources": [
-    "s2"
-   ]
-  },
-  {
-   "text": "The same report says he worked as a police officer for 10 years while attending New York Law School, became a civil litigation attorney, and later taught in a District 75 public school.",
-   "sources": [
-    "s2"
-   ]
-  },
-  {
-   "text": "It also says he later served as chief of staff for Assembly District 46 and as assistant counsel for the New York City Districting Commission.",
-   "sources": [
-    "s2"
-   ]
-  }
- ],
- "sources": [
-  {
-   "id": "s1",
-   "url": "https://ny1.com/nyc/all-boroughs/inside-city-hall/2026/09/28/democrat-mike-decillis-talks-election-bid-for-congressional-district-11",
-   "title": "Democrat Mike DeCillis talks bid for district 11",
-   "publisher": "Spectrum News NY1",
-   "kind": "news",
-   "date": "2026-09-28"
-  },
-  {
-   "id": "s2",
-   "url": "https://bkreader.com/policy-government/meet-your-candidate-mike-decillis-for-congressional-district-11-12303307",
-   "title": "Meet Your Candidate: Mike Decillis for Congressional District 11",
-   "publisher": "BK Reader",
-   "kind": "news",
-   "date": "2026-05-20"
-  }
- ],
- "researchedAt": "2026-10-19"
+  "slug": "michael-decillis",
+  "name": "Michael DeCillis",
+  "summary": [
+    {
+      "text": "Michael DeCillis is the Democratic nominee in New York's 11th Congressional District. A Staten Island native, he has worked as a paramedic, New York City police officer, civil litigation attorney, legislative staffer in the State Assembly and special education teacher. He won the June 23 Democratic primary over Allison Ziogas; according to his campaign website, he is running to lower costs, protect Social Security and Medicare, strengthen public education and defend democratic institutions.",
+      "sources": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "DeCillis describes himself as a fourth-generation Staten Islander and third-generation union member whose grandparents and parents were educators, city workers and union members; the Staten Island Advance reports that he now lives in Bay Ridge, and BK Reader says he has lived there for 14 years.",
+        "sources": [
+          "s2",
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "text": "According to his campaign website, he volunteered as a teenager at the hospital where he was born, now Richmond University Medical Center, and became a volunteer EMT in college, and he graduated from Kalamazoo College.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "He worked as a SWAT paramedic and field training officer in Michigan, where, per his campaign, he created the state's first K-9 unit pre-hospital emergency care program.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "He was a first responder at Ground Zero on September 11, 2001, treating injured firefighters.",
+        "sources": [
+          "s2",
+          "s3",
+          "s5"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "DeCillis then served about a decade as an NYPD officer and, while working full-time, earned a Juris Doctorate from New York Law School; he went on to work as a civil litigation attorney.",
+        "sources": [
+          "s2",
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "text": "He later served as Chief of Staff and Director of Legislation for a member of the New York State Assembly, working on transparency measures and conditions for NYCHA residents, and as assistant counsel for the New York City Districting Commission; Ballotpedia and his campaign describe the Assembly job as a staff role, not an elected office.",
+        "sources": [
+          "s1",
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "text": "He completed an AmeriCorps Teaching Fellowship and a Master's in Education at Hunter College, then taught special education in New York City District 75 schools, including students on the autism spectrum.",
+        "sources": [
+          "s2",
+          "s3",
+          "s5"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "This is not DeCillis's first run for the seat: Ballotpedia lists him as a Democratic candidate who dropped out in March 2018 and as a withdrawn candidate in the 2022 Democratic primary.",
+        "sources": [
+          "s1",
+          "s4"
+        ]
+      },
+      {
+        "text": "In 2026 he won the June 23 Democratic primary.",
+        "sources": [
+          "s1",
+          "s4"
+        ]
+      }
+    ]
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/Michael_DeCillis",
+      "title": "Michael DeCillis",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://www.decillisforcongress.com/about",
+      "title": "Meet Mike — About",
+      "publisher": "DeCillis for Congress campaign",
+      "kind": "candidate"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.ems1.com/politics/articles/former-ny-paramedic-sets-sights-on-congress-Cai35yWrR30FRKnn/",
+      "title": "Former NY paramedic sets sights on Congress",
+      "publisher": "EMS1 (Staten Island Advance)",
+      "kind": "news",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/New_York%27s_11th_Congressional_District_election,_2026",
+      "title": "New York's 11th Congressional District election, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://bkreader.com/policy-government/meet-your-candidate-mike-decillis-for-congressional-district-11-12303307",
+      "title": "Meet Your Candidate: Mike Decillis for Congressional District 11",
+      "publisher": "BK Reader",
+      "kind": "news",
+      "date": "2026-05-20"
+    }
+  ],
+  "researchedAt": "2026-10-21"
 }

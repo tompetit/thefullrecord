@@ -1,45 +1,89 @@
 {
   "slug": "warren-petersen",
   "name": "Warren Petersen",
-  "bio": [
+  "summary": [
     {
-      "text": "Warren Petersen is the Republican candidate for Arizona Attorney General in 2026 and currently serves as Arizona Senate President, representing District 14.",
+      "text": "Warren Petersen is the Republican nominee, President of the Arizona Senate and a member of the Legislature since first being elected to the House in 2012, according to his campaign site. An attorney and small-business owner from Gilbert, he says he has intervened to defend state laws the current Attorney General declined to defend.",
       "sources": [
         "s1",
-        "sA"
-      ]
-    },
-    {
-      "text": "According to his campaign website, Petersen has served in the Arizona Legislature since 2012, when he was first elected to the House, and has held roles including House Majority Leader.",
-      "sources": [
-        "s1"
-      ]
-    },
-    {
-      "text": "According to his campaign website and candidate statement, Petersen is a third-generation Gilbert resident and graduate of Gilbert High School, and received a bachelor's degree and a law degree from Arizona State University.",
-      "sources": [
-        "s1",
-        "sA"
+        "s2"
       ]
     }
+  ],
+  "paragraphs": [
+    [
+      {
+        "text": "Petersen is a lifelong Arizonan and a third-generation Gilbert resident who graduated from Gilbert High School.",
+        "sources": [
+          "s2",
+          "s4",
+          "s1"
+        ]
+      },
+      {
+        "text": "He received both his bachelor's degree and his law degree from Arizona State University and works as an attorney and small-business owner.",
+        "sources": [
+          "s1",
+          "s2",
+          "s4"
+        ]
+      }
+    ],
+    [
+      {
+        "text": "He has served in the Arizona Legislature since 2012, when he was first elected to the House, and has held leadership roles including House Majority Leader.",
+        "sources": [
+          "s2"
+        ]
+      },
+      {
+        "text": "He is now Senate President, representing District 14, which covers Gilbert and parts of Queen Creek.",
+        "sources": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "text": "He says that when the current administration declined to defend state laws he stepped in, including multiple wins at the U.S. Supreme Court.",
+        "sources": [
+          "s1"
+        ]
+      }
+    ]
   ],
   "sources": [
     {
       "id": "s1",
-      "url": "https://petersenforag.com/bio",
-      "title": "Bio",
-      "publisher": "Petersen for Attorney General",
+      "url": "https://ballotpedia.org/Arizona_Attorney_General_election,_2026",
+      "title": "Arizona Attorney General election, 2026 — Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2026-10-19"
     },
     {
-      "id": "sA",
+      "id": "s2",
+      "url": "https://petersenforag.com/bio",
+      "title": "Meet Warren",
+      "publisher": "Warren Petersen for Attorney General",
+      "kind": "candidate",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s3",
+      "url": "https://www.azleg.gov/MemberRoster/",
+      "title": "Member Roster",
+      "publisher": "Arizona Legislature",
+      "kind": "official",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "s4",
       "url": "https://azcleanelections.gov/arizona-elections/voter-education-guide/primary-text-attorney-general",
       "title": "Voter Education Guide: Attorney General candidate statements",
       "publisher": "Arizona Citizens Clean Elections Commission",
       "kind": "official",
-      "date": "2026-10-19"
+      "date": "2026-10-21"
     }
   ],
-  "researchedAt": "2026-10-19"
+  "researchedAt": "2026-10-21"
 }
