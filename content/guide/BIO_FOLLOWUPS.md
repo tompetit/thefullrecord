@@ -110,3 +110,6 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - pete-karas: summary says Green Party nominee; his own site reads as independent — confirm ballot line.
 - eric-barlow: Senate start — Ballotpedia Jan 2, 2023 vs Wikipedia Jan 10 (bio uses year only).
 - keith-faber: dropped "born in Troy, Missouri" and Jan 2007 Senate appointment (no longer on Ballotpedia).
+- charles-van-morgan: education/birthplace facts cited to Ballotpedia were checked only via Tennessee Firefly's summary (Ballotpedia didn't load).
+- david-hatley: Elizabethton (grew up) vs Gray (petition address); patent count conflicts (7 vs 11) so none stated.
+- dan-ahlers: House years — Wikipedia lede 2006–2008 vs infobox 2007–2009 (bio uses infobox).
