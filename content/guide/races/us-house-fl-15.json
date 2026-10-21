@@ -11,49 +11,109 @@
   "context": [
     {
       "text": "The Republican primary was canceled and incumbent Laurel Lee advanced unopposed. Robert People won the Democratic primary with 53.7% of the vote against Christopher Irizarry.",
-      "sources": ["s1", "s4"]
+      "sources": [
+        "s1",
+        "s4"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "laurel-lee",
       "name": "Laurel Lee",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
-        "text": "Laurel Lee is the Republican incumbent seeking re-election to Florida's 15th Congressional District. An attorney and former federal prosecutor and public defender, she previously served as Florida's Secretary of State.",
-        "sources": ["s2"]
+        "text": "Laurel Lee is the Republican incumbent in Florida's 15th Congressional District, first elected in 2022. An attorney, she worked as a federal public defender and federal prosecutor, served as a Hillsborough County circuit judge, and was Florida's Secretary of State from 2019 to 2022. Her Republican primary in 2026 was canceled.",
+        "sources": [
+          "s2",
+          "s10"
+        ]
       },
       "background": [
         {
-          "text": "Earned undergraduate and law degrees from the University of Florida.",
-          "sources": ["s2"]
+          "text": "Born at Wright-Patterson Air Force Base in Ohio and raised in a military family; her office says she is the daughter of a two-star U.S. Air Force general.",
+          "sources": [
+            "s10"
+          ]
         },
         {
-          "text": "Worked as an attorney with Carlton Fields, P.A., an assistant federal public defender, an assistant U.S. attorney for the Middle District of Florida, and a law clerk to Judge James S. Moody.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree in political science from the University of Florida in 1996 and a law degree from the University of Florida in 1999.",
+          "sources": [
+            "s10",
+            "s2"
+          ]
         },
         {
-          "text": "Elected to the U.S. House in 2022; assumed office in January 2023.",
-          "sources": ["s2"]
+          "text": "Began her legal career as a law clerk to Judge James S. Moody of the U.S. District Court for the Middle District of Florida, then worked as an attorney with Carlton Fields, P.A.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Served as an assistant federal public defender and then as an assistant U.S. attorney in the Middle District of Florida, where her office says she handled False Claims Act cases and criminal prosecutions.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
+        },
+        {
+          "text": "Served as a judge of Florida's Thirteenth Judicial Circuit Court in Hillsborough County from 2013 to 2019, appointed by Gov. Rick Scott.",
+          "sources": [
+            "s10",
+            "s2"
+          ]
+        },
+        {
+          "text": "Served as Florida's 36th Secretary of State under Gov. Ron DeSantis from January 2019 to May 2022.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Won the 2022 general election for Florida's 15th District, defeating Alan Cohn, and was sworn in on January 3, 2023; she was re-elected in 2024, defeating Pat Kemp.",
+          "sources": [
+            "s2",
+            "s10"
+          ]
+        },
+        {
+          "text": "Serves on the House Energy and Commerce, Judiciary, and Administration Committees; her office says she introduced the REINS Act in her first week in office.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Her office says she lives in eastern Hillsborough County with her husband, Tom, and their three children.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Education: says she supports school choice and wants to ensure families have the resources to pursue an education that fits their needs.",
           "quote": "I understand the importance of school choice in order to empower families to make decisions that will provide their children with the best education possible.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Economy: says she wants to lower taxes, balance the budget, and remove regulations she says burden small businesses.",
           "quote": "I will work to lower taxes on you and your family, balance the budget, and remove regulations that harm Florida’s small businesses.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Law enforcement: says she supports fully funding police and opposes \"defund the police\" rhetoric and policies.",
           "quote": "I strongly oppose “defund the police” rhetoric and policies.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "positions": [
@@ -62,35 +122,45 @@
           "stance": "opposes",
           "summary": "Says she is a strong supporter of the Second Amendment and will fight efforts that might infringe on gun owners' rights.",
           "quote": "I am a strong supporter of the Second Amendment, and I will always fight to protect the constitutional rights of law-abiding gun owners from efforts that might infringe on their right to keep and bear arms.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "issue": "school_choice",
           "stance": "supports",
           "summary": "Says school choice is important to empower families to choose the best education for their children.",
           "quote": "I understand the importance of school choice in order to empower families to make decisions that will provide their children with the best education possible.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says she opposes \"defund the police\" policies and will support legislation that fully funds law enforcement.",
           "quote": "I will always support legislation that fully funds our law enforcement and equips them with the resources they need to keep our streets and communities safe.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
           "summary": "Supports continued oil exploration and says she is working to increase domestic energy production and remove policies she says burden the energy industry.",
           "quote": "I am committed to removing policies that are burdening our energy industry and I will work to revitalize American energy independence through commonsense policies and innovations that promote domestic energy production to bring down costs for all Americans.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [
         {
           "text": "Assigned to chair the Committee on House Administration's Elections Subcommittee and serve as Vice Chair of the full Committee on House Administration and the Joint Committee on the Library, plus seats on the Committee on Energy and Commerce and the Committee on Judiciary, for the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://votelaurel.com/",
@@ -100,34 +170,60 @@
     {
       "id": "robert-people",
       "name": "Robert People",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Robert People is the Democratic nominee for Florida's 15th Congressional District. A retired U.S. Army veteran of 21 years, he is running on protecting Social Security, expanding women's reproductive and health rights, and raising teacher pay.",
-        "sources": ["s3"]
+        "text": "Robert People is the Democratic nominee for Florida's 15th Congressional District. A retired U.S. Army veteran who served from 1997 to 2018, he describes himself as running to continue public service. He says he is running on protecting Social Security, women's reproductive and health rights, and raising teacher pay.",
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
-          "text": "Age 46; retired from the U.S. Army after 21 years of service.",
-          "sources": ["s3"]
+          "text": "Born in Baltimore, Maryland; graduated from Parkville High School and attended the University of Maryland Global Campus.",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Attended Parkville High School in Baltimore, Maryland.",
-          "sources": ["s3"]
+          "text": "Served in the U.S. Army from 1997 to 2018; describes it as 21 years of service.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "His listed career experience is as a writer.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he is 46 years old and is running because he wants to continue public service and not remain on the sidelines.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Protecting Social Security, including a proposal that the government return \"full amounts\" it has collected to beneficiaries.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Women's reproductive and health rights, including reversing what he calls \"harmful policies\" on abortion access.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Raising teacher salaries, starting with District 15, by shifting county school-budget funds away from what he calls wasteful spending.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -135,13 +231,17 @@
           "issue": "abortion",
           "stance": "supports",
           "summary": "Says he wants to reverse what he calls harmful policies restricting women's reproductive and health rights.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Lists protecting Social Security among his top three campaign priorities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -150,12 +250,16 @@
     {
       "id": "angie-boone",
       "name": "Angie Boone",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Write-in candidate",
       "summary": {
         "text": "Angie Boone is a write-in, no-party-affiliation candidate for Florida's 15th Congressional District in the November 3, 2026 general election.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -228,8 +332,15 @@
       "title": "Energy",
       "publisher": "Office of Rep. Laurel Lee, U.S. House",
       "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://laurellee.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Laurel Lee, U.S. House",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "No public record found for write-in candidate Angie Boone beyond her ballot status."
+  "researchNotes": "No public record found for write-in candidate Angie Boone beyond her ballot status. Biography gaps: Angie Boone has no public biography beyond write-in ballot status; Robert People's biography is limited to his Ballotpedia profile and survey."
 }
