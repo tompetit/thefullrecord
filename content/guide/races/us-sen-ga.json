@@ -10,45 +10,107 @@
   "context": [
     {
       "text": "Incumbent Jon Ossoff (D), first elected in a 2021 runoff, is seeking a second term. Mike Collins, a U.S. Representative for Georgia's 10th Congressional District since 2023, won the June 16, 2026 Republican primary runoff over Derek Dooley after neither candidate cleared 50% in the May 19 primary. Elbert Bartell and Chris Capparell are running as independents, and Christina Loren Clement is running as a write-in candidate registered with the Republican Party. Ossoff is the only Democratic senator up for re-election in 2026 in a state Donald Trump carried in 2024.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jon-ossoff",
       "name": "Jon Ossoff",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Advanced from the Democratic primary unopposed.",
       "currentRole": "U.S. Senator from Georgia (since 2021)",
       "summary": {
-        "text": "Jon Ossoff is the incumbent U.S. Senator from Georgia, first elected in a January 2021 runoff over David Perdue. He is running for re-election on his record on prescription-drug costs, border-fentanyl detection, and government-corruption investigations, and is campaigning against the Trump administration's tariffs and Medicaid and Affordable Care Act policies.",
-        "sources": ["s1"]
+        "text": "Jon Ossoff is the incumbent Democratic U.S. Senator from Georgia, first elected in a January 2021 runoff. A former congressional aide and head of an investigative-documentary company, he lost a 2017 special election for the U.S. House before winning the Senate seat. He is running for re-election on his Senate record, including prescription-drug costs, fentanyl detection and corruption investigations.",
+        "sources": [
+          "s1",
+          "s4",
+          "s5",
+          "s6"
+        ]
       },
       "background": [
         {
-          "text": "Elected to the U.S. Senate in a January 2021 runoff, defeating incumbent David Perdue (R) 50.6% to 49.4%.",
-          "sources": ["s1"]
+          "text": "Born February 16, 1987, in Atlanta, Georgia; his Senate website says he was born and raised in Georgia.",
+          "sources": [
+            "s4",
+            "s5",
+            "s6"
+          ]
         },
         {
-          "text": "Before the Senate, led investigations into organized crime, official corruption, war crimes, and human trafficking, according to his Ballotpedia Candidate Connection survey response.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree from Georgetown University's School of Foreign Service (2009) and a master's degree from the London School of Economics (2013).",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Worked as a national security and foreign affairs legislative staffer for U.S. Rep. Hank Johnson from 2007 to 2012, according to Wikipedia; his Senate website says he was mentored by Rep. John Lewis.",
+          "sources": [
+            "s4",
+            "s6"
+          ]
+        },
+        {
+          "text": "Served as managing director and CEO of Insight TWI, a company producing investigative documentaries, from 2013 to 2021; his Senate website says the company produced investigative journalism on war crimes, public corruption, human trafficking and organized crime.",
+          "sources": [
+            "s4",
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Ran in the 2017 special election for Georgia's 6th Congressional District, finishing first in the April primary and losing the June runoff to Karen Handel, 52% to 48%; he did not run for the seat in 2018.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Won the 2020 Democratic primary for U.S. Senate and then the January 5, 2021, runoff against Sen. David Perdue (R), 50.6% to 49.4%; he was sworn in on January 20, 2021.",
+          "sources": [
+            "s1",
+            "s6"
+          ]
+        },
+        {
+          "text": "In the 2025-2026 Congress he sits on the Appropriations Committee (ranking member of the Military Construction, Veterans Affairs subcommittee), the Rules and Administration Committee and the Select Committee on Intelligence.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "His Senate website cites bipartisan legislation on online child safety, veterans' mental health care and fentanyl trafficking, investigations of federal prisons and privatized military housing, and says he passed more standalone bills in his first two years than any other freshman senator. He lives in Atlanta with his wife, Dr. Alisha Kramer, and their two daughters.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he will continue fighting for affordable health care and housing and to repeal tariffs he calls disastrous.",
           "quote": "Right now, Georgians face skyrocketing health care and housing costs amidst tariff chaos and an energy crisis. I will continue fighting for affordable health care and housing, for the prosperity of Georgia families, and to restore checks and balances as we face an out-of-control president.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says he is working to prevent health insurance companies from denying claims for needed care.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Campaigns on reducing corruption in government, including a bill to ban corporate PACs and an effort to ban members of Congress from stock trading.",
           "quote": "I introduced legislation to ban corporate PACs altogether and am leading the charge to ban stock trading by Members of Congress, helping pass a Congressional stock trading ban through a major Senate committee for the first time.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -56,36 +118,48 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says he cast decisive votes to cap the cost of insulin at $35 per month and cap out-of-pocket prescription costs for seniors, and is working to prevent insurers from denying claims.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "tariffs",
           "stance": "opposes",
           "summary": "Says the Trump administration's tariffs are fueling a cost-of-living crisis and is working to repeal them.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Says he helped pass Senate legislation cracking down on out-of-state companies buying up homes in Georgia and driving up housing costs.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [
         {
           "text": "Says he helped pass legislation capping the cost of insulin and out-of-pocket prescription drug costs for seniors.",
           "kind": "bill",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says he helped pass legislation strengthening detection of fentanyl trafficking at the border.",
           "kind": "bill",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Says he helped pass a Congressional stock-trading ban through a Senate committee for the first time.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -93,34 +167,92 @@
     {
       "id": "mike-collins",
       "name": "Mike Collins",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 16, 2026 Republican primary runoff over Derek Dooley, 55.5% to 44.5%, after the May 19 primary (in which he led with 40.5% against Dooley, Earl Carter, Jonathan McColumn, and John Coyne).",
       "currentRole": "U.S. Representative for Georgia's 10th Congressional District (since 2023)",
       "summary": {
-        "text": "Mike Collins is a U.S. Representative for Georgia's 10th Congressional District, first elected in 2022, and the Republican nominee for U.S. Senate. He owns a trucking company and is campaigning on his record in Congress, support for President Trump's agenda, and authorship of the Laken Riley Act.",
-        "sources": ["s3"]
+        "text": "Mike Collins is the Republican nominee and the U.S. Representative for Georgia's 10th Congressional District, first elected in 2022. A Jackson, Georgia, businessman who co-founded a trucking company, he lost a 2014 House runoff before winning the seat eight years later. He is running for the Senate on his House record, including authoring the Laken Riley Act, and support for President Trump's agenda.",
+        "sources": [
+          "s3",
+          "s7",
+          "s8"
+        ]
       },
       "background": [
         {
-          "text": "Earned a B.B.A. from Georgia State University in 1990.",
-          "sources": ["s3"]
+          "text": "Born July 2, 1967, and raised in Jackson, Georgia, where he still lives, according to his House website and Wikipedia; he is the son of former U.S. Rep. Mac Collins.",
+          "sources": [
+            "s3",
+            "s7",
+            "s8"
+          ]
         },
         {
-          "text": "Owned a trucking company before being elected to Congress in 2022 to represent Georgia's 10th Congressional District.",
-          "sources": ["s3"]
+          "text": "Earned a business degree from Georgia State University in 1990.",
+          "sources": [
+            "s3",
+            "s7",
+            "s8"
+          ]
+        },
+        {
+          "text": "Co-founded a trucking company with his wife, Leigh Ann, in the early 1990s that, according to his House website, now employs more than 100 Georgians.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
+        },
+        {
+          "text": "Served on the board and as chairman of one of Georgia's largest credit unions and as president of his local chamber of commerce, per his House website.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Ran for Georgia's 10th District in 2014, finishing second in the Republican primary and losing the runoff to Jody Hice, 54.3% to 45.7%.",
+          "sources": [
+            "s3",
+            "s8"
+          ]
+        },
+        {
+          "text": "Won the 2022 Republican primary runoff over Vernon Jones (74.5% to 25.5%) and the general election over Democrat Tabitha Johnson-Green (64.5% to 35.5%); he was re-elected in 2024.",
+          "sources": [
+            "s3",
+            "s8"
+          ]
+        },
+        {
+          "text": "Serves on the Natural Resources, Transportation and Infrastructure (chair of the Water Resources and Environment subcommittee), and Science, Space, and Technology committees in the 2025-2026 Congress.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "According to material from his campaign website, he passed the TRANQ Act and the Laken Riley Act, the latter signed into law in January 2025, and was appointed to the House Whip Team. He and Leigh Ann have three grown children and four grandchildren, per his House website.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaigns on his experience in Congress and as a business owner, saying he is 'in the fight' backing President Trump's agenda.",
           "quote": "Whether I'm keeping trucks on the road and supporting my community, or backing President Trump by passing America First legislation in Congress, I'm in the fight.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Says he authored the Laken Riley Act and will bring the same approach to immigration enforcement to the Senate.",
           "quote": "I didn't just talk about securing the border and deporting illegal immigrants. I wrote the Laken Riley Act and got it signed into law. I'll bring that same results-driven leadership to the Senate...",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
@@ -128,26 +260,34 @@
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Says he authored the Laken Riley Act, which was signed into law, and campaigns on continuing to secure the border and deport people in the country illegally.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "tariffs",
           "stance": "supports",
           "summary": "Campaigns as a supporter of President Trump's agenda, including his 'America First' legislative program.",
           "quote": "I ran on Trump policies. I ran on 'America First.' I know what those policies did and can do for this country and for the people of this country. That's what I'm running with ... I wholeheartedly support what he's been doing.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "record": [
         {
           "text": "Wrote the Laken Riley Act, federal legislation requiring detention of certain undocumented immigrants charged with theft-related crimes, which was signed into law in January 2025.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Elected to the U.S. House for Georgia's 10th Congressional District in 2022; assumed office in 2023.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "researchDepth": "basic"
@@ -155,28 +295,58 @@
     {
       "id": "elbert-bartell",
       "name": "Elbert Bartell",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Running as an independent in the general election.",
       "summary": {
-        "text": "Elbert Bartell is an independent candidate for U.S. Senate, describing himself as a former U.S. Air Force Department of Defense Conflict Management stakeholder who has led community policy roundtables and development sessions in Georgia.",
-        "sources": ["s2"]
+        "text": "Elbert (Al) Bartell is an independent write-in candidate and Air Force veteran who describes himself as a public policy analyst and mediator. He has appeared on Georgia ballots in earlier cycles and says he is running on public participation in policy-making.",
+        "sources": [
+          "s1",
+          "s2",
+          "s9"
+        ]
       },
       "background": [
         {
-          "text": "Describes himself as a former U.S. Air Force Department of Defense Conflict Management stakeholder, per his Ballotpedia Candidate Connection survey response.",
-          "sources": ["s2"]
+          "text": "Born in Hagerstown, Maryland; graduated from Hannah Pamplico High School and earned a bachelor's degree from Saint Leo University in 1984.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Air Force from 1973 to 1980; his Ballotpedia survey says he is a Vietnam-era veteran with expertise in air base ground defense and conflict resolution.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Lists his profession as policy analyst, and describes himself as a certified mediator who has worked as an independent public policy leader for two decades.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Ballotpedia lists him as a candidate in the 2020 U.S. Senate special election in Georgia (0.3% of the vote) and as a withdrawn or disqualified independent in the 2020 regular Senate and 2022 governor's races.",
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaigns on a commitment to leadership, saying community, faith, and small-business leaders deserve the same access to public policy as lobbyists and corporations.",
           "quote": "Neighborhood, community, faith, and small business leaders deserve the same access to public policy as lobbyists, special interest groups, and corporations.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Campaigns on government integrity, saying community-based stakeholders deserve inclusion in decision-making.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [],
@@ -187,12 +357,16 @@
     {
       "id": "chris-capparell",
       "name": "Chris Capparell",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "ballotNote": "Running as an independent in the general election.",
       "summary": {
         "text": "Chris Capparell is an independent candidate for U.S. Senate in Georgia.",
-        "sources": ["s1"]
+        "sources": [
+          "s1"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -204,28 +378,52 @@
     {
       "id": "christina-loren-clement",
       "name": "Christina Loren Clement",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Running as a write-in candidate registered with the Republican Party.",
       "summary": {
-        "text": "Christina Loren Clement is a write-in candidate for U.S. Senate who describes herself as a policy architect and community mentor, campaigning on an economic-restoration framework she calls LND and on constitutional scholarship related to the Federalist Papers.",
-        "sources": ["s2"]
+        "text": "Christina Loren Clement is a Republican write-in candidate who describes herself as a mentor, community healer and policy architect. Her campaign centers on an economic framework she calls LND and on constitutional scholarship she says she has authored.",
+        "sources": [
+          "s1",
+          "s2",
+          "s10"
+        ]
       },
       "background": [
         {
-          "text": "Describes herself as a mother, community mentor, and 'policy architect' in her Ballotpedia Candidate Connection survey response.",
-          "sources": ["s2"]
+          "text": "Describes herself as a mother, mentor and \"community healer\" and as a \"policy architect\" focused on practical solutions for families and communities; Ballotpedia lists her profession as researcher.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Her campaign materials describe an economic framework she calls LND, a restitution framework, and constitutional scholarship she says she has published, according to her Ballotpedia survey response.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Ballotpedia lists her as a 2024 candidate for President of the United States, with 2024 campaign contributions of $16,011.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she developed an economic framework she calls LND intended to address gaps in access to capital in historically excluded communities.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Describes her campaign as focused on 'restoration' rather than rhetoric, rooted in faith and constitutional scholarship.",
           "quote": "I am running for the United States Senate as the architect of a people-centered solution — one grounded in law, moral clarity, and constructive action. My focus is not division, but restoration; not rhetoric, but results.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [],
@@ -257,7 +455,57 @@
       "title": "Mike Collins (Georgia)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s4",
+      "url": "https://www.ossoff.senate.gov/about/",
+      "title": "About",
+      "publisher": "Office of Senator Jon Ossoff, U.S. Senate",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://ballotpedia.org/Jon_Ossoff",
+      "title": "Jon Ossoff",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s6",
+      "url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+      "title": "Jon Ossoff",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s7",
+      "url": "https://collins.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Mike Collins, U.S. House of Representatives",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://en.wikipedia.org/wiki/Mike_Collins_(politician)",
+      "title": "Mike Collins (politician)",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s9",
+      "url": "https://ballotpedia.org/Elbert_Bartell",
+      "title": "Elbert Bartell",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Christina_Loren_Clement",
+      "title": "Christina Loren Clement (Candidate Connection survey)",
+      "publisher": "Ballotpedia",
+      "kind": "candidate"
     }
   ],
-  "researchedAt": "2026-09-25"
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Biography gaps: Elbert Bartell, Christina Loren Clement and Chris Capparell have no campaign sites or news profiles; their biographies rest on Ballotpedia profiles and Candidate Connection surveys, and Capparell's was not expanded because Ballotpedia lists him as withdrawn or disqualified and not on the Nov. 3 ballot (it also lists independent write-in Cassandra Easton, who has no entry here). Ossoff's biography uses his Senate website, Ballotpedia and Wikipedia; no campaign 'About' page was loaded."
 }
