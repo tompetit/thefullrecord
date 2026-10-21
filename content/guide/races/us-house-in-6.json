@@ -11,50 +11,111 @@
   "context": [
     {
       "text": "Jefferson Shreve won the May 5, 2026 Republican primary with 53.1% of the vote against Sarah Brown; Cynthia Wirth won the Democratic primary with 58.7% of the vote over three other candidates.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "jefferson-shreve",
       "name": "Jefferson Shreve",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
-        "text": "Jefferson Shreve is the Republican incumbent seeking re-election to Indiana's 6th Congressional District. He is a former Indianapolis real estate executive and city council member first elected to Congress in 2024.",
-        "sources": ["s1", "s2"]
+        "text": "Jefferson Shreve is the Republican incumbent seeking re-election to Indiana's 6th Congressional District. A lifelong Hoosier, he founded the self-storage company Storage Express, served on the Indianapolis City-County Council, ran unsuccessfully for mayor in 2023, and was first elected to Congress in 2024. He now serves on the House Appropriations Committee.",
+        "sources": [
+          "s1",
+          "s2",
+          "s7",
+          "s9"
+        ]
       },
       "background": [
         {
-          "text": "Earned a bachelor's degree in political science from Indiana University (1989), a graduate degree from the University of London (1998), and a graduate degree from Purdue University (2003).",
-          "sources": ["s2"]
+          "text": "Born in Indianapolis on September 24, 1965, and raised in the city's University Heights neighborhood.",
+          "sources": [
+            "s8"
+          ]
         },
         {
-          "text": "Career experience includes working as a real estate executive and business owner; founded and built Storage Express, a self-storage company.",
-          "sources": ["s2", "s3"]
+          "text": "Earned a bachelor's degree in political science from Indiana University (1989), a master's degree in international studies from the University of London (1998), and an MBA in agribusiness from Purdue University (2003).",
+          "sources": [
+            "s2",
+            "s7",
+            "s8"
+          ]
         },
         {
-          "text": "Served on the Indianapolis City-County Council from 2013 to 2016 and from 2018 to 2019.",
-          "sources": ["s2"]
+          "text": "According to his House biography, founded the real estate company Storage Express, which grew across about half a dozen states over three decades before he merged it into a New York Stock Exchange-listed national firm; he later served on the board of Extra Space Storage. He also co-owned a software business, e-Tracker, and invested in Illinois basin oil and gas wells and in farm and ranch land.",
+          "sources": [
+            "s3",
+            "s7"
+          ]
         },
         {
-          "text": "Serves on the House Committee on Transportation and Infrastructure (Aviation; Highways and Transit; Railroads, Pipelines and Hazardous Materials subcommittees) and the Committee on Foreign Affairs.",
-          "sources": ["s2"]
+          "text": "Served on the Indianapolis City-County Council from 2013 to 2016 and again from 2018 to 2019; he was appointed to the seat both times and did not seek re-election.",
+          "sources": [
+            "s2",
+            "s8"
+          ]
+        },
+        {
+          "text": "Was elected 7th District Vice Chairman of the Indiana Republican State Committee in January 2018 and re-elected in March 2021, and was a district-level delegate to the 2020 Republican National Convention.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Lost the Republican primary for Indiana State Senate District 36 to Jack Sandlin, and was the Republican nominee for Mayor of Indianapolis in 2023, losing the November general election to incumbent Democrat Joe Hogsett.",
+          "sources": [
+            "s2",
+            "s8"
+          ]
+        },
+        {
+          "text": "Won the 2024 Republican primary for the open 6th District seat vacated by Rep. Greg Pence and the November 2024 general election, taking office in January 2025.",
+          "sources": [
+            "s2",
+            "s8"
+          ]
+        },
+        {
+          "text": "Was named to the House Appropriations Committee by the House Steering Committee in 2026; his office describes him as the first Indiana Republican on the committee in thirty years. Ballotpedia lists earlier House assignments to the Transportation and Infrastructure Committee (Aviation; Highways and Transit; Railroads, Pipelines and Hazardous Materials subcommittees) and the Foreign Affairs Committee.",
+          "sources": [
+            "s2",
+            "s7",
+            "s9"
+          ]
+        },
+        {
+          "text": "Has served as national chairman of the Indiana University Alumni Association and on the executive committee of the Indiana Chamber of Commerce board and of a regional hospital system board, according to his House biography. He and his wife, Mary, live on Indianapolis's Southside.",
+          "sources": [
+            "s7"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Secure the southern border, complete the border wall, and end catch-and-release policies.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Manage government spending, fight for a balanced federal budget, and reduce spending he describes as driving up prices.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Back law enforcement and oppose what he calls soft-on-crime policies.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -63,40 +124,52 @@
           "stance": "supports",
           "summary": "Supports completing the border wall, ending catch-and-release, and stricter immigration enforcement.",
           "quote": "We must complete the border wall, reform our immigration system, end catch-and-release policies, and put an end to the fentanyl trafficking that's flowing over our southern border.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Describes himself as pro-life and says he will work to protect the unborn.",
           "quote": "I'm a pro-life Catholic. I believe we must do all we can to protect human life. I will work to protect the unborn and the health of expectant mothers.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Supports the Second Amendment and opposes stricter gun-control measures, favoring gun-owner responsibility programs instead.",
           "quote": "The right to bear arms is enshrined in our U.S. Constitution. I will support the 2nd Amendment in Congress and advocate for policies that promote responsible gun ownership.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says he will back law enforcement and ensure police have resources, opposing what he calls soft-on-crime policies.",
           "quote": "I will continue to back our men and women in law enforcement and fight to end soft-on-crime policies and the revolving door of crime.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "Assigned to the House Committee on Transportation and Infrastructure and the Committee on Foreign Affairs for the 2025-2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Chairs the bipartisan Stop Scams Caucus in the House, focused on scam prevention and enforcement.",
           "kind": "action",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "website": "https://shreveforcongress.com",
@@ -106,41 +179,85 @@
     {
       "id": "cynthia-wirth",
       "name": "Cynthia Wirth",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 5, 2026 Democratic primary with 58.7% of the vote.",
       "summary": {
-        "text": "Cynthia Wirth is the Democratic nominee for Indiana's 6th Congressional District, a Columbus, Indiana native who has worked as a public school teacher, small business owner, and legislative fellow.",
-        "sources": ["s5"]
+        "text": "Cynthia (Cinde) Wirth is the Democratic nominee for Indiana's 6th Congressional District. A Columbus, Indiana native, she has worked as a high school science teacher, small business owner, researcher, and federal legislative fellow. She was the Democratic nominee in 2024 and says she is running on health care, education and affordability.",
+        "sources": [
+          "s5",
+          "s6"
+        ]
       },
       "background": [
         {
-          "text": "Born and raised in Columbus, Indiana; graduated from Columbus North High School.",
-          "sources": ["s5"]
+          "text": "Born and raised in Columbus, Indiana; graduated from Columbus North High School. She describes herself as a first-generation college graduate.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
         },
         {
-          "text": "Earned a B.A. in biology and Spanish from the University of Evansville (1992), an M.A. from Indiana University Bloomington (2009), and a Ph.D. from Ball State University (2025).",
-          "sources": ["s5"]
+          "text": "Earned a B.A. in biology and Spanish from the University of Evansville (1992), an M.A. in anthropology/archaeology/underwater cultural resource management from Indiana University Bloomington (2009), and a Ph.D. from Ball State University (2025).",
+          "sources": [
+            "s5"
+          ]
         },
         {
-          "text": "Career experience includes work as a research consultant, a legislative fellow with the Albert Einstein Distinguished Educator Fellowship (U.S. Department of Energy), and a high school biology and environmental science teacher; also a small business owner.",
-          "sources": ["s5"]
+          "text": "Worked as a high school biology and environmental science teacher, a research consultant, and a facilitator of biology and environmental science with CSA New Tech, and has been a small business owner.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Was selected as an Albert Einstein Distinguished Educator Fellow with the U.S. Department of Energy as a legislative fellow, and her campaign website says one of the federal bills she wrote there became law in 2020.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Has served as an Educational Ambassador for Friends of Miyoshi, Japan, and her Ballotpedia profile lists professional affiliations including archaeology societies and Sunrise Rotary.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Ran for the seat in 2024 as the Democratic nominee and lost the general election to Jefferson Shreve, 31.7% to 63.9%.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "According to her campaign materials, she and her husband, Trent, have lived in downtown Columbus for 30 years and have two grown children.",
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Invest in a 21st-century workforce and raise wages so Hoosiers can afford housing and basic essentials.",
           "quote": "I believe in investing in a 21st century workforce that will create an economy that serves all Hoosiers. Wages should be adequate to ensure a basic quality of life including safe housing, and reliable access to food and other essentials.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Support high-quality public schools and expand access to higher education.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "text": "Move toward a single-payer healthcare system and invest in community health centers.",
           "quote": "We need to invest in a single-payer healthcare system and community health centers that serve all people, especially our most at-risk groups, in both urban and rural areas.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
@@ -149,28 +266,36 @@
           "stance": "supports",
           "summary": "Supports moving toward a single-payer healthcare system and expanding community health centers.",
           "quote": "We need to invest in a single-payer healthcare system and community health centers that serve all people, especially our most at-risk groups, in both urban and rural areas.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Supports raising the minimum wage so full-time workers do not face poverty.",
           "quote": "No one who works 40 hours a week should be facing poverty, living without safe housing, or struggling to meet basic needs. Cinde will work to raise the minimum wage so that Hoosiers have a better quality of life.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "rent_regulation",
           "stance": "supports",
           "summary": "Opposes investors buying up residences and raising rents, and supports incentives for affordable housing.",
           "quote": "Right now in Indiana, private investors are buying up residences and jacking up rates beyond what most folks can afford. This is exploitative and needs to stop.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Supports federal investment to create universal, educational childcare programs.",
           "quote": "Through subsidies and federal investments, we can create the universal, educational childcare programs that working families need.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [],
@@ -220,8 +345,29 @@
       "title": "Cynthia Wirth - Ballotpedia Candidate Connection survey and campaign website",
       "publisher": "Ballotpedia Candidate Connection survey / cindeforcongress.com",
       "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://shreve.house.gov/about",
+      "title": "Biography",
+      "publisher": "Office of Rep. Jefferson Shreve",
+      "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://en.wikipedia.org/wiki/Jefferson_Shreve",
+      "title": "Jefferson Shreve",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s9",
+      "url": "https://shreve.house.gov/media/press-releases/congressman-shreve-selected-serve-house-committee-appropriations",
+      "title": "Congressman Shreve Selected to Serve on the House Committee on Appropriations",
+      "publisher": "Office of Rep. Jefferson Shreve",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Federal key floor votes and FEC finance totals for the incumbent are added separately by script. Shreve's issue statements are drawn from his 2024 campaign website as republished by Ballotpedia (he has not completed a 2026 Candidate Connection survey); positions may have evolved since."
+  "researchNotes": "Federal key floor votes and FEC finance totals for the incumbent are added separately by script. Shreve's issue statements are drawn from his 2024 campaign website as republished by Ballotpedia (he has not completed a 2026 Candidate Connection survey); positions may have evolved since. Shreve's committee assignments changed in 2026 (added to Appropriations), so the committee list on Ballotpedia may not reflect that change."
 }
