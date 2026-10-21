@@ -11,53 +11,110 @@
   "context": [
     {
       "text": "Florida's U.S. House elections use a new congressional map for 2026; Gov. Ron DeSantis signed the new district boundaries into law on May 4, 2026.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Incumbent Rep. Greg Steube (R) ran unopposed and his Republican primary was canceled. Matthew Montavon won the Democratic primary on August 18, 2026, defeating Allen Spence.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "greg-steube",
       "name": "Greg Steube",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2019)",
       "summary": {
-        "text": "Greg Steube is the incumbent Republican U.S. Representative for the 17th District, in office since January 2019. He is an attorney and Army veteran who previously served in the Florida House and Senate.",
-        "sources": ["s3"]
+        "text": "Greg Steube is the incumbent Republican U.S. Representative for the 17th District, in office since January 2019. An attorney and Army veteran, he served in the Florida House and Senate before his election to Congress and sits on the Ways and Means and Intelligence committees. His official biography highlights his military service, work for seniors and agriculture, and conservative immigration positions.",
+        "sources": [
+          "s3",
+          "s10"
+        ]
       },
       "background": [
         {
-          "text": "Born in Manatee County, Florida; earned his bachelor's and law degrees from the University of Florida.",
-          "sources": ["s3"]
+          "text": "Born in Manatee County, Florida, in 1978 (Wikipedia gives a birth date of May 19, 1978).",
+          "sources": [
+            "s3",
+            "s11"
+          ]
         },
         {
-          "text": "Served as an airborne infantry officer and judge advocate general in the U.S. Army, 2004–2008.",
-          "sources": ["s3"]
+          "text": "Earned his bachelor's degree (2000) and law degree (2003) from the University of Florida.",
+          "sources": [
+            "s3",
+            "s10"
+          ]
         },
         {
-          "text": "Served in the Florida House of Representatives (2010–2016) and Florida State Senate (2016–2018) before winning election to the U.S. House in 2018.",
-          "sources": ["s3"]
+          "text": "Enlisted in the U.S. Army while in law school, according to his official biography, and served as an airborne infantry officer and judge advocate general in the Army, 2004–2008.",
+          "sources": [
+            "s3",
+            "s10"
+          ]
+        },
+        {
+          "text": "According to his official biography, after an injury in Ranger school he transferred to the Army JAG Corps and served as Chief of Detainee Operations for Multinational Division North in Iraq with the 25th Infantry Division from 2006 to 2007, then as a JAG prosecuting courts-martial.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Served in the Florida House of Representatives from 2010 to 2016 and in the Florida State Senate from 2016 to 2018.",
+          "sources": [
+            "s3",
+            "s10"
+          ]
+        },
+        {
+          "text": "Won election to the U.S. House in 2018 and took office in January 2019, succeeding Rep. Thomas Rooney; he is seeking re-election in 2026 after an uncontested Republican primary.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Serves on the House Committee on Ways and Means (Health and Trade subcommittees) and the House Permanent Select Committee on Intelligence in 2025–2026; earlier served on Veterans' Affairs, Oversight, Judiciary and Foreign Affairs.",
+          "sources": [
+            "s3",
+            "s10"
+          ]
+        },
+        {
+          "text": "His official biography says he lives in Sarasota with his wife, Jennifer, and their son.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Veterans: says he is committed to supporting veterans, including through legislation to provide health care choices outside the VA system.",
           "quote": "I’ve spearheaded Congressional reform efforts to provide veterans with health care choices outside of the VA system through my landmark legislation, The Veterans’ True Choice Act.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Border and immigration: says the border must be secured by completing the wall and enforcing existing immigration laws.",
           "quote": "We must secure the border by completing the wall, and we must actually enforce the law so that illegal aliens are not rewarded for illegally crossing the border.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Agriculture: says he supports reducing regulatory burdens on farmers, ranchers and producers and creating fair trade markets for them.",
           "quote": "I maintain a firm stance against burdensome regulations in the agricultural sector, and support policies that help create fair trade markets for American farmers.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
@@ -66,35 +123,45 @@
           "stance": "opposes",
           "summary": "Says he has supported legislation protecting the right to self-defense and opposes efforts he says would infringe on that right.",
           "quote": "Throughout my tenure in Congress, I have supported legislation that protects our God-given right to self-defense, and I oppose any efforts that infringe upon these rights and violate the Constitution.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Says the border must be secured by completing the wall and enforcing existing immigration laws, and voted for legislation to complete the wall.",
           "quote": "We must secure the border by completing the wall, and we must actually enforce the law so that illegal aliens are not rewarded for illegally crossing the border. I voted for legislation to complete the border wall and strengthen our existing border security laws.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "Says his mission is to fight what he calls the harmful effects of the Affordable Care Act.",
           "quote": "it is my mission to fight the harmful effects of the ACA and to reform prescription drug standards.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
           "summary": "Says he is fighting for policies to increase domestic energy production and opposes federal electric-vehicle mandates.",
           "quote": "I am fighting for policies in Congress that reduce dependency on foreign nations, increase domestic energy production, and other means to make energy more affordable for Americans. I oppose the Biden-Harris Administration’s Electric Vehicle mandates and their wasteful taxpayer spending on EV charging infrastructure.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves on the House Committee on Ways and Means (Health and Trade subcommittees) and the Permanent Select Committee on Intelligence for the 2025–2026 Congress.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://ballotpedia.org/Greg_Steube",
@@ -104,35 +171,79 @@
     {
       "id": "matthew-montavon",
       "name": "Matthew Montavon",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 18, 2026 Democratic primary",
       "summary": {
-        "text": "Matthew Montavon is a Democratic candidate challenging incumbent Greg Steube. He spent 27 years working for the United Nations Food and Agriculture Organization combating hunger and poverty, after service in the Peace Corps.",
-        "sources": ["s2"]
+        "text": "Matthew Montavon is the Democratic nominee challenging incumbent Greg Steube. He worked for 27 years for the United Nations Food and Agriculture Organization after Peace Corps service and earlier work in local government planning and finance. He won the August 2026 Democratic primary and has led the Sarasota Democratic Hispanic Caucus.",
+        "sources": [
+          "s2"
+        ]
       },
       "background": [
         {
           "text": "Born in South Bend, Indiana, into a family of nine children; worked odd jobs from high school through college to support himself.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "Served in the Peace Corps and worked six years with local governments and national associations before 27 years with the UN Food and Agriculture Organization.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree in political science and Spanish from the Catholic University of America (1978) and a master's degree in public administration from Indiana University's School of Public and Environmental Affairs (1984).",
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "Currently serves as President of the Sarasota Democratic Hispanic Caucus and volunteer co-coordinator of the AARP Tax-Aide program.",
-          "sources": ["s2"]
+          "text": "Served two years as a Peace Corps volunteer in Central America on an agriculture and grain storage program, then worked with the Illinois Migrant Council in Carbondale, Illinois, serving migrant farm workers and rural disadvantaged people.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked for several years in urban and regional planning and finance for local, regional and national organizations in West Virginia, Virginia and Washington, D.C.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked 27 years for the United Nations Food and Agriculture Organization in Rome, Italy, before retiring.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Served as chairperson of the Rome chapter of Democrats Abroad, and has been an officer in the Federation of International Civil Servants' Associations and president of the FAO Credit Union, according to his survey responses.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Currently serves as President of the Sarasota Democratic Hispanic Caucus and as a volunteer co-coordinator of the AARP Tax-Aide program, which gave him an award for service in 2023; has volunteered with food pantries, Habitat for Humanity and hurricane relief.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the August 18, 2026 Democratic primary with 55.3% of the vote over Allen Spence.",
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he will work to fund government programs and expand public services including education, renewable energy transition, voting access, foreign aid, and civil rights protection.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Supports immigration reform to create a pathway to citizenship for Dreamers and long-term undocumented immigrants.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -141,25 +252,33 @@
           "stance": "opposes",
           "summary": "Supports a comprehensive pathway to citizenship for Dreamers and long-term undocumented immigrants rather than increased enforcement.",
           "quote": "I will also work on immigration reform to create a comprehensive pathway to citizenship for Dreamers and long-term undocumented immigrants who contribute to our country.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Lists combating climate change and transitioning to renewable energy among his policy passions.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Lists defending a woman's right to make her own healthcare decisions among his policy priorities.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says he wants universal health care and protecting Social Security and Medicare.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],
@@ -169,11 +288,15 @@
     {
       "id": "michael-quirk",
       "name": "Michael Quirk",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Michael Quirk is running with no party affiliation in the general election for Florida's 17th District. No campaign website or detailed public statements were found.",
-        "sources": ["s3"]
+        "text": "Michael Quirk is running with no party affiliation in the general election for Florida's 17th District. No biographical information, campaign website or public statements were found.",
+        "sources": [
+          "s12"
+        ]
       },
       "background": [],
       "priorities": [],
@@ -245,8 +368,29 @@
       "title": "Energy",
       "publisher": "Office of Rep. Greg Steube, U.S. House",
       "kind": "official"
+    },
+    {
+      "id": "s10",
+      "url": "https://steube.house.gov/meet-greg",
+      "title": "Meet Greg",
+      "publisher": "Office of Rep. Greg Steube, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s11",
+      "url": "https://en.wikipedia.org/wiki/Greg_Steube",
+      "title": "Greg Steube",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s12",
+      "url": "https://ballotpedia.org/Michael_Quirk",
+      "title": "Michael Quirk",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Federal key votes and FEC finance totals for incumbent Greg Steube are added separately by script. No public information found for Michael Quirk beyond his ballot listing."
+  "researchNotes": "Federal key votes and FEC finance totals for incumbent Greg Steube are added separately by script. No public information found for Michael Quirk beyond his ballot listing (his Ballotpedia page has no biography and he has not completed the Candidate Connection survey), so no background items are given. Greg Steube's biography relies on his official 'Meet Greg' page, Ballotpedia and Wikipedia."
 }

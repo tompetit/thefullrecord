@@ -11,53 +11,115 @@
   "context": [
     {
       "text": "Florida's U.S. House elections use a new congressional map for 2026; Gov. Ron DeSantis signed the new district boundaries into law on May 4, 2026.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Both the Republican and Democratic primaries were canceled: incumbent Rep. Scott Franklin (R) and Curtis Gibson (D) each advanced unopposed.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "scott-franklin",
       "name": "Scott Franklin",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
-        "text": "Scott Franklin is the incumbent Republican U.S. Representative for the 18th District. He is a former naval aviator and small business owner.",
-        "sources": ["s2"]
+        "text": "Scott Franklin is the incumbent Republican U.S. Representative for the 18th District, first elected in 2020. A Naval Academy graduate and former naval aviator, he ran an insurance agency in Lakeland and served on the Lakeland City Commission before Congress. He sits on the House Appropriations Committee and chairs a Science, Space, and Technology subcommittee.",
+        "sources": [
+          "s2",
+          "s8"
+        ]
       },
       "background": [
         {
           "text": "Born in Thomaston, Georgia; graduated from Lakeland High School.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "Served in the U.S. Navy from 1986 to 2000 and the U.S. Navy Reserve from 2000 to 2012; earned a bachelor's degree from the U.S. Naval Academy and an MBA from Embry-Riddle Aeronautical University.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree from the U.S. Naval Academy (1986) and an MBA from Embry-Riddle Aeronautical University (1994); his official biography also lists the Air Command & Staff College and Wharton's Executive Leadership Development Program.",
+          "sources": [
+            "s2",
+            "s8"
+          ]
         },
         {
-          "text": "Career included owning an insurance agency and working as a naval aviator before entering Congress in 2021.",
-          "sources": ["s2"]
+          "text": "Served in the U.S. Navy from 1986 to 2000 and in the Navy Reserve from 2000 to 2012, including as a naval aviator.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Joined the Lanier Upshaw insurance agency in Lakeland in 2000 and led it as president and CEO for 20 years until it merged into BKS Partners on January 1, 2020, where he was managing partner, according to his official biography.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "text": "Held civic roles including chairman of the Florida chapter of the Young Presidents Organization and service with the Lakeland Economic Development Council, Lakeland Rotary Club and Lakeland Chamber of Commerce.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Served on the Lakeland City Commission (Southeast district) and as Mayor Pro Tem; Wikipedia gives his term as January 2018 to January 2021, after his 2017 election.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "text": "Won the 2020 Republican primary against then-Rep. Ross Spano and the general election in the then-15th District, and was sworn into Congress on January 3, 2021; he now represents the 18th District.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "text": "Serves on the House Appropriations Committee (Agriculture, Military Construction and Veterans Affairs, and Energy and Water subcommittees) and chairs the Science, Space, and Technology Committee's Environment Subcommittee. In 2023 Speaker McCarthy appointed him to the Naval Academy Board of Visitors.",
+          "sources": [
+            "s2",
+            "s8"
+          ]
+        },
+        {
+          "text": "His official biography says he and his wife, Amy, have been married for over 30 years and have three adult children.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Economy: says he wants to lower taxes, cut wasteful spending, and eliminate excessive regulations to create jobs and stimulate growth.",
           "quote": "As a businessman, I believe in lowering taxes, reducing wasteful spending and eliminating excessive regulations in order to create jobs and stimulate economic growth.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Healthcare: says healthcare decisions should be made by patients and doctors, not Congress, and favors market-based solutions.",
           "quote": "Healthcare decisions are best made by you and your doctor, not by Congress and unelected Washington bureaucrats.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Border security: says House Republicans passed the Secure the Border Act to secure the border, improve the asylum system, and address what he calls the Biden administration's border crisis.",
           "quote": "The Biden administration has spent years pushing an activist agenda that has created an unprecedented national security and humanitarian crisis. Their open-border policies endanger our communities, empower drug cartels and undercut our efforts to combat illegal immigration.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "positions": [
@@ -66,28 +128,36 @@
           "stance": "opposes",
           "summary": "Says he is a gun owner and Second Amendment supporter who opposes attempts to limit the rights of law-abiding gun owners.",
           "quote": "As a gun owner and strong Second Amendment supporter, I strongly oppose attempts to limit the rights of law-abiding gun owners.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "Says healthcare requires market-based solutions rather than a one-size-fits-all approach, and that decisions should be made by patients and doctors, not Congress.",
           "quote": "Our healthcare requires market-based solutions, not a one-size fits all approach that reduces options, increases cost and impacts timely and affordable care.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Voted for the Secure the Border Act, which he says would secure the border, complete border wall construction, and increase Border Patrol hiring.",
           "quote": "Their open-border policies endanger our communities, empower drug cartels and undercut our efforts to combat illegal immigration. Instead of working with House Republicans to develop a comprehensive plan to address this extraordinary situation at our southern border, President Biden and congressional Democrats are playing political games with American lives. I’m pleased to support this comprehensive measure that will strengthen our communities, promote long-term security, and improve the public health.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         }
       ],
       "record": [
         {
           "text": "Serves as Vice Chair of the House Appropriations Subcommittee on Agriculture, Rural Development, FDA and Related Agencies, and also sits on the Energy and Water Development subcommittee, for the 2025–2026 Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://ballotpedia.org/Scott_Franklin",
@@ -97,34 +167,72 @@
     {
       "id": "curtis-gibson",
       "name": "Curtis Gibson",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Curtis Gibson is a former Lake Wales City Commissioner and commercial property manager running as the Democratic nominee against incumbent Scott Franklin.",
-        "sources": ["s3"]
+        "text": "Curtis Gibson is the Democratic nominee challenging incumbent Scott Franklin; his primary was canceled. He is a former Lake Wales City Commissioner and commercial property manager who has held a range of working jobs. He describes himself as a working-class voice and not a career politician.",
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
         {
-          "text": "Graduate of Lake Wales High School; earned an Associate's degree in Criminal Justice and a Bachelor's degree in Interdisciplinary Business Studies.",
-          "sources": ["s3"]
+          "text": "Graduate of Lake Wales High School; earned an associate degree from Bryant & Stratton College (2017) and a bachelor's degree in interdisciplinary business studies from Kaiser University (2021).",
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Served as a Lake Wales City Commissioner from 2017 to 2021; has worked as a school board janitor, U.S. Postal Service mail carrier, Amazon Air employee, and commercial property manager.",
-          "sources": ["s3"]
+          "text": "Describes past jobs as a school board janitor, U.S. Postal Service mail carrier, Amazon Air employee and professional wrestler.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Served as a Lake Wales City Commissioner from 2017 to 2021.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Works as a commercial property and mall manager, according to his survey responses, which cite experience in local business growth and lease negotiations.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "According to his survey responses, lives in Polk County with his wife, Danielle, five children and a foster child.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Advanced to the general election without a primary after the August 18, 2026 Democratic primary was canceled.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says he will champion policies that protect labor, lower the cost of living, and support working families, citing his own work history as a janitor, mail carrier, and warehouse employee.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says he wants to drive economic revitalization and small business growth in the district using his property-management experience.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Emphasizes public accountability and transparency in government, drawing on his experience as a city commissioner.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -135,34 +243,60 @@
     {
       "id": "deva-simmons",
       "name": "Deva Simmons",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Deva Simmons is running with no party affiliation in the general election for Florida's 18th District. She has worked in education in Polk County for more than two decades and completed Ballotpedia's Candidate Connection survey.",
-        "sources": ["s1"]
+        "text": "Deva Simmons is running with no party affiliation in the general election for Florida's 18th District. She is a Brooklyn native who has lived in Polk County since 2002 and describes more than two decades in education. Her campaign materials emphasize public education, teacher pay and affordability.",
+        "sources": [
+          "s10"
+        ]
       },
       "background": [
         {
           "text": "Born and raised in Brooklyn, New York; moved to Florida in 1995 and has lived in Polk County since 2002.",
-          "sources": ["s1"]
+          "sources": [
+            "s10"
+          ]
         },
         {
-          "text": "Has worked in education for more than two decades as a teacher, mentor, and advocate for students and families; has served on the Boys & Girls Club of Lakeland board and volunteered with the AGB Museum of Art, kidsPACK, Alpha Kappa Alpha Sorority, and Polk County Schools.",
-          "sources": ["s1"]
+          "text": "Graduated from Erasmus Hall High School, earned a bachelor's degree from Columbia College (1990) and a graduate degree from Adelphi University (1995).",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Has worked in education for more than two decades as a teacher, mentor, and advocate for students and families, and is listed as retired as of 2026.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Has served on the Boys & Girls Club of Lakeland board and volunteered with the AGB Museum of Art, kidsPACK, Alpha Kappa Alpha Sorority, and Polk County Schools.",
+          "sources": [
+            "s10"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she will oppose efforts to defund public schools and support legislation to increase teacher compensation and school resources.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Says she will work to protect and restore Affordable Care Act subsidies and address rising healthcare costs.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "text": "Supports raising the federal minimum wage while helping small and local businesses adapt, and supports worker protections and the right to organize and collectively bargain.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "positions": [
@@ -171,14 +305,18 @@
           "stance": "supports",
           "summary": "Says she will work to protect and restore Affordable Care Act subsidies and address the root causes of rising healthcare costs.",
           "quote": "I will work to protect and restore ACA subsidies while addressing the root causes of rising healthcare costs, including insurance practices that can leave families paying more for inadequate care.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Supports raising the federal minimum wage, which she notes has been $7.25 since 2009, while helping small and local businesses adapt.",
           "quote": "I support raising the federal minimum wage while helping small and local businesses adapt.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "record": [],
@@ -235,8 +373,29 @@
       "title": "Second Amendment Rights",
       "publisher": "Office of Rep. Scott Franklin, U.S. House",
       "kind": "official"
+    },
+    {
+      "id": "s8",
+      "url": "https://franklin.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Scott Franklin, U.S. House",
+      "kind": "official"
+    },
+    {
+      "id": "s9",
+      "url": "https://en.wikipedia.org/wiki/Scott_Franklin_(politician)",
+      "title": "Scott Franklin (politician)",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Deva_Simmons",
+      "title": "Deva Simmons",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Curtis Gibson did not state specific policy positions on the fixed issue list in his Candidate Connection survey, so no Positions are recorded. Federal key votes and FEC finance totals for incumbent Scott Franklin are added separately by script."
+  "researchNotes": "Curtis Gibson did not state specific policy positions on the fixed issue list in his Candidate Connection survey, so no Positions are recorded. Federal key votes and FEC finance totals for incumbent Scott Franklin are added separately by script. Deva Simmons's employment history beyond her survey is not independently sourced."
 }
