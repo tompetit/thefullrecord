@@ -11,51 +11,100 @@
   "context": [
     {
       "text": "Incumbent Nikki Budzinski defeated Dylan Blaha in the March 17, 2026 Democratic primary, 75.1% to 24.9%. Jeff Wilson ran unopposed for the Republican nomination.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "nikki-budzinski",
       "name": "Nikki Budzinski",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "ballotNote": "Won the March 17, 2026 Democratic primary with 75.1% of the vote",
       "currentRole": "U.S. Representative (since 2023)",
       "summary": {
-        "text": "Nikki Budzinski is the Democratic U.S. Representative for Illinois's 13th District, first elected in 2022. She previously served as chief of staff of the federal Office of Management and Budget and as a senior advisor in the Office of the Governor of Illinois.",
-        "sources": ["s1"]
+        "text": "Nikki Budzinski is the Democratic U.S. Representative for Illinois's 13th District, first elected in 2022. A Peoria native and University of Illinois graduate, she worked in the labor movement, the Illinois governor's office and the federal Office of Management and Budget before running for Congress. She serves on the Agriculture and Veterans' Affairs committees.",
+        "sources": [
+          "s1",
+          "s12"
+        ]
       },
       "background": [
         {
           "text": "Born in Peoria, Illinois; earned a bachelor's degree in political science from the University of Illinois at Urbana-Champaign.",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         },
         {
-          "text": "Worked on the campaigns of Chris Dodd, Hillary Clinton, and J.B. Pritzker.",
-          "sources": ["s1"]
+          "text": "According to her House biography, she joined the labor movement after college and worked on wages, benefits and workplace safety for firefighters, grocery workers and meatpackers.",
+          "sources": [
+            "s12"
+          ]
         },
         {
-          "text": "Served as chief of staff of the federal Office of Management and Budget and as a senior advisor with the Office of the Governor of Illinois, where she chaired the Broadband Advisory Council.",
-          "sources": ["s1"]
+          "text": "Worked on the campaigns of Chris Dodd, Hillary Clinton, and J.B. Pritzker, and was president of Budzinski & Partners, LLC, a political consulting firm.",
+          "sources": [
+            "s1"
+          ]
         },
         {
-          "text": "President of Budzinski & Partners, LLC, a political consulting firm.",
-          "sources": ["s1"]
+          "text": "Served as a senior advisor in the Office of the Governor of Illinois, where she chaired the Broadband Advisory Council; her House biography says she also led negotiations on raising the state minimum wage to $15 an hour.",
+          "sources": [
+            "s1",
+            "s12"
+          ]
+        },
+        {
+          "text": "Served as chief of staff of the federal Office of Management and Budget; her House biography says she helped implement the American Rescue Plan and establish the Made in America Office.",
+          "sources": [
+            "s1",
+            "s12"
+          ]
+        },
+        {
+          "text": "Won the Democratic primary over David Palmer on June 28, 2022, and the November 2022 general election over Republican Regan Deering; she took office in 2023.",
+          "sources": [
+            "s1",
+            "s12"
+          ]
+        },
+        {
+          "text": "Serves on the House Agriculture and Veterans' Affairs committees and is Ranking Member of the Veterans' Affairs Subcommittee on Technology Modernization.",
+          "sources": [
+            "s12",
+            "s1"
+          ]
+        },
+        {
+          "text": "Founded the Congressional Postal Service Caucus, serves as a Vice-Chair of the Congressional Labor Caucus and as Vice Chair of Policy for the New Democrat Coalition.",
+          "sources": [
+            "s12"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she has spent her career fighting for workers and is focused in Congress on passing the PRO Act and improving pathways to good-paying jobs, including through apprenticeship programs.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says she is working to bring down high prices at the grocery store and gas pump for working families through measures like a middle-class child tax cut and capping insulin costs.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Says she is focused on delivering a strong, bipartisan farm bill that supports family farmers and rural communities as a member of the House Committee on Agriculture.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -64,49 +113,63 @@
           "stance": "supports",
           "summary": "Says she is working to restore the protections granted under Roe v. Wade and protect access to medications such as Mifepristone, and has cosponsored legislation creating a statutory right to abortion care.",
           "quote": "That is why In Congress, I will fight tirelessly to ensure we restore the protections granted under Roe v. Wade and fight to protect access to medications such as Mifepristone.",
-          "sources": ["s6"]
+          "sources": [
+            "s6"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Voted three times against legislation that would have given ICE and Customs and Border Protection an additional $70 billion in funding without added oversight or accountability, and called for the removal of the Secretary of Homeland Security.",
           "quote": "I voted 3 times against legislation that would have handed ICE and Customs and Border Protection an additional $70 billion without meaningful oversight, accountability, or reforms.",
-          "sources": ["s7"]
+          "sources": [
+            "s7"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Voted against what she describes as the largest cut to Medicaid in history and is working to restore expanded Affordable Care Act premium tax credits.",
           "quote": "I voted NO on the largest cut to Medicaid in history, pushed by President Trump and House Republicans.",
-          "sources": ["s8"]
+          "sources": [
+            "s8"
+          ]
         },
         {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Says she has opposed calls to \"defund\" the police and has supported federal grant programs providing more resources to local law enforcement agencies.",
           "quote": "I’ve opposed calls to “defund” the police and supported a variety of federal grant programs that provide more resources to our local law enforcement agencies — particularly those in rural communities.",
-          "sources": ["s9"]
+          "sources": [
+            "s9"
+          ]
         },
         {
           "issue": "school_choice",
           "stance": "opposes",
           "summary": "Says she is strongly opposed to efforts to privatize the school system through vouchers.",
           "quote": "Public schools are critical to supporting our nation’s future. That’s why I am strongly opposed to efforts to privatize our school system through vouchers.",
-          "sources": ["s10"]
+          "sources": [
+            "s10"
+          ]
         },
         {
           "issue": "climate",
           "stance": "mixed",
           "summary": "Supports an \"all-of-the-above\" energy approach that includes continued use of natural gas as a \"transition fuel\" alongside expanded nuclear, wind and solar and clean-energy tax incentives.",
           "quote": "Keeping energy affordable means increasing supply. That includes accelerating the deployment of clean energy sources like nuclear, wind, and solar while also utilizing transition fuels such as natural gas to ensure reliability and meet demand.",
-          "sources": ["s11"]
+          "sources": [
+            "s11"
+          ]
         }
       ],
       "record": [
         {
           "text": "In the 119th Congress (2025-2026), serves on the Committee on Agriculture (Commodity Markets, Digital Assets and Rural Development; Conservation, Research and Biotechnology; General Farm Commodities, Risk Management and Credit) and the House Committee on Veterans' Affairs (Technology Modernization).",
           "kind": "action",
-          "sources": ["s1"]
+          "sources": [
+            "s1"
+          ]
         }
       ],
       "researchDepth": "basic",
@@ -115,21 +178,50 @@
     {
       "id": "jeff-wilson",
       "name": "Jeff Wilson",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the March 17, 2026 Republican primary unopposed",
       "summary": {
-        "text": "Jeff Wilson is the Republican nominee for Illinois's 13th Congressional District. He is a U.S. Navy veteran who has been affiliated with the Champaign County Board.",
-        "sources": ["s2"]
+        "text": "Jeff Wilson is the Republican nominee for Illinois's 13th District. A former naval submariner and retired nuclear engineer, he has served on the Champaign County Board and won the March 2026 Republican primary. He describes himself as a \"pro-life, pro-gun constitutional federalist\" and a supporter of President Trump.",
+        "sources": [
+          "s2",
+          "s13"
+        ]
       },
       "background": [
         {
-          "text": "Served in the U.S. Navy.",
-          "sources": ["s2"]
+          "text": "Served in the U.S. Navy; Illinois Public Media describes him as a former naval submariner.",
+          "sources": [
+            "s2",
+            "s13"
+          ]
         },
         {
-          "text": "Has been affiliated with the Champaign County Board.",
-          "sources": ["s2"]
+          "text": "Worked as a nuclear engineer before retiring.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Is a member of the Champaign County Board, where Democrats hold a 16-6 majority; the report says he has served in local government since 2024.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Lives in Mahomet with his wife, just outside the 13th District; federal law requires a House candidate to live in the state, not the district.",
+          "sources": [
+            "s13"
+          ]
+        },
+        {
+          "text": "Won the March 17, 2026 Republican primary over Joshua Loyd, the party's 2024 nominee, to face incumbent Nikki Budzinski.",
+          "sources": [
+            "s2",
+            "s13"
+          ]
         }
       ],
       "priorities": [],
@@ -215,8 +307,24 @@
       "title": "Building America's Energy Future",
       "publisher": "Nikki for Congress",
       "kind": "candidate"
+    },
+    {
+      "id": "s12",
+      "url": "https://budzinski.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Nikki Budzinski",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s13",
+      "url": "https://ipmnewsroom.org/jeff-wilson-believes-hes-the-republican-to-flip-illinois-13th-congressional-district/",
+      "title": "Jeff Wilson believes he's the Republican to flip Illinois' 13th Congressional District",
+      "publisher": "Illinois Public Media / Illinois Newsroom",
+      "kind": "news",
+      "date": "2026-10-21"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate has completed the 2026 Ballotpedia Candidate Connection survey. Jeff Wilson has no campaign website with stated priorities or issue positions found within the research budget for this race; his public record beyond his Navy service and county board affiliation is limited."
+  "researchNotes": "Neither candidate has completed the 2026 Ballotpedia Candidate Connection survey. Jeff Wilson has no campaign website with stated priorities or issue positions found within the research budget for this race; his public record beyond his Navy service and county board affiliation is limited. Jeff Wilson's biography rests on Ballotpedia and one news profile; his birthplace, education, and the dates of his Navy service were not found."
 }
