@@ -11,28 +11,81 @@
   "context": [
     {
       "text": "Incumbent Joaquin Castro (D) defeated two challengers in the March 3, 2026 Democratic primary. Edgardo Baez ran unopposed for the Republican nomination.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "joaquin-castro",
       "name": "Joaquin Castro",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2013)",
       "summary": {
-        "text": "Joaquin Castro is the Democratic incumbent seeking re-election to Texas's 20th District. An attorney and former law professor, he serves on the House Permanent Select Committee on Intelligence and the Committee on Foreign Affairs.",
-        "sources": ["s2"]
+        "text": "Joaquin Castro is the Democratic incumbent seeking re-election to Texas's 20th District. A San Antonio native and Stanford and Harvard Law graduate, he practiced law, taught as a law professor, and served five terms in the Texas House before his election to Congress in 2012. He serves on the House Foreign Affairs Committee and the House Permanent Select Committee on Intelligence.",
+        "sources": [
+          "s2",
+          "s4",
+          "s5"
+        ]
       },
       "background": [
         {
-          "text": "Born in San Antonio, Texas, and graduated from Thomas Jefferson High School; earned a bachelor's degree from Stanford University and a law degree from Harvard University.",
-          "sources": ["s2"]
+          "text": "Born in San Antonio on September 16, 1974, and raised on the city's West Side; attended public schools and graduated from Thomas Jefferson High School. His identical twin brother is Julian Castro, a former San Antonio mayor and U.S. Housing and Urban Development secretary.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
         },
         {
-          "text": "Worked as an attorney and law professor before entering elected office.",
-          "sources": ["s2"]
+          "text": "Graduated with honors from Stanford University in 1996 and received a law degree from Harvard Law School in 2000.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Returned to San Antonio and joined a private law practice; also taught as a visiting professor of law at St. Mary's University and as an adjunct professor at Trinity University.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Served in the Texas House of Representatives from 2003 to 2013, representing District 125 for five terms; his official biography lists his roles as vice chairman of the Higher Education Committee and Democratic floor leader.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Elected to the U.S. House in 2012 from Texas's 20th District and took office in January 2013; served as co-president of the 2013 House freshman Democrats.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Chaired the Congressional Hispanic Caucus during the 116th Congress (2019-2021).",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Serves on the House Foreign Affairs Committee and the House Permanent Select Committee on Intelligence; his official site lists him as ranking member of the Western Hemisphere Subcommittee and a founding co-chair of the U.S.-Mexico and U.S.-Japan caucuses.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
+        },
+        {
+          "text": "Founded the SA READS literacy campaign and book drive and created the Trailblazers College Tour for students, according to his official biography.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [],
@@ -41,7 +94,9 @@
         {
           "text": "Serves on the House Permanent Select Committee on Intelligence, including its Central Intelligence Agency and National Security Agency and Cyber subcommittees, and on the Committee on Foreign Affairs, in the 119th Congress.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://castro.house.gov",
@@ -51,35 +106,78 @@
     {
       "id": "edgardo-baez",
       "name": "Edgardo Baez",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Ran unopposed for the Republican nomination in the March 3, 2026 primary.",
       "summary": {
-        "text": "Edgardo Baez is the Republican nominee challenging Castro. He is an attorney and U.S. Army veteran with more than 30 years of military, medical and legal public service.",
-        "sources": ["s3"]
+        "text": "Edgardo Baez is the Republican nominee challenging Castro. An Army veteran born in Puerto Rico, he describes himself as a former combat medic, airborne paratrooper and drill sergeant who later became an intensive care nurse and a San Antonio attorney. He lists a Ph.D. from Liberty University and says he has practiced law for about 20 years.",
+        "sources": [
+          "s3",
+          "s6",
+          "s7"
+        ]
       },
       "background": [
         {
-          "text": "Born in Ponce, Puerto Rico; served in the U.S. Army from 1989 to 2002.",
-          "sources": ["s3"]
+          "text": "Born in Ponce, Puerto Rico, and received a high school diploma from Julio Alvarado High School.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Army from 1989 to 2002; in a San Antonio Report profile he describes himself as a former combat medic, airborne paratrooper and Army drill sergeant.",
+          "sources": [
+            "s3",
+            "s6"
+          ]
         },
         {
           "text": "Earned a bachelor's degree from Wayland Baptist University (2002), a law degree from Texas Southern University (2004), and a Ph.D. from Liberty University (2023).",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
-          "text": "Has worked as an attorney, business owner, nurse, and EMT; affiliated with the Texas Criminal Defense Lawyers Association and the National Association of Criminal Defense Lawyers.",
-          "sources": ["s3"]
+          "text": "Has worked as an intensive care nurse, EMT, business owner and attorney; his campaign site describes him as a soldier, critical care nurse and attorney for over two decades, and he says he has practiced law in San Antonio for about 20 years.",
+          "sources": [
+            "s3",
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "As of 2025, was affiliated with the Texas Criminal Defense Lawyers Association and the National Association of Criminal Defense Lawyers.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Is described by the San Antonio Report as a published author; as of the profile he gives his age as 55 and says he lives in San Antonio.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Won the Republican nomination for the 20th District in the March 3, 2026 primary.",
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Cites over 30 years of public service across military, medical and legal fields as proof of his commitment to the district.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says he will promote policies that support families and strong communities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -87,7 +185,9 @@
           "issue": "healthcare_public",
           "stance": "mixed",
           "summary": "Says he prioritizes improving healthcare access and quality and supports policies that make healthcare competitive and accessible.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -95,10 +195,59 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026", "title": "United States House of Representatives elections in Texas, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Joaquin_Castro", "title": "Joaquin Castro", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Edgardo_Baez", "title": "Edgardo Baez - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+      "title": "United States House of Representatives elections in Texas, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Joaquin_Castro",
+      "title": "Joaquin Castro",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Edgardo_Baez",
+      "title": "Edgardo Baez - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://castro.house.gov/about",
+      "title": "Biography",
+      "publisher": "Office of Rep. Joaquin Castro",
+      "kind": "official"
+    },
+    {
+      "id": "s5",
+      "url": "https://castro.house.gov/about/committees-and-caucuses",
+      "title": "Committees and Caucuses",
+      "publisher": "Office of Rep. Joaquin Castro",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://sanantonioreport.org/profile/edgardo-baez-2026-candidate-for-texas-20th-congressional-district",
+      "title": "Edgardo Baez, 2026 candidate for Texas 20th Congressional District",
+      "publisher": "San Antonio Report",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://drbaezforcongress.com",
+      "title": "Dr. Baez for Congress",
+      "publisher": "Dr. E.R. Baez for Congress",
+      "kind": "candidate"
+    }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Joaquin Castro's key floor votes and FEC finance totals are filled in separately by script."
+  "researchNotes": "Joaquin Castro's key floor votes and FEC finance totals are filled in separately by script. Baez's birth year and family details are not published in the sources reviewed; his campaign website offers only a brief biography."
 }
