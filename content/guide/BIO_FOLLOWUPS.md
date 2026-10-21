@@ -113,3 +113,6 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - charles-van-morgan: education/birthplace facts cited to Ballotpedia were checked only via Tennessee Firefly's summary (Ballotpedia didn't load).
 - david-hatley: Elizabethton (grew up) vs Gray (petition address); patent count conflicts (7 vs 11) so none stated.
 - dan-ahlers: House years — Wikipedia lede 2006–2008 vs infobox 2007–2009 (bio uses infobox).
+- kim-ahern: Providence Eye calls her current Cannabis Control Commission chair; Rhode Island Current says she stepped down Oct 2025 (bio follows RI Current; both RI Current URLs 403 on re-check).
+- josh-shapiro: House end year — Wikipedia 2012 vs governor's page 2011 (bio says "from 2005").
+- alan-wilson: West Columbia native (FOX Carolina) vs "Lexington native" (Live 5).
