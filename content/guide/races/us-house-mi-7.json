@@ -11,38 +11,156 @@
   "context": [
     {
       "text": "Ballotpedia identified this race as a battleground election. Barrett defeated Curtis Hertel Jr. (D) 50.3%-46.6% in 2024, and forecasters rated the 2026 race Lean Democratic or Toss-up as of September 2026.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "tom-barrett",
       "name": "Tom Barrett",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
-        "text": "Tom Barrett is the Republican incumbent, seeking a second term. He is a U.S. Army veteran and former Michigan state senator running on his record in office and military background.",
-        "sources": ["s1"]
+        "text": "Tom Barrett is the Republican incumbent, seeking a second term representing Michigan's 7th District. A 22-year U.S. Army veteran and helicopter pilot, he served four years in the Michigan House and four in the Michigan Senate before winning the congressional seat in 2024 on his second attempt. According to his Ballotpedia Candidate Connection survey, he is running on housing and health care costs and on setting clear limits on military deployments.",
+        "sources": [
+          "s2",
+          "s2b",
+          "s4"
+        ]
       },
       "background": [
-        {"text": "Earned a bachelor's degree from Western Michigan University.", "sources": ["s2"]},
-        {"text": "Served in the U.S. Army during Operation Enduring Freedom and Operation Iraqi Freedom, reaching the rank of Chief Warrant Officer and serving as a helicopter pilot in the Michigan Army National Guard.", "sources": ["s2"]},
-        {"text": "Served in the Michigan State Senate before his 2024 election to the U.S. House, chairing the Transportation and Infrastructure Committee.", "sources": ["s2"]}
+        {
+          "text": "According to his official biography, Barrett is a lifelong Michigan resident who grew up in a family where his father worked two jobs and his mother stayed home to raise Tom and his six siblings.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Graduated from Western Michigan University with honors in 2007 through the Montgomery GI Bill, according to his official biography.",
+          "sources": [
+            "s4",
+            "s2b"
+          ]
+        },
+        {
+          "text": "Served in the U.S. Army from 2000 to 2022, including during Operation Enduring Freedom and Operation Iraqi Freedom, reaching the rank of Chief Warrant Officer; he was a helicopter pilot in the Michigan Army National Guard. His official biography lists service in Iraq, Guantanamo Bay, Kuwait and the Korean DMZ and more than 1,000 flight hours.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Elected to the Michigan House of Representatives (District 71) and served 2015 to 2019. In the 2015 session he chaired the Military and Veterans Affairs Committee.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Elected to the Michigan Senate (District 24) in 2018 and served 2019 to 2023; he chaired the Senate Transportation and Infrastructure Committee.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Ran for Congress in 2022 and lost to Rep. Elissa Slotkin (D), 51.7% to 46.3%.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Won Michigan's 7th District in November 2024, defeating Curtis Hertel (D) 50.3% to 46.6%, and took office in 2025 as Slotkin's successor.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "In the U.S. House, serves on the Transportation and Infrastructure Committee and the Veterans' Affairs Committee, and, according to his Ballotpedia survey, chairs the Technology Modernization Subcommittee.",
+          "sources": [
+            "s2",
+            "s2b"
+          ]
+        },
+        {
+          "text": "According to his official biography, lives in Charlotte, Michigan, with his wife, Ashley, and their four children.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
-        {"text": "Cutting inflation by opposing what he calls reckless federal spending, to lower the cost of living.", "quote": "Inflation is at a 40 year high and hurting working families. I am running to cut inflation by opposing reckless spending in Washington D.C. to lower the cost of living.", "sources": ["s2b"]},
-        {"text": "Expanding U.S. energy production, including pipelines and drilling, to reduce reliance on foreign oil.", "quote": "Make America energy independent again. Gas prices are at record highs and Americans are feeling the pain at the pump. I will work to expand America's energy production, open pipelines, increase drilling, and end our reliance on foreign oil.", "sources": ["s2b"]},
-        {"text": "Securing the border and increasing support for law enforcement.", "quote": "We need to secure the border, stop the flow of fentanyl, and increase public safety by supporting law enforcement and our rule of law.", "sources": ["s2b"]}
+        {
+          "text": "Cutting inflation by opposing what he calls reckless federal spending, to lower the cost of living.",
+          "quote": "Inflation is at a 40 year high and hurting working families. I am running to cut inflation by opposing reckless spending in Washington D.C. to lower the cost of living.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "text": "Expanding U.S. energy production, including pipelines and drilling, to reduce reliance on foreign oil.",
+          "quote": "Make America energy independent again. Gas prices are at record highs and Americans are feeling the pain at the pump. I will work to expand America's energy production, open pipelines, increase drilling, and end our reliance on foreign oil.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "text": "Securing the border and increasing support for law enforcement.",
+          "quote": "We need to secure the border, stop the flow of fentanyl, and increase public safety by supporting law enforcement and our rule of law.",
+          "sources": [
+            "s2b"
+          ]
+        }
       ],
       "positions": [
-        {"issue": "immigration_enforcement", "stance": "supports", "summary": "Supports securing the border and stopping the flow of fentanyl.", "quote": "Our Southern Border is out-of-control and has been for too long... the flow of fentanyl into our communities is now the #1 killer of Americans age 18-45.", "sources": ["s2b"]},
-        {"issue": "police_funding", "stance": "supports", "summary": "Says under-funding of police has contributed to rising crime and supports increased backing for law enforcement.", "quote": "Years of attacks on our law enforcement and under-funding of our police has led to the highest crime in decades... It's time to make our streets safe again.", "sources": ["s2b"]},
-        {"issue": "climate", "stance": "opposes", "summary": "Supports expanding oil and gas production and pipelines rather than a faster transition away from fossil fuels.", "quote": "I will work to expand America's energy production, open pipelines, increase drilling, and end our reliance on foreign oil.", "sources": ["s2b"]}
+        {
+          "issue": "immigration_enforcement",
+          "stance": "supports",
+          "summary": "Supports securing the border and stopping the flow of fentanyl.",
+          "quote": "Our Southern Border is out-of-control and has been for too long... the flow of fentanyl into our communities is now the #1 killer of Americans age 18-45.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "issue": "police_funding",
+          "stance": "supports",
+          "summary": "Says under-funding of police has contributed to rising crime and supports increased backing for law enforcement.",
+          "quote": "Years of attacks on our law enforcement and under-funding of our police has led to the highest crime in decades... It's time to make our streets safe again.",
+          "sources": [
+            "s2b"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "opposes",
+          "summary": "Supports expanding oil and gas production and pipelines rather than a faster transition away from fossil fuels.",
+          "quote": "I will work to expand America's energy production, open pipelines, increase drilling, and end our reliance on foreign oil.",
+          "sources": [
+            "s2b"
+          ]
+        }
       ],
       "record": [
-        {"text": "Assigned to the House Committee on Veterans' Affairs (chairing the Technology Modernization subcommittee) and the Committee on Transportation and Infrastructure for the 119th Congress (2025-2026).", "kind": "action", "sources": ["s2"]},
-        {"text": "Chaired the Michigan State Senate's Transportation and Infrastructure Committee.", "kind": "action", "sources": ["s2"]}
+        {
+          "text": "Assigned to the House Committee on Veterans' Affairs (chairing the Technology Modernization subcommittee) and the Committee on Transportation and Infrastructure for the 119th Congress (2025-2026).",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Chaired the Michigan State Senate's Transportation and Infrastructure Committee.",
+          "kind": "action",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "website": "https://tombarrettforcongress.com/",
       "researchDepth": "basic",
@@ -51,27 +169,122 @@
     {
       "id": "william-lawrence",
       "name": "William Lawrence",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "William Lawrence is a tenant-organizing and climate activist making his first run for Congress, campaigning on housing affordability, Medicare for All and climate action.",
-        "sources": ["s1"]
+        "text": "William Lawrence is the Democratic nominee and a climate and housing organizer making his first run for office. He co-founded the Sunrise Movement and later helped found tenant-organizing groups in mid-Michigan. He won the August 2026 Democratic primary and, according to his campaign website, is running on housing affordability, Medicare for All and climate action.",
+        "sources": [
+          "s3",
+          "s3b",
+          "s6"
+        ]
       },
       "background": [
-        {"text": "Earned a bachelor's degree from Swarthmore College.", "sources": ["s3"]},
-        {"text": "Co-founded the youth climate group Sunrise Movement.", "sources": ["s3"]},
-        {"text": "Co-founded the Michigan Rent Is Too Damn High Coalition and the Mid-Michigan Tenant Resource Center.", "sources": ["s3"]}
+        {
+          "text": "Born in 1990 in Madison, Wisconsin, he moved to East Lansing at age five and graduated from East Lansing High School, according to Wikipedia; his campaign website also says he was raised in East Lansing.",
+          "sources": [
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree from Swarthmore College (sociology and anthropology, per Wikipedia).",
+          "sources": [
+            "s3",
+            "s5"
+          ]
+        },
+        {
+          "text": "Co-founded the Sunrise Movement, a youth climate organization, in 2015; he worked there as development director and later director of strategic partnerships and left in 2020, per Wikipedia.",
+          "sources": [
+            "s3",
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Since 2020 has worked on housing issues in Michigan; he founded the Mid-Michigan Tenant Resource Center and helped found the Michigan Rent Is Too Damn High Coalition, which his campaign website says has won statewide protections for low-income renters.",
+          "sources": [
+            "s3",
+            "s5",
+            "s6"
+          ]
+        },
+        {
+          "text": "Won the August 4, 2026 Democratic primary for Michigan's 7th District, defeating Bridget Brink and Matt Maasdam. This is his first run for Congress.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "According to his campaign website, he and his wife live in Lansing.",
+          "sources": [
+            "s6"
+          ]
+        }
       ],
       "priorities": [
-        {"text": "Major federal investment in affordable housing and a federal tenant bill of rights.", "quote": "We need major federal investment in quality housing, at all price points... I also support a federal tenant bill of rights that would level the playing field between tenants and price-gouging landlords.", "sources": ["s3b"]},
-        {"text": "Medicare for All to remove the profit motive from health insurance.", "quote": "I support Medicare for All, which would remove the profit motive from health insurance and allow us all to access quality care, for a lower price.", "sources": ["s3b"]},
-        {"text": "A billionaire minimum tax to fund public investments.", "quote": "I support a billionaire minimum tax, which is a minimum wealth tax rate that the mega-wealthy must pay.", "sources": ["s3b"]}
+        {
+          "text": "Major federal investment in affordable housing and a federal tenant bill of rights.",
+          "quote": "We need major federal investment in quality housing, at all price points... I also support a federal tenant bill of rights that would level the playing field between tenants and price-gouging landlords.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "Medicare for All to remove the profit motive from health insurance.",
+          "quote": "I support Medicare for All, which would remove the profit motive from health insurance and allow us all to access quality care, for a lower price.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "text": "A billionaire minimum tax to fund public investments.",
+          "quote": "I support a billionaire minimum tax, which is a minimum wealth tax rate that the mega-wealthy must pay.",
+          "sources": [
+            "s3b"
+          ]
+        }
       ],
       "positions": [
-        {"issue": "rent_regulation", "stance": "supports", "summary": "Supports a federal tenant bill of rights and greater investment in affordable housing.", "quote": "I also support a federal tenant bill of rights that would level the playing field between tenants and price-gouging landlords.", "sources": ["s3b"]},
-        {"issue": "healthcare_public", "stance": "supports", "summary": "Supports Medicare for All.", "quote": "I support Medicare for All, which would remove the profit motive from health insurance and allow us all to access quality care, for a lower price.", "sources": ["s3b"]},
-        {"issue": "tax_wealthy", "stance": "supports", "summary": "Supports a minimum tax on billionaires.", "quote": "I support a billionaire minimum tax, which is a minimum wealth tax rate that the mega-wealthy must pay.", "sources": ["s3b"]},
-        {"issue": "climate", "stance": "supports", "summary": "Campaigns on defending against climate change and says utilities have sabotaged the clean-energy transition.", "quote": "I saw first-hand how Big Utilities have sabotaged the clean energy transition so they can keep getting rich off our monthly gas and electric bills.", "sources": ["s3b"]}
+        {
+          "issue": "rent_regulation",
+          "stance": "supports",
+          "summary": "Supports a federal tenant bill of rights and greater investment in affordable housing.",
+          "quote": "I also support a federal tenant bill of rights that would level the playing field between tenants and price-gouging landlords.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "issue": "healthcare_public",
+          "stance": "supports",
+          "summary": "Supports Medicare for All.",
+          "quote": "I support Medicare for All, which would remove the profit motive from health insurance and allow us all to access quality care, for a lower price.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "issue": "tax_wealthy",
+          "stance": "supports",
+          "summary": "Supports a minimum tax on billionaires.",
+          "quote": "I support a billionaire minimum tax, which is a minimum wealth tax rate that the mega-wealthy must pay.",
+          "sources": [
+            "s3b"
+          ]
+        },
+        {
+          "issue": "climate",
+          "stance": "supports",
+          "summary": "Campaigns on defending against climate change and says utilities have sabotaged the clean-energy transition.",
+          "quote": "I saw first-hand how Big Utilities have sabotaged the clean energy transition so they can keep getting rich off our monthly gas and electric bills.",
+          "sources": [
+            "s3b"
+          ]
+        }
       ],
       "record": [],
       "website": "http://www.wewill2026.com/",
@@ -80,13 +293,24 @@
     {
       "id": "shane-dedrick",
       "name": "Shane Dedrick",
-      "parties": ["G"],
+      "parties": [
+        "G"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Shane Dedrick is the Green Party candidate on the November general-election ballot for this district.",
-        "sources": ["s1"]
+        "text": "Shane Dedrick is the Green Party candidate for Michigan's 7th District. Little biographical information is available in public sources.",
+        "sources": [
+          "s7"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Advanced from the Green Party convention on April 25, 2026, and is on the November 3 general-election ballot.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
@@ -95,11 +319,79 @@
     }
   ],
   "sources": [
-    {"id": "s1", "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026", "title": "United States House of Representatives elections in Michigan, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s2", "url": "https://ballotpedia.org/Tom_Barrett_(Michigan)", "title": "Tom Barrett (Michigan)", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s2b", "url": "https://ballotpedia.org/Tom_Barrett_(Michigan)", "title": "Barrett's Candidate Connection survey responses, quoted by Ballotpedia", "publisher": "Ballotpedia Candidate Connection", "kind": "candidate", "date": "2026-09-25"},
-    {"id": "s3", "url": "https://ballotpedia.org/William_Lawrence_(Michigan)", "title": "William Lawrence (Michigan)", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25"},
-    {"id": "s3b", "url": "https://ballotpedia.org/William_Lawrence_(Michigan)", "title": "Lawrence's Candidate Connection survey responses, quoted by Ballotpedia", "publisher": "Ballotpedia Candidate Connection", "kind": "candidate", "date": "2026-09-25"}
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Michigan,_2026",
+      "title": "United States House of Representatives elections in Michigan, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Tom_Barrett_(Michigan)",
+      "title": "Tom Barrett (Michigan)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2b",
+      "url": "https://ballotpedia.org/Tom_Barrett_(Michigan)",
+      "title": "Barrett's Candidate Connection survey responses, quoted by Ballotpedia",
+      "publisher": "Ballotpedia Candidate Connection",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/William_Lawrence_(Michigan)",
+      "title": "William Lawrence (Michigan)",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3b",
+      "url": "https://ballotpedia.org/William_Lawrence_(Michigan)",
+      "title": "Lawrence's Candidate Connection survey responses, quoted by Ballotpedia",
+      "publisher": "Ballotpedia Candidate Connection",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://barrett.house.gov/about",
+      "title": "Biography",
+      "publisher": "Office of Rep. Tom Barrett",
+      "kind": "official",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s5",
+      "url": "https://en.wikipedia.org/wiki/William_Lawrence_(activist)",
+      "title": "William Lawrence (activist)",
+      "publisher": "Wikipedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s6",
+      "url": "https://wewill2026.com/about",
+      "title": "About Will",
+      "publisher": "William Lawrence for Congress",
+      "kind": "candidate",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Shane_Dedrick",
+      "title": "Shane Dedrick",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-10-21"
+    }
   ],
-  "researchedAt": "2026-09-25"
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Biographical details for Shane Dedrick (Green) were not found; he had not completed Ballotpedia's 2026 Candidate Connection survey."
 }

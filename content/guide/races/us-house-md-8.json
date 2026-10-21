@@ -52,6 +52,42 @@
       "title": "Committee Membership",
       "publisher": "House Judiciary Committee Democrats",
       "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://raskin.house.gov/about",
+      "title": "About",
+      "publisher": "Office of Rep. Jamie Raskin",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://en.wikipedia.org/wiki/Jamie_Raskin",
+      "title": "Jamie Raskin",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://develop.baltimoresun.com/2024/04/11/cheryl-riley",
+      "title": "2024 voter guide: Cheryl Riley, candidate for Maryland's 8th Congressional District",
+      "publisher": "Baltimore Sun",
+      "kind": "news",
+      "date": "2024-04-11"
+    },
+    {
+      "id": "s9",
+      "url": "https://www.nancywallace.us/meet-nancy",
+      "title": "Meet Nancy",
+      "publisher": "Nancy Wallace for Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s10",
+      "url": "https://ballotpedia.org/Nancy_Wallace",
+      "title": "Nancy Wallace",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     }
   ],
   "candidates": [
@@ -64,28 +100,68 @@
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2017)",
       "summary": {
-        "text": "Jamie Raskin is the Democratic incumbent in Maryland's 8th Congressional District. A former constitutional law professor and Maryland state senator, he serves as the ranking member of the House Judiciary Committee.",
+        "text": "Jamie Raskin is the Democratic incumbent in Maryland's 8th Congressional District, which he has represented since 2017. A constitutional law professor for more than 25 years and a three-term Maryland state senator before Congress, he is the ranking member of the House Judiciary Committee.",
         "sources": [
-          "s2"
+          "s6",
+          "s7"
         ]
       },
       "background": [
         {
-          "text": "Born in Washington, D.C.; earned his bachelor's degree and law degree from Harvard University.",
+          "text": "Born in Washington, D.C., and graduated from Georgetown Day School in 1979.",
           "sources": [
-            "s2"
+            "s2",
+            "s7"
           ]
         },
         {
-          "text": "Worked as a law professor at American University's law school and as an assistant attorney general in Massachusetts.",
+          "text": "Earned a bachelor's degree from Harvard College (1983) and a law degree from Harvard Law School (1987), where he was an editor of the Harvard Law Review.",
           "sources": [
-            "s2"
+            "s2",
+            "s6",
+            "s7"
           ]
         },
         {
-          "text": "Served in the Maryland Senate before his election to Congress in 2016.",
+          "text": "After law school, worked for two years as an assistant attorney general in the Massachusetts Attorney General's Office, and in 1989-1990 served as general counsel of the National Rainbow Coalition.",
           "sources": [
-            "s2"
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Taught constitutional law at American University's Washington College of Law starting in 1990, where he co-founded and directed an LL.M. program on law and government and co-founded the Marshall-Brennan Constitutional Literacy Project.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Elected to the Maryland Senate (District 20, Montgomery County) in 2006 and served from 2007 to 2017; his colleagues chose him as Senate Majority Whip. His state legislative work included sponsoring the first National Popular Vote bill in the country and a benefit corporation law.",
+          "sources": [
+            "s2",
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "Won the Democratic primary in 2016 for the open seat vacated by Chris Van Hollen and was elected to Congress that November; he was sworn into his fifth term in January 2025.",
+          "sources": [
+            "s2",
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "Serves as ranking member of the House Judiciary Committee in the 119th Congress. Earlier, he was lead impeachment manager in the second impeachment trial of President Donald Trump in 2021 and served on the Select Committee to Investigate the January 6th Attack on the United States Capitol.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Author of Unthinkable: Trauma, Truth and the Trials of American Democracy, Overruling Democracy: The Supreme Court versus the American People, and We the Students: Supreme Court Cases for and About America's Students.",
+          "sources": [
+            "s6"
           ]
         }
       ],
@@ -155,21 +231,49 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Cheryl Riley is the Republican nominee for Maryland's 8th Congressional District, a public relations executive making her second run for the seat.",
+        "text": "Cheryl Riley is the Republican nominee for Maryland's 8th Congressional District and a public relations executive. She ran for Montgomery County Council in 2022 and was the Republican nominee for this seat in 2024, losing to Rep. Jamie Raskin.",
         "sources": [
           "s3",
-          "s4"
+          "s8"
         ]
       },
       "background": [
         {
-          "text": "Born in Washington, D.C., and grew up in Montgomery County, Maryland; took classes at Montgomery College and the University of Maryland, College Park.",
+          "text": "Born in Washington, D.C., and grew up in Montgomery County, Maryland.",
           "sources": [
-            "s3"
+            "s3",
+            "s8"
           ]
         },
         {
-          "text": "Works as a public relations executive.",
+          "text": "Attended Montgomery College and the University of Maryland, College Park, but left without earning a degree to begin her public relations career.",
+          "sources": [
+            "s3",
+            "s8"
+          ]
+        },
+        {
+          "text": "Works as a public relations executive; a Baltimore Sun voter guide lists her residence as North Bethesda, Montgomery County.",
+          "sources": [
+            "s3",
+            "s8"
+          ]
+        },
+        {
+          "text": "Ran for Montgomery County Council in District 4 in 2022.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Won the May 2024 Republican primary for Maryland's 8th District with 69.2% of the vote and lost the November 2024 general election to Raskin, receiving 20.5%.",
+          "sources": [
+            "s3",
+            "s10"
+          ]
+        },
+        {
+          "text": "Won the June 23, 2026 Republican primary, defeating Anita Cox, Donald Lech, and Michael Yadeta (43.2%).",
           "sources": [
             "s3"
           ]
@@ -207,18 +311,58 @@
       ],
       "incumbent": false,
       "summary": {
-        "text": "Nancy Wallace is the Green Party nominee for Maryland's 8th Congressional District.",
+        "text": "Nancy Wallace is the Green Party nominee for Maryland's 8th Congressional District and a federal-contract data coordinator with a background in environmental lobbying. She has run for office as a Green Party candidate several times, including for governor in 2022, and describes her campaign as focused on climate and economic transformation.",
         "sources": [
-          "s1"
+          "s9",
+          "s10"
         ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "According to her campaign website, born in Long Island, New York, in 1956 and raised in Bethesda, Maryland; she graduated from Walt Whitman High School.",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "text": "Holds a bachelor's degree in political science from Yale University and, according to her campaign website, attended the University of Virginia law school for one year.",
+          "sources": [
+            "s9",
+            "s10"
+          ]
+        },
+        {
+          "text": "Describes spending about 14 years lobbying Congress on international environmental issues, including founding the International Entanglement Network (1983-85) and serving as the Sierra Club's Washington Director for its International Population Program (1990-94).",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Describes working from 1994 as a federal information-technology contractor (Electronic Data Systems, later Computer Sciences Corporation) and later supporting the Department of the Navy and Marine Corps; she currently supports the Department of Commerce as a data coordinator for ecological restoration projects.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Joined the Green Party in 2003 and, according to her campaign website, has co-chaired the Montgomery County Green Party since February 2015.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Ran for U.S. House in Maryland's 8th District in 2016 and 2024 and was the Green nominee for governor in 2022 (0.7%).",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
       "researchDepth": "minimal"
     }
   ],
-  "researchNotes": "No individual Ballotpedia profile, campaign website, or Candidate Connection survey was found for Green Party nominee Nancy Wallace; only her name appears on the state candidate list.",
+  "researchNotes": "No individual Ballotpedia profile, campaign website, or Candidate Connection survey was found for Green Party nominee Nancy Wallace; only her name appears on the state candidate list. No campaign website or news profile was found for Cheryl Riley beyond a 2024 Baltimore Sun questionnaire and her Ballotpedia profile.",
   "researchedAt": "2026-09-25"
 }
