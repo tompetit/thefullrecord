@@ -68,3 +68,4 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - Angela Nixon (FL Sen): Ballotpedia reports a May 15, 2026 arrest/trespass charge after a sit-in and a May 14 House ethics reprimand — not in bio; needs a fetched news source (rule 9).
 - Marisa Simonetti (MN Sen): Ballotpedia lists a 2024 fifth-degree assault charge / misdemeanor conviction after a tenant dispute — not in bio; rule-9 decision (needs fetched news/court source).
 - James Baird (IN-4): s3 for his 60.5% primary result points to Drew Cox's Ballotpedia page — re-cite to Baird's own page.
+- Nickie Kane: Ballotpedia's NY-10 page lists her among withdrawn/disqualified candidates — confirm she is on the Nov 3 ballot (rule 8).
