@@ -11,43 +11,110 @@
   "context": [
     {
       "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Marilyn Strickland and Chris Chung advanced from the August 4, 2026 primary, defeating fellow Democrats Adam Arafat and Alex Scheel and two minor-party candidates. Strickland won the primary with 49.3% of the vote to Chung's 33.4%.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "marilyn-strickland",
       "name": "Marilyn Strickland",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2021)",
       "summary": {
-        "text": "Marilyn Strickland is the Democratic incumbent for Washington's 10th Congressional District, a former mayor of Tacoma who has represented the district since 2021 and serves on the Transportation and Infrastructure and Armed Services committees.",
-        "sources": ["s2"]
+        "text": "Marilyn Strickland is the Democratic incumbent for Washington's 10th Congressional District. Born in Seoul and raised in Tacoma, she served as mayor of Tacoma and as president and CEO of the Seattle Metropolitan Chamber of Commerce before her 2020 election to Congress. She serves on the House Armed Services and Transportation and Infrastructure committees and is running for re-election.",
+        "sources": [
+          "s6",
+          "s7",
+          "s8",
+          "s5"
+        ]
       },
       "background": [
         {
-          "text": "Born in Seoul, South Korea, and lives in Tacoma, Washington; earned a bachelor's degree in sociology from the University of Washington and a master's degree in business administration from Clark-Atlanta University.",
-          "sources": ["s2"]
+          "text": "Born September 25, 1962, in Seoul, South Korea; her family moved to Tacoma in 1967 after her father, a U.S. serviceman, was stationed at Fort Lewis, and she was raised in Tacoma and attended Mount Tahoma High School. Her campaign website describes her as an \"Army brat\" and a graduate of Tacoma Public Schools.",
+          "sources": [
+            "s7",
+            "s6"
+          ]
         },
         {
-          "text": "Served as campaign chair of the United Way of Pierce County, as a trustee of the Tacoma Public Library and Annie Wright Schools, and as a board member of Grand Cinema.",
-          "sources": ["s2"]
+          "text": "Earned a bachelor's degree from the University of Washington and a master's degree in business administration from Clark Atlanta University.",
+          "sources": [
+            "s6",
+            "s2"
+          ]
+        },
+        {
+          "text": "Worked in the private sector, including at Northern Life Insurance, before entering local government; was later a member of the Tacoma City Council.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Served as mayor of Tacoma from 2010 to 2018 (two terms, according to her campaign website); Wikipedia describes her as the city's first Asian-born elected mayor and first African-American woman in the office.",
+          "sources": [
+            "s7",
+            "s6"
+          ]
+        },
+        {
+          "text": "After her mayoralty, served as president and CEO of the Seattle Metropolitan Chamber of Commerce.",
+          "sources": [
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "Elected to Congress in November 2020 and sworn in January 3, 2021. According to her campaign website she is the first African-American and Korean-American woman elected to Congress; her House website says she is the first African American to represent Washington state in federal office.",
+          "sources": [
+            "s6",
+            "s8"
+          ]
         },
         {
           "text": "For the 119th Congress (2025-2026), sits on the House Committee on Transportation and Infrastructure (Subcommittee on Coast Guard and Maritime Transportation; Subcommittee on Highways and Transit) and the House Committee on Armed Services (Subcommittee on Military Personnel; Subcommittee on Readiness).",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Her House website lists her as Whip of the New Democrat Coalition, Secretary of the Congressional Black Caucus, and chair of the New Democrat Coalition National Security Taskforce.",
+          "sources": [
+            "s8",
+            "s5"
+          ]
+        },
+        {
+          "text": "Has served as campaign chair of the United Way of Pierce County, as a trustee of the Tacoma Public Library and Annie Wright Schools, and as a board member of Grand Cinema.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Lives in the district with her husband, according to her House website.",
+          "sources": [
+            "s8"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists building an economy that works for working people, protecting access to health care, fighting pollution and protecting the environment, and supporting servicemembers, military families, and veterans as her campaign's priorities.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says she has focused on lowering costs, creating jobs, and building more housing, and has led bipartisan legislation to help military families with food insecurity and affordable housing.",
           "quote": "I've fought to build more housing, fix our roads and bridges, and train students for careers in nursing, health care, teaching, and the building trades... I've led bipartisan legislation to help military families facing food insecurity and to make sure military families have access to affordable housing.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -56,21 +123,27 @@
           "stance": "supports",
           "summary": "Says she will continue to protect Medicare and oppose efforts to take health care away from Americans.",
           "quote": "I will continue to stand up to extreme attempts to take away health care from Americans, protect Medicare, and make health care more affordable.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Says she is working in Congress to boost renewable energy as part of protecting the environment.",
           "quote": "We need to do more to protect our planet for our kids and future generations. In Congress, I'm working to boost renewable energy.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "Led bipartisan legislation to help military families facing food insecurity and to expand access to affordable housing for military families.",
           "kind": "bill",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://stricklandforwashington.com",
@@ -80,24 +153,41 @@
     {
       "id": "chris-chung",
       "name": "Chris Chung",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Chris Chung is the Republican nominee for Washington's 10th Congressional District, a pharmacist from Lakewood, Washington, who previously ran for Washington Insurance Commissioner as a Democrat in 2024.",
-        "sources": ["s4"]
+        "text": "Chris Chung is the Republican nominee for Washington's 10th Congressional District. A pharmacist from Lakewood, he ran for Washington Insurance Commissioner in 2024 and placed second in the August 2026 top-two primary for this seat. No campaign website or candidate biography beyond Ballotpedia's profile was found.",
+        "sources": [
+          "s4",
+          "s2"
+        ]
       },
       "background": [
         {
-          "text": "Lives in Lakewood, Washington; earned a graduate degree in pharmacy from St. John's University.",
-          "sources": ["s4"]
+          "text": "Lives in Lakewood, Washington; Ballotpedia, citing VoteWA, reports a graduate degree in pharmacy from St. John's University.",
+          "sources": [
+            "s4"
+          ]
         },
         {
           "text": "Career experience includes working as a pharmacist.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         },
         {
-          "text": "Ran for Washington Commissioner of Insurance in 2024 as a Democrat, placing sixth in the primary with 2.9% of the vote.",
-          "sources": ["s4"]
+          "text": "Ran for Washington Commissioner of Insurance in 2024 as a Democrat, placing sixth in the primary with 2.9% of the vote. In his statement for the state voter guide he wrote that the commissioner has \"the responsibility of safely protecting our Washington State residents.\"",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Advanced from the August 4, 2026 nonpartisan primary for Washington's 10th District with 33.4% of the vote, behind Strickland's 49.3%, and is the Republican candidate in the general election.",
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [],
@@ -141,8 +231,29 @@
       "title": "Committees and Caucuses",
       "publisher": "Office of Rep. Marilyn Strickland, U.S. House",
       "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://stricklandforwashington.com/about",
+      "title": "Meet Marilyn",
+      "publisher": "Strickland for Washington",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://en.wikipedia.org/wiki/Marilyn_Strickland",
+      "title": "Marilyn Strickland",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://strickland.house.gov/about",
+      "title": "About - Marilyn Strickland",
+      "publisher": "Office of Rep. Marilyn Strickland",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Chris Chung has not completed a 2026 Ballotpedia Candidate Connection survey and no 2026 campaign website was found (stricklandforwashington.com is Strickland's site; no distinct Chung site turned up in search), so his entry is marked minimal beyond Ballotpedia's biography and prior 2024 run. Strickland's federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Chris Chung has not completed a 2026 Ballotpedia Candidate Connection survey and no 2026 campaign website was found (stricklandforwashington.com is Strickland's site; no distinct Chung site turned up in search), so his entry is marked minimal beyond Ballotpedia's biography and prior 2024 run. Strickland's federal key votes and FEC totals are added separately by script. No biography beyond Ballotpedia's profile (home, education, occupation, 2024 run) was found for Chris Chung."
 }

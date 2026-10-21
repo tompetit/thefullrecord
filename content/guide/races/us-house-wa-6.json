@@ -11,38 +11,83 @@
   "context": [
     {
       "text": "Washington uses a top-two primary open to all voters regardless of party. Incumbent Emily Randall and Teresa Fox advanced from the August 4, 2026 primary, defeating Leon Lawson (Trump Republican Party), Brian O'Gorman (Independent Party), and Macy Jones (no party preference).",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "emily-randall",
       "name": "Emily Randall",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": true,
       "currentRole": "U.S. Representative (since 2025)",
       "summary": {
-        "text": "Emily Randall is the Democratic incumbent for Washington's 6th Congressional District, a former Washington state senator and nonprofit development professional first elected to Congress in 2024.",
-        "sources": ["s2"]
+        "text": "Emily Randall is the Democratic incumbent for Washington's 6th District, first elected in 2024 to succeed Derek Kilmer. A Port Orchard native and Wellesley College graduate, she worked for nonprofit and health-care organizations before serving in the Washington State Senate from 2019 to 2024, where she was Deputy Majority Leader. Her campaign lists climate change, costs, democracy, health care, education, and abortion access among her core issues.",
+        "sources": [
+          "s2",
+          "s6",
+          "s7",
+          "s3"
+        ]
       },
       "background": [
         {
-          "text": "Born in Port Orchard, Washington; earned bachelor's degrees in Spanish and women's studies from Wellesley College in 2008.",
-          "sources": ["s2"]
+          "text": "Born in Port Orchard, Washington, to a union household; according to her official biography, her father worked at Puget Sound Naval Shipyard and her mother was an educator at South Kitsap High School. She was the first in her family to graduate college.",
+          "sources": [
+            "s2",
+            "s6",
+            "s7"
+          ]
         },
         {
-          "text": "Career experience includes working as a development professional with Wellesley College, the San Francisco AIDS Foundation, Planned Parenthood Federation of America, and Legal Voice.",
-          "sources": ["s2"]
+          "text": "Earned bachelor's degrees in Spanish and women's studies from Wellesley College in 2008; her campaign says she paid for school by working in retail and waiting tables.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Worked as a development professional with Wellesley College, the San Francisco AIDS Foundation, Planned Parenthood Federation of America (beginning in 2016, per her campaign), and Legal Voice.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Won election to the Washington State Senate from the 26th Legislative District in 2018, defeating Marty McClendon, and was reelected in 2022 over Jesse L. Young. She served from 2019 to 2024.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "In the state senate she served as Deputy Majority Leader and on the Higher Education and Workforce Development, Health and Long-Term Care, and Ways and Means committees, according to her campaign website. Her campaign cites legislation on post-partum Medicaid coverage, pay transparency, subminimum wage for people with disabilities, and abortion providers.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Elected to the U.S. House in November 2024, defeating Drew MacEwen, to succeed retiring Rep. Derek Kilmer; took office in 2025.",
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Sits on the House Committee on Oversight and Government Reform (Government Operations; Health Care and Financial Services subcommittees) and the Committee on Natural Resources (Federal Lands; Indian and Insular Affairs subcommittees) for the 2025-2026 Congress.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lists fighting climate change, lowering costs for families, defending democracy, enhancing healthcare, improving education, and safeguarding access to abortion as her campaign's core issues.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [],
@@ -54,33 +99,59 @@
     {
       "id": "teresa-fox",
       "name": "Teresa Fox",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Teresa Fox is the Republican nominee for Washington's 6th Congressional District, an emergency manager, safety professional, and fire inspector who ran on reducing government spending and regulation.",
-        "sources": ["s4"]
+        "text": "Teresa Fox is the Republican challenger in Washington's 6th District, who lives in Bremerton and has worked as an emergency manager, safety professional, and fire inspector. She advanced from the August 4 primary with about 25% of the vote and describes her platform as lower taxes, less regulation, and government accountability.",
+        "sources": [
+          "s4",
+          "s8",
+          "s5"
+        ]
       },
       "background": [
         {
           "text": "Professional experience includes working as an emergency manager, safety professional, and fire inspector.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Is listed as a Republican from Bremerton; she advanced from the August 4, 2026 primary with 25.05% of the vote (32,006 votes) in the count reported August 6.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "This is her campaign for federal office listed on Ballotpedia; no prior elected office or education details were found in the sources reviewed.",
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Campaigns on cutting taxes, reducing government regulation on businesses, and greater government accountability to taxpayers.",
           "quote": "Lower Taxes: Keep money in family pockets, not bureaucrat budgets. Less Regulation: Let businesses operate without constant government interference. Real Accountability: Make government answer to taxpayers, not the other way around.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "On Navy shipyard funding in Bremerton, wants money directed to shipyard workers and equipment rather than administrative overhead, and opposes prioritizing unproven \"green\" maritime technology over fleet maintenance.",
           "quote": "Modernizing the Navy shouldn't mean more middle management in D.C.; it should mean more tools and higher pay for the pipefitters and welders in Bremerton.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "text": "Says Washington ranks last in the nation in police staffing and campaigns on rural public safety.",
           "quote": "It's unacceptable that Washington ranks last in police staffing.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "positions": [
@@ -89,21 +160,27 @@
           "stance": "opposes",
           "summary": "Opposes what she describes as government growth funded by higher taxes, campaigning on lowering taxes generally.",
           "quote": "Lower Taxes: Keep money in family pockets, not bureaucrat budgets.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "police_funding",
           "stance": "supports",
           "summary": "Supports increasing police staffing, citing Washington's ranking as last in the nation for police staffing levels.",
           "quote": "It's unacceptable that Washington ranks last in police staffing.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         },
         {
           "issue": "climate",
           "stance": "opposes",
           "summary": "Opposes federal mandates prioritizing unproven \"green\" maritime technology over maintenance of the existing Navy fleet, citing job stability and national security.",
           "quote": "We need ships that can fight today, not social experiments that might float tomorrow.",
-          "sources": ["s5"]
+          "sources": [
+            "s5"
+          ]
         }
       ],
       "record": [],
@@ -146,8 +223,29 @@
       "title": "Teresa Fox campaign website (via Ballotpedia)",
       "publisher": "Ballotpedia (quoting Fox's campaign site, foxforwa.com)",
       "kind": "candidate"
+    },
+    {
+      "id": "s6",
+      "url": "https://randall.house.gov/about",
+      "title": "About - Emily Randall",
+      "publisher": "Office of Rep. Emily Randall (house.gov)",
+      "kind": "official"
+    },
+    {
+      "id": "s7",
+      "url": "https://electemilyrandall.com/about",
+      "title": "About Emily",
+      "publisher": "Emily Randall for Congress (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s8",
+      "url": "https://www.peninsuladailynews.com/2026/08/06/randall-fox-in-contest-for-congressional-seat/",
+      "title": "Randall, Fox in contest for Congressional seat",
+      "publisher": "Peninsula Daily News",
+      "kind": "news"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Neither candidate has completed a 2026 Ballotpedia Candidate Connection survey. Randall's campaign website lists issue titles but its position detail pages are JavaScript-rendered and could not be fetched; her positions section is left minimal rather than inferred. Fox's issue statements are drawn from her campaign website as republished by Ballotpedia. Randall's federal key votes and FEC totals are added separately by script."
+  "researchNotes": "Neither candidate has completed a 2026 Ballotpedia Candidate Connection survey. Randall's campaign website lists issue titles but its position detail pages are JavaScript-rendered and could not be fetched; her positions section is left minimal rather than inferred. Fox's issue statements are drawn from her campaign website as republished by Ballotpedia. Randall's federal key votes and FEC totals are added separately by script. Fox's campaign website is JavaScript-rendered and could not be read directly, so her biography is limited to what Ballotpedia and local news report."
 }
