@@ -11,30 +11,104 @@
   "context": [
     {
       "text": "This is an open seat. Incumbent Kevin Hern is running for U.S. Senate rather than seeking re-election. Mark Tedford advanced unopposed after the Republican primary runoff was canceled; John Croisant advanced unopposed after the Democratic primary was canceled.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "mark-tedford",
       "name": "Mark Tedford",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced after the Republican primary runoff was canceled",
       "currentRole": "Member, Oklahoma House of Representatives, District 69 (Tulsa)",
       "summary": {
-        "text": "Mark Tedford is a state representative for Oklahoma House District 69 in Tulsa and owner of an insurance agency, running for the open 1st Congressional District seat on a platform centered on domestic manufacturing, government spending cuts and immigration enforcement.",
-        "sources": ["s2"]
+        "text": "Mark Tedford is a Republican state representative for Oklahoma House District 69 in Tulsa County, first elected in 2022, and the owner of an insurance agency. He is running for the open 1st Congressional District seat after advancing from the June 16, 2026 Republican primary. According to his Ballotpedia Candidate Connection survey, his campaign centers on domestic manufacturing, government spending and accountability, and immigration enforcement.",
+        "sources": [
+          "s1",
+          "s2",
+          "s4"
+        ]
       },
       "background": [
-        { "text": "Earned a bachelor's degree from Missouri Southern State University (1992), a graduate degree from the University of Tulsa (1994), and a graduate degree from Biola University (2013).", "sources": ["s2"] },
-        { "text": "Owner and CEO of Tedford Insurance, an independent agency specializing in commercial insurance and employee benefits.", "sources": ["s2"] },
-        { "text": "Serves as Vice Chair of the Oklahoma House Commerce & Economic Development Oversight Committee (2025-2026).", "sources": ["s2"] }
+        {
+          "text": "Graduated from Jenks High School and earned a bachelor's degree from Missouri Southern State University (1992).",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Earned an MBA from the University of Tulsa (1994) and, according to his survey, a master's in Christian apologetics from Biola University (2013).",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Has worked in the insurance business since 1992; his survey describes him as owner and CEO of Tedford Insurance, an independent agency specializing in commercial insurance and employee benefits, and of Camden Logistics.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Before and during his legislative service, held civic roles that his official biography lists, including past service on the boards of the Tulsa Economic Development Council, the Tulsa Chamber of Commerce Small Business Connect and the Jenks Chamber of Commerce, and a \"Blue Ribbon Small Business Award.\"",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Elected to Oklahoma House District 69 in 2022, succeeding Sheila Dills; the Republican primary was canceled in both 2022 and 2024, so he won without appearing on the ballot.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Serves as Vice Chair of the Oklahoma House Commerce & Economic Development Oversight Committee (2025-2026); his legislative page also lists seats on the Common Education, Appropriations and Budget (Education Subcommittee) and Energy and Natural Resources Oversight committees and the Legislative Office of Fiscal Transparency.",
+          "sources": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "text": "Finished first in the June 16, 2026 Republican primary for the open 1st District seat with 32.2% of the vote; the August 25 runoff was canceled after Jackson Lahmeyer was listed as withdrawn.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Lives in Tulsa County; according to his official legislative biography, he and his wife have four children.",
+          "sources": [
+            "s4"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "\"An economy that works\" — rebuilding domestic supply chains and manufacturing and pursuing energy independence.", "quote": "Reindustrialization is not only possible but essential for national security. America must rebuild critical supply chains and stop relying on foreign adversaries for pharmaceuticals, semiconductors, and rare earth minerals.", "sources": ["s2"] },
-        { "text": "Government accountability — reducing spending and addressing what he describes as fraud and abuse in programs like Medicaid and SNAP.", "quote": "Programs like Medicaid and SNAP were created to help those in need, but lax standards, fraud, and abuse have expanded dependency and strained resources.", "sources": ["s2"] },
-        { "text": "Describes his campaign as guided by \"American Values\" including capitalism and what he calls Western Judeo-Christian founding principles.", "sources": ["s2"] }
+        {
+          "text": "\"An economy that works\" — rebuilding domestic supply chains and manufacturing and pursuing energy independence.",
+          "quote": "Reindustrialization is not only possible but essential for national security. America must rebuild critical supply chains and stop relying on foreign adversaries for pharmaceuticals, semiconductors, and rare earth minerals.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Government accountability — reducing spending and addressing what he describes as fraud and abuse in programs like Medicaid and SNAP.",
+          "quote": "Programs like Medicaid and SNAP were created to help those in need, but lax standards, fraud, and abuse have expanded dependency and strained resources.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Describes his campaign as guided by \"American Values\" including capitalism and what he calls Western Judeo-Christian founding principles.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "positions": [
         {
@@ -42,58 +116,134 @@
           "stance": "supports",
           "summary": "Says illegal immigrants should not receive taxpayer-funded benefits and supports stronger eligibility guardrails on safety-net programs.",
           "quote": "Illegal immigrants should not receive taxpayer-funded benefits.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "Calls for stronger standards and guardrails on Medicaid, citing fraud and abuse, rather than expanding public coverage.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "tariffs",
           "stance": "supports",
           "summary": "Supports rebuilding domestic supply chains and reducing reliance on foreign manufacturing for pharmaceuticals, semiconductors and rare earth minerals.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],
       "researchDepth": "basic",
-      "researchNotes": "No congressional record; record items limited to state legislative committee role, since a comprehensive list of Oklahoma House bills was not independently verified beyond the committee assignment."
+      "researchNotes": "No congressional record; record items limited to state legislative committee role, since a comprehensive list of Oklahoma House bills was not independently verified beyond the committee assignment. Tedford's campaign website was not located."
     },
     {
       "id": "john-croisant",
       "name": "John Croisant",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced after the Democratic primary was canceled",
       "currentRole": "Member, Tulsa Public Schools Board of Education, District 5 (since 2020)",
       "summary": {
-        "text": "John Croisant is a Tulsa Public Schools board member, former teacher and small-business owner running for the open 1st Congressional District seat on affordability, education and protecting federal programs.",
-        "sources": ["s3"]
+        "text": "John Croisant is a member of the Tulsa Public Schools Board of Education, a former social studies teacher and the owner of a small insurance business. A Tulsa native, he was first elected to the board in 2020 and re-elected in 2024. He is the Democratic nominee for the open 1st Congressional District seat, running on affordability, education and protecting federal programs.",
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
-        { "text": "Born in Tulsa, Oklahoma; earned a high school diploma from Jenks High School and a bachelor's degree from the University of Tulsa in 1999.", "sources": ["s3"] },
-        { "text": "Career experience includes owning an insurance agency, teaching social studies at Edison Prep, and coaching soccer.", "sources": ["s3"] },
-        { "text": "Elected to the Tulsa Public Schools Board of Education, District 5, taking office July 7, 2020; current term ends in 2028.", "sources": ["s3"] }
+        {
+          "text": "Born in Tulsa, Oklahoma; graduated from Jenks High School and earned a bachelor's degree from the University of Tulsa in 1999.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Taught social studies at Edison Prep, where he also coached, and has coached soccer; in his survey he describes himself as a former teacher and coach at Edison and the parent of an Edison student.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Owns a small insurance business, according to his survey.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Won the District 5 seat on the Tulsa Public Schools Board of Education on June 30, 2020, defeating Shane Saunders 52.4% to 47.6%, and took office July 7, 2020.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Re-elected to the board on April 2, 2024, with 77.7% of the vote against Teresa Pena; his current term ends in 2028.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "In his survey, describes serving as the board's vice president, heading its finance committee, and representing Tulsa Public Schools as a director on the Oklahoma State School Board Association; he says he helped introduce a strategic plan focused on reading proficiency and college and career readiness.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Has been affiliated with the Rotary Club of Tulsa and the Tulsa Regional Chamber.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Advanced as the Democratic nominee after the June 16, 2026 primary was canceled.",
+          "sources": [
+            "s1"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Addressing the affordability crisis, citing rising costs of healthcare, housing and childcare for working-class Oklahomans.", "quote": "The rising costs of healthcare, housing, childcare and other essentials are skyrocketing at a pace that working class Oklahomans cannot keep up with.", "sources": ["s3"] },
-        { "text": "Improving education outcomes and opposing the elimination of the U.S. Department of Education.", "quote": "First, ensuring the Department of Education is not shut down. Second, I will hold Dept. of Ed. accountable for the outcomes of our students.", "sources": ["s3"] },
-        { "text": "Protecting funding for healthcare, housing, childcare, education, infrastructure and job training programs.", "sources": ["s3"] }
+        {
+          "text": "Addressing the affordability crisis, citing rising costs of healthcare, housing and childcare for working-class Oklahomans.",
+          "quote": "The rising costs of healthcare, housing, childcare and other essentials are skyrocketing at a pace that working class Oklahomans cannot keep up with.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Improving education outcomes and opposing the elimination of the U.S. Department of Education.",
+          "quote": "First, ensuring the Department of Education is not shut down. Second, I will hold Dept. of Ed. accountable for the outcomes of our students.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Protecting funding for healthcare, housing, childcare, education, infrastructure and job training programs.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Lists protecting funding for healthcare programs as a priority and cites rising healthcare costs as part of the affordability crisis.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Lists protecting funding for childcare programs among the essential programs he would fight for in Congress.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -125,6 +275,13 @@
       "publisher": "Ballotpedia Candidate Connection survey",
       "kind": "candidate",
       "date": "2025-01-01"
+    },
+    {
+      "id": "s4",
+      "url": "https://okhouse.gov/representatives/mark-tedford",
+      "title": "Representative Mark Tedford",
+      "publisher": "Oklahoma House of Representatives",
+      "kind": "official"
     }
   ],
   "researchedAt": "2026-09-25"
