@@ -64,3 +64,5 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - NY AD-65 Illapa Sairitupac: bio uses "he" (Ballotpedia, City & State 2026); a 2022 profile described Sairitupac as non-binary — confirm pronouns with the campaign.
 - NY AD-79 Emmanuel Findlay Jr.: 2025 City Council run (Ballotpedia) conflicts with an aggregator calling this his first run; recheck against NYC BOE.
 - NY AD-86 Republican primary: context says Diaz 57.5%-35.8% (Ballotpedia); Wikipedia reportedly has 59.2%-36.9% — re-check against NYC BOE. Olivo's campaign site carries injected spam gambling text.
+- Gary Dye (OR Sen): his 2024 Ballotpedia survey self-discloses an expunged felony drug conviction in Saudi Arabia — rule-9 decision whether to include.
+- Angela Nixon (FL Sen): Ballotpedia reports a May 15, 2026 arrest/trespass charge after a sit-in and a May 14 House ethics reprimand — not in bio; needs a fetched news source (rule 9).
