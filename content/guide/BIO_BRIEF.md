@@ -49,7 +49,7 @@ Targets:
   `<lastname>.senate.gov/about`, state legislature member pages, state agency bios.
 - Candidate campaign site "About"/"Meet X" pages; Ballotpedia Candidate
   Connection survey (kind `candidate`).
-- Reputable news profiles (kind `news`; never opinion columns or editorials) — good for career details and
+- Reputable news profiles (kind `news`; never opinion columns, editorials, or candidate-aggregator/prediction sites like "Ballot Brief" or "Prediction Edge") — good for career details and
   campaign history.
 - Ballotpedia / Wikipedia (kind `reference`) are fine for basic biographical
   facts (birth, education, offices held), but prefer an official or candidate
