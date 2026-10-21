@@ -10,55 +10,103 @@
   "context": [
     {
       "text": "Special election to fill the remainder of the term Marco Rubio (R) was elected to in 2022, which expires in January 2029. Rubio resigned on January 20, 2025 after being confirmed as U.S. Secretary of State; Gov. Ron DeSantis (R) appointed Ashley Moody as his interim successor the next day. In the August 18, 2026 primaries, Moody defeated Chris Gleason, Ernie Rivera and Neelam Perry for the Republican nomination (79.6%), and Angela Nixon defeated Alex Vindman for the Democratic nomination (55.9%-44.1%).",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "ashley-moody",
       "name": "Ashley Moody",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": true,
       "ballotNote": "Won the August 18, 2026 Republican primary with 79.6% of the vote.",
       "currentRole": "U.S. Senator from Florida (appointed January 2025; assumed office 2025)",
       "summary": {
-        "text": "Ashley Moody is the incumbent Republican U.S. Senator from Florida, appointed by Gov. Ron DeSantis in January 2025 to fill the seat vacated by Marco Rubio and now running to serve the remainder of the term through January 2029. She previously served as Florida Attorney General (2019-2025) and as a judge on Florida's 13th Judicial Circuit Court (2007-2017).",
-        "sources": ["s1", "s2"]
+        "text": "Ashley Moody is the incumbent Republican U.S. Senator from Florida. A Plant City native and University of Florida graduate, she worked as a lawyer and federal prosecutor, served as a Hillsborough County circuit judge, and was elected Florida Attorney General in 2018 and 2022 before Gov. Ron DeSantis appointed her to the Senate in January 2025. She is running to serve the remainder of Marco Rubio's term, which expires in January 2029.",
+        "sources": [
+          "s1",
+          "s2",
+          "s5"
+        ]
       },
       "background": [
         {
-          "text": "Earned bachelor's and master's degrees in accounting from the University of Florida, and law degrees from the University of Florida and Stetson University.",
-          "sources": ["s2"]
+          "text": "Born in Plant City, Florida, in 1975; her Senate biography describes her as a fifth-generation Floridian.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
         },
         {
-          "text": "Worked as an attorney, law professor and federal prosecutor before seeking elected office.",
-          "sources": ["s2"]
+          "text": "Earned bachelor's and master's degrees in accounting (1993, 1996) and a J.D. (2000) from the University of Florida, and an LL.M. in international law from Stetson University College of Law (2010).",
+          "sources": [
+            "s2",
+            "s5"
+          ]
         },
         {
-          "text": "Served as an elected judge on Florida's 13th Judicial Circuit Court from 2007 to 2017.",
-          "sources": ["s2"]
+          "text": "Began her legal career at the law firm Holland & Knight, practicing commercial litigation, then served as an assistant U.S. attorney for the Middle District of Florida, prosecuting drug, firearm and fraud offenses; she was also an adjunct professor at Stetson University College of Law.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
         },
         {
-          "text": "Served as Florida Attorney General from 2019 to 2025.",
-          "sources": ["s2"]
+          "text": "Elected in 2006 to the Thirteenth Judicial Circuit Court in Hillsborough County at age 31, which her Senate biography describes as making her the youngest judge in Florida; she served on the bench from 2007 to 2017.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
         },
         {
-          "text": "Appointed by Gov. Ron DeSantis to the U.S. Senate on January 21, 2025 to succeed Marco Rubio.",
-          "sources": ["s1"]
+          "text": "Won the 2018 election for Florida Attorney General (52.1% to 46.1% over Sean Shaw) and was re-elected in 2022 (60.6% to 39.4% over Aramis Ayala); she served from 2019 to 2025.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "As Attorney General, she served on the Presidential Commission on Law Enforcement and the Administration of Justice during the first Trump administration and chaired Florida's Statewide Council on Human Trafficking, according to her Senate biography, which also cites the state's share of opioid litigation settlements.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Appointed by Gov. Ron DeSantis to succeed Marco Rubio after he became Secretary of State, and sworn into the U.S. Senate on January 21, 2025.",
+          "sources": [
+            "s1",
+            "s5"
+          ]
+        },
+        {
+          "text": "Serves on the Judiciary, Homeland Security and Governmental Affairs, and Health, Education, Labor and Pensions committees, the Special Committee on Aging, and the Joint Economic Committee. Her Senate biography says she and her husband, Justin, a career law enforcement officer, have two sons.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says she is a supporter of President Trump's agenda and is 'dedicated to America First policies that promote law and order, economic prosperity, and American sovereignty.'",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Campaigns on her record as Attorney General, citing efforts to 'enhance public safety, strengthen law enforcement, and crack down on violent crime.'",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Describes herself as a national leader on 'protecting religious freedom and the sanctity of life.'",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "positions": [
@@ -67,14 +115,18 @@
           "stance": "opposes",
           "summary": "Describes herself as a national leader in 'protecting religious freedom and the sanctity of life,' language her campaign uses to describe an anti-abortion-rights position.",
           "quote": "She has also been a national leader in protecting religious freedom and the sanctity of life.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Says she supports America First policies that 'promote law and order' and backs President Trump's agenda, which includes expanded immigration enforcement.",
           "quote": "She is [a] key supporter of President Trump's agenda and remains dedicated to America First policies that promote law and order, economic prosperity, and American sovereignty.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "record": [],
@@ -85,45 +137,97 @@
     {
       "id": "angela-nixon",
       "name": "Angela Nixon",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 18, 2026 Democratic primary over Alex Vindman, 55.9%-44.1%.",
       "currentRole": "Member, Florida House of Representatives (since 2022)",
       "summary": {
-        "text": "Angela Nixon is a Democratic state representative from Jacksonville, a union organizer and small-business owner running for the remainder of the U.S. Senate term vacated by Marco Rubio. She has worked on legislation on childcare access and price-gouging and previously led the statewide coalition Florida for All.",
-        "sources": ["s1", "s3"]
+        "text": "Angela (Angie) Nixon is the Democratic nominee. A Jacksonville native, she has served in the Florida House of Representatives since 2020, and has worked as a union organizer, executive director of the coalition Florida for All, and a small-business and bookstore owner. She says she is running on lowering costs, health care, affordable child care and protecting Social Security, Medicare and Medicaid.",
+        "sources": [
+          "s1",
+          "s3",
+          "s6"
+        ]
       },
       "background": [
         {
-          "text": "Elected to the Florida House of Representatives in 2022.",
-          "sources": ["s1"]
+          "text": "Born February 27, 1984, in Jacksonville, Florida, and raised in the city's Moncrief neighborhood by a single mother who worked two jobs, according to Wikipedia; her campaign website also describes her upbringing in a predominantly Black Jacksonville neighborhood.",
+          "sources": [
+            "s6",
+            "s7"
+          ]
         },
         {
-          "text": "Worked as a union organizer and runs a community-focused bookstore in Jacksonville.",
-          "sources": ["s3"]
+          "text": "Earned a B.A. in political science from the University of Florida in 2007.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
         },
         {
-          "text": "Previously led the statewide coalition Florida for All.",
-          "sources": ["s3"]
+          "text": "Ran unsuccessfully for the Jacksonville City Council in 2008, then worked as an aide to state Rep. Mia Jones, according to Wikipedia.",
+          "sources": [
+            "s7"
+          ]
         },
         {
-          "text": "In the Florida House, worked on legislation expanding childcare access, addressing price-gouging, and challenging Florida's voting maps.",
-          "sources": ["s3"]
+          "text": "Has worked as a union organizer, including as a higher education director for the Florida Public Service Union and earlier as state field director for SEIU, per Wikipedia and Ballotpedia; she has led the statewide coalition Florida for All since 2022.",
+          "sources": [
+            "s2",
+            "s3",
+            "s7"
+          ]
+        },
+        {
+          "text": "Co-founded the Melanin Market, an outdoor market for small food businesses, and in 2024 opened Cafe Resistance, a bookstore and coffee shop in Jacksonville that serves as a community space, according to Wikipedia; her campaign website says she runs a bookstore and community hub.",
+          "sources": [
+            "s6",
+            "s7"
+          ]
+        },
+        {
+          "text": "Won the 2020 Democratic primary for Florida House District 14, defeating incumbent Kimberly Daniels, 59.8% to 40.2%, and took office that November; after redistricting she was elected in 2022 in District 13.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "In the Florida House she has worked on legislation expanding child care access and addressing grocery price-gouging, and describes herself as having led opposition to the state's voting maps, according to her campaign website and Ballotpedia survey.",
+          "sources": [
+            "s3",
+            "s6"
+          ]
+        },
+        {
+          "text": "Launched her U.S. Senate campaign in January 2026 and won the August 18 Democratic primary.",
+          "sources": [
+            "s1",
+            "s7"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Lowering everyday costs amid what she calls an affordability crisis, including housing and insurance costs.",
           "quote": "Floridians are being crushed by an affordability crisis created by greed and corruption.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Creating a healthcare system that works for everyone and protecting Social Security, Medicare, Medicaid and the VA.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Making childcare affordable and accessible.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -131,20 +235,26 @@
           "issue": "healthcare_public",
           "stance": "supports",
           "summary": "Says she will fight to create a healthcare system that works for everyone and to protect Social Security, Medicare, Medicaid and the VA.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Says she will fight to make childcare affordable and accessible, calling it an investment with strong economic returns for parents and local economies.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "As a Florida state representative, worked on legislation expanding childcare access and addressing price-gouging.",
           "kind": "action",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "website": "https://angelanixon.com/",
@@ -153,13 +263,39 @@
     {
       "id": "neil-gillespie",
       "name": "Neil Gillespie",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Neil Gillespie is a no-party-affiliation candidate running for U.S. Senate in Florida's special election. He has also run for President of the United States (2020, and declared for 2028) and for Governor of Florida in 2026, but did not appear on that gubernatorial ballot.",
-        "sources": ["s4"]
+        "text": "Neil Gillespie is a no-party-affiliation candidate who describes himself as the founder and director of Justice Network, an advocacy and news organization. He says he is running because of what he calls a lack of due process in state and federal courts, and on separation of powers and health care reform.",
+        "sources": [
+          "s1",
+          "s4",
+          "s8"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "According to his Ballotpedia survey response, he moved to Florida from Pennsylvania in 1993, where he had been a licensed motor vehicle dealer.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Earned an associate degree from the Wharton School's evening division at the University of Pennsylvania (1988) and a bachelor's degree from The Evergreen State College (1995).",
+          "sources": [
+            "s4",
+            "s8"
+          ]
+        },
+        {
+          "text": "Describes himself as founder and director of Justice Network, an organization engaged in advocacy, education and news gathering to help people fight injustice.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
@@ -168,11 +304,67 @@
     }
   ],
   "sources": [
-    { "id": "s1", "url": "https://ballotpedia.org/United_States_Senate_election_in_Florida,_2026", "title": "United States Senate special election in Florida, 2026", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s2", "url": "https://ballotpedia.org/Ashley_B._Moody", "title": "Ashley B. Moody", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" },
-    { "id": "s3", "url": "https://ballotpedia.org/Angela_Nixon", "title": "Angela Nixon - Ballotpedia Candidate Connection survey", "publisher": "Ballotpedia Candidate Connection survey", "kind": "candidate", "date": "2026-09-25" },
-    { "id": "s4", "url": "https://ballotpedia.org/Neil_Gillespie", "title": "Neil Gillespie", "publisher": "Ballotpedia", "kind": "reference", "date": "2026-09-25" }
+    {
+      "id": "s1",
+      "url": "https://ballotpedia.org/United_States_Senate_election_in_Florida,_2026",
+      "title": "United States Senate special election in Florida, 2026",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s2",
+      "url": "https://ballotpedia.org/Ashley_B._Moody",
+      "title": "Ashley B. Moody",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s3",
+      "url": "https://ballotpedia.org/Angela_Nixon",
+      "title": "Angela Nixon - Ballotpedia Candidate Connection survey",
+      "publisher": "Ballotpedia Candidate Connection survey",
+      "kind": "candidate",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s4",
+      "url": "https://ballotpedia.org/Neil_Gillespie",
+      "title": "Neil Gillespie",
+      "publisher": "Ballotpedia",
+      "kind": "reference",
+      "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.moody.senate.gov/about/",
+      "title": "About",
+      "publisher": "Office of Senator Ashley Moody, U.S. Senate",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://angienixon.com/meet-angie/",
+      "title": "Meet Angie",
+      "publisher": "Angie Nixon for U.S. Senate (campaign website)",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://en.wikipedia.org/wiki/Angie_Nixon",
+      "title": "Angie Nixon",
+      "publisher": "Wikipedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Neil_Gillespie",
+      "title": "Neil Gillespie (Candidate Connection survey)",
+      "publisher": "Ballotpedia",
+      "kind": "candidate"
+    }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Moody's federal voting record and FEC finance totals are added by script. Gillespie has minimal public footprint; no positions could be documented."
+  "researchNotes": "Moody's federal voting record and FEC finance totals are added by script. Gillespie has minimal public footprint; no positions could be documented. Biography gaps: Gillespie's biography rests on his own Ballotpedia survey; no news profile or campaign site could be loaded. Nixon's existing background item said she was elected to the Florida House in 2022; Ballotpedia shows she first won in 2020 (re-elected 2022 in District 13), so the item was corrected (her currentRole field still says 'since 2022'). Her 2026 reprimand and arrest reported on Ballotpedia/Wikipedia were not included because no news report was fetched."
 }

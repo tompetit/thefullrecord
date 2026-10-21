@@ -10,73 +10,200 @@
   "context": [
     {
       "text": "This election fills the Class II Senate seat previously held by Markwayne Mullin (R), who took office in 2023 and resigned in March 2026. There is no incumbent in the November 3, 2026 general election.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "Kevin Hern, U.S. Representative for Oklahoma's 1st District since 2018, defeated Gary England, Sean Buckner, Brian Ragain and Nick Hankins in the June 16, 2026 Republican primary with 69.8% of the vote. He is not seeking re-election to his House seat.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     },
     {
       "text": "N'Kiyla Thomas defeated Jim Priest in the August 25, 2026 Democratic primary runoff, 58.7% to 41.3%, after the two advanced from a five-candidate June 16 primary.",
-      "sources": ["s1"]
+      "sources": [
+        "s1"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "kevin-hern",
       "name": "Kevin Hern",
-      "parties": ["R"],
+      "parties": [
+        "R"
+      ],
       "incumbent": false,
       "ballotNote": "Won the June 16, 2026 Republican primary with 69.8% of the vote",
       "currentRole": "U.S. Representative, Oklahoma's 1st District (since 2018)",
       "summary": {
-        "text": "Kevin Hern is the U.S. Representative for Oklahoma's 1st Congressional District, a former McDonald's franchisee, and a member of the House Ways and Means Committee. He is running for the open U.S. Senate seat rather than seeking re-election to the House.",
-        "sources": ["s1"]
+        "text": "Kevin Hern is the Republican nominee. A longtime Tulsa-area businessman who worked as an aerospace engineer before becoming a McDonald's franchisee, he has represented Oklahoma's 1st Congressional District since November 2018 and sits on the House Ways and Means Committee. He is running for the open Senate seat rather than seeking re-election to the House.",
+        "sources": [
+          "s1",
+          "s4",
+          "s5"
+        ]
       },
       "background": [
-        { "text": "Born in Belton, Missouri, in 1961; earned a bachelor's degree in engineering in 1986 and an MBA from the University of Arkansas in 1999.", "sources": ["s4"] },
-        { "text": "Became a McDonald's franchisee in 1999 and had acquired 10 franchises by 2012; served on McDonald's National Leadership Team for 13 years.", "sources": ["s4"] },
-        { "text": "Chaired the finance committee of the Oklahoma Turnpike Authority from 2011 to 2015.", "sources": ["s4"] },
-        { "text": "Elected to the U.S. House in 2018 and re-elected since; sits on the Ways and Means Committee (Health and Tax subcommittees, 2025-2026).", "sources": ["s4"] }
+        {
+          "text": "Born in Belton, Missouri, in 1961. According to his House biography, he was born on an Air Force base and earned an architectural drafting certificate at a career technology school in high school, which he used to work his way through an engineering degree.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Earned a bachelor's degree in engineering in 1986 and an MBA from the University of Arkansas in 1999.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Began his career as an aerospace engineer at Rockwell International. According to his House biography, he lost that job after the Space Shuttle Challenger disaster and then pursued becoming a McDonald's franchisee, funding the effort with small ventures including programming, real estate and hog farming.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Bought his first McDonald's restaurant in North Little Rock, Arkansas, in 1997, and in 1999 bought two restaurants in Muskogee, Oklahoma, moving his family to the state; his House biography says the business grew to 24 restaurants in northeastern Oklahoma.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Served on McDonald's regional and divisional leadership teams for six years and on its National Leadership Team for 13 years, including as chair of the Franchise Relations Team and the Systems Economic Team. He chaired the finance committee of the Oklahoma Turnpike Authority from 2011 to 2015.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Also describes business interests in banking, manufacturing, real estate development and technology; he and his wife, Tammy, own Custom Seating and Interiors, a supplier to the restaurant industry.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Won the 2018 general election for Oklahoma's 1st Congressional District, succeeding Jim Bridenstine, and was sworn in November 13, 2018. He has been re-elected since.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "Serves on the House Committee on Ways and Means and its Health Subcommittee. He chaired the Republican Study Committee in the 118th Congress and the House Republican Policy Committee in the 119th Congress.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Won the June 16, 2026, Republican primary for U.S. Senate, defeating Gary England and three other candidates. He and his wife live in Tulsa and have three children and three grandchildren, according to his House biography.",
+          "sources": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "Cosponsored H.J.Res.22, a proposed balanced budget amendment to address national debt and curb federal spending.", "sources": ["s2"] },
-        { "text": "Voted for H.R.695 to fund border wall construction and cosponsored H.R.768 to defund sanctuary campuses.", "sources": ["s2"] },
-        { "text": "Says he is focused on countering China, including introducing legislation to prohibit federal education funding for schools hosting Confucius Classrooms.", "sources": ["s2"] }
+        {
+          "text": "Cosponsored H.J.Res.22, a proposed balanced budget amendment to address national debt and curb federal spending.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Voted for H.R.695 to fund border wall construction and cosponsored H.R.768 to defund sanctuary campuses.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Says he is focused on countering China, including introducing legislation to prohibit federal education funding for schools hosting Confucius Classrooms.",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "positions": [
         {
           "issue": "abortion",
           "stance": "opposes",
           "summary": "Cosponsored bills described by his campaign as protecting human life and limiting abortion funding.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "guns",
           "stance": "opposes",
           "summary": "Cosponsored H.R.38 for national concealed-carry reciprocity and voted against H.R.8 and H.R.1112, which his campaign describes as Second Amendment protections.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "supports",
           "summary": "Voted for H.R.695 to fund border wall construction and cosponsored legislation to defund sanctuary campuses.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "issue": "healthcare_public",
           "stance": "opposes",
           "summary": "His 2018 campaign platform called for repealing the Affordable Care Act and replacing it with a free-market-driven system rather than expanding public coverage.",
-          "sources": ["s4"]
+          "sources": [
+            "s4"
+          ]
         }
       ],
       "record": [
-        { "text": "Cosponsored H.R.299 and H.R.550, bills recognizing Blue Water Navy Vietnam veterans and WWII Merchant Mariner veterans.", "kind": "bill", "sources": ["s2"] },
-        { "text": "Cosponsored H.J.Res.22, proposing a balanced budget constitutional amendment.", "kind": "bill", "sources": ["s2"] },
-        { "text": "Voted for H.R.695 to fund border wall construction; cosponsored H.R.768 to defund sanctuary campuses.", "kind": "vote", "sources": ["s2"] },
-        { "text": "Cosponsored H.R.38, national concealed-carry reciprocity legislation.", "kind": "bill", "sources": ["s2"] },
-        { "text": "Introduced legislation (titled by his campaign the PROTECT Our Kids Act) to prohibit U.S. Department of Education funding for schools hosting Confucius Classrooms.", "kind": "bill", "sources": ["s2"] },
-        { "text": "Opposed H.R.1, which his campaign describes as limiting federal overreach into elections; cosponsored H.R.949.", "kind": "vote", "sources": ["s2"] }
+        {
+          "text": "Cosponsored H.R.299 and H.R.550, bills recognizing Blue Water Navy Vietnam veterans and WWII Merchant Mariner veterans.",
+          "kind": "bill",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Cosponsored H.J.Res.22, proposing a balanced budget constitutional amendment.",
+          "kind": "bill",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Voted for H.R.695 to fund border wall construction; cosponsored H.R.768 to defund sanctuary campuses.",
+          "kind": "vote",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Cosponsored H.R.38, national concealed-carry reciprocity legislation.",
+          "kind": "bill",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Introduced legislation (titled by his campaign the PROTECT Our Kids Act) to prohibit U.S. Department of Education funding for schools hosting Confucius Classrooms.",
+          "kind": "bill",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Opposed H.R.1, which his campaign describes as limiting federal overreach into elections; cosponsored H.R.949.",
+          "kind": "vote",
+          "sources": [
+            "s2"
+          ]
+        }
       ],
       "website": "https://www.hernforsenate.com",
       "researchDepth": "basic",
@@ -85,22 +212,74 @@
     {
       "id": "nkiyla-thomas",
       "name": "N'Kiyla Thomas",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the August 25, 2026 Democratic primary runoff with 58.7% of the vote",
       "summary": {
-        "text": "N'Kiyla Thomas is a nurse, community health worker and Chickasaw Nation citizen from Ardmore, Oklahoma, running for U.S. Senate on a platform centered on healthcare access, education and family support.",
-        "sources": ["s1", "s3"]
+        "text": "N'Kiyla Thomas is the Democratic nominee. She describes herself as a Chickasaw citizen, mother, nurse and military spouse from Ardmore, Oklahoma, and not a career politician. Her campaign centers on healthcare access, education and support for families, including those raising children with disabilities.",
+        "sources": [
+          "s3"
+        ]
       },
       "background": [
-        { "text": "Born and raised in Ardmore, Oklahoma; earned a high school diploma from Ardmore High School.", "sources": ["s1"] },
-        { "text": "Career experience includes working as a nurse, community health worker and stay-at-home parent.", "sources": ["s1"] },
-        { "text": "Affiliated with the Chickasaw Nation, autism support and advocacy groups, and military spouse and veterans advocacy networks; her husband serves in the military.", "sources": ["s1", "s3"] }
+        {
+          "text": "Born and raised in Ardmore, Oklahoma, and graduated from Ardmore High School.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "text": "Her work experience includes nursing, work as a community health worker and time as a stay-at-home parent. Her Ballotpedia profile lists her profession as nurse.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "text": "Describes herself as a Chickasaw citizen. She has been affiliated with the Chickasaw Nation, autism support and advocacy groups, military spouse networks and veterans advocacy; her husband serves in the military.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "text": "In her Ballotpedia survey she says she is raising a neurodivergent child, which she cites as a motivation for running; she has not held public office.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Advanced from the Democratic primary runoff on August 25, 2026, to become the party's nominee for U.S. Senate.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "priorities": [
-        { "text": "\"Putting Oklahoma Families First\" — fighting for accessible healthcare, affordable childcare, and support for parents, especially those raising children with disabilities.", "quote": "I’m fighting for accessible healthcare, affordable childcare, and support for parents—especially those raising children with disabilities.", "sources": ["s3"] },
-        { "text": "\"Real Support for Teachers, Nurses, and Working People\" — better wages and safer workplaces for those professions.", "quote": "As a nurse and a mom, I know burnout is real. I’m committed to better wages, safer workplaces, and policies that help—not hurt—the people who keep our state running.", "sources": ["s3"] },
-        { "text": "\"People Over Politics\" — describes her campaign as independent of billionaire or lobbyist backing.", "quote": "I’m not backed by billionaires or lobbyists—I’m backed by lived experience.", "sources": ["s3"] }
+        {
+          "text": "\"Putting Oklahoma Families First\" — fighting for accessible healthcare, affordable childcare, and support for parents, especially those raising children with disabilities.",
+          "quote": "I’m fighting for accessible healthcare, affordable childcare, and support for parents—especially those raising children with disabilities.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "\"Real Support for Teachers, Nurses, and Working People\" — better wages and safer workplaces for those professions.",
+          "quote": "As a nurse and a mom, I know burnout is real. I’m committed to better wages, safer workplaces, and policies that help—not hurt—the people who keep our state running.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "\"People Over Politics\" — describes her campaign as independent of billionaire or lobbyist backing.",
+          "quote": "I’m not backed by billionaires or lobbyists—I’m backed by lived experience.",
+          "sources": [
+            "s3"
+          ]
+        }
       ],
       "positions": [
         {
@@ -108,20 +287,26 @@
           "stance": "supports",
           "summary": "Says the healthcare system, especially in rural areas, is broken and she is fighting to expand access and lower costs.",
           "quote": "As a nurse, I’ve seen how broken our healthcare system is—especially in rural areas—and I’m fighting to expand access, lower costs, and protect reproductive rights.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "States she is fighting to protect reproductive rights.",
           "quote": "I’m fighting to expand access, lower costs, and protect reproductive rights.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Lists affordable childcare and support for parents raising children with disabilities as a core campaign priority.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [],
@@ -131,50 +316,115 @@
     {
       "id": "sevier-white",
       "name": "Sevier White",
-      "parties": ["LIB"],
+      "parties": [
+        "LIB"
+      ],
       "incumbent": false,
       "ballotNote": "Advanced from the Libertarian primary (which was canceled) for U.S. Senate Oklahoma",
       "summary": {
-        "text": "Sevier White is the Libertarian Party candidate for U.S. Senate in Oklahoma.",
-        "sources": ["s1"]
+        "text": "Sevier White is the Libertarian Party candidate for U.S. Senate in Oklahoma. He previously appeared on the 2016 general-election ballot as the Libertarian candidate for Oklahoma's 4th Congressional District. Little else is publicly documented about his background.",
+        "sources": [
+          "s1",
+          "s6"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Ran as the Libertarian candidate for U.S. House in Oklahoma's 4th District in 2016, losing the November 8 general election to incumbent Tom Cole (R).",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Advanced as the Libertarian nominee for U.S. Senate after the June 16, 2026, Libertarian primary was canceled; he has not completed Ballotpedia's 2026 Candidate Connection survey.",
+          "sources": [
+            "s1",
+            "s6"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
+      "researchDepth": "basic",
       "researchNotes": "No Ballotpedia biography page, campaign website, or Candidate Connection survey response found."
     },
     {
       "id": "ron-meinhardt",
       "name": "Ron Meinhardt",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Ron Meinhardt is an independent candidate for U.S. Senate in Oklahoma.",
-        "sources": ["s1"]
+        "text": "Ron Meinhardt is an independent candidate for U.S. Senate in Oklahoma. He describes himself as a registered nurse, small-business chief financial officer, husband and father from Nowata County, and as a conservative independent.",
+        "sources": [
+          "s7"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Earned a bachelor's degree from Columbia Union College in 2005; his career experience includes working as a CFO.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "In his Ballotpedia survey, describes himself as a registered nurse and small-business CFO from Nowata County who has also studied public policy and administration at the graduate level.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Says he opposes the proposed Inola aluminum smelter and advocates for Oklahoma ranchers; no prior public office was found.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
+      "researchDepth": "basic",
       "researchNotes": "No Ballotpedia biography page, campaign website, or Candidate Connection survey response found."
     },
     {
       "id": "curtis-stinnett",
       "name": "Curtis Stinnett",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Curtis Stinnett is an independent candidate for U.S. Senate in Oklahoma.",
-        "sources": ["s1"]
+        "text": "Curtis Stinnett is an independent candidate for U.S. Senate in Oklahoma. He is a pharmacist from Lindsay, Oklahoma, who says he is running on campaign-finance reform and the idea that money should not dictate the country's direction.",
+        "sources": [
+          "s8"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Raised in Lindsay, Oklahoma, and graduated from Lindsay High School.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Graduated from Southwestern Oklahoma State University in 2010.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Says he has worked as a community pharmacist for 15 years across the state; his Ballotpedia profile lists his profession as pharmacist. No prior public office was found.",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
-      "researchDepth": "minimal",
+      "researchDepth": "basic",
       "researchNotes": "No Ballotpedia biography page, campaign website, or Candidate Connection survey response found."
     }
   ],
@@ -210,7 +460,36 @@
       "publisher": "Ballotpedia",
       "kind": "reference",
       "date": "2026-09-25"
+    },
+    {
+      "id": "s5",
+      "url": "https://hern.house.gov/about",
+      "title": "Biography",
+      "publisher": "Office of Rep. Kevin Hern",
+      "kind": "official"
+    },
+    {
+      "id": "s6",
+      "url": "https://ballotpedia.org/Sevier_White",
+      "title": "Sevier White",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s7",
+      "url": "https://ballotpedia.org/Ron_Meinhardt",
+      "title": "Ron Meinhardt",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
+    },
+    {
+      "id": "s8",
+      "url": "https://ballotpedia.org/Curtis_Stinnett",
+      "title": "Curtis Stinnett",
+      "publisher": "Ballotpedia",
+      "kind": "reference"
     }
   ],
-  "researchedAt": "2026-09-25"
+  "researchedAt": "2026-09-25",
+  "researchNotes": "Biography gaps: no birth year, employer or education was found for Sevier White beyond his 2016 candidacy, and the independents' biographies rely on their own Ballotpedia survey answers."
 }
