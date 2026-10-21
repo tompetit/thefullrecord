@@ -11,51 +11,102 @@
   "context": [
     {
       "text": "Incumbent Dwight Evans did not run for re-election in 2026. State Representative Christopher Rabb won the May 19, 2026 Democratic primary, defeating state senator Sharif Street, Dr. Ala Stanford, and Shaun Griffith. No candidate filed for the Republican primary.",
-      "sources": ["s1", "s2"]
+      "sources": [
+        "s1",
+        "s2"
+      ]
     }
   ],
   "candidates": [
     {
       "id": "christopher-rabb",
       "name": "Christopher Rabb",
-      "parties": ["D"],
+      "parties": [
+        "D"
+      ],
       "incumbent": false,
       "ballotNote": "Won the May 19, 2026 Democratic primary over Sharif Street, Ala Stanford, and Shaun Griffith.",
       "currentRole": "Pennsylvania State Representative, District 200 (since 2016; not seeking re-election to that seat)",
       "summary": {
-        "text": "Christopher Rabb is a Democratic member of the Pennsylvania House of Representatives, representing District 200 in Philadelphia since December 2016. He describes himself as a Democratic Socialist and is not seeking re-election to his state House seat.",
-        "sources": ["s2", "s3"]
+        "text": "Christopher Rabb is the Democratic nominee and a Pennsylvania state representative for District 200 in northwest Philadelphia, serving since December 2016. A Yale and University of Pennsylvania graduate with a background as a congressional aide and business school instructor, he describes himself as a Democratic Socialist. He won a four-way May 19, 2026 Democratic primary for the open seat with 44.6% of the vote, and his campaign says he is running to strengthen workers' rights and expand access to healthcare and housing.",
+        "sources": [
+          "s2",
+          "s3",
+          "s6"
+        ]
       },
       "background": [
         {
           "text": "Earned a bachelor's degree from Yale University in 1992 and a master's degree from the University of Pennsylvania in 2006.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Worked as an aide to U.S. Sen. Carol Moseley Braun (D-Ill.) and as a researcher and trainer at the White House Conference on Small Business during the Clinton administration.",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "Taught at Temple University's Fox School of Business and Management and was a faculty member at Drexel University's LeBow College of Business.",
-          "sources": ["s2"]
+          "text": "Taught at Temple University's Fox School of Business and Management and was a faculty member at the Institute for Strategic Leadership at Drexel University's LeBow College of Business.",
+          "sources": [
+            "s2"
+          ]
         },
         {
-          "text": "Elected to the Pennsylvania House of Representatives in 2016 and re-elected in 2018, 2020, 2022, and 2024.",
-          "sources": ["s2"]
+          "text": "Elected to the Pennsylvania House of Representatives in 2016 and re-elected in 2018, 2020, 2022, and 2024; his campaign says he represents a majority-Black district of nearly 70,000 people across four neighborhoods in northwest Philadelphia.",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "Has served on the House Agriculture & Rural Affairs, Commerce, Finance and Judiciary committees, and in 2023-2024 chaired the Commerce Committee's Subcommittee on Local Business and the Finance Committee's Subcommittee on Tax Modernization and Reform.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "According to his campaign website, he has introduced more than 100 bills and resolutions, including a bill to establish a statewide police misconduct database, which became law in a later version, and a First Chance Trust Fund bill; he is a founding member of the PA Climate Caucus and House Progressive Caucus.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Describes himself as a registered Democrat who identifies as a Democratic Socialist; his campaign says his great-great-grandfather founded Rabb's Meat Market in Columbus, Mississippi after Emancipation.",
+          "sources": [
+            "s3",
+            "s6"
+          ]
+        },
+        {
+          "text": "Won the May 19, 2026 Democratic primary for the open 3rd District seat with 44.6% (65,782 votes), ahead of Sharif Street, Ala Stanford and Shaun Griffith; retiring incumbent Dwight Evans was not a candidate.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
         }
       ],
       "priorities": [
         {
           "text": "Says the country faces a growing \"affordability crisis\" and calls for universal basic income, a living wage, national grocery stores, free high-speed public transit, and free gigabit broadband.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Calls for a \"Civil Climate Corps\" and a just transition to 100% renewable energy as part of a strong climate agenda.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "text": "Says community safety comes from investment in housing, education, jobs and mental health care rather than \"over-policing or over-prosecuting,\" and calls for abolishing ICE.",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "positions": [
@@ -64,59 +115,77 @@
           "stance": "supports",
           "summary": "Supports Medicare for All as part of a set of universal basic guarantees.",
           "quote": "Universal Basic Guarantees: Medicare for All, Housing, Food and Water, Free Transit, High-Speed Internet, Childcare, Income, Jobs",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "universal_childcare",
           "stance": "supports",
           "summary": "Supports universal childcare from birth to age 5.",
           "quote": "Universal Childcare from Birth to Age 5",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "minimum_wage",
           "stance": "supports",
           "summary": "Supports universal basic income and a living wage for all workers.",
           "quote": "Universal Basic Income and a Living Wage for All",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "immigration_enforcement",
           "stance": "opposes",
           "summary": "Opposes expanded immigration enforcement and calls for abolishing ICE.",
           "quote": "Abolish ICE & Dismantle Immigrant Concentration Camps",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "climate",
           "stance": "supports",
           "summary": "Supports a just transition to 100% renewable energy and a \"Civil Climate Corps.\"",
           "quote": "A Just Transition to 100% Renewable Energy",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         },
         {
           "issue": "abortion",
           "stance": "supports",
           "summary": "Lists protecting reproductive freedom among his universal healthcare guarantees.",
           "quote": "Medicare For All, Protecting Reproductive Freedom",
-          "sources": ["s3"]
+          "sources": [
+            "s3"
+          ]
         }
       ],
       "record": [
         {
           "text": "Chairs the Pennsylvania House Finance Committee's Subcommittee on Tax Modernization and Reform in the current legislative session.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Chairs the Pennsylvania House Commerce Committee's Subcommittee on Local Business in the current legislative session.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         },
         {
           "text": "Serves on the Pennsylvania House Agriculture & Rural Affairs and Judiciary committees.",
           "kind": "action",
-          "sources": ["s2"]
+          "sources": [
+            "s2"
+          ]
         }
       ],
       "website": "https://www.chrisrabb.com",
@@ -125,13 +194,45 @@
     {
       "id": "dennis-mahoney",
       "name": "Dennis Mahoney",
-      "parties": ["IND"],
+      "parties": [
+        "IND"
+      ],
       "incumbent": false,
       "summary": {
-        "text": "Dennis Mahoney is running as an Independent Party candidate for Pennsylvania's 3rd Congressional District. No campaign website content, biography, or issue statements were found beyond his listing on the general-election ballot.",
-        "sources": ["s4"]
+        "text": "Dennis Mahoney is an independent running on the Independent Party line and a first-time candidate from South Philadelphia. He founded AOI Solutions, a firm focused on disaster relief and humanitarian response, and says he has spent about a decade in that field. He describes his platform as unity over division, affordability and education, and has been endorsed by the Forward Party.",
+        "sources": [
+          "s4",
+          "s5"
+        ]
       },
-      "background": [],
+      "background": [
+        {
+          "text": "Is from South Philadelphia and was 34 years old as of September 2026, according to The Philadelphia Inquirer.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Has worked in disaster relief and humanitarian aid for about a decade, including through Food for the Hungry and a former Washington, D.C., church; the Inquirer reports he has dispatched aid after hurricanes in the United States and Puerto Rico and in poverty crises in 18 countries.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Founded AOI Solutions, a firm focused on disaster relief and humanitarian response, according to his Ballotpedia Candidate Connection survey.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "text": "First-time candidate who told the Inquirer he has belonged to both major parties; he qualified for the ballot with about 19,000 petition signatures, according to the Inquirer and his survey.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
       "priorities": [],
       "positions": [],
       "record": [],
@@ -166,8 +267,30 @@
       "title": "Dennis Mahoney (Pennsylvania)",
       "publisher": "Ballotpedia",
       "kind": "reference"
+    },
+    {
+      "id": "s5",
+      "url": "https://www.inquirer.com/politics/nation/3rd-district-election-dennis-mahoney-20260910.html",
+      "title": "Independent Dennis Mahoney is trying to defeat Chris Rabb in November",
+      "publisher": "The Philadelphia Inquirer",
+      "kind": "news",
+      "date": "2026-09-10"
+    },
+    {
+      "id": "s6",
+      "url": "https://www.chrisrabb.com/about",
+      "title": "About - Chris Rabb For Congress",
+      "publisher": "Chris Rabb For Congress",
+      "kind": "candidate"
+    },
+    {
+      "id": "s7",
+      "url": "https://www.chrisrabb.com/record",
+      "title": "Record - Chris Rabb For Congress",
+      "publisher": "Chris Rabb For Congress",
+      "kind": "candidate"
     }
   ],
   "researchedAt": "2026-09-25",
-  "researchNotes": "Incumbent Dwight Evans lost the Democratic primary and is not on the November ballot. No Republican candidate filed for this district. Mahoney has no discoverable campaign website, biography, or issue positions; researched as minimal. Rabb's sponsored-legislation list (via BillTrack50 on his Ballotpedia page) could not be extracted from the fetched page content, so record items are limited to documented committee roles."
+  "researchNotes": "Incumbent Dwight Evans retired and is not on the November ballot. No Republican candidate filed for this district. Mahoney's biography comes from his Ballotpedia Candidate Connection survey and a Philadelphia Inquirer profile; no campaign website was loaded. Rabb's sponsored-legislation list (via BillTrack50 on his Ballotpedia page) could not be extracted from the fetched page content, so record items are limited to documented committee roles. Rabb's birthplace and Mahoney's education were not found in the sources reviewed."
 }
