@@ -97,3 +97,4 @@ Items found by the 2026-10 biography agents that need an editorial decision or a
 - brad-little: Wikipedia intro says B.S. 1976, body and governor's site say 1977 (bio uses 1977).
 - beau-bayh: "infantry officer" cited to Ballotpedia but not found on the fetched pages — verify.
 - Source titles written by agents (not page titles): Nevada Legislature/gov.nv.gov/Nevada Independent sources in batch 104 bios, thomas-sullivan campaign site.
+- paul-nichols: "worked for several Southeast Queens elected officials" not found on re-read of the Queens Chronicle article — verify.
