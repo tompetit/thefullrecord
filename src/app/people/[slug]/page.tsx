@@ -5,7 +5,7 @@ import { OfficialProfile } from "@/components/OfficialProfile";
 import { PartyChip } from "@/components/PartyChip";
 import { PersonCard } from "@/components/PersonCard";
 import { PersonPhoto } from "@/components/PersonPhoto";
-import { PartyChips } from "@/components/guide/ui";
+import { CitedText, PartyChips, SourceList } from "@/components/guide/ui";
 import { SourceLink } from "@/components/SourceLink";
 import { SITE_URL, ballotLabel, partyChipProps, partyOrgName } from "@/lib/people";
 import { getDataSource } from "@/server/datasource";
@@ -52,6 +52,8 @@ export default async function PersonPage({ params, searchParams }: { params: Par
   const official = office ? await getDataSource().getOfficial(office.officialId) : null;
   const candidacies = person.candidacies ?? [];
   const bio = getBio(person.slug);
+  // A guide candidate's cited summary + background supersedes the standalone bio, so the page shows one biography.
+  const guide = candidacies.map((c) => (c.raceId && c.candidateId ? getCandidate(c.raceId, c.candidateId) : null)).find(Boolean) ?? null;
   const partyCode = official ? person.party : undefined;
   const ballotParties = candidacies[0]?.parties ?? [];
   const jsonLdParty = partyCode ?? ballotParties[0];
@@ -94,7 +96,25 @@ export default async function PersonPage({ params, searchParams }: { params: Par
       </header>
 
       <div className="px-4 sm:px-6 lg:px-10 [&>*]:max-w-4xl">
-        {bio && (
+        {guide ? (
+          <Section title="Background">
+            <p className="font-sans text-[13.5px] leading-normal text-ink-80">
+              <CitedText c={guide.candidate.summary} race={guide.race} />
+            </p>
+            {guide.candidate.background.length > 0 && (
+              <ul className="mt-2 flex list-disc flex-col gap-1.5 pl-5 font-sans text-[13px] leading-[1.5] text-ink-80 marker:text-ink-35">
+                {guide.candidate.background.map((b, i) => (
+                  <li key={i}>
+                    <CitedText c={b} race={guide.race} />
+                  </li>
+                ))}
+              </ul>
+            )}
+            <div className="mt-3">
+              <SourceList race={guide.race} ids={new Set([guide.candidate.summary, ...guide.candidate.background].flatMap((x) => x.sources))} />
+            </div>
+          </Section>
+        ) : bio && (
           <Section title="Background">
             <p className="font-sans text-[13.5px] leading-normal text-ink-80">
               {bio.bio.map((c, i) => (
@@ -120,9 +140,8 @@ export default async function PersonPage({ params, searchParams }: { params: Par
           if (found) {
             const others = found.race.candidates.filter((o) => o.id !== found.candidate.id);
             return (
-              <Section key={c.raceId} title="Candidate summary">
-                <p className="font-sans text-[13.5px] leading-normal text-ink-80">{found.candidate.summary.text}</p>
-                <p className="mt-2 flex flex-wrap gap-x-4 font-sans text-[13px]">
+              <Section key={c.raceId} title="On the ballot">
+                <p className="flex flex-wrap gap-x-4 font-sans text-[13px]">
                   <Link href={`/guide/race/${c.raceId}/${c.candidateId}`} className="inline-flex min-h-11 items-center font-semibold text-accent underline">Full candidate research ›</Link>
                   <Link href={`/guide/race/${c.raceId}`} className="inline-flex min-h-11 items-center font-semibold text-accent underline">{found.race.title} ›</Link>
                 </p>
