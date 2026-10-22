@@ -150,7 +150,7 @@ const normTitle = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, " ").tri
 
 /**
  * AI-written summaries (src/server/vote-summaries.json) for roll calls whose source has
- * none. Applied only when the bill title matches the one summarized, since bill numbers
+ * none, keyed "<juris>:<bill>" or "<juris>:<bill>|<normalized title>". Applied only when the bill title matches the one summarized, since bill numbers
  * repeat across sessions; an official summary always wins.
  */
 let voteSummaries: Record<string, { title: string; summary: string; asOf?: string }> | null = null;
@@ -167,7 +167,8 @@ function addSummaries(snapshot: ChamberSnapshot) {
   if (!juris) return;
   for (const rc of snapshot.rollCalls) {
     if (rc.summary && rc.summary !== rc.title) continue;
-    const s = all[`${juris}:${rc.bill}`];
+    // Bill numbers repeat across sessions, so a summary may also be keyed by bill and title.
+    const s = all[`${juris}:${rc.bill}|${normTitle(rc.title)}`] ?? all[`${juris}:${rc.bill}`];
     if (s && normTitle(s.title) === normTitle(rc.title)) {
       // Each summary was checked against one vote's version of the bill; on other votes say which.
       const other = s.asOf && s.asOf !== rc.date && !/^As /.test(s.summary);
