@@ -108,6 +108,16 @@ function person(chamber, name) {
 const MICHAEL = "ocd-person/66fe4760-a59b-4503-98d4-875408b7352f", CARL = "ocd-person/4eb57c5a-70c0-4b16-a247-53cf291bc38a";
 const jackson = (chamber, date) => (chamber === "upper" && date < "2025-02-05" ? MICHAEL : CARL);
 
+// The sheets keep printing the bill's printed (third-reader) title after the opposite chamber amends the title; until the
+// enrolled reprint the amended title appears only in the adopted amendment. Title as of the vote, per that amendment:
+const TITLE_AT_VOTE = {
+  // HB 493 (2026): Senate JPR amendment HB0493/663321/1, adopted at Senate 2nd reading Apr 13 2026 ("Washington County -"; strike "Circuit Court and").
+  "md-26s1159": "Washington County - Judgeships - District Court",
+  "md-26h1625": "Washington County - Judgeships - District Court",
+  // SB 618 (2026): House GLE amendment SB0618/363920/1, adopted at House 2nd reading Apr 13 2026, substitutes the title.
+  "md-26h1622": "Task Force on Legislator Employment",
+};
+
 // --- Parse.
 const SECTION = /^\s*(Voting Yea|Voting Nay|Not Voting|Excused from Voting|Excused \(Absent\))\s*-\s*(\d+)\s*$/;
 const POS = { "Voting Yea": "yes", "Voting Nay": "no", "Not Voting": "absent", "Excused from Voting": "absent", "Excused (Absent)": "absent" };
@@ -128,7 +138,8 @@ function parse(t) {
   for (const v of votes) v.name = v.name.replace(/^\*\s*/, "");
   // Header: lines between the "20xx Regular Session" banner and the tally.
   const bi = lines.findIndex((l) => /Regular Session/.test(l));
-  const head = lines.slice(bi + 1, ti).map((l) => l.trim()).filter(Boolean);
+  // Blank lines are kept (as ""): the sheet sets the question block off from the short title with one.
+  const head = lines.slice(bi + 1, ti).map((l) => l.trim()).filter((l, i, a) => l || (i > 0 && a[i - 1]));
   return { yes: +tally[1], no: +tally[2], counts, votes, head, date: `${d[3]}-${String(MONTHS.indexOf(d[1]) + 1).padStart(2, "0")}-${d[2].padStart(2, "0")}`, presiding: /Presiding:\s*(.*?)\s{2,}/.exec(t)?.[1] };
 }
 
@@ -151,11 +162,18 @@ for (const f of files) {
   const m = /^((?:HB|SB|HJ|SJ)\s*\d+)\s*(.*)$/.exec(r.head[bi]);
   const bill = m[1].replace(/\s+/, " ");
   const special = m[2].startsWith("-"), stage = special ? "Veto override" : m[2].trim(); // Special Order sheets: "HB 1258 - Delegate Embry"
-  // Next line is the sponsor / committee ("Delegate X et al   (W&M)"), then the short title, then the question lines.
-  const tail = r.head.slice(bi + (special ? 1 : 2));
-  const qi = tail.findIndex((l) => /^(On |Bill is |Favorable|Unfavorable|FLA |Motion|Amendment|Concur|Reconsider|\((Amend|Const|[A-Z&]{2,5})\)|Shall )/i.test(l));
-  const title = tail.slice(0, qi < 0 ? tail.length : qi).join(" ").replace(/\s+/g, " ").trim();
-  const question = [stage, ...(qi < 0 ? [] : tail.slice(qi))].map((s) => s.replace(/\s+\(\w+\)\s*$/, "").trim()).filter(Boolean).join(" · ").replace(/\s+/g, " ");
+  // Next line is the sponsor / committee ("Delegate X et al   (W&M)"), then the short title (one or more lines), then the
+  // question lines ("Floor Amendment Ready /873224/1", "FWA adp - ON 2ND RDG ... FLA Del. X /nnnnnn/1", "Committee Amendment #69",
+  // "Conference Committee Report - Adoption", "Bill on third reading for final passage."). The title ends at the first blank
+  // line, or at the first later line that reads as a question when the sheet prints no blank line in between.
+  const tail = r.head.slice(bi + 1);
+  while (tail.length && !tail[0]) tail.shift();
+  if (!special) { tail.shift(); while (tail.length && !tail[0]) tail.shift(); }
+  const QUESTION = /^(On |(The )?Bill (is )?on |Favorable|Unfavorable|FLA |FWA |Motion|Amendment|(Floor|Committee) Amendment|adoption of|Question is|Conference Committee|CCR\b|Concur|Reconsider|\((Amend|Const|[A-Z&]{2,5})\)|Shall )/i;
+  let qi = tail.findIndex((l, i) => !l || (i > 0 && QUESTION.test(l)));
+  if (qi < 0) qi = tail.length;
+  const title = TITLE_AT_VOTE[id] ?? tail.slice(0, qi).join(" ").replace(/\s+/g, " ").trim();
+  const question = [stage, ...tail.slice(qi)].map((s) => s.replace(/\s+\(\w+\)\s*$/, "").trim()).filter(Boolean).join(" · ").replace(/\s+/g, " ");
   if (!title) { drop("no-title", id); continue; }
   const votes = {};
   // The House prints whoever holds the chair as "Speaker" and omits that member's own name: Jones, A. (Jan-Apr 2025),
