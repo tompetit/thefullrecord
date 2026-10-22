@@ -1,6 +1,7 @@
 import { getSnapshots, memberKeyFor, partyFor, rollCallSplit, rollCallTopics, type ChamberSnapshot } from "./live/snapshot";
 import { breakdown, contention, majority, summarizeStandout, type ContestedVote, type Standout, type StandoutInput } from "../lib/divisive";
 import { rollCallHref } from "./rollcall";
+import { summarizeByIssue, type IssueRow, type IssueVoteInput } from "../lib/issueRecord";
 
 function compute(keyOf: (s: ChamberSnapshot) => string | null): Standout | null {
   for (const snap of getSnapshots()) {
@@ -72,3 +73,28 @@ export const contestedForDistrict = (districtKey: string, max = 8) => contested(
 
 export const contestedForBioguide = (id: string, max = 8) =>
   contested((s) => ((s.chamber === "U.S. HOUSE" || s.chamber === "U.S. SENATE") && s.rollCalls.some((r) => r.votes[id]) ? id : null), max);
+
+function byIssue(keyOf: (s: ChamberSnapshot) => string | null): IssueRow[] | null {
+  for (const snap of getSnapshots()) {
+    const key = keyOf(snap);
+    if (!key) continue;
+    const inputs: IssueVoteInput[] = [];
+    for (const rc of snap.rollCalls) {
+      const vote = rc.votes[key];
+      if (vote !== "yes" && vote !== "no") continue;
+      inputs.push({
+        vote,
+        split: rollCallSplit(snap, rc),
+        topics: rollCallTopics(rc),
+        kind: rc.kind,
+        bill: rc.bill,
+        example: { id: rc.id, href: rollCallHref(snap.file!, rc.id), title: rc.title, summary: rc.summary && rc.summary !== rc.title ? rc.summary : undefined, date: rc.date, dateLabel: rc.dateLabel, sourceUrl: rc.sourceUrl, outcome: rc.outcome, vote },
+      });
+    }
+    const rows = summarizeByIssue(partyFor(snap, key), inputs);
+    if (rows) return rows;
+  }
+  return null;
+}
+
+export const issuesForDistrict = (districtKey: string) => byIssue((s) => memberKeyFor(s, districtKey));

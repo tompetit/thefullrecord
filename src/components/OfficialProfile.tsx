@@ -7,7 +7,8 @@ import { StandoutSection } from "@/components/StandoutSection";
 import { getDataSource } from "@/server/datasource";
 import { ContestedVotesSection } from "@/components/ContestedVotesSection";
 import type { Official } from "@/server/types";
-import { contestedForDistrict, standoutForDistrict } from "@/server/standout";
+import { IssueRecordSection } from "@/components/IssueRecordSection";
+import { contestedForDistrict, issuesForDistrict, standoutForDistrict } from "@/server/standout";
 
 /** The official profile body (rail + feed), shared by /official/[id] and /people/[slug]. `compact` drops the name, role and party lines the page header already shows. */
 export async function OfficialProfile({ official, address, compact = false }: { official: Official; address: string; compact?: boolean }) {
@@ -24,6 +25,7 @@ export async function OfficialProfile({ official, address, compact = false }: { 
 
   const standout = standoutForDistrict(official.districtKey);
   const contested = contestedForDistrict(official.districtKey);
+  const byIssue = issuesForDistrict(official.districtKey);
 
   const roleLine = official.locality
     ? `${official.role} · ${official.locality}`
@@ -152,6 +154,7 @@ export async function OfficialProfile({ official, address, compact = false }: { 
 
       {/* Feed */}
       <div className="mt-6 flex flex-col gap-4 lg:mt-0">
+        {byIssue && <IssueRecordSection rows={byIssue} party={official.party ?? undefined} address={address} />}
         {standout && <StandoutSection standout={standout} />}
         <ContestedVotesSection votes={contested} allHref={`/votes${address ? `?address=${encodeURIComponent(address)}&show=reps-split` : ""}`} />
         <ProfileTabs
