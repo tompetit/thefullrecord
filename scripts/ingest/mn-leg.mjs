@@ -37,7 +37,7 @@ const SENATE = "https://www.senate.mn";
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const args = process.argv.slice(2);
 const work = args.includes("--work") ? args[args.indexOf("--work") + 1] : join(homedir(), ".cache/mn-leg");
-for (const d of ["", "house", "sj", "sjtxt"]) mkdirSync(join(work, d), { recursive: true });
+for (const d of ["", "house", "hj", "rev", "sj", "sjtxt"]) mkdirSync(join(work, d), { recursive: true });
 
 const norm = (s) => String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z]/g, "");
 const text = (html) => decodeXml(html.replace(/<br\s*\/?>/gi, " ").replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
@@ -63,7 +63,9 @@ const people = csv(await (await politeGet("https://data.openstates.org/people/cu
 const cands = []; // { id, given, names, chamber } (chamber null = retired)
 for (const p of people) cands.push({ id: p.id, given: norm(p.given_name), names: new Set([norm(p.family_name), norm(p.family_name.split(" ").at(-1))]), chamber: p.current_chamber });
 try {
-  const listing = await (await politeGet("https://api.github.com/repos/openstates/people/contents/data/mn/retired", { headers: { Accept: "application/vnd.github+json" } })).json();
+  // MN_RETIRED_DIR: a local checkout of openstates/people data/mn/retired, for when the GitHub API is unreachable.
+  const listing = process.env.MN_RETIRED_DIR ? readdirSync(process.env.MN_RETIRED_DIR).map((name) => ({ name }))
+    : await (await politeGet("https://api.github.com/repos/openstates/people/contents/data/mn/retired", { headers: { Accept: "application/vnd.github+json" } })).json();
   for (const { name } of listing) {
     const m = /^(.+)-([0-9a-f]{8}-[0-9a-f-]{27})\.yml$/.exec(name);
     if (!m) continue;
@@ -118,12 +120,98 @@ async function getText(url, file, init) {
 
 const rolls = { lower: [], upper: [] };
 // Appeals of rulings, tabling, suspending the rules, previous question etc. are procedural even when they sit on a bill.
-const PROC = /appeal|decision of (the )?(President|Speaker|Chair)|judgment of the (Senate|House)|germane|ruling|\btable\b|suspen(d|sion)|previous question|call of the (Senate|House)|reconsider|re-?referred|point of order|recall and place/i;
+const PROC = /appeal|decision of (the )?(President|Speaker|Chair)|judgment of the (Senate|House)|germane|ruling|\btable\b|suspen(d|sion)|previous question|call of the (Senate|House)|reconsider|re-?referr?(ed|al)|point of order|recall and|calendar for the day|take from the table|lay on the table/i;
 const dropped = {}; const drop = (chamber, why) => { const k = `${chamber}:${why}`; dropped[k] = (dropped[k] ?? 0) + 1; };
 
 // --- House ---------------------------------------------------------------------------------------------------
 const houseTitles = new Map(); // "HF 719" -> official short description
 const normBill = (n) => n.replace(/^([A-Z]+)0*(\d+)$/, "$1 $2");
+
+// The vote pages give no result, and "more yeas than nays" is wrong for questions that need a fixed number of votes
+// (final passage and Rule 1.21 Calendar-for-the-Day motions: 68 = a majority of the 134 members; suspension of the
+// rules: two-thirds). The result is therefore read from the House Journal: the vote page's journal page number is
+// mapped to the daily journal file by the page's own /Votes/GetPage call, and the first result sentence after the
+// roll call with the same printed tally on that page ("The motion did not prevail", "The bill was passed", "not
+// having received the required 68 votes") decides. Falls back to yeas > nays (counted) when no sentence is found.
+const journalFile = new Map(); // `${sessionKey}:${page}` -> "2025-26/J0511072"
+const journalText = new Map(); // file -> flattened text with "@@P<page>@@" markers
+const journalSession = new Map(); // file -> SessionKey
+const pageMapFile = join(work, "house-journal-pages.json");
+const pageMap = existsSync(pageMapFile) ? JSON.parse(readFileSync(pageMapFile, "utf8")) : {};
+async function houseJournal(sessionKey, page, date) {
+  const key = `${sessionKey}:${page}`;
+  if (!pageMap[key]) {
+    // A journal already loaded for this session usually holds the page; ask GetPage only otherwise.
+    const known = [...journalText].find(([f, t]) => journalSession.get(f) === sessionKey && t.includes(`@@P${page}@@`))?.[0];
+    if (known) pageMap[key] = known;
+    for (let attempt = 0; !pageMap[key]; attempt++) {
+      await pace();
+      const res = await fetch(`${HOUSE}/Votes/GetPage`, { method: "POST", signal: AbortSignal.timeout(60_000), headers: { "Content-Type": "application/json; charset=utf-8", "User-Agent": "thefullrecord-ingest/1.0 (civic transparency)" }, body: JSON.stringify({ SessionKey: sessionKey, PageNumber: Number(page) }) });
+      const body = res.ok ? await res.text() : "";
+      if (body.startsWith("{")) { const { folder, fileName } = JSON.parse(body); pageMap[key] = `${folder}/${fileName}`; break; }
+      if (attempt >= 2) {
+        // GetPage answers a few pages with an error page: try the regular-session journals of the vote's date
+        // (the journal list names files J<MMDD><legislative day>).
+        if (sessionKey === 302 && date) {
+          const index = await getText(`${HOUSE}/cco/journals/journl.htm`, join(work, "house-journal-index.html"));
+          for (const [, f] of index.matchAll(/journals\/(2025-26\/J\d{7})\.htm/g)) {
+            if (f.slice(9, 13) !== `${date.slice(5, 7)}${date.slice(8, 10)}`) continue;
+            const html = await getText(`${HOUSE}/cco/journals/${f}.htm`, join(work, "hj", `${f.replace("/", "_")}.htm`));
+            if (new RegExp(`<a name\\s*=\\s*"?${page}"?\\s*>`, "i").test(html)) { pageMap[key] = f; break; }
+          }
+          if (pageMap[key]) break;
+        }
+        console.warn(`GetPage ${key} -> ${res.status} (not JSON)`); return null;
+      }
+      await sleep(2000 * 2 ** attempt);
+    }
+    writeFileSync(pageMapFile, JSON.stringify(pageMap));
+  }
+  const file = pageMap[key];
+  if (!journalText.has(file)) {
+    const html = await getText(`${HOUSE}/cco/journals/${file}.htm`, join(work, "hj", `${file.replace("/", "_")}.htm`));
+    journalSession.set(file, sessionKey);
+    journalText.set(file, decodeXml(html.replace(/<a name\s*=\s*"?(\d+)"?\s*>/gi, " @@P$1@@ ")).replace(/[ Â]/g, " ").replace(/\s+/g, " "));
+  }
+  return journalText.get(file);
+}
+const RESULT = /did not prevail|was not (passed|adopted|repassed|sustained)|not having received|should not stand|did not stand|motion failed|(motion|it) prevailed|was (passed|repassed|adopted)|should stand|was sustained/i;
+// The question named in the journal sentence that puts the vote must fit the vote page's motion (several roll calls on
+// one page often share a tally, e.g. 67-66).
+const QUESTION_FIT = [
+  [/decision|judgment/i, /stand as the judgment/i], [/suspen/i, /suspen/i], [/reconsider/i, /reconsider/i],
+  [/table/i, /table/i], [/calendar for the day/i, /Calendar for the Day/i], [/call of the house/i, /call of the House/i],
+  [/re-?refer|recall/i, /refer|recall|General Register/i], [/amendment/i, /amendment/i], [/passage/i, /passage/i],
+];
+const usedTally = new Set();
+/** true/false from the journal sentence after the roll call, or null when it can't be found. */
+async function houseResult(sessionKey, page, yea, nay, motion, date) {
+  const fit = QUESTION_FIT.find(([m]) => m.test(motion))?.[1];
+  if (!/^\d+$/.test(page)) return null;
+  const t = await houseJournal(sessionKey, page, date);
+  if (!t) return null;
+  const start = Math.max(0, t.indexOf(`@@P${Number(page) - 1}@@`)); // a roll call can begin at the foot of the previous page
+  let end = t.indexOf(`@@P${Number(page) + 2}@@`, start);
+  if (end < 0) end = Math.min(t.length, start + 60_000);
+  const re = new RegExp(`There were ${yea} yeas? and ${nay} nays?`, "g");
+  re.lastIndex = start;
+  const cands = [];
+  for (let m; (m = re.exec(t)) && m.index < end;) {
+    const k = `${pageMap[`${sessionKey}:${page}`]}:${m.index}`;
+    if (!usedTally.has(k)) cands.push({ m, k, put: t.slice(Math.max(0, m.index - 1500), m.index).split("as follows:").at(-1) }); // back to the previous roll call
+  }
+  // Same tally twice in reach: take the one whose question fits the vote page's motion.
+  const pick = (cands.length > 1 && fit && cands.find((c) => fit.test(c.put))) || cands[0];
+  if (!pick) return null;
+  usedTally.add(pick.k);
+  const after = t.slice(pick.m.index + pick.m[0].length).replace(/@@P\d+@@ Journal Of the House[^@]*?Top of Page \d+/g, " ");
+  const r = RESULT.exec(after.slice(0, 6000).split(/There were \d+ yeas? and/)[0]);
+  if (!r) return null;
+  return !/not|did not|failed/i.test(r[0]);
+}
+const motionCase = (s) => sentence(s.toLowerCase()).replace(/\b([hs])\.f\.(\s*no\.)?/gi, (_, c, no) => `${c.toUpperCase()}.F.${no ? " No." : ""}`)
+  .replace(/calendar for the day/g, "Calendar for the Day")
+  .replace(/\b(sunday|monday|tuesday|wednesday|thursday|friday|saturday|january|february|march|april|may(?= \d)|june|july|august|september|october|november|december)\b/g, (w) => sentence(w));
 for (const [sessionKey, sessionLabel] of [[302, "2025-2026 Regular"], [304, "2025 Special"]]) {
   const summary = JSON.parse(await getText(`${HOUSE}/Votes/GetVoteSummary`, join(work, `house-summary-${sessionKey}.json`), {
     method: "POST", headers: { "Content-Type": "application/json; charset=utf-8" }, body: JSON.stringify({ SessionKey: sessionKey, sortOption: "BillNumber" }),
@@ -139,6 +227,10 @@ for (const [sessionKey, sessionLabel] of [[302, "2025-2026 Regular"], [304, "202
       const cells = [...row.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((m) => m[1]);
       if (cells.length < 7) { drop("lower", "bad-panel"); continue; }
       const lines = cells[1].split(/<br\s*\/?>/i).map((s) => text(s)).filter(Boolean); // "H.F. NO. 719", order of business, motion
+      // Calendar-for-the-Day motions are printed as motion line, order of business, rest of the motion (no "H.F. NO." line):
+      // "TO CONSIDER FIRST FOR CALENDAR" / "MOTIONS AND RESOLUTIONS" / "FOR THE DAY H.F. 3658".
+      // Put them back in the usual order: "", order of business, motion.
+      if (lines.length > 2 && !/^[HS]\.F\. NO\. \d+$/i.test(lines[0])) lines.splice(0, 3, "", lines[1], `${lines[0]} ${lines[2]}`);
       const amendment = text(cells[2]);
       const yea = Number(text(cells[3])), nay = Number(text(cells[4]));
       const dm = /(\d\d)\/(\d\d)\/(\d{4})/.exec(text(cells[6]));
@@ -157,16 +249,20 @@ for (const [sessionKey, sessionLabel] of [[302, "2025-2026 Regular"], [304, "202
       }
       if (bad) { drop("lower", "unmatched-member"); continue; }
       seenDay[date] = (seenDay[date] ?? 0) + 1;
-      const motion = lines.slice(2).join(" ");
+      const rawMotion = lines.slice(2).join(" ");
+      const motion = lines[0] ? rawMotion : motionCase(rawMotion);
       const question = [motion, lines[1] && `(${lines[1].toLowerCase().replace(/^./, (c) => c.toUpperCase())})`, amendment && `Amendment ${amendment}`].filter(Boolean).join(" ");
       const bill = normBill(number);
+      const journalResult = await houseResult(sessionKey, text(cells[5]), yea, nay, `${motion} ${amendment}`, date);
+      if (journalResult === null) { drop("lower", "result-not-in-journal (yeas > nays used)"); if (process.env.MN_DEBUG) console.error("NO RESULT", number, date, text(cells[5]), yea, nay, motion, amendment); }
+      const passedH = journalResult ?? yea > nay;
       rolls.lower.push({
         id: `mn-h-${number}-${date.replaceAll("-", "")}-${seenDay[date]}`,
         bill,
         title: ShortDescription || bill,
         question: question || undefined,
         kind: PROC.test(`${motion} ${amendment}`) ? "procedural" : classify({ motion_text: `${motion} ${amendment}`, motion_classification: /passage|concur|conference/i.test(motion) && !amendment ? ["passage"] : [] }),
-        outcome: `${yea > nay ? "Passed" : "Failed"} ${yea}–${nay}`,
+        outcome: `${passedH ? "Passed" : "Failed"} ${yea}–${nay}`,
         date, dateLabel: label(date), sourceUrl, votes,
       });
     }
@@ -290,7 +386,21 @@ for (const file of journals) {
     if (bad) { drop("upper", "unmatched-member"); continue; }
     const generic = /^(the )?(adoption of the )?(motion|amendment)(, as amended)?$/i.test(q ?? "");
     const question = sentence((generic && moved ? `${q}: ${moved}` : q ?? moved ?? "").replace(/^the /, "").replace(/\s+/g, " ").slice(0, 200)) || undefined;
+    // A floor amendment adopted before this passage vote that rewrote the bill's title ("Amend the title accordingly" /
+    // "Amend the title as follows", e.g. a delete-everything amendment): the bill voted on no longer carries the title
+    // printed at the head of its order of business, so take the title of the engrossment the Revisor made from that
+    // day's amendments (resolved below).
+    let retitled = false;
+    if (/passage of the bill, as amended/i.test(q ?? "")) {
+      let h = anchor;
+      while (h > Math.max(0, anchor - 3000) && !L[h].startsWith(`${bill}: A bill for an act`)) h--;
+      if (L[h]?.startsWith(`${bill}: A bill for an act`)) {
+        retitled = L.slice(h, i).join(" ").split(/(?=Senator [^.]{1,60}? moved to amend )/).slice(1)
+          .some((b) => /Amend the title/.test(b) && /amendment was adopted/.test(b));
+      }
+    }
     senateRolls.push({
+      retitled,
       id: `mn-s-${date.replaceAll("-", "")}-${n}`,
       bill, question,
       kind: PROC.test(/motion/i.test(q ?? "") || !q ? `${q} ${moved}` : q) ? "procedural" : classify({ motion_text: q ?? moved ?? "", motion_classification: /passage of the bill|adoption of (the )?(report|conference)|concur/i.test(`${q ?? ""} ${moved ?? ""}`) ? ["passage"] : [] }),
@@ -301,7 +411,34 @@ for (const file of journals) {
     });
   }
 }
-for (const r of senateRolls) rolls.upper.push({ ...r, title: houseTitles.get(r.bill) ?? senateTitles.get(r.bill) ?? r.bill });
+const titleCase = (t) => {
+  t = t.replace(/\s+/g, " ").split(/;\s*(?:amending|proposing|repealing|making technical|requiring reports|authorizing rulemaking)/)[0].replace(/[.;]+$/, "");
+  if (t.length > 260) t = `${t.slice(0, 260).replace(/\s+\S*$/, "")}…`;
+  return sentence(t);
+};
+/** Title of the Revisor's engrossment produced by the Senate's amendments on `date` (the version that was then passed). */
+async function versionTitle(bill, date) {
+  const [type, num] = bill.split(" ");
+  const year = date.slice(0, 4);
+  const page = await getText(`https://www.revisor.mn.gov/bills/94/${year}/0/${type}/${num}/`, join(work, "rev", `${type}${num}.html`));
+  const us = `${date.slice(5, 7)}/${date.slice(8, 10)}/${year}`;
+  const versions = [...page.matchAll(/<tr>\s*<td>(\d\d\/\d\d\/\d{4})<\/td>([\s\S]*?)<\/tr>/g)]
+    .filter(([, d, row]) => d === us && /Amended/i.test(text(row)))
+    .map(([, , row]) => /\/versions\/([^/"]+)\//.exec(row)?.[1]).filter(Boolean);
+  if (!versions.length) return null;
+  const v = versions.sort((a, b) => (parseInt(b.replace(/\D/g, ""), 10) || 0) - (parseInt(a.replace(/\D/g, ""), 10) || 0))[0];
+  const body = text(await getText(`https://www.revisor.mn.gov/bills/94/${year}/0/${type}/${num}/versions/${v}/`, join(work, "rev", `${type}${num}-v${v}.html`)));
+  const m = /A bill for an act (relating to .*?)(?:\.\s*BE IT ENACTED|$)/.exec(body);
+  return m ? titleCase(m[1]) : null;
+}
+for (const { retitled, ...r } of senateRolls) {
+  let title = houseTitles.get(r.bill) ?? senateTitles.get(r.bill) ?? r.bill;
+  if (retitled) {
+    const t = await versionTitle(r.bill, r.date).catch((e) => { console.warn(`revisor ${r.bill}: ${e.message}`); return null; });
+    if (t) title = t; else console.warn(`no engrossment title for ${r.bill} amended ${r.date}; journal title kept`);
+  }
+  rolls.upper.push({ ...r, title });
+}
 for (const r of rolls.lower) if (senateTitles.get(r.bill) && r.title === r.bill) r.title = senateTitles.get(r.bill);
 
 // --- Inferred absences, then write ---------------------------------------------------------------------------
