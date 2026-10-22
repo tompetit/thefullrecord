@@ -137,6 +137,45 @@ const rolls = { lower: [], upper: [] };
 const skipped = {}; const skip = (why) => { skipped[why] = (skipped[why] ?? 0) + 1; };
 let tallyMismatch = 0, n = 0;
 const seen = new Set();
+/** Bill history rows from the bill page ("Bill history" tab): { date: "YYYY-MM-DD", location, action }. */
+function billHistory(page) {
+  const i = page.indexOf("id=bill-histories");
+  if (i < 0) return [];
+  const table = page.slice(i, page.indexOf("</table>", i));
+  return [...table.matchAll(/<tr class='mb-0'[\s\S]*?<\/tr>/g)].map((m) => {
+    const cell = (k) => text(new RegExp(`data-label="${k}">([\\s\\S]*?)<\\/td>`).exec(m[0])?.[1] ?? "");
+    const d = /(\d\d)\/(\d\d)\/(\d{4})/.exec(cell("Date"));
+    return { date: d ? `${d[3]}-${d[1]}-${d[2]}` : "", location: cell("Location"), action: cell("Action") };
+  });
+}
+
+/**
+ * Whether a floor vote carried. The vote page prints only the tally, so for a third-reading vote on the measure itself
+ * the official result is taken from the bill history ("Senate Third Reading Lost - No Amendments" /
+ * "House Third Reading Passed - ..."), same chamber and date. Only when the history gives no single result is a
+ * threshold applied: Colo. Const. Art. V §22 (a bill passes only by "a majority of all members elected to each
+ * house": 33 of 65 House, 18 of 35 Senate) and Art. XIX §2 (a concurrent resolution referring a constitutional
+ * amendment needs two-thirds of the members elected to each house: 44 / 24). Other motions: more yes than no.
+ */
+function votePassed({ chamber, day, motion, calendar, yea, nay, history }) {
+  // A record with no Yes or No at all (the site lists some as 0-0 with every member Absent, beside the real vote of
+  // the same day) did not carry, whatever the history says about that day's other vote.
+  if (yea + nay === 0) return false;
+  const finalVote = /third reading/i.test(calendar) && /^(bill|concurrent resolution)$/i.test(motion);
+  if (finalVote) {
+    const house = chamber === "lower" ? "House" : "Senate";
+    const verdicts = new Set(history
+      .filter((h) => h.date === day && h.location === house)
+      .map((h) => new RegExp(`^${house} Third Reading (Passed|Lost|Failed)\\b`).exec(h.action)?.[1])
+      .filter(Boolean));
+    if (verdicts.size === 1) return [...verdicts][0] === "Passed";
+    const elected = chamber === "lower" ? 65 : 35;
+    const need = /^concurrent resolution$/i.test(motion) ? Math.ceil((elected * 2) / 3) : Math.floor(elected / 2) + 1;
+    return yea > nay && yea >= need;
+  }
+  return yea > nay;
+}
+
 for (const [bill, page] of bills) {
   if (++n % 200 === 0) console.log(`${n}/${bills.length} bills`);
   const voteIds = [...new Set([...page.matchAll(/\/bill_votes\/(\d+)/g)].map((m) => m[1]))];
@@ -145,6 +184,7 @@ for (const [bill, page] of bills) {
   const longTitle = text(/<p class=["']bill-long-title[^>]*>([\s\S]*?)<\/p>/.exec(page)?.[1] ?? "");
   const rawSummary = /<div class=["']bill-summary-content["']>([\s\S]*?)<\/div>/.exec(page)?.[1] ?? "";
   const { summary, summarySource } = billSummary({ title, abstracts: [{ abstract: text(rawSummary) }] });
+  const history = billHistory(page);
   for (const vid of voteIds) {
     if (seen.has(vid)) continue;
     seen.add(vid);
@@ -182,7 +222,7 @@ for (const [bill, page] of bills) {
       ...(summary ? { summary, summarySource } : {}),
       question,
       kind: classify({ motion_text: `${motion} ${calendar}`, motion_classification: /third reading|repass|concur|final passage|adopt|passage/i.test(`${motion} ${calendar}`) ? ["passage"] : [] }),
-      outcome: `${yea > nay ? "Passed" : "Failed"} ${yea}–${nay}`,
+      outcome: `${votePassed({ chamber, day, motion, calendar, yea, nay, history }) ? "Passed" : "Failed"} ${yea}–${nay}`,
       date: day,
       dateLabel: `${MONTHS[Number(day.slice(5, 7)) - 1]} ${Number(day.slice(8, 10))}, ${day.slice(0, 4)}`,
       sourceUrl: `${SITE}/bills/${bill}`,
