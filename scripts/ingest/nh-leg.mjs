@@ -384,7 +384,11 @@ for (const r of rolls) {
   if (yes !== r.yeas || no !== r.nays || r.listTally[0] !== r.yeas || r.listTally[1] !== r.nays) { stats.mismatch++; console.log("tally mismatch", r.id, r.bill, yes, no, r.yeas, r.nays); continue; }
   const question = MOTIONS[r.question] ? `${r.question} (${MOTIONS[r.question]})` : r.question;
   const needsTwoThirds = /veto|rules? suspension|suspend|become law/i.test(r.question);
-  const passed = r.result ? !/^Failed/i.test(r.result) : needsTwoThirds ? yes * 3 >= (yes + no) * 2 : yes > no;
+  // Constitutional amendments need three-fifths of the entire membership (Part II, Art. 100): 240 of 400 House, 15 of 24 Senate.
+  const needsThreeFifthsOfMembers = billMatch[1] === "CACR" && /^(OTPA?|Ought to Pass)\b/i.test(r.question);
+  const passed = r.result ? !/^Failed/i.test(r.result)
+    : needsThreeFifthsOfMembers ? yes >= (r.chamber === "lower" ? 240 : 15) && yes > no
+    : needsTwoThirds ? yes * 3 >= (yes + no) * 2 : yes > no;
   const [yyyy, mm, dd] = r.date.split("-");
   built[r.chamber].push({
     id: r.id,
