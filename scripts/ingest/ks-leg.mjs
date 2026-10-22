@@ -13,8 +13,21 @@
  * dropped and reported. Appointment votes (no bill) and simple resolutions (HR/SR) are omitted. Absent, Not Voting
  * are stored as "absent". The site publishes no bill summary, so none is stored.
  *
+ * The vote page shows the bill's CURRENT short title, and its action text drops linked names ("Amendment by  was
+ * rejected"). So each measure's page (/b2025_26/{bills|resolutions}/{slug}/: Versions with each version's short
+ * title) and Legislative History (/history/, dated rows in order, each roll call linked by its apn) are read too:
+ *   - title = short title of the newest version created before the roll call (version labels are tied to the
+ *     history row that produced them: committee report "as amended" / substitute, Committee of the Whole "be passed
+ *     as amended", amendment adopted before final action, and Enrolled from the adoption of the final conference
+ *     report or concurrence). A failed conference report has no version of its own, so its vote keeps the bill's
+ *     title as it then stood.
+ *   - question = the history row's text for that roll call (full motion with names and result); outcome follows the
+ *     result it states (veto overrides need two-thirds, so "Passed 82-42" can be a sustained veto).
+ *   - Senate line-item-veto roll calls can name the wrong measure on the vote page (HB 2315 for HB 2513); they are
+ *     assigned to the bill whose history records that line-item override (same day, chamber and veto items).
+ *
  * Responses are cached in --work (default ~/.cache/ks-leg); <= 3 requests/second.
- * Run: node scripts/ingest/ks-leg.mjs [--work dir]
+ * Run: node scripts/ingest/ks-leg.mjs [--work dir] [--retired-list file]
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -69,7 +82,11 @@ for (const p of people) {
   cands.push({ id: p.id, family: norm(p.family_name), given: norm(p.given_name), chamber: p.current_chamber });
 }
 try {
-  const listing = await (await politeGet("https://api.github.com/repos/openstates/people/contents/data/ks/retired", { headers: { Accept: "application/vnd.github+json" } })).json();
+  // --retired-list FILE: one Open States retired filename per line (e.g. from `git ls-tree --name-only HEAD data/ks/retired/`
+  // in a clone of openstates/people), for when the GitHub contents API is unreachable or rate-limited.
+  const listing = args.includes("--retired-list")
+    ? readFileSync(args[args.indexOf("--retired-list") + 1], "utf8").split("\n").map((l) => l.trim().replace(/^.*\//, "")).filter(Boolean).map((name) => ({ name }))
+    : await (await politeGet("https://api.github.com/repos/openstates/people/contents/data/ks/retired", { headers: { Accept: "application/vnd.github+json" } })).json();
   for (const { name } of listing) {
     const m = /^(.+)-([0-9a-f]{8}-[0-9a-f-]{27})\.yml$/.exec(name);
     if (!m) continue;
@@ -112,11 +129,100 @@ for (let page = 1; ; page++) {
   if (page * 20 >= total) { console.log(`${list.length} of ${total} roll calls listed`); break; }
 }
 
+// --- Measure pages: version short titles and the dated, ordered legislative history.
+const apnKey = (s) => { const t = decodeXml(s); try { return decodeURIComponent(t); } catch { return t; } };
+const measurePath = (kind, slug) => `/b2025_26/${kind}/${slug}/`;
+const versionsOf = (html) => [...html.matchAll(/<details class="version-row">[\s\S]*?class="label">([^<]*)<\/span>[\s\S]*?(?:version-shorttitle">([\s\S]*?)<\/p>|<\/details>)/g)]
+  .map((m) => ({ label: decodeXml(m[1]), title: decodeXml(m[2] ?? "") })).reverse(); // oldest first
+async function measure(kind, slug) {
+  const page = await get(measurePath(kind, slug), `bill-${slug}.html`);
+  const rows = [];
+  for (let p = 1; ; p++) {
+    const h = await get(`${measurePath(kind, slug)}history/?per_page=20&page=${p}`, `hist-${slug}-${p}.html`);
+    for (const tr of h.split(/<tr class="history-row/).slice(1)) {
+      const date = /data-label="Date">([^<]+)</.exec(tr)?.[1]?.trim();
+      const chamber = CHAMBER[/history-chamber--(house|senate)/.exec(tr)?.[1]];
+      const cell = /<td class="col-primary">([\s\S]*?)<\/td>/.exec(tr)?.[1] ?? "";
+      const vote = /href="\/b2025_26\/vote\/\?apn=([^"]+)"/.exec(cell)?.[1];
+      const msg = decodeXml(cell.replace(/<a href="\/b2025_26\/vote\/[\s\S]*?<\/a>/g, "")).replace(/\s+;/g, ";");
+      const dm = /\w+, (\w{3}) (\d+), (\d{4})/.exec(date ?? "");
+      const day = dm ? `${dm[3]}-${String(MONTHS.findIndex((x) => x.startsWith(dm[1])) + 1).padStart(2, "0")}-${dm[2].padStart(2, "0")}` : null;
+      rows.push({ day, chamber, msg, vote: vote ? apnKey(vote) : null });
+    }
+    const m = /Showing \d+&ndash;(\d+) of (\d+) entries/.exec(h);
+    if (!m || Number(m[1]) >= Number(m[2])) break;
+  }
+  rows.reverse(); // oldest first; rows on one day keep the site's order
+  rows.forEach((r, i) => { r.i = i; });
+  // Tie each version after the first to the history row that created it.
+  const versions = versionsOf(page);
+  let from = 0;
+  // The enrolled text is the last conference report, adopted after the last failed conference round (rows within one
+  // day are not reliably ordered, so "report now available" rows are not used as the boundary).
+  const lastCcr = rows.findLastIndex((r) => /^Conference Committee Report (agree to disagree|not adopted)|not adopt Conference Committee Report passed|^Nonconcurred with amendments/i.test(r.msg));
+  for (const v of versions.slice(1)) {
+    const ch = /\bHouse\b|^H Sub/.test(v.label) ? "lower" : /\bSenate\b|^S Sub/.test(v.label) ? "upper" : null;
+    const floor = /Committee of the Whole|on Final Action/i.test(v.label) || (/Amended by (House|Senate)\b/i.test(v.label) && !/Committee/i.test(v.label));
+    const sub = /Sub\b/.test(v.label) || (/^\W*$/.test(v.label) && /^(House |Senate )?Substitute for/.test(v.title));
+    // [test, fallback test]: the row that produced this version.
+    const [test, fallback] = /^Enrolled/.test(v.label)
+      ? [(r) => (lastCcr >= 0 ? r.i > lastCcr && /^(Conference Committee Report was adopted|Concurred with amendments)/i.test(r.msg) : /^Concurred with amendments/i.test(r.msg)), (r) => /^Enrolled and presented/i.test(r.msg)]
+      : floor ? [(r) => /^Committee of the Whole - .*Be (passed|adopted) as (further )?amended|Final Action - .*as amended/i.test(r.msg), (r) => /Amendment by .* was adopted/i.test(r.msg)]
+      : sub ? [(r) => /Committee Report recommending substitute (bill|resolution)/i.test(r.msg)]
+      : /Committee/i.test(v.label) ? [(r) => /^Committee Report recommending (bill|resolution)\b.*\bas amended/i.test(r.msg)]
+      : [];
+    const find = (t) => t && rows.find((r) => r.i >= from && (!ch || r.chamber === ch || /^Enrolled/.test(v.label)) && t(r));
+    const row = find(test) ?? find(fallback);
+    if (!row) { v.at = null; versionMiss.push(`${slug}: ${v.label}`); continue; }
+    // A version made by the roll call itself (final action as amended, conference report, concurrence) is what that roll call voted on.
+    v.at = /^(Conference Committee Report was adopted|Concurred with amendments|(Emergency )?Final Action)/i.test(row.msg) ? row.i - 0.5 : row.i;
+    from = row.i;
+  }
+  return { slug, versions, rows };
+}
+const versionMiss = [];
+/** Short title of the newest version created before history position `pos` (or before/on `day` when unlinked). */
+function titleAt(info, pos, day) {
+  let title = info.versions[0]?.title ?? "";
+  for (const v of info.versions.slice(1)) {
+    if (v.at == null) continue;
+    const r = info.rows[Math.ceil(v.at)];
+    if (pos != null ? v.at < pos : r.day <= day) title = v.title || title;
+  }
+  return title;
+}
+const itemsOf = (s) => (s.match(/\b\d+(?:\([a-z]+\))?/gi) ?? []).map((t) => t.toLowerCase()).sort().join(" ");
+const measures = new Map();
+for (const { kind, bill } of list) if (bill && kind && !/^[HS]R\d/.test(bill) && !measures.has(bill)) measures.set(bill, await measure(kind, bill));
+
 const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const skipped = {}; const skip = (why) => { skipped[why] = (skipped[why] ?? 0) + 1; };
-let n = 0;
-const seen = new Set();
+// Roll calls whose history text misstates the motion, corrected from the House Journal.
+const JOURNAL_FIX = {
+  // House Journal 2026-03-25: on Rep. Humphries' motion to adopt the CCR on HB 2422, Rep. Schmoe's substitute motion
+  // "to not adopt the conference committee report and that a new conference committee be appointed" was the roll call
+  // (Yeas 69, Nays 55); the history says only "Conference Committee Report not adopted".
+  "0324_HB2422.odt": { question: "Substitute motion to not adopt Conference Committee Report and appoint a new conference committee passed; Rep. Susan Humphries, Rep. Laura Williams and Rep. Dan Osman appointed as second conferees", passed: true },
+};
+let n = 0, titled = 0;
+const seen = new Set(), remapped = [], unlinked = [];
+/**
+ * Result as the official action text states it (the bill-history row, whose first clause says "passed", "failed",
+ * "not adopted", "sustained", ...). Only when no result is stated (a Senate roll call missing from the history) is a
+ * threshold applied: Kan. Const. art. 2 sec. 14(a),(b) -- a veto or line-item veto override needs two-thirds of the
+ * members elected, 84 of 125 (House) or 27 of 40 (Senate); art. 14 sec. 1 -- a constitutional amendment (HCR/SCR) needs
+ * two-thirds of all members elected, the same 84 / 27; otherwise a majority of those voting.
+ */
+function passed(question, yea, nay, chamber, bill) {
+  const first = question.split(";")[0];
+  if (/\b(failed|rejected|not adopted|not passed|lost)\b|veto\b.*\bsustained/i.test(first)) return false;
+  if (/\b(prevailed|passed|adopted|overridden|concurred|carried|sustained)\b/i.test(first)) return true; // "Ruling of the chair was sustained"
+  const twoThirds = chamber === "lower" ? 84 : 27;
+  if (/veto/i.test(question)) return yea >= twoThirds;
+  if (/^[HS]CR/.test(bill) && /final action|adopt/i.test(question) && !/amend|ccr|conference|concur/i.test(question)) return yea >= twoThirds;
+  return yea > nay;
+}
 for (const { apn, kind, bill } of list) {
   if (++n % 100 === 0) console.log(`${n}/${list.length}`);
   if (seen.has(apn)) { skip("duplicate"); continue; }
@@ -131,7 +237,18 @@ for (const { apn, kind, bill } of list) {
   const day = `${dm[3]}-${String(mi + 1).padStart(2, "0")}-${String(dm[2]).padStart(2, "0")}`;
   const motion = text(/<p class="list-hero-sub">([\s\S]*?)<\/p>/.exec(v)?.[1] ?? "");
   const title = text(/vote-hero-shorttitle">([\s\S]*?)<\/span>/.exec(v)?.[1] ?? "");
-  const number = text(/gavel<\/span>\s*<a[^>]*>([\s\S]*?)<\/a>/.exec(v)?.[1] ?? "") || bill;
+  let number = text(/gavel<\/span>\s*<a[^>]*>([\s\S]*?)<\/a>/.exec(v)?.[1] ?? "") || bill;
+  // History row for this roll call: linked by apn, else (line-item vetoes) same day, chamber and veto items.
+  let info = measures.get(bill), row = info?.rows.find((r) => r.vote === apnKey(apn));
+  if (!row && /line item veto/i.test(motion)) {
+    const items = itemsOf(motion.replace(/line item veto override/i, ""));
+    const hits = [...measures.values()].flatMap((m) => m.rows.filter((r) => r.day === day && r.chamber === chamber && /line item veto/i.test(r.msg) && itemsOf(r.msg.replace(/^.*?;\s*Line item veto/i, "")) === items).map((r) => [m, r]));
+    if (hits.length === 1) {
+      [[info, row]] = hits;
+      const own = info.slug.replace(/^([A-Z]+)(\d+)$/, "$1 $2");
+      if (own !== number) { remapped.push(`${apn}: ${number} -> ${own}`); number = own; }
+    } else unlinked.push(apn);
+  } else if (!row) unlinked.push(apn);
   const tally = (k) => Number(new RegExp(`vote-tally-num--${k}">\\s*<span class="vote-tally-num-value">(\\d+)`).exec(v)?.[1] ?? NaN);
   const yea = tally("yea"), nay = tally("nay");
   const votes = {}; let yes = 0, no = 0, linked = 0;
@@ -149,13 +266,17 @@ for (const { apn, kind, bill } of list) {
   }
   if (yes !== yea || no !== nay) { skip("tally-mismatch"); continue; }
   if (!title || !Object.keys(votes).length) { skip("no-title-or-voters"); continue; }
+  const atVote = info ? titleAt(info, row?.i, day) : "";
+  if (atVote && atVote !== title) titled++;
+  const fix = JOURNAL_FIX[apn.replace(/^.*\//, "")];
+  const question = fix?.question ?? (row?.msg.replace(/[;\s]+$/, "") || motion);
   rolls[chamber].push({
     id: `ks-${chamber === "lower" ? "h" : "s"}-${/day\d+_(\d{8})\/vote_records\/(.+)\.odt$/.exec(apn)?.slice(1).join("-") ?? apn.replace(/\W+/g, "")}`,
     bill: number,
-    title,
-    question: motion || undefined,
+    title: atVote || title,
+    question: question || undefined,
     kind: classify({ motion_text: motion, motion_classification: /third reading|final action|passed|adopt|concur/i.test(motion) && !/amendment|table|reconsider/i.test(motion) ? ["passage"] : [] }),
-    outcome: `${yea > nay ? "Passed" : "Failed"} ${yea}–${nay}`,
+    outcome: `${(fix?.passed ?? passed(question, yea, nay, chamber, number.replace(/\s+/g, ""))) ? "Passed" : "Failed"} ${yea}–${nay}`,
     date: day,
     dateLabel: `${MONTHS[mi].slice(0, 3)} ${Number(dm[2])}, ${dm[3]}`,
     sourceUrl: `${SITE}/b2025_26/vote/?apn=${apn}`,
@@ -178,5 +299,9 @@ for (const chamber of ["lower", "upper"]) {
   console.log(`${chamber}: ${rs.length} roll calls, ${rs[rs.length - 1]?.date}..${rs[0]?.date}`);
 }
 console.log("skipped:", skipped);
+console.log(`titles set to the version at the vote (differs from the current title): ${titled}`);
+console.log("versions not tied to a history row (ignored):", versionMiss);
+console.log("roll calls re-assigned to another measure:", remapped);
+console.log("roll calls with no history row (vote-page motion kept):", unlinked.length, unlinked.slice(0, 20));
 console.log("matched by name fallback (not slug):", Object.fromEntries(viaFallback));
 console.log("unmatched members (votes dropped):", Object.fromEntries(unmatched));

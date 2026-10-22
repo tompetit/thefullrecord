@@ -7,7 +7,8 @@ import { StandoutSection } from "@/components/StandoutSection";
 import { getDataSource } from "@/server/datasource";
 import { ContestedVotesSection } from "@/components/ContestedVotesSection";
 import type { Official } from "@/server/types";
-import { contestedForDistrict, standoutForDistrict } from "@/server/standout";
+import { IssueRecordSection } from "@/components/IssueRecordSection";
+import { contestedForDistrict, issuesForDistrict, standoutForDistrict } from "@/server/standout";
 
 /** The official profile body (rail + feed), shared by /official/[id] and /people/[slug]. `compact` drops the name, role and party lines the page header already shows. */
 export async function OfficialProfile({ official, address, compact = false }: { official: Official; address: string; compact?: boolean }) {
@@ -24,6 +25,7 @@ export async function OfficialProfile({ official, address, compact = false }: { 
 
   const standout = standoutForDistrict(official.districtKey);
   const contested = contestedForDistrict(official.districtKey);
+  const byIssue = issuesForDistrict(official.districtKey);
 
   const roleLine = official.locality
     ? `${official.role} · ${official.locality}`
@@ -50,13 +52,13 @@ export async function OfficialProfile({ official, address, compact = false }: { 
       </div>}
       <div className="mt-4 flex flex-wrap gap-1.5 font-sans text-[11.5px] text-ink-80">
         {official.committees.map((c) => (
-          <span key={c} className="rounded-full border border-chip-border px-2.5 py-1">
+          <span key={c} className="rounded-[2px] border border-chip-border px-2.5 py-1">
             {c}
           </span>
         ))}
         <a
           href={official.contactUrl}
-          className="inline-flex min-h-11 items-center rounded-full border border-chip-border px-2.5 hover:border-card-strong"
+          className="inline-flex min-h-11 items-center rounded-[2px] border border-chip-border px-2.5 hover:border-card-strong"
         >
           Contact ↗
         </a>
@@ -102,7 +104,7 @@ export async function OfficialProfile({ official, address, compact = false }: { 
           return (
             <>
               <div
-                className="mt-5 grid overflow-hidden rounded-[10px] border border-card bg-paper-raised lg:hidden"
+                className="mt-5 grid overflow-hidden border border-card bg-paper-raised lg:hidden"
                 style={{
                   gridTemplateColumns: `repeat(${stats.length}, 1fr)`,
                 }}
@@ -121,7 +123,7 @@ export async function OfficialProfile({ official, address, compact = false }: { 
                   </div>
                 ))}
               </div>
-              <dl className="mt-5 hidden flex-col divide-y divide-hairline-soft rounded-[10px] border border-card bg-paper-raised lg:flex">
+              <dl className="mt-5 hidden flex-col divide-y divide-hairline-soft border border-card bg-paper-raised lg:flex">
                 {stats.map(([label, , value]) => (
                   <div
                     key={label}
@@ -152,6 +154,7 @@ export async function OfficialProfile({ official, address, compact = false }: { 
 
       {/* Feed */}
       <div className="mt-6 flex flex-col gap-4 lg:mt-0">
+        {byIssue && <IssueRecordSection rows={byIssue} party={official.party ?? undefined} address={address} />}
         {standout && <StandoutSection standout={standout} />}
         <ContestedVotesSection votes={contested} allHref={`/votes${address ? `?address=${encodeURIComponent(address)}&show=reps-split` : ""}`} />
         <ProfileTabs

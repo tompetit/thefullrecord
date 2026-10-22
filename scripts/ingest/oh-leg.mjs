@@ -1,8 +1,9 @@
 /**
  * Ohio 136th General Assembly (2025-26) floor votes from the Legislature's own site
  * (https://www.legislature.ohio.gov). Replaces the sampled Open States files state-oh-{lower,upper}.json with every
- * House and Senate recorded floor vote shown on a bill's "Votes" tab (passage, concurrence, ...; committee votes are
- * not on that tab).
+ * House and Senate recorded floor vote shown on a bill's "Votes" tab (passage, concurrence, ...). The tab also lists
+ * standing-committee votes (Result "Favorable Passage" / "Re-referred"); only floor rows (Result "Passed", "Failed",
+ * "Adopted") are kept, and that official Result (not yeas > nays) gives the outcome.
  *
  * Sources:
  *   search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/   every bill + short_title (one request)
@@ -107,7 +108,11 @@ const label = (n) => n.replace(/^([a-z]+)(\d+)$/, (_, a, d) => `${a.toUpperCase(
 
 const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
-const skipped = {}; let tallyMismatch = 0, n = 0;
+const skipped = {}, results = {}; let tallyMismatch = 0, n = 0;
+// Votes-tab "Result" -> outcome verb. Floor rows read "Passed"/"Failed" (bills) or "Adopted" (concurrent and joint
+// resolutions, kept in this importer's Passed/Failed format). Committee rows ("Favorable Passage", "Re-referred") and
+// anything unknown are skipped (counted under "not-floor (...)" in the run log).
+const FLOOR_RESULT = { Passed: "Passed", Failed: "Failed", Adopted: "Passed" };
 const skip = (why) => { skipped[why] = (skipped[why] ?? 0) + 1; };
 for (const b of bills) {
   if (++n % 200 === 0) console.log(`${n}/${bills.length} bills`);
@@ -119,6 +124,13 @@ for (const b of bills) {
     const chamber = CHAMBER[/chamber-cell">\s*<span>(\w+)<\/span>/.exec(row)?.[1]];
     if (!date || !chamber) { skip("bad-row"); continue; }
     const day = `${date[3]}-${date[1].padStart(2, "0")}-${date[2].padStart(2, "0")}`;
+    // The id's per-day sequence counts every row on the tab (committee rows too) so existing ids stay stable.
+    const k = `${chamber}-${day}`; seen[k] = (seen[k] ?? 0) + 1;
+    // The tab's "Result" column is the official result. Besides floor votes it lists standing-committee votes
+    // ("Favorable Passage" reports, "Re-referred"; 9-4 style tallies), which are not floor votes.
+    const result = decodeXml(/result-cell">([^<]*)</.exec(row)?.[1] ?? "").replace(/\s+/g, " ").trim();
+    results[result] = (results[result] ?? 0) + 1;
+    if (!FLOOR_RESULT[result]) { skip(result ? `not-floor (${result})` : "no-result"); continue; }
     const yea = Number(/Yeas: (\d+)/.exec(row)?.[1]), nay = Number(/Nays: (\d+)/.exec(row)?.[1]);
     const votes = {}; let yes = 0, no = 0;
     for (const sec of row.split("<h3>").slice(1)) {
@@ -133,14 +145,13 @@ for (const b of bills) {
     }
     if (!Object.keys(votes).length) { skip("no-matched-voters"); continue; }
     if (yes !== yea || no !== nay) tallyMismatch++;
-    const k = `${chamber}-${day}`; seen[k] = (seen[k] ?? 0) + 1;
     rolls[chamber].push({
       id: `oh-${b.number}-${chamber === "lower" ? "h" : "s"}-${day}-${seen[k]}`,
       number: b.number,
       bill: label(b.number),
       title: b.short_title,
-      kind: classify({ motion_text: "", motion_classification: ["passage"] }), // the Votes tab lists passage/concurrence votes only
-      outcome: `${yea > nay ? "Passed" : "Failed"} ${yea}–${nay}`,
+      kind: classify({ motion_text: "", motion_classification: ["passage"] }), // floor rows on the Votes tab are passage/concurrence votes
+      outcome: `${FLOOR_RESULT[result]} ${yea}–${nay}`, // official result, not yea > nay (2/3 emergency, 3/5 JR)
       date: day,
       dateLabel: `${MONTHS[Number(day.slice(5, 7)) - 1]} ${Number(day.slice(8, 10))}, ${day.slice(0, 4)}`,
       sourceUrl: `${SITE}/${b.number}/votes`,
@@ -202,5 +213,5 @@ for (const chamber of ["lower", "upper"]) {
   }, { compact: true });
   console.log(`${chamber}: ${list.length} roll calls, ${list.filter((r) => r.summary).length} with official summary`);
 }
-console.log("skipped:", skipped, "| tally mismatches:", tallyMismatch);
+console.log("results:", results, "| skipped:", skipped, "| tally mismatches:", tallyMismatch);
 console.log("unmatched member names (votes dropped):", Object.fromEntries(unmatched));

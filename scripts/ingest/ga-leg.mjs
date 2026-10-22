@@ -123,9 +123,38 @@ const billCache = new Map();
 async function bill(legislationId) {
   if (!billCache.has(legislationId)) {
     const d = await get(`legislation/detail/${legislationId}`);
-    billCache.set(legislationId, { title: String(d.title ?? "").replace(/\s+/g, " ").trim(), firstReader: d.firstReader });
+    billCache.set(legislationId, {
+      title: String(d.title ?? "").replace(/\s+/g, " ").trim(), firstReader: d.firstReader,
+      statusHistory: d.statusHistory ?? [], votes: d.votes ?? [],
+    });
   }
   return billCache.get(legislationId);
+}
+
+/**
+ * Whether a recorded vote carried. The vote list gives only the tally, so for a vote that finally passes the measure
+ * in this chamber (PASSAGE..., AGREE TO ... SUBSTITUTE/AMENDMENT, ADOPT CONFERENCE COMMITTEE REPORT, local calendars)
+ * the official result is read from the bill's status history (legislation/detail statusHistory, e.g. "Senate
+ * Passed/Adopted", "House Third Reading Lost"): the first status of this chamber stamped at or after the vote's minute,
+ * the same day, and before the bill's next recorded vote in this chamber. Without such a status the fallback is
+ * Ga. Const. Art. III, Sec. V, Par. V ("Majority of members to pass bill": a bill becomes law only with the votes
+ * of a majority of all members to which each house is entitled, 91 of 180 House, 29 of 56 Senate). Every other
+ * motion (table, engross, amendments, reconsideration...) carries on more yes than no.
+ */
+const FINAL_VOTE = /passage|^agree|agree to (house|senate)|conference committee report|local( consent)? calendar/i;
+function votePassed({ chamber, caption, date, yea, nay, b }) {
+  if (!FINAL_VOTE.test(caption)) return yea > nay;
+  const house = chamber === "lower" ? "House" : "Senate";
+  const at = String(date).slice(0, 16); // "YYYY-MM-DDTHH:MM"
+  const next = b.votes.filter((x) => String(x.name).startsWith(`${house} `)).map((x) => String(x.date).slice(0, 16)).filter((d) => d > at).sort()[0];
+  const status = b.statusHistory
+    .filter((h) => String(h.name).startsWith(`${house} `) && String(h.date).slice(0, 16) >= at && String(h.date).slice(0, 10) === at.slice(0, 10) && (!next || String(h.date).slice(0, 16) < next))
+    .map((h) => ({ at: String(h.date), verdict: /\b(Lost|Failed|Disagreed)\b/.test(h.name) ? false : /\b(Passed|Adopted|Agreed)\b/.test(h.name) ? true : null }))
+    .filter((h) => h.verdict !== null)
+    .sort((x, y) => x.at.localeCompare(y.at))[0];
+  if (status) return status.verdict;
+  const need = chamber === "lower" ? 91 : 29;
+  return yea > nay && yea >= need;
 }
 
 /** Warm the cache with a few requests in flight (latency is ~2 s; the 340 ms gap in politeGet still caps us at 3/s). */
@@ -182,7 +211,7 @@ for (const [num, chamber] of Object.entries(CHAMBERS)) {
         ...(sum.summary ? sum : {}),
         question: caption || undefined,
         kind: classify({ motion_text: caption, motion_classification: /passage|adopt|agree|concur|third read/i.test(caption) ? ["passage"] : [] }),
-        outcome: `${v.yea > v.nay ? "Passed" : "Failed"} ${v.yea}–${v.nay}`,
+        outcome: `${votePassed({ chamber, caption, date: v.date, yea: v.yea, nay: v.nay, b }) ? "Passed" : "Failed"} ${v.yea}–${v.nay}`,
         date: day,
         dateLabel: `${MONTHS[Number(day.slice(5, 7)) - 1]} ${Number(day.slice(8, 10))}, ${day.slice(0, 4)}`,
         sourceUrl: `https://www.legis.ga.gov/legislation/${l.legislationId}`,

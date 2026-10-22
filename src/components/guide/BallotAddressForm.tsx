@@ -42,12 +42,12 @@ export function BallotAddressForm({
           label="Your street address"
           describedBy={privacyId}
           placeholder="Your street address, city, state"
-          fieldClassName="rounded-[10px] border-[1.5px] border-ink bg-paper-raised px-4 py-3.5"
+          fieldClassName="border-[1.5px] border-ink bg-paper-raised px-4 py-3.5"
           inputClassName="text-[15px]"
         />
         <button
           type="submit"
-          className="min-h-11 cursor-pointer rounded-[10px] bg-ink px-6 py-3.5 font-sans text-[15px] font-bold text-paper hover:opacity-90"
+          className="min-h-11 cursor-pointer bg-ink px-6 py-3.5 font-sans text-[15px] font-bold text-paper hover:opacity-90"
         >
           {cta}
         </button>

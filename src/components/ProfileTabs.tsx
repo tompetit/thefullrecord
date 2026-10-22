@@ -113,7 +113,7 @@ export function ProfileTabs({
           </p>
           <p role="status" aria-live="polite" className="font-sans text-xs text-ink-60">{loading ? "Loading votes…" : error}</p>
           {votes.items.length === 0 ? (
-            <p className="rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
+            <p className="border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
               {voteFilter === "all"
                 ? "No vote records are available here for this representative yet. This is a coverage gap, not evidence that they did not vote."
                 : `No ${voteFilter} votes are available in this collection. Try All to see other records.`}
@@ -132,7 +132,7 @@ export function ProfileTabs({
                 Showing {votes.items.length} of {votes.total} {voteFilter === "all" ? "" : voteFilter + " "}votes in this collection. Coverage may be incomplete; each entry links to the official record.
               </p>
               {votes.items.length < votes.total && (
-                <button type="button" disabled={loading} onClick={() => loadVotes(voteFilter, true)} className="min-h-11 rounded-lg border border-chip-border px-4 py-3 font-sans text-sm font-semibold disabled:opacity-50">
+                <button type="button" disabled={loading} onClick={() => loadVotes(voteFilter, true)} className="min-h-11 border border-chip-border px-4 py-3 font-sans text-sm font-semibold disabled:opacity-50">
                   {loading ? "Loading…" : "Load more votes"}
                 </button>
               )}
@@ -146,7 +146,7 @@ export function ProfileTabs({
           {sponsorships.items.map((s) => (
             <article
               key={s.id}
-              className="flex flex-col rounded-lg border border-card bg-paper-raised p-4 shadow-card"
+              className="flex flex-col border border-card bg-paper-raised p-4"
             >
               <div className="flex items-start justify-between gap-3">
                 <div className="flex flex-col gap-[3px]">
@@ -157,7 +157,7 @@ export function ProfileTabs({
                     {s.title}
                   </h3>
                 </div>
-                <span className="flex-none rounded-full border border-chip-border px-2.5 py-1 font-sans text-[11px] font-semibold text-ink-80">
+                <span className="flex-none rounded-[2px] border border-chip-border px-2.5 py-1 font-sans text-[11px] font-semibold text-ink-80">
                   {s.sponsorRole}
                 </span>
               </div>
@@ -191,7 +191,7 @@ export function ProfileTabs({
       {tab === "attendance" && (
           <div className="flex flex-col gap-3">
             <p className="font-sans text-xs leading-relaxed text-ink-60">Participation reflects recorded votes in our collection, not physical attendance. A recorded non-vote does not tell us why the member did not vote. Coverage may be incomplete.</p>
-            <section className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">
+            <section className="border border-card bg-paper-raised p-4">
               <ul className="flex flex-col divide-y divide-hairline-soft">
                 {attendance.items.map((a) => (
                   <li

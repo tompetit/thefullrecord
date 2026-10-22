@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <p className="mt-5 text-xs text-ink-60">Nonpartisan. Source-linked. Yours to judge.</p>
         </div>
-        <aside className="relative self-center border border-card bg-paper-raised p-6 shadow-card sm:p-8" aria-label="How to read a voting record">
+        <aside className="relative self-center border border-card bg-paper-raised p-6 sm:p-8" aria-label="How to read a voting record">
           <div className="flex items-center justify-between border-b border-hairline pb-4 text-[10px] font-bold uppercase tracking-[0.12em] text-ink-60"><span>A closer look</span><span className="text-accent">The evidence matters</span></div>
           <h2 className="mt-5 font-serif text-3xl font-semibold leading-tight text-ink">One vote.<br />More than a headline.</h2>
           <ol className="mt-6 divide-y divide-hairline text-sm">

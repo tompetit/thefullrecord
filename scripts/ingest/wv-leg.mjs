@@ -162,7 +162,23 @@ const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const dropped = {}, droppedIds = {};
 const drop = (why, id) => { dropped[why] = (dropped[why] ?? 0) + 1; (droppedIds[why] ??= []).push(id); };
-const PASSED = /passed|adopted|concurred|suspended|dispensed|receded|effective|reconsidered|repassed|amended|discharge/i;
+// The votes.cfm label ("Passed House", "Amendment rejected", "Dispensed with Constitutional Rule", "Effective from passage")
+// is the official result when it reports a failure, but a success-sounding label is not taken on its own: a few listings
+// say "Dispensed"/"passed" over a printed tally that cannot carry the motion (House 2026 roll 347, HB 5525 "Dispensed with
+// Constitutional Rule" 46-47; 2025 roll 384, HCR 43 "concurred ... and passed" 19-75). So the printed tally must also meet
+// the vote the motion needs:
+//  - W. Va. Const. art. VI, sec. 29: the three-readings rule may be dispensed with only "by a vote of four-fifths of the
+//    members present, taken by yeas and nays". Members present is at least yeas + nays, so yeas < 4/5 of that is a failure.
+//  - W. Va. Const. art. VI, sec. 30: an act takes effect ninety days from passage unless "two-thirds of the members elected
+//    to each house, by a vote taken by yeas and nays, otherwise direct" (House 100, Senate 34 members).
+//  - Anything else: a majority of those voting (yeas > nays).
+// Second-reference and House-rule suspensions are majority votes here; the PDF prints no result line of its own.
+const ELECTED = { lower: 100, upper: 34 };
+function yeasNeeded(chamber, motion, yes, no) {
+  if (/constitutional rule|dispensed with/i.test(motion) && !/reference/i.test(motion)) return Math.max(no + 1, Math.ceil((4 * (yes + no)) / 5));
+  if (/^Effective\b|concurred in Senate effective date/i.test(motion)) return Math.max(no + 1, Math.ceil((2 * ELECTED[chamber]) / 3));
+  return no + 1;
+}
 const PROC = /constitutional rule|dispensed|previous question|discharge|refer|table|2nd reference|limit debate|withdraw suspension|restricted right|reconsider|effective/i;
 for (const r of rows) {
   const t = read(r); const p = t && (r.chamber === "lower" ? parseHouse(t) : parseSenate(t));
@@ -181,7 +197,7 @@ for (const r of rows) {
   const listedYes = p.votes.filter((v) => v.pos === "yes").length, listedNo = p.votes.filter((v) => v.pos === "no").length;
   if (yes !== p.yes || no !== p.no || listedYes !== p.yes || listedNo !== p.no) { drop(`${r.chamber}-tally-mismatch`, `${r.href} parsed ${yes}-${no} listed ${listedYes}-${listedNo} printed ${p.yes}-${p.no}`); continue; }
   const failed = /reject|fail|defeat/i.test(r.motion) && !/adopted/i.test(r.motion);
-  const word = failed ? "Failed" : PASSED.test(r.motion) ? "Passed" : p.yes > p.no ? "Passed" : "Failed";
+  const word = !failed && p.yes >= yeasNeeded(r.chamber, r.motion, p.yes, p.no) ? "Passed" : "Failed";
   rolls[r.chamber].push({
     id: `wv-${r.chamber === "lower" ? "h" : "s"}${r.year}-${r.key}`,
     bill: r.bill, title: r.title, question: r.motion || undefined,

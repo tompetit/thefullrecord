@@ -17,8 +17,8 @@ export function StandoutSection({
   const votes = topStandoutVotes(standout, max);
   const party = partyName(standout.party);
   return (
-    <section aria-labelledby="stood-out" className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">
-      <h2 id="stood-out" className="font-serif text-[17px] font-bold text-ink">Where they stood out</h2>
+    <section aria-labelledby="stood-out" className="border border-card bg-paper-raised p-4">
+      <h2 id="stood-out" className="font-sans text-[12px] font-bold uppercase tracking-[0.06em] text-ink">Where they stood out</h2>
       <p className="mt-1.5 font-sans text-[13.5px] leading-[1.5] text-ink-80">{standoutSentence(standout)}</p>
       {standout.topTopics && (
         <p className="mt-1 font-sans text-[13px] leading-[1.5] text-ink-60">

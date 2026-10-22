@@ -172,7 +172,12 @@ function parseSenate(t) {
   const d = /DATE:\s*([A-Z][a-z]+)\s+(\d+),\s*(\d{4})/.exec(t); // the PDF date wins: the list page has typos (#86 reads 4-8-24)
   const mo = d && MONTHS.findIndex((x) => d[1].startsWith(x)) + 1;
   const bill = /STATE SENATE\s+((?:LD|SP|SC|HP)) ?(\d+)/.exec(t); // the sheet's own header: the list page mislabels some rows (typos, swapped pairs)
-  return { bill: bill && `${bill[1]} ${bill[2]}`, yes: +n("YEA"), no: +n("NAY"), verdict, question, date: mo ? `${d[3]}-${String(mo).padStart(2, "0")}-${d[2].padStart(2, "0")}` : null, votes };
+  // Caption printed under the header: a short title ("CREATE PARITY IN THE TAXATION / OF MEDICINE BY EXEMPTING SALES")
+  // or, for nominations, the committee and nominee ("JUD COMMITTEE / SEAN OCIEPKA"). The right-hand column holds LD/paper labels.
+  const top = t.split(/\n\s*DATE:/)[0].split("\n");
+  const caption = top.slice(top.findIndex((l) => /\d+(?:st|nd|rd|th) Legislature/i.test(l)) + 1)
+    .map((l) => l.replace(/\s{3,}(?:LD|SP|SC|HP)\s*\d+\s*$/, "").trim()).filter(Boolean).join(" ");
+  return { bill: bill && `${bill[1]} ${bill[2]}`, caption, yes: +n("YEA"), no: +n("NAY"), verdict, question, date: mo ? `${d[3]}-${String(mo).padStart(2, "0")}-${d[2].padStart(2, "0")}` : null, votes };
 }
 
 // Titles for sheet bills that no consistent list row carries.
@@ -203,6 +208,23 @@ function emit(chamber, id, bill, title, motion, question, date, url, r) {
     sourceUrl: url, votes,
   });
 }
+// Every sheet prints a caption naming what was voted on: a short title as of the vote ("LD 544 CREATE PARITY IN THE
+// TAXATION / OF MEDICINE BY EXEMPTING SALES") or, on Senate nomination sheets, the committee and nominee. The Senate
+// list page pastes a neighbouring row's title onto some rows (#338 LD 544 carries #337's LD 1117 title; #742, #743 and
+// #1001 carry another row's nominee), and both list pages give a bill's latest title, not the one it had at the vote.
+// A title sharing under half of the caption's words is replaced by a list/House title for the same bill that fits, or,
+// for a nomination, by the sheet's own question text ("Nomination of … for Appointment as …"); otherwise it is kept.
+const STOP = new Set(["the", "and", "for", "act", "with", "from", "that", "this", "committee", "hon", "honorable", "esq", "jr", "ii", "iii", "con", "res", "resolve", "resolution"]);
+const words = (x) => (String(x).toLowerCase().normalize("NFD").match(/[a-z]+/g) ?? []).filter((w) => w.length > 2 && !STOP.has(w));
+function fits(title, caption) {
+  const cw = words(caption).filter((w) => !/^[a-z]{3}$/.test(w) || !/COMMITTEE/.test(caption)); // drop committee codes like "JUD"
+  if (cw.length < 2) return true;
+  const tw = words(title);
+  // The caption is cut off mid-word ("LEGISLATU"), so a caption word may be a prefix of a title word.
+  return cw.filter((w) => tw.some((x) => x === w || (w.length > 4 && x.startsWith(w)))).length / cw.length >= 0.5;
+}
+const houseTitle = new Map([...houseRows.values()].map((h) => [h.paper, h.title]));
+const listTitles = (bill) => [...senateRows.values()].filter((x) => x.bill === bill).map((x) => x.title);
 for (const [rc, href] of housePdfs) {
   const t = read(`h${rc}`); const r = t && parseHouse(t);
   if (!r) { drop("house-unparsed", rc); continue; }
@@ -213,7 +235,13 @@ for (const [rc, href] of housePdfs) {
   if (!date) { drop("house-no-date"); continue; }
   const ld = /^(LD \d+)\s+(.*)$/s.exec(head?.[2].replace(/\s+/g, " ") ?? "");
   const bill = ld?.[1] ?? row?.paper ?? "House paper";
-  emit("lower", `me-h${rc}`, bill, row?.title || ld?.[2] || head?.[2] || bill, r.motion, row?.motion || r.motion, date, `${SITE}${href}`, r);
+  let title = row?.title || ld?.[2] || head?.[2] || bill;
+  if (ld && row?.title && !fits(title, ld[2])) {
+    const better = listTitles(bill).find((x) => x && fits(x, ld[2]));
+    if (better) { console.log(`house #${rc}: table title "${title}" does not match sheet caption "${ld[2]}"; using "${better}"`); title = better; }
+    else console.warn(`house #${rc}: table title "${title}" does not match sheet caption "${ld[2]}"; no better title found, kept`);
+  }
+  emit("lower", `me-h${rc}`, bill, title, r.motion, row?.motion || r.motion, date, `${SITE}${href}`, r);
 }
 // The list page's bill/title text is hand-typed and wrong on a handful of rows; the PDF header (LD + paper) agrees with the
 // PDF file name, so it wins. A row whose PDF is another row's file (#238 links #239's) has no sheet of its own and is dropped.
@@ -235,6 +263,13 @@ for (const [rc, r] of senateParsed) {
   if (r.bill && r.bill !== bill) {
     bill = r.bill; title = titleOf.get(bill) ?? SENATE_TITLE_FIX[rc] ?? (console.warn(`senate #${rc}: list says ${s.bill}, sheet says ${bill}; no title found`), s.title);
     console.log(`senate #${rc}: ${s.bill} -> ${bill}`);
+  }
+  if (r.caption && !fits(title, r.caption)) {
+    const nominee = /the Nomination of (.+?) be Overridden\?/i.exec(r.question ?? "")?.[1];
+    const better = [titleOf.get(bill), houseTitle.get(bill), ...listTitles(bill)].find((x) => x && fits(x, r.caption)) ??
+      (nominee && fits(nominee, r.caption) ? `Nomination of ${nominee}` : null);
+    if (better) { console.log(`senate #${rc}: list title "${title}" does not match sheet caption "${r.caption}"; using "${better}"`); title = better; }
+    else console.warn(`senate #${rc}: list title "${title}" does not match sheet caption "${r.caption}"; no better title found, kept`);
   }
   emit("upper", `me-s${rc}`, bill, title, s.motion, [s.motion, r.question].filter(Boolean).join(" — "), r.date ?? s.date, new URL(s.href, SITE).href, r);
 }

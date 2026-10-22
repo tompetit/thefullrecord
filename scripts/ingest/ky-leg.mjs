@@ -237,7 +237,12 @@ for (const b of withVotes) {
     else if (/^[HS]?[A-Z]{2,4} ?\d+$/i.test(mot)) question = `Adopt ${expand(mot.toUpperCase())}`;
     else question = mod ? `${mot} (${expand(mod)})` : mot;
     const isPassage = /^(final passage|passage|consent passage|override)/i.test(question);
-    const need = isPassage && /^(HB|SB)$/.test(head[1]) ? (chamber === "lower" ? 51 : 20) : 0; // Ky. Const. §46: majority of members elected
+    // The vote-history PDFs print no result line, so the outcome is the tally against the required threshold.
+    // Ky. Const. §46: passage of a bill needs a majority of members elected (51 House / 20 Senate).
+    // House Rule 74 (2026 rules, HR 2 of 26RS): no rule may be "suspended or interrupted, unless the same be done by a
+    // majority of the members elected to the House" (51), so "Suspend the Rules" at 21–12 failed.
+    const need = isPassage && /^(HB|SB)$/.test(head[1]) ? (chamber === "lower" ? 51 : 20)
+      : chamber === "lower" && /^suspend the rules/i.test(question) ? 51 : 0;
     const yes = tally.YEAS, no = tally.NAYS;
     rolls[chamber].push({
       id, bill, date: iso, chamber, question,

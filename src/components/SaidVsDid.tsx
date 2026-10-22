@@ -80,7 +80,7 @@ export function SaidVsDid({
           <select
             value={topicFilter}
             onChange={(e) => setTopicFilter(e.target.value)}
-            className="cursor-pointer rounded-md border border-chip-border bg-paper-raised px-2 py-1 font-sans text-xs text-ink-80"
+            className="cursor-pointer rounded-[2px] border border-chip-border bg-paper-raised px-2 py-1 font-sans text-xs text-ink-80"
           >
             {topics.map((t) => (
               <option key={t} value={t}>
@@ -127,7 +127,7 @@ function CollapsedPair({
     <button
       type="button"
       onClick={onExpand}
-      className="grid cursor-pointer grid-cols-1 items-center gap-3 rounded-lg border border-card bg-paper-raised p-4 text-left shadow-card transition-shadow duration-150 hover:shadow-card-raised lg:grid-cols-[1fr_auto_1fr_auto]"
+      className="grid cursor-pointer grid-cols-1 items-center gap-3 border border-card bg-paper-raised p-4 text-left transition-colors duration-150 hover:border-card-strong lg:grid-cols-[1fr_auto_1fr_auto]"
     >
       <span className="flex flex-col gap-1">
         <span className="font-sans text-[10.5px] font-bold tracking-[0.07em] text-ink-45">
@@ -163,7 +163,7 @@ function ExpandedPair({
   onCollapse: () => void;
 }) {
   return (
-    <article className="rounded-lg border border-card-strong bg-paper-raised p-4 shadow-card-raised">
+    <article className="border border-card-strong bg-paper-raised p-4">
       <div className="flex flex-wrap items-center gap-3">
         <span className="font-sans text-[10.5px] font-bold tracking-[0.07em] text-ink-45">
           {pair.topic.toUpperCase()}
@@ -172,7 +172,7 @@ function ExpandedPair({
       </div>
 
       <div className="mt-3 grid grid-cols-1 gap-3 lg:grid-cols-2">
-        <div className="rounded-lg border border-hairline-soft bg-paper p-4">
+        <div className="border border-hairline-soft bg-paper p-4">
           <div className="font-sans text-[10.5px] font-bold tracking-[0.07em] text-ink-45">
             SAID
           </div>
@@ -186,7 +186,7 @@ function ExpandedPair({
             </SourceLink>
           </p>
         </div>
-        <div className="rounded-lg border border-hairline-soft bg-paper p-4">
+        <div className="border border-hairline-soft bg-paper p-4">
           <div className="font-sans text-[10.5px] font-bold tracking-[0.07em] text-ink-45">
             DID
           </div>

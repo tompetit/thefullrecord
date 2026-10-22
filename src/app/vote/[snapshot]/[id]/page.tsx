@@ -11,7 +11,7 @@ import { getRollCallDetail, partySides, type PartyTally, type RollMember } from 
 import type { Party, VoteChoice } from "@/server/types";
 
 type Params = Promise<{ snapshot: string; id: string }>;
-const chip = "rounded border border-chip-border bg-neutral-chip px-2 py-1";
+const chip = "rounded-[2px] border border-chip-border bg-neutral-chip px-2 py-1";
 const COLUMNS: VoteChoice[] = ["yes", "no", "present", "absent"];
 const short = (t: string) => (t.length > 90 ? `${t.slice(0, 87).trimEnd()}…` : t);
 const decode = (id: string) => { try { return decodeURIComponent(id); } catch { return id; } };
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
 function Bar({ t }: { t: PartyTally }) {
   const sum = t.yes + t.no + t.present + t.absent || 1;
   const pct = (n: number) => `${(n / sum) * 100}%`;
-  return <div aria-hidden="true" className="flex h-3 overflow-hidden rounded-sm border border-chip-border bg-paper">
+  return <div aria-hidden="true" className="flex h-3 overflow-hidden rounded-[2px] border border-chip-border bg-paper">
     <span style={{ width: pct(t.yes) }} className="bg-accent" />
     <span style={{ width: pct(t.no) }} className="bg-umber-soft" />
     <span style={{ width: pct(t.present) }} className="bg-chip-border" />

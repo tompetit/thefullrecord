@@ -12,8 +12,10 @@
  * journals "Yeas, N: ... Nays, N: ... Absent, N: ...", names being surnames ("Johnson, C." where two members share one).
  * Names are matched to Open States people (current + retired role histories from github.com/openstates/people, cached) by
  * chamber, printed name and the journal date; each list must parse to exactly its printed count or the roll call is dropped.
- * Titles come from the bill's introduction line in the journals (the bill's official title). Iowa publishes no per-bill
- * summary in the journals, so none is stored.
+ * The bill is the one taken up on the floor (the journals' "(H.F. n)" vote label sometimes carries the companion's prefix).
+ * Titles are the bill's official title as of the vote, from the journals' printings of it (see "titles" below), with the
+ * bill's Bill History page (billTracking/billHistory) for enacted titles not printed in the journals. Iowa publishes no
+ * per-bill summary in the journals, so none is stored.
  *
  * PDF text needs pypdf: pip install pypdf (see pdf-fulltext.py). Cache: --work (default ~/.cache/ia-leg).
  * Run: PYTHONPATH=... node scripts/ingest/ia-leg.mjs [--work dir] [--dry]
@@ -188,16 +190,25 @@ const BILL_ABBR = (s) => s.replace(/[.\s]/g, "").replace(/^([HS][FJC]?[FRC]?)(\d
 const rolls = { lower: [], upper: [] };
 const drops = {}; const drop = (why) => { drops[why] = (drops[why] ?? 0) + 1; };
 const found = { lower: 0, upper: 0 };
-const titleSrc = [];
+const titleSrc = []; // { d, text } per journal day, for the title timeline below
+const relabeled = [];
+/** "House File 593, a bill for an act ..." / "substitute Senate File 645 for House File 1040": the bill taken up on the floor. */
+const UNDER_CONSIDERATION = /\b(House|Senate)\s+(File|Joint\s+Resolution|Concurrent\s+Resolution)\s+(\d+)(?:\s?,?\s(?:a\s+bill|a\s+joint|a\s+concurrent|as\s+amended|with\s+report)|\s+for\s+(?:House|Senate)\s+(?:File|Joint))/g;
+const billKey = (chamberWord, type, num) => `${chamberWord[0]}${/^File/.test(type) ? "F" : /^Joint/.test(type) ? "JR" : "CR"} ${num}`;
 
 for (const d of have) {
   const { text, starts } = load(d);
   const chamber = d.chamber;
   const start = chamber === "lower" ? /^[ \t]*The ayes were,[ \t]*(\d+|none)[ \t]*:/gm : /^[ \t]*Yeas,[ \t]*(\d+|none)[ \t]*:/gm;
-  titleSrc.push(text);
-  let seq = 0;
+  titleSrc.push({ d, text });
+  let seq = 0, prevVote = 0, current = null, takenAt = 0;
   for (const m of text.matchAll(start)) {
     found[chamber]++;
+    // The bill on the floor: the last one taken up (or substituted) since the previous roll call, else the one before.
+    const window = text.slice(prevVote, m.index);
+    prevVote = m.index;
+    const taken = [...window.matchAll(UNDER_CONSIDERATION)].at(-1);
+    if (taken) { current = billKey(taken[1], taken[2], taken[3]); takenAt = m.index - window.length + taken.index; }
     const lead = text.slice(Math.max(0, m.index - 700), m.index).replace(/\s+/g, " ");
     const q = [...lead.matchAll(/On the question\s*“([^”(]*?)\s*(?:”|(?=\())\s*,?\s*(?:\(([^)]*)\)|([HS]\.[A-Z.]*\s*\d+))?/g)].at(-1);
     if (!q) { drop("no-question"); if (dry) console.log("NOQ", d.date, chamber, JSON.stringify(lead.slice(-200))); continue; }
@@ -206,7 +217,11 @@ for (const d of have) {
     const billRaw = q[2] ?? q[3] ?? "";
     const bm = /^([HS])\.?\s*([FJC])?\.?\s*([FRC])?\.?\s*(\d+)$/.exec(billRaw.trim());
     if (!bm) { drop("no-bill"); if (dry) console.log("NOBILL", d.date, chamber, JSON.stringify(question), JSON.stringify(billRaw)); continue; }
-    const bill = `${bm[1]}${bm[2] ?? ""}${bm[3] ?? ""} ${bm[4]}`;
+    let bill = `${bm[1]}${bm[2] ?? ""}${bm[3] ?? ""} ${bm[4]}`;
+    // The journals sometimes print the companion's prefix in the vote label, e.g. "(H.F. 2480)" on an amendment to Senate File 2480
+    // or "(H.F. 593)" on the passage of Senate File 593 (House File 593 had been renumbered). The bill actually taken up wins
+    // when it carries the same number with a different prefix.
+    if (current && current !== bill && current.split(" ")[1] === bill.split(" ")[1]) { relabeled.push(`${d.date} ${chamber} ${bill} -> ${current}`); bill = current; }
     if (!/^[HS](F|JR|CR) /.test(bill)) { drop("simple-resolution-or-other"); continue; }
     const s = readSections(text, m.index);
     const counts = { yes: s.yes?.count ?? 0, no: s.no?.count ?? 0, present: s.present?.count ?? 0, absent: s.absent?.count ?? 0 };
@@ -230,7 +245,7 @@ for (const d of have) {
     const after = text.slice(s.end, s.end + 420).replace(/\s+/g, " ");
     const failed = /\b(lost|failed|did not (?:receive|prevail)|not adopted|defeated|not prevail|not been adopted)\b/i.test(after.split(/(?<=\.) /).slice(0, 2).join(" "));
     if (!failed && counts.yes < counts.no) { drop("outcome-conflict"); if (dry) console.log("CONFLICT", d.date, bill, counts, after.slice(0, 120)); continue; }
-    const procedural = /rules be suspended|withdrawn from committee|placed on the calendar|reconsider|table/i.test(question);
+    const procedural = /rules be suspended|withdrawn from committee|placed on the calendar|moved to the [\w ]*Calendar|reconsider|table/i.test(question);
     rolls[chamber].push({
       id: `ia-${chamber === "lower" ? "h" : "s"}-${d.date.replace(/-/g, "")}-${String(++seq).padStart(2, "0")}`,
       bill, date: d.date, question,
@@ -240,29 +255,107 @@ for (const d of have) {
       sourceUrl: `${d.url}#page=${pageOf(starts, m.index)}`,
       votes,
     });
+    Object.defineProperty(rolls[chamber].at(-1), "_at", { value: { d, pos: m.index, consideration: text.slice(takenAt, m.index), failed } }); // not serialised
   }
 }
 console.log(`found ${found.lower}/${found.upper} vote blocks; kept ${rolls.lower.length} House, ${rolls.upper.length} Senate before titles`);
 if (dry) console.log("dropped:", drops, "\nambiguous:", Object.fromEntries(ambiguous), "\nunmatched:", Object.fromEntries(unmatched));
 
-// ---------------------------------------------------------------- titles (the introduction line: "House File 5 , by <sponsors>, a bill for an act <title>.")
-const titles = new Map();
-const TITLE = /\b(House|Senate)\s+(File|Joint Resolution|Concurrent Resolution)\s+(\d+)\s*,?\s*(?:by [^]{0,600}?,\s*)?(?:a|an)\s+(?:bill\s+for\s+an\s+act|joint\s+resolution|concurrent\s+resolution)\s+([^.]{8,2500}?)(?:,\s*(?:was taken up|with report|as amended|and was)\b[^.]*)?\./g;
-for (const t of titleSrc) {
-  const flat = t.replace(/\s+/g, " ");
-  for (const m of flat.matchAll(TITLE)) {
-    const ab = m[2] === "File" ? "F" : m[2] === "Joint Resolution" ? "JR" : "CR";
-    const key = `${m[1][0]}${ab} ${m[3]}`;
-    if (!titles.has(key)) titles.set(key, m[4].replace(/\s+/g, " ").replace(/ -(?=\w)/g, "-").trim());
+// ---------------------------------------------------------------- titles
+// The title as of the vote. Every printing of a bill's title in the journals is collected with its date and place:
+// introduction ("House File 5 , by <sponsors>, a bill for an act <title>."), consideration lines, messages between the
+// chambers and the Governor's messages ("House File 710, an Act relating to ..."). Amendments can rewrite a title, and the
+// journals keep printing the old one in the passing chamber's own consideration line and in any message about a bill that was
+// "amended and passed" / "concurred in" (those print the title the bill arrived with). So:
+//  - an amendment, procedural or failed vote takes the latest printing before the vote (the title the bill stood under);
+//  - a successful passage vote in the originating chamber before the other chamber has acted takes the next reliable printing
+//    after it (the other chamber's message, first reading or consideration: the title as passed);
+//  - a successful passage or concurrence vote after the other chamber has acted takes the enacted title (Governor's message in
+//    the journals, else the bill's current title on its Bill History page), else the latest printing before.
+// The text stored by earlier imports is kept whenever the chosen printing only differs in spacing.
+const TITLE = /\b(House|Senate)\s+(File|Joint\s+Resolution|Concurrent\s+Resolution)\s+(\d+)\s*,?\s*(?:by\s[^]{0,600}?,\s*)?(a\s+bill\s+for\s+an\s+act|an\s+Act|a\s+joint\s+resolution|a\s+concurrent\s+resolution)\s+([^.]{8,2500}?)(?:,\s*(?:was\s+taken\s+up|with\s+re\s?port|as\s+amended|and\s+was|placed\s+on\s+the|previously\s+deferred|amended\s+by\s+the|passed\s+by\s+the|with\s+(?:House|Senate)\s+amendment)\b([^.]*))?\./g;
+const MSG_HEADER = /has\s+on\s+\w+\s+\d+,\s+\d{4},\s+([^:]{0,300}?)the\s+following\s+(?:b\s?ills?|resolutions?)\s+in\s+which[^:]*:/g;
+const cleanTitle = (t) => t.replace(/\s+/g, " ").replace(/ -(?=\w)/g, "-").replace(/,?\s*(?:amended|passed) by\s+th\s?e\s+(?:Senate|House)\b.*$/i, "")
+  .replace(/,\s*(?:(?:and\s+)?(?:House|Senate)\s+amendments?\s+[HS]–\d+.*|deferred\s+\w+\s+\d+.*|placed\s+on\s+th\s?e\s+.*Calendar.*|previously\s+deferred.*|with\s+re\s?port\s+of\s+committee.*|w\s?a\s?s\s+t\s?a\s?k\s?e\s?n\b.*)$/i, "").trim();
+const cmpKey = (t) => t.toLowerCase().replace(/[^a-z0-9]/g, "");
+const occ = new Map(); // bill -> [{ date, chamber, pos, title, reliable, act }]
+// Text kept for a title that only differs in spacing/hyphenation from what earlier imports stored: the first printing in
+// journal-list order (House, then Senate; the listings run newest first), as the importer has always picked it.
+const legacy = new Map();
+const LEGACY = /\b(House|Senate)\s+(File|Joint Resolution|Concurrent Resolution)\s+(\d+)\s*,?\s*(?:by [^]{0,600}?,\s*)?(?:a|an)\s+(?:bill\s+for\s+an\s+act|joint\s+resolution|concurrent\s+resolution)\s+([^.]{8,2500}?)(?:,\s*(?:was taken up|with report|as amended|and was)\b[^.]*)?\./g;
+for (const { text } of titleSrc) {
+  for (const m of text.replace(/\s+/g, " ").matchAll(LEGACY)) {
+    const key = billKey(m[1], m[2], m[3]);
+    if (!legacy.has(key)) legacy.set(key, m[4].replace(/\s+/g, " ").replace(/ -(?=\w)/g, "-").trim().replace(/,?\s*(?:amended|passed) by\s+the\s+(?:Senate|House)\b.*$/i, ""));
   }
 }
+for (const { d, text } of titleSrc) {
+  const headers = [...text.matchAll(MSG_HEADER)];
+  for (const m of text.matchAll(TITLE)) {
+    const key = billKey(m[1], m[2], m[3]);
+    const title = cleanTitle(m[5]);
+    const act = /^an\s+Act$/.test(m[4]);
+    let reliable = !/amended\s+by\s+the|as\s+amended/i.test(m[0]);
+    const h = headers.filter((x) => x.index < m.index).at(-1);
+    if (h) { // inside a message listing bills: reliable only for bills simply passed/adopted
+      const between = text.slice(h.index + h[0].length, m.index);
+      const inList = between.length < 6000 && !/taken\s+up|Read\s+first\s+time|called\s+up|On\s+motion|moved|MESSAGE|ALSO:|Also:/.test(between);
+      if (inList && /amended|concurred|refused|receded/i.test(h[1])) reliable = false;
+    }
+    if (!occ.has(key)) occ.set(key, []);
+    occ.get(key).push({ date: d.date, chamber: d.chamber, pos: m.index, title, reliable, act });
+  }
+}
+for (const list of occ.values()) list.sort((a, b) => a.date.localeCompare(b.date) || (a.chamber === b.chamber ? a.pos - b.pos : 0));
+
+const PASSAGE = /^Shall the (?:bill|joint resolution|concurrent resolution|resolution)\b.*\b(?:pass|be adopted)\?$|\bconcur\b/i;
+const origin = (bill) => (bill[0] === "H" ? "lower" : "upper");
+const isFirstPassage = (r, chamber) => chamber === origin(r.bill) && !/\bconcur/i.test(r.question) && !/amended\s+by\s+the|\bconcur/i.test(r._at.consideration)
+  && !rolls[chamber === "lower" ? "upper" : "lower"].some((o) => o.bill === r.bill && o.date < r.date);
+const actTitle = new Map();
+for (const [key, list] of occ) { const a = list.find((o) => o.act); if (a) actTitle.set(key, a.title); }
+// The bill's current official title from its Bill History page (the enacted title once signed), for passage votes after the
+// other chamber acted on bills whose Governor's message is not in the journals (signed after the session, or not enacted).
+const needCurrent = new Set();
+for (const chamber of ["lower", "upper"]) for (const r of rolls[chamber]) {
+  if (!r._at.failed && PASSAGE.test(r.question) && !isFirstPassage(r, chamber) && !actTitle.has(r.bill) && /^[HS]F /.test(r.bill)) needCurrent.add(r.bill);
+}
+mkdirSync(join(work, "history"), { recursive: true });
+const entity = (t) => t.replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n)).replace(/&rsquo;/g, "’").replace(/&lsquo;/g, "‘").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, "&");
+for (const bill of needCurrent) {
+  const file = join(work, "history", `${bill.replace(" ", "")}.html`);
+  if (!existsSync(file)) {
+    const html = await (await politeGet(`https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=${encodeURIComponent(bill)}&ga=91`, gap)).text();
+    if (!/billActionTable/.test(html)) { console.warn(`${bill}: Bill History page did not load (challenge page?), skipped`); continue; }
+    writeFileSync(file, html);
+  }
+  const m = /<div>\s*A bill for an act ([^<]*?)\.(?:\s*\((?:Formerly|See)\b|\s*Effective\b|\s*<\/div>)/.exec(readFileSync(file, "utf8"));
+  if (m) actTitle.set(bill, cleanTitle(entity(m[1])));
+}
+
 const noTitle = new Set();
+const titleChanged = [];
 for (const chamber of ["lower", "upper"]) {
   for (const r of rolls[chamber]) {
-    const t = titles.get(r.bill)?.replace(/,?\s*(?:amended|passed) by\s+the\s+(?:Senate|House)\b.*$/i, "");
+    const list = occ.get(r.bill) ?? [];
+    // The title the voting chamber had the bill under: its own latest printing (consideration line) up to the vote.
+    const before = list.filter((o) => o.date < r.date || (o.date === r.date && o.chamber === chamber && o.pos < r._at.pos));
+    let t = (before.filter((o) => o.chamber === chamber).at(-1) ?? before.at(-1))?.title ?? legacy.get(r.bill);
+    if (!r._at.failed && PASSAGE.test(r.question)) {
+      if (isFirstPassage(r, chamber)) {
+        // as passed: the other chamber's next reliable printing (its message, first reading or consideration line), or the Act
+        const after = list.find((o) => o.reliable && (o.chamber !== chamber || o.act) && o.date >= r.date && (o.date > r.date || o.chamber !== chamber));
+        if (after) t = after.title;
+      } else if (actTitle.has(r.bill)) t = actTitle.get(r.bill);
+    }
+    if (t && legacy.has(r.bill) && cmpKey(t) === cmpKey(legacy.get(r.bill))) t = legacy.get(r.bill);
+    if (t && legacy.has(r.bill) && t !== legacy.get(r.bill)) titleChanged.push(`${r.id} ${r.bill}: ${t.slice(0, 120)}`);
     r.title = t ? (t.length > 500 ? `${t.slice(0, 497).trimEnd()}...` : t).replace(/^./, (c) => c.toUpperCase()) : (noTitle.add(r.bill), r.bill);
   }
 }
+console.log(`bill labels corrected from the bill taken up: ${relabeled.length}`, relabeled);
+console.log(`roll calls whose title differs from the first-listed printing: ${titleChanged.length}; Bill History titles looked up: ${needCurrent.size}`);
+if (dry) console.log(titleChanged.join("\n"));
 if (dry) { console.log("bills without a title:", [...noTitle].length, [...noTitle].slice(0, 20)); process.exit(0); }
 
 const now = new Date().toISOString();

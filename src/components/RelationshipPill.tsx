@@ -23,7 +23,7 @@ export function RelationshipPill({ label }: { label: RelationshipLabel }) {
   const l = LABELS[label];
   return (
     <span
-      className={`inline-flex flex-none items-center rounded-full border px-[11px] py-1 font-sans text-[10px] font-bold tracking-[0.07em] ${l.className}`}
+      className={`inline-flex flex-none items-center rounded-[2px] border px-[11px] py-1 font-sans text-[10px] font-bold tracking-[0.07em] ${l.className}`}
     >
       {l.text}
     </span>

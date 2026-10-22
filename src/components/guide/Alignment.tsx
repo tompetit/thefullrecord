@@ -54,7 +54,7 @@ export function AlignmentDisclaimer({ className = "" }: { className?: string }) 
 function OutcomeTag({ outcome }: { outcome: Outcome }) {
   const o = OUTCOME[outcome];
   return (
-    <span className={`inline-flex items-center gap-1.5 rounded-md border-[1.5px] bg-paper px-2 py-0.5 font-sans text-[12px] font-bold ${o.cls}`}>
+    <span className={`inline-flex items-center gap-1.5 rounded-[2px] border-[1.5px] bg-paper px-2 py-0.5 font-sans text-[12px] font-bold ${o.cls}`}>
       <span aria-hidden className="font-mono text-[13px] leading-none">{o.mark}</span>
       {o.word}
     </span>
@@ -120,7 +120,7 @@ export function AlignmentBreakdown({
                   <ul className="mt-1.5 space-y-2">
                     {item.votes.map((v) => (
                       <li key={v.text} className="text-[13px] leading-relaxed text-ink-80">
-                        <span className="mr-1.5 inline-flex items-center gap-1 rounded border border-ink-45 px-1.5 py-px font-sans text-[11px] font-bold text-ink">
+                        <span className="mr-1.5 inline-flex items-center gap-1 rounded-[2px] border border-ink-45 px-1.5 py-px font-sans text-[11px] font-bold text-ink">
                           <span aria-hidden className="font-mono">{VOTE_MATCH[v.match].mark}</span>
                           {VOTE_MATCH[v.match].word}
                         </span>

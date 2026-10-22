@@ -272,7 +272,12 @@ const lsrTitles = new Map((await dumpFile("LSRs.txt")).filter((r) => r[9]).map((
 
 // --- Senate journals -> roll calls
 const MONTH_NUM = Object.fromEntries(["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"].map((m, i) => [m, i + 1]));
-const BILL_HEAD = /^((?:SB|HB|SR|HR|SCR|HCR|CACR|SJR|HJR)\s?\d+(?:-[A-Z]+)?),\s+(.*)$/;
+// A bill heading: "HB 115-FN, relative to ..." or, in the Committee of Conference reports section, "Committee of
+// Conference Report on HB 60, relative to ...". Suffixes can stack ("HB 2-FN-A-LOCAL").
+const BILL_HEAD = /^(?:Committee of Conference Report on )?((?:SB|HB|SR|HR|SCR|HCR|CACR|SJR|HJR)\s?\d+(?:-[A-Z]+)*),\s+(.*)$/;
+// The title an amendment gives the bill: "Amend the title of the bill by replacing it with the following: AN ACT ...".
+const TITLE_AMEND = /Amend the title of the bill by replacing (?:it )?with the following:\s*AN ACT\s+([\s\S]*?\.)[ \t]*\n/g;
+const joinWrapped = (s) => s.replace(/\s-\s*\n\s*/g, "").replace(/\s+/g, " ").trim();
 function parseJournal({ name, text }, year) {
   const dm = /([A-Za-z]+) (\d{1,2}),? (\d{4})/.exec(name);
   if (!dm || !MONTH_NUM[dm[1].toLowerCase()] || Number(dm[3]) !== year) return [];
@@ -286,18 +291,40 @@ function parseJournal({ name, text }, year) {
   while ((m = re.exec(clean))) {
     const before = clean.slice(0, m.index);
     const lines = before.split("\n");
-    let bill = "", title = "", question = "";
+    let bill = "", title = "", question = "", headAt = -1, conference = false;
     for (let i = lines.length - 1; i >= 0 && !bill; i--) {
       const h = BILL_HEAD.exec(lines[i]);
       if (!h) continue;
-      bill = h[1]; title = h[2];
+      bill = h[1]; title = h[2]; headAt = i; conference = /^Committee of Conference Report on /.test(lines[i]);
       // A heading wraps over several lines (hyphenated at the break) until the sentence ends.
       for (let j = i + 1; j < Math.min(i + 3, lines.length) && !/[.)]\s*$/.test(title); j++) title = /\s-\s*$/.test(title) ? title.replace(/\s-\s*$/, "") + lines[j] : `${title} ${lines[j]}`;
+    }
+    // The heading prints the title the bill had when it was taken up. An amendment that retitles the bill and is adopted
+    // before this roll call (a committee or floor amendment adopted by voice vote, say) means the vote was on the
+    // retitled text, so the vote carries that title; so does a vote on a Committee of Conference report that retitles.
+    // The amendment prints only the "AN ACT" text: the "(New Title)" / "(Second New Title)" prefix the General Court
+    // later gives the bill is not derivable from the journal (it does not count every retitling amendment), so none is added.
+    if (headAt >= 0) {
+      const section = lines.slice(headAt).join("\n");
+      for (const a of section.matchAll(TITLE_AMEND)) {
+        const after = section.slice(a.index + a[0].length);
+        const decided = /The question is on the adoption of [^\n]*?\.\s*(Adopted|Failed)\b/.exec(after);
+        if (decided ? decided[1] === "Adopted" : conference) title = joinWrapped(a[1]);
+      }
     }
     const qs = [...before.slice(Math.max(0, before.length - 4000)).matchAll(/^The question is (?:on )?(.*)$/gm)];
     question = qs.length ? qs.at(-1)[0].replace(/^The question is (on )?(the )?/, "").replace(/^adoption of (the )?(motion of )?/i, "").split(/\.\s/)[0].replace(/\.$/, "") : "";
     question = question.charAt(0).toUpperCase() + question.slice(1);
-    if (/become law/.test(question)) bill = /([SH]B\s?\d+)/.exec(question)?.[1] ?? bill;
+    if (/become law/.test(question)) {
+      // A veto vote: the bill is the one named in the question, and its title the one the Governor's veto message quotes
+      // ("I have vetoed Senate Bill 213, relative to ..."), not the nearest bill heading, which belongs to another bill.
+      const named = /([SH]B)\s?(\d+)/.exec(question);
+      if (named) {
+        bill = `${named[1]} ${named[2]}`;
+        const msg = new RegExp(`vetoed ${named[1] === "SB" ? "Senate" : "House"} Bill ${named[2]},\\s+([\\s\\S]*?\\.)\\s`).exec(before.slice(-6000));
+        title = msg ? joinWrapped(msg[1]) : "";
+      }
+    }
     // Anything after the No list ("The following Senators were excused: X.") is an explicit non-vote.
     const [noPart, ...otherParts] = m[2].split(/The following Senators (?:were|was) [a-z ]+:\s*/);
     found.push({ yes: names(m[1]), no: names(noPart), away: otherParts.flatMap((o) => names(o.replace(/\.\s*$/, ""))), yeas: Number(m[3]), nays: Number(m[4]), result: m[5].trim(), bill, title, question, index: m.index });
@@ -346,8 +373,8 @@ for (const j of journals2025) {
       ...f.no.map((n) => ({ id: senateByFamily(n), label: `upper ${n}`, pos: "no" })),
       ...f.roster.filter((n) => !f.yes.includes(n) && !f.no.includes(n)).map((n) => ({ id: senateByFamily(n), label: `upper ${n}`, pos: "absent" })),
     ];
-    const bill = f.bill.replace(/-[A-Z]+$/, "");
-    rolls.push({ chamber: "upper", id: `nh-s-${f.date}-${f.n}`, date: f.date, bill, title: f.title.replace(/\s*\([^()]*\)?\s*$/, ""), question: f.question || "Roll call", yeas: f.yeas, nays: f.nays, listTally: [f.yes.length, f.no.length], members, url: f.url, result: f.result, dump: null });
+    const bill = f.bill.replace(/(-[A-Z]+)+$/, "");
+    rolls.push({ chamber: "upper", source: "journal", id: `nh-s-${f.date}-${f.n}`, date: f.date, bill, title: f.title.replace(/\s*\([^()]*\)?\s*$/, "").replace(/[‘’]/g, "'").replace(/\s+/g, " ").trim(), question: f.question || "Roll call", yeas: f.yeas, nays: f.nays, listTally: [f.yes.length, f.no.length], members, url: f.url, result: f.result, dump: null });
   }
 }
 for (const r of dumpSummary.filter((x) => x[1] === "S")) {
@@ -359,7 +386,7 @@ for (const r of dumpSummary.filter((x) => x[1] === "S")) {
     const dm = dumpMembers.get(mid);
     if (pos) members.push({ id: dm ? senateByFamily(dm.last) : undefined, label: `upper ${dm ? `${dm.last}, ${dm.first}` : `member ${mid}`}`, pos });
   }
-  rolls.push({ chamber: "upper", id: `nh-s-${yyyy}-${Number(r[2])}`, date: `${yyyy}-${mm.padStart(2, "0")}-${dd.padStart(2, "0")}`, bill: r[4], title: r[12].trim(), question: r[11], yeas: Number(r[5]), nays: Number(r[6]), listTally: [Number(r[5]), Number(r[6])], members, url: BASE, dump: null });
+  rolls.push({ chamber: "upper", id: `nh-s-${yyyy}-${Number(r[2])}`, date: `${yyyy}-${mm.padStart(2, "0")}-${dd.padStart(2, "0")}`, bill: r[4], title: r[12].trim(), source: "dump", question: r[11], yeas: Number(r[5]), nays: Number(r[6]), listTally: [Number(r[5]), Number(r[6])], members, url: BASE, dump: null });
 }
 
 // 2026 House scrape vs the dump: every roll call present and same tally
@@ -369,8 +396,72 @@ for (const s of dumpSummary.filter((x) => x[1] === "H")) {
   if (!mine || mine.yeas !== Number(s[5]) || mine.nays !== Number(s[6])) stats.crossCheck.differ.push(`H #${s[2]}`);
 }
 
+// Title of the roll call = the bill's official title as of that vote. Each source records one with the roll call: the House
+// roll-call search, the bulk dump's RollCallSummary (field 12) and the Senate Journal heading (plus any retitling amendment
+// adopted before the vote, see parseJournal). The current title (LSRs.txt) is used only for a vote on the bill's final text,
+// or when the source gives none; it must not replace the title at the vote, because bills are retitled after early votes.
+// TITLE_AT_VOTE holds corrections confirmed against the General Court's bill status pages (gc.nh.gov/bill_status, docket
+// + bill text / amendment PDFs): 2025 House roll calls whose search entry carries the motion or the House bill's original
+// title on a vote on a Senate-retitled final version, and votes taken after a retitling amendment had been adopted.
+const SB14_HOUSE = "(New Title) relative to the penalty for certain fentanyl-related offenses; relative to establishing a mandatory minimum sentence for the crime of distribution of a controlled drug with death resulting; and relative to amending the penalties for the possession and use of a quantity of psilocybin for persons 18 years of age or older.";
+const HB1300_HOUSE = "(New Title) establishing a biennial school district local tax cap question and related limitations on central office administrative expenses in school districts.";
+const HB377_FINAL = "(New Title) relative to health care professionals administering hormone treatments and puberty blockers and relative to recognizing the second Thursday in October as children's environmental health day.";
+const TITLE_AT_VOTE = {
+  // final version (concurrence / conference report / veto override) of a bill retitled after the House title was recorded
+  "nh-h-2025-129": "relative to litigation alleging constitutional rights violations.",
+  "nh-h-2025-193": "(New Title) repealing the license to sell pistols and revolvers and limiting liability for certain design features of firearms.",
+  "nh-h-2025-212": "(New Title) establishing a parental bill of rights.",
+  "nh-h-2025-232": "(New Title) establishing the crime of and penalties for unlawful use of unmanned aircraft systems and changing the reckless driving minimum penalties.",
+  "nh-h-2025-234": "(New Title) allowing public schools to contract with any approved nonpublic school.",
+  "nh-h-2025-236": "(New Title) relative to the approval process for new construction and to the adoption of energy efficient and clean energy districts by municipalities.",
+  "nh-h-2025-237": "to allow for off-grid electricity providers in New Hampshire.",
+  "nh-h-2025-243": "(New Title) increasing the maximum benefits for first responders critically injured in the line of duty, relative to the determination of education adequacy grants and calculation of certain group II benefits within the retirement system.",
+  "nh-h-2025-244": HB377_FINAL,
+  "nh-h-2025-246": "(New Title) making temporary appropriations for the expenses and encumbrances of the state of New Hampshire.",
+  "nh-h-2025-252": "(New Title) limiting breast surgeries for minors, relative to residential care and health facility licensing, and relative to the collection and reporting of abortion statistics by health care providers and medical facilities.",
+  "nh-h-2025-253": "(New Title) making temporary appropriations for the expenses and encumbrances of the state of New Hampshire.",
+  "nh-h-2025-256": "(New Title) relative to the responsibility of local school districts to provide transportation for pupils in kindergarten.",
+  "nh-h-2025-258": "enabling school districts to adopt partisan school district elections.",
+  "nh-h-2025-260": "relative to parental notice for non-academic surveys in public schools.",
+  "nh-h-2025-262": "(New Title) relative to use of accessible voting systems.",
+  "nh-h-2025-263": "(Second New Title) relative to health education and requiring the viewing of certain videos demonstrating gestational development.",
+  "nh-h-2025-264": "(New Title) requiring school districts to adopt policies establishing a cell phone-free education.",
+  // SB 14: House amendment 2025-2372h (NT) adopted by roll call 217-164 before these votes; the conference report kept it
+  "nh-h-2025-208": SB14_HOUSE, "nh-h-2025-209": SB14_HOUSE, "nh-h-2025-239": SB14_HOUSE, "nh-h-2025-240": SB14_HOUSE, "nh-h-2025-241": SB14_HOUSE,
+  // SB 15: House amendment 2025-3096h (NT, replaces the bill) adopted by voice vote before the 179-159 vote
+  "nh-h-2026-5": "(New Title) relative to incorporating hard labor as a sentencing option for capital murder and serious sexual assaults on children, defining hard labor, establishing medical exemptions and penalties for abuse thereof, providing alternative punitive measures for legitimate medical exemptions, and authorizing jury determination of hard labor in qualifying cases.",
+  // HB 1300: committee amendment 2026-0980h (retitles, replaces the bill) adopted by voice vote before these votes
+  "nh-h-2026-164": HB1300_HOUSE, "nh-h-2026-165": HB1300_HOUSE,
+  // Senate Journal votes whose retitled text is known with the official "(New Title)" prefix (the journal prints only the
+  // AN ACT text): amendments adopted before the vote, and conference reports / veto votes on the final version
+  "nh-s-2025-05-15-7": "(New Title) allowing public schools to contract with any approved nonpublic school.",
+  "nh-s-2025-06-05-20": HB377_FINAL, "nh-s-2025-06-26-5": HB377_FINAL,
+  "nh-s-2025-06-26-4": "(Third New Title) prohibiting school facilities from being used to provide shelter for aliens; relative to department of health and human services contracts; and requiring the use of public notices before reassessment of property values for tax purposes.",
+  "nh-s-2025-06-26-6": "(New Title) relative to background checks during motions to return firearms and ammunition and relative to invalidating out-of-state driver's licenses issued to undocumented immigrants and relative to requiring schools to engage an owner's project manager for construction of school building aid projects at the time of application.",
+  "nh-s-2025-06-26-7": "(New Title) limiting breast surgeries for minors, relative to residential care and health facility licensing, and relative to the collection and reporting of abortion statistics by health care providers and medical facilities.",
+  "nh-s-2025-06-26-10": "(New Title) making temporary appropriations for the expenses and encumbrances of the state of New Hampshire.",
+  "nh-s-2025-10-23-1": "(New Title) relative to electioneering by public employees and relative to absentee voting.",
+};
+// The journal often prints a retitled bill's title without its "(New Title)" prefix; when another source gives the same
+// title with the prefix, use that form.
+const NEW_TITLE = /^\((?:[A-Z][a-z]+ )?New Title\)\s*/;
+const prefixed = new Map([...rolls.map((r) => [r.bill, r.title]), ...[...lsrTitles].map(([b, t]) => [b, t]), ...Object.entries(TITLE_AT_VOTE).map(([id, t]) => [rolls.find((x) => x.id === id)?.bill ?? "", t])]
+  .filter(([, t]) => t && NEW_TITLE.test(t)).map(([b, t]) => [`${b.replace(/\s+/g, "")}|${t.replace(NEW_TITLE, "").trim()}`, t.trim()]));
+function titleAtVote(r) {
+  const key = r.bill.replace(/\s+/g, "");
+  if (TITLE_AT_VOTE[r.id]) return TITLE_AT_VOTE[r.id];
+  if (r.source === "journal" && !NEW_TITLE.test(r.title) && prefixed.has(`${key}|${r.title}`)) return prefixed.get(`${key}|${r.title}`);
+  if (r.source === "dump" && finalText(r.question) && lsrTitles.get(key)) return lsrTitles.get(key);
+  if (!motionTitle(r)) return r.title;
+  return lsrTitles.get(key) || titleOf.get(key) || r.title || r.question;
+}
+
 const built = { lower: [], upper: [] };
-const titleOf = new Map(rolls.filter((r) => r.title && r.chamber === "lower").map((r) => [r.bill.replace(/\s+/g, ""), r.title]));
+// A House roll call whose title field holds only the motion ("Concur", "Veto Override", "Remove from Table") has no title.
+const motionTitle = (r) => !r.title || norm(r.title) === norm(r.question);
+const titleOf = new Map(rolls.filter((r) => !motionTitle(r) && r.chamber === "lower").map((r) => [r.bill.replace(/\s+/g, ""), r.title]));
+// A vote on the bill's final text (veto override, concurrence, conference report) is on the version the bill ends with.
+const finalText = (q) => /veto|concur|conference|cofc|become law/i.test(q);
 for (const r of rolls) {
   const billMatch = /^([A-Z]+)\s*0*(\d+)$/.exec((r.bill ?? "").replace(/\s+/g, ""));
   if (!billMatch) { stats.noBill++; continue; }
@@ -384,12 +475,23 @@ for (const r of rolls) {
   if (yes !== r.yeas || no !== r.nays || r.listTally[0] !== r.yeas || r.listTally[1] !== r.nays) { stats.mismatch++; console.log("tally mismatch", r.id, r.bill, yes, no, r.yeas, r.nays); continue; }
   const question = MOTIONS[r.question] ? `${r.question} (${MOTIONS[r.question]})` : r.question;
   const needsTwoThirds = /veto|rules? suspension|suspend|become law/i.test(r.question);
-  const passed = r.result ? !/^Failed/i.test(r.result) : needsTwoThirds ? yes * 3 >= (yes + no) * 2 : yes > no;
+  // Constitutional amendments need three-fifths of the entire membership (Part II, Art. 100): 240 of 400 House, 15 of 24 Senate.
+  const needsThreeFifthsOfMembers = billMatch[1] === "CACR" && /^(OTPA?|Ought to Pass)\b/i.test(r.question);
+  // The Senate Journal prints the official result after the tally: "Adopted[, ...]", "Adopted by necessary 2/3 vote",
+  // "Failed.", "Veto sustained lacking necessary 2/3 vote." (an override that failed). Anything else is not recognised and
+  // falls back to the threshold rules below rather than being read as a pass.
+  const official = !r.result ? undefined
+    : /^(Adopted|Passed|Veto overridden)\b/i.test(r.result) ? true
+    : /^(Failed|Veto sustained|Lost)\b/i.test(r.result) ? false : undefined;
+  if (r.result && official === undefined) console.log("unrecognised journal result", r.id, JSON.stringify(r.result));
+  const passed = official !== undefined ? official
+    : needsThreeFifthsOfMembers ? yes >= (r.chamber === "lower" ? 240 : 15) && yes > no
+    : needsTwoThirds ? yes * 3 >= (yes + no) * 2 : yes > no;
   const [yyyy, mm, dd] = r.date.split("-");
   built[r.chamber].push({
     id: r.id,
     bill: `${billMatch[1]} ${Number(billMatch[2])}`,
-    title: (r.chamber === "lower" && r.title) || lsrTitles.get(r.bill.replace(/\s+/g, "")) || titleOf.get(r.bill.replace(/\s+/g, "")) || r.title || r.question,
+    title: titleAtVote(r),
     question,
     kind: classify({ motion_text: MOTIONS[r.question] ?? r.question, motion_classification: r.question in MOTIONS ? ["passage"] : [] }),
     outcome: `${passed ? "Passed" : "Failed"} ${yes}–${no}`,

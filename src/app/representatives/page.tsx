@@ -21,7 +21,7 @@ function LookupNotes({ context }: { context: LookupContext }) {
   const change = context.houseDistrictChange;
   if (!lines.length && !change) return null;
   return (
-    <div className="mt-4 flex max-w-2xl flex-col gap-2 rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
+    <div className="mt-4 flex max-w-2xl flex-col gap-2 border border-hairline-soft bg-paper-raised p-4 font-sans text-[13px] leading-relaxed text-ink-60">
       {change && (
         <p>
           Your district changes for the Nov 3, 2026 election: you’ll vote in the {change.ballotLabel} race (your current representative serves {change.currentLabel}).{" "}
@@ -76,7 +76,7 @@ export default async function RepresentativesPage({
           <h1 className="font-serif text-[26px] font-semibold tracking-[-0.01em] text-ink lg:text-[32px]">
             Your representatives
           </h1>
-          <p className="mt-4 max-w-lg rounded-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] leading-relaxed text-ink-60">
+          <p className="mt-4 max-w-lg border border-hairline-soft bg-paper-raised p-4 font-sans text-[13.5px] leading-relaxed text-ink-60">
             {lookupMessage(result.reason, address)}
           </p>
           <AddressLookupForm initialAddress={address} />
@@ -110,7 +110,7 @@ export default async function RepresentativesPage({
         {result.context && <LookupNotes context={result.context} />}
         <Link
           href={`/votes${address ? `?address=${encodeURIComponent(address)}` : ""}`}
-          className="mt-4 inline-flex rounded-[10px] bg-ink px-4 py-2.5 font-sans text-[13.5px] font-semibold text-paper"
+          className="mt-4 inline-flex bg-ink px-4 py-2.5 font-sans text-[13.5px] font-semibold text-paper"
         >Explore their votes by issue →</Link>
         {address && count > 1 && (
           <Link

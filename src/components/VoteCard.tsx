@@ -19,7 +19,7 @@ export function VoteCard({
   desktop?: boolean;
 }) {
   return (
-    <article className="flex flex-col rounded-lg border border-card bg-paper-raised px-4 pt-4 shadow-card transition-shadow hover:shadow-card-raised">
+    <article className="flex flex-col border border-card bg-paper-raised px-4 pt-4 transition-colors hover:border-card-strong">
       <div className="flex items-start justify-between gap-3">
         <div className="flex flex-col gap-[3px]">
           <div className="font-sans text-[11px] font-bold tracking-[0.06em] text-ink-45">

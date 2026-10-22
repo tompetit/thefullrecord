@@ -19,7 +19,9 @@
  * people (github.com/openstates/people data/tx, current + retired, role dates and alternate names) by chamber and the vote
  * date. Every stored tally must equal the printed count of every list; otherwise the roll call is dropped and counted.
  * A name that fits no one or several people drops the roll call (no partial voter lists).
- * Titles are the bill captions printed in the journals ("A bill to be entitled An Act relating to ..."). Texas publishes
+ * Titles are the caption of the version voted: for a passage, concurrence or conference-report vote the caption of the
+ * engrossed (E) or enrolled (F) bill text on Texas Legislature Online, otherwise the caption the journals printed most
+ * recently before the vote ("A bill to be entitled An Act relating to ..."), never the introduced one. Texas publishes
  * no separate vote-level summaries, so no `summary` is set.
  *
  * Cache: --work (default ~/.cache/tx-leg). <= 2.5 requests/second.
@@ -38,6 +40,7 @@ const OUT = join(ROOT, "src/server/snapshot");
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry");
+const OUT_DIR = args.includes("--out") ? args[args.indexOf("--out") + 1] : OUT; // write the snapshots elsewhere (to compare)
 const work = args.includes("--work") ? args[args.indexOf("--work") + 1] : join(homedir(), ".cache/tx-leg");
 for (const d of ["hj", "sj"]) mkdirSync(join(work, d), { recursive: true });
 const gap = { minGapMs: 400 };
@@ -134,9 +137,30 @@ const HEAD_S = /^((?:SENATE|HOUSE)(?: JOINT| CONCURRENT)? (?:BILL|RESOLUTION)) (
 const failed = (s) => /failed|was lost|not granted|did not prevail|was defeated|not adopted/i.test(s);
 const rolls = { lower: [], upper: [] };
 const drops = {}; const drop = (why, extra) => { drops[why] = (drops[why] ?? 0) + 1; if (DRY && extra) console.log("DROP", why, extra); };
-const titles = new Map();
-// keyed by session: bill numbers restart in each called session
-const setTitle = (sess, bill, t) => { const k = `${sess}:${bill}`; if (t && !titles.has(k)) titles.set(k, t.replace(/\s+/g, " ").trim().replace(/\.$/, "")); };
+// Every caption the journals print for a bill, with where it was printed: a roll call takes the caption printed most recently
+// before it (the version being voted on), not the first one seen (the introduced caption, often replaced by a committee
+// substitute or floor amendment before the vote). Keyed by session: bill numbers restart in each called session.
+const titles = new Map(); // key -> [{ date, chamber, ord, t }]
+const ord = { lower: 0, upper: 0 }; // running line number through each chamber's journals, in date order
+let at = null; // { date, chamber } of the journal line being read
+const clean = (t) => t.replace(/\s+/g, " ").trim().replace(/\.$/, "").replace(/^[Aa]n? (?:joint |concurrent )?resolution (?=[a-z])/, "");
+const setTitle = (sess, bill, t) => {
+  if (!t || /^(?:CS)?(?:HB|SB|HJR|SJR|HCR|SCR|HR|SR) \d/.test(t)) return; // a list of bills ("SB 1, SB 1555"), not a caption
+  const k = `${sess}:${bill}`;
+  if (!titles.has(k)) titles.set(k, []);
+  titles.get(k).push({ ...at, ord: ord[at.chamber], t: clean(t) });
+};
+/** Caption of the bill as of a roll call: the last one printed before the vote in the same chamber's journal (same day
+ *  allowed) or on an earlier day in either journal; else the first one printed after it; else null. */
+function titleAt(sess, bill, r) {
+  const list = titles.get(`${sess}:${bill}`) ?? [];
+  const before = list.filter((c) => c.date < r.date || (c.chamber === r.chamber && c.ord <= r.ord));
+  const pick = (a, b) => (a.date !== b.date ? (a.date > b.date ? a : b) : a.chamber === r.chamber && b.chamber !== r.chamber ? a
+    : b.chamber === r.chamber && a.chamber !== r.chamber ? b : a.ord >= b.ord ? a : b);
+  if (before.length) return before.reduce(pick).t;
+  const after = list.filter((c) => !before.includes(c)).sort((a, b) => a.date.localeCompare(b.date) || a.ord - b.ord);
+  return after[0]?.t ?? null;
+}
 const seen = { lower: 0, upper: 0 };
 
 function resolveAll(chamber, lists, date, what) {
@@ -158,8 +182,10 @@ for (const d of days.filter((x) => x.chamber === "lower")) {
   const lines = textLines(readFileSync(d.file, "utf8"));
   let bill = null, amendment = null, offeror = null, seq = 0;
   const amendBy = new Map();
+  at = { date: d.date, chamber: "lower" };
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
+    ord.lower++;
     let m;
     if ((m = HEAD_H.exec(line))) bill = `${m[1]} ${m[2]}`;
     if ((m = /^Amendment No\. (\d+)$/.exec(line))) { amendment = m[1]; offeror = null; }
@@ -214,7 +240,7 @@ for (const d of days.filter((x) => x.chamber === "lower")) {
     rolls.lower.push({
       session: d.session,
       id: `tx-h-${d.session}-${String(v[1]).padStart(4, "0")}`,
-      bill: theBill, date: d.date, chamber: "lower", question,
+      bill: theBill, date: d.date, chamber: "lower", ord: ord.lower, question,
       kind: /^(?:Motion:|Extend speaking)/.test(question) ? "procedural" : classify({ motion_text: question, motion_classification: passage ? ["passage"] : [] }),
       outcome: `${failedFinal ? "Failed" : "Passed"} ${counts.yes}–${counts.no}${twoThirds ? " (two-thirds needed)" : ""}`,
       dateLabel: `${MONTHS[+d.date.slice(5, 7) - 1]} ${+d.date.slice(8, 10)}, ${d.date.slice(0, 4)}`,
@@ -231,8 +257,10 @@ for (const d of days.filter((x) => x.chamber === "upper")) {
   const lines = textLines(readFileSync(d.file, "utf8"));
   const active = activeIn("upper", d.date);
   let bill = null, prev = null, seq = 0;
+  at = { date: d.date, chamber: "upper" };
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
+    ord.upper++;
     let m;
     if ((m = HEAD_S.exec(line))) bill = `${KIND[m[1]]} ${m[2]}`;
     // "Senator X moved to suspend the regular order ... to take up for consideration CSSB 39" / "moved to concur in the House amendments to SB 2"
@@ -297,7 +325,7 @@ for (const d of days.filter((x) => x.chamber === "upper")) {
     rolls.upper.push({
       session: d.session,
       id: `tx-s-${d.session}-${d.date.replace(/-/g, "")}-${String(nextSeq(d.session + d.date)).padStart(3, "0")}`,
-      bill: theBill, date: d.date, chamber: "upper", question,
+      bill: theBill, date: d.date, chamber: "upper", ord: ord.upper, question,
       kind: /^Motion:/.test(question) ? "procedural" : classify({ motion_text: question, motion_classification: passage ? ["passage"] : [] }),
       outcome: `${fail ? "Failed" : "Passed"} ${counts.yes}–${counts.no}`,
       dateLabel: `${MONTHS[+d.date.slice(5, 7) - 1]} ${+d.date.slice(8, 10)}, ${d.date.slice(0, 4)}`,
@@ -316,6 +344,7 @@ mkdirSync(join(work, "tlo"), { recursive: true });
 for (const chamber of ["lower", "upper"]) for (const r of rolls[chamber]) {
   const key = `${r.session}:${r.bill}`;
   if (titles.has(key)) continue;
+  at = { date: "9999-12-31", chamber: "tlo" }; // current caption: used only when no journal prints one
   const file = join(work, "tlo", `${r.session}-${r.bill.replace(" ", "")}.html`);
   if (!existsSync(file)) {
     const res = await politeGet(`https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89${r.session}&Bill=${r.bill.replace(" ", "")}`, { ...gap, allow404: true });
@@ -323,27 +352,67 @@ for (const chamber of ["lower", "upper"]) for (const r of rolls[chamber]) {
   }
   setTitle(r.session, r.bill, decodeXml(/id="lblCaptionText">([^<]*)</.exec(readFileSync(file, "utf8"))?.[1] ?? ""));
 }
+// The journals print a bill's caption when it is laid out, before floor amendments, and do not reprint it when an amendment
+// rewrites it. So a vote that passes a version takes the caption of that version's official text on Texas Legislature
+// Online: in the originating chamber the engrossed text (E: as passed there), in the other chamber and on concurrence /
+// conference reports the enrolled text (F: as finally passed; not for a second-chamber passage when a conference
+// committee rewrote the bill afterwards). Amendment, tabling and procedural votes, failed votes, and bills without that
+// text (died, simple resolutions) keep the journal caption printed before the vote.
+const TLO_CODE = { HB: "HB", SB: "SB", HJR: "HJ", SJR: "SJ", HCR: "HC", SCR: "SC" };
+mkdirSync(join(work, "text"), { recursive: true });
+const hadConference = new Set();
+for (const chamber of ["lower", "upper"]) for (const r of rolls[chamber]) if (/conference committee report/.test(r.question)) hadConference.add(`${r.session}:${r.bill}`);
+const versionOf = (r) => {
+  const [type] = r.bill.split(" ");
+  if (!TLO_CODE[type] || /^Failed/.test(r.outcome)) return null;
+  if (/^(?:Concur in|Adopt conference committee report)/.test(r.question)) return "F";
+  if (!/^(?:Final passage|Passage to|Adopt (?:HB|SB|HJR|SJR|HCR|SCR) )/.test(r.question)) return null;
+  if ((r.chamber === "lower") === type.startsWith("H")) return "E";
+  return hadConference.has(`${r.session}:${r.bill}`) ? null : "F";
+};
+const versionCaptions = new Map();
+async function versionCaption(sess, bill, ver) {
+  const [type, num] = bill.split(" ");
+  const name = `${TLO_CODE[type]}${num.padStart(5, "0")}${ver}`;
+  const key = `${sess}:${name}`;
+  if (versionCaptions.has(key)) return versionCaptions.get(key);
+  const file = join(work, "text", `${sess}-${name}.htm`);
+  if (!existsSync(file)) {
+    const res = await politeGet(`https://capitol.texas.gov/tlodocs/89${sess}/billtext/html/${name}.htm`, { ...gap, allow404: true });
+    writeFileSync(file, res ? await res.text() : "");
+  }
+  const text = decodeXml(readFileSync(file, "utf8").replace(/<[^>]+>/g, " ")).replace(/[\s\u00a0]+/g, " ");
+  const m = /\b((?:relating|proposing|requesting|directing|authorizing|granting|memorializing|designating|recognizing) .+?)\. BE IT (?:ENACTED|RESOLVED)/i.exec(text);
+  const t = m ? clean(m[1]) : null;
+  versionCaptions.set(key, t);
+  return t;
+}
 const noTitle = new Set();
+let fromText = 0;
 for (const chamber of ["lower", "upper"]) for (const r of rolls[chamber]) {
-  const t = titles.get(`${r.session}:${r.bill}`);
+  const ver = versionOf(r);
+  const vt = ver ? await versionCaption(r.session, r.bill, ver) : null;
+  if (vt) fromText++;
+  const t = vt ?? titleAt(r.session, r.bill, r);
   r.title = t ? t.charAt(0).toUpperCase() + t.slice(1) : (noTitle.add(r.bill), r.bill);
 }
 const now = new Date().toISOString();
 for (const chamber of ["lower", "upper"]) {
   const list = rolls[chamber];
   list.sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
-  await writeSnapshot(join(OUT, `state-tx-${chamber}.json`), {
+  await writeSnapshot(join(OUT_DIR, `state-tx-${chamber}.json`), {
     generatedAt: now,
     chamber: snapshotChamberName("tx", chamber),
     sourceLabel: `Roll call · Texas ${chamber === "lower" ? "House" : "Senate"} floor votes (Texas Legislature journals)`,
     keyBy: "openstates",
     jurisdiction: "tx",
     legislativeChamber: chamber,
-    rollCalls: list.map(({ chamber: _c, session: _s, ...r }) => r),
+    rollCalls: list.map(({ chamber: _c, session: _s, ord: _o, ...r }) => r),
   }, { compact: true });
   const dates = list.map((r) => r.date).sort();
   console.log(`${chamber}: ${list.length} roll calls ${dates[0]}..${dates.at(-1)}`);
 }
+console.log(`captions from the text of the version voted: ${fromText}`);
 console.log("bills without a title:", noTitle.size, [...noTitle].slice(0, 40));
 console.log("ambiguous names:", Object.fromEntries(ambiguous));
 console.log("unmatched names:", Object.fromEntries(unmatched));

@@ -18,7 +18,7 @@ export function ElectionCard({
 }) {
   if (!isOnBallot(election)) {
     return (
-      <section className="mt-4 rounded-[10px] border border-card bg-paper-raised p-4">
+      <section className="mt-4 border border-card bg-paper-raised p-4">
         <h2 className="font-sans text-[11px] font-bold tracking-[0.06em] text-ink-45">
           THIS SEAT
         </h2>
@@ -31,7 +31,7 @@ export function ElectionCard({
   }
 
   return (
-    <section className="mt-4 rounded-[10px] border border-card bg-paper-raised p-4">
+    <section className="mt-4 border border-card bg-paper-raised p-4">
       <h2 className="font-sans text-[11px] font-bold tracking-[0.06em] text-ink-45">
         ON THE BALLOT · {election.dateLabel.toUpperCase()}
         {election.seats && election.seats > 1 ? ` · ${election.seats} SEATS` : ""}
@@ -57,7 +57,7 @@ export function ElectionCard({
               {c.parties.map((p) => (
                 <span
                   key={p}
-                  className="rounded-[3px] border border-chip-border px-1 text-[10.5px] font-semibold leading-normal"
+                  className="rounded-[2px] border border-chip-border px-1 text-[10.5px] font-semibold leading-normal"
                 >
                   {p}
                 </span>
@@ -92,7 +92,7 @@ export function ElectionCard({
                 {c.parties.map((p) => (
                   <span
                     key={p}
-                    className="rounded-[3px] border border-chip-border px-1 text-[10px] font-semibold leading-normal"
+                    className="rounded-[2px] border border-chip-border px-1 text-[10px] font-semibold leading-normal"
                   >
                     {p}
                   </span>
@@ -111,7 +111,7 @@ export function ElectionCard({
       {getRace(election.districtKey) && (
         <Link
           href={`/guide/race/${election.districtKey}`}
-          className="mt-3 block rounded-md bg-ink px-3 py-2 text-center font-sans text-[12.5px] font-bold text-paper hover:opacity-90"
+          className="mt-3 block rounded-[2px] bg-ink px-3 py-2 text-center font-sans text-[12.5px] font-bold text-paper hover:opacity-90"
         >
           Compare the candidates&rsquo; records →
         </Link>

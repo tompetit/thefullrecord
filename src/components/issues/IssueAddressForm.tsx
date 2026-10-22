@@ -26,13 +26,13 @@ export function IssueAddressForm({ initialAddress = "" }: { initialAddress?: str
           onValueChange={setValue}
           maxLength={300}
           placeholder="123 Main St, Albany, NY 12207"
-          fieldClassName="min-h-12 rounded-lg border border-chip-border bg-paper px-3 focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-accent"
+          fieldClassName="min-h-12 border border-chip-border bg-paper px-3 focus-within:outline-2 focus-within:outline-offset-4 focus-within:outline-accent"
           inputClassName="text-sm"
         />
       </div>
       <button
         type="submit"
-        className="mt-3 min-h-12 w-full cursor-pointer rounded-lg bg-accent px-4 text-sm font-semibold text-white hover:bg-accent-deep"
+        className="mt-3 min-h-12 w-full cursor-pointer bg-accent px-4 text-sm font-semibold text-white hover:bg-accent-deep"
       >
         Find my representatives’ votes →
       </button>

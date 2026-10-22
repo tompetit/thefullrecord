@@ -164,7 +164,9 @@ for (const code of new Set([...senate.values()].flatMap((s) => [...s.yeas, ...s.
 }
 
 { const seen = new Map(); for (const [c, id] of senators) { if (!id || seen.has(id)) throw new Error(`senator ${c} unmapped or duplicate of ${seen.get(id)}`); seen.set(id, c); } }
-const verdict = (text, yes, no) => (/reject|fail|lost|defeat|not agreed|negativ/i.test(text ?? "") ? "Failed" : /adopt|pass|enact|engross|accept|agree|concur|approv|confirm|prevail|sustain|ordered/i.test(text ?? "") ? "Passed" : yes > no ? "Passed" : "Failed");
+// Outcome from the roll call's own history action ("... adopted", "... rejected"). Negations are checked first, so
+// "Motion (Tarr) to suspend the rules does not prevail -- see Roll Call #153" is a failure even though it contains "prevail".
+const verdict = (text, yes, no) => (/reject|fail|lost|defeat|negativ|\bnot (?:\w+ )?(?:prevail|agreed|adopt|accept|pass|carr|sustain|order|enact|engross|concur|approv|confirm)|\b(?:does|did|do) not\b/i.test(text ?? "") ? "Failed" : /adopt|pass|enact|engross|accept|agree|concur|approv|confirm|prevail|sustain|ordered/i.test(text ?? "") ? "Passed" : yes > no ? "Passed" : "Failed");
 const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const dropped = {}; const droppedIds = {};

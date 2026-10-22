@@ -6,7 +6,7 @@ import type { Party } from "@/server/types";
  */
 export function PartyChip({ party, label }: { party?: Party; label?: string }) {
   return (
-    <span className="rounded-[3px] border border-chip-border px-1 text-[10.5px] font-semibold leading-normal">
+    <span className="rounded-[2px] border border-chip-border px-1 text-[10.5px] font-semibold leading-normal">
       {party ?? label}
     </span>
   );

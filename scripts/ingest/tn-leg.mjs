@@ -112,6 +112,47 @@ function entries(panelHtml) {
   return out.filter((e) => e.committee === "FLOOR VOTE");
 }
 
+/**
+ * Official result of each floor tally in the Bill Action History ("Passed H., Ayes 63, Nays 18, PNV 9", "Failed to pass H.,
+ * Ayes 46, Nays 29, PNV 8", "Concurred, Ayes 31, Nays 0", "Failed to adopt am. ...", ...), keyed
+ * `${chamber}#${yyyy-mm-dd}#${ayes}#${nays}` -> "Passed" | "Failed" | "conflict". Committee recommendations are skipped.
+ */
+function historyResults(page) {
+  const out = new Map();
+  for (const m of page.matchAll(/<tr class='(house|senate)'><td[^>]*>([^<]*)<\/td><td[^>]*>(\d\d)\/(\d\d)\/(\d{4})<\/td><\/tr>/g)) {
+    const cell = decodeXml(m[2]);
+    const t = /Ayes (\d+), Nay?e?s (\d+)/.exec(cell);
+    if (!t || /recommended|\bref(er)?\b/i.test(cell)) continue;
+    const word = /\bfail/i.test(cell) ? "Failed" : /passed|adopted|concurred/i.test(cell) ? "Passed" : null;
+    if (!word) continue;
+    const key = `${m[1] === "house" ? "lower" : "upper"}#${m[5]}-${m[3]}-${m[4]}#${t[1]}#${t[2]}`;
+    out.set(key, out.has(key) && out.get(key) !== word ? "conflict" : word);
+  }
+  return out;
+}
+
+/**
+ * "Passed"/"Failed" for a floor vote, from the official record, never from ayes > noes: a bill can fail with more ayes than
+ * noes (House passage needs 50 ayes), and so can a previous-question motion. In order:
+ * 1. the Bill Action History row with the same chamber, date and tally (most authoritative: in 3 of ~8,000 votes the Votes
+ *    tab prints the wrong word, e.g. HB1757 "Passed" 46-29 where the history says "Failed to pass H.", HB0662 "Failed" 63-30
+ *    where it says "Passed H.");
+ * 2. the result printed under the vote on the Votes tab ("Passed", "Failed", ...), which covers motions the history omits
+ *    (previous question, amendments);
+ * 3. only if neither exists: bills and joint resolutions on passage/concurrence need "a majority of all the members to which
+ *    each House is entitled" (Tenn. Const. Art. II, Sec. 18), 50 of 99 House / 17 of 33 Senate; other motions are taken as
+ *    decided by a majority of those voting.
+ */
+function outcomeWord(e, chamber, day, ayes, noes, history) {
+  const h = history.get(`${chamber}#${day}#${ayes}#${noes}`);
+  if (h === "Passed" || h === "Failed") return h;
+  if (/^(Passed|Adopted)\b/i.test(e.result ?? "")) return "Passed";
+  if (/^(Failed|Rejected|Not Adopted|Defeated)\b/i.test(e.result ?? "")) return "Failed";
+  const passage = /passage|third consideration|concur|final|adopt/i.test(e.motion) && !/previous question|table|reconsider/i.test(e.motion);
+  if (passage) return ayes >= (chamber === "lower" ? 50 : 17) ? "Passed" : "Failed";
+  return ayes > noes ? "Passed" : "Failed";
+}
+
 const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const skipped = {}; const skip = (why) => { skipped[why] = (skipped[why] ?? 0) + 1; };
@@ -123,6 +164,7 @@ for await (const [bill, page] of crawl(work)) {
   const summaryHtml = /<h3>Bill Summary<\/h3>([\s\S]*?)(?:<h3>|<\/li>)/.exec(page)?.[1] ?? "";
   const { summary, summarySource } = billSummary({ title: abstract, abstracts: [{ abstract: flow(summaryHtml) }] });
   const caption = text(/id="divCaptionText"[^>]*>([\s\S]*?)<\/div>/.exec(page)?.[1] ?? "");
+  const history = historyResults(page);
   for (const [panelId, chamber] of PANELS) {
     const i = page.indexOf(`ID="${panelId}"`);
     if (i < 0) continue;
@@ -154,7 +196,7 @@ for await (const [bill, page] of crawl(work)) {
         ...(summary ? { summary, summarySource } : {}),
         question: e.motion || undefined,
         kind: classify({ motion_text: e.motion, motion_classification: /passage|third consideration|concur|final|adopt/i.test(e.motion) ? ["passage"] : [] }),
-        outcome: `${ayes > noes ? "Passed" : "Failed"} ${ayes}–${noes}`,
+        outcome: `${outcomeWord(e, chamber, day, ayes, noes, history)} ${ayes}–${noes}`,
         date: day,
         dateLabel: `${MONTHS[Number(e.m) - 1]} ${Number(e.d)}, ${e.y}`,
         sourceUrl: `https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=${bill}&GA=114`,

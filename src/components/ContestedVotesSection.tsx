@@ -7,8 +7,8 @@ import { VoteBadge } from "./VoteBadge";
 export function ContestedVotesSection({ votes, max = 8, allHref }: { votes: ContestedVote[]; max?: number; allHref?: string }) {
   if (!votes.length) return null;
   return (
-    <section aria-labelledby="contested-votes" className="rounded-lg border border-card bg-paper-raised p-4 shadow-card">
-      <h2 id="contested-votes" className="font-serif text-[17px] font-bold text-ink">Their votes on the most contested roll calls</h2>
+    <section aria-labelledby="contested-votes" className="border border-card bg-paper-raised p-4">
+      <h2 id="contested-votes" className="font-sans text-[12px] font-bold uppercase tracking-[0.06em] text-ink">Their votes on the most contested roll calls</h2>
       <p className="mt-1.5 font-sans text-[13px] leading-[1.5] text-ink-60">The votes in their chamber that came out closest and most divided by party, among those they voted on. <Link href="/coverage#party-splits" className="underline">How we rank</Link></p>
       <ul className="mt-2 flex flex-col divide-y divide-hairline-soft">
         {votes.slice(0, max).map((v) => (

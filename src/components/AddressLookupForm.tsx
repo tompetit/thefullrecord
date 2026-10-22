@@ -36,12 +36,12 @@ export function AddressLookupForm({ initialAddress = "", hint = true }: { initia
           label="Street address, city, and ZIP code"
           describedBy={privacyId}
           leading={<Glyph name="target" className="text-[15px] text-ink-45" />}
-          fieldClassName="rounded-[10px] border-[1.5px] border-ink bg-paper-raised px-4 py-[15px]"
+          fieldClassName="border-[1.5px] border-ink bg-paper-raised px-4 py-[15px]"
           inputClassName="text-[15px]"
         />
         <button
           type="submit"
-          className="min-h-11 cursor-pointer rounded-[10px] bg-ink px-6 py-[15px] font-sans text-[15px] font-bold text-paper hover:opacity-90"
+          className="min-h-11 cursor-pointer bg-ink px-6 py-[15px] font-sans text-[15px] font-bold text-paper hover:opacity-90"
         >
           Find my representatives
         </button>

@@ -98,6 +98,25 @@ const RANK = { "SUMMARY AS PASSED": 3, "SUMMARY AS PASSED SENATE": 3, "SUMMARY A
 const stripHtml = (h) => h.replace(/<[^>]*>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;|&rsquo;/g, "'").replace(/\s+/g, " ").trim()
   .replace(/(\?{1,2})\s*(?=\d+(?:\.\d+)?-\d)/g, (_, q) => `${"§".repeat(q.length)} `); // the source file stores § as "?"
 
+/**
+ * Official result of a floor action, read from its LIS history text: true (carried), false (failed), or null when the text
+ * states no result. The text is the official outcome and wins over the tally, because many Virginia votes need more than a
+ * majority of those voting: a veto override or a "motion to pass in enrolled form" needs two-thirds of members present
+ * including a majority of members elected (Va. Const. Art. V §6(b)); debt, appropriation and tax bills need a majority of
+ * members elected (Art. IV §11); special acts such as charters need two-thirds of members elected (Art. VII §1). So
+ * "House sustained Governor's veto (50-Y 46-N)" or "Defeated by House - 51 votes required for passage" failed, and a
+ * Senate 20-20 tie the Lieutenant Governor broke reads "Passed Senate" with no yes-majority in the member tally.
+ * "Reconsideration of X rejected/defeated" names the action being reconsidered, not the result of the reconsideration,
+ * so those (and other texts with no result) fall back to the tally: a simple majority of those voting decides such motions.
+ */
+function officialResult(question) {
+  const q = question.replace(/\s+/g, " ").trim();
+  if (/^Reconsider/i.test(q)) return /\bagreed to\b(?: by (?:the )?(?:House|Senate))?(?: Block Vote)?$/i.test(q) ? true : null;
+  if (/\b(rejected|defeated|sustained|failed)\b/i.test(q)) return false;
+  if (/\b(passed|agreed|concurred|adopted|elected|election|dispensed|waived|insisted|acceded|receded|requested|engrossed|reported|reconsidered|suspended|taken up)\b/i.test(q)) return true;
+  return null;
+}
+
 const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const unmatched = new Map(); const skipped = {};const skip = (why) => { skipped[why] = (skipped[why] ?? 0) + 1; };
@@ -110,7 +129,12 @@ for (const s of SESSIONS) {
     if (rank && rank >= (summaries.get(key)?.rank ?? 0)) summaries.set(key, { rank, text: stripHtml(r.SUMMARY_TEXT) });
   }
   const voteRows = new Map(csv(await get(`${BLOB}/${s}/VOTE.CSV`, `${s}/VOTE.CSV`), false).filter((r) => r.length > 2).map((r) => [r[0], r]));
-  for (const h of csv(await get(`${BLOB}/${s}/HISTORY.CSV`, `${s}/HISTORY.CSV`))) {
+  const history = csv(await get(`${BLOB}/${s}/HISTORY.CSV`, `${s}/HISTORY.CSV`));
+  // LIS occasionally reuses a vote id: SV1047 of 2025 is SB 1192's April 2 veto vote (19-Y 21-N) but is also attached to an
+  // untallied January 15 SB 825 action. A row with no printed tally whose id carries a printed tally on another date is skipped.
+  const tallied = new Map(); // vote id -> dates of rows that print a tally
+  for (const h of history) if (/\(\d+-Y \d+-N/.test(h.History_description)) tallied.set(h.History_refid, (tallied.get(h.History_refid) ?? new Set()).add(h.History_date));
+  for (const h of history) {
     const ref = h.History_refid;
     const row = voteRows.get(ref);
     const chamber = CHAMBER[h.History_description[0]];
@@ -131,6 +155,7 @@ for (const s of SESSIONS) {
     const m = /\((\d+)-Y (\d+)-N/.exec(h.History_description);
     // The vote file occasionally disagrees with the printed tally (re-used ids); drop rather than publish a doubtful roll call.
     if (m && (Number(m[1]) !== yes || Number(m[2]) !== no)) { skip("tally-mismatch"); continue; }
+    if (!m && [...(tallied.get(ref) ?? [])].some((date) => date !== h.History_date)) { skip("vote-id-reused"); continue; }
     const title = titles.get(`${s}:${h.Bill_id}`);
     if (!title) { skip("no-bill-title"); continue; }
     const question = h.History_description.replace(/^[HS] /, "").replace(/\s*\(\d+-Y.*$/, "").trim();
@@ -144,7 +169,7 @@ for (const s of SESSIONS) {
       ...(bi.summary ? bi : {}),
       question,
       kind: /reading dispensed/i.test(question) ? "procedural" : classify({ motion_text: question, motion_classification: /passed|concurred|agreed to|adopted/i.test(question) && !/amendment|reconsider/i.test(question) ? ["passage"] : [] }),
-      outcome: `${yes > no ? "Passed" : "Failed"} ${yes}–${no}`,
+      outcome: `${(officialResult(question) ?? yes > no) ? "Passed" : "Failed"} ${yes}–${no}`,
       date: day,
       dateLabel: `${MONTHS[Number(mo) - 1]} ${Number(d)}, ${y}`,
       sourceUrl: `https://lis.virginia.gov/bill-details/${s}/${h.Bill_id}`,

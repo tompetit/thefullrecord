@@ -23,7 +23,7 @@ export function FilterChips<T extends string>({
             type="button"
             onClick={() => onChange(opt.value)}
             aria-pressed={active}
-            className={`min-h-11 cursor-pointer rounded-full px-3 font-sans text-xs font-semibold transition-colors ${
+            className={`min-h-11 cursor-pointer rounded-[2px] px-3 font-sans text-xs font-semibold transition-colors ${
               active
                 ? "bg-ink text-paper"
                 : "border border-chip-border text-ink-80 hover:border-card-strong"
