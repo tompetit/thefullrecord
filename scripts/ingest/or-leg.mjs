@@ -100,6 +100,21 @@ function bySurname(voteName) {
   return uniq.length === 1 ? uniq[0] : undefined;
 }
 
+/**
+ * Official result of a floor action, read from the action text ("Third reading. Carried by Gomberg. Failed.",
+ * "Motion to withdraw from Rules failed.", "... Passed.", "Motion to table carried."). The tally alone is not enough:
+ * Or. Const. Art. IV §25 requires a majority of all members elected (31 of 60 House, 16 of 30 Senate) to pass a bill
+ * (three-fifths for revenue bills), and House/Senate rules set the same floor for withdrawing a measure from committee,
+ * so e.g. a 28–12 third reading fails. Returns null when the text states no result; the caller then falls back to the tally.
+ */
+function officialResult(text) {
+  const t = String(text ?? "").split(/\bAyes?,\s*\d/)[0].replace(/\bCarried by [^.]*\./gi, ""); // "Carried by X" names the carrier
+  if (/\brefused to concur\b/i.test(t)) return null; // records the concurrence motion's fate, not a pass/fail word
+  if (/\b(failed|lost)\b/i.test(t)) return "Failed";
+  if (/\b(passed|repassed|carried|adopted|readopted|concurred)\b/i.test(t)) return "Passed";
+  return null;
+}
+
 const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const unmatched = new Map(); const skipped = {}; let tallyMismatch = 0;
@@ -150,7 +165,7 @@ for (const session of SESSIONS) {
       ...summary,
       question: motion || undefined,
       kind: classify({ motion_text: motion, motion_classification: /\b(passed|adopted|concur)/i.test(motion) ? ["passage"] : [] }),
-      outcome: `${yes > no ? "Passed" : "Failed"} ${yes}–${no}`,
+      outcome: `${officialResult(motion) ?? (yes > no ? "Passed" : "Failed")} ${yes}–${no}`,
       date: day,
       dateLabel: `${MONTHS[Number(day.slice(5, 7)) - 1]} ${Number(day.slice(8, 10))}, ${day.slice(0, 4)}`,
       sourceUrl: `https://olis.oregonlegislature.gov/liz/${session}/Measures/Overview/${v0.MeasurePrefix}${v0.MeasureNumber}`,
