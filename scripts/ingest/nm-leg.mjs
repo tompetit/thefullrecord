@@ -140,6 +140,19 @@ const now = new Date().toISOString();
 const rolls = { lower: [], upper: [] };
 const skipped = {}; const skip = (why, f) => { skipped[why] = (skipped[why] ?? []).concat(f.name); };
 const seen = new Set();
+const misfiled = [];
+const WORD_TYPE = { BILL: "B", MEMORIAL: "M", "JOINT MEMORIAL": "JM", "JOINT RESOLUTION": "JR", RESOLUTION: "R", "CONCURRENT RESOLUTION": "CR" };
+/** Bills named in a PDF heading, in order: House "HB 63/ec", "HAFC/HB 2,& 3", "HM17, HM46, HM13/a"; Senate
+ *  "SENATE RULES COMMITTEE SUBSTITUTE FOR SENATE BILL 132", "SENATE JOINT RESOLUTION 15, AS AMENDED". */
+function headingBills(head) {
+  const text = head.slice(head.findIndex((l) => /^RCS#/.test(l)) + 1).join(" ");
+  const hits = [];
+  for (const a of text.matchAll(/\b(HB|SB|HM|SM|HJM|SJM|HJR|SJR|HCR|SCR|HR|SR)\s*(\d+)/gi))
+    hits.push({ at: a.index, chamber: a[1][0].toUpperCase(), type: a[1].slice(1).toUpperCase(), no: Number(a[2]) });
+  for (const w of text.matchAll(/\b(HOUSE|SENATE)\s+(BILL|JOINT MEMORIAL|JOINT RESOLUTION|CONCURRENT RESOLUTION|MEMORIAL|RESOLUTION)S?\s+(?:NO\.?\s*)?(\d+)/gi))
+    hits.push({ at: w.index, chamber: w[1][0].toUpperCase(), type: WORD_TYPE[w[2].toUpperCase().replace(/\s+/g, " ")], no: Number(w[3]) });
+  return hits.sort((x, y) => x.at - y.at).map(({ chamber, type, no }) => ({ chamber, type, no }));
+}
 // Bill-named files first so numbered copies only add votes that have no bill file.
 for (const f of [...files.filter((x) => x.bill), ...files.filter((x) => !x.bill)]) {
   const p = parsed[`${f.yy}-${f.name}`];
@@ -152,12 +165,17 @@ for (const f of [...files.filter((x) => x.bill), ...files.filter((x) => !x.bill)
   const date = `${dm[3].length === 2 ? "20" + dm[3] : dm[3]}-${dm[1]}-${dm[2]}`;
   const id = `nm-${f.yy}-${chamber === "lower" ? "h" : "s"}-${rcs}`;
   if (seen.has(id)) continue;
+  // The heading names the bill actually voted on. Some bill-named files are copies of another bill's roll call
+  // (26 Regular: SB0032SVOTE.PDF is RCS# 82 on SB 132, HB0036HVOTE.PDF is RCS# 86 on HB 63), so the heading wins.
+  // A heading may list several bills voted together ("HM17, HM46, ... HM2"); the file's own bill is kept when listed.
+  const named = headingBills(head);
+  const same = (x, y) => x.chamber === y.chamber && x.type === y.type && x.no === y.no;
   let bill = f.bill;
-  if (!bill) { // numbered copy: bill label from the heading ("HAFC/HB 2,& 3")
-    const m = /\b(HB|SB|HM|SM|HJM|SJM|HJR|SJR|HR|SR)\s*(\d+)/i.exec(head.join(" ").replace(/RCS#\s*\d+/, ""));
-    if (!m) { skip("numbered-no-bill", f); continue; }
-    bill = { chamber: m[1][0].toUpperCase(), type: m[1].slice(1).toUpperCase(), no: Number(m[2]) };
+  if (!bill || (named.length && !named.some((x) => same(x, f.bill)))) {
+    if (f.bill) misfiled.push(`${f.yy}-${f.name} -> ${named[0].chamber}${named[0].type} ${named[0].no}`);
+    bill = named[0];
   }
+  if (!bill) { skip("numbered-no-bill", f); continue; }
   // Tally: House prints it in the heading, Senate in a "TOTAL =>" row (YES NO ABS EXC REC).
   let yea, nay;
   const ht = /YEAS:\s*(\d+)\s*NAYS:\s*(\d+)/.exec(head.join(" "));
@@ -176,6 +194,10 @@ for (const f of [...files.filter((x) => x.bill), ...files.filter((x) => !x.bill)
   if (yes !== yea || no !== nay) { skip(`tally-mismatch (parsed ${yes}-${no}, printed ${yea}-${nay})`, f); continue; }
   if (!Object.keys(votes).length) { skip("no-matched-voters", f); continue; }
   seen.add(id);
+  // Senate sheets print the official result ("PASSED: 38-0" / "FAILED: ..."); House sheets print none, so the House
+  // falls back to the tally (yes > no).
+  const printed = /^(PASSED|FAILED)\b/.exec(p.junk.map((j) => j.join(" ")).find((j) => /^(PASSED|FAILED)\b/.test(j)) ?? "")?.[1];
+  const passed = printed ? printed === "PASSED" : yea > nay;
   const label = `${bill.chamber}${bill.type} ${bill.no}`;
   const title = await billTitle(f.yy, bill);
   // House PDFs: heading lines after "RCS# n" are bill label, then the motion; Senate: one title line.
@@ -190,7 +212,7 @@ for (const f of [...files.filter((x) => x.bill), ...files.filter((x) => !x.bill)
     title: title || label,
     ...(question ? { question } : {}),
     kind: classify({ motion_text: chamber === "lower" ? motion : "", motion_classification: chamber === "lower" && !/passage|concur|adopt/i.test(motion) ? [] : ["passage"] }),
-    outcome: `${yea > nay ? "Passed" : "Failed"} ${yea}–${nay}`,
+    outcome: `${passed ? "Passed" : "Failed"} ${yea}–${nay}`,
     date,
     dateLabel: `${MONTHS[Number(date.slice(5, 7)) - 1]} ${Number(date.slice(8, 10))}, ${date.slice(0, 4)}`,
     sourceUrl: `${SITE}/Legislation/Legislation?chamber=${bill.chamber}&legType=${bill.type}&legNo=${bill.no}&year=${f.yy}`,
@@ -212,6 +234,7 @@ for (const chamber of ["lower", "upper"]) {
   }, { compact: true });
   console.log(`${chamber}: ${list.length} roll calls, ${list[list.length - 1]?.date}..${list[0]?.date}`);
 }
+console.log(`bill-named files whose heading names another bill (heading used): ${misfiled.length}`, misfiled);
 console.log("skipped:", Object.fromEntries(Object.entries(skipped).map(([k, v]) => [k, v.length > 6 ? `${v.length} files` : v])));
 console.log("ambiguous names (votes dropped):", Object.fromEntries(ambiguous));
 console.log("unmatched member names (votes dropped):", Object.fromEntries(unmatched));

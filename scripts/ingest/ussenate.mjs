@@ -52,6 +52,41 @@ function parseVoteDate(s) {
 
 const mapVote = federalVote;
 
+/** Nominee named in a nomination vote title ("Motion to Invoke Cloture: Brian Nesvik to be …",
+ *  "Confirmation: Brian Nesvik, of Wyoming, to be …"); null for en bloc / procedural titles. */
+function nomineeOf(title) {
+  const m = /^(?:Motion to Invoke Cloture|Confirmation)\s*:\s*(.+?)(?:,| to be | to the )/i.exec(title ?? "");
+  if (!m || /en bloc|executive calendar/i.test(m[1])) return null;
+  return m[1].replace(/\s+of\s+[A-Z][\w. ]*$/, "").replace(/\./g, "").replace(/\s+/g, " ").trim().toLowerCase();
+}
+
+/**
+ * senate.gov occasionally files a nomination vote under the wrong PN number: vote 119-1-468 (cloture on Brian Nesvik,
+ * Fish and Wildlife Service, PN25-35 — Congressional Record Daily Digest, Aug 1 2025) is listed in the vote menu and
+ * vote XML under PN13-11 (Casey Mulligan). The vote title (what was voted on) is right; the issue number is not.
+ * When a nomination vote's nominee differs from the nominee every other vote on that PN names, and the nominee's own
+ * votes sit under exactly one other PN, move the vote to that PN.
+ */
+function fixNominationNumbers(rollCalls) {
+  const named = rollCalls.filter((rc) => /^PN\d/.test(rc.bill) && nomineeOf(rc.title));
+  for (const rc of named) {
+    const who = nomineeOf(rc.title);
+    const sameBill = named.filter((o) => o !== rc && o.bill === rc.bill).map((o) => nomineeOf(o.title));
+    if (!sameBill.length || sameBill.includes(who)) continue;
+    // A spelling variant of the same nominee ("Chamberlain"/"Chamberlin", "Steven"/"Stephen") shares a first or last name.
+    const ends = (n) => { const w = n.split(" ").filter((x) => !/^(jr|sr|ii|iii|iv)$/.test(x)); return [w[0], w[w.length - 1]]; };
+    const [first, last] = ends(who);
+    if (sameBill.some((n) => ends(n)[0] === first || ends(n)[1] === last)) continue;
+    const own = [...new Set(named.filter((o) => o.bill !== rc.bill && nomineeOf(o.title) === who).map((o) => o.bill))];
+    if (own.length !== 1) {
+      console.warn(`  ${rc.id}: title names ${who} but ${rc.bill} belongs to ${sameBill[0]}; no unique PN for ${who}, left as is`);
+      continue;
+    }
+    console.warn(`  ${rc.id}: senate.gov files this ${who} vote under ${rc.bill} (${sameBill[0]}); using ${own[0]}`);
+    rc.bill = own[0];
+  }
+}
+
 async function main() {
   // All senators: lis id -> bioguide, seniority order from congress-legislators.
   const legislators = JSON.parse(
@@ -143,6 +178,7 @@ async function main() {
       console.log(`  vote ${SESSION}-${mv.number}: ${mv.issue} — ${mv.result} ${mv.yeas}–${mv.nays}`);
     }
   }
+  fixNominationNumbers(rollCalls);
   rollCalls.sort((a, b) => b.date.localeCompare(a.date) || Number(b.id.split("-")[3]) - Number(a.id.split("-")[3]));
 
   const snapshot = {
