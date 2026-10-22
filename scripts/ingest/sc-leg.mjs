@@ -5,8 +5,9 @@
  * Sources (plain GETs/POSTs of public pages):
  *   POST /votehistory.php  type=CHAMBER&session=126&chamber={H|S}&headerfooter=1   one HTML table of every vote in the
  *                          session: vote number, bill, title + motion, date/time, Yeas/Nays/N-V/Exc.Abs./Pres./Abstain, result
- *   GET  /votehistory.php?KEY={n}   the roll call itself, served as a text PDF: YEAS / NAYS / EXCUSED ABSENCE / NOT VOTING
- *                          name lists ("Last, First M., Jr."), with the printed tally
+ *   GET  /votehistory.php?KEY={n}   the roll call itself, served as a text PDF: "RESULT: Passed|Failed", then YEAS / NAYS /
+ *                          EXCUSED ABSENCE / NOT VOTING name lists ("Last, First M., Jr."), with the printed tally
+ * The outcome is that official RESULT (list Result column as backup), not yea > nay.
  * Only votes with a bill number and at least one yea or nay are kept (attendance, officer elections and "Adjourn for
  * the day" rows carry no bill). Members are keyed "ocd-person/<uuid>" from the Open States people CSV by surname (+ given
  * name when two members share one), then Open States' retired list, then the other chamber's members. Excused Absence
@@ -30,6 +31,13 @@ const SITE = "https://www.scstatehouse.gov";
 const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const CHAMBERS = { H: "lower", S: "upper" };
 const SECTION = { YEAS: "yes", AYES: "yes", NAYS: "no", "EXCUSED ABSENCE": "absent", "NOT VOTING": "absent", PRESENT: "present", "ABSTAIN/RECUSED": "present", ABSTAIN: "present", RECUSED: "present" };
+/**
+ * Roll calls whose printed RESULT the official House Journal contradicts (KEY -> passed), checked against
+ * https://www.scstatehouse.gov/sess126_2025-2026/hj{yy}/{yyyymmdd}.htm:
+ *   27445 H 4270, 2026-04-28, Table Motion to Commit, Yeas 80; Nays 22: "So, the motion to commit the Bill was tabled."
+ *   25739 H 3927, 2025-04-02, Table Motion to Recommit Bill, Yeas 77; Nays 31: "So, the motion to recommit the Bill was tabled."
+ */
+const JOURNAL_RESULT = { 27445: true, 25739: true };
 const SUFFIX = /^(Jr\.?|Sr\.?|II|III|IV|V|Ph\.D\.?|Esq\.?)$/;
 
 const args = process.argv.slice(2);
@@ -112,7 +120,7 @@ for (const ch of ["H", "S"]) {
     if (!key || !/^[HS] \d+/.test(bill) || !dm) continue;
     const [first, ...motion] = cell(tds[2]).split(" | ");
     const num = (i) => Number(cell(tds[i]) || 0);
-    rows.push({ key, ch, bill, title: first.replace(/^\(|\)$/g, ""), hadTitle: first.startsWith("("), motion: motion.join(" ").trim(), date: `${dm[3]}-${dm[1]}-${dm[2]}`, yea: num(5), nay: num(6) });
+    rows.push({ key, ch, bill, title: first.replace(/^\(|\)$/g, ""), hadTitle: first.startsWith("("), motion: motion.join(" ").trim(), date: `${dm[3]}-${dm[1]}-${dm[2]}`, yea: num(5), nay: num(6), result: cell(tds[12]) });
   }
   lists[ch] = rows.filter((r) => r.yea + r.nay > 0);
   console.log(`${ch}: ${rows.length} bill votes, ${lists[ch].length} with yeas or nays`);
@@ -156,13 +164,26 @@ for (const r of todo) {
   }
   if (countBad) { drop("name-count-mismatch"); continue; }
   if (yes !== r.yea || no !== r.nay) { drop("tally-mismatch"); continue; }
+  // Outcome is the official result printed on the roll call ("RESULT: Passed|Failed"; the vote list's Result column is
+  // the backup), not yea > nay: suspending a Senate rule, granting free-conference powers or concurring in some House
+  // amendments need a supermajority, and the Senate/House Journals confirm those "Failed" results.
+  // Known misprints: on some House tabling/amendment votes the PDF's RESULT is the opposite of the House Journal.
+  //  - "Passed" with no more yeas than nays cannot be right (every motion needs at least a majority of those voting):
+  //    the Journal shows each such vote lost (KEY 25570, 26222, 28105, 28127), so it is stored Failed.
+  //  - JOURNAL_RESULT lists the "Failed" misprints the House Journal contradicts.
+  const printed = /^RESULT:\s*(.+?)\s*$/m.exec(body)?.[1] || r.result;
+  if (r.result && printed !== r.result) console.warn(`${r.key}: PDF result ${printed} != list result ${r.result}`);
+  let passed = JOURNAL_RESULT[r.key] ?? (/^Passed$/i.test(printed) ? true : /^Failed$/i.test(printed) ? false : null);
+  if (passed === null) { drop(`no-official-result(${printed || "none"})`); continue; }
+  if (passed && yes <= no) { console.warn(`${r.key}: printed ${printed} ${yes}-${no}; stored Failed`); passed = false; }
+  if (!passed && yes > no && !(r.key in JOURNAL_RESULT)) console.warn(`${r.key}: ${r.ch} "${r.motion}" printed ${printed} ${yes}-${no} (supermajority?)`);
   rolls[chamber].push({
     id: `sc-${r.ch.toLowerCase()}-${r.key}`,
     bill: r.bill,
     title: r.hadTitle ? r.title : r.motion || r.title,
     ...(r.motion ? { question: r.motion } : {}),
     kind: classify({ motion_text: `${r.motion} ${r.title}`, motion_classification: /passage|third reading|concur|adopt|conference report/i.test(r.motion) ? ["passage"] : [] }),
-    outcome: `${r.yea > r.nay ? "Passed" : "Failed"} ${r.yea}–${r.nay}`,
+    outcome: `${passed ? "Passed" : "Failed"} ${r.yea}–${r.nay}`,
     date: r.date,
     dateLabel: `${MONTHS[Number(r.date.slice(5, 7)) - 1]} ${Number(r.date.slice(8, 10))}, ${r.date.slice(0, 4)}`,
     sourceUrl: `${SITE}/votehistory.php?KEY=${r.key}`,
