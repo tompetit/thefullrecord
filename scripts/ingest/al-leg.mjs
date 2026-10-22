@@ -180,7 +180,15 @@ for (const session of SESSIONS) {
     if (!nelsonGap && (yes !== rc.yeas || no !== rc.nays || yes !== h.yeas || no !== h.nays)) { tallyMismatch++; continue; }
     if (nelsonGap) nelsonKept++;
     const question = h.matter.replace(/\s*-?\s*(Adopted|Failed|Passed|Lost|Not Adopted|Defeated)?\s*Roll Call \d+\s*$/i, "").trim() || h.matter;
-    const outcome = /\b(Failed|Lost|Not Adopted|Defeated)\b/i.test(h.matter) ? "Failed" : /\b(Adopted|Passed|Carried)\b/i.test(h.matter) ? "Passed" : rc.yeas > rc.nays ? "Passed" : "Failed";
+    // Official result: ALISON's action text ("... - Adopted Roll Call 12", "BIR Lost in House of Origin", and the glued
+    // "LocalCertificationResolutionAdopted"). Rows without one are mostly "Third Reading in House of Origin / Second House",
+    // the roll call taken before amendments and passage (in practice the Budget Isolation Resolution, which needs three-fifths
+    // under Ala. Const. 2022 Art. IV §71.01), plus a few concurrence / conference rows. In 2025-26 every such row had at
+    // least 3/5 of the votes cast and the bill went on to its passage vote, so the tally is used, but a fallback row under
+    // 3/5 is reported for a manual check against the journal rather than guessed.
+    const official = /(\b|[a-z])(Failed|Lost|Not Adopted|Defeated)\b/i.test(h.matter) ? "Failed" : /(\b|[a-z])(Adopted|Passed|Carried)\b/i.test(h.matter) ? "Passed" : null;
+    if (!official && rc.yeas * 5 < (rc.yeas + rc.nays) * 3) console.warn(`no official result and under 3/5: ${session} ${h.body} RC ${h.rollCallNbr} ${h.instrumentNbr} "${h.matter}" ${rc.yeas}-${rc.nays}`);
+    const outcome = official ?? (rc.yeas > rc.nays ? "Passed" : "Failed");
     const { summary, summarySource } = billSummary({ title: bill.shortTitle, abstracts: [{ abstract: bill.actSummary }] });
     rolls[chamber].push({
       id: `al-${session.toLowerCase()}-${h.body[0].toLowerCase()}${h.rollCallNbr}`,

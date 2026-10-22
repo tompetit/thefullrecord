@@ -141,7 +141,14 @@ for (const sessionId of SESSIONS) {
         }
         if (!Object.keys(votes).length) { skip("no-matched-voters"); continue; }
         if (ayes !== a.Ayes || noes !== a.Nays) tallyMismatch++;
-        const passed = /^pass|adopt/i.test(a.Action ?? "") ? true : /^fail|reject|lost/i.test(a.Action ?? "") ? false : ayes > noes;
+        // Official result: the floor action's Action text ("Passed", "failed to pass"); every 2025-26 Third/Final Reading
+        // roll call carries one. Without it, fall back to Ariz. Const. art. IV, pt. 2, §15 ("A majority of all members elected
+        // to each house shall be necessary to pass any bill": 31 of 60, 16 of 30) and report the row for a manual check.
+        let passed = /^pass|adopt/i.test(a.Action ?? "") ? true : /^fail|reject|lost/i.test(a.Action ?? "") ? false : null;
+        if (passed === null) {
+          passed = ayes > noes && ayes >= (chamber === "lower" ? 31 : 16);
+          console.warn(`no official result for ${number} ${a.CommitteeShortName} ${day} (Action ${JSON.stringify(a.Action)}): ${ayes}-${noes} scored ${passed ? "Passed" : "Failed"}`);
+        }
         const question = a.CommitteeName;
         rolls[chamber].push({
           id: `az-${sessionId}-${number}-${a.CommitteeShortName}-${a.ReferralNumber}-${String(a.ReportDate).replace(/\D/g, "")}`,
