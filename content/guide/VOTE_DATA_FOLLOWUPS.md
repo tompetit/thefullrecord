@@ -56,4 +56,5 @@ Still open:
   HB26-1312 has two records of one repass (co-29577 46–18, co-29591 47–18).
 - **Alabama**: al-2026rs-h1222 (SB 341, House "Motion to Adopt") shares roll call 1222 with a Senate
   non-concur motion — possibly the wrong action. Some AL titles differ from the act summary (SB 254).
+- **Maryland**: HB 853 lists two Senate floor-amendment votes among its bill votes.
 - **Maine**: LD 369's roll-call question text cites "L.D. 1668 (S.P. 663)" (a typo in the Senate PDF).
