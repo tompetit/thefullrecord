@@ -22,7 +22,7 @@ its summary (summaries were checked against the version at the vote); a vote mov
 
 ## Still open
 
-- **Wisconsin**: docs.legis.wisconsin.gov was down (503), so ~49 WI bills have no summary, and `wi-av0301` (AB 1 rule suspension, Passed 53–41; Assembly Rule 90 may need two-thirds) is unconfirmed.
+- **Wisconsin**: docs.legis.wisconsin.gov was down (503), so ~49 WI bills have no summary. Checked against the Assembly Journal (Nov 2026): `wi-av0301` (53–41) is a vote on whether to return the May 2026 Special Session AB 1 to its amendable stage; the journal records "Motion carried", so the Passed outcome stands. That vote, `wi-av0302` and Senate `wi-sv0261` had been given the regular-session AB 1 title; they now carry the special-session bill title.
 - **West Virginia**: wvlegislature.gov was down. The 4 corrected outcomes (HB 5525, HB 3356, HCR 43, SB 460) follow the tally and the constitutional thresholds; confirm against the journals. SB 460 (74–22 on dispensing with the three-readings rule, which needs four-fifths) is the least certain.
 - **Georgia**: HB 1324, SB 568, HB 360 and SB 170 were corrected by the constitutional majority rule, not the official record (the GA importer's browser can't run behind this environment's proxy). SB 170 (a concurrence) is the least certain. GA constitutional amendments (HR/SR) are not imported at all.
 - **Alaska**: akleg.gov blocks automated fetches; AK summaries are held back.
