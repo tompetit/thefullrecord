@@ -26,6 +26,7 @@ import { homedir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { politeGet, writeSnapshot } from "./shared.mjs";
 import { classify, snapshotChamberName } from "./openstates-transform.mjs";
+import { subjects, subjectAt } from "./mi-subject.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot");
@@ -130,8 +131,6 @@ function splitNames(chunk, chamber, date) {
 }
 
 // ---------------------------------------------------------------- parse
-const HEADER = /\b(House|Senate)\s+(Joint\s+|Concurrent\s+)?(Bill|Resolution)\s+No\.\s*(\d+[a-z]?)\s*,?\s*entitled/gi;
-const abbr = (m) => `${m[1][0]}${m[2] ? m[2][0] : ""}${m[3][0]}`.toUpperCase() + ` ${m[4].toUpperCase()}`;
 const SECTION = /(Yeas|Nays|Excused|Not Voting|Present)\s*[—–-]\s*(\d+)/g;
 
 const rolls = { lower: [], upper: [] };
@@ -169,7 +168,7 @@ for (const d of days) {
   const text = load(d);
   const chamber = d.chamber;
   const year = d.date.slice(0, 4);
-  const headers = [...text.matchAll(HEADER)].map((m) => ({ pos: m.index, end: m.index + m[0].length, bill: abbr(m) }));
+  const headers = subjects(text);
   let floor = 0;
   const blocks = [...text.matchAll(/Roll\s+Call\s+No\.\s*(\d+)\s*Yeas\s*[—–-]\s*\d+/g)];
   found[chamber] += blocks.length;
@@ -183,7 +182,7 @@ for (const d of days) {
     floor = start;
     if (!/by yeas and nays|as follows/i.test(lead.replace(/\s+/g, " ").slice(-300))) { drop("no-lead", `${d.name} ${JSON.stringify(lead.slice(-120))}`); continue; }
     if (/election of|roll of the House was called|confirm|nominat/i.test(lead.replace(/\s+/g, " ").slice(-300))) { drop("election-or-nomination-roll"); continue; }
-    const header = headers.filter((h) => h.pos < start).at(-1);
+    const header = subjectAt(text, start, headers);
     if (!header) { drop("no-bill", d.name); continue; }
     if (/^[HS]R /.test(header.bill)) { drop("simple-resolution"); continue; }
     // lists
@@ -218,13 +217,15 @@ for (const d of days) {
     if (seen.has(rcKey)) { drop("duplicate-roll-number", `${d.name} RC ${m[1]}`); continue; }
     seen.add(rcKey);
     const info = describe(lead);
+    if (header.initiative) info.question = "Passage of the initiative petition";
     if (info.question === "Adopt resolution" && /^[HS]B /.test(header.bill)) { drop("resolution-without-header", d.name); continue; } // a simple/concurrent resolution with no "entitled" header: the latest bill header is stale
     const yes = lists.yes.length, no = lists.no.length;
     if (!info.failed && yes < no) { drop("outcome-conflict", `${d.name} ${header.bill} ${info.question} ${yes}-${no}`); continue; }
     if (info.failed && yes > no && !/[23]\/[34]|members serving/.test(lead.slice(-450))) { drop("outcome-conflict-failed", `${d.name} ${header.bill} ${yes}-${no} ${JSON.stringify(lead.replace(/\s+/g, " ").slice(-300))}`); continue; }
     // title: the paragraph after the bill header
     const t = /^\s*\n?(A[^\n]*)/.exec(text.slice(header.end));
-    const title = t ? shortTitle(t[1].replace(/\t/g, " ").replace(/\s+/g, " ")) : header.bill;
+    const official = t?.[1].replace(/\t/g, " ").replace(/\s+/g, " ").replace(/\s*\((?:For text of|This bill)[^)]*\)?\s*$/, "");
+    const title = !official ? header.bill : header.initiative ? `${shortTitle(official.replace(/^An initiation of legislation to /, "A bill to "))} (Initiative Petition No. ${header.bill.slice(3)}, initiated legislation)` : shortTitle(official);
     rolls[chamber].push({
       id: `mi-${chamber === "lower" ? "h" : "s"}-${d.date.replace(/-/g, "")}-${m[1]}`,
       bill: header.bill, title, date: d.date, chamber,
