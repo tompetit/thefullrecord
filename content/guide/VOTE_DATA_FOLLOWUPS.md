@@ -58,3 +58,7 @@ Still open:
   non-concur motion — possibly the wrong action. Some AL titles differ from the act summary (SB 254).
 - **Maryland**: HB 853 lists two Senate floor-amendment votes among its bill votes.
 - **Maine**: LD 369's roll-call question text cites "L.D. 1668 (S.P. 663)" (a typo in the Senate PDF).
+- **West Virginia** (fixed in the follow-up pass): 2025 House RCS 384 (HCR 43 → HB 2026 floor amendment) and RCS 394
+  (SB 828 → HB 3519) were attached through roll numbers the bill-history pages print off by one; SB 828's real House
+  passage (RCS 393) is not in the snapshot. Also open: `wv:SB 800` key covers two different bills (2025 and 2026);
+  HCR 14/43/86 share Roll No. 203.
