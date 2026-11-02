@@ -34,6 +34,7 @@ import { homedir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { decodeXml, politeGet, writeSnapshot } from "./shared.mjs";
 import { classify, snapshotChamberName } from "./openstates-transform.mjs";
+import { HEAD_S } from "./tx-subject.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot");
@@ -133,7 +134,6 @@ const activeIn = (chamber, date) => roster.filter((p) => p.roles.some((r) => r.t
 const BILL_RE = /\b(?:CS|CC)?(HB|SB|HJR|SJR|HCR|SCR|HR|SR) (\d+)\b/;
 const HEAD_H = /^(?:CS|CC)?(HB|SB|HJR|SJR|HCR|SCR|HR|SR) (\d+)\s*(?:ON |- |\()/;
 const KIND = { "SENATE BILL": "SB", "HOUSE BILL": "HB", "SENATE JOINT RESOLUTION": "SJR", "HOUSE JOINT RESOLUTION": "HJR", "SENATE CONCURRENT RESOLUTION": "SCR", "HOUSE CONCURRENT RESOLUTION": "HCR", "SENATE RESOLUTION": "SR", "HOUSE RESOLUTION": "HR" };
-const HEAD_S = /^((?:SENATE|HOUSE)(?: JOINT| CONCURRENT)? (?:BILL|RESOLUTION)) (\d+)\b/;
 const failed = (s) => /failed|was lost|not granted|did not prevail|was defeated|not adopted/i.test(s);
 const rolls = { lower: [], upper: [] };
 const drops = {}; const drop = (why, extra) => { drops[why] = (drops[why] ?? 0) + 1; if (DRY && extra) console.log("DROP", why, extra); };
@@ -228,7 +228,15 @@ for (const d of days.filter((x) => x.chamber === "lower")) {
     else if (named && /adopted|adoption/i.test(lead)) { question = `Adopt ${theBill}`; passage = true; }
     else {
       let motion = "";
-      for (let k = i - 1; k >= Math.max(0, i - 6); k--) if (/\b(moved|requested|motion)\b/i.test(lines[k]) && !/^Amendment No/.test(lines[k])) { motion = lines[k]; break; }
+      for (let k = i - 1; k >= Math.max(0, i - 6); k--) if (/\b(moved|requested|motion)\b/i.test(lines[k]) && !/^Amendment No/.test(lines[k])) {
+        motion = lines[k];
+        // a written motion names its bill a few lines below the "offered the following motion" line ("... place SB 1 on its third reading")
+        const mb = BILL_RE.exec(lines.slice(k, i).join(" "));
+        if (!named && mb) theBill = `${mb[1]} ${mb[2]}`;
+        break;
+      }
+      // Adjournment and congratulatory-resolution calendar votes are not on any bill; the header above them is only whatever was last up.
+      if (/\badjourn/i.test(motion) || /^CONGRATULATORY RESOLUTIONS CALENDAR|laid before the house and were adopted by the following record vote/.test(lines.slice(Math.max(0, i - 3), i + 1).join(" ")) || !motion && /^The following .*resolutions were laid before the house/.test(lines[i - 1] ?? "")) { drop("not-on-a-bill"); continue; }
       const ext = /Representative (.+?) requested (?:an|a second|a third) extension of speaking time/.exec(motion);
       question = ext ? `Extend speaking time for Rep. ${ext[1]}` : `Motion: ${(motion || lead).replace(/^Representative [^ ]+(?: [A-Z][a-z]+)? moved (?:that )?/i, "").slice(0, 150)}`;
     }
