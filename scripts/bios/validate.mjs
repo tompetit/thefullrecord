@@ -33,6 +33,7 @@ for (const file of files) {
   for (const s of b.sources ?? []) {
     if (!s.id || !/^https?:\/\//.test(s.url ?? "") || !s.title || !s.publisher || !KINDS.has(s.kind)) errs.push(`bad source ${JSON.stringify(s).slice(0, 80)}`);
     if (BAD_HOST.test(s.url ?? "")) errs.push(`banned source ${s.url}`);
+    if (/\/home\/|\.cache\/|file:/.test(s.url ?? "")) errs.push(`source ${s.id} url is a local path: ${s.url}`);
     if (WIKI.test(s.url ?? "") && !/^\d{4}-\d{2}-\d{2}$/.test(s.date ?? "")) errs.push(`Wikipedia source ${s.id} needs date (YYYY-MM-DD it was read)`);
     ids.add(s.id);
   }
