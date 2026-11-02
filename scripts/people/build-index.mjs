@@ -47,6 +47,8 @@ const STATES = "AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD M
 const curatedByKey = new Map(curated.map((o) => [o.districtKey, o]));
 const host = (u) => new URL(u).hostname.replace(/^www\./, "");
 const photo = (url) => (/^https:\/\//.test(url ?? "") ? { url, source: host(url) } : undefined);
+// Official portraits found on legislature member pages for people Open States has no image for, keyed by person key.
+const photoOverrides = readJson("src/server/photos.json").photos;
 
 const officials = [];
 function addOfficial({ key, districtKey, name, role, party, state, seats, bioguide, tag, image }) {
@@ -61,7 +63,7 @@ function addOfficial({ key, districtKey, name, role, party, state, seats, biogui
     seats,
     bioguide,
     tag,
-    ...(image ? { photo: image } : {}),
+    ...((image ?? photo(photoOverrides[key]?.url)) ? { photo: image ?? photo(photoOverrides[key].url) } : {}),
   });
 }
 
