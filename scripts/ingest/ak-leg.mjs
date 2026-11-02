@@ -24,6 +24,7 @@ import { homedir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { decodeXml, politeGet, sleep, writeSnapshot } from "./shared.mjs";
 import { classify, snapshotChamberName } from "./openstates-transform.mjs";
+import { namesOtherBill } from "./ak-subject.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot");
@@ -191,7 +192,7 @@ for (const root of billNames) {
       let txt = "";
       for (let p = num; p < num + span; p++) txt += `\n${await journal(a.jp[1], p)}`;
       const digits = bill.replace(/^[A-Z]+\s*/, "");
-      const cand = blocks(txt).filter((b) => b.tally[0] === ay && b.tally[1] === an && b.yeas.length === ay && b.nays.length === an && !used.has(`${a.jp[1]}${b.yeas.join()}${b.nays.join()}${b.head.join()}`) && (!amNo || new RegExp(`Amendment No\\.? ${amNo}\\b`, "i").test(b.head.join(" "))));
+      const cand = blocks(txt).filter((b) => b.tally[0] === ay && b.tally[1] === an && b.yeas.length === ay && b.nays.length === an && !used.has(`${a.jp[1]}${b.yeas.join()}${b.nays.join()}${b.head.join()}`) && (!amNo || new RegExp(`Amendment No\\.? ${amNo}\\b`, "i").test(b.head.join(" "))) && !namesOtherBill(b.head, root));
       const hdr = (b) => b.head.join(" ").replace(/\s+/g, "").toUpperCase();
       found = cand.find((b) => hdr(b).includes(root.replace(/\s+/g, "").toUpperCase())) ?? cand.find((b) => new RegExp(`\\b${digits}\\b`).test(b.head.join(" "))) ?? cand[0];
       if (found) break;

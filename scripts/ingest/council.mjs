@@ -24,6 +24,10 @@ const OUT_PATH = resolve(
   "../../src/server/snapshot/council.json",
 );
 const DELAY_MS = 200;
+/** Earliest Stated Meeting read; the original 12 votes come from 2026-06-11 and 06-30. */
+const MIN_MEETING_DATE = Date.UTC(2026, 5, 11);
+/** Contested votes are auto-selected from meetings on/after this date. */
+const CONTESTED_FROM = "2026-07-01";
 const USER_AGENT =
   "TheFullRecord/1.0 (one-off civic-data ingest; contact: tcp@didero.ai)";
 
@@ -51,6 +55,34 @@ const SELECTED_FILES = [
   "Res 0524-2026", // FY2026 budget modification (MN-8)
 ];
 
+/**
+ * Major matters since July 1 that passed with no "No" or "Abstain" (housing,
+ * zoning, tax and cost-of-living, transit fares, ethics, small business).
+ * Contested Introductions and Land Use items are added automatically.
+ */
+const MAJOR_UNANIMOUS_FILES = [
+  "Int 0978-2026", // senior rent-increase exemption income limit
+  "Int 1015-2026", // tax abatement for multiple-dwelling alterations
+  "Int 0685-2026", // office of insurance affordability
+  "Int 0692-2026", // paraprofessional workforce stabilization payments
+  "Int 0398-2026", // annual financial-interest disclosure
+  "Int 0248-2026", // Fair Fares enrollment
+  "Int 0813-2026", // tobacco retail license enforcement
+  "Int 0547-2026", // added-sugar warning labels
+  "Int 0917-2026", // sidewalk/roadway cafe cleanliness
+  "Int 0799-2026", // small-retail support fund (roadway construction)
+  "Int 0833-2026", // buildings on Eastern Parkway
+  "Int 0246-2026", // commissary funds on release
+  "LU 0147-2026", // Gowanus Green A (housing)
+  "LU 0146-2026", // Fordham Bedford Cluster Phase 1 (housing)
+  "LU 0135-2026", // Sojourner Truth - Mapes rezoning
+  "LU 0117-2026", // Flatiron NoMad major concessions
+  "LU 0067-2026", // Monitor Point rezoning
+  "LU 0072-2026", // Dewitt Clinton Park North rezoning
+  "LU 0142-2026", // 1455 Coney Island Avenue rezoning
+  "LU 0100-2026", // 2950 West 24th Street rezoning
+];
+
 /** Titles matching these patterns are ceremonial/procedural, not substantive. */
 const PROCEDURAL_RE =
   /\bnaming of\b|\bco-naming\b|commemorat|celebrat|\bdeclaring\b.*\b(day|month|week)\b|minutes of the stated meeting/i;
@@ -63,17 +95,23 @@ const pageCache = new Map();
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 let lastFetchAt = 0;
 
-async function fetchPage(url) {
+async function fetchPage(url, form) {
   const abs = new URL(url, BASE).href;
-  if (pageCache.has(abs)) return pageCache.get(abs);
+  const cacheKey = form ? `${abs}#${form.get("__EVENTTARGET")}` : abs;
+  if (pageCache.has(cacheKey)) return pageCache.get(cacheKey);
   const wait = lastFetchAt + DELAY_MS - Date.now();
   if (wait > 0) await sleep(wait);
   lastFetchAt = Date.now();
   process.stderr.write(`  fetch ${abs}\n`);
-  const res = await fetch(abs, { headers: { "User-Agent": USER_AGENT }, signal: AbortSignal.timeout(30_000) });
+  const res = await fetch(abs, {
+    method: form ? "POST" : "GET",
+    body: form,
+    headers: { "User-Agent": USER_AGENT },
+    signal: AbortSignal.timeout(30_000),
+  });
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${abs}`);
   const html = await res.text();
-  pageCache.set(abs, html);
+  pageCache.set(cacheKey, html);
   return html;
 }
 
@@ -158,26 +196,45 @@ async function fetchMembers() {
 // Meetings (Calendar.aspx -> MeetingDetail.aspx)
 // ---------------------------------------------------------------------------
 
-/** The last two "City Council Stated Meeting"s that were actually held. */
+/** Stated Meetings held on or after MIN_MEETING_DATE (the calendar is paged 100 rows at a time). */
 async function findStatedMeetings() {
-  const html = await fetchPage("Calendar.aspx");
-  const meetings = [];
-  for (const row of gridRows(html)) {
-    if (!row.includes("City Council Stated Meeting")) continue;
-    const text = stripTags(row);
-    const dateMatch = text.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
-    const url = firstLink(row, "MeetingDetail");
-    if (!dateMatch || !url) continue;
-    if (/Deferred/i.test(text)) continue; // deferred meetings never convened
-    const [, mo, day, yr] = dateMatch.map(Number);
-    const date = new Date(Date.UTC(yr, mo - 1, day));
-    if (date.getTime() > Date.now()) continue; // future meetings
-    meetings.push({ date, url });
+  const first = await fetchPage("Calendar.aspx");
+  const hidden = (n) => decodeEntities(first.match(new RegExp(`id="${n}" value="([^"]*)"`))?.[1] ?? "");
+  const targets = [...first.matchAll(/__doPostBack\(&#39;(ctl00\$ContentPlaceHolder1\$gridCalendar\$ctl00\$ctl02\$ctl00\$ctl\d+)&#39;/g)].map((m) => m[1]);
+  const meetings = new Map();
+  let oldest = Infinity;
+  for (let i = 0; i < targets.length && oldest >= MIN_MEETING_DATE; i++) {
+    const html =
+      i === 0
+        ? first
+        : await fetchPage(
+            "Calendar.aspx",
+            new URLSearchParams({
+              __EVENTTARGET: targets[i],
+              __EVENTARGUMENT: "",
+              __VIEWSTATE: hidden("__VIEWSTATE"),
+              __VIEWSTATEGENERATOR: hidden("__VIEWSTATEGENERATOR"),
+              __EVENTVALIDATION: hidden("__EVENTVALIDATION"),
+            }),
+          );
+    for (const row of gridRows(html)) {
+      const text = stripTags(row);
+      const dateMatch = text.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})/);
+      if (dateMatch) {
+        const [, mo, day, yr] = dateMatch.map(Number);
+        oldest = Math.min(oldest, Date.UTC(yr, mo - 1, day));
+      }
+      if (!row.includes("City Council Stated Meeting")) continue;
+      const url = firstLink(row, "MeetingDetail");
+      if (!dateMatch || !url) continue;
+      if (/Deferred/i.test(text)) continue; // deferred meetings never convened
+      const [, mo, day, yr] = dateMatch.map(Number);
+      const date = new Date(Date.UTC(yr, mo - 1, day));
+      if (date.getTime() > Date.now() || date.getTime() < MIN_MEETING_DATE) continue;
+      meetings.set(isoDate(date), { date, url });
+    }
   }
-  meetings.sort((a, b) => b.date - a.date);
-  const picked = meetings.slice(0, 2);
-  if (picked.length < 2) throw new Error("Could not find two held Stated Meetings");
-  return picked;
+  return [...meetings.values()].sort((a, b) => b.date - a.date);
 }
 
 /**
@@ -195,7 +252,7 @@ async function fetchMeetingMatters(meeting) {
     if (cells.length < 11) continue;
     const file = cells[0].text;
     if (!/^(Int|Res|M|LU|T)\s?\d/.test(file)) continue;
-    if (!/^Approved,? by Council/.test(cells[8].text)) continue;
+    if (!/^(Approved|Disapproved),? by Council/.test(cells[8].text)) continue;
     const historyUrl = firstLink(cells[10].html, "HistoryDetail");
     if (!historyUrl || matters.has(file)) continue;
     matters.set(file, {
@@ -204,6 +261,7 @@ async function fetchMeetingMatters(meeting) {
       type: cells[6].text,
       longSummary: cells[7].text,
       result: cells[9].text,
+      action: cells[8].text,
       sourceUrl: firstLink(cells[0].html, "LegislationDetail"),
       historyUrl,
       meetingDate: meeting.date,
@@ -220,6 +278,7 @@ function mapVote(value) {
   const v = value.trim().toLowerCase();
   if (v === "affirmative") return "yes";
   if (v === "negative") return "no";
+  if (v === "abstain") return "present";
   // Absent, Excused, Medical, Maternity, Paternity, Jury Duty, Non-voting, ...
   return "absent";
 }
@@ -302,7 +361,7 @@ function summarySentence(matter) {
 
 function buildRollCall(matter, memberByPersonId, memberByName, warnings) {
   const votes = {};
-  const counts = { yes: 0, no: 0, absent: 0 };
+  const counts = { yes: 0, no: 0, absent: 0, present: 0 };
   for (const v of matter.rollCall.votes) {
     const member =
       (v.personId && memberByPersonId.get(v.personId)) ||
@@ -316,7 +375,9 @@ function buildRollCall(matter, memberByPersonId, memberByName, warnings) {
   }
 
   const passed = matter.result === "Pass";
-  const outcome = `${passed ? "Passed" : "Failed"} ${counts.yes}–${counts.no}`;
+  // "Disapproved by Council" on a land-use item is the Council voting to reject it.
+  const verb = /^Disapproved/.test(matter.action ?? "") ? "Disapproved" : passed ? "Passed" : "Failed";
+  const outcome = `${verb} ${counts.yes}–${counts.no}`;
 
   // Cross-check our counts against the tally printed on the page.
   const t = matter.rollCall.tally;
@@ -374,7 +435,15 @@ async function main() {
   }
 
   const rollCalls = [];
-  for (const file of SELECTED_FILES) {
+  // Also every Introduction / Land Use item from July 1 on whose roll call has a
+  // "No" or "Abstain"; unanimous ones are kept only if listed in SELECTED_FILES.
+  const keep = new Set([...SELECTED_FILES, ...MAJOR_UNANIMOUS_FILES]);
+  const candidates = new Set(keep);
+  for (const [file, matter] of mattersByFile) {
+    if (/^(Int|LU)\s?\d/.test(file) && isoDate(matter.meetingDate) >= CONTESTED_FROM) candidates.add(file);
+  }
+  const unanimous = [];
+  for (const file of candidates) {
     const matter = mattersByFile.get(file);
     if (!matter) {
       warnings.push(`selected matter ${file} not found on either agenda`);
@@ -386,9 +455,20 @@ async function main() {
       warnings.push(`${file}: no recorded roll call, skipping`);
       continue;
     }
+    if (!keep.has(file) && !matter.rollCall.votes.some((v) => v.vote === "no" || v.vote === "present")) {
+      unanimous.push(`${isoDate(matter.meetingDate)} ${file} ${matter.title.slice(0, 110)}`);
+      continue;
+    }
     rollCalls.push(buildRollCall(matter, memberByPersonId, memberByName, warnings));
   }
   rollCalls.sort((a, b) => b.date.localeCompare(a.date) || a.bill.localeCompare(b.bill));
+
+  if (process.env.COUNCIL_DRY) {
+    console.log(`UNANIMOUS (${unanimous.length}):\n${unanimous.join("\n")}`);
+    console.log(`CONTESTED/SELECTED: ${rollCalls.length}`);
+    for (const rc of rollCalls) console.log(rc.date, rc.bill, rc.outcome, rc.title.slice(0, 90));
+    return;
+  }
 
   // ---- validation ---------------------------------------------------------
   const districts = new Set(members.map((m) => m.district));

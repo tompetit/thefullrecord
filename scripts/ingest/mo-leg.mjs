@@ -28,6 +28,7 @@ import { homedir } from "node:os";
 import { fileURLToPath } from "node:url";
 import { decodeXml, politeGet, writeSnapshot } from "./shared.mjs";
 import { classify, snapshotChamberName } from "./openstates-transform.mjs";
+import { entitledBill, takenUpAfter } from "./mo-subject.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..");
 const OUT = join(ROOT, "src/server/snapshot");
@@ -163,15 +164,17 @@ function markers(text) {
   const any = new RegExp(`${BILL.source}|${BILL_FULL.source}`, "gi");
   for (const m of text.matchAll(any)) {
     const before = text.slice(Math.max(0, m.index - 160), m.index).replace(/\s+/g, " ");
-    const after = text.slice(m.index, m.index + 260).replace(/\s+/g, " ");
+    const after = text.slice(m.index, m.index + 2000).replace(/\s+/g, " ");
     const frag = before.slice(before.lastIndexOf(". ") + 1);
-    const tail = after.split(/\. /)[0];
-    if (/\bamend\b/i.test(frag) || /taken up|appointed on|read the (third|3rd) time|truly agreed|be (adopted|perfected|recommitted|referred|passed|laid|amended)|was adopted|called from|finally passed|was ordered|as amended/.test(tail)) out.push({ pos: m.index, bill: billIn(m[0]) });
+    const tail = after.slice(0, 260).split(/\. /)[0];
+    if (/\bamend\b/i.test(frag) || takenUpAfter(after) || /taken up|appointed on|read the (third|3rd) time|truly agreed|be (adopted|perfected|recommitted|referred|passed|laid|amended)|was adopted|called from|finally passed|was ordered|as amended/.test(tail)) out.push({ pos: m.index, bill: billIn(m[0]) });
   }
   return out;
 }
 /** The bill a vote concerns: named in the lead-in sentence, else the latest bill under discussion before it. */
 function billFor(text, pos, marks) {
+  const ent = entitledBill(text, pos);
+  if (ent) return ent;
   const lead = text.slice(Math.max(0, pos - 450), pos).replace(/\s+/g, " ");
   const parts = sentences(lead);
   for (let n = 1; n <= 3 && n <= parts.length; n++) {
