@@ -33,3 +33,27 @@ its summary (summaries were checked against the version at the vote); a vote mov
 - **Alabama**: 1,613 roll calls labelled "Third Reading in House of Origin" are the earlier procedural vote (very likely the Budget Isolation Resolution, 3/5 under Art. IV §71.01), not passage — each is followed by the "Read a Third Time and Pass" vote. Their outcomes are right, but the label reads like passage; relabel once the BIR identification is confirmed against a journal.
 - Michigan / North Carolina roll calls with bare statutory titles have topic tags based on the title alone.
 - Nomination cloture votes get no AI summary (their titles already name the nominee and post).
+
+## Found 2026-11-02 (election-eve refresh)
+
+Fixed in this pass: Michigan, Missouri, Texas and Alaska journal importers attached some roll calls to
+the wrong measure (a bill merely introduced just before the vote, or a resolution printed without the
+usual heading) — 16 roll calls relabelled, 5 non-bill votes removed, 6 dropped resolution votes
+restored, importers fixed with regression tests; stale titles fixed for MN SF 4400, MI HB 4397,
+HB 4161, HB 5482, WI AB 130, AB 373, MD HB 895; two Maine Senate titles had PDF motion text glued on.
+
+Still open:
+- **U.S. Senate**: senate.gov answers 403 from this host, so votes after 2026-09-30 were not checked.
+- **Titles that are still the introduced title** (checkers saw the voted version differs): KY SB 185;
+  SC H 3222, 3227, 3430, 3431, 3472, 4641, 4752, S 146, 190, 238, 269, 337, 345, 416, 436, 526, 718,
+  751, 768, 808, 872; PA SB 114, 381, 481; MI HB 5109; several ND bills. Summaries for these were
+  withheld rather than shown under the wrong title.
+- **South Carolina**: Senate roll call KEY=26726 (3/5/2026, 39–1) is labelled H 3585, but H 3585 never
+  left House Ways and Means — likely another bill's vote. S 0922's 6/25 "Concur in Senate Amendments"
+  vote was the House refusing to concur (failed 9–90). S 136: vote PDF 40–2 vs history 44–0.
+- **Colorado**: co-22915 (SB25-286) is labelled Repass but the history says the Senate did not concur
+  and requested a conference; co-21416 / co-21410 dates don't match the history (off by a day);
+  HB26-1312 has two records of one repass (co-29577 46–18, co-29591 47–18).
+- **Alabama**: al-2026rs-h1222 (SB 341, House "Motion to Adopt") shares roll call 1222 with a Senate
+  non-concur motion — possibly the wrong action. Some AL titles differ from the act summary (SB 254).
+- **Maine**: LD 369's roll-call question text cites "L.D. 1668 (S.P. 663)" (a typo in the Senate PDF).
