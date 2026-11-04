@@ -16,7 +16,7 @@ const newsreader = Newsreader({
 const libreFranklin = Libre_Franklin({
   variable: "--font-libre-franklin",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  // Variable font: Google now serves the static-weight list from URLs Turbopack can't parse.
 });
 
 const plexMono = IBM_Plex_Mono({
