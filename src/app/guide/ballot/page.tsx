@@ -1,3 +1,4 @@
+import { isWinner, RaceResultLine, WonTag } from "@/components/guide/Results";
 import Link from "@/components/Link";
 import { BallotAddressForm } from "@/components/guide/BallotAddressForm";
 import { stateName } from "@/components/guide/RaceView";
@@ -30,7 +31,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
         {!result && (
           <>
             <p className="mt-2 max-w-xl font-sans text-[14.5px] leading-[1.6] text-ink-60">
-              Enter your address to see the races on your November 3 ballot.
+              Enter your address to see the races on your November 3 ballot and how they came out.
               Any U.S. address shows your House and Senate races and, where we have the candidate list, your state legislative races. New York addresses also show researched state races and ballot proposals.
             </p>
             <BallotAddressForm />
@@ -85,6 +86,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                     <Link href={`/guide/race/${r.id}`} className="mt-1 block font-serif text-[20px] font-bold text-ink hover:underline">
                       {r.title}
                     </Link>
+                    <RaceResultLine race={r} />
                     {r.officeType === "ballot-measure" && r.measure ? (
                       <p className="mt-1 font-sans text-[13px] leading-[1.55] text-ink-60">{r.measure.summary.text}</p>
                     ) : (
@@ -98,6 +100,7 @@ export default async function BallotPage({ searchParams }: { searchParams: Promi
                                 <span className="mt-0.5 flex flex-wrap items-center gap-1">
                                   <PartyChips parties={c.parties} />
                                   {c.incumbent && <IncumbentTag />}
+                                  {isWinner(r, c.id) && <WonTag />}
                                 </span>
                                 <span className="mt-0.5 line-clamp-2 block font-sans text-[12px] leading-snug text-ink-60">
                                   {c.summary.text}

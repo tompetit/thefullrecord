@@ -1,3 +1,4 @@
+import { RaceResultLine } from "@/components/guide/Results";
 import type { Metadata } from "next";
 import Link from "@/components/Link";
 import { notFound } from "next/navigation";
@@ -133,6 +134,7 @@ export default async function PersonPage({ params, searchParams }: { params: Par
                   <Link href={`/guide/race/${c.raceId}/${c.candidateId}`} className="inline-flex min-h-11 items-center font-semibold text-accent underline">Full candidate research ›</Link>
                   <Link href={`/guide/race/${c.raceId}`} className="inline-flex min-h-11 items-center font-semibold text-accent underline">{found.race.title} ›</Link>
                 </p>
+                <RaceResultLine race={found.race} />
                 {others.length > 0 && (
                   <>
                     <h3 className="mt-3 font-sans text-[12px] font-bold text-ink-60">Also on the ballot for this seat</h3>

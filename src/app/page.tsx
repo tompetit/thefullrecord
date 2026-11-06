@@ -35,7 +35,7 @@ export default function Home() {
         <div>
           <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-accent">Public service. Public record.</p>
           <h1 className="mt-5 max-w-2xl font-serif text-[clamp(2.8rem,5.4vw,4.7rem)] font-semibold leading-[1.04] tracking-[-0.035em] text-ink">
-            Before you vote,<br />see how they did.
+            The votes are in.<br />See how they did.
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-60 md:text-lg">
             Campaigns tell you what people promise. The record shows what they did.
@@ -44,6 +44,7 @@ export default function Home() {
           <AddressLookupForm />
           <div className="mt-2 flex flex-wrap gap-x-6">
             <Link href="/representatives?sample=1" className="inline-flex min-h-11 items-center text-sm font-semibold text-accent underline underline-offset-4">See an example →</Link>
+            <Link href="/guide/results" className="inline-flex min-h-11 items-center text-sm font-semibold text-accent underline underline-offset-4">2026 election results →</Link>
             <Link href="/votes" className="inline-flex min-h-11 items-center text-sm font-semibold text-accent underline underline-offset-4">Explore the votes by issue →</Link>
           </div>
           <p className="mt-5 text-xs text-ink-60">Nonpartisan. Source-linked. Yours to judge.</p>

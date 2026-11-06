@@ -21,6 +21,7 @@
     "data:validate": "node scripts/ingest/validate.mjs",
     "guide:cosponsors": "node scripts/guide/cosponsors.mjs",
     "guide:party-line": "node scripts/guide/party-line.mjs",
+    "guide:results": "node scripts/guide/results.mjs",
     "guide:donors": "node scripts/guide/donors.mjs",
     "people:index": "node --experimental-strip-types scripts/people/build-index.mjs"
   },
