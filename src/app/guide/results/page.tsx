@@ -26,7 +26,7 @@ function RaceList({ races }: { races: GuideRace[] }) {
         return (
           <li key={r.id} className="flex items-baseline justify-between gap-3 border-b border-hairline-soft py-2 font-sans text-[13.5px]">
             <Link href={`/guide/race/${r.id}`} className="font-semibold text-ink-80 hover:underline">{r.title}</Link>
-            <span className="text-right text-[12.5px] text-ink-60">{resultHeadline(r, result)}</span>
+            <span className="shrink-0 text-right text-[12.5px] text-ink-60">{resultHeadline(r, result)}</span>
           </li>
         );
       })}
@@ -92,7 +92,7 @@ export default function ResultsPage() {
 
         {open.length > 0 && (
           <section className="mt-10">
-            <SectionLabel>Not yet decided · {open.length}</SectionLabel>
+            <SectionLabel>Not yet decided or confirmed · {open.length}</SectionLabel>
             <RaceList races={open} />
           </section>
         )}

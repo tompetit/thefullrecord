@@ -9,18 +9,28 @@ const UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Geck
 
 const norm = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/\b(jr|sr|ii|iii|iv)\b\.?/g, "").replace(/[^a-z\s-]/g, " ").replace(/\s+/g, " ").trim();
 
-/** Our candidate for a feed name: exact, else same surname, preferring the same first initial. */
+/** Our candidate for a feed name: exact, else same surname scored by first name and middle initial (Alaska has two Sullivans). */
 export function matchCandidate(candidates, name) {
-  const n = norm(name);
-  const surname = n.split(" ").at(-1);
-  return candidates.find((c) => norm(c.name) === n)
-    ?? candidates.filter((c) => norm(c.name).split(" ").at(-1) === surname).sort((a, b) => (norm(b.name)[0] === n[0]) - (norm(a.name)[0] === n[0]))[0]
-    ?? null;
+  const words = norm(name).split(" ");
+  const score = (c) => {
+    const w = norm(c.name).split(" ");
+    if (w.at(-1) !== words.at(-1)) return -Infinity;
+    const [mid, ours] = [words.slice(1, -1).find((x) => x.length === 1), w.slice(1, -1).find((x) => x.length === 1)];
+    return (norm(c.name) === norm(name) ? 100 : 0) + (w[0] === words[0] ? 2 : w[0][0] === words[0][0] ? 1 : 0) + (mid && ours ? (mid === ours ? 3 : -5) : 0);
+  };
+  const best = candidates.map((c) => [score(c), c]).filter(([n]) => n > -Infinity).sort((a, b) => b[0] - a[0])[0];
+  return best?.[1] ?? null;
 }
 
 /** One feed race to our result shape. A winner the guide doesn't list stays uncalled for review, never guessed. */
 export function toResult(race, feed, url) {
-  const candidates = (feed.candidates ?? []).map((c) => ({ id: matchCandidate(race.candidates, c.name)?.id, name: c.name, votes: c.votes ?? null, pct: c.percentVote ?? null }));
+  const seen = new Set();
+  const candidates = (feed.candidates ?? []).map((c) => {
+    const id = matchCandidate(race.candidates, c.name)?.id;
+    const unique = id && !seen.has(id);
+    if (unique) seen.add(id);
+    return { ...(unique ? { id } : {}), name: c.name, votes: c.votes ?? null, pct: c.percentVote ?? null };
+  });
   const winners = (feed.candidates ?? []).filter((c) => c.isWinner);
   const winner = winners.length === 1 ? matchCandidate(race.candidates, winners[0].name)?.id : undefined;
   return {
@@ -43,12 +53,10 @@ async function fetchFeeds() {
   const feeds = new Map();
   for (const slug of STATE_SLUGS) {
     const data = (await pageProps(`https://www.nbcnews.com/politics/2026-elections/${slug}-results`)).stateRaceResults;
-    // State pages list only two House candidates; the district page has everyone.
-    for (const q of data.house) {
-      const page = await pageProps(`https://www.nbcnews.com${q.href}`);
-      feeds.set(`us-house|${slug}|${q.district || 1}`, { ...q, ...page.races?.[0]?.summary, href: q.href });
-    }
-    for (const q of [...data.discreteOffices, ...data.otherRaces]) if (OFFICE[q.officeCode]) feeds.set(`${OFFICE[q.officeCode]}|${slug}|`, q);
+    // State pages list only the top two candidates; each race's own page has everyone.
+    const full = async (q) => ({ ...q, ...(await pageProps(`https://www.nbcnews.com${q.href}`)).races?.[0]?.summary, href: q.href });
+    for (const q of data.house) feeds.set(`us-house|${slug}|${q.district || 1}`, await full(q));
+    for (const q of [...data.discreteOffices, ...data.otherRaces]) if (OFFICE[q.officeCode]) feeds.set(`${OFFICE[q.officeCode]}|${slug}|`, await full(q));
   }
   return feeds;
 }

@@ -60,7 +60,7 @@ export function RaceResultPanel({ race }: { race: GuideRace }) {
       )}
       <p className="mt-3 font-sans text-[12px] leading-[1.5] text-ink-60">
         {r.percentIn !== null && <>About {Math.round(r.percentIn)}% of the expected vote counted. </>}
-        As of {updatedLabel()}. Winners take office next year, and counts can change until states certify.{" "}
+        As of {updatedLabel()}. {race.officeType !== "ballot-measure" && "Winners take office next year. "}Counts can change until states certify.{" "}
         {r.sources.map((s) => <span key={s.url} className="mr-2 inline-block"><SourceLink href={s.url} className="text-[12px]">{s.label}</SourceLink></span>)}
       </p>
     </section>

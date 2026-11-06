@@ -16,3 +16,9 @@ test('a called winner is projected; no winner or an unlisted winner stays uncall
   assert.equal(toResult(race, feed('Clay Fuller', false), 'u').status, 'uncalled');
   assert.equal(toResult(race, feed('Nobody Else', true), 'u').status, 'uncalled');
 });
+
+test('two people with one surname keep their own records', () => {
+  const alaska = [{ id: 'daniel-s-sullivan', name: 'Daniel S. Sullivan' }, { id: 'dan-sullivan', name: 'Dan Sullivan' }];
+  assert.equal(matchCandidate(alaska, 'Dan S. Sullivan').id, 'daniel-s-sullivan');
+  assert.equal(matchCandidate(alaska, 'Daniel J. Sullivan Jr.').id, 'dan-sullivan');
+});
