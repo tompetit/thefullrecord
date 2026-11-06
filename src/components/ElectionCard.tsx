@@ -1,4 +1,5 @@
 import Link from "@/components/Link";
+import { RaceResultLine } from "@/components/guide/Results";
 import { getRace } from "@/server/guide/load";
 import type { SeatElection, SeatNotOnBallot } from "@/server/types";
 import { SourceLink } from "./SourceLink";
@@ -36,6 +37,8 @@ export function ElectionCard({
         ON THE BALLOT · {election.dateLabel.toUpperCase()}
         {election.seats && election.seats > 1 ? ` · ${election.seats} SEATS` : ""}
       </h2>
+
+      {getRace(election.districtKey) && <RaceResultLine race={getRace(election.districtKey)!} />}
 
       {election.candidates.length === 0 ? (
         <p className="mt-1.5 font-sans text-[12.5px] text-ink-60">
@@ -113,7 +116,7 @@ export function ElectionCard({
           href={`/guide/race/${election.districtKey}`}
           className="mt-3 block rounded-[2px] bg-ink px-3 py-2 text-center font-sans text-[12.5px] font-bold text-paper hover:opacity-90"
         >
-          Compare the candidates&rsquo; records →
+          Results and the candidates&rsquo; records →
         </Link>
       )}
 

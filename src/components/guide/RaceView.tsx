@@ -3,6 +3,7 @@ import Link from "@/components/Link";
 import { alignmentRace } from "@/lib/alignment";
 import { getKeyVoteDefs, getVerification } from "@/server/guide/load";
 import { ISSUES, type GuideCandidate, type GuideRace, type IssueKey } from "@/server/guide/types";
+import { isWinner, RaceResultPanel, WonTag } from "./Results";
 import { RaceStand, StandLink } from "./StandClient";
 import {
   CitedText,
@@ -297,6 +298,7 @@ export function RaceView({ race }: { race: GuideRace }) {
       <p className="mt-1 font-sans text-[12.5px] font-semibold text-ink-80">
         General election · Tuesday, November 3, 2026
       </p>
+      <RaceResultPanel race={race} />
       <VerificationNote raceId={race.id} />
 
       {race.context.length > 0 && (
@@ -314,7 +316,7 @@ export function RaceView({ race }: { race: GuideRace }) {
       ) : (
         <>
           <section className="mt-8">
-            <SectionLabel>On the ballot · {race.candidates.length} {race.candidates.length === 1 ? "candidate" : "candidates"}</SectionLabel>
+            <SectionLabel>On the November 3 ballot · {race.candidates.length} {race.candidates.length === 1 ? "candidate" : "candidates"}</SectionLabel>
             <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {race.candidates.map((c) => (
                 <StandLink
@@ -328,6 +330,7 @@ export function RaceView({ race }: { race: GuideRace }) {
                     <span className="mt-1 flex flex-wrap items-center gap-1">
                       <PartyChips parties={c.parties} />
                       {c.incumbent && <IncumbentTag />}
+                      {isWinner(race, c.id) && <WonTag />}
                     </span>
                     {c.currentRole && (
                       <span className="mt-1 block font-sans text-[12px] leading-snug text-ink-60">{c.currentRole}</span>

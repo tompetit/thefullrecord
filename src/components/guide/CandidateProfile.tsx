@@ -1,5 +1,7 @@
 import { ISSUES, type GuideCandidate, type GuideRace } from "@/server/guide/types";
 import { BallotModule, ModHead, MoneyDetails, PartyLineModule, SaidVsDidTable, VoteTable, voteRows } from "./Ledger";
+import { resultHeadline } from "./Results";
+import { getRaceResult } from "@/server/guide/results";
 import { CitedText, Cites, IncumbentTag, PartyChips } from "./ui";
 
 const DEPTH_NOTE: Record<GuideCandidate["researchDepth"], string | null> = {
@@ -13,6 +15,7 @@ const RECENT_VOTES = 8;
 /** Graphite header band: identifiers, name, role, and the race at a glance. */
 export function CandidateBand({ race, candidate: c, breadcrumb }: { race: GuideRace; candidate: GuideCandidate; breadcrumb?: React.ReactNode }) {
   const opponents = race.candidates.filter((o) => o.id !== c.id);
+  const result = getRaceResult(race.id);
   const ids = [c.bioguideId && `BIOGUIDE ${c.bioguideId}`, c.fecId && `FEC ${c.fecId}`].filter(Boolean).join(" · ");
   return (
     <header className="bg-band text-band-ink">
@@ -32,7 +35,7 @@ export function CandidateBand({ race, candidate: c, breadcrumb }: { race: GuideR
         <dl className="grid grid-cols-2 border-t border-band-rule font-sans">
           {[
             { t: "Race", d: race.title },
-            { t: "Election", d: race.electionDate },
+            { t: "Result", d: result ? resultHeadline(race, result) : race.electionDate },
             { t: opponents.length === 1 ? "Opponent" : "Opponents", d: opponents.length ? opponents.map((o) => `${o.name} (${o.parties.join(", ")})`).join("; ") : "Unopposed" },
             { t: "Research", d: c.researchDepth === "full" ? "In depth" : c.researchDepth === "basic" ? "Basic" : "Minimal record" },
           ].map((x, i) => (

@@ -11,15 +11,10 @@ import { toSearchRaces } from "@/server/guide/search";
 export const metadata = {
   title: "2026 Voter Guide — The Full Record",
   description:
-    "Researched candidate profiles, recorded votes and documented positions for the 2026 elections, with sources and coverage notes.",
+    "Results, researched candidate profiles, recorded votes and documented positions for the 2026 elections, with sources and coverage notes.",
 };
 
 export const revalidate = 3600;
-
-const DAYS_UNTIL = (() => {
-  const ms = Date.UTC(2026, 10, 3) - Date.now();
-  return Math.max(0, Math.ceil(ms / 86_400_000));
-})();
 
 const SUFFIX = /^(jr|sr|ii|iii|iv)\.?$/i;
 const surname = (name: string) => name.split(" ").filter((w) => !SUFFIX.test(w)).slice(-1)[0];
@@ -61,17 +56,19 @@ export default function GuidePage() {
       <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-10 lg:px-10 lg:pt-14">
         <div>
           <p className="font-sans text-[11px] font-bold tracking-[0.1em] text-accent">
-            GENERAL ELECTION · TUESDAY, NOVEMBER 3, 2026 · {DAYS_UNTIL} DAYS AWAY
+            GENERAL ELECTION · NOVEMBER 3, 2026 · RESULTS COMING IN
           </p>
           <h1 className="mt-3 font-serif text-[36px] font-semibold leading-[1.1] tracking-[-0.02em] text-ink text-pretty lg:text-[54px]">
-            Know who&rsquo;s on your ballot — by what they&rsquo;ve actually done.
+            See who won, and what they&rsquo;ve actually done.
           </h1>
           <p className="mt-4 max-w-xl font-sans text-[15px] leading-[1.6] text-ink-60">
-            {GUIDE_SCOPE} Follow sources for their votes and documented positions. Research depth varies; this is not an official or complete ballot. No endorsements, no scores.
+            {GUIDE_SCOPE} Follow sources for their votes and documented positions. Research depth varies; this is not an official or complete ballot, and results are unofficial until states certify them. No endorsements, no scores.
           </p>
           <BallotAddressForm />
           <p className="mt-4 font-sans text-[13.5px] text-ink-60">
             Or{" "}
+            <Link href="/guide/results" className="font-semibold underline hover:text-ink">all 2026 results</Link>
+            {" · "}
             <Link href="/guide/match" className="underline hover:text-ink">compare by issue</Link>
             {" · "}
             <Link href="/guide/key-votes" className="underline hover:text-ink">key votes in Congress</Link>

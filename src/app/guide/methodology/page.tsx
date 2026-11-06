@@ -151,6 +151,17 @@ export default function MethodologyPage() {
           </P>
         </section>
 
+        <section className="mt-8" id="results">
+          <SectionLabel>Election results</SectionLabel>
+          <P>
+            For Congress and statewide offices, a &ldquo;projected winner&rdquo; means NBC News has projected
+            that candidate to win, and vote counts are NBC&rsquo;s. We checked those calls against Ballotpedia and
+            Wikipedia. Ballot measure outcomes and New York legislative results come from other sources, named
+            on each race. Results are unofficial until each state certifies them, and counts can change. We
+            don&rsquo;t yet have results for state legislative seats outside New York.
+          </P>
+        </section>
+
         <section className="mt-8">
           <SectionLabel>Who does the research</SectionLabel>
           <P>

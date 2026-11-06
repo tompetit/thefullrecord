@@ -11,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/votes",
     "/people",
     "/guide",
+    "/guide/results",
     ...ALL_STATES.map((st) => `/guide/state/${st.toLowerCase()}`),
     ...getAllRaces().flatMap((r) => [`/guide/race/${r.id}`, ...r.candidates.map((c) => `/guide/race/${r.id}/${c.id}`)]),
     ...getPeople().map((p) => `/people/${p.slug}`),
