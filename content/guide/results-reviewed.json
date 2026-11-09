@@ -81,24 +81,27 @@
   "candidates": [
    {
     "name": "Yes",
-    "votes": 759519,
-    "pct": 51.0
+    "votes": 759239,
+    "pct": 50.9
    },
    {
     "name": "No",
-    "votes": 732169,
-    "pct": 49.0
+    "votes": 731880,
+    "pct": 49.1
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Alabama Reporter",
+    "url": "https://www.alreporter.com/2026/11/05/alabama-voters-approve-four-constitutional-amendments"
+   },
+   {
+    "label": "SAN",
+    "url": "https://san.com/cc/from-transgender-sports-participation-to-school-paid-meals-see-how-voters-chose-tuesday/"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Yes leads narrowly; one outlet reports it passed while others say counting continues."
  },
  "al-prop-amendment-3": {
   "percentIn": null,
@@ -200,28 +203,31 @@
   "note": "Ballotpedia's call. We haven't confirmed it with a second source yet."
  },
  "ar-prop-issue-3": {
-  "percentIn": null,
+  "percentIn": 99,
   "candidates": [
    {
     "name": "Yes",
     "votes": 419413,
-    "pct": 49.0
+    "pct": 49.3
    },
    {
     "name": "No",
     "votes": 431224,
-    "pct": 51.0
+    "pct": 50.7
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KATV (AP)",
+    "url": "https://katv.com/news/local/arkansans-approve-3-ballot-issues-1-still-pending"
+   },
+   {
+    "label": "Talk Business & Politics",
+    "url": "https://talkbusiness.net/2026/11/issue-3-trails-voters-approve-other-constitutional-amendments/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ar-prop-issue-4": {
   "percentIn": null,
@@ -263,13 +269,14 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "azfamily",
+    "url": "https://www.azfamily.com/2026/11/06/arizona-voters-reject-voter-id-measure-approve-grocery-tax-limits-cartel-designation/"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "approved",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Reported approved about 51% to 49% by one outlet that does not name who called it; earlier coverage had it uncalled."
  },
  "az-prop-142": {
   "percentIn": null,
@@ -287,13 +294,16 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "azfamily",
+    "url": "https://www.azfamily.com/2026/11/04/arizona-voters-reject-dei-restrictions-approve-grocery-tax-limits-cartel-designation/"
+   },
+   {
+    "label": "azfamily Nov 6",
+    "url": "https://www.azfamily.com/2026/11/06/arizona-voters-reject-voter-id-measure-approve-grocery-tax-limits-cartel-designation/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "az-prop-144": {
   "percentIn": 93.6,
@@ -440,13 +450,14 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "azfamily",
+    "url": "https://www.azfamily.com/2026/11/06/arizona-voters-reject-voter-id-measure-approve-grocery-tax-limits-cartel-designation/"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "rejected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Reported rejected, with No ahead by about 3 points; no named call found."
  },
  "ca-prop-1": {
   "percentIn": null,
@@ -545,28 +556,27 @@
   "note": "Ballotpedia's call. We haven't confirmed it with a second source yet."
  },
  "ca-prop-38": {
-  "percentIn": null,
+  "percentIn": 76.6,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 4708154,
-    "pct": 55.0
+    "votes": 5530533,
+    "pct": 54.3
    },
    {
     "name": "No",
-    "votes": 3826759,
-    "pct": 45.0
+    "votes": 4645512,
+    "pct": 45.7
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KQED (AP results) Prop 38",
+    "url": "https://www.kqed.org/elections/results/california/proposition-38"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
  },
  "ca-prop-39": {
   "percentIn": 64.6,
@@ -596,202 +606,204 @@
   "outcome": "rejected"
  },
  "ca-prop-4": {
-  "percentIn": null,
+  "percentIn": 76.5,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 3892295,
-    "pct": 49.0
+    "votes": 4991264,
+    "pct": 49.6
    },
    {
     "name": "No",
-    "votes": 4130157,
-    "pct": 51.0
+    "votes": 5076644,
+    "pct": 50.4
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KQED (AP results) Prop 4",
+    "url": "https://www.kqed.org/elections/results/california/proposition-4"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
  },
  "ca-prop-40": {
-  "percentIn": 64.6,
+  "percentIn": 76.6,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 3991133,
-    "pct": 45.5
+    "votes": 4850428,
+    "pct": 46.8
    },
    {
     "name": "No",
-    "votes": 4782939,
-    "pct": 54.5
+    "votes": 5507614,
+    "pct": 53.2
    }
   ],
   "sources": [
    {
-    "label": "NBC News",
-    "url": "https://www.nbcnews.com/politics/2026-elections/california-ballot-measures"
-   },
-   {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KQED (AP results) Prop 40",
+    "url": "https://www.kqed.org/elections/results/california/proposition-40"
    }
   ],
-  "status": "uncalled"
+  "status": "uncalled",
+  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
  },
  "ca-prop-41": {
-  "percentIn": 64.6,
+  "percentIn": 76.6,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 4016497,
-    "pct": 46.6
+    "votes": 4620911,
+    "pct": 45.4
    },
    {
     "name": "No",
-    "votes": 4604133,
-    "pct": 53.4
+    "votes": 5552475,
+    "pct": 54.6
    }
   ],
   "sources": [
    {
-    "label": "NBC News",
-    "url": "https://www.nbcnews.com/politics/2026-elections/california-ballot-measures"
+    "label": "KQED (AP results) Prop 41",
+    "url": "https://www.kqed.org/elections/results/california/proposition-41"
    },
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "The Center Square (Just the News)",
+    "url": "https://justthenews.com/nation/states/center-square/billionaire-tax-fails-bond-measures-pass-california"
    }
   ],
-  "status": "uncalled"
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ca-prop-42": {
-  "percentIn": 64.6,
+  "percentIn": 76.6,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 4636724,
-    "pct": 53.3
+    "votes": 5339967,
+    "pct": 52.0
    },
    {
     "name": "No",
-    "votes": 4068288,
-    "pct": 46.7
+    "votes": 4933120,
+    "pct": 48.0
    }
   ],
   "sources": [
    {
-    "label": "NBC News",
-    "url": "https://www.nbcnews.com/politics/2026-elections/california-ballot-measures"
-   },
-   {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KQED (AP results) Prop 42",
+    "url": "https://www.kqed.org/elections/results/california/proposition-42"
    }
   ],
-  "status": "uncalled"
+  "status": "uncalled",
+  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
  },
  "ca-prop-43": {
-  "percentIn": null,
+  "percentIn": 76.6,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 3753764,
-    "pct": 44.0
+    "votes": 4349879,
+    "pct": 43.0
    },
    {
     "name": "No",
-    "votes": 4722869,
-    "pct": 56.0
+    "votes": 5757562,
+    "pct": 57.0
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KQED (AP results) Prop 43",
+    "url": "https://www.kqed.org/elections/results/california/proposition-43"
+   },
+   {
+    "label": "The Center Square (Just the News)",
+    "url": "https://justthenews.com/nation/states/center-square/billionaire-tax-fails-bond-measures-pass-california"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ca-prop-44": {
-  "percentIn": null,
+  "percentIn": 76.5,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 1646091,
-    "pct": 19.0
+    "votes": 1811584,
+    "pct": 18.0
    },
    {
     "name": "No",
-    "votes": 6937092,
-    "pct": 81.0
+    "votes": 8275824,
+    "pct": 82.0
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KQED (AP results) Prop 44",
+    "url": "https://www.kqed.org/elections/results/california/proposition-44"
+   },
+   {
+    "label": "The Center Square (Just the News)",
+    "url": "https://justthenews.com/nation/states/center-square/billionaire-tax-fails-bond-measures-pass-california"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ca-prop-45": {
-  "percentIn": null,
+  "percentIn": 76.5,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 3814100,
-    "pct": 45.0
+    "votes": 4439837,
+    "pct": 44.1
    },
    {
     "name": "No",
-    "votes": 4622419,
-    "pct": 55.0
+    "votes": 5618200,
+    "pct": 55.9
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KQED (AP results) Prop 45",
+    "url": "https://www.kqed.org/elections/results/california/proposition-45"
+   },
+   {
+    "label": "The Center Square (Just the News)",
+    "url": "https://justthenews.com/nation/states/center-square/billionaire-tax-fails-bond-measures-pass-california"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ca-prop-5": {
-  "percentIn": null,
+  "percentIn": 76.5,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 4231835,
-    "pct": 51.0
+    "votes": 5138785,
+    "pct": 51.9
    },
    {
     "name": "No",
-    "votes": 4067725,
-    "pct": 49.0
+    "votes": 4757753,
+    "pct": 48.1
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KQED (AP results) Prop 5",
+    "url": "https://www.kqed.org/elections/results/california/proposition-5"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
  },
  "co-prop-132": {
   "percentIn": null,
@@ -911,13 +923,16 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Colorado Politics",
+    "url": "https://www.coloradopolitics.com/2026/11/05/colorado-ballot-measures-what-is-passing-failing-and-undecided/"
+   },
+   {
+    "label": "Aspen Times",
+    "url": "https://aspentimes.com/news/colorado-ballot-measures-midterm-election/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "co-prop-137": {
   "percentIn": null,
@@ -986,13 +1001,17 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Colorado Politics",
+    "url": "https://www.coloradopolitics.com/2026/11/05/colorado-ballot-measures-what-is-passing-failing-and-undecided/"
+   },
+   {
+    "label": "Aspen Times",
+    "url": "https://aspentimes.com/news/colorado-ballot-measures-midterm-election/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected",
+  "note": "Colorado constitutional amendments need 55% to pass; Yes is well short."
  },
  "co-prop-amendment-83": {
   "percentIn": null,
@@ -1010,13 +1029,17 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Colorado Politics",
+    "url": "https://www.coloradopolitics.com/2026/11/05/colorado-ballot-measures-what-is-passing-failing-and-undecided/"
+   },
+   {
+    "label": "Aspen Times",
+    "url": "https://aspentimes.com/news/colorado-ballot-measures-midterm-election/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected",
+  "note": "Colorado constitutional amendments need 55% to pass; Yes is well short."
  },
  "co-prop-amendment-84": {
   "percentIn": null,
@@ -1034,13 +1057,17 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Colorado Politics",
+    "url": "https://www.coloradopolitics.com/2026/11/05/colorado-ballot-measures-what-is-passing-failing-and-undecided/"
+   },
+   {
+    "label": "Aspen Times",
+    "url": "https://aspentimes.com/news/colorado-ballot-measures-midterm-election/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected",
+  "note": "Colorado constitutional amendments need 55% to pass; Yes is well short."
  },
  "co-prop-amendment-85": {
   "percentIn": null,
@@ -1058,13 +1085,17 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Aspen Times",
+    "url": "https://aspentimes.com/news/colorado-ballot-measures-midterm-election/"
+   },
+   {
+    "label": "Colorado Politics",
+    "url": "https://www.coloradopolitics.com/2026/11/05/colorado-ballot-measures-what-is-passing-failing-and-undecided/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected",
+  "note": "Yes leads about 51% to 49% but Colorado constitutional amendments need 55% to pass, so it is rejected."
  },
  "co-prop-amendment-86": {
   "percentIn": null,
@@ -1082,13 +1113,17 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Colorado Politics",
+    "url": "https://www.coloradopolitics.com/2026/11/05/colorado-ballot-measures-what-is-passing-failing-and-undecided/"
+   },
+   {
+    "label": "Aspen Times",
+    "url": "https://aspentimes.com/news/colorado-ballot-measures-midterm-election/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected",
+  "note": "Colorado constitutional amendments need 55% to pass; Yes is well short."
  },
  "co-prop-amendment-87": {
   "percentIn": null,
@@ -1096,23 +1131,26 @@
    {
     "name": "Yes",
     "votes": null,
-    "pct": null
+    "pct": 51.0
    },
    {
     "name": "No",
     "votes": null,
-    "pct": null
+    "pct": 49.0
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Colorado Politics",
+    "url": "https://www.coloradopolitics.com/2026/11/06/colorado-passes-graduated-income-tax-eliminates-flat-rate/"
+   },
+   {
+    "label": "Colorado Politics",
+    "url": "https://www.coloradopolitics.com/2026/11/05/colorado-ballot-measures-what-is-passing-failing-and-undecided/"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Yes leads narrowly; outlets disagree on whether it has been called."
  },
  "co-prop-nn": {
   "percentIn": null,
@@ -1154,13 +1192,16 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "WGCU",
+    "url": "https://www.wgcu.org/elections/2026-11-04/voters-approve-property-tax-cut-reject-other-ballot-measures"
+   },
+   {
+    "label": "Bradenton Times",
+    "url": "https://thebradentontimes.com/stories/amendment-3-passes-amendments-1-and-2-fail,218776"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "fl-prop-amendment-2": {
   "percentIn": null,
@@ -1168,23 +1209,26 @@
    {
     "name": "Yes",
     "votes": 4544014,
-    "pct": 58.0
+    "pct": 58.3
    },
    {
     "name": "No",
     "votes": 3261646,
-    "pct": 42.0
+    "pct": 41.7
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "WGCU",
+    "url": "https://www.wgcu.org/elections/2026-11-04/voters-approve-property-tax-cut-reject-other-ballot-measures"
+   },
+   {
+    "label": "Bradenton Times",
+    "url": "https://thebradentontimes.com/stories/amendment-3-passes-amendments-1-and-2-fail,218776"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "fl-prop-amendment-3": {
   "percentIn": null,
@@ -1397,37 +1441,39 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KUTV (AP)",
+    "url": "https://kutv.com/news/local/idaho-voters-choose-winchester-model-1873-rifle-as-official-state-gun-ap-buffalo-bill-meriwether-lewis-william-clark-utah-arizona-peacemaker-rrt"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "This is a non-binding advisory question asking voters to choose an official state gun, so there's no yes-or-no outcome. We don't have its result yet."
+  "note": "Non-binding advisory question to pick an official state gun, so there is no yes-or-no outcome. AP projected the Winchester Model 1873 rifle as the voters' choice (31.2% with 91% counted, Winchester Model 1894 second at 25.5%)."
  },
  "id-prop-hjr-4": {
   "percentIn": null,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 239906,
-    "pct": 34.0
+    "votes": 239659,
+    "pct": 33.7
    },
    {
     "name": "No",
-    "votes": 471321,
-    "pct": 66.0
+    "votes": 470841,
+    "pct": 66.3
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Idaho News",
+    "url": "https://idahonews.com/news/local/proposition-1-and-hjr-4-fail-in-idaho-election"
+   },
+   {
+    "label": "East Idaho News",
+    "url": "https://www.eastidahonews.com/?p=881442"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "id-prop-hjr-6": {
   "percentIn": null,
@@ -1592,13 +1638,14 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "WAFB",
+    "url": "https://www.wafb.com/2026/11/04/louisiana-voters-pass-7-10-constitutional-amendments-ballot/"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "rejected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Reported failed by one local news source (53% No); no named call or official source found, so this is unconfirmed."
  },
  "la-prop-amendment-2": {
   "percentIn": null,
@@ -1606,23 +1653,24 @@
    {
     "name": "Yes",
     "votes": 596340,
-    "pct": 42.0
+    "pct": 43.0
    },
    {
     "name": "No",
     "votes": 824341,
-    "pct": 58.0
+    "pct": 57.0
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "WAFB",
+    "url": "https://www.wafb.com/2026/11/04/louisiana-voters-pass-7-10-constitutional-amendments-ballot/"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "rejected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Reported failed by one local news source (57% No); no named call or official source found, so this is unconfirmed."
  },
  "la-prop-amendment-3": {
   "percentIn": null,
@@ -1688,13 +1736,14 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "WAFB",
+    "url": "https://www.wafb.com/2026/11/04/louisiana-voters-pass-7-10-constitutional-amendments-ballot/"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "rejected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Reported failed by one local news source (more than 60% No); no named call or official source found, so this is unconfirmed."
  },
  "la-prop-amendment-6": {
   "percentIn": null,
@@ -1892,28 +1941,31 @@
   "note": "Ballotpedia's call. We haven't confirmed it with a second source yet."
  },
  "ma-prop-question-5": {
-  "percentIn": null,
+  "percentIn": 99,
   "candidates": [
    {
     "name": "Yes",
     "votes": 1209272,
-    "pct": 48.0
+    "pct": 47.8
    },
    {
     "name": "No",
     "votes": 1325096,
-    "pct": 52.0
+    "pct": 52.2
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Boston.com",
+    "url": "https://www.boston.com/news/local-news/2026/11/05/campaign-behind-question-5-concedes-as-ap-projects-measure-to-fail"
+   },
+   {
+    "label": "WBUR",
+    "url": "https://www.wbur.org/news/2026/11/05/massachusetts-question-5-tax-rebates"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ma-prop-question-6": {
   "percentIn": null,
@@ -1940,28 +1992,35 @@
   "note": "Ballotpedia's call. We haven't confirmed it with a second source yet."
  },
  "ma-prop-question-7": {
-  "percentIn": null,
+  "percentIn": 99,
   "candidates": [
    {
     "name": "Yes",
     "votes": 1255595,
-    "pct": 49.0
+    "pct": 49.4
    },
    {
     "name": "No",
     "votes": 1287917,
-    "pct": 51.0
+    "pct": 50.6
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "WBUR",
+    "url": "https://www.wbur.org/news/2026/11/06/massachusetts-ballot-question-7-rejected"
+   },
+   {
+    "label": "NBC Boston",
+    "url": "https://www.nbcboston.com/elections/mass-ballot-question-7-result-vote/4045189/"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ma-prop-question-8": {
   "percentIn": 98.7,
@@ -2095,23 +2154,34 @@
    {
     "name": "Yes",
     "votes": 1112472,
-    "pct": 26.0
+    "pct": 26.2
    },
    {
     "name": "No",
     "votes": 3127977,
-    "pct": 74.0
+    "pct": 73.8
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "FOX 2 Detroit",
+    "url": "https://www.fox2detroit.com/election/michigan-voters-reject-proposal-1-rewrite-state-constitution"
+   },
+   {
+    "label": "Michigan Advance",
+    "url": "https://michiganadvance.com/?p=115375"
+   },
+   {
+    "label": "Michigan Public",
+    "url": "https://www.michiganpublic.org/politics-government/2026-11-03/proposal-1-michigan-results-2026"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "mi-prop-2": {
   "percentIn": null,
@@ -2218,23 +2288,30 @@
    {
     "name": "Yes",
     "votes": 815744,
-    "pct": 39.0
+    "pct": 39.5
    },
    {
     "name": "No",
     "votes": 1251889,
-    "pct": 61.0
+    "pct": 60.5
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "St. Louis Public Radio",
+    "url": "https://www.stlpr.org/2026-11-04/missouri-voters-reject-amendment-7-declining-the-establishment-of-a-sovereign-wealth-fund"
+   },
+   {
+    "label": "KCUR",
+    "url": "https://www.kcur.org/2026-11-04/missouri-voters-reject-amendment-7-declining-the-establishment-of-a-sovereign-wealth-fund"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "mo-prop-amendment-8": {
   "percentIn": null,
@@ -2252,13 +2329,20 @@
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "KCTV5",
+    "url": "https://www.kctv5.com/2026/11/05/amendment-8-passes-vote-missourians/"
+   },
+   {
+    "label": "Missouri Independent",
+    "url": "https://missouriindependent.com/?p=33512"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "approved"
  },
  "mo-prop-proposition-a": {
   "percentIn": 99,
@@ -2440,23 +2524,30 @@
    {
     "name": "Yes",
     "votes": 101659,
-    "pct": 44.0
+    "pct": 43.5
    },
    {
     "name": "No",
     "votes": 131947,
-    "pct": 56.0
+    "pct": 56.5
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "Valley News Live",
+    "url": "https://www.valleynewslive.com/2026/11/04/north-dakota-voters-reject-higher-bar-changing-state-constitution/"
+   },
+   {
+    "label": "States Newsroom",
+    "url": "https://www.newsfromthestates.com/node/436633"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "nd-prop-constitutional-measure-2": {
   "percentIn": null,
@@ -2464,23 +2555,30 @@
    {
     "name": "Yes",
     "votes": 116263,
-    "pct": 49.0
+    "pct": 49.4
    },
    {
     "name": "No",
     "votes": 119152,
-    "pct": 51.0
+    "pct": 50.6
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "Valley News Live",
+    "url": "https://www.valleynewslive.com/2026/11/05/school-meals-focus-shifts-north-dakota-legislature-after-measure-2-defeat/"
+   },
+   {
+    "label": "The 74",
+    "url": "https://www.the74million.org/article/voters-defeat-free-school-meal-ballot-measure-in-north-dakota/"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ne-prop-constitutional-amendment-1": {
   "percentIn": null,
@@ -2488,23 +2586,28 @@
    {
     "name": "Yes",
     "votes": 132125,
-    "pct": 19.0
+    "pct": 18.6
    },
    {
     "name": "No",
     "votes": 580091,
-    "pct": 81.0
+    "pct": 81.4
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "States Newsroom",
+    "url": "https://www.newsfromthestates.com/article/nebraska-voters-soundly-reject-proposal-extend-legislative-term-limits"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "rejected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Reported rejected by one news source (States Newsroom); no second independent call found yet."
  },
  "ne-prop-initiative-440": {
   "percentIn": null,
@@ -2512,23 +2615,34 @@
    {
     "name": "Yes",
     "votes": 329346,
-    "pct": 45.0
+    "pct": 45.1
    },
    {
     "name": "No",
     "votes": 400711,
-    "pct": 55.0
+    "pct": 54.9
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "WOWT",
+    "url": "https://www.wowt.com/2026/11/04/nebraska-voters-reject-mobile-sports-betting-initiatives/"
+   },
+   {
+    "label": "Casino.org",
+    "url": "https://www.casino.org/news/nebraska-sports-betting-referendums-fail/"
+   },
+   {
+    "label": "Fortune",
+    "url": "https://fortune.com/article/nebraska-voters-block-legalize-online-sports-betting-166-million-tax/"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ne-prop-initiative-441": {
   "percentIn": null,
@@ -2536,23 +2650,34 @@
    {
     "name": "Yes",
     "votes": 332378,
-    "pct": 46.0
+    "pct": 45.5
    },
    {
     "name": "No",
     "votes": 397624,
-    "pct": 54.0
+    "pct": 54.5
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "WOWT",
+    "url": "https://www.wowt.com/2026/11/04/nebraska-voters-reject-mobile-sports-betting-initiatives/"
+   },
+   {
+    "label": "Casino.org",
+    "url": "https://www.casino.org/news/nebraska-sports-betting-referendums-fail/"
+   },
+   {
+    "label": "Fortune",
+    "url": "https://fortune.com/article/nebraska-voters-block-legalize-online-sports-betting-166-million-tax/"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ne-prop-initiative-442": {
   "percentIn": null,
@@ -2584,23 +2709,28 @@
    {
     "name": "Yes",
     "votes": 364889,
-    "pct": 65.0
+    "pct": 64.6
    },
    {
     "name": "No",
     "votes": 199527,
-    "pct": 35.0
+    "pct": 35.4
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "States Newsroom",
+    "url": "https://www.newsfromthestates.com/node/437076"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "rejected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Needs two-thirds to pass; reported as failing by one news source (States Newsroom), and the count we have is under two-thirds. No second call found."
  },
  "nm-prop-bond-question-1": {
   "percentIn": null,
@@ -2829,120 +2959,160 @@
   "candidates": [
    {
     "name": "Yes",
-    "votes": null,
-    "pct": null
+    "votes": 1099934,
+    "pct": 63.4
    },
    {
     "name": "No",
-    "votes": null,
-    "pct": null
+    "votes": 635474,
+    "pct": 36.6
    }
   ],
   "sources": [
    {
-    "label": "Wikipedia",
+    "label": "Wikipedia (unofficial NYC BOE results)",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_City_ballot_proposals"
+   },
+   {
+    "label": "amNY",
+    "url": "https://amny.com/politics/nyc-voters-approve-all-five-ballot-proposals/"
+   },
+   {
+    "label": "6sqft",
+    "url": "https://www.6sqft.com/nyc-voters-approve-all-five-mamdani-ballot-proposals-heres-what-changes/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We couldn't find published results for this proposal yet."
+  "status": "projected",
+  "outcome": "approved",
+  "note": "Counts are unofficial Board of Elections results as compiled on Wikipedia; percent reporting not published."
  },
  "nyc-prop-2": {
   "percentIn": null,
   "candidates": [
    {
     "name": "Yes",
-    "votes": null,
-    "pct": null
+    "votes": 1061799,
+    "pct": 61.8
    },
    {
     "name": "No",
-    "votes": null,
-    "pct": null
+    "votes": 657038,
+    "pct": 38.2
    }
   ],
   "sources": [
    {
-    "label": "Wikipedia",
+    "label": "Wikipedia (unofficial NYC BOE results)",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_City_ballot_proposals"
+   },
+   {
+    "label": "amNY",
+    "url": "https://amny.com/politics/nyc-voters-approve-all-five-ballot-proposals/"
+   },
+   {
+    "label": "6sqft",
+    "url": "https://www.6sqft.com/nyc-voters-approve-all-five-mamdani-ballot-proposals-heres-what-changes/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We couldn't find published results for this proposal yet."
+  "status": "projected",
+  "outcome": "approved",
+  "note": "Counts are unofficial Board of Elections results as compiled on Wikipedia; percent reporting not published."
  },
  "nyc-prop-3": {
   "percentIn": null,
   "candidates": [
    {
     "name": "Yes",
-    "votes": null,
-    "pct": null
+    "votes": 1133761,
+    "pct": 65.7
    },
    {
     "name": "No",
-    "votes": null,
-    "pct": null
+    "votes": 591982,
+    "pct": 34.3
    }
   ],
   "sources": [
    {
-    "label": "Wikipedia",
+    "label": "Wikipedia (unofficial NYC BOE results)",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_City_ballot_proposals"
+   },
+   {
+    "label": "amNY",
+    "url": "https://amny.com/politics/nyc-voters-approve-all-five-ballot-proposals/"
+   },
+   {
+    "label": "6sqft",
+    "url": "https://www.6sqft.com/nyc-voters-approve-all-five-mamdani-ballot-proposals-heres-what-changes/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We couldn't find published results for this proposal yet."
+  "status": "projected",
+  "outcome": "approved",
+  "note": "Counts are unofficial Board of Elections results as compiled on Wikipedia; percent reporting not published."
  },
  "nyc-prop-4": {
   "percentIn": null,
   "candidates": [
    {
     "name": "Yes",
-    "votes": null,
-    "pct": null
+    "votes": 1155304,
+    "pct": 67.7
    },
    {
     "name": "No",
-    "votes": null,
-    "pct": null
+    "votes": 552003,
+    "pct": 32.3
    }
   ],
   "sources": [
    {
-    "label": "Wikipedia",
+    "label": "Wikipedia (unofficial NYC BOE results)",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_City_ballot_proposals"
+   },
+   {
+    "label": "amNY",
+    "url": "https://amny.com/politics/nyc-voters-approve-all-five-ballot-proposals/"
+   },
+   {
+    "label": "6sqft",
+    "url": "https://www.6sqft.com/nyc-voters-approve-all-five-mamdani-ballot-proposals-heres-what-changes/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We couldn't find published results for this proposal yet."
+  "status": "projected",
+  "outcome": "approved",
+  "note": "Counts are unofficial Board of Elections results as compiled on Wikipedia; percent reporting not published."
  },
  "nyc-prop-5": {
   "percentIn": null,
   "candidates": [
    {
     "name": "Yes",
-    "votes": null,
-    "pct": null
+    "votes": 1243219,
+    "pct": 72.5
    },
    {
     "name": "No",
-    "votes": null,
-    "pct": null
+    "votes": 471812,
+    "pct": 27.5
    }
   ],
   "sources": [
    {
-    "label": "Wikipedia",
+    "label": "Wikipedia (unofficial NYC BOE results)",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_City_ballot_proposals"
+   },
+   {
+    "label": "amNY",
+    "url": "https://amny.com/politics/nyc-voters-approve-all-five-ballot-proposals/"
+   },
+   {
+    "label": "6sqft",
+    "url": "https://www.6sqft.com/nyc-voters-approve-all-five-mamdani-ballot-proposals-heres-what-changes/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We couldn't find published results for this proposal yet."
+  "status": "projected",
+  "outcome": "approved",
+  "note": "Counts are unofficial Board of Elections results as compiled on Wikipedia; percent reporting not published."
  },
  "oh-prop-issue-3": {
   "percentIn": 97.6,
@@ -2977,23 +3147,26 @@
    {
     "name": "Yes",
     "votes": 294247,
-    "pct": 27.0
+    "pct": 27.5
    },
    {
     "name": "No",
     "votes": 776720,
-    "pct": 73.0
+    "pct": 72.5
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "News 9",
+    "url": "https://www.news9.com/oklahoma-elections/oklahoma-state-question-845-results"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ok-prop-sq-847": {
   "percentIn": null,
@@ -3001,23 +3174,28 @@
    {
     "name": "Yes",
     "votes": 493144,
-    "pct": 46.0
+    "pct": 45.7
    },
    {
     "name": "No",
     "votes": 585313,
-    "pct": 54.0
+    "pct": 54.3
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "News 9",
+    "url": "https://www.news9.com/oklahoma-elections/oklahoma-state-question-847-results"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "rejected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Reported as failing by one news source (News 9) without an AP call; no second source found."
  },
  "ri-prop-question-1": {
   "percentIn": null,
@@ -3073,23 +3251,30 @@
    {
     "name": "Yes",
     "votes": 162360,
-    "pct": 48.0
+    "pct": 47.7
    },
    {
     "name": "No",
     "votes": 178189,
-    "pct": 52.0
+    "pct": 52.3
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "Providence Journal/WPRI 12 (turnto10)",
+    "url": "https://turnto10.com/news/local/rhode-island-voters-reject-statewide-bonds-for-first-time-in-20-years-november-4-2026"
+   },
+   {
+    "label": "Boston Globe",
+    "url": "https://www.bostonglobe.com/2026/11/05/metro/ri-ballot-questions-rejected-economic-development-data-centers/"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ri-prop-question-4": {
   "percentIn": null,
@@ -3097,23 +3282,30 @@
    {
     "name": "Yes",
     "votes": 169784,
-    "pct": 49.0
+    "pct": 49.4
    },
    {
     "name": "No",
     "votes": 174090,
-    "pct": 51.0
+    "pct": 50.6
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "WPRI 12 (turnto10)",
+    "url": "https://turnto10.com/news/local/rhode-island-voters-reject-statewide-bonds-for-first-time-in-20-years-november-4-2026"
+   },
+   {
+    "label": "Boston Globe",
+    "url": "https://www.bostonglobe.com/2026/11/05/metro/ri-ballot-questions-rejected-economic-development-data-centers/"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ri-prop-question-5": {
   "percentIn": null,
@@ -3223,23 +3415,28 @@
    {
     "name": "Yes",
     "votes": 126173,
-    "pct": 42.0
+    "pct": 42.4
    },
    {
     "name": "No",
     "votes": 171359,
-    "pct": 58.0
+    "pct": 57.6
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "Dakota News Now",
+    "url": "https://www.dakotanewsnow.com/2026/11/04/south-dakota-voters-reject-medicaid-60-threshold-amendments-pass-voter-id-unclaimed-property/"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
+  "outcome": "rejected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "Reported rejected by one news source (Dakota News Now); no second call or official source found."
  },
  "tn-prop-amendment-1": {
   "percentIn": null,
@@ -3346,23 +3543,30 @@
    {
     "name": "Yes",
     "votes": 328880,
-    "pct": 39.0
+    "pct": 38.8
    },
    {
     "name": "No",
     "votes": 519359,
-    "pct": 61.0
+    "pct": 61.2
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "KSL",
+    "url": "https://ksl.com/article/51643529/votes-against-amendment-b-outpacing-votes-for-proposed-measure-on-utah-ballots"
+   },
+   {
+    "label": "KPCW",
+    "url": "https://www.kpcw.org/state-regional/2026-11-04/utah-voters-reject-amendment-b"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "va-prop-question-1": {
   "percentIn": 97.1,
@@ -3521,17 +3725,17 @@
   "note": "We don't have a confirmed outcome for this measure yet."
  },
  "wa-prop-il26-638": {
-  "percentIn": 78.5,
+  "percentIn": 88.3,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 1438212,
-    "pct": 56.8
+    "votes": 1605238,
+    "pct": 56.5
    },
    {
     "name": "No",
-    "votes": 1094168,
-    "pct": 43.2
+    "votes": 1234370,
+    "pct": 43.5
    }
   ],
   "sources": [
@@ -3540,11 +3744,12 @@
     "url": "https://www.nbcnews.com/politics/2026-elections/washington-ballot-measures"
    },
    {
-    "label": "Ballotpedia",
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled"
+  "status": "projected",
+  "outcome": "approved"
  },
  "wa-prop-ip26-645": {
   "percentIn": 78.5,
@@ -3579,23 +3784,34 @@
    {
     "name": "Yes",
     "votes": 1308833,
-    "pct": 51.0
+    "pct": 50.8
    },
    {
     "name": "No",
     "votes": 1270123,
-    "pct": 49.0
+    "pct": 49.2
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "Spectrum News",
+    "url": "https://spectrumnews1.com/wi/milwaukee/news/2026/11/04/election-constitutional-amendments-results-ballot-wisconsin"
+   },
+   {
+    "label": "Wisconsin Watch",
+    "url": "https://wisconsinwatch.org/2026/11/wisconsin-republican-constitutional-amendments-two-pass-one-fails/"
+   },
+   {
+    "label": "Wisconsin Examiner",
+    "url": "https://wisconsinexaminer.com/?p=48657"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "approved"
  },
  "wi-prop-question-2": {
   "percentIn": null,
@@ -3603,23 +3819,30 @@
    {
     "name": "Yes",
     "votes": 1244740,
-    "pct": 48.0
+    "pct": 48.1
    },
    {
     "name": "No",
     "votes": 1344295,
-    "pct": 52.0
+    "pct": 51.9
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "Wisconsin Examiner",
+    "url": "https://wisconsinexaminer.com/?p=48657"
+   },
+   {
+    "label": "Wisconsin Watch",
+    "url": "https://wisconsinwatch.org/2026/11/wisconsin-republican-constitutional-amendments-two-pass-one-fails/"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "wi-prop-question-3": {
   "percentIn": null,
@@ -3678,23 +3901,30 @@
    {
     "name": "Yes",
     "votes": 80031,
-    "pct": 43.0
+    "pct": 43.2
    },
    {
     "name": "No",
     "votes": 105200,
-    "pct": 57.0
+    "pct": 56.8
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
+    "label": "Cowboy State Daily",
+    "url": "https://cowboystatedaily.com/2026/11/03/voters-reject-proposition-1-to-cut-wyoming-property-tax-50/"
+   },
+   {
+    "label": "Governing",
+    "url": "https://www.governing.com/urban/wyoming-voters-reject-sweeping-property-tax-cut"
+   },
+   {
+    "label": "Ballotpedia (vote counts)",
     "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "status": "projected",
+  "outcome": "rejected"
  },
  "ny-sd-10": {
   "percentIn": null,
@@ -3783,7 +4013,7 @@
   "candidates": [
    {
     "id": "jessica-gonzalez-rojas",
-    "name": "Jessica Gonz\u00e1lez-Rojas",
+    "name": "Jessica González-Rojas",
     "votes": 35538,
     "pct": 79.0
    },
@@ -3885,30 +4115,41 @@
   "note": "Unopposed on the ballot, according to the sources below."
  },
  "ny-sd-17": {
-  "percentIn": null,
+  "percentIn": 99,
   "candidates": [
    {
     "id": "steve-chan",
     "name": "Steve Chan",
-    "votes": null,
-    "pct": null
+    "votes": 16827,
+    "pct": 42.5
    },
    {
     "id": "larry-he",
     "name": "Larry He",
-    "votes": null,
-    "pct": null
+    "votes": 22786,
+    "pct": 57.5
    }
   ],
   "sources": [
    {
     "label": "Ballotpedia",
     "url": "https://ballotpedia.org/New_York_State_Senate_District_17"
+   },
+   {
+    "label": "City & State: Democrats sweep local races in southern Brooklyn",
+    "url": "https://www.cityandstateny.com/politics/2026/11/democrats-sweep-local-races-southern-brooklyn/417026/"
+   },
+   {
+    "label": "Wikipedia (Steve Chan)",
+    "url": "https://en.wikipedia.org/wiki/Steve_Chan_(American_politician)"
+   },
+   {
+    "label": "City & State: Where do key state legislative races stand",
+    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Larry He has declared victory with about 57% of the vote, but no news organization has called the race."
  },
  "ny-sd-18": {
   "percentIn": null,
@@ -4286,7 +4527,7 @@
   "candidates": [
    {
     "id": "luis-sepulveda",
-    "name": "Luis Sep\u00falveda",
+    "name": "Luis Sepúlveda",
     "votes": null,
     "pct": null
    }
@@ -4441,30 +4682,37 @@
   "note": "Unopposed on the ballot, according to the sources below."
  },
  "ny-ad-23": {
-  "percentIn": null,
+  "percentIn": 97.1,
   "candidates": [
    {
     "id": "pesach-osina",
     "name": "Pesach Osina",
     "votes": null,
-    "pct": null
+    "pct": 51.9
    },
    {
     "id": "thomas-sullivan",
     "name": "Thomas Sullivan",
     "votes": null,
-    "pct": null
+    "pct": 47.9
    }
   ],
   "sources": [
    {
     "label": "Ballotpedia",
     "url": "https://ballotpedia.org/New_York_State_Assembly_District_23"
+   },
+   {
+    "label": "QNS: Osina wins race for Assembly District 23",
+    "url": "https://qns.com/2026/11/osina-wins-race-for-assembly-district-23/"
+   },
+   {
+    "label": "City & State: Where do key state legislative races stand",
+    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Pesach Osina leads with about 97% counted; no news organization has called it."
  },
  "ny-ad-24": {
   "percentIn": null,
@@ -4865,9 +5113,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "david-orkin"
  },
  "ny-ad-39": {
   "percentIn": null,
@@ -4891,9 +5140,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "catalina-cruz"
  },
  "ny-ad-40": {
   "percentIn": null,
@@ -4957,9 +5207,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "rodneyse-bichotte-hermelyn"
  },
  "ny-ad-43": {
   "percentIn": null,
@@ -4977,9 +5228,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "brian-cunningham"
  },
  "ny-ad-44": {
   "percentIn": null,
@@ -5003,9 +5255,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "robert-carroll"
  },
  "ny-ad-45": {
   "percentIn": null,
@@ -5027,11 +5280,18 @@
    {
     "label": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
+   },
+   {
+    "label": "City & State: Democrats sweep local races in southern Brooklyn",
+    "url": "https://www.cityandstateny.com/politics/2026/11/democrats-sweep-local-races-southern-brooklyn/417026/"
+   },
+   {
+    "label": "City & State: Where do key state legislative races stand",
+    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "status": "projected",
+  "winner": "joey-cohen-saban"
  },
  "ny-ad-46": {
   "percentIn": null,
@@ -5053,11 +5313,18 @@
    {
     "label": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
+   },
+   {
+    "label": "City & State: Democrats sweep local races in southern Brooklyn",
+    "url": "https://www.cityandstateny.com/politics/2026/11/democrats-sweep-local-races-southern-brooklyn/417026/"
+   },
+   {
+    "label": "City & State: Where do key state legislative races stand",
+    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "status": "projected",
+  "winner": "chris-mccreight"
  },
  "ny-ad-47": {
   "percentIn": null,
@@ -5081,9 +5348,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "william-colton"
  },
  "ny-ad-48": {
   "percentIn": null,
@@ -5106,7 +5374,7 @@
   "note": "Unopposed on the ballot, according to the sources below."
  },
  "ny-ad-49": {
-  "percentIn": null,
+  "percentIn": 99,
   "candidates": [
    {
     "id": "lester-chang",
@@ -5125,11 +5393,18 @@
    {
     "label": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
+   },
+   {
+    "label": "City & State: Democrats sweep local races in southern Brooklyn",
+    "url": "https://www.cityandstateny.com/politics/2026/11/democrats-sweep-local-races-southern-brooklyn/417026/"
+   },
+   {
+    "label": "City & State: Where do key state legislative races stand",
+    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
    }
   ],
   "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Joyce Xiaoqiong Xie leads by about 861 votes with 99% of scanners in; no call yet."
  },
  "ny-ad-50": {
   "percentIn": null,
@@ -5173,9 +5448,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "marcela-mitaynes"
  },
  "ny-ad-52": {
   "percentIn": null,
@@ -5199,9 +5475,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "jo-anne-simon"
  },
  "ny-ad-53": {
   "percentIn": null,
@@ -5305,9 +5582,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "phara-souffrant-forrest"
  },
  "ny-ad-58": {
   "percentIn": null,
@@ -5351,9 +5629,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "jaime-williams"
  },
  "ny-ad-60": {
   "percentIn": null,
@@ -5377,9 +5656,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "nikki-lucas"
  },
  "ny-ad-61": {
   "percentIn": null,
@@ -5403,9 +5683,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "charles-fall"
  },
  "ny-ad-62": {
   "percentIn": null,
@@ -5475,9 +5756,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "michael-tannousis"
  },
  "ny-ad-65": {
   "percentIn": null,
@@ -5501,9 +5783,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "illapa-sairitupac"
  },
  "ny-ad-66": {
   "percentIn": null,
@@ -5687,9 +5970,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "keith-powers"
  },
  "ny-ad-75": {
   "percentIn": null,
@@ -5713,9 +5997,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "tony-simone"
  },
  "ny-ad-76": {
   "percentIn": null,
@@ -5739,9 +6024,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "rebecca-seawright"
  },
  "ny-ad-77": {
   "percentIn": null,
@@ -5805,9 +6091,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "chantel-jackson"
  },
  "ny-ad-80": {
   "percentIn": null,
@@ -5831,9 +6118,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "john-zaccaro-jr"
  },
  "ny-ad-81": {
   "percentIn": null,
@@ -5877,9 +6165,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "michael-benedetto"
  },
  "ny-ad-83": {
   "percentIn": null,
@@ -5903,9 +6192,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "carl-heastie"
  },
  "ny-ad-84": {
   "percentIn": null,
@@ -5929,9 +6219,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "amanda-septimo"
  },
  "ny-ad-85": {
   "percentIn": null,
@@ -5981,9 +6272,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "yudelka-tapia"
  },
  "ny-ad-87": {
   "percentIn": null,
@@ -6013,9 +6305,10 @@
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
+  "status": "projected",
   "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Reported by Wikipedia only; not yet confirmed by a second source.",
+  "winner": "karines-reyes"
  },
  "ny-comptroller": {
   "percentIn": null,
@@ -6056,7 +6349,44 @@
   "note": "No candidate has a majority in the first count, so the result depends on Alaska's ranked-choice tabulation."
  },
  "us-house-me-2": {
-  "note": "Neither candidate has a majority, so Maine's ranked-choice tabulation decides this race. Maine's Secretary of State says it begins November 9."
+  "status": "projected",
+  "percentIn": 97.8,
+  "candidates": [
+   {
+    "id": "paul-lepage",
+    "name": "Paul LePage",
+    "votes": 170265,
+    "pct": 49.9
+   },
+   {
+    "id": "matthew-dunlap",
+    "name": "Matthew Dunlap",
+    "votes": 164845,
+    "pct": 48.3
+   },
+   {
+    "name": "Gregory Ward (write-in)",
+    "votes": 125,
+    "pct": 0
+   }
+  ],
+  "sources": [
+   {
+    "label": "NBC News",
+    "url": "https://www.nbcnews.com/politics/2026-elections/maine-us-house-district-2-results"
+   },
+   {
+    "label": "ABC News 4: Dunlap concedes to LePage (Nov 5)",
+    "url": "https://abcnews4.com/news/nation-world/matt-dunlap-concedes-in-maines-2nd-district-race-ranked-choice-voting-tabulation-republican-gov-paul-lepage-democrat-matt-dunlap"
+   },
+   {
+    "label": "Bangor Daily News: ME-2 ranked-choice runoff",
+    "url": "https://www.bangordailynews.com/2026/11/05/politics/maine-election-2026-lepage-dunlap-2nd-district-ranked-choice-runoff"
+   }
+  ],
+  "note": "Dunlap conceded Nov 5; no news organization call found and the ranked-choice tabulation (Nov 9) is not yet confirmed by a second source.",
+  "winner": "paul-lepage",
+  "unconfirmed": true
  },
  "us-house-la-5": {
   "status": "runoff",
@@ -6064,6 +6394,55 @@
  },
  "us-house-la-6": {
   "status": "runoff",
-  "note": "No candidate won a majority, so the top two advance to a December 12, 2026 runoff. The second spot was still too close to name."
+  "note": "No candidate won a majority, so the top two advance to a December 12, 2026 runoff: Chauna Banks (D) and Blake Miguez (R). Miguez edged the next candidate for the second spot by about 665 votes, per States Newsroom.",
+  "sources": [
+   {
+    "label": "WAFB",
+    "url": "https://www.wafb.com/2026/11/04/chauna-banks-blake-miguez-advance-runoff-louisianas-6th-congressional-district/"
+   },
+   {
+    "label": "Louisiana Illuminator",
+    "url": "https://lailluminator.com/?p=36119"
+   }
+  ]
+ },
+ "ks-ag": {
+  "sources": [
+   {
+    "label": "NBC News",
+    "url": "https://www.nbcnews.com/politics/2026-elections/kansas-attorney-general-results"
+   },
+   {
+    "label": "HPPR / KCUR: AP calls Kansas AG race for Mann",
+    "url": "https://www.hppr.org/2026-11-06/chris-mann-kansas-attorney-general-race-called-kris-kobach-democrat-blue-wave-election"
+   }
+  ]
+ },
+ "us-house-ca-14": {
+  "sources": [
+   {
+    "label": "NBC News",
+    "url": "https://www.nbcnews.com/politics/2026-elections/california-us-house-district-14-results"
+   },
+   {
+    "label": "KTVU: Wahab wins CA-14 (Nov 6)",
+    "url": "https://www.ktvu.com/news/incumbent-aisha-wahab-wins-californias-district-14-defeating-melissa-hernandez.amp"
+   }
+  ]
+ },
+ "us-house-sc-1": {
+  "sources": [
+   {
+    "label": "NBC News",
+    "url": "https://www.nbcnews.com/politics/2026-elections/south-carolina-us-house-district-1-results"
+   },
+   {
+    "label": "Yahoo News live blog: AP projects Lacore",
+    "url": "https://www.yahoo.com/news/politics/live/midterms-2026-election-results-and-latest-updates-mississippi-votes-still-being-counted-in-senate-nail-biter-after-democrats-take-control-of-congress-200037541.html"
+   }
+  ]
+ },
+ "oh-ag": {
+  "note": "Kulewicz says Faber has conceded, but no news organization has called the race and provisional ballots are still being counted."
  }
 }
