@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "@/components/Link";
 import { notFound } from "next/navigation";
 import { ALL_STATES, stateName } from "@/components/guide/RaceView";
+import { isWinner, RaceResultLine, WonTag } from "@/components/guide/Results";
 import { IncumbentTag, OFFICE_LABEL, PartyChips, SectionLabel } from "@/components/guide/ui";
 import { SourceLink } from "@/components/SourceLink";
 import { chamberLabel } from "@/lib/issues";
@@ -72,9 +73,9 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
           <Link href={`/votes?state=${st.toLowerCase()}`} className="inline-flex min-h-11 items-center font-sans text-[13px] font-semibold text-accent underline">See all contested votes in {stateName(st)} →</Link>
         </section>}
         {legSeats.length > 0 && <section aria-labelledby="state-leg" className="mt-8">
-          <h2 id="state-leg" className="font-serif text-[22px] font-semibold text-ink">State legislative races on the ballot</h2>
+          <h2 id="state-leg" className="font-serif text-[22px] font-semibold text-ink">State legislative races</h2>
           <p className="mt-1 max-w-3xl font-sans text-[13px] leading-[1.6] text-ink-60">
-            Seats up on November 3: {legSeats.join(", ")}. We list the candidates for each, without in-depth research. <Link href="/guide/ballot" className="underline">Enter your address on the ballot page</Link> to see yours.
+            Seats up on November 3: {legSeats.join(", ")}. We list the candidates for each, without in-depth research, and don&rsquo;t yet have their results. <Link href="/guide/ballot" className="underline">Enter your address on the ballot page</Link> to see yours.
           </p>
         </section>}
         {[...groups.entries()].map(([label, list]) => (
@@ -87,12 +88,14 @@ export default async function StatePage({ params }: { params: Promise<{ st: stri
                     {r.title}
                   </Link>
                   <p className="line-clamp-1 font-sans text-[12px] text-ink-45">{r.area}</p>
+                  <RaceResultLine race={r} />
                   <ul className="mt-2 flex flex-col gap-1">
                     {r.candidates.map((c) => (
                       <li key={c.id} className="flex flex-wrap items-center gap-1.5 font-sans text-[12.5px] text-ink-80">
                         <Link href={`/guide/race/${r.id}/${c.id}`} className="font-semibold hover:underline">{c.name}</Link>
                         <PartyChips parties={c.parties} />
                         {c.incumbent && <IncumbentTag />}
+                        {isWinner(r, c.id) && <WonTag />}
                       </li>
                     ))}
                   </ul>
