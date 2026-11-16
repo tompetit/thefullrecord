@@ -56,7 +56,7 @@ export default function GuidePage() {
       <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 pt-10 lg:px-10 lg:pt-14">
         <div>
           <p className="font-sans text-[11px] font-bold tracking-[0.1em] text-accent">
-            GENERAL ELECTION · NOVEMBER 3, 2026 · RESULTS COMING IN
+            GENERAL ELECTION · NOVEMBER 3, 2026 · UNOFFICIAL RESULTS
           </p>
           <h1 className="mt-3 font-serif text-[36px] font-semibold leading-[1.1] tracking-[-0.02em] text-ink text-pretty lg:text-[54px]">
             See who won, and what they&rsquo;ve actually done.
