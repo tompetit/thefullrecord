@@ -1,29 +1,39 @@
 {
  "ak-prop-ballot-measure-2": {
-  "percentIn": 72.7,
+  "status": "projected",
+  "outcome": "rejected",
+  "percentIn": 97,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 98460,
-    "pct": 48.1
+    "votes": 124631,
+    "pct": 46.4
    },
    {
     "name": "No",
-    "votes": 106040,
-    "pct": 51.9
+    "votes": 144098,
+    "pct": 53.6
    }
   ],
   "sources": [
    {
-    "label": "NBC News",
-    "url": "https://www.nbcnews.com/politics/2026-elections/alaska-ballot-measures"
+    "label": "Alaska Division of Elections — 2026 General Election unofficial results (updated Nov 14, 2026)",
+    "url": "https://www.elections.alaska.gov/enr/26GENR/"
    },
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "Alaska Division of Elections — Election Summary Report (Nov 14, 2026)",
+    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf"
+   },
+   {
+    "label": "Alaska Public Media (AP race status, Nov 13–14)",
+    "url": "https://alaskapublic.org/news/politics/elections/2026-11-13/peltola-leads-in-u-s-senate-race-nearing-50-mark-with-almost-all-ballots-counted"
+   },
+   {
+    "label": "Newsweek (via Yahoo News): Alaska voters reject ranked-choice repeal",
+    "url": "https://www.yahoo.com/news/politics/articles/alaska-voters-reject-ranked-choice-150229739.html"
    }
   ],
-  "status": "uncalled"
+  "note": "AP called the measure as rejected (reported by Alaska Public Media). No leads by 19,467 votes (53.6%–46.4%) in the Nov 14 count. Results are unofficial until certification (scheduled Nov 25)."
  },
  "ak-prop-ballot-measure-3": {
   "percentIn": 72.8,
@@ -58,12 +68,12 @@
    {
     "name": "Yes",
     "votes": 987314,
-    "pct": 65.0
+    "pct": 65
    },
    {
     "name": "No",
     "votes": 522135,
-    "pct": 35.0
+    "pct": 35
    }
   ],
   "sources": [
@@ -77,31 +87,36 @@
   "note": "Ballotpedia's call. We haven't confirmed it with a second source yet."
  },
  "al-prop-amendment-2": {
-  "percentIn": null,
+  "status": "projected",
+  "outcome": "approved",
+  "percentIn": 100,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 759239,
+    "votes": 759506,
     "pct": 50.9
    },
    {
     "name": "No",
-    "votes": 731880,
+    "votes": 732160,
     "pct": 49.1
    }
   ],
   "sources": [
    {
-    "label": "Alabama Reporter",
-    "url": "https://www.alreporter.com/2026/11/05/alabama-voters-approve-four-constitutional-amendments"
+    "label": "Alabama Political Reporter (unofficial results, all 67 counties)",
+    "url": "https://www.alreporter.com/election-results/179835"
    },
    {
-    "label": "SAN",
-    "url": "https://san.com/cc/from-transgender-sports-participation-to-school-paid-meals-see-how-voters-chose-tuesday/"
+    "label": "Alabama Reflector",
+    "url": "https://alabamareflector.com/2026/11/09/all-statewide-constitutional-amendments-pass-during-midterm-election/"
+   },
+   {
+    "label": "Alabama Daily News",
+    "url": "https://aldailynews.com/alabama-voters-approve-all-four-constitutional-amendments/"
    }
   ],
-  "status": "uncalled",
-  "note": "Yes leads narrowly; one outlet reports it passed while others say counting continues."
+  "note": "All 67 counties have fully reported, and Yes leads by about 27,000 votes (1.8 points), well outside Alabama's 0.5-point automatic recount margin. Several outlets report it approved; only provisional ballots remain before the state canvass. Needs a simple majority. No AP call was found, and the Secretary of State's official results page could not be reached."
  },
  "al-prop-amendment-3": {
   "percentIn": null,
@@ -109,12 +124,12 @@
    {
     "name": "Yes",
     "votes": 974660,
-    "pct": 63.0
+    "pct": 63
    },
    {
     "name": "No",
     "votes": 582925,
-    "pct": 37.0
+    "pct": 37
    }
   ],
   "sources": [
@@ -133,12 +148,12 @@
    {
     "name": "Yes",
     "votes": 909270,
-    "pct": 59.0
+    "pct": 59
    },
    {
     "name": "No",
     "votes": 644190,
-    "pct": 41.0
+    "pct": 41
    }
   ],
   "sources": [
@@ -184,12 +199,12 @@
    {
     "name": "Yes",
     "votes": 613909,
-    "pct": 71.0
+    "pct": 71
    },
    {
     "name": "No",
     "votes": 253144,
-    "pct": 29.0
+    "pct": 29
    }
   ],
   "sources": [
@@ -235,12 +250,12 @@
    {
     "name": "Yes",
     "votes": 476004,
-    "pct": 56.0
+    "pct": 56
    },
    {
     "name": "No",
     "votes": 368049,
-    "pct": 44.0
+    "pct": 44
    }
   ],
   "sources": [
@@ -254,6 +269,8 @@
   "note": "Ballotpedia's call. We haven't confirmed it with a second source yet."
  },
  "az-prop-141": {
+  "status": "projected",
+  "outcome": "approved",
   "percentIn": null,
   "candidates": [
    {
@@ -269,16 +286,15 @@
   ],
   "sources": [
    {
-    "label": "azfamily",
-    "url": "https://www.azfamily.com/2026/11/06/arizona-voters-reject-voter-id-measure-approve-grocery-tax-limits-cartel-designation/"
+    "label": "KJZZ (AP call)",
+    "url": "https://www.kjzz.org/elections/2026-11-09/arizona-voters-approve-prop-141-a-ban-on-vehicle-mileage-taxes"
    },
    {
-    "label": "Ballotpedia (2026 ballot measure results)",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "azfamily",
+    "url": "https://www.azfamily.com/2026/11/06/arizona-voters-reject-voter-id-measure-approve-grocery-tax-limits-cartel-designation/"
    }
   ],
-  "status": "uncalled",
-  "note": "Yes led 1,154,661 (51%) to 1,109,510 (49%) in the counts reported, but Ballotpedia has not marked the measure approved, and no named call was found."
+  "note": "AP called it approved by Nov 9, at 51% Yes with about 98% counted. A legislatively referred amendment needs a simple majority. The 60% threshold from Prop 132 applies only to citizen initiatives that raise taxes. The vote counts are the last full figures found, not a current official count; the Secretary of State's results site could not be reached."
  },
  "az-prop-142": {
   "percentIn": null,
@@ -286,12 +302,12 @@
    {
     "name": "Yes",
     "votes": 914324,
-    "pct": 40.0
+    "pct": 40
    },
    {
     "name": "No",
     "votes": 1360539,
-    "pct": 60.0
+    "pct": 60
    }
   ],
   "sources": [
@@ -340,12 +356,12 @@
    {
     "name": "Yes",
     "votes": 1417608,
-    "pct": 62.0
+    "pct": 62
    },
    {
     "name": "No",
     "votes": 872825,
-    "pct": 38.0
+    "pct": 38
    }
   ],
   "sources": [
@@ -364,12 +380,12 @@
    {
     "name": "Yes",
     "votes": 1308992,
-    "pct": 57.0
+    "pct": 57
    },
    {
     "name": "No",
     "votes": 989073,
-    "pct": 43.0
+    "pct": 43
    }
   ],
   "sources": [
@@ -442,12 +458,12 @@
    {
     "name": "Yes",
     "votes": 1091604,
-    "pct": 48.0
+    "pct": 48
    },
    {
     "name": "No",
     "votes": 1163166,
-    "pct": 52.0
+    "pct": 52
    }
   ],
   "sources": [
@@ -467,12 +483,12 @@
    {
     "name": "Yes",
     "votes": 5133499,
-    "pct": 60.0
+    "pct": 60
    },
    {
     "name": "No",
     "votes": 3421154,
-    "pct": 40.0
+    "pct": 40
    }
   ],
   "sources": [
@@ -491,12 +507,12 @@
    {
     "name": "Yes",
     "votes": 5149426,
-    "pct": 60.0
+    "pct": 60
    },
    {
     "name": "No",
     "votes": 3399661,
-    "pct": 40.0
+    "pct": 40
    }
   ],
   "sources": [
@@ -515,12 +531,12 @@
    {
     "name": "Yes",
     "votes": 5113027,
-    "pct": 59.0
+    "pct": 59
    },
    {
     "name": "No",
     "votes": 3503321,
-    "pct": 41.0
+    "pct": 41
    }
   ],
   "sources": [
@@ -539,12 +555,12 @@
    {
     "name": "Yes",
     "votes": 5237551,
-    "pct": 62.0
+    "pct": 62
    },
    {
     "name": "No",
     "votes": 3278766,
-    "pct": 38.0
+    "pct": 38
    }
   ],
   "sources": [
@@ -558,27 +574,36 @@
   "note": "Ballotpedia's call. We haven't confirmed it with a second source yet."
  },
  "ca-prop-38": {
-  "percentIn": 76.6,
+  "status": "projected",
+  "outcome": "approved",
+  "percentIn": 96.1,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 5530533,
-    "pct": 54.3
+    "votes": 6806745,
+    "pct": 53.9
    },
    {
     "name": "No",
-    "votes": 4645512,
-    "pct": 45.7
+    "votes": 5823920,
+    "pct": 46.1
    }
   ],
   "sources": [
    {
-    "label": "KQED (AP results) Prop 38",
-    "url": "https://www.kqed.org/elections/results/california/proposition-38"
+    "label": "California Secretary of State (statewide results, Nov 14, 2026)",
+    "url": "https://electionresults.sos.ca.gov/returns/ballot-measures"
+   },
+   {
+    "label": "CBS Los Angeles (AP projection)",
+    "url": "https://www.cbsnews.com/losangeles/news/california-proposition-38-state-bonds-immunology-research-passes/"
+   },
+   {
+    "label": "CalMatters (results of all 14 propositions)",
+    "url": "https://calmatters.org/politics/elections/2026/11/california-election-result-propositions/"
    }
   ],
-  "status": "uncalled",
-  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
+  "note": "AP projected approval on Nov 10. Needs a simple majority (statewide bond). Counts are the Secretary of State's as of Nov 14; percent counted is the AP estimate from Nov 13."
  },
  "ca-prop-39": {
   "percentIn": 64.6,
@@ -608,50 +633,67 @@
   "outcome": "rejected"
  },
  "ca-prop-4": {
-  "percentIn": 76.5,
+  "status": "uncalled",
+  "percentIn": 96.1,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 4991264,
-    "pct": 49.6
+    "votes": 6214241,
+    "pct": 49.7
    },
    {
     "name": "No",
-    "votes": 5076644,
-    "pct": 50.4
+    "votes": 6288049,
+    "pct": 50.3
    }
   ],
   "sources": [
+   {
+    "label": "California Secretary of State (statewide results, Nov 14, 2026)",
+    "url": "https://electionresults.sos.ca.gov/returns/ballot-measures"
+   },
    {
     "label": "KQED (AP results) Prop 4",
     "url": "https://www.kqed.org/elections/results/california/proposition-4"
+   },
+   {
+    "label": "CalMatters (results of all 14 propositions)",
+    "url": "https://calmatters.org/politics/elections/2026/11/california-election-result-propositions/"
    }
   ],
-  "status": "uncalled",
-  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
+  "note": "No leads by about 73,800 votes (0.6 points) in the Secretary of State's Nov 14 count, with roughly 4% of the expected vote still to count per AP. Neither AP nor a major network has called it; counties have until early December to finish and certify. California has no automatic recount."
  },
  "ca-prop-40": {
-  "percentIn": 76.6,
+  "status": "projected",
+  "outcome": "rejected",
+  "percentIn": 96.1,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 4850428,
-    "pct": 46.8
+    "votes": 6147479,
+    "pct": 47.8
    },
    {
     "name": "No",
-    "votes": 5507614,
-    "pct": 53.2
+    "votes": 6723123,
+    "pct": 52.2
    }
   ],
   "sources": [
    {
-    "label": "KQED (AP results) Prop 40",
-    "url": "https://www.kqed.org/elections/results/california/proposition-40"
+    "label": "California Secretary of State (statewide results, Nov 14, 2026)",
+    "url": "https://electionresults.sos.ca.gov/returns/ballot-measures"
+   },
+   {
+    "label": "CalMatters (AP call)",
+    "url": "https://calmatters.org/politics/elections/2026/11/prop-40-billionaire-tax-defeated/"
+   },
+   {
+    "label": "CalMatters (results of all 14 propositions)",
+    "url": "https://calmatters.org/politics/elections/2026/11/california-election-result-propositions/"
    }
   ],
-  "status": "uncalled",
-  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
+  "note": "AP projected defeat on Nov 9. Needed a simple majority. Counts are the Secretary of State's as of Nov 14."
  },
  "ca-prop-41": {
   "percentIn": 76.6,
@@ -681,27 +723,36 @@
   "outcome": "rejected"
  },
  "ca-prop-42": {
-  "percentIn": 76.6,
+  "status": "projected",
+  "outcome": "approved",
+  "percentIn": 96.1,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 5339967,
-    "pct": 52.0
+    "votes": 6540977,
+    "pct": 51.3
    },
    {
     "name": "No",
-    "votes": 4933120,
-    "pct": 48.0
+    "votes": 6216952,
+    "pct": 48.7
    }
   ],
   "sources": [
    {
-    "label": "KQED (AP results) Prop 42",
-    "url": "https://www.kqed.org/elections/results/california/proposition-42"
+    "label": "California Secretary of State (statewide results, Nov 14, 2026)",
+    "url": "https://electionresults.sos.ca.gov/returns/ballot-measures"
+   },
+   {
+    "label": "CalMatters (results of all 14 propositions)",
+    "url": "https://calmatters.org/politics/elections/2026/11/california-election-result-propositions/"
+   },
+   {
+    "label": "San Francisco Chronicle via Yahoo Finance",
+    "url": "https://finance.yahoo.com/economy/policy/articles/california-proposition-prevailed-billionaire-tax-130000077.html"
    }
   ],
-  "status": "uncalled",
-  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
+  "note": "AP called it approved on Nov 13. Needs a simple majority. Its conflicting-measures clause against Prop 40 is moot because Prop 40 was rejected. Counts are the Secretary of State's as of Nov 14."
  },
  "ca-prop-43": {
   "percentIn": 76.6,
@@ -709,12 +760,12 @@
    {
     "name": "Yes",
     "votes": 4349879,
-    "pct": 43.0
+    "pct": 43
    },
    {
     "name": "No",
     "votes": 5757562,
-    "pct": 57.0
+    "pct": 57
    }
   ],
   "sources": [
@@ -736,12 +787,12 @@
    {
     "name": "Yes",
     "votes": 1811584,
-    "pct": 18.0
+    "pct": 18
    },
    {
     "name": "No",
     "votes": 8275824,
-    "pct": 82.0
+    "pct": 82
    }
   ],
   "sources": [
@@ -785,27 +836,36 @@
   "outcome": "rejected"
  },
  "ca-prop-5": {
-  "percentIn": 76.5,
+  "status": "projected",
+  "outcome": "approved",
+  "percentIn": 96.1,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 5138785,
-    "pct": 51.9
+    "votes": 6364495,
+    "pct": 51.8
    },
    {
     "name": "No",
-    "votes": 4757753,
-    "pct": 48.1
+    "votes": 5913266,
+    "pct": 48.2
    }
   ],
   "sources": [
+   {
+    "label": "California Secretary of State (statewide results, Nov 14, 2026)",
+    "url": "https://electionresults.sos.ca.gov/returns/ballot-measures"
+   },
+   {
+    "label": "CalMatters (results of all 14 propositions)",
+    "url": "https://calmatters.org/politics/elections/2026/11/california-election-result-propositions/"
+   },
    {
     "label": "KQED (AP results) Prop 5",
     "url": "https://www.kqed.org/elections/results/california/proposition-5"
    }
   ],
-  "status": "uncalled",
-  "note": "Not yet called by the AP as of Nov 9 (about 76.6% of expected votes counted)."
+  "note": "AP called it approved on Nov 12. A legislative constitutional amendment needs only a simple majority of voters. Counts are the Secretary of State's as of Nov 14."
  },
  "co-prop-132": {
   "percentIn": null,
@@ -813,12 +873,12 @@
    {
     "name": "Yes",
     "votes": 1307866,
-    "pct": 53.0
+    "pct": 53
    },
    {
     "name": "No",
     "votes": 1176234,
-    "pct": 47.0
+    "pct": 47
    }
   ],
   "sources": [
@@ -837,12 +897,12 @@
    {
     "name": "Yes",
     "votes": 1594287,
-    "pct": 62.0
+    "pct": 62
    },
    {
     "name": "No",
     "votes": 972444,
-    "pct": 38.0
+    "pct": 38
    }
   ],
   "sources": [
@@ -915,12 +975,12 @@
    {
     "name": "Yes",
     "votes": 1199083,
-    "pct": 47.0
+    "pct": 47
    },
    {
     "name": "No",
     "votes": 1337130,
-    "pct": 53.0
+    "pct": 53
    }
   ],
   "sources": [
@@ -942,12 +1002,12 @@
    {
     "name": "Yes",
     "votes": 1317817,
-    "pct": 52.0
+    "pct": 52
    },
    {
     "name": "No",
     "votes": 1234513,
-    "pct": 48.0
+    "pct": 48
    }
   ],
   "sources": [
@@ -993,12 +1053,12 @@
    {
     "name": "Yes",
     "votes": 1187664,
-    "pct": 46.0
+    "pct": 46
    },
    {
     "name": "No",
     "votes": 1374211,
-    "pct": 54.0
+    "pct": 54
    }
   ],
   "sources": [
@@ -1021,12 +1081,12 @@
    {
     "name": "Yes",
     "votes": 1158766,
-    "pct": 45.0
+    "pct": 45
    },
    {
     "name": "No",
     "votes": 1406312,
-    "pct": 55.0
+    "pct": 55
    }
   ],
   "sources": [
@@ -1049,12 +1109,12 @@
    {
     "name": "Yes",
     "votes": 951224,
-    "pct": 37.0
+    "pct": 37
    },
    {
     "name": "No",
     "votes": 1639270,
-    "pct": 63.0
+    "pct": 63
    }
   ],
   "sources": [
@@ -1077,12 +1137,12 @@
    {
     "name": "Yes",
     "votes": 1314256,
-    "pct": 51.0
+    "pct": 51
    },
    {
     "name": "No",
     "votes": 1256064,
-    "pct": 49.0
+    "pct": 49
    }
   ],
   "sources": [
@@ -1105,12 +1165,12 @@
    {
     "name": "Yes",
     "votes": 1181247,
-    "pct": 47.0
+    "pct": 47
    },
    {
     "name": "No",
     "votes": 1338181,
-    "pct": 53.0
+    "pct": 53
    }
   ],
   "sources": [
@@ -1128,31 +1188,40 @@
   "note": "Colorado constitutional amendments need 55% to pass; Yes is well short."
  },
  "co-prop-amendment-87": {
+  "status": "projected",
+  "outcome": "approved",
   "percentIn": null,
   "candidates": [
    {
     "name": "Yes",
-    "votes": null,
-    "pct": 51.0
+    "votes": 1346939,
+    "pct": 51.6
    },
    {
     "name": "No",
-    "votes": null,
-    "pct": 49.0
+    "votes": 1266128,
+    "pct": 48.4
    }
   ],
   "sources": [
+   {
+    "label": "Colorado Blue Book (\"Passes with a majority vote\")",
+    "url": "https://leg.colorado.gov/ballots/graduated-income-tax-2/files/blue-book"
+   },
+   {
+    "label": "HPPR / Colorado Sun (AP call)",
+    "url": "https://www.hppr.org/hppr-news/2026-11-09/colorado-voters-approve-amendment-87-imposing-higher-income-taxes-on-top-earners"
+   },
    {
     "label": "Colorado Politics",
     "url": "https://www.coloradopolitics.com/2026/11/06/colorado-passes-graduated-income-tax-eliminates-flat-rate/"
    },
    {
-    "label": "Colorado Politics",
-    "url": "https://www.coloradopolitics.com/2026/11/05/colorado-ballot-measures-what-is-passing-failing-and-undecided/"
+    "label": "Wikipedia (vote totals)",
+    "url": "https://en.wikipedia.org/wiki/2026_Colorado_Amendment_87"
    }
   ],
-  "status": "uncalled",
-  "note": "Yes leads narrowly; outlets disagree on whether it has been called."
+  "note": "AP called it approved on Friday, Nov 6, at 51.4% to 48.6%. Colorado's 55% rule for constitutional amendments does not apply: the official Blue Book says it passes with a majority vote, because it only repeals constitutional language. The vote totals are from Wikipedia, which cites no source; the Secretary of State's results site could not be reached."
  },
  "co-prop-nn": {
   "percentIn": null,
@@ -1160,12 +1229,12 @@
    {
     "name": "Yes",
     "votes": 1460309,
-    "pct": 57.0
+    "pct": 57
    },
    {
     "name": "No",
     "votes": 1117280,
-    "pct": 43.0
+    "pct": 43
    }
   ],
   "sources": [
@@ -1184,12 +1253,12 @@
    {
     "name": "Yes",
     "votes": 3171427,
-    "pct": 41.0
+    "pct": 41
    },
    {
     "name": "No",
     "votes": 4582088,
-    "pct": 59.0
+    "pct": 59
    }
   ],
   "sources": [
@@ -1238,12 +1307,12 @@
    {
     "name": "Yes",
     "votes": 4918979,
-    "pct": 62.0
+    "pct": 62
    },
    {
     "name": "No",
     "votes": 3016994,
-    "pct": 38.0
+    "pct": 38
    }
   ],
   "sources": [
@@ -1262,12 +1331,12 @@
    {
     "name": "Yes",
     "votes": 2159984,
-    "pct": 54.0
+    "pct": 54
    },
    {
     "name": "No",
     "votes": 1850949,
-    "pct": 46.0
+    "pct": 46
    }
   ],
   "sources": [
@@ -1286,12 +1355,12 @@
    {
     "name": "Yes",
     "votes": 2747922,
-    "pct": 68.0
+    "pct": 68
    },
    {
     "name": "No",
     "votes": 1272012,
-    "pct": 32.0
+    "pct": 32
    }
   ],
   "sources": [
@@ -1310,12 +1379,12 @@
    {
     "name": "Yes",
     "votes": 3129756,
-    "pct": 78.0
+    "pct": 78
    },
    {
     "name": "No",
     "votes": 896506,
-    "pct": 22.0
+    "pct": 22
    }
   ],
   "sources": [
@@ -1334,12 +1403,12 @@
    {
     "name": "Yes",
     "votes": 226466,
-    "pct": 63.0
+    "pct": 63
    },
    {
     "name": "No",
     "votes": 132884,
-    "pct": 37.0
+    "pct": 37
    }
   ],
   "sources": [
@@ -1358,12 +1427,12 @@
    {
     "name": "Yes",
     "votes": 241591,
-    "pct": 67.0
+    "pct": 67
    },
    {
     "name": "No",
     "votes": 117412,
-    "pct": 33.0
+    "pct": 33
    }
   ],
   "sources": [
@@ -1382,12 +1451,12 @@
    {
     "name": "Yes",
     "votes": 686939,
-    "pct": 56.0
+    "pct": 56
    },
    {
     "name": "No",
     "votes": 534258,
-    "pct": 44.0
+    "pct": 44
    }
   ],
   "sources": [
@@ -1428,27 +1497,51 @@
   "outcome": "rejected"
  },
  "id-prop-hb-932": {
-  "percentIn": null,
+  "status": "projected",
+  "percentIn": 99,
   "candidates": [
    {
-    "name": "Yes",
-    "votes": 0,
-    "pct": 0.0
+    "name": "Winchester Model 1873 (.44-40)",
+    "votes": 165147,
+    "pct": 31.1
    },
    {
-    "name": "No",
-    "votes": 0,
-    "pct": 0.0
+    "name": "Winchester Model 1894 (.30-30)",
+    "votes": 134244,
+    "pct": 25.3
+   },
+   {
+    "name": "1873 Colt Single Action Army \"Peacemaker\" (.45 Colt)",
+    "votes": 80894,
+    "pct": 15.3
+   },
+   {
+    "name": "Remington Model 700 (.30-06)",
+    "votes": 66019,
+    "pct": 12.4
+   },
+   {
+    "name": "Colt M1911 (.45 ACP)",
+    "votes": 46511,
+    "pct": 8.8
+   },
+   {
+    "name": "M1 Garand (.30-06)",
+    "votes": 37633,
+    "pct": 7.1
    }
   ],
   "sources": [
    {
-    "label": "KUTV (AP)",
+    "label": "KMVT (results, about 99% in)",
+    "url": "https://www.kmvt.com/politics/election-results/"
+   },
+   {
+    "label": "KUTV (AP projection)",
     "url": "https://kutv.com/news/local/idaho-voters-choose-winchester-model-1873-rifle-as-official-state-gun-ap-buffalo-bill-meriwether-lewis-william-clark-utah-arizona-peacemaker-rrt"
    }
   ],
-  "status": "uncalled",
-  "note": "Non-binding advisory question to pick an official state gun, so there is no yes-or-no outcome. AP projected the Winchester Model 1873 rifle as the voters' choice (31.2% with 91% counted, Winchester Model 1894 second at 25.5%)."
+  "note": "This is a non-binding advisory question, not a yes-or-no measure. Voters picked one of six guns, so it has no approved or rejected outcome. AP projected the Winchester Model 1873 as the voters' choice. The Legislature must pass a bill next session to make it the official state gun."
  },
  "id-prop-hjr-4": {
   "percentIn": null,
@@ -1483,12 +1576,12 @@
    {
     "name": "Yes",
     "votes": 447723,
-    "pct": 63.0
+    "pct": 63
    },
    {
     "name": "No",
     "votes": 261044,
-    "pct": 37.0
+    "pct": 37
    }
   ],
   "sources": [
@@ -1507,12 +1600,12 @@
    {
     "name": "Yes",
     "votes": 1063295,
-    "pct": 58.0
+    "pct": 58
    },
    {
     "name": "No",
     "votes": 758966,
-    "pct": 42.0
+    "pct": 42
    }
   ],
   "sources": [
@@ -1531,12 +1624,12 @@
    {
     "name": "Yes",
     "votes": 1142603,
-    "pct": 63.0
+    "pct": 63
    },
    {
     "name": "No",
     "votes": 683299,
-    "pct": 37.0
+    "pct": 37
    }
   ],
   "sources": [
@@ -1582,12 +1675,12 @@
    {
     "name": "Yes",
     "votes": 886584,
-    "pct": 71.0
+    "pct": 71
    },
    {
     "name": "No",
     "votes": 367447,
-    "pct": 29.0
+    "pct": 29
    }
   ],
   "sources": [
@@ -1606,12 +1699,12 @@
    {
     "name": "Yes",
     "votes": 1071202,
-    "pct": 74.0
+    "pct": 74
    },
    {
     "name": "No",
     "votes": 371217,
-    "pct": 26.0
+    "pct": 26
    }
   ],
   "sources": [
@@ -1630,12 +1723,12 @@
    {
     "name": "Yes",
     "votes": 659113,
-    "pct": 47.0
+    "pct": 47
    },
    {
     "name": "No",
     "votes": 749063,
-    "pct": 53.0
+    "pct": 53
    }
   ],
   "sources": [
@@ -1655,12 +1748,12 @@
    {
     "name": "Yes",
     "votes": 596340,
-    "pct": 43.0
+    "pct": 43
    },
    {
     "name": "No",
     "votes": 824341,
-    "pct": 57.0
+    "pct": 57
    }
   ],
   "sources": [
@@ -1680,12 +1773,12 @@
    {
     "name": "Yes",
     "votes": 972108,
-    "pct": 68.0
+    "pct": 68
    },
    {
     "name": "No",
     "votes": 461710,
-    "pct": 32.0
+    "pct": 32
    }
   ],
   "sources": [
@@ -1704,12 +1797,12 @@
    {
     "name": "Yes",
     "votes": 801160,
-    "pct": 56.0
+    "pct": 56
    },
    {
     "name": "No",
     "votes": 631352,
-    "pct": 44.0
+    "pct": 44
    }
   ],
   "sources": [
@@ -1728,12 +1821,12 @@
    {
     "name": "Yes",
     "votes": 526531,
-    "pct": 38.0
+    "pct": 38
    },
    {
     "name": "No",
     "votes": 874544,
-    "pct": 62.0
+    "pct": 62
    }
   ],
   "sources": [
@@ -1753,12 +1846,12 @@
    {
     "name": "Yes",
     "votes": 900356,
-    "pct": 64.0
+    "pct": 64
    },
    {
     "name": "No",
     "votes": 516251,
-    "pct": 36.0
+    "pct": 36
    }
   ],
   "sources": [
@@ -1777,12 +1870,12 @@
    {
     "name": "Yes",
     "votes": 924321,
-    "pct": 65.0
+    "pct": 65
    },
    {
     "name": "No",
     "votes": 492210,
-    "pct": 35.0
+    "pct": 35
    }
   ],
   "sources": [
@@ -1801,12 +1894,12 @@
    {
     "name": "Yes",
     "votes": 876953,
-    "pct": 62.0
+    "pct": 62
    },
    {
     "name": "No",
     "votes": 534925,
-    "pct": 38.0
+    "pct": 38
    }
   ],
   "sources": [
@@ -1825,12 +1918,12 @@
    {
     "name": "Yes",
     "votes": 823788,
-    "pct": 58.0
+    "pct": 58
    },
    {
     "name": "No",
     "votes": 591838,
-    "pct": 42.0
+    "pct": 42
    }
   ],
   "sources": [
@@ -1849,12 +1942,12 @@
    {
     "name": "Yes",
     "votes": 2193817,
-    "pct": 86.0
+    "pct": 86
    },
    {
     "name": "No",
     "votes": 359731,
-    "pct": 14.0
+    "pct": 14
    }
   ],
   "sources": [
@@ -1873,12 +1966,12 @@
    {
     "name": "Yes",
     "votes": 1616610,
-    "pct": 64.0
+    "pct": 64
    },
    {
     "name": "No",
     "votes": 908981,
-    "pct": 36.0
+    "pct": 36
    }
   ],
   "sources": [
@@ -1924,12 +2017,12 @@
    {
     "name": "Yes",
     "votes": 1445481,
-    "pct": 56.0
+    "pct": 56
    },
    {
     "name": "No",
     "votes": 1119992,
-    "pct": 44.0
+    "pct": 44
    }
   ],
   "sources": [
@@ -1975,12 +2068,12 @@
    {
     "name": "Yes",
     "votes": 1547298,
-    "pct": 61.0
+    "pct": 61
    },
    {
     "name": "No",
     "votes": 997775,
-    "pct": 39.0
+    "pct": 39
    }
   ],
   "sources": [
@@ -2057,12 +2150,12 @@
    {
     "name": "Yes",
     "votes": 1754525,
-    "pct": 67.0
+    "pct": 67
    },
    {
     "name": "No",
     "votes": 852532,
-    "pct": 33.0
+    "pct": 33
    }
   ],
   "sources": [
@@ -2081,12 +2174,12 @@
    {
     "name": "Yes",
     "votes": 1323301,
-    "pct": 75.0
+    "pct": 75
    },
    {
     "name": "No",
     "votes": 444085,
-    "pct": 25.0
+    "pct": 25
    }
   ],
   "sources": [
@@ -2105,12 +2198,12 @@
    {
     "name": "Yes",
     "votes": 1186036,
-    "pct": 67.0
+    "pct": 67
    },
    {
     "name": "No",
     "votes": 588037,
-    "pct": 33.0
+    "pct": 33
    }
   ],
   "sources": [
@@ -2191,12 +2284,12 @@
    {
     "name": "Yes",
     "votes": 3513727,
-    "pct": 81.0
+    "pct": 81
    },
    {
     "name": "No",
     "votes": 807837,
-    "pct": 19.0
+    "pct": 19
    }
   ],
   "sources": [
@@ -2215,12 +2308,12 @@
    {
     "name": "Yes",
     "votes": 2068124,
-    "pct": 76.0
+    "pct": 76
    },
    {
     "name": "No",
     "votes": 666637,
-    "pct": 24.0
+    "pct": 24
    }
   ],
   "sources": [
@@ -2266,12 +2359,12 @@
    {
     "name": "Yes",
     "votes": 1251555,
-    "pct": 60.0
+    "pct": 60
    },
    {
     "name": "No",
     "votes": 835585,
-    "pct": 40.0
+    "pct": 40
    }
   ],
   "sources": [
@@ -2321,12 +2414,12 @@
    {
     "name": "Yes",
     "votes": 1053346,
-    "pct": 51.0
+    "pct": 51
    },
    {
     "name": "No",
     "votes": 1012534,
-    "pct": 49.0
+    "pct": 49
    }
   ],
   "sources": [
@@ -2379,12 +2472,12 @@
    {
     "name": "Yes",
     "votes": 322930,
-    "pct": 68.0
+    "pct": 68
    },
    {
     "name": "No",
     "votes": 151099,
-    "pct": 32.0
+    "pct": 32
    }
   ],
   "sources": [
@@ -2403,12 +2496,12 @@
    {
     "name": "Yes",
     "votes": 303471,
-    "pct": 65.0
+    "pct": 65
    },
    {
     "name": "No",
     "votes": 161458,
-    "pct": 35.0
+    "pct": 35
    }
   ],
   "sources": [
@@ -2427,12 +2520,12 @@
    {
     "name": "Yes",
     "votes": 302179,
-    "pct": 65.0
+    "pct": 65
    },
    {
     "name": "No",
     "votes": 159491,
-    "pct": 35.0
+    "pct": 35
    }
   ],
   "sources": [
@@ -2451,12 +2544,12 @@
    {
     "name": "Yes",
     "votes": 2559740,
-    "pct": 62.0
+    "pct": 62
    },
    {
     "name": "No",
     "votes": 1574257,
-    "pct": 38.0
+    "pct": 38
    }
   ],
   "sources": [
@@ -2475,12 +2568,12 @@
    {
     "name": "Yes",
     "votes": 2492891,
-    "pct": 60.0
+    "pct": 60
    },
    {
     "name": "No",
     "votes": 1632769,
-    "pct": 40.0
+    "pct": 40
    }
   ],
   "sources": [
@@ -2687,12 +2780,12 @@
    {
     "name": "Yes",
     "votes": 491771,
-    "pct": 68.0
+    "pct": 68
    },
    {
     "name": "No",
     "votes": 230938,
-    "pct": 32.0
+    "pct": 32
    }
   ],
   "sources": [
@@ -2740,12 +2833,12 @@
    {
     "name": "Yes",
     "votes": 453053,
-    "pct": 70.0
+    "pct": 70
    },
    {
     "name": "No",
     "votes": 197708,
-    "pct": 30.0
+    "pct": 30
    }
   ],
   "sources": [
@@ -2764,12 +2857,12 @@
    {
     "name": "Yes",
     "votes": 426784,
-    "pct": 66.0
+    "pct": 66
    },
    {
     "name": "No",
     "votes": 220162,
-    "pct": 34.0
+    "pct": 34
    }
   ],
   "sources": [
@@ -2788,12 +2881,12 @@
    {
     "name": "Yes",
     "votes": 415220,
-    "pct": 64.0
+    "pct": 64
    },
    {
     "name": "No",
     "votes": 230763,
-    "pct": 36.0
+    "pct": 36
    }
   ],
   "sources": [
@@ -2812,12 +2905,12 @@
    {
     "name": "Yes",
     "votes": 496996,
-    "pct": 75.0
+    "pct": 75
    },
    {
     "name": "No",
     "votes": 165039,
-    "pct": 25.0
+    "pct": 25
    }
   ],
   "sources": [
@@ -2836,12 +2929,12 @@
    {
     "name": "Yes",
     "votes": 426081,
-    "pct": 65.0
+    "pct": 65
    },
    {
     "name": "No",
     "votes": 231307,
-    "pct": 35.0
+    "pct": 35
    }
   ],
   "sources": [
@@ -2860,12 +2953,12 @@
    {
     "name": "Yes",
     "votes": 444264,
-    "pct": 70.0
+    "pct": 70
    },
    {
     "name": "No",
     "votes": 190891,
-    "pct": 30.0
+    "pct": 30
    }
   ],
   "sources": [
@@ -2884,12 +2977,12 @@
    {
     "name": "Yes",
     "votes": 417690,
-    "pct": 63.0
+    "pct": 63
    },
    {
     "name": "No",
     "votes": 240692,
-    "pct": 37.0
+    "pct": 37
    }
   ],
   "sources": [
@@ -3205,12 +3298,12 @@
    {
     "name": "Yes",
     "votes": 208402,
-    "pct": 60.0
+    "pct": 60
    },
    {
     "name": "No",
     "votes": 138978,
-    "pct": 40.0
+    "pct": 40
    }
   ],
   "sources": [
@@ -3229,12 +3322,12 @@
    {
     "name": "Yes",
     "votes": 212446,
-    "pct": 61.0
+    "pct": 61
    },
    {
     "name": "No",
     "votes": 134059,
-    "pct": 39.0
+    "pct": 39
    }
   ],
   "sources": [
@@ -3315,12 +3408,12 @@
    {
     "name": "Yes",
     "votes": 231867,
-    "pct": 67.0
+    "pct": 67
    },
    {
     "name": "No",
     "votes": 113751,
-    "pct": 33.0
+    "pct": 33
    }
   ],
   "sources": [
@@ -3393,12 +3486,12 @@
    {
     "name": "Yes",
     "votes": 178574,
-    "pct": 61.0
+    "pct": 61
    },
    {
     "name": "No",
     "votes": 114481,
-    "pct": 39.0
+    "pct": 39
    }
   ],
   "sources": [
@@ -3446,12 +3539,12 @@
    {
     "name": "Yes",
     "votes": 1323704,
-    "pct": 67.0
+    "pct": 67
    },
    {
     "name": "No",
     "votes": 649393,
-    "pct": 33.0
+    "pct": 33
    }
   ],
   "sources": [
@@ -3497,12 +3590,12 @@
    {
     "name": "Yes",
     "votes": 1519255,
-    "pct": 76.0
+    "pct": 76
    },
    {
     "name": "No",
     "votes": 479273,
-    "pct": 24.0
+    "pct": 24
    }
   ],
   "sources": [
@@ -3521,12 +3614,12 @@
    {
     "name": "Yes",
     "votes": 514084,
-    "pct": 61.0
+    "pct": 61
    },
    {
     "name": "No",
     "votes": 326500,
-    "pct": 39.0
+    "pct": 39
    }
   ],
   "sources": [
@@ -3657,12 +3750,12 @@
    {
     "name": "Yes",
     "votes": 166182,
-    "pct": 74.0
+    "pct": 74
    },
    {
     "name": "No",
     "votes": 57591,
-    "pct": 26.0
+    "pct": 26
    }
   ],
   "sources": [
@@ -3703,28 +3796,36 @@
   "outcome": "approved"
  },
  "wa-prop-il26-001": {
+  "status": "projected",
+  "outcome": "rejected",
   "percentIn": null,
   "candidates": [
    {
     "name": "Yes",
-    "votes": 1189343,
-    "pct": 48.0
+    "votes": null,
+    "pct": 47.5
    },
    {
     "name": "No",
-    "votes": 1292510,
-    "pct": 52.0
+    "votes": null,
+    "pct": 52.5
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/Election_results,_2026:_Ballot_measures"
+    "label": "KOMO News (AP call)",
+    "url": "https://komonews.com/news/local/midterm-election-results-breaking-news-parents-bill-of-rights-washington-state-voter-results-ballot-initiative-001-legislature-politics-lets-go-washington-xx-xy-athletics"
+   },
+   {
+    "label": "Axios Seattle (Secretary of State count)",
+    "url": "https://www.axios.com/local/seattle/2026/11/10/washington-i-001-2026-election-results-school-medical-records"
+   },
+   {
+    "label": "MyNorthwest",
+    "url": "https://mynorthwest.com/mynorthwest-politics/parents-bill-of-rights-6/4286512"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed outcome for this measure yet."
+  "note": "AP called it rejected on the evening of Monday, Nov 9. Shares are the Secretary of State's count as of Nov 9, as reported by Axios. It needs a simple majority. Current raw totals from the Secretary of State site could not be retrieved."
  },
  "wa-prop-il26-638": {
   "percentIn": 88.3,
@@ -3852,12 +3953,12 @@
    {
     "name": "Yes",
     "votes": 1452549,
-    "pct": 56.0
+    "pct": 56
    },
    {
     "name": "No",
     "votes": 1119646,
-    "pct": 44.0
+    "pct": 44
    }
   ],
   "sources": [
@@ -4017,7 +4118,7 @@
     "id": "jessica-gonzalez-rojas",
     "name": "Jessica González-Rojas",
     "votes": 35538,
-    "pct": 79.0
+    "pct": 79
    },
    {
     "id": "john-healy",
@@ -4117,41 +4218,41 @@
   "note": "Unopposed on the ballot, according to the sources below."
  },
  "ny-sd-17": {
-  "percentIn": 99,
+  "status": "uncalled",
+  "percentIn": 98.9,
   "candidates": [
    {
     "id": "steve-chan",
     "name": "Steve Chan",
     "votes": 16827,
-    "pct": 42.5
+    "pct": 42.4
    },
    {
     "id": "larry-he",
     "name": "Larry He",
     "votes": 22786,
-    "pct": 57.5
+    "pct": 57.4
    }
   ],
   "sources": [
    {
-    "label": "Ballotpedia",
-    "url": "https://ballotpedia.org/New_York_State_Senate_District_17"
+    "label": "NYC Board of Elections: unofficial election night results, State Senate District 17",
+    "url": "https://enr.boenyc.gov/CD273310.html"
+   },
+   {
+    "label": "City & State: Where do key state legislative races stand",
+    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
    },
    {
     "label": "City & State: Democrats sweep local races in southern Brooklyn",
     "url": "https://www.cityandstateny.com/politics/2026/11/democrats-sweep-local-races-southern-brooklyn/417026/"
    },
    {
-    "label": "Wikipedia (Steve Chan)",
-    "url": "https://en.wikipedia.org/wiki/Steve_Chan_(American_politician)"
-   },
-   {
-    "label": "City & State: Where do key state legislative races stand",
-    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
+    "label": "Ballotpedia",
+    "url": "https://ballotpedia.org/New_York_State_Senate_District_17"
    }
   ],
-  "status": "uncalled",
-  "note": "Larry He has declared victory with about 57% of the vote, but no news organization has called the race."
+  "note": "Larry He leads by 5,959 votes (57.4% to 42.4%) in the Board of Elections' unofficial election-night count with 98.9% of scanners reported, and has declared victory. We found no AP or network call and no concession from Steve Chan; absentee, affidavit and military ballots are still being canvassed."
  },
  "ny-sd-18": {
   "percentIn": null,
@@ -4238,7 +4339,7 @@
     "id": "ronald-seifert",
     "name": "Ronald Seifert",
     "votes": 12615,
-    "pct": 16.0
+    "pct": 16
    }
   ],
   "sources": [
@@ -4684,37 +4785,38 @@
   "note": "Unopposed on the ballot, according to the sources below."
  },
  "ny-ad-23": {
+  "status": "projected",
   "percentIn": 97.1,
   "candidates": [
    {
     "id": "pesach-osina",
     "name": "Pesach Osina",
-    "votes": null,
+    "votes": 17863,
     "pct": 51.9
    },
    {
     "id": "thomas-sullivan",
     "name": "Thomas Sullivan",
-    "votes": null,
+    "votes": 16492,
     "pct": 47.9
    }
   ],
   "sources": [
    {
+    "label": "NYC Board of Elections: unofficial election night results, Assembly District 23",
+    "url": "https://enr.boenyc.gov/CD273570.html"
+   },
+   {
+    "label": "Queens Daily Eagle: Pesach Osina claims victory in South Queens Assembly race",
+    "url": "https://queenseagle.com/all/2026/11/3/pesach-osina-claims-victory-in-closely-watched-south-queens-assembly-race"
+   },
+   {
     "label": "Ballotpedia",
     "url": "https://ballotpedia.org/New_York_State_Assembly_District_23"
-   },
-   {
-    "label": "QNS: Osina wins race for Assembly District 23",
-    "url": "https://qns.com/2026/11/osina-wins-race-for-assembly-district-23/"
-   },
-   {
-    "label": "City & State: Where do key state legislative races stand",
-    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
    }
   ],
-  "status": "uncalled",
-  "note": "Pesach Osina leads with about 97% counted; no news organization has called it."
+  "note": "Thomas Sullivan conceded on election night. No news organization has called the race.",
+  "winner": "pesach-osina"
  },
  "ny-ad-24": {
   "percentIn": null,
@@ -4941,7 +5043,7 @@
     "id": "nathaniel-hezekiah-iii",
     "name": "Nathaniel Hezekiah III",
     "votes": 23986,
-    "pct": 98.0
+    "pct": 98
    },
    {
     "id": "paul-nichols",
@@ -4976,7 +5078,7 @@
     "id": "oster-bryan",
     "name": "Oster Bryan",
     "votes": 2526,
-    "pct": 8.0
+    "pct": 8
    }
   ],
   "sources": [
@@ -5388,37 +5490,41 @@
   "note": "Unopposed on the ballot, according to the sources below."
  },
  "ny-ad-49": {
+  "status": "uncalled",
   "percentIn": 99,
   "candidates": [
    {
     "id": "lester-chang",
     "name": "Lester Chang",
-    "votes": null,
-    "pct": null
+    "votes": 6930,
+    "pct": 47
    },
    {
     "id": "joyce-xiaoqiong-xie",
     "name": "Joyce Xiaoqiong Xie",
-    "votes": null,
-    "pct": null
+    "votes": 7791,
+    "pct": 52.8
    }
   ],
   "sources": [
    {
-    "label": "Wikipedia",
-    "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
+    "label": "NYC Board of Elections: unofficial election night results, Assembly District 49",
+    "url": "https://enr.boenyc.gov/CD273900.html"
+   },
+   {
+    "label": "City & State: Where do key state legislative races stand",
+    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
    },
    {
     "label": "City & State: Democrats sweep local races in southern Brooklyn",
     "url": "https://www.cityandstateny.com/politics/2026/11/democrats-sweep-local-races-southern-brooklyn/417026/"
    },
    {
-    "label": "City & State: Where do key state legislative races stand",
-    "url": "https://www.cityandstateny.com/politics/2026/11/where-do-all-key-new-york-state-legislative-races-stand/417054/"
+    "label": "Brooklyn Eagle: Malliotakis secures fourth term; Democrats win big in state senate and assembly districts",
+    "url": "https://brooklyneagle.com/427262/malliotakis-secures-fourth-term/"
    }
   ],
-  "status": "uncalled",
-  "note": "Joyce Xiaoqiong Xie leads by about 861 votes with 99% of scanners in; no call yet."
+  "note": "Joyce Xiaoqiong Xie leads by 861 votes (52.8% to 47.0%) in the Board of Elections' unofficial election-night count with 99% of scanners reported. Local outlets report Xie as the winner, but the AP had not called the race and we found no concession from Lester Chang; absentee, affidavit and military ballots are still being canvassed."
  },
  "ny-ad-50": {
   "percentIn": null,
@@ -5735,30 +5841,33 @@
   "note": "Unopposed on the ballot, according to the sources below."
  },
  "ny-ad-63": {
-  "percentIn": null,
+  "status": "uncalled",
+  "percentIn": 98.5,
   "candidates": [
    {
     "id": "samuel-pirozzolo",
     "name": "Samuel Pirozzolo",
-    "votes": null,
-    "pct": null
+    "votes": 18322,
+    "pct": 51.8
    },
    {
     "id": "matthew-mobilia",
     "name": "Matthew Mobilia",
-    "votes": null,
-    "pct": null
+    "votes": 17009,
+    "pct": 48.1
    }
   ],
   "sources": [
+   {
+    "label": "NYC Board of Elections: unofficial election night results, Assembly District 63",
+    "url": "https://enr.boenyc.gov/CD273940.html"
+   },
    {
     "label": "Wikipedia",
     "url": "https://en.wikipedia.org/wiki/2026_New_York_State_Assembly_election"
    }
   ],
-  "status": "uncalled",
-  "unconfirmed": true,
-  "note": "We don't have a confirmed result for this race yet."
+  "note": "Sam Pirozzolo leads by 1,313 votes (51.8% to 48.1%, Republican and Conservative lines combined) in the Board of Elections' unofficial election-night count with 98.5% of scanners reported. No news organization has called the race and we found no concession; absentee, affidavit and military ballots are still being canvassed."
  },
  "ny-ad-64": {
   "percentIn": null,
@@ -6390,13 +6499,179 @@
   "winner": "thomas-dinapoli"
  },
  "us-sen-ak": {
-  "note": "No candidate has a majority in the first count, so the result depends on Alaska's ranked-choice tabulation."
+  "status": "uncalled",
+  "percentIn": 97,
+  "candidates": [
+   {
+    "id": "mary-peltola",
+    "name": "Mary Peltola",
+    "votes": 140637,
+    "pct": 49.9
+   },
+   {
+    "id": "daniel-s-sullivan",
+    "name": "Dan S. Sullivan",
+    "votes": 129424,
+    "pct": 46
+   },
+   {
+    "id": "gerald-heikes",
+    "name": "Gerald Heikes",
+    "votes": 6002,
+    "pct": 2.1
+   },
+   {
+    "id": "dan-sullivan-retired-teacher",
+    "name": "Daniel J. Sullivan Jr.",
+    "votes": 4652,
+    "pct": 1.7
+   },
+   {
+    "name": "Total Write-ins",
+    "votes": 872,
+    "pct": 0.3
+   }
+  ],
+  "sources": [
+   {
+    "label": "Alaska Division of Elections — 2026 General Election unofficial results (updated Nov 14, 2026)",
+    "url": "https://www.elections.alaska.gov/enr/26GENR/"
+   },
+   {
+    "label": "Alaska Division of Elections — Election Summary Report (Nov 14, 2026)",
+    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf"
+   },
+   {
+    "label": "Alaska Division of Elections — Ranked Choice Voting (tabulation after the 15th day)",
+    "url": "https://www.elections.alaska.gov/election-information/#RankedChoice"
+   },
+   {
+    "label": "Alaska Public Media (AP race status, Nov 13–14)",
+    "url": "https://alaskapublic.org/news/politics/elections/2026-11-13/peltola-leads-in-u-s-senate-race-nearing-50-mark-with-almost-all-ballots-counted"
+   },
+   {
+    "label": "Alaska Division of Elections — Superior Court ruling in Alaskans for Mary v. Dahlstrom (Nov 11)",
+    "url": "https://www.elections.alaska.gov/superior-court-upholds-division-of-elections-handling-of-internal-absentee-ballot-reports/"
+   }
+  ],
+  "note": "Peltola leads Sullivan by 11,213 first-choice votes but has 49.94% of the vote including write-ins, just short of a majority. The race goes to ranked-choice tabulation on Nov 18, and the official tabulation is not yet released. Ballots for the eliminated candidates Heikes (R) and Daniel J. Sullivan Jr., plus write-ins, total 11,526, slightly more than her lead. AP has not called the race. The Peltola campaign's public-records suit over absentee-ballot reports was decided for the Division on Nov 11. Certification is scheduled for Nov 25."
  },
  "ak-gov": {
-  "note": "No candidate has a majority in the first count, so the result depends on Alaska's ranked-choice tabulation."
+  "status": "projected",
+  "winner": "jonathan-kreiss-tomkins",
+  "percentIn": 97,
+  "candidates": [
+   {
+    "id": "jonathan-kreiss-tomkins",
+    "name": "Jonathan Kreiss-Tomkins",
+    "votes": 141623,
+    "pct": 50.9
+   },
+   {
+    "id": "bernadette-wilson",
+    "name": "Bernadette Wilson",
+    "votes": 77943,
+    "pct": 28
+   },
+   {
+    "id": "dave-bronson",
+    "name": "Dave Bronson",
+    "votes": 37913,
+    "pct": 13.6
+   },
+   {
+    "id": "treg-taylor",
+    "name": "Treg Taylor",
+    "votes": 19977,
+    "pct": 7.2
+   },
+   {
+    "name": "Total Write-ins",
+    "votes": 798,
+    "pct": 0.3
+   }
+  ],
+  "sources": [
+   {
+    "label": "Alaska Division of Elections — 2026 General Election unofficial results (updated Nov 14, 2026)",
+    "url": "https://www.elections.alaska.gov/enr/26GENR/"
+   },
+   {
+    "label": "Alaska Division of Elections — Election Summary Report (Nov 14, 2026)",
+    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf"
+   },
+   {
+    "label": "Alaska Public Media (AP race status, Nov 13–14)",
+    "url": "https://alaskapublic.org/news/politics/elections/2026-11-13/peltola-leads-in-u-s-senate-race-nearing-50-mark-with-almost-all-ballots-counted"
+   },
+   {
+    "label": "Washington Post (AP): Democrat Jonathan Kreiss-Tomkins wins Alaska governor's race",
+    "url": "https://www.washingtonpost.com/politics/2026/11/14/democrat-jonathan-kreiss-tomkins-wins-alaska-governors-race/"
+   },
+   {
+    "label": "Alaska's News Source",
+    "url": "https://www.alaskasnewssource.com/2026/11/14/kreiss-tomkins-becomes-first-democrat-since-1998-elected-governor-alaska/"
+   }
+  ],
+  "note": "AP called the race for Kreiss-Tomkins on Nov 13–14. He has a majority (50.9%) of first-choice votes, so no ranked-choice rounds are needed. Results are unofficial until certification (scheduled Nov 25)."
  },
  "us-house-ak-al": {
-  "note": "No candidate has a majority in the first count, so the result depends on Alaska's ranked-choice tabulation."
+  "status": "uncalled",
+  "percentIn": 97,
+  "candidates": [
+   {
+    "id": "nicholas-begich",
+    "name": "Nick Begich",
+    "votes": 133707,
+    "pct": 47.7
+   },
+   {
+    "id": "bill-hill",
+    "name": "Bill Hill",
+    "votes": 116932,
+    "pct": 41.7
+   },
+   {
+    "id": "eric-hafner",
+    "name": "Eric Hafner",
+    "votes": 21815,
+    "pct": 7.8
+   },
+   {
+    "id": "jim-mcdermott",
+    "name": "Jim McDermott",
+    "votes": 7384,
+    "pct": 2.6
+   },
+   {
+    "name": "Total Write-ins",
+    "votes": 430,
+    "pct": 0.2
+   }
+  ],
+  "sources": [
+   {
+    "label": "Alaska Division of Elections — 2026 General Election unofficial results (updated Nov 14, 2026)",
+    "url": "https://www.elections.alaska.gov/enr/26GENR/"
+   },
+   {
+    "label": "Alaska Division of Elections — Election Summary Report (Nov 14, 2026)",
+    "url": "https://www.elections.alaska.gov/enr/26GENR/results/ElectionSummaryReportRPT.pdf"
+   },
+   {
+    "label": "Alaska Division of Elections — Ranked Choice Voting (tabulation after the 15th day)",
+    "url": "https://www.elections.alaska.gov/election-information/#RankedChoice"
+   },
+   {
+    "label": "Alaska Public Media (AP race status, Nov 13–14)",
+    "url": "https://alaskapublic.org/news/politics/elections/2026-11-13/peltola-leads-in-u-s-senate-race-nearing-50-mark-with-almost-all-ballots-counted"
+   },
+   {
+    "label": "Alaska Beacon",
+    "url": "https://alaskabeacon.com/2026/11/11/with-25000-more-votes-counted-peltola-jkt-and-begich-near-victory-in-alaska-election/"
+   }
+  ],
+  "note": "Begich leads Hill by 16,775 first-choice votes (47.7%–41.7%) but has no majority, so the seat goes to ranked-choice tabulation, which the Division of Elections runs on Nov 18 after the last overseas ballots are counted. The official tabulation is not yet released. AP has not called the race; press reports of preliminary partial tabulations show Begich ahead once Hafner and McDermott are eliminated. Certification is scheduled for Nov 25."
  },
  "us-house-me-2": {
   "status": "projected",
@@ -6432,20 +6707,156 @@
    {
     "label": "Bangor Daily News: ME-2 ranked-choice runoff",
     "url": "https://www.bangordailynews.com/2026/11/05/politics/maine-election-2026-lepage-dunlap-2nd-district-ranked-choice-runoff"
+   },
+   {
+    "label": "Bangor Daily News: LePage wins after ranked-choice count (Nov 12)",
+    "url": "https://www.bangordailynews.com/2026/11/12/politics/elections/paul-lepage-wins-maine-2nd-district-ranked-choice/"
    }
   ],
-  "note": "Dunlap conceded Nov 5; no news organization call found and the ranked-choice tabulation (Nov 9) is not yet confirmed by a second source.",
-  "winner": "paul-lepage",
-  "unconfirmed": true
+  "note": "Dunlap conceded Nov 5. The ranked-choice tabulation (Nov 12) gave LePage 50.8% in the final round.",
+  "winner": "paul-lepage"
  },
  "us-house-la-5": {
   "status": "runoff",
-  "note": "No candidate won a majority. Patricia Moore and Gabe Firment advance to a December 12, 2026 runoff."
+  "percentIn": 100,
+  "candidates": [
+   {
+    "id": "patricia-moore",
+    "name": "Patricia Moore",
+    "votes": 40786,
+    "pct": 17.9
+   },
+   {
+    "id": "gabe-firment",
+    "name": "Gabe Firment",
+    "votes": 39126,
+    "pct": 17.2
+   },
+   {
+    "id": "misti-cordell",
+    "name": "Misti Cordell",
+    "votes": 33371,
+    "pct": 14.6
+   },
+   {
+    "id": "michael-echols",
+    "name": "Michael Echols",
+    "votes": 32905,
+    "pct": 14.4
+   },
+   {
+    "id": "stewart-cathey",
+    "name": "Stewart Cathey Jr.",
+    "votes": 28168,
+    "pct": 12.4
+   },
+   {
+    "id": "antonio-wilson",
+    "name": "Antonio Wilson",
+    "votes": 27373,
+    "pct": 12
+   },
+   {
+    "id": "dan-mckay",
+    "name": "Dan McKay",
+    "votes": 16051,
+    "pct": 7
+   },
+   {
+    "id": "austin-magee",
+    "name": "Austin Magee",
+    "votes": 7910,
+    "pct": 3.5
+   },
+   {
+    "id": "oscar-dantzler",
+    "name": "Oscar Dantzler",
+    "votes": 2233,
+    "pct": 1
+   }
+  ],
+  "sources": [
+   {
+    "label": "Louisiana Secretary of State: election results (unofficial, all precincts reporting)",
+    "url": "https://voterportal.sos.la.gov/graphical"
+   },
+   {
+    "label": "WWNO: Pat Moore, Gabe Firment advance to 5th District runoff",
+    "url": "https://www.wwno.org/2026-11-03/state-reps-pat-moore-gabe-firment-advance-to-5th-district-runoff"
+   }
+  ],
+  "note": "No candidate won a majority. The Secretary of State marks Patricia Moore (D) and Gabe Firment (R) as advancing to the December 12, 2026 runoff (results complete but not yet official)."
  },
  "us-house-la-6": {
   "status": "runoff",
-  "note": "No candidate won a majority, so the top two advance to a December 12, 2026 runoff: Chauna Banks (D) and Blake Miguez (R). Miguez edged the next candidate for the second spot by about 665 votes, per States Newsroom.",
+  "percentIn": 100,
+  "candidates": [
+   {
+    "id": "chauna-banks",
+    "name": "Chauna Banks",
+    "votes": 51004,
+    "pct": 19.4
+   },
+   {
+    "id": "blake-miguez",
+    "name": "Blake Miguez",
+    "votes": 50376,
+    "pct": 19.2
+   },
+   {
+    "id": "rick-edmonds",
+    "name": "Rick Edmonds",
+    "votes": 49420,
+    "pct": 18.8
+   },
+   {
+    "id": "lindsay-garcia",
+    "name": "Lindsay Garcia",
+    "votes": 33632,
+    "pct": 12.8
+   },
+   {
+    "id": "stephen-wagley",
+    "name": "Stephen Wagley",
+    "votes": 28239,
+    "pct": 10.7
+   },
+   {
+    "id": "patrick-forbes",
+    "name": "Patrick Forbes",
+    "votes": 23869,
+    "pct": 9.1
+   },
+   {
+    "id": "larry-davis",
+    "name": "Larry Davis III",
+    "votes": 11388,
+    "pct": 4.3
+   },
+   {
+    "id": "monique-appeaning",
+    "name": "Monique Appeaning",
+    "votes": 8139,
+    "pct": 3.1
+   },
+   {
+    "id": "rufus-craig",
+    "name": "Rufus Craig",
+    "votes": 3478,
+    "pct": 1.3
+   },
+   {
+    "id": "michael-mebruer",
+    "name": "Michael Mebruer",
+    "votes": 3167,
+    "pct": 1.2
+   }
+  ],
   "sources": [
+   {
+    "label": "Louisiana Secretary of State: election results (unofficial, all precincts reporting)",
+    "url": "https://voterportal.sos.la.gov/graphical"
+   },
    {
     "label": "WAFB",
     "url": "https://www.wafb.com/2026/11/04/chauna-banks-blake-miguez-advance-runoff-louisianas-6th-congressional-district/"
@@ -6454,7 +6865,8 @@
     "label": "Louisiana Illuminator",
     "url": "https://lailluminator.com/?p=36119"
    }
-  ]
+  ],
+  "note": "No candidate won a majority. The Secretary of State marks Chauna Banks (D) and Blake Miguez (R) as advancing to the December 12, 2026 runoff. Miguez finished 956 votes ahead of Rick Edmonds for second place in the complete but not yet official count; we found no recount request."
  },
  "ks-ag": {
   "sources": [
@@ -6493,6 +6905,41 @@
   ]
  },
  "oh-ag": {
-  "note": "Kulewicz says Faber has conceded, but no news organization has called the race and provisional ballots are still being counted."
+  "status": "projected",
+  "percentIn": 97.8,
+  "candidates": [
+   {
+    "id": "john-kulewicz",
+    "name": "John Kulewicz",
+    "votes": 2285117,
+    "pct": 50.3
+   },
+   {
+    "id": "keith-faber",
+    "name": "Keith Faber",
+    "votes": 2256710,
+    "pct": 49.7
+   }
+  ],
+  "sources": [
+   {
+    "label": "Ohio Capital Journal: Kulewicz claims victory after Faber concedes (unofficial Secretary of State count)",
+    "url": "https://ohiocapitaljournal.com/2026/11/04/kulewicz-holds-narrow-lead-over-faber-in-ohio-attorney-general-race/"
+   },
+   {
+    "label": "NBC News",
+    "url": "https://www.nbcnews.com/politics/2026-elections/ohio-attorney-general-results"
+   },
+   {
+    "label": "WHIO: Keith Faber concedes Ohio AG race to John Kulewicz",
+    "url": "https://www.whio.com/news/local/election-2026-keith-faber-concedes-tight-race-ohio-attorney-general/3CJYZWRIMNEHPFIGG463GOKFLU/"
+   },
+   {
+    "label": "Ohio Attorney General: Statement from AG Wilson on election of John Kulewicz",
+    "url": "https://www.ohioattorneygeneral.gov/Media/News-Releases/November-2026/Statement-From-AG-Wilson-on-Election-of-John-Kulew"
+   }
+  ],
+  "note": "Keith Faber conceded and the margin (0.63%) is outside Ohio’s 0.25% automatic recount threshold; about 102,000 provisional and overseas ballots remain to be counted. No news organization has called the race.",
+  "winner": "john-kulewicz"
  }
 }
